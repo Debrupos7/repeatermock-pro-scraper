@@ -1,0 +1,1164 @@
+{
+  "test_id": "69f09f5893cb094fd7c685d5",
+  "title": "Quantitative Aptitude Advanced Sectional Test - 2",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:08:40.752863+00:00",
+  "questions": [
+    {
+      "qid": "62ad9cdcde90bcacf3903bf5",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The upstream speed of a boat is 18 km/hr. The speed of stream is 2 km/hr. What is the speed of the boat in downstream?",
+      "options": [
+        {
+          "label": "1",
+          "text": "21 km/hr"
+        },
+        {
+          "label": "2",
+          "text": "19 km/hr"
+        },
+        {
+          "label": "3",
+          "text": "20 km/hr"
+        },
+        {
+          "label": "4",
+          "text": "22 km/hr"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe difference between downstream speed and upstream speed is always twice the speed of the stream.\n\n⇒ Downstream Speed = Upstream Speed + 2 × Speed of Stream\n\n⇒ Downstream Speed = 18 + 2 × 2\n\n⇒ Downstream Speed = 18 + 4 = 22 km/hr\n\n**∴ The correct answer is 22 km/hr.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nUpstream speed = 18 km/hr\n\nSpeed of stream = 2 km/hr\n\n**Formula Used:**\n\nUpstream speed = Speed of boat in still water − Speed of stream\n\nDownstream speed = Speed of boat in still water + Speed of stream\n\n [IMAGE: https://cdn.repeatermock.com/tb/bbe670d536cc8887916aa86d1f5b385a93b7a986c9cbc7aaafd066d585aa7578.png] \n\n**Calculations:**\n\n⇒ Let the speed of the boat in still water be u and the speed of the stream be v.\n\n⇒ u − v = 18\n\n⇒ u − 2 = 18\n\n⇒ u = 18 + 2\n\n⇒ u = 20 km/hr\n\n⇒ Downstream speed = u + v\n\n⇒ Downstream speed = 20 + 2 = 22 km/hr\n\n**∴ The correct answer is 22 km/hr.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSpeed in Still Water\n\nIt is the average of the downstream and upstream speeds: u = (Downstream Speed + Upstream Speed) ÷ 2.\n\nSpeed of Stream\n\nIt is half of the difference between the downstream and upstream speeds: v = (Downstream Speed − Upstream Speed) ÷ 2.\n\nRelative Speed Concept\n\nWhen moving with the flow of the stream, speeds add up (u + v). When moving against the flow, the effective speed is the difference (u − v).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bbe670d536cc8887916aa86d1f5b385a93b7a986c9cbc7aaafd066d585aa7578.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "62b3fc943ccf738fa901a836",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "ΔABC is equilateral triangle with side 12 cm. CD is the bisector of ∠C which meets AB at D and E is the mid-point of CD. What is the length of BE?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3√6 cm"
+        },
+        {
+          "label": "2",
+          "text": "8 cm"
+        },
+        {
+          "label": "3",
+          "text": "3√7 cm"
+        },
+        {
+          "label": "4",
+          "text": "6√2 cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIn an equilateral triangle, altitude = (√3 ÷ 2) × side = (√3 ÷ 2) × 12 = 6√3 cm.\n\nAngle bisector CD is also the altitude and median, making BD = 12 ÷ 2 = 6 cm.\n\nSince E is the midpoint of CD, DE = 6√3 ÷ 2 = 3√3 cm.\n\nUsing Pythagoras theorem in right ΔBDE: BE = √(BD² + DE²) = √(6² + (3√3)²).\n\nBE = √(36 + 27) = √63 = 3√7 cm.\n\n**∴ The correct answer is 3√7 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSide of equilateral ΔABC = 12 cm.\n\nCD is the bisector of ∠C meeting AB at D, and E is the mid-point of CD.\n\n**Formula Used:**\n\nAltitude of equilateral triangle = (√3 ÷ 2) × side\n\nPythagoras Theorem: Hypotenuse² = Base² + Perpendicular²\n\n \n\n \n• \n \n• \n \n\n \n \n \n \n \n \n \n A\n B\n C\n D\n E\n \n 6 cm\n 6 cm\n 3√3 cm\n 3√3 cm\n \n ?\n\n**Calculations:**\n\nIn an equilateral triangle, the angle bisector is also the median and altitude to the opposite side.\n\n⇒ ΔCDB is a right-angled triangle at D.\n\n⇒ BD = AB ÷ 2 = 12 ÷ 2 = 6 cm\n\n⇒ CD = (√3 ÷ 2) × 12 = 6√3 cm\n\nSince E is the midpoint of CD:\n\n⇒ DE = CD ÷ 2 = 6√3 ÷ 2 = 3√3 cm\n\nNow, applying Pythagoras theorem in right-angled ΔEDB:\n\n⇒ BE² = BD² + DE²\n\n⇒ BE² = 6² + (3√3)²\n\n⇒ BE² = 36 + 27 = 63\n\n⇒ BE = √63 = √(9 × 7) = 3√7 cm.\n\n**∴ The correct answer is 3√7 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nEquilateral Triangle Properties\n\nIn an equilateral triangle, all three sides are equal, and each angle is 60°. The altitude, median, angle bisector, and perpendicular bisector drawn from any vertex are exactly the same line.\n\nAltitude Formula\n\nThe length of an altitude (h) in an equilateral triangle of side 'a' is given by the formula h = (√3 ÷ 2) × a.\n\nPythagoras Theorem\n\nIn a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides: H² = P² + B².\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "62c4548dc4f109dfd881c239",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is\n\nfrac{{({x²} + {y²})(x - y)-{{(x - y)}³}}}{{{x²}y - xy²}}\n\nequal to?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "-2"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAssume convenient values for the variables, let x = 2 and y = 1.\n\nNumerator = (2² + 1²)(2 − 1) − (2 − 1)³ = 5 × 1 − 1 = 4\n\nDenominator = 2² × 1 − 2 × 1² = 4 − 2 = 2\n\nExpression value = Numerator ÷ Denominator = 4 ÷ 2 = 2\n\n**∴ The correct answer is 2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nExpression: [(x² + y²)(x − y) − (x − y)³] / (x²y − xy²)\n\n**Formula Used:**\n\n(a − b)² = a² + b² − 2ab\n\n**Calculations:**\n\n⇒ [(x² + y²)(x − y) − (x − y)³] / (x²y − xy²)\n\nTaking (x − y) common from the numerator and xy from the denominator:\n\n⇒ {(x − y)[(x² + y²) − (x − y)²]} / [xy(x − y)]\n\n⇒ [(x² + y²) − (x − y)²] / xy\n\nExpanding the (x − y)² term:\n\n⇒ [(x² + y²) − (x² + y² − 2xy)] / xy\n\n⇒ (x² + y² − x² − y² + 2xy) / xy\n\n⇒ 2xy / xy\n\n⇒ 2\n\n**∴ The correct answer is 2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAlgebraic Identities\n\nStandard formulas like (a + b)² = a² + b² + 2ab and (a − b)² = a² + b² − 2ab are fundamental for quickly expanding and simplifying algebraic expressions.\n\nValue Substitution Method\n\nWhen the options are numerical constants independent of variables, substituting small, distinct integers (like 1, 2) is often the fastest way to deduce the answer. Always ensure the chosen values do not make the denominator zero.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "62c5905a23683d6f20d13bf4",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The monthly income of a person was Rs. 12,000 and his monthly expenditure was Rs. 10,000. In the next year, his income increased by 12% and his expenditure by 5%. Find the percentage increase in his savings.",
+      "options": [
+        {
+          "label": "1",
+          "text": "48%"
+        },
+        {
+          "label": "2",
+          "text": "45%"
+        },
+        {
+          "label": "3",
+          "text": "47%"
+        },
+        {
+          "label": "4",
+          "text": "46%"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInitial Income : Expenditure : Savings = 12000 : 10000 : 2000 ⇒ 6 : 5 : 1.\n\nApplying the percentage change weighted rule: (Income Ratio × % Change) = (Expenditure Ratio × % Change) + (Savings Ratio × S%)\n\n⇒ 6 × 12 = (5 × 5) + (1 × S)\n\n⇒ 72 = 25 + S ⇒ S = 47%\n\n**∴ The correct answer is 47%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/b3c36501ea4daa12f8f67264eb492d278ce5b4a81636b45dbebebaaaa70c05bb.png] \n\n**Given:**\n\nInitial Income = ₹12,000\n\nInitial Expenditure = ₹10,000\n\n**Formula Used:**\n\nSavings = Income − Expenditure\n\nPercentage Increase = (Increase in value ÷ Original value) × 100\n\n**Calculations:**\n\n⇒ Initial Savings = ₹12,000 − ₹10,000 = ₹2,000\n\n⇒ New Income = ₹12,000 + (12% of 12,000) = 12,000 + 1,440 = ₹13,440\n\n⇒ New Expenditure = ₹10,000 + (5% of 10,000) = 10,000 + 500 = ₹10,500\n\n⇒ New Savings = ₹13,440 − ₹10,500 = ₹2,940\n\n⇒ Increase in Savings = ₹2,940 − ₹2,000 = ₹940\n\n⇒ Percentage Increase = (940 ÷ 2000) × 100 = 47%\n\n**∴ The correct answer is 47%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nIncome and Expenditure Relationship\n\nIncome is the sum of Expenditure and Savings (Income = Expenditure + Savings). Any change in overall income must be balanced by an equivalent combined change in expenditure and savings.\n\nPercentage Change Formula\n\nPercentage Change = (Final Value − Initial Value) ÷ Initial Value × 100. It measures the relative increase or decrease of an entity over a given time period.\n\nWeighted Ratio Trick\n\nWhen a total amount is divided into distinct parts, the overall percentage change is the weighted average of the individual changes: Total Ratio × %ΔTotal = Part1 Ratio × %ΔPart1 + Part2 Ratio × %ΔPart2.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b3c36501ea4daa12f8f67264eb492d278ce5b4a81636b45dbebebaaaa70c05bb.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "62e4bb59c94fdea73590b255",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will be the value of 45 div 20-(5)/(4) of ((8)/(3) times (9)/(16))+((9)/(8) times (3)/(4))-((5)/(32) div (15)/(21))+(sqrt{16} times frac{sqrt{1875}}{sqrt{3888}} div frac{sqrt{1200}}{sqrt{768}}) times frac{sqrt{175}}{sqrt{1792}}?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(41)/(36)"
+        },
+        {
+          "label": "2",
+          "text": "(31)/(36)"
+        },
+        {
+          "label": "3",
+          "text": "(61)/(36)"
+        },
+        {
+          "label": "4",
+          "text": "(71)/(36)"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n45 div 20 - (5)/(4) of ((8)/(3) times (9)/(16)) + ((9)/(8) times (3)/(4)) - ((5)/(32) div (15)/(21)) + (sqrt{16} times frac{sqrt{1875}}{sqrt{3888}} div frac{sqrt{1200}}{sqrt{768}}) times frac{sqrt{175}}{sqrt{1792}}\n\n**Formula used:**\n\nBODMAS Rule\n\n**Calculations:**\n\n\\(45 \\",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "62f3b24b8ebcacce9db46351",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "For all real values of x, the minimum value of (1 - x + x²)/(1 + x + x²) is equal to",
+      "options": [
+        {
+          "label": "1",
+          "text": "0"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "(1)/(3)"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor any rational algebraic expression of the form (x² − ax + b) / (x² + ax + b), the maximum and minimum values always occur at x = ±√b.\n\nHere, a = 1 and b = 1. So, the extreme values occur at x = ±√1 = ±1.\n\nAt x = 1, expression value = (1 − 1 + 1) / (1 + 1 + 1) = 1/3\n\nAt x = −1, expression value = (1 + 1 + 1) / (1 − 1 + 1) = 3/1 = 3\n\nThus, the minimum value is 1/3.\n\n**∴ The correct answer is 1/3.**\n\n<img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png\" width=\"26px\"",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "62f3e19f2ffaa2c2e8210970",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The value of ((253)³ + (247)³)/(25.3 times 25.3 - 624.91 + 24.7 times 24.7) is 50 x K³, Find the value of K?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "21"
+        },
+        {
+          "label": "4",
+          "text": "- 10"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n((253)³ + (247)³)/(25.3 times 25.3 - 624.91 + 24.7 times 24.7) = 50 × K³\n\n**Formula used:**\n\na³ + b³ = (a + b)(a² - ab + b²)\n\n**Calculation:**\n\n⇒ ((10 times 25.3)³ + (10 times 24.7)³)/(25.3² - (25.3 times 24.7) + 24.7²) = 50 × K³\n\n⇒ (1000 times (25.3³ + 24.7³))/(25.3² - 25.3 times 24.7 + 24.7²) = 50 × K³\n\n⇒ (1000 times (25.3 + 24.7)(25.3² - 25.3 times 24.7 + 24.7²))/((25.3² - 25.3 times 24.7 + 24.7²)) = 50 × K³\n\n⇒ 1000 × (25.3 + 24.7) = 50 × K³\n\n⇒ 1000 × 50 = 50 × K³\n\n⇒ K³ = 1000\n\n⇒ K = 10\n\n**∴ The correct answer is option (1).**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "63f5f8c613d7818b3e61fec7",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Balvendra offers two successive discounts of 9% and 4% first and then he also provides a cash discount of Rs.268 on the sale of a CCTV camera. If the marked price of the CCTV camera is Rs.5,000, what is the final price of the CCTV camera for a customer?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs.4,000"
+        },
+        {
+          "label": "2",
+          "text": "Rs.4,368"
+        },
+        {
+          "label": "3",
+          "text": "Rs.4,100"
+        },
+        {
+          "label": "4",
+          "text": "Rs.4,636"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nCalculate successive discounts using direct multiplying factors for efficiency:\n\nPrice after 9% and 4% discount = MP × 0.91 × 0.96\n\n⇒ Price = 5000 × 0.91 × 0.96 = 4550 × 0.96 = 4368\n\nSubtracting the final cash discount of Rs.268:\n\nFinal Price = 4368 − 268 = 4100\n\n**∴ The correct answer is Rs.4,100.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nMarked Price (MP) of CCTV = Rs. 5000\n\nSuccessive discounts = 9% and 4%\n\nAdditional cash discount = Rs. 268\n\n**Formula Used:**\n\nFinal Price = MP × (1 − D₁/100) × (1 − D₂/100) − Cash Discount\n\n [IMAGE: https://cdn.repeatermock.com/tb/446089da46bd56145469a47a4f46e0f349388036dda58c1b7c3eb06e83d3cadf.png] \n\n**Calculations:**\n\n⇒ Price after 1st discount (9%) = 5000 − (5000 × 9/100) = 5000 − 450 = Rs. 4550\n\n⇒ Price after 2nd discount (4%) = 4550 − (4550 × 4/100) = 4550 − 182 = Rs. 4368\n\n⇒ Final Price = Rs. 4368 − Rs. 268 (cash discount)\n\n⇒ Final Price = Rs. 4100\n\n**∴ The correct answer is Rs.4,100.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSuccessive Discounts\n\nWhen multiple discounts are given sequentially on the continuously reduced value, they are known as successive discounts. The equivalent single discount percentage for two successive discounts d₁ and d₂ is (d₁ + d₂ − d₁×d₂/100)%.\n\nMarked Price vs Selling Price\n\nA discount is always calculated on the Marked Price (MP). The amount the customer finally pays is the Selling Price (SP), given by SP = MP − Discount Amount.\n\nCash Discount\n\nA cash discount is an outright fixed monetary reduction subtracted directly from the total bill, unlike percentage discounts which scale proportionately with the base amount.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/446089da46bd56145469a47a4f46e0f349388036dda58c1b7c3eb06e83d3cadf.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "64a41de828283995644850bc",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Rashi can finish a work alone in 10 hours, Gopi alone in 8 hours and Manju alone in 12 hours. How long will they take if they worked together?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 {11 over 37} hours"
+        },
+        {
+          "label": "2",
+          "text": "4 {7 over 37} hours"
+        },
+        {
+          "label": "3",
+          "text": "4 {3 over 37} hours"
+        },
+        {
+          "label": "4",
+          "text": "3 {9 over 37} hours"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nTotal work = LCM(10, 8, 12) = 120 units\n\nCombined efficiency = (120 ÷ 10) + (120 ÷ 8) + (120 ÷ 12) = 12 + 15 + 10 = 37 units/hour\n\nTime taken together = Total work ÷ Combined efficiency = 120 ÷ 37 hours\n\n**∴ The correct answer is 3 ⁹/₃₇ hours.**\n\n**__Alternate Method__**\n\n**Given:**\n\nRashi can finish the work in 10 hours.\n\nGopi can finish the work in 8 hours.\n\nManju can finish the work in 12 hours.\n\n**Formula Used:**\n\nTotal Work = LCM of all individual times\n\nEfficiency = Total Work ÷ Time\n\nTotal Time = Total Work ÷ Combined Efficiency\n\n \n \n\n **Person**\n **Hours**\n **Total Work**\n **Efficiency**\n \n \n\n Rashi\n 10\n 120\n 12\n \n \n\n Gopi\n 8\n 15\n \n \n\n Manju\n 12\n 10\n \n \n\n**Calculations:**\n\n⇒ Total efficiency of Rashi, Gopi and Manju = 12 + 15 + 10 = 37 units/hour\n\n⇒ Time taken to complete the work together = 120 ÷ 37\n\n⇒ Time = 3 ⁹/₃₇ hours\n\n**∴ The correct answer is 3 ⁹/₃₇ hours.**\n\n**__Additional Information__**\n\nWork and Wages\n\nWages are distributed in proportion to the total work done by each person. If individuals work for the same number of days, the wages are divided in the ratio of their efficiencies.\n\nPipes and Cisterns\n\nThe core concept is identical to Time and Work. An inlet pipe adds to the work (positive efficiency), while an outlet pipe or leak removes from the work (negative efficiency).\n\nAlternate Day Work\n\nWhen people work on alternate days, find the combined work completed in one full cycle (e.g., 2 days) and multiply by the maximum possible full cycles to reach near the total work.\n</p",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "64cb723857f8e15a605689bd",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "An amount becomes double in 8 years on simple interest. In how many years would Rs. 25,000 become Rs. 1,00,000 with the same rate of interest?",
+      "options": [
+        {
+          "label": "1",
+          "text": "32"
+        },
+        {
+          "label": "2",
+          "text": "28"
+        },
+        {
+          "label": "3",
+          "text": "16"
+        },
+        {
+          "label": "4",
+          "text": "24"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIn Simple Interest, the interest earned is directly proportional to the time period.\n\nInterest required for an amount to double = P (1 time the principal)\n\nTime taken to earn interest equal to the principal = 8 years.\n\nNew Principal = 25,000 and New Amount = 1,00,000 ⇒ Interest required = 75,000.\n\nSince 75,000 is 3 times the principal (25,000), time required = 3 × 8 = 24 years.\n\n**∴ The correct answer is 24 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nAn amount becomes double in 8 years.\n\nNew Principal (P₂) = 25,000 and New Amount (A₂) = 1,00,000.\n\n**Formula Used:**\n\nSimple Interest (SI) = (P × R × T) ÷ 100\n\nAmount (A) = P + SI\n\n \n \n• \n \n P\n \n 2P\n \n\n 8 years\n SI = P\n\n \n \n• \n\n \n \n• \n \n 25,000\n \n 1,00,000\n \n\n T years\n SI = 75,000 (3P)\n \n \n Since SI is 3 times the Principal, Time = 3 × 8 = 24 years\n\n**Calculations:**\n\nLet the original principal be P.\n\n⇒ Amount = 2P\n\n⇒ SI₁ = 2P − P = P\n\n⇒ P = (P × R × 8) ÷ 100\n\n⇒ R = 100 ÷ 8 = 12.5%\n\nFor the second case:\n\n⇒ P₂ = 25,000 and A₂ = 1,00,000\n\n⇒ SI₂ = 1,00,000 − 25,000 = 75,000\n\n⇒ 75,000 = (25,000 × 12.5 × T) ÷ 100\n\n⇒ 75,000 = 250 × 12.5 × T\n\n⇒ 75,000 = 3125 × T\n\n⇒ T = 75,000 ÷ 3125 = 24 years\n\n**∴ The correct answer is 24 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Interest Formula\n\nSI = (P × R × T) ÷ 100, where P is the principal, R is the rate of interest, and T is the time period.\n\nAmount Formula\n\nAmount (A) = Principal (P) + Simple Interest (SI)\n\nShortcut for Multiples\n\nIf a sum becomes 'n' times in 'T' years at simple interest, then the Rate of Interest R = ((n − 1) × 100) ÷ T %.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "64e484c5bcc210862463782b",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A can finish a work in 15 days, B can finish the same work in 25 days. They work together for 5 days. The rest of the work is finished by A and C in 4 days. Then C alone can finish the work in:",
+      "options": [
+        {
+          "label": "1",
+          "text": "18 days"
+        },
+        {
+          "label": "2",
+          "text": "24 days"
+        },
+        {
+          "label": "3",
+          "text": "20 days"
+        },
+        {
+          "label": "4",
+          "text": "21 days"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal work = LCM of 15 and 25 = 75 units.\n\nEfficiency of A = 75 ÷ 15 = 5, Efficiency of B = 75 ÷ 25 = 3.\n\nWork done by A and B in 5 days = 5 × (5 + 3) = 40 units.\n\nRemaining work = 75 − 40 = 35 units.\n\nCombined efficiency of A and C = 35 ÷ 4 = 8.75 units/day.\n\nEfficiency of C = 8.75 − 5 = 3.75. Time taken by C = 75 ÷ 3.75 = 20 days.\n\n**∴ The correct answer is 20 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTime taken by A to complete the work = 15 days\n\nTime taken by B to complete the work = 25 days\n\nA and B work together for 5 days.\n\nRemaining work is completed by A and C in 4 days.\n\n**Calculations:**\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n A\n 15\n 75\n 5\n \n \n\n B\n 25\n 3\n \n \n\n⇒ Work completed by A and B in 5 days = 5 × (5 + 3) = 40 units\n\n⇒ Remaining work = Total work − Completed work = 75 − 40 = 35 units\n\n⇒ A and C complete this remaining work in 4 days.\n\n⇒ Combined efficiency of A and C = Remaining work ÷ Time = 35 ÷ 4 = 35/4 units/day\n\n⇒ Efficiency of C = Combined efficiency of (A + C) − Efficiency of A\n\n⇒ Efficiency of C = 35/4 − 5 = (35 − 20) / 4 = 15/4 units/day\n\n⇒ Time taken by C alone = Total work ÷ Efficiency of C = 75 ÷ (15/4) = 75 × (4/15) = 20 days\n\n**∴ The correct answer is 20 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTotal Work Concept\n\nTotal Work is typically taken as the Lowest Common Multiple (LCM) of the given individual time periods. Efficiency = Total Work ÷ Time taken.\n\nEfficiency and Time Relationship\n\nThe efficiency of a person is inversely proportional to the time taken by them to complete a piece of work. If the ratio of time taken is a:b, their efficiency ratio will be b:a.\n\nChain Rule (Group Work)\n\nIf M₁ men can do W₁ work in D₁ days working H₁ hours per day, and M₂ men can do W₂ work in D₂ days working H₂ hours per day, then (M₁ × D₁ × H₁) ÷ W₁ = (M₂ × D₂ × H₂) ÷ W₂.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "66a34e00bebbd1c74ede1393",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The sides ST and TR and the median SU of the Δ STR are equal to the sides MN and NJ and the median MV of the Δ MNJ, respectively. If ∠TSU = 46°, ∠NMJ = 79°and ∠MVN = 88°, what is the degree measure of = (7)/(11)∠SRT?",
+      "options": [
+        {
+          "label": "1",
+          "text": "47°"
+        },
+        {
+          "label": "2",
+          "text": "35°"
+        },
+        {
+          "label": "3",
+          "text": "55°"
+        },
+        {
+          "label": "4",
+          "text": "56°"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSince U and V are midpoints of TR and NJ, TR = NJ ⇒ TU = NV.\n\nBy SSS congruence, ΔSTU ≅ ΔMNV (ST = MN, SU = MV, TU = NV).\n\nThis gives ∠NMV = ∠TSU = 46° and ∠MNJ = 180° − (46° + 88°) = 46°.\n\nIn ΔMNJ, ∠MJN = 180° − (∠MNJ + ∠NMJ) = 180° − (46° + 79°) = 55°.\n\nBy SAS congruence, ΔSTR ≅ ΔMNJ ⇒ ∠SRT = ∠MJN = 55°.\n\nRequired measure = 7/11 × 55° = 35°.\n\n**∴ The correct answer is 35°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n⇒ Sides ST = MN\n\n⇒ Side TR = NJ\n\n⇒ Median SU = Median MV\n\n⇒ ∠TSU = 46°, ∠NMJ = 79°, and ∠MVN = 88°\n\n**Formula Used:**\n\n⇒ SSS Congruence Rule: If three sides are equal, the triangles are congruent.\n\n⇒ SAS Congruence Rule: If two sides and the included angle are equal, the triangles are congruent.\n\n \n \n• S T R U 46° \n \n• M N J V 79° 88° \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• ∴ ∠SRT = 55° \n\n**Calculations:**\n\n⇒ Since SU and MV are medians, U and V divide the bases TR and NJ into equal halves.\n\n⇒ TR = NJ ⇒ TR/2 = NJ/2 ⇒ TU = NV\n\n⇒ Consider ΔSTU and ΔMNV: ST = MN, SU = MV, and TU = NV.\n\n⇒ By SSS congruence, ΔSTU ≅ ΔMNV.\n\n⇒ This implies corresponding angles are equal: ∠NMV = ∠TSU = 46°, and ∠SUT = ∠MVN = 88°.\n\n⇒ In ΔMNV, using angle sum property: ∠MNV = 180° − (46° + 88°) = 46°.\n\n⇒ Angle ∠MNJ is the same as ∠MNV, hence ∠MNJ = 46°.\n\n⇒ In the full ΔMNJ, angle sum property gives: ∠MJN = 180° − (∠MNJ + ∠NMJ) = 180° − (46° + 79°) = 55°.\n\n⇒ Now compare ΔSTR and ΔMNJ: ST = MN, TR = NJ, and the included angles ∠STR = ∠MNJ (since ΔSTU ≅ ΔMNV).\n\n⇒ By SAS congruence, ΔSTR ≅ ΔMNJ.\n\n⇒ Therefore, corresponding angles are equal: ∠SRT = ∠MJN = 55°.\n\n⇒ Required value = 7/11 × ∠SRT = 7/11 × 55° = 35°.\n\n**∴ The correct answer is 35°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCongruence of Triangles (SSS and SAS)\n\nTwo triangles are identically congruent if all three corresponding sides are equal (SSS), or if two sides and the included angle are equal (SAS). Congruent triangles have exactly the same size and shape.\n\nMedian of a Triangle\n\nA line segment joining a vertex to the exact midpoint of the opposite side. It cleanly divides the opposite side into two identical half-segments.\n\nAngle Sum Property\n\nThe sum of all interior angles in any planar triangle always equals 180°. This is a fundamental rule used repeatedly to find unknown missing angles.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "631f7e7bed73f6aa7e208042",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 3⁽²p⁺⁴⁾ = 6561 , then find the value of (p + 1)⁴",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "81"
+        },
+        {
+          "label": "3",
+          "text": "27"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nConvert 6561 into a power of 3: 6561 = 3⁸.\n\nEquating the exponents of base 3: 2p + 4 = 8 ⇒ 2p = 4 ⇒ p = 2.\n\nSubstitute p = 2 to find the required expression: (p + 1)⁴ = (2 + 1)⁴ = 3⁴ = 81.\n\n**∴ The correct answer is 81.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n3⁽²p⁺⁴⁾ = 6561\n\n**Formula Used:**\n\nIf am = aⁿ for any base a > 1, then m = n.\n\n**Calculations:**\n\n⇒ 3⁽²p⁺⁴⁾ = 6561\n\nFactorizing 6561 gives:\n\n⇒ 3⁽²p⁺⁴⁾ = 3 × 3 × 3 × 3 × 3 × 3 × 3 × 3\n\n⇒ 3⁽²p⁺⁴⁾ = 3⁸\n\nSince the bases are the same, we can safely equate the exponents:\n\n⇒ 2p + 4 = 8\n\n⇒ 2p = 8 − 4\n\n⇒ 2p = 4\n\n⇒ p = 2\n\nNow, substitute the value of p into the required expression (p + 1)⁴:\n\n⇒ (2 + 1)⁴\n\n⇒ 3⁴\n\n⇒ 81\n\n**∴ The correct answer is 81.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nLaw of Exponents (Multiplication & Division)\n\nWhen multiplying terms with the same base, add their exponents: am × aⁿ = am⁺ⁿ. When dividing, subtract them: am ÷ aⁿ = am−ⁿ.\n\nPower of a Power Rule\n\nWhen raising a power to another power, multiply the exponents: (am)ⁿ = am×ⁿ.\n\nZero and Negative Exponents\n\nAny non-zero base to the power of 0 is 1: a⁰ = 1. A negative exponent denotes the reciprocal of the base raised to the positive power: a−ⁿ = 1 ÷ aⁿ.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "641ab9b2b3bc0537e61dd423",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In parallelogram ABCD, if two points P and Q are taken on diagonal BD such that DP = BQ, which of the following statement (s) is/are correct?\n\n(a) ΔAPD ≅ ΔCQB\n\n(b) AP = CQ \n\n(c) AQ = CP",
+      "options": [
+        {
+          "label": "1",
+          "text": "only (a) & (c)"
+        },
+        {
+          "label": "2",
+          "text": "only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "(a), (b) and (c)"
+        },
+        {
+          "label": "4",
+          "text": "only (c)"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nBy the symmetry of a parallelogram, its diagonals bisect each other exactly at the center.\n\nSince DP = BQ, points P and Q are equidistant from the center and lie on the same diagonal.\n\nThis symmetric placement ensures that the quadrilateral APCQ formed inside is also a parallelogram.\n\nTherefore, opposite sides must be equal, giving AP = CQ and AQ = CP.\n\nAdditionally, the exact reflection across the center makes ΔAPD and ΔCQB perfectly congruent.\n\n**∴ The correct answer is (a), (b) and (c).**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n \n\n \n\n \n\n \n \n• \n \n• \n \n• \n \n \n• \n \n• \n \n \n• \n \n• \n \n• \n \n• \n \n A\n B\n C\n D\n P\n Q\n\n**Given:**\n\n⇒ ABCD is a parallelogram.\n\n⇒ Points P and Q are on diagonal BD such that DP = BQ.\n\n**To check statements (a) and (b):**\n\n⇒ In ΔAPD and ΔCQB,\n\n⇒ AD = CB (Opposite sides of a parallelogram)\n\n⇒ DP = BQ (Given data)\n\n⇒ ∠ADP = ∠CBQ (Alternate interior angles, since AD || BC and BD is a transversal)\n\n⇒ By SAS congruence criterion, ΔAPD ≅ ΔCQB.\n\n⇒ This implies that statement (a) is correct.\n\n⇒ By CPCT rule, corresponding parts of congruent triangles are exactly equal.\n\n⇒ AP = CQ\n\n⇒ This implies that statement (b) is correct.\n\n**To check statement (c):**\n\n⇒ Similarly, in ΔAQB and ΔCPD,\n\n⇒ AB = CD (Opposite sides of a parallelogram)\n\n⇒ BQ = DP (Given data)\n\n⇒ ∠ABQ = ∠CDP (Alternate interior angles, since AB || CD and BD is a transversal)\n\n⇒ By SAS congruence criterion, ΔAQB ≅ ΔCPD.\n\n⇒ By CPCT rule, AQ = CP\n\n⇒ This implies that statement (c) is also correct.\n\n**∴ The correct answer is (a), (b) and (c).**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nProperties of a Parallelogram\n\nOpposite sides are mutually equal and parallel. Opposite angles are equal, and the diagonals bisect each other precisely at the center point of symmetry.\n\nSAS Congruence Criterion\n\nIf two sides and the included angle of one triangle are found to be perfectly equal to the corresponding elements of another triangle, then the two triangles are defined as congruent.\n\nCPCT Rule\n\nThe rule stands for 'Corresponding Parts of Congruent Triangles'. Whenever two triangles are established as congruent, all their related matching sides and angles naturally become equal.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6296bb0a08fe6979a945850b",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A person had to reach a place, which was at a distance of 80 km in 7 hours. The distance was covered partially by foot at a speed of 8 km/h and the remaining by bicycle at a speed of 16 km/h. What was the distance covered by foot?",
+      "options": [
+        {
+          "label": "1",
+          "text": "36 km"
+        },
+        {
+          "label": "2",
+          "text": "40 km"
+        },
+        {
+          "label": "3",
+          "text": "24 km"
+        },
+        {
+          "label": "4",
+          "text": "32 km"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUsing the Shift Method:\n\nIf the entire 7 hours were covered by foot at 8 km/h, the distance would be 7 × 8 = 56 km.\n\nRemaining distance to cover = 80 − 56 = 24 km.\n\nExtra speed of bicycle over foot = 16 − 8 = 8 km/h.\n\nTime spent on bicycle = 24 ÷ 8 = 3 hours, so time on foot = 7 − 3 = 4 hours.\n\nDistance covered by foot = 4 hours × 8 km/h = 32 km.\n\n**∴ The correct answer is 32 km.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal distance = 80 km\n\nTotal time = 7 hours\n\nSpeed on foot = 8 km/h\n\nSpeed on bicycle = 16 km/h\n\n**Formula Used:**\n\nDistance = Speed × Time\n\n [IMAGE: https://cdn.repeatermock.com/tb/a93be26f1545de74839204826c327ca98859622cbbfe56dfd278074ab0bf970b.png] \n\n**Calculation:**\n\nLet the time travelled on foot be t hours.\n\n⇒ Time travelled on bicycle = (7 − t) hours\n\nTotal distance = Distance on foot + Distance on bicycle\n\n⇒ 8 × t + 16 × (7 − t) = 80\n\n⇒ 8t + 112 − 16t = 80\n\n⇒ 8t = 32\n\n⇒ t = 4 hours\n\n⇒ Distance covered by foot = Speed × Time\n\n⇒ Distance covered by foot = 8 × 4 = 32 km\n\n**∴ The correct answer is 32 km.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAverage Speed\n\nAverage Speed = Total Distance ÷ Total Time. When equal distances are covered at speeds a and b, the average speed becomes 2ab ÷ (a + b).\n\nAlligation on Speed\n\nWhen the rule of alligation is applied to the speeds of two parts of a journey, the resulting ratio gives the ratio of the time taken for each part, not the distance.\n\nRelative Speed\n\nIf two objects are moving in the same direction, relative speed = |a − b|. If they are moving in opposite directions, relative speed = (a + b).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a93be26f1545de74839204826c327ca98859622cbbfe56dfd278074ab0bf970b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6526f7f7fabf04648bc3fa9d",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Train ‘A’ requires 15 seconds to cross train ‘B’ of length 300 m moving in the opposite direction at a speed of 36 km/h. Further, train ‘A’ requires 30 seconds to cross a 500 m long stationary train ‘C’. Find the length (in m) of train ‘A’.",
+      "options": [
+        {
+          "label": "1",
+          "text": "200"
+        },
+        {
+          "label": "2",
+          "text": "300"
+        },
+        {
+          "label": "3",
+          "text": "250"
+        },
+        {
+          "label": "4",
+          "text": "275"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSpeed of train B = 36 × 5/18 = 10 m/s.\n\nFor Train A to cross Train B, relative speed = Speed to cross stationary C + Speed of B.\n\n⇒ (LA + 300) ÷ 15 = (LA + 500) ÷ 30 + 10\n\n⇒ 2LA + 600 = LA + 500 + 300\n\n⇒ LA = 200\n\n**∴ The correct answer is 200 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nLength of train B = 300 m\n\nSpeed of train B = 36 km/h = 36 × (5/18) = 10 m/s\n\nLength of stationary train C = 500 m\n\nTime to cross B = 15 s, Time to cross C = 30 s\n\n**Formula Used:**\n\nDistance = Speed × Time\n\nWhen moving in opposite directions, Relative Speed = VA + VB\n\n [IMAGE: https://cdn.repeatermock.com/tb/769276248a78aa7449ab538025ee5c0e35cc38fac6df147a92bbfaa750d86c87.png] \n\n**Calculations:**\n\n⇒ Let the length of train A be LA and its speed be VA.\n\n⇒ Time taken to cross train B = (LA + 300) ÷ (VA + 10) = 15\n\n⇒ VA + 10 = (LA + 300) ÷ 15 --- (1)\n\n⇒ Time taken to cross stationary train C = (LA + 500) ÷ VA = 30\n\n⇒ VA = (LA + 500) ÷ 30 --- (2)\n\n⇒ Substituting equation (2) into equation (1):\n\n⇒ [(LA + 500) ÷ 30] + 10 = (LA + 300) ÷ 15\n\n⇒ Multiplying by 30 on both sides:\n\n⇒ LA + 500 + 300 = 2 × (LA + 300)\n\n⇒ LA + 800 = 2LA + 600\n\n⇒ LA = 800 − 600 = 200\n\n**∴ The correct answer is 200 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRelative Speed\n\nFor two objects moving in opposite directions, relative speed is the sum of their speeds (V₁ + V₂). For the same direction, it is the difference (V₁ − V₂).\n\nCrossing Objects\n\nWhen a train crosses an object with length (like a platform or another train), the total distance covered equals the sum of lengths (L₁ + L₂).\n\nSpeed Conversion\n\nTo convert km/h to m/s, multiply by 5 ÷ 18. To convert m/s to km/h, multiply by 18 ÷ 5.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/769276248a78aa7449ab538025ee5c0e35cc38fac6df147a92bbfaa750d86c87.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "62580b520bbc82ae85d9242f",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "P can do a piece of work in 48 days and Q and do half of the same work in 30 days. If they both work together, in how many days can they complete three - eigth of the work?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal Work = LCM(48, 60) = 240 units.\n\nEfficiency of P = 240 ÷ 48 = 5 units/day.\n\nEfficiency of Q = 240 ÷ (30 × 2) = 4 units/day.\n\nTarget Work = 3/8 × 240 = 90 units.\n\nRequired Time = 90 ÷ (5 + 4) = 10 days.\n\n**∴ The correct answer is 10 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTime taken by P to complete the work = 48 days.\n\nTime taken by Q to complete half of the work = 30 days.\n\n**Formula Used:**\n\nTotal Work = Efficiency × Time\n\n**Calculations:**\n\n⇒ Time taken by Q to complete the full work = 30 × 2 = 60 days.\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n P\n 48\n 240\n 5\n \n \n\n Q\n 60\n 4\n \n \n\n⇒ Combined efficiency of P and Q = 5 + 4 = 9 units/day.\n\n⇒ Target work = 3/8 of 240 = 3/8 × 240 = 90 units.\n\n⇒ Time taken by P and Q together = Target work ÷ Combined efficiency.\n\n⇒ Time taken = 90 ÷ 9 = 10 days.\n\n**∴ The correct answer is 10 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPipes and Cisterns\n\nSimilar to Time & Work, where the total capacity acts as total work. Filling pipe efficiency is positive, while an emptying pipe (leak) efficiency is negative.\n\nWork and Wages\n\nWages are strictly divided in the ratio of the total work done. If people work for the same number of days, the wage ratio is directly equal to their efficiency ratio.\n\nAlternate Day Work\n\nCalculate the work completed in one cycle (e.g., A works day 1, B works day 2). Find the maximum whole cycles that fit into the total work, then assign the remaining work to the first person.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "62650fe3306c1e61b833eeed",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A certain sum borrowed at 7.5% p.a. at simple interest amounts to ₹16,950 in 5(1)/(2) years. What will be the simple interest (in ₹) on the same sum at the same rate in 8(1)/(4) years?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8,415"
+        },
+        {
+          "label": "2",
+          "text": "6,806"
+        },
+        {
+          "label": "3",
+          "text": "7,425"
+        },
+        {
+          "label": "4",
+          "text": "6,188"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal amount % for 5.5 years at 7.5% = 100% + (7.5 × 5.5)% = 141.25%\n\nTotal interest % for 8.25 years at 7.5% = (7.5 × 8.25)% = 61.875%\n\nGiven 141.25% → ₹16,950 ⇒ 1% → 16,950 ÷ 141.25 = ₹120\n\nRequired Simple Interest = 61.875% × 120 = ₹7,425\n\n**∴ The correct answer is ₹7425.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRate (R) = 7.5% p.a.\n\nTime (T₁) = 5.5 years\n\nAmount (A) = ₹16,950\n\nTime (T₂) = 8.25 years\n\n**Formula Used:**\n\nSimple Interest (SI) = (P × R × T) ÷ 100\n\nAmount (A) = P + SI\n\n \n Principal\n <text x=\"65\" y=\"70\" fill=\"#2255cc\" font-family=\"sans-serif\" font-size=\"13\" text-ancho",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "63145f011f23f2034815c255",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If (x - (1)/(x))² = 10 and x>0, then what is value of x³ - (1)/(x³) ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "13"
+        },
+        {
+          "label": "2",
+          "text": "-10"
+        },
+        {
+          "label": "3",
+          "text": "-13√10"
+        },
+        {
+          "label": "4",
+          "text": "13√10"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIf (x − 1/x)² = a, and x − 1/x = √a (taking the positive root),\n\nThen direct formula: x³ − 1/x³ = (a + 3)√a\n\nGiven a = 10, substitute directly into the shortcut:\n\nx³ − 1/x³ = (10 + 3)√10\n\nx³ − 1/x³ = 13√10\n\n**∴ The correct answer is 13√10.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n(x − 1/x)² = 10\n\n**Formula Used:**\n\n(a − b)³ = a³ − b³ − 3ab(a − b)\n\nWhich gives: a³ − b³ = (a − b)³ + 3ab(a − b)\n\n**Calculations:**\n\n⇒ Taking the square root on both sides of the given equation:\n\n⇒ (x − 1/x) = √10 (considering the positive value as per options)\n\n⇒ We need to find the value of x³ − 1/x³\n\n⇒ x³ − 1/x³ = (x − 1/x)³ + 3 × x × (1/x) × (x − 1/x)\n\n⇒ x³ − 1/x³ = (√10)³ + 3 × 1 × (√10)\n\n⇒ x³ − 1/x³ = 10√10 + 3√10\n\n⇒ x³ − 1/x³ = 13√10\n\n**∴ The correct answer is 13√10.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAlgebraic Identities\n\nIf x + 1/x = k, then x² + 1/x² = k² − 2 and x³ + 1/x³ = k³ − 3k.\n\nNegative Sign Identities\n\nIf x − 1/x = k, then x² + 1/x² = k² + 2 and x³ − 1/x³ = k³ + 3k.\n\nConversion Between Plus and Minus\n\n(x + 1/x)² − (x − 1/x)² = 4. This is highly useful for deducing the value of one expression from the other.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "63661a2ac7a9cf230210c28d",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sec A + tan A = 5, then sec A - tan A ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(2)/(5)"
+        },
+        {
+          "label": "2",
+          "text": "(5)/(2)"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "(1)/(5)"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe trigonometric terms (sec A − tan A) and (sec A + tan A) are exact reciprocals of each other.\n\nsec A − tan A = 1 ÷ (sec A + tan A)\n\nGiven that sec A + tan A = 5\n\n⇒ sec A − tan A = 1/5\n\n**∴ The correct answer is 1/5.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nsec A + tan A = 5\n\n**Formula Used:**\n\nsec²A − tan²A = 1\n\na² − b² = (a − b)(a + b)\n\n**Calculations:**\n\n⇒ sec²A − tan²A = 1\n\nUsing the algebraic difference of squares formula:\n\n⇒ (sec A − tan A)(sec A + tan A) = 1\n\nSubstitute the given value of (sec A + tan A) = 5 in the above equation:\n\n⇒ (sec A − tan A) × 5 = 1\n\n⇒ sec A − tan A = 1/5\n\n**∴ The correct answer is 1/5.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nFundamental Trigonometric Identity\n\nsin²A + cos²A = 1, which represents the relation between sine and cosine functions.\n\nCosecant and Cotangent Property\n\ncosec²A − cot²A = 1, which implies that cosec A − cot A is always the exact reciprocal of cosec A + cot A.\n\nReciprocal and Ratio Forms\n\nsec A = 1 ÷ cos A and tan A = sin A ÷ cos A\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "648091b96edefdb67ec2ba66",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of gold and copper in 60 grams of alloy is 2 ∶ 1. How much more copper should be added to make the ratio 1 ∶ 2?",
+      "options": [
+        {
+          "label": "1",
+          "text": "40 Grams"
+        },
+        {
+          "label": "2",
+          "text": "80 Grams"
+        },
+        {
+          "label": "3",
+          "text": "60 Grams"
+        },
+        {
+          "label": "4",
+          "text": "54 Grams"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInitial Ratio of Gold to Copper = 2 ∶ 1 (Total = 3 units = 60 Grams ⇒ 1 unit = 20 Grams)\n\nFinal Ratio of Gold to Copper = 1 ∶ 2\n\nSince Gold remains unchanged, equate the Gold units by multiplying the final ratio by 2 ⇒ 2 ∶ 4\n\nIncrease in Copper = 4 − 1 = 3 units ⇒ Added Copper = 3 × 20 = 60 Grams.\n\n**∴ The correct answer is 60 Grams.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal weight of initial alloy = 60 Grams\n\nInitial ratio of Gold to Copper = 2 ∶ 1\n\nFinal ratio of Gold to Copper = 1 ∶ 2\n\n [IMAGE: https://cdn.repeatermock.com/tb/b523351719fb513b3f3584e10277eef6c6d206013274e9d2dd8dd433d15a7bbf.png] \n\n**Calculations:**\n\nLet the initial weight of Gold be 2x and Copper be x.\n\n⇒ Total initial weight = 2x + x = 60\n\n⇒ 3x = 60 ⇒ x = 20 Grams\n\n⇒ Initial quantity of Gold = 2 × 20 = 40 Grams\n\n⇒ Initial quantity of Copper = 20 Grams\n\nLet y Grams of pure copper be added to the mixture.\n\n⇒ New quantity of Copper = (20 + y) Grams\n\nSince the new ratio of Gold to Copper is 1 ∶ 2:\n\n⇒ 40 / (20 + y) = 1 / 2\n\n⇒ 20 + y = 80\n\n⇒ y = 60 Grams\n\n**∴ The correct answer is 60 Grams.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nConstant Element Concept\n\nWhen only one component of a mixture is altered (added or removed), the absolute quantity of the other component remains unchanged. Equating the constant component's parts across the initial and final ratios provides the fastest way to solve mixture problems.\n\nRule of Alligation\n\nUsed to find the exact ratio in which two distinct mixtures must be mixed. Formula: (Quantity of cheaper ÷ Quantity of dearer) = (Price of dearer − Mean price) ÷ (Mean price − Price of cheaper).\n\nReplacement Formula\n\nIf from a vessel containing x units of a pure liquid, y units are drawn out and replaced with water, and this process is repeated n times, the amount of pure liquid left = x × (1 − y/x)ⁿ.\n\n82:T98e,\n&",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b523351719fb513b3f3584e10277eef6c6d206013274e9d2dd8dd433d15a7bbf.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "650304bdf68cc34d206b8cde",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sphere of radius 5 cm is dropped in a right circular cylindrical vessel partly filled with water. The radius of the cylindrical vessel is 10 cm. If the sphere is completely submerged in water, by how much will the level of water rise in the cylindrical vessel ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(5)/(3) cm"
+        },
+        {
+          "label": "2",
+          "text": "(5)/(2) cm"
+        },
+        {
+          "label": "3",
+          "text": "1 cm"
+        },
+        {
+          "label": "4",
+          "text": "(5)/(6) cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAccording to Archimedes' principle, the volume of water displaced equals the volume of the submerged object.\n\nRise in water level (h) = Volume of sphere ÷ Base area of cylinder\n\n⇒ h = [4/3 × π × (5)³] ÷ [π × (10)²]\n\n⇒ h = (4/3 × 125) ÷ 100\n\n⇒ h = 500 ÷ 300 = 5/3 cm\n\n**∴ The correct answer is 5/3 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/d1081774052b08c7c6bd9bec33b06350ec067513bb85aaf5de588c203a656a81.png] \n\n**Given:**\n\nRadius of the sphere (R) = 5 cm\n\nRadius of the cylindrical vessel (r) = 10 cm\n\nLet the level of water rise by 'h' cm.\n\n**Formula Used:**\n\nVolume of a sphere = 4/3 × π × R³\n\nVolume of a cylinder = π × r² × h\n\n**Calculation:**\n\nAccording to the principle of volume displacement, the volume of water displaced is equal to the volume of the completely submerged sphere.\n\n⇒ Volume of water raised = Volume of the sphere\n\n⇒ π × r² × h = 4/3 × π × R³\n\n⇒ π × (10)² × h = 4/3 × π × (5)³\n\n⇒ 100 × h = 4/3 × 125\n\n⇒ h = 500 ÷ (3 × 100)\n\n⇒ h = 5/3 cm\n\n**∴ The correct answer is 5/3 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nVolume of a Cylinder\n\nThe volume of a right circular cylinder is given by V = π × r² × h, where r is the base radius and h is the height of the cylinder.\n\nVolume of a Sphere\n\nThe volume of a sphere is given by V = 4/3 × π × r³, where r is the radius of the sphere.\n\nArchimedes' Principle (Volume Displacement)\n\nWhen a solid object is completely submerged in a liquid, it displaces a volume of liquid exactly equal to its own volume. Therefore, Volume of liquid displaced = Volume of submerged object.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d1081774052b08c7c6bd9bec33b06350ec067513bb85aaf5de588c203a656a81.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6730917c849a59db80799ac3",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average weight of a team of 32 IT employees is 54 kg. If the weight of the manager is included, then the average increases by 1 kg. Find the weight of the manager. (In kg)",
+      "options": [
+        {
+          "label": "1",
+          "text": "87"
+        },
+        {
+          "label": "2",
+          "text": "88"
+        },
+        {
+          "label": "3",
+          "text": "89"
+        },
+        {
+          "label": "4",
+          "text": "90"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nManager's weight = Old Average + (New Total Persons × Increase in Average)\n\n⇒ Manager's weight = 54 + (33 × 1)\n\n⇒ Manager's weight = 54 + 33 = 87 kg\n\n**∴ The correct answer is 87 kg.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInitial average weight of 32 employees (A₁) = 54 kg\n\nNew average weight after adding the manager (A₂) = 54 + 1 = 55 kg\n\nTotal number of people now (N₂) = 32 + 1 = 33\n\n \n \n \n\n \n \n\n \n 32 Employees\n Avg = 54 kg\n \n \n• \n + Manager\n\n \n 33 People (Total)\n Avg = 55 kg\n (Increase = +1 kg)\n\n \n Manager's Weight = 54 + (33 × 1) = 87 kg\n\n**Formula Used:**\n\nTotal Weight = Average × Number of persons\n\nManager's Weight = New Total Weight − Old Total Weight\n\n**Calculations:**\n\n⇒ Old Total Weight = 32 × 54\n\n⇒ Old Total Weight = 1728 kg\n\n⇒ New Total Weight = 33 × 55\n\n⇒ New Total Weight = 1815 kg\n\n⇒ Manager's Weight = 1815 − 1728\n\n⇒ Manager's Weight = 87 kg\n\n**∴ The correct answer is 87 kg.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nExclusion in Averages\n\nWhen a person leaves a group, the weight of the person leaving = Old Average − (Remaining members × Decrease in Average).\n\nReplacement Method\n\nWhen one person replaces another in a group, Weight of new person = Weight of removed person ± (Total members × Change in Average).\n\nWeighted Average\n\nUsed to find the combined average of two distinct groups: Aw = (N₁A₁ + N₂A₂) ÷ (N₁ + N₂).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "62516027c20f317538303306",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sum amounts to ₹37044 in 3 years at 5% p.a., interest being compounded yearly. If the same sum amounts to ₹x in 16 months at 12% p.a., when the interest is compounded 8-monthly, then the value of x is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "38724.30"
+        },
+        {
+          "label": "2",
+          "text": "32374.80"
+        },
+        {
+          "label": "3",
+          "text": "37324.80"
+        },
+        {
+          "label": "4",
+          "text": "33247.80"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nMultiplying factor for 5% over 3 years is (21/20)³ = 9261/8000.\n\nPrincipal P = 37044 × (8000 ÷ 9261) = ₹32000.\n\nFor 16 months compounded 8-monthly: Rate = 12% × (8 ÷ 12) = 8% per cycle, and Cycles = 16 ÷ 8 = 2.\n\nAmount x = 32000 × (108/100)² = 32000 × 1.1664 = 37324.80.\n\n**∴ The correct answer is ₹37324.80.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCase 1: Amount A₁ = ₹37044, Time = 3 years, Rate = 5% p.a.\n\nCase 2: Time = 16 months, Rate = 12% p.a. compounded 8-monthly.\n\n**Formula Used:**\n\nAmount A = P(1 + R/100)ⁿ\n\n \n \n \n\n \n \n \n\n \n \n\n \n\n \n\n \n P = ?\n \n \n ₹37044\n \n \n Amount x\n \n 3 years @ 5% p.a. CI\n 2 cycles @ 8%\n\n**Calculations:**\n\n⇒ 37044 = P(1 + 5/100)³\n\n⇒ 37044 = P(21/20)³\n\n⇒ P = 37044 × (8000 / 9261)\n\n⇒ P = 4 × 8000 = ₹32000\n\nFor the new 8-monthly compounding scheme:\n\n⇒ Effective Rate r = 12% × (8 / 12) = 8% per cycle\n\n⇒ Number of cycles n = 16 months ÷ 8 months = 2 cycles\n\n⇒ x = P(1 + r/100)ⁿ\n\n⇒ x = 32000(1 + 8/100)²\n\n⇒ x = 32000(27/25)²\n\n⇒ x = 32000 × (729 / 625)\n\n⇒ x = 51.2 × 729 = ₹37324.80\n\n**∴ The correct answer is ₹37324.80.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nFractional Year Compounding\n\nWhen compounding happens n-monthly, the applicable rate per cycle becomes R × (n/12), and the number of cycles becomes Total Time (in months) ÷ n.\n\nCompound Interest\n\nCI is evaluated on both the initial principal and the accumulated interest from preceding periods. The fundamental formula is A = P(1 + R/100)ⁿ.\n\nSI vs CI Difference\n\nFor a 2-year period, the difference between Compound Interest and Simple Interest on the same principal is D = P(R/100)².\n\n2f:Tdc7,\n<",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "675816168e5b0c33c8927e52",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A famous basketball league team is planning to paint the entire basketball shaped dummy whose radius is 7 m. A painter is hired who tells that 5.4 liters of paint will be used to paint the area of 36 m². How much paint (in l) is required? (round of to one decimal place) Take pi = frac{22}7",
+      "options": [
+        {
+          "label": "1",
+          "text": "92.4"
+        },
+        {
+          "label": "2",
+          "text": "616"
+        },
+        {
+          "label": "3",
+          "text": "4106.6"
+        },
+        {
+          "label": "4",
+          "text": "95.2"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nSurface Area of spherical dummy = 4 × π × r²\n\n⇒ Area = 4 × (22/7) × 7² = 616 m²\n\nAmount of paint used per m² = 5.4 ÷ 36 = 0.15 l/m²\n\nTotal paint required = 616 × 0.15 = 92.4 l\n\n**∴ The correct answer is 92.4 l.**\n\n**__Alternate Method__**\n\n**Given:**\n\nRadius of the spherical dummy (r) = 7 m\n\nPaint used for 36 m² area = 5.4 l\n\n**Formula Used:**\n\nTotal Surface Area of a Sphere = 4 × π × r²\n\n [IMAGE: https://cdn.repeatermock.com/tb/0169af09a5ac2f104bf0242d1e19a6f638afd2dfc4524b6cf325da22a3d06abd.png] \n\n**Calculations:**\n\n⇒ Total Surface Area = 4 × (22/7) × 7 × 7\n\n⇒ Total Surface Area = 4 × 22 × 7 = 616 m²\n\n⇒ Paint required for 1 m² = 5.4 ÷ 36 = 0.15 l\n\n⇒ Total paint required = Area × Paint per m²\n\n⇒ Total paint required = 616 × 0.15 = 92.4 l\n\n**∴ The correct answer is 92.4 l.**\n\n**__Additional Information__**\n\nVolume of a Sphere\n\nThe volume of a full sphere is given by the formula V = (4/3) × π × r³.\n\nSurface Area of a Hemisphere\n\nA solid hemisphere has a Curved Surface Area = 2 × π × r² and a Total Surface Area = 3 × π × r².\n\nVolume of a Hemisphere\n\nThe volume of a hemisphere is exactly half of a full sphere, given by V = (2/3) × π × r³.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0169af09a5ac2f104bf0242d1e19a6f638afd2dfc4524b6cf325da22a3d06abd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    }
+  ]
+}

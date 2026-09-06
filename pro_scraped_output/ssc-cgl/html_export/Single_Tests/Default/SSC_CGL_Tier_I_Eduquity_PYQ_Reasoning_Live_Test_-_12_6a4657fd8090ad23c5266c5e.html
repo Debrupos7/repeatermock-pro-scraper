@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSC CGL Tier I: (Eduquity PYQ) Reasoning Live Test - 12</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.6;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,0.04);position:sticky;top:0;z-index:100;}
+.brand{font-size:20px;font-weight:800;letter-spacing:-0.02em;}
+.brand-light{color:#1f2937;}
+.brand-mark{color:#1fbad6;}
+.test-title{font-size:14px;color:#4b5563;font-weight:500;text-align:center;flex:1;padding:0 24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.header-right{display:flex;align-items:center;gap:12px;}
+.timer{background:#1f2937;color:#fff;padding:8px 16px;border-radius:6px;font-family:"SF Mono",Monaco,monospace;font-size:16px;font-weight:600;min-width:110px;text-align:center;}
+.timer.warning{background:#f59e0b;}
+.timer.danger{background:#ef4444;animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.7;}}
+.header-btn{background:#1fbad6;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s;}
+.header-btn:hover{background:#1999b3;}
+.submit-btn{background:#ef4444;}
+.submit-btn:hover{background:#dc2626;}
+.meta-bar{background:#fff;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;flex-wrap:wrap;gap:12px 32px;font-size:13px;}
+.meta-item{display:flex;flex-direction:column;gap:2px;}
+.meta-label{color:#6b7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+.meta-value{color:#1f2937;font-size:14px;font-weight:600;}
+.test-container{display:flex;max-width:1400px;margin:0 auto;gap:16px;padding:16px;}
+.question-area{flex:1;min-width:0;}
+.section-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.section-tab{background:#fff;border:1px solid #e5e7eb;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;color:#4b5563;}
+.section-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.question-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.q-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #f3f4f6;}
+.q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.q-marks{display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap;}
+.q-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.q-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.conf-high{background:#d1fae5;color:#065f46;}
+.conf-unidentified{background:#fef3c7;color:#92400e;}
+.q-id{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;}
+.result-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-qid{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;margin-left:auto;}
+.mark-pos{color:#10b981;font-weight:600;}
+.mark-neg{color:#ef4444;font-weight:600;}
+.q-lang-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.q-lang-tab{background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer;}
+.q-lang-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.q-text{font-size:15px;margin-bottom:16px;}
+.q-text p{margin:8px 0;}
+.q-text img{max-width:100%;height:auto;border-radius:4px;}
+.options-list{list-style:none;}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;margin-bottom:8px;border:1.5px solid #e5e7eb;border-radius:6px;cursor:pointer;transition:all .15s;font-size:14px;}
+.option-item:hover{background:#f9fafb;border-color:#d1d5db;}
+.option-item.selected{background:#dbeafe;border-color:#3b82f6;}
+.option-item.correct{background:#d1fae5;border-color:#10b981;}
+.option-item.wrong{background:#fee2e2;border-color:#ef4444;}
+.option-label{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;background:#1f2937;color:#fff;border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0;}
+.option-item.selected .option-label{background:#3b82f6;}
+.option-item.correct .option-label{background:#10b981;}
+.option-item.wrong .option-label{background:#ef4444;}
+.option-item.correct::after{content:" ✓ Correct";color:#10b981;font-weight:700;margin-left:auto;}
+.option-item.wrong::after{content:" ✗ Wrong";color:#ef4444;font-weight:700;margin-left:auto;}
+.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+.action-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.action-btn:hover{background:#f9fafb;}
+.action-btn.save-next{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.action-btn.save-next:hover{background:#1999b3;}
+.action-btn.mark-review{background:#fef3c7;color:#92400e;border-color:#f59e0b;}
+.prev-next{display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #f3f4f6;}
+.nav-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.nav-btn:hover{background:#f9fafb;}
+.palette-sidebar{width:280px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start;background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;max-height:calc(100vh - 110px);overflow-y:auto;}
+.palette-header{font-size:14px;font-weight:700;color:#1f2937;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f3f4f6;}
+.palette-legend{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10px;color:#6b7280;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:3px;}
+.legend-dot{width:12px;height:12px;border-radius:2px;}
+.legend-dot.answered{background:#10b981;}
+.legend-dot.notanswered{background:#ef4444;}
+.legend-dot.marked{background:#a855f7;}
+.legend-dot.notvisited{background:#e5e7eb;}
+.palette-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;}
+.palette-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px solid #e5e7eb;border-radius:4px;font-size:11px;font-weight:600;color:#4b5563;cursor:pointer;transition:all .15s;background:#f3f4f6;}
+.palette-cell:hover{transform:scale(1.1);}
+.palette-cell.answered{background:#10b981;color:#fff;border-color:#10b981;}
+.palette-cell.notanswered{background:#ef4444;color:#fff;border-color:#ef4444;}
+.palette-cell.marked{background:#a855f7;color:#fff;border-color:#a855f7;}
+.palette-cell.marked-answered{background:#a855f7;color:#fff;border-color:#a855f7;position:relative;}
+.palette-cell.marked-answered::after{content:"•";position:absolute;top:-2px;right:2px;color:#10b981;font-size:14px;}
+.palette-cell.notvisited{background:#fff;color:#9ca3af;}
+.palette-cell.current{outline:3px solid #1fbad6;outline-offset:1px;}
+.palette-stats{margin-top:12px;padding-top:12px;border-top:1px solid #f3f4f6;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:11px;color:#6b7280;}
+.palette-stats div{display:flex;justify-content:space-between;}
+.palette-stats strong{color:#1f2937;font-size:13px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;padding:24px;}
+.modal-overlay.open{display:flex;}
+.modal-content{background:#fff;border-radius:12px;padding:24px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-content h2{font-size:20px;color:#1f2937;margin-bottom:12px;}
+.modal-content p{font-size:14px;color:#4b5563;margin-bottom:16px;}
+.submit-summary{background:#f9fafb;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;}
+.submit-summary div{display:flex;justify-content:space-between;margin-bottom:4px;}
+.submit-summary strong{color:#1f2937;}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;}
+.modal-btn{padding:8px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-btn.cancel{background:#f3f4f6;color:#4b5563;}
+.modal-btn.cancel:hover{background:#e5e7eb;}
+.modal-btn.submit{background:#ef4444;color:#fff;}
+.modal-btn.submit:hover{background:#dc2626;}
+.results-view{max-width:1000px;margin:0 auto;padding:24px;}
+.results-header{text-align:center;margin-bottom:32px;}
+.results-header h1{font-size:28px;color:#1f2937;margin-bottom:16px;}
+.score-card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;display:inline-block;min-width:300px;margin-bottom:16px;}
+.score-card .score{font-size:48px;font-weight:800;color:#1fbad6;}
+.score-card .total{font-size:20px;color:#6b7280;}
+.score-card .rank{font-size:14px;color:#4b5563;margin-top:8px;}
+.results-actions{display:flex;gap:8px;justify-content:center;}
+.results-questions{display:grid;gap:16px;}
+.result-card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.result-card.correct{border-left:4px solid #10b981;}
+.result-card.wrong{border-left:4px solid #ef4444;}
+.result-card.skipped{border-left:4px solid #9ca3af;}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.result-q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.result-status{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;}
+.result-status.correct{background:#d1fae5;color:#065f46;}
+.result-status.wrong{background:#fee2e2;color:#991b1b;}
+.result-status.skipped{background:#f3f4f6;color:#4b5563;}
+.result-text{font-size:14px;margin-bottom:12px;}
+.result-text p{margin:6px 0;}
+.result-options{list-style:none;margin-bottom:12px;}
+.result-option{padding:8px 12px;margin-bottom:4px;border:1px solid #e5e7eb;border-radius:4px;font-size:13px;display:flex;align-items:flex-start;gap:8px;}
+.result-option.correct{background:#d1fae5;border-color:#10b981;font-weight:600;}
+.result-option.selected{background:#dbeafe;border-color:#3b82f6;}
+.result-option.correct.selected{background:#a7f3d0;}
+.result-option-label{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;background:#1f2937;color:#fff;border-radius:3px;font-size:11px;font-weight:600;}
+.result-option.correct .result-option-label{background:#10b981;}
+.result-solution{background:#fef3c7;border-left:3px solid #f59e0b;border-radius:4px;padding:12px;font-size:13px;color:#1f2937;}
+.result-solution-title{font-weight:700;color:#92400e;margin-bottom:6px;font-size:12px;}
+.result-solution p{margin:6px 0;}
+.result-solution img{max-width:100%;height:auto;border-radius:4px;}
+@media (max-width:1024px){.palette-sidebar{width:220px;}.palette-grid{grid-template-columns:repeat(5,1fr);}}
+@media (max-width:768px){.test-container{flex-direction:column;}.palette-sidebar{width:100%;position:static;max-height:none;}.palette-grid{grid-template-columns:repeat(10,1fr);}}
+@media print{.top-bar,.palette-sidebar,.actions,.prev-next,.section-tabs,.q-lang-tabs,.meta-bar,.results-actions{display:none;}.test-container,.results-view{display:block;}.result-card{page-break-inside:avoid;}}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="top-bar">
+  <div class="brand"><span class="brand-light">Repeater</span><span class="brand-mark">Mock</span></div>
+  <div class="test-title" id="testTitle">SSC CGL Tier I: (Eduquity PYQ) Reasoning Live Test - 12</div>
+  <div class="header-right">
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="header-btn submit-btn" onclick="openSubmitModal()">Submit Test</button>
+  </div>
+</header>
+
+<!-- Meta bar -->
+<div class="meta-bar">
+  <div class="meta-item"><span class="meta-label">Series</span><span class="meta-value">ssc-cgl</span></div>
+  <div class="meta-item"><span class="meta-label">Questions</span><span class="meta-value">25</span></div>
+  <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">0 min</span></div>
+  <div class="meta-item"><span class="meta-label">Max Marks</span><span class="meta-value">50.0</span></div>
+  <div class="meta-item"><span class="meta-label">Marking</span><span class="meta-value">+2.0 / -0.5</span></div>
+  <div class="meta-item"><span class="meta-label">Test ID</span><span class="meta-value">6a4657fd8090ad23c5266c5e</span></div>
+</div>
+
+<!-- Test mode -->
+<div id="testMode" class="test-container">
+  <main class="question-area">
+    <div class="section-tabs" id="sectionTabs"></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-header">
+        <span class="q-num" id="qNum">Q1</span>
+        <span class="q-marks" id="qMarks"></span>
+      </div>
+      <div class="q-lang-tabs" id="qLangTabs"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options-list" id="optionsList"></div>
+      <div class="actions">
+        <button class="action-btn mark-review" onclick="markReviewNext()">Mark for Review &amp; Next</button>
+        <button class="action-btn clear-response" onclick="clearResponse()">Clear Response</button>
+        <button class="action-btn save-next" onclick="saveNext()">Save &amp; Next →</button>
+      </div>
+      <div class="prev-next">
+        <button class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button class="nav-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </main>
+  <aside class="palette-sidebar">
+    <div class="palette-header">
+      <span id="currentSectionLabel">Test</span>
+    </div>
+    <div class="palette-legend">
+      <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+      <span class="legend-item"><span class="legend-dot notanswered"></span>Not Answered</span>
+      <span class="legend-item"><span class="legend-dot marked"></span>Marked</span>
+      <span class="legend-item"><span class="legend-dot notvisited"></span>Not Visited</span>
+    </div>
+    <div class="palette-grid" id="paletteGrid"></div>
+    <div class="palette-stats" id="paletteStats"></div>
+  </aside>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="modal-content">
+    <h2>Submit Test?</h2>
+    <p>Are you sure you want to submit? You won't be able to change your answers after this.</p>
+    <div class="submit-summary" id="submitSummary"></div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="modal-btn submit" onclick="submitTest()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results view (hidden until submit) -->
+<div id="resultsView" class="results-view" style="display:none;">
+  <div class="results-header">
+    <h1>Test Submitted</h1>
+    <div class="score-card" id="scoreCard"></div>
+    <div class="results-actions">
+      <button class="header-btn" onclick="showAllQuestions()">View All Questions &amp; Solutions</button>
+      <button class="header-btn" onclick="window.print()">🖨️ Print</button>
+    </div>
+  </div>
+  <div class="results-questions" id="resultsQuestions"></div>
+</div>
+
+<!-- Test data embedded as JSON -->
+<script type="application/json" id="test-data">{"test_id": "6a4657fd8090ad23c5266c5e", "title": "SSC CGL Tier I: (Eduquity PYQ) Reasoning Live Test - 12", "series_slug": "ssc-cgl", "duration_min": 0, "max_marks": 50.0, "languages": ["English", "Hindi"], "sections": [{"section_id": "69f0944e34a326423f2cd8f7", "section_name": "Test", "q_count": 25, "max_marks": 50.0, "questions": [{"qid": "68bab3a1b67366473f1b1e76", "qs_no": 1, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><!-- x-tinymce/html -->Five friends - A, B, C, D, and E - sit around a circular table facing the center.</p>\n\n<p>B sits to the immediate right of A.</p>\n\n<p>C is to the immediate right of B.</p>\n\n<p>D is to the immediate left of E.&nbsp;</p>\n\n<p>Question: Who is sitting to the immediate left of C?</p>\n", "options": [{"prompt": "1", "value": "A"}, {"prompt": "2", "value": "B"}, {"prompt": "3", "value": "E"}, {"prompt": "4", "value": "D"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>पाँच मित्र - A, B, C, D, और एक गोलाकार मेज के चारों ओर केंद्र की ओर मुँह करके बैठे हैं।<br />\nB, A के ठीक दाएँ बैठा है।</p>\n\n<p>C, B के ठीक दाएँ है।</p>\n\n<p>D, E के ठीक बाएँ है।</p>\n\n<p>प्रश्न: C के ठीक बाएँ कौन बैठा है?</p>\n", "options": [{"prompt": "1", "value": "A"}, {"prompt": "2", "value": "B"}, {"prompt": "3", "value": "E"}, {"prompt": "4", "value": "D"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "699d784a68aef811ba1e1e6a", "qs_no": 2, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>How many triangles are there in the given figure?</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/d97843d02baaa72346f2e2c1e3152a3cb7fb97b381a086c4e050b9951503e488.png\" style=\"height: 226px; width: 200px;\" /><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/e71df6eaac5f52a7323b122204a67e967c01fa7bde6feef442da6c71e39cdf5d.png\" style=\"width: 140px; height: 155px;\" /></p>\n", "options": [{"prompt": "1", "value": "10"}, {"prompt": "2", "value": "11"}, {"prompt": "3", "value": "12"}, {"prompt": "4", "value": "13"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>दी गई आकृति में कितने त्रिभुज हैं?</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/d97843d02baaa72346f2e2c1e3152a3cb7fb97b381a086c4e050b9951503e488.png\" style=\"height: 226px; width: 200px;\" /><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/e71df6eaac5f52a7323b122204a67e967c01fa7bde6feef442da6c71e39cdf5d.png\" style=\"width: 140px; height: 155px;\" /></p>\n", "options": [{"prompt": "1", "value": "10"}, {"prompt": "2", "value": "11"}, {"prompt": "3", "value": "12"}, {"prompt": "4", "value": "13"}], "range": {"start": "", "end": ""}}, "te": {"value": "<p>ఇచ్చిన చిత్రంలో ఎన్ని త్రిభుజాలు ఉన్నాయి?</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/d97843d02baaa72346f2e2c1e3152a3cb7fb97b381a086c4e050b9951503e488.png\" style=\"height: 226px; width: 200px;\" /><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/e71df6eaac5f52a7323b122204a67e967c01fa7bde6feef442da6c71e39cdf5d.png\" style=\"width: 140px; height: 155px;\" /></p>\n", "options": [{"prompt": "1", "value": "10"}, {"prompt": "2", "value": "11"}, {"prompt": "3", "value": "12"}, {"prompt": "4", "value": "13"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<p>প্রদত্ত চিত্রে কতগুলি ত্রিভুজ আছে?</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/d97843d02baaa72346f2e2c1e3152a3cb7fb97b381a086c4e050b9951503e488.png\" style=\"height: 226px; width: 200px;\" /><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/e71df6eaac5f52a7323b122204a67e967c01fa7bde6feef442da6c71e39cdf5d.png\" style=\"width: 140px; height: 155px;\" /></p>\n", "options": [{"prompt": "1", "value": "10"}, {"prompt": "2", "value": "11"}, {"prompt": "3", "value": "12"}, {"prompt": "4", "value": "13"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<p>આપેલ આકૃતિમાં કેટલા ત્રિકોણ છે?</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/d97843d02baaa72346f2e2c1e3152a3cb7fb97b381a086c4e050b9951503e488.png\" style=\"height: 226px; width: 200px;\" /><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/e71df6eaac5f52a7323b122204a67e967c01fa7bde6feef442da6c71e39cdf5d.png\" style=\"width: 140px; height: 155px;\" /></p>\n", "options": [{"prompt": "1", "value": "10"}, {"prompt": "2", "value": "11"}, {"prompt": "3", "value": "12"}, {"prompt": "4", "value": "13"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<p>ನೀಡಿರುವ ಚಿತ್ರದಲ್ಲಿ ಎಷ್ಟು ತ್ರಿಕೋನಗಳಿವೆ?</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/d97843d02baaa72346f2e2c1e3152a3cb7fb97b381a086c4e050b9951503e488.png\" style=\"height: 226px; width: 200px;\" /><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/e71df6eaac5f52a7323b122204a67e967c01fa7bde6feef442da6c71e39cdf5d.png\" style=\"width: 140px; height: 155px;\" /></p>\n", "options": [{"prompt": "1", "value": "10"}, {"prompt": "2", "value": "11"}, {"prompt": "3", "value": "12"}, {"prompt": "4", "value": "13"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<p>கொடுக்கப்பட்ட படத்தில் எத்தனை முக்கோணங்கள் உள்ளன?</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/d97843d02baaa72346f2e2c1e3152a3cb7fb97b381a086c4e050b9951503e488.png\" style=\"height: 226px; width: 200px;\" /><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/e71df6eaac5f52a7323b122204a67e967c01fa7bde6feef442da6c71e39cdf5d.png\" style=\"width: 140px; height: 155px;\" /></p>\n", "options": [{"prompt": "1", "value": "10"}, {"prompt": "2", "value": "11"}, {"prompt": "3", "value": "12"}, {"prompt": "4", "value": "13"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Figure Counting", "confidence": "high"}, {"qid": "69bcecfb61c7f6b1f52de911", "qs_no": 3, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<span style=\"color: rgb(33, 37, 41);\">Select the option that is related to the fifth number in the same way as the second number is related to the first number and fourth number is related to third number.<br />\n<strong>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g.13 - Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)</strong><br />\n<span class=\"math-tex\">\\( 5165 : 5113 :: 8326 : 8274 :: 1671 : ? \\)</span></span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1622&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1619&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1612&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1618&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"color: rgb(33, 37, 41);\">उस विकल्प का चयन करें जो पाँचवीं संख्या से उसी प्रकार संबंधित है जिस प्रकार दूसरी संख्या पहली संख्या से संबंधित है और चौथी संख्या तीसरी संख्या से संबंधित है।<br />\n<strong>(ध्यान दें: संख्याओं को उनके घटक अंकों में विभाजित किए बिना, पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए। उदाहरण 13 - 13 पर संक्रियाएँ जैसे 13 में जोड़ना / घटाना / गुणा करना आदि किया जा सकता है। 13 को 1 और 3 में तोड़ना और फिर 1 और 3 पर गणितीय संक्रियाएँ करने की अनुमति नहीं है)</strong><br />\n<span class=\"math-tex\">\\( 5165 : 5113 :: 8326 : 8274 :: 1671 : ? \\)</span></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1622</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1619</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1612</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">1618</span>"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"color: rgb(33, 37, 41);\">మొదటి సంఖ్యతో రెండవ సంఖ్య మరియు మూడవ సంఖ్యతో నాల్గవ సంఖ్య ఏ విధంగా సంబంధం కలిగి ఉన్నాయో, అదే విధంగా ఐదవ సంఖ్యతో సంబంధం ఉన్న వికల్పాన్ని ఎంచుకోండి.<br />\n<strong>(గమనిక: సంఖ్యలను వాటి విడి అంకెలుగా విభజించకుండా, పూర్ణ సంఖ్యలపైనే గణిత ప్రక్రియలను చేయాలి. ఉదాహరణకు 13 - 13 పై కూడిక/తీసివేత/గుణకారం మొదలైన ప్రక్రియలను చేయవచ్చు. 13 ని 1 మరియు 3 గా విభజించి, ఆపై 1 మరియు 3 లపై గణిత ప్రక్రియలను చేయడం అనుమతించబడదు)</strong><br />\n<span class=\"math-tex\">\\( 5165 : 5113 :: 8326 : 8274 :: 1671 : ? \\)</span></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1622</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1619</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1612</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">1618</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style=\"color: rgb(33, 37, 41);\">दिलेल्या पर्यायांपैकी त्या संख्येची निवड करा जी पाचव्या संख्येशी त्याच प्रकारे संबंधित आहे ज्या प्रकारे दुसरी संख्या पहिल्या संख्येशी संबंधित आहे आणि चौथी संख्या तिसऱ्या संख्येशी संबंधित आहे.<br />\n<strong>(टीप: गणितीय क्रिया या संपूर्ण संख्यांवरच केल्या पाहिजेत, संख्येतील अंकांचे विभाजन करून गणितीय क्रिया करू नयेत. उदा. 13 - 13 वर बेरीज/वजाबाकी/गुणाकार इत्यादी क्रिया करता येतील. मात्र, 13 चे 1 आणि 3 असे विभाजन करून त्यावर गणितीय क्रिया करण्यास परवानगी नाही)</strong><br />\n<span class=\"math-tex\">\\( 5165 : 5113 :: 8326 : 8274 :: 1671 : ? \\)</span></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1622</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1619</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1612</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">1618</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"color: rgb(33, 37, 41);\">সেই বিকল্পটি নির্বাচন করুন যা পঞ্চম সংখ্যার সাথে একইভাবে সম্পর্কিত যেভাবে দ্বিতীয় সংখ্যাটি প্রথম সংখ্যার সাথে এবং চতুর্থ সংখ্যাটি তৃতীয় সংখ্যার সাথে সম্পর্কিত।<br />\n<strong>(দ্রষ্টব্য: সংখ্যার উপাদান অঙ্কে ভেঙে না ফেলে, সম্পূর্ণ সংখ্যার উপর গাণিতিক প্রক্রিয়াগুলি সম্পাদন করতে হবে। যেমন ১৩ - ১৩ এর উপর যোগ/বিয়োগ/গুণ ইত্যাদি প্রক্রিয়া করা যেতে পারে। ১৩ কে ১ এবং ৩ এ ভেঙে তারপর ১ এবং ৩ এর উপর গাণিতিক প্রক্রিয়া করা অনুমোদিত নয়)</strong><br />\n<span class=\"math-tex\">\\( 5165 : 5113 :: 8326 : 8274 :: 1671 : ? \\)</span></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1622</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1619</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1612</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">1618</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style=\"color: rgb(33, 37, 41);\">એવો વિકલ્પ પસંદ કરો જે પાંચમા નંબર સાથે તે જ રીતે સંબંધિત હોય જે રીતે બીજો નંબર પ્રથમ નંબર સાથે અને ચોથો નંબર ત્રીજા નંબર સાથે સંબંધિત છે.<br />\n<strong>(નોંધ: ક્રિયાઓ આખા નંબરો પર થવી જોઈએ, નંબરોને તેના ઘટક અંકોમાં વિભાજીત કર્યા વિના. ઉદા. તરીકે 13 - 13 પર ઉમેરવા / બાદ કરવા / ગુણાકાર કરવા વગેરે જેવી ક્રિયાઓ કરી શકાય છે. 13 ને 1 અને 3 માં વિભાજીત કરવું અને પછી 1 અને 3 પર ગાણિતીય ક્રિયાઓ કરવી માન્ય નથી)</strong><br />\n<span class=\"math-tex\">\\( 5165 : 5113 :: 8326 : 8274 :: 1671 : ? \\)</span></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1622</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1619</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1612</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">1618</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"color: rgb(33, 37, 41);\">ಮೊದಲ ಸಂಖ್ಯೆಗೆ ಎರಡನೇ ಸಂಖ್ಯೆ ಮತ್ತು ಮೂರನೇ ಸಂಖ್ಯೆಗೆ ನಾಲ್ಕನೇ ಸಂಖ್ಯೆ ಸಂಬಂಧಿಸಿರುವಂತೆ, ಐದನೇ ಸಂಖ್ಯೆಗೆ ಸಂಬಂಧಿಸಿದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.<br />\n<strong>(ಗಮನಿಸಿ: ಸಂಖ್ಯೆಗಳನ್ನು ಅವುಗಳ ಘಟಕ ಅಂಕಿಗಳಾಗಿ ವಿಭಜಿಸದೆ, ಪೂರ್ಣ ಸಂಖ್ಯೆಗಳ ಮೇಲೆ ಗಣಿತದ ಕ್ರಿಯೆಗಳನ್ನು ಮಾಡಬೇಕು. ಉದಾಹರಣೆಗೆ 13 - 13 ರ ಮೇಲೆ ಕೂಡುವುದು / ಕಳೆಯುವುದು / ಗುಣಿಸುವುದು ಮುಂತಾದ ಕ್ರಿಯೆಗಳನ್ನು ಮಾಡಬಹುದು. 13 ಅನ್ನು 1 ಮತ್ತು 3 ಎಂದು ವಿಭಜಿಸಿ, ನಂತರ 1 ಮತ್ತು 3 ರ ಮೇಲೆ ಗಣಿತದ ಕ್ರಿಯೆಗಳನ್ನು ಮಾಡಲು ಅನುಮತಿ ಇಲ್ಲ)</strong><br />\n<span class=\"math-tex\">\\( 5165 : 5113 :: 8326 : 8274 :: 1671 : ? \\)</span></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1622</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1619</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1612</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">1618</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style=\"color: rgb(33, 37, 41);\">முதல் எண்ணுடன் இரண்டாவது எண் தொடர்புடையது போலவும், மூன்றாவது எண்ணுடன் நான்காவது எண் தொடர்புடையது போலவும், ஐந்தாவது எண்ணுடன் தொடர்புடைய விருப்பத்தைத் தேர்ந்தெடுக்கவும்.<br />\n<strong>(குறிப்பு: எண்களை அவற்றின் தனித்தனி இலக்கங்களாகப் பிரிக்காமல், முழு எண்களின் மீதே செயல்பாடுகள் செய்யப்பட வேண்டும். எ.கா. 13 - 13 இன் மீது கூட்டுதல்/கழித்தல்/பெருக்குதல் போன்ற செயல்பாடுகளைச் செய்யலாம். 13 ஐ 1 மற்றும் 3 ஆகப் பிரித்து, பின்னர் 1 மற்றும் 3 இன் மீது கணிதச் செயல்பாடுகளைச் செய்ய அனுமதி இல்லை)</strong><br />\n<span class=\"math-tex\">\\( 5165 : 5113 :: 8326 : 8274 :: 1671 : ? \\)</span></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1622</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1619</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1612</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">1618</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Analogy", "confidence": "high"}, {"qid": "6909e1a1bf3b74d68bc19657", "qs_no": 4, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.</p>\n\n<p><strong>LWB &rarr; OZE &rarr; RCH &rarr; UFK &rarr; ?</strong></p>\n", "options": [{"prompt": "1", "value": "CGF"}, {"prompt": "2", "value": "BHF"}, {"prompt": "3", "value": "XIN"}, {"prompt": "4", "value": "HIB"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>दिए गए विकल्पों में से उस अक्षर-समूह का चयन कीजिए जो निम्नलिखित शृंखला में प्रश्न-चिह्न (?) को प्रतिस्थापित कर सकता है।</p>\n\n<p><strong>LWB &rarr; OZE &rarr; RCH &rarr; UFK &rarr; ?</strong></p>\n", "options": [{"prompt": "1", "value": "CGF"}, {"prompt": "2", "value": "BHF"}, {"prompt": "3", "value": "XIN"}, {"prompt": "4", "value": "HIB"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Series", "confidence": "high"}, {"qid": "6909eeeb5414173cf6033855", "qs_no": 5, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "In a certain code, FOLDER is written as GMLECR. Using the same pattern, how is MARKET written?", "options": [{"prompt": "1", "value": "NYRLCT"}, {"prompt": "2", "value": "OZRLCT"}, {"prompt": "3", "value": "NYTLCR"}, {"prompt": "4", "value": "NYRCLT"}], "range": {"start": "", "end": ""}}, "hn": {"value": "एक निश्चित कूट में, FOLDER को GMLECR के रूप में लिखा जाता है। उस पैटर्न का उपयोग करते हुए, MARKET को कैसे लिखा जाएगा?", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;NYRLCT&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;OZRLCT&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;NYTLCR&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;NYRCLT&lt;/span&gt;"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Coding-Decoding", "confidence": "high"}, {"qid": "69c802bae1857ce93952ac0b", "qs_no": 6, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "You&#39;re hosting a dinner party tonight for six friends. While shopping, you realize the main ingredient for your planned dish is sold out at the store. You have two hours before guests arrive. What should you do?", "options": [{"prompt": "1", "value": "Drive to another store 30 minutes away to find the ingredient."}, {"prompt": "2", "value": "Buy a pre-made meal from the current store to serve instead."}, {"prompt": "3", "value": "Change the menu to use ingredients already available at home."}, {"prompt": "4", "value": "Call your friends and ask them to bring their own food."}], "range": {"start": "", "end": ""}}, "hn": {"value": "आज रात आप छह दोस्तों के लिए डिनर पार्टी आयोजित कर रहे हैं। खरीदारी करते समय, आपको पता चलता है कि आपकी योजनाबद्ध डिश का मुख्य घटक स्टोर में बिक चुका है। मेहमानों के आने में दो घंटे बाकी हैं। आपको क्या करना चाहिए?", "options": [{"prompt": "1", "value": "सामग्री खोजने के लिए 30 मिनट दूर दूसरे स्टोर पर जाएं।"}, {"prompt": "2", "value": "इसके बजाय परोसने के लिए मौजूदा स्टोर से पहले से तैयार भोजन खरीदें।"}, {"prompt": "3", "value": "घर पर पहले से उपलब्ध सामग्री का उपयोग करने के लिए मेनू बदलें।"}, {"prompt": "4", "value": "अपने दोस्तों को बुलाएं और उनसे अपना भोजन लाने के लिए कहें।"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "699310e8d40d96e19a7281a5", "qs_no": 7, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Find the next element that replace the? Logically 3, 22, 117, 592, ?", "options": [{"prompt": "1", "value": "2965"}, {"prompt": "2", "value": "2967"}, {"prompt": "3", "value": "2983"}, {"prompt": "4", "value": "2968"}], "range": {"start": "", "end": ""}}, "hn": {"value": "उस अगले तत्व को ज्ञात कीजिए जो तार्किक रूप से ? को प्रतिस्थापित करेगा 3, 22, 117, 592, ?", "options": [{"prompt": "1", "value": "2965"}, {"prompt": "2", "value": "2967"}, {"prompt": "3", "value": "2983"}, {"prompt": "4", "value": "2968"}], "range": {"start": "", "end": ""}}, "te": {"value": "తర్కబద్ధంగా 3, 22, 117, 592, ? స్థానంలో వచ్చే తదుపరి సంఖ్యను కనుగొనండి.", "options": [{"prompt": "1", "value": "2965"}, {"prompt": "2", "value": "2967"}, {"prompt": "3", "value": "2983"}, {"prompt": "4", "value": "2968"}], "range": {"start": "", "end": ""}}, "bn": {"value": "পরবর্তী উপাদানটি খুঁজুন যা যৌক্তিকভাবে ? কে প্রতিস্থাপন করবে 3, 22, 117, 592, ?", "options": [{"prompt": "1", "value": "2965"}, {"prompt": "2", "value": "2967"}, {"prompt": "3", "value": "2983"}, {"prompt": "4", "value": "2968"}], "range": {"start": "", "end": ""}}, "gu": {"value": "તાર્કિક રીતે '?' ને બદલતું હવે પછીનું પદ શોધો: 3, 22, 117, 592, ?", "options": [{"prompt": "1", "value": "2965"}, {"prompt": "2", "value": "2967"}, {"prompt": "3", "value": "2983"}, {"prompt": "4", "value": "2968"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ತಾರ್ಕಿಕವಾಗಿ 3, 22, 117, 592, ? ಈ ಸರಣಿಯಲ್ಲಿ '?' ಅನ್ನು ಬದಲಿಸುವ ಮುಂದಿನ ಅಂಶವನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.", "options": [{"prompt": "1", "value": "2965"}, {"prompt": "2", "value": "2967"}, {"prompt": "3", "value": "2983"}, {"prompt": "4", "value": "2968"}], "range": {"start": "", "end": ""}}, "ta": {"value": "?-ஐ தர்க்கரீதியாக மாற்றும் அடுத்த உறுப்பைக் கண்டறியவும். 3, 22, 117, 592, ?", "options": [{"prompt": "1", "value": "2965"}, {"prompt": "2", "value": "2967"}, {"prompt": "3", "value": "2983"}, {"prompt": "4", "value": "2968"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69c7fb36f03d952a8be9e416", "qs_no": 8, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which number does NOT belong in the sequence?<br />\n<br />\n2, 6, 12, 22, 30, 42", "options": [{"prompt": "1", "value": "2"}, {"prompt": "2", "value": "22"}, {"prompt": "3", "value": "6"}, {"prompt": "4", "value": "12"}], "range": {"start": "", "end": ""}}, "hn": {"value": "अनुक्रम में कौन सी संख्या संबंधित नहीं है?<br />\n<br />\n2, 6, 12, 22, 30, 42", "options": [{"prompt": "1", "value": "2"}, {"prompt": "2", "value": "22"}, {"prompt": "3", "value": "6"}, {"prompt": "4", "value": "12"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "690c7d56ef33c1ade680e787", "qs_no": 9, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>What is the next number in the series?</p>\n\n<p>625, 125, 25, _____</p>\n", "options": [{"prompt": "1", "value": "10"}, {"prompt": "2", "value": "5"}, {"prompt": "3", "value": "15"}, {"prompt": "4", "value": "1"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>श्रृंखला में अगली संख्या क्या है?</p>\n\n<p>625, 125, 25, _____</p>\n", "options": [{"prompt": "1", "value": "10"}, {"prompt": "2", "value": "5"}, {"prompt": "3", "value": "15"}, {"prompt": "4", "value": "1"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Series", "confidence": "high"}, {"qid": "6994395af98ef6c62a2fa93f", "qs_no": 10, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "A is the brother of B. B is the sister of C. D is the mother of A. E is the father of C. How is D related to E?", "options": [{"prompt": "1", "value": "Wife"}, {"prompt": "2", "value": "Mother"}, {"prompt": "3", "value": "Sister"}, {"prompt": "4", "value": "Daughter"}], "range": {"start": "", "end": ""}}, "hn": {"value": "A, B का भाई है। B, C की बहन है। D, A की माता है। E, C का पिता है। D, E से किस प्रकार संबंधित है?", "options": [{"prompt": "1", "value": "पत्नी"}, {"prompt": "2", "value": "माता"}, {"prompt": "3", "value": "बहन"}, {"prompt": "4", "value": "पुत्री"}], "range": {"start": "", "end": ""}}, "te": {"value": "A, B కి సోదరుడు. B, C కి సోదరి. D, A కి తల్లి. E, C కి తండ్రి. D కి E కి మధ్య సంబంధం ఏమిటి?", "options": [{"prompt": "1", "value": "భార్య"}, {"prompt": "2", "value": "తల్లి"}, {"prompt": "3", "value": "సోదరి"}, {"prompt": "4", "value": "కుమార్తె"}], "range": {"start": "", "end": ""}}, "bn": {"value": "A হল B এর ভাই। B হল C এর বোন। D হল A এর মা। E হল C এর বাবা। D, E এর কে হন?", "options": [{"prompt": "1", "value": "স্ত্রী"}, {"prompt": "2", "value": "মা"}, {"prompt": "3", "value": "বোন"}, {"prompt": "4", "value": "মেয়ে"}], "range": {"start": "", "end": ""}}, "gu": {"value": "A એ B નો ભાઈ છે. B એ C ની બહેન છે. D એ A ની માતા છે. E એ C ના પિતા છે. તો D, E ને શું થાય?", "options": [{"prompt": "1", "value": "પત્ની"}, {"prompt": "2", "value": "માતા"}, {"prompt": "3", "value": "બહેન"}, {"prompt": "4", "value": "પુત્રી"}], "range": {"start": "", "end": ""}}, "kn": {"value": "A ಯು B ಯ ಸಹೋದರ. B ಯು C ಯ ಸಹೋದರಿ. D ಯು A ಯ ತಾಯಿ. E ಯು C ಯ ತಂದೆ. ಹಾಗಾದರೆ D ಯು E ಗೆ ಹೇಗೆ ಸಂಬಂಧಿಸಿರುತ್ತಾರೆ?", "options": [{"prompt": "1", "value": "ಹೆಂಡತಿ"}, {"prompt": "2", "value": "ತಾಯಿ"}, {"prompt": "3", "value": "ಸಹೋದರಿ"}, {"prompt": "4", "value": "ಮಗಳು"}], "range": {"start": "", "end": ""}}, "ta": {"value": "A என்பவர் B இன் சகோதரர். B என்பவர் C இன் சகோதரி. D என்பவர் A இன் தாய். E என்பவர் C இன் தந்தை. D என்பவர் E க்கு எவ்வாறு உறவு?", "options": [{"prompt": "1", "value": "மனைவி"}, {"prompt": "2", "value": "தாய்"}, {"prompt": "3", "value": "சகோதரி"}, {"prompt": "4", "value": "மகள்"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Blood Relations", "confidence": "high"}, {"qid": "68bbebbdfd5d67ea8fdea9ab", "qs_no": 11, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>Figure A and B are related in a particular manner. Establish the same relationship between figures C and D by choosing the figure amongst these four options which would replace the question mark in figure D.</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/dddba3f44aeb32990999ecafd7c2229e962fe74b7f7443d512b1692425eea3f1.png\" /></p>\n", "options": [{"prompt": "1", "value": "&lt;img alt=&quot;&quot; src=&quot;https://cdn.repeatermock.com/tb/e2a60b72764bb4a294a1677d1021f0f4ea7ad99aef8a73dd9b08caaf56743ce8.png&quot; /&gt;"}, {"prompt": "2", "value": "&lt;img alt=&quot;&quot; src=&quot;https://cdn.repeatermock.com/tb/e5f5051641619a65bbb17f4e250531b20bab94784038fb39f62a9495197e26bd.png&quot; /&gt;"}, {"prompt": "3", "value": "&lt;img alt=&quot;&quot; src=&quot;https://cdn.repeatermock.com/tb/6ed31e81177d0c1a24fa893b0937e733b0df308261b11818da5c4253efc7c92c.png&quot; /&gt;"}, {"prompt": "4", "value": "&lt;img alt=&quot;&quot; src=&quot;https://cdn.repeatermock.com/tb/2576a0841868700d801f6c099a5a402fe77ec235171f3e22b96c934d202ec7b2.png&quot; /&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>आकृति A और B एक विशेष तरीके से संबंधित हैं। इन चार विकल्पों में से वह आकृति चुनकर आकृति और D के बीच समान संबंध स्थापित कीजिए जो आकृति D में प्रश्नवाचक चिह्न के स्थान पर आएगी।</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/dddba3f44aeb32990999ecafd7c2229e962fe74b7f7443d512b1692425eea3f1.png\" /></p>\n", "options": [{"prompt": "1", "value": "&lt;img alt=&quot;&quot; src=&quot;https://cdn.repeatermock.com/tb/e2a60b72764bb4a294a1677d1021f0f4ea7ad99aef8a73dd9b08caaf56743ce8.png&quot; /&gt;"}, {"prompt": "2", "value": "&lt;img alt=&quot;&quot; src=&quot;https://cdn.repeatermock.com/tb/e5f5051641619a65bbb17f4e250531b20bab94784038fb39f62a9495197e26bd.png&quot; /&gt;"}, {"prompt": "3", "value": "&lt;img alt=&quot;&quot; src=&quot;https://cdn.repeatermock.com/tb/6ed31e81177d0c1a24fa893b0937e733b0df308261b11818da5c4253efc7c92c.png&quot; /&gt;"}, {"prompt": "4", "value": "&lt;img alt=&quot;&quot; src=&quot;https://cdn.repeatermock.com/tb/2576a0841868700d801f6c099a5a402fe77ec235171f3e22b96c934d202ec7b2.png&quot; /&gt;"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Analogy", "confidence": "high"}, {"qid": "69cb5c5617f54ff7142828f1", "qs_no": 12, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "&quot;Oxygen : Respiration&quot; follows the same relation as:", "options": [{"prompt": "1", "value": "Water : Thirst"}, {"prompt": "2", "value": "Fuel : Combustion"}, {"prompt": "3", "value": "Blood : Circulation"}, {"prompt": "4", "value": "Light : Photosynthesis"}], "range": {"start": "", "end": ""}}, "hn": {"value": "\"ऑक्सीजन : श्वसन\" के समान ही संबंध इनमें से किसमें है?", "options": [{"prompt": "1", "value": "पानी : प्यास"}, {"prompt": "2", "value": "ईंधन : दहन"}, {"prompt": "3", "value": "रक्त : परिसंचरण"}, {"prompt": "4", "value": "प्रकाश : प्रकाश संश्लेषण"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "6994213a2552aacae86d7c2d", "qs_no": 13, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Select the option that represents the correct order of the given words as they they would appear in an English dictionary.<br />\n1.Archaeology<br />\n2.Archeologist<br />\n3.Archipelago<br />\n4. Architectural<br />\n5. Architecture", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1, 2, 3, 4, 5&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;2, 1, 3, 4, 5&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1, 3, 2, 4, 5&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;3, 1, 2, 4, 5&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "दिए गए शब्दों के सही क्रम का चयन कीजिए जैसे वे अंग्रेजी शब्दकोश में दिखाई देंगे।<br />\n1.Archaeology<br />\n2.Archeologist<br />\n3.Archipelago<br />\n4. Architectural<br />\n5. Architecture", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1, 2, 3, 4, 5&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;2, 1, 3, 4, 5&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1, 3, 2, 4, 5&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;3, 1, 2, 4, 5&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "ఇచ్చిన పదాలను ఆంగ్ల నిఘంటువులో కనిపించే సరైన క్రమంలో సూచించే ఎంపికను ఎంచుకోండి.<br />\n1.Archaeology<br />\n2.Archeologist<br />\n3.Archipelago<br />\n4. Architectural<br />\n5. Architecture", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1, 2, 3, 4, 5</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">2, 1, 3, 4, 5</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1, 3, 2, 4, 5</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">3, 1, 2, 4, 5</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "সেই বিকল্পটি চয়ন করুন যা প্রদত্ত শব্দগুলির সঠিক ক্রমকে উপস্থাপন করে যেভাবে তারা একটি ইংরেজি অভিধানে প্রদর্শিত হবে।<br />\n1.Archaeology<br />\n2.Archeologist<br />\n3.Archipelago<br />\n4. Architectural<br />\n5. Architecture", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1, 2, 3, 4, 5</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">2, 1, 3, 4, 5</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1, 3, 2, 4, 5</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">3, 1, 2, 4, 5</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "નીચે આપેલા શબ્દોને અંગ્રેજી શબ્દકોશમાં દેખાય તે ક્રમમાં દર્શાવતો વિકલ્પ પસંદ કરો.<br />\n1.Archaeology<br />\n2.Archeologist<br />\n3.Archipelago<br />\n4. Architectural<br />\n5. Architecture", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1, 2, 3, 4, 5</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">2, 1, 3, 4, 5</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1, 3, 2, 4, 5</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">3, 1, 2, 4, 5</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಕೆಳಗಿನ ಪದಗಳನ್ನು ಇಂಗ್ಲಿಷ್ ನಿಘಂಟಿನಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಕ್ರಮದಲ್ಲಿ ಪ್ರತಿನಿಧಿಸುವ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.<br />\n1.Archaeology<br />\n2.Archeologist<br />\n3.Archipelago<br />\n4. Architectural<br />\n5. Architecture", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1, 2, 3, 4, 5</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">2, 1, 3, 4, 5</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1, 3, 2, 4, 5</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">3, 1, 2, 4, 5</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "கொடுக்கப்பட்ட சொற்கள் ஆங்கில அகராதியில் தோன்றும் சரியான வரிசையைக் குறிக்கும் விருப்பத்தைத் தேர்ந்தெடுக்கவும்.<br />\n1.Archaeology<br />\n2.Archeologist<br />\n3.Archipelago<br />\n4. Architectural<br />\n5. Architecture", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">1, 2, 3, 4, 5</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">2, 1, 3, 4, 5</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">1, 3, 2, 4, 5</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">3, 1, 2, 4, 5</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Alphabet/Word Test", "confidence": "high"}, {"qid": "699738322a333b1637923f30", "qs_no": 14, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Find the missing term.<br />\nELFA, GLHA, ILJA, ?, MLNA", "options": [{"prompt": "1", "value": "KLMA"}, {"prompt": "2", "value": "KLKA"}, {"prompt": "3", "value": "KLLA"}, {"prompt": "4", "value": "KLNA"}], "range": {"start": "", "end": ""}}, "hn": {"value": "लुप्त पद ज्ञात करें।<br />\nELFA, GLHA, ILJA, ?, MLNA", "options": [{"prompt": "1", "value": "KLMA"}, {"prompt": "2", "value": "KLKA"}, {"prompt": "3", "value": "KLLA"}, {"prompt": "4", "value": "KLNA"}], "range": {"start": "", "end": ""}}, "te": {"value": "లేకుండా పోయిన పదాన్ని కనుగొనండి.<br />\nELFA, GLHA, ILJA, ?, MLNA", "options": [{"prompt": "1", "value": "KLMA"}, {"prompt": "2", "value": "KLKA"}, {"prompt": "3", "value": "KLLA"}, {"prompt": "4", "value": "KLNA"}], "range": {"start": "", "end": ""}}, "bn": {"value": "অনুপস্থিত পদটি খুঁজুন।<br />\nELFA, GLHA, ILJA, ?, MLNA", "options": [{"prompt": "1", "value": "KLMA"}, {"prompt": "2", "value": "KLKA"}, {"prompt": "3", "value": "KLLA"}, {"prompt": "4", "value": "KLNA"}], "range": {"start": "", "end": ""}}, "gu": {"value": " ખૂટતો શબ્દ શોધો.<br />\nELFA, GLHA, ILJA, ?, MLNA", "options": [{"prompt": "1", "value": "KLMA"}, {"prompt": "2", "value": "KLKA"}, {"prompt": "3", "value": "KLLA"}, {"prompt": "4", "value": "KLNA"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಕಾಣೆಯಾದ ಪದವನ್ನು ಹುಡುಕಿ.<br />\nELFA, GLHA, ILJA, ?, MLNA", "options": [{"prompt": "1", "value": "KLMA"}, {"prompt": "2", "value": "KLKA"}, {"prompt": "3", "value": "KLLA"}, {"prompt": "4", "value": "KLNA"}], "range": {"start": "", "end": ""}}, "ta": {"value": "விடுபட்ட சொல்லைக் கண்டறிக.<br />\nELFA, GLHA, ILJA, ?, MLNA", "options": [{"prompt": "1", "value": "KLMA"}, {"prompt": "2", "value": "KLKA"}, {"prompt": "3", "value": "KLLA"}, {"prompt": "4", "value": "KLNA"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69cb5c54b71a5e64e30934d9", "qs_no": 15, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "If 11 &times; 11 = 4, 22 &times; 22 = 16, then 33 &times; 33 = ?", "options": [{"prompt": "1", "value": "18"}, {"prompt": "2", "value": "24"}, {"prompt": "3", "value": "26"}, {"prompt": "4", "value": "28"}], "range": {"start": "", "end": ""}}, "hn": {"value": "यदि 11 × 11 = 4, 22 × 22 = 16, तो 33 × 33 = ?", "options": [{"prompt": "1", "value": "18"}, {"prompt": "2", "value": "24"}, {"prompt": "3", "value": "26"}, {"prompt": "4", "value": "28"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69c913e495e1fcdd44d13cd4", "qs_no": 16, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Direction: In each of the following questions, four words have been given, out of which three are alike in some manner and the fourth one is different. Choose out the odd one.", "options": [{"prompt": "1", "value": "Asia"}, {"prompt": "2", "value": "Europe"}, {"prompt": "3", "value": "Russia"}, {"prompt": "4", "value": "Africa"}], "range": {"start": "", "end": ""}}, "hn": {"value": "निर्देश: निम्नलिखित प्रत्येक प्रश्न में, चार शब्द दिए गए हैं, जिनमें से तीन किसी न किसी तरह से समान हैं और चौथा भिन्न है। विषम शब्द का चयन करें।", "options": [{"prompt": "1", "value": "एशिया"}, {"prompt": "2", "value": "यूरोप"}, {"prompt": "3", "value": "रूस"}, {"prompt": "4", "value": "अफ्रीका"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Classification", "confidence": "high"}, {"qid": "690c56151082af59a1b936eb", "qs_no": 17, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>Which two signs should be interchanged to make the equation correct?</p>\n\n<p>25 &times; 2 - 10 &divide; 5 + 3 = 49</p>\n", "options": [{"prompt": "1", "value": "&amp;times; and -"}, {"prompt": "2", "value": "- and &amp;divide;"}, {"prompt": "3", "value": "&amp;divide; and +"}, {"prompt": "4", "value": "+ and -"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>समीकरण को सही बनाने के लिए किन दो चिह्नों को आपस में बदलना चाहिए?</p>\n\n<p>25 x 2 - 10 ÷ 5 + 3 = 49</p>\n", "options": [{"prompt": "1", "value": "x और -"}, {"prompt": "2", "value": "- और &divide;"}, {"prompt": "3", "value": "&divide; और +"}, {"prompt": "4", "value": "+ और -"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "690c56f1ebc32ff12ec4e7d4", "qs_no": 18, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "If &#39;TIGER&#39; is coded as &#39;20-9-7-5-18&#39;, how will &#39;REGIT&#39; be coded?", "options": [{"prompt": "1", "value": "15-4-4-16-12"}, {"prompt": "2", "value": "6-23-26-13-22"}, {"prompt": "3", "value": "18-5-7-9-20"}, {"prompt": "4", "value": "21-26-12-16-8"}], "range": {"start": "", "end": ""}}, "hn": {"value": "यदि &#39;TIGER&#39; को &#39;20-9-7-5-18&#39; के रूप में कूटबद्ध किया जाता है, तो &#39;REGIT&#39; को किस प्रकार कूटबद्ध किया जाएगा?", "options": [{"prompt": "1", "value": "15-4-4-16-12"}, {"prompt": "2", "value": "6-23-26-13-22"}, {"prompt": "3", "value": "18-5-7-9-20"}, {"prompt": "4", "value": "21-26-12-16-8"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Coding-Decoding", "confidence": "high"}, {"qid": "690b2b50e5487d5c9d208cfb", "qs_no": 19, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "If the given symbols mean:<br />\n&#39;+&#39; means &#39;divided by&#39;<br />\n&#39;-&#39; means &#39;multiplied by&#39;<br />\n&#39;x&#39; means &#39;minus&#39;<br />\n&#39;&divide;&#39; means &#39;plus&#39;<br />\nThen, find the value of the following expressions: 12 + 3 - 8 x 2 &divide; 1=?", "options": [{"prompt": "1", "value": "17"}, {"prompt": "2", "value": "31"}, {"prompt": "3", "value": "46"}, {"prompt": "4", "value": "67"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>यदि दिए गए प्रतीकों का अर्थ है:<br />\n&#39;+&#39; का अर्थ है &#39;से भाग&#39;<br />\n&#39;-&#39; का अर्थ है &#39;से गुणा&#39;<br />\n&#39;&times;&#39; का अर्थ है &#39;घटाना&#39;<br />\n&#39;&divide;&#39; का अर्थ है &#39;जोड़ना&#39;<br />\nतो, निम्नलिखित व्यंजकों का मान ज्ञात कीजिए: 12 + 3 - 8 &times; 2 &divide; 1=?</p>\n", "options": [{"prompt": "1", "value": "17"}, {"prompt": "2", "value": "31"}, {"prompt": "3", "value": "46"}, {"prompt": "4", "value": "67"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69cf9ef761af57bcdf98a558", "qs_no": 20, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<div><span style=\"color: rgb(33, 37, 41);\">In the question below there are three statements followed by two conclusions I and II. You have to take the given statements to be true even if they seem to be at variance from commonly known facts and then decide which of the given conclusions logically follows from the three statements disregarding commonly known facts.<br />\nStatements:<br />\nOnly Car are Vehicle.<br />\nSome Car are Bulky.<br />\nAll Metal are Bulky.<br />\nConclusions:<br />\nI. Some Vehicle are not Metal.<br />\nII. Some Metal are Car.</span></div>\n", "options": [{"prompt": "1", "value": "&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Only II&lt;/span&gt;&lt;/div&gt;\n"}, {"prompt": "2", "value": "&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Both I and II&lt;/span&gt;&lt;/div&gt;\n"}, {"prompt": "3", "value": "&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Only I&lt;/span&gt;&lt;/div&gt;\n"}, {"prompt": "4", "value": "&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Neither I nor II&lt;/span&gt;&lt;/div&gt;\n"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<div><span style=\"color: rgb(33, 37, 41);\">नीचे दिए गए प्रश्न में तीन कथन और उनके बाद दो निष्कर्ष I और II दिए गए हैं। आपको दिए गए तीनों कथनों को सत्य मानना है, भले ही वे सर्वज्ञात तथ्यों से अलग प्रतीत होते हों और फिर निर्णय लीजिए कि दिए गए निष्कर्षों में से कौन-सा निष्कर्ष सर्वज्ञात तथ्यों को नज़रअंदाज़ करने पर भी तीनों कथनों का तार्किक रूप से अनुसरण करता है।<br />\nकथनः<br />\nकेवल कार, वाहन हैं।<br />\nकुछ कार, भारी हैं।<br />\nसभी धातु, भारी हैं।<br />\nनिष्कर्षः<br />\nI. कुछ वाहन, धातु नहीं हैं।<br />\nII. कुछ धातु, कार हैं।</span></div>\n", "options": [{"prompt": "1", "value": "&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;केवल II&lt;/span&gt;&lt;/div&gt;\n"}, {"prompt": "2", "value": "&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;दोनों I और II&lt;/span&gt;&lt;/div&gt;\n"}, {"prompt": "3", "value": "&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;केवल I&lt;/span&gt;&lt;/div&gt;\n"}, {"prompt": "4", "value": "&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;न तो I और न ही II&lt;/span&gt;&lt;/div&gt;\n"}], "range": {"start": "", "end": ""}}, "te": {"value": "<div><span style=\"color: rgb(33, 37, 41);\">క్రింద ఇవ్వబడిన ప్రశ్నలో మూడు ప్రకటనలు, వాటిని అనుసరించి I మరియు II అనే రెండు తీర్మానాలు ఉన్నాయి. ఇచ్చిన ప్రకటనలు సాధారణంగా తెలిసిన వాస్తవాలతో విభేదించినప్పటికీ, మీరు వాటిని నిజమని భావించాలి మరియు సాధారణంగా తెలిసిన వాస్తవాలను విస్మరించి, ఇచ్చిన తీర్మానాలలో ఏది తార్కికంగా అనుసరిస్తుందో నిర్ణయించాలి.<br />\nప్రకటనలు:<br />\nకార్లు మాత్రమే వాహనాలు.<br />\nకొన్ని కార్లు భారీగా ఉంటాయి.<br />\nలోహాలన్నీ భారీగా ఉంటాయి.<br />\nతీర్మానాలు:<br />\nI. కొన్ని వాహనాలు లోహాలు కావు.<br />\nII. కొన్ని లోహాలు కార్లు.</span></div>\n", "options": [{"prompt": "1", "value": "<div><span style=\"color: rgb(33, 37, 41);\">II మాత్రమే</span></div>\n"}, {"prompt": "2", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I మరియు II రెండూ</span></div>\n"}, {"prompt": "3", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I మాత్రమే</span></div>\n"}, {"prompt": "4", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I కానీ II కానీ అనుసరించవు</span></div>\n"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<div><span style=\"color: rgb(33, 37, 41);\">নিচের প্রশ্নে তিনটি বিবৃতির পর দুটি সিদ্ধান্ত I এবং II দেওয়া আছে। আপনাকে প্রদত্ত বিবৃতিগুলিকে সত্য বলে ধরে নিতে হবে, এমনকি যদি সেগুলি সাধারণ পরিচিত তথ্যের সাথে ভিন্ন বলে মনে হয় এবং তারপরে সাধারণ পরিচিত তথ্যগুলিকে উপেক্ষা করে প্রদত্ত তিনটি বিবৃতি থেকে কোন সিদ্ধান্তটি যৌক্তিকভাবে অনুসরণ করে তা নির্ধারণ করতে হবে।<br />\nবিবৃতি:<br />\nশুধুমাত্র Car হলো Vehicle।<br />\nকিছু Car হলো Bulky।<br />\nসব Metal হলো Bulky।<br />\nসিদ্ধান্ত:<br />\nI. কিছু Vehicle, Metal নয়।<br />\nII. কিছু Metal হলো Car।</span></div>\n", "options": [{"prompt": "1", "value": "<div><span style=\"color: rgb(33, 37, 41);\">শুধুমাত্র II</span></div>\n"}, {"prompt": "2", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I এবং II উভয়ই</span></div>\n"}, {"prompt": "3", "value": "<div><span style=\"color: rgb(33, 37, 41);\">শুধুমাত্র I</span></div>\n"}, {"prompt": "4", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I বা II কোনোটিই নয়</span></div>\n"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<div><span style=\"color: rgb(33, 37, 41);\">નીચેના પ્રશ્નમાં ત્રણ વિધાનો અને તેના પછી બે તારણો I અને II આપેલા છે. તમારે આપેલા વિધાનોને સાચા માનવાના છે, ભલે તે સામાન્ય રીતે જાણીતા તથ્યોથી અલગ જણાતા હોય અને પછી નક્કી કરો કે આપેલા તારણોમાંથી કયું તારણ સામાન્ય રીતે જાણીતા તથ્યોને અવગણીને તાર્કિક રીતે ત્રણ વિધાનોનું અનુસરણ કરે છે.<br />\nવિધાનો:<br />\nમાત્ર કાર જ વાહન (Vehicle) છે.<br />\nકેટલીક કાર બલ્કી (Bulky) છે.<br />\nબધા મેટલ (Metal) બલ્કી છે.<br />\nતારણો:<br />\nI. કેટલાક વાહન મેટલ નથી.<br />\nII. કેટલાક મેટલ કાર છે.</span></div>\n", "options": [{"prompt": "1", "value": "<div><span style=\"color: rgb(33, 37, 41);\">માત્ર II</span></div>\n"}, {"prompt": "2", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I અને II બંને</span></div>\n"}, {"prompt": "3", "value": "<div><span style=\"color: rgb(33, 37, 41);\">માત્ર I</span></div>\n"}, {"prompt": "4", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I અથવા II માંથી એકપણ નહીં</span></div>\n"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<div><span style=\"color: rgb(33, 37, 41);\">ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ಮೂರು ಹೇಳಿಕೆಗಳು ಮತ್ತು ಅವುಗಳನ್ನು ಅನುಸರಿಸಿ I ಮತ್ತು II ಎಂಬ ಎರಡು ತೀರ್ಮಾನಗಳಿವೆ. ಸಾಮಾನ್ಯ ಸತ್ಯಗಳಿಂದ ಹೇಳಿಕೆಗಳು ಭಿನ್ನವಾಗಿದ್ದರೂ ಸಹ, ನೀವು ಕೊಟ್ಟಿರುವ ಹೇಳಿಕೆಗಳನ್ನು ಸತ್ಯವೆಂದು ಪರಿಗಣಿಸಬೇಕು ಮತ್ತು ಸಾಮಾನ್ಯ ಸತ್ಯಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ ಕೊಟ್ಟಿರುವ ತೀರ್ಮಾನಗಳಲ್ಲಿ ಯಾವುದು ತಾರ್ಕಿಕವಾಗಿ ಅನುಸರಿಸುತ್ತದೆ ಎಂದು ನಿರ್ಧರಿಸಬೇಕು.<br />\nಹೇಳಿಕೆಗಳು:<br />\nಕೇವಲ ಕಾರುಗಳು ಮಾತ್ರ ವಾಹನ (Vehicle).<br />\nಕೆಲವು ಕಾರುಗಳು ಬೃಹತ್ (Bulky) ಆಗಿವೆ.<br />\nಎಲ್ಲಾ ಲೋಹಗಳು (Metal) ಬೃಹತ್ ಆಗಿವೆ.<br />\nತೀರ್ಮಾನಗಳು:<br />\nI. ಕೆಲವು ವಾಹನಗಳು ಲೋಹಗಳಲ್ಲ.<br />\nII. ಕೆಲವು ಲೋಹಗಳು ಕಾರುಗಳಾಗಿವೆ.</span></div>\n", "options": [{"prompt": "1", "value": "<div><span style=\"color: rgb(33, 37, 41);\">II ಮಾತ್ರ</span></div>\n"}, {"prompt": "2", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I ಮತ್ತು II ಎರಡೂ</span></div>\n"}, {"prompt": "3", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I ಮಾತ್ರ</span></div>\n"}, {"prompt": "4", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I ಅಥವಾ II ಎರಡೂ ಅಲ್ಲ</span></div>\n"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<div><span style=\"color: rgb(33, 37, 41);\">கீழே உள்ள கேள்வியில் மூன்று கூற்றுகளைத் தொடர்ந்து I மற்றும் II ஆகிய இரண்டு முடிவுகள் உள்ளன. கொடுக்கப்பட்ட கூற்றுகள் பொதுவாக அறியப்பட்ட உண்மைகளிலிருந்து வேறுபடுவதாகத் தோன்றினாலும் அவற்றை உண்மையானவை என்று நீங்கள் எடுத்துக்கொள்ள வேண்டும், பின்னர் பொதுவாக அறியப்பட்ட உண்மைகளைப் புறக்கணித்து, கொடுக்கப்பட்ட முடிவுகளில் எது மூன்று கூற்றுகளிலிருந்து தர்க்கரீதியாகப் பின்பற்றப்படுகிறது என்பதைத் தீர்மானிக்க வேண்டும்.<br />\nகூற்றுகள்:<br />\nகார் மட்டுமே வாகனம்.<br />\nசில கார் பருமனானவை.<br />\nஅனைத்து உலோகங்களும் பருமனானவை.<br />\nமுடிவுகள்:<br />\nI. சில வாகனங்கள் உலோகம் அல்ல.<br />\nII. சில உலோகம் கார் ஆகும்.</span></div>\n", "options": [{"prompt": "1", "value": "<div><span style=\"color: rgb(33, 37, 41);\">II மட்டும்</span></div>\n"}, {"prompt": "2", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I மற்றும் II ஆகிய இரண்டும்</span></div>\n"}, {"prompt": "3", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I மட்டும்</span></div>\n"}, {"prompt": "4", "value": "<div><span style=\"color: rgb(33, 37, 41);\">I அல்லது II ஆகிய இரண்டும் இல்லை</span></div>\n"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Syllogism", "confidence": "high"}, {"qid": "6942807785b4cab78c25184f", "qs_no": 21, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "In a row of 80 students, if Arun is 23rd from the left and there are 18 students between Arun and Bharat, what is Bharat&#39;s position from the right end? (Bharat is to the right of Arun)", "options": [{"prompt": "1", "value": "38"}, {"prompt": "2", "value": "39"}, {"prompt": "3", "value": "40"}, {"prompt": "4", "value": "41"}], "range": {"start": "", "end": ""}}, "hn": {"value": "80 छात्रों की एक पंक्ति में, यदि अरुण बायें से 23वें स्थान पर है तथा अरुण और भरत के बीच 18 छात्र हैं, तो दायें छोर से भरत का स्थान क्या है? (भरत, अरुण के दायें है)", "options": [{"prompt": "1", "value": "38"}, {"prompt": "2", "value": "39"}, {"prompt": "3", "value": "40"}, {"prompt": "4", "value": "41"}], "range": {"start": "", "end": ""}}, "te": {"value": "80 మంది విద్యార్థుల వరుసలో, అరుణ్ ఎడమ నుండి 23వ స్థానంలో ఉంటే మరియు అరుణ్ మరియు భరత్ మధ్య 18 మంది విద్యార్థులు ఉంటే, కుడి చివర నుండి భరత్ స్థానం ఎంత? (భరత్ అరుణ్ కుడి వైపున ఉన్నాడు)", "options": [{"prompt": "1", "value": "38"}, {"prompt": "2", "value": "39"}, {"prompt": "3", "value": "40"}, {"prompt": "4", "value": "41"}], "range": {"start": "", "end": ""}}, "bn": {"value": "80 জন শিক্ষার্থীর একটি সারিতে, যদি অরুণ বাম দিক থেকে 23 তম হয় এবং অরুণ ও ভরতের মধ্যে 18 জন শিক্ষার্থী থাকে, তাহলে ডান দিক থেকে ভরতের অবস্থান কত? (ভরত অরুণের ডান দিকে আছে)", "options": [{"prompt": "1", "value": "38"}, {"prompt": "2", "value": "39"}, {"prompt": "3", "value": "40"}, {"prompt": "4", "value": "41"}], "range": {"start": "", "end": ""}}, "gu": {"value": "80 વિદ્યાર્થીઓની હારમાં, જો અરુણ ડાબી બાજુથી 23મો છે અને અરુણ અને ભરત વચ્ચે 18 વિદ્યાર્થીઓ છે, તો જમણી બાજુથી ભરતનું સ્થાન શું છે? (ભરત અરુણની જમણી બાજુએ છે)", "options": [{"prompt": "1", "value": "38"}, {"prompt": "2", "value": "39"}, {"prompt": "3", "value": "40"}, {"prompt": "4", "value": "41"}], "range": {"start": "", "end": ""}}, "kn": {"value": "80 ವಿದ್ಯಾರ್ಥಿಗಳ ಸಾಲಿನಲ್ಲಿ, ಅರುಣ್ ಎಡದಿಂದ 23 ನೇ ಸ್ಥಾನದಲ್ಲಿದ್ದರೆ ಮತ್ತು ಅರುಣ್ ಮತ್ತು ಭರತ್ ನಡುವೆ 18 ವಿದ್ಯಾರ್ಥಿಗಳಿದ್ದರೆ, ಬಲ ತುದಿಯಿಂದ ಭರತ್‌ನ ಸ್ಥಾನವೇನು? (ಭರತ್ ಅರುಣ್‌ನ ಬಲಕ್ಕೆ ಇದ್ದಾನೆ)", "options": [{"prompt": "1", "value": "38"}, {"prompt": "2", "value": "39"}, {"prompt": "3", "value": "40"}, {"prompt": "4", "value": "41"}], "range": {"start": "", "end": ""}}, "ta": {"value": "80 மாணவர்கள் கொண்ட ஒரு வரிசையில், அருண் இடதுபுறத்தில் இருந்து 23வது இடத்திலும், அருண் மற்றும் பரத்துக்கு இடையில் 18 மாணவர்கள் இருந்தால், வலது முனையில் இருந்து பரத்தின் நிலை என்ன? (பரத் அருணின் வலதுபுறம் உள்ளார்)", "options": [{"prompt": "1", "value": "38"}, {"prompt": "2", "value": "39"}, {"prompt": "3", "value": "40"}, {"prompt": "4", "value": "41"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Ranking/Order", "confidence": "high"}, {"qid": "69b3ffedea4077c6555e9f8c", "qs_no": 22, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>What comes next in the following series?</p>\n\n<p>A1, B1, C8, D27, E125, F512, ?</p>\n", "options": [{"prompt": "1", "value": "G125"}, {"prompt": "2", "value": "E1728"}, {"prompt": "3", "value": "G729"}, {"prompt": "4", "value": "G2197"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>निम्नलिखित श्रृंखला में अगले स्थान पर इनमें से कौन सा विकल्प आएगा?</p>\n\n<p>A1, B1, C8, D27, E125, F512, ?</p>\n", "options": [{"prompt": "1", "value": "G125"}, {"prompt": "2", "value": "E1728"}, {"prompt": "3", "value": "G729"}, {"prompt": "4", "value": "G2197"}], "range": {"start": "", "end": ""}}, "te": {"value": "<p>కింది శ్రేణిలో తదుపరి ఏమి వస్తుంది?</p>\n\n<p>A1, B1, C8, D27, E125, F512, ?</p>\n", "options": [{"prompt": "1", "value": "G125"}, {"prompt": "2", "value": "E1728"}, {"prompt": "3", "value": "G729"}, {"prompt": "4", "value": "G2197"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<p>নিম্নলিখিত সিরিজে পরবর্তীতে কী আসবে?</p>\n\n<p>A1, B1, C8, D27, E125, F512, ?</p>\n", "options": [{"prompt": "1", "value": "G125"}, {"prompt": "2", "value": "E1728"}, {"prompt": "3", "value": "G729"}, {"prompt": "4", "value": "G2197"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<p>નીચેની શ્રેણીમાં આગળ શું આવશે?</p>\n\n<p>A1, B1, C8, D27, E125, F512, ?</p>\n", "options": [{"prompt": "1", "value": "G125"}, {"prompt": "2", "value": "E1728"}, {"prompt": "3", "value": "G729"}, {"prompt": "4", "value": "G2197"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<p>ಕೆಳಗಿನ ಸರಣಿಯಲ್ಲಿ ಮುಂದೆ ಬರುವ ಸಂಖ್ಯೆ ಯಾವುದು?</p>\n\n<p>A1, B1, C8, D27, E125, F512, ?</p>\n", "options": [{"prompt": "1", "value": "G125"}, {"prompt": "2", "value": "E1728"}, {"prompt": "3", "value": "G729"}, {"prompt": "4", "value": "G2197"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<p>பின்வரும் தொடரில் அடுத்தது என்ன?</p>\n\n<p>A1, B1, C8, D27, E125, F512, ?</p>\n", "options": [{"prompt": "1", "value": "G125"}, {"prompt": "2", "value": "E1728"}, {"prompt": "3", "value": "G729"}, {"prompt": "4", "value": "G2197"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Series", "confidence": "high"}, {"qid": "699f10f924dfc693522ca26d", "qs_no": 23, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "In a certain coded language &#39;COMPS&#39; is coded as &#39;NKHKY&#39; and &#39;ABATE&#39; is coded as &#39;ZOVXW&#39;. How will &#39;SMOKY&#39; be coded in the same code language?", "options": [{"prompt": "1", "value": "RHKJN"}, {"prompt": "2", "value": "TGKIQ"}, {"prompt": "3", "value": "SFIKQ"}, {"prompt": "4", "value": "TFJIO"}], "range": {"start": "", "end": ""}}, "hn": {"value": "एक विशिष्ट कोड भाषा में, &#39;COMPS&#39; को &#39;NKHKY&#39; लिखा जाता है तथा &#39;ABATE&#39; को &#39;ZOVXW&#39; लिखा जाता है। इस कोड भाषा में &#39;SMOKY&#39; को किस प्रकार लिखा जाएगा?", "options": [{"prompt": "1", "value": "RHKJN"}, {"prompt": "2", "value": "TGKIQ"}, {"prompt": "3", "value": "SFIKQ"}, {"prompt": "4", "value": "TFJIO"}], "range": {"start": "", "end": ""}}, "te": {"value": "ఒక నిర్దిష్ట కోడెడ్ భాషలో 'COMPS'ని 'NKHKY' అని మరియు 'ABATE'ని 'ZOVXW' అని కోడ్ చేయబడింది. అదే కోడ్ భాషలో 'SMOKY'ని ఎలా కోడ్ చేస్తారు?", "options": [{"prompt": "1", "value": "RHKJN"}, {"prompt": "2", "value": "TGKIQ"}, {"prompt": "3", "value": "SFIKQ"}, {"prompt": "4", "value": "TFJIO"}], "range": {"start": "", "end": ""}}, "bn": {"value": "একটি নির্দিষ্ট সাংকেতিক ভাষায় 'COMPS' কে 'NKHKY' এবং 'ABATE' কে 'ZOVXW' হিসাবে সংকেতায়িত করা হয়। একই কোড ভাষায় 'SMOKY' কে কীভাবে সংকেতায়িত করা হবে?", "options": [{"prompt": "1", "value": "RHKJN"}, {"prompt": "2", "value": "TGKIQ"}, {"prompt": "3", "value": "SFIKQ"}, {"prompt": "4", "value": "TFJIO"}], "range": {"start": "", "end": ""}}, "gu": {"value": "એક ચોક્કસ કોડેડ ભાષામાં 'COMPS' ને 'NKHKY' તરીકે કોડ કરવામાં આવે છે અને 'ABATE' ને 'ZOVXW' તરીકે કોડ કરવામાં આવે છે. તો એ જ કોડ ભાષામાં 'SMOKY' ને કેવી રીતે કોડ કરવામાં આવશે?", "options": [{"prompt": "1", "value": "RHKJN"}, {"prompt": "2", "value": "TGKIQ"}, {"prompt": "3", "value": "SFIKQ"}, {"prompt": "4", "value": "TFJIO"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಕೇತ ಭಾಷೆಯಲ್ಲಿ 'COMPS' ಅನ್ನು 'NKHKY' ಎಂದು ಸಂಕೇತಿಸಲಾಗಿದೆ ಮತ್ತು 'ABATE' ಅನ್ನು 'ZOVXW' ಎಂದು ಸಂಕೇತಿಸಲಾಗಿದೆ. ಅದೇ ಸಂಕೇತ ಭಾಷೆಯಲ್ಲಿ 'SMOKY' ಅನ್ನು ಹೇಗೆ ಸಂಕೇತಿಸಲಾಗುತ್ತದೆ?", "options": [{"prompt": "1", "value": "RHKJN"}, {"prompt": "2", "value": "TGKIQ"}, {"prompt": "3", "value": "SFIKQ"}, {"prompt": "4", "value": "TFJIO"}], "range": {"start": "", "end": ""}}, "ta": {"value": "ஒரு குறிப்பிட்ட குறியீட்டு மொழியில் 'COMPS' என்பது 'NKHKY' எனவும், 'ABATE' என்பது 'ZOVXW' எனவும் குறியீடு செய்யப்பட்டால், அதே குறியீட்டு மொழியில் 'SMOKY' என்பது எவ்வாறு குறியீடு செய்யப்படும்?", "options": [{"prompt": "1", "value": "RHKJN"}, {"prompt": "2", "value": "TGKIQ"}, {"prompt": "3", "value": "SFIKQ"}, {"prompt": "4", "value": "TFJIO"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Coding-Decoding", "confidence": "high"}, {"qid": "699e48c8c0b31374fcf6169e", "qs_no": 24, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "R started walking towards north. During his journey, he turned 7 times right and 5 times left. In which direction he will be facing finally?", "options": [{"prompt": "1", "value": "East"}, {"prompt": "2", "value": "South"}, {"prompt": "3", "value": "West"}, {"prompt": "4", "value": "North"}], "range": {"start": "", "end": ""}}, "hn": {"value": "R उत्तर की ओर चलना शुरू करता है। अपनी यात्रा के दौरान वह 7 बार दाएं तथा 5 बार बाएं मुड़ता है। अंत में वह किस दिशा की ओर देख रहा होगा?", "options": [{"prompt": "1", "value": "पूर्व"}, {"prompt": "2", "value": "दक्षिण"}, {"prompt": "3", "value": "पश्चिम"}, {"prompt": "4", "value": "उत्तर"}], "range": {"start": "", "end": ""}}, "te": {"value": "R ఉత్తరం వైపు నడవడం ప్రారంభించాడు. తన ప్రయాణంలో, అతను 7 సార్లు కుడివైపు మరియు 5 సార్లు ఎడమవైపు తిరిగాడు. చివరగా అతను ఏ దిశలో ఎదుర్కొంటాడు?", "options": [{"prompt": "1", "value": "తూర్పు"}, {"prompt": "2", "value": "దక్షిణం"}, {"prompt": "3", "value": "పడమర"}, {"prompt": "4", "value": "ఉత్తరం"}], "range": {"start": "", "end": ""}}, "bn": {"value": "R উত্তরের দিকে হাঁটা শুরু করে। তার যাত্রাপথে সে 7 বার ডানদিকে এবং 5 বার বাঁদিকে মোড় নেয়। অবশেষে সে কোন দিকে মুখ করে থাকবে?", "options": [{"prompt": "1", "value": "পূর্ব"}, {"prompt": "2", "value": "দক্ষিণ"}, {"prompt": "3", "value": "পশ্চিম"}, {"prompt": "4", "value": "উত্তর"}], "range": {"start": "", "end": ""}}, "gu": {"value": "R ઉત્તર તરફ ચાલવાનું શરૂ કરે છે. તેની મુસાફરી દરમિયાન, તે 7 વખત જમણી તરફ અને 5 વખત ડાબી તરફ વળે છે. અંતે તે કઈ દિશામાં મોં રાખીને ઊભો હશે?", "options": [{"prompt": "1", "value": "પૂર્વ"}, {"prompt": "2", "value": "દક્ષિણ"}, {"prompt": "3", "value": "પશ્ચિમ"}, {"prompt": "4", "value": "ઉત્તર"}], "range": {"start": "", "end": ""}}, "kn": {"value": "R ಉತ್ತರದ ಕಡೆಗೆ ನಡೆಯಲು ಪ್ರಾರಂಭಿಸಿದನು. ಅವನ ಪ್ರಯಾಣದಲ್ಲಿ, ಅವನು 7 ಬಾರಿ ಬಲಕ್ಕೆ ಮತ್ತು 5 ಬಾರಿ ಎಡಕ್ಕೆ ತಿರುಗಿದನು. ಕೊನೆಯಲ್ಲಿ ಅವನು ಯಾವ ದಿಕ್ಕಿಗೆ ಮುಖ ಮಾಡುತ್ತಾನೆ?", "options": [{"prompt": "1", "value": "ಪೂರ್ವ"}, {"prompt": "2", "value": "ದಕ್ಷಿಣ"}, {"prompt": "3", "value": "ಪಶ್ಚಿಮ"}, {"prompt": "4", "value": "ಉತ್ತರ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "R வடக்குப் பக்கமாக நடக்கத் தொடங்கினார். தனது பயணத்தின் போது, அவர் 7 முறை வலதுபுறமும் 5 முறை இடதுபுறமும் திரும்பினார். அவர் இறுதியாக எந்த திசையை நோக்கி இருப்பார்?", "options": [{"prompt": "1", "value": "கிழக்கு"}, {"prompt": "2", "value": "தெற்கு"}, {"prompt": "3", "value": "மேற்கு"}, {"prompt": "4", "value": "வடக்கு"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Direction Sense", "confidence": "high"}, {"qid": "6909f904a937eb1254c051e2", "qs_no": 25, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the address that is exactly the same as the one given below.<br />\nC-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka &ndash; 560010", "options": [{"prompt": "1", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka &amp;ndash; 560011"}, {"prompt": "2", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka &amp;ndash; 560012"}, {"prompt": "3", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka &amp;ndash; 560013"}, {"prompt": "4", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka &amp;ndash; 560010"}], "range": {"start": "", "end": ""}}, "hn": {"value": "वह पता चुनें जो नीचे दिए गए पते के बिल्कुल समान है।<br />\nC-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560011&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560012&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560013&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "కింద ఇవ్వబడిన చిరునామాను సరిగ్గా పోలి ఉన్న చిరునామాను ఎంచుకోండి.<br />\nC-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010", "options": [{"prompt": "1", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560011"}, {"prompt": "2", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560012"}, {"prompt": "3", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560013"}, {"prompt": "4", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010"}], "range": {"start": "", "end": ""}}, "mr": {"value": "खाली दिलेल्या पत्त्याशी तंतोतंत जुळणारा पत्ता निवडा.<br />\nC-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010", "options": [{"prompt": "1", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560011"}, {"prompt": "2", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560012"}, {"prompt": "3", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560013"}, {"prompt": "4", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010"}], "range": {"start": "", "end": ""}}, "bn": {"value": "নিচে দেওয়া ঠিকানার সাথে হুবহু মিল রয়েছে এমন ঠিকানাটি নির্বাচন করুন।<br />\nC-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010", "options": [{"prompt": "1", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560011"}, {"prompt": "2", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560012"}, {"prompt": "3", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560013"}, {"prompt": "4", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010"}], "range": {"start": "", "end": ""}}, "gu": {"value": "નીચે આપેલા સરનામા જેવું જ બરાબર સરનામું પસંદ કરો.<br />\nC-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010", "options": [{"prompt": "1", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560011"}, {"prompt": "2", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560012"}, {"prompt": "3", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560013"}, {"prompt": "4", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಕೆಳಗೆ ನೀಡಿರುವ ವಿಳಾಸವನ್ನು ಹೋಲುವ ವಿಳಾಸವನ್ನು ಆರಿಸಿ.<br />\nC-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010", "options": [{"prompt": "1", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560011"}, {"prompt": "2", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560012"}, {"prompt": "3", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560013"}, {"prompt": "4", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010"}], "range": {"start": "", "end": ""}}, "ta": {"value": "கீழே கொடுக்கப்பட்டுள்ள முகவரியைப் போலவே அச்சு அசலாக இருக்கும் முகவரியைத் தேர்ந்தெடுக்கவும்.<br />\nC-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010", "options": [{"prompt": "1", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560011"}, {"prompt": "2", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560012"}, {"prompt": "3", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560013"}, {"prompt": "4", "value": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka - 560010"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Similarity and Differences", "confidence": "high"}]}]}</script>
+<script>
+const TEST_DATA = JSON.parse(document.getElementById('test-data').textContent);
+const TOTAL_Q = 25;
+const DURATION_SEC = 0 * 60;
+
+// State
+let currentSectionIdx = 0;
+let currentQIdx = 0;  // global across sections
+let currentLang = 'en';
+let answers = {};  // qid -> selected option prompt
+let marked = {};   // qid -> true
+let visited = new Set();
+let submitted = false;
+let timeLeft = DURATION_SEC;
+let timerInterval = null;
+
+// Flatten all questions for easy indexing
+const allQuestions = [];
+TEST_DATA.sections.forEach((s, sIdx) => {
+  s.questions.forEach(q => {
+    allQuestions.push({...q, sectionIdx: sIdx, sectionName: s.section_name});
+  });
+});
+
+function init() {
+  // Render section tabs
+  const sectionTabs = document.getElementById('sectionTabs');
+  TEST_DATA.sections.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'section-tab' + (i === 0 ? ' active' : '');
+    tab.textContent = s.section_name + ' (' + s.questions.length + ')';
+    tab.onclick = () => switchSection(i);
+    sectionTabs.appendChild(tab);
+  });
+  // Render palette
+  renderPalette();
+  // Render first question
+  renderQuestion();
+  // Start timer
+  startTimer();
+  // Update stats
+  updateStats();
+}
+
+function startTimer() {
+  if (DURATION_SEC <= 0) {
+    // No time limit — show "No Limit" instead of a countdown
+    document.getElementById('timer').textContent = 'No Limit';
+    document.getElementById('timer').classList.add('no-limit');
+    return;
+  }
+  timerInterval = setInterval(() => {
+    if (submitted) return;
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      submitTest();
+    }
+  }, 1000);
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeLeft / 3600);
+  const m = Math.floor((timeLeft % 3600) / 60);
+  const s = timeLeft % 60;
+  const display = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  const timerEl = document.getElementById('timer');
+  timerEl.textContent = display;
+  if (timeLeft < 60) {
+    timerEl.className = 'timer danger';
+  } else if (timeLeft < 300) {
+    timerEl.className = 'timer warning';
+  }
+}
+
+function renderQuestion() {
+  const q = allQuestions[currentQIdx];
+  if (!q) return;
+  visited.add(q.qid);
+  // Update section tab
+  currentSectionIdx = q.sectionIdx;
+  document.querySelectorAll('.section-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSectionIdx);
+  });
+  document.getElementById('currentSectionLabel').textContent = q.sectionName;
+  // Question header — includes Q number, marks, concept, confidence, and question ID
+  document.getElementById('qNum').textContent = 'Q' + (currentQIdx + 1);
+  let headerExtras = '<span class="mark-pos">+' + q.pos_marks + '</span><span class="mark-neg">-' + q.neg_marks + '</span>';
+  // Concept + confidence (from AI classifier — same as AI JSON)
+  const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+  const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+  const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+  headerExtras += '<span class="q-concept" title="Concept category">🎯 ' + concept + '</span>';
+  headerExtras += '<span class="q-confidence ' + confClass + '" title="Classifier confidence">conf: ' + confidence + '</span>';
+  // Question ID (unique per question, useful for cross-test matching)
+  headerExtras += '<span class="q-id" title="Question ID (unique across all tests)">ID: ' + q.qid + '</span>';
+  document.getElementById('qMarks').innerHTML = headerExtras;
+  // Language tabs
+  const langTabs = document.getElementById('qLangTabs');
+  langTabs.innerHTML = '';
+  const availableLangs = Object.keys(q.langs);
+  const showLangs = ['en','hn','te','mr','bn','ml','gu','kn','ta','or'].filter(l => availableLangs.includes(l));
+  if (showLangs.length > 1) {
+    showLangs.forEach((l, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'q-lang-tab' + (l === currentLang ? ' active' : '');
+      btn.textContent = {en:'English',hn:'Hindi',te:'Telugu',mr:'Marathi',bn:'Bengali',ml:'Malayalam',gu:'Gujarati',kn:'Kannada',ta:'Tamil',or:'Odia'}[l] || l;
+      btn.onclick = () => { currentLang = l; renderQuestion(); };
+      langTabs.appendChild(btn);
+    });
+  }
+  // Question text
+  const langData = q.langs[currentLang] || q.langs[availableLangs[0]] || {};
+  document.getElementById('qText').innerHTML = langData.value || '(no question text)';
+  // Options
+  const optsList = document.getElementById('optionsList');
+  optsList.innerHTML = '';
+  (langData.options || []).forEach(opt => {
+    const li = document.createElement('li');
+    li.className = 'option-item' + (answers[q.qid] === opt.prompt ? ' selected' : '');
+    li.innerHTML = '<span class="option-label">' + opt.prompt + '</span><span class="option-text">' + opt.value + '</span>';
+    li.onclick = () => selectOption(q.qid, opt.prompt);
+    optsList.appendChild(li);
+  });
+  // Update palette
+  renderPalette();
+  updateStats();
+}
+
+function selectOption(qid, prompt) {
+  if (submitted) return;
+  if (answers[qid] === prompt) {
+    delete answers[qid];
+  } else {
+    answers[qid] = prompt;
+  }
+  renderQuestion();
+}
+
+function saveNext() {
+  nextQuestion();
+}
+
+function markReviewNext() {
+  const q = allQuestions[currentQIdx];
+  marked[q.qid] = true;
+  nextQuestion();
+}
+
+function clearResponse() {
+  const q = allQuestions[currentQIdx];
+  delete answers[q.qid];
+  renderQuestion();
+}
+
+function nextQuestion() {
+  if (currentQIdx < allQuestions.length - 1) {
+    currentQIdx++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQIdx > 0) {
+    currentQIdx--;
+    renderQuestion();
+  }
+}
+
+function jumpTo(idx) {
+  currentQIdx = idx;
+  renderQuestion();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function switchSection(idx) {
+  currentSectionIdx = idx;
+  // Find first question in this section
+  const qIdx = allQuestions.findIndex(q => q.sectionIdx === idx);
+  if (qIdx >= 0) {
+    currentQIdx = qIdx;
+    renderQuestion();
+  }
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const cell = document.createElement('div');
+    let cls = 'palette-cell ';
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) cls += 'marked-answered';
+    else if (isMarked) cls += 'marked';
+    else if (isAnswered) cls += 'answered';
+    else if (isVisited) cls += 'notanswered';
+    else cls += 'notvisited';
+    if (i === currentQIdx) cls += ' current';
+    cell.className = cls;
+    cell.textContent = (i + 1);
+    cell.onclick = () => jumpTo(i);
+    grid.appendChild(cell);
+  });
+}
+
+function updateStats() {
+  let answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) marked++;
+    else if (isMarked) marked++;
+    else if (isAnswered) answered++;
+    else if (isVisited) notAnswered++;
+    else notVisited++;
+  });
+  document.getElementById('paletteStats').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${notAnswered}</strong></div>
+    <div><span>Marked:</span><strong>${marked}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+  `;
+}
+
+function openSubmitModal() {
+  let answered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    if (answers[q.qid] !== undefined) answered++;
+    else if (marked[q.qid]) marked++;
+    else if (!visited.has(q.qid)) notVisited++;
+  });
+  document.getElementById('submitSummary').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${TOTAL_Q - answered - notVisited}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+    <div><span>Total:</span><strong>${TOTAL_Q}</strong></div>
+  `;
+  document.getElementById('submitModal').classList.add('open');
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('open');
+}
+
+function submitTest() {
+  submitted = true;
+  clearInterval(timerInterval);
+  closeSubmitModal();
+  // Calculate score
+  let score = 0, correct = 0, wrong = 0, skipped = 0;
+  allQuestions.forEach(q => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    if (userAns === undefined) {
+      skipped++;
+    } else if (userAns === correctAns) {
+      correct++;
+      score += q.pos_marks;
+    } else {
+      wrong++;
+      score -= q.neg_marks;
+    }
+  });
+  // Show results view
+  document.getElementById('testMode').style.display = 'none';
+  document.getElementById('resultsView').style.display = 'block';
+  document.getElementById('scoreCard').innerHTML = `
+    <div><span class="score">${score.toFixed(2)}</span><span class="total"> / ${TEST_DATA.max_marks || TOTAL_Q * 2}</span></div>
+    <div class="rank">Correct: ${correct} | Wrong: ${wrong} | Skipped: ${skipped}</div>
+    <div class="rank" style="margin-top:8px;">Accuracy: ${(correct + wrong > 0) ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0}%</div>
+  `;
+  // Render all questions with answers + solutions
+  renderAllQuestions();
+}
+
+function renderAllQuestions() {
+  const container = document.getElementById('resultsQuestions');
+  container.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    const isCorrect = userAns === correctAns;
+    const isWrong = userAns !== undefined && userAns !== correctAns;
+    const isSkipped = userAns === undefined;
+    const card = document.createElement('div');
+    card.className = 'result-card ' + (isCorrect ? 'correct' : isWrong ? 'wrong' : 'skipped');
+    const langData = q.langs[currentLang] || q.langs[Object.keys(q.langs)[0]] || {};
+    let optionsHtml = '';
+    (langData.options || []).forEach(opt => {
+      let cls = 'result-option';
+      if (opt.prompt === correctAns) cls += ' correct';
+      if (opt.prompt === userAns) cls += ' selected';
+      optionsHtml += `<li class="${cls}"><span class="result-option-label">${opt.prompt}</span><span>${opt.value}</span></li>`;
+    });
+    const sol = q.solution_html[currentLang] || q.solution_html['en'] || '';
+    const solHtml = sol ? `<div class="result-solution"><div class="result-solution-title">📖 Solution</div>${sol}</div>` : '';
+    let statusBadge = '';
+    if (isCorrect) statusBadge = '<span class="result-status correct">✓ Correct</span>';
+    else if (isWrong) statusBadge = '<span class="result-status wrong">✗ Wrong</span>';
+    else statusBadge = '<span class="result-status skipped">— Skipped</span>';
+    // Concept + confidence + question ID (same as AI JSON)
+    const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+    const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+    const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+    card.innerHTML = `
+      <div class="result-header">
+        <span class="result-q-num">Q${i + 1}</span>
+        ${statusBadge}
+        <span class="result-concept">🎯 ${concept}</span>
+        <span class="result-confidence ${confClass}">conf: ${confidence}</span>
+        <span class="result-qid">ID: ${q.qid}</span>
+      </div>
+      <div class="result-text">${langData.value || '(no text)'}</div>
+      <ul class="result-options">${optionsHtml}</ul>
+      ${solHtml}
+    `;
+    container.appendChild(card);
+  });
+}
+
+function showAllQuestions() {
+  document.getElementById('resultsView').scrollIntoView({behavior: 'smooth'});
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (submitted) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'j') nextQuestion();
+  if (e.key === 'ArrowLeft' || e.key === 'k') prevQuestion();
+  if (e.key === '1' || e.key === 'a') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[0]) selectOption(q.qid, opts[0].prompt); }
+  if (e.key === '2' || e.key === 'b') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[1]) selectOption(q.qid, opts[1].prompt); }
+  if (e.key === '3' || e.key === 'c') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[2]) selectOption(q.qid, opts[2].prompt); }
+  if (e.key === '4' || e.key === 'd') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[3]) selectOption(q.qid, opts[3].prompt); }
+});
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,941 @@
+{
+  "test_id": "6a0f454fd50c12865dcf7da4",
+  "title": "PYST 10: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 15th Sep 2025 Shift 1)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:01:57.851423+00:00",
+  "questions": [
+    {
+      "qid": "6936c3468d433b3fd0305265",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Sentence: \"A great example requires constant effort and keen observation.\n\n\" If the first letter of the 2nd, 4th, 6th, and 8th words are taken, what word is formed?",
+      "options": [
+        {
+          "label": "1",
+          "text": "GREK"
+        },
+        {
+          "label": "2",
+          "text": "KOCG"
+        },
+        {
+          "label": "3",
+          "text": "CGKO"
+        },
+        {
+          "label": "4",
+          "text": "GOKC"
+        }
+      ],
+      "correct": "1",
+      "solution": "Let’s list the words in order:\n\n \n• \n \n**A**\n\n \n \n• \n \n**great**\n\n \n \n• \n \n**example**\n\n \n \n• \n \n**requires**\n\n \n \n• \n \n**constant**\n\n \n \n• \n \n**effort**\n\n \n \n• \n \n**and**\n\n \n \n• \n \n**keen**\n\n \n \n• \n \n**observation**\n\n \n\nNow take the **first letter** of the:\n\n \n• \n \n2nd word → **g** (great)\n\n \n \n• \n \n4th word → **r** (requires)\n\n \n \n• \n \n6th word → **e** (effort)\n\n \n \n• \n \n8th word → **k** (keen)\n\n \n\n**Word Formed : G R E K**\n\nHence, the correct answer is **\"Option 1\"**",
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "6936c346c610d140011fab89",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\nBDA, FHE, JLI, NPM, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "RTQ"
+        },
+        {
+          "label": "2",
+          "text": "QTN"
+        },
+        {
+          "label": "3",
+          "text": "STN"
+        },
+        {
+          "label": "4",
+          "text": "RSO"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/97f109152367910bd8eae93eb8e31bab0a70d0a74bcefcf35e008c39540df3bf.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/97f109152367910bd8eae93eb8e31bab0a70d0a74bcefcf35e008c39540df3bf.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "6936c3479d060b64f3248dd8",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series:\n\nCMFN, CPJP, CSNR, CVRT, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "CXQJ"
+        },
+        {
+          "label": "2",
+          "text": "CYVV"
+        },
+        {
+          "label": "3",
+          "text": "CZPW"
+        },
+        {
+          "label": "4",
+          "text": "CWQW"
+        }
+      ],
+      "correct": "2",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/36a80dc6edcb718f3ab17a38181f78f67b50f0f67de879417c405e51d42a59ea.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/36a80dc6edcb718f3ab17a38181f78f67b50f0f67de879417c405e51d42a59ea.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6936c347c53c58115728534b",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'K' denotes 'addition', 'M' denotes 'subtraction', 'L' denotes 'multiplication', and 'N' denotes 'division', then what will be the value of the following expression?\n\n10 L 4 N 5 K 12 M 3 L 8 N 2",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: 10 L 4 N 5 K 12 M 3 L 8 N 2\n\n'K' denotes 'addition', 'M' denotes 'subtraction', 'L' denotes 'multiplication', and 'N' denotes 'division'\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n⇒ __**10 x 4 ÷**____** 5** __+&nb",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6936c34830577e1ab235a492",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will come at the place of question mark?\n\n2, 7, 23, 72, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "220"
+        },
+        {
+          "label": "2",
+          "text": "216"
+        },
+        {
+          "label": "3",
+          "text": "218"
+        },
+        {
+          "label": "4",
+          "text": "222"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic follows here,\n\n \n• 2 × 3 + 1=7\" id=\"MathJax-Element-1-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\"> \n \n• 7 × 3 + 2 = 23\n \n• 23 × 3 + 3 = 72 \n \n• 72 72 × 3 + 4 = 220 \n\n**\nHence, the correct answer is \"Option 1\"**\" id=\"MathJax-Element-4-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "6936c3486cdd7f219af3f2c7",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Comprehension:\n\nThe rapid increase in electric vehicle (EV) sales suggests a growing commitment to sustainability among consumers. However, this growth strains current lithium-ion battery production capacity, necessitating increased global mining operations.\n\nInstruction: Identify the assumptions that must hold for the statement to be valid, then choose the appropriate option.\n\nAssumptions:\n\nI. Consumer behavior is shifting towards sustainable transportation options.\n\nII. The current supply chain for EV components cannot immediately handle exponential demand growth.\n\nIII. Increased mining operations will not face significant environmental opposition.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I and II are implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only I and III are implicit"
+        },
+        {
+          "label": "3",
+          "text": "Only II is implicit"
+        },
+        {
+          "label": "4",
+          "text": "All assumptions are implicit"
+        }
+      ],
+      "correct": "1",
+      "solution": "Assumption Analysis\n\nI. Consumer behavior is shifting towards sustainable transportation options.**\nValid — This directly supports the claim that rising EV sales reflect sustainability commitment.\n\nII. The current supply chain for EV components cannot immediately handle exponential demand growth.\n\nValid — The statement explicitly mentions strain on battery production capacity, which implies supply limitations.\n\nIII. Increased mining operations will not face significant environmental opposition.\n\nNot required — The passage only states that increased mining is necessary, not that it will proceed smoothly or without resistance.\n\nOnly I and II are implicit\n\nHence, the correct answer is \"Option 1\"**",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "6936c3488ecaedf6b430782d",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: The city implemented mandatory water rationing last month after reservoir levels dropped to 30%, the lowest level recorded in 50 years.\n\nConclusions: I. The city is experiencing severe drought conditions.\n\nII. Water usage before rationing was unsustainable.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "3",
+      "solution": "Conclusion Analysis\n\nConclusion I: The city is experiencing severe drought conditions.**\nFollows — Extremely low reservoir levels and rationing logically indicate severe water scarcity/drought.\n\nConclusion II: Water usage before rationing was unsustainable.\n\nFollows — If reservoirs reached a historic low, prior water consumption levels could not be sustained with available supply.\n\nBoth I and II follow\n\nHence, the correct answer is \"Option 3\"**",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "6936c349fbfd33a0332990a4",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many meaningful four-letter English words can be formed using the first, second, third, and fourth letters of the word \"PLANET\" (when counted from left to right), using each letter only once in each word?",
+      "options": [
+        {
+          "label": "1",
+          "text": "One"
+        },
+        {
+          "label": "2",
+          "text": "Two"
+        },
+        {
+          "label": "3",
+          "text": "Three"
+        },
+        {
+          "label": "4",
+          "text": "Four"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given Word:\"PLANET\" \n\n \n• The word PLANET → first four letters (from left to right):\n \n• P, L, A, N\n \n• Now form meaningful four-letter English words, using each letter only once.\n \n• meaningful four-letter English words : 1\n \n• PLAN \n \n• All other combination (PALN, NAPL, ALPN, etc.) are not valid English words.\n\nHence, the correct answer is **\"Option 1\"**",
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "6936c349c66e14a5770c3ff3",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following is/are identical to the address given:\n\nVill: Rampur, PO: Rampur, PS: Lucknow, Dist: Uttar Pradesh – 226010",
+      "options": [
+        {
+          "label": "1",
+          "text": "Vill: Rampur, PO: Rampur, PS: Lucknow, Dist: Uttar Pradesh – 226010"
+        },
+        {
+          "label": "2",
+          "text": "Vill: Rampur, PO: Raipur, PS: Lucknow, Dist: Uttar Pradesh – 226010"
+        },
+        {
+          "label": "3",
+          "text": "Vill: Rampur, PO: Rampur, PS: Lucknow, Dist: Uttar Pradesh – 226011"
+        },
+        {
+          "label": "4",
+          "text": "Vill: Rampur, PO: Rampur, PS: Kanpur, Dist: Uttar Pradesh – 226010"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given Address: Vill: Rampur, PO: Rampur, PS: Lucknow, Dist: Uttar Pradesh – 226010\n\n Identical to the address given:\n\n** option 1)** **Vill: Rampur, PO: Rampur, PS: Lucknow, Dist: Uttar Pradesh – 226010**\n\nHence, the correct answer is **\"Option 1\"**",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "6936c34a06b6b3ac1a5c50be",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, a pair of letters is given, followed by its corresponding product of alphabetical positions (A = 1, B = 2, ..., Z = 26). A second pair of letters is given without its product. Identify the correct product for the second pair that maintains the same relationship as the first.\n\nExH : 40 :: CxI : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24"
+        },
+        {
+          "label": "2",
+          "text": "27"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "36"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic follows here, \n\nLogic: Multiplication of Positional value of alphabet\n\n<img alt=\"alpha teb\" src=\"https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png\" style=\"border-style: none; max-width: 100%; height: 110px; user-select: text !important; width: 49",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6936c34a9a63423ba3edb7fd",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If a geometric progression (GP) starts at 4.0 and the common ratio (CR) = 2.5, what is the 3rd term?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "16"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nFirst Term(a): 4.0\n\nCommon Ratio(r): 2.5 \n\n**Calculations:**\n\n3rd Term:\n\n⇒ a × r² = 4.0 × (2.5)²\n\n⇒ 4.0 × 6.25 = 25.0\n\nHence, The correct answer is **\"Option 2\".**",
+      "tags": [
+        "Reasoning"
+      ]
+    },
+    {
+      "qid": "6936c34aa9512ec8608b491b",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out from the given alternatives:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Wheat"
+        },
+        {
+          "label": "2",
+          "text": "Rice"
+        },
+        {
+          "label": "3",
+          "text": "Barley"
+        },
+        {
+          "label": "4",
+          "text": "Tomato"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic follows here,\n\n**Wheat, Rice, and Barley are cereal grains, whereas Tomato is a vegetable/fruit, not a cereal.**\n\nHence, the correct answer is **\"Option 4\"**",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "6936c34b8e4d983869c9e55a",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which term is wrong in the series: 4, 9, 16, 25, 35, 49",
+      "options": [
+        {
+          "label": "1",
+          "text": "9"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "25"
+        },
+        {
+          "label": "4",
+          "text": "35"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic follows here, \n\n [IMAGE: https://cdn.repeatermock.com/tb/4375a20ac0b6bbbb023cd7d19d9af5eb808c565d148514783b6caba652778979.png] \n\n35 is wrong\n\nHence, the correct answer is **\"Option 4\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4375a20ac0b6bbbb023cd7d19d9af5eb808c565d148514783b6caba652778979.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6936c34baac01fae175a8da3",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Neha said, \"The boy playing cricket is the son of my father's only sister.\" Who is the boy to Neha?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Brother"
+        },
+        {
+          "label": "2",
+          "text": "Uncle"
+        },
+        {
+          "label": "3",
+          "text": "Cousin"
+        },
+        {
+          "label": "4",
+          "text": "Father"
+        }
+      ],
+      "correct": "3",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png] \n\nAs per the given information,\n\n \n• \n \n**My father’s only sister** → Neha’s **aunt** (father’s sister)\n\n \n \n• \n \n**The son of my father’s only sister** → Neha’s **aunt’s son**\n\n \n\nAn aunt’s son is Neha’s **cousin**.\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/a3f986ed65d038a994c374cde5722b9d12e71a5bba6207cb80fe2440f2ae155f.png] \n\n \n\nHence, the correct answer is **\"Option 3\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a3f986ed65d038a994c374cde5722b9d12e71a5bba6207cb80fe2440f2ae155f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "6936c34bfbfd33a0332990ad",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Evaluate (10 - 2) ÷ (1 + 3) + 5 × 3 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25"
+        },
+        {
+          "label": "2",
+          "text": "17"
+        },
+        {
+          "label": "3",
+          "text": "19"
+        },
+        {
+          "label": "4",
+          "text": "21"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given Equation: (10 - 2) ÷ (1 + 3) + 5 × 3 = ?\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\nBODMAS rule,\n\n ⇒ (10 - 2) ÷ (1 + 3)&l",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6936c34cadcd21df183c976f",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 5 @ 3 = 17 and 7 @ 2 = 16, what is 9 @ 4?",
+      "options": [
+        {
+          "label": "1",
+          "text": "36"
+        },
+        {
+          "label": "2",
+          "text": "38"
+        },
+        {
+          "label": "3",
+          "text": "40"
+        },
+        {
+          "label": "4",
+          "text": "42"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic follows here, \n\n [IMAGE: https://cdn.repeatermock.com/tb/24c91602a8a2632e7be795a59ec169cf75aeb24dbe1798bb14b753d7e1fb733a.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/24c91602a8a2632e7be795a59ec169cf75aeb24dbe1798bb14b753d7e1fb733a.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6936c34c31239a946f1859a2",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A painter charges ₹20 per square meter for labor. If he paints a wall of 7.5 square meters, what is the total cost for the labor?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹140"
+        },
+        {
+          "label": "2",
+          "text": "₹150"
+        },
+        {
+          "label": "3",
+          "text": "₹160"
+        },
+        {
+          "label": "4",
+          "text": "₹180"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given:\n\n \n• ₹20 per square meter \n \n• Paints a wall of 7.5 square meters\n\nLabor cost = rate × area\n\n= ₹20 per square meter × 7.5 square meters**\n= ₹150\n\nHence, the correct answer is \"Option 2\"**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6936c34d77a8aac3f91127f7",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'DREAM' is coded as 'FSFCP', how is 'GIANT' written?",
+      "options": [
+        {
+          "label": "1",
+          "text": "IJBPW"
+        },
+        {
+          "label": "2",
+          "text": "JIBPV"
+        },
+        {
+          "label": "3",
+          "text": "IJBCV"
+        },
+        {
+          "label": "4",
+          "text": "IJBPV"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic follows here, \n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/61422126fb4383c7b3113c907f7bd249f97aaf294d6eb219a06de8191bc024fb.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/61422126fb4383c7b3113c907f7bd249f97aaf294d6eb219a06de8191bc024fb.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "6936c34d1459e8dc5a40f3c6",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If STUDY is written as TWEHZ, how is POWER written in that code?",
+      "options": [
+        {
+          "label": "1",
+          "text": "QRGIS"
+        },
+        {
+          "label": "2",
+          "text": "QSAIT"
+        },
+        {
+          "label": "3",
+          "text": "QRAHS"
+        },
+        {
+          "label": "4",
+          "text": "PRBHS"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/4772ced8a028cd67e694540b8a6cbc9dd18c4cb1e461155739be70072e4a73ee.png] \n\nSimilarly,\n\n [IMAGE: https://cdn.repeatermock.com/tb/014f940b6f5cc91e42a88844fd6cda8d6fce6eb3fea1c26fd73a3d7c5dcb9f4b.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4772ced8a028cd67e694540b8a6cbc9dd18c4cb1e461155739be70072e4a73ee.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/014f940b6f5cc91e42a88844fd6cda8d6fce6eb3fea1c26fd73a3d7c5dcb9f4b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "6936c34dc194d83ddb9e50e6",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the given symbols mean: 'A' means 'divided by', 'B' means 'multiplied by', 'C' means 'minus', and 'D' means 'plus'. Then, find the value of the following expression:\n\n15 C 5 D 10 A 2 B 8 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "50"
+        },
+        {
+          "label": "2",
+          "text": "45"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "52"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given Equation: 15 C 5 D 10 A 2 B 8 = ?\n\n'A' means 'divided by', 'B' means 'multiplied by', 'C' means 'minus', and 'D' means 'plus'\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n⇒15 - 5 + __**10 **__<sp",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6936c34e9a63423ba3edb806",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "X is the daughter of Y. Z is the mother of Y. W is the husband of Z. V is the son of W. How is V related to X?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father"
+        },
+        {
+          "label": "2",
+          "text": "Brother"
+        },
+        {
+          "label": "3",
+          "text": "Uncle"
+        },
+        {
+          "label": "4",
+          "text": "Grandfather"
+        }
+      ],
+      "correct": "3",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png] \n\nAs per the given information,\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/fcd6e7f6229826350d93460778d663efc079cb5ff0f2ce7f4a6cf66804ac75dd.png] \n\nHence, the correct answer is **\"Option 3\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fcd6e7f6229826350d93460778d663efc079cb5ff0f2ce7f4a6cf66804ac75dd.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6936c34e8ecaedf6b430783c",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If '%' means '+', '@' means '-', '^' means '×', and '&' means '÷', which of the following is correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30 & 5 % 2 @ 1 ^ 4 = 4"
+        },
+        {
+          "label": "2",
+          "text": "18 @ 6 ^ 3 % 10 & 2 = 25"
+        },
+        {
+          "label": "3",
+          "text": "40 % 10 & 5 @ 3 ^ 2 = 5"
+        },
+        {
+          "label": "4",
+          "text": "50 & 10 @ 2 ^ 3 % 4 = 12"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given '%' means '+', '@' means '-', '^' means '×', and '&' means '÷'\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n30 & 5 % 2 @ 1 ^ 4 = 4\n\n__**30 ÷**____** 5**__ + 2 - 1 x 4 = 4\n\n**6 +**** 2 **- 1 x 4 = 4\n\n**8 - 4 **= 4.\n\n4 = 4.\n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6936c34fadcd21df183c9796",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If '/' means '+', '-' means '×', '+' means '-', and '×' means '/', then 25 - 5 + 10 × 2 / 4 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "120"
+        },
+        {
+          "label": "2",
+          "text": "124"
+        },
+        {
+          "label": "3",
+          "text": "119"
+        },
+        {
+          "label": "4",
+          "text": "128"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: 25 - 5 + 10 × 2 / 4 = ?\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n '/' means '+', '-' means '×', '+' means '-', and '×' means '/'\n\n⇒25 x 5 - 10 / 2 + 4 = ?\n\n⇒125 - 10 / 2 + 4 = ?\n\n⇒125 - 5 + 4 = ?\n\n⇒124\n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6936c34f80cabfada18071b3",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Statements:\n\nAll dogs are mammals.\n\nNo mammal is a bird.\n\nConclusions:\n\nI. No dog is a bird.\n\nII. Some mammals are dogs.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "3",
+      "solution": "The least possible Venn diagram is as follows:\n\n [IMAGE: https://cdn.repeatermock.com/tb/02e63eb844602211b66885292135ed015916f5909898e2808a65797633278f5a.png] \n\nConclusions:\n\nI. No dog is a bird.- True (No mammal is a bird.All dogs are mammals.Hence, it is True)\n\nII. Some mammals are dogs.- - True ( All dogs are mammals.Some dogs are mammals. Hence it is True)\n\nBoth I and II follow\n\nHence, the correct answer is **\"Option 3\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/02e63eb844602211b66885292135ed015916f5909898e2808a65797633278f5a.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6936c34f040c2fb12592ddbe",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If # = +, @ = ×, % = -, then (10 # 5) @ 2 % 6 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "28"
+        },
+        {
+          "label": "2",
+          "text": "24"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "18"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: (10 # 5) @ 2 % 6 = ?\n\n# = +, @ = ×, % = -\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n⇒**(10 + 5)** × 2 - 6 = ?\n\n⇒**15 ×**** 2** - 6 = ?\n\n⇒30 - 6 = ?\n\n⇒24.\n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

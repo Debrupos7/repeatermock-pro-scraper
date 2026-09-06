@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PYST 20: SSC CGL 2025 Tier-I Similar Paper - English (Held On: 18th Sep 2025 Shift 2)</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.6;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,0.04);position:sticky;top:0;z-index:100;}
+.brand{font-size:20px;font-weight:800;letter-spacing:-0.02em;}
+.brand-light{color:#1f2937;}
+.brand-mark{color:#1fbad6;}
+.test-title{font-size:14px;color:#4b5563;font-weight:500;text-align:center;flex:1;padding:0 24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.header-right{display:flex;align-items:center;gap:12px;}
+.timer{background:#1f2937;color:#fff;padding:8px 16px;border-radius:6px;font-family:"SF Mono",Monaco,monospace;font-size:16px;font-weight:600;min-width:110px;text-align:center;}
+.timer.warning{background:#f59e0b;}
+.timer.danger{background:#ef4444;animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.7;}}
+.header-btn{background:#1fbad6;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s;}
+.header-btn:hover{background:#1999b3;}
+.submit-btn{background:#ef4444;}
+.submit-btn:hover{background:#dc2626;}
+.meta-bar{background:#fff;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;flex-wrap:wrap;gap:12px 32px;font-size:13px;}
+.meta-item{display:flex;flex-direction:column;gap:2px;}
+.meta-label{color:#6b7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+.meta-value{color:#1f2937;font-size:14px;font-weight:600;}
+.test-container{display:flex;max-width:1400px;margin:0 auto;gap:16px;padding:16px;}
+.question-area{flex:1;min-width:0;}
+.section-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.section-tab{background:#fff;border:1px solid #e5e7eb;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;color:#4b5563;}
+.section-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.question-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.q-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #f3f4f6;}
+.q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.q-marks{display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap;}
+.q-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.q-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.conf-high{background:#d1fae5;color:#065f46;}
+.conf-unidentified{background:#fef3c7;color:#92400e;}
+.q-id{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;}
+.result-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-qid{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;margin-left:auto;}
+.mark-pos{color:#10b981;font-weight:600;}
+.mark-neg{color:#ef4444;font-weight:600;}
+.q-lang-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.q-lang-tab{background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer;}
+.q-lang-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.q-text{font-size:15px;margin-bottom:16px;}
+.q-text p{margin:8px 0;}
+.q-text img{max-width:100%;height:auto;border-radius:4px;}
+.options-list{list-style:none;}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;margin-bottom:8px;border:1.5px solid #e5e7eb;border-radius:6px;cursor:pointer;transition:all .15s;font-size:14px;}
+.option-item:hover{background:#f9fafb;border-color:#d1d5db;}
+.option-item.selected{background:#dbeafe;border-color:#3b82f6;}
+.option-item.correct{background:#d1fae5;border-color:#10b981;}
+.option-item.wrong{background:#fee2e2;border-color:#ef4444;}
+.option-label{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;background:#1f2937;color:#fff;border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0;}
+.option-item.selected .option-label{background:#3b82f6;}
+.option-item.correct .option-label{background:#10b981;}
+.option-item.wrong .option-label{background:#ef4444;}
+.option-item.correct::after{content:" ✓ Correct";color:#10b981;font-weight:700;margin-left:auto;}
+.option-item.wrong::after{content:" ✗ Wrong";color:#ef4444;font-weight:700;margin-left:auto;}
+.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+.action-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.action-btn:hover{background:#f9fafb;}
+.action-btn.save-next{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.action-btn.save-next:hover{background:#1999b3;}
+.action-btn.mark-review{background:#fef3c7;color:#92400e;border-color:#f59e0b;}
+.prev-next{display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #f3f4f6;}
+.nav-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.nav-btn:hover{background:#f9fafb;}
+.palette-sidebar{width:280px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start;background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;max-height:calc(100vh - 110px);overflow-y:auto;}
+.palette-header{font-size:14px;font-weight:700;color:#1f2937;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f3f4f6;}
+.palette-legend{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10px;color:#6b7280;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:3px;}
+.legend-dot{width:12px;height:12px;border-radius:2px;}
+.legend-dot.answered{background:#10b981;}
+.legend-dot.notanswered{background:#ef4444;}
+.legend-dot.marked{background:#a855f7;}
+.legend-dot.notvisited{background:#e5e7eb;}
+.palette-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;}
+.palette-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px solid #e5e7eb;border-radius:4px;font-size:11px;font-weight:600;color:#4b5563;cursor:pointer;transition:all .15s;background:#f3f4f6;}
+.palette-cell:hover{transform:scale(1.1);}
+.palette-cell.answered{background:#10b981;color:#fff;border-color:#10b981;}
+.palette-cell.notanswered{background:#ef4444;color:#fff;border-color:#ef4444;}
+.palette-cell.marked{background:#a855f7;color:#fff;border-color:#a855f7;}
+.palette-cell.marked-answered{background:#a855f7;color:#fff;border-color:#a855f7;position:relative;}
+.palette-cell.marked-answered::after{content:"•";position:absolute;top:-2px;right:2px;color:#10b981;font-size:14px;}
+.palette-cell.notvisited{background:#fff;color:#9ca3af;}
+.palette-cell.current{outline:3px solid #1fbad6;outline-offset:1px;}
+.palette-stats{margin-top:12px;padding-top:12px;border-top:1px solid #f3f4f6;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:11px;color:#6b7280;}
+.palette-stats div{display:flex;justify-content:space-between;}
+.palette-stats strong{color:#1f2937;font-size:13px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;padding:24px;}
+.modal-overlay.open{display:flex;}
+.modal-content{background:#fff;border-radius:12px;padding:24px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-content h2{font-size:20px;color:#1f2937;margin-bottom:12px;}
+.modal-content p{font-size:14px;color:#4b5563;margin-bottom:16px;}
+.submit-summary{background:#f9fafb;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;}
+.submit-summary div{display:flex;justify-content:space-between;margin-bottom:4px;}
+.submit-summary strong{color:#1f2937;}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;}
+.modal-btn{padding:8px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-btn.cancel{background:#f3f4f6;color:#4b5563;}
+.modal-btn.cancel:hover{background:#e5e7eb;}
+.modal-btn.submit{background:#ef4444;color:#fff;}
+.modal-btn.submit:hover{background:#dc2626;}
+.results-view{max-width:1000px;margin:0 auto;padding:24px;}
+.results-header{text-align:center;margin-bottom:32px;}
+.results-header h1{font-size:28px;color:#1f2937;margin-bottom:16px;}
+.score-card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;display:inline-block;min-width:300px;margin-bottom:16px;}
+.score-card .score{font-size:48px;font-weight:800;color:#1fbad6;}
+.score-card .total{font-size:20px;color:#6b7280;}
+.score-card .rank{font-size:14px;color:#4b5563;margin-top:8px;}
+.results-actions{display:flex;gap:8px;justify-content:center;}
+.results-questions{display:grid;gap:16px;}
+.result-card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.result-card.correct{border-left:4px solid #10b981;}
+.result-card.wrong{border-left:4px solid #ef4444;}
+.result-card.skipped{border-left:4px solid #9ca3af;}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.result-q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.result-status{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;}
+.result-status.correct{background:#d1fae5;color:#065f46;}
+.result-status.wrong{background:#fee2e2;color:#991b1b;}
+.result-status.skipped{background:#f3f4f6;color:#4b5563;}
+.result-text{font-size:14px;margin-bottom:12px;}
+.result-text p{margin:6px 0;}
+.result-options{list-style:none;margin-bottom:12px;}
+.result-option{padding:8px 12px;margin-bottom:4px;border:1px solid #e5e7eb;border-radius:4px;font-size:13px;display:flex;align-items:flex-start;gap:8px;}
+.result-option.correct{background:#d1fae5;border-color:#10b981;font-weight:600;}
+.result-option.selected{background:#dbeafe;border-color:#3b82f6;}
+.result-option.correct.selected{background:#a7f3d0;}
+.result-option-label{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;background:#1f2937;color:#fff;border-radius:3px;font-size:11px;font-weight:600;}
+.result-option.correct .result-option-label{background:#10b981;}
+.result-solution{background:#fef3c7;border-left:3px solid #f59e0b;border-radius:4px;padding:12px;font-size:13px;color:#1f2937;}
+.result-solution-title{font-weight:700;color:#92400e;margin-bottom:6px;font-size:12px;}
+.result-solution p{margin:6px 0;}
+.result-solution img{max-width:100%;height:auto;border-radius:4px;}
+@media (max-width:1024px){.palette-sidebar{width:220px;}.palette-grid{grid-template-columns:repeat(5,1fr);}}
+@media (max-width:768px){.test-container{flex-direction:column;}.palette-sidebar{width:100%;position:static;max-height:none;}.palette-grid{grid-template-columns:repeat(10,1fr);}}
+@media print{.top-bar,.palette-sidebar,.actions,.prev-next,.section-tabs,.q-lang-tabs,.meta-bar,.results-actions{display:none;}.test-container,.results-view{display:block;}.result-card{page-break-inside:avoid;}}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="top-bar">
+  <div class="brand"><span class="brand-light">Repeater</span><span class="brand-mark">Mock</span></div>
+  <div class="test-title" id="testTitle">PYST 20: SSC CGL 2025 Tier-I Similar Paper - English (Held On: 18th Sep 2025 Shift 2)</div>
+  <div class="header-right">
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="header-btn submit-btn" onclick="openSubmitModal()">Submit Test</button>
+  </div>
+</header>
+
+<!-- Meta bar -->
+<div class="meta-bar">
+  <div class="meta-item"><span class="meta-label">Series</span><span class="meta-value">ssc-cgl</span></div>
+  <div class="meta-item"><span class="meta-label">Questions</span><span class="meta-value">25</span></div>
+  <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">0 min</span></div>
+  <div class="meta-item"><span class="meta-label">Max Marks</span><span class="meta-value">50.0</span></div>
+  <div class="meta-item"><span class="meta-label">Marking</span><span class="meta-value">+2.0 / -0.5</span></div>
+  <div class="meta-item"><span class="meta-label">Test ID</span><span class="meta-value">6a0f44f56470e02c4ea89530</span></div>
+</div>
+
+<!-- Test mode -->
+<div id="testMode" class="test-container">
+  <main class="question-area">
+    <div class="section-tabs" id="sectionTabs"></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-header">
+        <span class="q-num" id="qNum">Q1</span>
+        <span class="q-marks" id="qMarks"></span>
+      </div>
+      <div class="q-lang-tabs" id="qLangTabs"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options-list" id="optionsList"></div>
+      <div class="actions">
+        <button class="action-btn mark-review" onclick="markReviewNext()">Mark for Review &amp; Next</button>
+        <button class="action-btn clear-response" onclick="clearResponse()">Clear Response</button>
+        <button class="action-btn save-next" onclick="saveNext()">Save &amp; Next →</button>
+      </div>
+      <div class="prev-next">
+        <button class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button class="nav-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </main>
+  <aside class="palette-sidebar">
+    <div class="palette-header">
+      <span id="currentSectionLabel">Test</span>
+    </div>
+    <div class="palette-legend">
+      <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+      <span class="legend-item"><span class="legend-dot notanswered"></span>Not Answered</span>
+      <span class="legend-item"><span class="legend-dot marked"></span>Marked</span>
+      <span class="legend-item"><span class="legend-dot notvisited"></span>Not Visited</span>
+    </div>
+    <div class="palette-grid" id="paletteGrid"></div>
+    <div class="palette-stats" id="paletteStats"></div>
+  </aside>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="modal-content">
+    <h2>Submit Test?</h2>
+    <p>Are you sure you want to submit? You won't be able to change your answers after this.</p>
+    <div class="submit-summary" id="submitSummary"></div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="modal-btn submit" onclick="submitTest()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results view (hidden until submit) -->
+<div id="resultsView" class="results-view" style="display:none;">
+  <div class="results-header">
+    <h1>Test Submitted</h1>
+    <div class="score-card" id="scoreCard"></div>
+    <div class="results-actions">
+      <button class="header-btn" onclick="showAllQuestions()">View All Questions &amp; Solutions</button>
+      <button class="header-btn" onclick="window.print()">🖨️ Print</button>
+    </div>
+  </div>
+  <div class="results-questions" id="resultsQuestions"></div>
+</div>
+
+<!-- Test data embedded as JSON -->
+<script type="application/json" id="test-data">{"test_id": "6a0f44f56470e02c4ea89530", "title": "PYST 20: SSC CGL 2025 Tier-I Similar Paper - English (Held On: 18th Sep 2025 Shift 2)", "series_slug": "ssc-cgl", "duration_min": 0, "max_marks": 50.0, "languages": ["English"], "sections": [{"section_id": "69f0944e34a326423f2cd8f7", "section_name": "Test", "q_count": 25, "max_marks": 50.0, "questions": [{"qid": "694e7d3a5343e97b922a9596", "qs_no": 1, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Select the most appropriate synonym of the given word:<br><br> INVECTIVE", "options": [{"prompt": "1", "value": "Applause"}, {"prompt": "2", "value": "Flattery"}, {"prompt": "3", "value": "Rant"}, {"prompt": "4", "value": "Tribute"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p>The correct answer is: <b>Rant</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\n    <li>The word <strong>\"Invective\"</strong> refers to harsh, abusive language or criticism used to attack or denounce someone. (अपशब्द / गाली-गलौज)</li>\n    \n    <ul>\n        <li><strong>Example:</strong> The politician's speech was filled with invective against his opponents, criticizing their policies and actions.</li>\n    </ul>\n\n    <li>The correct word <strong>\"Rant\"</strong> means a loud, angry, or impassioned speech, often involving complaints or criticism. (गुस्से भरी लंबी बात)</li>\n    \n    <ul>\n        <li><strong>Example:</strong> He went on a long rant about the poor customer service at the restaurant.</li>\n    </ul>\n\n    <li>Hence, the word \"Rant\" is the most appropriate synonym for \"Invective.\"</li>\n\n</ul>\n\n<p>Therefore, the correct answer is: <strong>Rant</strong>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\n    <li><strong>Applause</strong> (तालियाँ): Approval or praise expressed by clapping hands.</li>\n    \n    <ul>\n        <li><strong>Example:</strong> The actor received loud applause for his outstanding performance.</li>\n    </ul>\n\n    <li><strong>Flattery</strong> (चापलूसी): Excessive and insincere praise, often given to gain favor or advantage.</li>\n    \n    <ul>\n        <li><strong>Example:</strong> She saw through his flattery and refused to be manipulated.</li>\n    </ul>\n\n    <li><strong>Tribute</strong> (श्रद्धांजलि): An act, statement, or gift intended to show gratitude, respect, or admiration.</li>\n    \n    <ul>\n        <li><strong>Example:</strong> The memorial was a tribute to the soldiers who sacrificed their lives for the country.</li>\n    </ul>\n\n</ul>\n2f:T866,\n<p>The correct answer is: <b>Option 3) Spirited</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;al", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Synonym", "confidence": "high"}, {"qid": "694e7d3b3648e1bbd7aff7ff", "qs_no": 2, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Select the most appropriate synonym of the given word:<br><br> EBULLIENT", "options": [{"prompt": "1", "value": "Gloomy"}, {"prompt": "2", "value": "Lethargic"}, {"prompt": "3", "value": "Spirited"}, {"prompt": "4", "value": "Reserved"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p>The correct answer is: <b>Option 3) Spirited</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n    <li>The word <strong>\"Ebullient\"</strong> means full of energy, enthusiasm, and cheerfulness. (उत्साही)</li>\n    <ul>\n        <li><strong>Example:</strong> She was ebullient after winning the competition.</li>\n    </ul>\n    <li>The correct synonym, <strong>\"Spirited\"</strong>, refers to showing enthusiasm, energy, or determination. (जोशीला)</li>\n    <ul>\n        <li><strong>Example:</strong> The spirited debate lasted for hours as both teams passionately presented", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Synonym", "confidence": "high"}, {"qid": "694e7d3bb8feca93a859ff54", "qs_no": 3, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Select the most appropriate antonym of the given word:<br><br> Sagacious", "options": [{"prompt": "1", "value": "Clever"}, {"prompt": "2", "value": "Judicious"}, {"prompt": "3", "value": "Unwise"}, {"prompt": "4", "value": "Perceptive"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p>The correct answer is: <b>Unwise</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n    <li>The word <strong>\"Sagacious\"</strong> means having or showing keen mental discernment and good judgment; wise and intelligent. (विवेकी, बुद्धिमान)</li>\n    <ul>\n        <li><strong>Example:</strong> The sagacious leader made decisions that benefited the entire team.</li>\n    </ul>\n\n    <li><strong>\"Unwise\"</strong> refers to lacking good sense or judgment; foolish or imprudent. (अविवेकपूर्ण, मूर्खतापूर्ण)</li>\n    <ul>\n        <li><strong>Example:</strong> It would be unwise to invest all your savings in a risky venture.</li>\n    </ul>\n\n    <li>Hence, the opposite of <strong>'Sagacious' </strong>is <strong>'Unwise'</strong>.</li>\n</ul>\n\n<p>Therefore, the correct answer is: <strong>Unwise</strong>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n    <li><strong>Clever</strong> (<span style=\"color: rgb(33, 37, 41);\">चतुर</span>): Quick to understand, learn, or devise ideas.\n    <ul>\n        <li><strong>Example:</strong> She came up with a clever solution to the problem.</li>\n    </ul>\n    </li>\n\n    <li><strong>Judicious</strong> (<span style=\"color: rgb(33, 37, 41);\">विवेकपूर्ण</span>): Having, showing, or done with good judgment or sense.\n    <ul>\n        <li><strong>Example:</strong> His judicious decision saved the company from a major loss.</li>\n    </ul>\n    </li>\n\n    <li><strong>Perceptive</strong> (<span style=\"color: rgb(33, 37, 41);\">सूक्ष्मदर्शी</span>): Having or showing sensitive insight.\n    <ul>\n        <li><strong>Example:</strong> Her perceptive observation revealed the hidden truth behind the matter.</li>\n    </ul>\n    </li>\n</ul>\n31:Taed,\n<p>The correct answer is: <b>Option 3</b> i.e. Bitter resentment.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-i", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Antonym", "confidence": "high"}, {"qid": "694e7d3bef332f62097307a3", "qs_no": 4, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct meaning of the idiom:<br><br>Gall and wormwood", "options": [{"prompt": "1", "value": "Mild jealousy"}, {"prompt": "2", "value": "Lasting curiosity"}, {"prompt": "3", "value": "Bitter resentment"}, {"prompt": "4", "value": "Sudden awareness"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p>The correct answer is: <b>Option 3</b> i.e. Bitter resentment.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n    <li>The idiom <strong>\"Gall and wormwood\"</strong> refers to something that is intensely unpleasant or causes extreme bitterness and resentment. (तीव्र कटुता और अप्रसन्नता)</li>\n    <ul>\n        <li><strong>Example:</strong> Losing the championship to their biggest rivals was gall and wormwood to the team.</li>\n    </ul>\n    <li><strong>\"Bitter resentment\"</strong> (तीव्र नाराजगी) perfectly captures the essence of the idiom, emphasizing the deep emotional pain or bitterness.</li>\n    <ul>\n        <li><strong>Example:</strong> The betrayal by his closest friend filled him with bitter resentment.</li>\n    </ul>\n    <li>Hence, the meaning of \"Gall and wormwood\" aligns with the phrase \"Bitter resentment.\"</li>\n</ul>\n\n<p>Therefore, the correct answer is: <strong>Option 3 i.e. Bitter resentment</strong>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n    <li><strong>Mild jealousy</strong> (<span style=\"color: rgb(33, 37, 41);\">हल्की ईर्ष्या</span>): A small or insignificant feeling of envy towards someone else's achievements or possessions.\n    <ul>\n        <li><strong>Example:</strong> She felt mild jealousy when her friend won the award, but she was still happy for her.</li>\n    </ul>\n    </li>\n\n    <li><strong>Lasting curiosity</strong> (<span style=\"color: rgb(33, 37, 41);\">स्थायी जिज्ञासा</span>): A continuous or enduring interest in knowing or learning something.\n    <ul>\n        <li><strong>Example:</strong> His lasting curiosity about space led him to pursue a career in astronomy.</li>\n    </ul>\n    </li>\n\n    <li><strong>Sudden awareness</strong> (<span style=\"color: rgb(33, 37, 41);\">अचानक जागरूकता</span>): A moment of instant realization or understanding of something.\n    <ul>\n        <li><strong>Example:</strong> There was a sudden awareness among the crowd about the importance of environmental conservation.</li>\n    </ul>\n    </li>\n</ul>\n32:T71e,\n\n<p>The correct answer is<strong> option 1.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26p", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Idioms", "confidence": "high"}, {"qid": "694e7d3cdec971f3a89d40fe", "qs_no": 5, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct spelling of a word meaning ‘a person of high rank or title’.", "options": [{"prompt": "1", "value": "Nobal"}, {"prompt": "2", "value": "Nobell"}, {"prompt": "3", "value": "Noble"}, {"prompt": "4", "value": "Nobele"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n\n<p>The correct answer is<strong> option 3.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<p><strong>The word meaning ‘a person of high rank or title’ is spelled 'Noble'.</strong></p>\n\n<ul>\n        <li><strong>The correct spelling is 'Noble'.</strong></li>\n        <li>The word '<strong>Noble</strong>' is an <strong>adjective</strong> which means 'having high moral qualities or belonging to a high rank or title'. <strong>(श्रेष्ठ या उच्च पद)</strong>\n        <ul>\n                <li><strong>For Example -</strong></li>\n                <li>He was born into a noble family.</li>\n        </ul>\n        </li>\n</ul>\n\n<p>Therefore, the correct answer is<strong> 'Noble'.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p><strong>Let's understand the meanings of the incorrect options - </strong></p>\n\n<ul>\n        <li><strong>Nobal -</strong> Incorrect spelling, does not have a valid meaning.</li>\n        <li><strong>Nobell -</strong> Incorrect spelling, does not have a valid meaning.</li>\n        <li><strong>Nobele -</strong> Incorrect spelling, does not have a valid meaning.</li>\n</ul>\n35:T934,\n\n<div><span style=\"\">Th", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Spelling", "confidence": "high"}, {"qid": "694e7d3c6c99e68bb5d9902d", "qs_no": 6, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correctly spelt word for expression of mild protest or objection.", "options": [{"prompt": "1", "value": "Expostulation"}, {"prompt": "2", "value": "Expostelation"}, {"prompt": "3", "value": "Expostullation"}, {"prompt": "4", "value": "Exposstulation"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n\n<p>The correct answer is<strong> option 1.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<p><strong>The correct spelling is 'Expostulation'.</strong></p>\n\n<ul>\n        <li><strong>Expostulation</strong> is a noun that means 'expression of mild protest or objection'. <strong>(आलोचना या विरोध)</strong></li>\n        <li>It is used when someone expresses disagreement or disapproval in a calm and non-confrontational manner.</li>\n        <ul>\n                <li><strong>For Example -</strong> </li>\n                <li>His expostulation against the unfair policy was well-worded and respectful.</li>\n        </ul>\n</ul>\n\n<p>Therefore, the correct answer is<strong> 'Expostulation'.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p><strong>Let's understand why the other options are incorrect:</strong></p>\n\n<ul>\n        <li><strong>Expostelation -</strong> This is a misspelled word. The correct spelling is 'Expostulation'.</li>\n        <li><strong>Expostullation -</strong> This is another misspelled version of the word 'Expostulation'.</li>\n        <li><strong>Exposstulation -</strong> This spelling is incorrect as it adds an unnecessary 's' in the word.</li>\n</ul>\n33:Tbf7,\n<p>The correct ", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Vocabulary", "confidence": "high"}, {"qid": "694e7d3ca317e54341a9c3a4", "qs_no": 7, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct one-word substitution for:<br><br>‘A person who is overly concerned with trivial details’.", "options": [{"prompt": "1", "value": "Analyst"}, {"prompt": "2", "value": "Pedant"}, {"prompt": "3", "value": "Linguist"}, {"prompt": "4", "value": "Reviewer"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is: <b>Pedant</b>.</p>\n\n\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n\n\n<ul>\n\n    <li>The word <strong>\"Pedant\"</strong> refers to a person who is overly concerned with minor details, rules, or academic learning, often in a way that is annoying to others. (पांडित्य प्रदर्शन करने वाला)\n\n\n\n    <ul>\n\n        <li><strong>Example: </strong>The professor was such a pedant that he corrected every single grammatical mistake in the students' essays, no matter how trivial.</li>\n\n    </ul>\n\n    </li>\n\n    <li><strong>\"Overly concerned with trivial details\"</strong> describes someone who focuses excessively on insignificant or minor aspects, often missing the bigger picture. (तुच्छ बातों पर अधिक ध्यान देना)\n\n    <ul>\n\n        <li><strong>Example: </strong>Instead of discussing the main idea of the presentation, he kept pointing out small formatting errors in the slides.</li>\n\n    </ul>\n\n    </li>\n\n    <li>Hence, the correct one-word substitution for a person who is overly concerned with trivial details is <strong>'Pedant'</strong>.</li>\n\n</ul>\n\n\n\n<p>Therefore, the correct answer is: <strong>Pedant</strong>.</p>\n\n\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n\n\n<ul>\n\n    <li><strong>Analyst</strong> (<span style=\"color: rgb(33, 37, 41);\">विश्लेषक</span>): A person who examines and interprets data or information to understand a particular subject or solve a problem.\n\n\n\n    <ul>\n\n        <li><strong>Example:</strong> The financial analyst reviewed the company's performance to provide investment advice.</li>\n\n    </ul>\n\n    </li>\n\n    <li><strong>Linguist</strong> (<span style=\"color: rgb(33, 37, 41);\">भाषाविद्</span>): A person who is skilled in or studies multiple languages or the structure of language.\n\n\n\n    <ul>\n\n        <li><strong>Example:</strong> The linguist was fluent in seven languages and specialized in ancient dialects.</li>\n\n    </ul>\n\n    </li>\n\n    <li><strong>Reviewer</strong> (<span style=\"color: rgb(33, 37, 41);\">समीक्षक</span>): A person who evaluates or critiques work such as books, movies, or performances.\n\n\n\n    <ul>\n\n        <li><strong>Example:</strong> The reviewer gave a glowing critique of the new film, praising its direction and acting.</li>\n\n    </ul>\n\n    </li>\n\n</ul>\n\n\n34:T6cc,\n\n<p>The correct answer is<strong> option 3.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"2", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Vocabulary", "confidence": "high"}, {"qid": "694e7d3dfac558170723f497", "qs_no": 8, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct one-word substitute for:<br><br>“To depart suddenly to avoid notice”.", "options": [{"prompt": "1", "value": "Wander"}, {"prompt": "2", "value": "Abscond"}, {"prompt": "3", "value": "Roam"}, {"prompt": "4", "value": "Delay"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is: <b>Option 2 (Abscond)</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n    <li>The word <strong>\"Abscond\"</strong> means to leave hurriedly and secretly, typically to avoid detection or arrest for an unlawful act. (गायब हो जाना / भाग जाना)\n        <ul>\n            <li><strong>Example: </strong>The thief absconded with the stolen money before the police arrived.</li>\n        </ul>\n    </li>\n    <li>This word is often used in legal contexts or when referring to someone who evades responsibilities or consequences by disappearing.</li>\n</ul>\n\n<p>Therefore, the correct answer is: <strong>Option 2 (Abscond)</strong>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n    <li><strong>Wander</strong> (<span style=\"color: rgb(33, 37, 41);\">घूमना</span>): To move about aimlessly or without a fixed course.\n        <ul>\n            <li><strong>Example:</strong> He likes to wander through the forest to clear his mind.</li>\n        </ul>\n    </li>\n    <li><strong>Roam</strong> (<span style=\"color: rgb(33, 37, 41);\">भटकना</span>): To travel aimlessly or without a specific destination.\n        <ul>\n            <li><strong>Example:</strong> The students roamed around the city after their exams.</li>\n        </ul>\n    </li>\n    <li><strong>Delay</strong> (<span style=\"color: rgb(33, 37, 41);\">विलंब</span>): To postpone or put off an action or event.\n        <ul>\n            <li><strong>Example:</strong> The train was delayed due to technical issues.</li>\n        </ul>\n    </li>\n</ul>\n38:Te2e,\n<div><span style=\"\">The correct", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "OWS", "confidence": "high"}, {"qid": "694e7d3d44e0f313c94af59b", "qs_no": 9, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Fill in the blank:<br><br>If they had informed us earlier, we ____ corrective steps.", "options": [{"prompt": "1", "value": "will take"}, {"prompt": "2", "value": "would take"}, {"prompt": "3", "value": "would have taken"}, {"prompt": "4", "value": "had taken"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n\n<div><span style=\"\">The correct answer is '</span><span style=\"color: rgb(33, 37, 41);\"><strong>would have taken</strong>'</span><span style=\"\">.</span></div>\n<div> </div>\n<div><span style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle; font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n<ul>\n    <li><span style=\"\">The sentence uses the conditional clause \"If they had informed us earlier,\" which refers to an unreal past condition.</span></li>\n    <li><span style=\"\">In such cases, the correct structure is: <strong>If + past perfect, would have + past participle</strong>.</span></li>\n    <li><span style=\"\">The verb \"<strong>would have taken</strong>\" correctly aligns with this structure, ind", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "694e7d3df77e075b64e05713", "qs_no": 10, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Find the part of the sentence that contains an error:<br />\n<br />\nThe manager along with his assistants (1)/ were assigned the task (2)/ by the board (3)/ last week. (4)", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "2"}, {"prompt": "3", "value": "3"}, {"prompt": "4", "value": "4"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The primary issue in the sentence is the incorrect use of the verb &quot;were&quot; in part 2.</span></li>\n\t<li><span style=\"\">When the subject consists of a phrase like &quot;The manager along with his assistants,&quot; the verb should agree with the main subject (&quot;The manager&quot;).</span></li>\n\t<li><span style=\"\">The correct phrase should be &quot;was assigned the task,&quot; ensuring the verb agrees with the singular subject.</span></li>\n\t<li><span style=\"\">Thus, the error is located in <strong>Option 2</strong> of the sentence.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>&quot;The manager, along with his assistants, was assigned the task by the board last week.&quot;</em></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>(1): &quot;The manager along with his assistants&quot; </strong>&ndash; This part of the sentence is grammatically correct but requires the verb to agree with the singular noun &quot;manager.&quot;</span></li>\n\t<li><span style=\"\"><strong>(3): &quot;by the board&quot; </strong>&ndash; This part of the sentence is grammatically correct and does not require any changes.</span></li>\n\t<li><span style=\"\"><strong>(4): &quot;last week.&quot; </strong>&ndash; This part of the sentence is grammatically correct and does not require any changes.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "694e7d3ea6bf68a8aab9f404", "qs_no": 11, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Change the sentence from active to passive:<br><br>The committee approved the proposal.", "options": [{"prompt": "1", "value": "The proposal is approved by the committee."}, {"prompt": "2", "value": "The proposal was approved by the committee."}, {"prompt": "3", "value": "The proposal had approved by the committee."}, {"prompt": "4", "value": "The proposal has approved by the committee."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n\n<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div>\n<div> </div>\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n<ul>\n  <li><span style=\"\">Passive voice structure: The object of the active voice sentence becomes the subject of the passive voice sentence.</span></li>\n  <li><span style=\"\">In the active voice, the sentence is: \"The committee approved the proposal.\"</span></li>\n  <li><span style=\"\">To convert to passive voice: Place the object \"the proposal\" at the beginning.</span></li>\n  <li><span style=\"\">Change the active verb form \"approved\" to \"was approved\" (past simple passive).</span></li>\n  <li><span style=\"\">Add the preposition \"by\" followed by the original subject \"the committee.\"</span></li>\n</ul>\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 2</strong>.</span></div>\n<div> </div>\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>\"The proposal was approved by the committee.\"</em></span></div>\n<div> </div>\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n<ul>\n  <li><span style=\"\"><strong>Option 1: </strong>\"The proposal is approved by the committee.\" – Incorrect tense (present simple passive).</span></li>\n  <li><span style=\"\"><strong>Option 3: </strong>\"The proposal had approved by the committee.\" – Incorrect structure (past perfect active).</span></li>\n  <li><span style=\"\"><strong>Option 4: </strong>\"The proposal has approved by the committee.\" – Incorrect structure (present perfect active).</span></li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "694e7d3e793f5531248a0f2b", "qs_no": 12, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Find the part of the sentence that contains an error:<br />\n<br />\nIf the documents were verified (1)/ and the discrepancies had been resolved, (2)/ the audit team would have (3)/ completed the review. (4)", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "2"}, {"prompt": "3", "value": "3"}, {"prompt": "4", "value": "4"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 1</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The sentence is structured as a <strong>Third Conditional</strong>, which refers to an impossible past situation and its hypothetical result.</span></li>\n\t<li><span style=\"\">The standard grammatical structure for Third Conditional sentences is: <strong>If + Past Perfect (had + V3), ... would have + Past Participle (V3)</strong>.</span></li>\n\t<li><span style=\"\">In <strong>Part (1)</strong>, the phrase &quot;were verified&quot; uses the <strong>Simple Past</strong>, which is incorrect for this conditional type. It should be changed to the Past Perfect form &quot;<strong>had been verified</strong>.&quot;</span></li>\n\t<li><span style=\"\">This change ensures consistency with <strong>Part (2)</strong> (&quot;had been resolved&quot;) and the result clause in <strong>Parts (3) and (4)</strong> (&quot;would have completed&quot;).</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>1</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>&quot;If the documents <strong>had been verified</strong> and the discrepancies had been resolved, the audit team would have completed the review.&quot;</em></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>(2): &quot;and the discrepancies had been resolved,&quot;</strong> &ndash; This part correctly uses the Past Perfect tense, which is necessary for a past hypothetical condition.</span></li>\n\t<li><span style=\"\"><strong>(3): &quot;the audit team would have&quot;</strong> &ndash; This correctly sets up the auxiliary verbs required for the result clause of a Third Conditional sentence.</span></li>\n\t<li><span style=\"\"><strong>(4): &quot;completed the review.&quot;</strong> &ndash; This is the correct past participle (V3) of the verb &quot;complete,&quot; functioning as the main action of the result clause.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "694e7d3ec0a17626b563de61", "qs_no": 13, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Select the sentence containing the homonym of the highlighted word:<br />\n<br />\nThe archer aimed at the <strong>bow </strong>carefully.", "options": [{"prompt": "1", "value": "The captain stood at the bow of the ship to watch the horizon."}, {"prompt": "2", "value": "She practiced with her bow and arrow every morning."}, {"prompt": "3", "value": "The wooden bow was crafted from high-quality yew."}, {"prompt": "4", "value": "He held the bow steady while reaching for a new arrow."}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<p>The correct answer is: <b>Option (The captain stood at the bow of the ship to watch the horizon)</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /> <strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The word <strong>&quot;bow&quot;</strong> in the original sentence refers to a weapon used by an archer. (धनुष)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The archer aimed at the bow carefully before releasing the arrow.</li>\n\t</ul>\n\t</li>\n\t<li>In the correct option, <strong>&quot;bow&quot;</strong> refers to the front part of a ship. (जहाज़ का अग्रभाग)\n\t<ul>\n\t\t<li><strong>Example:</strong> The captain stood at the bow of the ship to watch the horizon.</li>\n\t</ul>\n\t</li>\n\t<li>Hence, the homonym of <strong>&quot;bow&quot;</strong> is found in the sentence about the ship.</li>\n</ul>\n\n<p>Therefore, the correct answer is: <strong>Option (The captain stood at the bow of the ship to watch the horizon)</strong>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /> <strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>She practiced with her bow and arrow every morning</strong> (धनुष और बाण)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> She practiced with her bow and arrow every morning to improve her aim.</li>\n\t</ul>\n\t</li>\n\t<li><strong>The wooden bow was crafted from high-quality yew</strong> (लकड़ी का धनुष)\n\t<ul>\n\t\t<li><strong>Example:</strong> The wooden bow was crafted from high-quality yew for durability.</li>\n\t</ul>\n\t</li>\n\t<li><strong>He held the bow steady while reaching for a new arrow</strong> (धनुष)\n\t<ul>\n\t\t<li><strong>Example:</strong> He held the bow steady while reaching for a new arrow to maintain accuracy.</li>\n\t</ul>\n\t</li>\n</ul>\n\n3b:Te0f,\n<p>The correct answer is: <b>Option (2) i.e. Awareness streng", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Vocabulary", "confidence": "high"}, {"qid": "694e7d3fdec971f3a89d4104", "qs_no": 14, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Convert the sentence from passive to active voice:<br />\n<br />\nThe report was believed to have been altered by the editor.", "options": [{"prompt": "1", "value": "It was believed the editor altered the report."}, {"prompt": "2", "value": "The editor is believed to have altered the report."}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;The editor was believed to have altered the report.&lt;/span&gt;"}, {"prompt": "4", "value": "The editor had been altered by the report."}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /> <strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">Passive voice sentence: <em>&quot;The report was believed to have been altered by the editor.&quot;</em></span></li>\n\t<li><span style=\"\">In passive voice, the subject is &quot;The report&quot; and the agent is &quot;the editor.&quot;</span></li>\n\t<li><span style=\"\">To convert to active voice, make &quot;the editor&quot; the subject of the sentence.</span></li>\n\t<li><span style=\"\">Keep the tense consistent: &quot;was believed&quot; (past tense).</span></li>\n\t<li><span style=\"\">Active voice sentence: <em>&quot;The editor was believed to have altered the report.&quot;</em></span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>&quot;The editor was believed to have altered the report.&quot;</em></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /> <strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1: </strong>&quot;It was believed the editor altered the report.&quot; &ndash; Grammatically correct, but slightly changes the structure by introducing &quot;It was believed&quot; instead of directly making the editor the subject.</span></li>\n\t<li><span style=\"\"><strong>Option 2: </strong>&quot;The editor is believed to have altered the report.&quot; &ndash; Incorrect tense (present tense &quot;is believed&quot; instead of past tense &quot;was believed&quot;).</span></li>\n\t<li><span style=\"\"><strong>Option 4: </strong>&quot;The editor had been altered by the report.&quot; &ndash; Incorrect and illogical meaning; changes the sense of the sentence entirely.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "694e7d3f6232f5b578a04195", "qs_no": 15, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the most suitable replacement for the underlined part:<br />\n<br />\nI <u>am liking</u> this book very much.", "options": [{"prompt": "1", "value": "have liked"}, {"prompt": "2", "value": "like"}, {"prompt": "3", "value": "liked"}, {"prompt": "4", "value": "am enjoying this book"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n\n<div><span style=\"\">The correct answer is '</span><span style=\"color: rgb(33, 37, 41);\"><strong>like</strong>'</span><span style=\"\">.</span></div>\n<div> </div>\n<div><span style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle; font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n<ul>\n  <li><span style=\"\">The verb \"<strong>like</strong>\" is a stative verb, which describes a state or condition rather than an action.</span></li>\n  <li><span style=\"\">Stative verbs, such as \"<strong>like</strong>\", are not typically used in the continuous tense (\"am liking\").</span></li>\n  <li><span style=\"\">Instead, the simple", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "694e7d3f5c8139c26e16ac57", "qs_no": 16, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What is the central idea of the passage?", "options": [{"prompt": "1", "value": "Freedom is absolute in modern life"}, {"prompt": "2", "value": "Awareness strengthens genuine autonomy"}, {"prompt": "3", "value": "Technology destroys democracy"}, {"prompt": "4", "value": "Traditions should be abandoned"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is: <b>Option (2) i.e. Awareness strengthens genuine autonomy</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The phrase <strong>&ldquo;awareness strengthens genuine autonomy&rdquo;</strong> means that real independence is supported and deepened by understanding the various influences&mdash;social, technological, and cultural&mdash;that shape our choices. (जागरूकता वास्तविक स्वायत्तता को मजबूत करती है)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> When people recognize how digital platforms guide their preferences, they can make more conscious and independent decisions.</li>\n\t</ul>\n\t</li>\n\t<li>The passage argues that freedom is not just about having choices, but about being aware of the factors influencing those choices.</li>\n\t<li>Thus, genuine autonomy comes from self-awareness rather than a complete lack of outside influence.</li>\n</ul>\n\n<p>Therefore, the correct answer is- Awareness strengthens genuine autonomy</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>Freedom is absolute in modern life</strong> (<span style=\"color: rgb(33, 37, 41);\">आधुनिक जीवन में स्वतंत्रता पूर्ण है</span>): Means that people have complete and unlimited freedom.\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage specifically challenges this idea, showing that freedom is influenced by many factors.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Technology destroys democracy</strong> (<span style=\"color: rgb(33, 37, 41);\">प्रौद्योगिकी लोकतंत्र को नष्ट कर देती है</span>): Means that technological advancements ruin democratic systems.\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage discusses technology&rsquo;s influence, but does not say it destroys democracy.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Traditions should be abandoned</strong> (<span style=\"color: rgb(33, 37, 41);\">परंपराओं को छोड़ देना चाहिए</span>): Suggests that traditions are not valuable.\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage mentions traditions influence aspirations, but does not recommend abandoning them.</li>\n\t</ul>\n\t</li>\n</ul>\n\n3c:T876,\n\n<div><span style=\"\">The correct answer is '</span><span style=\"color: rgb(33, 37, 41);\"><strong>like</strong>'</span><span style=\"\">.</span></div>\n<div> </div>\n<div><span style=\"\"><span style=\"display: flex; gap: 6px; align-ite", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "694e7d4067b1051c7021bb5d", "qs_no": 17, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What does the passage suggest about digital platforms?", "options": [{"prompt": "1", "value": "They ensure neutrality"}, {"prompt": "2", "value": "They subtly guide preferences"}, {"prompt": "3", "value": "They promote critical thinking"}, {"prompt": "4", "value": "They eliminate choice"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is: <b>Option (2) i.e. They subtly guide preferences</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The passage states that <strong>digital platforms analyse behaviour patterns and guide preferences</strong>, meaning they influence the choices people make in subtle ways. (वे पसंद को सूक्ष्म रूप से मार्गदर्शित करते हैं)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> Social media platforms recommend content based on past behaviour, thereby shaping users&#39; preferences without them always realizing it.</li>\n\t</ul>\n\t</li>\n\t<li><strong>&ldquo;They subtly guide preferences&rdquo;</strong> means that the platforms direct or influence people&#39;s choices without being obvious. (वे पसंद को धीरे-धीरे मार्गदर्शित करते हैं)\n\t<ul>\n\t\t<li><strong>Example:</strong> Online shopping websites show certain products more prominently, affecting what users choose to buy.</li>\n\t</ul>\n\t</li>\n\t<li>This highlights that digital platforms play an influential but not always transparent role in shaping individual decisions.</li>\n</ul>\n\n<p>Therefore, the correct answer is- They subtly guide preferences</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>They ensure neutrality</strong> (<span style=\"color: rgb(33, 37, 41);\">वे तटस्थता सुनिश्चित करते हैं</span>): Means that the platforms do not take sides or influence outcomes.\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage contradicts this, showing that digital platforms do influence preferences.</li>\n\t</ul>\n\t</li>\n\t<li><strong>They promote critical thinking</strong> (<span style=\"color: rgb(33, 37, 41);\">वे समालोचनात्मक सोच को बढ़ावा देते हैं</span>): Means that the platforms encourage people to think deeply and analytically.\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage does not state that digital platforms promote critical thinking.</li>\n\t</ul>\n\t</li>\n\t<li><strong>They eliminate choice</strong> (<span style=\"color: rgb(33, 37, 41);\">वे विकल्प को समाप्त कर देते हैं</span>): Means that the platforms remove the ability to choose.\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage shows that choices are still present but are influenced, not eliminated.</li>\n\t</ul>\n\t</li>\n</ul>\n\n40:Te0e,\n<p>The correct answer is: <b>Option (3) i.e. Conscious awareness of influences</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbf", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "694e7d403aca01cde5a3cfc6", "qs_no": 18, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "According to the passage, why do people feel autonomous?", "options": [{"prompt": "1", "value": "Due to lack of rules"}, {"prompt": "2", "value": "Because influences are invisible"}, {"prompt": "3", "value": "Due to economic equality"}, {"prompt": "4", "value": "Because traditions are ignored"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is: <b>Option (2) i.e. Because influences are invisible</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The passage explains that individuals <strong>may feel autonomous while operating within invisible boundaries</strong>, meaning they believe they are making independent choices because the factors influencing them are not obvious. (प्रभाव अदृश्य होने के कारण)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> A person might think they are freely choosing a product, but their decision has been shaped by subtle advertising and social norms they do not notice.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Because influences are invisible</strong> means people are often unaware of the social, technological, and cultural factors guiding their actions. (क्योंकि प्रभाव अदृश्य हैं)\n\t<ul>\n\t\t<li><strong>Example:</strong> Many individuals feel they are acting independently, even though their aspirations are shaped by education systems and traditions from a young age.</li>\n\t</ul>\n\t</li>\n\t<li>This highlights how the perception of autonomy can exist alongside unnoticed influences.</li>\n</ul>\n\n<p>Therefore, the correct answer is- Because influences are invisible</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>Due to lack of rules</strong> (<span style=\"color: rgb(33, 37, 41);\">नियमों की कमी के कारण</span>): Means there are no rules restricting choices.\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage does not mention a lack of rules as the reason for feeling autonomous.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Due to economic equality</strong> (<span style=\"color: rgb(33, 37, 41);\">आर्थिक समानता के कारण</span>): Means everyone has the same economic status.\n\t<ul>\n\t\t<li><strong>Example:</strong> Economic equality is not discussed in the passage as a factor for perceived autonomy.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Because traditions are ignored</strong> (<span style=\"color: rgb(33, 37, 41);\">क्योंकि परंपराओं को नजरअंदाज किया जाता है</span>): Means people do not follow traditions.\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage mentions that traditions influence aspirations, not that they are ignored.</li>\n\t</ul>\n\t</li>\n</ul>\n\n3f:Tefd,\n<p>The correct answer is: <b>Option (2) i.e. They subtly guide preferences</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "694e7d41d94ef9c20934f87c", "qs_no": 19, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What is described as true independence?", "options": [{"prompt": "1", "value": "Rejecting all norms"}, {"prompt": "2", "value": "Absence of society"}, {"prompt": "3", "value": "Conscious awareness of influences"}, {"prompt": "4", "value": "Total isolation"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p>The correct answer is: <b>Option (3) i.e. Conscious awareness of influences</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The passage states that <strong>true independence</strong> &ldquo;lies not in the absence of influence but in awareness of it,&rdquo; meaning real freedom comes from being consciously aware of the social, technological, and cultural factors that influence us. (प्रभावों की सचेत जागरूकता)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> A person who understands how advertising shapes their desires can make more genuine choices, reflecting true independence.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Conscious awareness of influences</strong> refers to actively recognizing and understanding the various forces that guide our decisions. (प्रभावों की सचेत जागरूकता)\n\t<ul>\n\t\t<li><strong>Example:</strong> Someone aware of how educational traditions affect their aspirations can better decide their own path.</li>\n\t</ul>\n\t</li>\n\t<li>This highlights that freedom is not about rejecting all influences, but about being mindful of them.</li>\n</ul>\n\n<p>Therefore, the correct answer is- Conscious awareness of influences</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>Rejecting all norms</strong> (<span style=\"color: rgb(33, 37, 41);\">सभी मानदंडों को अस्वीकार करना</span>): Means to refuse to accept any social rules or standards.\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage does not suggest that independence means rejecting every norm.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Absence of society</strong> (<span style=\"color: rgb(33, 37, 41);\">समाज का अभाव</span>): Means living without any community or social structure.\n\t<ul>\n\t\t<li><strong>Example:</strong> True independence does not require the absence of society, but awareness within it.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Total isolation</strong> (<span style=\"color: rgb(33, 37, 41);\">पूर्ण एकांत</span>): Means being completely alone, separated from everyone.\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage does not propose isolation as the path to independence.</li>\n\t</ul>\n\t</li>\n</ul>\n\n41:Tb3a,\n\n<div><span style=\"\">The correct answer is <strong>Option 3</strong>.</span></div>\n\n<div> </div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-it", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "694e7d41f77e075b64e05798", "qs_no": 20, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which tone best reflects the author&rsquo;s view?", "options": [{"prompt": "1", "value": "Dismissive"}, {"prompt": "2", "value": "Analytical and reflective"}, {"prompt": "3", "value": "Emotional"}, {"prompt": "4", "value": "Celebratory"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is: <b>Option (2) i.e. Analytical and reflective</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The tone <strong>&ldquo;analytical and reflective&rdquo;</strong> means the author examines and thoughtfully considers how freedom is shaped by unseen influences, rather than accepting it at face value. (विश्लेषणात्मक और चिंतनशील)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The author discusses how digital platforms, traditions, and education subtly shape choices, encouraging readers to reflect on what genuine independence means.</li>\n\t</ul>\n\t</li>\n\t<li>The passage uses reasoned explanation and critical thinking to analyze the concept of personal freedom.</li>\n\t<li>This approach encourages readers to be aware and thoughtful, rather than emotional, dismissive, or purely celebratory.</li>\n</ul>\n\n<p>Therefore, the correct answer is- Analytical and reflective</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>Dismissive</strong> (<span style=\"color: rgb(33, 37, 41);\">उपेक्षापूर्ण</span>): To reject or disregard something as unworthy of consideration.\n\n\t<ul>\n\t\t<li><strong>Example:</strong> A dismissive tone would ignore the importance of hidden influences, which is not the case here.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Emotional</strong> (<span style=\"color: rgb(33, 37, 41);\">भावनात्मक</span>): Showing strong feelings rather than logical analysis.\n\t<ul>\n\t\t<li><strong>Example:</strong> The passage remains logical and thoughtful, not driven by emotion.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Celebratory</strong> (<span style=\"color: rgb(33, 37, 41);\">उत्सवपूर्ण</span>): Expressing praise or rejoicing.\n\t<ul>\n\t\t<li><strong>Example:</strong> The author does not praise or glorify personal freedom without question; instead, he examines it critically.</li>\n\t</ul>\n\t</li>\n</ul>\n\n43:Tc6f,\n\n<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div>\n\n<div> </", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "694e7d41da7d0a3eb1b0105d", "qs_no": 21, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct indirect speech:<br><br>Neha said, “I have completed the assignment.”", "options": [{"prompt": "1", "value": "Neha said she completed the assignment."}, {"prompt": "2", "value": "Neha said she has completed the assignment."}, {"prompt": "3", "value": "Neha said she had completed the assignment."}, {"prompt": "4", "value": "Neha said she was completing the assignment."}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n\n<div><span style=\"\">The correct answer is <strong>Option 3</strong>.</span></div>\n\n<div> </div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n        <li><span style=\"\"><strong>Indirect Speech:</strong> Neha said she had completed the assignment.</span></li>\n        <li><span style=\"\"><strong>Key Conversions:</strong></span>\n        <ul>\n                <li><strong>“I have completed the assignment” becomes “she had completed the assignment”</strong>\n                <ul>\n                        <li>Pronoun “I” is changed to “she” to match the subject of the reporting verb.</li>\n                        <li>Verb “have completed” is changed to “had completed” to reflect the past perfect tense in indirect speech.</li>\n                </ul>\n                </li>\n        </ul>\n        </li>\n        <li><span style=\"\"><strong>Punctuation and Format:</strong></span>\n        <ul>\n                <li>The reporting verb “said” is followed by the reported speech without quotation marks.</li>\n                <li>Tense is shifted correctly from present perfect to past perfect.</li>\n        </ul>\n        </li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 3</strong>.</span></div>\n\n<div> </div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>“Neha said she had completed the assignment.”</em></span></div>\n\n<div> </div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n        <li><span style=\"\"><strong>Option 1:</strong> “Neha said she completed the assignment.”</span>\n        <ul>\n                <li><span style=\"\">Does not reflect the correct past perfect tense for indirect speech.</span></li>\n        </ul>\n        </li>\n        <li><span style=\"\"><strong>Option 2:</strong> “Neha said she has completed the assignment.”</span>\n        <ul>\n                <li><span style=\"\">Fails to change the tense from present perfect to past perfect.</span></li>\n        </ul>\n        </li>\n        <li><span style=\"\"><strong>Option 4:</strong> “Neha said she was completing the assignment.”</span>\n        <ul>\n                <li><span style=\"\">Changes the meaning by implying a continuous action instead of a completed one.</span></li>\n        </ul>\n        </li>\n</ul>\n42:Tc94,\n<p>The correct answer is: &", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "694e7d426f220c0ea198f958", "qs_no": 22, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct indirect speech:<br><br>The players said, “We will win the match.”", "options": [{"prompt": "1", "value": "They said they will win the match."}, {"prompt": "2", "value": "They said they would win the match."}, {"prompt": "3", "value": "They said they shall win the match."}, {"prompt": "4", "value": "They said they have won the match."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n\n<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div>\n\n<div> </div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n        <li><span style=\"\"><strong>Indirect Speech:</strong> The players said that they would win the match.</span></li>\n        <li><span style=\"\"><strong>Key Conversions:</strong></span>\n        <ul>\n                <li><strong>\"We will win\" becomes \"they would win\"</strong>\n                <ul>\n                        <li>The pronoun \"we\" is changed to \"they\" to match the subject of the reporting verb.</li>\n                        <li>The modal verb \"will\" is changed to \"would\" to reflect backshifting in indirect speech.</li>\n                </ul>\n                </li>\n                <li><strong>Reporting verb:</strong>\n                <ul>\n                        <li>Direct: \"said\"</li>\n                        <li>Remains the same in indirect speech as there is no indication of a question or command.</li>\n                </ul>\n                </li>\n        </ul>\n        </li>\n        <li><span style=\"\"><strong>Punctuation and Format:</strong></span>\n        <ul>\n                <li>Quotation marks are removed in indirect speech.</li>\n                <li>The sentence is adjusted to be grammatically correct without the quotation marks.</li>\n        </ul>\n        </li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 2</strong>.</span></div>\n\n<div> </div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>The players said that they would win the match.</em></span></div>\n\n<div> </div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n        <li><span style=\"\"><strong>Option 1:</strong> \"They said they will win the match.\"</span>\n        <ul>\n                <li><span style=\"\">The verb \"will\" is not backshifted to \"would\" as required in indirect speech.</span></li>\n        </ul>\n        </li>\n        <li><span style=\"\"><strong>Option 3:</strong> \"They said they shall win the match.\"</span>\n        <ul>\n                <li><span style=\"\">The modal verb \"shall\" is incorrect and does not match the original statement.</span></li>\n        </ul>\n        </li>\n        <li><span style=\"\"><strong>Option 4:</strong> \"They said they have won the match.\"</span>\n        <ul>\n                <li><span style=\"\">The tense is incorrect, as it changes the meaning to the present perfect tense.</span></li>\n        </ul>\n        </li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "694e7d42a628e7b09fe482fb", "qs_no": 23, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct direct speech:<br><br>The judge remarked that had the witness testified honestly, the outcome might have changed.", "options": [{"prompt": "1", "value": "“If the witness testifies honestly, the outcome may change,” said the judge."}, {"prompt": "2", "value": "“Had the witness testified honestly, the outcome might have changed,” said the judge."}, {"prompt": "3", "value": "“If the witness had testified honest, the outcome changed,” said the judge."}, {"prompt": "4", "value": "“Had testified honestly, the outcome could change,” he said."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n\n<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div>\n\n<div> </div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n        <li><span style=\"\"><strong>Indirect Speech:</strong> The judge remarked that had the witness testified honestly, the outcome might have changed.</span></li>\n        <li><span style=\"\"><strong>Key Conversions:</strong></span>\n        <ul>\n                <li><strong>\"had the witness testified honestly\" becomes \"Had the witness testified honestly\"</strong>\n                <ul>\n                        <li>The past perfect structure in indirect speech remains the same in direct speech.</li>\n                </ul>\n                </li>\n                <li><strong>\"the outcome might have changed\" remains \"the outcome might have changed\"</strong>\n                <ul>\n                        <li>The modal verb \"might have\" is retained as it reflects the hypothetical nature of the statement.</li>\n                </ul>\n                </li>\n                <li><strong>Reporting verb:</strong>\n                <ul>\n                        <li>Indirect: \"remarked\"</li>\n                        <li>Converted to: \"said,\" which is commonly used in direct speech.</li>\n                </ul>\n                </li>\n        </ul>\n        </li>\n        <li><span style=\"\"><strong>Punctuation and Format:</strong></span>\n        <ul>\n                <li>Direct speech is enclosed in quotation marks.</li>\n                <li>Starts with a capital letter \"Had\" and ends with a period \".\".</li>\n                <li>Reporting clause follows the quoted speech, starting with a lowercase letter after the comma.</li>\n        </ul>\n        </li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 2</strong>.</span></div>\n\n<div> </div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>\"“Had the witness testified honestly, the outcome might have changed,” said the judge.\"</em></span></div>\n\n<div> </div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n        <li><span style=\"\"><strong>Option 1:</strong> \"If the witness testifies honestly, the outcome may change,\" said the judge.</span>\n        <ul>\n                <li><span style=\"\">Incorrect tense: \"testifies\" and \"may change\" are in the present tense, while the original sentence refers to a past hypothetical situation.</span></li>\n        </ul>\n        </li>\n        <li><span style=\"\"><strong>Option 3:</strong> \"If the witness had testified honest, the outcome changed,\" said the judge.</span>\n        <ul>\n                <li><span style=\"\">Grammatical error: \"had testified honest\" should be \"had testified honestly.\"</span></li>\n                <li><span style=\"\">Incorrect tense: \"changed\" does not accurately reflect the hypothetical nature of the outcome.</span></li>\n        </ul>\n        </li>\n        <li><span style=\"\"><strong>Option 4:</strong> \"Had testified honestly, the outcome could change,\" he said.</span>\n        <ul>\n                <li><span style=\"\">Incomplete sentence: Missing subject \"the witness.\"</span></li>\n                <li><span style=\"\">Incorrect modal verb: \"could change\" does not reflect the past hypothetical context.</span></li>\n        </ul>\n        </li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "694e7d42fac558170723f536", "qs_no": 24, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Rearrange the sentences to form a coherent paragraph:<br />\n<br />\n1. Machine learning allows systems to improve through experience.<br />\n<br />\n2. These systems analyze large volumes of data.<br />\n<br />\n3. Artificial intelligence relies heavily on such models.<br />\n<br />\n4. This enables accurate predictions and decisions.", "options": [{"prompt": "1", "value": "1-2-4-3"}, {"prompt": "2", "value": "3-2-1-4"}, {"prompt": "3", "value": "1-3-2-4"}, {"prompt": "4", "value": "3-1-2-4"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 1</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">Machine learning allows systems to improve through experience.</span></li>\n\t<li><span style=\"\"><strong>Sentence 1 is the first sentence</strong> as it sets the framework:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;Machine learning allows systems to improve through experience.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\"><strong>Sentence 2 follows</strong> as it explains the function:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;These systems analyze large volumes of data.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\"><strong>Sentence 4 is the third sentence</strong> because it demonstrates the result of analysis:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;This enables accurate predictions and decisions.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\"><strong>Sentence 3 is the fourth</strong> as it contextualizes the importance of these systems in AI:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;Artificial intelligence relies heavily on such models.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\">The correct sequence is <strong>1-2-4-3</strong>.</span></li>\n</ul>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Coherent paragraph after rearrangement</strong>:</span></div>\n\n<div><span style=\"\">&quot;Machine learning allows systems to improve through experience. These systems analyze large volumes of data. This enables accurate predictions and decisions. Artificial intelligence relies heavily on such models.&quot;</span></div>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Sentence Improvement", "confidence": "high"}, {"qid": "694e7d4385f77ac9f4794113", "qs_no": 25, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Rearrange the sentences to form a logical passage:<br><br>1. Hence, conservation is essential.<br><br>2. Wetlands support diverse wildlife.<br><br>3. They also help control floods.<br><br>4. Rapid urbanization threatens them.", "options": [{"prompt": "1", "value": "2-3-4-1"}, {"prompt": "2", "value": "2-4-1-3"}, {"prompt": "3", "value": "3-2-4-1"}, {"prompt": "4", "value": "4-2-3-1"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n\n<div><span style=\"\">The correct answer is <strong>Option 1</strong>.</span></div>\n\n<div> </div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul> \n  <li><span style=\"\">The correct sequence is <strong>2-3-4-1</strong>.</span></li> \n  <li><span style=\"\">The paragraph discusses the importance of wetlands and their conservation.</span></li>\n  <li><span style=\"\"><strong>Sentence 2 is the first sentence</strong> as it introduces the subject by highlighting the importance of wetlands:</span> \n    <ul> \n      <li><span style=\"\">\"Wetlands support diverse wildlife.\"</span></li> \n    </ul> \n  </li>\n  <li><span style=\"\"><strong>Sentence 3 comes next</strong> as it explains another key benefit of wetlands:</span> \n    <ul> \n      <li><span style=\"\">\"They also help control floods.\"</span></li> \n    </ul> \n  </li>\n  <li><span style=\"\"><strong>Sentence 4 follows</strong> as it describes the threat posed by human activities:</span> \n    <ul> \n      <li><span style=\"\">\"Rapid urbanization threatens them.\"</span></li> \n    </ul> \n  </li>\n  <li><span style=\"\"><strong>Sentence 1 concludes</strong> the paragraph by emphasizing the need for conservation:</span> \n    <ul> \n      <li><span style=\"\">\"Hence, conservation is essential.\"</span></li> \n    </ul> \n  </li>\n</ul>\n\n<div> </div>\n\n<div><span style=\"\"><strong>Coherent paragraph after rearrangement</strong>:</span></div>\n\n<div><span style=\"\">\"Wetlands support diverse wildlife. They also help control floods. Rapid urbanization threatens them. Hence, conservation is essential.\"</span></div", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Para Jumbles", "confidence": "high"}]}]}</script>
+<script>
+const TEST_DATA = JSON.parse(document.getElementById('test-data').textContent);
+const TOTAL_Q = 25;
+const DURATION_SEC = 0 * 60;
+
+// State
+let currentSectionIdx = 0;
+let currentQIdx = 0;  // global across sections
+let currentLang = 'en';
+let answers = {};  // qid -> selected option prompt
+let marked = {};   // qid -> true
+let visited = new Set();
+let submitted = false;
+let timeLeft = DURATION_SEC;
+let timerInterval = null;
+
+// Flatten all questions for easy indexing
+const allQuestions = [];
+TEST_DATA.sections.forEach((s, sIdx) => {
+  s.questions.forEach(q => {
+    allQuestions.push({...q, sectionIdx: sIdx, sectionName: s.section_name});
+  });
+});
+
+function init() {
+  // Render section tabs
+  const sectionTabs = document.getElementById('sectionTabs');
+  TEST_DATA.sections.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'section-tab' + (i === 0 ? ' active' : '');
+    tab.textContent = s.section_name + ' (' + s.questions.length + ')';
+    tab.onclick = () => switchSection(i);
+    sectionTabs.appendChild(tab);
+  });
+  // Render palette
+  renderPalette();
+  // Render first question
+  renderQuestion();
+  // Start timer
+  startTimer();
+  // Update stats
+  updateStats();
+}
+
+function startTimer() {
+  if (DURATION_SEC <= 0) {
+    // No time limit — show "No Limit" instead of a countdown
+    document.getElementById('timer').textContent = 'No Limit';
+    document.getElementById('timer').classList.add('no-limit');
+    return;
+  }
+  timerInterval = setInterval(() => {
+    if (submitted) return;
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      submitTest();
+    }
+  }, 1000);
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeLeft / 3600);
+  const m = Math.floor((timeLeft % 3600) / 60);
+  const s = timeLeft % 60;
+  const display = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  const timerEl = document.getElementById('timer');
+  timerEl.textContent = display;
+  if (timeLeft < 60) {
+    timerEl.className = 'timer danger';
+  } else if (timeLeft < 300) {
+    timerEl.className = 'timer warning';
+  }
+}
+
+function renderQuestion() {
+  const q = allQuestions[currentQIdx];
+  if (!q) return;
+  visited.add(q.qid);
+  // Update section tab
+  currentSectionIdx = q.sectionIdx;
+  document.querySelectorAll('.section-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSectionIdx);
+  });
+  document.getElementById('currentSectionLabel').textContent = q.sectionName;
+  // Question header — includes Q number, marks, concept, confidence, and question ID
+  document.getElementById('qNum').textContent = 'Q' + (currentQIdx + 1);
+  let headerExtras = '<span class="mark-pos">+' + q.pos_marks + '</span><span class="mark-neg">-' + q.neg_marks + '</span>';
+  // Concept + confidence (from AI classifier — same as AI JSON)
+  const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+  const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+  const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+  headerExtras += '<span class="q-concept" title="Concept category">🎯 ' + concept + '</span>';
+  headerExtras += '<span class="q-confidence ' + confClass + '" title="Classifier confidence">conf: ' + confidence + '</span>';
+  // Question ID (unique per question, useful for cross-test matching)
+  headerExtras += '<span class="q-id" title="Question ID (unique across all tests)">ID: ' + q.qid + '</span>';
+  document.getElementById('qMarks').innerHTML = headerExtras;
+  // Language tabs
+  const langTabs = document.getElementById('qLangTabs');
+  langTabs.innerHTML = '';
+  const availableLangs = Object.keys(q.langs);
+  const showLangs = ['en','hn','te','mr','bn','ml','gu','kn','ta','or'].filter(l => availableLangs.includes(l));
+  if (showLangs.length > 1) {
+    showLangs.forEach((l, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'q-lang-tab' + (l === currentLang ? ' active' : '');
+      btn.textContent = {en:'English',hn:'Hindi',te:'Telugu',mr:'Marathi',bn:'Bengali',ml:'Malayalam',gu:'Gujarati',kn:'Kannada',ta:'Tamil',or:'Odia'}[l] || l;
+      btn.onclick = () => { currentLang = l; renderQuestion(); };
+      langTabs.appendChild(btn);
+    });
+  }
+  // Question text
+  const langData = q.langs[currentLang] || q.langs[availableLangs[0]] || {};
+  document.getElementById('qText').innerHTML = langData.value || '(no question text)';
+  // Options
+  const optsList = document.getElementById('optionsList');
+  optsList.innerHTML = '';
+  (langData.options || []).forEach(opt => {
+    const li = document.createElement('li');
+    li.className = 'option-item' + (answers[q.qid] === opt.prompt ? ' selected' : '');
+    li.innerHTML = '<span class="option-label">' + opt.prompt + '</span><span class="option-text">' + opt.value + '</span>';
+    li.onclick = () => selectOption(q.qid, opt.prompt);
+    optsList.appendChild(li);
+  });
+  // Update palette
+  renderPalette();
+  updateStats();
+}
+
+function selectOption(qid, prompt) {
+  if (submitted) return;
+  if (answers[qid] === prompt) {
+    delete answers[qid];
+  } else {
+    answers[qid] = prompt;
+  }
+  renderQuestion();
+}
+
+function saveNext() {
+  nextQuestion();
+}
+
+function markReviewNext() {
+  const q = allQuestions[currentQIdx];
+  marked[q.qid] = true;
+  nextQuestion();
+}
+
+function clearResponse() {
+  const q = allQuestions[currentQIdx];
+  delete answers[q.qid];
+  renderQuestion();
+}
+
+function nextQuestion() {
+  if (currentQIdx < allQuestions.length - 1) {
+    currentQIdx++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQIdx > 0) {
+    currentQIdx--;
+    renderQuestion();
+  }
+}
+
+function jumpTo(idx) {
+  currentQIdx = idx;
+  renderQuestion();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function switchSection(idx) {
+  currentSectionIdx = idx;
+  // Find first question in this section
+  const qIdx = allQuestions.findIndex(q => q.sectionIdx === idx);
+  if (qIdx >= 0) {
+    currentQIdx = qIdx;
+    renderQuestion();
+  }
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const cell = document.createElement('div');
+    let cls = 'palette-cell ';
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) cls += 'marked-answered';
+    else if (isMarked) cls += 'marked';
+    else if (isAnswered) cls += 'answered';
+    else if (isVisited) cls += 'notanswered';
+    else cls += 'notvisited';
+    if (i === currentQIdx) cls += ' current';
+    cell.className = cls;
+    cell.textContent = (i + 1);
+    cell.onclick = () => jumpTo(i);
+    grid.appendChild(cell);
+  });
+}
+
+function updateStats() {
+  let answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) marked++;
+    else if (isMarked) marked++;
+    else if (isAnswered) answered++;
+    else if (isVisited) notAnswered++;
+    else notVisited++;
+  });
+  document.getElementById('paletteStats').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${notAnswered}</strong></div>
+    <div><span>Marked:</span><strong>${marked}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+  `;
+}
+
+function openSubmitModal() {
+  let answered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    if (answers[q.qid] !== undefined) answered++;
+    else if (marked[q.qid]) marked++;
+    else if (!visited.has(q.qid)) notVisited++;
+  });
+  document.getElementById('submitSummary').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${TOTAL_Q - answered - notVisited}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+    <div><span>Total:</span><strong>${TOTAL_Q}</strong></div>
+  `;
+  document.getElementById('submitModal').classList.add('open');
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('open');
+}
+
+function submitTest() {
+  submitted = true;
+  clearInterval(timerInterval);
+  closeSubmitModal();
+  // Calculate score
+  let score = 0, correct = 0, wrong = 0, skipped = 0;
+  allQuestions.forEach(q => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    if (userAns === undefined) {
+      skipped++;
+    } else if (userAns === correctAns) {
+      correct++;
+      score += q.pos_marks;
+    } else {
+      wrong++;
+      score -= q.neg_marks;
+    }
+  });
+  // Show results view
+  document.getElementById('testMode').style.display = 'none';
+  document.getElementById('resultsView').style.display = 'block';
+  document.getElementById('scoreCard').innerHTML = `
+    <div><span class="score">${score.toFixed(2)}</span><span class="total"> / ${TEST_DATA.max_marks || TOTAL_Q * 2}</span></div>
+    <div class="rank">Correct: ${correct} | Wrong: ${wrong} | Skipped: ${skipped}</div>
+    <div class="rank" style="margin-top:8px;">Accuracy: ${(correct + wrong > 0) ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0}%</div>
+  `;
+  // Render all questions with answers + solutions
+  renderAllQuestions();
+}
+
+function renderAllQuestions() {
+  const container = document.getElementById('resultsQuestions');
+  container.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    const isCorrect = userAns === correctAns;
+    const isWrong = userAns !== undefined && userAns !== correctAns;
+    const isSkipped = userAns === undefined;
+    const card = document.createElement('div');
+    card.className = 'result-card ' + (isCorrect ? 'correct' : isWrong ? 'wrong' : 'skipped');
+    const langData = q.langs[currentLang] || q.langs[Object.keys(q.langs)[0]] || {};
+    let optionsHtml = '';
+    (langData.options || []).forEach(opt => {
+      let cls = 'result-option';
+      if (opt.prompt === correctAns) cls += ' correct';
+      if (opt.prompt === userAns) cls += ' selected';
+      optionsHtml += `<li class="${cls}"><span class="result-option-label">${opt.prompt}</span><span>${opt.value}</span></li>`;
+    });
+    const sol = q.solution_html[currentLang] || q.solution_html['en'] || '';
+    const solHtml = sol ? `<div class="result-solution"><div class="result-solution-title">📖 Solution</div>${sol}</div>` : '';
+    let statusBadge = '';
+    if (isCorrect) statusBadge = '<span class="result-status correct">✓ Correct</span>';
+    else if (isWrong) statusBadge = '<span class="result-status wrong">✗ Wrong</span>';
+    else statusBadge = '<span class="result-status skipped">— Skipped</span>';
+    // Concept + confidence + question ID (same as AI JSON)
+    const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+    const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+    const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+    card.innerHTML = `
+      <div class="result-header">
+        <span class="result-q-num">Q${i + 1}</span>
+        ${statusBadge}
+        <span class="result-concept">🎯 ${concept}</span>
+        <span class="result-confidence ${confClass}">conf: ${confidence}</span>
+        <span class="result-qid">ID: ${q.qid}</span>
+      </div>
+      <div class="result-text">${langData.value || '(no text)'}</div>
+      <ul class="result-options">${optionsHtml}</ul>
+      ${solHtml}
+    `;
+    container.appendChild(card);
+  });
+}
+
+function showAllQuestions() {
+  document.getElementById('resultsView').scrollIntoView({behavior: 'smooth'});
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (submitted) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'j') nextQuestion();
+  if (e.key === 'ArrowLeft' || e.key === 'k') prevQuestion();
+  if (e.key === '1' || e.key === 'a') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[0]) selectOption(q.qid, opts[0].prompt); }
+  if (e.key === '2' || e.key === 'b') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[1]) selectOption(q.qid, opts[1].prompt); }
+  if (e.key === '3' || e.key === 'c') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[2]) selectOption(q.qid, opts[2].prompt); }
+  if (e.key === '4' || e.key === 'd') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[3]) selectOption(q.qid, opts[3].prompt); }
+});
+
+init();
+</script>
+</body>
+</html>

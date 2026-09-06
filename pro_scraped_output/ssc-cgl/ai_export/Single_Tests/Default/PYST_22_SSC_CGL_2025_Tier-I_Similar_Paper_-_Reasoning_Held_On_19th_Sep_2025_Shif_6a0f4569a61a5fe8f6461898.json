@@ -1,0 +1,964 @@
+{
+  "test_id": "6a0f4569a61a5fe8f6461898",
+  "title": "PYST 22: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 19th Sep 2025 Shift 1)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:04:54.777643+00:00",
+  "questions": [
+    {
+      "qid": "694e8210ab4124b721d2142d",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\nDFJ, IKO, NPT, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "RYS"
+        },
+        {
+          "label": "2",
+          "text": "TSG"
+        },
+        {
+          "label": "3",
+          "text": "SUY"
+        },
+        {
+          "label": "4",
+          "text": "RAS"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/ddc05b8de217f5dcdb58d697054cc1fd8f98d36d7f17d338db624d671f6ff6b9.png] \n\nHence, \"Option 3\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ddc05b8de217f5dcdb58d697054cc1fd8f98d36d7f17d338db624d671f6ff6b9.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e82106c99e68bb5d9e3ff",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is the same as the one given below.\n\nT-50, Gokul Dham, Ajmer Road, Jaipur, Rajasthan - 302006 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "T-50, Gokul Dham, Ajmer Road, Jaipur, Rajasthan - 302006"
+        },
+        {
+          "label": "2",
+          "text": "T-50, Gokul Dham, Ajmer Road, Jaipur, Haryana - 302006"
+        },
+        {
+          "label": "3",
+          "text": "T-50, Gokul Dham, Ajmer Road, Jaipur, Madhya Pradesh - 302006"
+        },
+        {
+          "label": "4",
+          "text": "T-50, Gokul Dham, Ajmer Road, Jaipur, Gujarat - 302006"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given: T-50, Gokul Dham, Ajmer Road, Jaipur, Rajasthan - 302006\n\nOption 1) T-50, Gokul Dham, Ajmer Road, Jaipur, Rajasthan - 302006 → Correct\n\nOption 2) T-50, Gokul Dham, Ajmer Road, Jaipur, __**Haryana**__ - 302006&",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "694e8211b80ebd208c5438fe",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is the same as the one given below.\n\n28, White Orchid Complex, S.G. Highway, Ahmedabad, Gujarat - 380054 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "28 White Orchid Complex, SG Highway, Ahmedabad, Gujarat - 380054"
+        },
+        {
+          "label": "2",
+          "text": "28, White Orchid Complex, S.G. Highway, Ahmedabad, Gujarat - 380054"
+        },
+        {
+          "label": "3",
+          "text": "28 White Orchid Complex, SG Highway, Ahmedabad,Gujarat -380054"
+        },
+        {
+          "label": "4",
+          "text": "28, White Orchid Complex, SG Highway, Ahmedabad, Gujarat- 380054"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: 28, White Orchid Complex, S.G. Highway, Ahmedabad, Gujarat - 380054\n\nOption 1) __**28 White**__ Orchid Complex, __**SG**__ Highway, Ahmedabad, Gujarat - 380054 → Incorrect\n\nOption 2) 28, White Orchid Complex, S.G. Highway, Ahmedabad, Gujarat - 380054 → Correct\n\nOption 3) __**28 White**__ Orchid Complex, __**SG**__ Highway, __**Ahmedabad,Gujarat**__ - 380054 → Incorrect\n\nOption 4) 28, White Orchid Complex, __**SG**__ Highway, Ahmedabad, Gujarat - 380054 → Incorrect\n\nThus, the address in option 2 is exactly similar to the given address.\n\nHence, \"Option 2\" is the correct answer.",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "694e82119bccd3315c5a0c1d",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statement and choose the option that follows.\n\nStatement: A significant percentage of urban professionals are enrolling in online mindfulness and meditation programs.\n\nConclusion I. Professionals are prioritizing their mental well-being.\n\nConclusion II. Traditional therapy centers are no longer being visited. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given statement: A significant percentage of urban professionals are enrolling in online mindfulness and meditation programs.\n\nGiven Conclusions:\n\nI. Professionals are prioritizing their mental well-being. → Follow\n\n<p style=\"color: rgb(33, 37, 41)",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694e82111741bd4cbbbed32d",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Cause and Effect",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statements and identify the logical relationship.\n\nI. The municipal corporation initiated a massive waste segregation drive.\n\nII. A large number of residents are still disposing of mixed waste in public bins. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "I is the cause and II is the effect"
+        },
+        {
+          "label": "2",
+          "text": "II is the cause and I is the effect"
+        },
+        {
+          "label": "3",
+          "text": "Both are effects of the same cause"
+        },
+        {
+          "label": "4",
+          "text": "No relation"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given statements:\n\nI. The municipal corporation initiated a massive waste segregation drive.\n\nThis statement addresses the initiative taken by the municipal corporation.\n\n<p style=\"color: r",
+      "tags": [
+        "Cause and Effect"
+      ]
+    },
+    {
+      "qid": "694e821239d120dc77db1c9b",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find out the WRONG number in the given series.\n\n335, 245, 165, 94, 35, -15 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "165"
+        },
+        {
+          "label": "2",
+          "text": "94"
+        },
+        {
+          "label": "3",
+          "text": "245"
+        },
+        {
+          "label": "4",
+          "text": "35"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/fef381d0fd0b350a0801d65478053a6081e468c30354b50b794ab7754f51f856.png] \n\nThus, it should be 95 instead of 94.\n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/fef381d0fd0b350a0801d65478053a6081e468c30354b50b794ab7754f51f856.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e821261944e9aa2602ad7",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the given statement and conclusions carefully. Decide which of the given conclusions is definitely TRUE from the statement.\n\nStatement: A > B ≤ D = E ≥ F > G\n\nConclusion I: B D ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I is True"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II is True"
+        },
+        {
+          "label": "3",
+          "text": "Both Conclusion I and Conclusion II are True"
+        },
+        {
+          "label": "4",
+          "text": "Both Conclusion I and Conclusion II are False"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given statement: A > B ≤ D = E ≥ F > G\n\nConclusions:\n\nI) B True (As A > **B** ≤ D = &",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e82126c99e68bb5d9e408",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which two signs should be interchanged to make the given equation CORRECT?\n\n48 * 12 - 10 + 6 / 2 = 30",
+      "options": [
+        {
+          "label": "1",
+          "text": "* and +"
+        },
+        {
+          "label": "2",
+          "text": "* and /"
+        },
+        {
+          "label": "3",
+          "text": "/ and -"
+        },
+        {
+          "label": "4",
+          "text": "/ and +"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nGiven: 48 * 12 - 10 + 6 / 2 = 30\n\nAccording to the question, after interchanging the signs:\n\nOption 1) * and +\n\n48 * 12 - 10 + 6 / 2 = 30 ⇒ 48 + 12 - 10 * 6 / 2 = 30\n\n⇒ 48 + 12 - 10 * __**6 / 2**__ = 30\n\n⇒ 48 + 12 - __**10 **____*****____** 3**__ = 30\n\n⇒ __**48 + 12**__ - 30 = 30\n\n⇒ <span style=\"color: rgb(33",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e8213f87eedd0fad65c2d",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If \"+\" means subtraction, \"-\" means division, \"*\" means addition, and \"/\" means multiplication, then find the value of the expression.\n\n12 / 3 - 2 + 4 * 6 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "22"
+        },
+        {
+          "label": "3",
+          "text": "24"
+        },
+        {
+          "label": "4",
+          "text": "26"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n +\n -\n ×\n /\n \n \n\n Stands For\n -\n ÷\n +\n ×\n \n \n\nGiven: 12 / 3 - 2 + 4 * 6 = ?\n\n12 / 3 - 2 + 4 * 6 = ? ⇒ 12 × 3 ÷ 2 - 4 + 6 = ?\n\n⇒ 12 × __**3 **____**÷**____** 2**__ - 4 + 6 = ?\n\n⇒ __**12 × 1.5**__ - 4 + 6 = ?\n\n⇒ __**18 + 6**__ - 4 = ?\n\n⇒ __**24**____** - 4**__ = ?\n\n⇒ 20 = ?\n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e82139bccd3315c5a0c24",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "X is the only daughter of Y, who is the only son of Z. How is X related to Z?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Daughter"
+        },
+        {
+          "label": "2",
+          "text": "Sister"
+        },
+        {
+          "label": "3",
+          "text": "Granddaughter"
+        },
+        {
+          "label": "4",
+          "text": "Cousin"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png] \n\nGiven: X is the only daughter of Y, who is the only son of Z.\n\n [IMAGE: https://cdn.repeatermock.com/tb/038eb47a2be5321e6bf1ddb7c873fab6a8820935f8743dcf5cd351d8e76030b5.png] \n\nThus, X is Z's granddaughter.\n\nHence, the correct answer is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/038eb47a2be5321e6bf1ddb7c873fab6a8820935f8743dcf5cd351d8e76030b5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694e821367c39f3d5fd0cf45",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, find out the alternative that will replace the question mark.\n\nDEAF : FEAD :: LIFE : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "EFII"
+        },
+        {
+          "label": "2",
+          "text": "EIFL"
+        },
+        {
+          "label": "3",
+          "text": "EFIL"
+        },
+        {
+          "label": "4",
+          "text": "ELIF"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\nDEAF : FEAD\n\n [IMAGE: https://cdn.repeatermock.com/tb/2bc7d1c97f45765154a2a1326daf0719d9faadd1d4ac1a7967b8870f69dac758.png] \n\nSimilarly,\n\nLIFE : ?\n\n [IMAGE: https://cdn.repeatermock.com/tb/f495c4945ba7c95e034a90281ff107a0b0c7c782ee717ea29d47b383f5f0a5fb.png] \n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2bc7d1c97f45765154a2a1326daf0719d9faadd1d4ac1a7967b8870f69dac758.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f495c4945ba7c95e034a90281ff107a0b0c7c782ee717ea29d47b383f5f0a5fb.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694e821367c39f3d5fd0cf47",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next in the sequence?\n\n3, 4, 6, 10, 18, 34, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "65"
+        },
+        {
+          "label": "2",
+          "text": "66"
+        },
+        {
+          "label": "3",
+          "text": "61"
+        },
+        {
+          "label": "4",
+          "text": "67"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/80a26a4ab767881ecd2c0d5fff2f1a89123c0ae8445c5f9d2c297cad71a41c8d.png] \n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/80a26a4ab767881ecd2c0d5fff2f1a89123c0ae8445c5f9d2c297cad71a41c8d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e82141741bd4cbbbed36d",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: The city municipal council pipes in massive volumes of fresh water from distant reservoirs every day.\n\nConclusions: I. Local groundwater sources are not sufficient for the city's needs.\n\nII. Every household in the city receives piped water. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given statement: The city municipal council pipes in massive volumes of fresh water from distant reservoirs every day.\n\nGiven Conclusions:\n\nI. Local groundwater sources are not sufficient for the city's needs. → Follow\n\nIf the city must pipe in massive volumes of water from distant reservoirs daily, it implies that local water sources such as groundwater are insufficient to meet the city's demand.\n\nII. Every household in the city receives piped water. → Does not Follow\n\nThe statement does not say that piped water reaches every household, it inly refers to the city's supply system.\n\nThus, Only Conclusion I follows.\n\nHence, \"Option 1\" is the correct answer.",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694e821419d5ffd854e5747f",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: Universities are instructed to provide digital-only certificates to students except in special cases.\n\nConclusions: I. Physical certificates were often lost or damaged.\n\nII. This initiative will help reduce paper consumption. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given statement: Universities are instructed to provide digital-only certificates to students except in special cases.\n\nGiven Conclusions:\n\nI. Physical certificates were often lost or damaged. → Does not",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694e82146f622942d95b44b4",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If \"CITY\" is coded as \"GMXC\", what is the code for \"FRANCE\" ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "JVERGI"
+        },
+        {
+          "label": "2",
+          "text": "JVHHFD"
+        },
+        {
+          "label": "3",
+          "text": "JWHHDF"
+        },
+        {
+          "label": "4",
+          "text": "JVIHHD"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.rep\neatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\n\"CITY\" is coded as \"GMXC\"\n\n<img alt=\"\" src=\"https",
+      "solution_images": [
+        {
+          "url": "https://cdn.rep\neatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694e821521d314950566423e",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next in the following letter-cluster series BX, KQ, TJ, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "CA"
+        },
+        {
+          "label": "2",
+          "text": "CB"
+        },
+        {
+          "label": "3",
+          "text": "CC"
+        },
+        {
+          "label": "4",
+          "text": "YC"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/c0186691746b2c61f43011f9e868c823d5739f72902bb873425fede5b9831ef7.png] ​\n\nHence, \"Option 3\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c0186691746b2c61f43011f9e868c823d5739f72902bb873425fede5b9831ef7.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e82154615ecc9165f5ece",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out from the given alternatives based on their historical or scientific category.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Aryabhata"
+        },
+        {
+          "label": "2",
+          "text": "Bhaskara"
+        },
+        {
+          "label": "3",
+          "text": "Varahamihira"
+        },
+        {
+          "label": "4",
+          "text": "Einstein"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\nOption 1) Aryabhata → Ancient Indian mathematician and astronomer.\n\nOption 2) Bhaskara → Ancient Indian mathematici",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694e82154615ecc9165f5ed1",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If BOWL is coded as CPXM, what is the code for FAIL?",
+      "options": [
+        {
+          "label": "1",
+          "text": "GBJM"
+        },
+        {
+          "label": "2",
+          "text": "EBJN"
+        },
+        {
+          "label": "3",
+          "text": "FBKM"
+        },
+        {
+          "label": "4",
+          "text": "GAJL"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\nBOWL is coded as CPXM\n\n [IMAGE: https://cdn.repeatermock.com/tb/326d63b5e90f7e5125dbcac0400dc153a1bc61b1a94ad9c86e9b39696a2eb02d.png] \n\nSimilarly,\n\nFAIL is coded as\n\n [IMAGE: https://cdn.repeatermock.com/tb/0fe26ffb8bf83cf1fcebd444405148ec3daa9c75132d0be60b7e6bf1fb674c4b.png] \n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/326d63b5e90f7e5125dbcac0400dc153a1bc61b1a94ad9c86e9b39696a2eb02d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0fe26ffb8bf83cf1fcebd444405148ec3daa9c75132d0be60b7e6bf1fb674c4b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694e8216b40eb0d241c50961",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "P and Q are partners in a business. P invests 10,000 for a period of 2 years. Q invests 15,000 for a period of 3 years. If P's share of the total profit is 2,000, what is Q's share of the profit?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4,500"
+        },
+        {
+          "label": "2",
+          "text": "4,000"
+        },
+        {
+          "label": "3",
+          "text": "5,000"
+        },
+        {
+          "label": "4",
+          "text": "7,000"
+        }
+      ],
+      "correct": "1",
+      "solution": "According to the question:\n\nP and Q are partners in a business.\n\nP invests Rupees for a period of 2 years. → Rs 10,000\n\nSo, Total P contributed → Rs 10,000 × 2 yrs = Rs 20,000\n\nQ invests Rupees for a period of 3 years. → Rs 15,000\n\nSo, Total Q contributed → Rs 15,000 × 3 yrs = Rs 45,000\n\n∴ Profit ratio of P : Q = 20000 : 45000 ⇒ P : Q = 4 :9\n\nP's profit = Rs 2,000\n\n⇒ 2000 : Q = 4 : 9 \n\n⇒ **Q = Rs 4,500**\n\nHence, \"Option 1\" is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e821619d5ffd854e5748a",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 6 % 2 = 36 and 5 % 2 = 25, what is 4 % 2?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\n6 % 2 = 36 → 6² = 36\n\nAnd,\n\n5 % 2 = 25 → 52 = 25\n\nSimilarly,\n\n4 % 2 → 42 = 16\n\nHence, \"Option 1\" is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e82166f622942d95b44be",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 2 pumps can fill a reservoir in 30 minutes, how many pumps are needed to fill it in 6 minutes?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": "2",
+      "solution": "According to the question:\n\nTotal work required by 2 pumps in 30 min → 2 × 30 = 60\n\nSo, for the same work done in 6 min will be by → 60 ÷ 6 = **10 Pumps**\n\nHence, \"Option 2\" is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e8217b40eb0d241c50965",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If L is the brother of M, M is the sister of O, and N is the father of O, how is L related to O?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Uncle"
+        },
+        {
+          "label": "2",
+          "text": "Father"
+        },
+        {
+          "label": "3",
+          "text": "Brother"
+        },
+        {
+          "label": "4",
+          "text": "Cousin"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png] \n\nGiven:\n\n1) L is the brother of M.\n\n2) M is the sister of O.\n\n [IMAGE: https://cdn.repeatermock.com/tb/7bd361a1b1ab23955d7a39e49cabcc20a5252dd38fcbb0575f22012363fb9913.png] \n\n3) N is the father of O.\n\n [IMAGE: https://cdn.repeatermock.com/tb/fc31c09c1403b6cf3cd79b2c02bb772a789fb2a1e18308978dbb6e9a9228d5da.png] \n\nThus, L is O's brother.\n\nHence, the correct answer is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7bd361a1b1ab23955d7a39e49cabcc20a5252dd38fcbb0575f22012363fb9913.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fc31c09c1403b6cf3cd79b2c02bb772a789fb2a1e18308978dbb6e9a9228d5da.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694e8217a77ce4b0f6e9a0d8",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If \"+\" means \"-\", \"-\" means \"+\", \"×\" means \"÷\", and \"÷\" means \"×\", then solve the following equation.\n\n30 + 6 ÷ 3 - 4 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "14"
+        },
+        {
+          "label": "3",
+          "text": "16"
+        },
+        {
+          "label": "4",
+          "text": "18"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n +\n -\n ×\n <span style=\"color: (33, 37, 41); text-align: center;&quo",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e821761944e9aa2602b50",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the next number in the series.\n\n3, 7, 15, 31, 63, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "125"
+        },
+        {
+          "label": "2",
+          "text": "127"
+        },
+        {
+          "label": "3",
+          "text": "123"
+        },
+        {
+          "label": "4",
+          "text": "129"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/7362f5a2df93fc8332ded6a859bcc5103f3bd7e8aa6e9b8dcba1c517bd1888fc.png] \n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7362f5a2df93fc8332ded6a859bcc5103f3bd7e8aa6e9b8dcba1c517bd1888fc.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e821819d5ffd854e57527",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The series given below contains a sequence of numbers. Accordingly, identify the incorrect combination.\n\n4, 16, 64, 258, 1024, 4100 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16, 258"
+        },
+        {
+          "label": "2",
+          "text": "1024, 4100"
+        },
+        {
+          "label": "3",
+          "text": "64, 258"
+        },
+        {
+          "label": "4",
+          "text": "258, 4100"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/b64e45de6201fdf54ef13dbc1528cab668a58b26213f149440a8ae826d76f17e.png] \n\nThus, it should be 256 and 4096 instead of 258 and 4100 respectively.\n\nHence, **\"Option 4\"** is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b64e45de6201fdf54ef13dbc1528cab668a58b26213f149440a8ae826d76f17e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    }
+  ]
+}

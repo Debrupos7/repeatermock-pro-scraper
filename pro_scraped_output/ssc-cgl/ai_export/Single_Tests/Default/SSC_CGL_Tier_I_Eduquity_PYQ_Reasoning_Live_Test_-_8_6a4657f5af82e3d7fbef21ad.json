@@ -1,0 +1,928 @@
+{
+  "test_id": "6a4657f5af82e3d7fbef21ad",
+  "title": "SSC CGL Tier I: (Eduquity PYQ) Reasoning Live Test - 8",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:12:22.851310+00:00",
+  "questions": [
+    {
+      "qid": "699dd243233c6f150e0b9be7",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Directions: Choose the related word from the given alternatives.\n\nRace : ? :: Athletics : Stadium",
+      "options": [
+        {
+          "label": "1",
+          "text": "Track"
+        },
+        {
+          "label": "2",
+          "text": "Ring"
+        },
+        {
+          "label": "3",
+          "text": "Court"
+        },
+        {
+          "label": "4",
+          "text": "Field"
+        }
+      ],
+      "correct": "1",
+      "solution": "The relationship in this analogy is based on the **venue** or specific surface where the activity takes place:\n\n \n• \n \n**Athletics : Stadium** → Athletics (the broader category of sports) is typically held within a **Stadium**.\n\n \n \n• \n \n**Race : Track** → A Race (the specific event) is specifically held on a **Track**.\n\n \n\nHence, the correct answer is “**Option 1**”.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "690c710e4dd5333f260aa2b9",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the next number in the series? 10, 30, 90, ____",
+      "options": [
+        {
+          "label": "1",
+          "text": "180"
+        },
+        {
+          "label": "2",
+          "text": "200"
+        },
+        {
+          "label": "3",
+          "text": "270"
+        },
+        {
+          "label": "4",
+          "text": "300"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/2342e1e69e16c811b65259ab054d096d921c07a0996bd34a8285d436b5d61f10.png] \n\nthus, \"270\" will replace the question mark in the given series.\n\nHence, the correct option is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2342e1e69e16c811b65259ab054d096d921c07a0996bd34a8285d436b5d61f10.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "690b24a6f2572e4774f8944b",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the LCM of 12, 18, 30?",
+      "options": [
+        {
+          "label": "1",
+          "text": "90"
+        },
+        {
+          "label": "2",
+          "text": "180"
+        },
+        {
+          "label": "3",
+          "text": "60"
+        },
+        {
+          "label": "4",
+          "text": "120"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: Numbers are 12, 18, 30\n\nCalculation:\n\nPrime factorization of 12 = 22 × 3\n\nPrime factorization of 18 = 32 × 2\n\nPrime factorization of 30 = 2 × 3 × 5\n\nTake the highest power of all prime factors: 22, 32, 5\n\n⇒ LCM = 22 × 32 × 5\n\n⇒ LCM = 2 × 9 × 5\n\n⇒ LCM = 180\n\nHence, \"Option 2\" is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "69c7fc3a7ec593cfe61183cf",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following options can be used to build the maximum number of meaningful English words using the letters: T, R, A, E, S?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2-letter words"
+        },
+        {
+          "label": "2",
+          "text": "3-letter words"
+        },
+        {
+          "label": "3",
+          "text": "4-letter words"
+        },
+        {
+          "label": "4",
+          "text": "5-letter words"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given Letters: T, R, A, E, S**\n\nFor 2-letter words: AS, AT\n\nTotal meaningful 2-letter words = 2\n\nFor 3-letter words: ARE, ART, ATE, EAR, EAT, ERA, ETA, RAT, RES, RET, SAT, SEA, SER, SET, TAR, TEA\n\nTotal meaningful 3-letter words = 16\n\n**For 4-letter words: **ARTS, EARS, EAST, EATS, ERAS, RATS, REST, SEAR, SEAT, SERA, STAR, TARE, TEAR, TEAS, TSAR\n\nTotal meaningful 4-letter words = 15\n\n**For 5-letter words: **ASTER, RATES, STARE, TARES, TEARS\n\nTotal meaningful 5-letter words = 5\n\nTherefore, the option that can be used to build the maximum number of meaningful English words is **3-letter words**.\n\nHence, the correct answer is “**Option 2**”.",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "699dd11cb289eb2897e6ff16",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the set where the pattern of vowels and consonants differs.",
+      "options": [
+        {
+          "label": "1",
+          "text": "LAMP"
+        },
+        {
+          "label": "2",
+          "text": "DUST"
+        },
+        {
+          "label": "3",
+          "text": "GRIN"
+        },
+        {
+          "label": "4",
+          "text": "MOON"
+        }
+      ],
+      "correct": "4",
+      "solution": "Check the pattern of vowels (V) and consonants (C):\n\nLAMP → 3 Consonant and 1 Vowel\n\nDUST → 3 Consonant and 1 Vowel\n\nGRIN → 3 Consonant and 1 Vowel\n\n**MOON** → 2 Consonant and 2 Vowel\n\nOnly **MOON** has 2 Consonant and 2 Vowel, while others do not follow this pattern.\n\nHence, the correct answer is “**Option 4**”.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "690c7c739fd6438242a57c95",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the next number in the series?\n\n100, 50, 25, ___",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "12.5"
+        },
+        {
+          "label": "3",
+          "text": "13.5"
+        },
+        {
+          "label": "4",
+          "text": "14"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given Series**\n\n100, 50, 25, ___\n\n**Observe the pattern**\n\n50 = 100 ÷ 2\n\n25 = 50 ÷ 2\n\nEach number is divided by 2.\n\n**Find the next number**\n\n25 ÷ 2 = 12.5\n\nHence, the correct answer is **Option 2.**",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "690b1d85b5904ecb896d5f77",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 4 @ 3 = 19 and 2 @ 5 = 9, then 5 @ 2 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "21"
+        },
+        {
+          "label": "2",
+          "text": "23"
+        },
+        {
+          "label": "3",
+          "text": "25"
+        },
+        {
+          "label": "4",
+          "text": "27"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\n**Logic:** a @ b = a² + b\n\n4 @ 3 = 19 → 4² + 3 = 16 + 3 = 19\n\n2 @ 5 = 9 → 22 + 5 = 4 + 5 = 9\n\nSimilarly,\n\n5 @ 2 = ? → 52 + 2 = 25 + 2 = 27\n\nSo, 27 will come in the place of '?'.\n\nHence, the correct answer is \"Option 4\".",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6909e0ecde2e978921884e38",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If PEARL is coded as QFBQM, how is STONE coded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "TUPOF"
+        },
+        {
+          "label": "2",
+          "text": "TUPMF"
+        },
+        {
+          "label": "3",
+          "text": "TUPND"
+        },
+        {
+          "label": "4",
+          "text": "TUPQD"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/6e0b3dcadf3f4c4272c2c1bf20d37dad0da349e75d8f0cb17438f2bfd739322d.png] \n\nThe logic followed here is:\n\nLogic: Each letter in the word is shifted **+1** in the alphabet, except the 4th letter, which is shifted by **-1**.\n\nPEARL → QFBQM",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6e0b3dcadf3f4c4272c2c1bf20d37dad0da349e75d8f0cb17438f2bfd739322d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "69bcecfaba9e623343b7aa74",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Seating Arrangement",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "7 males A, B, C, D, E, F and G are sitting in a row facing north (not necessarily in the same order). Only four males are to the left of A. B is the immediate neighbour of A and C. D is third to the left of E. F is not the immediate neighbour of E. What is the position of F from the right end of the row?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Fifth"
+        },
+        {
+          "label": "2",
+          "text": "Fourth"
+        },
+        {
+          "label": "3",
+          "text": "Sixth"
+        },
+        {
+          "label": "4",
+          "text": "Seventh"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given: Seven males A, B, C, D, E, F and G are sitting in a row facing north.\n\nOnly four males are to the left of A\n\nB is the immediate neighbour of A and C.\n\nD is third to the left of E.\n\nF is not the immediate neighbour of E.\n\n [IMAGE: https://cdn.repeatermock.com/tb/ada74de12691074f5c75cd13f42720434b163941a3dd4a528427f42a1d27d10b.png] \n\nSo, F is 6th from the right end.\n\nHence, the correct answer is **Option 3**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ada74de12691074f5c75cd13f42720434b163941a3dd4a528427f42a1d27d10b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Seating Arrangement"
+      ]
+    },
+    {
+      "qid": "69c801188eca17ed6bd1688c",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "4 : 16 :: 5 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "35"
+        }
+      ],
+      "correct": "2",
+      "solution": "The pattern observed is: (First Number)2 = Second Number.\n\n**For 4 : 16 →**\n\n4² = 16\n\n**Similarly, let's find the missing number for 5 : ?**\n\n**5² = 25**\n\nTherefore, the missing number is 25.\n\nHence, the correct answer is “**Option 2**”.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "68b22f8236115e0bf78d4d0c",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Observe the following incomplete letter sequence carefully. A specific pattern governs the order and repetition of the letters. Choose the option that best fills the blanks to complete the sequence logically and symmetrically.\n\nxy_z_y_x_yz_zyx",
+      "options": [
+        {
+          "label": "1",
+          "text": "zzyxz"
+        },
+        {
+          "label": "2",
+          "text": "zzyyz"
+        },
+        {
+          "label": "3",
+          "text": "zxzzz"
+        },
+        {
+          "label": "4",
+          "text": "zxxyz"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given series: xy_z_y_x_yz_zyx\n\nOption 1) zzyxz → xy__z__z__z__y**__y__**x__x__yz__z__zxy → (It doesn't follow any pattern)\n\nOption 2) zzyyz →&nb",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "690b31e5dcf03f0fb2bd9266",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "P is the brother of Q. Q is the sister of R. R is the father of S. How is P related to S?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father"
+        },
+        {
+          "label": "2",
+          "text": "Grandfather"
+        },
+        {
+          "label": "3",
+          "text": "Brother"
+        },
+        {
+          "label": "4",
+          "text": "Uncle"
+        }
+      ],
+      "correct": "4",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/de10826ceadd9cc50e2b17a2b23017ec95a4f95ed19dbfd59a31656c263712fb.png] \n\nGiven: P is the brother of Q. Q is the sister of R. R is the father of S.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f3c99bb43bb7380ac3965514450bea2fcc936417ff6c65d2f44d84f3fc62516b.png] \n\nThus, P is Uncle of S.\n\n \n\nHence, the correct answer is \"Option 4\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/de10826ceadd9cc50e2b17a2b23017ec95a4f95ed19dbfd59a31656c263712fb.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f3c99bb43bb7380ac3965514450bea2fcc936417ff6c65d2f44d84f3fc62516b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "693c1e0a900372daba82a9b5",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Ordering and Ranking",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a row of 45 students, Aman is 21st from the left end. What is his position from the right end?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24th"
+        },
+        {
+          "label": "2",
+          "text": "25th"
+        },
+        {
+          "label": "3",
+          "text": "26th"
+        },
+        {
+          "label": "4",
+          "text": "27th"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: 45 students\n\nAman is 21st from the left end.\n\nPosition from right = Total number of students – Position form left + 1\n\nPosition form right = 45 - 21 + 1 = 25\n\nSo, Aman’s position from the right end is 25th.\n\n**Hence, the correct answer is \"Option 2\".**",
+      "tags": [
+        "Ordering and Ranking"
+      ]
+    },
+    {
+      "qid": "69a53eb5b62be481de528ea0",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Instructions: For the question below, carefully examine the Reference Statement. Then, identify the single option among the four alternatives (a, b, c, d) that is an EXACT AND COMPLETE REPLICATION of the Reference Statement. Pay exceptionally close attention to every character, number, symbol, space, and punctuation mark.\n\nReference: Accra (GH): Mar 6, 1957.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Accra (GH): Mar 6, 1957."
+        },
+        {
+          "label": "2",
+          "text": "Accr_a (GH): Mar 6, 1957."
+        },
+        {
+          "label": "3",
+          "text": "Accra (GH): Mar. 6, 1957."
+        },
+        {
+          "label": "4",
+          "text": "Accra (GH): Mar 6, 1975."
+        }
+      ],
+      "correct": "1",
+      "solution": "Given Reference Statement: Accra (GH): Mar 6, 1957. Let's compare each option carefully.\n\n \n \n\n **Option**\n **Statement in Option**\n **Reference Statement**\n **Comment**\n \n \n\n (1)\n Accra (GH): Mar 6, 1957.\n Accra (GH): Mar 6, 1957.\n <td style=\"text-",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "690c77cb26bf51479e5ad982",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If MARKET is coded as NBSLFU, how is NBSLFU coded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "OCTMGV"
+        },
+        {
+          "label": "2",
+          "text": "NCTLGU"
+        },
+        {
+          "label": "3",
+          "text": "OCTLGU"
+        },
+        {
+          "label": "4",
+          "text": "OCTLGV"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/eb40a2767faf1f40920e634ffbd52462342ffbc90cc34d78dbda7383960e321a.png] \n\nMARKET = NBSLFU\n\n**Finding the pattern:**\n\nM → N (+1)\n\nA → B (+1)\n\nR → S (+1)\n\nK → L (+1)\n\nE → F (+1)\n\nT → U (+1)\n\n**Each letter is replaced by the next letter in the English alphabet.**\n\nApplying the same logic to NBSLFU:\n\n**N → O\n\nB → C\n\nS → T\n\nL → M\n\nF → G\n\nU → V**\n\nHence, the correct answer is **Option 1**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/eb40a2767faf1f40920e634ffbd52462342ffbc90cc34d78dbda7383960e321a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "690c7c7202a86f57445d4f66",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement:\n\nNo apple is blue. All oranges are apples.\n\nConclusions:\n\nI. No orange is blue.\n\nII. Some apples are oranges.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "3",
+      "solution": "The least possible Venn diagram for the given statements is as shown below\n\n [IMAGE: https://cdn.repeatermock.com/tb/b76470d1ce0e45816d0daca8c27fe923fe8f63f291438d135cc381b5b25ef454.png] \n\nConclusions:\n\nI. No orange is blue. &",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b76470d1ce0e45816d0daca8c27fe923fe8f63f291438d135cc381b5b25ef454.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "69cf8f194840dde376dc97f9",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 47 @ 39 = 10998 and 30 @ 51 = 9180, then what is the value of 30 @ 11?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1998"
+        },
+        {
+          "label": "2",
+          "text": "1980"
+        },
+        {
+          "label": "3",
+          "text": "1986"
+        },
+        {
+          "label": "4",
+          "text": "1962"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n**Logic: Last Number = 6 × 1st Number × 2nd Number**\n\nGiven:\n\n47 @ 39 = 10998\n\nLast Number = 6 × 47 × 39 = 10998\n\n30 @ 51 = 9180\n\nLast Number = 6 × 30 × 51 = 9180\n\nSimilarly, 30 @ 11 = ?\n\nSo, ? = 6 × 30 × 11 = 1980\n\nHence, the correct answer is **Option 2**.",
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "69b3b4af4a722ad3674de487",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Directions: Select the related word from the given alternatives.\n\nBook : Knowledge :: Gym : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Strength"
+        },
+        {
+          "label": "2",
+          "text": "Sweat"
+        },
+        {
+          "label": "3",
+          "text": "Equipment"
+        },
+        {
+          "label": "4",
+          "text": "Exercise"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic is based on purpose or result.\n\n**Option 1: Strength** – Result obtained from Gym.\n\nOption 2: Sweat – By-product, not the main purpose.\n\nOption 3: Equipment – Used in Gym, not the result.\n\nOption 4: Exercise – Activity done in Gym.\n\nA Book gives **Knowledge** (result), similarly a Gym gives **Strength** (result).\n\nHence, the correct answer is **Option 1**.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "69cb5b3096fb539264875e6c",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will come in the place of '?' in the following equation, if '+' and 'x' are interchanged and '-' and '÷' are interchanged?\n\n15 ÷ 36 - 18 + 0 × 25 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "36"
+        },
+        {
+          "label": "2",
+          "text": "40"
+        },
+        {
+          "label": "3",
+          "text": "46"
+        },
+        {
+          "label": "4",
+          "text": "50"
+        }
+      ],
+      "correct": "2",
+      "solution": "BODMAS Table: \n\n [IMAGE: https://cdn.repeatermock.com/tb/d50192f098c21078501d30eeafe1a8c64bc30dd9621c48caa8a39ffc60f68b64.png] \n\nGiven equation: 15 ÷ 36 - 18 + 0 × 25 = ?\n\n \n \n\n **Original Symbol**\n **New Symbol**\n \n \n\n **+**\n **×**\n \n \n\n **×**\n **+**\n \n \n\n **-**\n **÷**\n \n \n\n **÷**\n **-**\n \n \n\nNow, replacing the symbols:\n\n⇒ 15 - 36 ÷ 18 × 0 + 25 = ?\n\n⇒ 15 - __**36 ÷ 18**__ × 0 + 25 = ?\n\n⇒ 15 - __**2 × 0**__ + 25 = ?\n\n⇒ 15 - __**0**__ + 25 = ?\n\n⇒ __**15 - 0**__ + 25 = ?\n\n⇒ __**15 + 25**__ = ?\n\n⇒ __**40**__.\n\nHence, the correct answer is \"Option 2\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d50192f098c21078501d30eeafe1a8c64bc30dd9621c48caa8a39ffc60f68b64.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "69ca0e8f0433c000a6f8f336",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If A * B = A + B + AB, then what is 3 * 2?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "13"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/b936d22ab8cd72d8778c79e9031fb7053723acbd2a04669f140681527ebc753e.png] **\nThe mathematical operation is defined as: **A * B = A + B + AB**\n\nWe need to evaluate the expression for **3 * 2**.\n\n⇒ **A = 3** and **B = 2**.\n\n⇒ 3 * 2 = 3 + 2 + (__**3 × 2**__)\n\n⇒ 3 * 2 = 3 + 2 + 6\n\n⇒ 3 * 2 = 5 + 6\n\n⇒ 3 * 2 = 11\n\nHence, the correct answer is “Option 1**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b936d22ab8cd72d8778c79e9031fb7053723acbd2a04669f140681527ebc753e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "695253027f5721aacd775700",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next in the following series? Z4, Y9, X25, W49, V121, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "V169"
+        },
+        {
+          "label": "2",
+          "text": "U169"
+        },
+        {
+          "label": "3",
+          "text": "T289"
+        },
+        {
+          "label": "4",
+          "text": "U289"
+        }
+      ],
+      "correct": "2",
+      "solution": "*]:pointer-events-auto scroll-mt-(--header-height)\" data-scroll-anchor=\"false\" data-testid=\"conversation-turn-141\" data-turn=\"user\" data-turn-id=\"ace76955-e563-4595-b86d-c11a20cada89\" dir=\"auto\" style=\"color: rgb(33, 37, 41);\" tabindex=\"-1\">\n\n [IMAGE: https://cdn.repeatermock.com/tb/7ca63fa0a9b1d8d94e9032be998e74b7faff301d8847e785439c04e89b02dfd4.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/576662e7c8762a4faef4d1fbe46f37322aff7a5654427f25c8a8bd4eba9e413c.png] \n\nSo, **'U169'** will replace the question mark in the given series.\n\nHence, the correct answer is \"Option 2\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7ca63fa0a9b1d8d94e9032be998e74b7faff301d8847e785439c04e89b02dfd4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/576662e7c8762a4faef4d1fbe46f37322aff7a5654427f25c8a8bd4eba9e413c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "69cd0199188db77c24121838",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Complete the series: AZ, BY, CX, __ ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "DW"
+        },
+        {
+          "label": "2",
+          "text": "EV"
+        },
+        {
+          "label": "3",
+          "text": "DU"
+        },
+        {
+          "label": "4",
+          "text": "EW"
+        }
+      ],
+      "correct": "1",
+      "solution": "The position and positional values or English Alphabets are:\n\n [IMAGE: https://cdn.repeatermock.com/tb/0b2c39e8d3ea4c786847d9e60958ca2354920f0589539cd1cc9161241a9faac6.png] \n\n**Given: **AZ, BY, CX, __ ?\n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/90d71dc8d9d4e6b2bfee68d5d63d011508ccf73a5e4aa6dd157a7d4f10b79072.png] \n\nThus, DW will complete the series.\n\nHence, the correct answer is \"**Option 1**\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0b2c39e8d3ea4c786847d9e60958ca2354920f0589539cd1cc9161241a9faac6.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/90d71dc8d9d4e6b2bfee68d5d63d011508ccf73a5e4aa6dd157a7d4f10b79072.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "693c1f0583f3d9769fdc6eab",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many triangles are there in the given figure?\n\n [IMAGE: https://cdn.repeatermock.com/tb/1ea0399e5432a8a7478de70a1b10564f0faac2c97c3bfcb175593cd7a40f6892.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "2",
+      "solution": "The triangles are:\n\n [IMAGE: https://cdn.repeatermock.com/tb/3b823f7a6b124a9402fa72389593575b472791947207dde207040b44ca969588.png] \n\nSo, there are '6' triangles in the given figure.\n\nHence, the correct answer is \"**Option 2**\".",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1ea0399e5432a8a7478de70a1b10564f0faac2c97c3bfcb175593cd7a40f6892.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3b823f7a6b124a9402fa72389593575b472791947207dde207040b44ca969588.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "68b14d359e8278994a909e1b",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which one is different from the others?",
+      "options": [
+        {
+          "label": "1",
+          "text": "121"
+        },
+        {
+          "label": "2",
+          "text": "189"
+        },
+        {
+          "label": "3",
+          "text": "169"
+        },
+        {
+          "label": "4",
+          "text": "144"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is that all the numbers except one are perfect squares.\n\n121 = 11²\n\n169 = 13²\n\n144 = 12²\n\nThe number **189** is not a perfect square as it cannot be expressed as an integer squared.\n\nHence, the correct answer is **\"Option 2\"**.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "69cbb6a63a9f8e0717b813b1",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Situation Reaction Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "You see smoke coming from your neighbor's house. What would you do?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ignore it"
+        },
+        {
+          "label": "2",
+          "text": "Call the fire department immediately"
+        },
+        {
+          "label": "3",
+          "text": "Wait and see if the smoke increases"
+        },
+        {
+          "label": "4",
+          "text": "Knock on the door to check"
+        }
+      ],
+      "correct": "2",
+      "solution": "According to the given situation:\n\n \n \n\n Option\n Statement\n Correctness\n Reasoning\n \n \n \n \n\n 1\n Ignore it\n Incorrect\n Ignoring smoke from a house can put lives and property in danger. It reflects irresponsibility and lack of concern for safety.\n \n \n\n 2\n Call the fire department immediately\n Correct\n <td style=&quo",
+      "tags": [
+        "Situation Reaction Test"
+      ]
+    }
+  ]
+}

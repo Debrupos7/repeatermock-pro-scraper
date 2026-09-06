@@ -1,0 +1,956 @@
+{
+  "test_id": "6a0f455d7fa7782b08e67f43",
+  "title": "PYST 17: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 17th Sep 2025 Shift 2)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:03:29.980637+00:00",
+  "questions": [
+    {
+      "qid": "694a85505a24b6d264acf0f2",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If each letter is coded as its position in the English alphabet in reverse order (Z=1, Y=2, ..., A=26), what is the code for the word BOAT?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25, 12, 26, 7"
+        },
+        {
+          "label": "2",
+          "text": "25, 13, 26, 7"
+        },
+        {
+          "label": "3",
+          "text": "24, 12, 26, 8"
+        },
+        {
+          "label": "4",
+          "text": "25, 12, 25, 7"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is: Each letter is coded as its position in the English alphabet in reverse order\n\nBOAT is coded as\n\n<p st",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "694a85515fa73b80cfc04824",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is exactly the same as the one given below.\n\nB-6, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "B-6, Lotus Enclave, Patliputra Colony, Patna, Biharr - 800013"
+        },
+        {
+          "label": "2",
+          "text": "B-6, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013"
+        },
+        {
+          "label": "3",
+          "text": "B6, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013"
+        },
+        {
+          "label": "4",
+          "text": "B-6, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800031"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: B-6, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013\n\nOption 1) B-6, Lotus Enclave, Patliputra Colony, Patna, __**Biharr**__ - 800013 → Incorrect\n\nOption 2) B-6, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013→ Correct\n\nOption 3) __**B6**__, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013→ Incorrect\n\nOption 4) B-6, Lotus Enclave, Patliputra Colony, Patna, Bihar - __**800031**__→ Incorrect\n\nThus, the address in option 2 is exactly similar to the given address.\n\nHence, \"Option 2\" is the correct answer.",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "694a855172814b33a63f00ce",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\nEBD, HXI, KTN, NPS, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "QLX"
+        },
+        {
+          "label": "2",
+          "text": "RLY"
+        },
+        {
+          "label": "3",
+          "text": "QKY"
+        },
+        {
+          "label": "4",
+          "text": "PKW"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/366bba8ad593c36645ad485718d3bf3313016cb747d53165c9fedf1e46beb443.png] \n\nThe logic followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/ab9f18f701dd92aa8fec3cefdd4996dfb0180936829a2aaeb5b3fde9bd6d1733.png] ​\n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/366bba8ad593c36645ad485718d3bf3313016cb747d53165c9fedf1e46beb443.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ab9f18f701dd92aa8fec3cefdd4996dfb0180936829a2aaeb5b3fde9bd6d1733.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694a85518fcb99d132bcee77",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series:\n\nEBQT, GFTV, IJWX, KNZZ, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "MRCB"
+        },
+        {
+          "label": "2",
+          "text": "NRDF"
+        },
+        {
+          "label": "3",
+          "text": "MSDE"
+        },
+        {
+          "label": "4",
+          "text": "LQCE"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/366bba8ad593c36645ad485718d3bf3313016cb747d53165c9fedf1e46beb443.png] \n\nThe logic followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/0ce9c76710cad06f8c4bb653e906edba9172f7b3f3856833823a559630911310.png] \n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/366bba8ad593c36645ad485718d3bf3313016cb747d53165c9fedf1e46beb443.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0ce9c76710cad06f8c4bb653e906edba9172f7b3f3856833823a559630911310.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694a855236cc1daf08d7d8e5",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which two signs should be interchanged to make the following equation correct?\n\n40 - 15 / 5 × 3 + 6 = 21 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "/ and -"
+        },
+        {
+          "label": "2",
+          "text": "- and ×"
+        },
+        {
+          "label": "3",
+          "text": "× and +"
+        },
+        {
+          "label": "4",
+          "text": "/ and ×"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nGiven: 40 - 15 / 5 × 3 + 6 = 21\n\nAccording to the question, after interchanging the signs:\n\nOption 1) / and -\n\n40 - 15 / 5 × 3 + 6 = 21 ⇒ 40 / 15 - 5 × 3 + 6 = 21\n\n⇒ __**40 /**____** 15**__ - 5 × 3 + 6 = 21\n\n⇒ 2.67 - __**5 × 3**__ + 6 = 21\n\n⇒ __**2.67 + 6**__ - 15 = 21\n\n⇒ __**8.67**____** - 15**__ = 21\n\n⇒ 6.33 ≠ 21 (LHS ≠ RHS)\n\nOption 2) - and ×\n\n40 - 15 / 5 × 3 + 6 = 21 ⇒ 40 × 15 / 5 - 3 + 6 = 21\n\n⇒ 40 × __**15 / 5**__ - 3 + 6 = 21\n\n⇒ __**40 ×**____** 3**__ - 3 + 6 = 21\n\n⇒ __**120 + 6**__ - 3 = 21\n\n⇒ __**126**____** - 3**__ = 21\n\n⇒ 120 ≠ 21 (LHS ≠ RHS)\n\nOption 3) × and +\n\n40 - 15 / 5 × 3 + 6 = 21 ⇒ 40 - 15 / 5 + 3 × 6 = 21\n\n⇒ 40 - __**15 / 5**__ + 3 × 6 = 21\n\n⇒ 40 - 3 + __**3 **____**×**____** 6**__ = 21\n\n⇒ __**40 + 18**__ - 3 = 21\n\n⇒ __**58 - 3**__ = 21\n\n⇒ 55 ≠ 21 (LHS ≠ RHS)\n\nOption 4) / and ×\n\n40 - 15 / 5 × 3 + 6 = 21 ⇒ 40 - 15 × 5 / 3 + 6 = 21\n\n⇒ 40 - 15 × __**5 / 3**__ + 6 = 21\n\n⇒ 40 - __**15 **____**×**____** 1.67**__ + 6 = 21\n\n⇒ __**40 + 6**__ - 25 = 21\n\n⇒ __**46 - 25**__ = 21\n\n⇒ 21 = 21 (LHS = RHS)\n\nHence, \"Option 4\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a8552fb297c8f8e7dac42",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A is the daughter of B. B is the son of C. D is the wife of C. How is D related to A?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mother"
+        },
+        {
+          "label": "2",
+          "text": "Grandmother"
+        },
+        {
+          "label": "3",
+          "text": "Aunt"
+        },
+        {
+          "label": "4",
+          "text": "Sister"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/8606ef4c302e78d8a1bce22ddda40d8798ee895299f52e0f98c88d21cb9fb3e4.png] \n\nGiven:\n\n1) A is the daughter of B.\n\n2) B is the son of C.\n\n<img alt=\"&qu",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/8606ef4c302e78d8a1bce22ddda40d8798ee895299f52e0f98c88d21cb9fb3e4.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694a855298b7003ed485601e",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the missing term in the following number sequence:\n\n8, 23, 93, ____, 2785, 19494, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "466"
+        },
+        {
+          "label": "2",
+          "text": "464"
+        },
+        {
+          "label": "3",
+          "text": "470"
+        },
+        {
+          "label": "4",
+          "text": "455"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:​\n\n [IMAGE: https://cdn.repeatermock.com/tb/f5a3e35f6483e6f9a444ca19221a2d602f54c9ed36a642bb95d9e6f9b8fb313c.png] \n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f5a3e35f6483e6f9a444ca19221a2d602f54c9ed36a642bb95d9e6f9b8fb313c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694a8553fb297c8f8e7dac44",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the numerical pair that does not follow the mathematical pattern of the others.",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 # 2 = 16"
+        },
+        {
+          "label": "2",
+          "text": "7 # 3 = 21"
+        },
+        {
+          "label": "3",
+          "text": "6 # 4 = 24"
+        },
+        {
+          "label": "4",
+          "text": "9 # 1 = 15"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is: \n\nOption 1) 8 # 2 = 16 → 8 × 2 = 16\n\nOption 2) 7 # 3 = 21 → 7 × 3 = 21\n\nOption 3) 6 # 4 = 24 → 6 × 4 = 24\n\nOption 4) 9 # 1 = 15 → 9 × 1 = **9 ≠ 15**\n\nHence, **\"Option 4\"** is the correct answer.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694a85533d728baaee2a5772",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.\n\nStatement: The successful deployment of the new quantum satellite has provided empirical evidence for long-distance entanglement, but it also creates opportunities for developing unhackable global communication networks.\n\nAssumptions:\n\nI. Quantum satellites offer a new method for global communication.\n\nII. The theory of entanglement has been fully utilized by this deployment.\n\nIII. Further research into quantum entanglement will lead to breakthroughs in cybersecurity. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I and II are implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only II and III are implicit"
+        },
+        {
+          "label": "3",
+          "text": "Only I and III are implicit"
+        },
+        {
+          "label": "4",
+          "text": "All I, II, and III are implicit"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given statement: The successful deployment of the new quantum satellite has provided empirical evidence for long-distance entanglement, but it also creates opportunities for developing unhackable global communication networks.\n\nAssumptions:\n\nI. Quantum satellites offer a new method for global communication. ⇒ Implicit\n\nThe statement links the satellite's development to opportunities for global communication networks, which presumes that quantum satellite can be used as a communication method. \n\nII. The theory of entanglement has been fully utilized by this deployment. ⇒ Not Implicit\n\nThe statement does not suggest that the theory of entanglement has been fully utilized, only that that the evidence has been demonstrated. \n\nIII. Further research into quantum entanglement will lead to breakthroughs in cybersecurity. ⇒ Implicit\n\nThe statement mentions that unhackable global communication networks assumes that further development of quantum entanglement will contribute to advance in cybersecurity.\n\nThus, Only I and III are implicit.\n\nHence, \"Option 3\" is the correct answer.",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "694a85535eb8416c1f14dbc8",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: More households purchased electric vehicles this year compared to last year.\n\nConclusions:\n\nI. Electric vehicles are becoming the preferred choice for families.\n\nII. Traditional fuel-based cars are no longer being manufactured. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given statement: More households purchased electric vehicles this year compared to last year\n\nConclusions:\n\nI. Electric vehicles are becoming the preferred choice for families.. ⇒ True\n\nAn increase in sales supports the trend of electric vehicles becoming a preferred choice.\n\nII. Traditional fuel-based cars are no longer being manufactured. ⇒ False\n\nThis is completely unrelated and not supported by the statement.\n\nThus, Only Conclusion I follows.\n\nHence, \"Option 1\" is the correct answer.",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694a8554782e164e3864708d",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the letter-cluster that completes the analogy based on the transformation pattern.\n\nSQUARE : TRVBSF :: TRIANGLE : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "USJBOHMF"
+        },
+        {
+          "label": "2",
+          "text": "USJCPHMF"
+        },
+        {
+          "label": "3",
+          "text": "VTKCPHNF"
+        },
+        {
+          "label": "4",
+          "text": "USJBPGME"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is\n\nSQUARE : TRVBSF\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/b704c2",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694a85540f3fc3b02436093e",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: All metals are solids. Some solids are hard materials.\n\nConclusions: I. Some metals are hard materials.\n\nII. All hard materials are metals. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "4",
+      "solution": "The least possible Venn diagram for the given statements is as shown below :\n\n [IMAGE: https://cdn.repeatermock.com/tb/329eb7fc97a3a629fe4f71c38470a8abdc592e2c4088e53886f344b8d2eaae5d.png] \n\nConclusions:\n\nI. Some metals are hard materials → Does not follow (As all metals are solids and some solids are hard materials. So it is possible but not definite)\n\nII. All hard materials are metals → Does not follow (As all metals are solids and some solids are hard materials. So it is possible but not definite)\n\n∴ Here, Neither I nor II follows.​\n\nHence, the correct answer is \"Option 4\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/329eb7fc97a3a629fe4f71c38470a8abdc592e2c4088e53886f344b8d2eaae5d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "694a85545a24b6d264acf108",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the letter which is located exactly between the 2nd and 5th letters of the following word as per the English alphabetical series. BREAD ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "G"
+        },
+        {
+          "label": "2",
+          "text": "K"
+        },
+        {
+          "label": "3",
+          "text": "I"
+        },
+        {
+          "label": "4",
+          "text": "J"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\n**Given word:** BREAD\n\nAccording to the question,\n\n2nd letter of word → B__**R**__EAD → R (18)\n\n5th letter of word → BREA__**D**__ → D (4)\n\nSo, the letter which is located exactly between the 2nd and 5th letters → [R(18) + D(4)] ÷ 2 → 22 ÷ 2 = 11th letter i.e. **K** \n\nHence, **\"Option 2\"** is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "694a8555c0b3622a072a2696",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Complete the following alphanumeric series.\n\nB2, D3, F4, H5, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "J6"
+        },
+        {
+          "label": "2",
+          "text": "K6"
+        },
+        {
+          "label": "3",
+          "text": "I6"
+        },
+        {
+          "label": "4",
+          "text": "J7"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/366bba8ad593c36645ad485718d3bf3313016cb747d53165c9fedf1e46beb443.png] \n\nThe logic followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/8bab3b4b333beb4ac32b199f61c8a315773d5017c5fb23e911060f8320dae923.png] \n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/366bba8ad593c36645ad485718d3bf3313016cb747d53165c9fedf1e46beb443.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8bab3b4b333beb4ac32b199f61c8a315773d5017c5fb23e911060f8320dae923.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694a85555eb8416c1f14dbf4",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out from the given alternatives based on their category:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Inflation"
+        },
+        {
+          "label": "2",
+          "text": "Deflation"
+        },
+        {
+          "label": "3",
+          "text": "Stagflation"
+        },
+        {
+          "label": "4",
+          "text": "Photosynthesis"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is: \n\nOption 1) Inflation → Economic term related to price level and economic condition\n\nOption 2) Deflation → Economic term related to price level and economic condition \n\nOption 3) Stagflation → Economic term related to price level and economic condition\n\nOption 4) Photosynthesis → **Biological process**\n\nHence, \"Option 4\" is the correct answer.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694a85555481b89bd54c4b7a",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, each letter is assigned a unique digit. If PLANT is coded as 32456, CHEAT as 74896 and CLEAN as 49237, how is PLATE coded using the same logic?",
+      "options": [
+        {
+          "label": "1",
+          "text": "32461"
+        },
+        {
+          "label": "2",
+          "text": "35276"
+        },
+        {
+          "label": "3",
+          "text": "32561"
+        },
+        {
+          "label": "4",
+          "text": "53476"
+        }
+      ],
+      "correct": "4",
+      "solution": "According to the question:​\n\n [IMAGE: https://cdn.repeatermock.com/tb/1e3f235bf3ce5160ec3bf80938c95382c900093a932779c96405ef61d97a8840.png] \n\nThus, code for 'PLATE' is '53476'.\n\nHence, \"Option 4\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1e3f235bf3ce5160ec3bf80938c95382c900093a932779c96405ef61d97a8840.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694a85567bcbeefbe69a8c6d",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 6 @ 2 = 38 and 3 @ 4 = 13, then what is the value of 5 @ 3?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25"
+        },
+        {
+          "label": "2",
+          "text": "28"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "32"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n6 @ 2 = 38 → (6)2 + 2 ⇒ 36 + 2 = 38\n\nAnd,\n\n3 @ 4 = 13 → (3)2 + 4 ⇒ 9 + 4 = 13\n\nSimilarly,\n\n5 @ 3 → (5)2 + 3 ⇒ 25 + 3 = 28\n\nHence, \"Option 2\" is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a855617b58550d27e2c82",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a specific code language, the word WORK is written as 'XU9L'. Following the same pattern, how would the word ROCK be written?",
+      "options": [
+        {
+          "label": "1",
+          "text": "S#X2"
+        },
+        {
+          "label": "2",
+          "text": "S2X#"
+        },
+        {
+          "label": "3",
+          "text": "SU24L"
+        },
+        {
+          "label": "4",
+          "text": "X2#S"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/366bba8ad593c36645ad485718d3bf3313016cb747d53165c9fedf1e46beb443.png] \n\nThe logic followed here is\n\n​WORK is written as 'XU9L'​\n\n<img alt=\"&",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/366bba8ad593c36645ad485718d3bf3313016cb747d53165c9fedf1e46beb443.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694a8557d34f9ec25ccd9a14",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 5 ! 5 = 100 and 6 ! 6 = 144, what is the value of 8 ! 8?",
+      "options": [
+        {
+          "label": "1",
+          "text": "256"
+        },
+        {
+          "label": "2",
+          "text": "128"
+        },
+        {
+          "label": "3",
+          "text": "200"
+        },
+        {
+          "label": "4",
+          "text": "300"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\n​5 ! 5 = 100 → (5 + 5)² ⇒ (10)² = 100\n\nAnd,\n\n6 ! 6 = 144 → (6 + 6)2 ⇒ (12)2 = 144 \n\nSimilarly,\n\n8 ! 8 → (8 + 8)2 ⇒ (16)2 = 256 \n\nHence, \"Option 1\" is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a8557d878a51bd932d677",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a 60 L container of mixed liquid, the ratio of milk to water is 7: 3. How much water must be added to the container to make the ratio 1: 1?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 L"
+        },
+        {
+          "label": "2",
+          "text": "24 L"
+        },
+        {
+          "label": "3",
+          "text": "15 L"
+        },
+        {
+          "label": "4",
+          "text": "30 L"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given:\n\nMixture volume = 60 L\n\nRatio of milk to water = 7 : 3\n\nConcept: \n\nWe need to adjust the volume of water to change the ratio to 1 : 1\n\nCalculation:\n\nInitial volumes:\n\n⇒ Volume of milk = (7/10) × 60 L = 42 L\n\n<p style=",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a855763228c7351977f88",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If X + Y means X is the mother of Y, X - Y means X is the brother of Y, and X * Y means X is the sister of Y. What is the relationship of X to Z in the expression X - Y + Z?",
+      "options": [
+        {
+          "label": "1",
+          "text": "X is the father of Z"
+        },
+        {
+          "label": "2",
+          "text": "X is the maternal uncle of Z"
+        },
+        {
+          "label": "3",
+          "text": "X is the brother of Z"
+        },
+        {
+          "label": "4",
+          "text": "X is the son of Z"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/8606ef4c302e78d8a1bce22ddda40d8798ee895299f52e0f98c88d21cb9fb3e4.png] \n\n \n \n\n X is\n \n \n\n Symbol\n +\n -\n *\n \n \n\n Meaning\n Mother\n Brother\n Sister\n \n \n\n of Y\n \n \n\nGiven Expression: X - Y + Z\n\nX - Y → X is the brother of Y. \n\nY + Z → Y is the mother of Z. \n\n [IMAGE: https://cdn.repeatermock.com/tb/d02d8cdcd598a39b4696948dc89d1e352b5462a93cf75672664df3b00ffa3feb.png] \n\nThus, X is Z's maternal uncle.\n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/8606ef4c302e78d8a1bce22ddda40d8798ee895299f52e0f98c88d21cb9fb3e4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d02d8cdcd598a39b4696948dc89d1e352b5462a93cf75672664df3b00ffa3feb.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694a855817b58550d27e2c86",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'A' means '+', 'B' means '-', 'C' means 'x', and 'D' means '/' what is the value of the following expression?\n\n24 D 4 A 6 C 3 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "24"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "30"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n A\n B\n C\n D\n \n \n\n Stands For\n +\n -\n ×\n ÷\n \n \n\nGiven: 24 D 4 A 6 C 3 = ?\n\n24 D 4 A 6 C 3 = ? ⇒ 24 ÷ 4 + 6 × 3 = ?\n\n⇒ __**24 **____**÷**____** 4**__ + 6 × 3 = ?\n\n⇒ 6 + __**6 **____**×**____** 3**__ = ?\n\n⇒ __**6**____** + 18**__ = ?\n\n⇒ 24 = ?\n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a8558c2151101a628c5c8",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'P' = ×, 'Q' = /, 'R' = +, 'S' = -, which of the following equations is mathematically not correct? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24 R 4 P 2 S 6 Q 2 = 28"
+        },
+        {
+          "label": "2",
+          "text": "10 P 2 S 5 R 5 = 20"
+        },
+        {
+          "label": "3",
+          "text": "15 Q 3 R 4 P 2 S 1 = 12"
+        },
+        {
+          "label": "4",
+          "text": "12 S 2 R 6 Q 2 P 3 = 19"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n P\n Q\n R\n S\n \n \n\n Stands For\n ×\n ÷\n +\n -\n \n \n\n**So, checking each option one by one:**\n\nOption 1) 24 R 4 P 2 S 6 Q 2 = 28 ⇒ 24 + 4 × 2 - 6 ÷ 2 = 28\n\n⇒ 24 + 4 × 2 - __**6 **____**÷**____** 2**__ = 28\n\n⇒ 24 + __**4 **____**×**____** 2**__ - 3 = 28\n\n⇒ __**24 + 8**__ - 3 = 28\n\n⇒ __**3**____**2 - 3**__ = 28\n\n⇒ 29 ≠ 28 (LHS ≠ RHS)\n\nOption 2) 10 P 2 S 5 R 5 = 20 ⇒ 10 × 2 - 5 + 5 = 20\n\n⇒ __**10 **____**×**____** 2**__ - 5 + 5 = 20\n\n⇒ __**20**____** + 5**__ - 5 = 20\n\n⇒ __**25 - 5**__ = 20\n\n⇒ 20 = 20 (LHS = RHS)\n\nOption 3) 15 Q 3 R 4 P 2 S 1 = 12 ⇒ 15 ÷ 3 + 4 × 2 - 1 = 12\n\n⇒ __**15 ÷ 3**__ + 4 × 2 - 1 = 12\n\n⇒ 5 + __**4 **____**×**____** 2**__ - 1 = 12\n\n⇒ __**5**____** + 8**__ - 1 = 12\n\n⇒ __**13**____** - 1**__ = 12\n\n⇒ 12 = 12 (LHS = RHS)\n\nOption 4) 12 S 2 R 6 Q 2 P 3 = 19 ⇒ 12 - 2 + 6 ÷ 2 × 3 = 19\n\n⇒ 12 - 2 + __**6 **____**÷**____** 2**__ × 3 = 19\n\n⇒ 12 - 2 + __**3**____** ×**____** 3**__ = 19\n\n⇒ __**12 + 9**__ - 2 = 19\n\n⇒ __**21**____** -**____** 2**__ = 19\n\n⇒ 19 = 19 (LHS = RHS)\n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a8558782e164e38647103",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the symbols are defined as: & = -, ^ = x, and ! = +, then solve the following:\n\n20 ^ 3 & 5 ! 2 = ? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "55"
+        },
+        {
+          "label": "2",
+          "text": "57"
+        },
+        {
+          "label": "3",
+          "text": "60"
+        },
+        {
+          "label": "4",
+          "text": "62"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n &\n ^\n !\n \n \n\n Stands For\n -\n ×\n +\n \n \n\nGiven: 20 ^ 3 & 5 ! 2 = ?\n\n20 ^ 3 & 5 ! 2 = ? ⇒ 20 × 3 - 5 + 2 = ?\n\n⇒ **__20 ×__****__ 3__** - 5 + 2 = ?\n\n⇒ __**60 + 2**__ - 5 = ?\n\n⇒ __**62**____** - 5**__ = ?\n\n⇒ 57 = ?\n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a85591a01e50479061047",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a group of 100 students, 40 percent are boys. If 80 percent of the boys passed the final examination, how many boys failed? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": "1",
+      "solution": "According to the question:\n\nTotal students → 100\n\nTotal boys → 100 × 40% = 40\n\nTotal boys passed the final examination → 40 × 80% = 32\n\nTotal boys failed the final examination → Total boys - Total boys passed the final examination\n\n→ 40 - 32 = 8\n\nHence, **\"Option 1\"** is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    }
+  ]
+}

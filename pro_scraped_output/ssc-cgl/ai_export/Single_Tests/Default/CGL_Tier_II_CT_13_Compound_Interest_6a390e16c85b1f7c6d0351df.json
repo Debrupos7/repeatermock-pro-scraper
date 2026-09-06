@@ -1,0 +1,399 @@
+{
+  "test_id": "6a390e16c85b1f7c6d0351df",
+  "title": "CGL Tier II CT 13: Compound Interest",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:17:35.948095+00:00",
+  "questions": [
+    {
+      "qid": "648087e8d0b4d97a2955dea4",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What will be the annual payment of a loan of Rs 1,200 payable in 2 years at 8(1)/(3)% compound interest rate?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs.1,065"
+        },
+        {
+          "label": "2",
+          "text": "Rs.676"
+        },
+        {
+          "label": "3",
+          "text": "Rs.1,267"
+        },
+        {
+          "label": "4",
+          "text": "Rs.829"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRate = 8(1)/(3)% = 1/12. Ratio of Principal to Installment for Year 1 = 12 : 13.\n\nFor Year 2, the ratio is 12² : 13² = 144 : 169.\n\nEquating installments (making them 169), Year 1 ratio becomes (12 × 13) : (13 × 13) = 156 : 169.\n\nTotal Principal = 156 + 144 = 300 parts.\n\nGiven 300 parts = Rs. 1200 ⇒ 1 part = 4.\n\nAnnual installment = 169 parts × 4 = Rs. 676.\n\n**∴ The correct answer is Rs. 676.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nLoan Amount (P) = Rs. 1200\n\nRate of Interest (R) = 8&frac{1}{3}% = 25/3% ⇒ Fractional value = 1/12\n\nTime = 2 years\n\nLet each equal annual payment be x.\n\n [IMAGE: https://cdn.repeatermock.com/tb/e46fd4a99e6c54ccf19a59612e321d94ca031d71ebaeec6081ad705f82609c46.png] \n\n**Formula Used:**\n\nP = x / (1 + R/100) + x / (1 + R/100)²\n\n**Calculations:**\n\n⇒ 1200 = x / (1 + 1/12) + x / (1 + 1/12)²\n\n⇒ 1200 = x / (13/12) + x / (13/12)²\n\n⇒ 1200 = (12x / 13) + (144x / 169)\n\n⇒ 1200 = (156x + 144x) / 169\n\n⇒ 1200 = 300x / 169\n\n⇒ x = (1200 × 169) / 300\n\n⇒ x = 4 × 169\n\n⇒ x = 676\n\n**∴ The correct answer is Rs. 676.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCompound Interest Installment\n\nFor a loan P paid in n equal annual installments x at rate R: P = x/(1+R/100) + x/(1+R/100)² + ... + x/(1+R/100)ⁿ\n\nSimple Interest Installment\n\nThe annual payment x that will discharge a debt A due in n years at simple interest rate R is: x = (100 × A) ÷ [100n + n(n−1)R/2]\n\nEffective Compound Interest Rate for 2 Years\n\nThe net effective rate for 2 years at R% per annum is given by: (2R + R²/100)%",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e46fd4a99e6c54ccf19a59612e321d94ca031d71ebaeec6081ad705f82609c46.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Compound Interest"
+      ]
+    },
+    {
+      "qid": "63f7624e31f0492f5a6e93a1",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The effective annual rate of interest corresponding to a nominal rate of 2% per annum, payable half-yearly, is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "4.02%"
+        },
+        {
+          "label": "2",
+          "text": "2.01%"
+        },
+        {
+          "label": "3",
+          "text": "4.2%"
+        },
+        {
+          "label": "4",
+          "text": "2.1%"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given:\n\nNominal rate = 2% p.a.\n\nCompounded half-yearly\n\nConcept:\n\nEffective annual rate = (1 + Nominal rate / Number of compounding periods)Number of compounding periods - 1\n\n&l",
+      "tags": [
+        "Compound Interest"
+      ]
+    },
+    {
+      "qid": "62a9b3dc2501995023ed6915",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A sum of money triples itself at compound interest in 10 years. In how many years will it become nine times.",
+      "options": [
+        {
+          "label": "1",
+          "text": "21 years"
+        },
+        {
+          "label": "2",
+          "text": "20 years"
+        },
+        {
+          "label": "3",
+          "text": "15 years"
+        },
+        {
+          "label": "4",
+          "text": "14 years"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nA sum of money triples itself at compound interest in 10 years.\n\n**Formula used:**\n\nAmount = principle[1 + dfrac{rate}{100}]time\n\n**Calculations:**\n\nAmount after 10 years,\n\n3 principle = prinicple[1 + dfrac{rate}{100}]¹⁰\n\n3 = [1 + dfrac{rate}{100}]¹⁰ (eqn1)\n\nNow, when it becomes nine times\n\n9 principle = principle[1 + dfrac{rate}{100}]time\n\n3² = [1 + dfrac{rate}{100}]time\n\n[1 + dfrac{rate}{100}]time = {(1 + dfrac{rate}{100})¹⁰}² (putting the value of eqn1)\n\nTime = 10 × 2 = 20 years\n\n**∴ The answer is 20 years.**",
+      "tags": [
+        "Compound Interest"
+      ]
+    },
+    {
+      "qid": "666a931de723bbf44092eaa9",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The compound interest (compounding half yearly) received on Rs. 2200 for 1.5 years is Rs. 3836.8. What is the rate of interest per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "65 percent"
+        },
+        {
+          "label": "2",
+          "text": "60 percent"
+        },
+        {
+          "label": "3",
+          "text": "80 percent"
+        },
+        {
+          "label": "4",
+          "text": "75 percent"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAmount (A) = ₹2200 + ₹3836.8 = ₹6036.8\n\nAmount to Principal Ratio = 6036.8 ÷ 2200 = 60368 ÷ 22000 = 343 ÷ 125\n\nFor 3 half-years, Multiplying factor = ³√(343 ÷ 125) = 7 ÷ 5\n\nRate per half-year = (7 − 5) ÷ 5 × 100% = 40%\n\nRate per annum = 40% × 2 = 80%\n\n**∴ The correct answer is 80%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPrincipal (P) = ₹2200\n\nTime (T) = 1.5 years ⇒ n = 3 half-years\n\nCompound Interest (CI) = ₹3836.8\n\nAmount (A) = P + CI = 2200 + 3836.8 = ₹6036.8\n\n**Formula Used:**\n\nA = P(1 + R ÷ 100)ⁿ\n\nWhere R is the rate per period and n is the number of periods.\n\n \n P = ₹2200\n \n \n A = ₹6036.8\n \n \n\n \n\n \n 3 Half-Years\n CI = ₹3836.8\n\n**Calculations:**\n\n⇒ 6036.8 = 2200 × (1 + R ÷ 100)³\n\n⇒ 6036.8 ÷ 2200 = (1 + R ÷ 100)³\n\n⇒ 60368 ÷ 22000 = (1 + R ÷ 100)³\n\n⇒ 343 ÷ 125 = (1 + R ÷ 100)³\n\n⇒ (7 ÷ 5)³ = (1 + R ÷ 100)³\n\n⇒ 1 + R ÷ 100 = 7 ÷ 5\n\n⇒ R ÷ 100 = 7 ÷ 5 − 1 = 2 ÷ 5\n\n⇒ R = 2 ÷ 5 × 100 = 40%\n\n⇒ The rate per half-year is 40%.\n\n⇒ Annual Rate = 40% × 2 = 80%\n\n**∴ The correct answer is 80%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nHalf-Yearly Compounding\n\nWhen interest is compounded half-yearly, the annual interest rate is halved, and the total number of periods becomes twice the number of years.\n\nQuarterly Compounding\n\nWhen interest is compounded quarterly, the annual interest rate is divided by 4, and the total number of periods becomes four times the number of years.\n\nEffective Annual Rate (EAR)\n\nIf the half-yearly rate is R%, the effective annual interest rate due to compounding can be calculated using the formula: (2R + R² ÷ 100)%.\n\n5c:T15fa,\n\n<sp",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Compound Interest"
+      ]
+    },
+    {
+      "qid": "62d402ffc024836c0f0f6e63",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A man wants to invest Rs. 40,440 in bank account of his two sons whose age were 12 years and 16 years in such a way that they will get equal amount at age of 20 years @ 33(1)/(3)% per annum compounded annually. Find the share of younger son?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 30,720"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 9,720"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 10,110"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 9,270"
+        }
+      ],
+      "correct": "2",
+      "solution": "**GIVEN:**\n\nPrincipal = Rs. 40440\n\nAges of sons = 12 years and 16 years\n\nRate of interest = 33(1)/(3)% per annum compounded annually.\n\n**FORMULA USED:**\n\n A = P (1+ r/100)ⁿ\n\n**CALCULATION:**\n\nLet the principal for younger son be Rs x\n\nPrincipal for elder son be Rs y\n\nInterest to be calculated for\n\nYounger son = (20 – 12) = 8 years\n\nElder son = (20 – 16) = 4 years\n\nSince, amount will be equally distributed then,\n\n⇒ x(1 + 100/300)⁸ = y (1 + 100/300)⁴\n\n⇒ x(4/3)⁸ = y(4/3)⁴\n\n⇒ (4/3)⁽⁸ ⁻ ⁴⁾ = y/x\n\n⇒ y/x = 256/81\n\n∴ Younger son’s share = 81/337 × 40,440 = Rs. 9,720",
+      "tags": [
+        "Compound Interest"
+      ]
+    },
+    {
+      "qid": "6223a19340d68272ab92bd56",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "At what rate of interest compound interest per annum will Rs. 640 amount to Rs. 774.40 in 2 years",
+      "options": [
+        {
+          "label": "1",
+          "text": "8%"
+        },
+        {
+          "label": "2",
+          "text": "9%"
+        },
+        {
+          "label": "3",
+          "text": "10%"
+        },
+        {
+          "label": "4",
+          "text": "11%"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nPrincipal = Rs 640\n\nAmount = Rs 774.40\n\nTime = 2 years\n\n**Concept:**\n\nA = P (1 + R/100)n\n\n**Calculation:**\n\nLet rate = R%\n\nBy using the formula,\n\n⇒ A = P (1 + R/100)ⁿ\n\n⇒ 774.40 = 640 (1 + R/100)² \n\n⇒ (1 + R/100)² = 774.40/640\n\n⇒ (1 + R/100)² = 484/400\n\n⇒ (1 + R/100)² = (22/20)²\n\n⇒ By cancelling the powers on both sides, (1 + R/100) = (22/20)\n\n⇒ R/100 = 22/20 – 1 = (22 - 20)/20 = 2/20\n\n⇒ R = 100/10 = **10%**\n\n∴ Required Rate is 10% per annum.",
+      "tags": [
+        "Compound Interest"
+      ]
+    },
+    {
+      "qid": "62efbd0655e991ac391792de",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the amount payable on maturity if ₹20,00,000 is invested at 12% per annum for (3)/(2) years and interest is compounded half-yearly.",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹23,00,832"
+        },
+        {
+          "label": "2",
+          "text": "₹23,82,032"
+        },
+        {
+          "label": "3",
+          "text": "₹24,00,000"
+        },
+        {
+          "label": "4",
+          "text": "₹23,00,000"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nFor half-yearly compounding, new rate = 12% ÷ 2 = 6%, time = 3/2 × 2 = 3 cycles.\n\nEffective compound interest rate for 3 cycles at 6% = 3r . 3r² . r³ = 18 . 108 . 216 → 19.1016%\n\nCompound Interest = 19.1016% of ₹20,00,000 = ₹3,82,032\n\nTotal Amount = Principal + CI = 20,00,000 + 3,82,032 = ₹23,82,032\n\n**∴ The correct answer is ₹23,82,032.**\n\n**__Alternate Method__**\n\n**Given:**\n\nPrincipal (P) = ₹20,00,000\n\nRate of Interest (R) = 12% p.a.\n\nTime (T) = 3/2 years\n\n**Formula Used:**\n\nAmount (A) = P(1 + r/100)ⁿ\n\nWhere r is the rate per period, and n is the number of periods.\n\n [IMAGE: https://cdn.repeatermock.com/tb/acc683e8a0f9a1355ec5fb7f0a07b1b41b33700b10c58dd6d16945e1ad4ecd0e.png] \n\n**Calculations:**\n\n⇒ Interest is compounded half-yearly, so rate per period (r) = 12% ÷ 2 = 6%\n\n⇒ Number of cycles (n) = 3/2 × 2 = 3\n\n⇒ A = 2000000 × (1 + 6/100)³\n\n⇒ A = 2000000 × (106/100)³\n\n⇒ A = 2000000 × (53/50) × (53/50) × (53/50)\n\n⇒ A = 2000000 × 148877 / 125000\n\n⇒ A = 16 × 148877\n\n⇒ A = 23,82,032\n\n**∴ The correct answer is ₹23,82,032.**\n\n**__Additional Information__**\n\nHalf-Yearly Compounding Adjustment\n\nWhen interest is compounded half-yearly, the principal is updated every 6 months. Therefore, the annual rate (R) is halved (R/2) and the time (T in years) is multiplied by 2 (2T).\n\nEffective CI Rate for 3 Periods\n\nFor a uniform interest rate of r%, the effective compound interest over 3 periods can be quickly found using the formula: 3r + 3r²/100 + r³/10000.\n\nMultiplier Factor Method\n\nInstead of calculating standard percentages, the Final Amount can be derived by repeatedly multiplying the Principal with the fractional scaling factor (1 + r/100) successively for n periods.\n\n3d:T1288,",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/acc683e8a0f9a1355ec5fb7f0a07b1b41b33700b10c58dd6d16945e1ad4ecd0e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Compound Interest"
+      ]
+    },
+    {
+      "qid": "63fcb5bd5e91533e2b06adba",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A sum of ₹1,20,000 was invested in a fixed deposit in the year 2019 at the rate of 12% per annum compounding annually. What will its approximate value be in the year 2022?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹1,68,591"
+        },
+        {
+          "label": "2",
+          "text": "₹1,43,200"
+        },
+        {
+          "label": "3",
+          "text": "₹1,61,253"
+        },
+        {
+          "label": "4",
+          "text": "₹1,56,400"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given**\n\nInitial amount = ₹1,20,000\n\nInterest rate = 12% per annum\n\nNumber of years = 2022 - 2019 = 3 years\n\n**Concept:** Compound Interest formula, A = P(1 + r/n)⁽ⁿt⁾\n\n**Solution:**\n\n⇒ Final amount = 1,20,000 (1 + 0.12)³\n\n⇒ Final amount ≈ ₹1,68,591\n\n**Therefore, the approximate value in the year 2022 will be ₹₹1,68,591.**",
+      "tags": [
+        "Compound Interest"
+      ]
+    },
+    {
+      "qid": "62170cda09c9f48663f33f54",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A certain sum was invested for three years in a scheme in which the interest gets compounded annually. During the first two years, the scheme provided growths at the rates of 80% and 60%, respectively, but during the third year there was a decline by 40%. What was the overall interest rate for three years?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24%"
+        },
+        {
+          "label": "2",
+          "text": "20%"
+        },
+        {
+          "label": "3",
+          "text": "22.5%"
+        },
+        {
+          "label": "4",
+          "text": "48.6%"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Concept used:**\n\nSuccessive increase = x + x + x²/100\n\n**Calculation:**\n\nLet principal be Rs. 125x\n\nSo,\n\nAfter 3 years amount = 125x × 9/5 × 8/5 × 3/5\n\n⇒ 216x\n\nSo, Intereset = 216x - 125x = 91\n\nCumulative rate of interest = 91/125 × 100 = 72.8%\n\nNow,\n\nWe know the concept of successive increase of rate\n\nFrom option,\n\n20 + 20 + (20 × 20)/100 = 44\n\nAgain 44 + 20 + (44 × 20)/100 = 72.8%\n\n**∴ Required rate of interest is 20.**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/9074044cf96dc1d09ca89eac99180c3d7440ade1b364d09d47931959bf693cc8.png] __Confusion Points__**The effective interest rate for three years is 72.8%.\n\nThe overall interest rate will be 20%.\n\nIt is so because the effective interest rate of 20% for three years is 72.8%.\n\nLet's understand:\n\n20 + 20 + (20 × 20)/100 = 44\n\nAgain 44 + 20 + (44 × 20)/100 = 72.8%",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9074044cf96dc1d09ca89eac99180c3d7440ade1b364d09d47931959bf693cc8.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Compound Interest"
+      ]
+    },
+    {
+      "qid": "63f6f290998ca48e0f930ef7",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "₹1,20,000 becomes ₹1,50,528 in two years at a certain rate of compound interest, compounding annually in an investment scheme. In the same scheme, the sum of ₹P is invested and it becomes ₹3,51,232 in three years. What is the value of P?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3,00,000"
+        },
+        {
+          "label": "2",
+          "text": "2,25,000"
+        },
+        {
+          "label": "3",
+          "text": "2,75,000"
+        },
+        {
+          "label": "4",
+          "text": "2,50,000"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nGrowth factor for **two years** = 1,50,528 ÷ 1,20,000 = 1.2544\n\nAnnual growth factor = √1.2544 = 1.12\n\nFor **three years**, the sum **₹P** grows by a factor of 1.12³ = 1.404928\n\n∴ P = 3,51,232 ÷ 1.404928 = 2,50,000\n\n**∴ The correct answer is ₹2,50,000.**\n\n**__Alternate Method__**\n\n**Given:**\n\nCase 1: Principal (P₁) = **₹1,20,000**, Amount (A₁) = **₹1,50,528**, Time (t₁) = **2 years**\n\nCase 2: Principal (P₂) = **₹P**, Amount (A₂) = **₹3,51,232**, Time (t₂) = **3 years**\n\n**Formula Used:**\n\nCompound Interest Amount, A = P(1 + r/100)t\n\n [IMAGE: https://cdn.repeatermock.com/tb/00a3cf16098696a94a77c9634b346a9a75ba15a8598789c137411347f7a07aaa.png] \n\n**Calculations:**\n\n⇒ For the first investment: 1,50,528 = 1,20,000 × (1 + r/100)²\n\n⇒ (1 + r/100)² = 1,50,528 ÷ 1,20,000 = 1.2544\n\n⇒ 1 + r/100 = √1.2544 = 1.12\n\n⇒ For the second investment: 3,51,232 = P × (1.12)³\n\n⇒ 3,51,232 = P × 1.404928\n\n⇒ P = 3,51,232 ÷ 1.404928\n\n⇒ P = 2,50,000\n\n**∴ The correct answer is ₹2,50,000.**\n\n**__Additional Information__**\n\nCompound Interest Formula\n\nThe amount A after t years is given by A = P(1 + r/100)t, where P is the principal and r is the annual interest rate.\n\nGrowth Multiplier\n\nThe term (1 + r/100) is the annual multiplying factor. If a sum grows for n years, the total multiplier is (1 + r/100)ⁿ.\n\nEffective Rate of Interest\n\nFor a rate r compounded annually for 2 years, the effective interest rate is calculated as [r + r + (r × r)/100]%.\n\n45:T1088,\n<s",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/00a3cf16098696a94a77c9634b346a9a75ba15a8598789c137411347f7a07aaa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Compound Interest"
+      ]
+    }
+  ]
+}

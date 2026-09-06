@@ -1,0 +1,391 @@
+{
+  "test_id": "6a390e230cee1a9dcb8350b0",
+  "title": "CGL Tier II CT 20: Simple Ratios",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:19:56.587143+00:00",
+  "questions": [
+    {
+      "qid": "6440ed6e7b695a656fb4126f",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the ratio of milk to water when 20 ml of milk is mixed with 4 liters of water?",
+      "options": [
+        {
+          "label": "1",
+          "text": "200:1"
+        },
+        {
+          "label": "2",
+          "text": "100:1"
+        },
+        {
+          "label": "3",
+          "text": "1:100"
+        },
+        {
+          "label": "4",
+          "text": "1:200"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nConvert all units to ml: 4 liters = 4 × 1000 = 4000 ml.\n\nRequired Ratio (Milk : Water) = 20 : 4000.\n\nDivide both sides by 20 → 1 : 200.\n\n**∴ The correct answer is 1:200.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nQuantity of Milk = 20 ml\n\nQuantity of Water = 4 liters\n\n**Formula Used:**\n\nRatio = (Quantity of Milk) : (Quantity of Water)\n\nConversion: 1 Liter = 1000 Milliliters (ml)\n\n \n Milk (20 ml)\n \n \n Water (4000 ml)\n \n \n• \n Ratio = 20 : 4000 = 1 : 200\n \n \n \n\n \n \n\n⇒ Quantity of Water in ml = 4 × 1000 ml\n\n⇒ Quantity of Water = 4000 ml\n\n⇒ Ratio of Milk to Water = 20 / 4000\n\n⇒ Ratio = 2 / 400\n\n⇒ Ratio = 1 / 200\n\n**∴ The correct answer is 1:200.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nUnit Consistency in Ratios\n\nA ratio is a comparison of two quantities of the same kind. Always convert both values to the same unit (e.g., both to ml or both to liters) before calculating the ratio.\n\nRatio Simplification\n\nTo simplify a ratio a:b, divide both terms by their Highest Common Factor (HCF). A ratio has no units as it is a pure numerical comparison.\n\nCommon Conversions\n\n1 Liter = 1000 ml | 1 kg = 1000 g | 1 km = 1000 m. These are essential for solving mix-and-ratio problems in banking exams.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "637f8b069f70272022e5dd87",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Income of Rahim is Rs 12000 per month and that of Ami is Rs 191520 per annum. If the monthly expenditure of each of them is Rs 9960 per month. find the ratio of their monthly savings.",
+      "options": [
+        {
+          "label": "1",
+          "text": "17:51"
+        },
+        {
+          "label": "2",
+          "text": "27:50"
+        },
+        {
+          "label": "3",
+          "text": "17:50"
+        },
+        {
+          "label": "4",
+          "text": "17:54"
+        }
+      ],
+      "correct": "3",
+      "solution": "Savings of Rahim per month = Rs (12000 – 9960) = Rs 2040\n\nMonthly income of Ami = Rs (191520)/(12) = Rs 15960\n\nSavings of Ami per month = Rs (15960 – 9960) = Rs 6000\n\nTherefore, ratio of monthly savings of Rahim and Ami = 2040 : 6000 = 17:50"
+    },
+    {
+      "qid": "66ab7b1e7dd16121b99d7d4d",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Simple Ratios",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "An amount of Rs. 2430 is divided among A, B and C such that if their shares are reduced by Rs. 5, Rs. 10 and Rs.15 respectively, the remainders shall be in the ratio of 3 : 4 : 5. Find the share of B.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 90"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 810"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 800"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 605"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nTotal amount = Rs. 2430\n\nThe shares of A, B, and C are reduced by Rs. 5, Rs. 10, and Rs. 15 respectively.\n\nThe remainders are in the ratio of 3 : 4 : 5.\n\n**Formula Used:**\n\nLet the shares of A, B, and C be a, b, and c respectively.\n\nAccording to the problem:\n\n(a - 5) : (b - 10) : (c - 15) = 3 : 4 : 5",
+      "tags": [
+        "Simple Ratios"
+      ]
+    },
+    {
+      "qid": "65abc970a4ce2ec6a6fd36b3",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A box consists of 5 rupees, 2 rupees and 1 rupee coins and their total values are in the ratio of 10 : 6 : 3 respectively. If there are total 256 coins, then how many 5 rupees coins are there in the box?",
+      "options": [
+        {
+          "label": "1",
+          "text": "64"
+        },
+        {
+          "label": "2",
+          "text": "60"
+        },
+        {
+          "label": "3",
+          "text": "84"
+        },
+        {
+          "label": "4",
+          "text": "72"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of total values = 10 : 6 : 3\n\nRatio of number of coins = (10 ÷ 5) : (6 ÷ 2) : (3 ÷ 1) = 2 : 3 : 3\n\nTotal ratio parts for coins = 2 + 3 + 3 = 8 parts\n\n8 parts = 256 coins ⇒ 1 part = 32 coins\n\nNumber of ₹5 coins = 2 parts = 2 × 32 = 64\n\n**∴ The correct answer is 64 coins.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n Value Ratio to Coin Count Ratio\n\n \n ₹ 5 Coins\n Value: 10\n Count: 2\n\n \n ₹ 2 Coins\n Value: 6\n Count: 3\n\n \n ₹ 1 Coins\n Value: 3\n Count: 3\n\n \n• \n \n• \n\n Total Ratio Parts = 2 + 3 + 3 = 8\n 8 parts = 256 coins → 1 part = 32 coins\n\n**Given:**\n\nTotal number of coins = 256\n\nDenominations = ₹5, ₹2, ₹1\n\nRatio of total values = 10 : 6 : 3\n\n**Formula Used:**\n\nNumber of coins = Total Value ÷ Denomination\n\n**Calculation:**\n\nLet the total value of ₹5, ₹2, and ₹1 coins be 10k, 6k, and 3k respectively.\n\n⇒ Number of ₹5 coins = 10k ÷ 5 = 2k\n\n⇒ Number of ₹2 coins = 6k ÷ 2 = 3k\n\n⇒ Number of ₹1 coins = 3k ÷ 1 = 3k\n\n⇒ Ratio of the number of coins = 2k : 3k : 3k = 2 : 3 : 3\n\n⇒ Total number of coins = 2k + 3k + 3k = 8k\n\nAccording to the question, total coins are 256:\n\n⇒ 8k = 256\n\n⇒ k = 256 ÷ 8\n\n⇒ k = 32\n\nWe need to find the number of ₹5 coins:\n\n⇒ Number of ₹5 coins = 2k = 2 × 32 = 64\n\n**∴ The correct answer is 64 coins.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nValue vs Denomination Concept\n\nTotal Value = Number of Coins × Denomination Value. Whenever the value ratio is given, divide it by the denomination to get the coin count ratio.\n\nGiven Coin Count Ratio\n\nIf a problem provides the ratio of the number of coins instead of the value ratio, multiply the given coin ratio by the respective denominations to obtain the value ratio.\n\nTotal Amount Given\n\nIf the total amount in rupees is provided instead of the total number of coins, apply the ratio multipliers directly to the value ratio parts to equate their sum to the total given amount.\n\n3b:Ta69,\n\n<strong",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "67a4655e44162f7c55e10563",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A person spends (1)/(4) of his/her salary on education and (1)/(3) on food, and keeps the remaining amount aside for savings. If the salary of the person per month is ₹60,000, then his/her per month saving is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹25,000"
+        },
+        {
+          "label": "2",
+          "text": "₹35,000"
+        },
+        {
+          "label": "3",
+          "text": "₹30,000"
+        },
+        {
+          "label": "4",
+          "text": "₹20,000"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet the total **Salary** be the LCM of 4 and 3 = 12 units.\n\n**Education** expense = 12 × 1/4 = 3 units.\n\n**Food** expense = 12 × 1/3 = 4 units.\n\nRemaining **Savings** = 12 − (3 + 4) = 5 units.\n\nGiven 12 units = ₹60,000 ⇒ 1 unit = ₹5,000.\n\n**Savings** = 5 × ₹5,000 = ₹25,000.\n\n**∴ The correct answer is ₹25,000.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal monthly **Salary** = ₹60,000\n\nExpenditure on **Education** = 1/4 of salary\n\nExpenditure on **Food** = 1/3 of salary\n\n**Formula Used:**\n\n**Savings** = Total Salary − (Education Expenditure + Food Expenditure)\n\n [IMAGE: https://cdn.repeatermock.com/tb/75bedfd286e29d3d0e4821621fa1898147e52ba45bd721a69add422321a13441.png] \n\n**Calculations:**\n\n⇒ Amount spent on **Education** = 60,000 × 1/4 = ₹15,000\n\n⇒ Amount spent on **Food** = 60,000 × 1/3 = ₹20,000\n\n⇒ Total **Expenditure** = 15,000 + 20,000 = ₹35,000\n\n⇒ Monthly **Savings** = 60,000 − 35,000 = ₹25,000\n\n**∴ The correct answer is ₹25,000.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSum of Fractional Parts\n\nIn any distribution, the sum of all individual fractional parts must equal 1. Here, Savings = 1 − (1/4 + 1/3) = 5/12.\n\nFraction to Percentage Conversion\n\nTo convert a fraction to a percentage, multiply it by 100. For example, 1/4 = 25% and 1/3 ≈ 33.33%.\n\nLCM Method for Fractions\n\nUsing the LCM of denominators as the total value eliminates working with fractions, making calculations faster and less error-prone.\n\n4f:T104d,\n<span styl",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/75bedfd286e29d3d0e4821621fa1898147e52ba45bd721a69add422321a13441.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "62e28be8b4f19d44eff0e1ca",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What should be added to each term of the ratio 16 ∶ 25 so that the ratio becomes 2 ∶ 3?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "2"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInitial Ratio = 16 : 25 (Difference = 9)\n\nTarget Ratio = 2 : 3 (Difference = 1)\n\nTo equate the differences, multiply the target ratio by 9:\n\nNew Target Ratio = 18 : 27 (Difference = 9)\n\nQuantity to be added = 18 − 16 = 2 (or 27 − 25 = 2)\n\n**∴ The correct option is C.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInitial ratio = 16 : 25\n\nFinal ratio = 2 : 3\n\n**Formula Used:**\n\nIf x is added to both terms a and b, then (a + x) / (b + x) = c / d\n\n \n 16\n \n 25\n Initial Ratio\n \n \n\n \n\n + x\n + x\n \n \n 18 (2 parts)\n \n 27 (3 parts)\n Final Ratio\n \n \n \n \n\n \n \n\n**Calculations:**\n\nLet the number to be added be x.\n\n⇒ (16 + x) / (25 + x) = 2 / 3\n\n⇒ 3 × (16 + x) = 2 × (25 + x)\n\n⇒ 48 + 3x = 50 + 2x\n\n⇒ 3x − 2x = 50 − 48\n\n⇒ x = 2\n\n**∴ The correct option is C.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRatio Difference Method\n\nWhen the same value is added to or subtracted from both terms of a ratio, the difference between the terms remains constant if the ratio parts are scaled correctly.\n\nDuplicate and Triplicate Ratios\n\nDuplicate ratio of a ∶ b is a² ∶ b², and the triplicate ratio is a³ ∶ b³.\n\nCompound Ratio\n\nThe compound ratio of two ratios (a : b) and (c : d) is found by multiplying the corresponding terms: (ac : bd).\n\n37:T",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6240bbd710fdc4cdf7b81e27",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "​The ratio of two numbers x and y is 4 ∶ 7. If 6 is added to x and 7 is subtracted from y, then their ratio becomes 3 ∶ 4. What is the difference between y and x?",
+      "options": [
+        {
+          "label": "1",
+          "text": "36"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "24"
+        },
+        {
+          "label": "4",
+          "text": "27"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Calculation:**\n\nLet the common ratio be a unit.\n\n⇒ The numbers x and y are 4a and 7a respectively.\n\nAccording to the question,\n\n⇒ 4a+6over7a-7 = 3over4\n\n⇒ 4 × (4a + 6) = 3 × (7a - 7)\n\n⇒ 16a + 24 = 21a - 21\n\n⇒ 24 + 21 = 21a - 16a\n\n⇒ 45 = 5a\n\n⇒ a = 9\n\nDifference between y and x = 7a - 4a = 3a\n\n⇒ Difference = 3 × 9 = 27 \n\n**∴ The difference is 27.**"
+    },
+    {
+      "qid": "67580c75a87b04ec5c9aa4fa",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The ratio of the number of boys and girls in a hostel is 5 : 7. If 40% of boys and 50% of girls are getting scholarships for their studies, what is the percentage of hostel students who are not getting any scholarships?",
+      "options": [
+        {
+          "label": "1",
+          "text": "59 dfrac{1}{8} %%"
+        },
+        {
+          "label": "2",
+          "text": "54 dfrac{1}{6}%"
+        },
+        {
+          "label": "3",
+          "text": "35 dfrac{1}{7}%"
+        },
+        {
+          "label": "4",
+          "text": "45 dfrac{1}{5}%"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nLet the number of boys be 50 and girls be 70, making the total number of students 120.\n\nBoys without scholarships = 60% of 50 = 30.\n\nGirls without scholarships = 50% of 70 = 35.\n\nTotal students without scholarships = 30 + 35 = 65.\n\nRequired percentage = (65 ÷ 120) × 100 = 325 ÷ 6 = 54 ¹/₆%.\n\n**∴ The correct answer is 54 ¹/₆%.**\n\n**__Alternate Method__**\n\n**Given:**\n\nRatio of Boys to Girls = 5 : 7\n\nBoys getting scholarships = 40%\n\nGirls getting scholarships = 50%\n\n**Formula Used:**\n\nPercentage = (Favorable Value ÷ Total Value) × 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/cebc0008fc25437d054dfc006b478a2242bf56e9c2d870dc604c214447ca6207.png] \n\n**Calculations:**\n\nLet the number of boys be 5x and the number of girls be 7x.\n\n⇒ Total students = 5x + 7x = 12x\n\nSince 40% of boys get scholarships, those who do not get scholarships = (100 − 40)% = 60%\n\n⇒ Number of boys without scholarships = 60% of 5x = (60 ÷ 100) × 5x = 3x\n\nSince 50% of girls get scholarships, those who do not get scholarships = (100 − 50)% = 50%\n\n⇒ Number of girls without scholarships = 50% of 7x = (50 ÷ 100) × 7x = 3.5x\n\n⇒ Total students without scholarships = 3x + 3.5x = 6.5x\n\n⇒ Required percentage = (6.5x ÷ 12x) × 100\n\n⇒ (65 ÷ 120) × 100 = 1300 ÷ 24 = 325 ÷ 6 = 54 ¹/₆%\n\n**∴ The correct answer is 54 ¹/₆%.**\n\n**__Additional Information__**\n\nPercentage Base Assumption\n\nWhen working with ratios and percentages, assuming bases as multiples of 10 or 100 eliminates decimals and speeds up calculations significantly.\n\nComplementary Percentage\n\nIf a certain percentage (P%) satisfies a condition, the remaining (100 − P)% does not. Directly calculating the required part saves an extra subtraction step.\n\nWeighted Average\n\nThe combined percentage of multiple groups is essentially their weighted average: Combined % = (n₁p₁ + n₂p₂) ÷ (n₁ + n₂).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/cebc0008fc25437d054dfc006b478a2242bf56e9c2d870dc604c214447ca6207.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "63b5957d19ad85d46032c76f",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Two numbers are in the ratio of 6 ∶ 7. If 12 is added to each of the numbers, their ratio becomes 7 ∶ 8. Find the two numbers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "72, 84"
+        },
+        {
+          "label": "2",
+          "text": "84, 96"
+        },
+        {
+          "label": "3",
+          "text": "84, 98"
+        },
+        {
+          "label": "4",
+          "text": "96, 84"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nm : n = 6 : 7\n\n(m + 12) : (n + 12) = 7 : 8\n\n**Solution:**\n\nm = 6n/7\n\n⇒ 8 x (6n/7 + 12) = 7 x (n + 12)\n\n⇒ 48n + 672 = 49n + 588\n\nn = 672 - 588\n\nn = 84\n\nm = (6 x 84)/7 = 72\n\nThe two numbers are 72 and 84.\n\n**Hence, the correct option is 1.**"
+    },
+    {
+      "qid": "62165512f80ddf4ebef6079a",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Simple Ratios",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A sum of ₹ 2,130 is to be divided into three parts. The second part is 60% of the first, and the ratio of the first to third part is 5 : 7. What are the parts (in ₹)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "710, 426, 994"
+        },
+        {
+          "label": "2",
+          "text": "994, 710, 426"
+        },
+        {
+          "label": "3",
+          "text": "426, 710, 994"
+        },
+        {
+          "label": "4",
+          "text": "710, 994, 426"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nTotal sum = Rs. 2,130\n\nThe second part is 60% of the first.\n\nThe ratio of the first to third part = 5 : 7\n\n**Calculation:**\n\nAccording to the question\n\nThe ratio of the first part to third part be 5x and 7x respectively\n\nThe second part is 60% of the first.\n\n⇒ (60% of 5x)\n\n⇒ (60/100 × 5x)\n\n⇒ 3x\n\nNow,\n\nThe ratio of first, second and third parts = (5x + 3x + 7x) = 15x\n\n⇒ 15x = 2,130\n\n⇒ x = (2,130/15)\n\n⇒ x = 142\n\nNow,\n\nThe first p",
+      "tags": [
+        "Simple Ratios"
+      ]
+    }
+  ]
+}

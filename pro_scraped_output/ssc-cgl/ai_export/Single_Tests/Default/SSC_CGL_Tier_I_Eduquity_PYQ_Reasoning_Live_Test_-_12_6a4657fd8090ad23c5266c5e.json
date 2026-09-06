@@ -1,0 +1,760 @@
+{
+  "test_id": "6a4657fd8090ad23c5266c5e",
+  "title": "SSC CGL Tier I: (Eduquity PYQ) Reasoning Live Test - 12",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:13:03.031341+00:00",
+  "questions": [
+    {
+      "qid": "68bab3a1b67366473f1b1e76",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Five friends - A, B, C, D, and E - sit around a circular table facing the center.\n\nB sits to the immediate right of A.\n\nC is to the immediate right of B.\n\nD is to the immediate left of E. \n\nQuestion: Who is sitting to the immediate left of C?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A"
+        },
+        {
+          "label": "2",
+          "text": "B"
+        },
+        {
+          "label": "3",
+          "text": "E"
+        },
+        {
+          "label": "4",
+          "text": "D"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "699d784a68aef811ba1e1e6a",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Figure Counting",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many triangles are there in the given figure?\n\n [IMAGE: https://cdn.repeatermock.com/tb/d97843d02baaa72346f2e2c1e3152a3cb7fb97b381a086c4e050b9951503e488.png] [IMAGE: https://cdn.repeatermock.com/tb/e71df6eaac5f52a7323b122204a67e967c01fa7bde6feef442da6c71e39cdf5d.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "11"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "13"
+        }
+      ],
+      "correct": null,
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d97843d02baaa72346f2e2c1e3152a3cb7fb97b381a086c4e050b9951503e488.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e71df6eaac5f52a7323b122204a67e967c01fa7bde6feef442da6c71e39cdf5d.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "69bcecfb61c7f6b1f52de911",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and fourth number is related to third number.\n\n**(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g.13 - Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)**\n\n 5165 : 5113 :: 8326 : 8274 :: 1671 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1622"
+        },
+        {
+          "label": "2",
+          "text": "1619"
+        },
+        {
+          "label": "3",
+          "text": "1612"
+        },
+        {
+          "label": "4",
+          "text": "1618"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6909e1a1bf3b74d68bc19657",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\n**LWB → OZE → RCH → UFK → ?**",
+      "options": [
+        {
+          "label": "1",
+          "text": "CGF"
+        },
+        {
+          "label": "2",
+          "text": "BHF"
+        },
+        {
+          "label": "3",
+          "text": "XIN"
+        },
+        {
+          "label": "4",
+          "text": "HIB"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6909eeeb5414173cf6033855",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code, FOLDER is written as GMLECR. Using the same pattern, how is MARKET written?",
+      "options": [
+        {
+          "label": "1",
+          "text": "NYRLCT"
+        },
+        {
+          "label": "2",
+          "text": "OZRLCT"
+        },
+        {
+          "label": "3",
+          "text": "NYTLCR"
+        },
+        {
+          "label": "4",
+          "text": "NYRCLT"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69c802bae1857ce93952ac0b",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "You're hosting a dinner party tonight for six friends. While shopping, you realize the main ingredient for your planned dish is sold out at the store. You have two hours before guests arrive. What should you do?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Drive to another store 30 minutes away to find the ingredient."
+        },
+        {
+          "label": "2",
+          "text": "Buy a pre-made meal from the current store to serve instead."
+        },
+        {
+          "label": "3",
+          "text": "Change the menu to use ingredients already available at home."
+        },
+        {
+          "label": "4",
+          "text": "Call your friends and ask them to bring their own food."
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "699310e8d40d96e19a7281a5",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the next element that replace the? Logically 3, 22, 117, 592, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2965"
+        },
+        {
+          "label": "2",
+          "text": "2967"
+        },
+        {
+          "label": "3",
+          "text": "2983"
+        },
+        {
+          "label": "4",
+          "text": "2968"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69c7fb36f03d952a8be9e416",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which number does NOT belong in the sequence?\n\n2, 6, 12, 22, 30, 42",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "22"
+        },
+        {
+          "label": "3",
+          "text": "6"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "690c7d56ef33c1ade680e787",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the next number in the series?\n\n625, 125, 25, _____",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6994395af98ef6c62a2fa93f",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A is the brother of B. B is the sister of C. D is the mother of A. E is the father of C. How is D related to E?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Wife"
+        },
+        {
+          "label": "2",
+          "text": "Mother"
+        },
+        {
+          "label": "3",
+          "text": "Sister"
+        },
+        {
+          "label": "4",
+          "text": "Daughter"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "68bbebbdfd5d67ea8fdea9ab",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Figure A and B are related in a particular manner. Establish the same relationship between figures C and D by choosing the figure amongst these four options which would replace the question mark in figure D.\n\n [IMAGE: https://cdn.repeatermock.com/tb/dddba3f44aeb32990999ecafd7c2229e962fe74b7f7443d512b1692425eea3f1.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/e2a60b72764bb4a294a1677d1021f0f4ea7ad99aef8a73dd9b08caaf56743ce8.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/e5f5051641619a65bbb17f4e250531b20bab94784038fb39f62a9495197e26bd.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/6ed31e81177d0c1a24fa893b0937e733b0df308261b11818da5c4253efc7c92c.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/2576a0841868700d801f6c099a5a402fe77ec235171f3e22b96c934d202ec7b2.png]"
+        }
+      ],
+      "correct": null,
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/dddba3f44aeb32990999ecafd7c2229e962fe74b7f7443d512b1692425eea3f1.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "69cb5c5617f54ff7142828f1",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "\"Oxygen : Respiration\" follows the same relation as:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Water : Thirst"
+        },
+        {
+          "label": "2",
+          "text": "Fuel : Combustion"
+        },
+        {
+          "label": "3",
+          "text": "Blood : Circulation"
+        },
+        {
+          "label": "4",
+          "text": "Light : Photosynthesis"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6994213a2552aacae86d7c2d",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that represents the correct order of the given words as they they would appear in an English dictionary.\n\n1.Archaeology\n\n2.Archeologist\n\n3.Archipelago\n\n4. Architectural\n\n5. Architecture",
+      "options": [
+        {
+          "label": "1",
+          "text": "1, 2, 3, 4, 5"
+        },
+        {
+          "label": "2",
+          "text": "2, 1, 3, 4, 5"
+        },
+        {
+          "label": "3",
+          "text": "1, 3, 2, 4, 5"
+        },
+        {
+          "label": "4",
+          "text": "3, 1, 2, 4, 5"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "699738322a333b1637923f30",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the missing term.\n\nELFA, GLHA, ILJA, ?, MLNA",
+      "options": [
+        {
+          "label": "1",
+          "text": "KLMA"
+        },
+        {
+          "label": "2",
+          "text": "KLKA"
+        },
+        {
+          "label": "3",
+          "text": "KLLA"
+        },
+        {
+          "label": "4",
+          "text": "KLNA"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69cb5c54b71a5e64e30934d9",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 11 × 11 = 4, 22 × 22 = 16, then 33 × 33 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "24"
+        },
+        {
+          "label": "3",
+          "text": "26"
+        },
+        {
+          "label": "4",
+          "text": "28"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69c913e495e1fcdd44d13cd4",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Direction: In each of the following questions, four words have been given, out of which three are alike in some manner and the fourth one is different. Choose out the odd one.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Asia"
+        },
+        {
+          "label": "2",
+          "text": "Europe"
+        },
+        {
+          "label": "3",
+          "text": "Russia"
+        },
+        {
+          "label": "4",
+          "text": "Africa"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "690c56151082af59a1b936eb",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which two signs should be interchanged to make the equation correct?\n\n25 × 2 - 10 ÷ 5 + 3 = 49",
+      "options": [
+        {
+          "label": "1",
+          "text": "× and -"
+        },
+        {
+          "label": "2",
+          "text": "- and ÷"
+        },
+        {
+          "label": "3",
+          "text": "÷ and +"
+        },
+        {
+          "label": "4",
+          "text": "+ and -"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "690c56f1ebc32ff12ec4e7d4",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'TIGER' is coded as '20-9-7-5-18', how will 'REGIT' be coded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15-4-4-16-12"
+        },
+        {
+          "label": "2",
+          "text": "6-23-26-13-22"
+        },
+        {
+          "label": "3",
+          "text": "18-5-7-9-20"
+        },
+        {
+          "label": "4",
+          "text": "21-26-12-16-8"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "690b2b50e5487d5c9d208cfb",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the given symbols mean:\n\n'+' means 'divided by'\n\n'-' means 'multiplied by'\n\n'x' means 'minus'\n\n'÷' means 'plus'\n\nThen, find the value of the following expressions: 12 + 3 - 8 x 2 ÷ 1=?",
+      "options": [
+        {
+          "label": "1",
+          "text": "17"
+        },
+        {
+          "label": "2",
+          "text": "31"
+        },
+        {
+          "label": "3",
+          "text": "46"
+        },
+        {
+          "label": "4",
+          "text": "67"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69cf9ef761af57bcdf98a558",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the question below there are three statements followed by two conclusions I and II. You have to take the given statements to be true even if they seem to be at variance from commonly known facts and then decide which of the given conclusions logically follows from the three statements disregarding commonly known facts.\n\nStatements:\n\nOnly Car are Vehicle.\n\nSome Car are Bulky.\n\nAll Metal are Bulky.\n\nConclusions:\n\nI. Some Vehicle are not Metal.\n\nII. Some Metal are Car.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only II"
+        },
+        {
+          "label": "2",
+          "text": "Both I and II"
+        },
+        {
+          "label": "3",
+          "text": "Only I"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6942807785b4cab78c25184f",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Ranking/Order",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a row of 80 students, if Arun is 23rd from the left and there are 18 students between Arun and Bharat, what is Bharat's position from the right end? (Bharat is to the right of Arun)",
+      "options": [
+        {
+          "label": "1",
+          "text": "38"
+        },
+        {
+          "label": "2",
+          "text": "39"
+        },
+        {
+          "label": "3",
+          "text": "40"
+        },
+        {
+          "label": "4",
+          "text": "41"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69b3ffedea4077c6555e9f8c",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next in the following series?\n\nA1, B1, C8, D27, E125, F512, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "G125"
+        },
+        {
+          "label": "2",
+          "text": "E1728"
+        },
+        {
+          "label": "3",
+          "text": "G729"
+        },
+        {
+          "label": "4",
+          "text": "G2197"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "699f10f924dfc693522ca26d",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain coded language 'COMPS' is coded as 'NKHKY' and 'ABATE' is coded as 'ZOVXW'. How will 'SMOKY' be coded in the same code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "RHKJN"
+        },
+        {
+          "label": "2",
+          "text": "TGKIQ"
+        },
+        {
+          "label": "3",
+          "text": "SFIKQ"
+        },
+        {
+          "label": "4",
+          "text": "TFJIO"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "699e48c8c0b31374fcf6169e",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Direction Sense",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "R started walking towards north. During his journey, he turned 7 times right and 5 times left. In which direction he will be facing finally?",
+      "options": [
+        {
+          "label": "1",
+          "text": "East"
+        },
+        {
+          "label": "2",
+          "text": "South"
+        },
+        {
+          "label": "3",
+          "text": "West"
+        },
+        {
+          "label": "4",
+          "text": "North"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6909f904a937eb1254c051e2",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is exactly the same as the one given below.\n\nC-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560010",
+      "options": [
+        {
+          "label": "1",
+          "text": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560011"
+        },
+        {
+          "label": "2",
+          "text": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560012"
+        },
+        {
+          "label": "3",
+          "text": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560013"
+        },
+        {
+          "label": "4",
+          "text": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560010"
+        }
+      ],
+      "correct": null
+    }
+  ]
+}

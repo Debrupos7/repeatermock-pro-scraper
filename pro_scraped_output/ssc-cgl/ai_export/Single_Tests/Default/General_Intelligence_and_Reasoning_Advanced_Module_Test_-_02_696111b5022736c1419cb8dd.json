@@ -1,0 +1,1239 @@
+{
+  "test_id": "696111b5022736c1419cb8dd",
+  "title": "General Intelligence and Reasoning Advanced Module Test - 02",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 90.0,
+  "question_count": 30,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:01:10.424485+00:00",
+  "questions": [
+    {
+      "qid": "5f044edffa38350d0948ee8e",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the odd word from the given alternatives.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Wicket-keeper"
+        },
+        {
+          "label": "2",
+          "text": "Fielder"
+        },
+        {
+          "label": "3",
+          "text": "Bowler"
+        },
+        {
+          "label": "4",
+          "text": "Batsman"
+        }
+      ],
+      "correct": "4",
+      "solution": "In a cricket match, all Wicket-keeper, Fielder and Bowler are from the same team, while the Batsman is from the opponent team, while playing on the field.\n\nHence, ‘batsman’ is the odd one out.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "62b3ff627fefb614c3ffa1e6",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In each of the given number-clusters, the number on the right side of = (the equal to sign) is calculated by performing certain mathematical operations on the three numbers on the left of = (the equal to sign). All three number-clusters follow the same pattern. Select the number from among the given options that can replace the question mark (?) in the third number-cluster.\n\n36, 58, 21 = 23\n\n41, 39, 20 = 20\n\n39, 52, 34 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "17"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "25"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n**(1st number + 2ⁿd number + 3rd number) ÷ 5 = RHS**\n\n**Now follow the steps:**\n\n36, 58, 21 = 23\n\n= (36 + 58 + 21) ÷ 5\n\n= 115 ÷ 5\n\n= 23** = RHS**\n\nAnd,\n\n41, 39, 20 = 20\n\n= (41 + 39 + 20) ÷ 5\n\n= 100 ÷ 5\n\n= 20** = RHS**\n\nSimilarly,\n\n39, 52, 34 = ?\n\n**= (39 + 52 + 34) ÷ 5**\n\n**= 125 ÷ 5**\n\n**= 25 = RHS**\n\nHence, the correct answer is **\"25\".**",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "64cca87a5027c47437e0d9df",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a certain code language, 'TURNIP' is coded as VNRUWU and 'DAIKON' is coded as TTOLCE. How will 'RADISH' be coded in the same language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "NXMGCS"
+        },
+        {
+          "label": "2",
+          "text": "NXNHCS"
+        },
+        {
+          "label": "3",
+          "text": "MXNHCS"
+        },
+        {
+          "label": "4",
+          "text": "CYMGDP"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/d7fd46426f00ba56b91d423458faa673503496b14e50413ec14eae6a6e84c211.png] \n\nThe logic followed here is :-\n\n'TURNIP' is coded as VNRUWU.\n\n [IMAGE: https://cdn.repeatermock.com/tb/51f5298e93b8c7213b846a954695ed7754a0adc78b44272f3903707daf22ffd1.png] \n\nand\n\n'DAIKON' is coded as TTOLCE.\n\n [IMAGE: https://cdn.repeatermock.com/tb/ff5eecc8357c844bbc4c1d3ecf599eb118ec1ed2f4907d4fb4f11179e5d748ba.png] \n\nSimilarly,\n\n'RADISH' will be coded as :\n\n [IMAGE: https://cdn.repeatermock.com/tb/448c4ae0c3393bdf9cd73ec9f64f2c30b2ebc4902204deab336348a67cfce920.png] \n\nHence, the correct answer is **\"NXMGCS\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d7fd46426f00ba56b91d423458faa673503496b14e50413ec14eae6a6e84c211.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/51f5298e93b8c7213b846a954695ed7754a0adc78b44272f3903707daf22ffd1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ff5eecc8357c844bbc4c1d3ecf599eb118ec1ed2f4907d4fb4f11179e5d748ba.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/448c4ae0c3393bdf9cd73ec9f64f2c30b2ebc4902204deab336348a67cfce920.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5fe33a00caaa62e26bf78f8b",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Study the given pattern carefully and select the number that can replace the question mark (?) in it.\n\n \n \n\n 16\n 14\n 19\n \n \n\n 391\n 270\n ?\n \n \n\n 23\n 18\n 14",
+      "options": [
+        {
+          "label": "1",
+          "text": "240"
+        },
+        {
+          "label": "2",
+          "text": "280"
+        },
+        {
+          "label": "3",
+          "text": "320"
+        },
+        {
+          "label": "4",
+          "text": "258"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given,\n\n \n \n\n 16\n 14\n 19\n \n \n\n 391\n 270\n ?\n \n \n\n 23\n 18\n 14\n \n \n\n \n\nThe pattern followed here is,\n\n1st column,\n\n16 + 1 = 17 × 23 = 391\n\n2nd column,\n\n14 + 1 = 15 × 18 = 270\n\nSimilarly,\n\n3rd column,\n\n**19 + 1 = 20 × 14 = 280**\n\n**Hence, the correct answer is 280.**",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "613f26ccb569a7f0b024e310",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Shanti’s daughter Chandini is married to Abhi. Anchal is married to Sandy, the grandson of Shanti. Abhi's grandson is Karan. Rashmi is the mother of Karan. Shaurya is Anchal's son. How is Shaurya related to Karan?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Nephew"
+        },
+        {
+          "label": "2",
+          "text": "Brother"
+        },
+        {
+          "label": "3",
+          "text": "Son"
+        },
+        {
+          "label": "4",
+          "text": "Cousin"
+        }
+      ],
+      "correct": "4",
+      "solution": "By using the symbols in the table given below, we can draw the following family tree:\n\n [IMAGE: https://cdn.repeatermock.com/tb/c75d68ae808704931aae09942afba86254a75cae5d9da340c122782fa9aafb67.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/5c1f5600500ecba9940075fc0fa686b30e7acd5cf5a8d2abe7bcc24c33e3ea93.png] \n\nWe do not know the gender of Shanti. \n\nClearly, Shaurya is the cousin of Karan.\n\nHence, ‘**Cousin**’ is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c75d68ae808704931aae09942afba86254a75cae5d9da340c122782fa9aafb67.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5c1f5600500ecba9940075fc0fa686b30e7acd5cf5a8d2abe7bcc24c33e3ea93.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "6404331e00f38b823b04bb68",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following numbers will replace the question mark (?) in the given series?\n\n235, 271, ?, 349, 391, 435​",
+      "options": [
+        {
+          "label": "1",
+          "text": "311"
+        },
+        {
+          "label": "2",
+          "text": "307"
+        },
+        {
+          "label": "3",
+          "text": "313"
+        },
+        {
+          "label": "4",
+          "text": "309"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Logic :** Double addition pattern is followed with common difference of (2) subsequently.\n\nSo,\n\n [IMAGE: https://cdn.repeatermock.com/tb/19faa37addb68af5878f0201586fed09fb59c45dd9c9123cd814b3d7b6cd0322.png] \n\nHence, **\"309\"** is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/19faa37addb68af5878f0201586fed09fb59c45dd9c9123cd814b3d7b6cd0322.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "64ce23f53416f8ece456647f",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the set in which the numbers are related in the same way as are the numbers of the given sets.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is NOT allowed)\n\n(12, 7, 1385)\n\n(19, 15, 3484)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(17, 15, 1550)"
+        },
+        {
+          "label": "2",
+          "text": "(11, 7, 955)"
+        },
+        {
+          "label": "3",
+          "text": "(21, 16, 5165)"
+        },
+        {
+          "label": "4",
+          "text": "(16, 14, 1321)"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\nLogic: **First number³ - Second number³ = Third number**\n\n \n• (12, 7, 1385) → 12³ - 7³ = 1728 - 343 = 1385\n\nand\n\n \n• (19, 15, 3484) → 19³ - 15³ = 6859 - 3375 = 3484\n\nSimilarly,\n\n \n• **(21, 16, 5165) → 21³ - 16³ = 9261 - 4096 = 5165**\n\nHence, the correct answer is **\"(21, 16, 5165)\".**",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "60dc5ed59f97bed3c6bc638b",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If it is possible to make a meaningful word with the 4th, the 6th, the 9th and the 11th letters of the word ‘QUALIFICATION’, then which of the following will be the 3rd letter of that word? If more than one such word can be formed give ‘M’ as the answer and if no such word can be formed give ‘N’ as the answer.",
+      "options": [
+        {
+          "label": "1",
+          "text": "M"
+        },
+        {
+          "label": "2",
+          "text": "I"
+        },
+        {
+          "label": "3",
+          "text": "F"
+        },
+        {
+          "label": "4",
+          "text": "N"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Word:** QUALIFICATION\n\nThe 4th, 6th, 9th, and 11th letters of the word is L, F, A, and I respectively.\n\nWords = FAIL\n\nSo, there is only one word formed.\n\nThe third letter of the word FAIL is I.\n\nHence, **\"I\"** is the correct answer.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "63357b65289615933b970136",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A stands in the 45th position from the front of the queue and there are 3 persons between A and B. B stands after A. If the first 10 persons are removed from the queue then what is the position of B from the front of the queue?",
+      "options": [
+        {
+          "label": "1",
+          "text": "39"
+        },
+        {
+          "label": "2",
+          "text": "43"
+        },
+        {
+          "label": "3",
+          "text": "37"
+        },
+        {
+          "label": "4",
+          "text": "51"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nA stands in the 45th position from the front of the queue and there are 3 persons between A and B. B stands after A.\n\nThe position of B = Position of A + Person between A and B + 1 = 45 + 3 + 1 = 49 th\n\n [IMAGE: https://cdn.repeatermock.com/tb/487e0003fb56bf1c64530e00c6648edf3e42636069b74812c4b9d2015a20d14e.png] \n\nIf the first 10 persons are removed from the queue.\n\nNew position of B = 49 - 10 = 39th\n\n [IMAGE: https://cdn.repeatermock.com/tb/f1360039d3ceaccd0255250a50ec05355c6bd6a6b8525826c68489bab62cf39e.png] \n\n**Hence, the new position of B from the front of the queue is \"39\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/487e0003fb56bf1c64530e00c6648edf3e42636069b74812c4b9d2015a20d14e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f1360039d3ceaccd0255250a50ec05355c6bd6a6b8525826c68489bab62cf39e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "630bbedf26cb9324c7dc6855",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the one which is related to the third figure in the same way as the second figure is related to the first figure.\n\n [IMAGE: https://cdn.repeatermock.com/tb/bbb2c174e6e18d366a6411a0419eab5acc17e2bfe614b836d5f7bb79b80f1e53.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/6d76d5f68ed95589674e32c9f7f4f33a03171d0fe24b898337d2ca94e7e33409.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/2b8e700ef056ce21f7b435b13f3bac71b094606de715ff1b0b65b4bc1d05c6ed.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/94533a16ace20ed260bbc15e77fb97221e983d4f9ac62cad43f32f29106c1537.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/42cc81a7c6347c8a2a7a5abc9ccfecb1b5fa49cadcdb1b17e3a8024a0a6142a4.png]"
+        }
+      ],
+      "correct": "4",
+      "solution": "Logic followed in the given figures:\n\n**Logic:** Figure (2) is the mirror image of the figure (1).\n\n [IMAGE: https://cdn.repeatermock.com/tb/aa3d3b8ef29d7510bf5655dc81523f04405cd41664742c425523aef2048d49d3.png] \n\nSimilarly, in figure (3):\n\n [IMAGE: https://cdn.repeatermock.com/tb/a528fe0d970d15c7646db4eaed37154d21fa4e974658a249bb3ec5c1d48be2c6.png] \n\nHence, the correct answer is **\"Option (4)\".**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bbb2c174e6e18d366a6411a0419eab5acc17e2bfe614b836d5f7bb79b80f1e53.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aa3d3b8ef29d7510bf5655dc81523f04405cd41664742c425523aef2048d49d3.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a528fe0d970d15c7646db4eaed37154d21fa4e974658a249bb3ec5c1d48be2c6.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "606e8ebe4e7e11466d37c5e2",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Directions: A statement is followed by two inferences I and II. You have to consider the statement to be true even if it seems at variance from commonly known facts. You have to decide which of the given inferences, if any, follow from the given statement.**\n\n**Statement:** Attitudes are often the result of experience or upbringing, and they can have a powerful influence on behavior.\n\n**Inferences:**\n\nI.Attitudes cannot be changed.\n\nII.Attitudes and behavior are related.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only inference I follows."
+        },
+        {
+          "label": "2",
+          "text": "Only inference II follows."
+        },
+        {
+          "label": "3",
+          "text": "Both the inferences follow."
+        },
+        {
+          "label": "4",
+          "text": "None of the inferences follow."
+        }
+      ],
+      "correct": "2",
+      "solution": "Option 2. Only inference II follows.\n\nThe statement shares that attitudes that result from experience or upbringing have a powerful influence on behavior.\n\n So, from what is supplied we cannot deduce anything about how permanent attitudes and behavior are. Whether they can be changed or not. So inference I does not follow.\n\nBut, from what is given it can be inferred that attitude is associated with behavior. Therefore, inference II follows.\n\nHence, Option 2 is correct.",
+      "tags": [
+        "Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "6005421c27a2b36be9cf02ec",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the missing number from the options given below.\n\n \n \n\n 15\n 21\n 36\n \n \n\n 18\n 9\n 27\n \n \n\n 26\n 17\n ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9"
+        },
+        {
+          "label": "2",
+          "text": "63"
+        },
+        {
+          "label": "3",
+          "text": "43"
+        },
+        {
+          "label": "4",
+          "text": "52"
+        }
+      ],
+      "correct": "3",
+      "solution": "The pattern followed here is:\n\nIn the first row,\n\n15 + 21 = 36\n\nIn the second row,\n\n18 + 9 = 27\n\nSimilarly, in the third row,\n\n26 + 17 = ?\n\n? = 43\n\nHence, ‘43’ is the correct answer.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "63a2e70174bb6bca3210380a",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A & B means ‘A is the wife of B’\n\nA # B means ‘A is the father of B’\n\nA @ B means ‘A is the son B’\n\nA % B means ‘A is the husband of B’\n\nA + B means ‘A is the mother of B’\n\nIf A & B # C & D @ E % F + G, then how is A related to D?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Daughter-in-law"
+        },
+        {
+          "label": "2",
+          "text": "Mother-in-law"
+        },
+        {
+          "label": "3",
+          "text": "Mother"
+        },
+        {
+          "label": "4",
+          "text": "Sister"
+        }
+      ],
+      "correct": "2",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/85d5a935d623a41a2055d7118a30cb95a4dc5b577d68921c46f443937a8a4ad0.png] \n\nGiven:\n\n \n \n\n A & B\n A is the wife of B\n \n \n\n A # B\n A is the father of B\n \n \n\n A @ B\n A is the son B\n \n \n\n A % B\n A is the husband of B\n \n \n\n A + B\n A is the mother of B\n \n \n\nNow we substitute the values in the given equation:\n\nA & B # C & D @ E % F + G becomes A is the wife of B, B is the father of C, C is the wife of D, D is the son E, E is the husband of F, F is the mother of G. \n\n [IMAGE: https://cdn.repeatermock.com/tb/7c4a24475ca12a8c7f58bd821e43410255eaeb86b52ae06bde1fc888f09a310c.png] \n\nFrom the chart we can see that,** A is mother-in-law of D.**\n\nHence, the correct answer is **\"Option 2\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/85d5a935d623a41a2055d7118a30cb95a4dc5b577d68921c46f443937a8a4ad0.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7c4a24475ca12a8c7f58bd821e43410255eaeb86b52ae06bde1fc888f09a310c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "63f76332b203688ac1ce9d12",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Eight people, D, E, M, P, T, W, Y and Z are sitting in a straight line, facing north. D sits third from the left end of the line. Only one person sits between D and Z. P sits third to the right of Z. Only two people sit between P and W. E sits to the immediate right of Y. M does not sit at any of the extreme ends of the line. What is the position of T from the right end of the line?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Fourth"
+        },
+        {
+          "label": "2",
+          "text": "Third"
+        },
+        {
+          "label": "3",
+          "text": "Second"
+        },
+        {
+          "label": "4",
+          "text": "First"
+        }
+      ],
+      "correct": "4",
+      "solution": "As per the given information, the sitting arrangement is as:\n\n1.D sits third from the left end of the line.\n\n [IMAGE: https://cdn.repeatermock.com/tb/6f1bb8ff3b5bffb24e9854bfc974bf95e8e8a206481c69bfff4e9b4452aacae2.png] \n\n2. Only one person sits between D and Z.\n\n**Case 1:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f035ded7a69b3cc435480c4c5ae913413b9aba58dfc1086606f1fb5244406dba.png] \n\n**Case 2:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/b7dae9fbf3d065578ffa9a749b3038f730eac38f8b259a670a7ae2cc9bfcaf1b.png] \n\n3. P sits third to the right of Z.\n\n**Case 1:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/b93fe7ddd2e3727917c278779a32bc6c47aae29dcb740de01bc338336b694409.png] \n\n**Case 2:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/72a764d877c60f44380bc91109bd5cb4735b1506669ffe9496a154d2138b1e0a.png] \n\n4. Only two people sit between P and W.\n\n [IMAGE: https://cdn.repeatermock.com/tb/86436208d74b79571ad6ec3a75e2c9af2b6bfc0a6ccdec889dab3f5f6737469f.png] \n\n5. E sits to the immediate right of Y. and M does not sit at any of the extreme ends of the line.\n\n [IMAGE: https://cdn.repeatermock.com/tb/0667a0ffcf33023d8e216e813dd7fb20adcd17cc3dc11e2d40c06c93c4fc86e3.png] \n\nHere, T is** first** from the right end.\n\nHence, the correct answer is \"First\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6f1bb8ff3b5bffb24e9854bfc974bf95e8e8a206481c69bfff4e9b4452aacae2.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f035ded7a69b3cc435480c4c5ae913413b9aba58dfc1086606f1fb5244406dba.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b7dae9fbf3d065578ffa9a749b3038f730eac38f8b259a670a7ae2cc9bfcaf1b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b93fe7ddd2e3727917c278779a32bc6c47aae29dcb740de01bc338336b694409.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/72a764d877c60f44380bc91109bd5cb4735b1506669ffe9496a154d2138b1e0a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/86436208d74b79571ad6ec3a75e2c9af2b6bfc0a6ccdec889dab3f5f6737469f.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0667a0ffcf33023d8e216e813dd7fb20adcd17cc3dc11e2d40c06c93c4fc86e3.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "6102483f28425a05a1972562",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "How many maximum squares are in the following figure?\n\n [IMAGE: https://cdn.repeatermock.com/tb/a560e185b86490deb186a03a15b3b2973439d5c9298b3d063eb4c1f3ea0bb385.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "8"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "18"
+        }
+      ],
+      "correct": "3",
+      "solution": "By counting the squares:\n\n [IMAGE: https://cdn.repeatermock.com/tb/cb965eeeeae2b0c572e882ba594c1a41f8d28a723ba8fca813ab01c65c2e972f.png] [IMAGE: https://cdn.repeatermock.com/tb/e9777a5a66a82ee29e12b0e93d751f50f27f174ea1b558533f485b28019818e0.png] <img alt=\"\" src=\"https://cdn.repeatermock.com/tb/70",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a560e185b86490deb186a03a15b3b2973439d5c9298b3d063eb4c1f3ea0bb385.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/cb965eeeeae2b0c572e882ba594c1a41f8d28a723ba8fca813ab01c65c2e972f.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e9777a5a66a82ee29e12b0e93d751f50f27f174ea1b558533f485b28019818e0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "6273852f292c4dfc2e53fb92",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which two numbers and which two signs should be interchanged to balance the following equation?\n\n24 ÷ 16 - 96 + 48 × 12 = 195",
+      "options": [
+        {
+          "label": "1",
+          "text": "24 and 48, × and ÷"
+        },
+        {
+          "label": "2",
+          "text": "24 and 16, - and ÷"
+        },
+        {
+          "label": "3",
+          "text": "12 and 16, × and ÷"
+        },
+        {
+          "label": "4",
+          "text": "12 and 48, × and +"
+        }
+      ],
+      "correct": "3",
+      "solution": "According to the BODMAS rule:\n\n [IMAGE: https://cdn.repeatermock.com/tb/006771b9f7ae321438e7a68b16f53e90db3c3f96a3a6990265d3b29dd3f68a2a.png] \n\n**Option 1 :** 24 and 48, × and ÷\n\nGiven:\n\n24 ÷ 16 - 96 + 48 × 12 = 195\n\nAfter interchange the numbers and signs;\n\n48 × 16 - 96 + ***__24 __******__÷ 12__*** = 195\n\nBy BODMAS rule\n\n***__48 __******__× 16__*** - 96 + 2 = 195\n\n***__768__*** - 96 ***__+ 2__*** = 195\n\n***__770 – 96__*** = 195\n\n674 = 195 **(LHS ≠ RHS)**\n\n**Option 2 :** 24 and 16, - and ÷\n\nGiven: \n\n24 ÷ 16 - 96 + 48 × 12 = 195\n\nAfter interchange the numbers and signs;\n\n16 - ***__24 __******__÷ 96__*** + 48 × 12 = 195\n\nBy BODMAS rule\n\n16 – 0.25 + ***__48 × 12__*** = 195\n\n***__16__*** – 0.25 ***__+ 576__*** = 195\n\n***__592 – 0.25__*** = 195\n\n591.75 = 195 **(LHS ≠ RHS)**\n\n**Option 3: **12 and 16, × and ÷\n\n**Given:**\n\n**24 ÷ 16 - 96 + 48 × 12 = 195**\n\n**After interchange the numbers and signs;**\n\n**24 ****× 12 - 96 + *__48 __**__÷ 16__* = 195**\n\n**By BODMAS rule**\n\n***__24 __******__× 12__***** - 96 + 3 = 195**\n\n***__288__***** – 96 *__+ 3__* = 195**\n\n***__291 – 96__***** = 195**\n\n**195 = 195** **(LHS = RHS)**\n\n**Option 4: **12 and 48, × and +\n\nGiven:\n\n24 ÷ 16 - 96 + 48 × 12 = 195\n\nAfter interchange the numbers and signs;\n\n***__24 ÷ 16__*** - 96 × 12 + 48 = 195\n\nBy BODMAS rule\n\n1.5 – ***__96 __******__× 12__*** + 48 = 195\n\n***__1.5 __***– 1152 ***__+ 48__*** = 195\n\n***__49.5 – 1152 __***= 195\n\n- 1102.5 = 195 **(LHS ≠ RHS)**\n\nHence, the answer is **“****12 and 16, × and ÷”.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/006771b9f7ae321438e7a68b16f53e90db3c3f96a3a6990265d3b29dd3f68a2a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "621521e7c360c8d166fb310e",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If ‘A’ denotes ‘addition’, ‘B’ denotes ‘subtraction’, ‘C’ denotes ‘multiplication’ and ‘D’ denotes ‘division’, then what will be the value of the following expression? \n\n6 C (57 B 8) D 7 B 32 A 9",
+      "options": [
+        {
+          "label": "1",
+          "text": "27"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "19"
+        }
+      ],
+      "correct": "4",
+      "solution": "BODMAS rule:-\n\n [IMAGE: https://cdn.repeatermock.com/tb/2042326d26ec7b593e52bbbdd22d890b59b1e59f92be81a7235509e9af1c4625.png] \n\nDecoding the information, \n\n \n \n\n \n \n**Sign**\n\n \n \n \n**A**\n\n \n \n \n**B**\n\n \n \n \n**C**\n\n \n \n \n**D**\n\n \n \n \n\n \n \n**Means**\n\n \n \n \n**+**\n\n \n \n \n**-**\n\n \n \n \n**×**\n\n \n \n \n**÷**\n\n \n \n \n\nGiven:\n\n6 C (57 B 8) D 7 B 32 A 9\n\nAfter replacing the signs from left to right and using the BODMAS rule,\n\n= 6 × (__**57 - 8**__) ÷ 7 - 32 + 9\n\n= 6 × __**49 ÷ 7**__ - 32 + 9\n\n= **__6 × 7__** - 32 + 9\n\n= **__42__** - 32 __**+ 9**__\n\n= **__51 – 32__**\n\n= 19\n\nHence, **“19”** is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2042326d26ec7b593e52bbbdd22d890b59b1e59f92be81a7235509e9af1c4625.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "60050eb30fb264b2473df922",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below.\n\n [IMAGE: https://cdn.repeatermock.com/tb/54d2705423b5d0a707c4c81e2e33938276962c3d7d0af760b82467fd80c07570.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/c6bdb73c057a5cfeec55c1ddfe76f0bc13f54f22321c04959c8731a5203ec18e.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/675504a524a93bfe1d66c808043308efa2d77fc466e4403c02fab6e8f9de40f0.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/a260be549474acbbab9278c20ecc96cfd4d64c9b69be69aaff8bd234b4a40e57.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/d80e292e4f57588ac96eb22b57db4c6c1ebee0fa06905980011164245e3d98c7.png]"
+        }
+      ],
+      "correct": "4",
+      "solution": "The mirror image is :\n\n [IMAGE: https://cdn.repeatermock.com/tb/cdbc3a42ab8d51e88f16cbe9dde5d4f5ccfd1ab7b45410cceb0c26f708509dfe.png] \n\nHence, **option 4** is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/54d2705423b5d0a707c4c81e2e33938276962c3d7d0af760b82467fd80c07570.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/cdbc3a42ab8d51e88f16cbe9dde5d4f5ccfd1ab7b45410cceb0c26f708509dfe.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5b6d381e45a8c40c39f6f903",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In the question below is given a statement followed by two assumptions numbered I and II. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement.\n\n**Statement: **There has been a remarkable increase in the air traffic in India during the past few years.\n\n**Assumptions:**\n\n1. Traveling by air has become a status symbol now.\n\n2. Large number of people are able to afford air travel now.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only assumption I is implicit."
+        },
+        {
+          "label": "2",
+          "text": "Only assumption II is implicit."
+        },
+        {
+          "label": "3",
+          "text": "Neither I nor II is implicit."
+        },
+        {
+          "label": "4",
+          "text": "Both I and II is implicit."
+        }
+      ],
+      "correct": "2",
+      "solution": "Let us check both the assumptions\n\nI. Traveling by air has become a status symbol now → Statement does not talk about any status symbol thus assumption I is not implicit.\n\nII. Large number of people are able to afford air travel now → This is the reason of increasing air traffic thus assumption II is implicit.\n\nThus, only assumption II is implicit.",
+      "tags": [
+        "Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "6245c1d085d31be52ab26892",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a certain code language, ‘SPIRIT’ is coded as ‘65’ and ‘DENSE’ is coded as ‘83’. How will ‘LOGICAL’ be coded in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "132"
+        },
+        {
+          "label": "2",
+          "text": "123"
+        },
+        {
+          "label": "3",
+          "text": "231"
+        },
+        {
+          "label": "4",
+          "text": "213"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://lh3.googleusercontent.com/EqPMUdl5zDRTOC5ABsMnbMrvI_0IU_ruQzU_-WL5uTTM4i5giFUuuHctb0YJev7ZapSy3eim6xjmjIeLaYubzmah_PeU4BjWGss_AGYQQFtTmcEkSd1_CnyEPuUb0yHigE7m2NccmTKM9oxSJA] \n\nThe logic followed here is:\n\n**Logic: [Sum of reverse place value - number of letter]**\n\n'SPIRIT' is coded as '65'\n\n [IMAGE: https://cdn.repeatermock.com/tb/b3a987fd5f646ca46c2c415863aec59f64fd91bbaa0a7df15f9d2bc878c64f13.png] \n\n⇒ **8 + 11 + 18 + 9 + 18 + 7 = 71 **\n\n⇒ **71 - Number of letter = 71 - 6 = 65**\n\nAnd,\n\n'DENSE' is coded as '83'\n\n [IMAGE: https://cdn.repeatermock.com/tb/f8f15ece1a97b941d22ce53cbe2fdc5065345c1303dcbeb87408fe960e650fd4.png] \n\n⇒** 23 + 22 + 13 + 8 + 22 = 88**\n\n⇒ **88 - Number of letter = 88 - 5 = 83**\n\nSimilarly,\n\n'LOGICAL' is coded as '?'\n\n [IMAGE: https://cdn.repeatermock.com/tb/8ce5d7ed669a813c9567f108e1ea9d924fc4e652e1ce6a91bb6147fb604983a1.png] \n\n⇒ **15 + 12 + 20 + 18 + 24 + 26 + 15 = 130**\n\n⇒ **123 - Number of letter = 130 - 7 = 123**\n\nHence, the correct answer is **\"123\".**",
+      "solution_images": [
+        {
+          "url": "https://lh3.googleusercontent.com/EqPMUdl5zDRTOC5ABsMnbMrvI_0IU_ruQzU_-WL5uTTM4i5giFUuuHctb0YJev7ZapSy3eim6xjmjIeLaYubzmah_PeU4BjWGss_AGYQQFtTmcEkSd1_CnyEPuUb0yHigE7m2NccmTKM9oxSJA",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b3a987fd5f646ca46c2c415863aec59f64fd91bbaa0a7df15f9d2bc878c64f13.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f8f15ece1a97b941d22ce53cbe2fdc5065345c1303dcbeb87408fe960e650fd4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8ce5d7ed669a813c9567f108e1ea9d924fc4e652e1ce6a91bb6147fb604983a1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "624327619ab31718c054d210",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Three statements are given, followed by three conclusions numbered I, II and III. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusions logically follow(s) from the statements.\n\n**Statements:**\n\nAll classrooms are schools.\n\nNo school is a park.\n\nAll houses are parks.\n\n**Conclusions:**\n\nI. No house is a classroom.\n\nII. No park is a classroom.\n\nIII. No school is a house.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion II follows"
+        },
+        {
+          "label": "2",
+          "text": "All of the conclusions follow"
+        },
+        {
+          "label": "3",
+          "text": "Only conclusion III follows"
+        },
+        {
+          "label": "4",
+          "text": "Only conclusion I follows"
+        }
+      ],
+      "correct": "2",
+      "solution": "From the given statements the Venn diagram is:\n\nAll classrooms are schools.\n\nNo school is a park.\n\nAll houses are parks.\n\n [IMAGE: https://cdn.repeatermock.com/tb/4f6f74da57d0b6ca459687b6a82333b1c889999496a2aeb56501185d8e12125b.png] \n\nNow we consider the given conclusions:\n\n**I. No house is a classroom: **We are given that all ho",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4f6f74da57d0b6ca459687b6a82333b1c889999496a2aeb56501185d8e12125b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "62413ab42c1e652ed97995a9",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term.\n\nMOSTLY : TPNZMU :: PACIFY : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "CAPZGJ"
+        },
+        {
+          "label": "2",
+          "text": "DBQZGJ"
+        },
+        {
+          "label": "3",
+          "text": "QBDHEZ"
+        },
+        {
+          "label": "4",
+          "text": "OZBHEX"
+        }
+      ],
+      "correct": "2",
+      "solution": "Here, we use the table given below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/130e026a7c3720f6f9db70163ea219cbcf01f13f419b49f6b5b6c1ad7f909510.png] \n\nThe logic followed here is;\n\n**In MOSTLY : TPNZMU →**\n\n [IMAGE: https://cdn.repeatermock.com/tb/d1dd724f3fee0c42f9795d6d8fb624775bd4bf24bd9fc85453e5cc0fe5ddad0a.png] \n\nSimilarly,\n\n**In PACIFY : ? →**\n\n [IMAGE: https://cdn.repeatermock.com/tb/cf1709a97065be30a04d4e6e1f06d83eb0483f4b537d6f10e9e7e4557e2f74e6.png] \n\nHere, PACIFY is written as **DBQZGJ**.\n\nHence, the correct answer is **\"DBQZGJ\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/130e026a7c3720f6f9db70163ea219cbcf01f13f419b49f6b5b6c1ad7f909510.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d1dd724f3fee0c42f9795d6d8fb624775bd4bf24bd9fc85453e5cc0fe5ddad0a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/cf1709a97065be30a04d4e6e1f06d83eb0483f4b537d6f10e9e7e4557e2f74e6.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5ea45e15f60d5d53736fd544",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Choose from the alternatives the figure that best completes the pattern given below\n\n [IMAGE: https://cdn.repeatermock.com/tb/3b1854ed2d7f362b9ae4c60a38eeb3d5a9282e3b763a41125aace79ecd3178e9.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/997f88b616cab7a834c69d3e79a635e0910daaf680e49a29cb81fb1be47eebee.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/b057356f1beaab534a92a4bd0a915e6410dd604be3ffa120c8c68dd866d3ae27.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/5807597517f7f11f5194705c507d69bb76e2fadeb3189868a55ccce489b59d9f.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/92c55aa4fba04bf47130727a11059895c442cafe3a42a2a42a09bf8a27336086.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/a497793f5fe8ae52fa3a7c450d7a3fb85aeb6ac5da31a158e59b04fe208f88f3.png]",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3b1854ed2d7f362b9ae4c60a38eeb3d5a9282e3b763a41125aace79ecd3178e9.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a497793f5fe8ae52fa3a7c450d7a3fb85aeb6ac5da31a158e59b04fe208f88f3.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5e04b1ad9087670d02c83e76",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In an examination, five students A, B, C, D and E got different marks. E got more marks than C only. D got lesser marks than two people. A did not get the highest marks.\n\nHow many people got less marks than A?",
+      "options": [
+        {
+          "label": "1",
+          "text": "One"
+        },
+        {
+          "label": "2",
+          "text": "Two"
+        },
+        {
+          "label": "3",
+          "text": "Three"
+        },
+        {
+          "label": "4",
+          "text": "Four"
+        }
+      ],
+      "correct": "3",
+      "solution": "Five students - A, B, C, D, E\n\n1) E got more marks than C only.\n\n**….. > ….. > ….. > E > C**\n\n2) D got lesser marks than two people.\n\n**….. > ….. > D > E > C**\n\n3) A did not get the highest marks. (Thus B got the highest marks)\n\n**B > A > D > E > C**\n\nHence, three people got less marks than A.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "604471f9fbb9cedf5b1945b3",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Four pair of numbers have been given, out of which three are alike in some manner, while one is different. Pick the odd one out.",
+      "options": [
+        {
+          "label": "1",
+          "text": "98, 42"
+        },
+        {
+          "label": "2",
+          "text": "125, 69"
+        },
+        {
+          "label": "3",
+          "text": "68, 12"
+        },
+        {
+          "label": "4",
+          "text": "119, 64"
+        }
+      ],
+      "correct": "4",
+      "solution": "The pattern followed here is:\n\nFirst number - Second number = 56\n\nOption 1 → 98 - 42 = 56\n\nOption 2 → 125 - 69 = 56\n\nOption 3 → 68 - 12 = 56\n\n**Option 4 → 119 - 64 = 55**\n\nAll follow the same pattern except \"119, 64\".\n\nHence, **\"119, 64\" **is the odd pair.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5c2c89c2fdb8bb3444ee6114",
+      "n": 26,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If 18!10 = 4, 10!4 = 3 and 4!8 = -2, then ﬁnd the value of 16!18.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "-1"
+        },
+        {
+          "label": "3",
+          "text": "-8"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:-\n\n**First number - Second number → Difference of two number ÷ 2 = Result.**\n\nIn 18!10\n\n18 - 10 → 8 ÷ 2 = 4\n\nIn 10!4\n\n10 - 4 → 6 ÷ 2 = 3\n\nIn 4!8\n\n4 - 8 → -4 ÷ 2 = -2\n\nSimilarly,\n\nIn 16!18\n\n16 - 18 → -2 ÷ 2 = -1\n\nHence, the correct answer is **\"-1\".**",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "64ce1ffa3b01c4c002268671",
+      "n": 27,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which letter-cluster will replace the question mark (?) to complete the given series?\n\nWGNY, ZDQV, CATS, FXWP, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "IZMU"
+        },
+        {
+          "label": "2",
+          "text": "IMUZ"
+        },
+        {
+          "label": "3",
+          "text": "IVZM"
+        },
+        {
+          "label": "4",
+          "text": "IUZM"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/d7fd46426f00ba56b91d423458faa673503496b14e50413ec14eae6a6e84c211.png] \n\nThe logic followed here is :-\n\n [IMAGE: https://cdn.repeatermock.com/tb/cc235940c3236ffeb62f136ea6bdde4f23208561dc42975f6872a251a70c924b.png] \n\nHence, the correct answer is** \"IUZM\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d7fd46426f00ba56b91d423458faa673503496b14e50413ec14eae6a6e84c211.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/cc235940c3236ffeb62f136ea6bdde4f23208561dc42975f6872a251a70c924b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "6073452a6348afa0b2af446c",
+      "n": 28,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In the following figure, the square represents apple, the circle represents banana and the triangle represents orange.\n\n [IMAGE: https://cdn.repeatermock.com/tb/df4a653eae9e10bee5cce69178b7caf6e4c547f26c4a44b58a7fde1063a97bbf.png] \n\nWhich number represents both banana and orange?",
+      "options": [
+        {
+          "label": "1",
+          "text": "29"
+        },
+        {
+          "label": "2",
+          "text": "13"
+        },
+        {
+          "label": "3",
+          "text": "14"
+        },
+        {
+          "label": "4",
+          "text": "50"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/e3d43e3fca4690296b480b05c6bfcb36336f65418e2e4fd03b036dcf3e7ee48b.png] \n\nHere the numbers in,\n\nThe circle is banana: 13, **14**, **15**, 21\n\nTriangle is orange: 12, **14**,** 15**, 25\n\nThe required numbers will lie at the intersection of the triangle, and circle.\n\n14 +",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/df4a653eae9e10bee5cce69178b7caf6e4c547f26c4a44b58a7fde1063a97bbf.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e3d43e3fca4690296b480b05c6bfcb36336f65418e2e4fd03b036dcf3e7ee48b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "62c71eb19cb076c30285d6e6",
+      "n": 29,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the figure from among the given options that can replace the question mark (?) in the following series.\n\n [IMAGE: https://cdn.repeatermock.com/tb/6462eb4e816cb380efe91b2cd2de78b4a5906c55176a068eb39960f282210367.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/4d7108940f3e45a4a9fd414ad5464499c406f59a5687f895358610edfb8a4a82.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/0a597349ba5603b1390d4676a71c26ba7e509c58861671c2e4def451f7593ca7.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/eb667bad5bf32f5ef69e5f21e113812ab51c56880b47cf5e27eb0b3341f1dbc1.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/90c50a0daaec7e0fb61e18bfe6b87758998e4c8a08f6a12a67ba8b69fc2d51c2.png]"
+        }
+      ],
+      "correct": "4",
+      "solution": "We observe the small triangle in the corner of each block and we get, \n\n**Small triangle moves to its right in each block and it turns solid in alternate steps:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/0a8fc5dc6455aa81d98f3014fed811136258cdea462f224d0b0db23e0e23f049.png] \n\nNow we observe the **small** box and it's head in each block and we get, \n\nSmall box moves with the small triangle and point towards it in each step:\n\nTherefore we the next step as,\n\n**Small triangle faces upwards and is turns solid and the box and it's head point towards it, **such the final pattern looks like:\n\nthe pattern in the last block is same as the pattern in the first block,\n\nHence **the correct answer is option 4)**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6462eb4e816cb380efe91b2cd2de78b4a5906c55176a068eb39960f282210367.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0a8fc5dc6455aa81d98f3014fed811136258cdea462f224d0b0db23e0e23f049.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "614c1739586e976950c66a2a",
+      "n": 30,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\n\nChisel : Sculptor :: Anvil : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Blacksmith"
+        },
+        {
+          "label": "2",
+          "text": "Butcher"
+        },
+        {
+          "label": "3",
+          "text": "Carpenter"
+        },
+        {
+          "label": "4",
+          "text": "Surgeon"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\nSculptor is uses Chisel for his work.\n\nSimilarly,\n\nBlacksmith is uses Anvil for his work.\n\nHence, **\"Blacksmith\"** is the correct answer. \n\n [IMAGE: https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png] **__Important Points__**\n\n \n• Anvil, iron block on which metal is placed to be shaped, originally by hand with a hammer. The blacksmith's anvil is usually of wrought iron, but sometimes of cast iron, with a smooth working surface of hardened steel. A projecting conical beak, or horn, at one end is used for hammering curved pieces of metal.\n \n• Profession blacksmith. Blacksmiths heat metal, usually steel, in a forge and shape it with a hammer, chisel, and an anvil. Contemporarily, they predominantly create artisanal metal products, including ornamental work, as well as horse shoes, one of the sole metal fabricating processes that has not been industrialized.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    }
+  ]
+}

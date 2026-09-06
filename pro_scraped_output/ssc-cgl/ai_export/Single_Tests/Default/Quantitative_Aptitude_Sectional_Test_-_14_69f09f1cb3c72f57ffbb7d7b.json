@@ -1,0 +1,1134 @@
+{
+  "test_id": "69f09f1cb3c72f57ffbb7d7b",
+  "title": "Quantitative Aptitude Sectional Test - 14",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:07:20.420615+00:00",
+  "questions": [
+    {
+      "qid": "649e8ba98ed333e6426c426e",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A saves 18% of his income. If his income increases by 41% and still saves the same amount, Find the percentage Increase In his expenditure.",
+      "options": [
+        {
+          "label": "1",
+          "text": "60%"
+        },
+        {
+          "label": "2",
+          "text": "35%"
+        },
+        {
+          "label": "3",
+          "text": "50%"
+        },
+        {
+          "label": "4",
+          "text": "40%"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet initial Income = 100. Then Savings = 18 and Expenditure = 82.\n\nIncome increases by 41% (100 → 141). The savings amount remains the same (18).\n\nSince Income = Expenditure + Savings, the entire increase in income must go to expenditure if savings is constant.\n\nIncrease in Expenditure = Income Increase = 41.\n\n% Increase in Expenditure = (Increase ÷ Original Expenditure) × 100 = (41 ÷ 82) × 100 = 50%.\n\n**∴ The correct answer is 50%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInitial Savings = 18% of Income\n\nIncome Increase = 41%\n\nFinal Savings = Initial Savings (Amount)\n\n**Formula:**\n\nIncome = Expenditure + Savings\n\nPercentage Increase = (Change ÷ Original Value) × 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/4e310adb63269585c7833c4d76c625c5e0c0415b1d0d08a3999191eac7cccb1c.png] \n\n⇒ Let original income = 100\n\n⇒ Original Savings = 18\n\n⇒ Original Expenditure = 100 − 18 = 82\n\n⇒ New Income = 100 + 41% of 100 = 141\n\n⇒ New Savings = 18 (amount remains constant)\n\n⇒ New Expenditure = 141 − 18 = 123\n\n⇒ Increase in Expenditure = 123 − 82 = 41\n\n⇒ Percentage Increase = (41 ÷ 82) × 100\n\n⇒ Percentage Increase = 1/2 × 100 = 50%\n\n**∴ The correct answer is 50%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nIncome-Expenditure Components\n\nIncome is the sum of Expenditure and Savings. A change in any one component must be balanced by the others to satisfy the equation: ΔIncome = ΔExpenditure + ΔSavings.\n\nPercentage Change Formula\n\nTo find the percentage increase or decrease, always use the initial value as the base: % Change = [(New Value − Old Value) ÷ Old Value] × 100.\n\nEffect of Constant Component\n\nIf savings remains constant (ΔSavings = 0), then the absolute increase in income is exactly equal to the absolute increase in expenditure.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4e310adb63269585c7833c4d76c625c5e0c0415b1d0d08a3999191eac7cccb1c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "63b3c187025ee6f50db6b339",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If (5x + 3y)³ + (5x - 3y)³ = 10 (Cx³ + Dxy²), then find the value of 2√C - D.",
+      "options": [
+        {
+          "label": "1",
+          "text": "-19"
+        },
+        {
+          "label": "2",
+          "text": "-17"
+        },
+        {
+          "label": "3",
+          "text": "17"
+        },
+        {
+          "label": "4",
+          "text": "23"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nUsing identity: (a + b)³ + (a − b)³ = 2a(a² + 3b²)\n\nSubstitute a = 5x and b = 3y: 2(5x)((5x)² + 3(3y)²)\n\n= 10x(25x² + 27y²) = 250x³ + 270xy²\n\nComparing with 10(Cx³ + Dxy²) ⇒ C = 25, D = 27\n\n2√C − D = 2√25 − 27 = 10 − 27 = −17\n\n**∴ The correct answer is −17.**\n\n**__Alternate Method__**\n\n**Given:** (5x + 3y)³ + (5x − 3y)³ = 10(Cx³ + Dxy²)\n\n**Formula Used:** (A + B)³ + (A − B)³ = 2A³ + 6AB²\n\n⇒ Let A = 5x and B = 3y\n\n⇒ LHS = 2(5x)³ + 6(5x)(3y)²\n\n⇒ LHS = 2(125x³) + 30x(9y²)\n\n⇒ LHS = 250x³ + 270xy²\n\n⇒ 10(Cx³ + Dxy²) = 250x³ + 270xy²\n\n⇒ Cx³ + Dxy² = 25x³ + 27xy²\n\n⇒ C = 25 and D = 27\n\n⇒ Required value = 2√C − D\n\n⇒ 2√25 − 27 = 2 × 5 − 27\n\n⇒ 10 − 27 = −17\n\n**∴ The correct answer is −17.**\n\n**__Additional Information__**\n\nDifference of Cubes Expansion\n\n(a + b)³ − (a − b)³ = 2b³ + 6a²b = 2b(b² + 3a²)\n\nSum and Difference of Two Cubes\n\na³ + b³ = (a + b)(a² − ab + b²) and a³ − b³ = (a − b)(a² + ab + b²)\n\nStandard Algebraic Identity\n\n(a + b)³ = a³ + b³ + 3ab(a + b) and (a − b)³ = a³ − b³ − 3ab(a − b)</p",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "65a680d6a176008f31a33271",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Probability",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Sudarsan and Abraham appear for an interview for two vacancies. The probability of Sudarsan's selection is (1)/(3)and that of Abraham's selection is (1)/(5). Find the probability that none of them be selected.",
+      "options": [
+        {
+          "label": "1",
+          "text": "(8)/(15)"
+        },
+        {
+          "label": "2",
+          "text": "(14)/(15)"
+        },
+        {
+          "label": "3",
+          "text": "(1)/(15)"
+        },
+        {
+          "label": "4",
+          "text": "(22)/(15)"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nProbability of Sudarsan not being selected = 1 − 1/3 = 2/3\n\nProbability of Abraham not being selected = 1 − 1/5 = 4/5\n\nSince the events are independent, the required probability is the product of individual non-selection probabilities.\n\nRequired Probability = 2/3 × 4/5 = 8/15\n\n**∴ The correct answer is 8/15.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nProbability of Sudarsan's selection P(S) = 1/3\n\nProbability of Abraham's selection P(A) = 1/5\n\n**Formula Used:**\n\nFor independent events A and B, P(none selected) = P(A') × P(B'), where P(X') = 1 − P(X).\n\n [IMAGE: https://cdn.repeatermock.com/tb/2d0bd6f5f00275190d4df4c81c821ebfd19f2794c9684bbcfd3255eb6b511f9a.png] \n\nCalculations:\n\n⇒ Probability that Sudarsan is not selected P(S') = 1 − 1/3 = 2/3\n\n⇒ Probability that Abraham is not selected P(A') = 1 − 1/5 = 4/5\n\n⇒ Probability (None selected) = P(S') × P(A')\n\n⇒ Required Probability = (2/3) × (4/5)\n\n⇒ Required Probability = (2 × 4) / (3 × 5) = 8/15\n\n**∴ The correct answer is 8/15.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nIndependent Events\n\nTwo events are independent if the occurrence of one does not affect the occurrence of the other. For such events, P(A and B) = P(A) × P(B).\n\nComplementary Events\n\nThe probability of an event not occurring is 1 minus the probability of the event occurring: P(A') = 1 − P(A).\n\nAt Least One Selected\n\nThe probability that at least one of them is selected is given by 1 − P(None selected). In this case, 1 − 8/15 = 7/15.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2d0bd6f5f00275190d4df4c81c821ebfd19f2794c9684bbcfd3255eb6b511f9a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Probability"
+      ]
+    },
+    {
+      "qid": "626d494b627385f1f25f6c04",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the radii of two circular ends of a bucket are 15 cm and 7 cm and the curved surface area of the bucket is 374π cm². Find the volume of the bucket.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1895π"
+        },
+        {
+          "label": "2",
+          "text": "6788π"
+        },
+        {
+          "label": "3",
+          "text": "1564π"
+        },
+        {
+          "label": "4",
+          "text": "1687π"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSlant height l = CSA ÷ [π × (R + r)] = 374π ÷ (22π) = 17 cm.\n\nHeight h = √(l² − (R − r)²) = √(17² − 8²) = √(289 − 64) = 15 cm.\n\nVolume = (π × h ÷ 3) × (R² + r² + R × r) = 5π × (225 + 49 + 105).\n\nVolume = 5π × 379 = 1895π cm³.\n\n**∴ The correct answer is 1895π cm³.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRadius of larger end (R) = 15 cm\n\nRadius of smaller end (r) = 7 cm\n\nCurved Surface Area (CSA) = 374π cm²\n\n**Formula Used:**\n\nCSA of frustum = π(R + r)l\n\nSlant height l² = h² + (R − r)²\n\nVolume V = (1/3)πh(R² + r² + Rr)\n\n [IMAGE: https://cdn.repeatermock.com/tb/17586ab16c4c28e21927360e31d401ab86dd5db975054527063a9658aa9849ba.png] \n\n**Calculations:**\n\n⇒ CSA = π(R + r)l\n\n⇒ 374π = π(15 + 7) × l\n\n⇒ 374 = 22 × l\n\n⇒ l = 374 ÷ 22 = 17 cm\n\n⇒ l² = h² + (R − r)²\n\n⇒ 17² = h² + (15 − 7)²\n\n⇒ 289 = h² + 8²\n\n⇒ 289 = h² + 64\n\n⇒ h² = 225\n\n⇒ h = 15 cm\n\n⇒ Volume = (1 ÷ 3) × π × 15 × (15² + 7² + 15 × 7)\n\n⇒ Volume = 5π × (225 + 49 + 105)\n\n⇒ Volume = 5π × 379\n\n⇒ Volume = 1895π cm³\n\n**∴ The correct answer is 1895π cm³.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTotal Surface Area of Frustum\n\nThe total surface area includes the curved area and the area of both circular bases: TSA = πl(R + r) + πR² + πr².\n\nSlant Height Relation\n\nThe slant height l of a frustum is the hypotenuse of a right triangle with legs h and (R − r), given by l = √[h² + (R − r)²].\n\nVolume of a Cone\n\nThe volume of a full cone is a special case of a frustum where r = 0, expressed as V = (1/3)πR²h.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/17586ab16c4c28e21927360e31d401ab86dd5db975054527063a9658aa9849ba.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "637091d819da7b34fb1e3170",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Elementary Statistics",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The mean of the data 9, 3, 5, 4, 4, 5 and y is y. What is the mode of the data?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "9"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nSum of the 6 given numbers = 9 + 3 + 5 + 4 + 4 + 5 = 30.\n\nSince the mean of 7 numbers is y, the total sum must be 7 × y.\n\nEquation: 30 + y = 7y ⇒ 6y = 30 ⇒ y = 5.\n\nThe numbers are 9, 3, 5, 4, 4, 5, and 5.\n\nFrequency of 5 is 3 (highest), while frequency of 4 is 2.\n\n**∴ The correct answer is 5.**\n\n**__Alternate Method__**\n\nGiven observations: 9, 3, 5, 4, 4, 5 and y.\n\nNumber of observations (n) = 7\n\nMean = y\n\n [IMAGE: https://cdn.repeatermock.com/tb/8e5977e90f097d3cabe0b69999e6c64439dbeac79a2bad32bc0c5009f335eaca.png] \n\nFormula used: Mean = (Sum of observations) ÷ (Number of observations)\n\n⇒ y = (9 + 3 + 5 + 4 + 4 + 5 + y) ÷ 7\n\n⇒ 7 × y = 30 + y\n\n⇒ 7y − y = 30\n\n⇒ 6y = 30\n\n⇒ y = 5\n\nThe data set is: {9, 3, 5, 4, 4, 5, 5}\n\nNow, let's find the frequency of each number:\n\n⇒ 3 occurs 1 time\n\n⇒ 4 occurs 2 times\n\n⇒ 5 occurs 3 times\n\n⇒ 9 occurs 1 time\n\nSince 5 occurs most frequently, the mode is 5.\n\n**∴ The correct answer is 5.**\n\n**__Additional Information__**\n\nMean (Arithmetic Average)\n\nThe mean is calculated by summing all values in a data set and dividing by the count of values: Mean = Σxᵢ ÷ n.\n\nMode\n\nThe mode is the value that appears most frequently in a data set. A data set can be unimodal, bimodal, or multimodal.\n\nEmpirical Relationship\n\nFor a moderately skewed distribution, the relationship between measures of central tendency is: Mode = 3 × Median − 2 × Mean.\n\nMedian\n\nThe median is the middle value when the data is arranged in ascending or descending order. For odd n, it is the ((n+1)/2)th term.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/8e5977e90f097d3cabe0b69999e6c64439dbeac79a2bad32bc0c5009f335eaca.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Elementary Statistics"
+      ]
+    },
+    {
+      "qid": "657602ee6ed285d1a94d5eac",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sum of Rs. 66,550 is taken on loan. This is to be paid back in two equal instalments. If the rate of interest is 20% compounded annually, find the value of each instalment.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 42,560"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 44,550"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 40,550"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 43,560"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nRate = 20% = 1/5 → (Principal : Amount) = 5 : 6\n\nFor 2 years, equate instalments: (5 × 6 : 6 × 6) and (5² : 6²)\n\nYear 1: 30 : 36 | Year 2: 25 : 36\n\nTotal Principal = 30 + 25 = 55 units\n\n55 units = ₹66,550 ⇒ 1 unit = ₹1,210\n\nEach instalment = 36 units = 36 × 1,210 = ₹43,560\n\n**∴ The correct answer is ₹43,560.**\n\n**__Alternate Method__**\n\n**Given:**\n\nPrincipal (P) = ₹66,550\n\nRate of Interest (R) = 20% p.a.\n\nNumber of instalments (n) = 2\n\n**Formula Used:**\n\nP = x / (1 + R/100)¹ + x / (1 + R/100)² where x = instalment value.\n\n [IMAGE: https://cdn.repeatermock.com/tb/57ba5e7eb3112399b3bbf256041c2fd4fe3c7af2a9e386bc19427f202c190943.png] \n\nCalculation:\n\n⇒ 66,550 = x / (1 + 20/100) + x / (1 + 20/100)²\n\n⇒ 66,550 = x / 1.2 + x / 1.44\n\n⇒ 66,550 = (1.2x + x) / 1.44\n\n⇒ 66,550 = 2.2x / 1.44\n\n⇒ x = (66,550 × 1.44) / 2.2\n\n⇒ x = 30,250 × 1.44\n\n⇒ x = 43,560\n\n**∴ The correct answer is ₹43,560.**\n\n**__Additional Information__**\n\nCompound Interest Instalment Formula\n\nFor n years, Principal P = x [1/k + 1/k² + ... + 1/kⁿ], where k = (1 + R/100) and x is the annual instalment.\n\nSimple Interest Instalment\n\nIn SI, the instalment x = (100 × A) / [100n + RTn(n−1)/2], where A is the total debt amount to be paid.\n\nEffective Rate of Interest\n\nFor CI, the effective rate for 2 years is R + R + (R × R)/100. For 20%, it is 20 + 20 + 4 = 44%.\n\na4:Te47,\n<",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/57ba5e7eb3112399b3bbf256041c2fd4fe3c7af2a9e386bc19427f202c190943.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "6287ae3da9e2813466804081",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The cost price of the article is ₹1000. What should be the marked price of the article, if the shopkeeper wants to earn 80% profit after giving a discount of 14(2)/(7)%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹2400"
+        },
+        {
+          "label": "2",
+          "text": "₹1400"
+        },
+        {
+          "label": "3",
+          "text": "₹2800"
+        },
+        {
+          "label": "4",
+          "text": "₹2100"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nProfit = 80% = 4/5 ⇒ CP : SP = 5 : 9 = 10 : 18\n\nDiscount = 14 2/7% = 1/7 ⇒ MP : SP = 7 : 6 = 21 : 18\n\nCombined Ratio ⇒ CP : SP : MP = 10 : 18 : 21\n\n10 units = ₹1000 ⇒ 1 unit = ₹100\n\nMarked Price (MP) = 21 units = 21 × 100 = ₹2100\n\n**∴ The correct answer is ₹2100.**\n\n**__Alternate Method__**\n\n**Given:**\n\nCost Price (CP) = ₹1000\n\nProfit = 80%\n\nDiscount = 14 2/7% = 100/7%\n\n**Formula Used:**\n\nSelling Price (SP) = CP × (100 + Profit%) ÷ 100\n\nSelling Price (SP) = MP × (1 − Discount Fraction)\n\n \n \n \n\n \n \n \n\n \n \n \n CP = 1000\n \n SP = 1800\n \n MP = ?\n \n\n Profit = +80%\n \n\n Discount = 1/7\n MP × (1 − 1/7) = SP\n MP × (6/7) = 1800 → MP = 2100\n\n**Calculation:**\n\n⇒ SP = 1000 × (100 + 80) ÷ 100\n\n⇒ SP = 1000 × 180 ÷ 100 = ₹1800\n\n⇒ Discount Fraction = 14 2/7% = 1/7\n\n⇒ MP × (1 − 1/7) = 1800\n\n⇒ MP × 6/7 = 1800\n\n⇒ MP = 1800 × 7 ÷ 6\n\n⇒ MP = 300 × 7 = ₹2100\n\n**∴ The correct answer is ₹2100.**\n\n**__Additional Information__**\n\nMarked Price (MP)\n\nThe price written on the label of the article. Discount is always provided on the Marked Price.\n\nDirect Relation Between CP and MP\n\nCP ÷ MP = (100 − Discount%) ÷ (100 + Profit%)\n\nSuccessive Discounts\n\nFor two successive discounts of a% and b%, the effective single discount is given by: [a + b − (a × b) ÷ 100]%.\n\n4c:T1507,\n\n<",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "675807597f2e7b2c639ff067",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The simple interest on a certain sum of money at the rate of 5% per annum for 9 years is ₹1,260. At what rate of interest can the same amount of interest be received on the same sum after 6 years?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8.0%"
+        },
+        {
+          "label": "2",
+          "text": "7.5%"
+        },
+        {
+          "label": "3",
+          "text": "8.5%"
+        },
+        {
+          "label": "4",
+          "text": "6.5%"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSince the Principal (P) and Simple Interest (I) are the same in both cases, the product of Rate (R) and Time (T) must be constant.\n\n⇒ R₁ × T₁ = R₂ × T₂\n\n⇒ 5 × 9 = R₂ × 6\n\n⇒ 45 = 6 × R₂\n\n⇒ R₂ = 45 ÷ 6 = 7.5%\n\n**∴ The correct answer is 7.5%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCase 1: Interest (I) = ₹1,260, Rate (R₁) = 5%, Time (T₁) = 9 years\n\nCase 2: Interest (I) = ₹1,260, Time (T₂) = 6 years, Principal (P) is same as Case 1.\n\n**Formula Used:**\n\nSimple Interest (I) = (P × R × T) ÷ 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/1826f837d231d363c165f0e5b9634a802d6cc432d8c5903420b89cfbc58d6889.png] \n\n**Calculations:**\n\n⇒ 1,260 = (P × 5 × 9) ÷ 100\n\n⇒ 1,260 = (P × 45) ÷ 100\n\n⇒ P = (1,260 × 100) ÷ 45\n\n⇒ P = 28 × 100 = ₹2,800\n\nNow, using this Principal for the second case:\n\n⇒ 1,260 = (2,800 × R₂ × 6) ÷ 100\n\n⇒ 1,260 = 28 × R₂ × 6\n\n⇒ 1,260 = 168 × R₂\n\n⇒ R₂ = 1,260 ÷ 168\n\n⇒ R₂ = 7.5%\n\n**∴ The correct answer is 7.5%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Interest Property\n\nIf the simple interest and principal remain constant, the rate of interest is inversely proportional to the time period (R ∝ 1/T).\n\nTotal Amount in SI\n\nThe total amount (A) is the sum of Principal and Interest: A = P + (P × R × T)/100 = P(1 + RT/100).\n\nSI vs CI Difference\n\nSimple interest is calculated only on the principal, whereas compound interest is calculated on the principal plus the accumulated interest of previous periods.\n\nba:T",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1826f837d231d363c165f0e5b9634a802d6cc432d8c5903420b89cfbc58d6889.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "62dbcb21a82314798991d158",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of circumradius and inradius of an equilateral triangle will be-",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 ∶ 2"
+        },
+        {
+          "label": "2",
+          "text": "3 ∶ 1"
+        },
+        {
+          "label": "3",
+          "text": "2 ∶ 1"
+        },
+        {
+          "label": "4",
+          "text": "1 ∶ 3"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIn an equilateral triangle, the height (median) is divided by the centroid in the ratio 2 : 1.\n\nThe circumradius (R) corresponds to the 2 parts and the inradius (r) corresponds to the 1 part.\n\nTherefore, R : r = 2 : 1.\n\n**∴ The correct answer is 2 : 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** Let the side of the equilateral triangle be a.\n\n**Formula Used:**\n\nCircumradius (R) = a / √3\n\nInradius (r) = a / (2 × √3)\n\n [IMAGE: https://cdn.repeatermock.com/tb/71d8921e571073251a4d3ee3424a8ce6899857e928332ec7b6f96ed20ab49f1d.png] \n\n**Calculations:**\n\n⇒ Ratio = Circumradius (R) : Inradius (r)\n\n⇒ Ratio = (a / √3) : (a / (2 × √3))\n\n⇒ Multiplying both sides by √3 / a:\n\n⇒ Ratio = 1 : (1 / 2)\n\n⇒ Ratio = 2 : 1\n\n**∴ The correct answer is 2 : 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nArea and Height\n\nArea of equilateral triangle = (√3 / 4) × a² and Height (h) = (√3 / 2) × a.\n\nRelation with Height\n\nIn an equilateral triangle, R = 2h / 3 and r = h / 3. Sum of radii R + r = height (h).\n\nCenters Coincidence\n\nFor equilateral triangles, the Incenter, Circumcenter, Orthocenter, and Centroid all lie at the same point.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/71d8921e571073251a4d3ee3424a8ce6899857e928332ec7b6f96ed20ab49f1d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "644bc4cd87184159601ee675",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The cost price of an article is increased by 20% and then, two successive discounts of 7.5% each are allowed. The selling price of the article is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2.675% less than the CP"
+        },
+        {
+          "label": "2",
+          "text": "2.675% more than the CP"
+        },
+        {
+          "label": "3",
+          "text": "3.325% less than the CP"
+        },
+        {
+          "label": "4",
+          "text": "3.325% more than the CP"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUse effective multiplying factor: Let CP = 100.\n\nMarked Price (MP) = 100 × 1.20 = 120.\n\nSelling Price (SP) = 120 × (1 − 0.075) × (1 − 0.075)\n\n⇒ SP = 120 × 0.925 × 0.925 = 111 × 0.925 = 102.675\n\nNet change = 102.675 − 100 = 2.675% (positive, so more).\n\n**∴ The correct answer is 2.675% more than the CP.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nMarkup Percentage = 20%\n\nSuccessive Discounts = 7.5% and 7.5%\n\n**Formula Used:**\n\nFinal Value = Initial Value × (1 + Markup/100) × (1 − d₁/100) × (1 − d₂/100)\n\n [IMAGE: https://cdn.repeatermock.com/tb/88fa01e784af37b1d1aa53f77bdd3a6b115c725ac39505778a79f75b25fc15eb.png] \n\nLet CP = 100 units\n\n⇒ MP = 100 + 20% of 100 = 120 units\n\n⇒ Price after 1st discount = 120 − (7.5% of 120)\n\n⇒ Price after 1st discount = 120 − 9 = 111 units\n\n⇒ SP (Price after 2ⁿd discount) = 111 − (7.5% of 111)\n\n⇒ SP = 111 − 8.325 = 102.675 units\n\n⇒ Difference between SP and CP = 102.675 − 100 = 2.675 units\n\n⇒ Percentage difference = (2.675 ÷ 100) × 100 = 2.675%\n\nSince the value is positive, SP is 2.675% more than CP.\n\n**∴ The correct answer is 2.675% more than the CP.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSuccessive Percentage Formula\n\nThe net percentage change for two successive changes of x% and y% is given by [x + y + (xy/100)]%.\n\nNet Discount Formula\n\nFor two successive discounts of d₁% and d₂%, the single equivalent discount is [d₁ + d₂ − (d₁ × d₂/100)]%.\n\nMarked Price and Profit\n\nRelation between CP and MP: MP/CP = (100 + Profit%)/(100 − Discount%). This helps find CP or MP directly if profit is given.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/88fa01e784af37b1d1aa53f77bdd3a6b115c725ac39505778a79f75b25fc15eb.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "639ebcaec965edc7aac2640b",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A lamp post has half of its length in mud, (1)/(3)rd of its length in water and the remaining of 3(1)/(3) m above the water. find the whole length of the post.",
+      "options": [
+        {
+          "label": "1",
+          "text": "40"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nLet the total length of the lamp post be LCM(2, 3) = 6 units.\n\nLength in mud = 1/2 × 6 = 3 units.\n\nLength in water = 1/3 × 6 = 2 units.\n\nRemaining length above water = 6 − (3 + 2) = 1 unit.\n\nGiven, 1 unit = 3 1/3 m = 10/3 m.\n\nTotal length = 6 units = 6 × (10/3) = 20 m.\n\n**∴ The correct answer is 20 m.**\n\n**__Alternate Method__**\n\n**Given:**\n\nPortion in mud = 1/2\n\nPortion in water = 1/3\n\nPortion above water = 3 1/3 m = 10/3 m\n\n [IMAGE: https://cdn.repeatermock.com/tb/bd837046173092d4a2ba30a5ce3f0fde8ef7a7f41f501fcac5b226cfbf5fb74d.png] \n\nLet the total length of the lamp post be L.\n\n⇒ Portion below water level = 1/2 + 1/3\n\n⇒ Portion below water level = (3 + 2) / 6 = 5/6\n\n⇒ Portion above water level = 1 − 5/6 = 1/6\n\n⇒ 1/6 × L = 10/3 m\n\n⇒ L = (10/3) × 6\n\n⇒ L = 10 × 2\n\n⇒ L = 20 m\n\n**∴ The correct answer is 20 m.**\n\n**__Additional Information__**\n\nFractional Parts Rule\n\nThe sum of all fractional parts of a whole must always equal 1. If parts are a/b and c/d, the remaining part is 1 − (a/b + c/d).\n\nLCM Method for Fractions\n\nTo avoid complex calculations with fractions, assume the total quantity to be the Least Common Multiple (LCM) of the denominators involved.\n\nUnitary Method Application\n\nIf a specific fraction represents a known value (e.g., 1/6 = 10/3), the whole value (1 unit) is calculated by multiplying the known value by the reciprocal of that fraction.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd837046173092d4a2ba30a5ce3f0fde8ef7a7f41f501fcac5b226cfbf5fb74d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6251c527bfca3062e8452224",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A man completes a journey in 12 h. He travels the first half of the journey at a speed of 21 km/h and the second half at a speed of 24 km/h. Find the total distance of the journey (in km).",
+      "options": [
+        {
+          "label": "1",
+          "text": "264"
+        },
+        {
+          "label": "2",
+          "text": "260"
+        },
+        {
+          "label": "3",
+          "text": "168.8"
+        },
+        {
+          "label": "4",
+          "text": "268.8"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAverage speed for two equal halves of a journey = (2 × S₁ × S₂) ÷ (S₁ + S₂)\n\nAverage speed = (2 × 21 × 24) ÷ (21 + 24) = 1008 ÷ 45 = 22.4 km/h\n\nTotal Distance = Average Speed × Total Time\n\nTotal Distance = 22.4 × 12 = 268.8 km\n\n**∴ The correct answer is 268.8 km.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSpeed for first half (S₁) = 21 km/h\n\nSpeed for second half (S₂) = 24 km/h\n\nTotal time (T) = 12 hours\n\n**Formula Used:**\n\nTime = Distance ÷ Speed\n\n [IMAGE: https://cdn.repeatermock.com/tb/edacaefe90deff5bceebe8f793d2412702537f6945bada6f16a8334776343fde.png] \n\nLet the total distance be D km.\n\n⇒ Time for first half = (D ÷ 2) ÷ 21 = D ÷ 42 hours\n\n⇒ Time for second half = (D ÷ 2) ÷ 24 = D ÷ 48 hours\n\n⇒ Total Time = D ÷ 42 + D ÷ 48 = 12\n\n⇒ (8D + 7D) ÷ 336 = 12 [LCM of 42 and 48 is 336]\n\n⇒ 15D ÷ 336 = 12\n\n⇒ 15D = 12 × 336\n\n⇒ 15D = 4032\n\n⇒ D = 4032 ÷ 15\n\n⇒ D = 268.8 km\n\n**∴ The correct answer is 268.8 km.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAverage Speed\n\nIt is the total distance traveled divided by the total time taken. Average Speed = Total Distance ÷ Total Time.\n\nConversion of Units\n\nTo convert km/h to m/s, multiply by 5/18. To convert m/s to km/h, multiply by 18/5.\n\nProportionality Rule\n\nIf distance is constant, speed is inversely proportional to time (S ∝ 1/T). If time is constant, distance is directly proportional to speed (D ∝ S).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/edacaefe90deff5bceebe8f793d2412702537f6945bada6f16a8334776343fde.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "66a2d09f98ef5dee7242c270",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Rohan can alone finish a work in 12 days and Hari can alone in 16 days. They both work for 3 days and then Rohan left. After that only Hari works and finishes the work. The total work will be completed in:",
+      "options": [
+        {
+          "label": "1",
+          "text": "9 days"
+        },
+        {
+          "label": "2",
+          "text": "12(1)/(3) days"
+        },
+        {
+          "label": "3",
+          "text": "12 days"
+        },
+        {
+          "label": "4",
+          "text": "12(2)/(3) days"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nLet T be the total duration of the work (time Hari worked).\n\nFractional work equation: (Rohan time ÷ Rohan total) + (Hari time ÷ Hari total) = 1.\n\n(3 ÷ 12) + (T ÷ 16) = 1\n\n1/4 + T/16 = 1 ⇒ T/16 = 3/4.\n\nT = (3 × 16) ÷ 4 = 12 days.\n\n**∴ The correct answer is 12 days.**\n\n**__Alternate Method__**\n\nGiven: Rohan alone = 12 days, Hari alone = 16 days. They work together for 3 days.\n\nFormula: Efficiency = Total Work ÷ Time taken.\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n Rohan\n 12\n 48\n 4\n \n \n\n Hari\n 16\n 3\n \n \n\n⇒ Total Work = LCM of 12 and 16 = 48 units.\n\n⇒ Combined efficiency of Rohan and Hari = 4 + 3 = 7 units/day.\n\n⇒ Work done in 3 days = 7 × 3 = 21 units.\n\n⇒ Remaining work = 48 − 21 = 27 units.\n\n⇒ Time taken by Hari alone to finish remaining work = 27 ÷ 3 = 9 days.\n\n⇒ Total time to complete work = Initial 3 days + Hari's 9 days = 12 days.\n\n**∴ The correct answer is 12 days.**\n\n**__Additional Information__**\n\nWork and Efficiency Relationship\n\nEfficiency is inversely proportional to time. If a person is twice as efficient as another, they take half the time to complete the same work.\n\nWork and Wages\n\nWages are always distributed according to the ratio of the actual work done by each individual (Efficiency × Time).\n\nPipes and Cisterns\n\nThis follows the same logic as Time and Work, where an outlet pipe (leak) has negative efficiency and reduces the total work done.</p",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "64a53e0ddb7d5e39855fa208",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The radius of a hemisphere is 5 cm. Find the volume.",
+      "options": [
+        {
+          "label": "1",
+          "text": "330.4 cm³"
+        },
+        {
+          "label": "2",
+          "text": "117.9 cm3"
+        },
+        {
+          "label": "3",
+          "text": "150.6 cm3"
+        },
+        {
+          "label": "4",
+          "text": "261.9 cm3"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nVolume of a hemisphere = (2/3) × π × r³\n\nGiven: r = 5 cm\n\nVolume = (2/3) × (22/7) × 5 × 5 × 5\n\nVolume = (2 × 22 × 125) ÷ 21 ≈ 261.9 cm³\n\n**∴ The correct answer is 261.9 cm³.**\n\n**__Alternate Method__**\n\n**Given:**\n\nRadius of the hemisphere (r) = 5 cm\n\n**Formula Used:**\n\nVolume of Hemisphere (V) = (2/3) × πr³\n\n [IMAGE: https://cdn.repeatermock.com/tb/72817f2f2c94fe01c064d543a2cb7d59b3ba4554bb4a97f60ce1d69f7eeed994.png] \n\n**Calculations:**\n\n⇒ Volume = (2/3) × (22/7) × (5)³\n\n⇒ Volume = (2/3) × (22/7) × 125\n\n⇒ Volume = (44 × 125) ÷ 21\n\n⇒ Volume = 5500 ÷ 21\n\n⇒ Volume ≈ 261.9047 cm³\n\n**∴ The correct answer is 261.9 cm³.**\n\n**__Additional Information__**\n\nCurved Surface Area (CSA) of Hemisphere\n\nThe surface area of the curved part is 2πr².\n\nTotal Surface Area (TSA) of Hemisphere\n\nIncludes the base circle area: TSA = 2πr² + πr² = 3πr².\n\nVolume of a Full Sphere\n\nThe volume of a complete sphere is exactly double that of a hemisphere: V = (4/3)πr³.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/72817f2f2c94fe01c064d543a2cb7d59b3ba4554bb4a97f60ce1d69f7eeed994.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "631192ba4c5fa281a17f120a",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "(1)/(7) of a number equal to (2)/(5) of another number. What is the ratio of the first number to the second number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 ∶ 28"
+        },
+        {
+          "label": "2",
+          "text": "5 ∶ 21"
+        },
+        {
+          "label": "3",
+          "text": "14 ∶ 5"
+        },
+        {
+          "label": "4",
+          "text": "5 ∶ 14"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nLet the first number be A and the second number be B.\n\nGiven: (1/7) × A = (2/5) × B\n\nDirect ratio A : B = (Numerator of B × Denominator of A) : (Denominator of B × Numerator of A)\n\nA : B = (2 × 7) : (5 × 1) = 14 : 5\n\n**∴ The correct answer is 14 : 5.**\n\n**__Alternate Method__**\n\n**Given:**\n\nFirst number (let it be x) × 1/7 = Second number (let it be y) × 2/5\n\n [IMAGE: https://cdn.repeatermock.com/tb/3bf33a6eb0edd3360ebb330564aaed455dfe270180a50fe20ee59f6275a09462.png] \n\n**Calculations:**\n\n⇒ (1/7) × x = (2/5) × y\n\n⇒ x/7 = 2y/5\n\nBy cross-multiplying the denominators:\n\n⇒ 5 × x = 7 × 2y\n\n⇒ 5x = 14y\n\n⇒ x / y = 14 / 5\n\n⇒ x : y = 14 : 5\n\n**∴ The correct answer is 14 : 5.**\n\n**__Additional Information__**\n\nRatio and Proportion\n\nIf a × A = b × B, then the ratio A : B is equal to b : a. This is known as the inverse coefficient rule.\n\nCompound Ratio\n\nThe compound ratio of (a : b) and (c : d) is (ac : bd). It is found by multiplying the corresponding terms of the ratios.\n\nCross Multiplication Rule\n\nIn the equation A/B = C/D, the relationship is expressed as A × D = B × C.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3bf33a6eb0edd3360ebb330564aaed455dfe270180a50fe20ee59f6275a09462.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "62ef547cd4f7d54ef3ae347f",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two wires of lengths 10 m 54 cm and 11 m 56 cm are both cut into pieces of length x cm each, where x is an integer. Find the maximum value of x.",
+      "options": [
+        {
+          "label": "1",
+          "text": "42"
+        },
+        {
+          "label": "2",
+          "text": "56"
+        },
+        {
+          "label": "3",
+          "text": "34"
+        },
+        {
+          "label": "4",
+          "text": "28"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nConvert the lengths to cm: 1054 cm and 1156 cm.\n\nTo find the maximum equal piece length x, calculate the HCF of 1054 and 1156.\n\nDifference between the numbers = 1156 − 1054 = 102.\n\nThe HCF must be a factor of the difference (102). Factors of 102 are 102, 51, 34, 17, etc.\n\nBoth numbers are even and not divisible by 102. Checking 34: 1054 ÷ 34 = 31 and 1156 ÷ 34 = 34.\n\n**∴ The correct answer is 34 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/64bb8bf7ab09b121188311efc6e4688c021cf157336e192fe4738192cbff7bfb.png] \n\n**Given:**\n\nLength of first wire = 10 m 54 cm = 1000 cm + 54 cm = 1054 cm\n\nLength of second wire = 11 m 56 cm = 1100 cm + 56 cm = 1156 cm\n\nBoth wires are cut into pieces of length x cm. For x to be maximum, x must be the Highest Common Factor (HCF) of 1054 and 1156.\n\n**Calculations:**\n\nWe will use the prime factorization method to find the HCF.\n\n⇒ 1054 = 2 × 17 × 31\n\n⇒ 1156 = 2 × 2 × 17 × 17\n\nThe common prime factors between the two numbers are 2 and 17.\n\n⇒ HCF = 2 × 17 = 34\n\n⇒ The maximum possible integer value of x is 34.\n\n**∴ The correct answer is 34 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nHCF Application\n\nHCF is used when we need to split things into smaller, perfectly equal sections without leaving any remainder, or when trying to find the maximum possible length, weight, or size.\n\nDifference Method for HCF\n\nThe HCF of two numbers is always either the absolute difference between the numbers or a factor of that difference. This is a powerful shortcut for exam problems.\n\nPrime Factorization Method\n\nExpress each number as a product of prime numbers. The HCF is the product of the lowest powers of all common prime factors shared between the numbers.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/64bb8bf7ab09b121188311efc6e4688c021cf157336e192fe4738192cbff7bfb.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6406041310d1f615cc3b77d1",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Johnson borrows ₹30,000 at 5% compound interest per annum. He wants to pay this amount back by the end of 2 years in two equal yearly installments. How much does he have to pay approximately at the end of each year?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹16,134"
+        },
+        {
+          "label": "2",
+          "text": "₹15,231"
+        },
+        {
+          "label": "3",
+          "text": "₹16,274"
+        },
+        {
+          "label": "4",
+          "text": "₹15,784"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nRate (R) = 5% = 1/20 → Installment Factor = 21/20.\n\nFor 2 installments: Principal (P) = x × [ (20/21) + (20/21)² ]\n\n30,000 = x × [ 20/21 + 400/441 ] = x × [ 820 / 441 ]\n\nx = (30,000 × 441) ÷ 820 ≈ 16,134.14\n\n**∴ The correct answer is ₹16,134.**\n\n**__Alternate Method__**\n\nGiven: Principal (P) = ₹30,000 | Rate (R) = 5% | Time (n) = 2 years | Equal Installments = x\n\nFormula: Principal = [ x ÷ (1 + R/100)¹ ] + [ x ÷ (1 + R/100)² ]\n\n [IMAGE: https://cdn.repeatermock.com/tb/37d9323e378d240eb28b0811c269469fd1e7a087858737269035cf3cc7ae0700.png] \n\n⇒ 30,000 = x ÷ (1.05) + x ÷ (1.05)²\n\n⇒ 30,000 = x × (1 ÷ 1.05 + 1 ÷ 1.1025)\n\n⇒ 30,000 = x × (0.95238 + 0.90703)\n\n⇒ 30,000 = x × 1.85941\n\n⇒ x = 30,000 ÷ 1.85941\n\n⇒ x ≈ 16134.14\n\n**∴ The correct answer is ₹16,134.**\n\n**__Additional Information__**\n\nCI Installment General Formula\n\nFor n installments, Principal P = x ÷ k¹ + x ÷ k² + ... + x ÷ kⁿ, where k = (1 + r/100).\n\nEffective Interest Rate\n\nThe effective compound rate for 2 years is Rₑff = 2R + R²/100. For 5%, Rₑff = 10.25%.\n\nPresent Value Concept\n\nEach installment paid in the future is discounted back to the present day using the compound interest rate to equate it with the initial borrowed principal.\n\n88:T",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/37d9323e378d240eb28b0811c269469fd1e7a087858737269035cf3cc7ae0700.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "64cbf0b03b169c13baf26895",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The value of cosec 30° − cos 60° is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "{1 {} over 2}"
+        },
+        {
+          "label": "3",
+          "text": "{3 over 2}"
+        },
+        {
+          "label": "4",
+          "text": "{2 sqrt{2} - 1 over sqrt{2} }"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDirectly substitute standard trigonometric values from the table.\n\ncosec 30° = 2\n\ncos 60° = 1/2\n\nCalculation: 2 − 1/2 = 3/2\n\n**∴ The correct answer is 3/2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven Expression: cosec 30° − cos 60°\n\nFormula used: Standard values of trigonometric ratios.\n\n [IMAGE: https://cdn.repeatermock.com/tb/735b3eb7bba87cd80fd8ff5b96896d5dd2561ec0619a57d19d1bc545fc9a2032.png] \n\n⇒ cosec 30° = 1 ÷ sin 30°\n\n⇒ Since sin 30° = 1/2, then cosec 30° = 1 ÷ (1/2) = 2\n\n⇒ From the standard table, cos 60° = 1/2\n\n⇒ Substitute these values into the expression:\n\n⇒ 2 − 1/2\n\n⇒ (4 − 1) ÷ 2\n\n⇒ 3/2\n\n**∴ The correct answer is 3/2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nReciprocal Identities\n\nTrigonometric functions have reciprocal pairs: cosec θ = 1/sin θ, sec θ = 1/cos θ, and cot θ = 1/tan θ.\n\nComplementary Angles\n\nFor any angle θ, sin θ = cos(90° − θ). Thus, sin 30° = cos(90° − 30°) = cos 60° = 1/2.\n\nStandard Trigonometric Values\n\nImportant values to remember: sin 0°=0, sin 30°=1/2, sin 45°=1/√2, sin 60°=√3/2, sin 90°=1.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/735b3eb7bba87cd80fd8ff5b96896d5dd2561ec0619a57d19d1bc545fc9a2032.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6228cbd664156539b6e5c013",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "To prove, ΔABC ≅ ΔPRQ, by SAS congruency rule, besides AB = PR and BC = QR, we have to show",
+      "options": [
+        {
+          "label": "1",
+          "text": "∠A = ∠P"
+        },
+        {
+          "label": "2",
+          "text": "∠C = ∠Q"
+        },
+        {
+          "label": "3",
+          "text": "∠B = ∠R"
+        },
+        {
+          "label": "4",
+          "text": "∠A = ∠R"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nIn SAS congruence, the angle must be the included angle between the two sides.\n\nSide pair 1: AB and BC → Common vertex is B → Included angle is ∠B.\n\nSide pair 2: PR and QR → Common vertex is R → Included angle is ∠R.\n\nTo satisfy SAS, the included angles of both triangles must be equal.\n\n**∴ The correct answer is ∠B = ∠R.**\n\n**__Alternate Method__**\n\n**Given:** ΔABC ≅ ΔPRQ, AB = PR, BC = QR\n\n**Formula Used:** SAS (Side-Angle-Side) Congruence Rule states that two triangles are congruent if two sides and the included angle of one triangle are equal to the corresponding sides and the included angle of the other triangle.\n\n [IMAGE: https://cdn.repeatermock.com/tb/87ad54fbcbbddfff9cf9d0d9dc6450e4cfcf8140782110ce2791dd243a312ead.png] \n\n⇒ In ΔABC, the sides given are AB and BC.\n\n⇒ The angle included between AB and BC is ∠ABC, or simply ∠B.\n\n⇒ In ΔPRQ, the sides given are PR and QR.\n\n⇒ The angle included between PR and QR is ∠PRQ, or simply ∠R.\n\n⇒ According to the SAS rule, for ΔABC ≅ ΔPRQ, the included angles must be equal.\n\n⇒ ∴ ∠B = ∠R.\n\n**∴ The correct answer is ∠B = ∠R.**\n\n**__Additional Information__**\n\nSAS (Side-Angle-Side) Congruence\n\nTwo triangles are congruent if two sides and the included angle of one triangle are equal to the corresponding parts of the other triangle.\n\nCPCT Rule\n\nCorresponding Parts of Congruent Triangles are equal. Once congruence is proved, all remaining corresponding sides and angles are equal.\n\nOther Congruence Rules\n\nSSS (Three sides), ASA (Two angles and included side), AAS (Two angles and non-included side), and RHS (Right-angle, Hypotenuse, and Side).\n\nCongruence vs Similarity\n\nCongruent triangles have the same shape and size, while similar triangles have the same shape but may differ in size (ratios of sides are equal).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/87ad54fbcbbddfff9cf9d0d9dc6450e4cfcf8140782110ce2791dd243a312ead.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6315c1537b4593404d07d2a6",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The height of a cone is 30 cm. A small cone is cut off at the top by a plane parallel to its base. If its volume is (1)/(27) of the volume of the given cone, then what is the height of the frustum of the cone ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 cm"
+        },
+        {
+          "label": "2",
+          "text": "12 cm"
+        },
+        {
+          "label": "3",
+          "text": "18 cm"
+        },
+        {
+          "label": "4",
+          "text": "20 cm"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor a cone cut by a plane parallel to its base, the volume ratio of the new upper cone to the original cone is the cube of their height ratio: Volume ratio = (Height ratio)³.\n\nGiven the volume ratio is 1 : 27, taking the cube root gives the height ratio as 1 : 3.\n\nHeight of the small cone = 1/3 of the total height = 30 ÷ 3 = 10 cm.\n\nHeight of the frustum = Total height − Small cone height = 30 − 10 = 20 cm.\n\n**∴ The correct answer is 20 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal height of the given cone (H) = 30 cm\n\nVolume of the small cone (v) = 1 ÷ 27 × Volume of the given cone (V)\n\n**Formula Used:**\n\nWhen a cone is cut by a plane parallel to the base, the small cone formed is similar to the original cone.\n\nRatio of volumes = (Ratio of corresponding heights)³\n\n [IMAGE: https://cdn.repeatermock.com/tb/72e245a0c635b3f184346975dd87b9f7088bbe61d1ee967b0f47165d485565ef.png] \n\n**Calculations:**\n\n⇒ Volume of small cone (v) ÷ Volume of given cone (V) = 1 ÷ 27\n\n⇒ (Height of small cone ÷ Total height)³ = 1 ÷ 27\n\n⇒ (h ÷ 30)³ = (1 ÷ 3)³\n\n⇒ h ÷ 30 = 1 ÷ 3\n\n⇒ h = 30 ÷ 3\n\n⇒ h = 10 cm\n\n⇒ Height of the frustum = Total height − Height of the small cone\n\n⇒ Height of the frustum = 30 − 10 = 20 cm\n\n**∴ The correct answer is 20 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nVolume of a Cone\n\nThe volume of a cone with base radius 'r' and height 'h' is given by: V = (1 ÷ 3) × π × r² × h\n\nVolume of a Frustum\n\nFor a frustum with height 'h' and base radii 'R' and 'r', the volume is: V = (1 ÷ 3) × π × h × (R² + r² + R × r)\n\nSimilarity Property of Cones\n\nWhen a cone is cut by a plane parallel to its base, the upper section forms a cone similar to the original. The ratio of their volumes is the cube of the ratio of their corresponding heights or radii.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/72e245a0c635b3f184346975dd87b9f7088bbe61d1ee967b0f47165d485565ef.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6252c66889ea385e0c52fabf",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If x - y = 4 and x³ - y³ = 316, y > 0, then the value of x² - y² is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "24"
+        },
+        {
+          "label": "2",
+          "text": "32"
+        },
+        {
+          "label": "3",
+          "text": "48"
+        },
+        {
+          "label": "4",
+          "text": "40"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nFind xy using the formula: x³ − y³ = (x − y)[(x − y)² + 3xy]\n\n316 = 4 × [4² + 3xy] ⇒ 79 = 16 + 3xy ⇒ 3xy = 63 ⇒ xy = 21\n\nFind factors of 21 whose difference is 4: 7 × 3 = 21 and 7 − 3 = 4.\n\nTherefore, x = 7 and y = 3. Value of x² − y² = 7² − 3² = 49 − 9 = 40.\n\n**∴ The correct answer is 40.**\n\n**__Alternate Method__**\n\nGiven: x − y = 4 and x³ − y³ = 316.\n\nFormula: x³ − y³ = (x − y)³ + 3xy(x − y)\n\n⇒ 316 = 4³ + 3xy(4)\n\n⇒ 316 = 64 + 12xy\n\n⇒ 12xy = 316 − 64 = 252\n\n⇒ xy = 252 ÷ 12 = 21\n\nNow, calculate (x + y):\n\n⇒ (x + y)² = (x − y)² + 4xy\n\n⇒ (x + y)² = 4² + 4 × 21 = 16 + 84 = 100\n\n⇒ x + y = √100 = 10 (since y > 0 and x − y = 4, x must be positive)\n\nFinally, find x² − y²:\n\n⇒ x² − y² = (x − y)(x + y)\n\n⇒ x² − y² = 4 × 10 = 40\n\n**∴ The correct answer is 40.**\n\n**__Additional Information__**\n\nDifference of Cubes Identity\n\nx³ − y³ = (x − y)(x² + xy + y²). Another form is x³ − y³ = (x − y)³ + 3xy(x − y).\n\nSum and Difference Relation\n\n(x + y)² − (x − y)² = 4xy. This is useful for converting between sum and difference using the product.\n\nDifference of Squares\n\nx² − y² = (x − y)(x + y). This identity is fundamental in simplifying algebraic products.</p",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "63a1dcf53b67dc900e5aaf54",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If x⁽¹⁾/⁽³⁾-y⁽¹⁾/⁽³⁾=z⁽¹⁾/⁽³⁾, x > 0, y > 0 and z > 0 then value of (x - y - z)³ - 27xyz, is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 x⁽¹⁾/⁽³⁾ y⁽¹⁾/⁽³⁾ z⁽¹⁾/⁽³⁾"
+        },
+        {
+          "label": "2",
+          "text": "27(x2y + xy2)"
+        },
+        {
+          "label": "3",
+          "text": "27"
+        },
+        {
+          "label": "4",
+          "text": "0"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIdentify the algebraic identity: If a + b + c = 0, then a³ + b³ + c³ = 3abc.\n\nRewrite the given equation: x¹/³ − y¹/³ − z¹/³ = 0.\n\nLet a = x¹/³, b = −y¹/³, and c = −z¹/³. Thus, a + b + c = 0.\n\nApplying the identity: x − y − z = 3 × x¹/³ × (−y¹/³) × (−z¹/³) = 3(xyz)¹/³.\n\nCubing both sides: (x − y − z)³ = 27xyz.\n\nSubtracting 27xyz: (x − y − z)³ − 27xyz = 0.\n\n**∴ The correct answer is 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven: x¹/³ − y¹/³ = z¹/³ where x, y, z > 0.\n\nFormula used: (a − b)³ = a³ − b³ − 3ab(a − b)\n\n⇒ Cube both sides of the given equation: (x¹/³ − y¹/³)³ = (z¹/³)³\n\n⇒ (x¹/³)³ − (y¹/³)³ − 3(x¹/³)(y¹/³)(x¹/³ − y¹/³) = z\n\n⇒ x − y − 3(xy)¹/³(z¹/³) = z (Since x¹/³ − y¹/³ = z¹/³)\n\n⇒ x − y − z = 3(xyz)¹/³\n\n⇒ Cube both sides again: (x − y − z)³ = [3(xyz)¹/³]³\n\n⇒ (x − y − z)³ = 27xyz\n\n⇒ (x − y − z)³ − 27xyz = 0\n\n**∴ The correct answer is 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAlgebraic Identity of Three Variables\n\nThe expression a³ + b³ + c³ − 3abc is equal to (a + b + c)(a² + b² + c² − ab − bc − ca). If a + b + c = 0, the entire expression becomes zero, leading to a³ + b³ + c³ = 3abc.\n\nAlternative Condition for Identity\n\nThe identity a³ + b³ + c³ = 3abc also holds true if a = b = c, as the term (a² + b² + c² − ab − bc − ca) becomes zero in that case.\n\nExpansion of (a + b + c)³\n\n(a + b + c)³ = a³ + b³ + c³ + 3(a + b)(b + c)(c + a). This is useful for solving complex cyclic algebraic expressions.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "63861f4900d41d366ef78d56",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The sum of the ages of a father and his son is 45 years. Five years ago, the product of their ages (in years) was 124. Their present ages are",
+      "options": [
+        {
+          "label": "1",
+          "text": "36, 9"
+        },
+        {
+          "label": "2",
+          "text": "40, 5"
+        },
+        {
+          "label": "3",
+          "text": "24, 15.5"
+        },
+        {
+          "label": "4",
+          "text": "35, 10"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nStep 1: Verify the options against the sum condition (Father + Son = 45).\n\nStep 2: Verify the product condition 5 years ago: (F − 5) × (S − 5) = 124.\n\nOption (1): 36 + 9 = 45. 5 years ago: 31 × 4 = 124. (Correct)\n\nOption (2): 40 + 5 = 45. 5 years ago: 35 × 0 = 0. (Incorrect)\n\nOption (4): 35 + 10 = 45. 5 years ago: 30 × 5 = 150. (Incorrect)\n\n**∴ The correct answer is 36 years and 9 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSum of present ages = 45 years\n\nProduct 5 years ago = 124\n\n**Formula Used:**\n\nSum: F + S = 45 ⇒ S = 45 − F\n\nEquation: (F − 5) × (S − 5) = 124\n\n [IMAGE: https://cdn.repeatermock.com/tb/127cd923f8fda2796ee0386661bdf815dcd406dbe20e8f682d5f3d90c6518d4a.png] \n\n**Calculations:**\n\n⇒ Let father present age be F and son present age be (45 − F).\n\n⇒ (F − 5) × ((45 − F) − 5) = 124\n\n⇒ (F − 5) × (40 − F) = 124\n\n⇒ 40F − F² − 200 + 5F = 124\n\n⇒ F² − 45F + 324 = 0\n\n⇒ F² − 36F − 9F + 324 = 0\n\n⇒ F(F − 36) − 9(F − 36) = 0\n\n⇒ (F − 36)(F − 9) = 0\n\n⇒ F = 36 or F = 9 (Father age must be 36)\n\n⇒ Son age = 45 − 36 = 9\n\n**∴ The correct answer is 36 years and 9 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nConstant Age Difference\n\nThe difference between the ages of two people always remains constant, regardless of the number of years that pass.\n\nSum of Ages after n Years\n\nIf the current sum of ages of k people is S, then after n years, the new sum will be S + (n × k).\n\nNature of Roots in Age Equations\n\nIn quadratic equations derived from age problems, the product of the roots (c/a) equals the product of the ages, and the sum of roots (−b/a) equals the sum of the ages.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/127cd923f8fda2796ee0386661bdf815dcd406dbe20e8f682d5f3d90c6518d4a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "62a8203169ce23d6e19b7586",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In an examination 35% candidates failed in one subject and 42% failed in another subject while 15% failed in both subjects. If 2500 candidates had appeared in that exam how many passed in either subject but not in both?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1175"
+        },
+        {
+          "label": "2",
+          "text": "325"
+        },
+        {
+          "label": "3",
+          "text": "2125"
+        },
+        {
+          "label": "4",
+          "text": "2275"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nOnly Failed in Subject 1 = 35% − 15% = 20%\n\nOnly Failed in Subject 2 = 42% − 15% = 27%\n\nPassed in either but not both = (Failed only in Subject 1) + (Failed only in Subject 2)\n\nTotal Required Percentage = 20% + 27% = 47%\n\nRequired Candidates = 47% of 2500 = 1175\n\n**∴ The correct answer is 1175.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal Candidates = 2500\n\nFailed in Subject A, n(A) = 35%\n\nFailed in Subject B, n(B) = 42%\n\nFailed in both subjects, n(A ∩ B) = 15%\n\n**Concept:**\n\n\"Passed in either subject but not both\" is equivalent to \"Failed in exactly one subject\". In Venn diagram terms, this is the sum of (A − B) and (B − A).\n\n [IMAGE: https://cdn.repeatermock.com/tb/b8e0bef260c57696ce757a333410e1c113e1569620d771b0187e63dbf1ac33f1.png] \n\n**Calculations:**\n\n⇒ Candidates who failed ONLY in Subject A = n(A) − n(A ∩ B) = 35% − 15% = 20%\n\n⇒ Candidates who failed ONLY in Subject B = n(B) − n(A ∩ B) = 42% − 15% = 27%\n\n⇒ Note: Passed in Sub A but failed Sub B = Failed only in Sub B = 27%\n\n⇒ Note: Passed in Sub B but failed Sub A = Failed only in Sub A = 20%\n\n⇒ Percentage of candidates passed in either but not both = 20% + 27% = 47%\n\n⇒ Number of candidates = (47 ÷ 100) × 2500\n\n⇒ Number of candidates = 47 × 25\n\n⇒ Number of candidates = 1175\n\n**∴ The correct answer is 1175.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nVenn Diagram Formula\n\nFor two sets A and B, n(A ∪ B) = n(A) + n(B) − n(A ∩ B). This formula calculates the total elements in at least one set.\n\nSymmetric Difference\n\nThe expression \"either but not both\" refers to (A − B) ∪ (B − A), which is also written as (A ∪ B) − (A ∩ B).\n\nComplementary Sets\n\nIf set A represents failures, then the complement A' represents passers. Passing both subjects is represented by (A ∪ B)', which equals 100% − n(A ∪ B).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b8e0bef260c57696ce757a333410e1c113e1569620d771b0187e63dbf1ac33f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "640605cb47a83bb2ea993a8d",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A car covers the first 35 km in 15 minutes and the next 45 km in 25 minutes. What is the average speed of the car?",
+      "options": [
+        {
+          "label": "1",
+          "text": "120 km/h"
+        },
+        {
+          "label": "2",
+          "text": "130 km/h"
+        },
+        {
+          "label": "3",
+          "text": "124 km/h"
+        },
+        {
+          "label": "4",
+          "text": "135 km/h"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal Distance = 35 + 45 = 80 km\n\nTotal Time = 15 + 25 = 40 minutes\n\nAverage Speed = (Total Distance ÷ Total Time) × 60\n\nAverage Speed = (80 ÷ 40) × 60 = 2 × 60 = 120 km/h\n\n**∴ The correct answer is 120 km/h.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nFirst distance (d₁) = 35 km, Time (t₁) = 15 minutes\n\nSecond distance (d₂) = 45 km, Time (t₂) = 25 minutes\n\n**Formula Used:**\n\nAverage Speed = Total Distance ÷ Total Time\n\n [IMAGE: https://cdn.repeatermock.com/tb/b2d2477107c116e46e6dc62e457d007ad89762e4476d049a1504213b85531a38.png] \n\n**Calculations:**\n\n⇒ Total distance = 35 km + 45 km = 80 km\n\n⇒ Total time = 15 min + 25 min = 40 minutes\n\n⇒ Converting time into hours: 40 minutes = 40 ÷ 60 hours = 2 ÷ 3 hours\n\n⇒ Average Speed = 80 ÷ (2/3)\n\n⇒ Average Speed = 80 × (3/2)\n\n⇒ Average Speed = 40 × 3 = 120 km/h\n\n**∴ The correct answer is 120 km/h.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAverage Speed (Equal Distances)\n\nIf a car covers two equal distances at speeds x and y, the average speed is given by (2 × x × y) ÷ (x + y).\n\nSpeed Unit Conversion\n\nTo convert km/h to m/s, multiply by 5/18. To convert m/s to km/h, multiply by 18/5.\n\nRelative Speed\n\nWhen two objects move in the same direction, relative speed = S₁ − S₂. When they move in opposite directions, relative speed = S₁ + S₂.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b2d2477107c116e46e6dc62e457d007ad89762e4476d049a1504213b85531a38.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    }
+  ]
+}

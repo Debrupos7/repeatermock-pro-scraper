@@ -1,0 +1,923 @@
+{
+  "test_id": "6a0f4555d5b80365e2321743",
+  "title": "PYST 13: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 16th Sep 2025 Shift 1)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:02:43.231052+00:00",
+  "questions": [
+    {
+      "qid": "694517eadba2abf4f11996f8",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Sentence:\n\n\"Wisdom is often found in quiet places.\" If each letter is mirrored using alphabetical symmetry (A ↔ Z, B ↔ Y, etc.), what is the 2nd letter of the 5th word after mirroring?",
+      "options": [
+        {
+          "label": "1",
+          "text": "r"
+        },
+        {
+          "label": "2",
+          "text": "q"
+        },
+        {
+          "label": "3",
+          "text": "m"
+        },
+        {
+          "label": "4",
+          "text": "s"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given Sentence : \"Wisdom is often found in quiet places.\"\n\n**5th word** is **“in”**\n\nNow apply **alphabetical mirror (A↔Z, B↔Y, …)**:\n\n \n• \n \n**i → r**\n\n \n \n• \n \n**n → m**\n\n \n\nSo, **“in” → “rm”**\n\nThe **2ⁿd letter after mirroring** is **m**.\n\nHence, the correct answer is **\"Option 3\"**",
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "694517eab1ffde247e1ac5cb",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is exactly the same as the one given below.\n\nSuite 505, Emerald Heights, Marine Drive, Mumbai, Maharashtra - 400021",
+      "options": [
+        {
+          "label": "1",
+          "text": "Suite 505, Emerald Heights, Marine Drive, Mumbai, Maharashtra - 400021"
+        },
+        {
+          "label": "2",
+          "text": "Suite 505, Emerald Hights, Marine Drive, Mumbai, Maharashtra - 400021"
+        },
+        {
+          "label": "3",
+          "text": "Suite 505, Emerald Heights, Marine Drive, Mumbai, Maharashtra - 400020"
+        },
+        {
+          "label": "4",
+          "text": "Suite 505, Emerald Heights, Marine Drive, Mumbai, Maharashtra - 400012"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given address: Suite 505, Emerald Heights, Marine Drive, Mumbai, Maharashtra - 400021\n\nAddress that is exactly the same as the one given below\n\n**Option1) Suite 505, Emerald Heights, Marine Drive, Mumbai, Maharashtra - 400021**\n\nHence, the correct answer is **\"Option 1\"**",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "694517eb39a6ad3159ab7324",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following alternatives will fill the blanks?\n\nx_zx_z_y_x_ _",
+      "options": [
+        {
+          "label": "1",
+          "text": "y,y,y,x,z,x"
+        },
+        {
+          "label": "2",
+          "text": "y,z,y,x,z,y"
+        },
+        {
+          "label": "3",
+          "text": "y,y,x,z,y,z"
+        },
+        {
+          "label": "4",
+          "text": "z,y,y,x,z,x"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given: x_zx_z_y_x_ _\n\nLogic ;The letters x, y, z are repeating in a structured cycle.\n\nWhen filled correctly, the sequence maintains balance and continuity of the x–y–z pattern.\n\n**x __y__ z x __y__ z __x__ y __z__ x __y z__**\n\ny, y, x, z, y, z\n\nThis forms a consistent and logical pattern.\n\nHence, the correct answer is **\"Option 3\"**"
+    },
+    {
+      "qid": "694517ebab3ff1124741d98c",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series:\n\nACDE, AGIK, AKNQ, AOSW, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A S X C"
+        },
+        {
+          "label": "2",
+          "text": "A S T Y"
+        },
+        {
+          "label": "3",
+          "text": "A R U Y"
+        },
+        {
+          "label": "4",
+          "text": "A S U Z"
+        }
+      ],
+      "correct": "1",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/1361f1596478aa10c559b5ba00a844bf820b0ccbbbf541c8f28734d8e4e93b88.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1361f1596478aa10c559b5ba00a844bf820b0ccbbbf541c8f28734d8e4e93b88.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694517eb23ac21ca345777f5",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'Z' denotes 'addition', 'X' denotes 'multiplication', 'Y' denotes 'division', and 'W' denotes 'subtraction', then what will be the value of the following expression?\n\n4.5 Z (0.72 Y 1.2 X 5) W 8 X 8 Y 32 Z 6",
+      "options": [
+        {
+          "label": "1",
+          "text": "11.5"
+        },
+        {
+          "label": "2",
+          "text": "10.5"
+        },
+        {
+          "label": "3",
+          "text": "9.5"
+        },
+        {
+          "label": "4",
+          "text": "12.5"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given expression 4.5 Z (0.72 Y 1.2 X 5) W 8 X 8 Y 32 Z 6\n\n'Z' denotes 'addition', 'X' denotes 'multiplication', 'Y' denotes 'division', and 'W' denotes 'subtraction'\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n⇒ 4.5 + **(0.72 ****÷ **** 1.2 x 5) **- 8 x 8 ÷ 32 + 6\n\n⇒ 4.5 + (3) - **8 x** **8 ****÷ **** 32 **+ 6\n\n⇒ 4.5 + 3 -** 2 **+ 6\n\n⇒ __**4.5 + 3**____** **__- 2 + 6\n\n⇒__**7.5 **____**+ 4**__\n\n⇒ 11.5\n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694517ec00c35f96c29c7818",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out:",
+      "options": [
+        {
+          "label": "1",
+          "text": "J@10J"
+        },
+        {
+          "label": "2",
+          "text": "K@11K"
+        },
+        {
+          "label": "3",
+          "text": "L@14L"
+        },
+        {
+          "label": "4",
+          "text": "M@13M"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic follows here, \n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nIn options 1, 2, and 4, the number between @ symbols matches the alphabetical position of the letter.\n\n \n• J@10J\n \n• <span style=\"\"",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694517ecc0efbd3fa8c70691",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will come at the place of question mark?\n\n2, 5, 11, 23, 47, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "94"
+        },
+        {
+          "label": "2",
+          "text": "95"
+        },
+        {
+          "label": "3",
+          "text": "96"
+        },
+        {
+          "label": "4",
+          "text": "97"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic follows here, \n\n [IMAGE: https://cdn.repeatermock.com/tb/ff2aa35da4718b1d5182d6b082360d1eb6c772803b86868a7d30353351377ecc.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ff2aa35da4718b1d5182d6b082360d1eb6c772803b86868a7d30353351377ecc.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694517edfad8bfd26c1854f7",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.\n\nStatement: Implementing a comprehensive digital literacy program in rural schools will significantly enhance local economic opportunities by preparing the youth for the modern job market.\n\nAssumptions: I. Rural students currently lack the digital skills required for the modern job market.\n\nII. Modern job markets prioritize digital literacy.\n\nIII. Economic opportunities are directly linked to the job market readiness of the youth.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I and II are implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only II and III are implicit"
+        },
+        {
+          "label": "3",
+          "text": "Only I is implicit"
+        },
+        {
+          "label": "4",
+          "text": "All I, II and III are implicit"
+        }
+      ],
+      "correct": "4",
+      "solution": "Assumption Analysis\n\n \n\nI. Rural students currently lack the digital skills required for the modern job market.\n\nValid — If they already had sufficient digital skills, implementing such a program would not be necessary or impactful.\n\n \n\nII. Modern job markets prioritize digital literacy.\n\nValid — The statement directly links digital literacy to preparation for the modern job market, so this must be assumed.\n\n \n\nIII. Economic opportunities are directly linked to the job market readiness of the youth.\n\nValid — The claim that economic opportunities will improve depends on youth being employable and job-ready\n\n \n\nAll I, II and III are implicit\n\nHence, the correct answer is **\"Option 4\"**",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "694517ed9a3cd7235358998c",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: The tech corporation reported its highest quarterly profit in the last decade.\n\nConclusions: I. The corporation's internal efficiency has improved.\n\nII. The corporation is the market leader in technology.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "4",
+      "solution": "Conclusion Analysis\n\n \n\nConclusion I: The corporation's internal efficiency has improved.\n\nDoes not necessarily follow — Higher profits could result from market conditions, price changes, or external factors, not necessarily improved efficiency.\n\n \n\nConclusion II: The corporation is the market leader in technology.\n\nDoes not follow — High profits do not automatically imply market leadership.\n\n \n• Neither I nor II follows\n\nHence, the correct answer is **\"Option 4\"**",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694517ed65d94a74a5620a7a",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many meaningful four-letter English words can be formed using the first, second, third, and fifth letters of the word \"GARDEN\" (when counted from left to right), using each letter only once in each word?",
+      "options": [
+        {
+          "label": "1",
+          "text": "One"
+        },
+        {
+          "label": "2",
+          "text": "Two"
+        },
+        {
+          "label": "3",
+          "text": "Three"
+        },
+        {
+          "label": "4",
+          "text": "Four"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given word \"GARDEN\"\n\nFirst, second, third, and fifth letters (from left to right): Left \"GARDEN\" Right\n\n \n• \n \n**G, A, R, E**\n\n \n\nNow form meaningful four-letter English words, using each letter only once:\n\n \n• GEAR \n \n• RAGE \n \n• AGER (a valid English word mea\nning “one who ages”)\n\n \n\nHence, the correct answer is **\"Option 3\"**",
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "694517ee23ac21ca34577808",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, a pair of letters is given, followed by its corresponding product of alphabetical positions (A = 1, B = 2, ..., Z = 26). A second pair of letters is given without its product. Identify the correct product for the second pair that maintains the same relationship as the first.\n\nB x D : 2 x 4 :: H x J : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 x 10"
+        },
+        {
+          "label": "2",
+          "text": "7 x 9"
+        },
+        {
+          "label": "3",
+          "text": "8 x 11"
+        },
+        {
+          "label": "4",
+          "text": "9 x 10"
+        }
+      ],
+      "correct": "1",
+      "solution": "Logic : Position of Alphabet Positional Value\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/3398960028a655d6d8a2339926490789f286cdf5108cc987fd5fb7f951a7b341.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3398960028a655d6d8a2339926490789f286cdf5108cc987fd5fb7f951a7b341.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694517eeb77026c27ca7a446",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Complete the series.\n\nA9, B8, C7, D6, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "E4"
+        },
+        {
+          "label": "2",
+          "text": "E5"
+        },
+        {
+          "label": "3",
+          "text": "F5"
+        },
+        {
+          "label": "4",
+          "text": "E6"
+        }
+      ],
+      "correct": "2",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is:\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/444cf0cefde2b68601d7186f0da80c19b573846f8410e52fb297b9893dcba045.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/444cf0cefde2b68601d7186f0da80c19b573846f8410e52fb297b9893dcba045.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694517ee12bd2de5a9fb64a7",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out from the given alternatives:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Right to Equality"
+        },
+        {
+          "label": "2",
+          "text": "Right to Freedom"
+        },
+        {
+          "label": "3",
+          "text": "Right to Property"
+        },
+        {
+          "label": "4",
+          "text": "Right against Exploitation"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic follows here, \n\n \n• Right to Equality, Right to Freedom, and Right against Exploitation are Fundamental Rights under the Indian Constitution.\n \n• Right to Property is no longer a Fundamental Right (it is now a legal/constitutional right under Article 300A).\n \n• Hence, the correct answer is **\"Option 3\"**",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694517efc3c12e3a2f640338",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "P is the daughter of Q. Q is the son of R. S is the wife of R. How is S related to P?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Aunt"
+        },
+        {
+          "label": "2",
+          "text": "Mother"
+        },
+        {
+          "label": "3",
+          "text": "Grandmother"
+        },
+        {
+          "label": "4",
+          "text": "Sister"
+        }
+      ],
+      "correct": "3",
+      "solution": "Family Chart:\n\n<img alt=\"Common Diagram 28.01.2020 D3\" src=\"https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png\" style=\"border-style: none; max-width: 100%; height: 280px; user-selec",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694517efe1381fc61f0fecf8",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 2 + 3 = 13 and 4 + 1 = 17, what is 5 + 4 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "41"
+        },
+        {
+          "label": "2",
+          "text": "39"
+        },
+        {
+          "label": "3",
+          "text": "36"
+        },
+        {
+          "label": "4",
+          "text": "45"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic follows here, \n\na + b = a ² + b²\n\n \n• \n \n2² + 3² = 4 + 9 = 13\n\n \n \n• \n \n\" id=\"MathJax-Element-24-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-1-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-15-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\"> **\n 4² + 1² = 16 + 1 = 17\" id=\"MathJax-Element-25-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\"> 4² + 1² = 16 + 1 = 17\" id=\"MathJax-Element-2-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\"> 4² + 1² = 16 + 1 = 17\" id=\"MathJax-Element-16-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\"> 4² + 1² = 16 + 1 = 17 4² + 1² = 16 + 1 = 17 4² + 1² = 16 + 1 = 17 4² + 1² = 16 + 1 = 17 4² + 1² = 16 + 1 = 17\n\n \n\nSimilarly,\n\n \n• \n \n5 + 4 = ?\n\n \n \n• \n \n**5² + 4² = 25 + 16 = 41**\n\n \n\nHence, the correct answer is \"Option 1\"**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694517f0e1381fc61f0fecf9",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, symbols or numbers are used to represent letters. Based on the logic of the given coded words, determine the code for the target word using the same logic.\n\nIf LIGHT is coded as 1297820 and BOLD is coded as 215124, then how will SMART be coded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "191311820"
+        },
+        {
+          "label": "2",
+          "text": "181211719"
+        },
+        {
+          "label": "3",
+          "text": "191312018"
+        },
+        {
+          "label": "4",
+          "text": "191211820"
+        }
+      ],
+      "correct": "1",
+      "solution": "Logic: A**lphabetical position of each letter**\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is:\n\n \n• **LIGHT**<",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694517f0b8f0f6388358c97e",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 3 * 2 = 13 and 4 * 1 = 17, what is 5 * 3?",
+      "options": [
+        {
+          "label": "1",
+          "text": "32"
+        },
+        {
+          "label": "2",
+          "text": "34"
+        },
+        {
+          "label": "3",
+          "text": "36"
+        },
+        {
+          "label": "4",
+          "text": "38"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic follows here, \n\na * b = a 2 + b2\n\n \n• \n \n22 * 32 = 4 + 9 = 13\n\n \n \n• \n \n\" id=\"MathJax-Element-5-Frame\" role=\"presentation\" style=\"display: inline; position: relative;\" tabindex=\"0\">\n\n 4² + 1² = 16 + 1 = 17\" id=\"MathJax-Element-6-Frame\" role=\"presentation\" style=\"display: inline; position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-58-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-29-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-33-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-25-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-3-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-12-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-1-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\n \n 42 * 12 = 16 + 1 = 17\n\n \n\nSimilarly,\n\n \n• \n \n5 * 3 = ?\n\n \n \n• \n \n52 * 32 = 25 + 9 = 34\n\n \n\nHence, the correct answer is \"Option 2\"",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694517f039c2afeeacf9bafb",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'GOLD' is coded as H1%3, and 'SOLD' is coded as T1%3, then what is the code for 'BOLD'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "C1%3"
+        },
+        {
+          "label": "2",
+          "text": "A1%3"
+        },
+        {
+          "label": "3",
+          "text": "D1%3"
+        },
+        {
+          "label": "4",
+          "text": "B1%3"
+        }
+      ],
+      "correct": "1",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here,",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694517f1aa4fac03618c47c5",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the average of 5 consecutive even numbers starting from 20?",
+      "options": [
+        {
+          "label": "1",
+          "text": "22"
+        },
+        {
+          "label": "2",
+          "text": "24"
+        },
+        {
+          "label": "3",
+          "text": "26"
+        },
+        {
+          "label": "4",
+          "text": "28"
+        }
+      ],
+      "correct": "2",
+      "solution": "The numbers are:\n\n \n• 20,22,24,26,28\n \n• 20 + 22 + 24 + 26 + 28 = 120\n \n• 120 ÷ 5 = 24\n\nHence, the correct answer is **\"Option 2\"**"
+    },
+    {
+      "qid": "694517f1c0efbd3fa8c706dd",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the given symbols mean: '+' means 'divided by', '-' means 'multiplied by', 'x' means 'minus', '÷' means 'plus'. Then, find the value of the following expression:\n\n60 x 6 ÷ 10 + 2 - 5 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "79"
+        },
+        {
+          "label": "2",
+          "text": "64"
+        },
+        {
+          "label": "3",
+          "text": "54"
+        },
+        {
+          "label": "4",
+          "text": "49"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given Expression: 60 x 6 ÷ 10 + 2 - 5 = ?\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n'+' means 'divided by', '-' means 'multiplied by', 'x' means 'minus', '÷' means 'plus'.\n\n⇒60 - 6 + 10 ÷ 2 x 5 = ?\n\n<span style=&qu",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694517f100c35f96c29c78a5",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Pointing to a photograph, a man says, \"She is the only daughter of the only son of my mother's husband.\" Who is the woman to the man?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sister"
+        },
+        {
+          "label": "2",
+          "text": "Niece"
+        },
+        {
+          "label": "3",
+          "text": "Daughter"
+        },
+        {
+          "label": "4",
+          "text": "Wife"
+        }
+      ],
+      "correct": "3",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png] \n\nAs per the given information,\n\n [IMAGE: https://cdn.repeatermock.com/tb/00110957a304b08044688772526fbc0105ca0c930db3ba2d99f614a25c23311c.png] \n\nHence, the correct answer is **\"Option 3\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/00110957a304b08044688772526fbc0105ca0c930db3ba2d99f614a25c23311c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694517f2e778c46e65354a14",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If '×' = '+', '+' = '-', '-' = '÷', '÷' = '×', which equation is correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 + 5 × 5 - 5 = 20"
+        },
+        {
+          "label": "2",
+          "text": "15 ÷ 3 - 3 + 5 = 10"
+        },
+        {
+          "label": "3",
+          "text": "10 × 5 + 2 - 1 = 12"
+        },
+        {
+          "label": "4",
+          "text": "12 + 4 - 2 × 2 = 11"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given : '×' = '+', '+' = '-', '-' = '÷', '÷' = '×'\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\nBy checking Option\n\n15 ÷ 3 - 3 + 5 = 10\n\n⇒ 15 ×",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694517f2f6c7cf0c4509c501",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statements and evaluate the conclusions based on traditional syllogistic logic.\n\nStatements: All planets are stars.\n\nSome stars are moons.\n\nConclusions: I. Some planets are moons.\n\nII. All moons being stars is a possibility.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "2",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "3",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "The least possible Venn diagram for the given statements is as shown below :\n\n [IMAGE: https://cdn.repeatermock.com/tb/6d8c7b6d64cda74a856028c855f6794ad3ca60a007b55518c30e839870940ad1.png] \n\nConclusions:\n\nI. Some planets are moons → **Does not follow** (As there is no direct relation between planets and moons, so it is possible but not definitely true)\n\nII. All moons being stars is a possibility → **Follow** (As some stars are moons, so the possibility of all moons being stars exists as it does not contradict the given statements)\n\n∴ Here, only conclusion II follows.\n\nHence, the correct answer is **Option 1**;",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6d8c7b6d64cda74a856028c855f6794ad3ca60a007b55518c30e839870940ad1.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694517f2e9c6be1d62976166",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If '+' means 'x', '-' means '÷', 'x' means '+', then 8 – 4 × 6 + 12 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "74"
+        },
+        {
+          "label": "2",
+          "text": "76"
+        },
+        {
+          "label": "3",
+          "text": "70"
+        },
+        {
+          "label": "4",
+          "text": "72"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given: 8 – 4 × 6 + 12 = ?\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n⇒ 8 – 4 × 6 + 12 = ?\n\n'+' means 'x', '-' means '÷', 'x' means '+'\n\n⇒ **8 ÷ 4 **+ 6 x 12 \n\n⇒ 2 + **6 x 12 **\n\n⇒ **2**** + 72**\n\n⇒ 74",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694517f3094f3bac91aee2e5",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of two numbers is 3:7 and their sum is 200. Find the numbers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "50 and 150"
+        },
+        {
+          "label": "2",
+          "text": "60 and 140"
+        },
+        {
+          "label": "3",
+          "text": "70 and 130"
+        },
+        {
+          "label": "4",
+          "text": "80 and 120"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given : The ratio of two numbers is 3:7 and their sum is 200\n\nLet the numbers be\n\n \n• 3x and 7x\n \n• 3 x + 7 x = 200\n \n• 10 x = 200\n \n• X = 20\n\n \n\nFind the numbers\n\n \n• 3x = 3 × 20 = 60\n \n• 7x = 7 × 20 = 140\n\nHence, the correct answer is **\"Option 2\"**",
+      "tags": [
+        "Puzzle"
+      ]
+    }
+  ]
+}

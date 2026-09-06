@@ -1,0 +1,942 @@
+{
+  "test_id": "6a0f457d25f9d428c136f0b8",
+  "title": "PYST 6: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 13th Sep 2025 Shift 3)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:07:06.127523+00:00",
+  "questions": [
+    {
+      "qid": "691712f084c578d490057414",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\nPQR, STU, VWX, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "YZB"
+        },
+        {
+          "label": "2",
+          "text": "YZA"
+        },
+        {
+          "label": "3",
+          "text": "ZAB"
+        },
+        {
+          "label": "4",
+          "text": "XYC"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/9787fb614c22c1c6717d9de644952a07b9c2680b50b367a293821b585e3787a7.png] \n\n\\Hence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/9787fb614c22c1c6717d9de644952a07b9c2680b50b367a293821b585e3787a7.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "691712f1992c98b7d03a19a5",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series. HJA, EMX, BPU, YSR, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "WQK"
+        },
+        {
+          "label": "2",
+          "text": "VOV"
+        },
+        {
+          "label": "3",
+          "text": "VVO"
+        },
+        {
+          "label": "4",
+          "text": "XQL"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/2a690f40f673a782adf900608167af53cec8f738a31829d81779269f23784bf8.png] \n\nHence, the correct answer is **\"Option 3\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2a690f40f673a782adf900608167af53cec8f738a31829d81779269f23784bf8.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "691717917ec8c77f2acb117c",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Complete the pattern: 3, 10, 101, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10202"
+        },
+        {
+          "label": "2",
+          "text": "10204"
+        },
+        {
+          "label": "3",
+          "text": "10101"
+        },
+        {
+          "label": "4",
+          "text": "10001"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic follows here,\n\n [IMAGE: https://cdn.repeatermock.com/tb/7a723da6845260872ef537a91cfd54d373a3ca1f574bb259ae80144c02fbfc49.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7a723da6845260872ef537a91cfd54d373a3ca1f574bb259ae80144c02fbfc49.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "69171791ce24708c92ea11ab",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the option that is similar to the following numbers: 13, 17, 23, 59",
+      "options": [
+        {
+          "label": "1",
+          "text": "61"
+        },
+        {
+          "label": "2",
+          "text": "63"
+        },
+        {
+          "label": "3",
+          "text": "77"
+        },
+        {
+          "label": "4",
+          "text": "81"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given Numbers: 13, 17, 23, 59\n\n They are all **prime numbers**.\n\n \n• \n \n**61** → Prime \n\n \n \n• \n \n**63** → Not prime (divisible by 3 and 7) \n\n \n \n• \n \n**77** → Not prime (7 × 11) \n\n \n \n• \n \n**81** → Not prime (9 × 9)\n\n \n\nHence, the correct answer is **\"Option 1\"**"
+    },
+    {
+      "qid": "691717920009679b0a92d79c",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The position of how many letters will remain unchanged if each of the letters in the word PROJECT is arranged in alphabetical order?",
+      "options": [
+        {
+          "label": "1",
+          "text": "One"
+        },
+        {
+          "label": "2",
+          "text": "Two"
+        },
+        {
+          "label": "3",
+          "text": "Zero"
+        },
+        {
+          "label": "4",
+          "text": "Four"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/7ad31a6a450afbb412b36299aaee2c8bc34e77f8d5ff5a4d00e6b5cee4efc325.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7ad31a6a450afbb412b36299aaee2c8bc34e77f8d5ff5a4d00e6b5cee4efc325.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "69171792ce24708c92ea11ac",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.\n\nStatement: The city council mandated that all residents wear masks when using public transport systems.\n\nAssumptions:\n\nI. Wearing masks reduces the transmission rate of airborne illnesses.\n\nII. A significant number of residents use public transport.\n\nIII. The city council has the authority to enforce such regulations.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I and III are implicit"
+        },
+        {
+          "label": "2",
+          "text": "All I, II, and III are implicit"
+        },
+        {
+          "label": "3",
+          "text": "Only I is implicit"
+        },
+        {
+          "label": "4",
+          "text": "Only II and III are implicit"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic follows here,\n\n**I. Wearing masks reduces the transmission rate of airborne illnesses.**\n\n \n• \n \nThe council would mandate masks only if it believes masks are effective.**\n **Required assumption**\n\n \n\n**II. A significant number of residents use public transport.**\n\n \n• \n \nThe mandate applies regardless of how many people use public transport.\n\n \n \n• \n \nEven if only a few residents use it, the rule could still be issued.\n **Not a necessary assumption**\n\n \n\n**III. The city council has the authority to enforce such regulations.**\n\n \n• \n \nA mandate presupposes that the issuing body has the legal authority.\n **Required assumption**\n\n \n\n**Correct Answer: I and III.**\n\nHence, the correct answer is \"Option 1.\"**"
+    },
+    {
+      "qid": "6917179382f851b680c332dd",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Ranking/Order",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a row of students, Sita is 12th from the right end. If she shifts 5 positions to her left, she becomes 18th from the left end. What is the total number of students in the row?",
+      "options": [
+        {
+          "label": "1",
+          "text": "34"
+        },
+        {
+          "label": "2",
+          "text": "35"
+        },
+        {
+          "label": "3",
+          "text": "33"
+        },
+        {
+          "label": "4",
+          "text": "32"
+        }
+      ],
+      "correct": "1",
+      "solution": "Sita is 12th from the right.\n\nSo her position from the left is:\n\nPosition from Left = N – 12 + 1 = N - 11\n\nMoving left means she moves towards the front, so her left position decreases by 5:\n\nNew Positions from left = (N – 11) -5 = N – 16 .\n\nWe are told this becomes 18th from the left:\n\nN – 16 = 18.\n\nN = 18 + 16\n\n = 34.\n\n**Total number of students = 34.**\n\nHence, the correct answer is **\"Option 1\"**"
+    },
+    {
+      "qid": "6917179384074b01c95dab8b",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the similar address: House No. 45C, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana -122001",
+      "options": [
+        {
+          "label": "1",
+          "text": "House No. 45C, Bldg. 7, Sec-15, Sohna Rd., Gurugram, Haryana 122001"
+        },
+        {
+          "label": "2",
+          "text": "House No. 45C, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana - 122001"
+        },
+        {
+          "label": "3",
+          "text": "House No. 45C, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana - 122011"
+        },
+        {
+          "label": "4",
+          "text": "House No. 45B, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana - 122001"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given : House No. 45C, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana -122001\n\n**House No. 45C, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana - 122001**.\n\nHence, the correct answer is **\"Option 2\"**"
+    },
+    {
+      "qid": "69171793ea5cb8cb18b55187",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many meaningful four-letter English words can be formed using the first, second, fourth, and fifth letters of the word \"CARPET\" (when counted from left to right), using each letter only once in each word?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/efac13769e092d811ef70f9b9737e26274a8f24a84c70ad6a4f1f38d4021da49.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/efac13769e092d811ef70f9b9737e26274a8f24a84c70ad6a4f1f38d4021da49.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "691717940fa050f0ead7e552",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, the second word is formed by applying a specific alphabetic coding pattern to the first word. Apply the same pattern to the third word to determine the correct option from the given alternatives.\n\nRUSH : SQTRIG : : GATE : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "HFZSFD"
+        },
+        {
+          "label": "2",
+          "text": "FBHZSE"
+        },
+        {
+          "label": "3",
+          "text": "HZEFBD"
+        },
+        {
+          "label": "4",
+          "text": "FAEBHT"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/0303a3c518f1ae6f7831a81d06506c9e8572f9688744638bb686dc817b0f69a5.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0303a3c518f1ae6f7831a81d06506c9e8572f9688744638bb686dc817b0f69a5.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6917179431530bf2ab681a7a",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, the second word is coded from the first using a consistent letter substitution pattern (e.g., positional shift). Identify the logic in the first pair and apply the same to find the correct code for the third word. PLANT : OKZMS : : MONEY : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "LNMDX"
+        },
+        {
+          "label": "2",
+          "text": "LNDXD"
+        },
+        {
+          "label": "3",
+          "text": "LNDYC"
+        },
+        {
+          "label": "4",
+          "text": "MNE XD"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png] \n\nThe pattern followed here is\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/6a0b5c3bd0ede3fe037beb00f818bd65527f100c89977047117cc5a9782fc50e.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6a0b5c3bd0ede3fe037beb00f818bd65527f100c89977047117cc5a9782fc50e.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6917179467c5cacea2b73d5b",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Complete the series. 4, 9, 16, ___, 36",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "49"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic follows here,\n\n [IMAGE: https://cdn.repeatermock.com/tb/a0ad0dbe934f4b4710525143504c98898d9b36ce1fa124998dec9e571dd84607.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a0ad0dbe934f4b4710525143504c98898d9b36ce1fa124998dec9e571dd84607.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "691717950009679b0a92d80f",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 4 * 2 = 20, 7 * 3 = 58, then 5 * 1 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "26"
+        },
+        {
+          "label": "2",
+          "text": "28"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "32"
+        }
+      ],
+      "correct": "1",
+      "solution": "Logic: (First number)² + (Second number)² = Third Number\n\n [IMAGE: https://cdn.repeatermock.com/tb/7df5c5c7eda3bb52c63e6be268e1690ad4f56d5ea6d4c0e65565343efb39400f.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7df5c5c7eda3bb52c63e6be268e1690ad4f56d5ea6d4c0e65565343efb39400f.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "691717957c0adf535219edbf",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, a group of three numbers/symbols is given in each option. Identify the group that does NOT follow the same pattern as the others.",
+      "options": [
+        {
+          "label": "1",
+          "text": "A2B : C4D : E6F"
+        },
+        {
+          "label": "2",
+          "text": "G8H : I10J : K11L"
+        },
+        {
+          "label": "3",
+          "text": "M12N : O14P : Q16R"
+        },
+        {
+          "label": "4",
+          "text": "S18T : U20V : W22X"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/b507ccf6ff7c1c176f88bfe2eada96272804028722cf04f877abad53a705af15.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b507ccf6ff7c1c176f88bfe2eada96272804028722cf04f877abad53a705af15.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "691717957c0adf535219edcb",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many vertices does a cube have?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "2",
+      "solution": "A cube has **8 **vertices. A vertex is a corner where three edges meet, and a cube has a total of 8 such corners\n\n [IMAGE: https://cdn.repeatermock.com/tb/84b6844b4187431e0e526f1b64090fd16f894626a2cc0d2b2496a0033bd0babb.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/84b6844b4187431e0e526f1b64090fd16f894626a2cc0d2b2496a0033bd0babb.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "69171796bcd901dc2a4b3f11",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If TABLE is coded as UBCMF, how is CHAIR coded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "DGBIS"
+        },
+        {
+          "label": "2",
+          "text": "DIBJS"
+        },
+        {
+          "label": "3",
+          "text": "DGSIH"
+        },
+        {
+          "label": "4",
+          "text": "DGASH"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png] \n\nThe pattern followed here is\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/bf39565dda9fa7f069ff320595981f2f61fe96fb7fa2aecc8e8ee08ea01ed9ab.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bf39565dda9fa7f069ff320595981f2f61fe96fb7fa2aecc8e8ee08ea01ed9ab.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "69171796dd30080d5f97fe6a",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'CREDIT' is coded as 'XIVWRG', then how is 'DEBIT' coded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "WYVGR"
+        },
+        {
+          "label": "2",
+          "text": "WVYGR"
+        },
+        {
+          "label": "3",
+          "text": "WVYRG"
+        },
+        {
+          "label": "4",
+          "text": "WYVRG"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png] &",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c28817482dab245ca34a9ed2c7d15bec309f9c5ed7d11cb8daa13bef502bdd09.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "69171797034dccbf631d15a2",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 5 + 3 = 34 and 6 + 1 = 37, then find the value of 7 + 2 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "51"
+        },
+        {
+          "label": "2",
+          "text": "53"
+        },
+        {
+          "label": "3",
+          "text": "55"
+        },
+        {
+          "label": "4",
+          "text": "58"
+        }
+      ],
+      "correct": "2",
+      "solution": "Logic: (First Number)² + (Second Number)² = Third Number\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/dbb1f62f528afec5edfd10d288a9fe6bc179880d60c87f838b3630a1d7e13fc9.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/dbb1f62f528afec5edfd10d288a9fe6bc179880d60c87f838b3630a1d7e13fc9.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6917179732e484fbbfff4223",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A boy introduces a man: \"He is the husband of my sister's mother's only daughter.\" How is the boy related to the man?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Brother"
+        },
+        {
+          "label": "2",
+          "text": "Brother-in-law"
+        },
+        {
+          "label": "3",
+          "text": "Father"
+        },
+        {
+          "label": "4",
+          "text": "Uncle"
+        }
+      ],
+      "correct": "2",
+      "solution": "Decoding symbols for Family Tree:\n\n [IMAGE: https://cdn.repeatermock.com/tb/153c6a6e313de03f2911e6352e768c319ce48bd8d9b10cf6c7d58c07f604979a.png] \n\nStep-by-step Relationship Analysis:\n\nBreak down the statement made by the boy: \"He is the husband of my sister's mother's only daughter.\"\n\n \n• \"My sister's mother\" refers to the boy's own Mother.\n \n• \"Only daughter of my mother\" refers to the boy's Sister (since she is the only daughter in the family).\n \n• Now, replace that part in the sentence: \"He is the husband of my Sister.\"\n\nFamily Structure:\n\n [IMAGE: https://cdn.repeatermock.com/tb/38c88c54d86b04d1e7391c6e4198a378324b029287c09d09c273b1ea18ba0f9a.png] \n\nThus, the man is the Brother-in-law of the boy.\n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/153c6a6e313de03f2911e6352e768c319ce48bd8d9b10cf6c7d58c07f604979a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/38c88c54d86b04d1e7391c6e4198a378324b029287c09d09c273b1ea18ba0f9a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "691717977c0adf535219ede5",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A 60 L mixture has milk and water in 4: 1 ratio. How much water should be added to make the ratio 3: 2?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 L"
+        },
+        {
+          "label": "2",
+          "text": "15 L"
+        },
+        {
+          "label": "3",
+          "text": "18 L"
+        },
+        {
+          "label": "4",
+          "text": "22 L"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0fafeedaf837f329b6f93ed396ea8adba8749c902beb0a424bfc060a3a8c4302.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/fdf7d6e8eb618c7c5b2b11644b5b3eee5a0c05ac5078b04787009dfab765164b.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0fafeedaf837f329b6f93ed396ea8adba8749c902beb0a424bfc060a3a8c4302.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fdf7d6e8eb618c7c5b2b11644b5b3eee5a0c05ac5078b04787009dfab765164b.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "691717981c77b10958b4c6df",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "After interchanging - & / and 8 & 4, which of the following equations will hold true?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(4 / 2) - 8 = -6"
+        },
+        {
+          "label": "2",
+          "text": "(8 / 2) - 4 = 0"
+        },
+        {
+          "label": "3",
+          "text": "(8 - 4) / 2 = 2"
+        },
+        {
+          "label": "4",
+          "text": "(4 - 2) / 8 = 0"
+        }
+      ],
+      "correct": "4",
+      "solution": "BODMAS Rule:\n\n [IMAGE: https://cdn.repeatermock.com/tb/2040eaffb074fd42b592cdae119c98b95e1a291a924e7e0c4209b3005a60fec5.png] \n\nWe need to perform two interchanges simultaneously to find which equation holds true:\n\n1. Interchange the signs: **-** and **/**\n\n2. Interchange the numbers: **8** and **4**\n\n1) (4 / 2) - 8 = -6\n\n→ (8 - 2) / 4\n\n= 6 / 4\n\n= 1.5 ≠ -6.\n\n2) (8 / 2) - 4 = 0\n\n→ (4 - 2) / 8\n\n= 2 / 8\n\n= 0.25 ≠ 0.\n\n3) (8 - 4) / 2 = 2\n\n→ (4 / 8) - 2\n\n= 0.5 - 2\n\n= -1.5 ≠ 2.\n\nOption 4) (4 - 2) / 8 = 0 \n\n→ (8 / 2) - 4 = 0\n\n→ (4) - 4 = 0\n\n→ 0 = 0\n\nLHS = RHS (True)\n\nHence, the correct answer is **\"Option 4\"**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2040eaffb074fd42b592cdae119c98b95e1a291a924e7e0c4209b3005a60fec5.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "691717987dc48fd1ab0efe8e",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "X is the son of Y. Y's sister is Z. Z's husband is W. How is W related to X?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father"
+        },
+        {
+          "label": "2",
+          "text": "Uncle"
+        },
+        {
+          "label": "3",
+          "text": "Grandfather"
+        },
+        {
+          "label": "4",
+          "text": "Nephew"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png] \n\nGiven:\n\n1) X is the son of Y. \n\n2) Y's sister is Z.\n\n [IMAGE: https://cdn.repeatermock.com/tb/a74044a7cfa8464fc0bcf54656e91a0bfeeb210346f3ef322aa253cbe510907b.png] \n\n3) Z's husband is W.\n\n [IMAGE: https://cdn.repeatermock.com/tb/8ac9a34662a1a357c581bb3106a240e24d57e9122d735f5304a12bd7dc26ae1d.png] \n\nHere, W is X's uncle.\n\nHence, the correct answer is \"Option 2\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a74044a7cfa8464fc0bcf54656e91a0bfeeb210346f3ef322aa253cbe510907b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8ac9a34662a1a357c581bb3106a240e24d57e9122d735f5304a12bd7dc26ae1d.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "69171798fb6f8ba53a1e58f5",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'P' means 'x', 'Q' means '÷', 'R' means '+', and 'S' means '-', what is the value of the following expression? 15 R 5 Q 1 S 2 P 3",
+      "options": [
+        {
+          "label": "1",
+          "text": "14"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given Equation : 15 R 5 Q 1 S 2 P 3\n\n'P' means 'x', 'Q' means '÷', 'R' means '+', and 'S' means '-',\n\nHere, we use the BODMAS table given below:\n\n<img alt=\"qImage651cfdd5355b08afff7ce415\" src=\"https://cd"
+    },
+    {
+      "qid": "691717994cba0a29aeee5fd1",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the difference between 95 and 11 is divided by 7, what is the result?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "13"
+        },
+        {
+          "label": "4",
+          "text": "14"
+        }
+      ],
+      "correct": "2",
+      "solution": "The difference between 95 and 11 is divided by 7,\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/b07b5658d12cc77bdcfd86a6fe33047b12c51fb72c0a547f9745a525d9a1dfe2.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b07b5658d12cc77bdcfd86a6fe33047b12c51fb72c0a547f9745a525d9a1dfe2.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "69171799f44eccda14f9b0d4",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If ÷ = x, + = -, x = ÷; then 20 + 4 ÷ 2 x 1 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "14"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given: 20 + 4 ÷ 2 x 1 = ?\n\n÷ = x, + = -, x = ÷;\n\nHere, we use the BODMAS table given below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/2040eaffb074fd42b592cdae119c98b95e1a291a924e7e0c4209b3005a60fec5.png] \n\n20 - 4 x __**2 ÷ 1**__ = ?\n\n20 - __**4 x 2**__ = ?\n\n20 - 8 = ?\n\n12.\n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2040eaffb074fd42b592cdae119c98b95e1a291a924e7e0c4209b3005a60fec5.png",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

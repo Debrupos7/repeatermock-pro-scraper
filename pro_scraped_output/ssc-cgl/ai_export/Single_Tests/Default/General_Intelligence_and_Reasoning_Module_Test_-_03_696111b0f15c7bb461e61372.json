@@ -1,0 +1,1221 @@
+{
+  "test_id": "696111b0f15c7bb461e61372",
+  "title": "General Intelligence and Reasoning Module Test - 03",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 90.0,
+  "question_count": 30,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:20:14.871590+00:00",
+  "questions": [
+    {
+      "qid": "619e298083cf4ef0fc20092f",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the options in which the numbers are related in the same way as are the numbers of the following set.\n\n(541, 14, 737)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(832, 8, 895)"
+        },
+        {
+          "label": "2",
+          "text": "(697, 13, 866)"
+        },
+        {
+          "label": "3",
+          "text": "(635, 18, 924)"
+        },
+        {
+          "label": "4",
+          "text": "(432, 25, 1108)"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: (541, 14, 737)\n\nThe logic followed here is:\n\n(541, 14, 737) → 737 - 541 = 196 → sqrt{196} = 14\n\nNow, by checking options:\n\n(1) (832, 8, 895) → 895 - 832 = 63 → sqrt{63} neq 8\n\n**(2) (697, 13, 866) → 866 - 697 = 169 → sqrt{169} = 13**\n\n(3) (635, 18, 924) → 924 - 635 = 289 → sqrt{289} = 17 neq 18\n\n(4) (432, 25, 1108) → 1108 - 432 = 676 → sqrt{676} = 26 neq 25\n\nHence, **(697, 13, 866) **is the correct answer.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5df9e0994e71600cf7dcc972",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the correct option that will fill in the blank and complete the series.\n\nCX, FU, IR, LU, ________ RU",
+      "options": [
+        {
+          "label": "1",
+          "text": "OM"
+        },
+        {
+          "label": "2",
+          "text": "OL"
+        },
+        {
+          "label": "3",
+          "text": "OK"
+        },
+        {
+          "label": "4",
+          "text": "OH"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/32f5b2fe8683e2b9c0c2721f13d1cb10950aec573733da2b476556c459c18418.png] \n\nThe pattern followed is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/159645ded282403c3fe28ec07d1975167c4db9387092fd95e83dbe233ad4e19c.png] \n\nHence, ’OL’ is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/32f5b2fe8683e2b9c0c2721f13d1cb10950aec573733da2b476556c459c18418.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/159645ded282403c3fe28ec07d1975167c4db9387092fd95e83dbe233ad4e19c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "60701fc802d862deaa72b48e",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Directions: **Answer the question given below\n\nYou see a guy in the supermarket loading stuff inside the pockets of his overcoat. The supermarket does not have any electronic security system to check up on such activities. What will you do?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Catch the guy in the act and scold him for such activities and make him put all the stuff back or pay for it."
+        },
+        {
+          "label": "2",
+          "text": "Inform the concerned security personnel or the owner of the supermarket about it."
+        },
+        {
+          "label": "3",
+          "text": "Ignore the guy and mind your own business."
+        },
+        {
+          "label": "4",
+          "text": "Make a video of the guy and upload it on social media."
+        }
+      ],
+      "correct": "2",
+      "solution": "The guy is basically stealing from the supermarket and it is important to take action against it.\n\nBut the action can only be taken by the concerned staff of the supermarket, therefore you should inform the concerned staff or the owner so that they can take proper action against him.\n\nHence, the correct answer is option 2.",
+      "tags": [
+        "Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "62c4114a5134758e49d36fbc",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a certain code language, 'FLUTE' is written as 'VGFOU' and 'EXILE' is written as 'VORCV'. How will 'BLOOD' be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "WLLDB"
+        },
+        {
+          "label": "2",
+          "text": "WLLOY"
+        },
+        {
+          "label": "3",
+          "text": "WLOYD"
+        },
+        {
+          "label": "4",
+          "text": "WLLOB"
+        }
+      ],
+      "correct": "2",
+      "solution": "Here, the alphabets and their positions are shown as below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a72a30b8cfc6309b36506bcbabb6647d5379494fca9023856cca8a5a79bf064f.png] \n\nThe corresponding of alphabets are:\n\n [IMAGE: https://cdn.repeatermock.com/tb/6f91d0cf2227ca243511cf2dad8508dd6174723daa7acbf2a53a6f9c5848b2bc.png] \n\nThe logic here is:\n\nFirst we need to start writing the given word from right to left and then see the corresponding of each letter is the code language.\n\nFor the word FLUTE, reverse is ETULF then it is written as VGFOU:\n\n [IMAGE: https://cdn.repeatermock.com/tb/fc1fa7cb20a2010dc75ecbaf90a49f61b8379ccd478d87ee3865a87785398a03.png] \n\nFor the word EXILE, the reverse is ELIXE then it is written as VORCV\n\n [IMAGE: https://cdn.repeatermock.com/tb/2bc7ae08ffd531dbda7c2225f1c439ea202e88804fda35c71ef6cde9529be33c.png] \n\nSimilarly, for the word BLOOD, the reveres is DOOLB then it is written as WLLOY.\n\n [IMAGE: https://cdn.repeatermock.com/tb/ed1dcc8b6cbc36bd402c31e7391cb1c3a414c4d94712b4c08bfc0a6e07fae999.png] \n\nHence, the given word can be written as '__**WLLOY**__'.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a72a30b8cfc6309b36506bcbabb6647d5379494fca9023856cca8a5a79bf064f.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6f91d0cf2227ca243511cf2dad8508dd6174723daa7acbf2a53a6f9c5848b2bc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fc1fa7cb20a2010dc75ecbaf90a49f61b8379ccd478d87ee3865a87785398a03.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2bc7ae08ffd531dbda7c2225f1c439ea202e88804fda35c71ef6cde9529be33c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ed1dcc8b6cbc36bd402c31e7391cb1c3a414c4d94712b4c08bfc0a6e07fae999.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "63f9a9d1b18659b32d389829",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following terms will replace the question mark (?) in the given series?\n\nXDZA, VFXC, ?, LPNM, DXFU",
+      "options": [
+        {
+          "label": "1",
+          "text": "SJTH"
+        },
+        {
+          "label": "2",
+          "text": "SJIG"
+        },
+        {
+          "label": "3",
+          "text": "RJTG"
+        },
+        {
+          "label": "4",
+          "text": "RITH"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/ba9641975f2fc7524ff111ee5de92ae0deecda54903f9932e1bcb1ebbbc99a46.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/48f9b898c2c10b97ecd6188aa18aae014b61cdeb75606dcbe8cecd5576528e54.png] \n\nHence, '**RJTG**' is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ba9641975f2fc7524ff111ee5de92ae0deecda54903f9932e1bcb1ebbbc99a46.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/48f9b898c2c10b97ecd6188aa18aae014b61cdeb75606dcbe8cecd5576528e54.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5fbbe1f00228ce89dc9b7ef0",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The sequence of folding a piece of paper and the manner in which the folded paper has been cut is shown in the following figures. How would this paper look when unfolded?\n\n [IMAGE: https://cdn.repeatermock.com/tb/0c1fa3bf285feb848915c6f72c5c8c72faa69850fed90ced33b490b13bcd5eeb.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/42423beae28fbc853a1526327da2da012f39f3692ffcf60473e3b384b53b7282.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/5c4b3ed440a2766c042952003f7bc909ce5a8488649b507877a1a3d1208b8e61.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/bcddaa6e28f066edb844505c4533720741dbe0d4da7d3019d10fa0a1ebb871ca.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/7da186d343edaeb4f0e19c8df2ed0d3e5d57aeadf83af71f7257cecf3fc27804.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given,\n\n [IMAGE: https://cdn.repeatermock.com/tb/94582a2be73e248dd04e3579b8c1ab168b9a835603f558ec52e0955e43a271e4.png] \n\nThe paper is folded and cut in the above manner, the unfolded paper will look like,\n\n [IMAGE: https://cdn.repeatermock.com/tb/bcddaa6e28f066edb844505c4533720741dbe0d4da7d3019d10fa0a1ebb871ca.png] \n\nHence, the correct answer is [IMAGE: https://cdn.repeatermock.com/tb/bcddaa6e28f066edb844505c4533720741dbe0d4da7d3019d10fa0a1ebb871ca.png]",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0c1fa3bf285feb848915c6f72c5c8c72faa69850fed90ced33b490b13bcd5eeb.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/94582a2be73e248dd04e3579b8c1ab168b9a835603f558ec52e0955e43a271e4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bcddaa6e28f066edb844505c4533720741dbe0d4da7d3019d10fa0a1ebb871ca.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bcddaa6e28f066edb844505c4533720741dbe0d4da7d3019d10fa0a1ebb871ca.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "60675637bad057b13a6a337b",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "At present, the ratio between the ages of Arun and Deepak is 4:3. After 6 years, Arun's age will be 26 years. What is the age of Deepak at present ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "19{(1)/(2)} years"
+        },
+        {
+          "label": "2",
+          "text": "15 years"
+        },
+        {
+          "label": "3",
+          "text": "12 years"
+        },
+        {
+          "label": "4",
+          "text": "21 years"
+        }
+      ],
+      "correct": "2",
+      "solution": "At present, the ratio between the ages of Arun and Deepak is 4:3.\n\nLet their ages be measured in terms of 'a'.\n\nSo, the present age of Arun is 4a and that of Deepak is 3a.\n\nAfter 6 years, Arun's age will be 26 years.\n\nAccording to question:\n\n4a + 6 = 26\n\n⇒ 4a = 26 - 6\n\n⇒ 4a = 20\n\n⇒ a = 20 ÷ 4\n\n⇒ a = 5 years\n\nTherefore, age of Deepak at present = 3a = 3 × 5 = 15 years\n\nHence, ‘**15 years**’ is the correct answer.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "6100251694ff22246666af92",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A series is given in the following question. Find the term that will replace the question mark.\n\n63, 125, 249, ?, 993",
+      "options": [
+        {
+          "label": "1",
+          "text": "497"
+        },
+        {
+          "label": "2",
+          "text": "598"
+        },
+        {
+          "label": "3",
+          "text": "397"
+        },
+        {
+          "label": "4",
+          "text": "343"
+        }
+      ],
+      "correct": "1",
+      "solution": "The pattern followed is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/3fc1b9a24ba2ade3b8a0ffeb53d545508d9d5bb210f557d7342bc6070cd4d9cf.png] \n\nHence, the correct answer is **\"497\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3fc1b9a24ba2ade3b8a0ffeb53d545508d9d5bb210f557d7342bc6070cd4d9cf.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5bd035bfa57e650c5eeb6026",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "By interchanging which two signs the equation will be correct?\n\n6 ÷ 11 + 87 × 3 - 6 = 89",
+      "options": [
+        {
+          "label": "1",
+          "text": "÷ and +"
+        },
+        {
+          "label": "2",
+          "text": "+ and -"
+        },
+        {
+          "label": "3",
+          "text": "× and ÷"
+        },
+        {
+          "label": "4",
+          "text": "- and ÷"
+        }
+      ],
+      "correct": "3",
+      "solution": "By interchanging the signs as per the options,\n\n1) 6 + 11 ÷ 87 × 3 - 6 = 89\n\n= 6 + 0.12 × 3 - 6\n\n= 3.37 ≠ 89\n\n2) 6 ÷ 11 - 87 × 3 + 6 = 89\n\n= 0.5454 - 261 + 6\n\n= - 254.46 ≠ 89\n\n3) 6 × 11 + 87 ÷ 3 - 6 = 89\n\n= 66 + 29 - 6\n\n= 89\n\n4) 6 - 11 + 87 × 3 ÷ 6 = 89\n\n= 6 - 11 + 87 × 0.5\n\n= 43.5 + 6 - 11\n\n= 38.5 ≠ 89\n\nHence, ‘× and ÷’ is the correct answer.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "66a28536a136e15f682e9b0a",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "CKMZ is related to VDFS in a certain way based on the English alphabetical order. In the same way, LPBV is related to EIUO. To which of the following is UXBN related, following the same logic?",
+      "options": [
+        {
+          "label": "1",
+          "text": "NGQU"
+        },
+        {
+          "label": "2",
+          "text": "NQUG"
+        },
+        {
+          "label": "3",
+          "text": "NGUQ"
+        },
+        {
+          "label": "4",
+          "text": "NQGU"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/4a5b7cf84abd4e09a63d504f404b2035f579e6a3a005e11d54e3ca50bd42a099.png] \n\nLogic: (7) is subtracted from the position values according to the English alphabetic series.\n\n​​So,\n\nCKMZ is related to VDFS\n\n​ <img alt=\"\" src=&quo",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4a5b7cf84abd4e09a63d504f404b2035f579e6a3a005e11d54e3ca50bd42a099.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "601785299f68bc68dbfecac8",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that can replace the question mark (?) in the following series.\n\n5, 41, 258, 1561, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8140"
+        },
+        {
+          "label": "2",
+          "text": "9380"
+        },
+        {
+          "label": "3",
+          "text": "8841"
+        },
+        {
+          "label": "4",
+          "text": "9983"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given,\n\n5, 41, 258, 1561, ?\n\nThe pattern followed here is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/14f743af3e9aa2e46f3892127b02a913999e489df67141259ed420f7684d6968.png] \n\nHence, the correct answer is **9380.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/14f743af3e9aa2e46f3892127b02a913999e489df67141259ed420f7684d6968.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "66a4d26a334120e9e8f83318",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What would be the symbol on the opposite side of '≤' if the given sheet is folded to form a cube?\n\n [IMAGE: https://cdn.repeatermock.com/tb/13a5e9b02abd451b288ac1577de6e6280f1cb88f39ed6638adab0a314e44d226.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "+"
+        },
+        {
+          "label": "2",
+          "text": "÷"
+        },
+        {
+          "label": "3",
+          "text": "≥"
+        },
+        {
+          "label": "4",
+          "text": "*"
+        }
+      ],
+      "correct": "2",
+      "solution": "The faces opposite to each other are shown below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/aa7398f7a4b9899f1b7b4a9a7e38ee0f4eb45f8867297e8460f408dd5ba6fd18.png] \n\n⇒ As the alternate positions become opposite to each other, the remaining two faces become opposite to each other.\n\nSo, opposite pairs are:\n\n* → ≠\n\n≤ → ÷\n\n+ → ≥\n\nTherefore, '÷' is the opposite of '≤'.\n\nHence, **\"Option 2\"** is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/13a5e9b02abd451b288ac1577de6e6280f1cb88f39ed6638adab0a314e44d226.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aa7398f7a4b9899f1b7b4a9a7e38ee0f4eb45f8867297e8460f408dd5ba6fd18.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5f48aaf6f6001d73a6fd6ad4",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Study the following arrangement of the English alphabet and answer the questions given below.\n\nW T S D E F A Y Q U P R U L H I N V X M O G\n\nWhich letter is 3rd to the left of the 18th letter from the right side?",
+      "options": [
+        {
+          "label": "1",
+          "text": "W"
+        },
+        {
+          "label": "2",
+          "text": "S"
+        },
+        {
+          "label": "3",
+          "text": "T"
+        },
+        {
+          "label": "4",
+          "text": "Y"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given series: Left side W T S D E F A Y Q U P R U L H I N V X M O G Right side\n\n18th letter from the right side = E\n\n3rd letter to the left of E = **T**\n\nHence, T is the correct option.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5f0bf983fab0dc0d0b7a8c32",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If 3*4 = 21 ; 4*5 = 36 ; 5*6 = 55, then find 6*7.",
+      "options": [
+        {
+          "label": "1",
+          "text": "91"
+        },
+        {
+          "label": "2",
+          "text": "67"
+        },
+        {
+          "label": "3",
+          "text": "42"
+        },
+        {
+          "label": "4",
+          "text": "78"
+        }
+      ],
+      "correct": "4",
+      "solution": "Pattern followed is :\n\nFor 3*4 = 21,\n\n3 × (3 + 4) = 3 × 7 = 21\n\nFor 4*5 = 36,\n\n4 × (4 + 5) = 4 × 9 = 36\n\nFor 5*6 = 55\n\n5 × (5 + 6) = 5 × 11 = 55\n\nSimilarly,\n\nFor 6*7\n\n6 × (6 + 7) = 6 × 13 = 78\n\n**Alternate solution : **\n\nThe pattern followed is,\n\nFor 3*4 = 21,\n\n3 × 4 = 12\n\n12 + 12 = 24\n\n24 – 3 = 21\n\nAnd,\n\nFor 4*5 = 36,\n\n4 × 5 = 20\n\n20 + 20 = 40\n\n40 – 4 = 36\n\nSimilarly,\n\nFor 6*7\n\n6 × 7 = 42\n\n42 + 42 = 84\n\n84 – 6 = **78**\n\nHence, “78” is the correct answer.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5d1483a3fdb8bb32e8ccba1e",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Direction:** In each of the following questions, one/two statement/statements is/are given followed by two Assumptions I and II. You have to consider the statement to be true, even if it seems to be at variance from commonly known facts. You are to decide which of the given assumption(s) can definitely be drawn from the given statement.\n\n**Statement: **\"You are hereby appointed as a programmer with a probation period of one year and your performance will be reviewed at the end of the period for confirmation.\" - A line in an appointment letter.\n\n**Assumptions:**\n\nI. The performance of an individual generally is not known at the time of appointment offer.\n\nII. Generally, an individual tries to prove his worth in the probation period.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only assumption I is implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only assumption II is implicit"
+        },
+        {
+          "label": "3",
+          "text": "Neither I nor II is implicit"
+        },
+        {
+          "label": "4",
+          "text": "Both I and II are implicit"
+        }
+      ],
+      "correct": "4",
+      "solution": "I. The performance of the individual must be tested over a span of time as the statement mentions. So, I is implicit.\n\nII. The statement mentions that the individual's worth shall be reviewed (during probation period) before confirmation. So, II is also implicit.\n\nHence, Both I and II are implicit is the correct answer.",
+      "tags": [
+        "Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "62f70ef80f5e63b615071d4d",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "X # Y means 'X' is the wife of 'Y',\n\nX % Y means 'X' is the father of 'Y',\n\nX & Y means 'X' is the daughter of 'Y',\n\nX @ Y means 'X' is the mother of 'Y',\n\nM @ N & O % P # Q How is M related to Q based on the position?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Wife"
+        },
+        {
+          "label": "2",
+          "text": "Mother-in-law"
+        },
+        {
+          "label": "3",
+          "text": "Sister"
+        },
+        {
+          "label": "4",
+          "text": "Mother"
+        }
+      ],
+      "correct": "2",
+      "solution": "Preparing the family tree by using the following symbol:\n\n [IMAGE: https://cdn.repeatermock.com/tb/35d7dd3747a7b2e0151cc55fb4fe602bbb0fc9e3a867a9dd72b06e8d0694249d.png] \n\nAs per the given information:\n\n \n \n\n \n \nX is\n\n \n \n \n\n \n \n**Symbol**\n\n \n \n \n#\n\n \n \n \n%\n\n \n \n \n&\n\n \n \n \n@\n\n \n \n \n\n \n \n**Means**\n\n \n \n \nWife\n\n \n \n \nFather\n\n \n \n \nDaughter\n\n \n \n \nMother\n\n \n \n \n\n \n \nof Y\n\n \n \n \n\n**Given expression:** 'M @ N & O % P # Q'\n\nM is the mother of N. N is the daughter of O, O is the father of P and P is the wife of Q.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f09ecca77016315449742c2dc5072873a78b9bdccc34bc44f00ea0091a2abc7a.png] \n\nHere, M is the mother-in-law of Q.\n\nHence, the correct answer is **\"Mother-in-law\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/35d7dd3747a7b2e0151cc55fb4fe602bbb0fc9e3a867a9dd72b06e8d0694249d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f09ecca77016315449742c2dc5072873a78b9bdccc34bc44f00ea0091a2abc7a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "62ee8f9e254b951c61e2fc64",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.\n\n**Statements:**\n\nNo phone is mobile.\n\nSome mobiles are telephones.\n\n**Conclusions:**\n\nI. All phones being telephones is a possibility.\n\nII. Some telephones are not mobiles.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion II follows."
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion I follows."
+        },
+        {
+          "label": "3",
+          "text": "Neither conclusion I nor II follows."
+        },
+        {
+          "label": "4",
+          "text": "Both conclusions I and II follow."
+        }
+      ],
+      "correct": "2",
+      "solution": "Given that, \n\n [IMAGE: https://cdn.repeatermock.com/tb/ea4c3a2bab3d041db3c76b97ff016aca46c9c472660016e5505cdfc3fb595da4.png] \n\nConclusions:\n\nI. All phones being telephones is a possibility. →** Follows**\n\n[Some mobiles are telephones, but all telephones are mobiles is also a possibility. So, the conclusion I is definitely true. ]\n\n [IMAGE: https://cdn.repeatermock.com/tb/3f38fdb63a00775b9abb37625a32a2954bb17c06469f3c345172fb595df9a2e0.png] \n\nII. Some telephones are not mobiles. →** Does not follows **[As Some mobiles are telephones. So, it is possible Some telephones are not mobiles. But it is not definitely true. Hence, this conclusion is false.]\n\n**Hence, only the conclusion I follows. **\n\nThus, **option 2** is correct.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ea4c3a2bab3d041db3c76b97ff016aca46c9c472660016e5505cdfc3fb595da4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3f38fdb63a00775b9abb37625a32a2954bb17c06469f3c345172fb595df9a2e0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "621a7fe20994f039f234198c",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following letter-clusters will replace the question mark (?) in the given series?\n\nNYD, MXC, LWB, KVA, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "JUZ"
+        },
+        {
+          "label": "2",
+          "text": "JUY"
+        },
+        {
+          "label": "3",
+          "text": "JTZ"
+        },
+        {
+          "label": "4",
+          "text": "LTZ"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/2d26a4107141c8988092be3a6f971de10fd85269bdcee88518465cc72c114f65.png] \n\nGiven: NYD, MXC, LWB, KVA, ? \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/f4f16a5a5d9b81921f3d88c3fd520703d9d61223cf17a740f3847222f97fb98d.png] \n\nHence, **JUZ **is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2d26a4107141c8988092be3a6f971de10fd85269bdcee88518465cc72c114f65.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f4f16a5a5d9b81921f3d88c3fd520703d9d61223cf17a740f3847222f97fb98d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "570e1f29995a2d779291113b",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Some equations are solved on the basis of a certain system on the same basis, find out the correct answer for the unsolved equation.\n\nIf 8 – 7 = 6, 4 – 7 = 2, 13 – 6 = 12, then what should 18 – 9 be?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9"
+        },
+        {
+          "label": "2",
+          "text": "13"
+        },
+        {
+          "label": "3",
+          "text": "14"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "3",
+      "solution": "The relation between the numbers are:\n\n8 – 7 = 1 → 1 + 5 = 6\n\n4 – 7 = -3 → -3 + 5 = 2\n\n13 – 6 = 7 → 7 + 5 = 12\n\nThus,\n\n18 – 9 = 9 → 9 + 5 = 14\n\nHence answer is 14.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "633d11c102bf0b7cf063a24b",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The sum of the scores obtained by Ram and his two friends in an exam is 60% of the sum of the maximum marks for the exam for all three of them. If the ratio of their obtained marks is 4 ∶ 5 ∶ 6, how many of them scored more than 70% marks in the exam?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Three"
+        },
+        {
+          "label": "2",
+          "text": "None"
+        },
+        {
+          "label": "3",
+          "text": "One"
+        },
+        {
+          "label": "4",
+          "text": "Two"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given,\n\nThe sum of the scores obtained by Ram and his two friends in an exam is 60% of the sum of the maximum marks for the exam for all three of them\n\nThe ratio of their obtained marks is 4 ∶ 5 ∶ 6\n\nRatio of Ram : Ram's first friend : Ram's second friend = 4 : 5 : 6\n\nLet the sum of maximum marks for the exam for all three of them = 3M\n\nTotal sum of marks obtained = 4x + 5x + 6x\n\nTotal sum of marks obtained = 15x\n\nSum of the scores obtained by Ram and his two friends in an exam is 60%.\n\nTotal sum of marks obtained = Sum of the scores obtained by Ram and his two friends in an exam is 60% of the sum of the max marks\n\n⇒ 15x = 60% × 3M\n\n⇒ x = 4% × 3M\n\n⇒ x = {3M over 25}\n\n⇒ Percentage of marks scored by Ram = ((4 × {3M over 25} ) ÷ M) × 100\n\nPercentage of marks scored by Ram = {12 over 25} × 100\n\n**Percentage of marks scored by Ram = 48%**\n\n⇒ Percentage of marks scored by Ram's first friend = ((5 × {3M over 25} ) ÷ M) × 100\n\nPercentage of marks scored by Ram's first friend = {15 over 25} × 100\n\n**Percentage of marks scored by Ram's first friend = 60%**\n\n⇒ Percentage of marks scored by Ram's second friend = ((6 × {3M over 25} ) ÷ M) × 100\n\nPercentage of marks scored by Ram's second friend = {18 over 25} × 100\n\n__**Percentage of marks scored by Ram's second friend = 72%**__\n\n∴ Here, Only Ram's second friend has scored more than 70% i.e., 72%\n\nHence, the correct answer is **\"One\".**\n\n66",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "63766ac161b36edca0c28768",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Three of the following four letter-clusters are alike in a certain way and one is different. Pick the odd one out.",
+      "options": [
+        {
+          "label": "1",
+          "text": "EIO"
+        },
+        {
+          "label": "2",
+          "text": "YCl"
+        },
+        {
+          "label": "3",
+          "text": "PTY"
+        },
+        {
+          "label": "4",
+          "text": "DHN"
+        }
+      ],
+      "correct": "3",
+      "solution": "Table of English alphabet series\n\n [IMAGE: https://cdn.repeatermock.com/tb/9e82b7da6e41b2a069e2db44b7b686c69a4d8afae6d389dc05a659aaeaa56953.png] \n\nThe pattern followed here is:\n\n1. EIO → [IMAGE: https://cdn.repeatermock.com/tb/332b6d9b5f865b74e98e79fe146057311fd7b5dd1db3c2f72e59b6a3fee6926d.png] \n\n2. YCI → [IMAGE: https://cdn.repeatermock.com/tb/dbbe58d2f2c10bd2dae62b125ec778289d8addfa134328b40bd33dbee8ae143e.png] \n\n**3. PTY → [IMAGE: https://cdn.repeatermock.com/tb/a9445f53fcd5f2847ed44f7e050598e89fd42e272cfbf28639a85b827b6f6476.png] **\n\n4. DHN → [IMAGE: https://cdn.repeatermock.com/tb/6e9c7c3b87b0c1cc6819c0efa39724508867c8b3396db67c7584a1b4d4857b01.png] \n\nPTY doesn't follow the pattern \n\nHence, **\"Option 3\" **is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9e82b7da6e41b2a069e2db44b7b686c69a4d8afae6d389dc05a659aaeaa56953.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/332b6d9b5f865b74e98e79fe146057311fd7b5dd1db3c2f72e59b6a3fee6926d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/dbbe58d2f2c10bd2dae62b125ec778289d8addfa134328b40bd33dbee8ae143e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a9445f53fcd5f2847ed44f7e050598e89fd42e272cfbf28639a85b827b6f6476.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6e9c7c3b87b0c1cc6819c0efa39724508867c8b3396db67c7584a1b4d4857b01.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "64cb55ecef8b5ae40a66b432",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below. \n\n [IMAGE: https://cdn.repeatermock.com/tb/4fc94f30150233f80dd94a27d313eb06b7dece967cdda21f43ab2fee213c71cf.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/3d0b0cb2de4a15a6c8c331b22310130192ea2ed0790044d44c7d9d994ddf3b61.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/cd0f7468df6b9ac6a6a7aa2e46136a392ec08de1d74db4a54225497e0b6ff7dd.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/222b10aae3469c2d720c502381b5e011bd805a40f82b8deed697e0f2f7d4ae7f.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/421430502da5468a29087df6af1234091ef4536dd5f76033de2a3ed30a45cfd8.png]"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct mirror image of the given combination when mirror is placed at MN is as shown below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/eb6822096be7f948856d91382dbf4a72331a0f444300ff55417a9ac31f45bc87.png] \n\n__Detailed Explanation:__\n\n \n• The line MN is the mirror\n \n• The word \"Tjft35j5s\" the third letter is \"f\". So, the mirror image should be \" [IMAGE: https://cdn.repeatermock.com/tb/6ca620a2337616794cf5068e4372ffd6c06130d554ecf9ff2ea3637270a5ff62.png] \" ⇒ Option 1 is eliminated.\n \n• The word \"Tjft35j5s\" the fifth digit is \"3\". So, the mirror image should be \" [IMAGE: https://cdn.repeatermock.com/tb/deb4c831bf695ad2be573c26fb52be9f57a5ab6136f842c97bbd90447d43208e.png] \" ⇒ Option 2 is eliminated..\n \n• The word \"Tjft35j5s\" the third letter is \"f\". So, the mirror image should be \" [IMAGE: https://cdn.repeatermock.com/tb/6ca620a2337616794cf5068e4372ffd6c06130d554ecf9ff2ea3637270a5ff62.png] \" ⇒ Option 3 is eliminated.\n\nHence, the correct answer is \"Option - (4)\".",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4fc94f30150233f80dd94a27d313eb06b7dece967cdda21f43ab2fee213c71cf.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/eb6822096be7f948856d91382dbf4a72331a0f444300ff55417a9ac31f45bc87.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6ca620a2337616794cf5068e4372ffd6c06130d554ecf9ff2ea3637270a5ff62.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/deb4c831bf695ad2be573c26fb52be9f57a5ab6136f842c97bbd90447d43208e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6ca620a2337616794cf5068e4372ffd6c06130d554ecf9ff2ea3637270a5ff62.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "605830ac245c64c51a43480c",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a code language, REJOICE is written as VXRLQVI. How will VICTORY be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "BILGERX"
+        },
+        {
+          "label": "2",
+          "text": "BILGXRE"
+        },
+        {
+          "label": "3",
+          "text": "ERXGLIB"
+        },
+        {
+          "label": "4",
+          "text": "ERXGBIL"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is: Each alphabet of the word 'REJOICE' is coded as its opposite pair of alphabet and then placed at its same position but from the opposite end.\n\n__CONCEPT:__\n\nOpposite pair means the alphabets which are at numerically same positions in alphabetical order but from the opposite ends. E.g. (A&Z), (B&Y), (C&X) etc.\n\n [IMAGE: https://cdn.repeatermock.com/tb/aefcd090e4721ab168474cd72dc7f0a88835716ce3c569f68482016e79ea81ae.png] \n\nThus, REJOICE is coded as-\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/cc8adb05ed278e4e5525c4d9082a1ce32bcee581bec2ec1da675ac8ea3989cc9.png] \n\nBy applying the same logic, VICTORY will be coded as-\n\n [IMAGE: https://cdn.repeatermock.com/tb/e9d396228ed5092e3049be13ffa81476575b1a600b2cda28f50238ae595420a5.png] \n\n \n\nTherefore, VICTORY will be coded as** BILGXRE.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aefcd090e4721ab168474cd72dc7f0a88835716ce3c569f68482016e79ea81ae.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/cc8adb05ed278e4e5525c4d9082a1ce32bcee581bec2ec1da675ac8ea3989cc9.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e9d396228ed5092e3049be13ffa81476575b1a600b2cda28f50238ae595420a5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "624b2a9a084ad617d3d7c81f",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "‘Belgium’ is related to ‘Euro’ in the same way as ‘Slovakia’ is related to ‘________’.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Euro"
+        },
+        {
+          "label": "2",
+          "text": "Riel"
+        },
+        {
+          "label": "3",
+          "text": "Ruble"
+        },
+        {
+          "label": "4",
+          "text": "Dollar"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\n \n• ‘Belgium’ is related to ‘Euro’ → The **euro** is the official currency of **Belgium**.\n\nSimilarly,\n\n \n• ‘Slovakia’ is related to ‘________’ →The **euro** is the official currency of **Slovakia**.\n\nHence, '**Euro**' is the correct answer.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5fe9743d5800e8b376f96fc6",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the figure that will replace the question mark (?) in the following figure series.\n\n [IMAGE: https://cdn.repeatermock.com/tb/1bf9cf8b9d631ed607c56020cce51f4bd3942acc2968b6c36179b6cb49c87a09.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/a40d31a13f92927382cae3dd06b721675228e79e1fa0abebb9565d44c8393412.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/e6841d0a80bc3ba7e9dd8b0af6b3d490d1416721ee42def4db1effc6fb965bff.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/2156031181c1e4c37df17811cf7a0412a0e1585545e52473a43d1f7de791db91.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/6dff9524b6f308dacd6c5a7148d182c01071377727148102c223df2edbec080f.png]"
+        }
+      ],
+      "correct": "2",
+      "solution": "The pattern followed here is:\n\n \n \n\n **Symbol at:**\n **Moves to:**\n \n \n\n Top left corner\n The center\n \n \n\n The center\n Bottom right corner\n \n \n\n Bottom right corner\n Top right corner\n \n \n\n Top right corner\n Bottom left corner\n \n \n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f80c9e53198ed08117b5f0eba22686f88b537b46515a430c34bcc2c41b135fac.png] \n\nHence the correct answer is **\"****Option 2\"**.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1bf9cf8b9d631ed607c56020cce51f4bd3942acc2968b6c36179b6cb49c87a09.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f80c9e53198ed08117b5f0eba22686f88b537b46515a430c34bcc2c41b135fac.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "635658628f6b1a1b1200f6af",
+      "n": 26,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.\n\n8 : 127 :: 5 : 49 :: 11 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "103"
+        },
+        {
+          "label": "2",
+          "text": "214"
+        },
+        {
+          "label": "3",
+          "text": "203"
+        },
+        {
+          "label": "4",
+          "text": "241"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is,\n\n**{(First Number)² × 2} - 1 = Second Number.**\n\nThe logic followed in the above-given numbers,\n\n8 : 127 → (8² × 2) - 1 ⇒ 64 × 2 - 1 ⇒ 128 - 1 = 127\n\nsimilarly,\n\n5 : 49 → 52 × 2) - 1 ⇒ 25 × 2 - 1 ⇒ 50 - 1 = 49\n\nSo,\n\n**11 : 241 → 112 × 2) - 1 ⇒ 121 × 2 - 1 ⇒ 242 - 1 = 241**\n\nHence, the correct answer is \"**241\"**.",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "5f7b2ff24286016c37f27b08",
+      "n": 27,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the angle between both the hands when it is 7:30 o’clock in the morning?",
+      "options": [
+        {
+          "label": "1",
+          "text": "40"
+        },
+        {
+          "label": "2",
+          "text": "45"
+        },
+        {
+          "label": "3",
+          "text": "55"
+        },
+        {
+          "label": "4",
+          "text": "30"
+        }
+      ],
+      "correct": "2",
+      "solution": "We use formula,\n\nAngle =│(60H -11M)/2│ Where, H = hours and = minutes\n\nAngle =│(60x7 – 11x30)/2│\n\nAngle =│90/ 2 │→ = 45˚\n\nAngle = 45˚\n\nHence the correct answer will be 45˚",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "60018f63336fd8b2d7a3517e",
+      "n": 28,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.\n\n**Statements:**<o",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion I and III follow."
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion II and III follow"
+        },
+        {
+          "label": "3",
+          "text": "Only conclusion I and II follow."
+        },
+        {
+          "label": "4",
+          "text": "Only conclusion II follow"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given,\n\nStatements:\n\nNo plastic is iron.\n\nAll steel is iron.\n\nConclusions:\n\nI. Some plastic is steel.\n\nII. Some iron is steel.\n\nIII. No steel is plastic.\n\nThe least possible Venn diagram is as follows,\n\n [IMAGE: https://cdn.repeatermock.com/tb/676d05d0c3c0f8d926419954fde3114433346a092e61dee880c72b69f32224f9.png] \n\nConclusions:\n\nI. Some plastic is steel ⟶ False (From Venn diagram we see no plastic is steel)\n\nII. Some iron is steel ⟶ True (From Venn diagram we see some iron is steel)\n\nIII. No steel is plastic ⟶ True (From Venn diagram we see no plastic is steel)\n\n**Hence, the correct answer is Only conclusion II and III follow.**\n\n35:T",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/676d05d0c3c0f8d926419954fde3114433346a092e61dee880c72b69f32224f9.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "6301f1d3a429aa090bd09537",
+      "n": 29,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Four number pairs have been given out of which three are alike in some manner and one is different. Select the odd one.",
+      "options": [
+        {
+          "label": "1",
+          "text": "11, 125"
+        },
+        {
+          "label": "2",
+          "text": "13, 172"
+        },
+        {
+          "label": "3",
+          "text": "9, 85"
+        },
+        {
+          "label": "4",
+          "text": "8, 68"
+        }
+      ],
+      "correct": "2",
+      "solution": "Check all the options:\n\n**(1) 11, 125 →**\n\n**Logic:**\n\nThe second number = (First number)² + 4\n\n(11)² + 4 = 121 + 4 = 125\n\n**(2) 13, 172 ****→**\n\n**Logic:**\n\nThe second number = (First number)2 + 3\n\n(13)² + 3 = 169 + 3 = 172\n\n**(3) 9, 85 →**\n\n**Logic:**\n\nThe second number = (First number)2 + 4\n\n(9)² + 4 = 81 + 4 = 85\n\n**(4) 8, 68 →**\n\n**Logic:**\n\nThe second number = (First number)2 + 4\n\n(8)² + 4 = 64 + 4 = 68\n\nHere, In '13, 172' different logic is followed.\n\nHence, the correct answer is** \"Option (2)\".**",
+      "tags": [
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "qid": "624c81f3c78456d2823ab079",
+      "n": 30,
+      "type": "mcq",
+      "concept": "Logical Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the correct mirror image of the given combination when the mirror is placed at the right side.\n\n [IMAGE: https://cdn.repeatermock.com/tb/d520beec9a6900a90dee36ff87b1f063fc59a1a28a192f24ab535436469ee392.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/ee5d2e5f45b1d26c3e66632185b704a1272f4fe18c23cc3edf51fd83b278d519.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/ab507bf9b27f509f69801e02f1f0d3a5284b4c6cbaf02b685c31cd942814e429.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/5114bcd17fa72f57ec6b69e1faa6576deb0ed9f0addbaa2c29f7c4690e1a5ede.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/20e86ba0d1270322d9568d33d600b24bdc314b03471773671dc26010ae68732b.png]"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct mirror image of the given combination when the mirror is placed at PQ is as shown below :-\n\n [IMAGE: https://cdn.repeatermock.com/tb/715d74ccb6b4979f1cf458daad24bce28a93b96598dc480c1595b4cf1e41d35b.png] \n\n__Detailed Explanation:__\n\n \n• The line PQ is the mirror.\n \n• The word \"fhdB31\" ends with number '1'. So, the mirror image starts with \"<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/4c487e1fe922eae3a667442abc0b6b76647d776b98ad6a9d9600585d28fe4176.png&q",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d520beec9a6900a90dee36ff87b1f063fc59a1a28a192f24ab535436469ee392.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/715d74ccb6b4979f1cf458daad24bce28a93b96598dc480c1595b4cf1e41d35b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Logical Reasoning"
+      ]
+    }
+  ]
+}

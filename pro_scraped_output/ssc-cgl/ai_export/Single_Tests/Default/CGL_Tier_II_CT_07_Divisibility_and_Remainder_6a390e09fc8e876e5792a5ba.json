@@ -1,0 +1,406 @@
+{
+  "test_id": "6a390e09fc8e876e5792a5ba",
+  "title": "CGL Tier II CT 07: Divisibility and Remainder",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:16:02.186593+00:00",
+  "questions": [
+    {
+      "qid": "639f32915f04a24ae420e440",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the largest 5 digit number divisible by 89?",
+      "options": [
+        {
+          "label": "1",
+          "text": "99911"
+        },
+        {
+          "label": "2",
+          "text": "99947"
+        },
+        {
+          "label": "3",
+          "text": "99989"
+        },
+        {
+          "label": "4",
+          "text": "99999"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nLargest 5-digit number divisible by 89.\n\n**Concept used:**\n\nLargest 5-digit number = 99999.\n\n**Calculations:**\n\nWhen 99999 is divided by 89,\n\n=> 99999 = 89 × 1123 + 52\n\nQuotient is 1123 and remainder is 52.\n\nThus, largest 5-digit number which is divisible by 89 = 99999 - 52\n\n= 99947\n\n∴**The answer is 99947.**"
+    },
+    {
+      "qid": "62d8e4ac15e669baa389ba88",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Divisibility and Remainder",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the greatest possible value of (a + b) for which the 8-digit number 143b203a is divisible by 15.",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "17"
+        },
+        {
+          "label": "3",
+          "text": "16"
+        },
+        {
+          "label": "4",
+          "text": "14"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDivisibility by 15 requires divisibility by both 3 and 5.\n\nFor divisibility by 5, the last digit 'a' must be 0 or 5.\n\nTo maximize (a + b), we pick the largest 'a', so a = 5.\n\nSum of digits = 1 + 4 + 3 + b + 2 + 0 + 3 + 5 = 18 + b.\n\nFor divisibility by 3, (18 + b) must be a multiple of 3; the largest digit 'b' is 9.\n\nGreatest (a + b) = 5 + 9 = 14.\n\n**∴ The correct answer is 14.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven 8-digit number: 143b203a\n\nCondition: Divisible by 15 (i.e., divisible by 3 and 5).\n\n [IMAGE: https://cdn.repeatermock.com/tb/10567b8e03308cb734fc87e8e262dcbbabe65f905e33e5d6b409916b2d19c9df.png] \n\n⇒ Divisibility by 5: Last digit 'a' must be 0 or 5.\n\n⇒ Divisibility by 3: Sum of digits = (1 + 4 + 3 + b + 2 + 0 + 3 + a) = (13 + a + b) must be divisible by 3.\n\n⇒ Case 1: If a = 5 (largest possible last digit):\n\n⇒ Sum = 13 + 5 + b = 18 + b.\n\n⇒ For (18 + b) to be divisible by 3, possible values for b are 0, 3, 6, 9.\n\n⇒ Maximum value of b = 9. So, (a + b) = 5 + 9 = 14.\n\n⇒ Case 2: If a = 0:\n\n⇒ Sum = 13 + 0 + b = 13 + b.\n\n⇒ For (13 + b) to be divisible by 3, possible values for b are 2, 5, 8.\n\n⇒ Maximum value of b = 8. So, (a + b) = 0 + 8 = 8.\n\n⇒ Comparing Case 1 and Case 2, the greatest possible value of (a + b) is 14.\n\n**∴ The correct answer is 14.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nDivisibility by 3\n\nA number is divisible by 3 if the sum of its individual digits is divisible by 3.\n\nDivisibility by 5\n\nA number is divisible by 5 if its unit digit (last digit) is either 0 or 5.\n\nDivisibility by Composite Numbers\n\nTo check divisibility by a composite number n, check if it is divisible by its co-prime factors (e.g., 15 = 3 × 5, where HCF(3, 5) = 1).\n\nDivisibility by 9\n\nSimilar to 3, a number is divisible by 9 if the sum of its digits is divisible by 9.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/10567b8e03308cb734fc87e8e262dcbbabe65f905e33e5d6b409916b2d19c9df.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Divisibility and Remainder"
+      ]
+    },
+    {
+      "qid": "61e7d3a1b7f0646e3c454706",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Divisibility and Remainder",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If the number 87m6203m is divisible by 6, then find the sum of all possible values ​​of 'm'",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "20"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n87m6203m is divisible by 6\n\n**Concept used:**\n\nIf a number is completely divisible by 3 if the sum of its digits is divisible by 3\n\nIf a number ends in a 0, 2, 4, 6 or 8, it is divisible by 2\n\n**Calculation:**\n\nPossible values of m could be 0, 2, 4, 6, 8\n\nWith 0,&l",
+      "tags": [
+        "Divisibility and Remainder"
+      ]
+    },
+    {
+      "qid": "62c725b8e4aa74ade16fd784",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Divisibility and Remainder",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "How many two-digit numbers are divisible by 3 or 5?",
+      "options": [
+        {
+          "label": "1",
+          "text": "48"
+        },
+        {
+          "label": "2",
+          "text": "41"
+        },
+        {
+          "label": "3",
+          "text": "42"
+        },
+        {
+          "label": "4",
+          "text": "40"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nDivisible by 3 **or** 5\n\n**Concept used:**\n\nUsing the formula of finding the nth term of an AP\n\naₙ = a + (n - 1) × d\n\n**Calculation:**\n\nThe first two-digit number divisible by 3 is 12\n\nThe second two-digit number divisible by 3 is 15\n\nThe third is 18\n\nWe can see that an AP is formed here, whose first term is 12 and the common difference is **3**\n\nBy hit and trial we can find the last two-digit number divisible by 3 will **99, **which** **means the last term of an AP is 99\n\n Here, a = 12 , d = 3 and aₙ = 99\n\nBy putting the values in the formula,\n\n99 = 12 + (n - 1) × 3\n\nn - 1 = 29 \n\nn = 30\n\n**The two-digit numbers divisible by 3 are 30**\n\nSimilarly, by taking 10 as the first and 95 as the last digit we could find the number of two digit numbers divisible by 5,\n\n Here, a = 10 , d = 5 and an = 95\n\nBy putting the values in the formula,\n\n95 = 10 + (n - 1) × 5\n\nn - 1 = 17\n\nn = 18\n\n**The two-digit numbers divisible by 5 is 18**\n\nIt is asked in the question that the two-digit number should either be divisible by 3 or 5 but not by both,\n\nThe number of two-digit numbers divisible by both can be found by forming AP(Arithmetic progression) as same as above-\n\nHere, the **first term** and the **common difference** will be **L.C.M.(3 , 5)** i.e. **15**\n\n⇒By hit and trial, the **last term will be 90**\n\nUsing nth term formula of an A.P , an = a + (n +1) × d\n\n⇒90 = 15 + (n - 1) × 15\n\n75 = (n - 1) × 15\n\n5 = (n - 1)\n\n**.·. n = 6**\n\nThe two-digit numbers divisible by both 3 and 5 are 6.\n\nSo, The total number of two-digit numbers divisible by 3 or 5 will be,\n\n**(Number divisible by 3) + (Number divisible by 5) - (Number divisible by both 3 and 5)**\n\n**⇒**30 + 18 - 6 = 42\n\n**∴ The two-digit numbers divisible by 3 or 5 are 42.**",
+      "tags": [
+        "Divisibility and Remainder"
+      ]
+    },
+    {
+      "qid": "635c30e522b2db5c84c10ba4",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Cube and Cube Root",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "'If N = 9⁹, then N Is divisible by how many positive perfect cubes?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "7"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "correct": "2",
+      "solution": "N = 99\n\nN = 3¹⁸\n\nCubes = 3⁰, 3³, 3⁶, 3⁹, 3¹², 3¹⁵, 3¹⁸\n\nSo, total no. of cubes = 7",
+      "tags": [
+        "Cube and Cube Root"
+      ]
+    },
+    {
+      "qid": "67389924f7062e014871fc32",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Divisibility and Remainder",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the largest positive integer that will divide 398, 436 and 542 leaving reminders 7, 11 and 15 respectively.",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "17"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "21"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nNumbers are 398, 436, and 542 with remainders 7, 11, and 15 respectively.\n\n**Formula Used:**\n\nTo find the largest positive integer that divides multiple numbers leaving specific remainders, we use the formula for the greatest common divisor (GCD) of the differences of the numbers after adjusting for the remainders.\n\n**Calculation:**\n\nAdjusted numbers:\n\n398 - 7 = 391\n\n436 - 11 = 425\n\n542 - 15 = 527\n\nNow, find the GCD of (391, 425, 527):\n\n391 = 17 × 23\n\n425 = 17 × 5²\n\n527 = 17 × 31\n\nGCD of (391, 425, 527) is 17.\n\nThus, the largest positive integer that divides 398, 436, and 542 leaving remainders 7, 11, and 15 respectively is 17.\n\n**The correct answer is option 2: 17.**",
+      "tags": [
+        "Divisibility and Remainder"
+      ]
+    },
+    {
+      "qid": "6586c3e3fa2b1a60eae32a8d",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Divisibility and Remainder",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If (2222)⁵⁵⁵⁵ is divided by 7, the remainder will be _________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "correct": "4",
+      "solution": "**__Concept:__**\n\nFermat's Little Theorem:\n\nap⁻¹ ≡1(mod p)\n\nwhere �\" id=\"MathJax-Element-17-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">��\" id=\"MathJax-Element-342-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">��\" id=\"MathJax-Element-77-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">��\n�\n � � a is an integer not divisible by p and p�\" id=\"MathJax-Element-18-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">��\" id=\"MathJax-Element-343-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">��\" id=\"MathJax-Element-78-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">��\n�\n � � is a prime number.\n\n**__Explanation:__**\n\nLet's find 2222 (mod 7)\n\nWe know,\n\n2222 ≡ 3 (mod7)\n\n2222⁵⁵⁵⁵ ≡ 3⁵⁵⁵⁵ (mod 7)\n\nNow, Find 3⁵⁵⁵⁵(mod7)\n\n3⁷⁻¹ compared with fermat's little theorem ap⁻¹ ≡1(mod p) here, we get 7 is prime a = 3 So, \n\nBy fermet's theorem\n\n3⁶≡1(mod7)\n\n(3⁶)⁹²⁵≡1(mod7)\n\n3⁵⁵⁵⁰≡1(mod7)\n\n3⁵⁵⁵⁵≡3⁵(mod7)\n\nNow, 3⁵≡5(mod7)\n\n⇒ 3⁵⁵⁵⁵≡5(mod7)\n\n⇒ 2222⁵⁵⁵⁵≡5(mod7)\n\n**Hence, OPTION (4) is true**\n\n45:T16d2,\n\n<u&g",
+      "tags": [
+        "Divisibility and Remainder"
+      ]
+    },
+    {
+      "qid": "63a2c553af02f27f43d2f415",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Divisibility and Remainder",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If a three digit number 7X6 is divisible by 11, then the value of X is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nApply the **divisibility rule of 11**: (Sum of digits at odd places) − (Sum of digits at even places) = 0 or 11.\n\nFor the number **7X6**:\n\n(7 + 6) − X = 11\n\n13 − X = 11 ⇒ X = 2\n\n**∴ The correct answer is 2.**\n\n**__Alternate Method__**\n\n**Given:** The three-digit number is **7X6** and it is **divisible by 11**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/83c450f47f4f2f4e6255c6d88bb6cdc955bbc2764edbfed8cf40168942002761.png] \n\nAccording to the **Divisibility Rule of 11**:\n\n⇒ Sum of digits at **odd places** = 7 + 6 = 13\n\n⇒ Sum of digits at **even places** = X\n\n⇒ The difference must be 0 or a multiple of 11 (11, 22, ...).\n\n⇒ |13 − X| = 0 (Not possible as X would be 13, which is not a single digit)\n\n⇒ 13 − X = 11\n\n⇒ X = 13 − 11\n\n⇒ X = 2\n\nThus, the number is **726**. Verification: 726 ÷ 11 = 66. Since the calculation is consistent, **Option (2)** is the correct choice.\n\n**∴ The correct answer is 2.**\n\n**__Additional Information__**\n\nDivisibility Rule of 11\n\nA number is divisible by 11 if the difference between the sum of digits at odd places and the sum of digits at even places is 0 or divisible by 11.\n\nDivisibility Rule of 3\n\nA number is divisible by 3 if the **sum of its digits** is divisible by 3.\n\nDivisibility Rule of 9\n\nA number is divisible by 9 if the **sum of its digits** is divisible by 9.\n\nSingle Digit Constraint\n\nIn any number notation ABC, the placeholders A, B, and C must be **integers from 0 to 9**.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/83c450f47f4f2f4e6255c6d88bb6cdc955bbc2764edbfed8cf40168942002761.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Divisibility and Remainder"
+      ]
+    },
+    {
+      "qid": "5f6b1191d84d0a7c7d8b6dd6",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Divisibility and Remainder",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the smallest number which will leave remainder 5 when divided by 8, 12, 16 and 20.",
+      "options": [
+        {
+          "label": "1",
+          "text": "265"
+        },
+        {
+          "label": "2",
+          "text": "245"
+        },
+        {
+          "label": "3",
+          "text": "240"
+        },
+        {
+          "label": "4",
+          "text": "235"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe **smallest number** divisible by 8, 12, 16, and 20 is their **LCM**.\n\n**LCM** (8, 12, 16, 20) = 240.\n\nTo leave a **remainder** of 5, add 5 to the LCM.\n\nRequired Number = 240 + 5 = 245.\n\n**∴ The correct answer is 245.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** Divisors are 8, 12, 16, 20 and the **remainder** is 5.\n\n**Formula Used:** Required Number = **LCM**(divisors) + **Remainder**\n\n [IMAGE: https://cdn.repeatermock.com/tb/95544f4e304c3dfae77df6ba4c99f8503a76b0f2394cddbdc5b6b00fc89c2206.png] \n\nStep 1: Find the **Prime Factorization** of the numbers:\n\n⇒ 8 = 2³\n\n⇒ 12 = 2² × 3\n\n⇒ 16 = 2⁴\n\n⇒ 20 = 2² × 5\n\nStep 2: Calculate the **LCM** by taking highest powers:\n\n⇒ LCM = 2⁴ × 3 × 5 = 16 × 15 = 240\n\nStep 3: Add the constant **remainder**:\n\n⇒ Smallest number = 240 + 5\n\n⇒ Smallest number = 245\n\n**∴ The correct answer is 245.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nLCM (Least Common Multiple)\n\nThe smallest positive integer that is **divisible** by each of the given numbers without leaving a remainder.\n\nDifferent Remainder Case\n\nIf remainders (r₁, r₂...) are different but (Divisor − Remainder) = k is **constant**, then number = LCM(Divisors) − k.\n\nHCF Relationship\n\nFor two numbers A and B: **A × B = LCM(A, B) × HCF(A, B)**.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/95544f4e304c3dfae77df6ba4c99f8503a76b0f2394cddbdc5b6b00fc89c2206.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Divisibility and Remainder"
+      ]
+    },
+    {
+      "qid": "5f7469cd5a6b3a2f43184942",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Divisibility and Remainder",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If x divided by 6 then remainder 5. What will be remainder if (x + 5) divided by 3:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nPick the smallest **value** for **x** satisfying the condition: **x** = 6 × 1 + 5 = 11.\n\nSubstitute **x** = 11 into the expression (**x** + 5).\n\n(11 + 5) = 16.\n\nDivide 16 by 3 → 16 = 3 × 5 + 1.\n\n**Remainder** = 1.\n\n**∴ The correct answer is 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/aa27a9ef5aff3d27ccfd9fb218d005a42b3b44d66063ca4eb2c654004c861c8a.png] \n\n**Given:** **x** = 6k + 5, where **k** is an **integer**.\n\n**To Find:** **Remainder** of (**x** + 5) ÷ 3.\n\n⇒ (**x** + 5) = (6k + 5) + 5\n\n⇒ (**x** + 5) = 6k + 10\n\n⇒ (**x** + 5) = 3(2k) + (3 × 3 + 1)\n\n⇒ (**x** + 5) = 3(2k + 3) + 1\n\n⇒ Since 3(2k + 3) is **exactly divisible** by 3, the **remainder** is 1.\n\n**∴ The correct answer is 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nEuclid's Division Lemma\n\nAny **positive integer** a can be written as a = bq + r, where 0 ≤ r < b.\n\nRemainder Addition Rule\n\nIf **x** leaves **remainder** r₁ when divided by **n**, then (**x** + a) leaves the **remainder** that (r₁ + a) leaves when divided by **n**.\n\nDivisibility and Factors\n\nIf a **number** is **divisible** by 6, it is **automatically divisible** by all **factors** of 6 (i.e., 1, 2, and 3).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/aa27a9ef5aff3d27ccfd9fb218d005a42b3b44d66063ca4eb2c654004c861c8a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Divisibility and Remainder"
+      ]
+    }
+  ]
+}

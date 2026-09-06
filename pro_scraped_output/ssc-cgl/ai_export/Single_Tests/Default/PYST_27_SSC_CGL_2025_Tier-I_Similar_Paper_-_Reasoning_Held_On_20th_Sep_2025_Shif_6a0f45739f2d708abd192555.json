@@ -1,0 +1,1018 @@
+{
+  "test_id": "6a0f45739f2d708abd192555",
+  "title": "PYST 27: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 20th Sep 2025 Shift 3)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:06:22.260712+00:00",
+  "questions": [
+    {
+      "qid": "6960b590aaba4ae8fc12bf99",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the same address.\n\nSample: Tower-6, Flat 1102, Skyline Greens, New Town, Kolkata - 700156?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Flat 1102, Skyline Greens, New Town, Kolkata - 701056"
+        },
+        {
+          "label": "2",
+          "text": "Apt 1102, Skyline Greens, New Town, Kolkata - 700156"
+        },
+        {
+          "label": "3",
+          "text": "Tower-6, Flat 1102, Skyline Greens, New Town, Kolkata - 700156"
+        },
+        {
+          "label": "4",
+          "text": "Flat 1102, Skyline Greens, New Town, Kolkatta - 700156"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given: Tower-6, Flat 1102, Skyline Greens, New Town, Kolkata - 700156\n\nOption 1) __**Flat**__ 1102, Skyline Greens, New Town, Kolkata - 701056 → Incorrect\n\nOption 2) __**Apt **__1102, Skyline Greens, New Town, Kolkata - 700156 → Incorrect\n\nOption 3) Tower-6, Flat 1102, Skyline Greens, New Town, Kolkata - 700156 → Correct\n\nOption 4) __**Flat**__ 1102, Skyline Greens, New Town, __**Kolkatta**__ - 700156 → Incorrect\n\nThus, the address in option 3 is exactly similar to the given address.\n\nHence, \"Option 3\" is the correct answer.",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "6960b591a81945e460b34ceb",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the signs to be interchanged.\n\n20 / 5 + 10 - 4 × 2 = 38?",
+      "options": [
+        {
+          "label": "1",
+          "text": "/ and -"
+        },
+        {
+          "label": "2",
+          "text": "+ and ×"
+        },
+        {
+          "label": "3",
+          "text": "× and /"
+        },
+        {
+          "label": "4",
+          "text": "- and ×"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nGiven: 20 / 5 + 10 - 4 × 2 = 38\n\nAccording to the question, after interchanging the signs:\n\nOption 1) / and -\n\n20 / 5 + 10 - 4 × 2 = 38 ⇒ 20 - 5 + 10 / 4 × 2 = 38\n\n⇒ 20 - 5 + __**10 / 4**__ × 2 = 38\n\n⇒ 20 - 5 + __**2.5 × 2**__ = 38\n\n⇒ __**20 + 5**__ - 5 = 38\n\n⇒ __**25 - 5**__ = 38\n\n⇒ 20 ≠ 38 (LHS ≠ RHS)\n\nOption 2) + and ×\n\n20 / 5 + 10 - 4 × 2 = 38 ⇒ 20 / 5 × 10 - 4 + 2 = 38\n\n⇒ __**20 / 5**__ × 10 - 4 + 2 = 38\n\n⇒ __**4 ×**____** 10**__ - 4 + 2 = 38\n\n⇒ __**40 + 2**__ - 4 = 38\n\n⇒ __**42**____** - 4**__ = 38\n\n⇒ **38 = 38 (LHS = RHS)**\n\nOption 3) × and /\n\n20 / 5 + 10 - 4 × 2 = 38 ⇒ 20 × 5 + 10 - 4 / 2 = 38\n\n⇒ 20 × 5 + 10 - __**4 / 2**__ = 38\n\n⇒ __**20 **____**×**____** 5**__ + 10 - 2 = 38\n\n⇒ __**100**____** + 10**__ - 2 = 38\n\n⇒ __**1**____**10 - 2**__ = 38\n\n⇒ 108 ≠ 38 (LHS ≠ RHS)\n\nOption 4) - and ×\n\n20 / 5 + 10 - 4 × 2 = 38 ⇒ 20 / 5 + 10 × 4 - 2 = 38\n\n⇒ __**20 / 5**__ + 10 × 4 - 2 = 38\n\n⇒ 4 + __**10 **____**×**____** 4**__ - 2 = 38\n\n⇒ __**4 + 40**__ - 2 = 38\n\n⇒ __**4**____**4 - 2**__ = 38\n\n⇒ 42 ≠ 38 (LHS ≠ RHS)\n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6960b5918351160cf2b1313a",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If + is -, - is +, × is /, / is ×, evaluate:\n\n20 - 8 × 4 + 3 / 5 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n +\n -\n ×\n /\n \n \n\n <td style=\"text-ali",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6960b591605aa22e4430a928",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "P is the sister of Q. Q is the brother of R. R is the son of S. How is P related to S?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Daughter"
+        },
+        {
+          "label": "2",
+          "text": "Mother"
+        },
+        {
+          "label": "3",
+          "text": "Sister"
+        },
+        {
+          "label": "4",
+          "text": "Wife"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png] \n\nGiven: \n\n1) P is the sister of Q.\n\n2) Q is the brother of R.\n\n [IMAGE: https://cdn.repeatermock.com/tb/1e5138b9e7825877ba485e71747e51e224cebb72d2411160e912ff0e106ab534.png] \n\n3) R is the son of S.\n\n [IMAGE: https://cdn.repeatermock.com/tb/75ab18440efd37f7dab34f0d91e6f5d98d3e16b611594751072dca4d121dd2a3.png] \n\nThus, P is S's daughter.\n\nHence, the correct answer is \"Option 1\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1e5138b9e7825877ba485e71747e51e224cebb72d2411160e912ff0e106ab534.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/75ab18440efd37f7dab34f0d91e6f5d98d3e16b611594751072dca4d121dd2a3.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "6960b59299d5c470afa9d0f5",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "J is the mother of K. K is the father of L. M is the son of J. How is M related to L?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Uncle"
+        },
+        {
+          "label": "2",
+          "text": "Father"
+        },
+        {
+          "label": "3",
+          "text": "Cousin"
+        },
+        {
+          "label": "4",
+          "text": "Brother"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png] \n\nGiven: \n\n1) J is the mother of K.\n\n2) K is the father of L.\n\n [IMAGE: https://cdn.repeatermock.com/tb/8be57c1fb02c4bb0f13e6c2dad198cf3687e6ff4e38b92d6c71872d483c59cb8.png] \n\n3) M is the son of J.\n\n [IMAGE: https://cdn.repeatermock.com/tb/81ef2a48d4e5e038d86caf3945bad552edf8b9a9ad656d8a8874c86ea41b1570.png] \n\nThus, M is L's uncle.\n\nHence, the correct answer is \"Option 1\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8be57c1fb02c4bb0f13e6c2dad198cf3687e6ff4e38b92d6c71872d483c59cb8.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/81ef2a48d4e5e038d86caf3945bad552edf8b9a9ad656d8a8874c86ea41b1570.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "6960b592ebd4ab08b6805a43",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Situation Reaction Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "You see a child lost in a mall. What should you do?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ignore"
+        },
+        {
+          "label": "2",
+          "text": "Take them home"
+        },
+        {
+          "label": "3",
+          "text": "Inform security"
+        },
+        {
+          "label": "4",
+          "text": "Leave them"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given situation: **You see a child lost in a mall\n\n \n \n\n Option\n Action\n Correctness\n Reasoning\n \n \n \n \n\n 1\n Ignore\n Incorrect\n Unsafe and irresponsible\n \n \n\n 2\n Take them home\n Incorrect\n \n \nInappropriate and risky \n\n \n \n \n\n 3\n Inform security\n **Correct**\n \n \nEnsures safe and proper help\n\n \n \n \n\n 4\n \n \nLeave them \n\n \n Incorrect\n Puts the child at risk\n \n \n\nQualities Projected in this situation: Responsibility\n\nHence, **\"Option 3\"** is the correct answer.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__ ** Checklist for attempting SRT questions:\n\n1) Read the question and options carefully.\n\n2) Look for options that are realistic, optimistic, and reflect officer-like qualities.\n\n3) Do not skip any situation.\n\n4) Relegate the negative sentences and choose the most logical option among the remaining. As time is an important factor, hence your thinking ability should be swift.\n\n5) React quickly and be logical.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__** Officer qualities:\n\n [IMAGE: https://cdn.repeatermock.com/tb/8b1968552899ac2b9319005599614d023ccf1040f0e3fa2d69b8aae6a68b107b.png]",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8b1968552899ac2b9319005599614d023ccf1040f0e3fa2d69b8aae6a68b107b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Situation Reaction Test"
+      ]
+    },
+    {
+      "qid": "6960b5923273af3b20ab40ab",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out:\n\n6 + 7 = 13\n\n2 + 3 = 5?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6 + 7 = 13"
+        },
+        {
+          "label": "2",
+          "text": "2 + 3 = 5"
+        },
+        {
+          "label": "3",
+          "text": "1 + 1 = 2"
+        },
+        {
+          "label": "4",
+          "text": "3 + 3 = 7"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\n6 + 7 = 13\n\n13 = 13 (LHS = RHS)\n\nAnd,\n\n2 + 3 = 5\n\n5 = 5 (LHS = RHS)\n\nSo checking each option one by one:\n\nOption 1) 6 + 7 = 13\n\n13 = 13 (LHS = RHS)\n\nOption 2) 2 + 3 = 5\n\n13 = 13 (LHS = RHS)\n\nOption 3) 1 + 1 = 2\n\n2 = 2 (LHS = RHS)\n\nOption 4) 3 + 3 = 7\n\n**6 ≠ 7 (LHS ≠ RHS)**\n\nHence, \"Option 4\" is the correct answer.",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "6960b593f6eb391e07ce2469",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Statement: All laptops are devices. Some devices are pricey. All pricey things are taxed.\n\nConclusions: I. Some devices are taxed. II. Some laptops are pricey?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "The least possible Venn diagram for the given statements is as shown below :\n\n [IMAGE: https://cdn.repeatermock.com/tb/044d2a30c5b9908a70013d3ae96e804bf608ce90f9b94d8e89a1aed704adf348.png] \n\nConclusions:\n\nI. Some devices are taxed. → Follow (As some devices are pricey and all pricey things are taxed. As some part of devices is common with pricey which whole comes in taxed, therefore it is true.)\n\nII. Some laptops are pricey → Does not follow (As all laptops are devices and some devices are pricey. So it is possible but not definite.)\n\n∴ Here, Only I follows.​\n\nHence, the correct answer is \"Option 1\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/044d2a30c5b9908a70013d3ae96e804bf608ce90f9b94d8e89a1aed704adf348.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "6960b5932f5c4112506e9573",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the word which cannot be formed from: TEACHERS?",
+      "options": [
+        {
+          "label": "1",
+          "text": "REACH"
+        },
+        {
+          "label": "2",
+          "text": "SHEAR"
+        },
+        {
+          "label": "3",
+          "text": "CHART"
+        },
+        {
+          "label": "4",
+          "text": "CARED"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given Word: TEACHERS\n\nOption 1) REACH → Can be formed\n\nOption 2) SHEAR → Can be formed\n\nOption 3) <",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "6960b5931c272080ae5e8b18",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "\"EUMASS\" is to \"ASSUME\" as \"LCECAN\" is to?",
+      "options": [
+        {
+          "label": "1",
+          "text": "CLEAN"
+        },
+        {
+          "label": "2",
+          "text": "CANCEL"
+        },
+        {
+          "label": "3",
+          "text": "ENLACE"
+        },
+        {
+          "label": "4",
+          "text": "LEANCE"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\n\"EUMASS\" is to \"ASSUME\"\n\n<img alt=\"\" src=\"",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "6960b594a81945e460b34d0b",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If BIRD is written as CJSE, how is WORM written?",
+      "options": [
+        {
+          "label": "1",
+          "text": "XPSN"
+        },
+        {
+          "label": "2",
+          "text": "XQSN"
+        },
+        {
+          "label": "3",
+          "text": "VQSL"
+        },
+        {
+          "label": "4",
+          "text": "XPSL"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\nBIRD is written as CJSE\n\n [IMAGE: https://cdn.repeatermock.com/tb/c186d843e3984d3512dfbdc57852b938a6fdf024f3364bcf3cf4a1fc857e3ab2.png] \n\nSimilarly,\n\nWORM is written as\n\n [IMAGE: https://cdn.repeatermock.com/tb/e555873ee3681230aecd54bcd88c5647d17c457a05d1319bb5ae9cd55bb10880.png] \n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c186d843e3984d3512dfbdc57852b938a6fdf024f3364bcf3cf4a1fc857e3ab2.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e555873ee3681230aecd54bcd88c5647d17c457a05d1319bb5ae9cd55bb10880.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "6960b5941c272080ae5e8b1d",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next? CVZ, FTX, IRV, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "JQT"
+        },
+        {
+          "label": "2",
+          "text": "KQU"
+        },
+        {
+          "label": "3",
+          "text": "MNS"
+        },
+        {
+          "label": "4",
+          "text": "LPT"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/39745606c3f2635bfe276679dbb7fe144ac1a05f3e5d278156d269217c3073fc.png] \n\nHence, \"Option 4\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/39745606c3f2635bfe276679dbb7fe144ac1a05f3e5d278156d269217c3073fc.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "6960b5943273af3b20ab4111",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out: Nifty, Sensex, Dow Jones, Aadhaar?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Nifty"
+        },
+        {
+          "label": "2",
+          "text": "Sensex"
+        },
+        {
+          "label": "3",
+          "text": "Dow Jones"
+        },
+        {
+          "label": "4",
+          "text": "Aadhaar"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\nOption 1) Nifty → Stock market indices\n\nOption 2) Sensex → Stock market indices\n\nOption 3) Dow Jones → Stock market indices\n\nOption 4) Aadhaar → **Unique identification system.**\n\nHence, the correct answer is \"Option 4\".",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "6960b5952e477f2c0030284a",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the next term: CEGI, DFHJ, FHJL, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "HJLN"
+        },
+        {
+          "label": "2",
+          "text": "JLNP"
+        },
+        {
+          "label": "3",
+          "text": "JLNR"
+        },
+        {
+          "label": "4",
+          "text": "KMOQ"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/0b754039e951401db75becee54ecf3b4d4b004d5476ceeff170c9286eb9b9454.png] [IMAGE: https://cdn.repeatermock.com/tb/4e88fccb112eef73d28d45c09cf12d3f4be8a6296896069fbb75470535f2e6d0.png] \n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0b754039e951401db75becee54ecf3b4d4b004d5476ceeff170c9286eb9b9454.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4e88fccb112eef73d28d45c09cf12d3f4be8a6296896069fbb75470535f2e6d0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "6960b5953f111acb4d8fc6a5",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 6 workers take 6 hours to paint 6 walls, how long for 100 workers to paint 100 walls?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6 hours"
+        },
+        {
+          "label": "2",
+          "text": "100 hours"
+        },
+        {
+          "label": "3",
+          "text": "50 hours"
+        },
+        {
+          "label": "4",
+          "text": "10 hours"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given: 6 workers take 6 hours to paint 6 walls\n\nRate of work per worker → 6 walls ÷ 6 workers = 1 wall per worker in 6 hours\n\nSo, 1 worker paints 1 wall in 6 hours\n\nThus, with 100 workers, each painting 1 wall each\n\n∴ **100 worker paints 100 wall in 6 hours**\n\nHence, **\"Option 1\"** is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6960b5955c3d013afbf97ac8",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Situation Reaction Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "You are an emergency responder. A caller is panicked. What do you do first?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Complete paperwork"
+        },
+        {
+          "label": "2",
+          "text": "Calm them and get location"
+        },
+        {
+          "label": "3",
+          "text": "Hang up"
+        },
+        {
+          "label": "4",
+          "text": "Wait for supervisor"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given situation: You are an emergency responder. A caller is panicked. \n\n \n \n\n Option\n Action\n Correctness\n Reasoning\n \n \n \n \n\n 1\n Complete paperwork\n Incorrect\n Delays emergency response\n \n \n\n 2\n Calm them and get location\n Correct\n \n \nEnsures cooperation and location is critical to send help \n\n \n \n \n\n 3\n Hang up\n Incorrect\n \n \nAbandons the caller in crisis\n\n \n \n \n\n 4\n \n \nWait for supervisor\n\n \n Incorrect\n Wastes crucial time\n \n \n\nQualities Projected in this situation: Presence of mind and Quick decision making\n\nHence, \"Option 2\" is the correct answer.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__** Checklist for attempting SRT questions:\n\n1) Read the question and options carefully.\n\n2) Look for options that are realistic, optimistic, and reflect officer-like qualities.\n\n3) Do not skip any situation.\n\n4) Relegate the negative sentences and choose the most logical option among the remaining. As time is an important factor, hence your thinking ability should be swift.\n\n5) React quickly and be logical\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__** Officer qualities:\n\n [IMAGE: https://cdn.repeatermock.com/tb/8b1968552899ac2b9319005599614d023ccf1040f0e3fa2d69b8aae6a68b107b.png]",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8b1968552899ac2b9319005599614d023ccf1040f0e3fa2d69b8aae6a68b107b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Situation Reaction Test"
+      ]
+    },
+    {
+      "qid": "6960b596a13a15eb87fb2f50",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If + means -, - means +, × means /, / means ×, evaluate:\n\n242 + 60 × 4 - 12 / 3 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "291"
+        },
+        {
+          "label": "2",
+          "text": "271"
+        },
+        {
+          "label": "3",
+          "text": "281"
+        },
+        {
+          "label": "4",
+          "text": "263"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n +\n -\n ×\n /\n \n \n\n Stands For\n -\n +\n /\n ×\n \n \n\nGiven: 242 + 60 × 4 - 12 / 3 = ?\n\n242 + 60 × 4 - 12 / 3 = ? ⇒ 242 - 60 / 4 + 12 × 3 = ?\n\n⇒ 242 - __**62 / 4**__ + 12 × 3 = ?\n\n⇒ 242 - 15 + __**12 **____**×**____** 3**__ = ?\n\n⇒ __**242 + 36**__ - 15 = ?\n\n⇒ __**278 - 15**__ = ?\n\n⇒ 263 = ?\n\nHence, \"Option 4\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6960b59699d5c470afa9d179",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Interchanging signs:\n\n+ is ×, - is /, × is +, / is -.\n\nWhich is correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 × 5 / 2 = 13"
+        },
+        {
+          "label": "2",
+          "text": "8 - 4 × 2 = 6"
+        },
+        {
+          "label": "3",
+          "text": "6 / 2 - 3 = 5"
+        },
+        {
+          "label": "4",
+          "text": "12 + 2 - 4 = 10"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n +\n -\n ×\n /\n \n \n\n Stands For\n ×\n /\n +\n -\n \n \n\n**So, checking each option one by one:**\n\nOption 1) 10 × 5 / 2 = 13 ⇒ 10 + 5 - 2 = 13\n\n⇒ __**10 + 5**__ - 2 = 13\n\n⇒ __**15 - 2**__ = 13\n\n⇒ **13 = 13 (LHS = RHS)**\n\nOption 2) 8 - 4 × 2 = 6 ⇒ 8 / 4 + 2 = 6\n\n⇒ __**8 / 4**__ + 2 = 6\n\n⇒ __**2 + 2**__ = 6\n\n⇒ 4 ≠ 6 (LHS ≠ RHS)\n\nOption 3) 6 / 2 - 3 = 5 ⇒ 6 - 2 / 3 = 5\n\n⇒ 6 - __**2 / 3**__ = 5\n\n⇒ __**6 - 0.67**__ = 5\n\n⇒ 5.33 ≠ 5 (LHS ≠ RHS)\n\nOption 4) 12 + 2 - 4 = 10 ⇒ 12 × 2 / 4 = 10\n\n⇒ 12 × __**2 / 4**__ = 10\n\n⇒ __**12 ×**____** 0.5**__ = 10\n\n⇒ 6 ≠ 10 (LHS ≠ RHS)\n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6960b5963f111acb4d8fc6b6",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If + is ×, - is +, × is -, evaluate:\n\n10 + 2 - 3 × 1 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "44"
+        },
+        {
+          "label": "2",
+          "text": "11"
+        },
+        {
+          "label": "3",
+          "text": "33"
+        },
+        {
+          "label": "4",
+          "text": "22"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n +\n -\n ×\n \n \n\n Stands For\n ×\n +\n -\n \n \n\nGiven: 10 + 2 - 3 × 1 = ?\n\n10 + 2 - 3 × 1 = ? ⇒ 10 × 2 + 3 - 1 = ?\n\n⇒ __**10 ×**____** 2**__ + 3 - 1 = ?\n\n⇒ __**20**____** + 3**__ - 1 = ?\n\n⇒ __**2**____**3 - 1**__ = ?\n\n⇒ 22 = ?\n\nHence, \"Option 4\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6960b59773494421a46ac414",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Situation Reaction Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "You are a security guard and see smoke. What do you do?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Evacuate and alert"
+        },
+        {
+          "label": "2",
+          "text": "Keep working"
+        },
+        {
+          "label": "3",
+          "text": "Ignore"
+        },
+        {
+          "label": "4",
+          "text": "Turn off sensor"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given situation: You are a security guard and see smoke.\n\n \n \n\n Option\n Action\n Correctness\n Reasoning\n \n \n \n \n\n 1\n Evacuate and alert\n **Correct**\n Ensures safety and quick response\n \n \n\n 2\n Keep working\n Incorrect\n \n \nN",
+      "tags": [
+        "Situation Reaction Test"
+      ]
+    },
+    {
+      "qid": "6960b59747e366f677077cfb",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What should come at the place of question mark?\n\n120, 99, 80, 63, 48, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "36"
+        },
+        {
+          "label": "2",
+          "text": "35"
+        },
+        {
+          "label": "3",
+          "text": "34"
+        },
+        {
+          "label": "4",
+          "text": "33"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/9fb3a1599b1fd8dd745fc4b483784e6d919ec7e72b4a24d9b935fb54c719cc0f.png] \n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9fb3a1599b1fd8dd745fc4b483784e6d919ec7e72b4a24d9b935fb54c719cc0f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "6960b59899d5c470afa9d19f",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Statements: All cars are trucks. Some trucks have wheels.\n\nConclusions:\n\nI. Some wheels are cars.\n\nII. All trucks are wheels.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither follows"
+        }
+      ],
+      "correct": "4",
+      "solution": "The least possible Venn diagram for the given statements is as shown below :\n\n [IMAGE: https://cdn.repeatermock.com/tb/ef2afd80ee9943d234dd05452595761ee347e0a029784dab5753e809a41dbb66.png] \n\nConclusions:\n\nI. Some wheels are cars. → Does not follow (As all cars are trucks and some trucks have wheels. So it is possible but not definite.)\n\nII. All trucks are wheels. → Does not follow (As all cars are trucks and some trucks have wheels. So it is possible but not definite.)\n\n∴ Here, Neither follows.​\n\nHence, the correct answer is \"Option 4\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ef2afd80ee9943d234dd05452595761ee347e0a029784dab5753e809a41dbb66.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "6960b598d0eadd4b1f814cab",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'DOG' is coded as '4-15-7', how will 'GOD' be coded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7-15-4"
+        },
+        {
+          "label": "2",
+          "text": "4-7-15"
+        },
+        {
+          "label": "3",
+          "text": "15-4-7"
+        },
+        {
+          "label": "4",
+          "text": "7-4-15"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\n'DOG' is coded as '4-15-7'\n\n<img alt=\"\" src=\"https://",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "6960b598d0eadd4b1f814cad",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If PAPER is coded as QBQFS, how is QBQFS coded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "RCPGT"
+        },
+        {
+          "label": "2",
+          "text": "RCRGT"
+        },
+        {
+          "label": "3",
+          "text": "RCQGT"
+        },
+        {
+          "label": "4",
+          "text": "RBQFT"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\nPAPER is coded as QBQFS\n\n [IMAGE: https://cdn.repeatermock.com/tb/5a98046bf2786b7918fb5d35367d5aea5895e61a2602774159e5acb9758ac04e.png] \n\nSimilarly,\n\nQBQFS is coded as\n\n [IMAGE: https://cdn.repeatermock.com/tb/6c279e4f6b8cf81ff0f2205df54ed9ebb8da452d4090f9080c7760ed1275eb27.png] \n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5a98046bf2786b7918fb5d35367d5aea5895e61a2602774159e5acb9758ac04e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6c279e4f6b8cf81ff0f2205df54ed9ebb8da452d4090f9080c7760ed1275eb27.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "6960b599605aa22e4430a96b",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the sequence, what is the next number?\n\n10, 20, 40, 80, 160, _?",
+      "options": [
+        {
+          "label": "1",
+          "text": "200"
+        },
+        {
+          "label": "2",
+          "text": "240"
+        },
+        {
+          "label": "3",
+          "text": "320"
+        },
+        {
+          "label": "4",
+          "text": "400"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/08cd4d57b8e44d37902a20ed0c65a0c9606a6c15ad52b2316a2604a9f100656d.png] \n\nHence, \"Option 3\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/08cd4d57b8e44d37902a20ed0c65a0c9606a6c15ad52b2316a2604a9f100656d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    }
+  ]
+}

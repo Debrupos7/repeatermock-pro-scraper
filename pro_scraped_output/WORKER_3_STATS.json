@@ -1,0 +1,15 @@
+{
+  "worker_id": 3,
+  "account_email": "tulikup2@gmail.com",
+  "total_tests": 3298,
+  "scraped": 71,
+  "failed": 8,
+  "skipped": 0,
+  "pro": 0,
+  "progress_scraped": 71,
+  "progress_failed": 0,
+  "completed_at": "2026-09-06T12:05:09.937110+00:00",
+  "runtime_min": 128.66452412605287,
+  "stop_reason": "stop condition met (auth_failures=1, scrape_errors=8)",
+  "rate_limit_429s": 0
+}

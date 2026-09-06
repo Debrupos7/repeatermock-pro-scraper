@@ -1,0 +1,1132 @@
+{
+  "test_id": "69f09f17da5cf729fe5fb1c2",
+  "title": "Quantitative Aptitude Sectional Test - 12",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:08:02.080746+00:00",
+  "questions": [
+    {
+      "qid": "63f6ee08607e56f3ecd17efd",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A company offers three types of successive discounts: First offer: 25% and 5%, Second offer: 20% and 10%, Third offer: 15% and 15%. Which offer is the best for a customer?",
+      "options": [
+        {
+          "label": "1",
+          "text": "All are equally good"
+        },
+        {
+          "label": "2",
+          "text": "Third offer"
+        },
+        {
+          "label": "3",
+          "text": "First offer"
+        },
+        {
+          "label": "4",
+          "text": "Second offer"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen the sum of successive discounts is constant (25+5 = 30, 20+10 = 30, 15+15 = 30), the discount is maximum when the difference between the two values is maximum.\n\nDifference in First offer: |25 − 5| = 20\n\nDifference in Second offer: |20 − 10| = 10\n\nDifference in Third offer: |15 − 15| = 0\n\nSince the difference is maximum in the First offer, it provides the highest discount for the customer.\n\n**∴ The correct answer is First offer.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven:\n\nOffer 1: 25% and 5% | Offer 2: 20% and 10% | Offer 3: 15% and 15%\n\nFormula for equivalent single discount of two successive discounts a% and b% = [a + b − (a × b)/100]%\n\n [IMAGE: https://cdn.repeatermock.com/tb/eadaaa2eb58223c44c37b804a0654a8261b265a1ca730a4e136f5eda2d88a0bb.png] \n\n⇒ Equivalent Discount for First offer = 25 + 5 − (25 × 5)/100 = 30 − 1.25 = 28.75%\n\n⇒ Equivalent Discount for Second offer = 20 + 10 − (20 × 10)/100 = 30 − 2 = 28.00%\n\n⇒ Equivalent Discount for Third offer = 15 + 15 − (15 × 15)/100 = 30 − 2.25 = 27.75%\n\n⇒ Comparing the three values: 28.75% > 28.00% > 27.75%\n\n**∴ The correct answer is First offer.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSuccessive Discount Formula\n\nFor two successive discounts x% and y%, the net discount is (x + y − xy/100)%. For three discounts, calculate the first two and then apply the result with the third one.\n\nCustomer vs Retailer Perspective\n\nThe best offer for a customer is the one with the highest net discount percentage, whereas the best offer for a retailer is the one with the lowest net discount percentage.\n\nRelationship with Product of Discounts\n\nWhen the sum (x+y) is constant, the discount is maximum when the product (xy) is minimum. In this question, 25 × 5 = 125 is the minimum product compared to 200 and 225.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/eadaaa2eb58223c44c37b804a0654a8261b265a1ca730a4e136f5eda2d88a0bb.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "64e76620197e88a0197db54b",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Four horses are tethered with a rope, half of the length of the side, at four corners of a square field of side 28m. What will be the area of the ungrazed part of the field?",
+      "options": [
+        {
+          "label": "1",
+          "text": "169m²"
+        },
+        {
+          "label": "2",
+          "text": "170m²"
+        },
+        {
+          "label": "3",
+          "text": "168m²"
+        },
+        {
+          "label": "4",
+          "text": "171m²"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nArea of ungrazed part = Area of Square − Area of one full circle (as 4 quadrants of 90° form 1 circle).\n\nSide of square (s) = 28 m, Radius of circle (r) = s ÷ 2 = 14 m.\n\nUngrazed Area = s² − πr²\n\nUngrazed Area = 28² − (22 ÷ 7) × 14 × 14\n\nUngrazed Area = 784 − 616 = 168 m².\n\n**∴ The correct answer is 168 m².**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSide of the square field (s) = 28 m\n\nLength of the rope (radius, r) = 28 ÷ 2 = 14 m\n\n**Formula Used:**\n\nArea of square = side × side\n\nArea of quadrant = (1 ÷ 4) × π × r²\n\n [IMAGE: https://cdn.repeatermock.com/tb/446777655046b62a3f8582e6dfc7de009d8214b9885779462b7be23510973849.png] \n\n**Calculations:**\n\n⇒ Total Area of the square field = 28 × 28 = 784 m²\n\n⇒ Total Area grazed by 4 horses = 4 × Area of one quadrant\n\n⇒ Grazed Area = 4 × (1 ÷ 4) × (22 ÷ 7) × 14 × 14\n\n⇒ Grazed Area = (22 ÷ 7) × 196\n\n⇒ Grazed Area = 22 × 28 = 616 m²\n\n⇒ Ungrazed Part = Total Area − Grazed Area\n\n⇒ Ungrazed Part = 784 − 616 = 168 m²\n\n**∴ The correct answer is 168 m².**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nArea of a Square\n\nThe total space occupied by a square is given by Area = side × side (or s²).\n\nArea of Circle and Sector\n\nArea of a circle is πr². For a sector with angle θ, the area is (θ ÷ 360) × πr². Since square corners are 90°, each sector is exactly 1 ÷ 4 of a circle.\n\nCombined Quadrant Rule\n\nWhen four equal circles are drawn at the four corners of a square such that each touches two others, the radius is always half the side of the square.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/446777655046b62a3f8582e6dfc7de009d8214b9885779462b7be23510973849.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "63a9f8916b1acee141feaf9f",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "4 × √{1296} + 4 × √{2116} + 4 × √{6561} - 10 × √{1225} = k. Then find the value of 'k'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "303"
+        },
+        {
+          "label": "2",
+          "text": "304"
+        },
+        {
+          "label": "3",
+          "text": "302"
+        },
+        {
+          "label": "4",
+          "text": "301"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n4 times sqrt{1296} + 4 times sqrt{2116} + 4 times sqrt{6561} - 10 times sqrt{1225} = k\n\n**Formula used:**\n\nsqrt{1296} = 36, sqrt{2116} = 46, sqrt{6561} = 81, sqrt{1225} = 35\n\n**Calculation:**\n\nk = 4 times 36 + 4 times 46 + 4 times 81 - 10 times 35\n\n⇒ k = 4 times (36 + 46 + 81) - 350\n\n⇒ k = 4 times 163 - 350\n\n⇒ k = 652 - 350\n\n⇒ k = 302\n\n**∴ The correct answer is option (3).**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6486c9aaa58dfb33fb397bd3",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a competitive examination held in the year 2000, a total of 6,00,000 (6.0 lakh) students appeared and 40% passed the examination. Forty percent (40%) of the total students. were females and the rest were males. The pass percentage among the males was 50%. Find the pass percentage among the females.",
+      "options": [
+        {
+          "label": "1",
+          "text": "25%"
+        },
+        {
+          "label": "2",
+          "text": "30%"
+        },
+        {
+          "label": "3",
+          "text": "35%"
+        },
+        {
+          "label": "4",
+          "text": "40%"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nRatio of Males to Females = 60% : 40% = 3 : 2\n\nLet the pass percentage among females be x%\n\nUsing Weighted Average: Total Pass % = (Male % × Male Pass % + Female % × Female Pass %) ÷ 100\n\n40 = (60 × 50 + 40 × x) ÷ 100\n\n4000 = 3000 + 40x ⇒ 40x = 1000 ⇒ x = 25%\n\n**∴ The correct answer is 25%.**\n\n**__Alternate Method__**\n\nGiven:\n\nTotal students = 6,00,000\n\nTotal pass percentage = 40%\n\nFemale percentage = 40%\n\nMale pass percentage = 50%\n\n [IMAGE: https://cdn.repeatermock.com/tb/3e3ad1d65fbb71716cceba5ff499f5ad711badf6978bf08aa8b87eeb7666900c.png] \n\n⇒ Total passed students = 40% of 6,00,000 = (40 ÷ 100) × 6,00,000 = 2,40,000\n\n⇒ Number of females = 40% of 6,00,000 = 2,40,000\n\n⇒ Number of males = Total − Females = 6,00,000 − 2,40,000 = 3,60,000\n\n⇒ Number of males passed = 50% of 3,60,000 = (50 ÷ 100) × 3,60,000 = 1,80,000\n\n⇒ Number of females passed = Total passed − Males passed = 2,40,000 − 1,80,000 = 60,000\n\n⇒ Pass percentage among females = (Females passed ÷ Total females) × 100\n\n⇒ Pass percentage among females = (60,000 ÷ 2,40,000) × 100 = (1 ÷ 4) × 100 = 25%\n\n**∴ The correct answer is 25%.**\n\n**__Additional Information__**\n\nWeighted Average Rule\n\nWhen a population is divided into two groups with averages A₁ and A₂ and sizes n₁ and n₂, the total average Aₐvg = (n₁A₁ + n₂A₂) ÷ (n₁ + n₂).\n\nPercentage Base Change\n\nThe value of a percentage depends entirely on the base it is calculated on. In this problem, the female pass percentage is calculated on the total number of females, not the total population.\n\nAlligation Method\n\nAlligation can be used to find the ratio of quantities or individual percentages. Ratio of M:F = (Total% − Female%) : (Male% − Total%).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3e3ad1d65fbb71716cceba5ff499f5ad711badf6978bf08aa8b87eeb7666900c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "6384e2200a5e6a5e77befff2",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the compound interest on Rs. 8000 at 15% per annum for 2 years 4 months, compound annually.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs 3109"
+        },
+        {
+          "label": "2",
+          "text": "Rs 4209"
+        },
+        {
+          "label": "3",
+          "text": "Rs 11109"
+        },
+        {
+          "label": "4",
+          "text": "Rs 11990"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nRate for 2 years = 15% p.a.; Rate for remaining 4 months = 15% × 4/12 = 5%.\n\nSuccessive Multiplier Ratio: (20 → 23) × (20 → 23) × (20 → 21).\n\nTotal Principal Ratio = 20 × 20 × 20 = 8000 units.\n\nTotal Amount Ratio = 23 × 23 × 21 = 11109 units.\n\nCompound Interest = 11109 − 8000 = 3109 units.\n\nGiven Principal = Rs 8000 ∴ 1 unit = Rs 1; CI = 3109 × 1 = Rs 3109.\n\n**∴ The correct answer is Rs 3109.**\n\n**__Alternate Method__**\n\n**Given:**\n\nPrincipal (P) = Rs 8000\n\nRate (R) = 15% per annum\n\nTime (T) = 2 years 4 months = 2¹/₃ years\n\n**Formula Used:**\n\nAmount (A) = P × (1 + R/100)ⁿ × [1 + (R × t/12)/100]\n\nCompound Interest (CI) = A − P\n\n [IMAGE: https://cdn.repeatermock.com/tb/c34f7eb8c5996e08362ed16ee34a2cbe55f1ab5295aeaaed9aac66be06c366a2.png] \n\n**Calculations:**\n\n⇒ Time = 2 years + 4/12 years = 2 years + 1/3 years\n\n⇒ Amount = 8000 × (1 + 15/100)² × [1 + (15 × 1/3)/100]\n\n⇒ Amount = 8000 × (115/100) × (115/100) × (1 + 5/100)\n\n⇒ Amount = 8000 × (23/20) × (23/20) × (21/20)\n\n⇒ Amount = 8000 × (529/400) × (21/20)\n\n⇒ Amount = 8000 × (11109/8000)\n\n⇒ Amount = Rs 11109\n\n⇒ CI = Amount − Principal\n\n⇒ CI = 11109 − 8000\n\n⇒ CI = Rs 3109\n\n**∴ The correct answer is Rs 3109.**\n\n**__Additional Information__**\n\nCompound Interest for Fractional Years\n\nWhen time is in the form a b/c years, Amount = P(1 + R/100)a × [1 + (R × b/c)/100].\n\nEffective Rate of Interest\n\nFor two successive years with rates R₁ and R₂, the effective CI rate is R₁ + R₂ + (R₁ × R₂)/100.\n\nCI vs SI Difference\n\nThe difference between CI and SI for 2 years is P(R/100)². For 3 years, it is P(R/100)² × (3 + R/100).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c34f7eb8c5996e08362ed16ee34a2cbe55f1ab5295aeaaed9aac66be06c366a2.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "64cb64468f783dec567a583c",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average of all prime numbers between 32 and 69 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "52.5"
+        },
+        {
+          "label": "2",
+          "text": "60"
+        },
+        {
+          "label": "3",
+          "text": "51"
+        },
+        {
+          "label": "4",
+          "text": "56.5"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nList all prime numbers between 32 and 69: 37, 41, 43, 47, 53, 59, 61, 67.\n\nTotal count of prime numbers (n) = 8.\n\nSum using pairing: (37+67) + (41+61) + (43+59) + (47+53) = 104 + 102 + 102 + 100 = 408.\n\nAverage = Total Sum ÷ Count = 408 ÷ 8 = 51.\n\n**∴ The correct answer is 51.**\n\n**__Alternate Method__**\n\n**Given:** Prime numbers between 32 and 69.\n\n**Formula:** Average = (Sum of all observations) ÷ (Total number of observations)\n\n [IMAGE: https://cdn.repeatermock.com/tb/55520a030b2ded78bd5df95f5390ea89abb694c7c0bbbef92e2cf5dcaf3d97a9.png] \n\n⇒ Prime numbers between 32 and 69 are: 37, 41, 43, 47, 53, 59, 61, 67\n\n⇒ Sum of primes = 37 + 41 + 43 + 47 + 53 + 59 + 61 + 67\n\n⇒ Sum = 408\n\n⇒ Total count of prime numbers = 8\n\n⇒ Average = 408 ÷ 8\n\n⇒ Average = 51\n\n**∴ The correct answer is 51.**\n\n**__Additional Information__**\n\nPrime Numbers\n\nA prime number is a natural number greater than 1 that has exactly two divisors: 1 and itself. The only even prime number is 2.\n\nArithmetic Mean\n\nFor any set of numbers, Average = (Σx) ÷ n, where Σx is the sum of terms and n is the total number of terms.\n\nChecking for Primes\n\nTo verify if a number N is prime, check its divisibility by prime numbers up to √N. If none divide N, then N is prime.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/55520a030b2ded78bd5df95f5390ea89abb694c7c0bbbef92e2cf5dcaf3d97a9.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "672b2072ccef0cb1c4d1cb40",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of two numbers is 2 : 3 and their product is 726. The smallest number between the two numbers is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "22"
+        },
+        {
+          "label": "2",
+          "text": "55"
+        },
+        {
+          "label": "3",
+          "text": "33"
+        },
+        {
+          "label": "4",
+          "text": "11"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nRatio of numbers = 2 : 3\n\nProduct of ratio parts = 2 × 3 = 6 units²\n\nValue of 6 units² = 726\n\n1 unit² = 726 ÷ 6 = 121\n\nMultiplier (1 unit) = √121 = 11\n\nSmallest number = 2 × 11 = 22\n\n**∴ The correct answer is 22.**\n\n**__Alternate Method__**\n\nGiven: Ratio = 2 : 3, Product = 726\n\nFormula: Product of numbers = (First Part × x) × (Second Part × x)\n\n [IMAGE: https://cdn.repeatermock.com/tb/994aba5e6647276452f7feaf80a63303299a4013b613cee491f653fb28ca2df9.png] \n\nLet the two numbers be 2x and 3x.\n\n⇒ 2x × 3x = 726\n\n⇒ 6x² = 726\n\n⇒ x² = 726 ÷ 6\n\n⇒ x² = 121\n\n⇒ x = √121\n\n⇒ x = 11\n\nSmallest number = 2x\n\n⇒ 2 × 11 = 22\n\n**∴ The correct answer is 22.**\n\n**__Additional Information__**\n\nProduct of Ratios\n\nWhen the product of two numbers in ratio a:b is given as P, the common multiplier x is found using x = √(P ÷ (a × b)).\n\nSum of Ratios\n\nIf the sum S is given, the multiplier x is simpler: x = S ÷ (a + b). No square root is required for sums.\n\nMean Proportional\n\nThe mean proportional between two numbers a and b is given by the formula √(a × b).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/994aba5e6647276452f7feaf80a63303299a4013b613cee491f653fb28ca2df9.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "635643848f6b1a1b12ff351f",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given figure, ABCD and APQR are two parallelograms. If ∠APQ = 100°, find ∠CDR. \n\n [IMAGE: https://cdn.repeatermock.com/tb/ea4fa9986e7e2ac3bd6759ddc11b0dd98cb3f211e3e93355f74c2ad839f625fc.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "36°"
+        },
+        {
+          "label": "2",
+          "text": "80°"
+        },
+        {
+          "label": "3",
+          "text": "100°"
+        },
+        {
+          "label": "4",
+          "text": "40°"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIn a parallelogram, adjacent angles are supplementary (sum = 180°).\n\nIn parallelogram APQR, ∠A + ∠P = 180° ⇒ ∠A = 180° − 100° = 80°.\n\nIn parallelogram ABCD, opposite angles are equal.\n\n∠C = ∠A = 80°.\n\n**∴ The correct answer is 80°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** ABCD and APQR are parallelograms sharing vertex A. ∠APQ = 100°.\n\n**Formula:** 1. Adjacent angles of a parallelogram sum to 180°. 2. Opposite angles of a parallelogram are equal.\n\n [IMAGE: https://cdn.repeatermock.com/tb/d44b9eee8d70a7f5a2c92dba32482958a4284bd87a797f0fea4c8aaa702de1f0.png] \n\nIn parallelogram APQR:\n\n⇒ ∠PAR + ∠APQ = 180° (Consecutive interior angles)\n\n⇒ ∠PAR + 100° = 180°\n\n⇒ ∠PAR = 80°\n\nSince A, P, B and A, R, D are collinear, ∠DAB = ∠PAR = 80°.\n\nIn parallelogram ABCD:\n\n⇒ ∠BCD = ∠DAB (Opposite angles are equal)\n\n⇒ ∠BCD = 80°\n\n**∴ The correct answer is 80°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nProperties of a Parallelogram\n\nOpposite sides are equal and parallel. Opposite angles are equal, and any two consecutive angles are supplementary (∠A + ∠B = 180°).\n\nDiagonals of a Parallelogram\n\nThe diagonals of a parallelogram bisect each other, meaning they divide each other into two equal parts at the point of intersection.\n\nArea of a Parallelogram\n\nThe area is calculated as Base × Height. If two sides a, b and the included angle θ are known, Area = a × b × sin(θ).</p",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ea4fa9986e7e2ac3bd6759ddc11b0dd98cb3f211e3e93355f74c2ad839f625fc.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d44b9eee8d70a7f5a2c92dba32482958a4284bd87a797f0fea4c8aaa702de1f0.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "64cbd3cc3b169c13baed30b5",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the value of cos 47° sec 133° + sin 44° cosec 136°.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/2"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "- 1"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nConvert obtuse angles to supplementary forms: 133° = 180° − 47° and 136° = 180° − 44°.\n\nUsing 2ⁿd quadrant rules: sec(180° − θ) = −sec θ and cosec(180° − θ) = cosec θ.\n\nExpression = cos 47° × (−sec 47°) + sin 44° × cosec 44°.\n\nSince cos θ × sec θ = 1 and sin θ × cosec θ = 1:\n\nResult = −1 + 1 = 0.\n\n**∴ The correct answer is 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nExpression = cos 47° sec 133° + sin 44° cosec 136°\n\n**Formula Used:**\n\nsec(180° − θ) = −sec θ\n\ncosec(180° − θ) = cosec θ\n\ncos θ × sec θ = 1\n\nsin θ × cosec θ = 1\n\n**Calculations:**\n\n⇒ Split the obtuse angles into (180° − θ) form to simplify.\n\n⇒ sec 133° = sec(180° − 47°) = −sec 47°\n\n⇒ cosec 136° = cosec(180° − 44°) = cosec 44°\n\n⇒ Substitute these simplified values back into the given expression.\n\n⇒ Expression = cos 47° × (−sec 47°) + sin 44° × cosec 44°\n\n⇒ Expression = −(cos 47° × sec 47°) + (sin 44° × cosec 44°)\n\n⇒ Since a trigonometric function multiplied by its reciprocal is exactly 1:\n\n⇒ Expression = −1 + 1 = 0\n\n**∴ The correct answer is 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nASTC Rule\n\nIn the 2ⁿd quadrant (90° to 180°), only Sine (sin) and Cosecant (cosec) are positive. Cosine (cos), Secant (sec), Tangent (tan), and Cotangent (cot) are negative.\n\nReciprocal Identities\n\nsin θ × cosec θ = 1 | cos θ × sec θ = 1 | tan θ × cot θ = 1.\n\nSupplementary Angles\n\nAngles that add up to 180° are supplementary. sin(180° − θ) = sin θ, while cos(180° − θ) = −cos θ.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "61d52f28a2f2a0238777c707",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the sum of all the exterior angles taken in order of a triangle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "90°"
+        },
+        {
+          "label": "2",
+          "text": "180°"
+        },
+        {
+          "label": "3",
+          "text": "360°"
+        },
+        {
+          "label": "4",
+          "text": "can not be determined"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe sum of the exterior angles of any convex polygon, including a triangle, taken in order is always a constant 360°.\n\nThis is because walking around the exterior of any closed shape and returning to the starting direction completes exactly one full circle.\n\nOne full circle rotation is equivalent to 360°.\n\n**∴ The correct answer is 360°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven: A triangle with internal angles A, B, and C.\n\nFormula Used: Exterior angle + Interior angle = 180° (Linear Pair); Sum of interior angles of a triangle = 180°.\n\n [IMAGE: https://cdn.repeatermock.com/tb/7c4d4db5abaa1583953ae0faf40bed332e9b71000a00d768c9cca85db13d109c.png] \n\n⇒ Let the three interior angles be A, B, and C.\n\n⇒ We know that A + B + C = 180°.\n\n⇒ Exterior angle at vertex A = 180° − A.\n\n⇒ Exterior angle at vertex B = 180° − B.\n\n⇒ Exterior angle at vertex C = 180° − C.\n\n⇒ Sum of exterior angles = (180° − A) + (180° − B) + (180° − C).\n\n⇒ Sum = (180° + 180° + 180°) − (A + B + C).\n\n⇒ Sum = 540° − 180°.\n\n⇒ Sum = 360°.\n\n**∴ The correct answer is 360°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSum of Exterior Angles\n\nFor any convex polygon with n sides, the sum of its exterior angles (one at each vertex) is always 360°.\n\nSum of Interior Angles\n\nThe sum of the interior angles of a polygon with n sides is calculated as (n − 2) × 180°.\n\nTriangle Exterior Angle Property\n\nAn exterior angle of a triangle is equal to the sum of the two opposite interior angles of the triangle.\n\nRegular Polygons\n\nIn a regular polygon, each exterior angle is equal to 360° ÷ n, where n is the number of sides.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7c4d4db5abaa1583953ae0faf40bed332e9b71000a00d768c9cca85db13d109c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "677a73ffd1dcf9a57980d024",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A rectangular plot of grass is 80m long and 60 m broad. From the centre of each side a path of 3 metre wide goes across the centre of the opposite side. What is the area of these paths?",
+      "options": [
+        {
+          "label": "1",
+          "text": "420 sqm"
+        },
+        {
+          "label": "2",
+          "text": "411 sqm"
+        },
+        {
+          "label": "3",
+          "text": "402 sqm"
+        },
+        {
+          "label": "4",
+          "text": "404 sqm"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nArea of two paths crossing at the center is given by the formula: Area = w(L + B − w).\n\nWhere w = width of path, L = length, B = breadth.\n\nGiven: L = 80 m, B = 60 m, w = 3 m.\n\nArea = 3 × (80 + 60 − 3) = 3 × 137 = 411 sqm.\n\n**∴ The correct answer is 411 sqm.**\n\n**__Alternate Method__**\n\n**Given:**\n\nLength of the rectangular plot (L) = 80 m\n\nBreadth of the rectangular plot (B) = 60 m\n\nWidth of each path (w) = 3 m\n\n**Formula Used:**\n\nTotal Area of paths = (Area of horizontal path) + (Area of vertical path) − (Area of common intersection)\n\n [IMAGE: https://cdn.repeatermock.com/tb/f7a464a72d188ed683031b96348f9b0a4c7653747e4c5c26fce3d0706a67d68b.png] \n\n**Calculations:**\n\n⇒ Area of the path parallel to the length = 80 m × 3 m = 240 sqm\n\n⇒ Area of the path parallel to the breadth = 60 m × 3 m = 180 sqm\n\n⇒ Area of the common square at the center = 3 m × 3 m = 9 sqm\n\n⇒ Total Area of paths = 240 + 180 − 9\n\n⇒ Total Area = 420 − 9 = 411 sqm\n\n**∴ The correct answer is 411 sqm.**\n\n**__Additional Information__**\n\nPath Around Outside of Rectangle\n\nArea of a path of width 'w' running outside a rectangle of length L and breadth B = 2w(L + B + 2w).\n\nPath Inside the Rectangle\n\nArea of a path of width 'w' running inside the boundary of a rectangle = 2w(L + B − 2w).\n\nGeneral Path Area Concept\n\nWhen paths cross, the intersection area must be subtracted once because it is calculated twice in the individual path areas.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f7a464a72d188ed683031b96348f9b0a4c7653747e4c5c26fce3d0706a67d68b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "671609e7fc4908b9e496f405",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A cylindrical tank of radius 14 cm is full of water. If 616 litres of water are drawn out, then the water level in the tank is dropped by ______ m. (Take π = (22/7) )",
+      "options": [
+        {
+          "label": "1",
+          "text": "1000"
+        },
+        {
+          "label": "2",
+          "text": "100"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDrop in height (h) = Volume ÷ Base Area = V ÷ πr²\n\n⇒ h = (616 × 1000) ÷ ((22/7) × 14 × 14) cm\n\n⇒ h = 616000 ÷ 616 = 1000 cm\n\n⇒ h = 10 m\n\n**∴ The correct answer is 10 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRadius of the cylindrical tank, r = 14 cm\n\nVolume of water drawn out, V = 616 litres\n\n**Formula Used:**\n\nVolume of a cylinder = πr²h\n\n1 Litre = 1000 cm³\n\n [IMAGE: https://cdn.repeatermock.com/tb/868ecac0e39d366d76031c0cbdf523119dc00c6313d3653d08f1836c12541f22.png] \n\n**Calculation:**\n\n⇒ Let the drop in water level be h.\n\n⇒ Volume drawn out = 616 × 1000 = 616000 cm³\n\n⇒ V = πr²h\n\n⇒ 616000 = (22/7) × 14 × 14 × h\n\n⇒ 616000 = 22 × 2 × 14 × h\n\n⇒ 616000 = 616 × h\n\n⇒ h = 616000 ÷ 616\n\n⇒ h = 1000 cm\n\n⇒ Since 1 m = 100 cm, h = 1000 ÷ 100 = 10 m\n\n**∴ The correct answer is 10 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCylinder Formulas\n\nVolume = πr²h | Curved Surface Area (CSA) = 2πrh | Total Surface Area (TSA) = 2πr(r+h).\n\nVolume Conversions\n\n1 Litre = 1000 cm³ | 1 m³ = 1000 Litres | 1 m³ = 10⁶ cm³.\n\nDirect Proportion in Cylinders\n\nFor a uniform cross-section tank, the volume drawn or added is directly proportional to the change in height (ΔV = Base Area × Δh).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/868ecac0e39d366d76031c0cbdf523119dc00c6313d3653d08f1836c12541f22.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "629f81af1b570b15ae212895",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The angle of elevation of a cloud from a point 200 m above a lake is 30° and the angle of depression of its reflection in the lake is 60°. The height of the cloud is",
+      "options": [
+        {
+          "label": "1",
+          "text": "200 m"
+        },
+        {
+          "label": "2",
+          "text": "300 m"
+        },
+        {
+          "label": "3",
+          "text": "400 m"
+        },
+        {
+          "label": "4",
+          "text": "600 m"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nShortcut formula for cloud height: h = H × (tan β + tan α) ÷ (tan β − tan α)\n\nWhere H = height of observation point = 200 m, α = elevation = 30°, β = depression = 60°.\n\nh = 200 × (tan 60° + tan 30°) ÷ (tan 60° − tan 30°)\n\nh = 200 × (√3 + 1/√3) ÷ (√3 − 1/√3) = 200 × (4/√3) ÷ (2/√3) = 200 × 2 = 400 m.\n\n**∴ The correct answer is 400 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nHeight of observer (H) = 200 m above lake surface.\n\nAngle of elevation of cloud (α) = 30°.\n\nAngle of depression of reflection (β) = 60°.\n\n [IMAGE: https://cdn.repeatermock.com/tb/5a20210bbae0926b1c58d150e22a2b0406603b9cc858dca8bfe0df5f98ba5533.png] \n\n**Calculation:**\n\nLet h be the height of the cloud above the lake surface.\n\nThe reflection is at depth h below the lake surface.\n\nLet d be the horizontal distance from the observation point to the cloud.\n\n⇒ Height of cloud above point = h − 200\n\n⇒ tan 30° = (h − 200) ÷ d\n\n⇒ d = (h − 200) × √3 ... (1)\n\n⇒ Depth of reflection below point = h + 200\n\n⇒ tan 60° = (h + 200) ÷ d\n\n⇒ d = (h + 200) ÷ √3 ... (2)\n\n⇒ From (1) and (2): (h − 200) × √3 = (h + 200) ÷ √3\n\n⇒ 3 × (h − 200) = h + 200\n\n⇒ 3h − 600 = h + 200\n\n⇒ 2h = 800\n\n⇒ h = 400 m\n\n**∴ The correct answer is 400 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nReflection Property\n\nIn a calm lake, the lake surface acts as a plane mirror. The height of the object above the lake is always equal to the depth of its reflection below the lake surface.\n\nStandard Trigonometric Values\n\nFor height and distance problems, remember: tan 30° = 1/√3, tan 45° = 1, and tan 60° = √3.\n\nGeneral Formula for Cloud Height\n\nIf elevation is α and depression is β from height H, then h = H(sin(β+α)/sin(β−α)). Applying this to 60° and 30° gives h = H(sin 90°/sin 30°) = H(1/(1/2)) = 2H.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5a20210bbae0926b1c58d150e22a2b0406603b9cc858dca8bfe0df5f98ba5533.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6394fe71b871779d3683fd10",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The sum of digits of a two digit number is 8 and the difference between the number and that formed by reversing the digits is 18. What is the difference between the digits of the number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe difference between a two-digit number and its reverse is always 9 × (Difference between the digits).\n\nGiven that the difference between the numbers is 18.\n\n9 × (Difference between digits) = 18\n\nDifference between digits = 18 ÷ 9 = 2\n\n**∴ The correct answer is 2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSum of digits (x + y) = 8\n\nDifference between number and its reverse = 18\n\n [IMAGE: https://cdn.repeatermock.com/tb/e66b8a142cf2f8632ea37a1fd0f0ae743012e24b1236995fba8753b269d4887d.png] \n\n⇒ Let the tens digit be x and units digit be y.\n\n⇒ The two-digit number = 10x + y\n\n⇒ Number formed by reversing digits = 10y + x\n\n⇒ According to the problem: (10x + y) − (10y + x) = 18\n\n⇒ 10x − x + y − 10y = 18\n\n⇒ 9x − 9y = 18\n\n⇒ 9(x − y) = 18\n\n⇒ x − y = 18 ÷ 9\n\n⇒ x − y = 2\n\n**∴ The correct answer is 2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSum of Number and its Reverse\n\nThe sum of a two-digit number and its reverse is always a multiple of 11. Formula: (10x + y) + (10y + x) = 11(x + y).\n\nThree Digit Number Reverse\n\nThe difference between a three-digit number (abc) and its reverse (cba) is always 99 × (a − c). Formula: (100a + 10b + c) − (100c + 10b + a) = 99(a − c).\n\nDigit Sum Logic\n\nTo find individual digits, use the system: x + y = Sum, x − y = Difference. Then x = (Sum + Diff) ÷ 2 and y = (Sum − Diff) ÷ 2.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e66b8a142cf2f8632ea37a1fd0f0ae743012e24b1236995fba8753b269d4887d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "63f8a9246f4fe85e92a9f1ef",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The marked price of a jacket is Rs. 3,500. A shopkeeper offers 5% discount on it and then again offers 15% discount on the new price, and then again offers 20% discount on the new price. How much one has to pay for it?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 2,260"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 2,261"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 2,265"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 2,263"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nApply successive discounts directly using fraction multipliers:\n\nSP = 3500 × 95% × 85% × 80%\n\nSP = 3500 × 19/20 × 17/20 × 4/5\n\nSP = (3500 ÷ 2000) × 19 × 17 × 4\n\nSP = 7/4 × 1292 = 2261\n\n**∴ The correct answer is Rs. 2,261.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nMarked Price (MP) of jacket = Rs. 3,500\n\nSuccessive discounts = 5%, 15%, and 20%\n\n**Formula Used:**\n\nSelling Price (SP) = MP × (100 − d₁)/100 × (100 − d₂)/100 × (100 − d₃)/100\n\n MP\n \n 3500\n\n \n• \n \n\n −5%\n\n \n 3325\n\n \n• \n \n\n −15%\n\n \n 2826.25\n\n \n• \n \n\n −20%\n\n Final SP\n \n 2261\n\n**Calculations:**\n\n⇒ SP = 3500 × (100 − 5)/100 × (100 − 15)/100 × (100 − 20)/100\n\n⇒ SP = 3500 × 95/100 × 85/100 × 80/100\n\n⇒ SP = 3500 × 19/20 × 17/20 × 4/5\n\n⇒ SP = 3500 × (19 × 17 × 4) ÷ (20 × 20 × 5)\n\n⇒ SP = 3500 × 1292 ÷ 2000\n\n⇒ SP = (3500 ÷ 2000) × 1292\n\n⇒ SP = 7/4 × 1292\n\n⇒ SP = 7 × 323 = 2261\n\n**∴ The correct answer is Rs. 2,261.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMarked Price (MP)\n\nThe marked price is the regular price tag printed on an item. Any discount given by a shopkeeper is always calculated on the MP, not the cost price.\n\nSuccessive Discount Formula\n\nWhen an article has multiple consecutive discounts, the net selling price is derived by multiplying the individual discount factors: SP = MP × (1 − d₁/100) × (1 − d₂/100) × ...\n\nEquivalent Single Discount\n\nFor two successive discounts of x% and y%, the effective single discount equivalent to both combined is calculated using the net change formula: (x + y − xy/100)%.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "63fdaedad762d47d04e22588",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sum of Rs. 9,350 was taken as a loan. This is paid in two equal instalments. If the rate of interest is 20% per annum compounded annually, then what is the value of each instalment?(approximately)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 2600"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 2160"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 6120"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 6200"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRate 20% = 1/5 → Principal : Installment ratio for 1st year = 5 : 6\n\nFor 2nd year, square the ratios → Principal : Installment = 5² : 6² = 25 : 36\n\nEqualize installments: Multiply 1st year ratio by 6 → (5 × 6) : (6 × 6) = 30 : 36\n\nTotal Principal units = 30 + 25 = 55 units\n\n55 units = ₹9350 ⇒ 1 unit = ₹170\n\nValue of each installment = 36 units = 36 × 170 = ₹6120\n\n**∴ The correct answer is ₹6120.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nLoan Amount (P) = ₹9350\n\nRate of Interest (R) = 20% per annum\n\nNumber of installments (n) = 2\n\n**Formula Used:**\n\nP = [x / (1 + R/100)¹] + [x / (1 + R/100)²] + ... where x is the equal installment.\n\n [IMAGE: https://cdn.repeatermock.com/tb/aedae0e0b60f0f28ff07359e851dee86c069fcf01ba6c7b8e667faa7761abab5.png] \n\n**Calculations:**\n\n⇒ 9350 = x / (1 + 20/100) + x / (1 + 20/100)²\n\n⇒ 9350 = x / (1.2) + x / (1.44)\n\n⇒ 9350 = x / (6/5) + x / (36/25)\n\n⇒ 9350 = 5x/6 + 25x/36\n\n⇒ 9350 = (30x + 25x) / 36\n\n⇒ 9350 = 55x / 36\n\n⇒ x = (9350 × 36) / 55\n\n⇒ x = 170 × 36\n\n⇒ x = ₹6120\n\n**∴ The correct answer is ₹6120.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCI Installment General Formula\n\nFor n equal installments, P = x[1/(1+r) + 1/(1+r)² + ... + 1/(1+r)ⁿ], where r is the rate per period in decimal.\n\nSI vs CI Installments\n\nIn CI installments, interest is charged on the reducing balance (present value), whereas SI installments often involve interest on the total amount or specific due balances.\n\nEffective Rate of Interest\n\nIf compounded half-yearly, the rate is halved (R/2) and the number of periods is doubled (2n) in the installment formula.\n\n59:T1198,\n<s",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/aedae0e0b60f0f28ff07359e851dee86c069fcf01ba6c7b8e667faa7761abab5.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "64a6573bb1c12816cd60bd76",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 20% of a number is (1/6)th of another number, what is the ratio of first number to the second number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4 ∶ 5"
+        },
+        {
+          "label": "2",
+          "text": "5 ∶ 3"
+        },
+        {
+          "label": "3",
+          "text": "4 ∶ 7"
+        },
+        {
+          "label": "4",
+          "text": "5 ∶ 6"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nConvert percentage to fraction: 20% = 1/5.\n\nAccording to the question: (1/5) × First Number = (1/6) × Second Number.\n\nCross-multiply to find the ratio: First Number / Second Number = 5 / 6.\n\nRatio = 5 : 6.\n\n**∴ The correct answer is 5 : 6.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nLet the first number be 'x' and the second number be 'y'.\n\n20% of x = (1/6) of y\n\n [IMAGE: https://cdn.repeatermock.com/tb/57f0f82a10c02b9e2ab06e0aa4be46e1cea5c99e808bee558dccf36929060f4d.png] \n\n**Calculations:**\n\n⇒ 20% of x = (1/6) × y\n\n⇒ (20 / 100) × x = (1 / 6) × y\n\n⇒ (1 / 5) × x = (1 / 6) × y\n\n⇒ x / y = (1 / 6) ÷ (1 / 5)\n\n⇒ x / y = (1 / 6) × (5 / 1)\n\n⇒ x / y = 5 / 6\n\n⇒ x : y = 5 : 6\n\n**∴ The correct answer is 5 : 6.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPercentage to Fraction Conversion\n\nTo convert a percentage to a fraction, divide by 100 and simplify. Example: 20% = 20/100 = 1/5; 25% = 1/4; 50% = 1/2.\n\nRatio and Proportion\n\nIf a × A = b × B, then the ratio A : B is equal to the inverse of the coefficients, which is (1/a) : (1/b) or simply b : a.\n\nCross-Multiplication Rule\n\nIn the equation x/a = y/b, the ratio x : y can be directly found as a : b by rearranging the terms.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/57f0f82a10c02b9e2ab06e0aa4be46e1cea5c99e808bee558dccf36929060f4d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "67580711f1943a3159530730",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the simple interest (in ₹) on ₹2500 as a sum borrowed at 3% per year rate of interest for 6 years.",
+      "options": [
+        {
+          "label": "1",
+          "text": "410"
+        },
+        {
+          "label": "2",
+          "text": "390"
+        },
+        {
+          "label": "3",
+          "text": "490"
+        },
+        {
+          "label": "4",
+          "text": "450"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal interest percentage = Rate × Time\n\nInterest percentage = 3% × 6 = 18%\n\nSimple Interest = 18% of 2500 = (18/100) × 2500\n\nSimple Interest = 18 × 25 = 450\n\n**∴ The correct answer is ₹450.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven: Principal (P) = ₹2500, Rate (R) = 3% per annum, Time (T) = 6 years.\n\nFormula: Simple Interest (SI) = (P × R × T) ÷ 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/70d8075958f30acad6cc4c34eedb8f3794705c5e591dbf4943d6cb57e83a718a.png] \n\n⇒ SI = (2500 × 3 × 6) ÷ 100\n\n⇒ SI = (2500 × 18) ÷ 100\n\n⇒ SI = 25 × 18\n\n⇒ SI = 450\n\n**∴ The correct answer is ₹450.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTotal Amount (A)\n\nThe total amount to be repaid after the time period is the sum of the Principal and Simple Interest: A = P + SI.\n\nEffective Rate of Interest\n\nFor simple interest, the total interest percentage over the entire duration is the product of the annual rate and the time in years (R × T).\n\nStandard Units\n\nAlways ensure that the Time (T) is in years. If time is given in months, divide by 12; if in days, divide by 365 (or 366 for leap years).\n\n91:T",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/70d8075958f30acad6cc4c34eedb8f3794705c5e591dbf4943d6cb57e83a718a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "679753a9ba895a8a133cf817",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Elementary Statistics",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The age of some students is given in years as 12, 13, 16, 18,14, 19, 13, 17, 15 and 11. The median age (in years) of the students is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "14"
+        },
+        {
+          "label": "2",
+          "text": "14.5"
+        },
+        {
+          "label": "3",
+          "text": "13.5"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nArrange the given data in ascending order: 11, 12, 13, 13, 14, 15, 16, 17, 18, 19.\n\nSince the number of terms n = 10 (even), the median is the simple average of the two middle terms.\n\nMedian = Average of the 5th and 6th terms.\n\nMedian = (14 + 15) ÷ 2 = 14.5.\n\n**∴ The correct answer is 14.5 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nThe ages of 10 students (in years): 12, 13, 16, 18, 14, 19, 13, 17, 15, and 11.\n\n**Formula Used:**\n\nFor an even number of observations n, Median = [(n/2)th term + (n/2 + 1)th term] ÷ 2\n\n \n 11\n \n \n 12\n \n \n 13\n \n \n 13\n \n \n 14\n \n \n 15\n \n \n 16\n \n \n 17\n \n \n 18\n \n \n 19\n\n \n• \n Median Position\n \n \n\n Average = 14.5\n\n**Calculation:**\n\n⇒ Total number of observations, n = 10 (even number).\n\n⇒ First, sort the given ages in ascending order:\n\n⇒ 11, 12, 13, 13, 14, 15, 16, 17, 18, 19\n\n⇒ Median = [(10/2)th term + (10/2 + 1)th term] ÷ 2\n\n⇒ Median = [5th term + 6th term] ÷ 2\n\n⇒ Here, the 5th term is 14, and the 6th term is 15.\n\n⇒ Median = (14 + 15) ÷ 2\n\n⇒ Median = 29 ÷ 2 = 14.5\n\n**∴ The correct answer is 14.5 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMean\n\nThe mean is the simple average of a given set of numbers. It is calculated by Mean = Sum of all observations ÷ Total number of observations.\n\nMedian\n\nThe median is the exact middle value when a data set is ordered from least to greatest. If n is odd, Median = ((n+1)÷2)th term. If n is even, the Median is the average of the two central terms.\n\nMode\n\nThe mode is the value that appears most frequently in a data set. A set of data may have one mode, multiple modes, or no mode at all.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Elementary Statistics"
+      ]
+    },
+    {
+      "qid": "650a636c126e2bd63459ae60",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify the following expression. \n\n45 - 22 ÷ 2 + 12 + 70 ÷ 35 + 0.4 ÷ 0.8 + 1.5 ÷ 3 + 1",
+      "options": [
+        {
+          "label": "1",
+          "text": "50"
+        },
+        {
+          "label": "2",
+          "text": "50.5"
+        },
+        {
+          "label": "3",
+          "text": "48.5"
+        },
+        {
+          "label": "4",
+          "text": "54.5"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n45 - 22 ÷ 2 + 12 + 70 ÷ 35 + 0.4 ÷ 0.8 + 1.5 ÷ 3 + 1\n\n**Formula Used:**\n\nBODMAS Rule (Bracket, Of, Division, Multiplication, Addition, Subtraction)\n\n**Calculation:**\n\n45 - 22 div 2 + 12 + 70 div 35 + 0.4 div 0.8 + 1.5 div 3 + 1\n\n⇒ 45 - 11 + 12 + 2 + 0.5 + 0.5 + 1\n\n⇒ 34 + 12 + 2 + 1 + 1\n\n⇒ 50\n\n**∴ The correct answer is option (1).**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "642d2349f4f9e13b53110218",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the value of ({k}+(1)/(k))({k}-(1)/({k)})({k}²+(1)/({k)²})({k}⁴+(1)/({k)⁴})?",
+      "options": [
+        {
+          "label": "1",
+          "text": "{k}¹⁶+(1)/({k)¹⁶}"
+        },
+        {
+          "label": "2",
+          "text": "{k}¹⁶-(1)/({k)¹⁶}"
+        },
+        {
+          "label": "3",
+          "text": "{k}⁸-(1)/({k)⁸}"
+        },
+        {
+          "label": "4",
+          "text": "{k}⁸+(1)/({k)⁸}"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nIdentify the iterative use of the identity (a + b)(a − b) = a² − b².\n\nEach product doubles the power of the variables and keeps the − sign.\n\nThe sequence of powers is: 1 → 2 → 4 → 8.\n\nThe final simplified form will be the square of the highest power terms in the last pair with a minus sign.\n\n**∴ The correct answer is k⁸ − 1/k⁸.**\n\n**__Alternate Method__**\n\nGiven Expression: (k + 1/k)(k − 1/k)(k² + 1/k²)(k⁴ + 1/k⁴)\n\nFormula Used: (a + b)(a − b) = a² − b²\n\n⇒ [(k + 1/k)(k − 1/k)] × (k² + 1/k²) × (k⁴ + 1/k⁴)\n\n⇒ (k² − 1/k²) × (k² + 1/k²) × (k⁴ + 1/k⁴)\n\n⇒ [(k² − 1/k²)(k² + 1/k²)] × (k⁴ + 1/k⁴)\n\n⇒ (k⁴ − 1/k⁴) × (k⁴ + 1/k⁴)\n\n⇒ (k⁴)² − (1/k⁴)²\n\n⇒ k⁸ − 1/k⁸\n\n**∴ The correct answer is k⁸ − 1/k⁸.**\n\n**__Additional Information__**\n\nDifference of Squares\n\nThe identity (a + b)(a − b) = a² − b² is fundamental for simplifying algebraic products involving conjugate pairs.\n\nGeneral Power Rule\n\nFor an expression of the form (x − y)(x + y)(x² + y²)(x⁴ + y⁴)...(x²ⁿ−¹ + y²ⁿ−¹), the simplified result is x²ⁿ − y²ⁿ.\n\nCubic Identities\n\nSum of cubes: (a + b)(a² − ab + b²) = a³ + b³ and Difference of cubes: (a − b)(a² + ab + b²) = a³ − b³.</p",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "622efe7168dbbef48f91ebd9",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sum of money doubled itself at certain rate of compound interest in 15 years. In how many years will it become four times of itself?",
+      "options": [
+        {
+          "label": "1",
+          "text": "45"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "25"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nIn Compound Interest, if a sum becomes n times in t years, it becomes nk times in k × t years.\n\nGiven: A sum doubles (n = 2) in t = 15 years.\n\nTarget: 4 times of itself → 4 = 2², so k = 2.\n\nRequired time = k × t = 2 × 15 = 30 years.\n\n**∴ The correct answer is 30 years.**\n\n**__Alternate Method__**\n\n**Given:**\n\nTime (t₁) = 15 years\n\nGrowth = Doubled (2 times)\n\n**Formula Used:**\n\nAmount (A) = P(1 + r/100)t\n\n [IMAGE: https://cdn.repeatermock.com/tb/395447a344da580aafadb4979cc91422ac4c1686408d3201aad34cb1e23da18f.png] \n\n**Calculations:**\n\n⇒ 2P = P(1 + r/100)¹⁵\n\n⇒ 2 = (1 + r/100)¹⁵ --- (Equation 1)\n\n⇒ Let the required time be T years to become 4 times.\n\n⇒ 4P = P(1 + r/100)T\n\n⇒ 4 = (1 + r/100)T\n\n⇒ 2² = (1 + r/100)T\n\n⇒ Substituting value of 2 from Eq.1:\n\n⇒ [(1 + r/100)¹⁵]² = (1 + r/100)T\n\n⇒ (1 + r/100)³⁰ = (1 + r/100)T\n\n⇒ T = 30 years\n\n**∴ The correct answer is 30 years.**\n\n**__Additional Information__**\n\nCompound Interest Amount Formula\n\nThe total amount A is given by A = P(1 + R/100)ⁿ, where P is the principal, R is the rate of interest per annum, and n is the number of years.\n\nSuccessive Multiplication in CI\n\nIn Compound Interest, the sum of money increases in a Geometric Progression (GP) where the amount becomes n times in a fixed interval of time.\n\nRule of 72\n\nTo find the approximate time needed to double the money at compound interest, divide 72 by the annual interest rate (Time ≈ 72 ÷ Rate).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/395447a344da580aafadb4979cc91422ac4c1686408d3201aad34cb1e23da18f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "630ee85bb4d0201dab4b4044",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Anil sells a table to Kamal at a profit of 10% and Kamal sells it to Rajat at a profit of 12%. If Rajat pays ₹246.40 for it, then how much had Anil paid for it?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹220"
+        },
+        {
+          "label": "2",
+          "text": "₹215"
+        },
+        {
+          "label": "3",
+          "text": "₹200"
+        },
+        {
+          "label": "4",
+          "text": "₹233"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nAnil to Kamal profit = 10% → Ratio = 10 : 11\n\nKamal to Rajat profit = 12% → Ratio = 25 : 28\n\nSuccessive Ratio (Anil : Rajat) = (10 × 25) : (11 × 28) = 250 : 308\n\n308 units = ₹246.40 ⇒ 1 unit = 0.8\n\nAnil CP = 250 units × 0.8 = ₹200\n\n**∴ The correct answer is ₹200.**\n\n**__Alternate Method__**\n\n**Given:**\n\nAnil profit = 10%\n\nKamal profit = 12%\n\nRajat payment (Final SP) = ₹246.40\n\n [IMAGE: https://cdn.repeatermock.com/tb/cbcb464918566798a9254cdc8e6ea0e120768530495e181e75b223c57a946171.png] \n\n**Calculations:**\n\nLet the cost price for Anil be ₹ x.\n\n⇒ Price paid by Kamal = x × (100 + 10) ÷ 100 = 1.1x\n\n⇒ Price paid by Rajat = 1.1x × (100 + 12) ÷ 100\n\n⇒ 246.40 = 1.1x × 1.12\n\n⇒ 246.40 = 1.232x\n\n⇒ x = 246.40 ÷ 1.232\n\n⇒ x = 200\n\n**∴ The correct answer is ₹200.**\n\n**__Additional Information__**\n\nSuccessive Percentage Change\n\nWhen a value changes by a% and then by b%, the effective change is [a + b + (a × b)/100] %.\n\nChain Selling Formula\n\nFinal Price = Initial CP × (100 ± P₁/L₁)/100 × (100 ± P₂/L₂)/100 × ...\n\nCost Price Calculation\n\nCP = [SP ÷ (100 + Profit %)] × 100 or CP = [SP ÷ (100 − Loss %)] × 100.\n\n3d:Tde9,\n<",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/cbcb464918566798a9254cdc8e6ea0e120768530495e181e75b223c57a946171.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "64ce342455928a84009e2a1e",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The speed of a boat down the stream is 125% of the speed in still water. If the boat takes 30 minutes to cover 20 km in still water, then how much time (in hours) will it take to cover 15 km upstream?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(3)/(4)"
+        },
+        {
+          "label": "2",
+          "text": "(1)/(2)"
+        },
+        {
+          "label": "3",
+          "text": "(1)/(4)"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSpeed ratio Downstream : Still water = 125% : 100% = 5 : 4\n\nStream speed ratio = 5 − 4 = 1 part, so Upstream speed ratio = 4 − 1 = 3 parts.\n\nSpeed in still water (4 parts) = 20 km ÷ 0.5 hr = 40 km/h.\n\nUpstream speed (3 parts) = (40 ÷ 4) × 3 = 30 km/h.\n\nTime for 15 km upstream = 15 ÷ 30 = 1/2 hour.\n\n**∴ The correct answer is 1/2 hour.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n⇒ Speed downstream = 125% of speed in still water.\n\n⇒ Time taken to cover 20 km in still water = 30 minutes = 0.5 hours.\n\n**Formula Used:**\n\n⇒ Speed = Distance ÷ Time\n\n⇒ Downstream Speed (D) = Boat Speed (B) + Stream Speed (S)\n\n⇒ Upstream Speed (U) = Boat Speed (B) − Stream Speed (S)\n\n [IMAGE: https://cdn.repeatermock.com/tb/7f3c23fec93def93e6ddefbd76678ec1169c82b5e14d8bcb2559847494062b6e.png] \n\n**Calculations:**\n\n⇒ Speed in still water (B) = 20 km ÷ 0.5 hours = 40 km/h\n\n⇒ Speed downstream (D) = 125% of 40 = 1.25 × 40 = 50 km/h\n\n⇒ Speed of stream (S) = D − B = 50 − 40 = 10 km/h\n\n⇒ Speed upstream (U) = B − S = 40 − 10 = 30 km/h\n\n⇒ Time to cover 15 km upstream = Distance ÷ Upstream Speed\n\n⇒ Time = 15 ÷ 30 = 1/2 hour\n\n**∴ The correct answer is 1/2 hour.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSpeed in Still Water\n\nIt is the average of downstream and upstream speeds: B = (D + U) ÷ 2\n\nSpeed of Stream\n\nIt is half the difference between downstream and upstream speeds: S = (D − U) ÷ 2\n\nAverage Speed of Journey\n\nIf a boat goes a certain distance downstream and comes back upstream, the average speed is (2 × D × U) ÷ (D + U).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7f3c23fec93def93e6ddefbd76678ec1169c82b5e14d8bcb2559847494062b6e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6373533a94f2363c36ce1584",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following is/are prime numbers?\n\n(i) 241 \n\n(ii) 337\n\n(iii) 391\n\n(iv) 571",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (ii) and (iii)"
+        },
+        {
+          "label": "2",
+          "text": "(ii), (iii) and (iv)"
+        },
+        {
+          "label": "3",
+          "text": "(i), (ii) and (iv)"
+        },
+        {
+          "label": "4",
+          "text": "(i), (ii), (iii) and (iv)"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nTo check if n is prime, test its divisibility by primes p ≤ √n.\n\n(i) √241 ≈ 15.5: Not divisible by primes 7, 11, or 13 → Prime.\n\n(ii) √337 ≈ 18.3: Not divisible by primes 7, 11, 13, or 17 → Prime.\n\n(iii) 391 ÷ 17 = 23 → Composite; (iv) √571 ≈ 23.9: No prime factors ≤ 23 → Prime.\n\n**∴ The correct answer is (i), (ii) and (iv).**\n\n**__Alternate Method__**\n\nGiven numbers: (i) 241, (ii) 337, (iii) 391, (iv) 571.\n\nMethod: A number is prime if it is not divisible by any prime number less than or equal to its square root.\n\n⇒ For 241: √241 ≈ 15.5. Primes to check: 2, 3, 5, 7, 11, 13. Divisibility check: 241 ÷ 7 = 34.4, 241 ÷ 11 = 21.9, 241 ÷ 13 = 18.5. No factors found, so 241 is Prime.\n\n⇒ For 337: √337 ≈ 18.3. Primes: 2, 3, 5, 7, 11, 13, 17. Divisibility check: 337 ÷ 13 = 25.9, 337 ÷ 17 = 19.8. No factors found, so 337 is Prime.\n\n⇒ For 391: √391 ≈ 19.7. Primes up to 19: 2, 3, 5, 7, 11, 13, 17, 19. Checking divisibility: 391 ÷ 17 = 23. Since 17 is a factor, 391 is Composite.\n\n⇒ For 571: √571 ≈ 23.9. Primes up to 23: 2, 3, 5, 7, 11, 13, 17, 19, 23. Divisibility check: 571 ÷ 19 = 30.05, 571 ÷ 23 = 24.8. No factors found, so 571 is Prime.\n\n⇒ The prime numbers in the list are 241, 337, and 571.\n\n**∴ The correct answer is (i), (ii) and (iv).**\n\n**__Additional Information__**\n\nPrime and Composite Numbers\n\nA prime number is a natural number greater than 1 that has exactly two factors: 1 and itself. A composite number has more than two factors. 1 is neither prime nor composite.\n\nEven Prime Number\n\n2 is the smallest prime number and the only even prime number in the entire number system.\n\nSquare Root Rule for Primality\n\nTo check if a number N is prime, we only need to test its divisibility by prime numbers up to √N. If no prime factor is found in this range, the number is prime.</p",
+      "tags": [
+        "Number System"
+      ]
+    }
+  ]
+}

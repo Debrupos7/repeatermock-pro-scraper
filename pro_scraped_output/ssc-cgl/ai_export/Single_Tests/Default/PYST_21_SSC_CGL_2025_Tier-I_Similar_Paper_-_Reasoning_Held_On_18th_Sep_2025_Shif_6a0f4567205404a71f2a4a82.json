@@ -1,0 +1,958 @@
+{
+  "test_id": "6a0f4567205404a71f2a4a82",
+  "title": "PYST 21: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 18th Sep 2025 Shift 3)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:07:50.651194+00:00",
+  "questions": [
+    {
+      "qid": "694e7f9fc0a17626b563fe72",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark () in the following series.\n\nEIN, JNS, OSX, TXC, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "YCH"
+        },
+        {
+          "label": "2",
+          "text": "ZHM"
+        },
+        {
+          "label": "3",
+          "text": "XHM"
+        },
+        {
+          "label": "4",
+          "text": "YGN"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\n**The logic followed here is:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/29829454c5280d7ee09a6ac194a31c3fa0d46d39c4ca0e4dd183086d9d9a3220.png] \n\nThus, the missing letter cluster in the series is **YCH**.\n\nHence, the correct answer is **Option 1**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/29829454c5280d7ee09a6ac194a31c3fa0d46d39c4ca0e4dd183086d9d9a3220.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7f9fa317e54341a9e7c8",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 12 @ 2 = 216 and 16 @ 4 = 64, then what is the value of 10 @ 2",
+      "options": [
+        {
+          "label": "1",
+          "text": "100"
+        },
+        {
+          "label": "2",
+          "text": "125"
+        },
+        {
+          "label": "3",
+          "text": "150"
+        },
+        {
+          "label": "4",
+          "text": "216"
+        }
+      ],
+      "correct": "2",
+      "solution": "Logic: The operation **@** represents division, and the final result is the cube of that quotient.\n\nFormula: **(first number ÷ second number)³**\n\n**For,**\n\n12 @ 2 ⇒ (12 ÷ 2)³ = 6³ = **216**\n\n16 @ 4 ⇒ (16 ÷ 4)³ = 4³ = **64**\n\nSimilarly, \n\n10 @ 2 ⇒ (10 ÷ 2)³ = 5³ = **125**\n\nSo, the value of 10 @ 2 is **125**.\n\nHence, the correct answer is **\"Option 2\"**.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7f9ff77e075b64e0816a",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the correct mathematical signs to swap so that the following equation becomes correct.\n\n60 ÷ 12 + 6 – 3 × 2 = 5",
+      "options": [
+        {
+          "label": "1",
+          "text": "÷ and ×"
+        },
+        {
+          "label": "2",
+          "text": "+ and –"
+        },
+        {
+          "label": "3",
+          "text": "÷ and +"
+        },
+        {
+          "label": "4",
+          "text": "– and ×"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/d50192f098c21078501d30eeafe1a8c64bc30dd9621c48caa8a39ffc60f68b64.png] \n\nGiven equation: 60 ÷ 12 + 6 – 3 × 2 = 5\n\nLet's check each option one by one.\n\nOption 1) ÷ and × \n\nGiven: 60 ÷ 12 + 6 – 3 × 2 = 5\n\nAfter interchanging the signs we get;\n\n⇒ 60 × 12 + 6 – __**3 ÷ 2**__ = 5\n\n⇒ __**60 × 12**__ + 6 – 1.5 = 5\n\n⇒ __**720 + 6**__ – 1.5 = 5\n\n⇒ __726 – 1.5__ = 5\n\n⇒ 724.5 ≠ 5\n\n⇒ LHS ≠ RHS\n\n**Option 2) + ****and –**\n\nGiven: 60 ÷ 12 + 6 – 3 × 2 = 5\n\nAfter interchanging the signs we get;\n\n⇒ __**60 ÷ 12**__ – 6 + 3 × 2 = 5\n\n⇒ 5 – 6 + __**3 × 2**__ = 5\n\n⇒ __**5 + 6**__ – 6 = 5\n\n⇒ __11 – 6__ = 5\n\n⇒ **5 = 5**\n\n**⇒ LHS = RHS**\n\nOption 3) ÷ and +\n\nGiven: 60 ÷ 12 + 6 – 3 × 2 = 5\n\nAfter interchanging the signs we get;\n\n⇒ 60 + __**12 ÷ 6**__ – 3 × 2 = 5\n\n⇒ 60 + 2 – __**3 × 2**__ = 5\n\n⇒ __**60 + 2**__ – 6 = 5\n\n⇒ __62 – 6__ = 5\n\n⇒ 56 ≠ 5\n\n⇒ LHS ≠ RHS\n\nOption 4) – and ×\n\nGiven: 60 ÷ 12 + 6 – 3 × 2 = 5\n\nAfter interchanging the signs we get;\n\n⇒ __**60 ÷ 12**__ + 6 × 3 – 2 = 5\n\n⇒ 5 + __**6 × 3**__ – 2 = 5\n\n⇒ __**5 + 18**__ – 2 = 5\n\n⇒ __23 – 2__ = 5\n\n⇒ 21 ≠ 5\n\n⇒ LHS ≠ RHS\n\nHence, the correct answer is \"Option 2\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d50192f098c21078501d30eeafe1a8c64bc30dd9621c48caa8a39ffc60f68b64.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7fa0c0a17626b563fe77",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "X is the father of Y. Y is the brother of Z. Z is the mother of W. How is X related to W ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Grandfather"
+        },
+        {
+          "label": "2",
+          "text": "Father"
+        },
+        {
+          "label": "3",
+          "text": "Brother"
+        },
+        {
+          "label": "4",
+          "text": "Uncle"
+        }
+      ],
+      "correct": "1",
+      "solution": "Decoding symbols for Family Tree:\n\n [IMAGE: https://cdn.repeatermock.com/tb/153c6a6e313de03f2911e6352e768c319ce48bd8d9b10cf6c7d58c07f604979a.png] \n\nStep-by-step Relationship Analysis:\n\n \n• X is the father of Y.\n \n• Y is the brother of Z. \n \n• Z is the mother of W. \n\nConsolidated Family Structure:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a64875286e062a9ff169e686969d5b322ec9cf2e7eb607afa4ce9b63930f87fd.png] \n\nThus, X is the Grandfather of W.\n\nHence, the correct answer is \"**Option 1**\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/153c6a6e313de03f2911e6352e768c319ce48bd8d9b10cf6c7d58c07f604979a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a64875286e062a9ff169e686969d5b322ec9cf2e7eb607afa4ce9b63930f87fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694e7fa0059f86dc0d8e2791",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, a specific alphabetical pattern is applied to the first set of letters to form the second. Apply the same logic to find the missing term:\n\nGE : LI :: RN : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "WR"
+        },
+        {
+          "label": "2",
+          "text": "VQ"
+        },
+        {
+          "label": "3",
+          "text": "WS"
+        },
+        {
+          "label": "4",
+          "text": "TR"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\nThe logic followed here is.\n\n**For GE : LI**\n\n [IMAGE: https://cdn.repeatermock.com/tb/129df4f5f67554bbf8d711e706da704bbd77c348e9096a22dde52b2115c8e851.png] \n\nSimilarly, **RN**:\n\n [IMAGE: https://cdn.repeatermock.com/tb/3933400610b6e68485c9bfb434f3229a9b264b82d75590a63543fd8d51efa0e0.png] \n\n \n\nHence, the correct answer is **\"Option 1\"**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/129df4f5f67554bbf8d711e706da704bbd77c348e9096a22dde52b2115c8e851.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3933400610b6e68485c9bfb434f3229a9b264b82d75590a63543fd8d51efa0e0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694e7fa0fac5581707241beb",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the missing number in the following sequence\n\n92, 88, 86, 82, 80, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "74"
+        },
+        {
+          "label": "2",
+          "text": "75"
+        },
+        {
+          "label": "3",
+          "text": "76"
+        },
+        {
+          "label": "4",
+          "text": "78"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/037529e2320fd2239ede8601d928d931b3dadb80d088d2227b805dcfc142c32e.png] \n\nThus, the missing number in the series is 76.\n\nHence, the correct answer is **\"Option 3\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/037529e2320fd2239ede8601d928d931b3dadb80d088d2227b805dcfc142c32e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7fa1a317e54341a9e7cb",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: Rising temperatures in coastal cities are significantly increasing the daily electricity demand.\n\nConclusion I: Residents in coastal cities require more energy for cooling systems.\n\nConclusion II: Temperature changes have no impact on urban energy consumption.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given,\n\nStatement:\n\nRising temperatures in coastal cities are significantly increasing the daily electricity demand.\n\nConclusions:\n\nI. Residents in coastal cities require more energy for cooling systems - **True** (Because, rising temperatures na",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694e7fa14233ea1a4c6b37bd",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the numerical combination that does not follow the pattern established by the others.",
+      "options": [
+        {
+          "label": "1",
+          "text": "23-22"
+        },
+        {
+          "label": "2",
+          "text": "34-33"
+        },
+        {
+          "label": "3",
+          "text": "56-55"
+        },
+        {
+          "label": "4",
+          "text": "78-70"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\nIn each pair, except for one, the difference between the two numbers is exactly 1.\n\n1) 23 - 22 = 1\n\n2) 34 - 33 = 1\n\n3) 56 - 55 = 1\n\nWhereas,\n\n4) 78 - 70 = 8\n\nSo, 78-70 is odd from the given options because the difference is not 1.\n\nHence, the correct answer is \"Option 4\".",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694e7fa1a628e7b09fe4a6cd",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.\n\nStatement: Implementing renewable energy in urban planning can drastically reduce carbon footprints, but the initial setup costs remain a significant barrier for developing nations.\n\nAssumptions:\n\nI. Renewable energy is a viable method for reducing carbon footprints.\n\nII. The high cost of installation prevents some countries from adopting green energy.\n\nIII. Urban planning should prioritize environmental impact regardless of budget.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I and II are implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only II and III are implicit"
+        },
+        {
+          "label": "3",
+          "text": "All I, II and III are implicit"
+        },
+        {
+          "label": "4",
+          "text": "Only I is implicit"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given Statement: Implementing renewable energy in urban planning can drastically reduce carbon footprints, but the initial setup costs remain a significant barrier for developing nations.\n\nNow, \n\nAssumptions:\n\nI. Renewable energy is a viable method for reducing carbon footprints - Implicit (The statement directly links the implementation of renewable energy to the drastic reduction of carbon footprints, assuming it works as a method).\n\nII. The high cost of installation prevents some countries from adopting green energy - Implicit (The statement identifies initial setup costs as a \"significant barrier\" for developing nations, implying that these costs hinder or prevent adoption).\n\nIII. Urban planning should prioritize environmental impact regardless of budget - **Not Implicit **(The statement highlights a conflict between environmental goals and financial barriers, but it does not claim or assume that the environment should be prioritized regardless of the budget).\n\nHere, Only I and II are implicit.\n\nHence, the correct answer is \"Option 1\".",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "694e7fa2ef332f6209732ff6",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: Every library in the university has transitioned to a digital catalog system.\n\nConclusion I: The location and availability of books can now be monitored electronically.\n\nConclusion II: Physical books are being replaced by digital versions.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given,\n\nStatement:\n\nEvery library in the university has transitioned to a digital catalog system.\n\nConclusions:\n\nI. The location and availability of books can now be monitored electronically - **True** (Because, a digital catalog system is d",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694e7fa2ef332f6209732ffa",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Comprehension: Eight colleagues Tara, Ravi, Dina, Varun, Sia, Maya, Nisha, and Rina occupy an eight-floor office building, where the ground floor is 1 and the top is 8. Dina works on the lowermost floor. There are three floors between Dina and Rina. Tara works on the 4th floor. Two floors separate Tara and Ravi. Five floors are between Varun and Sia. Nisha is on an odd-numbered floor. One floor is between Maya and Varun.\n\nWho works three floors below the person immediately below Ravi ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Nisha"
+        },
+        {
+          "label": "2",
+          "text": "Tara"
+        },
+        {
+          "label": "3",
+          "text": "Dina"
+        },
+        {
+          "label": "4",
+          "text": "Ravi"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given: Eight colleagues (Tara, Ravi, Dina, Varun, Sia, Maya, Nisha, Rina) occupy an eight-floor building (Floors 1 to 8).\n\n1) Dina works on the lowermost floor (Floor 1). Three floors are between Dina and Rina.\n\n2) Tara works on the 4th floor. Two floors separate Tara and Ravi. Since Dina is already on Floor 1, Ravi must be on Floor 7.\n\n \n \n\n Floor\n Person\n \n \n \n \n\n 8 (Top)\n \n \n \n\n 7\n Ravi\n \n \n\n 6\n \n \n \n\n 5\n Rina\n \n \n\n 4\n Tara\n \n \n\n 3\n \n \n \n\n 2\n \n \n \n\n 1 (Ground)\n Dina\n \n \n\n \n\n3) Five floors are between Varun and Sia. One floor is between Maya and Varun.\n\n \n \n\n Floor\n Person\n \n \n \n \n\n 8 (Top)\n Varun\n \n \n\n 7\n Ravi\n \n \n\n 6\n Maya\n \n \n\n 5\n Rina\n \n \n\n 4\n Tara\n \n \n\n 3\n \n \n \n\n 2\n Sia\n \n \n\n 1 (Ground)\n Dina\n \n \n\n4) Nisha is on an odd-numbered floor.\n\nThe only remaining floor is **Floor 3**, which is an odd number. So, Nisha is on Floor 3.\n\n \n \n\n **Floor**\n **Person**\n \n \n \n \n\n 8 (Top)\n Varun\n \n \n\n 7\n Ravi\n \n \n\n 6\n Maya\n \n \n\n 5\n Rina\n \n \n\n 4\n Tara\n \n \n\n 3\n Nisha\n \n \n\n 2\n Sia\n \n \n\n 1 (Ground)\n Dina\n \n \n\n \n\nThus, the person who works three floors below the person immediately below Ravi is **Nisha**.\n\nHence, the correct answer is **\"Option 1\"**.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7fa2d94ef9c209351c49",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement:\n\nNo students are teachers.\n\nSome mentors are teachers\n\nConclusion I: Some students are teachers.\n\nConclusion II: Some teachers are not students. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither follows"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given Statements:\n\nNo students are teachers.\n\nSome mentors are teachers.\n\nThe least possible Venn diagram for the given statement is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/579704eea55035929c322a8ed5acc5a4f40fcdfd1422026b4708bace41a60063.png] \n\nConclusions:\n\nI. Some student",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/579704eea55035929c322a8ed5acc5a4f40fcdfd1422026b4708bace41a60063.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "694e7fa3da7d0a3eb1b034fa",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the odd one out from the following list based on their classification.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mars"
+        },
+        {
+          "label": "2",
+          "text": "Venus"
+        },
+        {
+          "label": "3",
+          "text": "Jupiter"
+        },
+        {
+          "label": "4",
+          "text": "Moon"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\n \n \n\n Mars\n Planet\n \n \n\n Venus\n Planet\n \n \n\n Jupiter\n <td style=\"",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694e7fa3fac5581707241c03",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, if the word GHOST is written as FGNRS, how would the word SMART be written?",
+      "options": [
+        {
+          "label": "1",
+          "text": "RLZQS"
+        },
+        {
+          "label": "2",
+          "text": "RLSQS"
+        },
+        {
+          "label": "3",
+          "text": "RKZQS"
+        },
+        {
+          "label": "4",
+          "text": "QLZQS"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\nThe logic followed here is.\n\n**For GHOST : FGNRS**\n\n<img alt=\"\" src=\"https://cdn.r",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694e7fa3da7d0a3eb1b034fc",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the missing term in the following analogy based on the transformation pattern.\n\nBEFJ : LOPT :: ? : QUVZ",
+      "options": [
+        {
+          "label": "1",
+          "text": "HKQL"
+        },
+        {
+          "label": "2",
+          "text": "GLKP"
+        },
+        {
+          "label": "3",
+          "text": "GKLP"
+        },
+        {
+          "label": "4",
+          "text": "HLKP"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\nThe logic followed here is.\n\n**For BEFJ : LOPT**\n\n [IMAGE: https://cdn.repeatermock.com/tb/dfd3597325bd979cf08953580ae1ba2ab6302a8cf7bc0947943f76598a34897a.png] \n\n**For GKLP : QUVZ**\n\n [IMAGE: https://cdn.repeatermock.com/tb/70e4090472c98374f324127e8ad873b56e52f883f4f9e7690ca8dd97df5c177b.png] \n\nHence, the correct answer is **\"Option 3\"**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/dfd3597325bd979cf08953580ae1ba2ab6302a8cf7bc0947943f76598a34897a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/70e4090472c98374f324127e8ad873b56e52f883f4f9e7690ca8dd97df5c177b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694e7fa4a317e54341a9e7d0",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that correctly completes the professional relationship analogy.\n\nCHEF : KITCHEN :: SCIENTIST : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "OFFICE"
+        },
+        {
+          "label": "2",
+          "text": "LABORATORY"
+        },
+        {
+          "label": "3",
+          "text": "EXPERIMENT"
+        },
+        {
+          "label": "4",
+          "text": "MICROSCOPE"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\nLogic: **Profession : Workplace** (The second term is the location where the first term typically performs their professional work).\n\nHere,\n\nCHEF : KITCHEN → **Chef** is a professional who works in a **Kitchen**.\n\nSimilarly,\n\nSCIENTIST : LABORATORY → **Scientist** is a professional who works in a **Laboratory**.\n\nHence, the correct answer is **\"Option 2\"**.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694e7fa4da7d0a3eb1b034fe",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the calculated sum of the first 10 terms in the following arithmetic series? 2, 4, 6, 8, ... ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "100"
+        },
+        {
+          "label": "2",
+          "text": "110"
+        },
+        {
+          "label": "3",
+          "text": "120"
+        },
+        {
+          "label": "4",
+          "text": "130"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nArithmetic series: 2, 4, 6, 8, ...\n\nFirst term (a) = 2\n\nCommon difference (d) = 2\n\nNumber of terms (n) = 10\n\n**Formula used:**\n\nSₙ = n/2 [2a + (n - 1)d]\n\n**Calculations:**\n\nS₁₀ = 10/2 [2 × 2 + (10 - 1) × 2]\n\n⇒ S₁₀ = 5 [4 + 9 × 2]\n\n⇒ S₁₀ = 5 [4 + 18]\n\n⇒ S₁₀ = 5 × 22\n\n⇒ S₁₀ = 110\n\n**∴ The correct answer is option (2).**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7fa444e0f313c94b1992",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster that replaces the question mark (?) to complete the sequence.\n\nCYD, EWF, GUH, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ISJ"
+        },
+        {
+          "label": "2",
+          "text": "IRJ"
+        },
+        {
+          "label": "3",
+          "text": "HTJ"
+        },
+        {
+          "label": "4",
+          "text": "JSJ"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/9e3c2da88470fbd5f5da70731a3027b063c42b1e2c3c651cd701d3872de148c1.png] \n\nThus, the missing letter cluster in the series is **ISJ**.\n\nHence, the correct answer is \"**Option 1**.\"",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/9e3c2da88470fbd5f5da70731a3027b063c42b1e2c3c651cd701d3872de148c1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7fa5d94ef9c209351c53",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the term that does not belong in the same geographical or scientific category as the others.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Igneous"
+        },
+        {
+          "label": "2",
+          "text": "Sedimentary"
+        },
+        {
+          "label": "3",
+          "text": "Metamorphic"
+        },
+        {
+          "label": "4",
+          "text": "Magma"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\n \n \n\n Igneous\n Type of Rock\n \n \n\n Sedimentary\n Type of Rock\n \n \n\n Metamorphic\n Type of Rock\n \n \n\n **Magma**\n **Molten material that forms rock**\n \n \n\n \n\nIgneous, Sedimentary, and Metamorphic are the three main categories of rocks found in the Earth's crust.\n\nWhereas,\n\n**Magma** is the molten or semi-molten natural material from which igneous rocks are formed.\n\nHence, the correct answer is \"**Option 4**\".",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694e7fa5793f5531248a3591",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out from the following list of anatomical parts.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Retina"
+        },
+        {
+          "label": "2",
+          "text": "Lens"
+        },
+        {
+          "label": "3",
+          "text": "Pupil"
+        },
+        {
+          "label": "4",
+          "text": "Radius"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\n \n \n\n Retina\n Part of the Eye\n \n \n\n Lens\n Part of the Eye\n \n \n\n Pupil\n Part of the Eye\n \n \n\n **Radius**\n **Bone in the Forearm**\n \n \n\n \n\nRetina, Lens, and Pupil are all integral parts of the human eye anatomy.\n\nWhereas,\n\nThe Radius is one of the two large bones of the forearm, extending from the lateral side of the elbow to the thumb side of the wrist.\n\nHence, the correct answer is \"**Option 4**\".",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694e7fa56232f5b578a06c7e",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a specific code, if the word NIGHT is written as OHJIS, how will the word LIGHT be written? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "MHJIS"
+        },
+        {
+          "label": "2",
+          "text": "MHHGU"
+        },
+        {
+          "label": "3",
+          "text": "MIHIS"
+        },
+        {
+          "label": "4",
+          "text": "MHGGU"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\nThe logic followed here is.\n\n**For NIGHT : OHJIS**\n\n [IMAGE: https://cdn.repeatermock.com/tb/4e7a61fe7ed75e250bd69bedb42fef207508995ad296bc77d6e2c3a0428c59a5.png] \n\nApplying the same logic to **LIGHT**:\n\n [IMAGE: https://cdn.repeatermock.com/tb/772d45bed155a0b90e10a1c3f5dd46eb84b25fd4029c6ccd27673692f51fa40d.png] \n\nSo, LIGHT is written as MHJIS.\n\nHence, the correct answer is **\"Option 1\"**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4e7a61fe7ed75e250bd69bedb42fef207508995ad296bc77d6e2c3a0428c59a5.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/772d45bed155a0b90e10a1c3f5dd46eb84b25fd4029c6ccd27673692f51fa40d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694e7fa6d94ef9c209351c57",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Pointing to a man, Mary says, \"He is the husband of my aunt's only daughter.\" How is the man related to Mary? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Brother"
+        },
+        {
+          "label": "2",
+          "text": "Brother-in-law"
+        },
+        {
+          "label": "3",
+          "text": "Cousin"
+        },
+        {
+          "label": "4",
+          "text": "Uncle"
+        }
+      ],
+      "correct": "2",
+      "solution": "Decoding symbols for Family Tree:\n\n [IMAGE: https://cdn.repeatermock.com/tb/153c6a6e313de03f2911e6352e768c319ce48bd8d9b10cf6c7d58c07f604979a.png] \n\nStep-by-step Relationship Analysis:\n\nBreakdown the statement made by Mary: \"He is the husband of my aunt's only daughter.\"\n\n \n• \"My aunt's on",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/153c6a6e313de03f2911e6352e768c319ce48bd8d9b10cf6c7d58c07f604979a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694e7fa6fac5581707241c29",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'x' denotes '+', '+' denotes '-', and '-' denotes 'x', then solve the following expression.\n\n10 x 6 + 4 - 2 = ? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/7751840ca1840d12cadc428f84d30e2cdcd5e7f82d52a57de21f2404c58eed88.png] \n\n**Given: 10 x 6 + 4 - 2 = ?**\n\nDecoding the given information:\n\n \n \n\n Symbol\n x\n +\n -\n \n \n \n \n\n Means\n **+**\n **-**\n **×**\n \n \n\nNow replacing the sign from left to right using BODMAS Rule, we get:\n\n⇒ 10 + 6 - **__4 × 2__**\n\n= **__10 + 6__** - 8\n\n⇒ **__16 - 8__**\n\n= **8**\n\nHence, the correct answer is** \"Option 2\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7751840ca1840d12cadc428f84d30e2cdcd5e7f82d52a57de21f2404c58eed88.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7fa65cf04fab45fbff37",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the sum of 26 and 52 is multiplied by 2, what is the final result? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "148"
+        },
+        {
+          "label": "2",
+          "text": "152"
+        },
+        {
+          "label": "3",
+          "text": "156"
+        },
+        {
+          "label": "4",
+          "text": "160"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nNumbers = 26, 52\n\nMultiplier = 2\n\n(a + b) × 2\n\n**Calculations:**\n\n(26 + 52) × 2\n\n⇒ 78 × 2\n\n⇒ 156\n\n**∴ The correct answer is option (3).**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7fa744e0f313c94b19ec",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The following sequence contains one incorrect number. Identify the incorrect combination.\n\n27, 34, 50, 69, 97",
+      "options": [
+        {
+          "label": "1",
+          "text": "34"
+        },
+        {
+          "label": "2",
+          "text": "50"
+        },
+        {
+          "label": "3",
+          "text": "69"
+        },
+        {
+          "label": "4",
+          "text": "97"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/6d53b64dc8744836af31c5bec93b8664a29b2ee027c2129aab3e21fdc097c19d.png] \n\nThus, the number that DOES NOT belong to that group is 50.\n\nHence, the correct answer is **\"Option 2\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6d53b64dc8744836af31c5bec93b8664a29b2ee027c2129aab3e21fdc097c19d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,911 @@
+{
+  "test_id": "6a0f45593b5bc48ebebfb6fe",
+  "title": "PYST 15: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 16th Sep 2025 Shift 3)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:04:11.732153+00:00",
+  "questions": [
+    {
+      "qid": "694568cbcdce679c98ab2492",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "France is a scenic town and Japan is a tall structure.\n\nWhat is the total number of words that begin with a consonant?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "6"
+        },
+        {
+          "label": "4",
+          "text": "7"
+        }
+      ],
+      "correct": "3",
+      "solution": "Sentence Analysis: The sentence provided is \"France is a scenic town and Japan is a tall structure.\"\n\nConsonant-Starting Words: The words that begin with a consonant are:\n\n \n• France (F)\n \n• scenic (s)\n \n• town (t)\n \n• Japan (J)\n \n• tall (t)\n \n• structure (s)\n\nTotal Count: Counting these words yields a total of 6\n\nHence, the correct answer is **\"Option 3\"**"
+    },
+    {
+      "qid": "694568cbd5f0374fef114f8a",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\nHCE, KHK, NMO, QRU ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "WJB"
+        },
+        {
+          "label": "2",
+          "text": "TQC"
+        },
+        {
+          "label": "3",
+          "text": "TWY"
+        },
+        {
+          "label": "4",
+          "text": "VJD"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a9f1629a80556daf2463e631906753cfaaedf495db8ff9fbaf9ffc8fe98662e7.png] \n\nHence, the correct answer is **\"Option 3\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a9f1629a80556daf2463e631906753cfaaedf495db8ff9fbaf9ffc8fe98662e7.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694568ccc5344caf2daad0ac",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is exactly the same as the one given below.\n\nD-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560010",
+      "options": [
+        {
+          "label": "1",
+          "text": "D-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560011"
+        },
+        {
+          "label": "2",
+          "text": "D-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560012"
+        },
+        {
+          "label": "3",
+          "text": "D-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560013"
+        },
+        {
+          "label": "4",
+          "text": "D-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560010"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given Address : D-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560010\n\nExactly the same as the one given below\n\n \n• D-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – __560011 __- Not Match\n \n• D-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – __560012 __- Not Match\n \n• D-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka –__ 560013 __- &am\np;nbsp;Not Match\n \n• **D-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka – 560010 - Match**\n\nHence, the correct answer is **\"Option 4\"**",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "694568ccb4e6b86a3bfed4e5",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\nTDFH, T G L Q, T J R Z, T M X I, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "T P D R"
+        },
+        {
+          "label": "2",
+          "text": "T P C R"
+        },
+        {
+          "label": "3",
+          "text": "T Q D S"
+        },
+        {
+          "label": "4",
+          "text": "T Q C S"
+        }
+      ],
+      "correct": "1",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/af3f5640ac723026373e3b1665b5f1cd9376a2f7e72c6e119cccec7261eca1f0.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/af3f5640ac723026373e3b1665b5f1cd9376a2f7e72c6e119cccec7261eca1f0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694568ccab0010047bf5201a",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A statement is given followed by two conclusions. Find which conclusion is TRUE based on the given statement.\n\nStatement:B = D ≤ R < F ≥ M; H ≥ F < K; R ≥ D\n\nConclusions:I: D < M\n\nII: B < H",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only II"
+        },
+        {
+          "label": "2",
+          "text": "Only I"
+        },
+        {
+          "label": "3",
+          "text": "Either I or II"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given \n\nStatement: B = D ≤ R B = D ≤ R **\n\nConclusions:\n\nI: D B = D ≤ R B \n\n**Only II**\n\nHence, the correct answer is \"Option 1\"**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694568cdd2494338ca3826ad",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Complete the pattern:\n\n3, 15, 45, 99, 183, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "285"
+        },
+        {
+          "label": "2",
+          "text": "304"
+        },
+        {
+          "label": "3",
+          "text": "291"
+        },
+        {
+          "label": "4",
+          "text": "303"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic follows here, \n\n [IMAGE: https://cdn.repeatermock.com/tb/b4b5dbbc1f997682d2f0ec96a04cc2daf0a85b3d28900db475e8d5b90bae488f.png] \n\nHence, the correct answer is **\"Option 4\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b4b5dbbc1f997682d2f0ec96a04cc2daf0a85b3d28900db475e8d5b90bae488f.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694568cd1bec63274e4d2f99",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out:\n\n12 @ 4 = 48, 18 @ 6 = 108, 21 @ 7 = 157 and 20 @ 5 = 100",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 @ 4 = 48"
+        },
+        {
+          "label": "2",
+          "text": "18 @ 6 = 108"
+        },
+        {
+          "label": "3",
+          "text": "21 @ 7 = 157"
+        },
+        {
+          "label": "4",
+          "text": "20 @ 5 = 100"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n12 @ 4 = 48, 18 @ 6 = 108, 21 @ 7 = 157 and 20 @ 5 = 100\n\nThe logic follows here,\n\nFirst Number x Second Number = Third Number\n\nOdd one: **21 @ 7 = 157** (as 21 x 7 = 147)\n\nHence, the correct answer is **\"Option 3\"**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694568ceb4e6b86a3bfed585",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.Statement:The increasing use of artificial intelligence in healthcare can improve diagnosis accuracy but also raises concerns about data privacy.Assumptions:I. Artificial intelligence can improve medical diagnosis.II. Data privacy issues arise with technological advancement.III. Healthcare institutions fully support AI adoption.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I and II are implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only II and III are implicit"
+        },
+        {
+          "label": "3",
+          "text": "Only I is implicit"
+        },
+        {
+          "label": "4",
+          "text": "All I, II and III are implicit"
+        }
+      ],
+      "correct": "1",
+      "solution": "Assumption Analysis\n\nI. Artificial intelligence can improve medical diagnosis.\n\n Valid — This is directly implied by “can improve diagnosis accuracy.”\n\nII. Data privacy issues arise with technological advancement.\n\n Valid — The concern about data privacy presupposes that advanced technologies like AI can create such issues.\n\nIII. Healthcare institutions fully support AI adoption.\n\n Not necessary — The statement talks about increasing use and concerns; it does not require full institutional support.\n\nOnly I and II are implicit\n\nHence, the correct answer is **\"Option 1\"**",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "694568ce59dce416adc6bb35",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: The company has implemented a facial recognition attendance system.\n\nConclusions: I. The company aims to enhance monitoring.\n\nII. Employees must submit identity proofs.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Conclusion Analysis\n\n**Conclusion I: The company aims to enhance monitoring.**\n**Follows** — Implementing facial recognition for attendance clearly indicates an intention to improve monitoring, accuracy, or control.\n\n<"
+    },
+    {
+      "qid": "694569f2c91b8b97b6e24afc",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the group of letters that best completes the analogy.\n\nBDGM : YWTN :: CEFH : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "XVQS"
+        },
+        {
+          "label": "2",
+          "text": "XVUS"
+        },
+        {
+          "label": "3",
+          "text": "XWRT"
+        },
+        {
+          "label": "4",
+          "text": "XVRT"
+        }
+      ],
+      "correct": "2",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/fbf244390f3a42333d93ea5425ce73f01bdedcbfdc213480fb190372caf2d4ed.png] \n\nSimilarly,\n\n [IMAGE: https://cdn.repeatermock.com/tb/568fe4ceaf618ca81ef709078db04a8392b560c668b3964a2069daa469395eef.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fbf244390f3a42333d93ea5425ce73f01bdedcbfdc213480fb190372caf2d4ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/568fe4ceaf618ca81ef709078db04a8392b560c668b3964a2069daa469395eef.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694569f3684dd9730060c6cf",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement:Some books are novels.\n\nSome novels are classics.\n\nConclusions:I. Some books are classics.\n\nII. All classics are books.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "4",
+      "solution": "The least possible Venn diagram is as follows:\n\n [IMAGE: https://cdn.repeatermock.com/tb/56f77b1f7e3c9dc282ac4714761f4ac3c40dceb418c3dd822afcfb6d64fe22a1.png] \n\nConclusions:\n\nI. Some books are classics. - False (As their is no direct relation between books and classics may be it is possible but not definite. Hence, it is false)**\n\nII. All classics are books.- False (As their is no direct relation between books and classics may be it is possible but not definite. Hence, it is false)\n\nNeither I nor II follows\n\nHence, the correct answer is \"Option 4\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/56f77b1f7e3c9dc282ac4714761f4ac3c40dceb418c3dd822afcfb6d64fe22a1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "694569f3879b2767536db3ef",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, select the word which cannot be formed using the letters of the given word.\n\nENTERTAINMENT",
+      "options": [
+        {
+          "label": "1",
+          "text": "ENTER"
+        },
+        {
+          "label": "2",
+          "text": "TENT"
+        },
+        {
+          "label": "3",
+          "text": "RENT"
+        },
+        {
+          "label": "4",
+          "text": "LANE"
+        }
+      ],
+      "correct": "4",
+      "solution": "Now check each option:\n\n \n• ENTER → E, N, T, E, R (all letters available)\n \n• TENT → T, E, N, T \n \n• RENT → R, E, N, T \n \n• LANE → L, A, N, E (L is not present in ENTERTAINMENT)\n\nHence, the correct answer is **\"Option 4\"**"
+    },
+    {
+      "qid": "694569f30d06979b06d7547d",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The 4th term of a geometric progression (GP) is 81. The first term is 3. What is the common ratio?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nFirst term (a) = 3\n\n4th term (T₄) = 81\n\n**Formula used:**\n\nTₙ = a × rⁿ−¹\n\n**Calculations:**\n\nT₄ = a × r(⁴ ⁻ ¹⁾\n\n⇒ 81 = 3 × r³\n\n⇒ r3 = 27\n\n⇒ r = 3\n\n**∴ The common ratio is 3.**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694569f461d9955dc051fbfe",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out from the given alternatives:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sardar Patel"
+        },
+        {
+          "label": "2",
+          "text": "Jawaharlal Nehru"
+        },
+        {
+          "label": "3",
+          "text": "Subhash Bose"
+        },
+        {
+          "label": "4",
+          "text": "Ratan Tata"
+        }
+      ],
+      "correct": "4",
+      "solution": "Look at the given options:\n\n \n• Sardar Patel – Indian freedom fighter\n \n• Jawaharlal Nehru – Indian freedom fighter and first Prime Minister\n \n• Subhash Bose – Indian freedom fighter\n \n• Ratan Tata – Industrialist/businessman\n\nOdd one : All except Ratan Tata were freedom fighters.\n\nHence, the correct answer is **\"Option 4\"**",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694569f4aeb30cbeb25e4f2b",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "P is the father of Q. Q is the brother of R.How is P related to R?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Uncle"
+        },
+        {
+          "label": "2",
+          "text": "Father"
+        },
+        {
+          "label": "3",
+          "text": "Grandfather"
+        },
+        {
+          "label": "4",
+          "text": "Cousin"
+        }
+      ],
+      "correct": "2",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png] \n\nAs per the given information\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/1916ca5c244fb53631e2d628d3e33c04533991795776355aeafe04a3f4252607.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1916ca5c244fb53631e2d628d3e33c04533991795776355aeafe04a3f4252607.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694569f4684dd9730060c6d8",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, each letter is assigned a unique digit.Based on the following codes:\n\nTRAIN is coded as 59246 and CAT as 125, how is RAIN coded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9246"
+        },
+        {
+          "label": "2",
+          "text": "2465"
+        },
+        {
+          "label": "3",
+          "text": "5924"
+        },
+        {
+          "label": "4",
+          "text": "2467"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given : \n\nT R A I N - 5 9 2 4 6\n\nC A T - 1 2 5\n\n**R A I N **\n\n**R - 9 , A - 2, I - 4 , N - 6**\n\n**9 2 4 6**\n\nHence, the correct answer is **\"Option 1\"**"
+    },
+    {
+      "qid": "694569f5e1f4449a9a05f598",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Compute √169 + ³√64 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "17"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "21"
+        },
+        {
+          "label": "4",
+          "text": "19"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given: √169 + ³√64 \n\n√169 = 13\n\n³√64 = 4\n\n13 + 4 = 17.\n\nHence, the correct answer is **\"Option 1\"**"
+    },
+    {
+      "qid": "694569f521f8a9dfdac4764f",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 9 * 2 = 81, 8 * 3 = 512, then 7 * 2 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "49"
+        },
+        {
+          "label": "2",
+          "text": "196"
+        },
+        {
+          "label": "3",
+          "text": "128"
+        },
+        {
+          "label": "4",
+          "text": "256"
+        }
+      ],
+      "correct": "1",
+      "solution": "\" id=\"MathJax-Element-7-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-57-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-46-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-1-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\"> **Calculation:**\n\n9 * 2 = 9² = 819 ∗ 2 = 9² = 81\n\n\" id=\"MathJax-Element-8-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-58-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-47-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">\" id=\"MathJax-Element-2-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\"> 8 * 3 = 8³ = 5128 ∗ 3 = 8³ = 512\n\nSo, the rule is:\n\n a ∗ b = ab\n\nNow apply it to 7∗2:\n\n7² = 49\n\nHence, the correct answer is **\"Option 1\"**"
+    },
+    {
+      "qid": "694569f5684dd9730060c6eb",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a code language, MOUSE is written as NPVTG.How will HOUSE be written?",
+      "options": [
+        {
+          "label": "1",
+          "text": "IPVTG"
+        },
+        {
+          "label": "2",
+          "text": "IQVTF"
+        },
+        {
+          "label": "3",
+          "text": "IPVUG"
+        },
+        {
+          "label": "4",
+          "text": "IQVUG"
+        }
+      ],
+      "correct": "1",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is:\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/13abad56b36c7608f335eeccbb629abe9a8153ebd98662994a8f00b0f79c1aa3.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/13abad56b36c7608f335eeccbb629abe9a8153ebd98662994a8f00b0f79c1aa3.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694569f6aeb30cbeb25e4f30",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A shop sells notebooks at 12 each and pens at 15 each.If a customer buys 4 notebooks and 5 pens, what is the total bill?",
+      "options": [
+        {
+          "label": "1",
+          "text": "123"
+        },
+        {
+          "label": "2",
+          "text": "135"
+        },
+        {
+          "label": "3",
+          "text": "141"
+        },
+        {
+          "label": "4",
+          "text": "132"
+        }
+      ],
+      "correct": "1",
+      "solution": "Gievn: A shop sells notebooks at 12 each and pens at 15 each\n\nCalculate the cost step by step:\n\n \n• \n \n**Notebooks:** 4 × 12 = 48\n\n \n \n• \n \n**Pens:** 5 × 15 = 75\n\n \n\n**Total bill:** 48 + 75 = **123**\n\nHence, the correct answer is **\"Option 1\"**"
+    },
+    {
+      "qid": "694569f67d61da7104925df7",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A + B means A is the sister of B, A ÷ B means A is the father of B, A − B means A is the mother of B, A × B means A is the brother of B.\n\nWhat does R ÷ S − T mean?",
+      "options": [
+        {
+          "label": "1",
+          "text": "R is T’s father"
+        },
+        {
+          "label": "2",
+          "text": "S is T’s mother"
+        },
+        {
+          "label": "3",
+          "text": "R is T’s grandmother"
+        },
+        {
+          "label": "4",
+          "text": "T is R’s mother"
+        }
+      ],
+      "correct": "2",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png] \n\nAs per the given information,\n\n [IMAGE: https://cdn.repeatermock.com/tb/fcc2e581860a6d97d2cb40b97d5b66c9e40b9ccd7c11043ddae8d5073f66e154.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fcc2e581860a6d97d2cb40b97d5b66c9e40b9ccd7c11043ddae8d5073f66e154.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694569f7a4d6180041481a7a",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If '×' = '+', '+' = '-', '-' = '÷', '÷' = '×', then which is valid?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 × 4 + 2 - 2 = 14"
+        },
+        {
+          "label": "2",
+          "text": "10 + 2 × 4 - 1 = 13"
+        },
+        {
+          "label": "3",
+          "text": "8 - 2 ÷ 2 + 2 = 6"
+        },
+        {
+          "label": "4",
+          "text": "16 ÷ 4 × 2 + 2 = 10"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given: '×' = '+', '+' = '-', '-' = '÷', '÷' = '×'\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n⇒ 8 - 2 ÷ 2 + 2 = 10\n\nApplying '×' = '+', '+' = '-', '-' = '÷', '÷' = '×'\n\n⇒ **8 ÷ 2 **× 2 - 2 = 6\n\n⇒ **4**** × 2 **- 2 = 6\n\n⇒ 8 - 2 = 6\n\n**⇒ 6 = 6**\n\nHence, the correct answer is **\"Option 3\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694569f70d06979b06d75495",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'A' means '+', 'B' means '-', 'C' means 'x', and 'D' means '÷', what is the value of the following expression?\n\n20 A 5 C 2 B 4 D 2",
+      "options": [
+        {
+          "label": "1",
+          "text": "26"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "24"
+        },
+        {
+          "label": "4",
+          "text": "28"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given : 20 A 5 C 2 B 4 D 2\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n 20 A 5 C 2 B 4 D 2\n\n'A' means '+', 'B' means '-', 'C' means 'x', and 'D' means '÷'\n\n⇒ 20 + 5 x 2 - **4 ÷ 2**\n\n⇒20 + **5 x**** 2** - 2\n\n**⇒ 20 + 10 - 2**\n\n⇒ 28.\n\nHence, the correct answer is **\"Option 4\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694569f7185293aa37ae02bf",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If + = ÷, - = ×, × = +, evaluate:\n\n6 - 2 × 12 + 2",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "14"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given : 6 - 2 × 3 + 2\n\n+ = ÷, - = ×, × = +\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n⇒ 6 × 2 + **12 ÷ 2**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694569f85eb822882b17dd5c",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the sum of 12 and 38 is multiplied by 4, what is the result?",
+      "options": [
+        {
+          "label": "1",
+          "text": "200"
+        },
+        {
+          "label": "2",
+          "text": "196"
+        },
+        {
+          "label": "3",
+          "text": "208"
+        },
+        {
+          "label": "4",
+          "text": "212"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given : Sum of 12 and 38 is multiplied by 4\n\nFirst find the sum: 12 + 38 = 50\n\nNow multiply by 4: 50 × 4 = 200\n\nHence, the correct answer is **\"Option 1\"**",
+      "tags": [
+        "Puzzle"
+      ]
+    }
+  ]
+}

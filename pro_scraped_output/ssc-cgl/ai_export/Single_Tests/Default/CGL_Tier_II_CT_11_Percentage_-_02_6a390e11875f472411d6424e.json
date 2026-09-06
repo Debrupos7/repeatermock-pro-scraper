@@ -1,0 +1,353 @@
+{
+  "test_id": "6a390e11875f472411d6424e",
+  "title": "CGL Tier II CT 11: Percentage - 02",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:16:47.182710+00:00",
+  "questions": [
+    {
+      "qid": "631769496c1d1c40ab975701",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The expenditure and income of Rajeev are in the ratio of 5:8. After some time income of Rajeev is increased by 20% but at the same time, his saving also increased by 3(1)/(3)%. Find increased or decreased per cent in his expenditure.",
+      "options": [
+        {
+          "label": "1",
+          "text": "20%"
+        },
+        {
+          "label": "2",
+          "text": "33.33%"
+        },
+        {
+          "label": "3",
+          "text": "30%"
+        },
+        {
+          "label": "4",
+          "text": "40%"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet initial Income = 800, Expenditure = 500 ⇒ Savings = 300\n\nNew Income = 800 + 20% = 960\n\nNew Savings = 300 + (10/3)% = 300 + 10 = 310\n\nNew Expenditure = 960 − 310 = 650\n\nIncrease in Expenditure = [(650 − 500) ÷ 500] × 100 = 30%\n\n**∴ The correct answer is 30%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRatio of Expenditure to Income = 5 : 8\n\nIncrease in Income = 20%, Increase in Savings = 10/3%\n\n**Formula Used:**\n\nIncome = Expenditure + Savings\n\n Initial State: Income = 800\n \n \n E = 500\n S = 300\n Final State: Income = 960 (+20%)\n \n \n E = 650\n S = 310\n \n• \n Expenditure increased from 500 to 650 → +30%\n\n**Calculations:**\n\n⇒ Let Income = 800x and Expenditure = 500x\n\n⇒ Savings = Income − Expenditure = 800x − 500x = 300x\n\n⇒ New Income = 800x + 20% of 800x = 800x + 160x = 960x\n\n⇒ New Savings = 300x + (10/3)% of 300x = 300x + 10x = 310x\n\n⇒ New Expenditure = New Income − New Savings = 960x − 310x = 650x\n\n⇒ Increase in Expenditure = 650x − 500x = 150x\n\n⇒ Percentage Increase = (150x ÷ 500x) × 100 = 30%\n\n**∴ The correct answer is 30%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nIncome, Expenditure & Savings\n\nIncome is always the sum of expenditure and savings. Any change in overall income is exactly distributed between the changes in expenditure and savings.\n\nPercentage Change Formula\n\nPercentage Change = [(Final Value − Initial Value) ÷ Initial Value] × 100.\n\nFractional Equivalents for Percentages\n\nConverting mixed percentage fractions simplifies calculations. For example, 3(1/3)% is mathematically equal to (10/3)% which can be used as the multiplying fraction 1/30.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "63fef18a12a596e4433b6e88",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a medium-size township, the trend of annual immigration is an addition of 20% of the population as it was at the beginning; also 15% of the population as it was at the beginning is estimated to relocate elsewhere\" every year. If the current population is 80000, what is the likely population three years hence?",
+      "options": [
+        {
+          "label": "1",
+          "text": "90000"
+        },
+        {
+          "label": "2",
+          "text": "91200"
+        },
+        {
+          "label": "3",
+          "text": "92000"
+        },
+        {
+          "label": "4",
+          "text": "92610"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nThe current population of medium-sized town = 80000\n\n**Calculation:**\n\nNet increase in immigration = 20%\n\nNet decrease because of relocation = 15%\n\nNet increase in population in a year = 20 - 15 = 5%\n\nThe total increase in population in three years =\n\n⇒ 80000 × bigg(dfrac{105}{100}bigg)³\n\n⇒ 80000 × bigg(dfrac{21}{20}bigg)³\n\n⇒ 80000 × dfrac{9261}{8000}\n\n⇒ 92610\n\n**∴The answer is 92610.**"
+    },
+    {
+      "qid": "634001df2c839e41ac7abed2",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A number is increased by 10% and then reduced by 10%. If the resultant number is 99, the original number was:",
+      "options": [
+        {
+          "label": "1",
+          "text": "98"
+        },
+        {
+          "label": "2",
+          "text": "100"
+        },
+        {
+          "label": "3",
+          "text": "95"
+        },
+        {
+          "label": "4",
+          "text": "110"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nNet percentage change = x + y + (xy / 100)%\n\nHere, x = +10% and y = −10%.\n\nNet change = 10 − 10 + (10 × −10 / 100) = −1% (**decrease**).\n\nSo, 99% of the **original number** = 99.\n\n100% of the **original number** = 100.\n\n**∴ The correct answer is 100.**\n\n**__Alternate Method__**\n\n**Given:**\n\nPercentage **increase** = 10%\n\nPercentage **reduction** = 10%\n\n**Resultant number** = 99\n\n**Formula Used:**\n\nFinal Value = Initial Value × (1 + r₁/100) × (1 + r₂/100)\n\n [IMAGE: https://cdn.repeatermock.com/tb/98fab25f5396f3380ba0724a3550c7b90013a4a18abd40b950ee257fdd34ef6c.png] \n\n⇒ Let the **original number** be x.\n\n⇒ Resultant number = x × (110 / 100) × (90 / 100)\n\n⇒ 99 = x × 1.1 × 0.9\n\n⇒ 99 = 0.99x\n\n⇒ x = 99 / 0.99\n\n⇒ x = 100\n\n**∴ The correct answer is 100.**\n\n**__Additional Information__**\n\nSuccessive Percentage Change\n\nWhen a value is changed by a% and then by b%, the effective change is given by (a + b + ab/100)%.\n\nNet Loss Property\n\nIf a number is first increased by x% and then decreased by the same x%, there is always a net decrease (loss) of (x²/100)%.\n\nPercentage to Decimal Conversion\n\nTo find the multiplier for a percentage change, add or subtract the percentage from 100 and divide by 100 (e.g., 10% increase = 1.10, 10% decrease = 0.90).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/98fab25f5396f3380ba0724a3550c7b90013a4a18abd40b950ee257fdd34ef6c.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "63fe015ef325b9ddc3dc353b",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The population of a city increases at a rate of 2% for the first 2 years and then, decreases at a rate of 4% for the third year. What will be the population after 3 years if the present population of the city is 62,500?",
+      "options": [
+        {
+          "label": "1",
+          "text": "62424"
+        },
+        {
+          "label": "2",
+          "text": "62400"
+        },
+        {
+          "label": "3",
+          "text": "63500"
+        },
+        {
+          "label": "4",
+          "text": "65424"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given**\n\nCurrent population = 62,500\n\nIncrease rate for first 2 years = 2%\n\nDecrease rate for the third year = 4%\n\n**Concept:**\n\nPopulation after 'n' years = Initial Population × (1 + rate/100)ⁿ\n\n**Solution:**\n\n⇒ After 2 years, Population = 62500 × (1 + 2/100)² = 65025\n\n⇒ After 3rd year, Population = 65025 × (1 - 4/100) = 62424\n\n**Therefore, the population after 3 years will be 62424.**"
+    },
+    {
+      "qid": "64a0489e74db724ef80e14a0",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If the price of onion increases from Rs. 60/kg to Rs. 75/kg, then by what percentage a household should decrease the consumption of onion so that expenditure remains same?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25 percent"
+        },
+        {
+          "label": "2",
+          "text": "20 percent"
+        },
+        {
+          "label": "3",
+          "text": "30 percent"
+        },
+        {
+          "label": "4",
+          "text": "40 percent"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Calculation:**\n\nLet the household consume a kg of onion earlier and b kgs later.\n\nThe amount paid by the household earlier = Rs.60a\n\nThe amount paid by the household later = Rs.75b\n\nSince both prices should be the same\n\n⇒ 60a = 75b\n\n⇒ 4a = 5b\n\n⇒ b = 4a/5\n\nRequired percent = (a -b)/a × 100\n\n= (a - 4a/5)/a × 100\n\n= 100/5\n\n= 20 \n\n**The required percentage to decrease the consumption is 20 percent.**"
+    },
+    {
+      "qid": "62cb3355d203bcfc0e712475",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Admissions into a commerce course of a university increase by 5% every year. If the number of admissions presently is 2400 into that course, after three years, the number of admissions is Nearest to an integer:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2778"
+        },
+        {
+          "label": "2",
+          "text": "2770"
+        },
+        {
+          "label": "3",
+          "text": "2775"
+        },
+        {
+          "label": "4",
+          "text": "2780"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nPrincipal amount = 2400\n\nRate = 5% per annum\n\nTime = 3 years\n\n**Formula used:**\n\nAmount = P (1+(R)/(100))Time\n\n**Calculations:**\n\nAmount = &a"
+    },
+    {
+      "qid": "627ed5b9fdb6c646393dd76d",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Shubham secured 345 marks out of 600 in the annual examination. Find the percentage of marks obtained by him in the examination.",
+      "options": [
+        {
+          "label": "1",
+          "text": "57.5"
+        },
+        {
+          "label": "2",
+          "text": "57.25"
+        },
+        {
+          "label": "3",
+          "text": "58.5"
+        },
+        {
+          "label": "4",
+          "text": "58.25"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRequired Percentage = (Marks Obtained ÷ Total Marks) × 100\n\nRequired Percentage = (345 ÷ 600) × 100\n\nRequired Percentage = 345 ÷ 6 = 57.5%\n\n**∴ The correct option is A.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nMarks obtained by Shubham = 345\n\nTotal maximum marks = 600\n\n**Formula Used:**\n\nPercentage = (Value obtained ÷ Total Value) × 100\n\n \n \n 0\n 345 (Obtained)\n 600 (Total)\n \n• \n Percentage = (345 ÷ 600) × 100\n\n**Calculations:**\n\n⇒ Required Percentage = (345 ÷ 600) × 100\n\n⇒ Percentage = 345 ÷ 6\n\n⇒ Percentage = 57.5%\n\n**∴ The correct option is A.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPercentage Change\n\nPercentage Increase/Decrease = (Difference ÷ Original Value) × 100.\n\nFraction to Percentage Conversion\n\nTo convert any fraction x/y into a percentage, multiply it by 100. Example: 1/4 × 100 = 25%.\n\nDecimal to Percentage\n\nMultiply the decimal by 100 and add the % sign. Example: 0.575 × 100 = 57.5%.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6378efaaeaff3ff10c3131ef",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A fruit fermenter has a certain number of pineapples of which 15% are rotten. He sells 80% of the remaining and has 510 pineapples left. How many pineapples did he have initially?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3600"
+        },
+        {
+          "label": "2",
+          "text": "3000"
+        },
+        {
+          "label": "3",
+          "text": "5000"
+        },
+        {
+          "label": "4",
+          "text": "7000"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Solution:**\n\nLet initial number of Pineapple be x.\n\n⇒ 15% are rotten.\n\nFresh Pineapple = x - 15% of x = 0.85x\n\n⇒ 80% of the fresh Pineapple he sold,\n\n⇒ He has 20% of the fresh Pineapple remaining i.e., 510 (given)\n\n⇒ 20/100 × 0.85x = 510\n\n⇒ 1/5 × 0.85x = 510\n\n⇒ 0.17x = 510\n\n⇒ x = 510 × 100/17 = 30 × 100 = 3000\n\n**Hence, there are initially 3000 Pineapples.**"
+    },
+    {
+      "qid": "657f14e89e9800e695802735",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Sushil’s income is 22% less than Abhishek’s income. Abhishek’s income is what % more than Sushil’s income?",
+      "options": [
+        {
+          "label": "1",
+          "text": "27.8%"
+        },
+        {
+          "label": "2",
+          "text": "28.20%"
+        },
+        {
+          "label": "3",
+          "text": "30.8%"
+        },
+        {
+          "label": "4",
+          "text": "25.8%"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nSushil's income is 22% less than Abhishek's income.\n\n**Formula Used:**\n\nPercentage increase = (Difference / Original) × 100\n\n**Calculation:**\n\nLet Abhishek's income be A .\n\nSushil's income = A - 0.22A = 0.78A\n\nDifference in income = A - 0.78A = 0.22A\n\nPercentage increase = (0.22A / 0.78A) × 100\n\nPercentage increase = (0.22 / 0.78) × 100\n\nPercentage increase = (22 / 78) × 100\n\nPercentage increase = 0.2820 × 100\n\nPercentage increase = 28.20%\n\n**Abhishek's income is 28.20% more than Sushil's income.**"
+    },
+    {
+      "qid": "64772b6780cc69bab6a95fab",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If an error of 2% is made in measures the side of a square, what will be the percentage error in area?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2%"
+        },
+        {
+          "label": "2",
+          "text": "4%"
+        },
+        {
+          "label": "3",
+          "text": "2.2%"
+        },
+        {
+          "label": "4",
+          "text": "4.04%"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Concept use:**\n\nArea of Square = side²\n\n**Calculation:**\n\nLet's say we have a square with a true side length of 100 units \n\nThe **original area** of this square would be 100 units × 100 units = 10,000 square units.\n\nNow,\n\na 2% error in measuring the side of the square.\n\nThis means our measured side length would be 100 units + 2% of 100 units = 102 units.\n\nThe area of the square using this incorrect side length would be 102 units × 102 units = 10,404 square units.\n\nPercentage error = [(10,404 - 10,000) / 10,000] × 100% = 404 / 10,000 × 100% = 4.04%\n\n**Hence, a 2% error in the side length of a square leads to approximately a 4.04% error in the calculated area**"
+    }
+  ]
+}

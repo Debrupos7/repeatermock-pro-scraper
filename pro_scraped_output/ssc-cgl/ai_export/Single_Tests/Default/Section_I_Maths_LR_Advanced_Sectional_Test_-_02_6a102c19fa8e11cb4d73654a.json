@@ -1,0 +1,2403 @@
+{
+  "test_id": "6a102c19fa8e11cb4d73654a",
+  "title": "Section I (Maths & LR) Advanced Sectional Test - 02",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 180.0,
+  "question_count": 60,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:09:29.809447+00:00",
+  "questions": [
+    {
+      "qid": "652a73e938707346bfd521d6",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The time taken by a boat to cover a distance of 60 km downstream is equal to 60% of the time taken by it to cover 75 km upstream. The speed of the stream is 4 km/h. What will be the total time (in hours) that the boat will take to cover 39.2 km in still water and 51.2 km downstream?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "2.8"
+        },
+        {
+          "label": "4",
+          "text": "2.4"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nRatio of **Time** downstream to **Time** upstream for specific distances: Td = 0.6 × Tᵤ.\n\n60 ÷ (u + 4) = 0.6 × [75 ÷ (u − 4)] ⇒ 60 ÷ (u + 4) = 45 ÷ (u − 4).\n\nBy cross-multiplying: 4(u − 4) = 3(u + 4) ⇒ 4u − 16 = 3u + 12 ⇒ u = 28 km/h.\n\nTotal time = (39.2 ÷ 28) + (51.2 ÷ (28 + 4)) = 1.4 + 1.6 = 3 hr.\n\n**∴ The correct answer is 3 hr.**\n\n**__Alternate Method__**\n\n**Given:**\n\nDistance downstream (D₁) = 60 km, Distance upstream (D₂) = 75 km.\n\nStream speed (v) = 4 km/h, Still water speed = u km/h.\n\nNew distances: Still water = 39.2 km, Downstream = 51.2 km.\n\n**Formula Used:**\n\nTime = Distance ÷ Speed | Downstream speed = u + v | Upstream speed = u − v\n\n [IMAGE: https://cdn.repeatermock.com/tb/69069ca3cfd76e66b2136fbdb4414c963aef38a29eff5c9d9893f9a8b726777a.png] \n\n**Calculations:**\n\n⇒ Time downstream = 60 ÷ (u + 4)\n\n⇒ Time upstream = 75 ÷ (u − 4)\n\n⇒ According to question: 60 ÷ (u + 4) = 0.6 × [75 ÷ (u − 4)]\n\n⇒ 60 ÷ (u + 4) = 45 ÷ (u − 4)\n\n⇒ 60u − 240 = 45u + 180\n\n⇒ 15u = 420 ⇒ u = 28 km/h\n\n⇒ Time in still water = 39.2 ÷ 28 = 1.4 hr\n\n⇒ Time downstream = 51.2 ÷ (28 + 4) = 51.2 ÷ 32 = 1.6 hr\n\n⇒ Total time = 1.4 + 1.6 = 3 hr\n\n**∴ The correct answer is 3 hr.**\n\n**__Additional Information__**\n\nRelative Speed in Water\n\nWhen moving **Downstream**, the boat speed is added to the stream speed (u + v). When moving **Upstream**, the stream speed is subtracted from the boat speed (u − v).\n\nSpeed of Boat and Stream\n\nSpeed of boat in still water (u) = (Downstream + Upstream) ÷ 2. Speed of stream (v) = (Downstream − Upstream) ÷ 2.\n\nAverage Speed for Round Trip\n\nIf a boat travels the same distance upstream and downstream, the Average Speed = (Speedᵤₚ × Speeddₒwₙ) ÷ Speedₛₜᵢₗₗ.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/69069ca3cfd76e66b2136fbdb4414c963aef38a29eff5c9d9893f9a8b726777a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "63157a6c7881ae82517dae7f",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If the value of a = frac{sqrt {11}}{4} then the value of (sqrt{3+2a} + sqrt{3-2a})² = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "11"
+        },
+        {
+          "label": "4",
+          "text": "13"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\na =** frac{sqrt {11}}{4} **\n\nWe have to calculate the value of (sqrt{3+2a} + sqrt{3-2a}) ²and then its square\n\n**Calculation: **",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6218d61c0d193b43aac87760",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If a 10 - digit number 643x1145y2 is divisible by 88, then the value of (2x - 3y) for the largest value of y is :",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "27"
+        },
+        {
+          "label": "3",
+          "text": "- 15"
+        },
+        {
+          "label": "4",
+          "text": "- 27"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nDivisibility by **88** requires the number to be divisible by both **8** and **11**.\n\nFor **8**, last three digits **5y2** must be divisible by 8 ⇒ Largest **y = 9** (592 ÷ 8 = 74).\n\nFor **11**, (Sum of digits at odd places) − (Sum of digits at even places) = 0 or 11.\n\n(6 + 3 + 1 + 4 + 9) − (4 + x + 1 + 5 + 2) = 23 − (12 + x) = 11 − x.\n\nFor divisibility, 11 − x = 11 ⇒ **x = 0**.\n\nValue of **2x − 3y** = 2(0) − 3(9) = −27.\n\n**∴ The correct answer is − 27.**\n\n**__Alternate Method__**\n\n**Given:** A 10-digit number **643x1145y2** is divisible by **88**.\n\n**Method:** Divisibility rules for 8 and 11.\n\n⇒ Divisibility by **8**: The last three digits (5y2) must be divisible by 8.\n\n⇒ Possible values for y: If y = 1 (512), y = 5 (552), y = 9 (592).\n\n⇒ **Largest value of y = 9**.\n\n⇒ Divisibility by **11**: The difference between the sum of digits at odd positions and even positions must be 0 or a multiple of 11.\n\n⇒ Sum of digits at odd positions (from right): 2 + 5 + 1 + x + 4 = **12 + x**.\n\n⇒ Sum of digits at even positions (from right): y + 4 + 1 + 3 + 6 = 14 + y = 14 + 9 = **23**.\n\n⇒ Difference = 23 − (12 + x) = **11 − x**.\n\n⇒ For 11 − x to be divisible by 11, x must be **0** (since 11 − 0 = 11).\n\n⇒ Value of (2x − 3y) = 2(0) − 3(9) = 0 − 27 = **− 27**.\n\n**∴ The correct answer is − 27.**\n\n**__Additional Information__**\n\nDivisibility by 8\n\nA number is divisible by 8 if its last three digits form a number that is divisible by 8.\n\nDivisibility by 11\n\nA number is divisible by 11 if the absolute difference between the sum of its digits at odd places and the sum of its digits at even places is either 0 or a multiple of 11.\n\nComposite Divisibility\n\nIf a number is divisible by two coprime numbers a and b, then it is also divisible by their product (a × b). For 88, the coprime factors are 8 and 11.</p",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6305e5e644435bc265e49dce",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A solid cylinder of glass whose diameter is 1.5 meter and height 1 meter is melted and turned into a sphere. The diameter of sphere is-",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 meter"
+        },
+        {
+          "label": "2",
+          "text": "0.75 meter"
+        },
+        {
+          "label": "3",
+          "text": "1.25 meter"
+        },
+        {
+          "label": "4",
+          "text": "1.5 meter"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nWhen a **Cylinder** is **melted** into a **Sphere**, their volumes remain equal: πr²h = (4/3)πR³.\n\nGiven **diameter** = 1.5 m ⇒ radius (r) = 0.75 m and **height** (h) = 1 m.\n\nSubstitute values: (0.75)² × 1 = (4/3) × R³.\n\nR³ = (3/4) × (0.75)² = 0.75 × (0.75)² = (0.75)³.\n\nRadius (R) = 0.75 m ⇒ **Diameter** = 2 × 0.75 = 1.5 m.\n\n**∴ The correct answer is 1.5 m.**\n\n**__Alternate Method__**\n\n**Given:**\n\n**Diameter** of the glass **cylinder** (d) = 1.5 m\n\n**Height** of the glass **cylinder** (h) = 1 m\n\n**Formula Used:**\n\n**Volume** of **Cylinder** = πr²h\n\n**Volume** of **Sphere** = (4/3)πR³\n\n [IMAGE: https://cdn.repeatermock.com/tb/7d4df3830335606fb7519637f94f99cf9065a0b807921a8aa38c69f35e345a1e.png] \n\n**Calculations:**\n\n⇒ **Radius** of **cylinder** (r) = 1.5 ÷ 2 = 0.75 m\n\n⇒ **Volume** of **cylinder** = π × (0.75)² × 1\n\n⇒ Let the **radius** of the **sphere** be R.\n\n⇒ Since the **cylinder** is **melted** to form a **sphere**, **Volume** of **Sphere** = **Volume** of **Cylinder**\n\n⇒ (4/3) × π × R³ = π × (0.75)² × 1\n\n⇒ (4/3) × R³ = 0.75 × 0.75\n\n⇒ R³ = (3/4) × 0.75 × 0.75\n\n⇒ R³ = 0.75 × 0.75 × 0.75 (Since 3 ÷ 4 = 0.75)\n\n⇒ R = 0.75 m\n\n⇒ **Diameter** of **sphere** = 2 × R = 2 × 0.75 = 1.5 m\n\n**∴ The correct answer is 1.5 m.**\n\n**__Additional Information__**\n\nVolume Conservation\n\nWhen a solid object is **melted** and **recast** into another shape, its **total volume** remains unchanged provided there is no wastage.\n\nCylinder Properties\n\nFor a **cylinder** with **radius** r and **height** h, **Total Surface Area** = 2πr(r + h).\n\nSphere Properties\n\nFor a **sphere** with **radius** R, the **Surface Area** is 4πR².\n\nRadius and Diameter\n\nThe **diameter** of any circular or spherical object is always twice its **radius** (D = 2 × r).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7d4df3830335606fb7519637f94f99cf9065a0b807921a8aa38c69f35e345a1e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "627e84bc21828bbc71f42d30",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A person covers a certain distance at a certain speed. If he increases his speed by 30%, then he takes 15 minutes less to cover the same distance. Find the time taken by him to cover the distance when travelling at his original speed.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 hour 12 minutes"
+        },
+        {
+          "label": "2",
+          "text": "1 hour"
+        },
+        {
+          "label": "3",
+          "text": "1 hour 05 minutes"
+        },
+        {
+          "label": "4",
+          "text": "1 hour 10 minutes"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\n**Speed Ratio** (Original : New) = 100 : 130 = 10 : 13\n\nSince **Distance** is constant, **Time Ratio** = 13 : 10\n\nDifference in time = 13 − 10 = 3 units\n\nAccording to the question, 3 units = 15 min ⇒ 1 unit = 5 min\n\nOriginal Time = 13 units = 13 × 5 = 65 min = 1 hr 05 min\n\n**∴ The correct answer is 1 hr 05 min.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSpeed increase = 30%\n\nTime reduction = 15 min\n\n**Formula Used:**\n\nDistance = Speed × Time (D = S × T)\n\n [IMAGE: https://cdn.repeatermock.com/tb/fe624782055c2b4458ed08bbe6cc3413cf0f6a48b35ce8eefc0f9344759239fa.png] \n\n**Calculations:**\n\n⇒ Let original speed be S and original time be T.\n\n⇒ New speed = S + 30% of S = 1.3S\n\n⇒ New time = T − 15 min\n\n⇒ Since distance is the same: S × T = 1.3S × (T − 15)\n\n⇒ T = 1.3T − 19.5\n\n⇒ 1.3T − T = 19.5\n\n⇒ 0.3T = 19.5\n\n⇒ T = 19.5 ÷ 0.3 = 65 min\n\n⇒ 65 min = 1 hr 05 min\n\n**∴ The correct answer is 1 hr 05 min.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nInverse Proportion Rule\n\nWhen **Distance** is constant, Speed and Time are inversely proportional (S₁/S₂ = T₂/T₁).\n\nAverage Speed\n\nIf a person covers the same distance at speed x and speed y, the **Average Speed** is (2 × x × y) ÷ (x + y).\n\nUnit Conversion\n\nTo convert speed from **km/h to m/s**, multiply by 5/18. To convert **m/s to km/h**, multiply by 18/5.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fe624782055c2b4458ed08bbe6cc3413cf0f6a48b35ce8eefc0f9344759239fa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6667dd31a06ee81dfef6064b",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Pankaj purchased two bikes, first for Rs. 24000 and the second for Rs. 20000. He sold both the bikes, first one at the profit of 20 percent and the second at a loss of 30 percent. What is the overall profit or loss?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Loss = Rs. 1400"
+        },
+        {
+          "label": "2",
+          "text": "Profit = Rs. 1400"
+        },
+        {
+          "label": "3",
+          "text": "Profit = Rs. 1200"
+        },
+        {
+          "label": "4",
+          "text": "Loss = Rs. 1200"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nNet Profit/Loss can be calculated directly by finding the profit and loss amounts on the individual items.\n\n⇒ Net value = (20% of 24000) − (30% of 20000)\n\n⇒ Net value = 4800 − 6000 = −1200\n\nSince the net value is negative, it represents an overall loss.\n\n**∴ The correct answer is Loss = ₹1200.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCP of first bike (CP₁) = ₹24000\n\nProfit on first bike = 20%\n\nCP of second bike (CP₂) = ₹20000\n\nLoss on second bike = 30%\n\n**Formula Used:**\n\nProfit = (Profit% ÷ 100) × CP\n\nLoss = (Loss% ÷ 100) × CP\n\n \n Bike 1 CP = 24000\n \n \n SP = 28800\n \n \n• \n \n\n +20% (+4800)\n \n \n Bike 2 CP = 20000\n \n \n SP = 14000\n \n \n• \n \n\n −30% (−6000)\n \n Total Net = +4800 − 6000 = −1200 (Loss)\n\n**Calculations:**\n\n⇒ Profit on first bike = (20 ÷ 100) × 24000 = ₹4800\n\n⇒ Loss on second bike = (30 ÷ 100) × 20000 = ₹6000\n\n⇒ Net value = Profit on first bike − Loss on second bike\n\n⇒ Net value = 4800 − 6000 = −1200\n\n⇒ Since the net amount is negative, there is an overall loss of ₹1200.\n\n**∴ The correct answer is Loss = ₹1200.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTotal CP and Total SP Method\n\nYou can also find the overall profit or loss by calculating the sum of all Cost Prices and the sum of all Selling Prices. If Total SP > Total CP, there is an overall profit. If Total SP < Total CP, there is an overall loss.\n\nSelling Price Formula\n\nSP = CP × (100 ± Profit/Loss%) ÷ 100. Use + for profit and − for loss.\n\nSuccessive Transactions\n\nWhen an article is sold successively to multiple buyers, the final SP can be calculated by multiplying the original CP with the successive profit or loss multiplying factors respectively.\n\n117:T999,\n&l",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "63f9c2bd33a0d51c050f2273",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If books bought at prices ranging from Rs. 200 to Rs. 350 are being sold at prices ranging from Rs. 300 to Rs. 450, what is the highest possible profit that might be made in selling 8 books?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 1,800"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 2,000"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 400"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 1,600"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nTo maximize **profit**, buy at the **minimum cost** and sell at the **maximum price**.\n\n**Min CP** = ₹200 | **Max SP** = ₹450\n\n**Max Profit per book** = 450 − 200 = ₹250\n\n**Total Max Profit** (8 books) = 8 × 250 = ₹2000\n\n**∴ The correct answer is ₹2000.**\n\n**__Alternate Method__**\n\n**Given:**\n\nCost Price (CP) range = ₹200 to ₹350\n\nSelling Price (SP) range = ₹300 to ₹450\n\nNumber of **books** = 8\n\n [IMAGE: https://cdn.repeatermock.com/tb/4230f89ac46de01fde2616baad1f146f1285522df447fe5ccf8736095186bb3b.png] \n\n⇒ **Highest Profit** per book = **Maximum SP** − **Minimum CP**\n\n⇒ Highest Profit per book = ₹450 − ₹200 = ₹250\n\n⇒ **Total Highest Profit** for 8 books = Number of books × Profit per book\n\n⇒ Total Highest Profit = 8 × 250\n\n⇒ Total Highest Profit = ₹2000\n\n**∴ The correct answer is ₹2000.**\n\n**__Additional Information__**\n\nProfit and Loss Extremes\n\nTo find the **maximum profit**, maximize SP and minimize CP. To find the **maximum loss**, minimize SP and maximize CP.\n\nProfit Percentage\n\nProfit % = (Total Profit ÷ Total CP) × 100. Note that profit is always calculated on the **Cost Price** unless stated otherwise.\n\nUnitary Method in Profit\n\nTotal Profit = (SP per unit − CP per unit) × **Total Quantity**.\n\nde:Tffe,\n<span style='disp",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4230f89ac46de01fde2616baad1f146f1285522df447fe5ccf8736095186bb3b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "623b05ee21d90510cf6fac57",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "When 4546, 5398 and 6889 are divided by the greater number m, the remainder in each case is n. What is the value of (2m - 3n)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "189"
+        },
+        {
+          "label": "2",
+          "text": "140"
+        },
+        {
+          "label": "3",
+          "text": "134"
+        },
+        {
+          "label": "4",
+          "text": "207"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nDivisor **m** = **HCF** of (5398 − 4546) and (6889 − 5398).\n\n**m** = HCF(852, 1491) = **213**.\n\n**n** = Remainder of (4546 ÷ 213) = **73**.\n\nRequired value = **2m − 3n** = 2(213) − 3(73).\n\n426 − 219 = **207**.\n\n**∴ The correct answer is 207.**\n\n**__Alternate Method__**\n\n**Given:** Numbers are **4546**, **5398**, and **6889**. When divided by **m**, each leaves a remainder **n**.\n\n**Formula:** If numbers A, B, and C leave the same remainder when divided by **m**, then **m** is the **HCF** of (B − A) and (C − B).\n\n [IMAGE: https://cdn.repeatermock.com/tb/22f51fd674ec78c43e9599ca587b0e4681133beff594b8c32f7cb0ef11075e33.png] \n\n⇒ First difference = 5398 − 4546 = **852**\n\n⇒ Second difference = 6889 − 5398 = **1491**\n\n⇒ Find **HCF(852, 1491)**:\n\n⇒ 852 = 2 × 2 × 3 × 71 = 4 × **213**\n\n⇒ 1491 = 3 × 7 × 71 = 7 × **213**\n\n⇒ **m** = **213**\n\n⇒ Now, find the remainder **n**:\n\n⇒ **n** = 4546 ÷ 213\n\n⇒ 4546 = (213 × 21) + **73**\n\n⇒ **n** = **73**\n\n⇒ Value of **2m − 3n** = 2(213) − 3(73)\n\n⇒ 426 − 219 = **207**\n\n**∴ The correct answer is 207.**\n\n**__Additional Information__**\n\nHCF of Differences Property\n\nWhen multiple numbers are divided by a common divisor leaving the same remainder, that divisor must be a factor of the differences between those numbers.\n\nFinding the Constant Remainder\n\nOnce the divisor **m** is identified using **HCF**, the remainder **n** can be found by applying the formula **n = Number mod m**.\n\nGeneral Euclidean Algorithm\n\nFor large numbers, **HCF(a, b)** can be found quickly using the property **HCF(a, b) = HCF(b, a mod b)**.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/22f51fd674ec78c43e9599ca587b0e4681133beff594b8c32f7cb0ef11075e33.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6305a2d2e452946289775ee6",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Probability",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "There are 9 balls in a box; 2 is red, 3 is blue, and 4 is black. What is the probability that all the balls will be of different colours, if 3 balls are drawn at random?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(2)/(9)"
+        },
+        {
+          "label": "2",
+          "text": "(2)/(7)"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nTotal balls = 2 + 3 + 4 = **9 balls**.\n\nWays to select **one ball of each colour** = ²C₁ × ³C₁ × ⁴C₁ = 2 × 3 × 4 = 24.\n\nTotal ways to draw 3 balls from 9 = ⁹C₃ = (9 × 8 × 7) ÷ (3 × 2 × 1) = 84.\n\nRequired **Probability** = 24 ÷ 84 = 2/7.\n\n**∴ The correct answer is 2/7.**\n\n**__Alternate Method__**\n\n**Given:**\n\nNumber of **Red balls** = 2\n\nNumber of **Blue balls** = 3\n\nNumber of **Black balls** = 4\n\nTotal number of balls (n) = 2 + 3 + 4 = **9**\n\nNumber of balls to be drawn (r) = **3**\n\n**Formula Used:**\n\nProbability P(E) = n(E) ÷ n(S)\n\nCombination Formula: ⁿCᵣ = n! ÷ [r! × (n − r)!]\n\n \n Box with 9 Balls\n \n \n 2 Red\n \n \n \n 3 Blue\n \n \n \n \n 4 Black\n \n\n Draw 3 balls (all different)\n\n**Calculations:**\n\n⇒ Total number of ways to sample 3 balls out of 9, n(S) = ⁹C₃\n\n⇒ n(S) = (9 × 8 × 7) ÷ (3 × 2 × 1) = 3 × 4 × 7 = 84\n\n⇒ Favorable ways to pick 1 Red, 1 Blue, and 1 Black ball, n(E) = ²C₁ × ³C₁ × ⁴C₁\n\n⇒ n(E) = 2 × 3 × 4 = 24\n\n⇒ Probability = n(E) ÷ n(S) = 24 ÷ 84\n\n⇒ Dividing both numerator and denominator by 12, Probability = 2/7\n\n**∴ The correct answer is 2/7.**\n\n**__Additional Information__**\n\nClassical Definition of Probability\n\nThe probability of an event E is the ratio of the number of favorable outcomes to the total number of outcomes in the sample space: P(E) = n(E)/n(S).\n\nCombinations (Selection)\n\nWhen the order of selection does not matter, the number of ways to choose r items from n is given by ⁿCᵣ = n! ÷ [r!(n−r)!].\n\nMultiplication Principle\n\nIf one operation can be performed in m ways and a second operation in n ways, then both can be performed together in m × n ways.\n\nComplementary Events\n\nThe probability of an event not occurring is P(E') = 1 − P(E). The sum of all probabilities in a sample space is always 1.</p",
+      "tags": [
+        "Probability"
+      ]
+    },
+    {
+      "qid": "63dd080f59848e9adb71bffb",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The average of 5, 7, 9, x, 15 is 10 and the average of 17, 8, 19, 16, x, y, 4 is 12. What is the value of y ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\n**Sum** of the first set = 10 × 5 = 50.\n\nValue of **x** = 50 − (5 + 7 + 9 + 15) = 14.\n\n**Sum** of the second set = 12 × 7 = 84.\n\nValue of **y** = 84 − (17 + 8 + 19 + 16 + 14 + 4) = 84 − 78 = 6.\n\n**∴ The correct answer is 6.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** Average of {5, 7, 9, x, 15} is 10 and Average of {17, 8, 19, 16, x, y, 4} is 12.\n\n**Formula Used:** **Average** = (Sum of observations) ÷ (Total number of observations)\n\n [IMAGE: https://cdn.repeatermock.com/tb/3ae5041766dcd4a58e407cdf88b28162036e446f3a1e694fbb9462cd8bd967b9.png] \n\nCalculation for x:\n\n⇒ (5 + 7 + 9 + x + 15) ÷ 5 = 10\n\n⇒ 36 + x = 50\n\n⇒ x = 50 − 36 = 14\n\nCalculation for y:\n\n⇒ (17 + 8 + 19 + 16 + 14 + y + 4) ÷ 7 = 12\n\n⇒ 78 + y = 84\n\n⇒ y = 84 − 78 = 6\n\n**∴ The correct answer is 6.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSum of Observations\n\nThe sum of a data set can always be calculated by multiplying the **average** by the number of terms (n). **Sum = Average × n**.\n\nDeviation Method\n\nThe sum of **deviations** of all observations from their arithmetic mean is always **zero**. This property is useful for finding missing values in a series.\n\nWeighted Average\n\nWhen two groups with different averages A₁ and A₂ and sizes n₁ and n₂ are combined, the new average is (n₁A₁ + n₂A₂) ÷ (n₁ + n₂).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3ae5041766dcd4a58e407cdf88b28162036e446f3a1e694fbb9462cd8bd967b9.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "62518a4bc20f31753835c1a2",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The ratio of X's and Y's incomes in the last year was 4 : 5. The ratio of their own incomes of the last year to those of this year is 3 : 4 and 2 : 3, respectively. If the sum of their present incomes is ₹15,400, what is the present income of X?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹6,400"
+        },
+        {
+          "label": "2",
+          "text": "₹7,900"
+        },
+        {
+          "label": "3",
+          "text": "₹9,000"
+        },
+        {
+          "label": "4",
+          "text": "₹7,500"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nRatio of **present incomes** X : Y = (4 × 4/3) : (5 × 3/2)\n\n⇒ Present Ratio = 16/3 : 15/2 = 32 : 45\n\nTotal units = 32 + 45 = 77\n\nGiven, 77 units = **₹15,400** ⇒ 1 unit = ₹200\n\nPresent income of **X** = 32 × 200 = **₹6,400**\n\n**∴ The correct answer is ₹6,400.**\n\n**__Alternate Method__**\n\n**Given:**\n\nRatio of incomes last year (**X : Y**) = 4 : 5\n\nRatio of **X**'s income (Last : Present) = 3 : 4\n\nRatio of **Y**'s income (Last : Present) = 2 : 3\n\nSum of **present incomes** = ₹15,400\n\n**Formula Used:**\n\nPresent Income = (Last Year Income ÷ Last Year Ratio Part) × Present Ratio Part\n\n [IMAGE: https://cdn.repeatermock.com/tb/9dc6b11411e0217953c531504c43543dae080d954c3a04172b686709b2e7784b.png] \n\n**Calculations:**\n\n⇒ Let last year incomes of **X** and **Y** be 4k and 5k respectively.\n\n⇒ Present income of **X** = 4k × (4 ÷ 3) = 16k/3\n\n⇒ Present income of **Y** = 5k × (3 ÷ 2) = 15k/2\n\n⇒ Ratio of present incomes = (16k/3) : (15k/2)\n\n⇒ Multiply by 6 (LCM of 3 and 2) to simplify ratio: (16/3 × 6) : (15/2 × 6) = **32 : 45**\n\n⇒ Sum of ratio parts = 32 + 45 = 77 units\n\n⇒ 77 units = ₹15,400\n\n⇒ 1 unit = ₹15,400 ÷ 77 = ₹200\n\n⇒ Present income of **X** = 32 units = 32 × 200 = ₹6,400\n\n**∴ The correct answer is ₹6,400.**\n\n**__Additional Information__**\n\nCompounded Ratio\n\nThe ratio of the products of the corresponding terms of two or more ratios is called a **compounded ratio**. For ratios a:b and c:d, it is (a×c):(b×d).\n\nEffective Change Multiplier\n\nTo find the current value from a previous value given a ratio (Old:New = m:n), multiply the previous value by the factor (n/m).\n\nProportional Distribution\n\nIf a total quantity S is divided in the ratio a:b, then the share of the first part is [a ÷ (a+b)] × S.\n\n70:T139a,\n<span st",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9dc6b11411e0217953c531504c43543dae080d954c3a04172b686709b2e7784b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "6328210a2a41a7aa4af61ed5",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Ravi has currency notes of Rs. 500, Rs. 200, Rs. 100 and Rs. 50 in the ratio of 16 ∶ 28 ∶ 34 ∶ 17. The total amount of money with Ravi is Rs. 53,550. How many notes of Rs. 50 does Ravi have?",
+      "options": [
+        {
+          "label": "1",
+          "text": "850"
+        },
+        {
+          "label": "2",
+          "text": "2550"
+        },
+        {
+          "label": "3",
+          "text": "17"
+        },
+        {
+          "label": "4",
+          "text": "51"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal Value units = (16 × 500 + 28 × 200 + 34 × 100 + 17 × 50)\n\n⇒ 8000 + 5600 + 3400 + 850 = 17850 units.\n\nGiven **Total Amount** = ₹53,550 ⇒ 1 unit = 53550 ÷ 17850 = 3.\n\nNumber of **Rs. 50 notes** = 17 units × 3 = 51.\n\n**∴ The correct answer is 51.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nLet the number of **currency notes** of **Rs. 500**, **Rs. 200**, **Rs. 100**, and **Rs. 50** be 16x, 28x, 34x, and 17x respectively.\n\n**Formula Used:** Total Value = ∑(Denomination × Number of notes)\n\n [IMAGE: https://cdn.repeatermock.com/tb/05c04ee8cb3966bae4e2211ee5e947ac8c04b67a5e4e8367142d3f7d9ed38b58.png] \n\n⇒ Total Value = 500(16x) + 200(28x) + 100(34x) + 50(17x)\n\n⇒ 8000x + 5600x + 3400x + 850x = 53550\n\n⇒ 17850x = 53550\n\n⇒ x = 53550 ÷ 17850\n\n⇒ x = 3\n\n⇒ Number of **Rs. 50 notes** = 17 × 3 = 51\n\n**∴ The correct answer is 51.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nNote Value Concept\n\nThe total value of a specific denomination is the product of the value of one note and the total number of notes of that denomination (Value = Denomination × Quantity).\n\nRatio and Proportion\n\nTo find individual quantities from a total, calculate the value of one ratio unit (x) by dividing the total amount by the sum of proportional values.\n\nUnitary Method in Currency\n\nIf denominations are in ratio a:b:c, then the ratio of their values is (Denomination₁ × a) : (Denomination₂ × b) : (Denomination₃ × c).",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/05c04ee8cb3966bae4e2211ee5e947ac8c04b67a5e4e8367142d3f7d9ed38b58.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "62ba1e2a64b27eb58e8ba3b9",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "48 square plates of side 2 cm are arranged in the form of a rectangle such that its sides are in the ratio 3 ∶ 4. Find the perimeter of the rectangle (in cm).",
+      "options": [
+        {
+          "label": "1",
+          "text": "56"
+        },
+        {
+          "label": "2",
+          "text": "52"
+        },
+        {
+          "label": "3",
+          "text": "48"
+        },
+        {
+          "label": "4",
+          "text": "58"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nRatio of sides (in plates) = 3 : 4 ⇒ Total plates = 3x × 4x = 12x²\n\nGiven 12x² = 48 ⇒ x² = 4 ⇒ x = 2\n\nPlates along sides = 3 × 2 = 6 and 4 × 2 = 8\n\nPerimeter (in units of plate side) = 2 × (6 + 8) = 28\n\nActual **Perimeter** = 28 × 2 cm = 56 cm\n\n**∴ The correct answer is 56 cm.**\n\n**__Alternate Method__**\n\n**Given:** Total **square plates** = 48, Side of each plate = 2 cm, Ratio of sides = 3 : 4.\n\n**Formula:** **Area** = Length × Width; **Perimeter** = 2 × (Length + Width).\n\n [IMAGE: https://cdn.repeatermock.com/tb/e9bb1808c4a7b5e5d661f815b72106860b8ca4a7bbc3cd8ea3f1fc9f629215d8.png] \n\n⇒ Let the number of plates along the length be 4x and along the width be 3x.\n\n⇒ Total plates = 4x × 3x = 12x².\n\n⇒ 12x² = 48 ⇒ x² = 4 ⇒ x = 2.\n\n⇒ Length in terms of plates = 4 × 2 = 8; Width in terms of plates = 3 × 2 = 6.\n\n⇒ Actual Length (L) = 8 × 2 cm = 16 cm.\n\n⇒ Actual Width (W) = 6 × 2 cm = 12 cm.\n\n⇒ **Perimeter** = 2 × (L + W) = 2 × (16 + 12) = 2 × 28 = 56 cm.\n\n**∴ The correct answer is 56 cm.**\n\n**__Additional Information__**\n\nPerimeter and Area Relation\n\nFor a fixed area, the **square** is the rectangle that possesses the minimum possible perimeter.\n\nDiagonal of a Rectangle\n\nThe **diagonal** (d) can be calculated using the Pythagoras theorem: d = √(L² + W²).\n\nScaling Factor\n\nIf the linear dimensions of a 2D shape are increased by a factor **k**, the perimeter increases by **k**, while the area increases by **k²**.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e9bb1808c4a7b5e5d661f815b72106860b8ca4a7bbc3cd8ea3f1fc9f629215d8.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "62ba957c2836fa9102ed1d27",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If in two circles, arc of the same length subtend angles 60º and 75º at the center, find the ratio of their radii.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 :3"
+        },
+        {
+          "label": "2",
+          "text": "5 : 4"
+        },
+        {
+          "label": "3",
+          "text": "3 :4"
+        },
+        {
+          "label": "4",
+          "text": "4 : 5"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nFor two circles with the **same arc length**, the **radii** are **inversely proportional** to the **angles** subtended at the **center**.\n\nr₁ : r₂ = θ₂ : θ₁\n\nr₁ : r₂ = 75° : 60°\n\nr₁ : r₂ = 5 : 4\n\n**∴ The correct answer is 5 : 4.**\n\n**__Alternate Method__**\n\n**Given:**\n\nAngle subtended by first **arc** (θ₁) = 60°\n\nAngle subtended by second **arc** (θ₂) = 75°\n\nArc length of both circles is **equal** (l₁ = l₂ = l)\n\n**Formula Used:**\n\nArc length (l) = r × θ (where θ is in radians)\n\nRelationship in degrees: l = (θ ÷ 360) × 2πr\n\n [IMAGE: https://cdn.repeatermock.com/tb/ecad64a136b4c23a4d4bc70fb3cd4d7f9392b29d8f8c23cc1db7460e30e5b021.png] \n\n**Calculations:**\n\n⇒ For the first circle, l = (60 ÷ 360) × 2πr₁\n\n⇒ For the second circle, l = (75 ÷ 360) × 2πr₂\n\n⇒ Since l is the same: (60 ÷ 360) × 2πr₁ = (75 ÷ 360) × 2πr₂\n\n⇒ 60 × r₁ = 75 × r₂\n\n⇒ r₁ / r₂ = 75 / 60\n\n⇒ r₁ / r₂ = 5 / 4\n\n**∴ The correct answer is 5 : 4.**\n\n**__Additional Information__**\n\nArc Length and Radian Measure\n\nThe **radian** measure of an **angle** is the ratio of the **arc length** to the **radius**: θ = l ÷ r. 180° is equal to π radians.\n\nArea of a Sector\n\nThe **area** of a **sector** of a circle with **radius** r and central angle θ (in degrees) is given by A = (θ ÷ 360) × πr².\n\nDegree to Radian Conversion\n\nTo convert **degrees** to **radians**, multiply by π ÷ 180. To convert radians to degrees, multiply by 180 ÷ π.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ecad64a136b4c23a4d4bc70fb3cd4d7f9392b29d8f8c23cc1db7460e30e5b021.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "65afd711fc072d6a296fc213",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "BD is the diagonal of parallelogram ABCD such that ∠CBD = 12x, ∠ABD = 7y, ∠ADB = 60° and ∠CDB = 28°. Then, the value of 2x + 3y is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "23°"
+        },
+        {
+          "label": "2",
+          "text": "20°"
+        },
+        {
+          "label": "3",
+          "text": "21°"
+        },
+        {
+          "label": "4",
+          "text": "22°"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIn a **parallelogram**, opposite sides are parallel, so **alternate interior angles** formed by the **diagonal** are equal.\n\n⇒ ∠CBD = ∠ADB ⇒ 12x = 60° ⇒ x = 5°\n\n⇒ ∠ABD = ∠CDB ⇒ 7y = 28° ⇒ y = 4°\n\n⇒ Value of 2x + 3y = 2(5) + 3(4) = 10 + 12 = 22°\n\n**∴ The correct answer is 22°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** ∠CBD = 12x, ∠ABD = 7y, ∠ADB = 60°, ∠CDB = 28° in parallelogram ABCD.\n\n**Formula Used:** In **parallel lines**, alternate interior angles are equal.\n\n [IMAGE: https://cdn.repeatermock.com/tb/0a0a227b16a6110279f1f2dfbe113df1feb44dd4263e54fec1e7fc5af34338dd.png] \n\nCalculations:\n\nSince ABCD is a **parallelogram**, AD ∥ BC.\n\nBD is the **transversal** line.\n\n⇒ ∠CBD = ∠ADB (**Alternate interior angles**)\n\n⇒ 12x = 60°\n\n⇒ x = 60/12 = 5°\n\nSimilarly, AB ∥ CD and BD is the transversal.\n\n⇒ ∠ABD = ∠CDB (**Alternate interior angles**)\n\n⇒ 7y = 28°\n\n⇒ y = 28/7 = 4°\n\nNow, calculate 2x + 3y:\n\n⇒ 2(5) + 3(4)\n\n⇒ 10 + 12 = 22°\n\n**∴ The correct answer is 22°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nProperties of a Parallelogram\n\nOpposite sides are equal and parallel. Opposite angles are equal. Consecutive angles are supplementary (sum to 180°).\n\nAlternate Interior Angles\n\nWhen a transversal intersects two parallel lines, the pairs of angles on opposite sides of the transversal and between the parallel lines are equal.\n\nDiagonal Property\n\nThe diagonal of a parallelogram divides it into two congruent triangles, and the diagonals bisect each other.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0a0a227b16a6110279f1f2dfbe113df1feb44dd4263e54fec1e7fc5af34338dd.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "62b18a798994f041e4ca1089",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The students of three classes are in the ratio 1 ∶ 3 ∶ 4. If 20 students of each class increased, then the ratio becomes 5 ∶ 7 ∶ 8. Find the number of students in the first class.",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nCheck the **common difference** in ratio units for all three classes:\n\nClass 1: 5 − 1 = 4 units | Class 2: 7 − 3 = 4 units | Class 3: 8 − 4 = 4 units\n\nSince 20 students are added to each, 4 units ≡ 20 students.\n\n1 unit = 20 ÷ 4 = 5 students.\n\nInitial students in the **first class** = 1 unit = 1 × 5 = 5.\n\n**∴ The correct answer is 5.**\n\n**__Alternate Method__**\n\n**Given:**\n\nInitial ratio of students = 1 : 3 : 4\n\nIncrease in each class = **20 students**\n\nNew ratio of students = 5 : 7 : 8\n\n**Formula Used:**\n\nIf initial values are in ratio a:b:c, let them be ax, bx, and cx.\n\n \n 1 Unit\n Class 1 (Initial)\n \n \n + 4 Units (20 students)\n Total = 5 Units (After increase)\n \n• \n Ratio Change: 1 → 5 (Diff = 4 units)\n 4 units = 20 ⇒ 1 unit = 5\n\n**Calculations:**\n\nLet the initial number of students in the three classes be x, 3x, and 4x respectively.\n\nAccording to the question, 20 students are added to each class:\n\n⇒ (x + 20) : (3x + 20) : (4x + 20) = 5 : 7 : 8\n\nTaking the first two classes for calculation:\n\n⇒ (x + 20) ÷ (3x + 20) = 5 ÷ 7\n\n⇒ 7 × (x + 20) = 5 × (3x + 20)\n\n⇒ 7x + 140 = 15x + 100\n\n⇒ 15x − 7x = 140 − 100\n\n⇒ 8x = 40\n\n⇒ x = 40 ÷ 8\n\n⇒ x = 5\n\nNumber of students in the first class = x = 5.\n\n**∴ The correct answer is 5.**\n\n**__Additional Information__**\n\nRatio Scaling Property\n\nIf a constant value k is added to all terms of a ratio, the new ratio can be solved by equalizing the unit difference between the initial and final terms.\n\nUnitary Method in Ratios\n\n1 unit value = Actual difference ÷ Ratio unit difference. This value can then be multiplied by any ratio part to find the actual quantity.\n\nCompound Ratio\n\nThe compound ratio of two ratios a:b and c:d is (a×c) : (b×d).</p",
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "625926d47186e073c7e0770c",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A certain sum of money becomes 5 times in 15 years when invested at simple interest. In how much time (years and months) will is becomes 12 times itself at the same rate at simple interest?",
+      "options": [
+        {
+          "label": "1",
+          "text": "41 years 3 months"
+        },
+        {
+          "label": "2",
+          "text": "40 years 6 months"
+        },
+        {
+          "label": "3",
+          "text": "39 years 9 months"
+        },
+        {
+          "label": "4",
+          "text": "42 years 4 months"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor **Simple Interest**, use the ratio: (n₁ − 1) / T₁ = (n₂ − 1) / T₂\n\nHere, n₁ = 5, T₁ = 15 years and n₂ = 12, T₂ = ?\n\n⇒ (5 − 1) / 15 = (12 − 1) / T₂\n\n⇒ 4 / 15 = 11 / T₂\n\n⇒ T₂ = (15 × 11) / 4 = 165 / 4 = 41.25 years\n\n**∴ The correct answer is 41 years 3 months.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCase 1: **Principal** (P) becomes 5P in 15 years.\n\nCase 2: **Principal** (P) becomes 12P in 'T' years.\n\n**Formula used:**\n\nSimple Interest (SI) = (P × R × T) / 100\n\nAmount (A) = P + SI\n\n [IMAGE: https://cdn.repeatermock.com/tb/9142fa16c279ac40d6a930f674e315fd2a644afa159b8f76235ecffd33d9a806.png] \n\n**Calculations:**\n\nIn Case 1:\n\n⇒ SI₁ = 5P − P = 4P\n\n⇒ 4P = (P × R × 15) / 100\n\n⇒ R = (4 × 100) / 15 = 80/3 %\n\nIn Case 2:\n\n⇒ SI₂ = 12P − P = 11P\n\n⇒ 11P = (P × (80/3) × T) / 100\n\n⇒ 11 = (80 × T) / 300\n\n⇒ T = (11 × 300) / 80\n\n⇒ T = 330 / 8 = 165 / 4 = 41.25 years\n\nConverting decimal years to months:\n\n⇒ 0.25 years = 0.25 × 12 months = 3 months\n\n⇒ T = 41 years 3 months\n\n**∴ The correct answer is 41 years 3 months.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Interest vs Compound Interest\n\nIn **Simple Interest**, the interest is calculated only on the initial **Principal**, while in **Compound Interest**, interest is calculated on the **Principal** plus any accumulated interest.\n\nRate of Interest in SI\n\nRate (R) = (SI × 100) / (P × T). This shows that for a constant **Principal**, the interest earned is directly proportional to **Time** and **Rate**.\n\nSI for Multiples of Sum\n\nIf a sum becomes 'n' times itself, the **Simple Interest** earned is (n − 1) times the **Principal**.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/9142fa16c279ac40d6a930f674e315fd2a644afa159b8f76235ecffd33d9a806.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "63155b0b7e8aaa717355317c",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "James is inside an aeroplane flying at a height of 7000 meter above the sea which is below sea level at a level. At a particular point, it is exactly above a submarine depth of 1/6th the height of plane. What is the vertical distance between James and the submarine?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8333.33 meter"
+        },
+        {
+          "label": "2",
+          "text": "9166.66 meter"
+        },
+        {
+          "label": "3",
+          "text": "9333.33 meter"
+        },
+        {
+          "label": "4",
+          "text": "8166.66 meter"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nVertical Distance = **Height of Plane** + **Depth of Submarine**\n\nSince depth is 1/6th of the height: Distance = H + H/6 = 7/6 × H\n\nDistance = 7/6 × 7000 = 49000 ÷ 6\n\nDistance = 8166.66 m\n\n**∴ The correct answer is 8166.66 m.**\n\n**__Alternate Method__**\n\n**Given:**\n\nHeight of the **aeroplane** (H) = 7000 m above **sea level**\n\nDepth of the **submarine** (D) = 1/6 × Height of the plane\n\n [IMAGE: https://cdn.repeatermock.com/tb/8b8f53c3cef52df1936f75d0e974d95b55e189ea344d27f9e8e38ecf62d4190d.png] \n\n**Calculations:**\n\n⇒ Depth of submarine = 7000 ÷ 6\n\n⇒ Depth of submarine = 1166.666... m ≈ 1166.66 m\n\n⇒ **Vertical distance** = Height above sea level + Depth below sea level\n\n⇒ Vertical distance = 7000 + 1166.66\n\n⇒ Vertical distance = 8166.66 m\n\n**∴ The correct answer is 8166.66 m.**\n\n**__Additional Information__**\n\nReference Level\n\nIn physics and geography, **Sea Level** is considered the zero reference point. Positions above are positive and positions below are negative.\n\nVertical Distance Formula\n\nThe vertical distance between two points at positions y₁ and y₂ is |y₁ − y₂|. Here, 7000 − (−1166.66) = 8166.66 m.\n\nAltitude vs. Depth\n\n**Altitude** refers to height above a reference (sea level), while **Depth** refers to the distance below that same reference.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/8b8f53c3cef52df1936f75d0e974d95b55e189ea344d27f9e8e38ecf62d4190d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "623046d5244002d8285d1a6d",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The radius of a solid lead sphere is 2 cm. 2541 such spheres are melted and recast into a cube of edge x cm. The value of x is (take π = (22)/(7)):",
+      "options": [
+        {
+          "label": "1",
+          "text": "22"
+        },
+        {
+          "label": "2",
+          "text": "44"
+        },
+        {
+          "label": "3",
+          "text": "66"
+        },
+        {
+          "label": "4",
+          "text": "33"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal volume remains constant: **Volume of Cube** = **Number of Spheres** × **Volume of one Sphere**.\n\nx³ = 2541 × (4/3) × (22/7) × 2³\n\nx³ = (2541 ÷ 21) × 4 × 22 × 8 = 121 × 4 × 22 × 8\n\nx³ = 11² × 2² × (2 × 11) × 2³ = 11³ × 2⁶\n\nx = 11 × 2² = 11 × 4 = 44 cm.\n\n**∴ The correct answer is 44 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n**Radius** of lead sphere (r) = 2 cm\n\nTotal number of **spheres** (n) = 2541\n\n**Edge** of the recast cube = x cm\n\n**Formula Used:**\n\nVolume of a **sphere** = (4/3) × π × r³\n\nVolume of a **cube** = s³ (where s is the edge/side)\n\n [IMAGE: https://cdn.repeatermock.com/tb/5a6512f8f0695549f1dce96b75b2033979b34732d0534173e7d7697c0620a960.png] \n\n**Calculations:**\n\n⇒ Total volume of lead = 2541 × (4/3) × (22/7) × 2³\n\n⇒ Volume of Cube = x³\n\n⇒ x³ = 2541 × (4/3) × (22/7) × 8\n\n⇒ x³ = (2541 ÷ 21) × 4 × 22 × 8\n\n⇒ x³ = 121 × 4 × 22 × 8\n\n⇒ x³ = (11 × 11) × (2 × 2) × (2 × 11) × (2 × 2 × 2)\n\n⇒ x³ = (11 × 11 × 11) × (2 × 2 × 2 × 2 × 2 × 2)\n\n⇒ x³ = 11³ × (2²)³\n\n⇒ x = 11 × 2²\n\n⇒ x = 11 × 4 = 44 cm\n\n**∴ The correct answer is 44 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nVolume of a Sphere\n\nThe amount of space occupied by a 3D sphere is given by V = (4/3) × π × r³, where r is the radius.\n\nVolume of a Cube\n\nThe volume of a cube with edge length 'a' is calculated as V = a³.\n\nMelting and Recasting Property\n\nWhen one or more solid objects are melted and recast into a different shape, the **total volume** of the material remains constant, assuming no wastage.\n\nSurface Area of Sphere\n\nThe total surface area of a sphere is 4 × π × r².</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5a6512f8f0695549f1dce96b75b2033979b34732d0534173e7d7697c0620a960.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "667ae06ef61e20a69cdd8534",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Elementary Statistics",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The mean of 25 numbers is 36. If the mean of the first 13 numbers is 32 and that of the last 13 numbers is 39, find the 13th number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "35.5"
+        },
+        {
+          "label": "2",
+          "text": "13"
+        },
+        {
+          "label": "3",
+          "text": "36"
+        },
+        {
+          "label": "4",
+          "text": "23"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nMean of 25 numbers = 36\n\nMean of the first 13 numbers = 32\n\nMean of the last 13 numbers = 39\n\n**Formula Used:**\n\nMean = Sum of numbers / Number of numbers\n\n**Calculation:**\n\nLet the 13th number be x .\n\nSum of 25 numbers = 25 × 36\n\nSum of 25 numbers =",
+      "tags": [
+        "Elementary Statistics"
+      ]
+    },
+    {
+      "qid": "67581cd5dde239f6d45afff0",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Riya offers 12% discount on all her goods and offers an additional discount of 6% to those customers who pay in cash. How much will a customer have to pay for a fan marked for ₹2,400 if he pays in cash?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹1,985.28"
+        },
+        {
+          "label": "2",
+          "text": "₹1,900"
+        },
+        {
+          "label": "3",
+          "text": "₹2,300.50"
+        },
+        {
+          "label": "4",
+          "text": "₹2,122.50"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nNet Selling Price = **Marked Price** × (100 − **Discount₁**)% × (100 − **Discount₂**)%\n\nFinal Price = 2400 × 88% × 94%\n\nFinal Price = 2400 × 0.88 × 0.94\n\nFinal Price = 2400 × 0.8272 = ₹1,985.28\n\n**∴ The correct answer is ₹1,985.28.**\n\n**__Alternate Method__**\n\n**Given:**\n\n**Marked Price (MP)** = ₹2,400\n\n**General Discount** (d₁) = 12%\n\n**Additional Cash Discount** (d₂) = 6%\n\n**Formula Used:**\n\nFinal Price = MP × (100 − d₁)/100 × (100 − d₂)/100\n\n [IMAGE: https://cdn.repeatermock.com/tb/081006f1ca1913f9b1bb89021b612dc2744a0bd55e823c74cbfc0c5bf7871322.png] \n\n**Calculations:**\n\n⇒ Price after first discount = 2400 − (12% of 2400)\n\n⇒ Price = 2400 − (12/100 × 2400) = 2400 − 288 = ₹2,112\n\n⇒ Price after second (cash) discount = 2112 − (6% of 2112)\n\n⇒ Price = 2112 − (6/100 × 2112) = 2112 − 126.72\n\n⇒ **Final Amount to Pay** = ₹1,985.28\n\n**∴ The correct answer is ₹1,985.28.**\n\n**__Additional Information__**\n\nNet Successive Discount Formula\n\nFor two successive discounts of a% and b%, the single equivalent discount is (a + b − ab/100)%.\n\nSuccessive Discount Percentage\n\nThe order of applying successive discounts does not change the final selling price.\n\nRelation between MP and SP\n\nSelling Price = Marked Price × (100 − Discount%)/100. This is the base formula for all retail discount problems.\n\n11d:Tec7,",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/081006f1ca1913f9b1bb89021b612dc2744a0bd55e823c74cbfc0c5bf7871322.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "63760496c6f965a2115bd6f3",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If cos A = sin²A, and a sin¹²A + b sin¹⁰A + c sin⁸A + sin⁶A = 1, then a + b + c = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "9"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nGiven **cos A = sin²A** ⇒ cos²A = sin⁴A ⇒ 1 − sin²A = sin⁴A ⇒ **sin⁴A + sin²A = 1**.\n\nThe expression **a sin¹²A + b sin¹⁰A + c sin⁸A + sin⁶A = 1** is in the form of **(sin⁴A + sin²A)³ = 1**.\n\nExpanding gives: 1 sin¹²A + 3 sin¹⁰A + 3 sin⁸A + 1 sin⁶A = 1.\n\nComparing coefficients: **a = 1, b = 3, c = 3**.\n\nSum **a + b + c = 1 + 3 + 3 = 7**.\n\n**∴ The correct answer is 7.**\n\n<span style='display: flex;gap: 6px;align-items: center;",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "63f6f290998ca48e0f930ef7",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "₹1,20,000 becomes ₹1,50,528 in two years at a certain rate of compound interest, compounding annually in an investment scheme. In the same scheme, the sum of ₹P is invested and it becomes ₹3,51,232 in three years. What is the value of P?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3,00,000"
+        },
+        {
+          "label": "2",
+          "text": "2,25,000"
+        },
+        {
+          "label": "3",
+          "text": "2,75,000"
+        },
+        {
+          "label": "4",
+          "text": "2,50,000"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nGrowth factor for **two years** = 1,50,528 ÷ 1,20,000 = 1.2544\n\nAnnual growth factor = √1.2544 = 1.12\n\nFor **three years**, the sum **₹P** grows by a factor of 1.12³ = 1.404928\n\n∴ P = 3,51,232 ÷ 1.404928 = 2,50,000\n\n**∴ The correct answer is ₹2,50,000.**\n\n**__Alternate Method__**\n\n**Given:**\n\nCase 1: Principal (P₁) = **₹1,20,000**, Amount (A₁) = **₹1,50,528**, Time (t₁) = **2 years**\n\nCase 2: Principal (P₂) = **₹P**, Amount (A₂) = **₹3,51,232**, Time (t₂) = **3 years**\n\n**Formula Used:**\n\nCompound Interest Amount, A = P(1 + r/100)t\n\n [IMAGE: https://cdn.repeatermock.com/tb/00a3cf16098696a94a77c9634b346a9a75ba15a8598789c137411347f7a07aaa.png] \n\n**Calculations:**\n\n⇒ For the first investment: 1,50,528 = 1,20,000 × (1 + r/100)²\n\n⇒ (1 + r/100)² = 1,50,528 ÷ 1,20,000 = 1.2544\n\n⇒ 1 + r/100 = √1.2544 = 1.12\n\n⇒ For the second investment: 3,51,232 = P × (1.12)³\n\n⇒ 3,51,232 = P × 1.404928\n\n⇒ P = 3,51,232 ÷ 1.404928\n\n⇒ P = 2,50,000\n\n**∴ The correct answer is ₹2,50,000.**\n\n**__Additional Information__**\n\nCompound Interest Formula\n\nThe amount A after t years is given by A = P(1 + r/100)t, where P is the principal and r is the annual interest rate.\n\nGrowth Multiplier\n\nThe term (1 + r/100) is the annual multiplying factor. If a sum grows for n years, the total multiplier is (1 + r/100)ⁿ.\n\nEffective Rate of Interest\n\nFor a rate r compounded annually for 2 years, the effective interest rate is calculated as [r + r + (r × r)/100]%.\n\nda:T1088,\n<s",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/00a3cf16098696a94a77c9634b346a9a75ba15a8598789c137411347f7a07aaa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "6308c0fb913fe013bb21b6a0",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If 60 is 400% of the average of 10, 12, 15, x and y, then find the average of x and y.",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "24"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "19"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\n400% of **Average** = 60 ⇒ 4 × **Average** = 60 ⇒ **Average** = 15.\n\nTotal **Sum** of 5 numbers = 15 × 5 = 75.\n\nSum of **x + y** = 75 − (10 + 12 + 15) = 75 − 37 = 38.\n\n**Average of x and y** = 38 ÷ 2 = 19.\n\n**∴ The correct answer is 19.**\n\n**__Alternate Method__**\n\n**Given:** 400% of the **average** of 10, 12, 15, x and y is 60.\n\n**Formula:** **Average** = (Sum of observations) ÷ (Number of observations)\n\n [IMAGE: https://cdn.repeatermock.com/tb/3e93fe0c3cd342c064e1663a658a19305df06b87dd1b324905d22390e9d3004b.png] \n\n⇒ Let the **average** of the five numbers be A.\n\n⇒ 400% × A = 60\n\n⇒ (400 ÷ 100) × A = 60\n\n⇒ 4 × A = 60\n\n⇒ A = 15\n\n⇒ (10 + 12 + 15 + x + y) ÷ 5 = 15\n\n⇒ 37 + x + y = 15 × 5\n\n⇒ 37 + x + y = 75\n\n⇒ x + y = 75 − 37\n\n⇒ x + y = 38\n\n⇒ **Average of x and y** = (x + y) ÷ 2\n\n⇒ **Average of x and y** = 38 ÷ 2 = 19\n\n**∴ The correct answer is 19.**\n\n**__Additional Information__**\n\nBasic Average Properties\n\nThe **average** of n numbers is the **sum** of all numbers divided by n. If the average is known, the total sum is calculated as **Average × n**.\n\nPercentage to Decimal Conversion\n\nTo convert a **percentage** to a multiplier, divide by 100. Thus, 400% = 400/100 = 4.\n\nSum of Remaining Terms\n\nIf the **total sum** and some individual terms are known, the sum of the remaining terms (x+y) is found by subtracting the known terms from the total sum.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3e93fe0c3cd342c064e1663a658a19305df06b87dd1b324905d22390e9d3004b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "6259b2e5a91fd35ee532abae",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The ratio of acid and water in solutions A and B is 15 ∶ 11 and 4 ∶ 9, respectively. 6 litres of A is mixed with 4 litres of B. How much acid (in ml) should be added to 390 ml of the resulting solution so that the ratio of acid and water in it becomes 3 ∶ 2?",
+      "options": [
+        {
+          "label": "1",
+          "text": "126.5"
+        },
+        {
+          "label": "2",
+          "text": "130"
+        },
+        {
+          "label": "3",
+          "text": "128"
+        },
+        {
+          "label": "4",
+          "text": "127.5"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of **Acid** to **Water** in mixture M = (15/26 × 6 + 4/13 × 4) : (11/26 × 6 + 9/13 × 4) = 61 : 69.\n\nIn **390 ml** solution: Total parts = 61 + 69 = 130. Unit value = 390 ÷ 130 = 3 ml.\n\nInitial **Acid** = 61 × 3 = 183 ml | Initial **Water** = 69 × 3 = 207 ml.\n\nTo get **3 : 2 ratio**, new Acid = 207 × (3/2) = 310.5 ml.\n\nAcid to be added = 310.5 − 183 = 127.5 ml.\n\n**∴ The correct answer is 127.5 ml.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** Ratio in A = 15 : 11, Ratio in B = 4 : 9. Volumes: A = 6L, B = 4L. Resulting mix sample = 390 ml. Final ratio required = 3 : 2.\n\n [IMAGE: https://cdn.repeatermock.com/tb/7567983b5f902cee495d5dcc8e8382ad6ab6f7d69dd23fa8e74bf9dfd14b1f7a.png] \n\nStep 1: Calculate quantities in the **mixed solution**.\n\n⇒ Total Acid in 10L = (15/26 × 6) + (4/13 × 4) = 45/13 + 16/13 = 61/13 Litres.\n\n⇒ Total Water in 10L = (11/26 × 6) + (9/13 × 4) = 33/13 + 36/13 = 69/13 Litres.\n\n⇒ Ratio of **Acid : Water** in mix = 61 : 69.\n\nStep 2: Find amounts in **390 ml**.\n\n⇒ 130 parts = 390 ml ⇒ 1 part = 3 ml.\n\n⇒ **Acid** = 61 × 3 = 183 ml; **Water** = 69 × 3 = 207 ml.\n\nStep 3: Solve for added **Acid (x)**.\n\n⇒ (183 + x) ÷ 207 = 3 ÷ 2\n\n⇒ 2 × (183 + x) = 3 × 207\n\n⇒ 366 + 2x = 621\n\n⇒ 2x = 255 ⇒ x = 127.5 ml.\n\n**∴ The correct answer is 127.5 ml.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMixing Two Solutions\n\nWhen mixing two solutions A and B with ratios a₁:b₁ and a₂:b₂ in volumes V₁ and V₂, the final ratio is [V₁(a₁/Σr₁) + V₂(a₂/Σr₂)] : [V₁(b₁/Σr₁) + V₂(b₂/Σr₂)].\n\nAlligation Rule\n\nIt is used to find the ratio in which two ingredients at given prices/concentrations must be mixed to produce a mixture of a desired price/concentration.\n\nConstant Quantity Concept\n\nIf only one component (like acid) is added to a mixture, the quantity of the other component (water) remains constant. Use this constant value to find the new total parts.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7567983b5f902cee495d5dcc8e8382ad6ab6f7d69dd23fa8e74bf9dfd14b1f7a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "631797209be24b2791d37941",
+      "n": 26,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If a³ - b³ = 488 and a - b = 2, then find the value of a² + b².",
+      "options": [
+        {
+          "label": "1",
+          "text": "100"
+        },
+        {
+          "label": "2",
+          "text": "80"
+        },
+        {
+          "label": "3",
+          "text": "480"
+        },
+        {
+          "label": "4",
+          "text": "164"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nValue of **a² + ab + b²** = (a³ − b³) ÷ (a − b) = 488 ÷ 2 = 244.\n\nValue of **a² − 2ab + b²** = (a − b)² = 2² = 4.\n\nDifference 3ab = 244 − 4 = 240 ⇒ **ab** = 80.\n\nThen **a² + b²** = (a² + ab + b²) − ab = 244 − 80 = 164.\n\n**∴ The correct answer is 164.**\n\n**__Alternate Method__**\n\n**Given:**\n\na³ − b³ = 488\n\na − b = 2\n\n**Formula Used:**\n\na³ − b³ = (a − b)³ + 3ab(a − b)\n\n(a − b)² = a² + b² − 2ab\n\n**Calculations:**\n\n⇒ 488 = (2)³ + 3ab(2)\n\n⇒ 488 = 8 + 6ab\n\n⇒ 6ab = 480\n\n⇒ **ab** = 80\n\nNow, to find **a² + b²**, we use the square identity:\n\n⇒ (a − b)² = a² + b² − 2ab\n\n⇒ (2)² = a² + b² − 2(80)\n\n⇒ 4 = a² + b² − 160\n\n⇒ a² + b² = 160 + 4\n\n⇒ **a² + b²** = 164\n\n**∴ The correct answer is 164.**\n\n**__Additional Information__**\n\nDifference of Cubes Identity\n\na³ − b³ = (a − b)(a² + ab + b²). This is a core **Algebraic Identity** used to factorize cubic expressions.\n\nSum of Cubes Identity\n\na³ + b³ = (a + b)(a² − ab + b²). Similar to the difference formula but with sign changes in the first and second terms.\n\nRelationship between Squares and Cubes\n\na³ − b³ = (a − b)³ + 3ab(a − b). This form is highly efficient when the difference and product of terms are known.</p",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "64016d7e852971fb4f1ae7bc",
+      "n": 27,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the value of (5-2sqrt6)+[(1)/(5+2sqrt6)]+(4sqrt6-8) = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2³"
+        },
+        {
+          "label": "2",
+          "text": "2¹"
+        },
+        {
+          "label": "3",
+          "text": "2²"
+        },
+        {
+          "label": "4",
+          "text": "2⁰"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n(5-2√6)+[(1)/(5+2√6)]+(4√6-8) = ?\n\n**Calculation:**\n\n(5-2√6)+[(1)/(5+2√6)]+(4√6-8) = ?\n\n⇒ <span class=\"ma",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6400807b06dd9e0158f21b70",
+      "n": 28,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The ratio of the LCM and HCF of 2 numbers is 14 ∶ 1. If the product of the numbers is 504, what is the difference between the LCM and HCF?",
+      "options": [
+        {
+          "label": "1",
+          "text": "72"
+        },
+        {
+          "label": "2",
+          "text": "88"
+        },
+        {
+          "label": "3",
+          "text": "82"
+        },
+        {
+          "label": "4",
+          "text": "78"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet HCF = x, then LCM = 14x.\n\nProduct of numbers = LCM × HCF = 14x × x = 14x²\n\n⇒ 14x² = 504 ⇒ x² = 36 ⇒ x = 6\n\nDifference between LCM and HCF = 14x − x = 13x\n\n⇒ 13 × 6 = 78\n\n**∴ The correct answer is 78.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRatio of LCM to HCF = 14 : 1\n\nProduct of the two numbers = 504\n\n**Formula Used:**\n\nProduct of two numbers = LCM × HCF\n\n \n Product of Numbers = 504\n \n \n\n \n\n \n \n\n \n\n \n \n LCM (14x)\n Value = 84\n\n \n HCF (x)\n Value = 6\n \n ×\n \n \n Difference = 84 − 6 = 78\n\n**Calculation:**\n\nLet the common ratio multiplier be x.\n\n⇒ LCM = 14x\n\n⇒ HCF = x\n\nAccording to the formula:\n\n⇒ 14x × x = 504\n\n⇒ 14x² = 504\n\n⇒ x² = 504 ÷ 14 = 36\n\n⇒ x = √36 = 6\n\nNow, substitute the value of x to find LCM and HCF:\n\n⇒ HCF = 6\n\n⇒ LCM = 14 × 6 = 84\n\nDifference between LCM and HCF:\n\n⇒ LCM − HCF = 84 − 6 = 78\n\n**∴ The correct answer is 78.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nLCM & HCF of Fractions\n\nLCM of fractions = LCM of Numerators ÷ HCF of Denominators. HCF of fractions = HCF of Numerators ÷ LCM of Denominators.\n\nCo-prime Numbers\n\nTwo numbers are called co-prime if their HCF is exactly 1. For such numbers, their LCM is always equal to their product.\n\nImportant Property of HCF\n\nThe HCF of two or more numbers always perfectly divides their LCM. In other words, LCM is a multiple of HCF.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "63f9d0187ea8ab5cdb0d07e8",
+      "n": 29,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In the figure, AB || PO and BC || OQ. Value of 2x - y is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/1b90bbba41f78cbaaaf19b09e69c9abd114e38bad848b97afd7d4d0f23259906.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "50°"
+        },
+        {
+          "label": "2",
+          "text": "80°"
+        },
+        {
+          "label": "3",
+          "text": "130°"
+        },
+        {
+          "label": "4",
+          "text": "100°"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nWhen two angles have their corresponding arms parallel to each other, the two angles are equal.\n\nHere, since **AB || PO** and **BC || OQ**, the corresponding angles ∠ABC and ∠POQ must be equal.\n\n⇒ ∠POQ = ∠ABC\n\n⇒ 2x − y = 50°\n\n**∴ The correct answer is 50°.**\n\n**__Alternate Method__**\n\nGiven",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1b90bbba41f78cbaaaf19b09e69c9abd114e38bad848b97afd7d4d0f23259906.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "63b5d7ba1b7708f2b3712a51",
+      "n": 30,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "when 2³⁷ is divided by 37, the find the remainder :",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nBy **Fermat's Little Theorem**, if **p** is a **prime number**, then ap−¹ ÷ p leaves a **remainder** of 1.\n\nHere, a = 2 and p = 37 (which is a **prime number**).\n\n∴ 2³⁷−¹ = 2³⁶ leaves a **remainder** of 1 when divided by 37.\n\nThen, 2³⁷ = 2³⁶ × 2¹ → Remainder = 1 × 2 = 2.\n\n**∴ The correct answer is 2.**\n\n**__Alternate Method__**\n\n**Given:**\n\nDividend = 2³⁷\n\nDivisor = 37\n\n**Formula Used:**\n\n**Fermat's Little Theorem** states that if **p** is a **prime number** and **a** is an integer such that **gcd(a, p) = 1**, then:\n\nap−¹ ≡ 1 (mod p)\n\n**Calculations:**\n\n⇒ In the given problem, a = 2 and p = 37.\n\n⇒ Since 37 is a **prime number** and 2 is not divisible by 37, the theorem applies.\n\n⇒ 2³⁷−¹ ≡ 1 (mod 37)\n\n⇒ 2³⁶ ≡ 1 (mod 37)\n\n⇒ We need to find the remainder for 2³⁷, so multiply both sides by 2:\n\n⇒ 2³⁶ × 2¹ ≡ 1 × 2 (mod 37)\n\n⇒ 2³⁷ ≡ 2 (mod 37)\n\n⇒ The **remainder** is 2.\n\n**∴ The correct answer is 2.**\n\n**__Additional Information__**\n\nFermat's Little Theorem\n\nIt states that for any prime **p**, ap − a is a multiple of **p**. In modular arithmetic: ap ≡ a (mod p).\n\nEuler's Totient Theorem\n\nA generalization of Fermat's theorem: aφ⁽ⁿ⁾ ≡ 1 (mod n) where **φ(n)** is the number of integers less than **n** coprime to **n**.\n\nRemainder Property of Multiplication\n\nThe remainder of a product is the product of the remainders: (A × B) mod n = [(A mod n) × (B mod n)] mod n.</p",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "61e6b2f2b282ad135141c4af",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word.\n\nSpoon : Feeding : : Microscope : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Radiating"
+        },
+        {
+          "label": "2",
+          "text": "Magnifying"
+        },
+        {
+          "label": "3",
+          "text": "Grinding"
+        },
+        {
+          "label": "4",
+          "text": "Heating"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\nSpoon : Feeding → The **spoon **is used to **feeding** food.\n\nSimilarly,\n\nMicroscope : Magnifying → The** microscope** is used to **magnify **small objects.\n\nHence,** 'Magnifying' **is the correct answer.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\n \n• Radiating → linear accelerators or cobalt machines is used in radiation therapy.\n \n• Grinding → Grinding machine used to grind any object.\n \n• Heating → Heating devices like the heater is used to heat any object.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "5f1f0edccc7ab50d120b003e",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Statements and Inferences",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Directions:** A statement is given followed by two inferences I and II. You have to consider the statement to be true even if it seems to be at variance with commonly known facts. You have to decide which of the given inferences, if any, follow from the given statement.\n\n**Statement: **Spirituality helps you lead a blissful life.\n\n**Inferences:**\n\n**I: **Without the help of spirituality, one cannot lead a blissful life.\n\n**II:** Spirituality can help bring peace of mind in an individual.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Inference I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Inference II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both the inferences follow"
+        },
+        {
+          "label": "4",
+          "text": "None of the Inference follows"
+        }
+      ],
+      "correct": "2",
+      "solution": "The statement says that Spirituality helps you lead a blissful life. But it does not claim that Spirituality is the only way you can lead a blissful life. Therefore, Inference I does not follow.\n\nPeace of mind is necessary to lead a blissful life and hence Inference II is a valid inference.\n\nHence Inference II follows.\n\nThus, only Inference II follows.",
+      "tags": [
+        "Statements and Inferences"
+      ]
+    },
+    {
+      "qid": "61ae54e93d71910cc439da82",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which answer figure will complete the pattern in the question figure?\n\n [IMAGE: https://cdn.repeatermock.com/tb/988a01909da2fea01ed6bb5d3b91d15a68823e40cc69501a3a5d9cf88ce1e6ca.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/b0b2906f1141ddaaf8845e203d0ce21e87f7add2df13e3443a6410134a237e4c.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/9f40311d054fa3779cf4acc7a87cdea77e5216e5fe274ab96ab174e7af07db5a.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/0cbc33aad9d18e81bd06d97c1c81b7ccab8a858724990024eeab7cd79e366a0c.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/86af890b8b3b0f10f1aff33b7cce574fed32497187a24c32d2dae5be109285e2.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "The pattern followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/c5225db728ba2dd5037671f763e43c27cb883218e98636ec554f15be1600a855.png] \n\nThus, figure 3 completes the given figure.\n\nHence, the correct answer is option 3.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/988a01909da2fea01ed6bb5d3b91d15a68823e40cc69501a3a5d9cf88ce1e6ca.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c5225db728ba2dd5037671f763e43c27cb883218e98636ec554f15be1600a855.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "6531d36e16b40ca7ca94b17c",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which two signs should be interchanged to make the given equation correct?\n\n11 × 12 ÷ 78 + 6 – 57 = 88",
+      "options": [
+        {
+          "label": "1",
+          "text": "÷ and +"
+        },
+        {
+          "label": "2",
+          "text": "× and +"
+        },
+        {
+          "label": "3",
+          "text": "÷ and –"
+        },
+        {
+          "label": "4",
+          "text": "– and ×"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/b968da625e3936f9364a60f4ec3bdc8f1d4b1d1db9850270d1f3b4f0822dfd51.png] \n\nLet's check each option,\n\n**1) ÷ and +**\n\n→ 11 × 12 + **78 ÷ 6** – 57 = 88\n\n→ **11 × 12** + 13 – 57 = 88\n\n→ **132 + 13** – 57 = 88\n\n→ 145 – 57 = 88\n\n→ 88 = 88\n\n→ **LHS = RHS **→ **Satisfies the equation**\n\n**2) × and +**\n\n→ 11 + **12 ÷ 78** × 6 – 57 = 88\n\n→ 11 + **2/13 ×**** 6** – 57 = 88\n\n→ **11 + 12/13** – 57 = 88\n\n→ 155/13 – 57 = 88\n\n→ **LHS ≠ RHS**\n\n**3) ÷ and –**\n\n→ 11 × 12 - 78 + **6 ÷ 57** = 88\n\n→ **11 × 12** - 78 + 6/57 = 88\n\n→ **132 -**** 78** + 6/57 = 88\n\n→ 54 + 6/57 = 88\n\n→ **LHS ≠ RHS**\n\n**4) – and ×**\n\n→ 11 – **12 ÷ 78** + 6 × 57 = 88\n\n→ 11 – 2/13 + **6 ****×**** 57** = 88\n\n→ **11** – 2/13 **+ 342** = 88\n\n→ 353 – 2/13 = 88\n\n→ LHS ≠ RHS\n\nHere, we can see that only Option 1 satisfies the equation.\n\nHence, the correct answer is **\"****÷ and +\"**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b968da625e3936f9364a60f4ec3bdc8f1d4b1d1db9850270d1f3b4f0822dfd51.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "62b3b3edac831653e3e6dab8",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Direction and Distance",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Ramdin started from his office and walked 15 km in the south direction and reached the bus stop, and then turned to his left and walked 8 km straight on the road. From there, he turned to his left, walked 15 km and reached the Central Library. After this, he turned to his left again and walked 4 km to reach his hostel. How far and in which direction is the hostel with respect to his office?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 km towards North"
+        },
+        {
+          "label": "2",
+          "text": "7 km towards South"
+        },
+        {
+          "label": "3",
+          "text": "4 km towards West"
+        },
+        {
+          "label": "4",
+          "text": "4 km towards East"
+        }
+      ],
+      "correct": "4",
+      "solution": "Drawing the diagram according to the given information,\n\n \n• \n \nRamdin started from his office and walked 15 km in the south direction and reached the bus stop.\n\n \n \n• \n \nThen turned to his left and walked 8 km straight on the road.\n\n \n \n• \n \nThne turned to his left, walked 15 km and reached the Central Library.\n\n \n \n• \n \nAfter this, he turned to his left again and walked 4 km to reach his hostel. \n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/3c5239a3ac9bd4d11b4df27f68c24798e159c98b88c95cfd2de31d37b8fd1ae5.png] \n\nHence, the hostel is \"**4 km towards East**\" with respect to his office.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3c5239a3ac9bd4d11b4df27f68c24798e159c98b88c95cfd2de31d37b8fd1ae5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direction and Distance"
+      ]
+    },
+    {
+      "qid": "62c8192195f6693e646f7f83",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the correct mirror image of the given combination when the mirror is placed at XY as shown.\n\n [IMAGE: https://cdn.repeatermock.com/tb/052e871fa62c9f7d856d5c5296467c80169d3585993f136aa48908f94fe30757.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/312621182abdb886272402911fe901d1f6f76a4e09f18b1b30cc738eb6ed6436.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/3bb3430b1b245783e7a313b58afcc2199d926c5e0294ae41e12b5681d32fed47.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/b02a516ba5c82d4f746e005260d368cd16e353ad9adb78bee17c08f169d14025.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/37bed2c82d80ab961b06f2fb51309a012d80ba0f2910748c8eb62e08cd1d3938.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "In a mirror image LEFT CHANGES TO RIGHT AND THE RIGHT CHANGES TO LEFT and vice-versa.**\n [IMAGE: https://cdn.repeatermock.com/tb/69c7b55fa9b835b89418050caf164a391d21aea931c1adbc57cd9d45d92b6757.png] \n\nFrom the given options,\n\nOption 1) The pattern is inverted and it does not match.\n\nOption 2) The pattern is inverted and it is reversed so it does not match.\n\nOption 3) The pattern matches completely.\n\nOption 4) The pattern is mirrored but in the wrong order.\n\nHence the correct answer is option 3)**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/052e871fa62c9f7d856d5c5296467c80169d3585993f136aa48908f94fe30757.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/69c7b55fa9b835b89418050caf164a391d21aea931c1adbc57cd9d45d92b6757.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "601a92eba548967103256ec0",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n14 : 203 :: 6 : ? :: 18 : 333",
+      "options": [
+        {
+          "label": "1",
+          "text": "39"
+        },
+        {
+          "label": "2",
+          "text": "37"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "25"
+        }
+      ],
+      "correct": "1",
+      "solution": "In 14 : 203\n\n14² + 14 ÷ 2 = 196 + 7 = 203\n\nIn 18 : 333\n\n18² + 18 ÷ 2 = 324 + 9 = 333\n\nSimilarly,\n\n6² + 6 ÷ 2 = 36 + 3 = 39\n\nHence, 39 will come in place of the question mark.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "6365781ad9d9a9e9e97988b1",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that is related to the fifth letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster and the fourth letter-cluster is related to the third letter-cluster.\n\nFAIRY ∶ QXHEZ ∶∶ BANDS ∶ CRMAZ ∶∶ QUEEN ∶ ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "DMDRT"
+        },
+        {
+          "label": "2",
+          "text": "DMPDT"
+        },
+        {
+          "label": "3",
+          "text": "DMDTP"
+        },
+        {
+          "label": "4",
+          "text": "DMDPT"
+        }
+      ],
+      "correct": "4",
+      "solution": "The position of the letters according to the English alphabet series:\n\n [IMAGE: https://cdn.repeatermock.com/tb/95e8d7f18fcf2b6801af6bc9d1c6a9b0f0dbfacea23a7bd8da0f6df6b5ef99f5.png] \n\nThe pattern followed here is shown below:\n\nThe word FAIRY is written as QXHEZ\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/c989dc5",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/95e8d7f18fcf2b6801af6bc9d1c6a9b0f0dbfacea23a7bd8da0f6df6b5ef99f5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "627f01a49b0714b2b0d8bf2e",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Punit, Qumar, Rohit, Sheetal, Tabir, and Umesh live in a multi-storeyed building. Qumar lives immediately below the floor where Umesh lives. Sheetal lives immediately below the floor where Qumar lives. Tabir lives on one of the floors below the floors where Qumar and Sheetal live but he lives on one of the floor above the floor where Punit lives. Tabir lives immediately below the floor where Rohit lives. Rohit lives immediately below the floor where Sheetal lives. Who lives on the top floor?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Punit"
+        },
+        {
+          "label": "2",
+          "text": "Qumar"
+        },
+        {
+          "label": "3",
+          "text": "Umesh"
+        },
+        {
+          "label": "4",
+          "text": "Sheetal"
+        }
+      ],
+      "correct": "3",
+      "solution": "According to the given information :-\n\nPunit, Qumar, Rohit, Sheetal, Tabir, and Umesh live in a multi-storeyed building.\n\n1) Qumar lives immediately below the floor where Umesh lives and Sheetal lives immediately below the floor where Qumar lives.\n\n \n \n\n **Person lives in that floor Case (i)**\n **Case (ii)**\n **Case (iii)**\n **Case (iv)**\n \n \n\n Umesh\n \n \n \n \n \n\n Qumar\n Umesh\n \n \n \n \n\n Sheetal\n Qumar\n Umesh\n \n \n \n\n \n Sheetal\n Qumar\n Umesh\n \n \n\n \n \n Sheetal\n Qumar\n \n \n\n \n \n \n Sheetal\n \n \n\n \n\n2) Rohit lives immediately below the floor where Sheetal lives.\n\nHere case (iv) gets eliminated.\n\n \n \n\n **Persons lives in that floor Case (i)**\n **Case (ii)**\n **Case (iii)**\n \n \n\n Umesh\n \n \n \n \n\n Qumar\n Umesh\n \n \n \n\n Sheetal\n Qumar\n Umesh\n \n \n\n Rohit\n Sheetal\n Qumar\n \n \n\n \n Rohit\n Sheetal\n \n \n\n \n \n Rohit\n \n \n\n \n\n3) Tabir lives immediately below the floor where Rohit lives and Tabir lives on one of the floors below the floors where Qumar and Sheetal live but he lives on one of the floor above the floor where Punit lives. \n\nHere case (ii) and (iii) get eliminated.\n\n \n \n\n **Persons lives in that floor**\n \n \n\n **Umesh**\n \n \n\n Qumar\n \n \n\n Sheetal\n \n \n\n Rohit\n \n \n\n Tabir\n \n \n\n Punit\n \n \n\n \n\n∴ Here, '**Umesh' lives on top floor.**\n\nHence, the correct answer is** \"Umesh\".**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6447dc70100549f075c7d6dd",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Letters of a word have been jumbled up and numbered. Choose the option which gives the correct order of the letters as indicated by the numbers to form the word.\n\nI, A, D, O, H, E, N, S\n\n1 2 3 4 5 6 7 8",
+      "options": [
+        {
+          "label": "1",
+          "text": "3, 2, 5, 6, 8, 1, 4, 7"
+        },
+        {
+          "label": "2",
+          "text": "2, 3, 5, 6, 4, 8, 1, 7"
+        },
+        {
+          "label": "3",
+          "text": "2, 3, 5, 6, 8, 1, 4, 7"
+        },
+        {
+          "label": "4",
+          "text": "2, 3, 5, 6, 8, 4, 1, 7"
+        }
+      ],
+      "correct": "3",
+      "solution": "We have checked the each option,\n\nOption (1): 3, 2, 5, 6, 8, 1, 4, 7\n\n \n \n\n 3\n 2\n 5\n 6\n 8\n 1\n 4\n 7\n \n \n\n D\n A\n H\n E\n S\n I\n O\n N\n \n \n\nThe word formed from jumbled letters is \"DAHESION\" which is Not a Meaningful word.\n\nOption (2): 2, 3, 5, 6, 4, 8, 1, 7\n\n \n \n\n 2\n 3\n 5\n 6\n 4\n 8\n 1\n 7\n \n \n\n A\n D\n H\n E\n O\n S\n I\n N\n \n \n\nThe word formed from jumbled letters is \"ADHEOSIN\" which is Not a Meaningful word.\n\nOption (3): 2, 3, 5, 6, 8, 1, 4, 7\n\n \n \n\n 2\n 3\n 5\n 6\n 8\n 1\n 4\n 7\n \n \n\n A\n D\n H\n E\n S\n I\n O\n N\n \n \n\nThe word formed from jumbled letters is \"**ADHESION**\" which is a **Meaningful word**.\n\nOption (4): 2, 3, 5, 6, 8, 4, 1, 7\n\n \n \n\n 2\n 3\n 5\n 6\n 8\n 4\n 1\n 7\n \n \n\n A\n D\n H\n E\n S\n O\n I\n N\n \n \n\nThe word formed from jumbled letters is \"ADHESOIN\" which is Not a Meaningful word.\n\nHence, the correct answer is \"**2, 3, 5, 6, 8, 1, 4, 7**\".",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "5c262b47fdb8bb04c3593cf0",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The ratio of present ages of A and B is 5 : 7. If the age of B after 10 years will be 31 years, then what is the present age (in years) of A?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "25"
+        },
+        {
+          "label": "4",
+          "text": "35"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given data,\n\nRatio of present ages of A and B is 5 : 7.\n\nLet the present age of A be 5x and that of B be 7x.\n\nThe age of B after 10 years will be (7x + 10) which is equal to 31 years.\n\nThus,\n\n7x + 10 = 31 → 7x = 21 → x = 3\n\nx = 3\n\nPresent age of A is 5x → 5 x 3 = 15 years.\n\nThus, 15 is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "5ed7d0f0f60d5d2aa46c48cd",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a certain code language, ‘427168’ is written as ‘5482716’. How will ‘173895’ be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2144160110"
+        },
+        {
+          "label": "2",
+          "text": "2144161010"
+        },
+        {
+          "label": "3",
+          "text": "2145161010"
+        },
+        {
+          "label": "4",
+          "text": "2144061010"
+        }
+      ],
+      "correct": "2",
+      "solution": "The pattern followed here is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/c4f7811eb5652533fcb75a90af1b0a8b89124cf8befdccbff1473bb595117da1.png] \n\nSimilarly,\n\n [IMAGE: https://cdn.repeatermock.com/tb/64b04b7ab1362d7b3c3775ddc84055e83996e8293f2805790d26c6059bd3ae6e.png] \n\nHence, 2144161010 is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c4f7811eb5652533fcb75a90af1b0a8b89124cf8befdccbff1473bb595117da1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/64b04b7ab1362d7b3c3775ddc84055e83996e8293f2805790d26c6059bd3ae6e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "642fb28dc32556f851882fd8",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the correct option that indicates the arrangement of the given words in a logical and meaningful order.\n\n1. College\n\n2. School\n\n3. Employment\n\n4. Salary\n\n5. Child",
+      "options": [
+        {
+          "label": "1",
+          "text": "5, 2, 3, 4, 1"
+        },
+        {
+          "label": "2",
+          "text": "5, 2, 1, 3, 4"
+        },
+        {
+          "label": "3",
+          "text": "5, 1, 2, 3, 4"
+        },
+        {
+          "label": "4",
+          "text": "5, 2, 1, 4, 3"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct logical order is:\n\n5) Child \n\n2) School\n\n1) College\n\n3) Employment\n\n4) Salary\n\nHence, the correct answer is** \" 5, 2, 1, 3, 4 \"**.",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "603020b2f88ebe92f5e8ad50",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In the following questions, find the odd number from the given alternatives.",
+      "options": [
+        {
+          "label": "1",
+          "text": "79 – 45"
+        },
+        {
+          "label": "2",
+          "text": "64 – 30"
+        },
+        {
+          "label": "3",
+          "text": "50 – 26"
+        },
+        {
+          "label": "4",
+          "text": "83 – 49"
+        }
+      ],
+      "correct": "3",
+      "solution": "Here, the difference between the pair is 34.\n\n1) 79 – 45 → 34\n\n2) 64 – 30 → 34\n\n**3) 50 – 26 → 24 ≠ 34**\n\n4) 83 – 49 → 34\n\nHence, ’**50 – 26**’ is the odd word from the given alternatives.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "5cec1425fdb8bb197f05dd03",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following assumptions is/are implied from the below statement?\n\n**Statement:**\n\n“I am eagerly awaiting to present this year’s report to the top management”, said the area sales manager to his colleague.\n\n**Assumptions:**\n\nI. The company has some new acquisitions in that area.\n\nII. The manager has vital information that would make an impression on the top management.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only assumption II is implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only assumption I is implicit"
+        },
+        {
+          "label": "3",
+          "text": "Both assumption I and II are implicit"
+        },
+        {
+          "label": "4",
+          "text": "Neither assumption I nor II is implicit"
+        }
+      ],
+      "correct": "3",
+      "solution": "Assumption 1 holds as if the sales manager of an area is happy with his work in the area, it can be assumed that he/she has made some progress, or some acquisitions in his/her area. The area sales manager stated that “he is eagerly awaiting to present this year’s report to the top management”, so we can assume that “The manager has vital information that would make an impression on the top management”.\n\nHence, “Both assumption I and II are implicit”.",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "642fb77a9d6211c4ce7f2098",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which one set of letters when sequentially placed at the gaps in the given letter series shall complete it?\n\nm c _ b c m _ c b b c _ m _ b b c m",
+      "options": [
+        {
+          "label": "1",
+          "text": "mccb"
+        },
+        {
+          "label": "2",
+          "text": "bcmb"
+        },
+        {
+          "label": "3",
+          "text": "cbmb"
+        },
+        {
+          "label": "4",
+          "text": "bmmc"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given sequence: m c _ b c m _ c b b c _ m _ b b c m \n\n1. mccb → m c **m** b c m / **c** c b b c **c /** m **b** b b c m \n\n2. bcmb → m c **b** b c m / **c** c b b c **m **/ m **b** b b c m \n\n3. cbmb → m c **c** b c m / **b** c b b c **m** / m **b** b b c m \n\n4. bmmc → m c **b** b c m / **m** c b b c **m** / m **c** b b c m \n\nIn option 4, the sequence follows a continuous pattern.\n\nHence, '**bmmc**' is the correct answer.",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "624827241b3b753ce5763200",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the number from among the given options that can replace the question mark (?) in the following series.\n\n10, 21, 35, 56, 90, 145, 231, 360, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "546"
+        },
+        {
+          "label": "2",
+          "text": "463"
+        },
+        {
+          "label": "3",
+          "text": "564"
+        },
+        {
+          "label": "4",
+          "text": "436"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is :-\n\n [IMAGE: https://cdn.repeatermock.com/tb/38206e86eb3076906ddd1566ad568be642521a4c57fdf7fb7c2445572dcdb35f.png] \n\nHence, the correct answer is **\"546\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/38206e86eb3076906ddd1566ad568be642521a4c57fdf7fb7c2445572dcdb35f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "609ff9f842ddb3b8d694477e",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "DIRECTIONS: In the question below are given few statements followed by few conclusions. You have to take the given statements to be true even if they seem to be at variance with the commonly known facts and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts.\n\n**Statements:**\n\nAll dress are black.\n\nSome black are suit.\n\nSome suit are white.\n\n**Conclusions:**\n\nI. Some white are suit.\n\nII. Some suit are dress.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both conclusion I and conclusion II follows"
+        },
+        {
+          "label": "4",
+          "text": "Neither Conclusion I nor conclusion II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "The possible Venn diagram is as follows:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a29fcce3d681d02e2ca5dff1f00eb47f10a26a4a280c2ed1ea75287e2c165cd0.png] \n\nFor conclusions:\n\nI. Some white are suit→ True \n\nII. Some suit are dress → False ( It is possible but not definite)\n\nHence, the **only conclusion I follow** is correct.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a29fcce3d681d02e2ca5dff1f00eb47f10a26a4a280c2ed1ea75287e2c165cd0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "6025294b5d5938cf8b9b4ac6",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a certain code language, \"You are Gorgeous\" means \"pek din pew\", \"Boys are Handsome\" means \"pek bek hek\", \"Gorgeous likes Handsome\" means \"bek din meo\". Which is the code for \"likes\" in that code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "bek"
+        },
+        {
+          "label": "2",
+          "text": "meo"
+        },
+        {
+          "label": "3",
+          "text": "hek"
+        },
+        {
+          "label": "4",
+          "text": "din"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic follows here is :\n\n [IMAGE: https://cdn.repeatermock.com/tb/9f6f8755ad5ea5a23f761735d753d430d5c1b99161e33ec86bab03480ee3cc1f.png] \n\nFrom the above image, we conclude that,\n\n \n \n\n **Word**\n **Code**\n \n \n\n You\n pew\n \n \n\n are\n pek\n \n \n\n Gorgeous\n din\n \n \n\n Boys\n hek\n \n \n\n Handsome\n bek\n \n \n\n **likes**\n **meo**\n \n \n\n \n\nCode for **likes **is **meo.**\n\nHence, the correct answer is **\"meo\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9f6f8755ad5ea5a23f761735d753d430d5c1b99161e33ec86bab03480ee3cc1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "5d5ac0d0fdb8bb738c382d06",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the related figure from the given alternatives.\n\n [IMAGE: https://cdn.repeatermock.com/tb/2b730a03a544fb1c53fbd9089f2f8b7b09971378233413f1952cb8c6543fbfd0.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/ffe1e5e20c50b4adcd07a2fa602adf3a7f7004f0e0d8e78d414b6966900c8694.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/05b11427a014bfd0d3fc1e7d9ce794a4894c4adac1d6520ec1d41dc8fa631874.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/72bd0c5a9a409f7ab68aac7df2839f568baa7fccc7fbfb3c3025d2e2cea84e34.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/70accb34e95f67aaf619d1a4bb8cd6b495bb2482d2efd2043ed7c210461c1030.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "In the first part of the question, second figure is the water image of the first figure.\n\n [IMAGE: https://cdn.repeatermock.com/tb/38a6324b5ec95e9657319d107679534d6fdf0d3c39927464bf79c0b052c54b2b.png] \n\nHence, figure 3 is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2b730a03a544fb1c53fbd9089f2f8b7b09971378233413f1952cb8c6543fbfd0.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/38a6324b5ec95e9657319d107679534d6fdf0d3c39927464bf79c0b052c54b2b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "5c2223a0a7b9b448693ef9d5",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Some equations have been solved on the basis of a certain system. Find the correct answer for the unsolved equation on that basis.\n\nIf 6 × 3 = 27, 9 × 5 = 56 and 13 × 9 = 88, then 19 × 15 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "45"
+        },
+        {
+          "label": "2",
+          "text": "266"
+        },
+        {
+          "label": "3",
+          "text": "136"
+        },
+        {
+          "label": "4",
+          "text": "128"
+        }
+      ],
+      "correct": "3",
+      "solution": "The pattern followed here is:\n\n(6 + 3) × (6 - 3) = 9 × 3 = 27\n\n(9 + 5) × (9 - 5) = 14 × 4 = 56\n\n(13 + 9) × (13 - 9) = 22 × 4 = 88\n\nSimilarly, 19 × 15 → (19 + 15) × (19 - 15) = 34 × 4 = 136\n\nHence, the correct answer is 136.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "62edfb5cbfcc4dbb2b31f8fd",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster.\n\nAND : VHV :: LXY : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "HRR"
+        },
+        {
+          "label": "2",
+          "text": "HRQ"
+        },
+        {
+          "label": "3",
+          "text": "GRQ"
+        },
+        {
+          "label": "4",
+          "text": "GSQ"
+        }
+      ],
+      "correct": "3",
+      "solution": "Alphabet and their positional value:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a72a30b8cfc6309b36506bcbabb6647d5379494fca9023856cca8a5a79bf064f.png] \n\nThe logic followed here is: \n\nFor, <span style=&qu",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a72a30b8cfc6309b36506bcbabb6647d5379494fca9023856cca8a5a79bf064f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "642c39facfc7e520284995d9",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Venn Diagram",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "How many red cars are there?\n\n [IMAGE: https://cdn.repeatermock.com/tb/ed6ab4900f06339ca831b1d1cb6ab16513f217e4a810e1d139b00214a770f9f2.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "31"
+        },
+        {
+          "label": "2",
+          "text": "22"
+        },
+        {
+          "label": "3",
+          "text": "28"
+        },
+        {
+          "label": "4",
+          "text": "33"
+        }
+      ],
+      "correct": "4",
+      "solution": "According to the given Venn diagram:\n\n [IMAGE: https://cdn.repeatermock.com/tb/3a50faa315b48435cb98d4fe168582116e378e91db1842eb5b884f2ab6aba584.png] \n\nThe shaded area shows the \"Red Cars\".\n\nSo, there are: 14 + 5 + 6 + 8 = 33 red cars are there in the given figure.\n\nHence, the correct answer is \"33\".",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ed6ab4900f06339ca831b1d1cb6ab16513f217e4a810e1d139b00214a770f9f2.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3a50faa315b48435cb98d4fe168582116e378e91db1842eb5b884f2ab6aba584.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Venn Diagram"
+      ]
+    },
+    {
+      "qid": "64e86137dccfaf28f5ac8dcc",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the triad in which the numbers are related in the same way as the numbers in the following triads are related.\n\n4 - 18 - 5\n\n7 - 20 - 3\n\n(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding /deleting ‘multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)",
+      "options": [
+        {
+          "label": "1",
+          "text": "6 - 16 - 2"
+        },
+        {
+          "label": "2",
+          "text": "7 - 12 - 8"
+        },
+        {
+          "label": "3",
+          "text": "8 - 11 - 3"
+        },
+        {
+          "label": "4",
+          "text": "5 - 21 - 8"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Logic: Second no. = [(First no. + Third no.) × 2]**\n\n**Given:**\n\n**4 - 18 - 5 →**\n\n⇒ [(4 + 5) × 2]\n\n​⇒ (9 × 2) = 18\n\n**7 - 20 - 3 →**\n\n⇒ [(7 + 3) × 2]\n\n​⇒ (10 × 2) = 20\n\nChecking the given options:\n\n**(1)** 6 - 16 - 2 →\n\n⇒ [(6 + 2) × 2]\n\n​⇒ (8 × 2) =** 16**\n\n**(2) **7 - 12 - 8 →\n\n⇒ [(7 + 8) × 2]\n\n​⇒ (15 × 2) = 30\n\n**(3)** 8 - 11 - 3 →\n\n⇒ [(8 + 3) × 2]\n\n​⇒ (11 × 2) = 22\n\n**(4)** 5 - 21 - 8 →\n\n⇒ [(5 + 8) × 2]\n\n​⇒ (13 × 2) = 26\n\nHere, **'****6 - 16 - 2' **is similar to the given number pairs.\n\nHence, the correct answer is \"Option (1)\".\n\nfa:Td57,\n&",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "6245853b2ace582a22c0f2db",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Pointing to the photograph of a boy, Nikhil said, \"He is my mother's mother-in-law's daughter's only brother's son\". How is the boy in the photograph related to Nikhil?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cousin"
+        },
+        {
+          "label": "2",
+          "text": "Father"
+        },
+        {
+          "label": "3",
+          "text": "Paternal uncle"
+        },
+        {
+          "label": "4",
+          "text": "Brother"
+        }
+      ],
+      "correct": "4",
+      "solution": "Preparing the family tree using the following symbols,\n\n [IMAGE: https://cdn.repeatermock.com/tb/4cdd0b30cffaf954e65ff899730e11e9e4ceb2b8a3106f0f1cf7dc6cc2718c84.png] \n\nGiven:\n\nNikhil said, \"He is my mother's mother-in-law's daughter's only brother's son\"\n\nWe can draw the following Family Tree from the information given above:\n\n [IMAGE: https://cdn.repeatermock.com/tb/5f06012ec50594c9c3e637740fcd42de88a38ccb4592c1568e41902345fb51fc.png] \n\nHence, the Nikhil is the \"Brother\" of that boy.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4cdd0b30cffaf954e65ff899730e11e9e4ceb2b8a3106f0f1cf7dc6cc2718c84.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5f06012ec50594c9c3e637740fcd42de88a38ccb4592c1568e41902345fb51fc.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "647c97954093f8bbb71ba46d",
+      "n": 26,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Read the following information carefully and answer the questions that follow:\n\nAll the family members P, Q, R, S T and U are having dinner together. Q is the son of R but R is not the mother of Q. P and R are married. T is younger brother of R. S is the daughter of P and U is the elder sister of Q.\n\nWho among the following is the son of P?",
+      "options": [
+        {
+          "label": "1",
+          "text": "S"
+        },
+        {
+          "label": "2",
+          "text": "U"
+        },
+        {
+          "label": "3",
+          "text": "T"
+        },
+        {
+          "label": "4",
+          "text": "Q"
+        }
+      ],
+      "correct": "4",
+      "solution": "We used the following symbols for family tree,\n\n [IMAGE: https://cdn.repeatermock.com/tb/bdab8b68f60248ef3b3d76a6c0bfb3a556891b755a152ee13f1167c942e584dd.png] \n\nFamily tree:\n\n [IMAGE: https://cdn.repeatermock.com/tb/2aaa47f87f2d39c24fa602dc7822d51eda5ea41ca5bf452f25886fc45dcedd38.png] \n\nAs we can se that, **\"Q\" is the son of P.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bdab8b68f60248ef3b3d76a6c0bfb3a556891b755a152ee13f1167c942e584dd.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2aaa47f87f2d39c24fa602dc7822d51eda5ea41ca5bf452f25886fc45dcedd38.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "614861627203acb36bfbec40",
+      "n": 27,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "How many triangles are there in the following figures?\n\n [IMAGE: https://cdn.repeatermock.com/tb/1d608dc61c54bd06ab3519d93155a18ec5fefa4717208e9d9aaac2adf157ea01.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "22"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "2",
+      "solution": "the total number of triangles in the figure is shown below: [IMAGE: https://cdn.repeatermock.com/tb/49d1d0e2ed12c9b3810fc5b8f29eb33f53faf4fc0472efb108e8ba37ad59943f.png] \n\nHence, ‘**18**’ is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1d608dc61c54bd06ab3519d93155a18ec5fefa4717208e9d9aaac2adf157ea01.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/49d1d0e2ed12c9b3810fc5b8f29eb33f53faf4fc0472efb108e8ba37ad59943f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "617a33fc581cf9b536e0a171",
+      "n": 28,
+      "type": "mcq",
+      "concept": "Ordering and Ranking",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Arya is 8 ranks ahead of Surya who ranks 26th in a class of 42. What is Arya’s rank from the last?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25th"
+        },
+        {
+          "label": "2",
+          "text": "27th"
+        },
+        {
+          "label": "3",
+          "text": "23rd"
+        },
+        {
+          "label": "4",
+          "text": "26th"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given: **Arya is 8 ranks ahead of Surya who ranks 26th in a class of 42.**\n\nThe total number of students in the class = 42.\n\nSurya Rank = 26th.\n\nThus, Arya's rank from the top = Surya's Rank - 8\n\nArya's rank from the top = 26 - 8 = 18th.\n\nArya's rank from the last = Total students - Arya's rank from the top + 1\n\nArya's rank from the last = 42 - 18 +1\n\n**Arya's rank from the last = 25th**\n\nHence, **Option (1)** is correct.",
+      "tags": [
+        "Ordering and Ranking"
+      ]
+    },
+    {
+      "qid": "6221db608c0b41a35bbe8809",
+      "n": 29,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a certain code language, PROUD is written as WYJPK. How will GUILTY be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "NPDSAF"
+        },
+        {
+          "label": "2",
+          "text": "BPBOGT"
+        },
+        {
+          "label": "3",
+          "text": "BBPGOT"
+        },
+        {
+          "label": "4",
+          "text": "NDPASF"
+        }
+      ],
+      "correct": "1",
+      "solution": "The table is alphabets place value:\n\n [IMAGE: https://cdn.repeatermock.com/tb/259d8630a9ac11653540776fb8c878efe7c7e39d2fafd27847036c083bb6c14d.png] \n\nThe pattern followed here is:\n\n \n• **Consonants are increased by +7.**\n \n• **Vowels are decreased by -5.**\n\nPROUD is written as WYJPK\n\n [IMAGE: https://cdn.repeatermock.com/tb/9689d7f7f52387173b9176ee0339f5add0481d1a8dcf4aa9d146fbacc436c44c.png] \n\nSimilarly,\n\n'**GUILTY**' = ?\n\n [IMAGE: https://cdn.repeatermock.com/tb/aa6097d99410580ebdcc14bcc2ea93d81bf8474d6f5e1f82ac203b7af10c2a50.png] \n\nHence, 'GUILTY' is coded as \"**NPDSAF**\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/259d8630a9ac11653540776fb8c878efe7c7e39d2fafd27847036c083bb6c14d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/9689d7f7f52387173b9176ee0339f5add0481d1a8dcf4aa9d146fbacc436c44c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/aa6097d99410580ebdcc14bcc2ea93d81bf8474d6f5e1f82ac203b7af10c2a50.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "612cd7e674caf650e7b67e19",
+      "n": 30,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the letter-cluster that is different.",
+      "options": [
+        {
+          "label": "1",
+          "text": "GBTV"
+        },
+        {
+          "label": "2",
+          "text": "CGXT"
+        },
+        {
+          "label": "3",
+          "text": "HDSW"
+        },
+        {
+          "label": "4",
+          "text": "DJWQ"
+        }
+      ],
+      "correct": "1",
+      "solution": "The pattern followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/99fc7420a23237787baa0dd63b85ba6fae16b15bb95444f7f9cc2114572a7d37.png] \n\nAccording to the alphabetical positions of the letters,\n\n1. [IMAGE: https://cdn.repeatermock.com/tb/561ab6f097ac9eeecad412fb0ac7dffb4ac590569b5f2dc4b7bb32fc6f510386.png] \n\nFirst and Third letters are equivalent opposite letters of each other, but The equivalent **opposite letter of B is Y and not V**.\n\n2.** ** [IMAGE: https://cdn.repeatermock.com/tb/b411fff236ae2bfd1e0a294622228dcb690eca2947c49a6af2ab22e21b4c80ea.png] \n\nFirst and Third and Second and Fourth letters are equivalent opposite letters of each other.\n\n3. [IMAGE: https://cdn.repeatermock.com/tb/b098de694f8861dc486fecdc0777b0ca6313b6e02fb87caecc1fcd82298c3daa.png] \n\nFirst and Third and Second and Fourth letters are equivalent opposite letters of each other.\n\n4. [IMAGE: https://cdn.repeatermock.com/tb/b7551218cbdb0b03265a64b87e6156fc2ee3b538874facd8cd12a4616ceb40e7.png] \n\nFirst and Third and Second and Fourth letters are equivalent opposite letters of each other.\n\nHence, ‘**GBTV**’ is the odd one out. \n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**The logic followed here is:\n\n**Except option 1, sum of the place value of the letter of all the options is 54.**\n\n**Option 1 → GBTV → 7 + 2 + 20 + 22 = 51**\n\nOption 2 → CGXT → 3 + 7 + 24 + 20 = 54\n\nOption 3 → HDSW → 8 + 4 + 19 + 23 = 54\n\nOption 4 → DJWQ → 4 + 10 + 23 + 17 = 54\n\nThus option 1 is odd one.\n\nHence, the correct answer is **\"Option 1\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/99fc7420a23237787baa0dd63b85ba6fae16b15bb95444f7f9cc2114572a7d37.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/561ab6f097ac9eeecad412fb0ac7dffb4ac590569b5f2dc4b7bb32fc6f510386.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b411fff236ae2bfd1e0a294622228dcb690eca2947c49a6af2ab22e21b4c80ea.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b098de694f8861dc486fecdc0777b0ca6313b6e02fb87caecc1fcd82298c3daa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b7551218cbdb0b03265a64b87e6156fc2ee3b538874facd8cd12a4616ceb40e7.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Classification"
+      ]
+    }
+  ]
+}

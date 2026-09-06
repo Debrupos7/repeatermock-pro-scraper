@@ -1,0 +1,980 @@
+{
+  "test_id": "6a4657e95054ad1796d4d531",
+  "title": "SSC CGL Tier I: (Eduquity PYQ) Reasoning Live Test - 2",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:10:19.946952+00:00",
+  "questions": [
+    {
+      "qid": "69bcf11da9d667ae2fdf58b7",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain coded language 'ROGUE' is coded as 'USFRZ' and 'FIBRE' is coded as 'IMAOZ'. How will 'LEACH' be coded in the same code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "NHZAA"
+        },
+        {
+          "label": "2",
+          "text": "NIZYA"
+        },
+        {
+          "label": "3",
+          "text": "OIZZC"
+        },
+        {
+          "label": "4",
+          "text": "MIYAD"
+        }
+      ],
+      "correct": "3",
+      "solution": "The position and positional values or English Alphabets are:\n\n [IMAGE: https://cdn.repeatermock.com/tb/fc458c93cd41af6714a3b90d8cb5dec73b9290afd3816859cae5a708af873b95.png] \n\n**Given: **In a certain coded language 'ROGUE' is coded as 'USFRZ' and 'FIBRE' is coded as 'IMAOZ'. \n\nThe",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/fc458c93cd41af6714a3b90d8cb5dec73b9290afd3816859cae5a708af873b95.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "6997b26672486efcb7c13def",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Direction and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A person walks 9 km west, then 12 km north, and finally 9 km east. In which direction is he from his starting point?",
+      "options": [
+        {
+          "label": "1",
+          "text": "North"
+        },
+        {
+          "label": "2",
+          "text": "South"
+        },
+        {
+          "label": "3",
+          "text": "East"
+        },
+        {
+          "label": "4",
+          "text": "West"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given: A person walks 9 km west, then 12 km north, and finally 9 km east.\n\n [IMAGE: https://cdn.repeatermock.com/tb/b3c19aeaa2ba0c453ecb14e17769e5cae7926318971daa907362f538b8facd2e.png] \n\nThus, the person is in North direction from his starting point.\n\nHence, the correct answer is \"Option 1\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b3c19aeaa2ba0c453ecb14e17769e5cae7926318971daa907362f538b8facd2e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direction and Distance"
+      ]
+    },
+    {
+      "qid": "68b296a2fb96995a825f4aa9",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the next term in the given letter series: ZZPQPQPQ, PZZPQPQP, PQZZPQPQ, PQPZZPQP, PQPQZZPQ, ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "PQPQPZZP"
+        },
+        {
+          "label": "2",
+          "text": "PQPQZZPQ"
+        },
+        {
+          "label": "3",
+          "text": "ZZPQPQPQ"
+        },
+        {
+          "label": "4",
+          "text": "PZZPQPQP"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\n**The logic followed here is:**\n\nThe series consists of 8-letter clusters. The pattern is determined by the shifting position of the 'ZZ' block and the letters preceding and following it. The clusters can be divided into three parts: a prefix, the 'ZZ' block, and a suffix.\n\n [IMAGE: https://cdn.repeatermock.com/tb/6433e76f48cbe21cb358d7d1576034306d3e1e2f81ab68235c27f284fb88898e.png] \n\nThe next term is **PQPQPZZP**.\n\nHence, the correct answer is** \"Option 1\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6433e76f48cbe21cb358d7d1576034306d3e1e2f81ab68235c27f284fb88898e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "68b14fed6a50c657594e89af",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Fill in the blank: 4, 12, 6, 18, 9, __",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "27"
+        },
+        {
+          "label": "3",
+          "text": "36"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "2",
+      "solution": "**The logic followed here is:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36aaecc8578b7a8b4a033931127fb633b291a0369e00e9aa3ea9c951e33e1cd0.png] \n\nThus, the missing term in the series is **27**.\n\nHence, the correct answer is **\"Option 2\"**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36aaecc8578b7a8b4a033931127fb633b291a0369e00e9aa3ea9c951e33e1cd0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "69a12dc3eb1f1d9500df86a2",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many quadrilaterals are there in the given figure?\n\n [IMAGE: https://cdn.repeatermock.com/tb/0a298ef4da3bd878b219b86a15ff10961b14927f69706873678b520c98ffcaf3.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "7"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "9"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "1",
+      "solution": "Number of quadrilaterals in the given figure is shown below: [IMAGE: https://cdn.repeatermock.com/tb/c81cfc9b77d770d5c10c5b51a21f4ce2da8b5b4c867fcc845f6c07fc1368e483.png] <span style=\" font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align:",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0a298ef4da3bd878b219b86a15ff10961b14927f69706873678b520c98ffcaf3.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c81cfc9b77d770d5c10c5b51a21f4ce2da8b5b4c867fcc845f6c07fc1368e483.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "693c1d772e366babf8e6592c",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Ordering and Ranking",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a row of 30 students, if Sneha is 12th from the left and Priya is 15th from the right, how many students are between Sneha and Priya?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nTotal students = 30\n\nSneha position from left = 12\n\nPriya position from right = 15\n\nSo, the students are between Sneha and Priya = Total students - ( Position of Sneha + Position of Priya )\n\n= 30 − ( 12 + 15 )\n\n= 30 − 27 \n\n= 3\n\n [IMAGE: https://cdn.repeatermock.com/tb/f2da1fcd95e30207b623febdd74ad8b88974d8c8b3874a4b925760c59622bdac.png] \n\n∴ Number of students between Sneha and Priya = 3.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f2da1fcd95e30207b623febdd74ad8b88974d8c8b3874a4b925760c59622bdac.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ordering and Ranking"
+      ]
+    },
+    {
+      "qid": "690b29cc3731ace36e8fdc9c",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which two signs should be interchanged to make the given equation CORRECT?\n\n97 × 23 - 18 + 9 ÷ 3 = 66",
+      "options": [
+        {
+          "label": "1",
+          "text": "× and +"
+        },
+        {
+          "label": "2",
+          "text": "× and ÷"
+        },
+        {
+          "label": "3",
+          "text": "÷ and -"
+        },
+        {
+          "label": "4",
+          "text": "+ and -"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given equation: 97 × 23 - 18 + 9 ÷ 3 = 66\n\nBODMAS Table:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a4e904f24cd8f3960eb0581ce79f571ea55cd4bbdc32a77d7147630218080422.png] \n\nLet's check each option one by one.\n\n1. × and +\n\nAfter interchanging the signs we get;\n\n⇒ 97 + 23 − 18 × __**9 ÷ **____**3**__ = 66\n\n⇒ 97 + 23 − __**18 × 3**__ = 66\n\n⇒ __**97 + **____**23**__ − 54 = 66\n\n⇒ __**120 **____**− 54**__ = 66\n\n⇒ 66 = 66\n\n⇒ LHS = RHS\n\n2. × and ÷\n\nAfter interchanging the signs we get;\n\n⇒ __**97 ÷ **____**23**__ − 18 + 9 × 3 = 66\n\n⇒ 4.2 − 18 + __**9 × **____**3**__ = 66\n\n⇒ __**4.2**__ − 18 __**+ 27**__ = 66\n\n⇒ __**31.2**____** − 18**__ = 66\" id=\"MathJax-Element-40-Frame\" role=\"presentation\" style=\"text-align: center; position: relative;\" tabindex=\"0\">\n\n⇒ 13.2 ≠ 66\n\n⇒ LHS ≠ RHS\n\n3. ÷ and -\n\nAfter interchanging the signs we get;\n\n⇒ 97 × __**23 ÷ **____**18**__ + 9 − 3 = 66\" id=\"MathJax-Element-41-Frame\" role=\"presentation\" style=\"text-align: center; position: relative;\" tabindex=\"0\">\n\n\" role=\"presentation\" style=\"text-align: center; position: relative;\" tabindex=\"0\">⇒ __**97 × 1.27**__ + 9 − 3 = 66\n\n⇒ __**123.19**____** + **____**9**__ − 3 = 66\n\n⇒ __**132.19 **____**− **____**3**__ = 66\n\n⇒ 129.19 ≠ 66\n\n⇒ LHS ≠ RHS\n\n4. + and -\n\nAfter interchanging the signs we get;\n\n⇒ 97 × 23 + 18 − __**9 ÷ **____**3**__ = 66\" id=\"MathJax-Element-45-Frame\" role=\"presentation\" style=\"text-align: center; position: relative;\" tabindex=\"0\">\n\n\" role=\"presentation\" style=\"text-align: center; position: relative;\" tabindex=\"0\">⇒ __**97 × **____**23**__ + 18 − 3 = 66\n\n⇒ __**2231**____** + **____**18**__ − 3 = 66\n\n⇒ __**2249**____** − **____**3**__ = 66\n\n⇒ 2246 ≠ 66\n\n⇒ LHS ≠ RHS\n\nHence, the correct answer is \"Option 1\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a4e904f24cd8f3960eb0581ce79f571ea55cd4bbdc32a77d7147630218080422.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "69c80117dcd23497f5293df6",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which item does not belong to the group?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Guitar"
+        },
+        {
+          "label": "2",
+          "text": "Piano"
+        },
+        {
+          "label": "3",
+          "text": "Flute"
+        },
+        {
+          "label": "4",
+          "text": "Hammer"
+        }
+      ],
+      "correct": "4",
+      "solution": "Logic: The items are categorized based on their function. Three of the given options are musical instruments, while one is a hand tool.\n\n1) **Guitar:** A stringed musical instrument.\n\n2) **Piano:** A keyboard musical instrument.\n\n3) **Flute:** A woodwind musical instrument.\n\n4) <stron",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "69ca0a6c43656e870cadef8e",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the wrong statement. In a family of six members, A, B, C, D, E, and F:\n\n• A and B are a married couple.\n\n• C is the son of A.\n\n• E is the brother of D.\n\n• D is the daughter of B.\n\nF is the mother of B.",
+      "options": [
+        {
+          "label": "1",
+          "text": "C is the only son of A"
+        },
+        {
+          "label": "2",
+          "text": "E is the brother of D"
+        },
+        {
+          "label": "3",
+          "text": "F is the mother of B"
+        },
+        {
+          "label": "4",
+          "text": "D is the daughter of B"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/dd7f045f5d1e046a1593211d33470dd7222228da44053b077ae0ffa769768dc2.png] \n\nFamily tree,\n\n [IMAGE: https://cdn.repeatermock.com/tb/e09ffe7f3dd955895c7a4abbec67d26e5b67feb130a8004f4df3f5e44a4cf174.png] \n\n(1) C is the only son of A→ **Wrong (Because E is also son of A)**\n\n(2) E is the brother of D → Correct\n\n(3) F is the mother of B → Correct\n\n(4) D is the daughter of B → Correct.\n\nHence, the correct answer is “**Option 1**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/dd7f045f5d1e046a1593211d33470dd7222228da44053b077ae0ffa769768dc2.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e09ffe7f3dd955895c7a4abbec67d26e5b67feb130a8004f4df3f5e44a4cf174.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "69bcf11992cfe331b5ce5fe0",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Seating Arrangement",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "5 boys A, B, C, D and E are sitting in a row facing north (not necessarily in the same order). C is in the middle of the row. D and E are to the right of C. A and B are to the left of C. B and D are not at any ends of the row. How many boys are sitting to the left of D?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given: **5 boys A, B, C, D and E are sitting in a row facing north (not necessarily in the same order). \n\n1. C is in the middle of the row. \n\n2. D and E are to the right of C. \n\n3. A and B are to the left of C. \n\n<span style",
+      "tags": [
+        "Seating Arrangement"
+      ]
+    },
+    {
+      "qid": "69ca0d1895e1fcdd44d8b862",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the related number from the given alternatives.\n\n15 : 225 :: 12 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "120"
+        },
+        {
+          "label": "2",
+          "text": "244"
+        },
+        {
+          "label": "3",
+          "text": "256"
+        },
+        {
+          "label": "4",
+          "text": "144"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is :\n\n15 : 225 → \n\n(15)² = **225**\n\nSimilarly,\n\n12 : ? → \n\n(12)² = **144**\n\nHence, the correct answer is **\"option (4)\"**. [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__** \n\n \n \n\n **Number**\n **Square**\n \n \n\n 10\n 100\n \n \n\n 11\n 121\n \n \n\n 12\n 144\n \n \n\n 15\n 225",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "690c561cc70af2c09d5818a7",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'HAT' is coded as '8-1-20', how will 'TAH' be coded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20-1-8"
+        },
+        {
+          "label": "2",
+          "text": "8-20-1"
+        },
+        {
+          "label": "3",
+          "text": "1-20-8"
+        },
+        {
+          "label": "4",
+          "text": "20-8-1"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:** HAT → 8-1-20\n\n**Logic:** Each letter is replaced by its alphabetical position.\n\nH = 8\n\nA = 1\n\nT = 20\n\n**Now for TAH:**\n\nT = 20\n\nA = 1\n\nH = 8\n\n**Code = 20-1-8**\n\n**∴ The correct answer is \"Option 1\".**",
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "6909f7860a867837a1c64810",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the correct option to complete the series.\n\nNeedle : Sew :: Keyboard : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Draw"
+        },
+        {
+          "label": "2",
+          "text": "Type"
+        },
+        {
+          "label": "3",
+          "text": "Write"
+        },
+        {
+          "label": "4",
+          "text": "Print"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\nLogic: Tool and its primary function.\n\nGiven, Needle : Sew\n\n⇒ A needle is used to sew.\n\nNow, applying the same logic:\n\nKeyboard : ?\n\n⇒ A keyboard is used to type.\n\nNow, checking the options:\n\nOption 1) Draw\n\n⇒ A keyboard is not used to draw.\n\nOption 2) Type\n\n⇒ A keyboard is used to type.\n\nOption 3) Write\n\n⇒ Writing is done using a pen or pencil, not directly by a keyboard.\n\nOption 4) Print\n\n⇒ Printing is done using a printer.\n\nHence, the correct answer is **\"Option 2\".**",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "69ccf143ee0ee67200997f59",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the odd one out: 3, 5, 7, 11, 14, 17",
+      "options": [
+        {
+          "label": "1",
+          "text": "7"
+        },
+        {
+          "label": "2",
+          "text": "11"
+        },
+        {
+          "label": "3",
+          "text": "14"
+        },
+        {
+          "label": "4",
+          "text": "17"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n1. 7 → It is a prime number.\n\n2. 11 → It is a prime number.\n\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]&quo",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "69b403b7bdd606e2304462fa",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, four letter-number pairs are given. The letter-number on the left side of (-) is related to the letter-number on the right side of (-) with some Logic/Rule/Relation. Three pairs are similar on the basis of same Logic/Rule/Relation. Select the odd one out from the given alternatives.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the number into its constituent digits. E.g.13 - Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)",
+      "options": [
+        {
+          "label": "1",
+          "text": "120LD - 11OJ"
+        },
+        {
+          "label": "2",
+          "text": "170MR - 13PX"
+        },
+        {
+          "label": "3",
+          "text": "288CG - 17FM"
+        },
+        {
+          "label": "4",
+          "text": "224KB - 15NH"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/6b0d36d3990ba1ca9b3870a53e3deead118e1fa41ed76a6e203d1e99c12344b4.png] \n\nThe logic followed here is:\n\n**Logic:** The pattern involves **using near-perfect squares for numbers** and **shifting letters forward in the alphabet**. Specifically:\n\n**Number Pattern:** The number on the left is **adjusted from a perfect square** −1 to get the number on the right.\n\n**Letter Pattern:** The first letter shifts **+3**, and the second letter shifts **+6** in the alphabet.\n\nLet’s analyze each option: \n\nOption 1) **120LD - 11OJ**\n\n [IMAGE: https://cdn.repeatermock.com/tb/0ff986c9504eda1247a074fad8b45e728f2507a39c60d4a0d6717ed4c7225f10.png] \n\nOption 2) **170MR - 13PX**\n\n [IMAGE: https://cdn.repeatermock.com/tb/44a002378b485eef4bf6436bf1c88813e3164d229af4534db6c70abce6079072.png] \n\n \n\nOption 3) **288CG - 17FM**\n\n [IMAGE: https://cdn.repeatermock.com/tb/1121a7e37bc0f5af1d90179f1843a74fad40e2539ebd5b55a4a5051b15982e26.png] \n\nOption 4) **224KB - 15NH**\n\n [IMAGE: https://cdn.repeatermock.com/tb/e8ec933fd98c15d2ea819622882c5111f770268d9083c3f7c225b89f5c56dfcd.png] \n\nHence, the odd one out is **Option 2**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6b0d36d3990ba1ca9b3870a53e3deead118e1fa41ed76a6e203d1e99c12344b4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0ff986c9504eda1247a074fad8b45e728f2507a39c60d4a0d6717ed4c7225f10.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/44a002378b485eef4bf6436bf1c88813e3164d229af4534db6c70abce6079072.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1121a7e37bc0f5af1d90179f1843a74fad40e2539ebd5b55a4a5051b15982e26.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e8ec933fd98c15d2ea819622882c5111f770268d9083c3f7c225b89f5c56dfcd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "6909d8324064a7ab813c4567",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In each of the following questions, a specific alphabetic coding pattern has been applied to the first word to form the second word. Identify the same coding logic and apply it to the third word to determine the correct answer from the given options.\n\n**COUNTRY : FRXQWUB :: EXAMINE : ?**",
+      "options": [
+        {
+          "label": "1",
+          "text": "HAPDLQH"
+        },
+        {
+          "label": "2",
+          "text": "HADPLQH"
+        },
+        {
+          "label": "3",
+          "text": "HAHPLDQ"
+        },
+        {
+          "label": "4",
+          "text": "GBQDVWB"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/b45f452be17f5b54f8c46069c39e0f6c931d4ce8190ab0d96cc01665e3726746.png] \n\nThe logic followed here is :-\n\nCOUNTRY : FRXQWUB \n\n [IMAGE: https://cdn.repeatermock.com/tb/0d35d47b34aece8c7af2d396b3367d8d158d013d446c8cf65e3db52709e45aa8.png] \n\nSimilarly,\n\nEXAMINE : ?\n\n [IMAGE: https://cdn.repeatermock.com/tb/9ecca700d830e42801c2b9255c6d82a240cd0e553e186df2ed66a853576dcaf6.png] \n\nHence, the correct answer is \"**HADPLQH**\".\n\nThus, the correct answer is **Optrion 2.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b45f452be17f5b54f8c46069c39e0f6c931d4ce8190ab0d96cc01665e3726746.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0d35d47b34aece8c7af2d396b3367d8d158d013d446c8cf65e3db52709e45aa8.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/9ecca700d830e42801c2b9255c6d82a240cd0e553e186df2ed66a853576dcaf6.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "699d7db6c89d9bf54ebc6d3b",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, select the number which can be placed at the sign of question mark (?) from the given alternatives.\n\n \n \n \n \n\n 4\n 5\n 2\n 33\n \n \n\n 7\n 8\n **?**\n 48\n \n \n\n 3\n 6\n 5\n 42",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\nLogic: In each row, **add the first three numbers and then multiply the sum by 3** to get the fourth number.\n\nStepwise Analysis: \n\nRow 1: (4 + 5 + 2) × 3 = 11 × 3 = 33 \n\nRow 2: (7 + 8 + ?) × 3 = 48 → 15 + ? = 16 → ? = 1 \n\nRow 3: (3 + 6 + 5) × 3 = 14 × 3 = 42 \n\nSo, the missing number is **1**.\n\nHence, the correct answer is **Option 1.**",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "693c1f03c1b7a3a84ceae59b",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following options will replace the question mark (?) in the given series\n\nA10, E8, I6, M4, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Q2"
+        },
+        {
+          "label": "2",
+          "text": "R1"
+        },
+        {
+          "label": "3",
+          "text": "Q3"
+        },
+        {
+          "label": "4",
+          "text": "S2"
+        }
+      ],
+      "correct": "1",
+      "solution": "The position and positional values or English Alphabets are:\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/ff0d8e32a7e80c8a0f32fe049be66c25ff3158e027f9b919dda98d555ab272f7.png] \n\nGiven: A10, E8, I6, M4, ?\n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/b5bc1fa9d7f16ded796fb20301a23272821ccba2df1f8f81a356c4dd67b75aa1.png] \n\nThus, Q2 will replace the question mark (?) in the given series.\n\nHence, the correct answer is \"Option 1\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ff0d8e32a7e80c8a0f32fe049be66c25ff3158e027f9b919dda98d555ab272f7.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b5bc1fa9d7f16ded796fb20301a23272821ccba2df1f8f81a356c4dd67b75aa1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "68b030e95af68c3b262e6d9e",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "All birds can fly. Some birds cannot swim.\n\nWhich of the following conclusions is correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "All birds can swim"
+        },
+        {
+          "label": "2",
+          "text": "Some birds are fish"
+        },
+        {
+          "label": "3",
+          "text": "Some birds cannot fly"
+        },
+        {
+          "label": "4",
+          "text": "Some birds can fly"
+        }
+      ],
+      "correct": "4",
+      "solution": "**The logic followed here is:**\n\nOption 1) **All birds can swim** → This conclusion does not follow because the given statements mention that **some birds cannot swim**, which contradicts this conclusion.\n\nOption 2) **Some birds are fish** → This conclusion does not follow as the statements provide no relationship between birds and fish.\n\nOption 3) **Some birds cannot fly** → This conclusion is incorrect because the statement All birds can fly implies that no bird is unable to fly.\n\nOption 4) **Some birds can fly** → Since All birds can fly, it logically follows that some birds can fly (assuming the existence of birds).\n\nThe universal statement All birds can fly guarantees that every bird possesses the ability to fly. Therefore, it is logically certain that **some birds can fly**. The other options either contradict the given statements or introduce information that cannot be inferred from them.\n\nHence, the correct answer is **\"Option 4\".**",
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "690c72f9bf642f01a598a6e4",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the value of 25% of 640 + 30% of 800",
+      "options": [
+        {
+          "label": "1",
+          "text": "320"
+        },
+        {
+          "label": "2",
+          "text": "340"
+        },
+        {
+          "label": "3",
+          "text": "360"
+        },
+        {
+          "label": "4",
+          "text": "400"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given:\n\nFind the value of **25% of 640 + 30% of 800**\n\n25% of 640 = (25/100) × 640\n\n= 0.25 × 640\n\n= **160**\n\n**Now,**\n\n30% of 800 = (30/100) × 800\n\n= 0.30 × 800\n\n= **240**\n\nThus, 160 + 240 = **400**\n\nHence, the correct answer is **Option 4**.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "690c54b9bf642f01a5969793",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is the same as the one given below.\n\nSample Address:HIG-12, Sector 3,Indrapuri, Bhopal,Madhya Pradesh - 462021",
+      "options": [
+        {
+          "label": "1",
+          "text": "HIG 12, Sector-3, Indrapuri, Bhopal, Madhya Pradesh - 462021"
+        },
+        {
+          "label": "2",
+          "text": "HIG-12, Sector 3, Indrapuri, Bhopal, Madhya Pradesh - 462021"
+        },
+        {
+          "label": "3",
+          "text": "HIG-12, Sector III, Indrapuri, Bhopal, Madhya Pradesh - 462021"
+        },
+        {
+          "label": "4",
+          "text": "HIG-21, Sector 3, Indrapuri, Bhopal, Madhya Pradesh - 462021"
+        }
+      ],
+      "correct": "2",
+      "solution": "The address given in the problem is,\n\nHIG-12, Sector 3, Indrapuri, Bhopal, Madhya Pradesh - 462021\n\nLet's match this address with the given options one by one to figure out which one is exactly the same.\n\n \n \n\n **Option**\n **Address in Option**\n **Given Address**\n **Comment**\n \n \n\n (1)\n HIG 12, Sector-3, Indrapuri, Bhopal, Madhya Pradesh - 462021\n HIG-12, Sector 3, Indrapuri, Bhopal, Madhya Pradesh - 462021\n This option has formatting differences: missing hyphen in \"HIG-12\" and extra hyphen in \"Sector-3\".\n \n \n\n (2)\n HIG-12, Sector 3, Indrapuri, Bhopal, Madhya Pradesh - 462021\n HIG-12, Sector 3, Indrapuri, Bhopal, Madhya Pradesh - 462021\n The address is exactly the same as the given address.\n \n \n\n (3)\n HIG-12, Sector III, Indrapuri, Bhopal, Madhya Pradesh - 462021\n HIG-12, Sector 3, Indrapuri, Bhopal, Madhya Pradesh - 462021\n This option has \"Sector III\" instead of \"Sector 3\".\n \n \n\n (4)\n HIG-21, Sector 3, Indrapuri, Bhopal, Madhya Pradesh - 462021\n HIG-12, Sector 3, Indrapuri, Bhopal, Madhya Pradesh - 462021\n This option has \"HIG-21\" instead of \"HIG-12\".\n \n \n\nSo, the address that is exactly the same as the given address is in option (2).\n\nHence, the correct option is \"**option (2)**\".",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "690c54b9f395254ed4554023",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the sequence B, D, F, H..., which letter comes 6th?",
+      "options": [
+        {
+          "label": "1",
+          "text": "J"
+        },
+        {
+          "label": "2",
+          "text": "N"
+        },
+        {
+          "label": "3",
+          "text": "L"
+        },
+        {
+          "label": "4",
+          "text": "M"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/7ca63fa0a9b1d8d94e9032be998e74b7faff301d8847e785439c04e89b02dfd4.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/1d05269449196cfa3304feffc92581348e17ed4805bf2aec4e2f7782b911eee1.png] \n\nSo, '**L**' will be the 6th letter of this series.\n\nHence, the correct answer is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7ca63fa0a9b1d8d94e9032be998e74b7faff301d8847e785439c04e89b02dfd4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1d05269449196cfa3304feffc92581348e17ed4805bf2aec4e2f7782b911eee1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "699e617f228face9aaa617c0",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In this type of questions, question is provided with substitutes for various mathematical symbols, followed by a question involving calculation of an expression or choosing the correct/incorrect equation. You have to put the real signs in the given equation and then solve the questions as required.\n\nIf '#' stands for '+', '%' stands for '-', '@' stands for '×', '&' stands for '÷', then find the value of: 10 @ 3 @ 4 # 14 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "136"
+        },
+        {
+          "label": "2",
+          "text": "133"
+        },
+        {
+          "label": "3",
+          "text": "135"
+        },
+        {
+          "label": "4",
+          "text": "134"
+        }
+      ],
+      "correct": "4",
+      "solution": "BODMAS Table: \n\n [IMAGE: https://cdn.repeatermock.com/tb/d50192f098c21078501d30eeafe1a8c64bc30dd9621c48caa8a39ffc60f68b64.png] \n\nGiven equation: 10 @ 3 @ 4 # 14 = ?\n\n \n \n\n Symbol\n # \n % \n @ \n &",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d50192f098c21078501d30eeafe1a8c64bc30dd9621c48caa8a39ffc60f68b64.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6909d831a937eb1254be2b6e",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "From the given options, find the word which cannot be formed using the letters of the given word: INTELLIGENCE",
+      "options": [
+        {
+          "label": "1",
+          "text": "CANCEL"
+        },
+        {
+          "label": "2",
+          "text": "NEGLECT"
+        },
+        {
+          "label": "3",
+          "text": "GENTLE"
+        },
+        {
+          "label": "4",
+          "text": "INCITE"
+        }
+      ],
+      "correct": "1",
+      "solution": "Let’s check each option,\n\n1) CANCEL → cannot be formed as there is No **A** in INTELLIGENCE.\n\n2) NEGLECT→ can be formed as I__**NTEL**__LI__**GE**__N__**C**__E\n\n3) GENTLE → can be formed as IN__**TEL**__LI__**GEN**__CE\n\n4) INCITE → can be formed as __**INTE**__LL__**I**__GEN__**C**__E\n\nHence, “CANCEL” can’t be formed.\n\nHence, the correct answer is \"option (1)\".",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "69b40032375ed6faa4a22507",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If @ means \"first x second + first\", and # means \"first + second x second\", then what is 4 @ 3 # 2?",
+      "options": [
+        {
+          "label": "1",
+          "text": "14"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "correct": "4",
+      "solution": "BODMAS Table: \n\n [IMAGE: https://cdn.repeatermock.com/tb/7751840ca1840d12cadc428f84d30e2cdcd5e7f82d52a57de21f2404c58eed88.png] \n\nGiven expression: 4 @ 3 # 2 = ?\n\nNow, if the operations are applied as: @ → first × second + first, # → first + second × second, then:\n\n⇒ 4 × 3 + 4 # 2 = ?\n\n⇒ 16 # 2 = ?\n\n⇒ 16 + 2 × 2 = ?\n\n⇒ 16 + 4 = 20\n\nHence, the correct answer is **\"Option 4\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7751840ca1840d12cadc428f84d30e2cdcd5e7f82d52a57de21f2404c58eed88.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    }
+  ]
+}
