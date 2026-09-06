@@ -709,8 +709,9 @@ async def run_scraper(worker_file, output_dir, max_runtime=DEFAULT_MAX_RUNTIME):
           flush=True)
     print(f"Stop conditions: {MAX_CONSECUTIVE_ERRORS} consecutive errors OR "
           f"{MAX_AUTH_FAILURES} auth failures", flush=True)
-    print(f"retryAfter: wait FULL duration (no 300s cap; max {RETRY_AFTER_MAX_CAP}s)",
-          flush=True)
+    print(f"retryAfter: SHORT (<{RETRY_AFTER_SHORT_THRESHOLD}s)=wait full, "
+          f"MEDIUM (10min-1h)=wait {RETRY_AFTER_CAP_FOR_RETRY}s, "
+          f"LONG (>{RETRY_AFTER_LONG_THRESHOLD}s)=STOP", flush=True)
     print(f"{'='*60}\n", flush=True)
 
     os.makedirs(output_dir, exist_ok=True)
