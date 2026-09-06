@@ -14,7 +14,7 @@ import urllib.request
 
 REPO = "sujitbhai7710/repeatermock-mass-scraper"
 NUM_JOBS = 20
-MAX_TESTS_FOR_TESTING = 0  # Set to 0 for production (all tests)
+MAX_TESTS_FOR_TESTING = 40  # Set to 0 for production (all tests)
 
 def fetch_pro_tests():
     """Fetch PRO_TESTS.json from GitHub."""
