@@ -59,36 +59,71 @@ class PROAuth:
     def login_via_zenrows(self):
         if not self.zenrows_key: return False
         print("  [auth] ZenRows login...")
+        import subprocess
+        # Use httpx (same as working login repo) — install if needed
+        try:
+            import httpx
+        except ImportError:
+            subprocess.run([sys.executable, "-m", "pip", "install", "httpx", "-q"], capture_output=True, timeout=30)
+            import httpx
+        
         for attempt in range(3):
-            params = urllib.parse.urlencode({"apikey": self.zenrows_key, "url": "https://repeatermock.com/login", "js_render": "true", "premium_proxy": "true", "wait": "25000"})
+            print(f"  [auth] ZenRows attempt {attempt+1}/3...")
             try:
-                req = urllib.request.Request(f"https://api.zenrows.com/v1/?{params}")
-                with urllib.request.urlopen(req, timeout=120) as r:
-                    content = r.read().decode()
-            except: continue
-            for pat in [r'name="cf-turnstile-response"[^>]*value="([^"]+)"']:
-                m = re.search(pat, content)
-                if m and len(m.group(1)) > 20:
-                    body = json.dumps({"email": self.email, "password": self.password, "turnstileToken": m.group(1)}).encode()
-                    req = urllib.request.Request("https://api.repeatermock.com/auth/login", data=body, method="POST")
-                    req.add_header("Content-Type", "application/json")
-                    req.add_header("Origin", "https://repeatermock.com")
-                    req.add_header("User-Agent", "Mozilla/5.0")
-                    try:
-                        with urllib.request.urlopen(req, timeout=30) as r:
-                            data = json.loads(r.read().decode())
-                            sc = r.headers.get_all("Set-Cookie") or []
-                        if data.get("success"):
-                            for c in sc:
-                                p = c.split(";")[0].split("=", 1)
-                                if len(p)==2:
-                                    if 'access' in p[0].lower(): self.access_token = p[1].strip()
-                                    elif 'refresh' in p[0].lower(): self.refresh_token = p[1].strip()
-                            self.token_expires = time.time() + 900
-                            self.failures = 0
-                            print(f"  [auth] ✅ ZenRows login! access={len(self.access_token)} refresh={len(self.refresh_token)}")
-                            return True
-                    except: return False
+                async def zenrows_login():
+                    async with httpx.AsyncClient(timeout=180.0) as cli:
+                        params = {
+                            "apikey": self.zenrows_key,
+                            "url": "https://repeatermock.com/login",
+                            "js_render": "true",
+                            "premium_proxy": "true",
+                            "wait": "25000",
+                        }
+                        r = await cli.get("https://api.zenrows.com/v1/", params=params, timeout=180.0)
+                        content = r.text
+                        print(f"  [auth] ZenRows response: {r.status_code}, {len(content):,} bytes")
+                        
+                        for pat in [r'name="cf-turnstile-response"[^>]*value="([^"]+)"']:
+                            m = re.search(pat, content)
+                            if m and len(m.group(1)) > 20:
+                                token = m.group(1)
+                                print(f"  [auth] ✅ Turnstile solved! len={len(token)}")
+                                # Login
+                                r2 = await cli.post("https://api.repeatermock.com/auth/login", json={
+                                    "email": self.email, "password": self.password, "turnstileToken": token
+                                }, headers={
+                                    "Content-Type": "application/json",
+                                    "Origin": "https://repeatermock.com",
+                                    "Referer": "https://repeatermock.com/login",
+                                    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
+                                }, timeout=30.0)
+                                data = r2.json()
+                                set_cookies = r2.headers.get_list("set-cookie") if hasattr(r2.headers, "get_list") else []
+                                if data.get("success"):
+                                    for sc in set_cookies:
+                                        parts = sc.split(";")[0].split("=", 1)
+                                        if len(parts) == 2:
+                                            name = parts[0].strip()
+                                            value = parts[1].strip()
+                                            if 'access' in name.lower(): self.access_token = value
+                                            elif 'refresh' in name.lower(): self.refresh_token = value
+                                    self.token_expires = time.time() + 900
+                                    self.failures = 0
+                                    user = data.get("user", {})
+                                    print(f"  [auth] ✅ Login! {user.get('name','?')} | Plan: {user.get('plan','?')}")
+                                    print(f"  [auth] accessToken: {len(self.access_token)} | refreshToken: {len(self.refresh_token)}")
+                                    return True
+                                else:
+                                    print(f"  [auth] Login failed: {data}")
+                                    return False
+                        print(f"  [auth] No Turnstile token found")
+                        return False
+                
+                result = asyncio.run(zenrows_login())
+                if result:
+                    return True
+            except Exception as e:
+                print(f"  [auth] ZenRows error: {e}")
             time.sleep(5)
         return False
 
