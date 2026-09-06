@@ -1,7 +1,7 @@
 {
   "job_number": 3,
-  "total_tests": 1,
+  "total_tests": 10,
   "scraped": 1,
-  "failed": 0,
-  "completed_at": "2026-09-06T02:38:53.967260+00:00"
+  "failed": 9,
+  "completed_at": "2026-09-06T03:07:15.813426+00:00"
 }
