@@ -1,0 +1,1004 @@
+{
+  "test_id": "69f09f442eb3447e20befbc0",
+  "title": "General Intelligence and Reasoning Advanced Sectional Test - 3",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:09:59.691413+00:00",
+  "questions": [
+    {
+      "qid": "5b1f91121da2630c65120349",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Statements and Arguments",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the question, a statement is given, followed by two arguments, I and II. You have to consider the statement to be true even if it seems to be at variance from commonly known facts. You have to decide which of the given arguments, if any, is a strong argument.\n\n**Statement:** Should rock shows be allowed to run until midnight at tourist places?\n\n**Argument I:** Yes, more tourists arrive due to rock shows. Tourism is good for the local economy.\n\n**Argument II:** No, local traditions are harmed due to tourism.",
+      "options": [
+        {
+          "label": "1",
+          "text": "If only argument I is strong."
+        },
+        {
+          "label": "2",
+          "text": "If only argument II is strong."
+        },
+        {
+          "label": "3",
+          "text": "If both I and II are strong."
+        },
+        {
+          "label": "4",
+          "text": "If neither I nor II is strong."
+        }
+      ],
+      "correct": "1",
+      "solution": "For an argument to be strong, it should directly answer the statement problem.\n\nThe argument 'I' is strong because it explains the benefits of allowing rock shows to run till midnight at tourist places as it has a good impact on the economy.\n\nArgument 'II' is not strong because there is no mention of the rock shows instead it argues about tourism.\n\nHence, only option 1 is correct",
+      "tags": [
+        "Statements and Arguments"
+      ]
+    },
+    {
+      "qid": "5c2a2126fdb8bb3444e5a167",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Present ages of M and N are in the ratio 7 : 8 respectively. After five years this ratio becomes 8 : 9. What is the present age (in years) of M?",
+      "options": [
+        {
+          "label": "1",
+          "text": "35"
+        },
+        {
+          "label": "2",
+          "text": "40"
+        },
+        {
+          "label": "3",
+          "text": "45"
+        },
+        {
+          "label": "4",
+          "text": "30"
+        }
+      ],
+      "correct": "1",
+      "solution": "Let us consider the age of M and N to be 7x : 8x, after 5 years there age will be (7x + 5) and (8x + 5) which is equal to ratio 8 : 9.\n\nSo by comparing that we will get,\n\n(7x + 5) : (8x + 5) ∷ 8 : 9\n\n⇒ 9(7x + 5) = 8 (8x + 5)\n\n⇒ 63x + 45 = 64x + 40\n\n⇒ 45 - 40 = 64x - 63x\n\n⇒ x = 5\n\nTherefore x = 5, then the age of M will be 7x = 7 × 5 = 35.\n\nHence, 35 is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "5ceeb4abfdb8bb0f432c43ff",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the correct analogous word pair from the given alternatives.\n\nCarpenter: Hammer",
+      "options": [
+        {
+          "label": "1",
+          "text": "Crane: Builder"
+        },
+        {
+          "label": "2",
+          "text": "Computer: Writer"
+        },
+        {
+          "label": "3",
+          "text": "Plumber: Wrench"
+        },
+        {
+          "label": "4",
+          "text": "Axe: Logger"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\nLogic:** User: Tool**\n\nHere,\n\nCarpenter: Hammer → **Carpenter** uses a **Hammer** as a tool.\n\nSimilarly,\n\n<span style=\"color: rgb",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "5f6a14929cf4f5710b84cfe2",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Arrange the written word in it as it appears in the dictionary.\n\n1. lacunae 2. laminar 3. lacquer 4. lampoon 5. laggard",
+      "options": [
+        {
+          "label": "1",
+          "text": "45312"
+        },
+        {
+          "label": "2",
+          "text": "54132"
+        },
+        {
+          "label": "3",
+          "text": "31425"
+        },
+        {
+          "label": "4",
+          "text": "31524"
+        }
+      ],
+      "correct": "4",
+      "solution": "The given words in the sequence in which they appear in the dictionary s shown below:\n\n3. **__lacq__**uer\n\n1__. **lacu**__nae\n\n5__. **lag**__gard \n\n2. **__lami__**nar\n\n4. **__lamp__**oon\n\nHence, ‘31524’ is the correct answer.",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "63aae0f3c66e7c66ff3572ce",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "From the given alternative words, select the word which cannot be formed from the letters of the given word :\n\nSIMILARITY",
+      "options": [
+        {
+          "label": "1",
+          "text": "TAIL"
+        },
+        {
+          "label": "2",
+          "text": "MILITARY"
+        },
+        {
+          "label": "3",
+          "text": "SMILE"
+        },
+        {
+          "label": "4",
+          "text": "SIMILAR"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nSIMILARITY\n\nChecking all the options:\n\n1. **TAIL** → SIM**ILA**RI**T**Y → It can be formed\n\n2. **MILITARY** → S**IMILAR**I**TY **→ It can&l",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "63f5b7d5caa1f5a3dc1a1f77",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word. (The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word.)\n\nGoldsmith : Ornaments :: Sculptor : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sand"
+        },
+        {
+          "label": "2",
+          "text": "Museum"
+        },
+        {
+          "label": "3",
+          "text": "Stone"
+        },
+        {
+          "label": "4",
+          "text": "Bust"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Logic :** Artist : Creation\n\n__\n \n• **Goldsmith** creates **ornaments**.\n\nSimilarly,\n\n \n• **Sculptor** creates **busts**.\n\nHence, **\"Busts\"** is the correct answer.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• Sand → Sand artists works on sand art.\n \n• Museum → It is a building in which objects of historical, scientific, artistic or cultural interest are stored and exhibited.\n \n• Stone → Sculptors are the artist who creates figures out of stone.\n \n• Bust → It is a carved or cast representation of the head (or head and neck)",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "63f49ee1360f2825c4a35698",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Three Statements are given followed by Three conclusions numbered I, II and III. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusions logically follow(s) from the statements.\n\n**Statements:**\n\nSome tapes are glue.\n\nSome glue are paints.\n\nAll paints are computers.\n\n**Conclusions:**\n\nI. Some tapes are paints.\n\nII. All glue are paints.\n\nIII. Some glue are computers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion II follows."
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion I follows."
+        },
+        {
+          "label": "3",
+          "text": "None of the conclusions follow"
+        },
+        {
+          "label": "4",
+          "text": "Only conclusion III follows."
+        }
+      ],
+      "correct": "4",
+      "solution": "The least possible Venn diagram for the given statement is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/b36e21c6a5be876db9b092ee8813c3b1489e179dd730ede42216ad5e245229f3.png] \n\nConclusions:\n\nI. Some tapes are paints → Does not Follow (As, some tapes are glue and some glue are paints. So, it is possible but not definitely true.)\n\nII. All glue are paints → Does not Follow (As, some glue are paints. So, some part of glue is common with paints therefore it is false.)\n\nIII. Some glue are computers → Follow (As, some glue are paints and all paints are computers . So, whole paints comes in computers and have some part common with glue therefore it is definitely true.)\n\nSo, Only conclusion III follows.\n\nHence, the correct answer is \"Only conclusion III follows\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b36e21c6a5be876db9b092ee8813c3b1489e179dd730ede42216ad5e245229f3.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "64ccb0bea2e728f623dec07e",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the figure that will replace the question mark (?) in the following figure series.\n\n [IMAGE: https://cdn.repeatermock.com/tb/81c5253be61392962081eddc161fd99ff84f1ccdcd6d9b8110b0d50855e66067.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/9394e2efaa6d16a8f6c660b1d72eb3631c1e6467b9cac3e3695674162415dbac.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/654fa3386fd89a4397c5cd41c05de798c3128c4a62b4fe4633ee9546f22922ff.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/973f8e4c33aca482c4ec94cda56fde145057af816a4d20cf0d2e9172c040d4a5.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/e61c3b71241bb8b725624d2c2910e4249fb675ef265f7d87f2306daa395fd8d7.png]"
+        }
+      ],
+      "correct": "4",
+      "solution": "The figure that will replace the question mark (?) in the following figure series is shown below:\n\n1) Pattern is followed diagonally i.e :\n\n \n• 1st box → Moving forward diagonally and no change in rest of the elements.\n \n• 2nd box → Moving forward diagonally and no change in rest of the elements.\n \n• 3rd box → Moving forward diagonally and no change in rest of the elements.\n \n• 4th box → Moving forward diagonally and no change in rest of the elements.\n\n [IMAGE: https://cdn.repeatermock.com/tb/d63780b1002a8a7729845bcdde9e1f07784081d437d6bb76c1407da0ccbd113d.png] \n\n \n\nFinal series is\n\n [IMAGE: https://cdn.repeatermock.com/tb/31f6cd577e648ec29128a26b3901a04558ee3ab106b22935521924f832d7e3fe.png] \n\nHence, ‘option - (4)’ is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/81c5253be61392962081eddc161fd99ff84f1ccdcd6d9b8110b0d50855e66067.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d63780b1002a8a7729845bcdde9e1f07784081d437d6bb76c1407da0ccbd113d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/31f6cd577e648ec29128a26b3901a04558ee3ab106b22935521924f832d7e3fe.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "66a26e1afab4a1e8c5260ad2",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Based on the alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster does not belong to that group?\n\n(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter cluster.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "QNL"
+        },
+        {
+          "label": "2",
+          "text": "ROL"
+        },
+        {
+          "label": "3",
+          "text": "WTQ"
+        },
+        {
+          "label": "4",
+          "text": "LIF"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/30dbf680205b2ac5ef3c42da1ffec8619642030da36e21c43297a3224c70e079.png] \n\nLet's check each option,\n\n1) **QNL**\n\n [IMAGE: https://cdn.repeatermock.com/tb/b046c520e4519682b84cde3a7aadf5d961629c78a5b3267b97f4ccca17523108.png] \n\n2) **ROL**\n\n<",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/30dbf680205b2ac5ef3c42da1ffec8619642030da36e21c43297a3224c70e079.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b046c520e4519682b84cde3a7aadf5d961629c78a5b3267b97f4ccca17523108.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "603ade716432f53d98686f7c",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "**Directions:** These questions are based on the following information.\n\nThere are six members in the family; V, W, X, S, T and U but not necessarily in the same way. T is son-in-law of V who is not the mother of S. S and X are children of W. S is the mother of U who not the niece of X who is not the daughter of V. How is X related to T?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sister-in-law"
+        },
+        {
+          "label": "2",
+          "text": "Son"
+        },
+        {
+          "label": "3",
+          "text": "Brother-in-law"
+        },
+        {
+          "label": "4",
+          "text": "Uncle"
+        }
+      ],
+      "correct": "3",
+      "solution": "From the given information,\n\nSix members of the family; V, W, X, S, T and U.\n\n**Explanation** with **family tree:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/50898b3263e1ba00309250c76c9e8af496485b4e0ed2becdd5bb613d5c9c030e.png] \n\n**References: **T is son-in-law of V who is the father of S. S and X are children of W. S is the mother of U who not the niece of X who is not the daughter of V.\n\n**Inferences:**\n\n1) T is son-in-law of V who is the father of S.\n\n [IMAGE: https://cdn.repeatermock.com/tb/a76e89d9716d9533077a90656aa4b9f2b0d793cae59f193a5b4fb057e625d9a3.png] \n\n2) S and X are children of W.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f22b04788a13131d02cdcfff06ed0ea944e772d7e9fbfdbbb6700cc2ff934d50.png] \n\n3) S is the mother of U who not the niece of X who is not the daughter of V.\n\n [IMAGE: https://cdn.repeatermock.com/tb/d54ed2536dd6e69d494aaca10b28f5c45a6b01511e5ee1c1ec685ee5ef7ed03d.png] \n\nHence, **X is the brother-in-law of T.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/50898b3263e1ba00309250c76c9e8af496485b4e0ed2becdd5bb613d5c9c030e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a76e89d9716d9533077a90656aa4b9f2b0d793cae59f193a5b4fb057e625d9a3.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f22b04788a13131d02cdcfff06ed0ea944e772d7e9fbfdbbb6700cc2ff934d50.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d54ed2536dd6e69d494aaca10b28f5c45a6b01511e5ee1c1ec685ee5ef7ed03d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "615aedf1c55b59ed672f9a2f",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the missing terms.\n\na b _ d b _ d a _ d a b d a b _",
+      "options": [
+        {
+          "label": "1",
+          "text": "a b a b"
+        },
+        {
+          "label": "2",
+          "text": "c a c a"
+        },
+        {
+          "label": "3",
+          "text": "c c c c"
+        },
+        {
+          "label": "4",
+          "text": "none of these"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given that -\n\na b _ d b _ d a _ d a b d a b _\n\nFrom option 1\n\na b **a** d b **b** d a **a** d a b d a b **b**\n\nFrom option 2\n\na b **c** d b **a** d a **c** d a b d a b **a**\n\nFrom option 3\n\na b **c** d b **c** d a **c** d a b d a b **c**\n\nabcd all letter present in the group of 4.\n\nHence, **\"c c c c\"** is the correct answer.",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "627e771ec23618f025b7febb",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language,\n\n‘see their dresses' is coded as 'ti ve su',\n\n‘dresses we see' is coded as 'nx ti ve’,\n\n‘we see their party' is coded as 'fs ve nx su'.\n\n(Note: All codes are two letter codes only)\n\nWhat is the probable code for ‘party dresses’ in the given code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ti ve"
+        },
+        {
+          "label": "2",
+          "text": "na ti"
+        },
+        {
+          "label": "3",
+          "text": "ti fs"
+        },
+        {
+          "label": "4",
+          "text": "su na"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:-\n\n [IMAGE: https://cdn.repeatermock.com/tb/057f4ac668533000b3551a52610c96d775058837edc30b0be083ae3c4bea7153.png] \n\n \n• \"party dresses\" would be coded as \"ti fs\".\n\nHence, **\"option 3\" **is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/057f4ac668533000b3551a52610c96d775058837edc30b0be083ae3c4bea7153.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "642cf73079f705c938398c20",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Venn Diagram",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the Venn diagram that best represents the relationship between the following classes.\n\nEngineers, Lawyers and married people",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/3ace573a567f42eb3e2c24980d5052b4d98eb685b5fe6316e766115982313c24.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/a2450e88f4d516b1d0cf2afebfb6ddda185183113d3feda57c2320245c2c26d6.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/43b14876f9a65dcd4853111fe70071cd300d7a2c29e1b5ed39bea59d1bb6be8f.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/e2c0fb33aa5c11320f10e8f9c8ae07f6f918daa3f2bbb56f0384d102ab04425d.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct venn diagram representing the relationship between Engineers, Lawyers and married people is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a09ea7c575da4a577e72bd6ead3d8186d5177a753c6c3b44a24fa29f47985e31.png] \n\nHence, the correct answer is **\"Option 3\"**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a09ea7c575da4a577e72bd6ead3d8186d5177a753c6c3b44a24fa29f47985e31.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Venn Diagram"
+      ]
+    },
+    {
+      "qid": "642f803c2854c7758e69ab26",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option in which the numbers shares the same relationship in set as that shared by the numbers in the given set.\n\n(**NOTE:** Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g.13 - Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)\n\n(48, 16, 192)\n\n(22, 62, 341)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(32, 24, 222)"
+        },
+        {
+          "label": "2",
+          "text": "(74, 38, 713)"
+        },
+        {
+          "label": "3",
+          "text": "(84, 78, 1638)"
+        },
+        {
+          "label": "4",
+          "text": "(92, 46, 1068)"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\nLogic: **(First Number ÷ 2) × (Second Number ÷ 2) = Third Number.**\n\nLet's check as per the logic,\n\n**(48, 16, 192):**\n\n→ (48 ÷ 2) × (16 ÷ 2) = 192\n\n→ 24 × 8 = 192\n\n→ 192 = 192 → **LHS = RHS.**\n\n**(22, 62, 341):**\n\n→ (22 ÷ 2) × (62 ÷ 2) = 341\n\n<span style=\"color: rgb(33, 37, 41",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "676a050dd2ebf01efd7138f3",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements. \n\n**Statements:**\n\nAll wafers are biscuits.\n\nAll biscuits are cookies.\n\nAll cookies are pastries.\n\n**Conclusions:**\n\n(I) All biscuits are wafers.\n\n(II) All pastries are cookies",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion (II) follows."
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion (I) follows."
+        },
+        {
+          "label": "3",
+          "text": "Both conclusions (I) and (II) follow."
+        },
+        {
+          "label": "4",
+          "text": "Neither conclusion (I) nor (II) follows."
+        }
+      ],
+      "correct": "4",
+      "solution": "The least possible Venn diagram for the given statements is as shown below :\n\n [IMAGE: https://cdn.repeatermock.com/tb/533b97ae7434042d03ff1ae3b46f2a8d074d8b223ce3235e912f400cddb72557.png] \n\nConclusions:\n\n(I) All biscuits are wafers → **Does not **follow (As all wafers are biscuits. So it is possible but not definite.)\n\n(II) All pastries are cookies → Does not follow (As all cookies are pastries. So it is possible but not definite.)\n\n∴ Here, Neither conclusion (I) nor (II) follows.​\n\nHence, the correct answer is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/533b97ae7434042d03ff1ae3b46f2a8d074d8b223ce3235e912f400cddb72557.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "676a051cc282ac7a16c5453c",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "CGJB is related to EILD in a certain way based on the English alphabetical order. In the same way, FJME is related to HLOG. To which of the following is IMPH related, following the same logic?",
+      "options": [
+        {
+          "label": "1",
+          "text": "KORJ"
+        },
+        {
+          "label": "2",
+          "text": "OKJR"
+        },
+        {
+          "label": "3",
+          "text": "OKRJ"
+        },
+        {
+          "label": "4",
+          "text": "KOJR"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/15d4e688c8bdc2766cb74c67a7c0d12a85a1e60bc448f376b860b7949a5ae586.png] \n\nThe logic followed here is:\n\nCGJB is related to EILD\n\n [IMAGE: https://cdn.repeatermock.com/tb/48e5b1ef04e279e0b608d5bbbf083a8c517ef2d75039c8dd64f675b6a89e2b7d.png] \n\nAnd,\n\nFJME is related to HLOG\n\n [IMAGE: https://cdn.repeatermock.com/tb/6b49e866434a7bf080360dd3f227f67b61017f6780a3f3aa7a79e3d287578fd0.png] \n\nSimilarly,\n\nIMPH is related to\n\n [IMAGE: https://cdn.repeatermock.com/tb/5fcff92fe2157139f12c8c759cbb19cf2dd38d37ba5054cefafa29c3601cab7e.png] \n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/15d4e688c8bdc2766cb74c67a7c0d12a85a1e60bc448f376b860b7949a5ae586.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/48e5b1ef04e279e0b608d5bbbf083a8c517ef2d75039c8dd64f675b6a89e2b7d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6b49e866434a7bf080360dd3f227f67b61017f6780a3f3aa7a79e3d287578fd0.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5fcff92fe2157139f12c8c759cbb19cf2dd38d37ba5054cefafa29c3601cab7e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "676a060d33d6a2d9fc98b180",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Refer to the following number, symbol series and answer the question that follows. Counting to be done from left to right only\n\n(Left) 2 & % 4 6 Ω 7 $ £ 8 & @ 3 # 1 5 * 9 (Right)\n\nHow many such symbols are there each of which is immediately preceded by a number and also immediately followed by another number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "More than two"
+        },
+        {
+          "label": "2",
+          "text": "None"
+        },
+        {
+          "label": "3",
+          "text": "One"
+        },
+        {
+          "label": "4",
+          "text": "Two"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given series:\n\n2 & % 4 6 Ω 7 $ £ 8 & @ 3 # 1 5 * 9\n\nCondition to be checked:\n\nSymbols which are immediately preceded by a number and also immediately followed by another number.\n\n**Number** → **Symbol** → **Number**\n\nChecking the series:\n\n2 & % 4 __**6 Ω 7**__ $ £ 8 & @ __**3 # 1**__ __**5 * 9**__\n\nThus there are three such symbols (__6 Ω 7, 3 # 1, 5 * 9__) that are following the above conditions.\n\nHence, the correct answer **\"Option 1\".**\n\n [IMAGE: https://cdn.repeatermock.com/tb/e085a7f17645c801966c030eb44d69fae944b96fdb4c4077f5fba1bc2c24bc71.png] **__Mistake Points__**\n\nImmediately preceded by means immediately before or to come just before.\n\nImmediately followed by means immediately after or to come just after.\n\na4:T",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e085a7f17645c801966c030eb44d69fae944b96fdb4c4077f5fba1bc2c24bc71.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "676a0661e441028832194d7e",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will come in the place of the question mark ‘?’ in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?\n\n52 + 2 × 3 ÷ 6 − 42 + 11 × 3 ÷ 3 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "118"
+        },
+        {
+          "label": "2",
+          "text": "79"
+        },
+        {
+          "label": "3",
+          "text": "102"
+        },
+        {
+          "label": "4",
+          "text": "98"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nGiven: 52 + 2 × 3 ÷ 6 − 42 + 11 × 3 ÷ 3 = ?\n\nAfter '+' and ‘-' are interchanged and '×' and ‘÷' are interchanged then,\n\n52 + 2 × 3 ÷ 6 − 42 + 11 × 3 ÷ 3 = ? ⇒ 52 - 2 ÷ 3 × 6 + 42 - 11 ÷ 3 × 3 = ?\n\n&a",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "676a7c80cb8c71a5defce128",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Ordering and Ranking",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "TUV ranked 16th from the top and 19th from the bottom in his class. How many students are there in his class?",
+      "options": [
+        {
+          "label": "1",
+          "text": "34"
+        },
+        {
+          "label": "2",
+          "text": "32"
+        },
+        {
+          "label": "3",
+          "text": "23"
+        },
+        {
+          "label": "4",
+          "text": "43"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given: \n\nTUV's rank from the top = 16th\n\nTUV's rank from the bottom = 19th\n\nTotal number of students = TUV's rank from the top + TUV's rank from the bottom - 1\n\n(16 + 19) - 1 = 35 - 1 = 34\n\nHence, The total number of students is **\"34\".**",
+      "tags": [
+        "Ordering and Ranking"
+      ]
+    },
+    {
+      "qid": "676a7d013dcceaebd27a7d2d",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language,\n\nA < B means ‘A is the son of B’,\n\nA + B means ‘A is the father of B’,\n\nA ; B means ‘ A is the sister of B’, and\n\nA = B means ‘A is the daughter of B’.\n\nHow is P related to E if 'P + O < S ; T = E’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father's sister"
+        },
+        {
+          "label": "2",
+          "text": "Sister's son"
+        },
+        {
+          "label": "3",
+          "text": "Daughter's husband"
+        },
+        {
+          "label": "4",
+          "text": "Mother's sister"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/94f0af2bd93b93688d2c6092e652fb2d84f74342de195154154b4e73abc5a0da.png] \n\nGiven:\n\n \n \n\n \n \nA is\n\n \n \n \n\n \n \nSymbol\n\n \n \n \nMeaning\n\n \n \n \nSon\n\n \n \n \nFather\n\n \n \n \nSister\n\n \n Daughter\n \n \n\n \n \nto B\n\n \n \n \n\n \n\n**Statement: 'P + O < S ; T = E’**\n\nP + O means P is the father of O,\n\nO < S means O is son of S, thus P and S are married couple.\n\n [IMAGE: https://cdn.repeatermock.com/tb/d58f8b39f06378c7e7dc3ab61335a71ebf5c0ae7797e9d023760a0bfc85d4243.png] \n\nS ; T means S is the sister of T,\n\nT = E means T is the daughter of E.\n\n [IMAGE: https://cdn.repeatermock.com/tb/8ea5bec8befdc9036134fc6b5eb09cfa4fa197c2841b3da0f9cc6711a8ee3d66.png] \n\nThus, **P is daughter's husband of E.**\n\nHence, the correct answer is** \"Option 3\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/94f0af2bd93b93688d2c6092e652fb2d84f74342de195154154b4e73abc5a0da.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d58f8b39f06378c7e7dc3ab61335a71ebf5c0ae7797e9d023760a0bfc85d4243.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8ea5bec8befdc9036134fc6b5eb09cfa4fa197c2841b3da0f9cc6711a8ee3d66.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "676a7d4740481c53e1121306",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)\n\n(31, 951, 10)\n\n(29, 837, 4)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(27, 717, 11)"
+        },
+        {
+          "label": "2",
+          "text": "(4, 8, 7)"
+        },
+        {
+          "label": "3",
+          "text": "(40, 1593, 6)"
+        },
+        {
+          "label": "4",
+          "text": "(33, 1069, 20)"
+        }
+      ],
+      "correct": "4",
+      "solution": "Logic followed here is,\n\n**(First number)² - Third number = Second number **\n\nGiven, \n\n(31, 951, 10)\n\n31² -10\n\n961 - 10 = 951 (Second number)\n\n(29, 837, 4)\n\n292 - 4 \n\n841- 4 = 837 (Second number)\n\nCheck the option,\n\nOption 1) (27, 717, 11)\n\n27² - 11\n\n729 - 11 = 718 ≠ 717\n\nOption 2) (4, 8, 7)\n\n4² - 7\n\n16 - 7 = 9 ≠ 8\n\nOption 3) (40, 1593, 6) \n\n40² - 6\n\n1600 - 6 = 1594 ≠ 1593\n\n**Option 4) (33, 1069, 20)**\n\n**33² - 20 **\n\n**1089 - 20 = 1069 (Second number)**\n\nHence the correct answer is** \"Option 4\"**",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "676a25582693ea8fa16c9a6f",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the number from among the given options that can replace the question mark (?) in the following series.\n\n29 36 50 71 99 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "138"
+        },
+        {
+          "label": "2",
+          "text": "134"
+        },
+        {
+          "label": "3",
+          "text": "132"
+        },
+        {
+          "label": "4",
+          "text": "136"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic follows here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/50de32a281b2336b2238356ef7cab5e86b389301f6ab51783be885f5d1ec4064.png] \n\n**134** will be the next number in the series.\n\nHence, the correct answer is **\"Option 2\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/50de32a281b2336b2238356ef7cab5e86b389301f6ab51783be885f5d1ec4064.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "63118d30c7877f5e4237de80",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Study the given pattern carefully and select the number that can replace the question mark (?) in it\n\n \n \n\n 16\n 14\n 18\n \n \n\n 58\n 44\n ?\n \n \n\n 13\n 8\n 4",
+      "options": [
+        {
+          "label": "1",
+          "text": "44"
+        },
+        {
+          "label": "2",
+          "text": "24"
+        },
+        {
+          "label": "3",
+          "text": "36"
+        },
+        {
+          "label": "4",
+          "text": "40"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is :-\n\nIn a column, **(First number + Last number) × 2 = Middle number.**\n\nColumn 1) : \n\n \n \n\n 16\n \n \n\n 58\n \n \n\n 13\n \n \n\n= (16 + 13) × 2\n\n= 29 × 2\n\n= 58\n\nColumn 2) :\n\n \n \n\n 14\n \n \n\n 44\n \n \n\n 8\n \n \n\n= (14 + 8) × 2\n\n= 22 × 2 \n\n= 44\n\nColumn 3) :\n\n \n \n\n 18\n \n \n\n ?\n \n \n\n 4\n \n \n\n**= (18 + 4) × 2**\n\n**= 22 × 2**\n\n**= 44**\n\nHence, the correct answer is **\"44\".**",
+      "tags": [
+        "Missing Number"
+      ]
+    },
+    {
+      "qid": "60929433a5a893539d5c0219",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'ONE' can be coded as '34' then 'TWO' can be coded as",
+      "options": [
+        {
+          "label": "1",
+          "text": "50"
+        },
+        {
+          "label": "2",
+          "text": "48"
+        },
+        {
+          "label": "3",
+          "text": "58"
+        },
+        {
+          "label": "4",
+          "text": "68"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/198e1e1c557034c844f768bc808a8f4ed9f398877879a31b5b5c7612abf637fe.png] \n\n**GIVEN: **\n\n**ONE : 34**\n\n \n \n\n Letter\n O\n N\n E\n \n \n\n Positional Value\n 15\n 14\n 5\n \n \n\nONE → 15 + 14 + 5 = 34\n\nSimilarly,\n\n**TWO : ?**\n\n \n \n\n Letter\n T\n W\n O\n \n \n\n Positional Value\n 20\n 23\n 15\n \n \n\nTWO → 20 + 23 + 15 = 58\n\nHence, **58** is correct.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/198e1e1c557034c844f768bc808a8f4ed9f398877879a31b5b5c7612abf637fe.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "67698491ec23c1fd9a1e2578",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the pair that follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern.\n\nQRU : NTS\n\nKVQ : HXO",
+      "options": [
+        {
+          "label": "1",
+          "text": "WKA : ULZ"
+        },
+        {
+          "label": "2",
+          "text": "KAQ : HCT"
+        },
+        {
+          "label": "3",
+          "text": "EZM : BBK"
+        },
+        {
+          "label": "4",
+          "text": "SMY : QNX"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/15d4e688c8bdc2766cb74c67a7c0d12a85a1e60bc448f376b860b7949a5ae586.png] \n\nThe logic followed here is:\n\nQRU : NTS\n\n [IMAGE: https://cdn.repeatermock.com/tb/d51e261bc349b81ef94fbdb8f99d56f035fe14fb2ddd12a908a864c0a4e743c8.png] \n\nAnd,\n\nKVQ : HXO\n\n [IMAGE: https://cdn.repeatermock.com/tb/46ef0e421f9fd96074f4e9b3e24c041419dc255f5ed3c6dcdcfc019e7ca8a25a.png] \n\nSo, checking each option one by one:\n\nOption 1) WKA : ULZ\n\n [IMAGE: https://cdn.repeatermock.com/tb/d780ef99f17745cf98d89b0c566dfb098fefad0bf9e9863ba694ec53f7729a90.png] \n\nOption 2) KAQ : HCT\n\n [IMAGE: https://cdn.repeatermock.com/tb/079b7158b54b9b3825232da68072235bde8e9964216bb662534c2b6eda0604fb.png] \n\nOption 3) EZM : BBK\n\n [IMAGE: https://cdn.repeatermock.com/tb/a79d348fcb2e9d1a7cf0cab29189f01932e11d6e17b4f1e3f3fe9b213f8c55ac.png] \n\nOption 4) SMY : QNX\n\n [IMAGE: https://cdn.repeatermock.com/tb/a8908d3073080aab592caf922468781189227710490c6ff6f5a7464f0e6e695c.png] \n\nThus, out of all the options 'EZM : BBK' follows the same logic as given.\n\nHence, \"Option 3\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/15d4e688c8bdc2766cb74c67a7c0d12a85a1e60bc448f376b860b7949a5ae586.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d51e261bc349b81ef94fbdb8f99d56f035fe14fb2ddd12a908a864c0a4e743c8.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/46ef0e421f9fd96074f4e9b3e24c041419dc255f5ed3c6dcdcfc019e7ca8a25a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d780ef99f17745cf98d89b0c566dfb098fefad0bf9e9863ba694ec53f7729a90.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/079b7158b54b9b3825232da68072235bde8e9964216bb662534c2b6eda0604fb.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a79d348fcb2e9d1a7cf0cab29189f01932e11d6e17b4f1e3f3fe9b213f8c55ac.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a8908d3073080aab592caf922468781189227710490c6ff6f5a7464f0e6e695c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    }
+  ]
+}
