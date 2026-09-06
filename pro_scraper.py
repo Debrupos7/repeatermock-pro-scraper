@@ -70,58 +70,49 @@ class PROAuth:
         for attempt in range(3):
             print(f"  [auth] ZenRows attempt {attempt+1}/3...")
             try:
-                async def zenrows_login():
-                    async with httpx.AsyncClient(timeout=180.0) as cli:
-                        params = {
-                            "apikey": self.zenrows_key,
-                            "url": "https://repeatermock.com/login",
-                            "js_render": "true",
-                            "premium_proxy": "true",
-                            "wait": "25000",
-                        }
-                        r = await cli.get("https://api.zenrows.com/v1/", params=params, timeout=180.0)
-                        content = r.text
-                        print(f"  [auth] ZenRows response: {r.status_code}, {len(content):,} bytes")
-                        
-                        for pat in [r'name="cf-turnstile-response"[^>]*value="([^"]+)"']:
-                            m = re.search(pat, content)
-                            if m and len(m.group(1)) > 20:
-                                token = m.group(1)
-                                print(f"  [auth] ✅ Turnstile solved! len={len(token)}")
-                                # Login
-                                r2 = await cli.post("https://api.repeatermock.com/auth/login", json={
-                                    "email": self.email, "password": self.password, "turnstileToken": token
-                                }, headers={
-                                    "Content-Type": "application/json",
-                                    "Origin": "https://repeatermock.com",
-                                    "Referer": "https://repeatermock.com/login",
-                                    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
-                                }, timeout=30.0)
-                                data = r2.json()
-                                set_cookies = r2.headers.get_list("set-cookie") if hasattr(r2.headers, "get_list") else []
-                                if data.get("success"):
-                                    for sc in set_cookies:
-                                        parts = sc.split(";")[0].split("=", 1)
-                                        if len(parts) == 2:
-                                            name = parts[0].strip()
-                                            value = parts[1].strip()
-                                            if 'access' in name.lower(): self.access_token = value
-                                            elif 'refresh' in name.lower(): self.refresh_token = value
-                                    self.token_expires = time.time() + 900
-                                    self.failures = 0
-                                    user = data.get("user", {})
-                                    print(f"  [auth] ✅ Login! {user.get('name','?')} | Plan: {user.get('plan','?')}")
-                                    print(f"  [auth] accessToken: {len(self.access_token)} | refreshToken: {len(self.refresh_token)}")
-                                    return True
-                                else:
-                                    print(f"  [auth] Login failed: {data}")
-                                    return False
-                        print(f"  [auth] No Turnstile token found")
-                        return False
-                
-                result = asyncio.run(zenrows_login())
-                if result:
-                    return True
+                with httpx.Client(timeout=180.0) as cli:
+                    params = {
+                        "apikey": self.zenrows_key,
+                        "url": "https://repeatermock.com/login",
+                        "js_render": "true",
+                        "premium_proxy": "true",
+                        "wait": "25000",
+                    }
+                    r = cli.get("https://api.zenrows.com/v1/", params=params, timeout=180.0)
+                    content = r.text
+                    print(f"  [auth] ZenRows response: {r.status_code}, {len(content):,} bytes")
+                    
+                    for pat in [r'name="cf-turnstile-response"[^>]*value="([^"]+)"']:
+                        m = re.search(pat, content)
+                        if m and len(m.group(1)) > 20:
+                            token = m.group(1)
+                            print(f"  [auth] ✅ Turnstile solved! len={len(token)}")
+                            r2 = cli.post("https://api.repeatermock.com/auth/login", json={
+                                "email": self.email, "password": self.password, "turnstileToken": token
+                            }, headers={
+                                "Content-Type": "application/json",
+                                "Origin": "https://repeatermock.com",
+                                "Referer": "https://repeatermock.com/login",
+                                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
+                            }, timeout=30.0)
+                            data = r2.json()
+                            set_cookies = r2.headers.get_list("set-cookie") if hasattr(r2.headers, "get_list") else []
+                            if data.get("success"):
+                                for sc in set_cookies:
+                                    parts = sc.split(";")[0].split("=", 1)
+                                    if len(parts) == 2:
+                                        name = parts[0].strip()
+                                        value = parts[1].strip()
+                                        if 'access' in name.lower(): self.access_token = value
+                                        elif 'refresh' in name.lower(): self.refresh_token = value
+                                self.token_expires = time.time() + 900
+                                self.failures = 0
+                                user = data.get("user", {})
+                                print(f"  [auth] ✅ Login! {user.get('name','?')} | Plan: {user.get('plan','?')}")
+                                return True
+                            else:
+                                print(f"  [auth] Login API failed: {data}")
+                    print(f"  [auth] No Turnstile token found")
             except Exception as e:
                 print(f"  [auth] ZenRows error: {e}")
             time.sleep(5)
