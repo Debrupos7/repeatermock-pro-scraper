@@ -1,0 +1,851 @@
+{
+  "test_id": "6a0f45a79e39867c389ac3f8",
+  "title": "PYST 25: SSC CGL 2025 Tier-I Similar Paper - Quantitative Aptitude (Held On: 20th Sep 2025 Shift 1)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:03:48.512879+00:00",
+  "questions": [
+    {
+      "qid": "6960c24ece3c19be69a92580",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Determine the value of variable **x** in the following mathematical expression:\n\n((√(6 + x) + √(6 - x)) ÷ (√(6 + x) - √(6 - x))) = 2",
+      "options": [
+        {
+          "label": "1",
+          "text": "24/5"
+        },
+        {
+          "label": "2",
+          "text": "14/5"
+        },
+        {
+          "label": "3",
+          "text": "11/7"
+        },
+        {
+          "label": "4",
+          "text": "16/5"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n((√(6 + x) + √(6 - x)) ÷ (√(6 + x) - √(6 - x))) = 2\n\n**Formula Used:**\n\nLet a = √(6 + x) and b = √(6 - x)\n\n(a + b) / (a - b) = 2\n\nCross multiplication: (a + b) = 2 × (a - b)\n\n**Calculation:**\n\n⇒ a + b = 2(a - b)\n\n⇒ a + b = 2a - 2b\n\n⇒ b + 2b = 2a - a\n\n⇒ 3b = a\n\n⇒ 3√(6 - x) = √(6 + x)\n\nSquaring both sides:\n\n⇒ (3√(6 - x))² = (√(6 + x))²\n\n⇒ 9(6 - x) = 6 + x\n\n⇒ 54 - 9x = 6 + x\n\n⇒ 54 - 6 = 9x + x\n\n⇒ 48 = 10x\n\n⇒ x = 48 / 10\n\n⇒ x = 24 / 5\n\n**∴ The correct answer is 24 / 5.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "6960c24e9d33edecddcd21f9",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A retail shop sells a specific microwave for price Y, achieving a 25% profit margin. During a holiday promotion, the sticker price of the microwave is raised to 1.6Y. Later, a 20% discount is applied to this new sticker price . What is the percentage profit the shop makes during the holiday promotion?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.56"
+        },
+        {
+          "label": "2",
+          "text": "0.62"
+        },
+        {
+          "label": "3",
+          "text": "0.6"
+        },
+        {
+          "label": "4",
+          "text": "0.26"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nOriginal Selling Price = Y\n\nProfit % = 25%\n\nNew Sticker Price = 1.6Y\n\nDiscount = 20% on Sticker Price\n\n**Formula used:**\n\nCost Price (CP) = Selling Price / (1 + Profit%)\n\nFinal Selling Price (SPfᵢₙₐₗ) = Sticker Price × (1 - Discount%)\n\nProfit % = [(SPfᵢₙₐₗ - CP) / CP] × 100",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6960c24f8351160cf2b24ee3",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the compound interest accrued on a principal of 25000 at a rate of 15% annually over 2 years, given the interest is calculated every 8 months?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8200"
+        },
+        {
+          "label": "2",
+          "text": "8275"
+        },
+        {
+          "label": "3",
+          "text": "8000"
+        },
+        {
+          "label": "4",
+          "text": "8400"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nPrincipal (P) = 25000\n\nRate (R) = 15% per annum\n\nTime (T) = 2 years = 24 months\n\nCompounding period = 8 months\n\n**Formula Used:**\n\nEffective Rate (r) = (15 × 8) / 12 = 10% per 8 months\n\nNumber of periods (n) = 24 / 8 = 3\n\nAmount (A) = P(1 + r/100)ⁿ\n\nCompound Interest (CI) = A - P\n\n**Calculation:**\n\n⇒ r = 10%\n\n⇒ n = 3\n\n⇒ A = 25000(1 + 10/100)³\n\n⇒ A = 25000(1.1)³\n\n⇒ A = 25000 × 1.331\n\n⇒ A = 33275\n\n⇒ CI = 33275 - 25000\n\n⇒ CI = 8275\n\n**∴ The correct answer is 8275.**",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "6960c24f377f2d7788e89f28",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A supervisor recruits 30 workers to finish a task in 24 days, working 8 hours daily. After 6 days, 10 additional workers are joined, but the daily schedule is cut to 6 hours from the 7th day onward. If every worker has identical output, how many additional days are needed to complete the work?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "21"
+        },
+        {
+          "label": "4",
+          "text": "22"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nWorkers recruited initially = 30\n\nTask completion time = 24 days\n\nDaily working hours initially = 8 hours\n\nAdditional workers joined after 6 days = 10\n\nDaily working hours reduced from the 7th day = 6 hours\n\n**Formula Used:**\n\nTotal Work = Workers × Days × Hours\n\nWork completed = Total Work by initial setup for 6 days</p&",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6960c24f605aa22e4431c980",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A rabbit and a fox are 1000 meters apart. If they sprint in the same direction, the fox overtakes the rabbit in 10 minutes. If they sprint toward one another, they pass each other in 2 minutes. What is the velocity of the rabbit in meters per minute?",
+      "options": [
+        {
+          "label": "1",
+          "text": "300"
+        },
+        {
+          "label": "2",
+          "text": "200"
+        },
+        {
+          "label": "3",
+          "text": "150"
+        },
+        {
+          "label": "4",
+          "text": "400"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nDistance (D) = 1000 meters\n\nTime (Same direction) = 10 minutes\n\nTime (Opposite direction) = 2 minutes\n\nLet velocity of fox = vf\n\nLet velocity of rabbit = vᵣ\n\n**Formula used:**\n\nRelative speed (Same direction) = vf - vᵣ\n\nRelative speed (Opposite direction) = vf + vᵣ\n\nSpeed = Distance / Time\n\n**Calculation:**\n\n⇒ vf - vᵣ = 1000 / 10\n\n⇒ vf - vᵣ = 1000 / 10 = 100 (Equation 1)\n\n⇒ vf + vᵣ = 1000 / 2\n\n⇒ vf + vᵣ = 1000 / 2 = 500 (Equation 2)\n\nSubtracting Equation 1 from Equation 2:\n\n⇒ (vf + vᵣ) - (vf - vᵣ) = 500 - 100\n\n⇒ 2vᵣ = 400\n\n⇒ vᵣ = 400 / 2\n\n⇒ vᵣ = 200\n\n**∴ The velocity of the rabbit is 200 meters per minute.**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6960c250fc4e90982acf63f8",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the classification of the product when a Rational Number is paired with an Irrational Number via multiplication?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Always Rational"
+        },
+        {
+          "label": "2",
+          "text": "Always Irrational"
+        },
+        {
+          "label": "3",
+          "text": "Always Integer"
+        },
+        {
+          "label": "4",
+          "text": "Sometimes Rational, Sometimes Irrational"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nRational Number\n\nIrrational Number\n\nMultiplication operation\n\n**Formula Used:**\n\nRational × Irrational = Irrational (unless the Rational Number is 0)\n\n**Calculation:**\n\n⇒ Rational × Irrational = Irrational\n\n⇒ If the rational number is 0, the product = 0 (Rational)\n\n**∴ The correct answer is Sometimes Rational, Sometimes Irrational.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6960c2502f5c4112506fa9ac",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Three wax spheres with radii of 6 cm, 8 cm, and 10 cm are melted down and reshaped into one large solid sphere. What is the radius of this new sphere?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24 cm"
+        },
+        {
+          "label": "2",
+          "text": "18 cm"
+        },
+        {
+          "label": "3",
+          "text": "12 cm"
+        },
+        {
+          "label": "4",
+          "text": "14 cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nRadius of first sphere (r₁) = 6 cm\n\nRadius of second sphere (r₂) = 8 cm\n\nRadius of third sphere (r₃) = 10 cm\n\n**Formula Used:**\n\nVolume of a sphere = (4/3) × π × r³\n\nNew radius (R) = ∛((r₁³ + r₂³ + r₃³))\n\n**Calculation:**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6960c2503273af3b20ac4bbe",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A motorcycle covers 36.8 km using 5 liters of fuel. What is the fuel economy in km per liter?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7.28"
+        },
+        {
+          "label": "2",
+          "text": "7.36"
+        },
+        {
+          "label": "3",
+          "text": "7.44"
+        },
+        {
+          "label": "4",
+          "text": "7.52"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nDistance covered = 36.8 km\n\nFuel used = 5 liters\n\n**Formula Used:**\n\nFuel economy (km per liter) = Distance covered / Fuel used\n\n**Calculation:**\n\n⇒ Fuel economy = 36.8 / 5\n\n⇒ Fuel economy = 7.36 km per liter\n\n**∴ The correct answer is 7.36.**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6960c2514370eacfbc1aa466",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a professional partnership, the first partner provides funding, the second handles operations and growth, and the third provides a logistics web. They split profits in a 3 : 2 : 2 ratio. If the business makes 280,000 in the opening year, what is the share for the operations partner?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60000"
+        },
+        {
+          "label": "2",
+          "text": "70000"
+        },
+        {
+          "label": "3",
+          "text": "80000"
+        },
+        {
+          "label": "4",
+          "text": "90000"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nProfit ratio = 3:2:2\n\nTotal profit = 280,000\n\n**Formula Used:**\n\nTotal ratio = Sum of individual ratios\n\nShare of a partner = (Partner's ratio / Total ratio) × Total profit\n\n**Calculation:**\n\n⇒ Total ratio = 3 + 2 + 2\n\n⇒ Total ratio = 7\n\n⇒ Share of operations partner = (2 / 7) × 280,000\n\n⇒ Share of operations partner = 560,000 / 7\n\n⇒ Share of operations partner = 80,000\n\n**∴ The correct answer is 80,000.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6960c251f70684e7ea8eb4bf",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A string is divided into three segments in the ratio 2 : 3 : 5. If the longest segment measures 40 cm, what is the full length of the string?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60 cm"
+        },
+        {
+          "label": "2",
+          "text": "80 cm"
+        },
+        {
+          "label": "3",
+          "text": "100 cm"
+        },
+        {
+          "label": "4",
+          "text": "120 cm"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRatio of the segments = 2:3:5\n\nLongest segment = 40 cm\n\n**Formula Used:**\n\nTotal length = Sum of all ratios × Value of one unit of ratio\n\nValue of one unit of ratio = Longest segment / Largest ratio\n\n**Calculation:**\n\n⇒ Sum of all ratios = 2 + 3 + 5 = 10\n\n⇒ Value of one unit of ratio = 40 / 5 = 8\n\n⇒ Total length = 10 × 8 = 80 cm\n\n**∴ The correct answer is 80 cm.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6960c2524ea06aeaa4a3fec1",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a development project, triangular zones with side ratios 3 : 4 : 5 are mapped. If the total boundary is 120 m, calculate the total area?",
+      "options": [
+        {
+          "label": "1",
+          "text": "720 m²"
+        },
+        {
+          "label": "2",
+          "text": "480 m2"
+        },
+        {
+          "label": "3",
+          "text": "600 m2"
+        },
+        {
+          "label": "4",
+          "text": "400 m2"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nSide ratios = 3:4:5\n\nTotal boundary = 120 m\n\n**Formula Used:**\n\nPerimeter = Sum of sides\n\nArea = √[s(s-a)(s-b)(s-c)], where s = Perimeter / 2\n\n**Calculation:**\n\n⇒ Sum of ratios = 3 + 4 + 5 = 12\n\n&rA",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6960c252c0b00e316f585c97",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A pupil's results in Biology were 20% higher than in Chemistry.If the Chemistry score was 144, what was the Biology score?",
+      "options": [
+        {
+          "label": "1",
+          "text": "164.8"
+        },
+        {
+          "label": "2",
+          "text": "176.8"
+        },
+        {
+          "label": "3",
+          "text": "168.8"
+        },
+        {
+          "label": "4",
+          "text": "172.8"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nChemistry score = 144\n\nThe biology score is 20% higher than the chemistry score.\n\n**Formula Used:**\n\nPercentage increase = Original value × (1 + Percentage increase / 100)\n\n**Calculation:**\n\n⇒ Biology score = 144 × (1 + 20 / 100)\n\n⇒ Biology score = 144 × (1 + 0.2)\n\n⇒ Biology score = 144 × 1.2\n\n⇒ Biology score = 172.8\n\n**∴ The correct answer is 172.8.**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "6960c252ce3c19be69a925d7",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "12 women and 8 men can finish a task in 10 days, while 8 women and 10 men can finish it in 10 days. How many days are required for 16 women to finish it?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "14"
+        },
+        {
+          "label": "3",
+          "text": "17.5"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n12 women + 8 men ⇒ 10 days\n\n8 women + 10 men ⇒ 10 days\n\nFind days for 16 women\n\n**Formula used:**\n\nWork = Men × Days + Women × Days\n\nLCM method for total work\n\n**Calculations:**\n\n⇒ LCM of 10 and 10 = 10\n\n⇒ Assume total work = 10 units\n\n⇒ (12W + 8M) × 10 = 10\n\n⇒ 12W + 8M = 1 ...(1)\n\n⇒ (8W + 10M) × 10 = 10\n\n⇒ 8W + 10M = 1 ...(2)\n\n⇒ Multiply (1) by 5 and (2) by 4\n\n⇒ 60W + 40M = 5\n\n⇒ 32W + 40M = 4\n\n⇒ Subtract\n\n⇒ 28W = 1\n\n⇒ W = 1/28\n\n⇒ Work by 16 women in 1 day = 16 × 1/28\n\n⇒ = 4/7\n\n⇒ Required days = 10 ÷ (4/7)\n\n⇒ 10 × 7/4\n\n⇒ 70/4\n\n⇒ 17.5 days\n\n**∴ Required days = 17.5 days**",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6960c2538d138d50ad2de604",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The mean of a set of 8 consecutive even integers is 81. What is the total of the lowest and highest integers in this set?",
+      "options": [
+        {
+          "label": "1",
+          "text": "156"
+        },
+        {
+          "label": "2",
+          "text": "160"
+        },
+        {
+          "label": "3",
+          "text": "162"
+        },
+        {
+          "label": "4",
+          "text": "168"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nNumber of integers (n) = 8\n\nMean = 81\n\nIntegers are consecutive and even.\n\n**Formula used:**\n\nMean of a set of consecutive numbers = (First term + Last term) / 2\n\nSum of extremes = First term + Last term\n\n**Calculation:**\n\n⇒ Mean = (Lowest + Highest) / 2\n\n⇒ 81 = (Lowest + Highest) / 2\n\n⇒ Lowest + Highest = 81 × 2\n\n⇒ Lowest + Highest = 162\n\n**∴ The correct answer is 162.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6960c2537218577e31eb49e5",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Progression, Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A container with a square base of 10 cm is built in stages. The height grows in an arithmetic sequence from 8 cm in stage one to 32 cm in stage four.What is the total capacity of the container?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6400 cm³"
+        },
+        {
+          "label": "2",
+          "text": "7600 cm3"
+        },
+        {
+          "label": "3",
+          "text": "8000 cm3"
+        },
+        {
+          "label": "4",
+          "text": "9600 cm3"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nSide of square base = 10 cm\n\nHeight in stage 1 = 8 cm\n\nHeight in stage 4 = 32 cm\n\nTotal stages = 4 (Arithmetic sequence)\n\n**Formula Used:**\n\nVolume = Base area × Height\n\nSum of A.P. = (n ÷ 2) × (a + l)\n\nTotal capacity = Sum of volumes of all stages\n\n<",
+      "tags": [
+        "Progression",
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6960c253a81945e460b46a8e",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A vat contains 120 litres of a chemical mixture with acid and water in a 5:1 ratio. If 24 litres of this mixture are swapped for pure water, what is the resulting ratio?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 : 1"
+        },
+        {
+          "label": "2",
+          "text": "2:3"
+        },
+        {
+          "label": "3",
+          "text": "3:1"
+        },
+        {
+          "label": "4",
+          "text": "3:2"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nInitial Volume = 120 litres\n\nInitial Ratio (Acid: Water) = 5 : 1\n\nVolume Removed = 24 litres\n\nVolume Added (Pure Water) = 24 litres\n\n**Formula used:**\n\nQuantity of component = (Ratio share / Total parts) × Total Volume\n\nNew Ratio = New Acid Quantity: New Water Quantity\n\n**Calculation:**\n\n⇒ Total parts = 5 + 1 = 6\n\n⇒ Volume remaining after removal = 120 - 24 = 96 litres\n\n⇒ Acid in 96 litres = (5 / 6) × 96 = 80 litres\n\n⇒ Water in 96 litres = (1 / 6) × 96 = 16 litres\n\n⇒ New Water quantity = 16 + 24 (replaced volume) = 40 litres\n\n⇒ New Ratio (Acid : Water) = 80 : 40\n\n⇒ New Ratio = 2 : 1\n\n**∴ The resulting ratio is 2 : 1**",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6960c254c5efa09ccdb77231",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given the trigonometric value cotA = 14/48, calculate the value of cosecA ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "50/14"
+        },
+        {
+          "label": "2",
+          "text": "25/24"
+        },
+        {
+          "label": "3",
+          "text": "25/7"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\ncotA = 14 / 48\n\n**Formula Used:**\n\ncotA = adjacent / opposite\n\ncosecA = hypotenuse / opposite\n\nhypotenuse² = adjacent² + opposite²\n\n**Calculation:**\n\n⇒ adjacent = 14, opposite = 48\n\n⇒ hypotenuse² = 14² + 48²\n\n⇒ hypotenuse² = 196 + 2304\n\n⇒ hypotenuse² = 2500\n\n⇒ hypotenuse = √2500\n\n⇒ hypotenuse = 50\n\n⇒ cosecA = 50 / 48\n\n⇒ cosecA = 25 / 24\n\n**∴ The correct answer is 25 / 24.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6960c254e8fa3983508f891c",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the coordinates of the intersection for the equations: y = 6x - 8 and y = -2x + 4?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(1, -1)"
+        },
+        {
+          "label": "2",
+          "text": "(0, 2)"
+        },
+        {
+          "label": "3",
+          "text": "(1.5, 1)"
+        },
+        {
+          "label": "4",
+          "text": "(1.5, -3.5)"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nEquation 1: y = 6x - 8\n\nEquation 2: y = -2x + 4\n\n**Formula Used:**\n\nEquating both equations to find the intersection: 6x - 8 = -2x + 4\n\nSubstitute the value of x to find y: y = 6x - 8\n\n**Calculation:**\n\n⇒ 6x - 8 = -2x + 4\n\n⇒ 6x + 2x = 4 + 8\n\n⇒ 8x = 12\n\n⇒ x = 12 / 8\n\n⇒ x = 1.5\n\nSubstitute x = 1.5 into y = 6x - 8:\n\n⇒ y = 6(1.5) - 8\n\n⇒ y = 9 - 8\n\n⇒ y = 1\n\n**∴ The correct answer is (1.5, 1).**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6960c254c374133cd1507764",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "When a line crosses two parallel paths, an alternate interior angle is found to be 115° .What is the value of the angle located opposite to it on the alternate interior side?",
+      "options": [
+        {
+          "label": "1",
+          "text": "65"
+        },
+        {
+          "label": "2",
+          "text": "90"
+        },
+        {
+          "label": "3",
+          "text": "180"
+        },
+        {
+          "label": "4",
+          "text": "115"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nParallel lines crossed by a transversal.\n\nAlternate interior angle 1 = 115°\n\n**Formula Used:**\n\nAlternate interior angles are equal when a transversal intersects parallel lines.\n\n**Calculation:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/e327b2d840d4eee7bbf9706045ad9c86a235cf1abe0f982ec2d9e67633cf634c.png] \n\n⇒ Let Angle 1 and Angle 2 be the pair of alternate interior angles.\n\n⇒ Angle 1 = 115°\n\n⇒ Angle 2 = Angle 1\n\n⇒ Angle 2 = 115°\n\n**∴ The correct answer is 115°.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e327b2d840d4eee7bbf9706045ad9c86a235cf1abe0f982ec2d9e67633cf634c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6960c25547e366f677089463",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If triangle ABC is similar to triangle XYZ and side lengths are AB = 8 cm, BC = 12 cm, XY = 16 cm, find the length of YZ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 cm"
+        },
+        {
+          "label": "2",
+          "text": "24 cm"
+        },
+        {
+          "label": "3",
+          "text": "28 cm"
+        },
+        {
+          "label": "4",
+          "text": "32 cm"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nΔABC ~ ΔXYZ\n\nAB = 8 cm\n\nBC = 12 cm\n\nXY = 16 cm\n\n**Formula Used:**\n\nFor similar triangles, the ratio of corresponding sides is equal:\n\nAB / XY = BC / YZ\n\n**Calculation:**\n\nAB / XY = BC / YZ\n\n⇒ 8 / 16 = 12 / YZ\n\n⇒ 1 / 2 = 12 / YZ\n\n⇒ YZ = 12 × 2\n\n⇒ YZ = 24 cm\n\n**∴ The correct answer is 24 cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6960c255efc488aeb9973b9e",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given that **x = 2 + √3**, find the value of **x - 1/x**.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2√3"
+        },
+        {
+          "label": "2",
+          "text": "4√3"
+        },
+        {
+          "label": "3",
+          "text": "6√2"
+        },
+        {
+          "label": "4",
+          "text": "10√3"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nx = 2 + √3\n\n**Calculations:**\n\n⇒ x = 2 + √3\n\n⇒ 1/x = 1/(2 + √3)\n\n⇒ Multiply numerator and denominator by (2 − √3)\n\n⇒ 1/x = (2 − √3) ÷ [(2)² − (√3)²]\n\n⇒ 1/x = (2 − √3) ÷ (4 − 3)\n\n;\n\n⇒ 1/x = 2 − √3\n\n⇒ x − 1/x = (2 + √3) − (2 − √3)\n\n⇒ x − 1/x = 2 + √3 − 2 + √3\n\n⇒ x − 1/x = 2√3\n\n**∴ The value of x − 1/x = 2√3.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "6960c255f6eb391e07cf4300",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A ring has a radius of 10 cm, containing a string measuring 16 cm across.What is the span from the ring's center to the string?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6 cm"
+        },
+        {
+          "label": "2",
+          "text": "8 cm"
+        },
+        {
+          "label": "3",
+          "text": "10 cm"
+        },
+        {
+          "label": "4",
+          "text": "12 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRadius of the ring = 10 cm\n\nString length across the ring = 16 cm\n\n**Formula Used:**\n\nDistance from the center to the string = √(radius² − (string length / 2)²)\n\n**Calculation:**<",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6960c2569b60acbccaf5662e",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A circle has a radius of 24 cm.Two lines are drawn from the center such that the chord linking their tips is 24 cm.What is the area of the smaller segment created?",
+      "options": [
+        {
+          "label": "1",
+          "text": "96π - 144√3"
+        },
+        {
+          "label": "2",
+          "text": "48π - 36√3"
+        },
+        {
+          "label": "3",
+          "text": "192π - 144√3"
+        },
+        {
+          "label": "4",
+          "text": "96π - 72√3"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRadius (r) = 24 cm\n\nChord length = 24 cm\n\n**Formula Used:**\n\nChord length = 2 × r × sin(θ/2)\n\nArea of sector = (θ/360) × π × r²\n\nArea of triangle = (1/2) × r² × sinθ\n\nArea of segment = Area of sector − Area of triangle\n\n**Calculation:**\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/2f3e90bf5084045841d83bd",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6960c256412c207b2eb51bfd",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sin x = 0.6 and x lies in the first quadrant (0, π/2), find the value of **sin 2x + cos 2x**.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2.68"
+        },
+        {
+          "label": "2",
+          "text": "0.52"
+        },
+        {
+          "label": "3",
+          "text": "0.68"
+        },
+        {
+          "label": "4",
+          "text": "1.24"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nsin x = 0.6\n\nx lies in the first quadrant (0, π/2)\n\n**Formula Used:**\n\nsin²x + cos²x = 1\n\nsin 2x = 2 sin x cos x\n\ncos 2x = cos²x − sin²x\n\n**Calculation:**\n\n⇒ sin x = 0.6 = 3/5\n\n⇒ cos x = √(1 − sin²x)\n\n⇒ cos x = √(1 − 9/25)\n\n⇒ cos x = √(16/25)\n\n⇒ cos x = 4/5\n\n⇒ sin 2x = 2 × (3/5) × (4/5)\n\n⇒ sin 2x = 24/25\n\n⇒ cos 2x = (4/5)² − (3/5)²\n\n⇒ cos 2x = 16/25 − 9/25\n\n⇒ cos 2x = 7/25\n\n⇒ sin 2x + cos 2x = 24/25 + 7/25\n\n⇒ sin 2x + cos 2x = 31/25 = 1.24\n\n**∴ The value of sin 2x + cos 2x = **1.24",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6960c257b960c4821257423b",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Calculate the product of 24.690 and 0.134. Round your answer to four decimal places.",
+      "options": [
+        {
+          "label": "1",
+          "text": "3.3085"
+        },
+        {
+          "label": "2",
+          "text": "3.3084"
+        },
+        {
+          "label": "3",
+          "text": "3.3086"
+        },
+        {
+          "label": "4",
+          "text": "3.3087"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nNumber 1 = 24.690\n\nNumber 2 = 0.134\n\n**Formula Used:**\n\nProduct = Number 1 × Number 2\n\n**Calculation:**\n\n⇒ 24.690 × 0.134\n\n⇒ (24.690 × 134) ÷ 1000\n\n⇒ (3308.46) ÷ 1000\n\n⇒ 3.30846\n\n⇒ Rounded to 4 decimal places = 3.3085\n\n**∴ The correct answer is 3.3085.**",
+      "tags": [
+        "Simplification"
+      ]
+    }
+  ]
+}

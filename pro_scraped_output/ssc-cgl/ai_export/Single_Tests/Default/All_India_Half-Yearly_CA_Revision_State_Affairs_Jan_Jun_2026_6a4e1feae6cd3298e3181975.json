@@ -1,0 +1,897 @@
+{
+  "test_id": "6a4e1feae6cd3298e3181975",
+  "title": "All India Half-Yearly CA Revision: State Affairs (Jan–Jun 2026)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 60.0,
+  "question_count": 30,
+  "languages": [
+    "English",
+    "Hindi",
+    "Telugu",
+    "Bengali",
+    "Tamil",
+    "Kannada",
+    "Marathi",
+    "Gujarati",
+    "Oria",
+    "Punjabi"
+  ],
+  "scraped_at": "2026-09-06T11:16:16.919303+00:00",
+  "questions": [
+    {
+      "qid": "6967ab53b8cc65d6316dd8e5",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which bank became India’s first Gramin Bank to introduce a solar-powered ATM van?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Odisha Gramya Bank"
+        },
+        {
+          "label": "2",
+          "text": "Kerala Gramin Bank"
+        },
+        {
+          "label": "3",
+          "text": "Assam Gramin Bank"
+        },
+        {
+          "label": "4",
+          "text": "Tripura Gramin Bank"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69a925706ec19c34ea4304a3",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which city has launched India's first AI-powered door-to-door 'Saksham Skill Survey' to map the employability of youth at a ward level?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bengaluru"
+        },
+        {
+          "label": "2",
+          "text": "Mumbai"
+        },
+        {
+          "label": "3",
+          "text": "Pune"
+        },
+        {
+          "label": "4",
+          "text": "Hyderabad"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69a6877a8cec5d7450d49322",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which state launched the 'Divyang Sahayak Portal', India's first AI-enabled one-stop digital platform for disability welfare schemes?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Maharashtra"
+        },
+        {
+          "label": "2",
+          "text": "Karnataka"
+        },
+        {
+          "label": "3",
+          "text": "Tamil Nadu"
+        },
+        {
+          "label": "4",
+          "text": "Gujarat"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69c4b8b435e83222bfa05655",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which state became the second in India to pass the Uniform Civil Code (UCC) Bill in March 2026?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rajasthan"
+        },
+        {
+          "label": "2",
+          "text": "Gujarat"
+        },
+        {
+          "label": "3",
+          "text": "Madhya Pradesh"
+        },
+        {
+          "label": "4",
+          "text": "Uttar Pradesh"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69941241877a6028de0f025f",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "India's first 'Cow Culture Museum' is set to be established in which city?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Varanasi"
+        },
+        {
+          "label": "2",
+          "text": "Mathura"
+        },
+        {
+          "label": "3",
+          "text": "Ayodhya"
+        },
+        {
+          "label": "4",
+          "text": "Haridwar"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "698d5ac32f665aa0164488b9",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Punjab Police has launched the second phase of ‘Operation Prahar’ primarily to achieve which of the following objectives?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To intensify the crackdown on gangsters and arrest wanted criminals"
+        },
+        {
+          "label": "2",
+          "text": "To conduct cybercrime awareness campaigns"
+        },
+        {
+          "label": "3",
+          "text": "To improve traffic management across the state"
+        },
+        {
+          "label": "4",
+          "text": "To modernise police infrastructure"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6a0b050f33bd446032b41646",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which state has become the first in the country to launch an integrated monitoring portal to track Not of Standard Quality (NSQ) medicines and monitor NDPS drug sales?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Kerala"
+        },
+        {
+          "label": "2",
+          "text": "Maharashtra"
+        },
+        {
+          "label": "3",
+          "text": "Tamil Nadu"
+        },
+        {
+          "label": "4",
+          "text": "Karnataka"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6986f54378c5f549f4967808",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "\"Operation Shastra\" was recently in the news. What is it all about?",
+      "options": [
+        {
+          "label": "1",
+          "text": "An initiative to track and reunite missing children with their families."
+        },
+        {
+          "label": "2",
+          "text": "A drive to provide legal aid to victims of cybercrime."
+        },
+        {
+          "label": "3",
+          "text": "A mission to recover stolen children in Delhi."
+        },
+        {
+          "label": "4",
+          "text": "Targeting individuals sharing pictures with weapons on social media."
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69ae477cdff502a1dadd6b27",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which mobile application was launched by the Kerala government to help citizens locate nearby government health facilities and book doctor appointments?",
+      "options": [
+        {
+          "label": "1",
+          "text": "E-Health Kerala"
+        },
+        {
+          "label": "2",
+          "text": "MeHEALTH"
+        },
+        {
+          "label": "3",
+          "text": "Kerala Care"
+        },
+        {
+          "label": "4",
+          "text": "Ayush Kerala"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69ba620dc063862380e5324e",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which state has launched the 'e-Swasthya Dham' portal for real-time health monitoring of pilgrims during the Char Dham Yatra?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Himachal Pradesh"
+        },
+        {
+          "label": "2",
+          "text": "Uttarakhand"
+        },
+        {
+          "label": "3",
+          "text": "Uttar Pradesh"
+        },
+        {
+          "label": "4",
+          "text": "Sikkim"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69d9cd8140dc7bbcc7365902",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which state police force in India recently launched 'NARIT AI', an Artificial Intelligence-based tool designed to strengthen narcotics investigations and improve conviction rates?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Gujarat Police"
+        },
+        {
+          "label": "2",
+          "text": "Maharashtra Police"
+        },
+        {
+          "label": "3",
+          "text": "Kerala Police"
+        },
+        {
+          "label": "4",
+          "text": "Punjab Police"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69b4d79452bf8e0590699e29",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which state launched 'Araku Kouni', a first-of-its-kind tribal millet-based food menu, to promote tribal culinary heritage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Odisha"
+        },
+        {
+          "label": "2",
+          "text": "Andhra Pradesh"
+        },
+        {
+          "label": "3",
+          "text": "Chhattisgarh"
+        },
+        {
+          "label": "4",
+          "text": "Jharkhand"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "699309dbafd61b6ad8e6bb53",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The term \"Operation Stripes,\" which made headlines in February 2026, refers to which wildlife conservation initiative?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A census of leopards in the Western Ghats."
+        },
+        {
+          "label": "2",
+          "text": "The rescue and release of the tiger ‘Explorer’ in Andhra Pradesh."
+        },
+        {
+          "label": "3",
+          "text": "A program to restore elephant corridors in Odisha."
+        },
+        {
+          "label": "4",
+          "text": "A campaign against the illegal trade of tiger skins."
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69c218758be82dd4ba545208",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Name the initiative launched by the Manipur on International Day of Forests in 2026 to boost women's participation in forest conservation.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Van Dhan Sanchalan"
+        },
+        {
+          "label": "2",
+          "text": "Ningol Van"
+        },
+        {
+          "label": "3",
+          "text": "Green Manipur"
+        },
+        {
+          "label": "4",
+          "text": "Meira Paibi"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69b79790d81cbf3a4a958d0c",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which state has become the first in India to provide the advanced Proton Cancer Therapy in a government-run hospital?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Maharashtra"
+        },
+        {
+          "label": "2",
+          "text": "Assam"
+        },
+        {
+          "label": "3",
+          "text": "Tamil Nadu"
+        },
+        {
+          "label": "4",
+          "text": "New Delhi"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "698ea5b7f0a4b7dd47e7df23",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which state has recently introduced an Artificial Intelligence (AI)-based digital attendance system for its MLAs in the State Assembly to ensure accountability?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Telangana"
+        },
+        {
+          "label": "2",
+          "text": "Karnataka"
+        },
+        {
+          "label": "3",
+          "text": "Tamil Nadu"
+        },
+        {
+          "label": "4",
+          "text": "Andhra Pradesh"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "69746c0e473b68147cdf9609",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Where was the foundation stone of India’s first integrated private satellite plant laid?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bengaluru in Karnataka"
+        },
+        {
+          "label": "2",
+          "text": "Hyderabad in Telangana"
+        },
+        {
+          "label": "3",
+          "text": "Sanand in Gujarat"
+        },
+        {
+          "label": "4",
+          "text": "Sriharikota in Andhra Pradesh"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "698d9ece1c1fde0ac82c6ba6",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following statements is incorrect regarding the \"Lakhpati Bitiya Yojana\" recently announced by the Delhi Government?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The total financial assistance provided per beneficiary is up to ₹56,000 in phased instalments."
+        },
+        {
+          "label": "2",
+          "text": "The annual family income of the beneficiary must not exceed ₹1.20 lakh to be eligible."
+        },
+        {
+          "label": "3",
+          "text": "The scheme is applicable to all girl children in a family without any numerical limit."
+        },
+        {
+          "label": "4",
+          "text": "Benefits under the scheme will cease if the girl marries before attaining the age of 18."
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "695d163fcf7a6ddbe08af0db",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which Indian state has launched its first Braille library exclusively for visually impaired persons?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Madhya Pradesh"
+        },
+        {
+          "label": "2",
+          "text": "Rajasthan"
+        },
+        {
+          "label": "3",
+          "text": "Uttar Pradesh"
+        },
+        {
+          "label": "4",
+          "text": "Bihar"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "698ea803cab23593e6c765ad",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following Indian states recently became the second in the country, after Kerala, to publish a comprehensive State Bird Atlas?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Goa"
+        },
+        {
+          "label": "2",
+          "text": "Karnataka"
+        },
+        {
+          "label": "3",
+          "text": "Maharashtra"
+        },
+        {
+          "label": "4",
+          "text": "Tamil Nadu"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6995ade0e6986ceab452b5e8",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which union territory or state rolled out the ‘Bhu-Aadhaar’ system to assign a 14-digit ID to every land parcel?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Maharashtra"
+        },
+        {
+          "label": "2",
+          "text": "Tamil Nadu"
+        },
+        {
+          "label": "3",
+          "text": "Puducherry"
+        },
+        {
+          "label": "4",
+          "text": "Delhi"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6957cd00679ff59be132165b",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The “Operation Milap” initiative launched by the Delhi Police is primarily related to which of the following?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Monitoring child labour in urban areas"
+        },
+        {
+          "label": "2",
+          "text": "Rehabilitation of juvenile offenders"
+        },
+        {
+          "label": "3",
+          "text": "Preventing cyber crimes against minors"
+        },
+        {
+          "label": "4",
+          "text": "Tracing and reuniting missing children with their families"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6a33ea5dc2f5995376af2424",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the total number of products in Assam that have secured Geographical Indication (GI) tags with the support of NABARD, as of June 2026?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6a27fdfc342ad70cd87543eb",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which specific operation was showcased as a key highlight of Uttarakhand's disaster response efforts at the second technical meeting of the BRICS Disaster Risk Reduction (DRR) Working Group in June 2026?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Kedarnath Disaster Recovery Mission"
+        },
+        {
+          "label": "2",
+          "text": "Rishi Ganga Flash Flood Response"
+        },
+        {
+          "label": "3",
+          "text": "Silkyara Tunnel Rescue Operation"
+        },
+        {
+          "label": "4",
+          "text": "Joshimath Relief and Rehabilitation Project"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6a2fe0eb1b761485a1d3d4a0",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following sets of products from Jharkhand were recently granted the Geographical Indication (GI) tag as per the announcement in June 2026?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bhagaiya silk, Kuchai silk, Munda jewellery, and bamboo craft"
+        },
+        {
+          "label": "2",
+          "text": "Bhagaiya silk, Sohrai painting, Santhal jewellery, and wood craft"
+        },
+        {
+          "label": "3",
+          "text": "Kuchai silk, Tussar silk, Paitkar painting, and bamboo craft"
+        },
+        {
+          "label": "4",
+          "text": "Bhagaiya silk, Dokra craft, Munda jewellery, and terracotta craft"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6a2f25e51368314f2b7357e9",
+      "n": 26,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which state has emerged as the leader in the digitisation of enumeration forms during the third phase of the **Special Intensive Revision (SIR)** of electoral rolls, according to officials in June 2026?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Manipur"
+        },
+        {
+          "label": "2",
+          "text": "Tripura"
+        },
+        {
+          "label": "3",
+          "text": "Mizoram"
+        },
+        {
+          "label": "4",
+          "text": "Nagaland"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6a2f2605a8477959455670b2",
+      "n": 27,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the **Vision 2031** policy roadmap for Kerala, what is the name of the proposed initiative specifically aimed at preventing **domestic violence** and **dowry harassment** of women?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Disha"
+        },
+        {
+          "label": "2",
+          "text": "Avalkkoppam"
+        },
+        {
+          "label": "3",
+          "text": "Jagratha"
+        },
+        {
+          "label": "4",
+          "text": "Pink Bus"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6a1ebc992f9b42fc8d14b5c8",
+      "n": 28,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the primary objective of the 'Swachha' App launched by the Union Minister for Housing & Urban Affairs in West Bengal?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To provide a digital platform for paying municipal property taxes"
+        },
+        {
+          "label": "2",
+          "text": "To enable citizens to participate in real-time waste management through geo-tagged reporting"
+        },
+        {
+          "label": "3",
+          "text": "To track the implementation of the Jal Jeevan Mission in rural households"
+        },
+        {
+          "label": "4",
+          "text": "To facilitate the registration of beneficiaries under the Ayushman Bharat scheme"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6a2955445a19f99e005d1250",
+      "n": 29,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the full form of the acronym 'GANGA' in the rural broadband connectivity project launched by the Uttar Pradesh government in June 2026?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Government Assisted Network for Growth and Advancement"
+        },
+        {
+          "label": "2",
+          "text": "General Association for Network and Grassroot Advancement"
+        },
+        {
+          "label": "3",
+          "text": "Global Agency for Networking and Growth Administration"
+        },
+        {
+          "label": "4",
+          "text": "Government Alliance for National Growth and Advancement"
+        }
+      ],
+      "correct": null
+    },
+    {
+      "qid": "6a215db04694f67e9d2c5da2",
+      "n": 30,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In June 2026, the foundation stone for Ladakh’s first Model Border Village under the Vibrant Village Programme (VVP) was laid at which of the following locations?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Hanle"
+        },
+        {
+          "label": "2",
+          "text": "Korzok"
+        },
+        {
+          "label": "3",
+          "text": "Chumur"
+        },
+        {
+          "label": "4",
+          "text": "Demchok"
+        }
+      ],
+      "correct": null
+    }
+  ]
+}

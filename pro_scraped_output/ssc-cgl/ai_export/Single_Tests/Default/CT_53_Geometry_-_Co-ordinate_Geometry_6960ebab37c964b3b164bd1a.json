@@ -1,0 +1,375 @@
+{
+  "test_id": "6960ebab37c964b3b164bd1a",
+  "title": "CT 53: Geometry - Co-ordinate Geometry",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:19:59.087629+00:00",
+  "questions": [
+    {
+      "qid": "629f05169f9e55cd93dabfda",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Co-ordinate Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The distance between two points (-6, y) and (18, 6) is 26 units. Find the value of y.",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "-4"
+        },
+        {
+          "label": "3",
+          "text": "6"
+        },
+        {
+          "label": "4",
+          "text": "-6"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nThe distance between two points (-6, y) and (18, 6) is 26 units.\n\n**Formula used:**\n\nD = sqrt{(x₂ - x₁)² + (y₂ - y₁)²}\n\nWhere, \n\nThe distance between two points (x₁, y₁) and (x₂, y₂) is D units.\n\n**Calculation:**\n\nThe distance between two point = 26 units\n\nThe value of the first co-ordinate = (x₁, y₁) = (-6, y)\n\nThe value of the second co-ordinate = (x2, y2) = (18, 6)\n\nAccording to the question,\n\n⇒ D = sqrt{(18-(-6))² + (6-y)²} \n\n⇒ 26 = sqrt{(24)² + (6-y)²} \n\nSquaring on both sides of the equation.\n\n⇒ 676 = 24² + (6 - y)²\n\n⇒ 676 = 576 + (6 - y)2\n\n⇒ 100 = (6 - y)2\n\n⇒ 10² = (6 - y)2\n\nTaking square root on both sides of the equation.\n\n⇒ 10 = 6 - y\n\n⇒ y = -4\n\n**∴ The required answer is -4.**",
+      "tags": [
+        "Co-ordinate Geometry"
+      ]
+    },
+    {
+      "qid": "63c2dc4ffe3a398688e65f9f",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Co-ordinate Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The distance of the point (3, 4, 5) from y-axis is",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "√34"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Concept Used:**\n\nFor any point (x, y, z) if a perpendicular to y-axis is drawn, then intersection of that perpendicular to y-axis is (0, y, 0).\n\nTo find the distance between two points (x₁, y₁, z₁) and (x₂, y₂, z₂), we can use the distance formula:</span",
+      "tags": [
+        "Co-ordinate Geometry"
+      ]
+    },
+    {
+      "qid": "62bf08cf65f073c9726387b1",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Co-ordinate Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the equation of line passing through the center of the circle of equation x² + y² - 8x - 6y + 1 = 0 and the slope of the line is 1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "y = 2x - 1"
+        },
+        {
+          "label": "2",
+          "text": "y = x - 2"
+        },
+        {
+          "label": "3",
+          "text": "y = 4x - 1"
+        },
+        {
+          "label": "4",
+          "text": "y = x - 1"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nEquation of circle x2 + y2 - 8x - 6y + 1 = 0\n\nSlope value = 1\n\n**Formula used:**\n\n(1) The centre of the circle: \n\nThe standard equation of circle: x2 + y2 + 2gx + 2fy + c = 0\n\nCenter: (-g, -f)\n\n(2) The equation of line: (slope-intercept form)\n\ny = mx + c\n\n**Calculation:**\n\nCircle's equation: x2 + y2 - 8x - 6y + 1 = 0\n\nOn comparing the given equation with the standard equation of circle, we get\n\nThe x-coordinate of the centre of the circle, g = (-8)/(-2) = 4\n\nThe y-coordinate of the centre of the circle, f = (-6)/(-2) = 3\n\nThe coordinate for the centre of the circle = (4, 3)\n\nNow, \n\nThe slope of the required line, m = 1\n\nThe equation of line is\n\n⇒ y = mx + c\n\n⇒ y = 1 × x + c\n\n⇒ y = x + c\n\nAccording to the question,\n\n⇒ 3 = 4 + c\n\n⇒ c = -1\n\nTherefore, the equation of line:\n\n⇒ y = x - 1\n\n**∴ The required answer is y = x - 1.**",
+      "tags": [
+        "Co-ordinate Geometry"
+      ]
+    },
+    {
+      "qid": "62a0355ac8d368f5ac0b7985",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Co-ordinate Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the equation of line passing through the reflection of a point (2, 3) over a line y = 2 and the slope 1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "y = x"
+        },
+        {
+          "label": "2",
+          "text": "y = x - 1"
+        },
+        {
+          "label": "3",
+          "text": "y = x - 2"
+        },
+        {
+          "label": "4",
+          "text": "y = 2x - 1"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nThe equation of the line passing through the reflection of a point (2, 3) over a line y = 2 and the slope 1.\n\n**Concept used:**\n\n(1) Reflection of a point (x, y) over a line (y = a) parallel to x-axis is (x, 2a - y).\n\n(2) The equation of line: (slope-intercept form)\n\ny = mx + c\n\nWhere m indicates the slope of the line and c is the y-intercept\n\n**Calculation:**\n\nAccording to the question,\n\n [IMAGE: https://cdn.repeatermock.com/tb/567cb01e8fbc17b30bb2cbe7aa1286fe0174e0c5a42a2ad14a1d1c4715425228.png] \n\nThe reflection of a point (2, 3) over a line (y = 2) parallel to x-axis = [2, (2 × 2 - 3)] = (2, 1)\n\n [IMAGE: https://cdn.repeatermock.com/tb/0afac10614ee7475a05699ba722cee9c6ef62de3df1f49276674db3d7ce3689c.png] \n\nNow, \n\nThe equation of line: (passing through (2, 1) and slope, m = 1)\n\nTherefore,\n\n⇒ y = 1 × x + c\n\n⇒ 1 = 2 + c\n\n⇒ c = -1\n\nTherefore, the required equation of line is,\n\n⇒ y = x - 1\n\n [IMAGE: https://cdn.repeatermock.com/tb/a23512edf40ec9a1170299c7227b779c70b72ffc1fad9e22f728cfa7a7663fad.png] \n\n**∴ The required equation of the line is y = x - 1.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/567cb01e8fbc17b30bb2cbe7aa1286fe0174e0c5a42a2ad14a1d1c4715425228.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0afac10614ee7475a05699ba722cee9c6ef62de3df1f49276674db3d7ce3689c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a23512edf40ec9a1170299c7227b779c70b72ffc1fad9e22f728cfa7a7663fad.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Co-ordinate Geometry"
+      ]
+    },
+    {
+      "qid": "63a164aeb74cccb80eb12117",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Co-ordinate Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If points (2a, 0), (0, 2b) and (4, 4) are collinear, then (1)/(a)+(1)/(b) =",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "(1)/(2)"
+        },
+        {
+          "label": "3",
+          "text": "2"
+        },
+        {
+          "label": "4",
+          "text": "(1)/(4)"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nPoints = (2a, 0), (0, 2b), and (4, 4)\n\n**Concept used:**\n\nArea of triangle = dfrac{1}{2}[x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)] \n\nWhere, (x₁, y₁), (x₂, y₂), and (x₃, y₃) are the coordinates of the three vertices of the triangle.\n\n**Calculation:**\n\nArea of triangle = dfrac{1}{2}[x1(y2 − y3) + x2(y3 − y1) + x3(y1 − y2)] \n\nSince, the points are collinear, the area = 0.\n\n⇒ dfrac{1}{2}[x1(y2 − y3) + x2(y3 − y1) + x3(y1 − y2)] = 0\n\n⇒ [2a(2b - 4) + 0(4 - 0) + 4(0 - 2b)] = 0\n\n⇒ 4ab - 8a - 8b = 0\n\n⇒ ab = 2(a + b)\n\n⇒ dfrac{a+b}{ab} = dfrac{1}{2}\n\n⇒ dfrac{1}{a} + dfrac{1}{b} = dfrac{1}{2}\n\n**∴ The correct answer is dfrac{1}{2}.**",
+      "tags": [
+        "Co-ordinate Geometry"
+      ]
+    },
+    {
+      "qid": "66a34d4928168ef33df8dab5",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Co-ordinate Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The lines x + y = 10 and -3x + y = 2 have a unique solution. What is the distance (in units) between the unique solution and the point of intersection of the line x + y = 10 and the x-axis?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8√2"
+        },
+        {
+          "label": "2",
+          "text": "10√2"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nThe lines x + y = 10 and -3x + y = 2 have a unique solution.\n\nWhat is the distance (in units) between the unique solution and the point of intersection of the line x + y = 10 and the x-axis?\n\n**Formula used:**\n\nDistance formula: sqrt{(x₂ - x₁)² + (y₂ - y₁)²}\n\n**Calculation:**\n\nSolving the system of equations:\n\nx + y = 10 ...(1)\n\n-3x + y = 2 ...(2)\n\nSubtracting (2) from (1):\n\n⇒ x + y - (-3x + y) = 10 - 2\n\n⇒ x + y + 3x - y = 8\n\n⇒ 4x = 8\n\n⇒ x = 2\n\nSubstituting x = 2 in (1):\n\n⇒ 2 + y = 10\n\n⇒ y = 8\n\nSo, the unique solution is (2, 8).\n\nPoint of intersection of x + y = 10 and x-axis:\n\nOn the x-axis, y = 0.\n\n⇒ x + 0 = 10\n\n⇒ x = 10\n\nSo, the point of intersection is (10, 0).\n\nUsing the distance formula:\n\n⇒ Distance = sqrt{(10 - 2)² + (0 - 8)²}\n\n⇒ Distance = sqrt{8² + (-8)²}\n\n⇒ Distance = sqrt{64 + 64}\n\n⇒ Distance = sqrt{128}\n\n⇒ Distance = 8√2\n\n**∴ The correct answer is option (1).**",
+      "tags": [
+        "Co-ordinate Geometry"
+      ]
+    },
+    {
+      "qid": "63be4edba441b663b1a226a4",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Co-ordinate Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The points A(0,-2) ,B(3,1) ,C(0,4) and D(-3,1) are the vertices of a ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rectangle"
+        },
+        {
+          "label": "2",
+          "text": "Rhombus"
+        },
+        {
+          "label": "3",
+          "text": "Square"
+        },
+        {
+          "label": "4",
+          "text": "Parallelogram"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:-** \n\nThe points A(0,-2) ,B(3,1) ,C(0,4) and D(-3,1) are the vertices\n\n**Formula used:-\n\n **\n\nDistance between two points = sqrt{ (x₂ -x₁) ²+(y₂ - y₁)²} ** \n\nCalculation:-**\n\n [IMAGE: https://cdn.repeatermock.com/tb/e6109f63faf4ed58cdd86553d9c16829a92b0790d9831cce92d58d68967ec38e.png] \n\nDistance between point A & point B\n\n \n\n⇒ AB = sqrt{( (3 -0) ²+(1 - (-2))²} = sqrt{18} ......(1) \n\nSimilarly BC,\n\n⇒ BC = sqrt{ (0 -3) ²+(4 - 1)²} = sqrt{18} .....(2) \n\nSimilarly CD,\n\n⇒ CD = sqrt{ (0 -3) ²+(1 - (-2))²} = sqrt{18} ......(3)\n\nSimilarly DA,\n\n⇒DA = sqrt{ (-3-0) ²+(1 - (-2))²} = sqrt{18} ......(4)\n\nWe can clearly see that AB = BC = CA = DA \n\nFrom this it is known that this vertical will either be of square or of rhombus\n\nNow we check diagonal so,\n\n \n\n⇒ AC = sqrt{ (0-0) ²+(4 - (-2))²} = sqrt{36} = 6 ...(5) \n\nSimilarly BD, \n\n \n\n⇒ BD = sqrt{ (-3-3) ²+(1 - 1)²} = sqrt{36} = 6 ....(6) \n\n∵ Diag. AC = Diag.BD \n\nThus all sides are equal and the diagonals are equal. \n\n**∴ ABCD is a __square__**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e6109f63faf4ed58cdd86553d9c16829a92b0790d9831cce92d58d68967ec38e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Co-ordinate Geometry"
+      ]
+    },
+    {
+      "qid": "629f365fa3479c069cd34d26",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Co-ordinate Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the point C((31)/(5), (97)/(5) ) internally cuts the line joining the point A(2, 5) and B(9, 29) in the ratio of m : n, then find the ratio m : n.",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 : 2"
+        },
+        {
+          "label": "2",
+          "text": "2 : 5"
+        },
+        {
+          "label": "3",
+          "text": "2 : 3"
+        },
+        {
+          "label": "4",
+          "text": "5 : 2"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given:\n\nIf the point C((31)/(5), (97)/(5) ) internally cuts the line joining the point A(2, 5) and B(9, 29) in the ratio of m : n.\n\nFormula used:\n\n(1) Section formula:\n\n(x, y) = ((mx₂ ~+~ nx₁)/(m ~+~ n), (my₂ ~+~ ny₁)/(m ~+~ n))\n\nWhere, \n\nPoint C(x, y) cuts the line joining the points A(x1, y1) and B(x2, y2) in the ratio of m : n.\n\nCalculation:\n\nThe ratio in which the line AB is divided is m : n.\n\nA(x1, y1) = A(2, 5)\n\nB(x2, y2) = B(9, 29)\n\nC(x, y) = C((31)/(5), (97)/(5) )\n\n [IMAGE: https://cdn.repeatermock.com/tb/0b0a50d71563d5784ee2058772a7e608495008e96e16d909eb3833038c232873.png] \n\nBow, on substituting the value of the respective variable in the section formula, we get,\n\n⇒ C((31)/(5), (97)/(5) ) = ((m(9) ~+~ n(2))/(m ~+~ n), (m(29) ~+~ n(5))/(m ~+~ n))\n\nNow, on comparing the respective values of x-coordinate, we get,\n\n⇒ (m(9) ~+~ n(2))/(m ~+~ n) = (31)/(5)\n\n⇒ 5 × (9m + 2n) = 31 × (m + n)\n\n⇒ 45m + 10n = 31m + 31n\n\n⇒ 14m = 21n\n\n⇒ **(m)/(n) = (3)/(2)**\n\n**∴ The required value of the ratio m : n is 3 : 2.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0b0a50d71563d5784ee2058772a7e608495008e96e16d909eb3833038c232873.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Co-ordinate Geometry"
+      ]
+    },
+    {
+      "qid": "62841f991917bc4063652a07",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Co-ordinate Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the slope of the line perpendicular to the line passing through the points (2, -5) and (4, 0)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-5/2"
+        },
+        {
+          "label": "2",
+          "text": "2/5"
+        },
+        {
+          "label": "3",
+          "text": "-2/5"
+        },
+        {
+          "label": "4",
+          "text": "5/2"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe given points = x₁ = 2, y₁ = -5 and x₂ = 4, y₂ = 0\n\n**Formula used:**\n\nSlope of line = (y₂ – y₁)/(x₂ – x₁)\n\nPerpendicular slope formula = m₁.m₂ = -1\n\n**Calculation:**\n\nAccording to the question:\n\nSlope of line = (y2 – y1)/(x2 – x1)\n\n⇒ [0 – (-5)]/(4 – 2)\n\n⇒ (0 + 5)/(4 – 2)\n\n⇒ 5/2\n\nNow,\n\nPerpendicular slope formula = m1.m2 = -1\n\n⇒ 5/2 = -1\n\n⇒ -2/5\n\n**∴ The required point is -2/5.**",
+      "tags": [
+        "Co-ordinate Geometry"
+      ]
+    },
+    {
+      "qid": "62a04541b1de11b9ed6f6321",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Co-ordinate Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The point of intersection of lines (2x)/(4) + (2y)/(3) - 2 = 0 and (7x)/(4) + (5y)/(3) - 3 = 0 is (- 2m, 2n). Then find the quadratic equation whose roots are 3m and 2n.",
+      "options": [
+        {
+          "label": "1",
+          "text": "x2- 13x + 36 = 0"
+        },
+        {
+          "label": "2",
+          "text": "x2 - 12x + 36 = 0"
+        },
+        {
+          "label": "3",
+          "text": "x2- 7x + 12 = 0"
+        },
+        {
+          "label": "4",
+          "text": "x2- 13x + 12 = 0"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given:\n\nLines are ​(2x)/(4) + (2y)/(3) - 2 = 0 -----(i)\n\nAnd (7x)/(4) + (5y)/(3) - 3 = 0 -----(ii)\n\nConcept Used:\n\nIf α and β are the roots of a quadratic equation \n\nThen the quadratic equation is x2 - (α + β)x + α. β = 0\n\nCalculation:\n\nOn simplifying equation (i), we get \n\n6x + 8y - 24 = 0 -----(iii)\n\nAnd on simplyfying equation (ii), we get \n\n21x + 20y - 36 = 0 -----(iv)\n\nBy multiplying 7 with eq (iii) and 2 with eq (iv) we get\n\n42x + 56y - 168 = 0 ----(v)\n\n42x + 40y - 72 = 0 ----(vi)\n\nSubtracting eq (vi) from eq (v) we get\n\n16y = 168 - 72\n\n⇒ 16y = 96 \n\n⇒ y = 6\n\nPuting the value of y in the eq (iii) we get \n\n6x + 8 × 6 - 24 = 0 \n\n⇒ x = - 4\n\nSo, the coordinate of point of intersection is (- 4, 6)\n\nOn comparing it with (- 2m, 2n), we get \n\n- 2m = - 4 and 2n = 6\n\n⇒ m = 2 and n = 3\n\nSo, according to the concept used \n\nRequired equation will be x2 - (3m + 2n)x + 3m. 2n = 0\n\n⇒ x2 - (6 + 6)x + 6 × 6 = 0\n\n⇒ x2 - 12x + 36 = 0\n\n∴ The required equation is x2 - 12x + 36 = 0.",
+      "tags": [
+        "Co-ordinate Geometry"
+      ]
+    }
+  ]
+}

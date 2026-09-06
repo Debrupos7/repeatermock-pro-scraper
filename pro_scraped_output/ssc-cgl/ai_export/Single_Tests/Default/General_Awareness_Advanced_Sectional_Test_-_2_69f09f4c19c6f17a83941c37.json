@@ -1,0 +1,1058 @@
+{
+  "test_id": "69f09f4c19c6f17a83941c37",
+  "title": "General Awareness Advanced Sectional Test - 2",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "gk",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:02:15.860379+00:00",
+  "questions": [
+    {
+      "qid": "5c2c5b28fdb8bb3444ec0abf",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Physics",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The dimension formula of which of the following is the same as the formula of impulse?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Volume"
+        },
+        {
+          "label": "2",
+          "text": "Momentum"
+        },
+        {
+          "label": "3",
+          "text": "Torque"
+        },
+        {
+          "label": "4",
+          "text": "Change in the rate of momentum"
+        }
+      ],
+      "correct": "2",
+      "solution": "Impulse = Force × Time\n\n= (Mass × Acceleration)× Time\n\n = ( {{{Mass}} times frac{{{{Velocity}}}}{{{{Time}}}}} ) times {{Time}}\n\n= ( {{{Mass}} times frac{{{{Distance}}}}{{{{Time}} times {{Time}}}}} ) times {{Time}}\n\n= frac{{{{Mass }} times {{Distance}}}}{{{{Time}}}}\n\n= [M][L][T⁻¹]\n\nMomentum= Mass × Velocity\n\n= frac{{{{Mass }} times {{Distance}}}}{{{{Time}}}}\n\n= [M][L][T⁻¹]\n\nTherefore, impulse and momentum dimensions are the same.",
+      "tags": [
+        "Physics"
+      ]
+    },
+    {
+      "qid": "5d4ad5c1fdb8bb4cf6d684b1",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Polity",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which one of the following Schedules to the Constitution of India provides for setting up of Autonomous District Councils?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Third Schedule"
+        },
+        {
+          "label": "2",
+          "text": "Fourth Schedule"
+        },
+        {
+          "label": "3",
+          "text": "Fifth Schedule"
+        },
+        {
+          "label": "4",
+          "text": "Sixth Schedule"
+        }
+      ],
+      "correct": "4",
+      "solution": "__**Sixth schedule**__ under the Indian Constitution provides for **10 Autonomous District Councils** in **4 states**.\n\n \n• The states are **Assam, Tripura, Meghalaya,** and **Mizoram**.\n \n• **Article 244** deals with the **administration of tribal areas** in states under the sixth schedule.\n \n• The **Fifth Schedule** is concerned with Scheduled Areas as declared by the President - Article 244(1)\n \n• The **Fourth Schedule** is concerned with the allocation of seats in the Rajya Sabha.\n \n• The Third Schedule is concerned with the Oath and Affirmations for Union and State Ministers, MPs, MLAs, MLCs, etc.",
+      "tags": [
+        "Polity"
+      ]
+    },
+    {
+      "qid": "5fa9165fc25d9a9df5df98b0",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Ecology and Environment",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following are the impacts of Global Warming?\n\n1. Rise in sea level\n\n2. Melting of glaciers\n\n3. Spread of diseases\n\n4. Bleaching of Coral reefs\n\nSelect the correct answer using the codes given below.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "label": "2",
+          "text": "2 and 3 only"
+        },
+        {
+          "label": "3",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "label": "4",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**1, 2, 3 and 4**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__****Impacts of Global Warming:**\n\n \n• Global warming is the phenomenon of a **continuous increase in temperature near the Earth’s surface.**\n \n• This phenomenon has been witnessed **over the past one or two centuries.**\n \n• This change has **disturbed the climatic pattern of the earth.**\n \n• Global Warming is the **increase in Earth's mean surface temperature because of the impact of greenhouse gases.**\n \n• These gases **absorb longwave radiation and warm the atmosphere,** and this process is called a Greenhouse effect.\n \n• It had led to many changes on the planet, such as a rise in sea level:\n \n \n• Massive** melting of snow and land ice, glaciers**.\n \n• The **elevated heat content **of the oceans. \n \n• Increased humidity results in **disease spread**.\n \n• **Change in the timings of seasonal events.**\n \n• **Bleaching of Coral reefs** and many others.\n \n \n \n• ***Hence option 4 is correct.***",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ecology and Environment"
+      ]
+    },
+    {
+      "qid": "64cb63d242cdd27e7bf1426f",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Polity",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Who holds the authority of transferring judges from one High court to another High Court?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The senior most judge of Supreme Court"
+        },
+        {
+          "label": "2",
+          "text": "The chief justice of India"
+        },
+        {
+          "label": "3",
+          "text": "The President of India"
+        },
+        {
+          "label": "4",
+          "text": "The law minister of India"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct option is __**The President of India.**__ [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• President of India:-\n\n \n \n• The** President of India** holds the authority of** transferring judges **from one High Court to another High Court.\n \n• The president is elected by an electoral college consisting of the elected members of both houses of parliament and the elected members of the legislative assemblies of the states and union territories.\n \n• The president serves a five-year term and can be re-elected .\n \n• The President of India is the** head of the executive branch **of the government of India and is also the **Commander-in-Chief **of the Indian Armed Forces.\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• The **senior most judge of Supreme Court** is responsible for the** appointment of judges** to the Supreme Court.\n \n• The **Chief Justice of India **is responsible for the **administration** of the Supreme Court and the High Courts.\n \n• The **Law Minister of India **is responsible for the formulation and** implementation of laws and policies** related to the legal system of India.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Polity"
+      ]
+    },
+    {
+      "qid": "67c83cc5612afd0f5873ae32",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Modern India (National Movement )",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Arrange the following post-World War II political developments in India in chronological order:\n\n1. Cripps Mission\n\n2. Wavell Plan & Shimla Conference\n\n3. August Offer\n\n4. Cabinet Mission",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 - 1 - 2 - 4"
+        },
+        {
+          "label": "2",
+          "text": "3 - 2 - 4 - 1"
+        },
+        {
+          "label": "3",
+          "text": "3 - 2 - 1 - 4"
+        },
+        {
+          "label": "4",
+          "text": "2 - 3 - 1 - 4"
+        }
+      ],
+      "correct": "1",
+      "solution": "**The correct answer is (a) 3 - 1 - 2 - 4**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__**\n\n**Chronological Order of Events:**\n\n \n• **August Offer (1940):**\n\n \n \n• Proposed Dominion Status after the war.\n \n• Rejected by the Congress as it lacked immediate independence guarantees.\n \n \n \n• **Cripps Mission (March 1942):**\n \n \n• Sent by British PM Winston Churchill to secure Indian cooperation in WWII.\n \n• Offered Dominion Status and the right to draft a Constitution post-war.\n \n• Rejected by the Congress; led to the Quit India Movement (August 1942).\n \n \n \n• **Wavell Plan & Shimla Conference (June-July 1945):**\n \n \n• Proposed by Viceroy Lord Wavell to restructure the Viceroy’s Executive Council with an Indian-majority government.\n \n• Failed due to the Muslim League's insistence on being the sole representative of Indian Muslims.\n \n \n \n• **Cabinet Mission (March 1946):**\n \n \n• Sent to frame a plan for India's independence.\n \n• Proposed a Union of India with groupings of provinces.\n \n• Congress and Muslim League initially accepted but later disagreed on interpretations, leading to Partition.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Modern India (National Movement )"
+      ]
+    },
+    {
+      "qid": "67d92b04cbdf8e6ccd51405d",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Indian Geography",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The temperature does not fall beyond freezing point of water in the northern plains of India in winter because:",
+      "options": [
+        {
+          "label": "1",
+          "text": "of the moderating influence of the sea"
+        },
+        {
+          "label": "2",
+          "text": "the Himalayas prevent the cold Siberian winds from entering India"
+        },
+        {
+          "label": "3",
+          "text": "it is far away from Jammu and Kashmir"
+        },
+        {
+          "label": "4",
+          "text": "of western disturbances during the cold winter season"
+        }
+      ],
+      "correct": "2",
+      "solution": "The Correct answer is __**The Himalayas prevent the cold Siberian winds from entering India**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The **Himalayas** act as a natural barrier that prevents the entry of the cold **Siberian winds** from reaching the northern plains of India.\n \n• The cold winds originate from the **Siberian region** of Russia, which experiences extremely low temperatures during winter.\n \n• These winds are responsible for freezing conditions in parts of Central Asia. However, their impact is significantly reduced in India due to the presence of the Himalayas.\n \n• The Himalayas block these winds and help maintain a relatively moderate winter climate in the northern plains of India.\n \n• This natural barrier ensures that the temperature in the northern plains does not drop below the **freezing point of water**.\n \n• The Himalayas also play a crucial role in influencing the overall climate of India, including the monsoons and seasonal variations.\n \n• Without the Himalayas, the northern plains would experience much colder winters, similar to regions in Central Asia.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n__\n \n• **Moderating influence of the sea**__\n\n __\n \n• The northern plains of India are located far away from the coastal regions, so the **influence of the sea** is minimal.\n \n• Coastal areas experience more moderate temperatures due to the thermal properties of water, but this is not applicable to the northern plains.\n \n \n \n• **Far away from Jammu and Kashmir**__\n __\n \n• While Jammu and Kashmir do experience freezing temperatures, their geographical distance from the northern plains does not directly impact the winter conditions in the plains.\n \n• The main factor here remains the presence of the Himalayas, not the proximity to Jammu and Kashmir.\n \n \n \n• **Western disturbances during the cold winter season**__\n \n \n• **Western disturbances** are extratropical storms originating in the Mediterranean region, which bring winter rainfall to northern India.\n \n• These disturbances can cause temperature fluctuations but do not have a significant role in preventing temperatures from falling below freezing.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Indian Geography"
+      ]
+    },
+    {
+      "qid": "68b8213d8e5e8fef462e8285",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Geography (World Geography)",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Day and Nights are caused by\n\n1. rotation of the earth on its axis\n\n2. revolution of the earth around the sun\n\n3. inclination of earth's axis",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only 1 is correct"
+        },
+        {
+          "label": "2",
+          "text": "1 and 2 are correct"
+        },
+        {
+          "label": "3",
+          "text": "2 and 3 are correct"
+        },
+        {
+          "label": "4",
+          "text": "All are correct"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**rotation of the earth on its axis**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• **Day and night** are caused due to the **rotation of the Earth on its axis**.\n \n• The Earth completes one full rotation approximately every **24 hours**, leading to the cycle of day and night.\n \n• The side of the Earth facing the Sun experiences **daytime**, while the opposite side experiences **nighttime**.\n \n• The axis of Earth's rotation is tilted at an angle of **23.5 degrees**, but this tilt does not directly cause day and night; it affects the variation in daylight hours across seasons.\n \n• The revolution of Earth around the Sun and the inclination of Earth's axis contribute to **seasonal changes**, not the day-night cycle.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Rotation:** The spinning of the Earth on its axis, taking approximately 24 hours to complete one rotation.\n \n• **Axis:** An imaginary line passing through the Earth's North and South Poles, around which the Earth rotates.\n \n• **Revolution:** The Earth's orbital movement around the Sun, taking about 365.25 days to complete one revolution.\n \n• **Inclination of Earth's Axis:** The 23.5-degree tilt of the Earth's axis relative to its orbit around the Sun, which causes seasonal variations.\n \n• **Seasonal Impact:** While the Earth's rotation causes day and night, the tilt and revolution influence the length of days and nights over the course of a year, resulting in seasons.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geography (World Geography)"
+      ]
+    },
+    {
+      "qid": "68d67b3569da03993b824895",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Ancient History",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which Gupta emperor was known as the 'Napoleon of India' due to his military conquests and strategic warfare?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Chandragupta I"
+        },
+        {
+          "label": "2",
+          "text": "Samudragupta"
+        },
+        {
+          "label": "3",
+          "text": "Kumaragupta"
+        },
+        {
+          "label": "4",
+          "text": "Skandagupta"
+        }
+      ],
+      "correct": "2",
+      "solution": "The Correct answer is __**Samudragupta**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• **Samudragupta**, a ruler of the Gupta dynasty, is often referred to as the **'Napoleon of India'** because of his remarkable military achievements and strategic warfare skills.\n \n• He undertook extensive military campaigns to expand the Gupta Empire, which covered a major portion of the Indian subcontinent during his reign.\n \n• Samudragupta's conquests included regions in North India, Centra",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ancient History"
+      ]
+    },
+    {
+      "qid": "68de394eea08d4c9b2ee1caf",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Geography (World Geography)",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The Peninsular Plateau of India is one of the oldest landmasses on Earth and was once part of the ancient supercontinent known as ______.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Laurasia"
+        },
+        {
+          "label": "2",
+          "text": "Angaraland"
+        },
+        {
+          "label": "3",
+          "text": "Gondwanaland"
+        },
+        {
+          "label": "4",
+          "text": "Eurasia"
+        }
+      ],
+      "correct": "3",
+      "solution": "The Correct answer is __**Gondwanaland**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The **Peninsular Plateau** of India is one of the **oldest landmasses on Earth**.\n \n• It was once part of the ancient supercontinent called **Gondwanaland**, which existed during the **Late Paleozoic and Mesozoic eras** (approximately 600 million years ago).\n \n• **Gondwanaland** included the landmasses of present-day **South America, Africa, Antarctica, Australia, and the Indian subcontinent.**\n \n• The breakup of Gondwanaland led to the formation of the continents as we know them today, including the **Indian landmass.**\n \n• The **Peninsular Plateau** is characterized by its **stable geological structure**, which includes ancient rocks and formations such as **igneous and metamorphic rocks.**\n \n• This region is known for its rich mineral deposits, including **coal, iron ore, manganese, and bauxite**, which are important for India's economy.\n \n• The plateau has a rugged terrain with prominent features like the **Deccan Plateau, Malwa Plateau, Chotanagpur Plateau, and Vindhya Range.**\n \n• The geological history of Gondwanaland explains the presence of **similar flora, fauna, and fossil records** across the continents that were once part of this supercontinent.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n__\n \n• **Laurasia**__\n\n __\n \n• Laurasia was another ancient supercontinent that existed alongside Gondwanaland.\n \n• It consisted of present-day **North America, Europe, and Asia (excluding the Indian subcontinent).**\n \n• Laurasia and Gondwanaland together formed the larger supercontinent called **Pangaea** before splitting apart.\n \n \n \n• **Angaraland**__\n __\n \n• Angaraland refers to the northern part of Laurasia, primarily comprising **Siberia and other regions in northern Asia.**\n \n• It is geologically distinct from Gondwanaland and is associated with the formation of the **Ural Mountains**.\n \n \n \n• **Eurasia**__\n \n \n• Eurasia is the combined landmass of **Europe and Asia** that exists today.\n \n• It is not an ancient supercontinent but a term used to describe the modern geographical and geopolitical region.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geography (World Geography)"
+      ]
+    },
+    {
+      "qid": "620bce233e133c161e5138da",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Economy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statement regarding GDP deflator:\n\n1. When the GDP deflator is less than unity, nominal GDP is less than real GDP.\n\n2. GDP deflator is available only annually with a long lag over one year and hence has very limited policy use.\n\nWhich of the statement given above is/are correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 only"
+        },
+        {
+          "label": "2",
+          "text": "2 only"
+        },
+        {
+          "label": "3",
+          "text": "Both 1 and 2"
+        },
+        {
+          "label": "4",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**1 only**__.\n\n__** [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] Key Points__****GDP deflator:**\n\n \n• The ratio of nominal to real GDP is called GDP Deflator.\n \n• It is a more **comprehensive measure of inflation.**\n \n• The GDP deflator, also called implicit price deflator, is a measure of inflation.\n \n• It is the **ratio** of the **value of goods and services an economy** produces in a particular year** at current prices t**o that of prices that prevailed during the **base year.**\n \n• **GDP deflector is not formed on a fixed basket of goods and services.**\n \n• This ratio helps show the extent to which the increase in the gross domestic product has happened on account of higher prices rather than an increase in output.\n \n• The deflator is a more comprehensive measure of inflation because it covers the entire range of goods and services produced in the economy.\n \n• The **formula** to find the GDP price deflator:\n \n \n• GDP price deflator =** (nominal GDP ÷ real GDP) x 100. **\n \n• When** nominal GDP is less than real GDP**, then GDP deflator is** less than unity **and it means there is **deflation in the country. ***Hence, statement 1 is correct.*\n \n \n \n• **GDP deflator is available only on a quarterly basis** along with GDP estimates. ***Hence, statement 2 is incorrect.***\n \n• Changes in consumption patterns or the introduction of goods and services are automatically reflected in the GDP deflator.\n \n• This allows the GDP deflator to absorb changes to an economy’s consumption or investment patterns.\n \n• Often, the trends of the GDP deflator will be similar to that of the CPI.\n \n• It is useful in identifying the inflated price levels and by how much over a specific period of time.\n \n• It includes goods and services produced domestically i.e. India. It does not include other goods or services produced outside the country.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Economy"
+      ]
+    },
+    {
+      "qid": "629dba1472d8e2cd17373d1a",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Economy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "With reference to foreign-owned e-commerce firms operating in India, which of the following statements is/are correct?\n\n1. They can sell their own goods in addition to offering their platforms as market-places.\n\n2. The degree to which they can own big sellers on their platforms is limited.\n\nSelect the correct answer using the code given below:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 only"
+        },
+        {
+          "label": "2",
+          "text": "2 only"
+        },
+        {
+          "label": "3",
+          "text": "Both 1 and 2"
+        },
+        {
+          "label": "4",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**Neither 1 nor 2**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__****E-commerce Rules -2020**\n\n \n• **The Consumer Protection (E-Commerce) Rules, 2020, notified on July 23, regulate all commercial transactions involving goods or services, sold over a digital or electronic network by retailers in India or overseas to consumers in India.**\n \n• The e-com rules currently recognise two e-commerce business models, namely, the **marketplace model **and the** inventory-based model**.\n \n• While regulating e-commerce entities, the rules have separate specified provisions for the marketplace- and inventory-based entities, and for sellers who sell on the platform operated by a marketplace e-commerce entity.\n \n• **The rules barred online marketplaces from holding inventory of their own or influencing the price of goods on their platforms.**\n \n• They also prohibited group companies or entities in which marketplaces have control of inventory to sell on their platforms, among other things.\n \n• **E-commerce companies must ensure none of their \"related parties and associated enterprises\" are listed as sellers on their shopping websites, **and no related entity should sell goods to an online seller operating on the same platform.*** Hence, Statement 1 is not correct.***\n \n• **AS per e-commerce rules 2022, **Every marketplace e-commerce entity shall— **ensure that none of its related parties and associated enterprises are enlisted as sellers for sale to consumers directly**. \n \n• **The degree to which they can own big sellers on their platforms is zero (and not limited).** **Hence** **This statement is not correct.** The Indian government has placed restrictions on e-commerce companies from selling products of companies in which they have an equity interest or control over the inventory.\n \n• Furthermore, no single seller or group of sellers is allowed to account for more than a certain percentage of the total sales on the platform (25%), ensuring fair competition among all vendors.\n \n• These rules are designed to prevent predatory practices, ensure fair competition, and protect the interests of domestic sellers on e-commerce platforms.\n \n• It's important to note that regulations in this area are subject to change, so it's advisable to consult the most current information or legal guidelines for the latest regulations.***Hence statement 2 is not correct.***",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Economy"
+      ]
+    },
+    {
+      "qid": "681b938c3ea664b4034105c3",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Government Policies and Schemes        ",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following schemes aims to benefit the minority youths who do not have a formal school leaving certificate?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Nai Manzil"
+        },
+        {
+          "label": "2",
+          "text": "Mission Karmayogi"
+        },
+        {
+          "label": "3",
+          "text": "Nai Roshini"
+        },
+        {
+          "label": "4",
+          "text": "Pradhan Mantri Jan Vikas Karyakram(PMJVK)"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**Nai Manzil**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• **Nai Manzil** is a scheme launched by the Government of India to provide education and skill training to minority youth who lack formal school leaving certificates.\n \n• The scheme aims to integrate minority youth into mainstream education and employment by bridging their academic and skill gaps.\n \n• It offers bridge courses equivalent to Class 8 or 10 from recognized institutions such as National Institute of Open Schooling (NIOS) or other state boards.\n \n• In addition to education, the program focuses on skill development in various trades to enhance employability.\n \n• The scheme is implemented through various project implementing agencies (PIAs) and has specific targets for women and marginalized groups within minority communities.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Target Beneficiaries:** The scheme is aimed at minority communities, including Muslims, Christians, Sikhs, Buddhists, Parsis, and Jains, with a special focus on youth aged 17–35 years.\n \n• **Skill Development:** The training programs under Nai Manzil are aligned with National Skills Qualification Framework (NSQF) to ensure quality and standardization.\n \n• **Funding:** The scheme is funded by the Ministry of Minority Affairs and partially supported by the World Bank.\n \n• **Gender Inclusion:** At least 30% of the beneficiaries under the Nai Manzil scheme must be women to promote gender equity.\n \n• **Implementation:** The scheme is executed through partnerships with educational and vocational institutions, ensuring that the beneficiaries receive both academic qualifications and employable skills.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Government Policies and Schemes        "
+      ]
+    },
+    {
+      "qid": "682c1d24ffaa10151abd1ae1",
+      "n": 13,
+      "type": "mcq",
+      "concept": "India and World",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Who among the following has recently begun a three-nation visit to the Netherlands, Denmark, and Germany?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Narendra Modi"
+        },
+        {
+          "label": "2",
+          "text": "Dr. S. Jaishankar"
+        },
+        {
+          "label": "3",
+          "text": "Amit Shah"
+        },
+        {
+          "label": "4",
+          "text": "Nirmala Sitharaman"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**Dr. S. Jaishankar.**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/7a63139f3b57ffe3814d27f8dcaee8cb420142f7146b480d479d526074519671.png] **__In News__**\n\n__\n \n• **External Affairs Minister Dr. S. Jaishankar begins a three-nation visit to the Netherlands, Denmark, and Germany.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **Key Points__**\n\n__\n \n• **Dr. S. Jaishankar is on a visit to the Netherlands, Denmark, and Germany from May 20, 2025, to enhance bilateral and multilateral ties.**\n \n• He will hold meetings with foreign ministers and leaders of the respective countries.\n \n• Discussions will focus on trade, investment, regional and global cooperation.\n \n• The visit is expected to strengthen India’s strategic partnerships with the EU region.\n \n• Special focus will also be given to technology, green energy, and diaspora engagement.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n__\n \n• Ministry of External Affairs (MEA)__\n\n __\n \n• Headquarters – New Delhi\n \n• Minister – Dr. Subrahmanyam Jaishankar\n \n• India’s top diplomat responsible for foreign policy and international relations\n \n \n \n• Germany__\n __\n \n• Capital – Berlin\n \n• Chancellor – Olaf Scholz\n \n \n \n• Denmark__\n __\n \n• Capital – Copenhagen\n \n• Prime Minister – Mette Frederiksen\n \n \n \n• Netherlands__\n \n \n• Capital – Amsterdam (official), The Hague (administrative)\n \n• Prime Minister – Mark Rutte",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7a63139f3b57ffe3814d27f8dcaee8cb420142f7146b480d479d526074519671.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "India and World"
+      ]
+    },
+    {
+      "qid": "690b57f8f41e471fbf8c63b6",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Indexes and Reports",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the name of the NITI Aayog report projecting India’s bioeconomy sector to reach $300 billion by 2030?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Reimagining Agriculture: A Roadmap for Sustainable Agricultural Growth"
+        },
+        {
+          "label": "2",
+          "text": "Reimagining Agriculture: A Blueprint for Technology-Driven Transformation"
+        },
+        {
+          "label": "3",
+          "text": "Reimagining Agriculture: A Roadmap for Frontier Technology Led Transformation"
+        },
+        {
+          "label": "4",
+          "text": "Reimagining Agriculture: Strategic Roadmap for Frontier Technology in Agriculture"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**Reimagining Agriculture: A Roadmap for Frontier Technology Led Transformation.**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/7a63139f3b57ffe3814d27f8dcaee8cb420142f7146b480d479d526074519671.png] **__In News__**\n\n \n• **NITI Aayog released the report “Reimagining Agriculture: A Roadmap for Frontier Technology Led Transformation,” projecting India’s bioeconomy sector to reach USD 300 billion by 2030.**\n\n<img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=&quo",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7a63139f3b57ffe3814d27f8dcaee8cb420142f7146b480d479d526074519671.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Indexes and Reports"
+      ]
+    },
+    {
+      "qid": "6076f3e9b235f7ee53931ca7",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Modern India (National Movement )",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What was the direct cause of the rise of Extremism in the Indian National Movement?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The Govt. did not pay heed to moderates."
+        },
+        {
+          "label": "2",
+          "text": "Oppression by the Britishers on the Indians."
+        },
+        {
+          "label": "3",
+          "text": "The Partition of Bengal."
+        },
+        {
+          "label": "4",
+          "text": "Rise of revolutionary terrorism."
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**The Partition of Bengal**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png] **__Important Points__**\n\n__\n \n• The **Partition of Bengal** was the direct cause of the **Rise of Extremism in the Indian National Movement**.\n \n• The **partition of Bengal in 1905** opened the eyes of the Indians to the true colors of the British rulers.\n \n• The extremist leaders were also influenced by the growth of spiritual nationalism at that time.\n \n• The extremist goal was **‘swaraj’**.\n \n• Extremist leaders are **Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal, Aurobindo Ghosh, Rajnarayan Bose, A K Dutt, V O C Pillai**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• The Partition of Bengal was the decision of separating **eastern parts of Bengal from the rest of Bengal**.\n \n• On **20th July 1905**, **Lord Curzon** announced the partition of the undivided Bengal Presidency.\n \n• The Presidency was the most populous province in India, with around 8 crore people, and comprised the present-day states of West Bengal, Bihar, Jharkhand, parts of Chhattisgarh, Odisha, and Assam, as well as today’s Bangladesh.\n \n• **It was partitioned due to following reason**\n \n \n• To break the growing strength of Bengali nationalism since Bengal was the base of Indian nationalism.\n \n• To divide the Hindus and Muslims in Bengal.\n \n• To show the enormous power of the British Government is doing whatever it liked.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Modern India (National Movement )"
+      ]
+    },
+    {
+      "qid": "6263b4ad0f2f9473356b902c",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Economy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following is defined as the ratio of liquid assets to net demand and time liabilities?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cash Debt Ratio"
+        },
+        {
+          "label": "2",
+          "text": "Asset Liability Ratio"
+        },
+        {
+          "label": "3",
+          "text": "Statutory Liquidity Ratio"
+        },
+        {
+          "label": "4",
+          "text": "Cash Reserve Ratio"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is the** **__**Statutory Liquidity Ratio.**__ [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Statutory liquidity ratio (SLR**) is the reserve requirement that commercial banks in India are required to maintain in the form o**f cash, gold reserves, and government-approved securities** before providing credit to customers. \n \n• When SLR is reduced, banks have more money to lend which may lead to a **decrease in lending rates.**\n \n• By changing the level of SLR, the **Reserve Bank of India can increase or decrease bank credit expansion.**\n \n• By reducing the level of SLR, the R**BI can increase liquidity with commercial banks, resulting in increased investment.**\n \n• This is done to** fuel growth and demand.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Corporate social responsibility(CSR)**.\n \n• The title corporate social **responsibility** has two meanings, First, it’s a general name for any theory of the corporation that emphasizes both the responsibility to make money and the responsibility to interact ethically with the **surrounding community.**\n \n• Corporate social responsibility is also a specific conception of that responsibility to profit while playing a role in broader questions of community welfare, Corporate social responsibility is composed of** four obligations.**\n \n \n• **Ecological responsibility**\n \n• **Legal responsibility**\n \n• **Social responsibility**\n \n• **Philanthropic responsibility **",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Economy"
+      ]
+    },
+    {
+      "qid": "6836ab012929501e5fc9d44c",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Sports",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statements regarding the **Archery World Cup 2025**:\n\nStatement 1: The Archery World Cup Stage 2 was held in Shanghai, China.\n\nStatement 2: India finished second in the overall medal tally with 2 Gold, 1 Silver, 4 Bronze, just behind China, which won five gold medals compared to India’s two.\n\nWhich of the above statements is/are ***CORRECT***?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Only Statement 2"
+        },
+        {
+          "label": "3",
+          "text": "Both Statement 1 and Statement 2"
+        },
+        {
+          "label": "4",
+          "text": "Neither Statement 1 nor Statement 2"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**Only Statement 1.**__\n\n__\n \n• **Statement 1 is correct:** The Archery World Cup Stage 2 was indeed held in** Shanghai, China.**\n \n• **Statement 2 is incorrect:** India finished second in the medal tally, just behind **South Korea**, not China, which won five gold medals compared to India’s three.\n\n [IMAGE: https://cdn.repeatermock.com/tb/7a63139f3b57ffe3814d27f8dcaee8cb420142f7146b480d479d526074519671.png] **In News__** \n\n__\n \n• **India secured 7 medals at the Archery World Cup Stage 2 in Shanghai, marking one of its best performances at the event.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **Key Points__** \n\n__\n \n• **Venue:** The Archery World Cup Stage 2 was hosted in Shanghai, China.\n \n• Medal Tally: India won 14 medals, including three gold, four silver and seven bronze from the four Archery World Cup stages this year.\n \n• **Top Competitor:** **South Korea topped the medal tally** with 5 Gold medals.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__** \n\n__\n \n• **Archery World Cup:** An annual series of archery competitions organized by World Archery Federation.\n \n• **Medal Highlights:** India’s medals included individual and team events in recurve and compound categories.\n\n**Notable Medalists:**__\n\n \n• **Deepika Kumari:**\n\n \n \n• Bronze in Women’s Individual Recurve.\n \n• Defeated South Korea’s Kang Chae-young 7-3 in the bronze medal match.\n \n• This was her 37th World Cup medal, solidifying her status as one of India’s most decorated archers.\n \n \n \n• **Parth Salunkhe:**\n \n \n• Bronze in Men’s Individual Recurve.\n \n• Defeated France’s Baptiste Addis 6-4 in the bronze medal match.\n \n• This was his first senior-level World Cup medal, following his U21 World Champion title.\n \n \n \n• **Madhura Dhamangaonkar:**\n \n \n• Gold in Women’s Individual Compound.\n \n• Won the final against the USA’s Carson Krahe with a score of 139-138.\n \n \n \n• **Indian Men’s Compound Team** (Ojas Deotale, Abhishek Verma, Rishabh Yadav):\n \n \n• Gold in Men’s Compound Team Event.\n \n• Defeated Mexico in the final 232-228.\n \n \n \n• **Women’s Compound Team:**\n \n \n• Silver Medal.\n \n \n \n• **Mixed Compound Team** (Abhishek Verma & Madhura Dhamangaonkar):\n \n \n• Bronze Medal.\n \n \n \n• **Rishabh Yadav:**\n \n \n• Bronze in Men’s Individual Compound.​",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7a63139f3b57ffe3814d27f8dcaee8cb420142f7146b480d479d526074519671.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Sports"
+      ]
+    },
+    {
+      "qid": "6975e6dd699be20b312f4475",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Books and Authors",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statements regarding the book “The Algebra of Infinite Justice” by Arundhati Roy:\n\n1. The book is a collection of non-fiction essays dealing with global politics, state power, and social justice.\n\n2. It is a fictional novel published after 2010 that focuses on imaginary political characters.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only 1"
+        },
+        {
+          "label": "2",
+          "text": "Only 2"
+        },
+        {
+          "label": "3",
+          "text": "Both 1 and 2"
+        },
+        {
+          "label": "4",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**Only 1**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The Algebra of Infinite Justice consists of **political and social essays** addressing real-world issues.\n \n• The book engages with topics such as **imperialism, nuclear nationalism, war politics, and civil liberties.**\n \n• It was **published in 2002**, placing it in the early phase of Arundhati Roy’s non-fiction writing.\n \n• The author of the book is** Arundhati Roy**, an Indian writer and political essayist.\n \n• Arundhati Roy received the** Man Booker Prize in 1997** for her novel The God of Small Things.\n \n• The book is considered a significant work in contemporary political non-fiction literature.\n\n<span style=\"",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Books and Authors"
+      ]
+    },
+    {
+      "qid": "61629b500ee9eaaf6a073af9",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Polity",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "With reference to India, consider the following statements :\n\n1. There is only one citizenship and one domicile.\n\n2. A citizen by birth only can become the Head of State.\n\n3. A foreigner once granted the citizenship cannot be deprived of it under any circumstances.\n\nWhich of the statements given above is/are correct ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 only"
+        },
+        {
+          "label": "2",
+          "text": "2 only"
+        },
+        {
+          "label": "3",
+          "text": "1 and 3"
+        },
+        {
+          "label": "4",
+          "text": "2 and 3"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**1 only**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **A person cannot have more than one domicile**. \n\n \n \n• ​The Constitution of India does not allow holding Indian citizenship and citizenship of a foreign country simultaneously. *Hence, Statement 1 is correct.*\n \n \n \n• In India, both a citizen by birth as well as a naturalized citizen is eligible for the office of President.\n \n \n• W**hile in the USA,** only a citizen by birth and not a naturalized citizen is eligible for the office of President. *Hence, Statement 2 is not correct.*\n \n \n \n• The Citizenship Act, 1955:\n \n \n• It **prescribes** **three ways** of** losing citizenship** whether acquired under the Act or before it under the Constitution, **viz, renunciation, termination, and deprivation****.** *Hence, Statement 3 is not correct.*\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Citizenship in India :**\n\n \n \n• The **Citizenship Act **offers other categories of citizenship like Citizenship by Registration (Section 5) and Citizenship by Naturalisation (Section 6).\n \n• Citizenship is listed in the **Union List** under the Constitution and thus is under the **exclusive jurisdiction of Parliament.**\n \n• The **Constitution does not define the term ‘citizen’** but details of various categories of persons who are entitled to citizenship are given in **Part 2 (Articles 5 to 11).**\n \n• Article 11: It empowers Parliament to make any provision concerning the acquisition and termination of citizenship and all matters relating to it.\n \n• There are four ways in which Indian citizenship can be acquired: birth, descent, registration, and naturalization. The provisions are listed under the Citizenship Act, 1955.\n \n• The Act does not provide for dual citizenship or dual nationality. It only allows citizenship for a person listed under the provisions above ie: by birth, descent, registration, or naturalization.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Polity"
+      ]
+    },
+    {
+      "qid": "696754c582c63ecdf08738e4",
+      "n": 20,
+      "type": "mcq",
+      "concept": "National Affairs",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Under the Bharatiya Nyaya Sanhita, 2023 (BNS), who can be held liable for abetment of an offense?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only a person who helps physically"
+        },
+        {
+          "label": "2",
+          "text": "Anyone who aids, counsels, or instigates the offense"
+        },
+        {
+          "label": "3",
+          "text": "Only persons who are present at the scene"
+        },
+        {
+          "label": "4",
+          "text": "Only the person who directly commits the crime"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**Anyone who aids, counsels, or instigates the offense**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• Under the Bharatiya Nyaya Sanhita (BNS), 2023, **abetment of an offense** includes aiding, counseling, or instigating the commission of a crime.\n \n• The term \"abetment\" is defined broadly to encompass both direct and indirect involvement in encouraging or facilitating a crime.\n \n• A person can be held liable for abetment even if they are not physically present at the crime scene but have contributed to its commission through advice, encouragement, or other means.\n \n• The BNS, 2023, replaces the Indian Penal Code (IPC) and retains the concept of abetment, which was earlier encapsulated in Section 107 of the IPC.\n \n• This provision ensures accountability for individuals who play a role in the planning or instigation of crimes, even if they do not physically execute the act themselves.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Option 1: Only a person who helps physically**\n \n \n• This is incorrect. Abetment is not limited to physical assistance; it also includes emotional or intellectual support, such as giving advice or encouragement.\n \n• Physical help may be a form of abetment, but it is not the only criterion under the law.\n \n \n \n• **Option 3: Only persons who are present at the scene**\n \n \n• Being present at the crime scene is not a mandatory condition for abetment.\n \n• Individuals can be held liable for abetment even if they are not physically present but have contributed to the offense through their actions or words.\n \n \n \n• **Option 4: Only the person who directly commits the crime**\n \n \n• This is incorrect because abetment focuses on those who assist, instigate, or encourage the commission of a crime, not just the primary perpetrator.\n \n• The person who directly commits the crime is the principal offender, while those who aid or instigate are abettors.\n \n \n \n• **About Bharatiya Nyaya Sanhita (BNS), 2023**\n \n \n• The BNS, 2023, is a proposed legislation that seeks to replace the Indian Penal Code (IPC), which has been in effect since 1860.\n \n• It aims to modernize criminal laws in India, making them more relevant to contemporary societal needs.\n \n• The new code emphasizes justice, accountability, and deterrence while retaining several essential principles from the IPC.\n \n• Key provisions under the BNS include updated definitions of crimes, streamlined procedures, and a focus on victim-centric justice.\n \n \n</ul",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "National Affairs"
+      ]
+    },
+    {
+      "qid": "698499ed1982f3f2d5fab5f2",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Books and Authors",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Who wrote the doctoral thesis \"Himalayan Polyandry\"?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Shanta Kumar"
+        },
+        {
+          "label": "2",
+          "text": "Yashpal"
+        },
+        {
+          "label": "3",
+          "text": "Dr. Yashwant Singh Parmar"
+        },
+        {
+          "label": "4",
+          "text": "Chandradhar Sharma Guleri"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**Dr. Yashwant Singh Parmar**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Dr. Yashwant Singh Parmar** was the first **Chief Minister of Himachal Pradesh**.\n \n• He was a noted **politician, social worker, and writer**.\n \n• His doctoral thesis, titled \"**Himalayan Polyandry**,\" is a significant contribution to the study of **sociology and anthropology**.\n \n• The thesis explores the **polyandrous marital practices** prevalent in certain parts of the Himalayan region.\n \n• It provides insights into the **cultural and social dynamics** of the communities practicing polyandry.\n \n• Dr. Parmar worked extensively to improve the **socio-economic conditions** of the people of Himachal Pradesh.\n \n• He is remembered as the **architect of modern Himachal Pradesh** for his contributions to the state's development and formation.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n__\n \n• **Shanta Kumar**__\n __\n \n• **Shanta Kumar** is a prominent Indian politician and a member of the **Bharatiya Janata Party (BJP).**\n \n• He served as the **Chief Minister of Himachal Pradesh** and held various important positions in the government.\n \n• Shanta Kumar is also known for his contributions to **literature** and has written several books.\n \n \n \n• **Yashpal**__\n __\n \n• **Yashpal** was a renowned **Hindi writer** and **novelist**.\n \n• He is known for his works in the field of **progressive literature**, focusing on social and political issues.\n \n• His famous works include \"**Divya**\" and \"**Jhootha Sach**.\"\n \n \n \n• **Chandradhar Sharma Guleri**__\n \n \n• **Chandradhar Sharma Guleri** was an eminent **Hindi writer**, poet, and scholar.\n \n• He is best remembered for his short story \"**Usne Kaha Tha**,\" which is considered a milestone in modern Hindi literature.\n \n• Guleri was also a **linguist** and contributed significantly to the study of Hindi language and literature.\n \n \n</ul",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Books and Authors"
+      ]
+    },
+    {
+      "qid": "63345789b89cc5e4a2d98284",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Biology",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "_______ set of animals are cold blooded.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Crow, Earthworm, Frog"
+        },
+        {
+          "label": "2",
+          "text": "Frog, Crow, Whale"
+        },
+        {
+          "label": "3",
+          "text": "Penguin, Salamander, Monkey"
+        },
+        {
+          "label": "4",
+          "text": "Rohu, Frog, Cobra"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**option 4**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/32b27231e6c3917ef28dd12ac1e13c6e3770d13df9580dd1e0f3bd98f9db1d1d.png] **__KeyPoints__**\n\n__\n \n• **Rohu** belongs to the **fish** species, Phylum** Chordata**.\n\n \n \n• Fishes are all **marine animals, cold-blooded, and lay eggs in water.**\n \n• They breathe through their **gills.**\n \n \n \n• **Frog** belongs to the** amphibian** species, Phylum **Chordata.**\n \n \n• Amphibians can **live on land as well as water**, cold-blooded.\n \n• Breathe through** both lungs and gills**.\n \n \n \n• **Cobra** belongs to the** reptile** species, Phylum **Chordata**.\n \n \n• **Reptiles have scales, and are cold-blooded**.\n \n• **Have lungs and lay eggs on land.**\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/530041a3378d5aa96ce12e5b297eda6e8b96aea1382273d6dfac99cf115f611f.png] **Additional Information__**\n\n \n• **Cold-blooded** animals are the ones whose** body temperature changes** with the temperature of the surroundings.\n\n \n \n• ​Their body cannot generate heat.\n \n \n \n• **Warm-blooded** animals are the ones whose** body temperature stays constant** with the surrounding's temperature.\n \n \n• ​Their body generates heat.\n \n \n\n57",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/32b27231e6c3917ef28dd12ac1e13c6e3770d13df9580dd1e0f3bd98f9db1d1d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/530041a3378d5aa96ce12e5b297eda6e8b96aea1382273d6dfac99cf115f611f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Biology"
+      ]
+    },
+    {
+      "qid": "6025325036eb25fa7bfde401",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Art and Culture",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statements about Brahadeeshwarar temple.\n\n1. It is a Shiva temple at Thanjavur and also called as the Rajarajeswara temple.\n\n2. It was completed by Karikalan Chola I.\n\nWhich among the above statements is/are correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 only"
+        },
+        {
+          "label": "2",
+          "text": "2 only"
+        },
+        {
+          "label": "3",
+          "text": "Both 1 and 2"
+        },
+        {
+          "label": "4",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**1 only**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The** Shiva temple of Thanjavur is also called the Rajarajeswara or Brahadeeshwarar temple**. Hence, **statement 1 is correct**.\n \n• It was **completed around 1009 by Rajaraja Chola**. Hence, **statement 2 is not correct**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• Temple building was prolific at this time, and over a hundred important temples of the Chola period are in a good state of preservation.\n \n• **This temple is bigger in scale than anything built by their predecessors, the Pallavas, Chalukyas or Pandyas**.\n \n• This temple's **pyramidal multi-storeyed **vimana rises a massive, 70-metre structure topped by a monolithic shikhara which is an octagonal dome-shaped stupika.\n \n• It is in this temple that one notices for the first time two large **gopuras (gateway towers)** with an elaborate sculptural programme which was conceived along with the temple.\n \n• Huge Nandi figures are also found the corners of the shikhara, and the kalasha on top by itself is about three metres and eight centimetres in height.\n \n• Hundreds of stucco figures decorate the **vimana,** although it is possible that some of these may have been added on during the Maratha Period and did not always belong to the Chola Period.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Art and Culture"
+      ]
+    },
+    {
+      "qid": "6874220044aec8d73f5f87fe",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Appointments and Resignations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Who among the following has been appointed as 26th Chief Election Commissioner of India in February 2025?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Vineet Joshi"
+        },
+        {
+          "label": "2",
+          "text": "Ashish Naithani"
+        },
+        {
+          "label": "3",
+          "text": "Sanjay Malhotra"
+        },
+        {
+          "label": "4",
+          "text": "Gyanesh Kumar"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**Gyanesh Kumar**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• **Gyanesh Kumar** was appointed as the **26th Chief Election Commissioner of India** in February 2025.\n \n• He succeeded **Rajiv Kumar**, who served as the 25th Chief Election Commissioner.\n \n• The Chief Election Commissioner is responsible for ensuring **free and fair elections** in India, including parliamentary, state assembly, and presidential elections.\n \n• Gyanesh Kumar is an experienced IAS officer with a career spanning decades in public administration and governance.\n \n• The Election Commission of India is a **constitutional body** established under Article 324 of the Indian Constitution to oversee the election process in the country.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Election Commission of India (ECI):**\n\n \n \n• The ECI is an autonomous constitutional authority responsible for administering elections in India.\n \n• It was established on **25th January 1950**, and this day is celebrated as National Voters' Day in India.\n \n• The commission consists of the Chief Election Commissioner and two Election Commissioners.\n \n \n \n• **Chief Election Commissioner (CEC):**\n \n \n• The CEC is appointed by the President of India and has a tenure of **6 years or up to the age of 65 years**, whichever is earlier.\n \n• The CEC can only be removed through **impeachment by Parliament**, similar to the process for removing a Supreme Court judge.\n \n \n \n• **Role of the Election Commission:**\n \n \n• Conducts elections to the Lok Sabha, Rajya Sabha, and State Legislatures.\n \n• Oversees elections for the offices of the President and Vice-President of India.\n \n• Ensures implementation of the Model Code of Conduct during elections.\n \n• Regulates political parties and monitors their expenditure.\n \n \n \n• **Recent Electoral Reforms:**\n \n \n• Introduction of Voter Verifiable Paper Audit Trail (VVPAT) for transparency in elections.\n \n• Linking of Aadhaar with voter IDs to eliminate duplicate entries in the electoral roll.\n \n• Extension of postal ballot facilities to senior citizens and Persons with Disabilities (PwDs).",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Appointments and Resignations"
+      ]
+    },
+    {
+      "qid": "67599491013df064ff5aa869",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Chemistry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What type of reaction occurs when limestone gets converted into quicklime on heating?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Decomposition"
+        },
+        {
+          "label": "2",
+          "text": "Combination"
+        },
+        {
+          "label": "3",
+          "text": "Displacement"
+        },
+        {
+          "label": "4",
+          "text": "Double displacement"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**Decomposition**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• Limestone (CaCO₃) decomposes into quicklime (CaO) and carbon dioxide (CO₂) when heated.\n \n• This type of reaction is known as a thermal decomposition reaction.\n \n• In a decomposition reaction, a single compound breaks down into two or more simpler substances.\n \n• Thermal decomposition usually requires the input of heat energy.\n \n• Quicklime (CaO) is widely used in the construction industry and for making cement.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Combination Reaction**\n\n \n \n• Involves two or more substances combining to form a single compound.\n \n• Example: 2H₂ + O₂ → 2H₂O (Formation of water from hydrogen and oxygen).\n \n \n \n• **Displacement Reaction**\n \n \n• Involves an element displacing another element from a compound.\n \n• Example: Zn + CuSO₄ → ZnSO₄ + Cu (Zinc displaces copper from copper sulfate).\n \n \n \n• **Double Displacement Reaction**\n \n \n• Involves the exchange of ions between two compounds to form new compounds.\n \n• Example: Na₂SO₄ + BaCl₂ → 2NaCl + BaSO₄ (Sodium sulfate reacts with barium chloride).\n \n \n\n69:Tf55,\n<p&g",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Chemistry"
+      ]
+    }
+  ]
+}

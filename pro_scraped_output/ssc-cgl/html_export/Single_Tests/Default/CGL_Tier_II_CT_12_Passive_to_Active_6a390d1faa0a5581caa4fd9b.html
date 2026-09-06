@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CGL Tier II CT 12: Passive to Active</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.6;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,0.04);position:sticky;top:0;z-index:100;}
+.brand{font-size:20px;font-weight:800;letter-spacing:-0.02em;}
+.brand-light{color:#1f2937;}
+.brand-mark{color:#1fbad6;}
+.test-title{font-size:14px;color:#4b5563;font-weight:500;text-align:center;flex:1;padding:0 24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.header-right{display:flex;align-items:center;gap:12px;}
+.timer{background:#1f2937;color:#fff;padding:8px 16px;border-radius:6px;font-family:"SF Mono",Monaco,monospace;font-size:16px;font-weight:600;min-width:110px;text-align:center;}
+.timer.warning{background:#f59e0b;}
+.timer.danger{background:#ef4444;animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.7;}}
+.header-btn{background:#1fbad6;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s;}
+.header-btn:hover{background:#1999b3;}
+.submit-btn{background:#ef4444;}
+.submit-btn:hover{background:#dc2626;}
+.meta-bar{background:#fff;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;flex-wrap:wrap;gap:12px 32px;font-size:13px;}
+.meta-item{display:flex;flex-direction:column;gap:2px;}
+.meta-label{color:#6b7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+.meta-value{color:#1f2937;font-size:14px;font-weight:600;}
+.test-container{display:flex;max-width:1400px;margin:0 auto;gap:16px;padding:16px;}
+.question-area{flex:1;min-width:0;}
+.section-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.section-tab{background:#fff;border:1px solid #e5e7eb;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;color:#4b5563;}
+.section-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.question-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.q-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #f3f4f6;}
+.q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.q-marks{display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap;}
+.q-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.q-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.conf-high{background:#d1fae5;color:#065f46;}
+.conf-unidentified{background:#fef3c7;color:#92400e;}
+.q-id{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;}
+.result-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-qid{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;margin-left:auto;}
+.mark-pos{color:#10b981;font-weight:600;}
+.mark-neg{color:#ef4444;font-weight:600;}
+.q-lang-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.q-lang-tab{background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer;}
+.q-lang-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.q-text{font-size:15px;margin-bottom:16px;}
+.q-text p{margin:8px 0;}
+.q-text img{max-width:100%;height:auto;border-radius:4px;}
+.options-list{list-style:none;}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;margin-bottom:8px;border:1.5px solid #e5e7eb;border-radius:6px;cursor:pointer;transition:all .15s;font-size:14px;}
+.option-item:hover{background:#f9fafb;border-color:#d1d5db;}
+.option-item.selected{background:#dbeafe;border-color:#3b82f6;}
+.option-item.correct{background:#d1fae5;border-color:#10b981;}
+.option-item.wrong{background:#fee2e2;border-color:#ef4444;}
+.option-label{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;background:#1f2937;color:#fff;border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0;}
+.option-item.selected .option-label{background:#3b82f6;}
+.option-item.correct .option-label{background:#10b981;}
+.option-item.wrong .option-label{background:#ef4444;}
+.option-item.correct::after{content:" ✓ Correct";color:#10b981;font-weight:700;margin-left:auto;}
+.option-item.wrong::after{content:" ✗ Wrong";color:#ef4444;font-weight:700;margin-left:auto;}
+.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+.action-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.action-btn:hover{background:#f9fafb;}
+.action-btn.save-next{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.action-btn.save-next:hover{background:#1999b3;}
+.action-btn.mark-review{background:#fef3c7;color:#92400e;border-color:#f59e0b;}
+.prev-next{display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #f3f4f6;}
+.nav-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.nav-btn:hover{background:#f9fafb;}
+.palette-sidebar{width:280px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start;background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;max-height:calc(100vh - 110px);overflow-y:auto;}
+.palette-header{font-size:14px;font-weight:700;color:#1f2937;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f3f4f6;}
+.palette-legend{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10px;color:#6b7280;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:3px;}
+.legend-dot{width:12px;height:12px;border-radius:2px;}
+.legend-dot.answered{background:#10b981;}
+.legend-dot.notanswered{background:#ef4444;}
+.legend-dot.marked{background:#a855f7;}
+.legend-dot.notvisited{background:#e5e7eb;}
+.palette-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;}
+.palette-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px solid #e5e7eb;border-radius:4px;font-size:11px;font-weight:600;color:#4b5563;cursor:pointer;transition:all .15s;background:#f3f4f6;}
+.palette-cell:hover{transform:scale(1.1);}
+.palette-cell.answered{background:#10b981;color:#fff;border-color:#10b981;}
+.palette-cell.notanswered{background:#ef4444;color:#fff;border-color:#ef4444;}
+.palette-cell.marked{background:#a855f7;color:#fff;border-color:#a855f7;}
+.palette-cell.marked-answered{background:#a855f7;color:#fff;border-color:#a855f7;position:relative;}
+.palette-cell.marked-answered::after{content:"•";position:absolute;top:-2px;right:2px;color:#10b981;font-size:14px;}
+.palette-cell.notvisited{background:#fff;color:#9ca3af;}
+.palette-cell.current{outline:3px solid #1fbad6;outline-offset:1px;}
+.palette-stats{margin-top:12px;padding-top:12px;border-top:1px solid #f3f4f6;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:11px;color:#6b7280;}
+.palette-stats div{display:flex;justify-content:space-between;}
+.palette-stats strong{color:#1f2937;font-size:13px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;padding:24px;}
+.modal-overlay.open{display:flex;}
+.modal-content{background:#fff;border-radius:12px;padding:24px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-content h2{font-size:20px;color:#1f2937;margin-bottom:12px;}
+.modal-content p{font-size:14px;color:#4b5563;margin-bottom:16px;}
+.submit-summary{background:#f9fafb;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;}
+.submit-summary div{display:flex;justify-content:space-between;margin-bottom:4px;}
+.submit-summary strong{color:#1f2937;}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;}
+.modal-btn{padding:8px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-btn.cancel{background:#f3f4f6;color:#4b5563;}
+.modal-btn.cancel:hover{background:#e5e7eb;}
+.modal-btn.submit{background:#ef4444;color:#fff;}
+.modal-btn.submit:hover{background:#dc2626;}
+.results-view{max-width:1000px;margin:0 auto;padding:24px;}
+.results-header{text-align:center;margin-bottom:32px;}
+.results-header h1{font-size:28px;color:#1f2937;margin-bottom:16px;}
+.score-card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;display:inline-block;min-width:300px;margin-bottom:16px;}
+.score-card .score{font-size:48px;font-weight:800;color:#1fbad6;}
+.score-card .total{font-size:20px;color:#6b7280;}
+.score-card .rank{font-size:14px;color:#4b5563;margin-top:8px;}
+.results-actions{display:flex;gap:8px;justify-content:center;}
+.results-questions{display:grid;gap:16px;}
+.result-card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.result-card.correct{border-left:4px solid #10b981;}
+.result-card.wrong{border-left:4px solid #ef4444;}
+.result-card.skipped{border-left:4px solid #9ca3af;}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.result-q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.result-status{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;}
+.result-status.correct{background:#d1fae5;color:#065f46;}
+.result-status.wrong{background:#fee2e2;color:#991b1b;}
+.result-status.skipped{background:#f3f4f6;color:#4b5563;}
+.result-text{font-size:14px;margin-bottom:12px;}
+.result-text p{margin:6px 0;}
+.result-options{list-style:none;margin-bottom:12px;}
+.result-option{padding:8px 12px;margin-bottom:4px;border:1px solid #e5e7eb;border-radius:4px;font-size:13px;display:flex;align-items:flex-start;gap:8px;}
+.result-option.correct{background:#d1fae5;border-color:#10b981;font-weight:600;}
+.result-option.selected{background:#dbeafe;border-color:#3b82f6;}
+.result-option.correct.selected{background:#a7f3d0;}
+.result-option-label{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;background:#1f2937;color:#fff;border-radius:3px;font-size:11px;font-weight:600;}
+.result-option.correct .result-option-label{background:#10b981;}
+.result-solution{background:#fef3c7;border-left:3px solid #f59e0b;border-radius:4px;padding:12px;font-size:13px;color:#1f2937;}
+.result-solution-title{font-weight:700;color:#92400e;margin-bottom:6px;font-size:12px;}
+.result-solution p{margin:6px 0;}
+.result-solution img{max-width:100%;height:auto;border-radius:4px;}
+@media (max-width:1024px){.palette-sidebar{width:220px;}.palette-grid{grid-template-columns:repeat(5,1fr);}}
+@media (max-width:768px){.test-container{flex-direction:column;}.palette-sidebar{width:100%;position:static;max-height:none;}.palette-grid{grid-template-columns:repeat(10,1fr);}}
+@media print{.top-bar,.palette-sidebar,.actions,.prev-next,.section-tabs,.q-lang-tabs,.meta-bar,.results-actions{display:none;}.test-container,.results-view{display:block;}.result-card{page-break-inside:avoid;}}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="top-bar">
+  <div class="brand"><span class="brand-light">Repeater</span><span class="brand-mark">Mock</span></div>
+  <div class="test-title" id="testTitle">CGL Tier II CT 12: Passive to Active</div>
+  <div class="header-right">
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="header-btn submit-btn" onclick="openSubmitModal()">Submit Test</button>
+  </div>
+</header>
+
+<!-- Meta bar -->
+<div class="meta-bar">
+  <div class="meta-item"><span class="meta-label">Series</span><span class="meta-value">ssc-cgl</span></div>
+  <div class="meta-item"><span class="meta-label">Questions</span><span class="meta-value">10</span></div>
+  <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">0 min</span></div>
+  <div class="meta-item"><span class="meta-label">Max Marks</span><span class="meta-value">30.0</span></div>
+  <div class="meta-item"><span class="meta-label">Marking</span><span class="meta-value">+3.0 / -1.0</span></div>
+  <div class="meta-item"><span class="meta-label">Test ID</span><span class="meta-value">6a390d1faa0a5581caa4fd9b</span></div>
+</div>
+
+<!-- Test mode -->
+<div id="testMode" class="test-container">
+  <main class="question-area">
+    <div class="section-tabs" id="sectionTabs"></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-header">
+        <span class="q-num" id="qNum">Q1</span>
+        <span class="q-marks" id="qMarks"></span>
+      </div>
+      <div class="q-lang-tabs" id="qLangTabs"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options-list" id="optionsList"></div>
+      <div class="actions">
+        <button class="action-btn mark-review" onclick="markReviewNext()">Mark for Review &amp; Next</button>
+        <button class="action-btn clear-response" onclick="clearResponse()">Clear Response</button>
+        <button class="action-btn save-next" onclick="saveNext()">Save &amp; Next →</button>
+      </div>
+      <div class="prev-next">
+        <button class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button class="nav-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </main>
+  <aside class="palette-sidebar">
+    <div class="palette-header">
+      <span id="currentSectionLabel">Test</span>
+    </div>
+    <div class="palette-legend">
+      <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+      <span class="legend-item"><span class="legend-dot notanswered"></span>Not Answered</span>
+      <span class="legend-item"><span class="legend-dot marked"></span>Marked</span>
+      <span class="legend-item"><span class="legend-dot notvisited"></span>Not Visited</span>
+    </div>
+    <div class="palette-grid" id="paletteGrid"></div>
+    <div class="palette-stats" id="paletteStats"></div>
+  </aside>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="modal-content">
+    <h2>Submit Test?</h2>
+    <p>Are you sure you want to submit? You won't be able to change your answers after this.</p>
+    <div class="submit-summary" id="submitSummary"></div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="modal-btn submit" onclick="submitTest()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results view (hidden until submit) -->
+<div id="resultsView" class="results-view" style="display:none;">
+  <div class="results-header">
+    <h1>Test Submitted</h1>
+    <div class="score-card" id="scoreCard"></div>
+    <div class="results-actions">
+      <button class="header-btn" onclick="showAllQuestions()">View All Questions &amp; Solutions</button>
+      <button class="header-btn" onclick="window.print()">🖨️ Print</button>
+    </div>
+  </div>
+  <div class="results-questions" id="resultsQuestions"></div>
+</div>
+
+<!-- Test data embedded as JSON -->
+<script type="application/json" id="test-data">{"test_id": "6a390d1faa0a5581caa4fd9b", "title": "CGL Tier II CT 12: Passive to Active", "series_slug": "ssc-cgl", "duration_min": 0, "max_marks": 30.0, "languages": ["English"], "sections": [{"section_id": "6a38eef734d680910e8e4299", "section_name": "Test", "q_count": 10, "max_marks": 30.0, "questions": [{"qid": "5f7f33efc7c8587a70541cde", "qs_no": 1, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p><span style=\"font-weight: 700;\">A sentence has been given in Active/Passive voice. Out of the four alternatives suggested, select the one which best expresses the same sentence in Passive/Active voice.</span></p>\n\n<p>The morning class was not being taken seriously by Ravi.</p>\n", "options": [{"prompt": "1", "value": "Ravi had not taken the morning class seriously."}, {"prompt": "2", "value": "Ravi has not been taking the morning class seriously"}, {"prompt": "3", "value": "Ravi is not taking the morning class seriously."}, {"prompt": "4", "value": "Ravi was not taking the morning class seriously."}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "\n<p>The correct answer is <strong>Option 4 i.e. &#39;Ravi was not taking the morning class seriously&#39;</strong></p>\n\n<p>&nbsp;<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<p><strong>Active Voice:</strong><br />\n<strong>General Strucuture: - </strong><em>Sub+verb+obj</em></p>\n\n<p><strong>Passive voice:</strong><br />\n<strong>General Structure: -</strong> <em>Obj+<u style=\"\"><span style=\"font-weight: 700;\">&nbsp;</span></u&", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Active and Passive Voice"], "concept": "Active and Passive Voice", "confidence": "high"}, {"qid": "6069ab1a60d5cfbfbad1e924", "qs_no": 2, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p><span style=\"font-weight: 700;\">Direction: Select the correct active form of the given sentence.</span></p>\n\n<p>By whom was this delicious food cooked?</p>\n", "options": [{"prompt": "1", "value": "Who cooked this delicious food?"}, {"prompt": "2", "value": "Who have cooked this delicious food?"}, {"prompt": "3", "value": "Who was prepared this delicious food?"}, {"prompt": "4", "value": "Who did cook this delicious food."}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<p>The correct answer is&nbsp;<span style=\"font-weight: 700;\">&#39;</span><strong>Who cooked this delicious food?</strong><span style=\"font-weight: 700;\">&#39;.</span></p>\n\n<p><span style=\"font-weight: 700;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></p>\n\n<ul>\n\t<li>\n\t<div>We need to follow these instructions while changing the voice of an&nbsp;<span style=\"font-weight: 700;\">interrogative sentence-</span></div>\n\n\t<ul>\n\t\t<li>The given sentence is in passive form.</li>\n\t\t<li>&#39;<strong>By whom</strong>&#39; will be changed into &#39;<strong>who</strong>&#39;.</li>\n\t\t<li>&#39;<strong>Was + v3</strong>&#39; is changed into &#39;<strong>v2</strong>&#39;. (cooked)</li>\n\t\t<li>At last line up the remaining part.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<div><br />\n<span style=\"font-weight: 700;\">Following these steps, we finally get-</span>&nbsp;<em>Who cooked this delicious food?</em><br />\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/2cc014001a9a70d86735241cc35c82dd42b72fdf15c186a2bedcc9dce43fb549.png\" style=\"width: 200px; height: 92px;\" /></div>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>हमें एक <strong>interrogative sentence</strong>&nbsp;की <strong>voice</strong> बदलते समय इन निर्देशों का पालन करने की आवश्यकता है-\n\n\t<ul>\n\t\t<li>दिया गया वाक्य <strong>passive form</strong>&nbsp;में है।</li>\n\t\t<li>&#39;<strong>By whom</strong>&#39; को &#39;<strong>who</strong>&#39; में बदला जाएगा।</li>\n\t\t<li><strong>&#39;Was + v3&#39;</strong> को &#39;<strong>v2</strong>&#39; में बदल दिया गया है। (<strong>cooked</strong>)</li>\n\t\t<li>अंत में <strong>remining part add</strong> करें।</li>\n\t</ul>\n\t</li>\n</ul>\n\n33:T5d32,\n<p>The correct answer is&nbsp;<span style=\"font-weight: 700;\">&#39;</span><strong>We had completed our task before sunset</strong>.<span style=\"font-weigh", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Active and Passive Voice"], "concept": "Active and Passive Voice", "confidence": "high"}, {"qid": "6003484493c746a634f9e44f", "qs_no": 3, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p><span style=\"font-weight: 700;\">Select the correct active form of the given sentence.</span></p>\n\n<p>The manager was written a letter by the employees.</p>\n", "options": [{"prompt": "1", "value": "The employees had written a letter to the manager."}, {"prompt": "2", "value": "The employees have written a letter to the manager."}, {"prompt": "3", "value": "The employees wrote a letter to the manager."}, {"prompt": "4", "value": "The employees write a letter to the manager."}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p>The correct answer is &#39;<strong>The employees wrote a letter to the manager</strong>&#39;.</p>\n\n<div><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></div>\n\n<ul>\n\t<li>The above sentence is in <strong>pass</strong><span style=\"font-weight: 700;\">ive voice</span>&nbsp;since it emphasizes the action or object of the sentence.</li>\n\t<li>The above sentence is an&nbsp;<span style=\"font-weight: 700;\">assertive sentence with double objects</span>&nbsp;since it is of the form: subject (The manager) + helping verb (was) + main verb (written) + direct object (a letter) + indirect object (the employees).</li>\n\t<li>The&nbsp;way in which an assertive sentence with double objects is converted into its <strong>act</strong><span style=\"font-weight: 700;\">ive voice</span>&nbsp;are:\n\t<ul>\n\t\t<li>indirect object as subject + main verb + direct object +&nbsp;indirect object&nbsp;(subject of the passive voice)</li>\n\t</ul>\n\t</li>\n\t<li>The tense&nbsp;<span style=\"font-weight: 700;\">remains the same&nbsp;</span>as the passive voice.</li>\n\t<li>Here, the<span style=\"font-weight: 700;\">&nbsp;simple past tense</span>&nbsp;is used.</li>\n\t<li>\n\t<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\">\n\t\t<thead>\n\t\t\t<tr>\n\t\t\t\t<th scope=\"col\" style=\"text-align: center;\">Passive voice</th>\n\t\t\t\t<th scope=\"col\" style=\"text-align: center;\">Active voice</th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody>\n\t\t\t<tr>\n\t\t\t\t<td style=\"text-align: center;\">was, were + IIIrd form of the verb</td>\n\t\t\t\t<td style=\"text-align: center;\">IInd form of the verb&nbsp;</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n\t</li>\n</ul>\n\n<p><br />\n<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n\t<li>Only sentences with the&nbsp;<u>transitive verb can be converted into passive voice</u>&nbsp;and not the ones with an intransitive verb.</li>\n\t<li>A&nbsp;<u>transitive verb needs an object</u>&nbsp;to complete its meaning.\n\t<ul>\n\t\t<li>For example: <em>He answered the questions confidently. (subject + verb + object)</em></li>\n\t</ul>\n\t</li>\n\t<li>The&nbsp;<u>intransitive verb does not have an object</u>.\n\t<ul>\n\t\t<li>For example: <em>He answered confidently. (subject + verb)</em><br />\n\t\t&nbsp;</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p><u><span style=\"font-weight: 700;\">Correct sentence:</span></u>&nbsp;&quot;<em>The employees wrote a letter to the manager</em>&quot;.</p>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Active and Passive Voice"], "concept": "Active and Passive Voice", "confidence": "high"}, {"qid": "633017ffc2ce674638209c05", "qs_no": 4, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p><strong>A sentence has been given in Active/Passive Voice. Out of the four alternatives suggested, select the one which best expresses the same sentence in Passive/Active Voice.</strong></p>\n\n<p>Much of the precious time has already been wasted on such trifles.</p>\n", "options": [{"prompt": "1", "value": "Such trifles have wasted much of the precious time."}, {"prompt": "2", "value": "We have already wasted much of the precious time on such trifles."}, {"prompt": "3", "value": "The time wasted on such trifles have been too much."}, {"prompt": "4", "value": "We already wasted much of the precious time on such trifles."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is &#39;<u><strong>We have already wasted much of the precious time on such trifles.</strong></u>&#39;</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The &#39;<strong>voice</strong>&#39;<strong> </strong>of a verb tells us <strong>whether the subject of the sentence performs or receives the action</strong>.</li>\n\t<li>&nbsp;The given sentence is in the <strong>passive voice</strong> (here, the action is the main and there is simply no need to mention the doer).</li>\n\t<li>While changing a sentence from passive voice to active voice, <span style=\"font-weight: 400;\"><strong>the object and subject are interchanged</strong> with each other, i.e. object of the passive sentence becomes the subject of the active sentence and vice versa. Their cases also change accordingly.</span>\n\t<ul>\n\t\t<li><span style=\"font-weight: 400;\">Here, &#39;<em><strong>time</strong></em>&#39; is the subject, &#39;<em><strong>has... been wasted</strong></em>&#39; is the verb and the object is not mentioned.</span></li>\n\t</ul>\n\t</li>\n\t<li>The given sentence follows the following sentence format and will convert as it has been given next:\n\t<ul>\n\t\t<li><em>Passive voice</em>:<em> </em><span style=\"\"><span style=\"\"><strong>Subject + Has/Have + been + past participle (+ by object)</strong>.</span></span><strong> </strong></li>\n\t\t<li><em><span style=\"\"><span style=\"\">Active voice</span></span></em><span style=\"\"><span style=\"\">:</span></span><strong><span style=\"\"><span style=\"\"> </span></span></strong><span style=\"\"><span style=\"\"><strong>Subject + </strong></span></span><strong><span style=\"\"><span style=\"\">Has/Have </span></span></strong><span style=\"\"><span style=\"\">(*depending on the subject) </span></span><strong><span style=\"\"><span style=\"\">+ </span></span></strong><strong><span style=\"\"><span style=\"\">past participle verb + object </span></span></strong><span style=\"\"><span style=\"\">(*subject of the passive sentence).</span></span></li>\n\t</ul>\n\t</li>\n\t<li>For example, &#39;<em>The water tank has been filled up.</em>&#39; &rArr; &#39;<em>I have/ Someone has filled up the water tank</em>.&#39; (When the doer is not mentioned or isn&#39;t obvious, it is assumed as an indefinite pronoun, or first person or second person pronoun, depending on the tone and given information)</li>\n\t<li>So, the given sentence in active is as follows: &#39;<em><strong>We have already wasted much of the precious time on such trifles</strong></em><strong>.</strong>&#39;</li>\n</ul>\n\n<p><em>Hence, the correct answer is <strong>Option 2</strong>.</em></p>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Active and Passive Voice"], "concept": "Active and Passive Voice", "confidence": "high"}, {"qid": "61129138116c5f6bfdc1ba76", "qs_no": 5, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p><strong>Directions: In the question, a sentence has been given in Active/Passive Voice. Out of the four suggested alternatives, select the one which best expresses the same sentence Passive/Active Voice.</strong></p>\n\n<p>Our task had been completed before sunset.</p>\n", "options": [{"prompt": "1", "value": "We completed our task before sunset."}, {"prompt": "2", "value": "We have completed our task before sunset."}, {"prompt": "3", "value": "We complete our task before sunset."}, {"prompt": "4", "value": "We had completed our task before sunset."}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "\n<p>The correct answer is&nbsp;<span style=\"font-weight: 700;\">&#39;</span><strong>We had completed our task before sunset</strong>.<span style=\"font-weight: 700;\">&#39;</span></p>\n\n<p><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span> &nbsp; </span></p>\n\n<ul>\n\t<li>In&nbsp;<span style=\"font-weight: 700;\">Active Voice</span>, a sentence emphasizes the subject,&nbsp;performing an action.</li>\n\t<li>In&nbsp;<span style=\"font-weight: 700;\">Passive Voice</span>, a sentence emphasizes the action or the object of the sentence.</li>\n\t<li>The given sentence is in <strong>passive voice</strong> and it is in the <strong>past perfect tense</strong>.</li>\n\t<li>To convert it into <strong>active voice</strong>, we just <strong>remove &#39;been&#39;</strong>&nbsp;from the given sentence, and the <strong>object &#39;our&#39;</strong>&nbsp;will be <strong>changed into</strong> the <strong>subject &#39;We&#39;</strong>.</li>\n\t<li>The passive format &quot;<span style=\"font-weight: 700;\">had + been + V3 (</span><span style=\"font-weight: 700;\">completed</span><span style=\"font-weight: 700;\">)</span>&quot; should be&nbsp;<span style=\"font-weight: 700;\">converted into</span>&nbsp;the active format &quot;<span style=\"font-weight: 700;\">had +&nbsp;V3 (completed</span><span style=\"font-weight: 700;\">)</span>&quot;.</li>\n\t<li>This<span style=\"font-weight: 700;\">&nbsp;</span>is the<span style=\"font-weight: 700;\">&nbsp;</span><strong>active and passive voice</strong>&nbsp;<span style=\"font-weight: 700;\">rule</span>&nbsp;for the&nbsp;<span style=\"font-weight: 700;\">past perfect tense</span>.<br />\n\t&nbsp;</li>\n</ul>\n\n<p>Hence, the correct answer is<span style=\"font-weight: 700;\">&nbsp;option 4.</span></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n\t<li><span style=\"font-weight: 700;\">Verbs of passive format have a different set of tenses (*V3 - Past participle or Third form of the Verb) as given below in the table:</span><br />\n\t&nbsp;\n\t<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" dir=\"ltr\" style=\"table-layout: fixed; width: 0px; border: none;\" xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t<colgroup>\n\t\t\t<col width=\"183\" />\n\t\t\t<col width=\"221\" />\n\t\t\t<col width=\"156\" />\n\t\t\t<col width=\"246\" />\n\t\t</colgroup>\n\t\t<tbody>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;           TENSE&quot;}\" style=\"padding: 2px 3px; border: 1px solid rgb(0, 0, 0); overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\"><span style=\"font-weight: 700;\">TENSE</span></td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;            ACTIVE&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\"><span style=\"font-weight: 700;\">ACTIVE</span></td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;          PASSIVE&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\"><span style=\"font-weight: 700;\">PASSIVE</span></td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;      PASSIVE CONVERSION&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\"><span style=\"font-weight: 700;\">PASSIVE CONVERSION</span></td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Present Simple&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Present Simple</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He plays football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He plays football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;am/is/are + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">am/is/are + V3</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football is played by him</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Present Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Present Continuous</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He is playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He is playing football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;am/is/are + being +V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">am/is/are + being +V3</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football is being played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football is being played by him</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Present Perfect&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Present Perfect</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He has played football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He has played football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Has/have + been+ V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Has/have + been+ V3</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football has been played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football has been played by him</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Present Perfect Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Present Perfect Continuous</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He has been playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He has been playing football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual.&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual.</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Past Simple&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Past Simple</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He played football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He played football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Was/were + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Was/were + V3</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football was played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football was played by him</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Past Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Past Continuous</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He was playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He was playing football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Was/were + being + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Was/were + being + V3</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football was being played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football was being played by him</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Past Perfect&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Past Perfect</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He had played football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He had played football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Had + being + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Had + been + V3</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football had been played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football had been played by him</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Past Perfect Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Past Perfect Continuous</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He had been playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He had been playing football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Future Simple&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Future Simple</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He will play football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He will play football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Will + be + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Will + be + V3</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football will be played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football will be played by him</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Future Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Future Continuous</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He will be playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He will be playing football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Future Perfect&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Future Perfect</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He will have played football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He will have played football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Will have been + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Will have been + V3</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football will have been played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football will have been played by him</td>\n\t\t\t</tr>\n\t\t\t<tr style=\"height: 21px;\">\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Future Perfect Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: top; overflow-wrap: break-word;\">Future Perfect Continuous</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He will have been playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He will have been playing football</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><img src=\"https://cdn.repeatermock.com/tb/5bb8f9389bc75a461b28befc3cea9d76de9a38c1450aa0a3e15fea76b51c2f54.png\" /></p>\n\n<ul>\n\t<li><span style=\"font-weight: 700;\">Active Voice में</span>&nbsp;, एक वाक्य विषय पर जोर देता है, एक क्रिया करता है।</li>\n\t<li><span style=\"font-weight: 700;\">Passive Voice में</span>&nbsp;, एक वाक्य वाक्य की क्रिया या वस्तु पर जोर देता है।</li>\n\t<li>दिया गया वाक्य <span style=\"font-weight: 700;\">passive voice</span> में है और यह <span style=\"font-weight: 700;\">past perfect tense</span> में है।</li>\n\t<li>इसे <span style=\"font-weight: 700;\">active voice</span> में बदलने के लिए, हम दिए गए वाक्य से <strong>&#39;been&#39;</strong> को हटा देते हैं, और <span style=\"font-weight: 700;\">object &#39;our&#39;</span> को <span style=\"font-weight: 700;\">subject &#39;We&#39;</span> में बदल दिया जाएगा।</li>\n\t<li><strong>Passive format</strong> &quot;<span style=\"font-weight: 700;\">had + been + V3 (</span><span style=\"font-weight: 700;\">completed</span><span style=\"font-weight: 700;\">)</span>&quot; को <strong>active format</strong> &quot;<span style=\"font-weight: 700;\">had +&nbsp;V3 (completed</span><span style=\"font-weight: 700;\">)</span>&quot; <strong>में परिवर्तित किया जाना चाहिए</strong>।</li>\n\t<li>यह <span style=\"font-weight: 700;\">past perfect tense</span> के लिए <span style=\"font-weight: 700;\">active and passive voice</span>&nbsp;<span style=\"font-weight: 700;\">rule</span> है।<br />\n\t&nbsp;</li>\n</ul>\n\n<p>अतः सही उत्तर <strong>विकल्प 4</strong> है।</p>\n\n34:T904,\n<p dir=\"ltr\">The correct answer is <strong>&#39;What does Ram want?&#39;</strong></p>\n\n<p dir=\"ltr\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" />&nbsp;<strong><span style", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Active and Passive Voice"], "concept": "Active and Passive Voice", "confidence": "high"}, {"qid": "63284679f3d01c74b45940a1", "qs_no": 6, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p><strong>A sentence has been given in Active/Passive Voice. Out of the four alternatives suggested, select the one which best expresses the same sentence in Passive/Active Voice.</strong></p>\n\n<p>The car parked under the sign will be towed away.</p>\n", "options": [{"prompt": "1", "value": "The police would tow away the car parked under the sign."}, {"prompt": "2", "value": "The police would have towed away the car parked under the sign."}, {"prompt": "3", "value": "The police will be towing away the car parked under the sign."}, {"prompt": "4", "value": "The police will tow away the car parked under the sign."}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "\n<p>The correct answer is <strong>&#39;The police will tow away the car parked under the sign.&#39;</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><br />\n<strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The &#39;voice&#39; of a verb tells us whether the subject of the sentence performs or receives the action.</li>\n\t<li>The given sentence is in the passive voice (here, the action has the main emphasis, and there is simply no need to mention the doer).</li>\n\t<li>While changing a sentence from passive voice to active voice, the object and subject are interchanged with each other, i.e., the object of the passive sentence becomes the subject of the active sentence and vice versa. Their cases also change accordingly.\n\t<ul>\n\t\t<li>Here, &#39;The car&#39; is the subject, &#39;will be towed away&#39; is the verb, and the object has been omitted because it is obvious and not important.</li>\n\t</ul>\n\t</li>\n\t<li>The given sentence follows the following sentence format and will convert as it has been given next:\n\t<ul>\n\t\t<li><em>Passive voice:&nbsp;<strong>Subject + will be + past participle (+ by object).</strong></em></li>\n\t\t<li><em>Active voice: <strong>Subject (*object of the passive sentence) + will + base verb + object (*subject of the passive sentence).</strong></em></li>\n\t</ul>\n\t</li>\n\t<li>For example, &#39;A lumpsum of money will be needed soon.&#39; &rArr; &#39;We will need a lumpsum of money soon.&#39; (Since the doer is not mentioned so it is assumed an indefinite pronoun, or first or second person pronoun), based on the tone of the sentence.</li>\n\t<li>Here, the doer is obvious: it is the police who oversee these kinds of works.</li>\n\t<li>So, the given sentence in active is as follows: &#39;The police will tow away the car parked under the sign.&#39;<br />\n\t&nbsp;</li>\n</ul>\n\n<p>Hence, the correct answer is <strong>Option 4</strong>.</p>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Active and Passive Voice"], "concept": "Active and Passive Voice", "confidence": "high"}, {"qid": "630f50717c5ddc0ac600494f", "qs_no": 7, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p>Choose the option that best transforms the given sentence into its active voice:</p>\n\n<p>What is wanted by Ram?</p>\n", "options": [{"prompt": "1", "value": "Is something wanted by Ram?"}, {"prompt": "2", "value": "What Ram wanted something?"}, {"prompt": "3", "value": "What does Ram want?"}, {"prompt": "4", "value": "What wants do Ram has?"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p dir=\"ltr\">The correct answer is <strong>&#39;What does Ram want?&#39;</strong></p>\n\n<p dir=\"ltr\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" />&nbsp;<strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul dir=\"ltr\">\n\t<li>To convert the sentence into active voice, we go through certain steps:</li>\n\t<li>We identify the subject, verb, and agent in the passive sentence:\n\t<ul>\n\t\t<li><strong>Subject</strong>: What</li>\n\t\t<li><strong>Verb</str", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Active and Passive Voice"], "concept": "Active and Passive Voice", "confidence": "high"}, {"qid": "5f6dc9ea3cc1c0d8870ae552", "qs_no": 8, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p><span style=\"\">Select the option that expresses the given sentence in active voice.</span></p>\n\n<p>It was decided by the members that the report would be placed before the Chairman for his comments.</p>\n", "options": [{"prompt": "1", "value": "The Chairman&amp;rsquo;s comments were to be placed on the report of the members."}, {"prompt": "2", "value": "The members decided to place the report before the Chairman for his comments."}, {"prompt": "3", "value": "The Chairman decided to place the report before the members."}, {"prompt": "4", "value": "Did the members decide to place the report before the Chairman?"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is:<u><strong> The members decided to place the report before the chairman for his comments.</strong></u></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>It is a<strong> Passive voice</strong> of a<strong> mixed sentence.</strong></li>\n\t<li><strong>It </strong>will be<strong> changed </strong>into the<strong> Active voice as under:</strong>\n\t<ul>\n\t\t<li><strong>&lsquo;Was&rsquo; </strong>shows that the<strong> sentence in Active voice </strong>should be in the<strong> Simple Past Tense.</strong></li>\n\t\t<li>The<strong> subject and the object of the first sentence</strong> will <strong>exchange their places.</strong></li>\n\t\t<li><strong>&lsquo;That&rsquo;</strong> will be<strong> removed.</strong></li>\n\t\t<li>The conjunction<strong> &#39;to&rsquo;</strong> will be<strong> used</strong> to<strong> maintain the continuity </strong>of the sentence.</li>\n\t\t<li><strong>To is followed by</strong> the <strong>first form of the verb.</strong></li>\n\t\t<li>The <strong>first form</strong> of<strong> &lsquo;placed&rsquo;</strong> will be<strong> used.</strong></li>\n\t\t<li><strong>&lsquo;Before the chairman for his comments&rsquo;</strong> is an <strong>adverb phrase </strong>and it will be<strong> taken as it is.</strong></li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li><strong>Eventually, we will get the final sentence:</strong> &quot;<em>&nbsp;The members decided to place the report before the Chairman for his comments.&quot;</em></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Active and Passive Voice"], "concept": "Active and Passive Voice", "confidence": "high"}, {"qid": "655f4c69f1024af8d99832ca", "qs_no": 9, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p dir=\"ltr\">Transform the passive sentence into active voice:</p>\n\n<p dir=\"ltr\">&quot;A beautiful portrait was being painted by her&quot;.</p>\n", "options": [{"prompt": "1", "value": "&lt;span id=&quot;docs-internal-guid-fc2a7bc1-7fff-cd47-a12d-b51804c6faa6&quot;&gt;&lt;span style=&quot;  background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;She had painted a beautiful portrait.&lt;/span&gt;&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span id=&quot;docs-internal-guid-1fe3522f-7fff-dc38-79c9-5c7de6a7c201&quot;&gt;&lt;span style=&quot;  background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;She was painting a beautiful portrait.&lt;/span&gt;&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span id=&quot;docs-internal-guid-49429f58-7fff-ec43-2f59-2f77d3f2e70e&quot;&gt;&lt;span style=&quot;  background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;She is painting a beautiful portrait.&lt;/span&gt;&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span id=&quot;docs-internal-guid-c7fc2b8a-7fff-f95e-152c-951c3b55a870&quot;&gt;&lt;span style=&quot;  background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;She paints a beautiful portrait.&lt;/span&gt;&lt;/span&gt;"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p dir=\"ltr\">The correct answer is<strong> &#39;Option 2&#39; i.e. &#39;She was painting a beautiful portrait&#39;.</strong></p>\n\n<p dir=\"ltr\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" />&nbsp;<strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul dir=\"ltr\">\n\t<li>The original sentence is in the passive form in past continuous tense, indicated by &quot;was being painted&quot;.</li>\n\t<li>When we convert it into active voice, the sentence becomes &quot;She was painting a beautiful portrait&quot;&ndash; &quo", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Active and Passive Voice"], "concept": "Active and Passive Voice", "confidence": "high"}, {"qid": "5fd33bb9c59dd0a44871b89a", "qs_no": 10, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p><strong>Directions: Select the correct active form of the given sentence.</strong></p>\n\n<p>An online order has been placed by me today.</p>\n", "options": [{"prompt": "1", "value": "I placed an online order today."}, {"prompt": "2", "value": "I have placed an online order today."}, {"prompt": "3", "value": "I am placing an online order today."}, {"prompt": "4", "value": "I will place an online order today."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is&nbsp;<strong>I have placed an online order today.</strong></p>\n\n<p><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span> &nbsp; </span></p>\n\n<ul>\n\t<li>In&nbsp;<span style=\"font-weight: 700;\">Active Voice</span>, a sentence emphasizes the subject,&nbsp;performing an action.</li>\n\t<li>In&nbsp;<span style=\"font-weight: 700;\">Passive Voice</span>, a sentence emphasizes the action or the object of the sentence.</li>\n\t<li>The&nbsp;<span style=\"font-weight: 700;\">given sentence</span>&nbsp;is in&nbsp;the&nbsp;<span style=\"font-weight: 700;\">passive voice</span>&nbsp;and&nbsp;&#39;<span style=\"font-weight: 700;\">An online</span>&#39; is the&nbsp;<span style=\"font-weight: 700;\">subject&nbsp;</span>and &#39;<span style=\"font-weight: 700;\">me</span>&#39; is the&nbsp;<span style=\"font-weight: 700;\">object.</span></li>\n\t<li>When we convert this sentence into&nbsp;<span style=\"font-weight: 700;\">active voice</span>, the subject &#39;<span style=\"font-weight: 700;\">An online</span>&#39; of the&nbsp;<span style=\"font-weight: 700;\">passive&nbsp;voice</span>&nbsp;becomes the<span style=\"font-weight: 700;\">&nbsp;object</span>, the&nbsp;<span style=\"font-weight: 700;\">object&nbsp;</span>&#39;<span style=\"font-weight: 700;\">me</span>&#39; becomes the&nbsp;<span style=\"font-weight: 700;\">subject &#39;I&#39;</span>.</li>\n\t<li>The passive format &quot;<span style=\"font-weight: 700;\">has + been + V3 (placed)</span>&quot; should be&nbsp;<span style=\"font-weight: 700;\">converted into</span>&nbsp;the active format &quot;<strong>have +</strong>&nbsp;<span style=\"font-weight: 700;\">V2 (placed)</span>&quot; to account for the new&nbsp;<strong>subject-verb agreement</strong></li>\n\t<li>This<span style=\"font-weight: 700;\">&nbsp;</span>is the<span style=\"font-weight: 700;\">&nbsp;</span>active and passive voice&nbsp;<span style=\"font-weight: 700;\">rule</span>&nbsp;for the&nbsp;<span style=\"font-weight: 700;\">present perfect tense</span>.</li>\n</ul>\n\n<p>Hence, the correct answer is<span style=\"font-weight: 700;\">&nbsp;option 2</span>.<br />\n<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p><span style=\"font-weight: 700;\">Verbs of passive format have a different set of tenses (*V3 - Past participle or Third form of the Verb) as given below in the table:</span></p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" dir=\"ltr\" style=\"background-color: rgb(255, 255, 255); width: 350px;\" xmlns=\"http://www.w3.org/1999/xhtml\">\n\t<colgroup>\n\t\t<col width=\"183\" />\n\t\t<col width=\"221\" />\n\t\t<col width=\"156\" />\n\t\t<col width=\"246\" />\n\t</colgroup>\n\t<tbody>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;           TENSE&quot;}\" style=\"padding: 2px 3px; border: 1px solid rgb(0, 0, 0); overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\"><span style=\"font-weight: 700;\">TENSE</span></td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;            ACTIVE&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\"><span style=\"font-weight: 700;\">ACTIVE</span></td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;          PASSIVE&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\"><span style=\"font-weight: 700;\">PASSIVE</span></td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;      PASSIVE CONVERSION&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\"><span style=\"font-weight: 700;\">PASSIVE CONVERSION</span></td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Present Simple&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Present Simple</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He plays football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He plays football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;am/is/are + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">am/is/are + V3</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football is played by him</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Present Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Present Continuous</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He is playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He is/am/are playing football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;am/is/are + being +V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">am/is/are + being +V3</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football is being played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football is being played by him</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Present Perfect&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Present Perfect</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He has played football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He has played football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Has/have + been+ V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Has/have + been+ V3</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football has been played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football has been played by him</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Present Perfect Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Present Perfect Continuous</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He has been playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He has been playing football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual.&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual.</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Past Simple&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Past Simple</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He played football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He played football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Was/were + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Was/were + V3</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football was played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football was played by him</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Past Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Past Continuous</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He was playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He was playing football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Was/were + being + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Was/were + being + V3</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football was being played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football was being played by him</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Past Perfect&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Past Perfect</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He had played football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He had played football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Had + being + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Had + been + V3</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football had been played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football had been played by him</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Past Perfect Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Past Perfect Continuous</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He had been playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He had been playing football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Future Simple&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Future Simple</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He will play football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He will play football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Will + be + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Will + be + V3</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football will be played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football will be played by him</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Future Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Future Continuous</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He will be playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He will be playing football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Future Perfect&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Future Perfect</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He will have played football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He will have played football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Will have been + V3&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Will have been + V3</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Football will have been played by him&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Football will have been played by him</td>\n\t\t</tr>\n\t\t<tr style=\"height: 21px;\">\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Future Perfect Continuous&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: top; overflow-wrap: break-word;\">Future Perfect Continuous</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;He will have been playing football&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">He will have been playing football</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t\t<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Not used and unusual&quot;}\" style=\"padding: 2px 3px; border-width: 1px; border-style: solid; overflow: hidden; vertical-align: bottom; overflow-wrap: break-word;\">Not used and unusual</td>\n\t\t</tr>\n\t</tbody>\n</table>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Active and Passive Voice"], "concept": "Active and Passive Voice", "confidence": "high"}]}]}</script>
+<script>
+const TEST_DATA = JSON.parse(document.getElementById('test-data').textContent);
+const TOTAL_Q = 10;
+const DURATION_SEC = 0 * 60;
+
+// State
+let currentSectionIdx = 0;
+let currentQIdx = 0;  // global across sections
+let currentLang = 'en';
+let answers = {};  // qid -> selected option prompt
+let marked = {};   // qid -> true
+let visited = new Set();
+let submitted = false;
+let timeLeft = DURATION_SEC;
+let timerInterval = null;
+
+// Flatten all questions for easy indexing
+const allQuestions = [];
+TEST_DATA.sections.forEach((s, sIdx) => {
+  s.questions.forEach(q => {
+    allQuestions.push({...q, sectionIdx: sIdx, sectionName: s.section_name});
+  });
+});
+
+function init() {
+  // Render section tabs
+  const sectionTabs = document.getElementById('sectionTabs');
+  TEST_DATA.sections.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'section-tab' + (i === 0 ? ' active' : '');
+    tab.textContent = s.section_name + ' (' + s.questions.length + ')';
+    tab.onclick = () => switchSection(i);
+    sectionTabs.appendChild(tab);
+  });
+  // Render palette
+  renderPalette();
+  // Render first question
+  renderQuestion();
+  // Start timer
+  startTimer();
+  // Update stats
+  updateStats();
+}
+
+function startTimer() {
+  if (DURATION_SEC <= 0) {
+    // No time limit — show "No Limit" instead of a countdown
+    document.getElementById('timer').textContent = 'No Limit';
+    document.getElementById('timer').classList.add('no-limit');
+    return;
+  }
+  timerInterval = setInterval(() => {
+    if (submitted) return;
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      submitTest();
+    }
+  }, 1000);
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeLeft / 3600);
+  const m = Math.floor((timeLeft % 3600) / 60);
+  const s = timeLeft % 60;
+  const display = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  const timerEl = document.getElementById('timer');
+  timerEl.textContent = display;
+  if (timeLeft < 60) {
+    timerEl.className = 'timer danger';
+  } else if (timeLeft < 300) {
+    timerEl.className = 'timer warning';
+  }
+}
+
+function renderQuestion() {
+  const q = allQuestions[currentQIdx];
+  if (!q) return;
+  visited.add(q.qid);
+  // Update section tab
+  currentSectionIdx = q.sectionIdx;
+  document.querySelectorAll('.section-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSectionIdx);
+  });
+  document.getElementById('currentSectionLabel').textContent = q.sectionName;
+  // Question header — includes Q number, marks, concept, confidence, and question ID
+  document.getElementById('qNum').textContent = 'Q' + (currentQIdx + 1);
+  let headerExtras = '<span class="mark-pos">+' + q.pos_marks + '</span><span class="mark-neg">-' + q.neg_marks + '</span>';
+  // Concept + confidence (from AI classifier — same as AI JSON)
+  const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+  const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+  const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+  headerExtras += '<span class="q-concept" title="Concept category">🎯 ' + concept + '</span>';
+  headerExtras += '<span class="q-confidence ' + confClass + '" title="Classifier confidence">conf: ' + confidence + '</span>';
+  // Question ID (unique per question, useful for cross-test matching)
+  headerExtras += '<span class="q-id" title="Question ID (unique across all tests)">ID: ' + q.qid + '</span>';
+  document.getElementById('qMarks').innerHTML = headerExtras;
+  // Language tabs
+  const langTabs = document.getElementById('qLangTabs');
+  langTabs.innerHTML = '';
+  const availableLangs = Object.keys(q.langs);
+  const showLangs = ['en','hn','te','mr','bn','ml','gu','kn','ta','or'].filter(l => availableLangs.includes(l));
+  if (showLangs.length > 1) {
+    showLangs.forEach((l, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'q-lang-tab' + (l === currentLang ? ' active' : '');
+      btn.textContent = {en:'English',hn:'Hindi',te:'Telugu',mr:'Marathi',bn:'Bengali',ml:'Malayalam',gu:'Gujarati',kn:'Kannada',ta:'Tamil',or:'Odia'}[l] || l;
+      btn.onclick = () => { currentLang = l; renderQuestion(); };
+      langTabs.appendChild(btn);
+    });
+  }
+  // Question text
+  const langData = q.langs[currentLang] || q.langs[availableLangs[0]] || {};
+  document.getElementById('qText').innerHTML = langData.value || '(no question text)';
+  // Options
+  const optsList = document.getElementById('optionsList');
+  optsList.innerHTML = '';
+  (langData.options || []).forEach(opt => {
+    const li = document.createElement('li');
+    li.className = 'option-item' + (answers[q.qid] === opt.prompt ? ' selected' : '');
+    li.innerHTML = '<span class="option-label">' + opt.prompt + '</span><span class="option-text">' + opt.value + '</span>';
+    li.onclick = () => selectOption(q.qid, opt.prompt);
+    optsList.appendChild(li);
+  });
+  // Update palette
+  renderPalette();
+  updateStats();
+}
+
+function selectOption(qid, prompt) {
+  if (submitted) return;
+  if (answers[qid] === prompt) {
+    delete answers[qid];
+  } else {
+    answers[qid] = prompt;
+  }
+  renderQuestion();
+}
+
+function saveNext() {
+  nextQuestion();
+}
+
+function markReviewNext() {
+  const q = allQuestions[currentQIdx];
+  marked[q.qid] = true;
+  nextQuestion();
+}
+
+function clearResponse() {
+  const q = allQuestions[currentQIdx];
+  delete answers[q.qid];
+  renderQuestion();
+}
+
+function nextQuestion() {
+  if (currentQIdx < allQuestions.length - 1) {
+    currentQIdx++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQIdx > 0) {
+    currentQIdx--;
+    renderQuestion();
+  }
+}
+
+function jumpTo(idx) {
+  currentQIdx = idx;
+  renderQuestion();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function switchSection(idx) {
+  currentSectionIdx = idx;
+  // Find first question in this section
+  const qIdx = allQuestions.findIndex(q => q.sectionIdx === idx);
+  if (qIdx >= 0) {
+    currentQIdx = qIdx;
+    renderQuestion();
+  }
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const cell = document.createElement('div');
+    let cls = 'palette-cell ';
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) cls += 'marked-answered';
+    else if (isMarked) cls += 'marked';
+    else if (isAnswered) cls += 'answered';
+    else if (isVisited) cls += 'notanswered';
+    else cls += 'notvisited';
+    if (i === currentQIdx) cls += ' current';
+    cell.className = cls;
+    cell.textContent = (i + 1);
+    cell.onclick = () => jumpTo(i);
+    grid.appendChild(cell);
+  });
+}
+
+function updateStats() {
+  let answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) marked++;
+    else if (isMarked) marked++;
+    else if (isAnswered) answered++;
+    else if (isVisited) notAnswered++;
+    else notVisited++;
+  });
+  document.getElementById('paletteStats').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${notAnswered}</strong></div>
+    <div><span>Marked:</span><strong>${marked}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+  `;
+}
+
+function openSubmitModal() {
+  let answered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    if (answers[q.qid] !== undefined) answered++;
+    else if (marked[q.qid]) marked++;
+    else if (!visited.has(q.qid)) notVisited++;
+  });
+  document.getElementById('submitSummary').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${TOTAL_Q - answered - notVisited}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+    <div><span>Total:</span><strong>${TOTAL_Q}</strong></div>
+  `;
+  document.getElementById('submitModal').classList.add('open');
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('open');
+}
+
+function submitTest() {
+  submitted = true;
+  clearInterval(timerInterval);
+  closeSubmitModal();
+  // Calculate score
+  let score = 0, correct = 0, wrong = 0, skipped = 0;
+  allQuestions.forEach(q => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    if (userAns === undefined) {
+      skipped++;
+    } else if (userAns === correctAns) {
+      correct++;
+      score += q.pos_marks;
+    } else {
+      wrong++;
+      score -= q.neg_marks;
+    }
+  });
+  // Show results view
+  document.getElementById('testMode').style.display = 'none';
+  document.getElementById('resultsView').style.display = 'block';
+  document.getElementById('scoreCard').innerHTML = `
+    <div><span class="score">${score.toFixed(2)}</span><span class="total"> / ${TEST_DATA.max_marks || TOTAL_Q * 2}</span></div>
+    <div class="rank">Correct: ${correct} | Wrong: ${wrong} | Skipped: ${skipped}</div>
+    <div class="rank" style="margin-top:8px;">Accuracy: ${(correct + wrong > 0) ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0}%</div>
+  `;
+  // Render all questions with answers + solutions
+  renderAllQuestions();
+}
+
+function renderAllQuestions() {
+  const container = document.getElementById('resultsQuestions');
+  container.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    const isCorrect = userAns === correctAns;
+    const isWrong = userAns !== undefined && userAns !== correctAns;
+    const isSkipped = userAns === undefined;
+    const card = document.createElement('div');
+    card.className = 'result-card ' + (isCorrect ? 'correct' : isWrong ? 'wrong' : 'skipped');
+    const langData = q.langs[currentLang] || q.langs[Object.keys(q.langs)[0]] || {};
+    let optionsHtml = '';
+    (langData.options || []).forEach(opt => {
+      let cls = 'result-option';
+      if (opt.prompt === correctAns) cls += ' correct';
+      if (opt.prompt === userAns) cls += ' selected';
+      optionsHtml += `<li class="${cls}"><span class="result-option-label">${opt.prompt}</span><span>${opt.value}</span></li>`;
+    });
+    const sol = q.solution_html[currentLang] || q.solution_html['en'] || '';
+    const solHtml = sol ? `<div class="result-solution"><div class="result-solution-title">📖 Solution</div>${sol}</div>` : '';
+    let statusBadge = '';
+    if (isCorrect) statusBadge = '<span class="result-status correct">✓ Correct</span>';
+    else if (isWrong) statusBadge = '<span class="result-status wrong">✗ Wrong</span>';
+    else statusBadge = '<span class="result-status skipped">— Skipped</span>';
+    // Concept + confidence + question ID (same as AI JSON)
+    const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+    const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+    const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+    card.innerHTML = `
+      <div class="result-header">
+        <span class="result-q-num">Q${i + 1}</span>
+        ${statusBadge}
+        <span class="result-concept">🎯 ${concept}</span>
+        <span class="result-confidence ${confClass}">conf: ${confidence}</span>
+        <span class="result-qid">ID: ${q.qid}</span>
+      </div>
+      <div class="result-text">${langData.value || '(no text)'}</div>
+      <ul class="result-options">${optionsHtml}</ul>
+      ${solHtml}
+    `;
+    container.appendChild(card);
+  });
+}
+
+function showAllQuestions() {
+  document.getElementById('resultsView').scrollIntoView({behavior: 'smooth'});
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (submitted) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'j') nextQuestion();
+  if (e.key === 'ArrowLeft' || e.key === 'k') prevQuestion();
+  if (e.key === '1' || e.key === 'a') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[0]) selectOption(q.qid, opts[0].prompt); }
+  if (e.key === '2' || e.key === 'b') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[1]) selectOption(q.qid, opts[1].prompt); }
+  if (e.key === '3' || e.key === 'c') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[2]) selectOption(q.qid, opts[2].prompt); }
+  if (e.key === '4' || e.key === 'd') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[3]) selectOption(q.qid, opts[3].prompt); }
+});
+
+init();
+</script>
+</body>
+</html>

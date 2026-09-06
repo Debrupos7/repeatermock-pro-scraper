@@ -1,0 +1,371 @@
+{
+  "test_id": "6a0f3acc98d24d08c231ca33",
+  "title": "CT 14: Simple Interest and Compound Interest",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:27:05.567005+00:00",
+  "questions": [
+    {
+      "qid": "607d78295f6178c3061359c8",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the simple interest on a sum of money for 5 years at 10% per annum is Rs. 900, what is the compound interest on the same at the same rate and for the 2 years?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 378"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 300"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 400"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 410"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nTime = 5years\n\nRate of Interest = 10%\n\nSimple Interest = 900\n\n**Formula:**\n\nSI = PRT/100\n\nAmount = P(1 + R/100)ⁿ\n\nCI = Amount – Sum\n\nHere, P = Principal, R = Rate, CI = Compound interest, n and t = Time\n\n**Calculation:**\n\nSum = (900 × 100)/5 × 10\n\n⇒ 1800\n\nAmount = 1800 × [1 + (10/100])²\n\n⇒ 1800 × 11/10 × 11/10\n\n⇒ 2178\n\nCI = Amount – Sum\n\n⇒ 2178 – 1800\n\n⇒ Rs. 378\n\n**∴ The compound interest on the same sum is Rs. 378.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/8bbdcd63830cc8c1e3aeeb14ed3c92a36c0ae740124f7b06e8ba0ef14a6e4910.png] \n\nAmount = (900 × 100)/5 × 10 × 11/10 × 11/10 = 2178\n\nCompound interest = 2178 - 1800 = Rs. 378\n\n∴ The compound interest on the same sum is Rs. 378.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/8bbdcd63830cc8c1e3aeeb14ed3c92a36c0ae740124f7b06e8ba0ef14a6e4910.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "5def88d1f60d5d5a1ddaf08f",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the difference between the compound interest, when interest is compounded 5-monthly, and the simple interest on a sum of Rs. 12,000 for 1{ 1 over 4} years at 12% per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 90"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 93"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 92.50"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 91.50"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nPrincipal = Rs. 12,000\n\nTime = 1{ 1 over 4} years = 5/4 \n\nRate = 12% \n\nCondition for C.I. = 5-monthly compound interest\n\nCondition for S.I. = yearly\n\n**Concept used:**\n\nCondition = 5-monthly compound interest\n\nNew Time = Time × 12/5\n\nNew Rate = Rate ÷ 12/5\n\nEffective rate for S.I. = Rate × Time \n\n**Calculations:**\n\nNew time = (5/4) × 12/5 = 3 years\n\nNew rate = 12% × 5/12 = 5%\n\nFor 1st two durations = 5 + 5 + 25/100 = 10.25%\n\nFor next 3rd duration = 10.25 + 5 + (10.25 × 5)/100 = 15.7625%\n\nEffective rate for S.I. = 12 × 5/4 = 15%\n\nDifference between CI – SI = (15.7625 – 15) × 12000 = 0.7625 × 12000 = Rs.91.50\n\n [IMAGE: https://cdn.repeatermock.com/tb/f72be33799c08d3322a2907949d25e7543e352bc7880a277f6efed7f62d7c04b.png] \n\nNew time = (5/4) × 12/5 = 3 years\n\nNew rate = 12% × 5/12 = 5%\n\n5% = 1/20 \n\n \n \n\n **Time **\n **Principal**\n **Amount**\n \n \n\n **First year**\n 20\n 21\n \n \n\n **Second year**\n 20\n 21\n \n \n\n **Third year**\n 20\n 21\n \n \n\n **Total**\n 20 × 20 × 20 = 8000\n 21 × 21 × 21 = 9261\n \n \n\nInterest = 9261 – 8000 = 1261\n\nEffective rate = (1261/8000) × 100 = 15.7625%\n\nEffective rate for S.I. = 12 × 5/4 = 15%\n\nDifference in rate = 15.7625% – 15% = 0.7625% \n\nDifference between C.I. and S.I. = 12000 × 0.7625/100 = 91.50\n\n**∴ Difference between C.I. and S.I. is Rs. 91.50 **",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f72be33799c08d3322a2907949d25e7543e352bc7880a277f6efed7f62d7c04b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "5c6ff865fdb8bb162eaf9c0f",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the rate of interest is 8% per annum and Rs. 10000 lent at the compound interest half yearly then calculate the equivalent simple rate of interest for the first year?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8.16%"
+        },
+        {
+          "label": "2",
+          "text": "9%"
+        },
+        {
+          "label": "3",
+          "text": "7%"
+        },
+        {
+          "label": "4",
+          "text": "10%"
+        }
+      ],
+      "correct": "1",
+      "solution": "Rs. 10000 lent at the rate of interest 8% compounded half yearly,\n\nInterest rate for compound interest compounded half yearly\n\n= 8/2 = 4%\n\n∴ Equivalent Rate of interest for the first year = 4 + 4 + (4 × 4)/100\n\n= 8.16%",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "5fbe76f16e18c4f0e026049a",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the difference between CI & SI for 2 years at 8% rate of interest. If the principal is 625 rupee.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given: **\n\nThe principal is 625 rupee\n\nRate is 8%\n\n**Concept: **\n\nSI = (P × R × T)/100\n\nCI = P[(1 + r/100)ⁿ - 1]\n\nHere, n is the number of terms in the year.\n\n**Calculation: **\n\nThe simple interest for 2 years\n\n⇒ (625 × 8 × 2)/100\n\n⇒ 25 × 2 × 2\n\n⇒ 100 rupee\n\nNow, Compound interest for 2 years is \n\n⇒ 625[(1 + 8/100)² - 1]\n\n⇒ 625[(108/100)² - 1]\n\n⇒ 625[(108)² - (100)²] × 1/10000\n\n⇒ (208 × 8)/16\n\n⇒ 104 rupee\n\nNow, The difference between CI and SI is\n\n⇒ 104 - 100\n\n⇒ 4\n\n**∴ The difference between CI and SI is 4. **\n\n [IMAGE: https://cdn.repeatermock.com/tb/6bd67c9563cdde4a0dfe99b7686282bc07365f691adfb64c907de66aebe4b011.png] \n\nThe difference between CI and SI for 2 years is P(r/100)²\n\nThe difference is \n\n⇒ 625(8/100)²\n\n⇒ 625 × 4/625\n\n⇒ 4\n\n**∴ The difference between CI and SI is 4. **\n\n [IMAGE: https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png] **__Important Points__**\n\nThis short trick works only for 2 years.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6bd67c9563cdde4a0dfe99b7686282bc07365f691adfb64c907de66aebe4b011.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "5d7b5eeefdb8bb3a441e5ea9",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The difference between simple and compound interest on Rs. 1,000 for 3 years at 5% p.a. interest is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 8.4"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 10.15"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 7.6"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 9.2"
+        }
+      ],
+      "correct": "3",
+      "solution": "∵ Simple interest = (Principal × Rate × Time)/100\n\n⇒ Simple interest = (1000 × 5 × 3)/100 = Rs. 150\n\nAlso,\n\nWhen the interest is compounded annually,\n\nCompound interest = Principal × [(1 + Rate/100)Time – 1]\n\n⇒ Compound Interest = 1000 × [(1 + 5/100)³ – 1] = 1000 × 0.1576 = Rs. 157.6\n\n∴ Required difference = 157.6 – 150 = Rs. 7.6",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "5f6a11ee2fae0d70470d9bc1",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The simple interest on a sum deposited at 8% p.a. for 8 years is Rs. 16,000. What will be the compound interest on the same sum at one fourth of the above rate of interest for 2 years?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 1,020"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 980"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 1,010"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 1,015"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given**:\n\nThe simple interest on a sum deposited at 8% p.a. for 8 years is Rs. 16,000. \n\n**Formula Used**:\n\nCompound interest = Principal × [(1 + rate/100)ⁿ - 1]; n = time period\n\nSimple interest = (Principal × time × rate)/100\n\n**Calculation**:\n\nLet the principal sum be Rs. 'x'\n\n⇒ 16000 = x × 8 × 8/100\n\n⇒ x = Rs. 25000 \n\nFor compound interest, rate of interest = 8/4 = 2% p.a \n\n⇒ required Compound interest = 25000 × [(1 + 2/100)² - 1] = 1010\n\n∴ required C.I = Rs. 1010",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "5f904be1520383f7fbc03422",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The Compound Interest on a certain sum for 2 years at a fixed annual rate is ₹3090, and the Simple Interest on the same sum for 3 years at the same rate is ₹4500. Find the total amount after getting the interest.",
+      "options": [
+        {
+          "label": "1",
+          "text": "57590"
+        },
+        {
+          "label": "2",
+          "text": "29050"
+        },
+        {
+          "label": "3",
+          "text": "28090"
+        },
+        {
+          "label": "4",
+          "text": "30280"
+        }
+      ],
+      "correct": "1",
+      "solution": "**GIVEN:**\n\nPrincipal on CI = 3090\n\nTime for CI = 2 years\n\nPrincipal on SI = 4500\n\nTime for SI = 3 years\n\n**FORMULAE USED:**\n\nSimple Interest = (Principal × Rate × Time) / 100\n\n**CALCULATION:**\n\nSimple Interest = 4500 (three years)\n\nSimple Interest = 1500 (one year)\n\nCompound Interest = 1500 (1st year)\n\nCompound Interest = 1590 (2nd year)\n\nRate = (90 / 1500) × 100\n\nRate = 6%\n\nSimple Interest = 6 × 3 = 18% (three years)\n\n⇒ 18% = 4500\n\n⇒ 1% = 250\n\n⇒ 100% = 25000\n\nAmount = 25000 + 4500 = 29500 (Including SI)\n\nAmount = 25000 + 3090 = 28090 (including CI)\n\nTotal amount = 57590\n\n∴ The required value is Rs. 57590",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "64e6f526c65abf36920404c5",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the difference between the simple interest and the compound interest for 3 years at the rate of 10% per annum on a certain sum is equal to ₹310, then that sum of money is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹8,000"
+        },
+        {
+          "label": "2",
+          "text": "₹9,500"
+        },
+        {
+          "label": "3",
+          "text": "₹12,000"
+        },
+        {
+          "label": "4",
+          "text": "₹10,000"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nThe difference = ₹310, Time = 3 years , Rate of interest = 10%\n\n**Concept used:**\n\nThe difference between SI and CI for 3 years will be,\n\nDifference = Principal&",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "602319dfafb73264e6c0142b",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the difference of SI and CI for 2 years on an amount of rupees Rs. 1500 is Rs.150. Find rate%.",
+      "options": [
+        {
+          "label": "1",
+          "text": "10%"
+        },
+        {
+          "label": "2",
+          "text": "(10√ 5%)"
+        },
+        {
+          "label": "3",
+          "text": "15%"
+        },
+        {
+          "label": "4",
+          "text": "(10√ 10)%"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given**\n\nSI - CI = 150\n\nPrincipal = Rs.1500\n\n**Formula used**\n\n(SI - CI) for 2 years = P(R / 100)²\n\nP = Principal\n\nR = Rate\n\n**Calculation**\n\nSI - CI = 6000( R / 100)²\n\n⇒ 150 = 1500(R / 100)²\n\n⇒ 1 / 10 = (R / 100)²\n\n⇒ R² = 10000 / 10\n\n⇒ R = 10√ 10\n\n**∴ Rate is (10√ 10)%**",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "5f734f0360eed72cb26340f9",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "On a certain sum of money, the compound interest for 2 years is Rs. 304.5 and the simple interest for the same period of time is Rs. 290. The rate of interest per annum:",
+      "options": [
+        {
+          "label": "1",
+          "text": "9%"
+        },
+        {
+          "label": "2",
+          "text": "8%"
+        },
+        {
+          "label": "3",
+          "text": "11%"
+        },
+        {
+          "label": "4",
+          "text": "10%"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nC.I for 2 years = Rs. 304.5\n\nS.I for 2 years = Rs. 290\n\n**Calculation:**\n\nS.I for 1 year = Rs. (290/2) = Rs. 145\n\nDifference between S.I and C.I = Rs. (304.5 – 290)\n\n⇒ Rs. 14.5\n\nRate of interest per annum = (14.5/145) × 100%\n\n⇒ 10%\n\n**∴ The rate of interest per annum is 10%**",
+      "tags": [
+        "Interest"
+      ]
+    }
+  ]
+}

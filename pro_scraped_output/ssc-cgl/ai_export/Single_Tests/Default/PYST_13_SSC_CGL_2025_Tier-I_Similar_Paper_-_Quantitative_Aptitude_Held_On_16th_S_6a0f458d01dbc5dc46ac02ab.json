@@ -1,0 +1,862 @@
+{
+  "test_id": "6a0f458d01dbc5dc46ac02ab",
+  "title": "PYST 13: SSC CGL 2025 Tier-I Similar Paper - Quantitative Aptitude (Held On: 16th Sep 2025 Shift 1)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:25:06.104372+00:00",
+  "questions": [
+    {
+      "qid": "694517fd3ad94038619bb804",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If A : B = 4 : 5, B : C = 10 : 7, and C : D = 14 : 15, find the combined ratio A : B : C : D.",
+      "options": [
+        {
+          "label": "1",
+          "text": "16 : 20 : 14 : 15"
+        },
+        {
+          "label": "2",
+          "text": "8 : 10 : 7 : 15"
+        },
+        {
+          "label": "3",
+          "text": "16 : 20 : 7 : 15"
+        },
+        {
+          "label": "4",
+          "text": "4 : 5 : 7 : 15"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nA : B = 4 : 5\n\nB : C = 10 : 7\n\nC : D = 14 : 15\n\n**Formula used:**\n\nTo find combined ratio, make common terms equal and combine all ratios\n\n**Calculation:**\n\nA : B = 4 : 5\n\nB : C = 10 : 7\n\n⇒ Make B equal\n\n⇒ A : B = 8 : 10 (×2)\n\nNow, B : C = 10 : 7\n\nC : D = 14 : 15\n\n⇒ Make C equal\n\n⇒ B : C = 20 : 14 (×2)\n\n⇒ A : B = 16 : 20 (×2)\n\n⇒ C : D = 14 : 15\n\n⇒ A : B : C : D = 16 : 20 : 14 : 15\n\n**∴ The combined ratio is 16 : 20 : 14 : 15.**",
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "694517feafd30dd8688fbed1",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A collection box contains 5, 2, and 1 coins in the ratio 4 : 3 : 2. If the total value in the box is 280, determine the number of coins of each denomination respectively.",
+      "options": [
+        {
+          "label": "1",
+          "text": "40, 30, 20"
+        },
+        {
+          "label": "2",
+          "text": "30, 40, 20"
+        },
+        {
+          "label": "3",
+          "text": "20, 30, 40"
+        },
+        {
+          "label": "4",
+          "text": "40, 20, 30"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRatio of coins of denominations 5, 2, and 1 = 4 : 3 : 2\n\nTotal value in the box = 280\n\nValue of a 5-unit coin = 5\n\nValue of a 2-unit coin = 2\n\nValue of a 1-unit coin = 1\n\n**Formula Used:**\n\nTotal value = (Number of 5-unit coins × 5) + (Number of 2-unit coins × 2) + (Number of 1-unit coins × 1)\n\nLet the number of coins be 4x, 3x, and 2x for 5-unit, 2-unit, and 1-unit coins, respectively.\n\n**Calculation:**\n\n⇒ Total value = (4x × 5) + (3x × 2) + (2x × 1)\n\n⇒ 280 = 20x + 6x + 2x\n\n⇒ 280 = 28x\n\n⇒ x = 280 / 28\n\n⇒ x = 10\n\n⇒ Number of 5-unit coins = 4x = 4 × 10 = 40\n\n⇒ Number of 2-unit coins = 3x = 3 × 10 = 30\n\n⇒ Number of 1-unit coins = 2x = 2 × 10 = 20\n\n**∴ The correct answer is 40, 30, 20.**",
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "694517fef124c2715a8c84f3",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A storage container holds 500 liters of chemicals. If 45.25 liters are extracted from the container three times, how much liquid remains in the container?",
+      "options": [
+        {
+          "label": "1",
+          "text": "364.25"
+        },
+        {
+          "label": "2",
+          "text": "375.5"
+        },
+        {
+          "label": "3",
+          "text": "350.75"
+        },
+        {
+          "label": "4",
+          "text": "360.25"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nTotal volume of the container = 500 liters\n\nVolume extracted each time = 45.25 liters\n\nNumber of extractions = 3\n\n**Formula Used:**\n\nTotal volume extracted = Volume extracted per time × Number of extractions\n\nRemaining volume = Total volume of the container - Total volume extracted\n\n**Calculation:**\n\n⇒ Total volume extracted = 45.25 × 3\n\n⇒ Total volume extracted = 135.75 liters\n\n⇒ Remaining volume = 500 - 135.75\n\n⇒ Remaining volume = 364.25 liters\n\n**∴ The correct answer is 364.25.**",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "694517ff336e2abec23c16c5",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify the following expression: [(3/4 + 1/2) ÷ (5/8)] × (2/3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "4/3"
+        },
+        {
+          "label": "2",
+          "text": "1/2"
+        },
+        {
+          "label": "3",
+          "text": "2/5"
+        },
+        {
+          "label": "4",
+          "text": "3/4"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nExpression: [(3/4 + 1/2) ÷ (5/8)] × (2/3)\n\n**Formula Used:**\n\n1. Addition of fractions: a/b + c/d = (ad + bc) / bd\n\n2. Division of fractions: (a/b) ÷ (c/d) = (a/b) × (d/c)\n\n3. Simplification: a × b = product\n\nCalculation:\n\n⇒ [(3/4 + 1/2) ÷ (5/8)] × (2/3)\n\n⇒ [(3/4 + 2/4) ÷ (5/8)] × (2/3)\n\n⇒ (5/4) ÷ (5/8) × (2/3)\n\n⇒ (5 × 8) / (4 × 5) × (2/3)\n\n⇒ 2 × (2/3) = 4/3\n\n**∴ The correct answer is 4/3.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "694517ffdba2abf4f1199894",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Calculate the value of: (5.4 + 2.6) ÷ 0.5 + (2.5 × 3/5).",
+      "options": [
+        {
+          "label": "1",
+          "text": "15.5"
+        },
+        {
+          "label": "2",
+          "text": "17.5"
+        },
+        {
+          "label": "3",
+          "text": "18.2"
+        },
+        {
+          "label": "4",
+          "text": "16.5"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n(5.4 + 2.6) ÷ 0.5 + (2.5 × 3/5)\n\n**Formula used:**\n\nBODMAS rule\n\n**Calculation:**\n\n(5.4 + 2.6) ÷ 0.5 + (2.5 × 3/5)\n\n⇒ 8 ÷ 0.5 + 1.5\n\n⇒ 16 + 1.5\n\n⇒ 17.5\n\n**∴ The correct answer is 17.5.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "694517ffab3ff1124741dc3b",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "X and Y enter into a partnership with capitals in the ratio 5 : 8. If the profit at the end of the year is divided in the ratio 5 : 4 and X invested for 12 months, for how many months did Y invest?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4 months"
+        },
+        {
+          "label": "2",
+          "text": "5 months"
+        },
+        {
+          "label": "3",
+          "text": "6 months"
+        },
+        {
+          "label": "4",
+          "text": "8 months"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nCapital ratio of X and Y = 5 : 8\n\nProfit ratio of X and Y = 5 : 4\n\nInvestment period for X = 12 months\n\n**Formula Used:**\n\nCapital × Time = Profit\n\nProfit ratio = (CapitalX × TimeX) : (CapitalY × TimeY)\n\n**Calculation:**\n\n⇒ (5 × 12) : (8 × TimeY) = 5 : 4\n\n⇒ (60) : (8 × TimeY) = 5 : 4\n\n⇒ 60 / (8 × TimeY) = 5 / 4\n\n⇒ 4 × 60 = 5 × (8 × TimeY)\n\n⇒ 240 = 40 × TimeY\n\n⇒ TimeY = 240 / 40\n\n⇒ TimeY = 6 months\n\n**∴ The correct answer is 6 months.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6945180017a05050b3f8c9b3",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average of 10 numbers is 45. When one specific number is removed from the set, the average of the remaining numbers becomes 42. What was the value of the number that was removed?",
+      "options": [
+        {
+          "label": "1",
+          "text": "70"
+        },
+        {
+          "label": "2",
+          "text": "68"
+        },
+        {
+          "label": "3",
+          "text": "75"
+        },
+        {
+          "label": "4",
+          "text": "72"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nAverage of 10 numbers = 45\n\nAverage of remaining 9 numbers = 42\n\n**Formula Used:**\n\nTotal sum = Average × Number of items\n\nValue of removed number = Total sum of 10 numbers - Total sum of remaining 9 numbers\n\n**Calculation:**\n\n⇒ Total sum of 10 numbers = 45 × 10\n\n⇒ Total sum of 10 numbers = 450\n\n⇒ Total sum of remaining 9 numbers = 42 × 9\n\n⇒ Total sum of remaining 9 numbers = 378\n\n⇒ Value of removed number = 450 - 378\n\n⇒ Value of removed number = 72\n\n**∴ The correct answer is 72.**",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "69451800b74fb146cb51af75",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Data Interpretation",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Table - Daily Factory Output (units)\n\n \n \n\n Machine\n Mon\n Tue\n Wed\n Thu\n Fri\n \n \n\n A\n 100\n 110\n 105\n 115\n 120\n \n \n\n B\n 90\n 95\n 100\n 110\n 105\n \n \n\n \n\nQ: What is the combined average daily output for both machines?",
+      "options": [
+        {
+          "label": "1",
+          "text": "210 units"
+        },
+        {
+          "label": "2",
+          "text": "200 units"
+        },
+        {
+          "label": "3",
+          "text": "220 units"
+        },
+        {
+          "label": "4",
+          "text": "205 units"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Formula used:**\n\nAverage = Total output ÷ Total days\n\n**Calculation:**\n\n⇒ Total output of Machine A = 100 + 110 + 105 + 115 + 120 = 550 units\n\n⇒ Total output of Machine B = 90 + 95 + 100 + 110 + 105 = 500 units\n\n⇒ Combined total output = 550 + 500 = 1050 units\n\n⇒ Combined average daily output = 1050 ÷ 5 = 210 units\n\n**∴ The combined average daily output for both machines is 210 units.**",
+      "tags": [
+        "Tabulation"
+      ]
+    },
+    {
+      "qid": "69451800094f3bac91aee45c",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A certain investment grows to 14,520 in 2 years at a 10 percent annual compound interest rate. What was the initial principal amount invested?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11000"
+        },
+        {
+          "label": "2",
+          "text": "12000"
+        },
+        {
+          "label": "3",
+          "text": "12500"
+        },
+        {
+          "label": "4",
+          "text": "11500"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nFuture value = 14,520\n\nRate of interest = 10% per annum\n\nTime = 2 years\n\n**Formula Used:**\n\nFuture Value (FV) = Principal × (1 + Rate/100)Time\n\n**Calculation:**\n\n⇒ 14,520 = Principal × (1 + 10/100)²\n\n⇒ 14,520 = Principal × (1.10)²\n\n⇒ 14,520 = Principal × 1.21\n\n⇒ Principal = 14,520 / 1.21\n\n⇒ Principal = 12,000\n\n**∴ The correct answer is 12,000.**",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "69451801e1381fc61f0fee1c",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A wholesaler bought 30 kg of pulses at 30 per kg and 20 kg of a premium variety at 45 per kg. After mixing them, he sold the entire stock at 42 per kg. What was his total profit or loss in this venture?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Loss of 200"
+        },
+        {
+          "label": "2",
+          "text": "Profit of 200"
+        },
+        {
+          "label": "3",
+          "text": "Profit of 300"
+        },
+        {
+          "label": "4",
+          "text": "Loss of 300"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nQuantity of pulses bought at 30 per kg = 30 kg\n\nPrice per kg of pulses = 30\n\nQuantity of premium variety bought at 45 per kg = 20 kg\n\nPrice per kg of premium variety = 45\n\nSelling price per kg after mixing = 42\n\n**Formula Used:**\n\nTotal cost price = (Quantity × Price per kg) + (Quantity × Price per kg)\n\nTotal selling price = Total quantity × Selling price per kg\n\nProfit/Loss = Total selling price - Total cost price\n\n**Calculation:**\n\n⇒ Total cost price = (30 × 30) + (20 × 45)\n\n⇒ Total cost price = 900 + 900\n\n⇒ Total cost price = 1800\n\n⇒ Total selling price = (30 + 20) × 42\n\n⇒ Total selling price = 50 × 42\n\n⇒ Total selling price = 2100\n\n⇒ Profit = Total selling price - Total cost price\n\n⇒ Profit = 2100 - 1800\n\n⇒ Profit = 300\n\n**∴ The correct answer is Profit of 300.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "69451801949c1c5590b153e2",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A high-end camera has a marked price of 20,000. If the first discount offered is 20 percent and the final sale price is 14,400, what is the percentage of the second successive discount?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 percent"
+        },
+        {
+          "label": "2",
+          "text": "10 percent"
+        },
+        {
+          "label": "3",
+          "text": "12 percent"
+        },
+        {
+          "label": "4",
+          "text": "15 percent"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nMarked price = 20,000\n\nFirst discount = 20%\n\nFinal sale price = 14,400\n\n**Formula Used:**\n\nSale price after first discount = Marked price × (1 - First discount/100)\n\nSecond discount = [(Price after first discount - Final sale price) / Price after first discount] × 100\n\n**Calculation:**\n\n⇒ Sale price after first discount = 20,000 × (1 - 20/100)\n\n⇒ Sale price after first discount = 20,000 × 0.8\n\n⇒ Sale price after first discount = 16,000\n\n⇒ Second discount = [(16,000 - 14,400) / 16,000] × 100\n\n⇒ Second discount = [1,600 / 16,000] × 100\n\n⇒ Second discount = 0.1 × 100\n\n⇒ Second discount = 10%\n\n**∴ The correct answer is 10 percent.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "694518018ffa5afe12d191e1",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A retailer marks his goods 50 percent above the cost price. He then offers a discount to a customer that results in a final profit of 20 percent. What was the rate of discount provided?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 percent"
+        },
+        {
+          "label": "2",
+          "text": "25 percent"
+        },
+        {
+          "label": "3",
+          "text": "20 percent"
+        },
+        {
+          "label": "4",
+          "text": "30 percent"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nCost Price (CP) = 100 (assume)\n\nMarked Price (MP) = 150% of CP = 1.5 × 100 = 150\n\nProfit = 20%\n\nSelling Price (SP) = 120% of CP = 1.2 × 100 = 120\n\n**Formula Used:**\n\nRate of Discount (%) = [(MP − SP) / MP] × 100\n\n**Calculation:**\n\n⇒ MP − SP = 150 − 120 = 30\n\n⇒ Rate of Discount = (30 / 150) × 100\n\n⇒ Rate of Discount = 20%\n\n**∴ The correct answer is 20 percent.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "694518029a3cd72353589c50",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Solution X has milk and water in a 3 : 2 ratio, while Solution Y has them in a 7 : 3 ratio. If 20 liters of X and 30 liters of Y are mixed together, what is the final ratio of milk to water in the new mixture?",
+      "options": [
+        {
+          "label": "1",
+          "text": "33 : 17"
+        },
+        {
+          "label": "2",
+          "text": "31 : 19"
+        },
+        {
+          "label": "3",
+          "text": "35 : 15"
+        },
+        {
+          "label": "4",
+          "text": "30 : 20"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nSolution X ratio (Milk : Water) = 3 : 2\n\nQuantity of X = 20 liters\n\nSolution Y ratio (Milk : Water) = 7 : 3\n\nQuantity of Y = 30 liters\n\n**Formula used:**\n\nMilk = Total quantity × (Milk parts ÷ Total parts)\n\nWater = Total quantity × (Water parts ÷ Total parts)\n\n&",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6945180200c35f96c29c7934",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the side of a cube is tripled in length, what is the ratio of the new total surface area to the original surface area, and what is the ratio of the new volume to the original volume?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6:1 and 9:1"
+        },
+        {
+          "label": "2",
+          "text": "9:1 and 27:1"
+        },
+        {
+          "label": "3",
+          "text": "3:1 and 9:1"
+        },
+        {
+          "label": "4",
+          "text": "9:1 and 18:1"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nLet original side of cube = a\n\nNew side of cube = 3a\n\n**Formula used:**\n\nTotal Surface Area of cube = 6a²\n\nVolume of cube = a³\n\n**Calculation:**\n\n**Surface Area:**\n\n⇒ Original surface area = 6 × a²\n\n⇒ New surface area = 6 × (3a)²\n\n⇒ New surface area = 6 × 9a² = 54a²\n\n⇒ Ratio of new to original surface area = 54a² : 6a²\n\n⇒ Ratio = 9 : 1\n\n**Volume:**\n\n⇒ Original volume = a³\n\n⇒ New volume = (3a)³\n\n⇒ New volume = 27a³\n\n⇒ Ratio of new to original volume = 27a³ : a³\n\n⇒ Ratio = 27 : 1\n\n**∴ The ratio of surface areas is 9 : 1 and the ratio of volumes is 27 : 1.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "694518029a3cd72353589c52",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A solid cylinder and a cone have the same base radius R and equal volumes. Determine the height of the cone if the height of the cylinder is 12 cm.",
+      "options": [
+        {
+          "label": "1",
+          "text": "24 cm"
+        },
+        {
+          "label": "2",
+          "text": "12 cm"
+        },
+        {
+          "label": "3",
+          "text": "36 cm"
+        },
+        {
+          "label": "4",
+          "text": "48 cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nRadius of cylinder = Radius of cone = R\n\nHeight of cylinder = 12 cm\n\nVolume of cylinder = Volume of cone\n\n**Formula used:**\n\nVolume of cylinder = π × R² × h\n\nVolume of cone = (1/3) × π × R² × h\n\n**Calculation:**\n\n⇒ π × R² × 12 = (1/3) × π × R² × h\n\n⇒ 12 = h ÷ 3\n\n⇒ h = 12 × 3\n\n⇒ h = 36 cm\n\n**∴ The height of the cone is 36 cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6945180323ac21ca3457793d",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A solid metal sphere with a radius of 6 cm is melted and recast into 8 identical smaller spheres. What is the radius of each new small sphere?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 cm"
+        },
+        {
+          "label": "2",
+          "text": "3 cm"
+        },
+        {
+          "label": "3",
+          "text": "4 cm"
+        },
+        {
+          "label": "4",
+          "text": "1.5 cm"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRadius of the original sphere = 6 cm\n\nNumber of smaller spheres = 8\n\n**Formula Used:**\n\nVolume of a sphere = (4/3)πr³\n\nVolume of original sphere = Sum of the volumes of 8 smaller spheres\n\n**Calculation:**\n\nVolume of original sphere ⇒ (4/3)π × 6³\n\n⇒ (4/3)π × 216\n\n⇒ 288π\n\nVolume of each smaller sphere ⇒ (288π / 8)\n\n⇒ 36π\n\n(4/3)π × r³ = 36π\n\n⇒ r³ = (36 × 3) / 4\n\n⇒ r³ = 27\n\n⇒ r = 3 cm\n\n**∴ The correct answer is 3 cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "69451803f124c2715a8c8564",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A square pyramid has a base perimeter of 60 cm and a slant height of 12 cm. What is the lateral surface area of this pyramid?",
+      "options": [
+        {
+          "label": "1",
+          "text": "300 sq cm"
+        },
+        {
+          "label": "2",
+          "text": "420 sq cm"
+        },
+        {
+          "label": "3",
+          "text": "360 sq cm"
+        },
+        {
+          "label": "4",
+          "text": "240 sq cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nBase perimeter = 60 cm\n\nSlant height = 12 cm\n\n**Formula Used:**\n\nLateral surface area = (1/2) × Perimeter of base × Slant height\n\n**Calculation:**\n\n⇒ Lateral surface area = (1/2) × 60 × 12\n\n⇒ Lateral surface area = 30 × 12\n\n⇒ Lateral surface area = 360 cm²\n\n**∴ The correct answer is 360 sq cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "69451804b74fb146cb51afa4",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two circles have areas in the ratio 9 : 16. If the radius of the smaller circle is 15 cm, what is the radius of the larger circle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 cm"
+        },
+        {
+          "label": "2",
+          "text": "25 cm"
+        },
+        {
+          "label": "3",
+          "text": "18 cm"
+        },
+        {
+          "label": "4",
+          "text": "24 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nArea ratio of two circles = 9 : 16\n\nRadius of smaller circle = 15 cm\n\n**Formula Used:**\n\nArea of a circle = π × radius²\n\nRatio of areas = (radius of smaller circle)² : (radius of larger circle)²\n\nCalc",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6945180434e88ff51a29f39c",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a triangle, the length of a median is 15 cm. What is the distance from the vertex to the centroid along this median?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 cm"
+        },
+        {
+          "label": "2",
+          "text": "7.5 cm"
+        },
+        {
+          "label": "3",
+          "text": "10 cm"
+        },
+        {
+          "label": "4",
+          "text": "12 cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nLength of the median = 15 cm\n\n**Formula Used:**\n\nDistance from the vertex to the centroid along the median = (2/3) × length of the median\n\n**Calculation:**\n\n⇒ Distance from the vertex to the centroid = (2/3) × 15\n\n⇒ Distance from the vertex to the centroid = 30 / 3\n\n⇒ Distance from the vertex to the centroid = 10 cm\n\n**∴ The correct answer is 10 cm.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "69451804afd30dd8688fbf6b",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two right-angled triangles, PQR and STU, have their hypotenuses PR and SU equal. If the sides PQ and ST are also equal, the triangles are congruent by which mathematical rule?",
+      "options": [
+        {
+          "label": "1",
+          "text": "SSS"
+        },
+        {
+          "label": "2",
+          "text": "ASA"
+        },
+        {
+          "label": "3",
+          "text": "SAS"
+        },
+        {
+          "label": "4",
+          "text": "RHS"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nTwo right-angled triangles, PQR and STU\n\nHypotenuses PR and SU are equal\n\nSides PQ and ST are equal\n\n**Formula Used:**\n\nRHS Congruence Rule: If the hypotenuse and one side of two right-angled triangles are equal, the triangles are congruent.\n\n**Calculation:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/496bd3d44442349352beaa3099a0e246a17e0340dca55a2dcaa4c18969f7fc16.png] \n\n⇒ Hypotenuse PR = SU\n\n⇒ Side PQ = ST\n\n⇒ Triangles PQR and STU are congruent by RHS rule\n\n**∴ The correct answer is RHS.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/496bd3d44442349352beaa3099a0e246a17e0340dca55a2dcaa4c18969f7fc16.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "69451805f124c2715a8c8567",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A right-angled triangle is inscribed in a circle with a diameter of 26 cm. If one of the legs of the triangle measures 10 cm, what is the length of the altitude drawn to the hypotenuse?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9.23 cm"
+        },
+        {
+          "label": "2",
+          "text": "8.5 cm"
+        },
+        {
+          "label": "3",
+          "text": "10.4 cm"
+        },
+        {
+          "label": "4",
+          "text": "7.6 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nDiameter of the circle = 26 cm\n\nOne leg of the triangle = 10 cm\n\n**Formula Used:**\n\nHypotenuse = Diameter of the circle\n\nPythagoras theorem: Hypotenuse² = Leg 1² + Leg 2²\n\nArea of triangle = (1/2) × Base × Height\n\nArea of triangle = (1/2) × Hypotenuse × Altitude\n\n**Calculation:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/5d346824f9e992b79e6857d3e7c04e6ea8d4193a0d97892bff8ae75236479576.png] \n\n⇒ Hypotenuse = Diameter = 26 cm\n\n⇒ Hypotenuse² = 26²\n\n⇒ 26² = 10² + Leg 2²\n\n⇒ 676 = 100 + Leg 2²\n\n⇒ Leg 2² = 676 − 100\n\n⇒ Leg 2² = 576\n\n⇒ Leg 2 = √576\n\n⇒ Leg 2 = 24 cm\n\nArea of triangle:\n\n⇒ (1/2) × Base × Height = (1/2) × Hypotenuse × Altitude\n\n⇒ (1/2) × 10 × 24 = (1/2) × 26 × Altitude\n\n⇒ 120 = 13 × Altitude\n\n⇒ Altitude = 120 / 13\n\n⇒ Altitude ≈ 9.23 cm\n\n**∴ The correct answer is 9.23 cm.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/5d346824f9e992b79e6857d3e7c04e6ea8d4193a0d97892bff8ae75236479576.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "69451805e778c46e65354b81",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If two circles touch each other internally at exactly one point, how many common tangents can be drawn to both circles?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "0"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nTwo circles touch each other internally at exactly one point\n\n**Formula used:**\n\nNumber of common tangents depends on the position of two circles\n\n**Calculation:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/785bd7ec423aaf9d2e49fb9505c5c6bbb785a0d611f0999e84465d45d94a608a.png] \n\n⇒ When two circles touch internally, one circle lies inside the other\n\n⇒ At the point of internal contact, only one common tangent is possible\n\n**∴ The number of common tangents drawn to both circles is 1.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/785bd7ec423aaf9d2e49fb9505c5c6bbb785a0d611f0999e84465d45d94a608a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "69451805d6a55131a1cecbfe",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two circles with radii 9 and 4 touch each other externally. What is the length of their direct common tangent?",
+      "options": [
+        {
+          "label": "1",
+          "text": "13"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRadius of the first circle = 9\n\nRadius of the second circle = 4\n\n**Formula Used:**\n\nLength of the direct common tangent = √((r₁ + r₂)² - (r₁ - r₂)²)\n\n**Calculation:**\n\n&r",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "69451806fad8bfd26c185704",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A chord of length 12 cm subtends an angle of 30 degrees at the circumference of a circle. What is the shortest distance from the center of the circle to this chord?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6 units"
+        },
+        {
+          "label": "2",
+          "text": "3√3 units"
+        },
+        {
+          "label": "3",
+          "text": "6√3 units"
+        },
+        {
+          "label": "4",
+          "text": "4√3 units"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\nLength of chord = 12 cm\n\nAngle subtended at circumference = 30°\n\nFormula used:\n\nAngle at center = 2 × angle at circumference\n\nChord length = 2R × sin(θ/2)\n\n<p style=\"co",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "69451806e1381fc61f0fee44",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the area of the segment formed by a chord in a circle of radius 12 cm, if the angle subtended by the chord at the center is 60 degrees?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24π - 36√3"
+        },
+        {
+          "label": "2",
+          "text": "12π - 18√3"
+        },
+        {
+          "label": "3",
+          "text": "24π - 12√3"
+        },
+        {
+          "label": "4",
+          "text": "48π - 36√3"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRadius of circle (R) = 12 cm\n\nAngle subtended at center (θ) = 60°\n\n**Formula used:**\n\nArea of sector = (θ/360) × π × R²\n\nArea of triangle = (1/2) × R² × sin θ\n\nArea of segment = Area of sector − Area of triangle\n\nCalcula",
+      "tags": [
+        "Mensuration"
+      ]
+    }
+  ]
+}

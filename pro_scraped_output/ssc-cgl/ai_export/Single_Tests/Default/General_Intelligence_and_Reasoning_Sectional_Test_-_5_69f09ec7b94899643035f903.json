@@ -1,0 +1,1010 @@
+{
+  "test_id": "69f09ec7b94899643035f903",
+  "title": "General Intelligence and Reasoning Sectional Test - 5",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:20:12.404113+00:00",
+  "questions": [
+    {
+      "qid": "5c2e1a17fdb8bb5d5d6eb9d3",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 11*8 = 6, 19*7 = 24 and 14*6 = 16, then find the value of 12*9 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic/rule followed here is:\n\n11*8 = 6 → (11 **–** 8) **× 2** = 6\n\n19*7 = 24 → (19 **–** 7) **× 2** = 24\n\n14*6 = 16 → (14 **–** 6) **× 2** = 16\n\nTherefore,\n\n12*9 = → (12 **–** 9) **× 2** = **6**\n\nHence, answer is ‘6’.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "5cd82520fdb8bb52f67ecc19",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "4 3 M K # 9 I N M P 2 @ R R $ 7 T E @ # 3 P K 7 % 8 T 2 5 Y $ # 6 J\n\nHow many numbers are there which are immediately followed by a letter and immediately preceded by a symbol ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "7"
+        }
+      ],
+      "correct": "1",
+      "solution": "There is a total of five numbers which are immediately followed by a letter and immediately preceded by a symbol (written in bold), as shown below:\n\n4 3 M K **# 9 I** N M P 2 @ R R **$ 7 T** E @ **# 3 P** K 7 **% 8 T** 2 5 Y $ **# 6 J**\n\nHence, '5' is the correct alternative.",
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "5ceff1e1fdb8bb5cb6adb202",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that will correctly fit in the blank space in the given figure series.\n\n [IMAGE: https://cdn.repeatermock.com/tb/62a74f1736e2b0a199a2979a281084d9cffb169e04a5bebc8f32e5abd09a6a5d.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/c9c3b07386748042de3a6cc5d2cebcaf8ecfa0acdc8bb6c296e150494670f98a.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/9964096b3cd6fca32ac9b76cbd9535559f9c8518f58b6baa50882045f889a480.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/36795c9e540873650daf95decdf2c30e332f6db5a752bcb4de2e37b04fba6d0d.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/5f6911241a65510582a777cd5448b246066b1c919c50bf8dbb63e3f65a2b36f8.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "Here in the first square, there are three cross signs, three plus signs, and three dots. With each successive figure, one cross sign, then one plus sign is removed.\n\nSo, in the next figure, one dot will be removed.\n\nThus, the answer figure will have two cross signs, two plus signs, and two dots.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36795c9e540873650daf95decdf2c30e332f6db5a752bcb4de2e37b04fba6d0d.png] \n\nHence answer is option 3.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/62a74f1736e2b0a199a2979a281084d9cffb169e04a5bebc8f32e5abd09a6a5d.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36795c9e540873650daf95decdf2c30e332f6db5a752bcb4de2e37b04fba6d0d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "5e7b77e5f60d5d29f99c825f",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A book contains 50 pages. On each page, there are 20 lines and in each lines, there are 10 words. How many words does that book contain?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10,000"
+        },
+        {
+          "label": "2",
+          "text": "15,000"
+        },
+        {
+          "label": "3",
+          "text": "20,000"
+        },
+        {
+          "label": "4",
+          "text": "30,000"
+        }
+      ],
+      "correct": "1",
+      "solution": "A book contains 50 pages,\n\nEach page consist of 20 lines, and\n\nThere are 10 words on each lines.\n\nHence, total number of words in the book are,\n\n= 50 × 20 × 10\n\n= 10,000\n\nHence, there are 10,000 words present in the book.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "5fed90c4b808c7aec95da0c0",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Situation Reaction Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Ram wanted to do an MBA but due to financial difficulties, his parents find it difficult to give him further education. He _________________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "will take a part-time job, continued his studies, cracked the exam, and joined an MBA college."
+        },
+        {
+          "label": "2",
+          "text": "will start working in a private company and will not do an MBA."
+        },
+        {
+          "label": "3",
+          "text": "will start earning money by wrong method so that he can do an MBA."
+        },
+        {
+          "label": "4",
+          "text": "will start arguing with his parents for not arranging money."
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is Option 1: Will take a part-time job, continued his studies, cracked the exam, and joined an MBA college.\n\n \n \n\n Statement\n Correctness\n Reasoning\n \n \n \n \n\n Will take a part-time job, continued his studies, cracked the exam, and joined an MBA college.\n Correct\n This shows how determined, focus, and serious you are about your exam and at the same time how responsible you are toward your family.\n \n \n\n will start working in a private company and will not do an MBA.\n Incorrect\n This shows you were not serious about your exam. \n \n \n\n will start earning money by the wrong method so that he can do an MBA.\n incorrect\n This shows you he is using the wrong method to earn money in such a small time by making himself in danger.\n \n \n\n \n \nwill start arguing with his parents for not arranging money.\n\n \n Incorrect\n This shows irresponsible you are because you don't care about your father's situation. \n \n \n\n \n\n__\n \n• Qualities Projected in this situation: (Determination, self-confidence, and sense of responsibility).\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **Key Points__**\n\n__\n \n• Checklist for attempting SRT questions:\n\n \n• Read the question and options carefully.\n \n• Look for options that are realistic, optimistic, and reflect officer-like qualities.\n \n• Do not skip any situation.\n \n• Relegate the negative sentences and choose the most logical option among the remaining. As time is an important factor, hence your thinking ability should be swift.\n \n• React quickly and be logical.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\nOfficer qualities:\n\n [IMAGE: https://cdn.repeatermock.com/tb/8b1968552899ac2b9319005599614d023ccf1040f0e3fa2d69b8aae6a68b107b.png]",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8b1968552899ac2b9319005599614d023ccf1040f0e3fa2d69b8aae6a68b107b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Situation Reaction Test"
+      ]
+    },
+    {
+      "qid": "56a3727a995a2d0748181cb1",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "**In the question given below is given a statement followed by two assumptions numbered I and II. An assumption is something taken for granted. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit in the statement. **\n\n**Statement:** The tribals have realized that no good will come out of their sacrificing rituals for rain and have started focusing on forestation instead.\n\n**Assumptions:**\n\n1. The tribals continue to attach immense value to their rituals.\n\n2. Planting more trees helps in increasing rainfall.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only assumption I is implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only assumption II is implicit"
+        },
+        {
+          "label": "3",
+          "text": "Neither assumption I nor II is implicit"
+        },
+        {
+          "label": "4",
+          "text": "Both assumptions I and II are implicit"
+        }
+      ],
+      "correct": "2",
+      "solution": "The given statement provides us with the fact that the tribals have abandoned their superstitious practices of performing various rituals for rain and have instead started focusing on planting trees.\n\nThe first assumption indicates that the tribals continue to attach immense value to their rituals. This assumption is clearly not true, since the tribals are ready to give up their superstitious practices. Hence, it can be eliminated.\n\nThe second assumption indicates that planting trees increases rainfall. The given statement gives an opposition to the practice of performing rituals. It indicates that these rituals do not bring any benefit. Therefore, from the sentence composition, it can be easily inferred that planting trees would increase the rainfall. Hence, it is a safe assumption to make.\n\nHence, option 2 is the correct answer.",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "61caf5c2cf8a5b9dbc2c8edf",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, ‘TRAVEL' is written as ‘SUWBMF’. How will ‘FROZEN’ be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "SGBPOG"
+        },
+        {
+          "label": "2",
+          "text": "SGAPOF"
+        },
+        {
+          "label": "3",
+          "text": "SGAQPF"
+        },
+        {
+          "label": "4",
+          "text": "TGBPOF"
+        }
+      ],
+      "correct": "2",
+      "solution": "Table show alphabet serial number –\n\n [IMAGE: https://cdn.repeatermock.com/tb/286550159bb1b1af83b0ffca14b226c7cea8abbacc574e15aefc51c80aadcc47.png] \n\nThe pattern for the code is as follows,\n\n‘TRAVEL' is written as ‘SUWBMF’\n\n<img alt=&quo",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/286550159bb1b1af83b0ffca14b226c7cea8abbacc574e15aefc51c80aadcc47.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "61cb1336207421f16f31ced3",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, MODERN is coded as QSHIVR. Which of the given options would be coded as WMIRG in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "SINEC"
+        },
+        {
+          "label": "2",
+          "text": "SEINC"
+        },
+        {
+          "label": "3",
+          "text": "SIENC"
+        },
+        {
+          "label": "4",
+          "text": "SNEIC"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/4b907857577a77a8a434a44ac1d162fc3010997ea3e916db5aeb300d07efa412.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/318930558adb48adcb631ea06302b96197471c83b3ab9b21b38c653cdc61eb4f.png] \n\nSimilarly,\n\n**? = WMIRG**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c7ed296e289f16a2de6adbdd88a835a23fd09cedcbc7d1cbc6919faf6f61c7f3.png] \n\nHence, **'SIENC'** is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4b907857577a77a8a434a44ac1d162fc3010997ea3e916db5aeb300d07efa412.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/318930558adb48adcb631ea06302b96197471c83b3ab9b21b38c653cdc61eb4f.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c7ed296e289f16a2de6adbdd88a835a23fd09cedcbc7d1cbc6919faf6f61c7f3.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "62abfb0dc5a3a9d18a42a702",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A series is given with one term missing. Select the correct alternative from the given ones that will complete the series.\n\nSX6, UD13, WJ27, YP55, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "AW111"
+        },
+        {
+          "label": "2",
+          "text": "AV111"
+        },
+        {
+          "label": "3",
+          "text": "VA121"
+        },
+        {
+          "label": "4",
+          "text": "BV121"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0ebbb0b55344d7280e907e70de627ffb95d22661a0b6add9e894b4800076fb86.png] \n\nThe logic followed here is :\n\nThe first and second letter is increased by +2 and +6 respectively and numbers are",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0ebbb0b55344d7280e907e70de627ffb95d22661a0b6add9e894b4800076fb86.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "62b4b3e37471e9971681a431",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the given statements and conclusions carefully. Decide which of the given conclusions is/are true based on the statements.\n\n**Statements:**\n\nα ≤ μ M = @\n\n**Conclusions:**\n\nI. α < @\n\nII. @ < Ω",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion I is true"
+        },
+        {
+          "label": "2",
+          "text": "Neither conclusion I nor II is true"
+        },
+        {
+          "label": "3",
+          "text": "Both conclusions I and II are true"
+        },
+        {
+          "label": "4",
+          "text": "Only conclusion II is true"
+        }
+      ],
+      "correct": "4",
+      "solution": "Statements:\n\nα ≤ μ M = @\n\nConclusions:\n\nI. α α ≤ μ M = @ → a definite relation between α and @ cannot be determined)\n\nII. @ β ≤ Ω → @ \n\nHence, **o****nly conclusion II is true**.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "62e19d43a17a2da7cc9de3c0",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If L denotes +, M denotes -, N denotes ×, P denotes ÷ , then 14 N 10 L 42 P 2 M 8 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "153"
+        },
+        {
+          "label": "2",
+          "text": "216"
+        },
+        {
+          "label": "3",
+          "text": "248"
+        },
+        {
+          "label": "4",
+          "text": "251"
+        }
+      ],
+      "correct": "1",
+      "solution": "**BODMAS rule:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/46cef49d4f405f73727fa5364256087b69d1693a9305975d75d9564afa798f72.png] \n\nLet us decode the given sign:\n\n \n \n\n **Sign**\n **L**\n **M**\n **N**\n **P**\n \n \n\n **Meaning**\n **+**\n **-**\n **× **\n ÷ \n \n \n\nGiven: 14 N 10 L 42 P 2 M 8 = ?\n\nAfter interchanging we get: \n\n14 × 10 + __**42 ÷ 2 **__- 8 \n\n⇒ __**14 × 10**__ + 21 - 8\n\n⇒ __**140 + 21**__ - 8\n\n⇒ __**161 - 8**__ = 153\n\nHence, the correct answer is **\"153\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/46cef49d4f405f73727fa5364256087b69d1693a9305975d75d9564afa798f72.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "66a4ed950e89a90afd5788ee",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language,\n\n'A x B' means ‘A is the son of B’,\n\n'A – B' means ‘A is the brother of B’,\n\n'A + B' means ‘A is the wife of B’,\n\n'A % B' means ‘A is the father of B’.\n\nHow is M related to T if ‘M + N – P x S % T’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mother's brother's daughter"
+        },
+        {
+          "label": "2",
+          "text": "Brother's wife"
+        },
+        {
+          "label": "3",
+          "text": "Father's brother's son's wife"
+        },
+        {
+          "label": "4",
+          "text": "Wife's sister"
+        }
+      ],
+      "correct": "2",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png] \n\nDecoding the Symbols:\n\n \n \n\n Symbol\n +\n -\n x\n %\n \n \n\n Meaning\n Wife\n Brother\n son\n Father\n \n \n\n \n\nGiven: M + N – P x S % T\n\nIt means: M is the wife of N, N is the brother of P, P is the son of S and S is the father of T.\n\n [IMAGE: https://cdn.repeatermock.com/tb/9f447dcf7b6c3f80a70b9338fe6a813c0a6262f4f349bc6ab3bee63436e80678.png] \n\nSo, M is the '**Brother's wife'** of T.\n\nHence, the correct answer is \"Option 2\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/9f447dcf7b6c3f80a70b9338fe6a813c0a6262f4f349bc6ab3bee63436e80678.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "605c67415a7642e33be51deb",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Pallavi and Shonali together bought 9 books and 9 copies. Pallavi spent Rs. 3,800 and Shonali spent Rs. 3,400. If each copy costs four times an book does, then what is the price of a book?",
+      "options": [
+        {
+          "label": "1",
+          "text": "640"
+        },
+        {
+          "label": "2",
+          "text": "260"
+        },
+        {
+          "label": "3",
+          "text": "480"
+        },
+        {
+          "label": "4",
+          "text": "160"
+        }
+      ],
+      "correct": "4",
+      "solution": "Let the cost of the book be Rs. b and cost of the copy be Rs. c.\n\nEach copy costs four times a book does. So,\n\nc = 4b\n\nTotal amount spent = Rs. 3,800 + Rs. 3,400 = Rs. 7,200\n\n9b + 9c = 7,200\n\nb + c = 7,200/9\n\nb + c = 800\n\nb + 4b = 800\n\n5b = 800\n\nb = 800/5\n\nb = 160\n\nTherefore cost of the book = 160\n\nHence, 160 is the correct answer",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "607e0e98d11374522ec6d521",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "**Direction:** Find the correct mirror image of the given figure.\n\n [IMAGE: https://cdn.repeatermock.com/tb/270bb941c076e3d9bbc3c5ea64a791cc699c624333d94804e57b49719569d975.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/0b0b6af36b7860546f69395dc4575812e0696d8647a5ff9336642acc4670b014.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/94d6961dd5159d3bddef72843c063eb8d4988294cd6e6e33f5e82a3eef7786c6.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/414703db2a5c4f3ccb176f7ab0eef72c77f454ade0b2ec5c5eaae27285e0d688.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/6b970c7a0779ff89d5ab1d8b58bd33587106407decda38957191172461db4398.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "The mirror image of the figure when we placed mirror image at the right side of the object – \n\n [IMAGE: https://cdn.repeatermock.com/tb/c81c0d49870c2a43a42af47eed5b9a4d3366e7d7a838a580f7ee015b99c24d0a.png] \n\n**Hence, Option 3 is correct answer.**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/270bb941c076e3d9bbc3c5ea64a791cc699c624333d94804e57b49719569d975.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c81c0d49870c2a43a42af47eed5b9a4d3366e7d7a838a580f7ee015b99c24d0a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "616e83a30ae91970f97b42ba",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the related number from the given alternatives.\n\n345 : 60 :: 513 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "55"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed is:\n\nThe second number = multiplication of all the digits of the first number\n\n345 : 60\n\n60 = 3 × 4 × 5\n\n60 = 60\n\nSimilarly,\n\n513 : ?\n\n? = 5 × 1 × 3\n\n? = 15\n\nHence, the correct answer is \"15\".",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "625ab34f5e4397b6dcb9da07",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the correct option that indicates the arrangement of the given words in the order in which they appear in an English dictionary.\n\n1. Perimeter\n\n2. Parachute\n\n3. Paragraph\n\n4. Parade\n\n5. Peril",
+      "options": [
+        {
+          "label": "1",
+          "text": "1, 4, 2, 5, 3"
+        },
+        {
+          "label": "2",
+          "text": "2, 4, 3, 1, 5"
+        },
+        {
+          "label": "3",
+          "text": "2, 4, 3, 5, 1"
+        },
+        {
+          "label": "4",
+          "text": "4, 2, 3, 5, 1"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct option that indicates the arrangement of the given words in the order in which they appear in an English dictionary is:\n\n2. **Para__c__**hute\n\n4. **Para__d__**e\n\n3. **Para__g__**raph\n\n5. **Per__il__**\n\n1. **Peri__m__**eter\n\nHence, '**2, 4, 3, 5, 1**' is the correct answer.",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "636cfcf513310b7bde6fe1a5",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.\n\n**Statements:**\n\nSome cats are rats.\n\nAll rats are dogs.\n\nAll dogs are monkeys.\n\n**Conclusions:**\n\n(I) Some monkeys are cats.\n\n(II) All monkeys are rats.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Neither conclusion I nor II follows"
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion I follows"
+        },
+        {
+          "label": "3",
+          "text": "Both conclusions I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Only conclusion II follows"
+        }
+      ],
+      "correct": "2",
+      "solution": "The least possible venn diagram of given statement is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/a5d92ec7a432eb7351f6f9187403fd34e855b9088090a2bc8b6c1385ef88d322.png] \n\nConclusions:\n\n(I) Some monkeys are cats. → **True (**As** **there is a definite relation between Monkeys and Cats as shown above)\n\n(II) All monkeys are rats. → False (As all rats are dogs but not all monkeys are rats)\n\nHence, the** correct answer is **\"Option 2\"**.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a5d92ec7a432eb7351f6f9187403fd34e855b9088090a2bc8b6c1385ef88d322.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "666be9733f4be12c9dc3da4e",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Course of Action",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which among the following option is correct on the basis of statement and courses of action?\n\n**Statement :** About 50% of the students in a state high school board examination have failed due to the question paper being set that is very difficult.\n\n**Courses of Action :**\n\nI. All the failed students are given a good lesson as they have not done hard work.\n\nII. Tough papers should always be set in board exams.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "3",
+          "text": "Only II follows"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follow"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given:\n\nStatement:** \"About 50% of the students in a state high school board examination have failed due to the question paper being set that is very difficult.\"**\n\n**Courses of Action: **\n\n**I**. All the failed students are given a good lesson as they have not done the hard work.\n\nThis course of action assumes that the failure is solely due to the students' lack of effort, disregarding the statement's indication that the difficulty of the paper is the main cause. Punishing or reprimanding students without addressing the root cause is unlikely to be constructive and could demoralise students.\n\n**II.** Tough papers should always be set in board exams.\n\nThis course of action suggests that setting difficult papers is inherently valuable. However, it does not address the underlying problem highlighted by the statement. The purpose of exams is to assess students’ knowledge and skills fairly and accurately. Consistently setting overly tough papers could lead to widespread failures and does not necessarily reflect the students' true abilities or the quality of the education they are receiving.\n\nGiven these evaluations:\n\nCourse of Action I is inappropriate and not aligned with the statement's findings that the difficulty of the paper is a major factor.\n\nCourse of Action II does not address the immediate issue and suggests a practice that could perpetuate the problem.\n\nTherefore, neither course of action directly and effectively addresses the concern raised by the statement.\n\n**So, neither I nor II follows.**\n\nHence, the correct answer is **\"Option 4\"**.",
+      "tags": [
+        "Course of Action"
+      ]
+    },
+    {
+      "qid": "6050a77f064fdb8263936fbf",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "An address is given below which has been reproduced against the four alternatives. Of them, three have some mistakes or the other, while one is exactly the same. Select the option that is exactly the same as the given address.\n\nShri. Vivekananda Chaube\n\nH. No. 009,\n\nOrchid Market, Saheb Jung,\n\nSultanpur,\n\nUttarakhand - 248001",
+      "options": [
+        {
+          "label": "1",
+          "text": "Shri. Vivekananda Chaube\n\nH. No. 009,\n\nOrchid Market, Saheb Jung,\n\nSultanpur,\n\nUttarakhand - 248001"
+        },
+        {
+          "label": "2",
+          "text": "Shri. Vivekananda Chaube\n\nH. No. 0009,\n\nOrchid Market, Saheb Jung,\n\nSultanpur,\n\nUttarakhand - 248001"
+        },
+        {
+          "label": "3",
+          "text": "Shri. Vivekananda Chaube\n\nH. No. 009,\n\nOrchid Market, Sahab Jung,\n\nSultanpur,\n\nUttarakhand - 248010"
+        },
+        {
+          "label": "4",
+          "text": "Shri. Vivekananda Chaube\n\nH. No. 009,\n\nOrchid Market, Saheb Jung,\n\nSultanpor,\n\nUttarakhand - 248001"
+        }
+      ],
+      "correct": "1",
+      "solution": "Option\n\n \n \n \nOriginal Address\n\n \n \n \nDifference\n\n \n \n \n\n \n \n**1) Shri. Vivekananda Chaube**\n\n \n**H. NO. 009,**\n\n \n**Orchid Market, Saheb Jung,**\n\n \n**Sultanpur,**\n\n \n**Uttarakhand - 248001**\n\n \n \n \n**Shri. Vivekananda Chaube**\n\n \n**H. No. 009,**\n\n \n**Orchid Market, Saheb Jung,**\n\n \n**Sultanpur,**\n\n \n**Uttarakhand - 248001**\n\n \n \n \n**Exactly same**\n\n \n \n \n\n \n \n2) Shri. Vivekananda Chaube\n\n \nH. No. 0009,\n\n \nOrchid Market, Saheb Jung,\n\n \nSultanpur,\n\n \nUttarakhand - 248001\n\n \n \n \nShri. Vivekananda Chaube\n\n \nH. No. 009,\n\n \nOrchid Market, Saheb Jung,\n\n \nSultanpur,\n\n \nUttarakhand - 248001\n\n \n \n \n‘H. No. 009' different.\n\n \n \n \n\n \n \n3) Shri. Vivekananda Chaube\n\n \nH. No. 009,\n\n \nOrchid Market, Sahab Jung,\n\n \nSultanpur,\n\n \nUttarakhand - 248001\n\n \n \n \nShri. Vivekananda Chaube\n\n \nH. No. 009,\n\n \nOrchid Market, Saheb Jung,\n\n \nSultanpur,\n\n \nUttarakhand - 248001\n\n \n \n \nPin Code Not Matched\n\n \n \n \n\n \n \n4) Shri. Vivekananda Chaube\n\n \nH. No. 009,\n\n \nOrchid Market, Saheb Jung,\n\n \nSultanpor,\n\n \nUttarakhand - 248001\n\n \n \n \nShri. Vivekananda Chaube\n\n \nH. No. 009,\n\n \nOrchid Market, Saheb Jung,\n\n \nSultanpur,\n\n \nUttarakhand - 248001\n\n \n \n \n spelling is different.\n\n \n \n \n\nHence, **option 1** is the correct answer.",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "6087fb137f6254ac6dda7afe",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Direction and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A man walks 31 m towards West then he turns to his left and walks 31 m. After that he turned to his right and walked 31 m. Finally, he again turned right and walked 31 m. In which direction is the man facing now?",
+      "options": [
+        {
+          "label": "1",
+          "text": "East"
+        },
+        {
+          "label": "2",
+          "text": "West"
+        },
+        {
+          "label": "3",
+          "text": "North"
+        },
+        {
+          "label": "4",
+          "text": "South"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/d72d0dd98232686e796e7ff34049c1ebcfea0d29d274a25317671f6c1395e86b.png] \n\nWe have drawn the figure according to the information given in the question,\n\n(Let the turning points as shown in the figure)\n\n [IMAGE: https://cdn.repeatermock.com/tb/49c40028e1b04c7772b769ac2ba8ddb7f4a22ddaa24fd7d9585f7df1e991f549.png] \n\nHence, man is facing in the **north **direction.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d72d0dd98232686e796e7ff34049c1ebcfea0d29d274a25317671f6c1395e86b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/49c40028e1b04c7772b769ac2ba8ddb7f4a22ddaa24fd7d9585f7df1e991f549.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direction and Distance"
+      ]
+    },
+    {
+      "qid": "6516f3775c7f76b95f9bd9c0",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the answer figures can he formed by folding the problem figure given below? \n\n [IMAGE: https://cdn.repeatermock.com/tb/22c67937327cccab07a0294cbd512633b25e276e87fa081614b3d30331297b9f.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/ca248ae777cc5cb187c0c468d3614cb266be9968df0691559f72f93f894db273.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "D"
+        },
+        {
+          "label": "2",
+          "text": "B"
+        },
+        {
+          "label": "3",
+          "text": "A"
+        },
+        {
+          "label": "4",
+          "text": "C"
+        }
+      ],
+      "correct": "4",
+      "solution": "The faces opposite to each other is shown below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/6f7b44347ef547fb326fad09a9d298cc2b7046d648126b9c44a8d3a54ee49fa8.png] \n\nThe opposite sides are:\n\n [IMAGE: https://cdn.repeatermock.com/tb/108a6371e6617325b18d2f14caafa9a557a018ff4ab6a8bfff76d05d147e634a.png] \n\n1) [IMAGE: https://cdn.repeatermock.com/tb/1d8e8c9c0e9e40ba21d9ac318563897bc45b8abbf9c94e850227fe57c8189237.png] → This cube cannot be formed as [IMAGE: https://cdn.repeatermock.com/tb/0c9fcb5bbe40f2dd57608bca314f3b07847127d087ee25cbb2623a5560678714.png] and [IMAGE: https://cdn.repeatermock.com/tb/89ec0ddee9a7032c9bc955ac7b5625af077095e69a5943e66730cf157ccac595.png] faces is opposite faces and no two opposite faces can appear together on the same dice.\n\n2) [IMAGE: https://cdn.repeatermock.com/tb/e00f8c6318ff1e627fb5654c7070df8939790f8c4ca3210cd8c6264513bd6e93.png] → This cube cannot be formed as [IMAGE: https://cdn.repeatermock.com/tb/79de4f625d3e954bf97e233b01499611b0358130ecde3452a0d3461f416bfe2b.png] and [IMAGE: https://cdn.repeatermock.com/tb/f3a0e85ea6083a7aa499800ec3b51bca2dc323d173596f7d4c7570b7343f1daf.png] faces is opposite faces and no two opposite faces can appear together on the same dice.\n\n3) [IMAGE: https://cdn.repeatermock.com/tb/ec4f63d6827f7ab3579cb5eff35b046e9241cd11bcdad157c7a723e0c3d74916.png] → This cube can be formed as no two opposite faces appear together on the same.\n\n4) [IMAGE: https://cdn.repeatermock.com/tb/31f16bd48b75fc1f8d9690bd1a8e623dead56cd6b7f8aa056098ef68deb03c1a.png] → This cube cannot be formed as [IMAGE: https://cdn.repeatermock.com/tb/420f3076d4532376bef68a59c2b6b53c0ffbf7dc48239cabcde10ed7f99812bf.png] and [IMAGE: https://cdn.repeatermock.com/tb/dd3b243fdcbe5f1daf65a5c08950232583fb0dbff0bec8a77521829799728263.png] faces is opposite faces and no two opposite faces can appear together on the same dice.\n\nHence, the correct answer is **\"Option (4)\".**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/22c67937327cccab07a0294cbd512633b25e276e87fa081614b3d30331297b9f.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca248ae777cc5cb187c0c468d3614cb266be9968df0691559f72f93f894db273.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6f7b44347ef547fb326fad09a9d298cc2b7046d648126b9c44a8d3a54ee49fa8.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/108a6371e6617325b18d2f14caafa9a557a018ff4ab6a8bfff76d05d147e634a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1d8e8c9c0e9e40ba21d9ac318563897bc45b8abbf9c94e850227fe57c8189237.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0c9fcb5bbe40f2dd57608bca314f3b07847127d087ee25cbb2623a5560678714.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/89ec0ddee9a7032c9bc955ac7b5625af077095e69a5943e66730cf157ccac595.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e00f8c6318ff1e627fb5654c7070df8939790f8c4ca3210cd8c6264513bd6e93.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/79de4f625d3e954bf97e233b01499611b0358130ecde3452a0d3461f416bfe2b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f3a0e85ea6083a7aa499800ec3b51bca2dc323d173596f7d4c7570b7343f1daf.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ec4f63d6827f7ab3579cb5eff35b046e9241cd11bcdad157c7a723e0c3d74916.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/31f16bd48b75fc1f8d9690bd1a8e623dead56cd6b7f8aa056098ef68deb03c1a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/420f3076d4532376bef68a59c2b6b53c0ffbf7dc48239cabcde10ed7f99812bf.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/dd3b243fdcbe5f1daf65a5c08950232583fb0dbff0bec8a77521829799728263.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "60055dd18dfb3de780e808f6",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the missing number from the options given below.\n\n \n \n\n 21\n 18\n 30\n \n \n\n 16\n 12\n 22\n \n \n\n 28\n 16\n ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "52"
+        },
+        {
+          "label": "3",
+          "text": "36"
+        },
+        {
+          "label": "4",
+          "text": "44"
+        }
+      ],
+      "correct": "3",
+      "solution": "The pattern followed here is:\n\nIn the first row,\n\n21 + (18 ÷ 2) = 21 + 9 = 30\n\nIn the second row,\n\n16 + (12 ÷ 2) = 16 + 6 = 22\n\nSimilarly, in the third row,\n\n28 + (16 ÷ 2) = ?\n\n⇒ ? = 28 + 8\n\n⇒ ? = 36\n\nHence, ‘36’ is the correct answer.",
+      "tags": [
+        "Missing Number"
+      ]
+    },
+    {
+      "qid": "60320d6b4b08be85483b29b5",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Introducing a girl, Bipin said. \"She is the only daughter of my father's sister's mother's only son.\" How is Bipin related to the girl he introduced?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cousin"
+        },
+        {
+          "label": "2",
+          "text": "Brother"
+        },
+        {
+          "label": "3",
+          "text": "Uncle"
+        },
+        {
+          "label": "4",
+          "text": "Nephew"
+        }
+      ],
+      "correct": "2",
+      "solution": "By using the symbols in the table given below, we can draw the following family tree:\n\n [IMAGE: https://cdn.repeatermock.com/tb/c51db25a6f7288e6ae4139ed236af4683975fea4b813e585f618e72a164d1fbe.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/0d4f118c87ee4d5d080f8f6443ef39d8417aef61bd05b992b9025e32ea28e1bf.png] \n\nSo, Bipin is brother of the girl he introduced.\n\nHence, ‘**Brother**’ is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c51db25a6f7288e6ae4139ed236af4683975fea4b813e585f618e72a164d1fbe.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0d4f118c87ee4d5d080f8f6443ef39d8417aef61bd05b992b9025e32ea28e1bf.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "62667d1468206962b26bdc5a",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the number from among the given options that can replace the question mark (?) in the following series.\n\n28, 14, 14, 21, 42, 105, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "305"
+        },
+        {
+          "label": "2",
+          "text": "315"
+        },
+        {
+          "label": "3",
+          "text": "210"
+        },
+        {
+          "label": "4",
+          "text": "255"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n28 × 0.5 = 14\n\n14 × 1 = 14\n\n14 × 1.5 = 21\n\n21 × 2 = 42\n\n42 × 2.5 = 105\n\n105 × 3 = 315\n\nHence, '**315**' is the correct answer.",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "587777f9995a2d13abf8dac4",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "From the given alternative words, select the word which cannot be formed using the letters of the given word”\n\nUNDERSTOOD",
+      "options": [
+        {
+          "label": "1",
+          "text": "TEND"
+        },
+        {
+          "label": "2",
+          "text": "SEND"
+        },
+        {
+          "label": "3",
+          "text": "SENT"
+        },
+        {
+          "label": "4",
+          "text": "MEND"
+        }
+      ],
+      "correct": "4",
+      "solution": "a) TEND → can be formed from as U**__NDE__**RS**__T__**OOD\n\nb) SEND → can be formed from as U**__NDE__**R**__S__**TOOD\n\nc) SENT → can be formed from as U**__N__**D**__E__**R**__ST__**OOD\n\nd) MEND → can’t be formed from as UNDERSTOOD does not have letter **“M”**.\n\nHence, we can’t formed **__“MEND”__** from word **“UNDERSTOOD”**",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    }
+  ]
+}

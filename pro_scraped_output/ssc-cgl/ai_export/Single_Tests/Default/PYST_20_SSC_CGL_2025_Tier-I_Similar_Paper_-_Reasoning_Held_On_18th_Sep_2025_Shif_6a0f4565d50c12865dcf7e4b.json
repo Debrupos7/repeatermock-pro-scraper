@@ -1,0 +1,988 @@
+{
+  "test_id": "6a0f4565d50c12865dcf7e4b",
+  "title": "PYST 20: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 18th Sep 2025 Shift 2)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:02:20.986126+00:00",
+  "questions": [
+    {
+      "qid": "694e7d205343e97b922a93ac",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\nRAZ, SBY, TCX, UDW, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "VEV"
+        },
+        {
+          "label": "2",
+          "text": "JKS"
+        },
+        {
+          "label": "3",
+          "text": "VSA"
+        },
+        {
+          "label": "4",
+          "text": "UBS"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\n**The logic followed here is:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/4717b85eb4eaa913af2ec91f4ae90739d169e85230c80d77fe06d03329259f4c.png] [IMAGE: https://cdn.repeatermock.com/tb/a74c228f0e65b397a42405f430762036301a057c493a3000c853b54a6e5c5b2c.png] \n\nThus, the missing term in the series is **VEV**.\n\nHence, the correct answer is **Option 1**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4717b85eb4eaa913af2ec91f4ae90739d169e85230c80d77fe06d03329259f4c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a74c228f0e65b397a42405f430762036301a057c493a3000c853b54a6e5c5b2c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7d20ef332f62097305ef",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is the same as the one given below.\n\nApartment No. 12B, Sunrise Towers, Park Street, Kolkata, West Bengal - 700016 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Apartment No. 12B, Sunrise Towers, Park Street, Kolkata, Bihar - 700016"
+        },
+        {
+          "label": "2",
+          "text": "Apartment No. 12B, Sunrise Towers, Park Street, Kolkata, Jharkhand - 700016"
+        },
+        {
+          "label": "3",
+          "text": "Apartment No. 12B, Sunrise Towers, Park Street, Kolkata, West Bengal - 700016"
+        },
+        {
+          "label": "4",
+          "text": "Apartment No. 12B, Sunrise Tower, Park Street, Kolkata, West Bengal - 700016"
+        }
+      ],
+      "correct": "3",
+      "solution": "The address given in the problem is,\n\nApartment No. 12B, Sunrise Towers\n\nPark Street, Kolkata\n\nWest Bengal - 700016\n\n \n \n\n **Option**\n **Address in Option**\n **Given Address**\n **Matching**\n \n \n\n (1)\n \n \nApartment No. 12B, Sunrise Towers\n\n \nPark Street, Kolkata, Bihar - 700016\n\n \n \n \nApartment No. 12B, Sunrise Towers\n\n \nPark Street, Kolkata\n\n \nWest Bengal - 700016\n\n \n The state is mentioned as **Bihar** instead of **West Bengal**.\n \n \n\n (2)\n \n \nApartment No. 12B, Sunrise Towers\n\n \nPark Street, Kolkata, Jharkhand - 700016\n\n \n \n \nApartment No. 12B, Sunrise Towers\n\n \nPark Street, Kolkata\n\n \nWest Bengal - 700016\n\n \n The state is mentioned as **Jharkhand** instead of **West Bengal**.\n \n \n\n (3)\n \n \nApartment No. 12B, Sunrise Towers\n\n \nPark Street, Kolkata, West Bengal - 700016\n\n \n \n \nApartment No. 12B, Sunrise Towers\n\n \nPark Street, Kolkata\n\n \nWest Bengal - 700016\n\n \n The address is exactly the same as the given address.\n \n \n\n (4)\n \n \nApartment No. 12B, Sunrise Tower\n\n \nPark Street, Kolkata, West Bengal - 700016\n\n \n \n \nApartment No. 12B, Sunrise Towers\n\n \nPark Street, Kolkata\n\n \nWest Bengal - 700016\n\n \n The building name is written as **Sunrise Tower** instead of **Sunrise Towers**.\n \n \n\n \n\nSo, the address that is exactly the same as the given address is in option (3).\n\nHence, the correct option is \"**Option 3**\".",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "694e7d21dec971f3a89d3fb6",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is the same as the one given below.\n\nSuite #301, Galaxy Towers, Hinoo, Ranchi, Jharkhand - 834002 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Suite #301, Galaxy Towers, Hinoo, Ranchi, Jharkhand - 834002"
+        },
+        {
+          "label": "2",
+          "text": "Suite #301, Galaxy Tower, Hinoo, Ranchi, Jharkhand - 834002"
+        },
+        {
+          "label": "3",
+          "text": "Suite 301, Galaxy Towers, Hinoo, Ranchi, Jharkhand - 834002"
+        },
+        {
+          "label": "4",
+          "text": "Suite #301, Galaxy Towers, Hinu, Ranchi, Jharkhand - 834002"
+        }
+      ],
+      "correct": "1",
+      "solution": "The address given in the problem is,\n\nSuite #301, Galaxy Towers\n\nHinoo, Ranchi\n\nJharkhand - 834002\n\n \n \n\n **Option**\n **Address in Option**\n **Given Address**\n **Matching**\n \n \n\n (1)\n \n \nSuite #301, Galaxy Towers\n\n \nHinoo, Ranchi, Jharkhand - 834002\n\n \n \n \nSuite #301, Galaxy Towers\n\n \nHinoo, Ranchi\n\n \nJharkhand - 834002\n\n \n The address is exactly the same as the given address.\n \n \n\n (2)\n \n \nSuite #301, Galaxy Tower\n\n \nHinoo, Ranchi, Jharkhand - 834002\n\n \n \n \nSuite #301, Galaxy Towers\n\n \nHinoo, Ranchi\n\n \nJharkhand - 834002\n\n \n The building name is written as **Galaxy Tower** instead of **Galaxy Towers**.\n \n \n\n (3)\n \n \nSuite 301, Galaxy Towers\n\n \nHinoo, Ranchi, Jharkhand - 834002\n\n \n \n \nSuite #301, Galaxy Towers\n\n \nHinoo, Ranchi\n\n \nJharkhand - 834002\n\n \n The symbol **#** is missing before the suite number.\n \n \n\n (4)\n \n \nSuite #301, Galaxy Towers\n\n \nHinu, Ranchi, Jharkhand - 834002\n\n \n \n \nSuite #301, Galaxy Towers\n\n \nHinoo, Ranchi\n\n \nJharkhand - 834002\n\n \n The locality name is written as **Hinu** instead of **Hinoo**.\n \n \n\n \n\nSo, the address that is exactly the same as the given address is in option (1).\n\nHence, the correct option is \"**Option 1**\".",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "694e7d215343e97b922a93b4",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statement and choose the option that follows.\n\nStatement: The airport authority decided to reduce parking fees on weekdays.\n\nAssumptions: I. Lower fees will encourage more travelers to park their vehicles.\n\nII. The authority wants to increase usage of terminal facilities during off-peak days. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I is implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only II is implicit"
+        },
+        {
+          "label": "3",
+          "text": "Both are implicit"
+        },
+        {
+          "label": "4",
+          "text": "Neither is implicit"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given:\n\nStatement: The airport authority decided to reduce parking fees on weekdays.\n\nAssumption I: Lower fees will encourage more travelers to park their vehicles.\n\nReducing parking fees is done with the expectation that people will be more willing to use the parking facility. This belief is necessary for the decision, so it is implicit.\n\nAssumption II: The authority wants to increase usage of terminal facilities during off-peak days.\n\nThe statement talks only about parking fees, not about terminal usage. Increasing terminal usage may be a possible outcome, but it is not required for the decision stated. ❌ Not implicit.\n\nThus, Only I is implicit.\n\nHence, the correct answer is **\"Option 1\".**\n\n39",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "694e7d21ef332f6209730613",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Cause and Effect",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statements and identify the relationship between them.\n\nStatement I: The city experienced a sudden and heavy downpour throughout the night.\n\nStatement II: Several low-lying residential areas in the city were submerged in water by morning. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "I is the cause and II is the effect"
+        },
+        {
+          "label": "2",
+          "text": "II is the cause and I is the effect"
+        },
+        {
+          "label": "3",
+          "text": "Both are independent effects"
+        },
+        {
+          "label": "4",
+          "text": "No relation"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given:\n\nNormally, if there is a sudden and heavy downpour, water tends to accumulate, especially in low-lying areas, leading to flooding.\n\nHere, Statement I mentions a sudden and heavy downpour throughout the night, which is a natural cause.\n\n \n\nStatement II says that several low-lying residential areas were submerged in water by morning, which is a direct outcome of heavy rainfall.\n\n \n\nFlooding of low-lying areas cannot cause heavy rainfall, so Statement II is not the cause of Statement I.\n\n \n\nThus, I is the cause and II is the effect.\n\nHence, the correct answer is **\"Option 1\".**",
+      "tags": [
+        "Cause and Effect"
+      ]
+    },
+    {
+      "qid": "694e7d225343e97b922a93b8",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the WRONG term in the given series.\n\n6, 11, 16, 27, 38, 51",
+      "options": [
+        {
+          "label": "1",
+          "text": "51"
+        },
+        {
+          "label": "2",
+          "text": "27"
+        },
+        {
+          "label": "3",
+          "text": "16"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "correct": "3",
+      "solution": "**The logic followed here is:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/0ce37decd3086825d423aada79cee1b126cbca01a8a307558d0b23341a60bf0a.png] [IMAGE: https://cdn.repeatermock.com/tb/441284dfd53d1495e97dde006585f647ff57276c0f33ad53b77a74bf9c932202.png] \n\nTherefore, the wrong term in the given series is **16**, which should be **18**.\n\nHence, the correct answer is **\"Option 3\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0ce37decd3086825d423aada79cee1b126cbca01a8a307558d0b23341a60bf0a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/441284dfd53d1495e97dde006585f647ff57276c0f33ad53b77a74bf9c932202.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7d22059f86dc0d8dfe5d",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Replace the special characters with mathematical signs as given in options to make it a meaningful equation.\n\n32 # 8 @ 4 = 252",
+      "options": [
+        {
+          "label": "1",
+          "text": "divided by, minus"
+        },
+        {
+          "label": "2",
+          "text": "divided by, divided by"
+        },
+        {
+          "label": "3",
+          "text": "multiplied by, minus"
+        },
+        {
+          "label": "4",
+          "text": "minus, multiplied by"
+        }
+      ],
+      "correct": "3",
+      "solution": "BODMAS Rule:\n\n [IMAGE: https://lh4.googleusercontent.com/c0j5U9v2oJWEzSTKvdDLWZ5Zik3PBUXk-C9w3Ma990WH63rpQUfA7g-3wh_uT7CgFvFJ4jPGEeOw509FxSgfh78_HR9tDNZ9KitXdEveKsLaLMgPQf6YSDt1b775728JMVp9FIQs=s0] \n\nThe given equation is:\n\n32 # 8 @ 4 = 252\n\nNow, let's check each option by replacing the special characters with the corresponding mathematical signs:\n\n**1) divided by, minus**\n\nNew Equation: 32 ÷ 8 − 4 = ?\n\n= __**32 ÷ 8**__ − 4\n\n__**= 4 − 4**__ \n\n= 0 ≠ 252 \n\n**2) divided by, divided by**\n\nNew Equation: 32 ÷ 8 ÷ 4 = ?\n\n= __**32 ÷ 8**__ ÷ 4 \n\n= __**4 ÷ 4**__ \n\n= 1 ≠ 252 (Incorrect)\n\n3) multiplied by, minus\n\nNew Equation: 32 × 8 − 4 = ?\n\n= 32 × 8 − 4 \n\n= 256 − 4\n\n= 252\n\n252 = 252 (Correct)\n\n**4) minus, multiplied by**\n\nNew Equation: 32 − 8 × 4 = ?\n\n= 32 − __**8 **____× ____**4**__ (Perform Multiplication)\n\n= __**32 − 32**__ (Perform Subtraction)\n\n= 0 ≠ 252 (Incorrect)\n\nHence, the correct answer is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://lh4.googleusercontent.com/c0j5U9v2oJWEzSTKvdDLWZ5Zik3PBUXk-C9w3Ma990WH63rpQUfA7g-3wh_uT7CgFvFJ4jPGEeOw509FxSgfh78_HR9tDNZ9KitXdEveKsLaLMgPQf6YSDt1b775728JMVp9FIQs=s0",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7d22a317e54341a9c15d",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which two signs should be swapped to correct the following equation?\n\n56 / 8 * 6 - 10 + 14 = 38 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "/ and *"
+        },
+        {
+          "label": "2",
+          "text": "* and -"
+        },
+        {
+          "label": "3",
+          "text": "/ and +"
+        },
+        {
+          "label": "4",
+          "text": "+ and -"
+        }
+      ],
+      "correct": "4",
+      "solution": "BODMAS Rule:\n\n [IMAGE: https://lh4.googleusercontent.com/c0j5U9v2oJWEzSTKvdDLWZ5Zik3PBUXk-C9w3Ma990WH63rpQUfA7g-3wh_uT7CgFvFJ4jPGEeOw509FxSgfh78_HR9tDNZ9KitXdEveKsLaLMgPQf6YSDt1b775728JMVp9FIQs=s0] \n\nThe given equation is:\n\n56 ÷ 8 × 6 − 10 + 14 = 38\n\n**1) Swap ÷ and ×**\n\nNew Equation: 56 × 8 ÷ 6 − 10 + 14 = ?\n\n⇒ 56 × (__**8 ÷ 6**__) − 10 + 14 \n\n⇒ (__**56 × 1.33**__) − 10 + 14 \n\n⇒ __**74.66. − 10**__ + 14 \n\n⇒ 64.66. + 14\n\n= 78.66... ≠ 38 (Incorrect)\n\n**2) Swap × and −**\n\nNew Equation: 56 ÷ 8 − 6 × 10 + 14 = ?\n\n⇒ (__**56 ÷ 8**__) − 6 × 10 + 14 \n\n⇒ 7 − (__**6 × 10**__) + 14 \n\n⇒ __**7 + 14**__ − 60 \n\n⇒ 21 − 60\n\n= −39 ≠ 38 (Incorrect)\n\n**3) Swap ÷ and +**\n\nNew Equation: 56 + 8 × 6 − 10 ÷ 14 = ?\n\n⇒ 56 + 8 × 6 − (__**10 ÷ 14**__) \n\n⇒ 56 + (__**8 × 6**__) − 0.71\n\n⇒ __**56 + 48**__ − 0.71\n\n⇒ 104 − 0.71\n\n= 103.28 ≠ 38 \n\n4) Swap + and −\n\nNew Equation: 56 ÷ 8 × 6 + 10 − 14 = ?\n\n⇒ **(56 ÷ 8)** × 6 + 10 − 14 \n\n⇒ (7 × 6) + 10 − 14 \n\n⇒ 42 + 10 − 14 \n\n⇒ 52 − 14 \n\n⇒ 38\n\n38 = 38 (Correct)\n\nHence, the correct answer is \"Option 4\".",
+      "solution_images": [
+        {
+          "url": "https://lh4.googleusercontent.com/c0j5U9v2oJWEzSTKvdDLWZ5Zik3PBUXk-C9w3Ma990WH63rpQUfA7g-3wh_uT7CgFvFJ4jPGEeOw509FxSgfh78_HR9tDNZ9KitXdEveKsLaLMgPQf6YSDt1b775728JMVp9FIQs=s0",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7d2344e0f313c94af394",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "By interchanging the given two signs, which of the following equations will NOT be correct? Signs: + and -\n\nEquation I: 36 / 6 + 16 * 10 - 8 = 40\n\nEquation II: 12 + 16 * 18 / 6 - 8 = 28 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Neither I nor II"
+        },
+        {
+          "label": "2",
+          "text": "Both I and II"
+        },
+        {
+          "label": "3",
+          "text": "Only II"
+        },
+        {
+          "label": "4",
+          "text": "Only I"
+        }
+      ],
+      "correct": "2",
+      "solution": "BODMAS Rule:\n\n [IMAGE: https://lh4.googleusercontent.com/c0j5U9v2oJWEzSTKvdDLWZ5Zik3PBUXk-C9w3Ma990WH63rpQUfA7g-3wh_uT7CgFvFJ4jPGEeOw509FxSgfh78_HR9tDNZ9KitXdEveKsLaLMgPQf6YSDt1b775728JMVp9FIQs=s0] \n\nThe given signs to be interchanged are: + and −\n\n**Equation I: 36 ÷ 6 + 16 × 10 − 8 = 40**\n\nInterchanging + and −:\n\nNew Equation: 36 ÷ 6 − 16 × 10 + 8 = ?\n\n⇒ (__**36 ÷ 6**__) − 16 × 10 + 8 \n\n⇒ 6 − (__**16 × 10**__) + 8 \n\n⇒ __**6 + 8**__ − 160 \n\n⇒ __**14 − 160**__\n\n⇒ −146 ≠ 40 (Not Correct)\n\n**Equation II: 12 + 16 × 18 ÷ 6 − 8 = 28**\n\nInterchanging + and −:\n\nNew Equation: 12 − 16 × 18 ÷ 6 + 8 = ?\n\n⇒ 12 − 16 × (__**18 ÷ 6**__) + 8 \n\n⇒ 12 − (__**16 × 3**__) + 8\n\n⇒ __**12 + 8**__ − 48 \n\n⇒ __**20 − 48**__ \n\n⇒ −28 ≠ 28 (Not Correct)\n\nSince both Equation I and Equation II are not correct after interchanging the signs:\n\nHence, the correct answer is \"Option 2\".",
+      "solution_images": [
+        {
+          "url": "https://lh4.googleusercontent.com/c0j5U9v2oJWEzSTKvdDLWZ5Zik3PBUXk-C9w3Ma990WH63rpQUfA7g-3wh_uT7CgFvFJ4jPGEeOw509FxSgfh78_HR9tDNZ9KitXdEveKsLaLMgPQf6YSDt1b775728JMVp9FIQs=s0",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7d236232f5b578a03fd7",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a family of 4 members A, B, C, D, E and F. A and B are a married couple. B is the mother of D. F is the brother of A. Who is the father of D?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A"
+        },
+        {
+          "label": "2",
+          "text": "B"
+        },
+        {
+          "label": "3",
+          "text": "F"
+        },
+        {
+          "label": "4",
+          "text": "C"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/153c6a6e313de03f2911e6352e768c319ce48bd8d9b10cf6c7d58c07f604979a.png] \n\nStep-by-step Relationship Analysis:\n\n \n\nA and B are a married couple. \n\nB is the mother of D.\n\nSince B is the mother and A is her spouse, A must be the father.\n\nF is the brother of A.\n\nFamily Structure:\n\n [IMAGE: https://cdn.repeatermock.com/tb/9f10acdcc44fd6154e1540f04292e41026cbd6f6ae5078a22a70b04f175a0dc2.png] [IMAGE: https://cdn.repeatermock.com/tb/cd18ce686fddcf526812b1d9ddbb4f505d6bc1ca85676af38ca5e61161a96496.png] \n\nThus, the father of D is A.\n\nHence, the correct answer is **\"Option 1\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/153c6a6e313de03f2911e6352e768c319ce48bd8d9b10cf6c7d58c07f604979a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/9f10acdcc44fd6154e1540f04292e41026cbd6f6ae5078a22a70b04f175a0dc2.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/cd18ce686fddcf526812b1d9ddbb4f505d6bc1ca85676af38ca5e61161a96496.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694e7d23b8feca93a859fdba",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes at the place of question mark?\n\n3, 7, 13, 21, 31, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "43"
+        },
+        {
+          "label": "2",
+          "text": "56"
+        },
+        {
+          "label": "3",
+          "text": "38"
+        },
+        {
+          "label": "4",
+          "text": "48"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/6904cf3405feee5dbe5a1045d2c13d44d9258ab49b7f6621298a664c8149d8df.png] [IMAGE: https://cdn.repeatermock.com/tb/3de9680e83fc596f8b02a82365787455d7754f9363c90e656c8936371d40f7eb.png] \n\nThus, the missing number in the series is 43.\n\nHence, the correct answer is **\"Option 1\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6904cf3405feee5dbe5a1045d2c13d44d9258ab49b7f6621298a664c8149d8df.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3de9680e83fc596f8b02a82365787455d7754f9363c90e656c8936371d40f7eb.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7d24a6bf68a8aab9f23b",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: The museum will stay shut on Monday due to electrical repairs.\n\nConclusion I: Repair work is scheduled for Monday. \n\nConclusion II: Visitors cannot enter the museum this Monday.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\n \n\nStatement: The museum will stay shut on Monday due to electrical repairs.\n\n**Conclusion I: **Repair work is scheduled for Monday.\n\nThe statement clearly says the museum will stay shut on Monday due to electrical repairs, which implies the repair work is planned for that day.\n\n&",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694e7d24a6bf68a8aab9f23e",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: The cost of gold has risen because of fluctuating global market trends.\n\nConclusion I: Gold prices are influenced by international economic conditions.\n\nConclusion II: Domestic gold production has completely stopped. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given:\n\nStatement: The cost of gold has risen because of fluctuating global market trends.\n\n**Conclusion I:** Gold prices are influenced by international economic conditions.\n\nThe statement says the cost of gold has risen due to fluctuating global market trends, which directly implies that international factors affect gold prices.\n\nThis conclusion follows.\n\n**Conclusion II:** Domestic gold production has completely stopped.\n\nThe statement makes no mention of domestic production or its status.\n\nThis conclusion does not follow.\n\nThus, Only Conclusion I follows.\n\nHence, the correct answer is **\"Option 1\".**",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694e7d24fac558170723f37b",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the option that best completes the analogy.\n\nEP : YZ :: FN : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ZX"
+        },
+        {
+          "label": "2",
+          "text": "YX"
+        },
+        {
+          "label": "3",
+          "text": "ZY"
+        },
+        {
+          "label": "4",
+          "text": "XZ"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\nThe logic followed here is:\n\n**For EP to YZ**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f1cdea080a7a08a03ef66c2d17ddd286fdc6d8edc6e844ddd43565c4293a6d2e.png] [IMAGE: https://cdn.repeatermock.com/tb/fb2c56362633c76164e836bf434bc4a050d9c613d7bb3a58528162f5dcb9e92d.png] \n\n \n\n**Applying the same logic to FN:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/4d750e1e0db7b29ad001aae7bbc65a80ff663e60708ca6d67a4213ae3971b9b4.png] [IMAGE: https://cdn.repeatermock.com/tb/2d941a81175041a111edf69755bd6f9a722530a511606c178db975f580208444.png] \n\n \n\nThus, the pair **ZX** completes the analogy.\n\nHence, the correct answer is **\"Option 1\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f1cdea080a7a08a03ef66c2d17ddd286fdc6d8edc6e844ddd43565c4293a6d2e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fb2c56362633c76164e836bf434bc4a050d9c613d7bb3a58528162f5dcb9e92d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4d750e1e0db7b29ad001aae7bbc65a80ff663e60708ca6d67a4213ae3971b9b4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2d941a81175041a111edf69755bd6f9a722530a511606c178db975f580208444.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694e7d251741bd4cbbbe80fd",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If \"MEXICO\" is written as \"OCIXEM\", how is \"FRANCE\" written as?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ECNARF"
+        },
+        {
+          "label": "2",
+          "text": "ECNARH"
+        },
+        {
+          "label": "3",
+          "text": "ECNRAF"
+        },
+        {
+          "label": "4",
+          "text": "ECNRFA"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\n\"MEXICO\" is written as \"OCIXEM\"\n\n [IMAGE: https://cdn.repeatermock.com/tb/03b5ef3d99d0da3441b4a4fdb83a103b576e4c7cb2e3aba5be30f6d453717125.png] [IMAGE: https://cdn.repeatermock.com/tb/57710dd376e9de92d5ae2ca68a74970593698f834e0bc486e4dd0acf9c9921be.png] \n\nSimilarly,\n\n\"FRANCE\" is written as\n\n [IMAGE: https://cdn.repeatermock.com/tb/bb6d859d1542a5f48e57d10ab21ae8c9f2497f3f79ecd851cfb93dc28c15455a.png] [IMAGE: https://cdn.repeatermock.com/tb/192017539f99999daba436778dcfccb018ca734d3c6fa4d1045d0cf3ede7582f.png] \n\nThus, \"FRANCE\" is written as ECNARF.\n\nHence, the correct answer is **\"Option 1\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/03b5ef3d99d0da3441b4a4fdb83a103b576e4c7cb2e3aba5be30f6d453717125.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/57710dd376e9de92d5ae2ca68a74970593698f834e0bc486e4dd0acf9c9921be.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bb6d859d1542a5f48e57d10ab21ae8c9f2497f3f79ecd851cfb93dc28c15455a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/192017539f99999daba436778dcfccb018ca734d3c6fa4d1045d0cf3ede7582f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694e7d25ef332f620973062b",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next?\n\nYXW, XWV, VUT, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "UTS"
+        },
+        {
+          "label": "2",
+          "text": "TUV"
+        },
+        {
+          "label": "3",
+          "text": "STU"
+        },
+        {
+          "label": "4",
+          "text": "SRQ"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\n**The logic followed here is:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/1f257d5d6f0502d432fcdf7c50dbd016b5c632b713614b2287ee825e8375f042.png] [IMAGE: https://cdn.repeatermock.com/tb/20e5bfcc0ebd0e4d515bf6fc9dfc53d0aab2afc25720009ad0c17761da290c7b.png] \n\nThus, the missing letter cluster in the series is **SRQ**.\n\nHence, the correct answer is **Option 4**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1f257d5d6f0502d432fcdf7c50dbd016b5c632b713614b2287ee825e8375f042.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/20e5bfcc0ebd0e4d515bf6fc9dfc53d0aab2afc25720009ad0c17761da290c7b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7d2565bcc8151475efc0",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out from the given alternatives: ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Repair"
+        },
+        {
+          "label": "2",
+          "text": "Reuse"
+        },
+        {
+          "label": "3",
+          "text": "Recycle"
+        },
+        {
+          "label": "4",
+          "text": "Replace"
+        }
+      ],
+      "correct": "4",
+      "solution": "The Logic followed here is:\n\nActions related to conservation / minimizing waste\n\nRepair → Fixing an item to extend its life and reduce waste\n\nReuse → Using an item again instead of discarding it\n\nRecycle → Converting waste into reusable material\n\nReplace → Discarding the old item and using a new one (does not reduce waste)\n\nThus, Repair, Reuse, and Recycle promote resource conservation, whereas Replace encourages discarding and consumption.\n\nHence, the correct answer is **Option 4.**",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694e7d26b8feca93a859fe3e",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Instruction: In a certain code language, symbols are used to represent English letters consistently. If δ ε λ τ α is coded as DELTA, and σ τ α ρ is coded as STAR, Question: Then what does σ δ ε λ τ represent?",
+      "options": [
+        {
+          "label": "1",
+          "text": "SDELT"
+        },
+        {
+          "label": "2",
+          "text": "SPELT"
+        },
+        {
+          "label": "3",
+          "text": "SRELT"
+        },
+        {
+          "label": "4",
+          "text": "SMELT"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given Codes:**\n\nδ ε λ τ α → DELTA\n\n \n \n\n Letter\n D\n E\n L\n T\n A\n \n \n\n \n ↓\n ↓\n ↓\n ↓\n ↓\n \n \n\n Symbol\n δ\n ε\n λ\n τ\n α\n \n \n\n \n\nσ τ α ρ → STAR\n\n \n \n\n Letter\n S\n T\n A\n R\n \n \n\n \n ↓\n ↓\n ↓\n ↓\n \n \n\n Symbol\n σ\n τ\n α\n ρ\n \n \n\n \n\nDecode the given symbols\n\n**(σ δ ε λ τ)**\n\n \n \n\n Symbol\n σ\n δ\n ε\n λ\n τ\n \n \n\n \n ↓\n ↓\n ↓\n ↓\n ↓\n \n \n\n Letter\n S\n D\n E\n L\n T\n \n \n\n \n\n**So, σ δ ε λ τ = SDELT**\n\nHence, the correct answer is **Option 1.**",
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694e7d26793f5531248a0d30",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a 60 L mixture, the ratio of milk to water is 3:2. How much water must be added to the mixture to make the final ratio 1:1?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 L"
+        },
+        {
+          "label": "2",
+          "text": "10 L"
+        },
+        {
+          "label": "3",
+          "text": "9 L"
+        },
+        {
+          "label": "4",
+          "text": "6 L"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nTotal mixture = 60 L\n\nRatio of milk : water = 3 : 2\n\n**Formula used:**\n\nIf ratio = a : b, then\n\nMilk = (Total × a) ÷ (a + b)\n\nWater = (Total × b) ÷ (a + b)\n\n**Calculations:**\n\n⇒ Milk = 60 × 3 ÷ (3 + 2) = 60 × 3 ÷ 5 = 36 L\n\n⇒ Water = 60 × 2 ÷ 5 = 24 L\n\nFinal ratio required = 1 : 1\n\n⇒ For ratio 1 : 1, quantity of water = quantity of milk\n\n⇒ Required water = 36 L\n\n⇒ Water already present = 24 L\n\n⇒ Water to be added = 36 − 24 = **12 L**\n\n**Thus, water to be added = 12 litres.**\n\nHence, the correct answer is **\"Option 1\".**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7d26c0a17626b563dcb9",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the average of the following four numbers: 12, 24, 36, and 48?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "36"
+        },
+        {
+          "label": "4",
+          "text": "120"
+        }
+      ],
+      "correct": "2",
+      "solution": "The average of given numbers is:\n\n12, 24, 36, and 48\n\nSum = 12 + 24 + 36 + 48\n\n= 120.\n\nAverage of the number = **Sum ÷ Number of number**\n\n120 ÷ 4\n\n= 30.\n\nHence, the correct answer is **\"Option 2\".**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7d274233ea1a4c6b1043",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 20 @ 4 = 480 and 10 @ 10 = 400, then what is the value of 16 @ 6?",
+      "options": [
+        {
+          "label": "1",
+          "text": "440"
+        },
+        {
+          "label": "2",
+          "text": "196"
+        },
+        {
+          "label": "3",
+          "text": "108"
+        },
+        {
+          "label": "4",
+          "text": "110"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nLogic: (1st number + 2nd number) **×**** 20 = Number.**\n\nFor 20 @ 4 = 480\n\n20 @ 4\n\n→ (",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7d27a6bf68a8aab9f24b",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If A is the brother of B, C is the sister of B, and D is the father of A. How is C related to D?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Daughter"
+        },
+        {
+          "label": "2",
+          "text": "Niece"
+        },
+        {
+          "label": "3",
+          "text": "Wife"
+        },
+        {
+          "label": "4",
+          "text": "Sister"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/153c6a6e313de03f2911e6352e768c319ce48bd8d9b10cf6c7d58c07f604979a.png] \n\nGiven:\n\nA is the brother of B.\n\nC is the sister of B. Since A and C are both siblings of B, then A, B, and C are all siblings.\n\nD is the father of A. Since A, B, and C are siblings, D is the father of all three children.\n\nFamily Structure:\n\n [IMAGE: https://cdn.repeatermock.com/tb/fa61583acfd4a3afeb35ff849f33452b537641389eac2b14cf9474ea9a09c392.png] [IMAGE: https://cdn.repeatermock.com/tb/80bafaccbd3f824f1190dede4ef7fcee09587d14b987c982f810bb0949e23f47.png] \n\nThus, C is the Daughter of D.\n\nHence, the correct answer is **\"Option 1\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/153c6a6e313de03f2911e6352e768c319ce48bd8d9b10cf6c7d58c07f604979a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fa61583acfd4a3afeb35ff849f33452b537641389eac2b14cf9474ea9a09c392.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/80bafaccbd3f824f1190dede4ef7fcee09587d14b987c982f810bb0949e23f47.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694e7d27793f5531248a0d41",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the next number in the series:\n\n11, 23, 47, 95, ?, 383",
+      "options": [
+        {
+          "label": "1",
+          "text": "191"
+        },
+        {
+          "label": "2",
+          "text": "173"
+        },
+        {
+          "label": "3",
+          "text": "177"
+        },
+        {
+          "label": "4",
+          "text": "179"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/34453096bc14da7f187376c07021111173cb0cf2fdb66892cae5510d9b7838ea.png] [IMAGE: https://cdn.repeatermock.com/tb/d3389e51774b597d28eae6ec6bdf304bf91f435bb3dd01af3aa1fc7a04d359e4.png] \n\nThus, the missing number in the series is 191.\n\nHence, the correct answer is **\"Option 1\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/34453096bc14da7f187376c07021111173cb0cf2fdb66892cae5510d9b7838ea.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d3389e51774b597d28eae6ec6bdf304bf91f435bb3dd01af3aa1fc7a04d359e4.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7d28a6bf68a8aab9f24c",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If a woman's current age is triple of what it was 20 years ago, what is her current age?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30"
+        },
+        {
+          "label": "2",
+          "text": "40"
+        },
+        {
+          "label": "3",
+          "text": "60"
+        },
+        {
+          "label": "4",
+          "text": "25"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nLet present age of the woman = x years\n\nAge 20 years ago = x − 20 years\n\n**Calculations:**\n\nAccording to the question:\n\nPresent age = 3 × (age 20 years ago)\n\nx = 3(x − 20)\n\n⇒ x = 3x − 60\n\n⇒ 3x − x = 60\n\n⇒ 2x = 60\n\n⇒ x = 30\n\n**Thus, the current age of the woman is 30 years.**\n\nHence, the correct answer is **\"Option 1\".**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7d283aef7d0933e366d3",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The series given below contains a sequence of numbers. Accordingly, identify the incorrect combination:\n\n7, 8, 18, 57, 234",
+      "options": [
+        {
+          "label": "1",
+          "text": "234"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "57"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given series is:\n\n7 × 1 + 1 = 8\n\n8 × 2 + 2 = 18\n\n18 × 3 + 3 = 57\n\n57 × 4 + 4 = **232**\n\nThus, 234 is the wrong number in the series.\n\nHence, the correct answer is **\"Option 1\".**",
+      "tags": [
+        "Series"
+      ]
+    }
+  ]
+}

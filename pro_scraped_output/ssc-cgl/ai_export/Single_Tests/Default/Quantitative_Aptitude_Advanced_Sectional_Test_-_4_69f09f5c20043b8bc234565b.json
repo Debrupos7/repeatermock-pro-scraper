@@ -1,0 +1,1086 @@
+{
+  "test_id": "69f09f5c20043b8bc234565b",
+  "title": "Quantitative Aptitude Advanced Sectional Test - 4",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:05:58.865102+00:00",
+  "questions": [
+    {
+      "qid": "632309504911985e4c6a2c28",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Area of the floor of a cubical room is 48 m². The length of the longest rod that can be kept in that room is",
+      "options": [
+        {
+          "label": "1",
+          "text": "9 m"
+        },
+        {
+          "label": "2",
+          "text": "12 m"
+        },
+        {
+          "label": "3",
+          "text": "18 m"
+        },
+        {
+          "label": "4",
+          "text": "6 m"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nLongest rod in a cubical room = √(3 × Area of floor)\n\nGiven: Area of floor = 48 m²\n\nLength of rod = √(3 × 48) = √144\n\nLength of rod = 12 m\n\n**∴ The correct answer is 12 m.**\n\n**__Alternate Method__**\n\n**Given:**\n\nArea of the floor (a²) = 48 m²\n\n**Formula Used:**\n\nSide of cube (a) = √(Floor Area)\n\nLength of longest rod (Space Diagonal) = a√3\n\n [IMAGE: https://cdn.repeatermock.com/tb/ec524d0de71a8a1d41dd6f41deb653f0da8a1f4a130fd5f534f211a2417b4631.png] \n\n⇒ Area of square floor = a² = 48\n\n⇒ Side of the cubical room (a) = √48 m\n\n⇒ Length of longest rod = √(a² + a² + a²) = √(3a²)\n\n⇒ Length = √(3 × 48)\n\n⇒ Length = √144\n\n⇒ Length = 12 m\n\n**∴ The correct answer is 12 m.**\n\n**__Additional Information__**\n\nVolume of a Cube\n\nThe total space occupied by the cube is given by side³ (a×a×a).\n\nTotal Surface Area (TSA)\n\nThe sum of areas of all 6 square faces is 6a².\n\nLateral Surface Area (LSA)\n\nThe area of the four vertical walls (excluding floor and ceiling) is 4a².\n\nDiagonal of a Cuboid\n\nFor a room with length (l), width (w), and height (h), the longest rod is √(l² + w² + h²).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ec524d0de71a8a1d41dd6f41deb653f0da8a1f4a130fd5f534f211a2417b4631.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6242ca1058f86749d49dec12",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A person walked from a village to a hospital at a speed of 30 km/h and walked back at a speed of 2 km/h. If the whole journey took 4 h 36 min, find the distance of the hospital from the village.",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 (1)/(4) {~km}"
+        },
+        {
+          "label": "2",
+          "text": "8 (5)/(8) {~km}"
+        },
+        {
+          "label": "3",
+          "text": "15 (3)/(4) {~km}"
+        },
+        {
+          "label": "4",
+          "text": "17 (3)/(4) {~km}"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nTotal time = 4 h 36 min = 4.6 hours\n\nShortcut formula: Distance = [ (Product of Speeds) ÷ (Sum of Speeds) ] × Total Time\n\nDistance = [ (30 × 2) ÷ (30 + 2) ] × 4.6\n\nDistance = [ 60 ÷ 32 ] × 4.6 = 1.875 × 4.6 = 8.625 km\n\n8.625 km = 8 5/8 km\n\n**∴ The correct answer is 8 5/8 km.**\n\n**__Alternate Method__**\n\n**Given:**\n\nSpeed from Village to Hospital (s₁) = 30 km/h\n\nSpeed from Hospital to Village (s₂) = 2 km/h\n\nTotal time taken = 4 h 36 min\n\n**Formula Used:**\n\nTime = Distance ÷ Speed\n\n [IMAGE: https://cdn.repeatermock.com/tb/f7c88935600c168e204ab077cdc8e2f1b628d0b01d1c38c600bcd6f19d279395.png] \n\n**Calculations:**\n\n⇒ Total Time = 4 h + (36 ÷ 60) h = 4 + 3/5 = 23/5 hours\n\n⇒ Let the distance be d km.\n\n⇒ (d ÷ 30) + (d ÷ 2) = 23/5\n\n⇒ (d + 15d) ÷ 30 = 23/5\n\n⇒ 16d ÷ 30 = 23/5\n\n⇒ 16d = (23 × 30) ÷ 5\n\n⇒ 16d = 23 × 6\n\n⇒ 16d = 138\n\n⇒ d = 138 ÷ 16 = 69 ÷ 8\n\n⇒ d = 8 5/8 km\n\n**∴ The correct answer is 8 5/8 km.**\n\n**__Additional Information__**\n\nAverage Speed for Constant Distance\n\nWhen an object covers the same distance at two different speeds s₁ and s₂, the average speed = (2 × s₁ × s₂) ÷ (s₁ + s₂).\n\nSpeed-Time Relationship\n\nIf distance is constant, speed is inversely proportional to time (s₁ ÷ s₂ = t₂ ÷ t₁). Ratio of speeds 30:2 = 15:1 implies ratio of times is 1:15.\n\nUnit Conversion\n\nTo convert minutes to hours, divide by 60. To convert km/h to m/s, multiply by 5/18.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f7c88935600c168e204ab077cdc8e2f1b628d0b01d1c38c600bcd6f19d279395.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "64a101c60040a8deb024aa2b",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the value of 0.4 × 0.5 + 2 × (0.10 - 0.5)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "0.40"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "-0.60"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nExpression = 0.4 times 0.5 + 2 times (0.10 - 0.5)\n\n**Formula used:**\n\nBODMAS Rule (Brackets, Multiplication, Addition, Subtraction)\n\n**Calculations:**\n\n0.4 times 0.5 + 2 times (0.10 - 0.5)\n\n⇒ 0.4 times 0.5 + 2 times (-0.4)\n\n⇒ 0.2 + (-0.8)\n\n⇒ 0.2 - 0.8\n\n⇒ -0.60\n\n**∴ The correct answer is option (4).**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6335bb71512a1c29db1ef15d",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "PQRS is a cyclic quadrilateral in which ∠P = (2x + 7°) ,∠Q = (x + 12°),∠R = (4y – 7°), and ∠S = (5y + 3°). Find the value of (x + y)",
+      "options": [
+        {
+          "label": "1",
+          "text": "85°"
+        },
+        {
+          "label": "2",
+          "text": "65°"
+        },
+        {
+          "label": "3",
+          "text": "95°"
+        },
+        {
+          "label": "4",
+          "text": "75°"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nIn a cyclic quadrilateral, opposite angles sum to 180°.\n\n∠P + ∠R = 180° → (2x + 7) + (4y − 7) = 180 → x + 2y = 90\n\n∠Q + ∠S = 180° → (x + 12) + (5y + 3) = 180 → x + 5y = 165\n\nSubtracting the equations: (x + 5y) − (x + 2y) = 165 − 90 → 3y = 75 → y = 25\n\nSubstituting y: x + 2(25) = 90 → x = 40\n\nx + y = 40 + 25 = 65°\n\n**∴ The correct answer is 65°.**\n\n**__Alternate Method__**\n\nGiven: ∠P = (2x + 7°), ∠Q = (x + 12°), ∠R = (4y − 7°), and ∠S = (5y + 3°).\n\nFormula Used: In a cyclic quadrilateral, ∠P + ∠R = 180° and ∠Q + ∠S = 180°.\n\n [IMAGE: https://cdn.repeatermock.com/tb/56b4db1e069f2f4c65820ecd73c2c97f59101a0203735905f36dbdbe0cab61f2.png] \n\n⇒ ∠P + ∠R = 180°\n\n⇒ (2x + 7°) + (4y − 7°) = 180°\n\n⇒ 2x + 4y = 180°\n\n⇒ x + 2y = 90° ---- (Eq. 1)\n\n⇒ ∠Q + ∠S = 180°\n\n⇒ (x + 12°) + (5y + 3°) = 180°\n\n⇒ x + 5y + 15° = 180°\n\n⇒ x + 5y = 165° ---- (Eq. 2)\n\n⇒ Subtracting (Eq. 1) from (Eq. 2):\n\n⇒ (x + 5y) − (x + 2y) = 165° − 90°\n\n⇒ 3y = 75°\n\n⇒ y = 25°\n\n⇒ Substitute y = 25° in (Eq. 1):\n\n⇒ x + 2(25°) = 90°\n\n⇒ x + 50° = 90°\n\n⇒ x = 40°\n\n⇒ Value of (x + y) = 40° + 25° = 65°\n\n**∴ The correct answer is 65°.**\n\n**__Additional Information__**\n\nCyclic Quadrilateral Property\n\nA quadrilateral is cyclic if and only if its opposite angles are supplementary, i.e., sum is 180°.\n\nExterior Angle of Cyclic Quadrilateral\n\nThe exterior angle formed by extending one side of a cyclic quadrilateral is equal to the interior opposite angle.\n\nPtolemy Theorem\n\nFor a cyclic quadrilateral with sides a, b, c, d and diagonals p, q: (p × q) = (a × c) + (b × d).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/56b4db1e069f2f4c65820ecd73c2c97f59101a0203735905f36dbdbe0cab61f2.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "63762cb961b36edca0bd09d8",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Satish bought 35 notebooks for Rs. 700 and sold 28 of them for Rs. 600. Find his percentage gain.",
+      "options": [
+        {
+          "label": "1",
+          "text": "7(1)/(7)%"
+        },
+        {
+          "label": "2",
+          "text": "9(1)/(7)%"
+        },
+        {
+          "label": "3",
+          "text": "6(1)/(7)%"
+        },
+        {
+          "label": "4",
+          "text": "8(1)/(7)%"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nCP of 1 notebook = 700 ÷ 35 = ₹20\n\nSP of 1 notebook = 600 ÷ 28 = ₹150/7\n\nRatio CP : SP = 20 : 150/7 = 140 : 150 = 14 : 15\n\nGain % = [(15 − 14) ÷ 14] × 100 = 100/14 = 50/7%\n\n50/7% = 7 1/7%\n\n**∴ The correct answer is 7 1/7%.**\n\n**__Alternate Method__**\n\n**Given:**\n\nTotal notebooks bought = 35\n\nCost Price (CP) for 35 notebooks = ₹700\n\nSelling Price (SP) for 28 notebooks = ₹600\n\n**Formula Used:**\n\nGain % = (Gain ÷ CP) × 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/830af17c2054e60ca84987afc55e9235e37207eed82932624acbd268a74461cd.png] \n\n**Calculations:**\n\n⇒ CP of 1 notebook = 700 ÷ 35 = ₹20\n\n⇒ SP of 1 notebook = 600 ÷ 28 = ₹150/7\n\n⇒ Profit = SP − CP = 150/7 − 20\n\n⇒ Profit = (150 − 140) ÷ 7 = ₹10/7\n\n⇒ Gain % = [(10/7) ÷ 20] × 100\n\n⇒ Gain % = (10 ÷ 140) × 100\n\n⇒ Gain % = 100/14 = 50/7%\n\n⇒ Gain % = 7 1/7%\n\n**∴ The correct answer is 7 1/7%.**\n\n**__Additional Information__**\n\nProfit and Loss Fundamentals\n\nProfit occurs when SP > CP. Gain = SP − CP. Loss occurs when CP > SP. Loss = CP − SP.\n\nPercentage Calculations\n\nGain% = (Gain/CP) × 100. Loss% = (Loss/CP) × 100. Both are always calculated on the Cost Price (CP).\n\nMarked Price and Discount\n\nDiscount is always calculated on the Marked Price (MP). SP = MP − Discount.\n\n62:Te21,\n<sp",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/830af17c2054e60ca84987afc55e9235e37207eed82932624acbd268a74461cd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "62e96043d4f53bd902eecd7e",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Elementary Statistics",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The mean of 15 numbers is 30. If 3 is added to each number, then what will be the new mean?",
+      "options": [
+        {
+          "label": "1",
+          "text": "31"
+        },
+        {
+          "label": "2",
+          "text": "32"
+        },
+        {
+          "label": "3",
+          "text": "33"
+        },
+        {
+          "label": "4",
+          "text": "36"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nIf a constant 'k' is added to each observation in a data set, the mean of the data set also increases by the same constant 'k'.\n\nNew Mean = Old Mean + k\n\nNew Mean = 30 + 3 = 33\n\n**∴ The correct answer is 33.**\n\n**__Alternate Method__**\n\n**Given:**\n\nTotal numbers (n) = 15\n\nMean of 15 numbers = 30\n\nValue added to each number = 3\n\n**Formula Used:**\n\nMean = Sum of observations ÷ Total number of observations\n\n [IMAGE: https://cdn.repeatermock.com/tb/7e13f4e5e966a2064176d354b2d27061bbc9d33ffaed0b695a22a8b3df3cb993.png] \n\n⇒ Sum of original 15 numbers = Mean × n = 30 × 15 = 450\n\n⇒ If 3 is added to each of the 15 numbers, total increase = 15 × 3 = 45\n\n⇒ New Sum = 450 + 45 = 495\n\n⇒ New Mean = New Sum ÷ 15\n\n⇒ New Mean = 495 ÷ 15 = 33\n\n**∴ The correct answer is 33.**\n\n**__Additional Information__**\n\nEffect of Operations on Mean\n\nIf every observation is multiplied by k, the new mean becomes k × Old Mean. If every observation is divided by k (k ≠ 0), the new mean becomes Old Mean ÷ k.\n\nLinear Transformation of Mean\n\nIf Y = aX + b, then Mean(Y) = a × Mean(X) + b. This shows that mean is sensitive to both change of scale (multiplication) and change of origin (addition).\n\nSum of Deviations\n\nThe sum of deviations of a set of observations from their arithmetic mean is always zero. Σ(xᵢ − Mean) = 0.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7e13f4e5e966a2064176d354b2d27061bbc9d33ffaed0b695a22a8b3df3cb993.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Elementary Statistics"
+      ]
+    },
+    {
+      "qid": "62d6bbbefab9529bd837540e",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Elementary Statistics",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A dice is thrown 150 times, with the frequencies for the outcomes 1, 2, 3, 4, 5 and 6 being as given in the following table. How many times is the number appearing on the dice a prime number?\n\n \n \n\n Outcome\n 1\n 2\n 3\n 4\n 5\n 6\n \n \n\n Frequency\n 23\n 43\n 33\n 13\n 10\n 28",
+      "options": [
+        {
+          "label": "1",
+          "text": "88"
+        },
+        {
+          "label": "2",
+          "text": "109"
+        },
+        {
+          "label": "3",
+          "text": "86"
+        },
+        {
+          "label": "4",
+          "text": "66"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nIdentify prime numbers on a dice: 2, 3, and 5.\n\nSum their corresponding frequencies from the table.\n\nTotal frequency of prime numbers = 43 + 33 + 10 = 86.\n\n**∴ The correct answer is 86.**\n\n**__Alternate Method__**\n\nGiven Data from Frequency Table:\n\nFrequency of Outcome 1 = 23\n\nFrequency of Outcome 2 = 43\n\nFrequency of Outcome 3 = 33\n\nFrequency of Outcome 4 = 13\n\nFrequency of Outcome 5 = 10\n\nFrequency of Outcome 6 = 28\n\nTotal Throws = 150\n\nPrime numbers in the set {1, 2, 3, 4, 5, 6}:\n\n⇒ 1 is neither prime nor composite.\n\n⇒ 2 is a prime number.\n\n⇒ 3 is a prime number.\n\n⇒ 4 is a composite number (2 × 2).\n\n⇒ 5 is a prime number.\n\n⇒ 6 is a composite number (2 × 3).\n\nCalculation for prime number frequency:\n\n⇒ Total prime frequency = Freq(2) + Freq(3) + Freq(5)\n\n⇒ Total prime frequency = 43 + 33 + 10\n\n⇒ Total prime frequency = 86\n\n**∴ The correct answer is 86.**\n\n**__Additional Information__**\n\nDefinition of Prime Numbers\n\nA prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. The first few are 2, 3, 5, 7, 11...\n\nSpecial Case of 1\n\nThe number 1 is not considered a prime number because it does not have exactly two distinct divisors; it only has one divisor (1).\n\nProbability of Prime Numbers\n\nThe experimental probability P(Prime) = (Total frequency of prime outcomes) ÷ (Total number of trials). In this case, P(Prime) = 86 ÷ 150 = 43/75.</p",
+      "tags": [
+        "Elementary Statistics"
+      ]
+    },
+    {
+      "qid": "6322fa760cdb9c4e86498c62",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If xy(x + y) = 1, then the value of 1/(x3y³) - x³ - y³ is",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "-3"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "-1"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nGiven xy(x + y) = 1 ⇒ x + y = 1/xy\n\nReplace 1/(x³y³) with (x + y)³ in the expression.\n\nExpression becomes: (x + y)³ − x³ − y³ = 3xy(x + y)\n\nSubstitute xy(x + y) = 1: 3 × 1 = 3\n\n**∴ The correct answer is 3.**\n\n**__Alternate Method__**\n\nGiven: xy(x + y) = 1\n\nFormula Used: (a + b)³ = a³ + b³ + 3ab(a + b)\n\n⇒ xy(x + y) = 1\n\n⇒ x + y = 1 / (xy)\n\n⇒ (x + y)³ = (1 / xy)³ [Cubing both sides]\n\n⇒ x³ + y³ + 3xy(x + y) = 1 / (x³y³)\n\n⇒ 3xy(x + y) = 1 / (x³y³) − x³ − y³\n\n⇒ 3(1) = 1 / (x³y³) − x³ − y³ [Since xy(x + y) = 1]\n\n⇒ 1 / (x³y³) − x³ − y³ = 3\n\n**∴ The correct answer is 3.**\n\n**__Additional Information__**\n\nAlgebraic Cubic Identity\n\nThe expansion of (x + y)³ is x³ + y³ + 3xy(x + y), which relates the sum of cubes to the product and sum of variables.\n\nSum of Three Cubes\n\nIf x + y + z = 0, then x³ + y³ + z³ = 3xyz. This is a special case of the identity a³+b³+c³−3abc = (a+b+c)(a²+b²+c²−ab−bc−ca).\n\nReciprocal Identity\n\nIf x + 1/x = k, then x³ + 1/x³ = k³ − 3k. This shortcut is frequently used in banking and SSC exams for quantitative aptitude.</p",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "64906abf865c978aa03ccf02",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two corresponding angles formed by the intersection of two parallel lines by a transversal are x and 70°. Then, the value of 4x - 30° is ;",
+      "options": [
+        {
+          "label": "1",
+          "text": "440°"
+        },
+        {
+          "label": "2",
+          "text": "410°"
+        },
+        {
+          "label": "3",
+          "text": "280°"
+        },
+        {
+          "label": "4",
+          "text": "250°"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nCorresponding angles of parallel lines are always equal.\n\n∴ x = 70°\n\nSubstitute x in the required expression: 4x − 30°\n\n4(70°) − 30° = 280° − 30° = 250°\n\n**∴ The correct answer is 250°.**\n\n**__Alternate Method__**\n\n**Given:**\n\nParallel lines are intersected by a transversal.\n\nCorresponding angles are x and 70°.\n\n**Formula Used:**\n\nWhen two parallel lines are cut by a transversal, the pairs of corresponding angles are equal in measure.\n\n [IMAGE: https://cdn.repeatermock.com/tb/be2e8f354f36a9f0eb7887fb204af1bffbe5b0e8a18a227fea1c217120ac449c.png] \n\n**Calculations:**\n\n⇒ x = 70° (Property of corresponding angles)\n\n⇒ To find: 4x − 30°\n\n⇒ 4 × 70° − 30°\n\n⇒ 280° − 30°\n\n⇒ 250°\n\n**∴ The correct answer is 250°.**\n\n**__Additional Information__**\n\nAlternate Interior Angles\n\nAngles on opposite sides of the transversal and between the parallel lines are equal.\n\nConsecutive Interior Angles\n\nAngles on the same side of the transversal and between parallel lines are supplementary (Sum = 180°).\n\nVertically Opposite Angles\n\nWhen two lines intersect, the angles opposite each other at the vertex are always equal.\n\nLinear Pair\n\nAngles that are adjacent and form a straight line add up to 180°.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/be2e8f354f36a9f0eb7887fb204af1bffbe5b0e8a18a227fea1c217120ac449c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "64c75c5bdb56f9430f0d2827",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following numbers is divisible by 9?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3739"
+        },
+        {
+          "label": "2",
+          "text": "3661"
+        },
+        {
+          "label": "3",
+          "text": "3659"
+        },
+        {
+          "label": "4",
+          "text": "3915"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nA number is divisible by 9 if the sum of its digits is divisible by 9.\n\nTesting the options by calculating the digit sum:\n\n3915 → 3 + 9 + 1 + 5 = 18.\n\nSince 18 is divisible by 9, the number 3915 is also divisible by 9.\n\n**∴ The correct answer is 3915.**\n\n**__Alternate Method__**\n\nGiven: Numbers (1) 3739, (2) 3661, (3) 3659, (4) 3915.\n\nFormula Used: Divisibility rule of 9 ⇒ Sum of digits must be a multiple of 9.\n\n [IMAGE: https://cdn.repeatermock.com/tb/a0674499e16f8e448ec311c398c0620e825e39a3f167b1d4f9be5edd24f7020d.png] \n\n⇒ Option 1: 3 + 7 + 3 + 9 = 22 (Not divisible by 9)\n\n⇒ Option 2: 3 + 6 + 6 + 1 = 16 (Not divisible by 9)\n\n⇒ Option 3: 3 + 6 + 5 + 9 = 23 (Not divisible by 9)\n\n⇒ Option 4: 3 + 9 + 1 + 5 = 18 (18 ÷ 9 = 2, exactly divisible)\n\n**∴ The correct answer is 3915.**\n\n**__Additional Information__**\n\nDivisibility by 3\n\nA number is divisible by 3 if the sum of its digits is divisible by 3. For example, 123 (1+2+3=6) is divisible by 3.\n\nDivisibility by 11\n\nThe difference between the sum of digits at odd places and even places must be 0 or a multiple of 11.\n\nDivisibility by 4\n\nA number is divisible by 4 if its last two digits form a number that is divisible by 4. For example, 512 is divisible by 4 as 12 is divisible by 4.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a0674499e16f8e448ec311c398c0620e825e39a3f167b1d4f9be5edd24f7020d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "63a0bc0f71a9001aa86bcb07",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given figure if ∠P = 70° and ∠PSR = 100°, then ∠T =\n\n [IMAGE: https://cdn.repeatermock.com/tb/f8b703a2604296f435e9d85187bbdd7ead4955a2a0aa73b7eef2740f4d5123bd.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "70°"
+        },
+        {
+          "label": "2",
+          "text": "40°"
+        },
+        {
+          "label": "3",
+          "text": "50°"
+        },
+        {
+          "label": "4",
+          "text": "30°"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nIn cyclic quadrilateral PQRS, opposite angles are supplementary.\n\n∠PQR + ∠PSR = 180° ⇒ ∠PQR = 180° − 100° = 80°.\n\nIn ΔPQT, sum of angles is 180°.\n\n∠T = 180° − (∠P + ∠PQR) = 180° − (70° + 80°) = 30°.\n\n**∴ The correct answer is 30°.**\n\n**__Alternate Method__**\n\n**Given:** ∠P = 70° and ∠PSR = 100° in the cyclic quadrilateral PQRS within ΔPQT.\n\n**Formula Used:** Sum of opposite angles of a cyclic quadrilateral is 180°; Sum of angles in a triangle is 180°.\n\n [IMAGE: https://cdn.repeatermock.com/tb/7d554961db59dc38ee8329bbc499f8316df30e5e9a6dd463f140f9dba3613947.png] \n\nIn cyclic quadrilateral PQRS:\n\n⇒ ∠PQR + ∠PSR = 180°\n\n⇒ ∠PQR + 100° = 180°\n\n⇒ ∠PQR = 180° − 100° = 80°\n\nNow, consider the triangle ΔPQT:\n\n⇒ ∠P + ∠PQT + ∠T = 180°\n\n⇒ 70° + 80° + ∠T = 180°\n\n⇒ 150° + ∠T = 180°\n\n⇒ ∠T = 180° − 150°\n\n⇒ ∠T = 30°\n\n**∴ The correct answer is 30°.**\n\n**__Additional Information__**\n\nCyclic Quadrilateral Property\n\nA quadrilateral is cyclic if all its vertices lie on a single circle. The sum of opposite angles is always 180° (∠A + ∠C = 180° and ∠B + ∠D = 180°).\n\nExterior Angle of Cyclic Quadrilateral\n\nThe exterior angle of a cyclic quadrilateral is equal to the interior opposite angle. For example, if side PS is extended to T, then ∠TSR = ∠PQR.\n\nAngle Sum Property of Triangle\n\nFor any triangle, the sum of all three interior angles is always exactly 180°.</p",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f8b703a2604296f435e9d85187bbdd7ead4955a2a0aa73b7eef2740f4d5123bd.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7d554961db59dc38ee8329bbc499f8316df30e5e9a6dd463f140f9dba3613947.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "62a9b1146a0fe75e7cc30a02",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A, B and C are employed to do a piece of work for Rs. 420. A and B together are supposed to do 17/21 of the work and B&C together 6/21 of the work. What amount should A be paid?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 360"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 300"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 320"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 340"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal work units = 21 (Denominator of fractions)\n\nWork done by A + B = 17 units and Work done by B + C = 6 units\n\nTotal work (A + B + C) = 21 units\n\nWork done by B = (A + B) + (B + C) − (A + B + C) = 17 + 6 − 21 = 2 units\n\nWork done by A = (A + B) − B = 17 − 2 = 15 units\n\nA's share = (Work by A ÷ Total Work) × Total Wage = (15 ÷ 21) × 420 = ₹300\n\n**∴ The correct answer is ₹300.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal amount to be paid = ₹420\n\nWork done by A and B together = 17/21\n\nWork done by B and C together = 6/21\n\n [IMAGE: https://cdn.repeatermock.com/tb/4a2907bb663576292735702153b88a38cc95b5ed288cd47497bc8b6d01d8cfa6.png] \n\n**Formula:** Wage of a person = (Work done by the person / Total work) × Total amount\n\n⇒ Total work = 1\n\n⇒ Work done by (A + B + C) = 1\n\n⇒ Work done by C = Total work − Work done by (A + B)\n\n⇒ Work done by C = 1 − 17/21 = 4/21\n\n⇒ Work done by B = Work done by (B + C) − Work done by C\n\n⇒ Work done by B = 6/21 − 4/21 = 2/21\n\n⇒ Work done by A = Work done by (A + B) − Work done by B\n\n⇒ Work done by A = 17/21 − 2/21 = 15/21\n\n⇒ Amount paid to A = (15/21) × 420\n\n⇒ Amount paid to A = 15 × 20\n\n⇒ Amount paid to A = ₹300\n\n**∴ The correct answer is ₹300.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nWage Distribution Rule\n\nWages are always distributed in the ratio of the actual work done by each individual. If time is constant, wages are proportional to efficiency.\n\nIndividual Work Calculation\n\nTo find an individual's work from overlapping groups: Individual B = (Group A+B) + (Group B+C) − Total (A+B+C).\n\nEfficiency and Time\n\nEfficiency is inversely proportional to the time taken to complete a work. Efficiency = Total Work ÷ Time.\n\n3f:T14a5",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4a2907bb663576292735702153b88a38cc95b5ed288cd47497bc8b6d01d8cfa6.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "67160a8789d8e1f7b500d5d0",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given a linear equation in two variables: 5x + 7y - 8 = 0, which of the following linear equations, along with the given equation, forms a system of linear equations having no solution?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5x + 7y - 16 = 0"
+        },
+        {
+          "label": "2",
+          "text": "7x + 5y - 8 = 0"
+        },
+        {
+          "label": "3",
+          "text": "5x - 7y - 8 = 0"
+        },
+        {
+          "label": "4",
+          "text": "10x + 14y - 16 = 0"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor a system of linear equations to have no solution, the lines must be parallel.\n\nCondition: a₁/a₂ = b₁/b₂ ≠ c₁/c₂\n\nCompare the given equation 5x + 7y − 8 = 0 with Option 1: 5x + 7y − 16 = 0.\n\nWe get 5/5 = 7/7 ≠ −8/−16 ⇒ 1 = 1 ≠ 1/2. This perfectly satisfies the no solution condition.\n\n**∴ The correct answer is 5x + 7y - 16 = 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nEquation 1: 5x + 7y − 8 = 0\n\nHere, a₁ = 5, b₁ = 7, c₁ = −8\n\n**Formula Used:**\n\nFor equations a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 to have no solution (parallel lines):\n\nCondition: a₁/a",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "6203f5a5192a5b7dc67bcc4b",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The amount obtained by investing a certain sum at r% p.a. for 3 years at simple interest is equal to the simple interest on the same sum at the same rate for 13 years. The value of r is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAmount (3 years) = Simple Interest (13 years)\n\nPrincipal + SI (3 years) = SI (13 years)\n\nPrincipal = SI (13 years) − SI (3 years) = SI (10 years)\n\nFor Principal (100%) to be equal to 10 years of interest, the annual rate must be 100% ÷ 10 = 10%.\n\n**∴ The correct answer is 10%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven: Principal = P, Rate = r% p.a., Time₁ = 3 years, Time₂ = 13 years.\n\nFormula: Simple Interest (SI) = (P × r × t) / 100 | Amount (A) = P + SI.\n\n [IMAGE: https://cdn.repeatermock.com/tb/e552677647a3c1a5a8ccc89628e0ec8f32a92be16f78caf004cf79d8fcf6f1a6.png] \n\n⇒ Amount after 3 years = P + (P × r × 3) / 100\n\n⇒ Simple Interest for 13 years = (P × r × 13) / 100\n\n⇒ According to the question: P + 3Pr/100 = 13Pr/100\n\n⇒ P = 13Pr/100 − 3Pr/100\n\n⇒ P = 10Pr/100\n\n⇒ 1 = 10r/100\n\n⇒ 1 = r/10\n\n⇒ r = 10\n\n**∴ The correct answer is 10%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Interest Basics\n\nSimple Interest is calculated only on the principal amount. The formula is SI = P × R × T / 100, where P is Principal, R is Rate, and T is Time.\n\nAmount in Simple Interest\n\nThe total amount (A) at the end of the period is the sum of the principal and interest: A = P + SI = P(1 + RT/100).\n\nEffective Rate of Interest\n\nThe effective interest earned over T years is (R × T)% of the principal. In this problem, the difference in time (13 − 3 = 10 years) represents the principal itself.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e552677647a3c1a5a8ccc89628e0ec8f32a92be16f78caf004cf79d8fcf6f1a6.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "6391e19fb169e450773ef584",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two bells chime together at 12 noon. Then one bell chimes every 48 seconds, while the other chimes every 84 seconds. When, among the given options, will both the bells chime together?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 p.m."
+        },
+        {
+          "label": "2",
+          "text": "4 p.m."
+        },
+        {
+          "label": "3",
+          "text": "7 p.m."
+        },
+        {
+          "label": "4",
+          "text": "6 p.m."
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nLCM of 48 and 84 seconds = 12 × 4 × 7 = 336 seconds.\n\nThe bells chime together every 336 seconds.\n\nFrom the options, check the duration from 12 noon: 7 p.m. = 7 hours = 7 × 3600 = 25,200 seconds.\n\n25,200 ÷ 336 = 75 (Exactly divisible).\n\n**∴ The correct answer is 7 p.m.**\n\n**__Alternate Method__**\n\nGiven:\n\nInterval of Bell 1 = 48 seconds\n\nInterval of Bell 2 = 84 seconds\n\nStart Time = 12:00 noon\n\n [IMAGE: https://cdn.repeatermock.com/tb/2d164ed289e645c3f5572b4c7639ce031c4aa8269507fe40c10f90f9e947b887.png] \n\nFormula used: LCM (Least Common Multiple) determines the simultaneous interval.\n\n⇒ Prime factorization of 48 = 2⁴ × 3\n\n⇒ Prime factorization of 84 = 2² × 3 × 7\n\n⇒ LCM(48, 84) = 2⁴ × 3 × 7 = 16 × 21 = 336 seconds\n\n⇒ To find when they chime together at one of the given hours, the total time must be a multiple of 336.\n\n⇒ Checking 7 p.m.: Total time = 7 hours × 60 min × 60 sec = 25,200 seconds\n\n⇒ Number of intervals = 25,200 ÷ 336 = 75 cycles\n\n**∴ The correct answer is 7 p.m.**\n\n**__Additional Information__**\n\nLCM in Periodic Events\n\nLCM is used to find the next time multiple events occurring at different fixed intervals will happen simultaneously (e.g., traffic lights, bells, racers on a track).\n\nTime Conversion\n\n1 Hour = 3600 seconds | 1 Minute = 60 seconds. Always ensure units are consistent before calculating LCM.\n\nDivisibility Rule\n\nIf a time duration T is a multiple of the LCM of two intervals, both events will coincide at the end of time T.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2d164ed289e645c3f5572b4c7639ce031c4aa8269507fe40c10f90f9e947b887.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "66a3ab4c9d06136cc9308767",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "10 years ago, a man's age was 5 times of his son's age. 2 years hence, twice his age will be equal to 4 times the age of his son. What is the present age (in years) of the son?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "14"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio (Man : Son) 10 years ago = 5 : 1 (Difference = 4 units)\n\nRatio (Man : Son) 2 years hence = 4 : 2 = 2 : 1 (Difference = 1 unit)\n\nMake difference equal: Multiply (2 : 1) by 4 ⇒ New Ratio = 8 : 4\n\nGap in Son's ratio units = 4 − 1 = 3 units. Total time gap = 10 + 2 = 12 years.\n\n3 units = 12 years ⇒ 1 unit = 4 years.\n\nSon's age 10 years ago = 1 unit = 4 years ⇒ Present age = 4 + 10 = 14 years.\n\n**∴ The correct answer is 14 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nLet the present age of the man be M and the son be S.\n\n10 years ago: (M − 10) = 5 × (S − 10)\n\n2 years hence: 2 × (M + 2) = 4 × (S + 2)\n\n [IMAGE: https://cdn.repeatermock.com/tb/43f90f63387b96769133d990bb29bf4f23b0137d5d491dae2d2e74cad6675d4f.png] \n\n**Calculations:**\n\n⇒ M − 10 = 5S − 50\n\n⇒ M = 5S − 40 --- (Equation 1)\n\n⇒ 2(M + 2) = 4(S + 2)\n\n⇒ M + 2 = 2(S + 2)\n\n⇒ M + 2 = 2S + 4\n\n⇒ M = 2S + 2 --- (Equation 2)\n\n⇒ 5S − 40 = 2S + 2\n\n⇒ 3S = 42\n\n⇒ S = 42 ÷ 3\n\n⇒ S = 14 years\n\n**∴ The correct answer is 14 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nConstant Age Difference\n\nThe difference between the ages of two people remains constant throughout their lives, regardless of how many years pass.\n\nSum of Ages Change\n\nIf the sum of ages of N people is X today, then after Y years, the new sum will be X + (N × Y).\n\nRatio Balancing Method\n\nTo solve age problems using ratios, always ensure the difference between the ratio parts of two individuals is made equal across different time periods.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/43f90f63387b96769133d990bb29bf4f23b0137d5d491dae2d2e74cad6675d4f.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "6710ccb471f785da8dc6dd37",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Express sin 74° + tan 74° in terms of trigonometric ratios of angles between 0° and 45°.",
+      "options": [
+        {
+          "label": "1",
+          "text": "sec 16° + cot 16°"
+        },
+        {
+          "label": "2",
+          "text": "cosec 16° + sec 16°"
+        },
+        {
+          "label": "3",
+          "text": "cosec 16° + cot 16°"
+        },
+        {
+          "label": "4",
+          "text": "cos 16° + cot 16°"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTo express angles between 0° and 45°, subtract the given angle from 90° and apply the complementary trigonometric ratios.\n\nThe complement of 74° is 90° − 74° = 16°.\n\nConvert the respective trigonometric functions: sin → cos and tan → cot.\n\nThus, sin 74° + tan 74° directly becomes cos 16° + cot 16°.\n\n**∴ The correct answer is cos 16° + cot 16°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nExpression: sin 74° + tan 74°\n\n**Formula Used:**\n\nsin(90° − θ) = cos θ\n\ntan(90° − θ) = cot θ\n\n**Calculations:**\n\n⇒ We can express 74° in terms of its complementary angle as (90° − 16°).\n\n⇒ sin 74° = sin(90° − 16°)\n\n⇒ Applying the complementary identity, sin(90° − 16°) = cos 16°\n\n⇒ tan 74° = tan(90° − 16°)\n\n⇒ Applying the complementary identity, tan(90° − 16°) = cot 16°\n\n⇒ Substitute these new values back into the original expression.\n\n⇒ sin 74° + tan 74° = cos 16° + cot 16°\n\n**∴ The correct answer is cos 16° + cot 16°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nComplementary Angles in Trigonometry\n\nTwo angles that sum up to exactly 90° are known as complementary. The interrelated trigonometric pairs are sine & cosine, tangent & cotangent, and secant & cosecant.\n\nTrigonometric Signs by Quadrant\n\nIn the first quadrant, which encompasses all angles from 0° to 90°, every basic trigonometric function naturally yields a positive value.\n\nBasic Pythagorean Identities\n\nThe foundational formulas connecting the squares of trigonometric functions are: sin²θ + cos²θ = 1, sec²θ − tan²θ = 1, and cosec²θ − cot²θ = 1.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "64cbec1c5caf1bed0fdda397",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A group of men decided to do a job in 11 days but 16 men left the work after each day. The work, as a result, got completed in 15 days. How many men were there initially in the group?",
+      "options": [
+        {
+          "label": "1",
+          "text": "400"
+        },
+        {
+          "label": "2",
+          "text": "480"
+        },
+        {
+          "label": "3",
+          "text": "420"
+        },
+        {
+          "label": "4",
+          "text": "450"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal work planned = 11 × M (where M is initial men).\n\nActual work done = Sum of men over 15 days = $\\frac{15}{2}$ [2M + (15 − 1)(−16)].\n\n11M = 15M − 1680.\n\n4M = 1680 ⇒ M = 420.\n\n**∴ The correct answer is 420 men.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPlanned completion time = 11 days\n\nActual completion time = 15 days\n\nNumber of men leaving daily = 16\n\n**Formula Used:**\n\nTotal Work = Number of Men × Number of Days\n\nSum of Arithmetic Progression (Sₙ) = $\\frac{n}{2}$ [2a + (n − 1)d]\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency (Avg Men)**\n \n \n\n Planned Group\n 11\n 11x\n x\n \n \n\n Actual Group\n 15\n x − 112\n \n \n\n**Calculations:**\n\n⇒ Let the initial number of men be x.\n\n⇒ Total work planned = 11 × x = 11x man-days.\n\n⇒ Actual work is the sum of men over 15 days: x + (x − 16) + (x − 32) + ... up to 15 terms.\n\n⇒ Total work done = $\\frac{15}{2}$ [2x + (15 − 1) × (−16)]\n\n⇒ 11x = $\\frac{15}{2}$ [2x − 224]\n\n⇒ 11x = 15 × (x − 112)\n\n⇒ 11x = 15x − 1680\n\n⇒ 4x = 1680\n\n⇒ x = 420\n\n**∴ The correct answer is 420 men.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMan-Days Concept\n\nWork is calculated as the product of the number of workers and the time taken (W = M × D). If the workforce is constant, M₁D₁ = M₂D₂.\n\nSum of Arithmetic Progression\n\nWhen the number of workers changes by a constant amount each day, the total work is the sum of an AP: Sₙ = $\\frac{n}{2}$[2a + (n − 1)d].\n\nAverage Workforce\n\nIn a linear decrease/increase of workers, the average number of workers per day is equal to the number of workers on the middle day of the period.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "623b8385d4fc6280c40f0013",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the diameter of the base of a cone is 42 cm and its curved surface area is 2310 cm², then what is 45% of the volume (in cm³)? (Take π = 22/7 )",
+      "options": [
+        {
+          "label": "1",
+          "text": "5218.2"
+        },
+        {
+          "label": "2",
+          "text": "5281.2"
+        },
+        {
+          "label": "3",
+          "text": "5821.2"
+        },
+        {
+          "label": "4",
+          "text": "5812.2"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRadius r = 21 cm, CSA = 2310 cm².\n\nSlant height l = CSA ÷ (π × r) = 2310 ÷ (22/7 × 21) = 35 cm.\n\nHeight h = √(35² − 21²) = 28 cm (using 3, 4, 5 triplet × 7).\n\n45% of Vol = 0.45 × (1/3 × 22/7 × 21 × 21 × 28) = 0.45 × 12936 = 5821.2 cm³.\n\n**∴ The correct answer is 5821.2 cm³.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDiameter (d) = 42 cm ⇒ Radius (r) = 21 cm\n\nCurved Surface Area (CSA) = 2310 cm²\n\nπ = 22/7\n\n**Formula Used:**\n\nCSA of Cone = π × r × l\n\nVolume of Cone (V) = (1/3) × π × r² × h\n\nRelation: l² = r² + h²\n\n [IMAGE: https://cdn.repeatermock.com/tb/609035e2e1436c8da4695b558c4f30c01e8ad1ba53bc4ac2d38a2897737ab3e3.png] \n\n**Calculations:**\n\n⇒ CSA = πrl ⇒ 2310 = (22/7) × 21 × l\n\n⇒ 2310 = 66 × l\n\n⇒ l = 2310 ÷ 66 = 35 cm\n\n⇒ h = √(l² − r²) = √(35² − 21²)\n\n⇒ h = √(1225 − 441) = √784 = 28 cm\n\n⇒ Volume (V) = (1/3) × (22/7) × 21 × 21 × 28\n\n⇒ V = 22 × 21 × 28 = 12936 cm³\n\n⇒ Required Value = 45% of 12936 = (45/100) × 12936\n\n⇒ Required Value = 0.45 × 12936 = 5821.2 cm³\n\n**∴ The correct answer is 5821.2 cm³.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTotal Surface Area (TSA) of Cone\n\nThe total surface area includes the curved surface and the base area: TSA = πr(l + r).\n\nVolume of Cylinder\n\nThe volume of a cone is exactly 1/3 the volume of a cylinder with the same radius and height: V = πr²h.\n\nPythagorean Triplets in Mensuration\n\nFor a cone, r, h, and l form a right-angled triangle. Common triplets like (3,4,5), (5,12,13), and (7,24,25) help find missing dimensions quickly.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/609035e2e1436c8da4695b558c4f30c01e8ad1ba53bc4ac2d38a2897737ab3e3.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "62d8e4ac15e669baa389ba88",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the greatest possible value of (a + b) for which the 8-digit number 143b203a is divisible by 15.",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "17"
+        },
+        {
+          "label": "3",
+          "text": "16"
+        },
+        {
+          "label": "4",
+          "text": "14"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDivisibility by 15 requires divisibility by both 3 and 5.\n\nFor divisibility by 5, the last digit 'a' must be 0 or 5.\n\nTo maximize (a + b), we pick the largest 'a', so a = 5.\n\nSum of digits = 1 + 4 + 3 + b + 2 + 0 + 3 + 5 = 18 + b.\n\nFor divisibility by 3, (18 + b) must be a multiple of 3; the largest digit 'b' is 9.\n\nGreatest (a + b) = 5 + 9 = 14.\n\n**∴ The correct answer is 14.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven 8-digit number: 143b203a\n\nCondition: Divisible by 15 (i.e., divisible by 3 and 5).\n\n [IMAGE: https://cdn.repeatermock.com/tb/10567b8e03308cb734fc87e8e262dcbbabe65f905e33e5d6b409916b2d19c9df.png] \n\n⇒ Divisibility by 5: Last digit 'a' must be 0 or 5.\n\n⇒ Divisibility by 3: Sum of digits = (1 + 4 + 3 + b + 2 + 0 + 3 + a) = (13 + a + b) must be divisible by 3.\n\n⇒ Case 1: If a = 5 (largest possible last digit):\n\n⇒ Sum = 13 + 5 + b = 18 + b.\n\n⇒ For (18 + b) to be divisible by 3, possible values for b are 0, 3, 6, 9.\n\n⇒ Maximum value of b = 9. So, (a + b) = 5 + 9 = 14.\n\n⇒ Case 2: If a = 0:\n\n⇒ Sum = 13 + 0 + b = 13 + b.\n\n⇒ For (13 + b) to be divisible by 3, possible values for b are 2, 5, 8.\n\n⇒ Maximum value of b = 8. So, (a + b) = 0 + 8 = 8.\n\n⇒ Comparing Case 1 and Case 2, the greatest possible value of (a + b) is 14.\n\n**∴ The correct answer is 14.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nDivisibility by 3\n\nA number is divisible by 3 if the sum of its individual digits is divisible by 3.\n\nDivisibility by 5\n\nA number is divisible by 5 if its unit digit (last digit) is either 0 or 5.\n\nDivisibility by Composite Numbers\n\nTo check divisibility by a composite number n, check if it is divisible by its co-prime factors (e.g., 15 = 3 × 5, where HCF(3, 5) = 1).\n\nDivisibility by 9\n\nSimilar to 3, a number is divisible by 9 if the sum of its digits is divisible by 9.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/10567b8e03308cb734fc87e8e262dcbbabe65f905e33e5d6b409916b2d19c9df.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "62f26e5233845d7fc0a062e5",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Suppose A and B can complete a work together in 10 days. If B alone can complete the work in 15 days, then in how many days can A alone finish the work?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 days"
+        },
+        {
+          "label": "2",
+          "text": "24 days"
+        },
+        {
+          "label": "3",
+          "text": "25 days"
+        },
+        {
+          "label": "4",
+          "text": "30 days"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nShortcut formula: Time for A alone = (Product of times) ÷ (Difference of times)\n\nTime = (15 × 10) ÷ (15 − 10)\n\nTime = 150 ÷ 5 = 30 days\n\n**∴ The correct answer is 30 days.**\n\n**__Alternate Method__**\n\nGiven: Time taken by (A + B) = 10 days, Time taken by B alone = 15 days.\n\nUsing LCM method to find Total Work and Efficiency:\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n A + B\n 10\n 30 (LCM of 10, 15)\n 3\n \n \n\n B\n 15\n 2\n \n \n\n⇒ Efficiency of (A + B) = 3 units/day\n\n⇒ Efficiency of B = 2 units/day\n\n⇒ Efficiency of A = Efficiency of (A + B) − Efficiency of B\n\n⇒ Efficiency of A = 3 − 2 = 1 unit/day\n\n⇒ Time taken by A alone = Total Work ÷ Efficiency of A\n\n⇒ Time taken by A alone = 30 ÷ 1 = 30 days\n\n**∴ The correct answer is 30 days.**\n\n**__Additional Information__**\n\nEfficiency and Time Relationship\n\nEfficiency is inversely proportional to the time taken. If the ratio of efficiency of two workers is x:y, then the ratio of time taken by them to complete the same work will be y:x.\n\nTotal Work Formula\n\nTotal Work = Number of Days × Efficiency. This is a fundamental constant for a specific task when comparing different workers.\n\nFractional Work\n\nIf a person A can complete a work in 'n' days, then work done by A in 1 day = 1/n. If A and B work together, their 1-day work is 1/n₁ + 1/n₂.</p",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "630c4b65a4135da3c67a5365",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will be the ratio of the amount received and the principal after 'n' years at the rate of 5% compound interest per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "22ⁿ : 21ⁿ"
+        },
+        {
+          "label": "2",
+          "text": "20ⁿ : 21ⁿ"
+        },
+        {
+          "label": "3",
+          "text": "21ⁿ : 20ⁿ"
+        },
+        {
+          "label": "4",
+          "text": "21ⁿ : 22ⁿ"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRate of interest = 5% = 5/100 = 1/20.\n\nFor 1 year, the ratio of Principal (P) to Amount (A) is 20 : (20 + 1) = 20 : 21.\n\nFor 'n' years, the ratio P : A = 20ⁿ : 21ⁿ.\n\nThe question asks for the ratio of Amount to Principal (A : P).\n\nA : P = 21ⁿ : 20ⁿ.\n\n**∴ The correct answer is 21ⁿ : 20ⁿ.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven:\n\nRate of interest (r) = 5% per annum\n\nTime = n years\n\nFormula used: A = P(1 + r/100)t\n\n [IMAGE: https://cdn.repeatermock.com/tb/ee90f4bc468fab1aec983d9a71aac6b433309e22292ded27979345965f994b7a.png] \n\nCalculations:\n\n⇒ A = P(1 + 5/100)ⁿ\n\n⇒ A = P(1 + 1/20)ⁿ\n\n⇒ A = P[(20 + 1)/20]ⁿ\n\n⇒ A = P(21/20)ⁿ\n\n⇒ A = P × (21ⁿ / 20ⁿ)\n\n⇒ A / P = 21ⁿ / 20ⁿ\n\n⇒ A : P = 21ⁿ : 20ⁿ\n\n**∴ The correct answer is 21ⁿ : 20ⁿ.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCompound Interest Formula\n\nThe total interest earned is CI = A − P = P[(1 + r/100)ⁿ − 1].\n\nEffective Rate of Interest\n\nIf interest is compounded semi-annually, the effective rate for a year is [ (1 + r/200)² − 1 ] × 100%.\n\nDifference between SI and CI\n\nFor 2 years, the difference is D = P(r/100)². For 3 years, D = P(r/100)² × (3 + r/100).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ee90f4bc468fab1aec983d9a71aac6b433309e22292ded27979345965f994b7a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "62abe724a355b4832aea93ea",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A seller sold a cloth for Rs.1008 after giving 20% discount on the labelled price. If he had not given the discount, then he would have earned a profit of 40% on the cost price. What is the cost price (in Rs.) of the cloth?",
+      "options": [
+        {
+          "label": "1",
+          "text": "800"
+        },
+        {
+          "label": "2",
+          "text": "850"
+        },
+        {
+          "label": "3",
+          "text": "750"
+        },
+        {
+          "label": "4",
+          "text": "900"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSelling Price is 80% of Marked Price (20% discount).\n\n0.8 × MP = 1008 ⇒ MP = ₹1260\n\nIf no discount is given, MP becomes the new Selling Price, yielding a 40% profit.\n\n1.4 × CP = 1260 ⇒ CP = 1260 ÷ 1.4 = ₹900\n\n**∴ The correct answer is ₹900.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n⇒ Selling Price (SP) = ₹1008\n\n⇒ Discount = 20%\n\n⇒ Profit if sold without discount = 40%\n\n**Formula Used:**\n\n⇒ MP = SP × [100 ÷ (100 − Discount%)]\n\n⇒ CP = SPₙₑw × [100 ÷ (100 + Profit%)]\n\n [IMAGE: https://cdn.repeatermock.com/tb/8b6e92a77f95a7ffcda44ef20c292b35a50ee1358a347e8d285bb2e07cb1bfa0.png] \n\n**Calculations:**\n\n⇒ MP = 1008 × [100 ÷ (100 − 20)]\n\n⇒ MP = 1008 × (100 ÷ 80) = 1008 × (5 ÷ 4)\n\n⇒ MP = 252 × 5 = ₹1260\n\n⇒ If no discount is given, the article is sold at Marked Price.\n\n⇒ New Selling Price (SPₙₑw) = MP = ₹1260\n\n⇒ CP = 1260 × [100 ÷ (100 + 40)]\n\n⇒ CP = 1260 × (100 ÷ 140) = 1260 × (5 ÷ 7)\n\n⇒ CP = 180 × 5 = ₹900\n\n**∴ The correct answer is ₹900.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRelation between CP and MP\n\nThe direct ratio between Cost Price and Marked Price is given by the formula: CP ÷ MP = (100 − Discount%) ÷ (100 + Profit%).\n\nMarked Price (MP)\n\nIt is the labelled or printed price of an article. Discounts are always calculated on the Marked Price, while Profit or Loss is strictly calculated on the Cost Price.\n\nZero Discount Scenario\n\nWhen a seller gives no discount, the item is sold completely at its Marked Price. In this practical scenario, Selling Price (SP) = Marked Price (MP).\n\n41:T7cf,\n<p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8b6e92a77f95a7ffcda44ef20c292b35a50ee1358a347e8d285bb2e07cb1bfa0.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "65d99fcf4288036d62d381bc",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the smallest square number which is divisible by 4, 6 and 32?",
+      "options": [
+        {
+          "label": "1",
+          "text": "100"
+        },
+        {
+          "label": "2",
+          "text": "196"
+        },
+        {
+          "label": "3",
+          "text": "96"
+        },
+        {
+          "label": "4",
+          "text": "576"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nLCM of 4, 6, and 32 = 96.\n\nPrime factorization: 96 = 2⁵ × 3¹.\n\nTo make it a perfect square, exponents must be even.\n\nMultiply 96 by (2¹ × 3¹) = 6.\n\nSmallest square number = 96 × 6 = 576.\n\n**∴ The correct answer is 576.**\n\n**__Alternate Method__**\n\nGiven numbers: 4, 6, 32\n\nMethod: Find the LCM and multiply it by factors required to complete prime factor pairs.\n\n⇒ Prime factors of 4 = 2 × 2 = 2²\n\n⇒ Prime factors of 6 = 2 × 3 = 2¹ × 3¹\n\n⇒ Prime factors of 32 = 2 × 2 × 2 × 2 × 2 = 2⁵\n\n⇒ LCM(4, 6, 32) = 2⁵ × 3¹ = 32 × 3 = 96\n\n⇒ For a number to be a perfect square, all its prime factors must have even exponents.\n\n⇒ Prime factors of 96 = 2⁵ × 3¹\n\n⇒ To make exponents even, we need one more 2 and one more 3: (2⁵ × 2¹) × (3¹ × 3¹)\n\n⇒ Required square number = 2⁶ × 3² = 64 × 9 = 576\n\n**∴ The correct answer is 576.**\n\n**__Additional Information__**\n\nLCM (Least Common Multiple)\n\nThe smallest number that is a multiple of two or more numbers. It is found by taking the highest power of each prime factor present in the numbers.\n\nPerfect Square Property\n\nA number is a perfect square if the power of every prime factor in its prime factorization is an even integer (e.g., n = pa × qb where a and b are even).\n\nPrime Factorization Method\n\nBreaking down a composite number into a product of prime numbers to identify its fundamental building blocks.</p",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "65428f98b7d3408fefa1b866",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "From the top of a tower, the angle of depression of the top of a 10 m high building is 60°. If the distance between the tower and the building is 50√3 m, find the height of the tower.",
+      "options": [
+        {
+          "label": "1",
+          "text": "150 m"
+        },
+        {
+          "label": "2",
+          "text": "100 m"
+        },
+        {
+          "label": "3",
+          "text": "160 m"
+        },
+        {
+          "label": "4",
+          "text": "140 m"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAngle of depression (θ) = 60° and horizontal distance (d) = 50√3 m.\n\nHeight difference between tower and building = d × tan(θ).\n\nHeight difference = 50√3 × √3 = 50 × 3 = 150 m.\n\nTotal tower height = Building height + Height difference = 10 + 150 = 160 m.\n\n**∴ The correct answer is 160 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nHeight of building (h) = 10 m\n\nDistance between tower and building (d) = 50√3 m\n\nAngle of depression = 60°\n\n**Formula Used:**\n\ntan θ = Perpendicular / Base\n\n [IMAGE: https://cdn.repeatermock.com/tb/91039c0be91a0eff684d79ee427e05f0b23057165790db6765574b4d91a8d928.png] \n\n**Calculations:**\n\n⇒ Let the height of the tower be H.\n\n⇒ Let x be the height of the tower above the building level.\n\n⇒ The angle of depression of the top of the building from the tower top is 60°.\n\n⇒ This is equivalent to the angle of elevation of the tower top from the building top.\n\n⇒ In the right-angled triangle formed above the building level:\n\n⇒ tan 60° = x / 50√3\n\n⇒ √3 = x / 50√3\n\n⇒ x = 50√3 × √3\n\n⇒ x = 50 × 3 = 150 m\n\n⇒ Total height of tower (H) = x + height of building\n\n⇒ H = 150 + 10 = 160 m\n\n**∴ The correct answer is 160 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAngle of Depression and Elevation\n\nThe angle of depression from point A to point B is numerically equal to the angle of elevation from point B to point A because they are alternate interior angles.\n\nCommon Trigonometric Ratios\n\nFor height and distance problems: tan 30° = 1/√3, tan 45° = 1, and tan 60° = √3.\n\nStandard Height Formula\n\nIf two objects are separated by distance d, the height difference is given by h = d × tan(θ), where θ is the angle of elevation/depression between their tops.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/91039c0be91a0eff684d79ee427e05f0b23057165790db6765574b4d91a8d928.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    }
+  ]
+}

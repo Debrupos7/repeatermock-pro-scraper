@@ -1,0 +1,391 @@
+{
+  "test_id": "6a0f3cd86f9594e2cd05be91",
+  "title": "CT 38: Boat and River",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:11:05.626630+00:00",
+  "questions": [
+    {
+      "qid": "62970f09aedf0c66a2a3a94c",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A boat can move at a speed of 5 km/h in still water. The sailor reaches a place by sailing at a speed of 6 km/h downstream and comes back in 1 hour. The place is at a distance of:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2.5 km"
+        },
+        {
+          "label": "2",
+          "text": "2.0 km"
+        },
+        {
+          "label": "3",
+          "text": "3.2 km"
+        },
+        {
+          "label": "4",
+          "text": "2.4 km"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nSpeed of 5 km/h in still water.\n\nReaches a place at a speed of 6 km/h downstream and comes back in 1 hour.\n\n**Formula used:**\n\nDownstream speed = still water speed + stream speed\n\nUpstream speed = still water speed - stream speed\n\n**Calculations:**\n\nBoat's downstream speed = 5 + stream speed = 6 kmph\n\nstream speed = 1 kmph\n\nBoat's upstream speed = 5 - 1 = 4 kmph\n\nLet the distance be x.\n\nBy the problem,\n\ndfrac{x}{6} + dfrac{x}{4} = 1\n\n⇒ dfrac{2x + 3x}{12} = 1\n\n⇒ 5x = 12\n\n⇒ x = dfrac{12}{5}\n\n⇒ x = 2.4 km\n\n**∴ The answer is 2.4 km.**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "62668ef168206962b26dfd82",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A motorboat goes 33 km upstream and 21 km downstream. The speed of the motorboat in still water is 25 km/h and the speed of the stream is 3 km h. Find the total time taken by the boat.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 h 15 min"
+        },
+        {
+          "label": "2",
+          "text": "2 h 45 min"
+        },
+        {
+          "label": "3",
+          "text": "2 h 10 min"
+        },
+        {
+          "label": "4",
+          "text": "2 h 30 min"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nDistance upstream = 33 km\n\nDistance downstream = 21 km\n\nSpeed of motorboat = 25 km/h\n\nSpeed of stream = 3 km/h\n\n**Concept used:**\n\nLet the Speed of the motorboat = v\n\nAnd Speed of stream = u\n\nTime taken by boat upstream and downstream = t\n\nDistance covered by boat downstream = (v + u)t",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "62de80524b45a5c30878da5b",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The speed of a boat in still water is 6 kmph and the speed of the stream is 1.5 kmph. A man rows to a place at a distance of 22.5 km and comes back to the starting point. The total time taken by him is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 hours"
+        },
+        {
+          "label": "2",
+          "text": "4 hours"
+        },
+        {
+          "label": "3",
+          "text": "6 hours"
+        },
+        {
+          "label": "4",
+          "text": "8 hours"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nSpeed of boat in still water = 6 kmph\n\nSpeed of stream = 1.5 kmph\n\nTotal distance = 22.5 km\n\n**Concept Used:**\n\nIf speed in still water is u km/hr and speed in stream is v km/hr, then\n\nUpstream speed = (u – v) kmph\n\nDownstream speed = (u + v) kmph\n\n**Calculation:**\n\nUpstream speed of the boat = 6 – 1.\n5 = 4.5 kmph\n\nDownstream speed of the boat = 6 + 1.5 = 7.5 kmph\n\nTotal time taken by the man = (22.5)/(4.5) + (22.5)/(7.5) = 5 + 3 = 8 hours\n\n**∴ The total time taken by a man to row a boat is 8 hours.**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "62066ec304d4dfd37d7489b7",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A boat can go 10 km upstream and 11 km downstream in a total time of 52 minutes, If the speed of the stream is 5 km/h, then what is the speed (in km/h) of the boat when going downstream?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30"
+        },
+        {
+          "label": "2",
+          "text": "20"
+        },
+        {
+          "label": "3",
+          "text": "35"
+        },
+        {
+          "label": "4",
+          "text": "25"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nTotal time taken by boat = 52 minutes\n\nDistance travelled upstream = 10 km\n\nDistance traveled downstream = 11 km\n\nSpeed of the stream = 5 km/h\n\n**Concept used:**\n\nTime = Distance/speed\n\nUpstream speed = u - v\n\nDownstream speed = u + v\n\n(a² - b²) = (a + b)(a - b)\n\nHere, u = speed of the object\n\nv = speed of the stream\n\n**Calculation:**\n\nLet the speed of the boat be x km/h\n\nAccording to the question,\n\n(10)/(x-5)+(11)/(x+5)=(52)/(60)\n\n⇒ (10)/(x-5)+(11)/(x+5)=(13)/(15)\n\n⇒ (10x+50+11x-55)/((x-5)(x+5))=(13)/(15)\n\n⇒ (21x-5)/((x²-25))=(13)/(15)\n\n⇒ 315x - 75 = 13x² - 325\n\n⇒ 13x2 - 325 + 75 - 315x = 0\n\n⇒ 13x2 - 315x - 250 = 0\n\n⇒ 13x2 - 325x + 10x - 250 = 0\n\n⇒ 13x(x - 25) + 10(x - 25) = 0\n\n⇒ (x - 25)(13x + 10) = 0\n\nSo, x = 25 or - (10/13)\n\nAs speed cannot be negative so x = 25\n\nSpeed of the boat = 25 km/h\n\nSo, downstream speed = 25 + 5 = 30 km/h\n\n**∴ The speed (in km/h) of the boat when going downstream is 30.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] **__Shortcut Trick__**\n\nTime taken to go upstream = 10/(u - v)\n\nTime taken to go downstream = 11/(u + v)\n\n⇒ 10/(u - v) + 11/(u + v) = 52/60\n\n⇒ 10/(u - 5) + 11/(u + 5) = 52/60\n\nPut the value of \"u\" from the option i.e.\n\nPut u = 25 and equate the values\n\n⇒ 10/20 + 11/30 = 52/60\n\n⇒ (30 + 22)/60 = 52/60\n\n⇒ 52/60 = 52/60\n\nHence the speed of the boat is 25 km/hr\n\nDownstream speed = 25 + 5 = 30 km/hr\n\n [IMAGE: https://cdn.repeatermock.com/tb/e085a7f17645c801966c030eb44d69fae944b96fdb4c4077f5fba1bc2c24bc71.png] **__Mistake Points__**Downstream speed⇒ speed of the boat+speed of water\n\nUpstream Speed ⇒ speed of the boat- speed of water",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e085a7f17645c801966c030eb44d69fae944b96fdb4c4077f5fba1bc2c24bc71.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "629de8725ec1e66ca8424226",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A boat covers a distance of 2 km upstream and 4 km downstream in 120 minutes. It covers a distance of 4 km upstream and 6 km downstream in 210 minutes. What is the speed of the boat in still water?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nD(U) = 2km\n\nD(D) = 4km\n\nT = 120 minutes = 2 hours\n\nD(U) = 4 km\n\nD(D) = 6 km\n\nT = 210 minutes = 3.5 hours\n\n**Formula used:**\n\nU = B - S\n\nD = B + S\n\nSpeed = D/T\n\nD = Distance, T = Time, U = Upstream, D = Downstream\n\nB = Boat's speed, S = Stream's speed\n\n**Solution:**\n\n⇒ 2/(B - S) + 4/(B + S) = 2\n\nLet's take m = (B - S) and n = (B + S)\n\n1/m + 2/n = 1 -----eq (1)\n\n1/m = (n - 2)/n\n\nm = n/(n - 2)\n\n⇒ 4/m + 6/n = 3.5 -------eq(2)\n\n4n - 8 + 6 = 3.5n\n\n⇒ 0.5n = 2\n\nn = 4\n\nm = 4/2 = 2\n\nNow, to find B and S,\n\nB - S = 2\n\nB + S = 4\n\n2B = 6 ; B = 3\n\nB = Speed of Boat in still water = 3 km/h\n\n**Hence, the correct option is 4.**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6367ee0b464e56a1b83eb683",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A boat takes 20 hours to travel downstream from point P to point Q and to come back to a point R which is at midway between P and Q. If the velocity of the stream is 6 km/h and the speed of the boat in still water is 18 km/h, what is the distance between P and Q?",
+      "options": [
+        {
+          "label": "1",
+          "text": "280 km"
+        },
+        {
+          "label": "2",
+          "text": "240 km"
+        },
+        {
+          "label": "3",
+          "text": "320 km"
+        },
+        {
+          "label": "4",
+          "text": "180 km"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nSpeed of boat in still water (x) = 18 km/h\n\nSpeed of current(y) = 6 km/h\n\nTotal time = 20 h\n\nLet the distance between points P and Q = 2Z\n\nR is the midpoint between P & Q\n\nRP = RQ = frac {PQ}{2}= Z\n\n**Formula used:**\n\nTotal Time = Total Distance/Speed\n\nDownstream (D)= ( x + y ) = 18 + 6 = 24 km/h\n\nUpstream(U)= ( x - y ) = 18 - 6 = 12 km/h\n\n**Calculation:**\n\nT = frac {2Z}{D} + frac {Z}{U}\n\n20 = frac {2Z}{24} + frac {Z}{12}\n\nZ = 120 km \n\n∴ the distance between P and Q (2Z) = 2 × 120 = 240 km.\n\n**The answer is 240 km.**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "67d7fe1b20588cca9be0ea20",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The speed of a stream is 9 km/h. A boat can cover a distance of 56 km downstream and 28 km upstream in 7 hours. Find the speed of the boat in still water (in km/h).",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "9"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal time = Ddₒwₙ / (B + S) + Dᵤₚ / (B − S)\n\n⇒ 7 = 56 / (B + 9) + 28 / (B − 9)\n\n⇒ 1 = 8 / (B + 9) + 4 / (B − 9) (Dividing by 7 on both sides)\n\nChecking the options, for B = 15 km/h: 8 / 24 + 4 / 6 = 1/3 + 2/3 = 1 (Equation satisfied)\n\n**∴ The correct answer is 15 km/h.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSpeed of stream (S) = 9 km/h\n\nDistance downstream (Dd) = 56 km\n\nDistance upstream (Dᵤ) = 28 km\n\nTotal time (T) = 7 hours\n\n**Formula Used:**\n\nTime = Distance ÷ Speed\n\nTotal Time = Dd / (B + S) + Dᵤ / (B − S)\n\n \n \n• \n Downstream: 56 km\n \n\n Speed = B + 9\n Upstream: 28 km\n \n\n Speed = B − 9\n Total Time = 7 hours\n\n**Calculations:**\n\n⇒ 56 / (B + 9) + 28 / (B − 9) = 7\n\n⇒ 8 / (B + 9) + 4 / (B − 9) = 1\n\n⇒ [8(B − 9) + 4(B + 9)] / [(B + 9)(B − 9)] = 1\n\n⇒ 8B − 72 + 4B + 36 = B² − 81\n\n⇒ 12B − 36 = B² − 81\n\n⇒ B² − 12B − 45 = 0\n\n⇒ B² − 15B + 3B − 45 = 0\n\n⇒ B(B − 15) + 3(B − 15) = 0\n\n⇒ (B − 15)(B + 3) = 0\n\n⇒ B = 15 or B = −3\n\n⇒ Since speed cannot be negative, B = 15 km/h.\n\n**∴ The correct answer is 15 km/h.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nDownstream and Upstream Speeds\n\nIf the speed of a boat in still water is B and the speed of the stream is S, then downstream speed = B + S and upstream speed = B − S.\n\nFinding Speed from Downstream & Upstream\n\nSpeed of boat in still water (B) = (Downstream Speed + Upstream Speed) ÷ 2 | Speed of stream (S) = (Downstream Speed − Upstream Speed) ÷ 2.\n\nAverage Speed\n\nWhen a boat travels equal distances downstream and upstream, its average speed for the entire journey is given by (Downstream Speed × Upstream Speed) ÷ Speed of boat in still water.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6710ccb4f402bf38511a0200",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A boat can go 54 km upstream in 6 hours. If the speed of the stream is 4.8 km/h, then how much time (in hours) will the boat take to cover a distance of 279 km downstream?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUpstream speed (U) = 54 ÷ 6 = 9 km/h.\n\nDownstream speed (D) = U + 2 × Stream speed = 9 + 2 × 4.8 = 18.6 km/h.\n\nTime downstream = Distance ÷ D = 279 ÷ 18.6 = 15 hours.\n\n**∴ The correct answer is 15 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDistance upstream = 54 km\n\nTime upstream = 6 hours\n\nSpeed of the stream (S) = 4.8 km/h\n\nDistance downstream = 279 km\n\n**Formula Used:**\n\nUpstream speed (U) = Boat speed (B) − Stream speed (S)\n\nDownstream speed (D) = Boat speed (B) + Stream speed (S)\n\nTime = Distance ÷ Speed\n\n [IMAGE: https://cdn.repeatermock.com/tb/fab3347d781c23af0b60cb9a2e8794d8240cf8a3d7329dd05be3f84342876313.png] \n\n**Calculations:**\n\n⇒ Upstream speed (U) = 54 ÷ 6 = 9 km/h\n\n⇒ U = B − S\n\n⇒ 9 = B − 4.8\n\n⇒ B = 9 + 4.8 = 13.8 km/h\n\n⇒ Downstream speed (D) = B + S = 13.8 + 4.8 = 18.6 km/h\n\n⇒ Time downstream = Distance ÷ Downstream speed\n\n⇒ Time downstream = 279 ÷ 18.6 = 15 hours\n\n**∴ The correct answer is 15 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nUpstream and Downstream Speeds\n\nWhen a boat travels against the flow of the river, it moves upstream (U = B − S). When it travels with the flow, it moves downstream (D = B + S).\n\nSpeed of Boat and Stream\n\nIf upstream speed (U) and downstream speed (D) are given: Speed of boat in still water (B) = (D + U) ÷ 2. Speed of stream (S) = (D − U) ÷ 2.\n\nDistance, Speed and Time\n\nThe fundamental relation is Distance = Speed × Time. For river problems, always determine the effective speed (downstream or upstream) first.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fab3347d781c23af0b60cb9a2e8794d8240cf8a3d7329dd05be3f84342876313.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "62484950211754949f9c1023",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A motorboat, travelling at the same speed, can cover 25 km upstream and 39 km downstream in 8 hrs. At the same speed, it can travel 35 km upstream and 52 km downstream in 11 hrs. The speed of the stream is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "9 km/h"
+        },
+        {
+          "label": "2",
+          "text": "7 km/h"
+        },
+        {
+          "label": "3",
+          "text": "5 km/h"
+        },
+        {
+          "label": "4",
+          "text": "4 km/h"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nThe time is taken by the motorboat to cover 25 km upstream and 39 km downstream in 8 hrs.\n\nAt the same speed, it can travel 35 km upstream and 52 km downstream in 11 hrs. \n\n**Formula used:**\n\nLet 'u' and 'v' are the speed of boat and speed of stream respectively.\n\nThe upstream speed = u - v\n\nThe downstream speed = u + v\n\nCalculation:\n\nThe time is taken by the motorboat to cover 25 km upstream and 39 km downstream = 8 hours\n\nMathematically, it can be written as:\n\nRightarrow (25)/(u-v) + (39)/(u+v) = 8 ----(1)\n\nThe time is taken by the motorboat to cover 25 km upstream and 39 km downstream = 11 hours\n\nRightarrow (35)/(u-v) + (52)/(u+v) = 11 ----(2)\n\nDivide the equation (1) by 3 and equation (2) by 4 and then subtract equation (2) from (1),\n\nRightarrow (100)/(u-v)-(105)/(u-v) = 1 \\ Rightarrow (5)/(u-v) = 1\n\nRightarrow {u-v} = 5 ----(3)\n\nSubstitute the equation (3) in equation (1).\n\nRightarrow (25)/(5) + (39)/(u+v) = 8 \\ Rightarrow 5 + (39)/(u+v) = 8 \\ Rightarrow (39)/(u+v) = 3 h\n\nRightarrow u+v=13 ----(4)\n\nNow, subtract equation (3) from (4) we get,\n\nRightarrow 2v = 8 \\ Rightarrow v = 4\n\n**∴ The speed of stream is 4 kmph.**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "637e90dc9cc240c8ea068a0c",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The speed of a steamer in still water is 8 km/h, while the river is flowing with a speed of 4 km/h and the time taken to cover a certain distance upstream is 2h more than the time taken to cover the same distance downstream. Find the distance.",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 km"
+        },
+        {
+          "label": "2",
+          "text": "6 km"
+        },
+        {
+          "label": "3",
+          "text": "8 km"
+        },
+        {
+          "label": "4",
+          "text": "9 km"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nThe speed of a steamer in still water is 8 km/h\n\nthe river is flowing at a speed of 4 km/h.\n\nThe time taken to cover a certain distance upstream is 2h more than the time taken to cover the same distance downstream.\n\n**Concept used:**</p&g",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    }
+  ]
+}

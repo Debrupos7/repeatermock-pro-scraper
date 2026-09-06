@@ -1,0 +1,405 @@
+{
+  "test_id": "6a0f3cf6c3d3b52796dbf43b",
+  "title": "CT 56: Mensuration - Rhombus and Trapezium",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:20:37.858970+00:00",
+  "questions": [
+    {
+      "qid": "6264463f6241b4fa21c3cfdd",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the altitude of a trapezium, the sum of the lengths of whose parallel sides is 9.5 cm and the area is 57 cm²?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5.8 cm"
+        },
+        {
+          "label": "2",
+          "text": "12 cm"
+        },
+        {
+          "label": "3",
+          "text": "7.5 cm"
+        },
+        {
+          "label": "4",
+          "text": "6 cm"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nThe sum of the lengths of trapezium parallel sides is 9.5 cm.\n\nThe area of the trapezium is 57 cm\n2.\n\n**Formula used:**\n\nArea of Trapezium = 1/2 × sum of lengths of parallel sides × Altitude\n\n**Calculation:**\n\nArea of Trapezium = 1/2 × sum of lengths of parallel sides × Altitude\n\n⇒ 57 = 1/2 × 9.5 × altitude \n\n⇒ Altitude = 57 × 2/9.5\n\n⇒ 12 cm\n\n**∴ The Required answer is 12 cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "62b32f70c586ecf9f3b69de6",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The area of a trapezium is 140 cm² and the perpendicular distance between its parallel sides is 7 cm. If the length of one of the parallel sides is 28 cm, what is the length of the other parallel side?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 cm"
+        },
+        {
+          "label": "2",
+          "text": "10 cm"
+        },
+        {
+          "label": "3",
+          "text": "16 cm"
+        },
+        {
+          "label": "4",
+          "text": "14 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nSum of parallel sides = (2 × Area) ÷ Height\n\n⇒ Sum = (2 × 140) ÷ 7 = 280 ÷ 7 = 40 cm\n\nOther parallel side = Sum − Given side\n\n⇒ Other side = 40 − 28 = 12 cm\n\n**∴ The correct answer is 12 cm.**\n\n**__Alternate Method__**\n\n**Given:**\n\nArea of trapezium = 140 cm²\n\nPerpendicular distance (h) = 7 cm\n\nOne parallel side (a) = 28 cm\n\n**Formula Used:**\n\nArea of Trapezium = (1/2) × (a + b) × h\n\nWhere 'a' and 'b' are the lengths of the parallel sides and 'h' is the height.\n\n \n\n \n• \n h = 7 cm\n a = 28 cm\n b = ?\n Area = 140 cm²\n\n**Calculation:**\n\n⇒ 140 = (1/2) × (28 + b) × 7\n\n⇒ 140 × 2 = (28 + b) × 7\n\n⇒ 280 = (28 + b) × 7\n\n⇒ 280 ÷ 7 = 28 + b\n\n⇒ 40 = 28 + b\n\n⇒ b = 40 − 28\n\n⇒ b = 12 cm\n\n**∴ The correct answer is 12 cm.**\n\n**__Additional Information__**\n\nPerimeter of a Trapezium\n\nThe perimeter is the sum of all its four sides. Perimeter = a + b + c + d, where a and b are parallel sides and c and d are non-parallel sides.\n\nMedian of a Trapezium\n\nThe median (or mid-segment) connects the midpoints of the non-parallel sides. Its length is the average of the parallel sides: Median = (a + b) ÷ 2.\n\nIsosceles Trapezium\n\nIn an isosceles trapezium, the non-parallel sides are equal in length, and the base angles are equal. The diagonals of an isosceles trapezium are also equal.</p",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "66a4bb0f5ae00b7fec687d25",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the area of a quadrilateral ABCD, (shown below) in which sides AB and BC are equal, sides AD and CD are of lengths 5 cm and 13 cm. respectively, and side AD is perpendicular to the diagonal AC?\n\n [IMAGE: https://cdn.repeatermock.com/tb/341ff3136d6a5f0d3fc721017510a34bd749618a711406b724cd7edd31f5c064.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "75 cm2"
+        },
+        {
+          "label": "2",
+          "text": "80 cm2"
+        },
+        {
+          "label": "3",
+          "text": "78 cm2"
+        },
+        {
+          "label": "4",
+          "text": "82 cm2"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nAB = BC = 10 cm\n\nAD = 5 cm, CD = 13 cm\n\n**Calculation:**\n\nIn Δ ADC\n\nAC = √{CD² - AD²} = √{13² - 5²} = √144 = 12 cm\n\nSo,\n\nArea of Δ ADC = 1/2 × AD × AC = 1/2 × 5 × 12 = 30 cm²",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/341ff3136d6a5f0d3fc721017510a34bd749618a711406b724cd7edd31f5c064.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "637bbf336002049b36087993",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The parallel sides of a trapezium are 20 cm and 10cm and its non-parallel sides are equal to each other. If its area is 180cm², then what is the length (in cm) of each non-parallel side?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11"
+        },
+        {
+          "label": "2",
+          "text": "13"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nHeight of trapezium = (2 × Area) ÷ Sum of parallel sides = (2 × 180) ÷ (20 + 10) = 12 cm.\n\nBase of the right-angled triangle formed at the ends = (20 − 10) ÷ 2 = 5 cm.\n\nLength of each non-parallel side = √(12² + 5²) = √(144 + 25) = √169 = 13 cm.\n\n**∴ The correct answer is 13 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nParallel sides of the trapezium are 20 cm and 10 cm.\n\nArea of the isosceles trapezium = 180 cm².\n\n**Formula Used:**\n\nArea of Trapezium = 1/2 × (Sum of parallel sides) × Height\n\nPythagoras Theorem: Hypotenuse² = Base² + Perpendicular²\n\n [IMAGE: https://cdn.repeatermock.com/tb/d4e4a71f0642676412bd6d0f0c293bd1a28315e8d77aaf2fcc2457de5b0b5a82.png] \n\n**Calculations:**\n\n⇒ Area = 1/2 × (AB + CD) × Height\n\n⇒ 180 = 1/2 × (10 + 20) × h\n\n⇒ 180 = 1/2 × 30 × h\n\n⇒ 180 = 15 × h\n\n⇒ h = 12 cm\n\nSo, the height of the trapezium (AM = BN) is 12 cm.\n\nIn isosceles trapezium ABCD, dropping perpendiculars AM and BN to CD constructs a rectangle ABMN.\n\n⇒ MN = AB = 10 cm\n\nSince it is an isosceles trapezium, the remaining base segments are equal:\n\n⇒ DM = NC = (CD − MN) ÷ 2\n\n⇒ DM = (20 − 10) ÷ 2 = 5 cm\n\nNow, applying Pythagoras theorem in right-angled ΔAMD:\n\n⇒ AD² = AM² + DM²\n\n⇒ AD² = 12² + 5²\n\n⇒ AD = √(144 + 25)\n\n⇒ AD = √169 = 13 cm\n\n**∴ The correct answer is 13 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nIsosceles Trapezium Properties\n\nIn an isosceles trapezium, the non-parallel sides are equal in length, the base angles are equal, and the lengths of the diagonals are identical.\n\nArea of a Trapezium\n\nThe area is calculated as Area = 1/2 × (a + b) × h, where 'a' and 'b' are the lengths of the parallel sides and 'h' is the perpendicular distance (height) between them.\n\nMedian of a Trapezium\n\nThe median is the line segment joining the midpoints of the non-parallel sides. Its length is the average of the parallel sides: m = (a + b) ÷ 2, and Area = m × h.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d4e4a71f0642676412bd6d0f0c293bd1a28315e8d77aaf2fcc2457de5b0b5a82.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "625665ab60aaee352954b642",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "ABCD is a trapezium in which AB is parallel to DC. Let E and F be the midpoints on AD and BC respectively. If EF = 10 cm and AB - DC = 4 cm, then what is the value of AB × DC?",
+      "options": [
+        {
+          "label": "1",
+          "text": "84 square cm"
+        },
+        {
+          "label": "2",
+          "text": "96 square cm"
+        },
+        {
+          "label": "3",
+          "text": "100 square cm"
+        },
+        {
+          "label": "4",
+          "text": "108 square cm"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given:\n\nAB || EF || DC\n\nEF = 10cm\n\nAB - DC = 4cm\n\n**Formula Used:**\n\nLength of midsegment = (1)/(2)(Sum of parallel sides)\n\n**Calculation:**\n\nWe have\n\nAB - DC = 4cm ------(1)\n\n<img alt=\"In the given below, E is the mid - point of the side AD of the trapezium ABCD with AB parallel to DC . A line through E drawn to AB intersects\" src=\"https://cdn.repea",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "63661c5b4d9fff8856f74250",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The parallel sides of an isosceles trapezium are 20 cm and 34 cm. If the one of the non - parallel sides has length 25 cm, what is the area (in cm²) of the trapezium?",
+      "options": [
+        {
+          "label": "1",
+          "text": "729 cm²"
+        },
+        {
+          "label": "2",
+          "text": "675 cm2"
+        },
+        {
+          "label": "3",
+          "text": "648 cm2"
+        },
+        {
+          "label": "4",
+          "text": "596 cm2"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nParallel sides of isosceles trapezium = 20 cm and 34 cm\n\nNon-parallel side length = 25 cm\n\n [IMAGE: https://cdn.repeatermock.com/tb/36569ff882fd2f2a52da6c3056195e93390ce5e825eb2588f3791af0b77f193c.png] \n\n**Concept Used:**\n\nArea of Trapezium = 1/2 (a + b) × h, \n\nwhere a & b are the lengths of parallel sides, \n\nH is the perpendicular\n\n**Calculation:**\n\nDrawing perpendicular lines from opposite vertices on the opposite side, \n\n [IMAGE: https://cdn.repeatermock.com/tb/7d55ca68d3d0e8797e048674ba31c0865e899b37d4e3facc4ad9db94ac56fbf2.png] \n\nIn Δ BQC, applying Pythagoras' theorem, \n\n⇒ BC² = BQ² + QC²\n\n⇒ 25² = BQ2 + 72\n\n⇒ BQ2 = 625 - 49 = 576\n\n⇒ BQ = √576 = 24\n\nUsing the formula, \n\n⇒ 1/2 (20 + 34) × 24\n\n⇒ 54 × 12 \n\n⇒ 648\n\n**∴ The area of the Trapezium is 648cm² **",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36569ff882fd2f2a52da6c3056195e93390ce5e825eb2588f3791af0b77f193c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7d55ca68d3d0e8797e048674ba31c0865e899b37d4e3facc4ad9db94ac56fbf2.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "635cab81d36a9ed2bc995286",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The lengths of the parallel sides of a trapezium are 51 cm and 21 cm, and that of each of the other two sides is 39 cm. What is the area (in cm²) of the trapezium?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1260"
+        },
+        {
+          "label": "2",
+          "text": "1296"
+        },
+        {
+          "label": "3",
+          "text": "1152"
+        },
+        {
+          "label": "4",
+          "text": "1206"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/9390979a3b9e8bce57755ac15b122b251f40a9c9fa42984bdfdda404f6c646c6.png] \n\nFrom the above diagram, we apply the Pythagoras theorem in Δ ABC\n\nthen (AC)² = (39)² - (15)²\n\n→ (AC)² = 1521 - 225\n\n→ (AC)2 = 1296\n\n→ AC = 36\n\nthen Area of trapezium = (1)/(2) × (sum of sides) × (Distance between them)\n\n= (1)/(2) × (21 + 51) × (36)\n\n= (1)/(2) × 72 × 36\n\n= 36 × 36",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9390979a3b9e8bce57755ac15b122b251f40a9c9fa42984bdfdda404f6c646c6.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "599d83fce07ce03fe5c5aee6",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A rhombus with perimeter 28 m has an area of 42 m². Find the altitude of the rhombus .",
+      "options": [
+        {
+          "label": "1",
+          "text": "9 m"
+        },
+        {
+          "label": "2",
+          "text": "8 m"
+        },
+        {
+          "label": "3",
+          "text": "7 m"
+        },
+        {
+          "label": "4",
+          "text": "6 m"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nPerimeter of the rhombus = 28 meters\n\nArea of the rhombus = 42 m²\n\n**Formula Used:**\n\nPerimeter of a rhombus = 4 × side\n\nArea of a rhombus = side × height\n\n**Calculation:**\n\nSide of rhombus = perimeter/4 = 28/4 = 7 m\n\nAlso, height of the rhombus = Area/Side\n\n⇒ 42 = 7 × height\n\n⇒ height = 42/7 = 6 m",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6075c8582bbbd62d8cfe36a2",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The perimeter of a rhombus is 100 cm. If one of the diagonals measures 14 cm, then the area of the rhombus is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "48 cm²"
+        },
+        {
+          "label": "2",
+          "text": "96 cm²"
+        },
+        {
+          "label": "3",
+          "text": "336 cm²"
+        },
+        {
+          "label": "4",
+          "text": "672 cm²"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSide (s) = Perimeter ÷ 4 = 100 ÷ 4 = 25 cm.\n\nOne half-diagonal (d₁/2) = 14 ÷ 2 = 7 cm.\n\nThe other half-diagonal (d₂/2) = √(25² − 7²) = √(625 − 49) = 24 cm.\n\nArea of Rhombus = 2 × (d₁/2) × (d₂/2) = 2 × 7 × 24 = 336 cm².\n\n**∴ The correct answer is 336 cm².**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] __Alternate Method__",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "61404b4834ad1a1e92dba7f9",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Length of each side of a rhombus is 13 cm and one of the diagonal is 24 cm. What is the area (in cm²) of the rhombus ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60"
+        },
+        {
+          "label": "2",
+          "text": "120"
+        },
+        {
+          "label": "3",
+          "text": "300"
+        },
+        {
+          "label": "4",
+          "text": "240"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nSide (a) of rhombus = 13 cm \n\nLength of one diagonal (p) = 24 cm \n\n**Formulas used:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c40a2583982e82793b6f4d54fa4579c3b407f4fab62b47e815bb4d7068220eba.png] \n\na = (p² + q² )¹/²÷ 2\n\nArea of",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c40a2583982e82793b6f4d54fa4579c3b407f4fab62b47e815bb4d7068220eba.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    }
+  ]
+}

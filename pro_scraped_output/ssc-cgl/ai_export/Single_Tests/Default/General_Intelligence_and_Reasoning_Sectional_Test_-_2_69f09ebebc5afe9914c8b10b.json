@@ -1,0 +1,1074 @@
+{
+  "test_id": "69f09ebebc5afe9914c8b10b",
+  "title": "General Intelligence and Reasoning Sectional Test - 2",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:19:28.835559+00:00",
+  "questions": [
+    {
+      "qid": "5eb2c420f60d5d2384e46474",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "**Directions: **Study the following information carefully answer the given questions.\n\nA + B means A is the daughter of B.\n\nA & B means A is the son of B.\n\nA % B means A is the husband of B.\n\nA @ B means A is the mother of B.\n\nWhich of the following expressions represents ‘F’ is the father in law of ‘I’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "F @ G % H @ I"
+        },
+        {
+          "label": "2",
+          "text": "G & H + I @ F"
+        },
+        {
+          "label": "3",
+          "text": "F % G @ H % I"
+        },
+        {
+          "label": "4",
+          "text": "I @ H % F + G"
+        }
+      ],
+      "correct": "3",
+      "solution": "Members: F, G, H, and I.\n\nLet us first decode the given symbols and then draw a family tree.\n\n \n \n\n \n \n**A is**\n\n \n \n \n\n \n \n**Symbol**\n\n \n \n \n+\n\n \n \n \n&\n\n \n \n \n%\n\n \n \n \n@\n\n \n \n \n\n \n \n**Meaning**\n\n \n \n \nDaughter\n\n \n \n \nSon\n\n \n \n \nhusband\n\n \n \n \nMother\n\n \n \n \n\n \n \n**of B**\n\n \n \n \n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/efea675b7571f8cdebeb5d56bb5bb13749d80307f004fb70e1edf43114f14f1b.png] \n\nLet us check each option\n\n1) F @ G % H @ I, means F is the mother of G, G is the husband of H and I is the daughter of G.\n\nThus, F will be the grandfather of I. Hence this option gets eliminated.\n\n [IMAGE: https://cdn.repeatermock.com/tb/5b6f8f45fce68cee6ad07953f0d55203dc3695c6cdd2df04dd3bcfa48c3f8cfd.png] \n\n2) G & H + I @ F, means I is the mother of F. Hence this option gets eliminated.\n\n [IMAGE: https://cdn.repeatermock.com/tb/285e5266c7ac4f449a469f0a8605d1b88f6f15150779f3dd25457ce3043598b0.png] \n\n3) F % G @ H % I, means F is the husband of G. G is the mother of H. H is the husband of I.\n\n [IMAGE: https://cdn.repeatermock.com/tb/64f856ebcfd1ca8862b837775cb09534552fff098b7fe04d9ac7f7b1b759bfa5.png] \n\nHence, F is the father in law of I.\n\n4) I @ H % F + G, means I is the mother of H. H is the husband of F. Thus, I will be the mother in law of F. Hence this option gets eliminated.\n\n [IMAGE: https://cdn.repeatermock.com/tb/fb8da71490fd537850650046ba7745099d9ef9dfcb9e10013d35cc8575a12c4a.png] \n\nHence, F % G @ H % I is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/efea675b7571f8cdebeb5d56bb5bb13749d80307f004fb70e1edf43114f14f1b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5b6f8f45fce68cee6ad07953f0d55203dc3695c6cdd2df04dd3bcfa48c3f8cfd.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/285e5266c7ac4f449a469f0a8605d1b88f6f15150779f3dd25457ce3043598b0.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/64f856ebcfd1ca8862b837775cb09534552fff098b7fe04d9ac7f7b1b759bfa5.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fb8da71490fd537850650046ba7745099d9ef9dfcb9e10013d35cc8575a12c4a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "5f62f9883e3c98e461b80384",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option in which the numbers share the same relationship as that shared by the pair of numbers.\n\n53 : 96",
+      "options": [
+        {
+          "label": "1",
+          "text": "36 : 49"
+        },
+        {
+          "label": "2",
+          "text": "21 : 73"
+        },
+        {
+          "label": "3",
+          "text": "31 : 84"
+        },
+        {
+          "label": "4",
+          "text": "44 : 66"
+        }
+      ],
+      "correct": "3",
+      "solution": "The pattern followed here is,\n\n**(Multiplication of digits of second number -1) : First number**\n\n \n\nThe given pair is:\n\n53 : 96\n\n9 × 6 = 54; 54 – 1 = 53\n\nBy checking options;\n\n1) 36 : 49 → 4 × 9 = 36; 36 – 1 = 35 ≠ 36;\n\n2) 21 : 73 → 7 × 3 = 21; 21 – 1 = 20 ≠ 21;\n\n3) 31 : 84 → 8 × 4 = 32; 32 – 1 = 31\n\n4) 44 : 66 → 6 × 6 = 36; 36 – 1 = 35 ≠ 44;\n\nHence, ‘31 : 84’ is the correct answer.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "5fd0e5e298485b90e578a86b",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Four letter-clusters have been given, out of which three are a like in some manner, while one is different. Select the odd letter-cluster",
+      "options": [
+        {
+          "label": "1",
+          "text": "HIKM"
+        },
+        {
+          "label": "2",
+          "text": "LNSU"
+        },
+        {
+          "label": "3",
+          "text": "FHGI"
+        },
+        {
+          "label": "4",
+          "text": "SUWY"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/8739eb2c416a3e6b471127e8423f67cd8a46d12ea238ae250620d34f5567a952.png] \n\nThe pattern followed is\n\n [IMAGE: https://cdn.repeatermock.com/tb/7d1079e8f3a3ce679d76d8152dde5c0dc1a95150dec35a1b3eeba2a71c3289da.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/6c3de50cc777054d13a6761fa5df6f7d1ebb5341325a1fac9a477ac0848a7fad.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/75319f8e323ae1098985d924aba7b9d21c5783b432ab4d63a44e2e229bef4225.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/e81403c3b1d0dc076cd10fd15b825bf39fd433d809f4e4ad01bf796e23b2dc4b.png] \n\nAll follow the same pattern, except \"HIKM\".\n\nHence, \"HIKM\" is the odd letter cluster.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/8739eb2c416a3e6b471127e8423f67cd8a46d12ea238ae250620d34f5567a952.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7d1079e8f3a3ce679d76d8152dde5c0dc1a95150dec35a1b3eeba2a71c3289da.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6c3de50cc777054d13a6761fa5df6f7d1ebb5341325a1fac9a477ac0848a7fad.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/75319f8e323ae1098985d924aba7b9d21c5783b432ab4d63a44e2e229bef4225.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e81403c3b1d0dc076cd10fd15b825bf39fd433d809f4e4ad01bf796e23b2dc4b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "60fedcbafbe328178290fa65",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Arrange the following words according to dictionary -\n\n1. Exploit\n\n2. Explosive\n\n3. Exponent\n\n4. Exposition\n\n5. Explore",
+      "options": [
+        {
+          "label": "1",
+          "text": "1, 3, 4, 5, 2"
+        },
+        {
+          "label": "2",
+          "text": "1, 5, 2, 3, 4"
+        },
+        {
+          "label": "3",
+          "text": "1, 5, 3, 2, 4"
+        },
+        {
+          "label": "4",
+          "text": "1, 2, 5, 3, 4"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://lh5.googleusercontent.com/twABWZnY3muDwCowDsdlV1r7ParN7RJnj4lamMERPi82cLaOIlHwEyY1mzmLa7HSp6goONyeYzjeo2AWQwuUIVQ5XQ4VFCeais8DIAaQ4nkyDdR9SM_l8KH3cLAtNcfe7-xlIwDX=s0] \n\n1. Explo**i**t as the letter I comes before R\n\n5. Explo**r**e as the letter R comes before S\n\n2. Exp**l**osive as the letter L comes before O\n\n3. Expo**n**ent as the letter N comes before S\n\n4. Expo**s**ition\n\n**Hence the correct answer will be '1,5,2,3,4'**",
+      "solution_images": [
+        {
+          "url": "https://lh5.googleusercontent.com/twABWZnY3muDwCowDsdlV1r7ParN7RJnj4lamMERPi82cLaOIlHwEyY1mzmLa7HSp6goONyeYzjeo2AWQwuUIVQ5XQ4VFCeais8DIAaQ4nkyDdR9SM_l8KH3cLAtNcfe7-xlIwDX=s0",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "61c9a0b2778bae8a674a908c",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Pointing towards Sumit, Anuj said, “He is my mother’s father’s son’s brother’s son”. If Vinita who is married to Kartik, is the mother of Anuj, then how is Vinita related to Sumit?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father's sister"
+        },
+        {
+          "label": "2",
+          "text": "Sister"
+        },
+        {
+          "label": "3",
+          "text": "Mother"
+        },
+        {
+          "label": "4",
+          "text": "Mother's sister"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0fd6cab610f720d74911a910004a74b250f0cafb23fad64b63aa6509fbfac474.png] \n\nPointing towards Sumit, Anuj said, “He is my mother’s father’s son’s brother’s son”.\n\n [IMAGE: https://cdn.repeatermock.com/tb/5a4e15db810fe3efeff97e74afa2873812f31da3951a0684a94593b3a7d0a222.png] &",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0fd6cab610f720d74911a910004a74b250f0cafb23fad64b63aa6509fbfac474.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5a4e15db810fe3efeff97e74afa2873812f31da3951a0684a94593b3a7d0a222.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "61f92b12707090d16bbc8e8c",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\nSKH, PMG, MOF, JQE, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "GSD"
+        },
+        {
+          "label": "2",
+          "text": "SDF"
+        },
+        {
+          "label": "3",
+          "text": "GTD"
+        },
+        {
+          "label": "4",
+          "text": "HSD"
+        }
+      ],
+      "correct": "1",
+      "solution": "Table show alphabet serial number –\n\n [IMAGE: https://cdn.repeatermock.com/tb/286550159bb1b1af83b0ffca14b226c7cea8abbacc574e15aefc51c80aadcc47.png] \n\nThe pattern followed is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/bd11d708e279900e96b066567f74a8f2ff04a3a711ee467d5a87a5832d640cec.png] \n\nHence, “GSD” is the complete series.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/286550159bb1b1af83b0ffca14b226c7cea8abbacc574e15aefc51c80aadcc47.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd11d708e279900e96b066567f74a8f2ff04a3a711ee467d5a87a5832d640cec.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "62c4142c93ec3cebbc7cde3b",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The second number in the given number pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) are followed in all the number pairs, EXCEPT one. Find that odd number pair.",
+      "options": [
+        {
+          "label": "1",
+          "text": "93 - 310"
+        },
+        {
+          "label": "2",
+          "text": "54 - 180"
+        },
+        {
+          "label": "3",
+          "text": "48 - 165"
+        },
+        {
+          "label": "4",
+          "text": "33 - 110"
+        }
+      ],
+      "correct": "3",
+      "solution": "Here, we need to find the pattern and get the missing number.\n\nThe logic here is: **(1st number × 3) + (1st number ÷ 3) = 2nd number.**\n\n1) 93 times 3 + 31 = 310,\n\n2) 54 times 3 + 18 = 180\n\n3) 48 times 3 + 16 = 160 ne 165\n\n4) 33 times 3 + 11 = 110\n\nThus, the pattern is: Each 1st is multiplied by 3 and then 2nd term first two digits are added to the answer to get the final answer.\n\nHence, the correct option is **48 - 165**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] __Alternate Method__**Logic: (1st number ÷ 3) × 10 = 2nd number.\n\n1) (93 ÷ 3) × 10 → 31 × 10 = 310,\n\n2) (54 ÷ 3) × 10 → 18 × 10 = 180,\n\n3) (48 ÷ 3) × 10 → 16 × 10 = 160 ≠ 165\n\n4) (33 ÷ 3) × 10 → 11 × 10 = 110.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "62cae00424c40840d6fc2318",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If ‘A’ denotes ‘+’, ‘B’ denotes ‘×’, ‘C’ denotes ‘–’ and ‘D’ denotes ‘÷’, then what will come in place of ‘?’ in the following equation?\n\n21 A 34 C 6 B (72 D 9) A 13 B 1 + (56 D 4) = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "34"
+        },
+        {
+          "label": "2",
+          "text": "43"
+        },
+        {
+          "label": "3",
+          "text": "35"
+        },
+        {
+          "label": "4",
+          "text": "29"
+        }
+      ],
+      "correct": "1",
+      "solution": "**BODMAS Rule:**\n\nHere, we have a equation as\n\n21 A 34 C 6 B (72 D 9) A 13 B 1 + (56 D 4)\n\nLet us decode the given sign:\n\n \n \n\n **Alphabet**\n **Sign**\n \n \n\n A\n +\n \n \n\n B\n ×",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "62d6a611eec20bb6f33a4fdc",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The second number in the given number pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) are followed in all the number pairs except one. Find that odd number pair.",
+      "options": [
+        {
+          "label": "1",
+          "text": "9 : 125"
+        },
+        {
+          "label": "2",
+          "text": "11 : 49"
+        },
+        {
+          "label": "3",
+          "text": "13 : 343"
+        },
+        {
+          "label": "4",
+          "text": "7 : 64"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Here the given logic is:**\n\n9 ÷ 2 = 4.5 + .5 = 5 ⇒ 5³ = 125\n\n**11 ÷ 2 = 5.5 + .5 = 6 ⇒ 6³ = __216__**\n\n13 ÷ 2 = 6.5 + .5 = 7 ⇒ 7³ = 343\n\n7 ÷ 2 = 3.5 + .5 = 4 ⇒ 4³ = 64\n\nAs per the given logic, the **correct answer is option 2,** as **11 : 49 **do not follow the pattern that other options do.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "63a5f5cdf4a905f6aa2d077e",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which two signs and two numbers should be interchanged in the following equation to make it correct?\n\n98 − 9 × 21 ÷ 7 + 56 = 69",
+      "options": [
+        {
+          "label": "1",
+          "text": "56 and 9, + and ×"
+        },
+        {
+          "label": "2",
+          "text": "56 and 21, + and ×"
+        },
+        {
+          "label": "3",
+          "text": "98 and 9, + and ×"
+        },
+        {
+          "label": "4",
+          "text": "21 and 7, + and −"
+        }
+      ],
+      "correct": "1",
+      "solution": "We apply the options to the given equation & solve it by using BODMAS rule:\n\n [IMAGE: https://cdn.repeatermock.com/tb/b2f64c9f79d77b59f47195df405b394d1389881df31e18c68888ff4c37e1e42e.png] \n\nGiven Equation: 98 − 9 × 21 ÷ 7 + 56 = 69\n\nOption 1) 56 and 9, + and ×\n\nAfter Interchanging:\n\n⇒ 98 − 56 + __**21 ÷ 7**__ × 9 = 69\n\n⇒ 98 − 56 + __**3 × 9**__ = 69\n\n⇒ __**98**__ − 56 __**+ 27**__ = 69\n\n⇒ __**125 - 56**__ = 69\n\n⇒ **69 = 69**\n\nGiven Equation: 98 − 9 × 21 ÷ 7 + 56 = 69\n\nOption 2) 56 and 21, + and ×\n\nAfter Interchanging:\n\n⇒ 98 − 9 + __**56 ÷ 7**__ × 21 = 69\n\n⇒ 98 − 9 + __**8**____** ×**____** 21**__ = 69\n\n⇒ __**98**__ − 9 __**+ **__**__168__** = 69\n\n⇒ __**266 - 9**__ = 69\n\n⇒ 257 ≠ 69\n\nGiven Equation: 98 − 9 × 21 ÷ 7 + 56 = 69\n\nOption 3) 98 and 9, + and ×\n\nAfter Interchanging:\n\n⇒ 9 − 98 + __**21 ÷ 7**__ × 56 = 69\n\n⇒ 9 − 98 + __**3 × 56**__ = 69\n\n⇒ __**9**__ − 98 __**+ 168**__ = 69\n\n⇒ __**177 - 98 **__= 69\n\n⇒ 79 ≠ 69\n\nGiven Equation: 98 − 9 × 21 ÷ 7 + 56 = 69\n\nOption 4) 21 and 7, + and −\n\nAfter Interchanging:\n\n⇒ 98 − 9 + __**7 ÷ 21**__ × 56 = 69\n\n⇒ 98 − 9 + **__0.33__**__** × 56**__ = 69\n\n⇒ __**98**__ − 9 __**+ **__**__18.66__** = 69\n\n⇒ __**116.66 - 9**__ = 69\n\n⇒ 107.66 ≠ 69\n\nHence, the correct answer is **\"Option 1\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b2f64c9f79d77b59f47195df405b394d1389881df31e18c68888ff4c37e1e42e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "63bea464ab0bbd1056b4dd2d",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will come in place of question mark (?) in each of the following number series?\n\n30, 45, ?, 275, 810",
+      "options": [
+        {
+          "label": "1",
+          "text": "90"
+        },
+        {
+          "label": "2",
+          "text": "125"
+        },
+        {
+          "label": "3",
+          "text": "139"
+        },
+        {
+          "label": "4",
+          "text": "100"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic for the given series is mentioned below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/147aa5611c07d684162317d39b01c907cb07e2b6e9322d60de5e51b2cd10860d.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n⇒ 30 × 3 = 90 - 45 = 45\n\n⇒ 45 × 3 = 135 - 35 = __**100**__\n\n⇒ 100 × 3 = 300 - 25 = 275\n\n⇒ 275 × 3 = 825 - 15 = 810\n\nHence, the correct answer is **\"100\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/147aa5611c07d684162317d39b01c907cb07e2b6e9322d60de5e51b2cd10860d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "603bf6122363a5dfff579cb9",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the odd pair from the given alternatives.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Gujarat : Gujarati"
+        },
+        {
+          "label": "2",
+          "text": "Punjab : Punjabi"
+        },
+        {
+          "label": "3",
+          "text": "Karnataka : Tamil"
+        },
+        {
+          "label": "4",
+          "text": "Delhi : Hindi"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given pairs are **State : Language **combination.\n\nKannada is the language for Karnataka\n\nHence, \"Karnataka: Tamil\" is odd one.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "616e5f580d9c8577637222d7",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If DO is coded as 60 and SO is coded as 285, then which of the following will be the code for RED?",
+      "options": [
+        {
+          "label": "1",
+          "text": "27"
+        },
+        {
+          "label": "2",
+          "text": "299"
+        },
+        {
+          "label": "3",
+          "text": "94"
+        },
+        {
+          "label": "4",
+          "text": "360"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/c83a9b3f9d49fc4cf9c114c5bcbdc1a5d91d619f564cf91e88a3dcf504917f15.png] \n\nGiven: DO is coded as 60 and SO is coded as 285.\n\nThe logic followed here is:\n\nProduct of positional values as shown below,\n\n [IMAGE: https://cdn.repeatermock.com/tb/c5ca1fa6de9f7bab73e163887d3baed48fbc15d4a044eb9dfb16736945f37bf8.png] \n\nAnd, \n\n [IMAGE: https://cdn.repeatermock.com/tb/c773a534149767df1d7f28be70c976bac1cb0d5be89c834fa1b6d194089616a0.png] \n\nSimilarly, \n\n [IMAGE: https://cdn.repeatermock.com/tb/8f793da3ff895f908df751d5127bbd5d239aa1efc41ffb126cfddcd13adc17ab.png] \n\nHence, 360 is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c83a9b3f9d49fc4cf9c114c5bcbdc1a5d91d619f564cf91e88a3dcf504917f15.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c5ca1fa6de9f7bab73e163887d3baed48fbc15d4a044eb9dfb16736945f37bf8.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c773a534149767df1d7f28be70c976bac1cb0d5be89c834fa1b6d194089616a0.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8f793da3ff895f908df751d5127bbd5d239aa1efc41ffb126cfddcd13adc17ab.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "619c7d360c3607ce89f61d6d",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "‘Mary Kom’ is related to ‘Boxing’ in the same way as ‘PT Usha’ is related to‘ ______'",
+      "options": [
+        {
+          "label": "1",
+          "text": "Running"
+        },
+        {
+          "label": "2",
+          "text": "Shooting"
+        },
+        {
+          "label": "3",
+          "text": "Weighlifting"
+        },
+        {
+          "label": "4",
+          "text": "Wrestling"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\nMary Kom is an Indian Boxer, so Mary Kom is related to Boxing.\n\nSimilarly,\n\nPT Usha is an Indian Athlete, so PT Usha is related to Running.\n\nHence, \"option 1\" is the correct answer.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "623fcfaa5b2a7d314351434b",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a code language, 'VOLUME' is written as 'AUQARI'. In the same language 'DESIGN' will be written as?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ZXILPR"
+        },
+        {
+          "label": "2",
+          "text": "ZIXPLR"
+        },
+        {
+          "label": "3",
+          "text": "IIXOLS"
+        },
+        {
+          "label": "4",
+          "text": "IJYLOS"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is :-\n\n [IMAGE: https://cdn.repeatermock.com/tb/0c430e942b633648b8bf0b6f65539e6361b811d4cba25c184466100dd5f37243.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/0b2af2c94814de6a5a19c836246ed3b7ccdd8af1cb1ad84002d9aef82b3f40f4.png] \n\n \n• **Each consonants are increased by + 5.**\n \n• Vowels are changed to next vowel (A → E → I&",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0c430e942b633648b8bf0b6f65539e6361b811d4cba25c184466100dd5f37243.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0b2af2c94814de6a5a19c836246ed3b7ccdd8af1cb1ad84002d9aef82b3f40f4.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "649b01d2522dc1e9672f720c",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "From the given alternatives select the one in which the question figure is hidden/embedded.\n\n [IMAGE: https://cdn.repeatermock.com/tb/6c757a61eb604a5c10516458acdae8231080489a1b8e16a9b9d13b71f392fbc0.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/4df9493fa6e4054952cd3e638472c0eda0098d29d76964d8c7d93354952bf9d6.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/299addfd42eff5cbcf0d1b2eede8b375e37b74c6e6ab930069d58a0c14b18fdb.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/a6a51141305f5e436c5e9ec8000de7cd666354009b6ad49de56f6cb37238f270.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/94a35c9ee9890982d279250a1f830d49bfa6695158569e8a8d2788e91a3cd81a.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "The image embedded in given figure is as shown below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/6f11fc6a2cee91863ca79be6a2fe3505002cd9f607982a35b35dee254ca96fe5.png] \n\n**Hence, \"option 3\" is the correct answer.**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6c757a61eb604a5c10516458acdae8231080489a1b8e16a9b9d13b71f392fbc0.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6f11fc6a2cee91863ca79be6a2fe3505002cd9f607982a35b35dee254ca96fe5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "6249d8f9ce2ef2a8e3614979",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Six persons, P, Q, R, S, T and U, are sitting in a room. There are equal males and females. There is at least one married couple in the room. Q is P’s daughter. S is the father of two persons - one male and one female. P and T are daughters of U. Who is the married couple?",
+      "options": [
+        {
+          "label": "1",
+          "text": "P and S"
+        },
+        {
+          "label": "2",
+          "text": "U and S"
+        },
+        {
+          "label": "3",
+          "text": "U and Q"
+        },
+        {
+          "label": "4",
+          "text": "Q and T"
+        }
+      ],
+      "correct": "1",
+      "solution": "The symbols and meaning is of the family tree is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/9ec0bce5055f6385ac622a55bd4a32f6289e563fb2a4d8f5f48b51735a170634.png] \n\nAccording to the statements the family tree is:\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/ea151a0b0891273b354f4f99607a9b134a3518c8087e92c9b447f0ced28725d2.png] \n\n \n\nThus, the married couples are P and S.\n\nHence, the correct answer is '__**option 1**__'.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9ec0bce5055f6385ac622a55bd4a32f6289e563fb2a4d8f5f48b51735a170634.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ea151a0b0891273b354f4f99607a9b134a3518c8087e92c9b447f0ced28725d2.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "6291bf77484389814eedb775",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many such pairs of letters are there in the word NECTAR (both in the forward and backward directions) which have as many letters between them as there as there are in the English alphabetical order?",
+      "options": [
+        {
+          "label": "1",
+          "text": "One"
+        },
+        {
+          "label": "2",
+          "text": "Three"
+        },
+        {
+          "label": "3",
+          "text": "Two"
+        },
+        {
+          "label": "4",
+          "text": "Zero"
+        }
+      ],
+      "correct": "3",
+      "solution": "The Place value Table:\n\n [IMAGE: https://cdn.repeatermock.com/tb/259d8630a9ac11653540776fb8c878efe7c7e39d2fafd27847036c083bb6c14d.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/4a08a46cc816ca49271e8db5a0bad388bc18d3119fe7a8d074f98937ba11d03f.png] \n\nTwo pairs of word which have as many letters between them as there are in the English alphabetical order\n\nHence, **\"Two\" **is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/259d8630a9ac11653540776fb8c878efe7c7e39d2fafd27847036c083bb6c14d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4a08a46cc816ca49271e8db5a0bad388bc18d3119fe7a8d074f98937ba11d03f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "6347f5c204fc74637435b053",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Situation Reaction Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "You are supposed to go by bus to your friend's wedding, but on reaching the bus stand you find that the only bus you wanted to catch is about to start and there is hardly any time to buy the ticket. The best thing for you is to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rush to the bus and start arguing with the conductor to get a seat"
+        },
+        {
+          "label": "2",
+          "text": "Rush to the bus rather, and inform the conductor about your inability to purchase the ticket"
+        },
+        {
+          "label": "3",
+          "text": "Miss the bus rather than take the risk of boarding the moving bus"
+        },
+        {
+          "label": "4",
+          "text": "Cancel the plan"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is \"option(2)\".\n\n \n \n\n Statement\n Correctness \n Reasoning\n \n \n\n Rush to the bus and start arguing with the conductor to get a seat\n Incorrect\n The bus started as per its time. You lack awareness of bus timings.\n \n \n\n Rush to the bus rather, and inform the conductor about your inability to purchase the ticket\n Correct\n It shows your decision-making skills with an active mindset.\n \n \n\n Miss the bus rather than take the risk of boarding the moving bus\n Incorrect\n It shows that you lack determination.\n \n \n\n Cancel the plan\n Incorrect\n It shows that you are having a carefree attitude. \n \n \n\n \n\n__\n \n• Qualities projected in this situation: (Self Confidence, Initiative, Determination, and Stamina)\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **Key Points__**Checklist for attempting SRT Questions:\n\n1. Read the question and options carefully\n\n2. Look for an option that is optimistic, realistic, and reflects officer-like qualities.\n\n3. Do not skip any questions.\n\n4. Relegate the negative sentences and choose the most logical option among the remaining. As time is an important factor, your thinking ability should be swift.\n\n5. Read quickly and be logical.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/3fafae440b155161f4dc1999a7d430b13ab4fc6b403057ecc10655b932b65db0.png]",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3fafae440b155161f4dc1999a7d430b13ab4fc6b403057ecc10655b932b65db0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Situation Reaction Test"
+      ]
+    },
+    {
+      "qid": "60793baa2067eacc5b9afc91",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following number sequence:\n\n4 5 3 6 9 1 7 2 5 8 1 5 3 8 4 3 2 1 6 6 4 1\n\nIf all the odd numbers are eliminated from the sequence, which number is 4th to the left of the 9th number from extreme left end?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\nOdd numbers are not divisible by 2.\n\nGiven number sequence without odd numbers:\n\nLeft end 4 6 2 8 **8** 4 2 6 **6** 4 Right end\n\n9th number from extreme left end = 6\n\n4th to the left of 6 = 8\n\nHence, “8” is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "61517bcfc41cc3e3f6fd1976",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\nABC, EFG, IJK, OPQ, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "TUV"
+        },
+        {
+          "label": "2",
+          "text": "XYZ"
+        },
+        {
+          "label": "3",
+          "text": "UVW"
+        },
+        {
+          "label": "4",
+          "text": "RST"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/fa91151ae5918d90136f7cfd22689760788db352c6c8793aa2d1ff018125803a.png] \n\nGiven: ABC, EFG, IJK, OPQ, ?\n\nThe logic follows here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/1f0b139d6b787d8ae23249151f31a16f4acd9852f7d5405098e9b49ffcf0149d.png] \n\nHence, **UVW **is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/fa91151ae5918d90136f7cfd22689760788db352c6c8793aa2d1ff018125803a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1f0b139d6b787d8ae23249151f31a16f4acd9852f7d5405098e9b49ffcf0149d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "602562c990497aaf09d995dd",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, PLENTY is written as NRPGAV, MORE is written as QOGT,. How is MANY written in that code?",
+      "options": [
+        {
+          "label": "1",
+          "text": "CAPO"
+        },
+        {
+          "label": "2",
+          "text": "KOMP"
+        },
+        {
+          "label": "3",
+          "text": "KPOM"
+        },
+        {
+          "label": "4",
+          "text": "COAP"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/b06c01734f8aa4c011a0a36a57e3bea6aebf56189f0aedd590f9d0d65a852ad3.png] \n\nThe pattern followed is:\n\nFor PLENTY,\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/2199c61b4b5cda2dec3e9e1b80f90a24f25f27ca5375a10c561603f38ecbff45.png\" style=\"width:",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b06c01734f8aa4c011a0a36a57e3bea6aebf56189f0aedd590f9d0d65a852ad3.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2199c61b4b5cda2dec3e9e1b80f90a24f25f27ca5375a10c561603f38ecbff45.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "6177875e58f3ccf44b4651ca",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the word that is related to the third word in the same way as the second word is related to the first word.\n\nZoology : Animal :: Onomatology : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Small insects"
+        },
+        {
+          "label": "2",
+          "text": "Fruits"
+        },
+        {
+          "label": "3",
+          "text": "Names"
+        },
+        {
+          "label": "4",
+          "text": "Eggs"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed is:\n\n**Logic: **The name of various branches of science should be checked.\n\nFor, **\"****Zoology: Animal\".**\n\nThe study of animals is called Zoology.\n\nFor, **\"Onomatology\"**\n\nThe study of the formation of names or terms is called Onomatology.\n\nAs onomatology is related to names.\n\nSo, **Onomatology: Names **is the correct answer.\n\nHence, the correct answer is **\"Option 3\".\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] __Additional Information__**\n\n \n• Study of small insects: Entomology.\n \n• Study of fruits: Pomology.\n \n• Study of Eggs: Oology.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "6273735c8a3c5ee3e355676e",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the correct option that indicates the arrangement of the given words in the order in which they appear in an English dictionary\n\n1. Petitionary\n\n2. Petitioning\n\n3. Petition\n\n4. Petitioners\n\n5. Petitioned",
+      "options": [
+        {
+          "label": "1",
+          "text": "3, 1, 4, 5, 2"
+        },
+        {
+          "label": "2",
+          "text": "3, 1, 5, 4, 2"
+        },
+        {
+          "label": "3",
+          "text": "4, 1, 2, 3, 5"
+        },
+        {
+          "label": "4",
+          "text": "1, 2, 3, 4, 5"
+        }
+      ],
+      "correct": "2",
+      "solution": "According to the sequence in the dictionary:\n\nThe correct order of the given words is:\n\n3. **Petitio__n__**\n\n1. **Petitio__na__**__ry__\n\n5. **Petitio__ned__**\n\n4. **Petitio__ner__**__s__\n\n2. **Petitio__ni__**__ng__\n\nHence, the correct answer is \"**3, 1, 5, 4, 2**\".",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "61555051125b9dbc0f33935d",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many triangles are there in the following figure?\n\n [IMAGE: https://cdn.repeatermock.com/tb/fd97542e324123bc5db658614b7fbd2ba11ba5ee1108e53bdfb4a387ed0e77a9.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "22"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "correct": "4",
+      "solution": "The number of triangles:\n\n [IMAGE: https://cdn.repeatermock.com/tb/5ea366e3663decc5797e01393f94ce9025614af4c2f7efd401a4d69d06892b62.png] \n\nThus, total triangles in the given figure = 20.\n\nHence, the correct answer is **\"20\".**\n\n [IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] **__Shortcut Trick__**\n\nThe pattern followed here is:\n\nGiven Figure:\n\n [IMAGE: https://cdn.repeatermock.com/tb/fd97542e324123bc5db658614b7fbd2ba11ba5ee1108e53bdfb4a387ed0e77a9.png] \n\nNow,\n\n**Counting the figure separately:**\n\n**1. Counting the numbers of triangles.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/85af3791192076dc37544e5952b99e1439c8a2fb6f9c67dacd9634bacb4999d4.png] \n\nThe above figure has 8 triangles. Total triangles = 4 × 2 = 8\n\n2. Counting the numbers of triangles. \n\n [IMAGE: https://cdn.repeatermock.com/tb/27b0b960f5f82d5062a2bed495d807d729075eb31057776795b28dde018a07ad.png] \n\nThe above figure has 6 triangles. Total triangles = 3 + 3 = 6.\n\nNow,\n\n [IMAGE: https://cdn.repeatermock.com/tb/f0572042f11c592bf6a627e5feae395320bd93537b2e8ac7a0e994460decb3e5.png] \n\nTotal triangles = 1 + 1 + 1 + 1 + 1 + 1 = 6\n\nThus, total triangles in the given figure = 8 + 6 + 6 = 20.\n\nHence, the correct answer is** \"20\".**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/fd97542e324123bc5db658614b7fbd2ba11ba5ee1108e53bdfb4a387ed0e77a9.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/5ea366e3663decc5797e01393f94ce9025614af4c2f7efd401a4d69d06892b62.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fd97542e324123bc5db658614b7fbd2ba11ba5ee1108e53bdfb4a387ed0e77a9.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/85af3791192076dc37544e5952b99e1439c8a2fb6f9c67dacd9634bacb4999d4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/27b0b960f5f82d5062a2bed495d807d729075eb31057776795b28dde018a07ad.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f0572042f11c592bf6a627e5feae395320bd93537b2e8ac7a0e994460decb3e5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    }
+  ]
+}

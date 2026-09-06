@@ -1,0 +1,475 @@
+{
+  "test_id": "6a0f3cf0cda5e733b2fab0bf",
+  "title": "CT 50: Geometry - Cyclic Quadrilateral",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:19:14.673404+00:00",
+  "questions": [
+    {
+      "qid": "639d7fc5e34600d98471fbfc",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given figure, ABCD is a cyclic quadrilateral whose side AB is a diameter of the circle through A, B, C and D. If ∠ADC = 130°, then find ∠CAB.\n\n [IMAGE: https://cdn.repeatermock.com/tb/04bfd78e02bb8af9d9808a804ad96e48e71f7a8748e6419e736656fd52b9ff96.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "30°"
+        },
+        {
+          "label": "2",
+          "text": "130°"
+        },
+        {
+          "label": "3",
+          "text": "50°"
+        },
+        {
+          "label": "4",
+          "text": "40°"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given :\n\nIn a cylic quadrilateral ABCD.\n\n∠ADC = 130°\n\nConcepts Used :\n\n• The sum of the opposite angles of a cyclic quadrilateral is supplementary i.e. 180º.\n\n• The angle at the circumference in a semicircle is always 90°\n\nSolution :\n\n [IMAGE: https://cdn.repeatermock.com/tb/04bfd78e02bb8af9d9808a804ad96e48e71f7a8748e6419e736656fd52b9ff96.png] \n\nWe know that :\n\n∠ADC + ∠ABC = 180º\n\n∴ ∠ABC = 180º - 130°\n\n⇒ ∠ABC = 50°\n\nWe also know that :\n\n• ∠ACB = 90º\n\nNow in ΔABC :\n\nSum of all interior angles of a triangle = 180º\n\n∠ABC + ∠ACB + ∠CAB = 180º\n\n∠CAB + 50º + 90º = 180º\n\n∠CAB = 180º - 50º - 90º\n\n∠CAB = 40º\n\nHence the correct answer is \"40º\".",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/04bfd78e02bb8af9d9808a804ad96e48e71f7a8748e6419e736656fd52b9ff96.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/04bfd78e02bb8af9d9808a804ad96e48e71f7a8748e6419e736656fd52b9ff96.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6294abf9d617380c8e856207",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A cyclic-quadrilateral ABCD is inscribed in a circle with AB as diameter and centre at O. The side BC and AD are extended to meet at the point P. If an equilateral triangle is drawn inside the cyclic quadrilateral with the base as CD and vertex opposite to the base is at point O, then find the ∠APB.",
+      "options": [
+        {
+          "label": "1",
+          "text": "30∘"
+        },
+        {
+          "label": "2",
+          "text": "90∘"
+        },
+        {
+          "label": "3",
+          "text": "10∘"
+        },
+        {
+          "label": "4",
+          "text": "60∘"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nA cyclic-quadrilateral ABCD is inscribed in a circle with AB as diameter and centre at O. \n\nThe side BC and AD are extended to meet at point P.\n\nAn equilateral triangle is drawn inside the cyclic quadrilateral with the base as CD and the vertex opposite to the base is at point O.\n\n**Concept used:**\n\nThe angle subtended by an arc at the centre is twice that of the angle subtended by it at any point on the remaining part of the circumference of the circle.\n\n [IMAGE: https://cdn.repeatermock.com/tb/1ddca1b11f85e52a12b4c6328d8a2b6606f55539bd0b825f75348379815352cf.png] \n\nThe value of each angle in the case of an equilateral angle triangle is 60∘.\n\nThe angle subtended by the diameter of the circle at any point on the circumference is 90∘.\n\n [IMAGE: https://cdn.repeatermock.com/tb/b698726c1961247a72137e36f03d1162d4e3f1c132d6f6c63ca2325f8bb1ec8c.png] \n\n**Calculation:**\n\nAccording to the question, the required figure is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/2a4ea01292923c3bc578e74e453c8b091743680b3851386e46de1b97d296bc08.png] \n\nNow, Join points B and D.\n\n [IMAGE: https://cdn.repeatermock.com/tb/a19d92c83dcddc31426afb2adbfce5246a762451722317f1645cedd8b3f85a21.png] \n\nThe angle subtended by the diameter of the circle at any point on the circumference is 90∘.\n\nTherefore, \n\n∠ADB + ∠BDP = 180∘\n\n⇒ 90∘ + ∠BDP = 180∘\n\n⇒ ∠BDP = 90∘\n\nThe angle subtended by an arc at the centre is twice that of the angle subtended by it at any point on the remaining part of the circumference of the circle.\n\nTherefore,\n\n⇒ ∠DOC = 2 × ∠DBC\n\n⇒ 60∘ = 2 × ∠DBC\n\n⇒ ∠DBC = ∠DBP = 30∘\n\nNow, \n\nIn ΔBDP,\n\n∠BDP + ∠DBP + ∠BPD = 180∘\n\n⇒ 90∘ + 30∘ + ∠BPD = 180∘\n\n⇒ 120∘ + ∠BPD = 180∘\n\n⇒ ∠BPD = 60∘\n\n**∴ The value of the required angle is 60∘.**\n\n39:T1d8f,",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1ddca1b11f85e52a12b4c6328d8a2b6606f55539bd0b825f75348379815352cf.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b698726c1961247a72137e36f03d1162d4e3f1c132d6f6c63ca2325f8bb1ec8c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2a4ea01292923c3bc578e74e453c8b091743680b3851386e46de1b97d296bc08.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a19d92c83dcddc31426afb2adbfce5246a762451722317f1645cedd8b3f85a21.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "631f617d203c8336ba250888",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "IJKL is a cyclic quadrilateral. IJ is extended up to M and N on both sides. if the value of ∠KJM is 72° and ∠LIN = 78°, then find the value of ∠ILK + ∠JKL.",
+      "options": [
+        {
+          "label": "1",
+          "text": "120°"
+        },
+        {
+          "label": "2",
+          "text": "150°"
+        },
+        {
+          "label": "3",
+          "text": "160°"
+        },
+        {
+          "label": "4",
+          "text": "75°"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n** ** [IMAGE: https://cdn.repeatermock.com/tb/f048952efc0977d3dce30e309e004a5139d187aa986179383c4920aa7f945f38.png] \n\nIJKL is a cyclic quadrilateral\n\n IJ is extended up to M and N on both sides\n\n∠KJM = 72° , ∠LIN = 78°\n\n**Concept used:**\n\nSum of the opposite angles of a cyclic quadrilateral is 180°\n\n**Calculation:**\n\nAs per the question,\n\n∠LIN = 78°, \n\nso, ∠LIJ = 180° - 78°\n\n⇒ 102°\n\nSo, ∠JKL = 180 - 102°\n\n⇒ 78°\n\nAgain,\n\n∠KJM = 72°,\n\nSo, ∠KJI = 180° - 72°\n\n⇒ 108°\n\nNow,\n\n∠ILK = 180° - 108°\n\n⇒ 72°\n\nSo,\n\n∠ILK + ∠JKL = 78°+ 72°\n\n⇒ 150°\n\n**∴ The sum of ∠ILK and ∠JKL is 150°**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f048952efc0977d3dce30e309e004a5139d187aa986179383c4920aa7f945f38.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "62dc0c3724b0e418ee086c1b",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a cyclic quadrilateral ABCD, ∠DCB = 60°, the side length BC = 10 cm, CD = 30 cm and AD = 20 cm. DB is diagonal to the quadrilateral ABCD. If the area of triangle DAB is 60% of the area of the triangle DCB, then find the length of AB. (in cm)",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "9"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n∠DCB = 60°\n\nBC = 10 cm\n\nCD = 30 cm\n\nAD = 20 cm\n\n**Concept used:**\n\nArea of a triangle = 1/2 × sinθ × side₁ × side₂\n\n [IMAGE: https://cdn.repeatermock.com/tb/94e7340f2c47ba07e5da1d19152ecc63db883ae073c2e23fdca611ca147b7b52.png] &",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/94e7340f2c47ba07e5da1d19152ecc63db883ae073c2e23fdca611ca147b7b52.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "62a84be3c0ac459c51c463a0",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A quadrilateral ABCD is inscribed in a circle such that the ∠ACD = 35∘ and base AB is diameter to the circle. Find ∠DAB.",
+      "options": [
+        {
+          "label": "1",
+          "text": "55∘"
+        },
+        {
+          "label": "2",
+          "text": "15∘"
+        },
+        {
+          "label": "3",
+          "text": "45∘"
+        },
+        {
+          "label": "4",
+          "text": "90∘"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nA quadrilateral ABCD is inscribed in a circle such that the ∠ACD = 35∘.\n\n**Concept used:**\n\n(1) The angle subtended by the diameter of the circle at any point on the circumference is 90∘.\n\n [IMAGE: https://cdn.repeatermock.com/tb/b698726c1961247a72137e36f03d1162d4e3f1c132d6f6c63ca2325f8bb1ec8c.png] \n\n(2) The sum of the opposite angle to a quadrilateral is 180∘\n\n**Calculation:**\n\nAccording to the question, the required image is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/066439f51e5a12a8f6514500f57de0549230100cc1aa512cef45168b1066a700.png] \n\nSince the angle subtended by the diameter of the circle at any point on the circumference is 90∘,\n\nTherefore, \n\n⇒ ∠ACB = 90∘\n\nNow, \n\n⇒ ∠ DCB = ∠ACD + ∠ACB \n\n⇒ ∠ DCB = 35∘ + 90∘\n\n⇒ ∠ DCB = 125∘\n\nSince the sum of the opposite angle to a quadrilateral is 180∘,\n\nTherefore, \n\n⇒ ∠DAB + ∠DCB = 180∘\n\n⇒ ∠DAB + 125∘ = 180∘\n\n⇒ ∠DAB = 55∘\n\nThe required image:\n\n [IMAGE: https://cdn.repeatermock.com/tb/04a125817de100913b49d87cfbff802582758c0557969c21f3c1101a1ce85f3e.png] \n\n**∴ The required answer is 55∘.**\n\n3f:T1548,\n\n<str",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b698726c1961247a72137e36f03d1162d4e3f1c132d6f6c63ca2325f8bb1ec8c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/066439f51e5a12a8f6514500f57de0549230100cc1aa512cef45168b1066a700.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/04a125817de100913b49d87cfbff802582758c0557969c21f3c1101a1ce85f3e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6315bffff0c16614960533d8",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "ABCD is a cyclic quadrilateral. AB and DC when produced, meet in E. Which of the following statements is/are correct?\n\n1. ΔEBC is similar to ΔEAD.\n\n2. ∠CBE + ∠DAE = 180°.\n\nSelect the correct answer using the code given below :",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only 1"
+        },
+        {
+          "label": "2",
+          "text": "Only 2"
+        },
+        {
+          "label": "3",
+          "text": "Both 1 and 2"
+        },
+        {
+          "label": "4",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Concept:**\n\n**Similar Triangle: **\n\n \n• Both have the same shape but sizes may be different\n \n• Each pair of corresponding angles are equal.\n \n• The ratio of corresponding sides is the same.\n\n \n\n**Cyclic Quadrilateral: **A cyclic quadrilateral has opposite angles that sum 180 degrees, the total sum of the angles equals 360 degrees.\n\n**Calculation:**\n\n**Statement I: **ΔEBC is similar to ΔEAD.**\n [IMAGE: https://cdn.repeatermock.com/tb/5b070725f099a19e01bd2d4c94136f80c7fd6f667fdab9fc1c1a8437f7789b8d.png] \n\nIn △EBC and △EAD, \n\n⇒ ∠E = ∠E [common]\n\nFrom the figure\n\n ∠EBC = α, ∠EAD = θ \n\nSo, ∠EBC ≠ ∠EAD \n\nWe know that Each pair of corresponding angles of a similar triangle should\n\nbe equal.\n\nTherefore,\n\nBut △EBC ~ △EAD is not correct \n\nStatement II: **\n\n⇒ ∠CBE + ∠DAE = α + θ \n\nWe know that \n\nα + θ = 180° will be possible if ABCD is square. In this case, line AB & CD\n\nwill not intersect at E.\n\nα + θ ≠ 180°\n\nHence, Statement II is incorrect.\n\n**∴ Both statement I & II are incorrect.**\n\n61:Te5",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/5b070725f099a19e01bd2d4c94136f80c7fd6f667fdab9fc1c1a8437f7789b8d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "63a16046440adebb776c4ea7",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a cyclic quadrilateral PQRS, if PQ ∥ RS and ∠P = 85° then ∠Q =",
+      "options": [
+        {
+          "label": "1",
+          "text": "85°"
+        },
+        {
+          "label": "2",
+          "text": "95°"
+        },
+        {
+          "label": "3",
+          "text": "105°"
+        },
+        {
+          "label": "4",
+          "text": "75°"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nPQ ∥ RS\n\n∠P = 85°\n\n**Concept used:**\n\nThe sum of the interior angles on the same side of a transversal line is always 180 degrees.\n\nThe sum of opposite angles in a cyclic quadrilateral is 180°.\n\n**Calculation:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/da7a3bc4dc64e8c133eb88213c7b76f973e8121c1e06ec8c64c0695666f1bf53.png] \n\nIn a cyclic quadrilateral PQRS.\n\n∠P = 85°\n\nThe sum of opposite angles in a cyclic quadrilateral is 180°.\n\n∠P + ∠R = 180° \n\n⇒ ∠R = 180° - ∠P\n\n⇒ ∠R = 180° - 85°\n\n⇒ ∠R = 95°\n\nNow, ∠Q = 180° - ∠R\n\n⇒ ∠Q = 180° - 95° \n\n⇒ ∠Q = 85° \n\n**∴ The correct answer is 85°.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/da7a3bc4dc64e8c133eb88213c7b76f973e8121c1e06ec8c64c0695666f1bf53.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6280f22598881ca637aba17a",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given figure ABCD and ABEF are two cyclic quadrilaterals. If ∠BCD = 110° then find ∠BEF.\n\n [IMAGE: https://cdn.repeatermock.com/tb/12563358f3b57fb3a54e0782caeabcc9f069e834ac4bd5535c5c5d46c50ff86f.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "55°"
+        },
+        {
+          "label": "2",
+          "text": "70°"
+        },
+        {
+          "label": "3",
+          "text": "90°"
+        },
+        {
+          "label": "4",
+          "text": "110°"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n∠BCD = 110°\n\n**Concept used:**\n\nThe sum of a pair of opposite angles is 180°(supplementary).\n\nLet ∠A, ∠B, ∠C, and ∠D be the four angles of an inscribed quadrilateral then\n\n∠A + ∠C = 180° and ∠B + ∠D = 180°\n\n**Calculation:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/15898b0b9b47a7cea793c34e84ca4d44ce3ce87d1d17249a2fe0e1765664e9d0.png] \n\nIn the 1st circle, ABCD is a <span styl",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/12563358f3b57fb3a54e0782caeabcc9f069e834ac4bd5535c5c5d46c50ff86f.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/15898b0b9b47a7cea793c34e84ca4d44ce3ce87d1d17249a2fe0e1765664e9d0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "62bf08cf65f073c9726387a9",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The sides AB and DC of a cyclic quadrilateral ABCD are produced to meet at E and the sides AD and BC are produced to meet at F. If ∠AFB = 52° and ∠FBE = 102°, then what is the measure of ∠BEC?",
+      "options": [
+        {
+          "label": "1",
+          "text": "26°"
+        },
+        {
+          "label": "2",
+          "text": "38°"
+        },
+        {
+          "label": "3",
+          "text": "28°"
+        },
+        {
+          "label": "4",
+          "text": "36°"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe sides AB and DC of a cyclic quadrilateral ABCD are produced to meet at E and the sides AD and BC are produced to meet at F.\n\n∠AFB = 52° and ∠FBE = 102°,\n\n**Concept used:**\n\nIn the case of a cyclic quadrilateral, the value of the interior angle is equal to the opposite exterior angle.\n\nThe sum of all internal angles of a triangle is 180∘.\n\n**Calculation:**\n\nAccording to the question, the required figure is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/dd8b19095c4f7ae8ad7f444442a99c4180e816053f562b072bc3b472552a10d3.png] \n\nThe value of the interior angle is equal to the opposite exterior angle.\n\n⇒ ∠ ADC = ∠ CBE = 102∘\n\nThe value of a straight angle is 180∘.\n\n∠ ADC + ∠ CDF = 180∘\n\n⇒ 102∘ + ∠ CDF = 180∘ \n\n⇒ ∠ CDF = 78∘ \n\nIn ΔCDF,\n\n∠ CDF + ∠ FCD + ∠ DFC = 180∘ \n\n⇒ 78∘ + ∠ FCD + 52∘ = 180∘ \n\n⇒ ∠ FCD + 130∘ = 180∘ \n\n⇒ ∠ FCD = 50∘ \n\nAs we know, vertically opposite angle are equal.\n\nSo,\n\n∠ BCE = ∠ FCD = 50∘ \n\nIn Δ BEC,\n\n∠ BEC + ∠ BCE + ∠ EBC = 180∘\n\n⇒ ∠ BEC + 50∘ + 102∘ = 180∘\n\n⇒ ∠ BEC + 152∘ = 180∘\n\n⇒ ∠ BEC = 28∘\n\n∴** The value of the required angle is 28∘. **\n\n55:T1810,\n\nदिया गया है",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/dd8b19095c4f7ae8ad7f444442a99c4180e816053f562b072bc3b472552a10d3.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "62af08f147e88863f5d64a27",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given figure, AB is the diameter of the circle of length 97 cm. If AC = 65 cm, CD = 56 cm and ∠D = 90∘, then find the area of quadrilateral ABCD.(AD and DC are not the tangents to the circle.)\n\n [IMAGE: https://cdn.repeatermock.com/tb/41949b18712097404cbc3a9e43f02fa5ca1996094f7a00899a2ac4f08004c099.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "6464 cm²"
+        },
+        {
+          "label": "2",
+          "text": "3284 cm²"
+        },
+        {
+          "label": "3",
+          "text": "3264 cm²"
+        },
+        {
+          "label": "4",
+          "text": "6431 cm²"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe diameter of the circle AB = 97 cm\n\nAC = 65 cm, CD = 56 cm and ∠D = 90∘.\n\n**Concept used:**\n\n(1) The angle subtended by the diameter of the circle at any point on the circumference is 90∘.\n\n [IMAGE: https://cdn.repeatermock.com/tb/b698726c1961247a72137e36f03d1162d4e3f1c132d6f6c63ca2325f8bb1ec8c.png] \n\n(2) Pythagoras theorem:\n\nH2 = L2 + B2\n\n(3) Area of a right-angle triangle.\n\nA = (1)/(2) × L × B\n\nWhere,\n\n [IMAGE: https://cdn.repeatermock.com/tb/154d625d85a13754ec2b6884f2c64df48c4f71ff07c901736ecc7607286e7988.png] \n\nH, is the hypotenuse\n\nL, is the perpendicular\n\nB, is the base\n\n**Calculation:**\n\nAccording to the question, the required figure is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/41949b18712097404cbc3a9e43f02fa5ca1996094f7a00899a2ac4f08004c099.png] \n\nSince ΔADC is a right-angle triangle at D.\n\nTherefore, apply the Pythagoras theorem on ΔADC.\n\n⇒ AC² = AD² + CD²\n\n⇒ 652 = AD2 + 562\n\n⇒ 4225 = AD2 + 3136\n\n⇒ AD2 = 1089\n\n⇒ AD = 33 cm\n\nThe area of ΔADC = (1)/(2) × 56 × 33 = 924 cm²\n\nAs we know, the angle subtended by the diameter of the circle at any point on the circumference is 90∘.\n\nTherefore, \n\n∠ACB = 90∘ \n\nIn ΔABC right-angle at C.\n\nApply the Pythagoras theorem on ΔABC.\n\n⇒ AB² = AC² + BC²\n\n⇒ 972 = 652 + BC2\n\n⇒ 9409 = 4225 + BC2\n\n⇒ BC2 = 5184\n\n⇒ BC = 72 cm\n\nThe area of ΔABC = (1)/(2) × 72 × 65 = 2340 cm2\n\nThe total area of quadrilateral ABCD = Area of ΔABC + Area of ADC\n\nThe total area of quadrilateral ABCD = 924 cm2+ 2340 cm2 = 3264 cm²\n\n**∴ The required answer is 3264 cm2**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**Some important formulas \n\n(1) The two angles opposite to the side of equal length are congruent.\n\n [IMAGE: https://cdn.repeatermock.com/tb/7cb4ec4c958e0cd74f85f1d24685ddb4d24352e9f39950a190179bdb9b5adf7b.png] \n\nIf AB = AC, then ∠ABC = ∠ACB\n\n(2) The sum of all internal angles for a triangle is 180∘.\n\n [IMAGE: https://cdn.repeatermock.com/tb/40380d2eb56cc04505f9f5079761b6e840575cf1c00149e71689aae7ff3894e6.png] \n\nMost frequently asked theorem in Exams.\n\n(1) Alternate segment theorem:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a9c45add3d41fdb38abde2670911e0994e1931f0042ffea7ff30b9dc59f94fb1.png] \n\nAs per the above figure, the angle (θ) between a tangent and a chord is equal to the angle (θ) in the alternate segment.\n\n(2) The sum of opposite angles in a cyclic quadrilateral = 180∘\n\n [IMAGE: https://cdn.repeatermock.com/tb/371be6a7e5eb186fe28a2a62173cb6d65bb54738ecaa8f304f9ceca32d4c4fe8.png] \n\n4a:T2fc7,",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/41949b18712097404cbc3a9e43f02fa5ca1996094f7a00899a2ac4f08004c099.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b698726c1961247a72137e36f03d1162d4e3f1c132d6f6c63ca2325f8bb1ec8c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/154d625d85a13754ec2b6884f2c64df48c4f71ff07c901736ecc7607286e7988.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/41949b18712097404cbc3a9e43f02fa5ca1996094f7a00899a2ac4f08004c099.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7cb4ec4c958e0cd74f85f1d24685ddb4d24352e9f39950a190179bdb9b5adf7b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/40380d2eb56cc04505f9f5079761b6e840575cf1c00149e71689aae7ff3894e6.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a9c45add3d41fdb38abde2670911e0994e1931f0042ffea7ff30b9dc59f94fb1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/371be6a7e5eb186fe28a2a62173cb6d65bb54738ecaa8f304f9ceca32d4c4fe8.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    }
+  ]
+}

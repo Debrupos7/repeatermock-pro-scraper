@@ -1,0 +1,367 @@
+{
+  "test_id": "6a0f3cce33a6a35112cecbec",
+  "title": "CT 33: Average - 02",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:10:16.559524+00:00",
+  "questions": [
+    {
+      "qid": "622ca3fb9f69e97002272b14",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average weight of 40 students of a class is 60 kg. When 10 new students join the class, the average weight becomes 64 kg. If the average weight of 5 of the new students is 72 kg, then what is the average weight (in kg) of the remaining 5 new students?",
+      "options": [
+        {
+          "label": "1",
+          "text": "85.5"
+        },
+        {
+          "label": "2",
+          "text": "86.5"
+        },
+        {
+          "label": "3",
+          "text": "88"
+        },
+        {
+          "label": "4",
+          "text": "86"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe average weight of 40 students of a class = 60 kg\n\nWhen 10 new students join the class, the average weight becomes 64 kg.\n\nThe average weight of 5 of the new students = 72 kg\n\n**Formula used:**\n\nAverage = sum of observations/Number of observations\n\n**Calculation:**\n\nThe average weight of 40 students of a class = <",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "676a021dec12edb0e564acc4",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average of 41 numbers is 33. The average of the first 17 numbers is 41 and the average of the last 25 numbers is 27. If the 17th number from the beginning is excluded, then what is the average of the remaining numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "34.53"
+        },
+        {
+          "label": "2",
+          "text": "32.215"
+        },
+        {
+          "label": "3",
+          "text": "30.1"
+        },
+        {
+          "label": "4",
+          "text": "33.35"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nAverage of 41 numbers = 33.\n\nAverage of the first 17 numbers = 41.\n\nAverage of the last 25 numbers = 27.\n\n17th number from the beginning is excluded.\n\n**Formula Used:**\n\nAverage = Sum of numbers / Number of numbers\n\n**Calculation:**\n\nSum of 41 numbers = 41 × 33\n\nSum of 41 numbers = 1353\n\nSum of the first 17 numbers = 17 × 41\n\nSum of the first 17 numbers = 697\n\nSum of the last 25 numbers = 25 × 27\n\nSum of the last 25 numbers = 675\n\nSince the 17th number is included in both the first 17 and the last 25 numbers, we need to correct the sum:\n\nSum of all 41 numbers = 697 + 675 - 17th number\n\n1353 = 1372 - 17th number\n\n17th number = 1372 - 1353\n\n17th number = 19\n\nSum of the remaining 40 numbers = 1353 - 19\n\nSum of the remaining 40 numbers = 1334\n\nAverage of the remaining 40 numbers = 1334 / 40\n\nAverage = 33.35\n\n**The correct answer is option 4.**",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "6252b2eddac64475d934fc7c",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average of eight consecutive even numbers is 65. If the next four consecutive even numbers are included, then what is the average of all the numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "68"
+        },
+        {
+          "label": "2",
+          "text": "69"
+        },
+        {
+          "label": "3",
+          "text": "67"
+        },
+        {
+          "label": "4",
+          "text": "70"
+        }
+      ],
+      "correct": "2",
+      "solution": "Concept used:\n\nConsecutive even numbers are (x - 2), x, (x + 2) etc.\n\n**Formula:**\n\nTotal = Average × Number of entities\n\nCalculation:\n\nLet, the consecutive even numbers be (x – 6), (x – 4), (x – 2),\n\nx, (x + 2), (x + 4), (x + 6), (x + 8).\n\nAccording to the question,\n\n⇒ x – 6 + x – 4 + x – 2 + x + x + 2 + x + 4 + x + 6 + x + 8 = 65 × 8\n\n⇒ 8x + 8 = 520\n\n⇒ 8x = 512\n\n⇒ x = 512/8 = 64\n\nLast number of the series = (x + 8) = 64 + 8 = 72\n\nNow, next four even numbers are \n\n(x + 10), (x + 12), (x + 14), (x + 16) = 74, 76, 78, 80\n\nSum (74, 76, 78, 80) = 308\n\nNow, the number of terms in the series\n\n⇒ Previous 8 consecutive even numbers + Next four consecutive even numbers\n\n⇒ 8 + 4 = 12\n\nNow, the average of all the numbers\n\n⇒ (Sum of previous 8 consecutive even numbers + Sum of next consecutive even numbers)/Number of terms in series\n\n⇒ {(65 × 8) + 308}/12\n\n⇒ 69\n\n∴ The average of all the numbers is 69.",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "630a117b3a6e955db6e69bf1",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average weight of a group of 5 boys is 54 kg If the boys whose weights 52 kg and 58 kg are replaced by 2 new boys whose weight difference is 15 kg due to which the new average of the group is reduced by 1 then find the weight of the new boys?",
+      "options": [
+        {
+          "label": "1",
+          "text": "45 kg, 60 kg"
+        },
+        {
+          "label": "2",
+          "text": "40 kg, 55 kg"
+        },
+        {
+          "label": "3",
+          "text": "50 kg, 65 kg"
+        },
+        {
+          "label": "4",
+          "text": "55 kg, 70 kg"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nTotal member in group = 5\n\nAverage weight of group = 54 kg\n\n**Concept used:**\n\nAverage = Sum of observation / Number of observation\n\nSum of observation = Average x Number of observation\n\n**Calculation:**\n\nSum of the weight of group = 54 x 5 kg\n\n⇒ 270 kg\n\nIf the boys whose weights 52 kg and 58 kg are replaced then\n\nRemaining total weight of group = 270 - (52 + 58)\n\n⇒ 160 kg\n\nNow,&l",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "63c4e89467556cf495323ce6",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average weight of 30 persons is increased by 2 kg, when one of them whose weight is 40 kg, is replaced by a new person. What is the weight of the new person?",
+      "options": [
+        {
+          "label": "1",
+          "text": "98 kg"
+        },
+        {
+          "label": "2",
+          "text": "100 kg"
+        },
+        {
+          "label": "3",
+          "text": "102 kg"
+        },
+        {
+          "label": "4",
+          "text": "95 kg"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Concept Used:-**\n\nThe average of the group of numbers is the ratio of the sum of all the numbers given to the total number.\n\nThe formula to found the average is given below.\n\n⇒ Average (A) = (sum of all the observation, S) / (Total number of observation, n)\n\n**Explanation:-**\n\nGiven that,\n\nTotal person = 30\n\nAverage weight increased by 2 kg\n\nWeight of replaced person = 40 kg\n\nSo, weight increased of 30 person,\n\n⇒ 2 × 30 = 60 kg\n\nThus, the weight of a new person,\n\n⇒ 60 + 40 = 100 kg\n\nSo, the weight of the new person is 100 kg.\n\nHence, the correct option is 2.",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "623c1addb2963528db848dd3",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average weight of the students in a class was 45 kg. Later on, 4 students whose weights are 44 kg, 38.5 kg, 42 kg and 44.5 kg joined the class. The average weight of the students was reduced by 0.44 kg. What was the number of students, initially in the class?",
+      "options": [
+        {
+          "label": "1",
+          "text": "26"
+        },
+        {
+          "label": "2",
+          "text": "21"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: \n\nThe average weight of the students in a class was 45 kg. \n\nLater on, 4 students whose weights are 44 kg, 38.5 kg, 42 kg and 44.5 kg joined the class.\n\nThe average weight of the students was reduced by 0.44 kg.\n\nConcept used:\n\nTotal = Mean (Average) × number of entities\n\nCalculation:\n\nLet the initial number of students in the class be N.\n\nAccording to the question,\n\n45 × N + 44 + 38.5 + 42 + 44.5 = (45 - 0.44) × (N + 4)\n\n⇒ 45N + 169 = 44.56N + 178.24\n\n⇒ 0.44N = 9.24\n\n⇒ N = 21\n\n∴ The number of student initially in the class was 21.",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "64c75abbab4dbfb8ef6c3d89",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average of the first five natural numbers is 3. Find a new average after adding the number 2.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2.83"
+        },
+        {
+          "label": "2",
+          "text": "2.6"
+        },
+        {
+          "label": "3",
+          "text": "2.5"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSum of the first 5 natural numbers = 5 × 3 = 15\n\nNew sum after adding the number 2 = 15 + 2 = 17\n\nNew total number of observations = 5 + 1 = 6\n\nNew average = 17 ÷ 6 ≈ 2.83\n\n**∴ The correct answer is 2.83.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nAverage of the first five natural numbers = 3\n\nThe new number to be added = 2\n\n**Formula Used:**\n\nAverage = Sum of all observations ÷ Total number of observations\n\n [IMAGE: https://cdn.repeatermock.com/tb/f6ecaa51c871c4e2e4ca2837d4029b8bc1eb26db50992c071456919d45e4898d.png] \n\n**Calculations:**\n\n⇒ The first five natural numbers are 1, 2, 3, 4, and 5.\n\n⇒ Initial Sum = 1 + 2 + 3 + 4 + 5 = 15\n\n⇒ Total count of numbers initially = 5\n\n⇒ New Sum after adding the number 2 = 15 + 2 = 17\n\n⇒ New total count of numbers = 5 + 1 = 6\n\n⇒ New Average = New Sum ÷ New Count\n\n⇒ New Average = 17 ÷ 6 = 2.833...\n\n⇒ New Average ≈ 2.83\n\n**∴ The correct answer is 2.83.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAverage Formula\n\nAverage = Sum of all observations ÷ Total number of observations.\n\nSum of First 'n' Natural Numbers\n\nThe sum of the first 'n' natural numbers can be directly calculated using the formula: S = n × (n + 1) ÷ 2.\n\nCombined Average\n\nWhen combining multiple groups or adding new values, the new average is evaluated as (Total Old Sum + New Values Sum) ÷ (Total Old Count + New Count).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f6ecaa51c871c4e2e4ca2837d4029b8bc1eb26db50992c071456919d45e4898d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "62966d0b80dc9f3a13906179",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the value of sqrt{5.5k} - 11, where k is the average value of 17, 18, 21, 26 and 28.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "2"
+        },
+        {
+          "label": "4",
+          "text": "11"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nThe given numbers are: 17, 18, 21, 26 and 28\n\n**Concept used:**\n\nAverage = (Sum of all observation) ÷ (Total number of observation)\n\n**Calculation:**\n\nThe sum of all given numbers = 17 + 18 + 21 + 26 + 28 = 110\n\nThe number of observation = 5\n\nThe required average = (110)/(5) = 22\n\nAccording to the question,\n\n⇒ ? = sqrt{5.5k} - 11\n\n⇒ ? = sqrt{5.5 times 22}- 11\n\n⇒ ? = √121 - 11\n\n⇒ ? = 11 - 11 = 0\n\n**∴ The value of the required expression is 0.**",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "639ef104f6c4e9a2dd10764d",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average age of a family of five was 32. It fell to 18 when the grandmother died. How old was she?",
+      "options": [
+        {
+          "label": "1",
+          "text": "98"
+        },
+        {
+          "label": "2",
+          "text": "72"
+        },
+        {
+          "label": "3",
+          "text": "88"
+        },
+        {
+          "label": "4",
+          "text": "102"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe average age of a family of five was 32.\n\nIt fell to 18 when the grandmother died.\n\n**Concept used:**\n\nAverage = Sum of observation / Number of observations\n\n**Calculation**:\n\nLet, the sum of the ages of the family members except the grandmother = m\n\n⇒ <sp",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "63b7e2220ff3bd472ccd0ad0",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the average of first 40 natural numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "21"
+        },
+        {
+          "label": "3",
+          "text": "21.5"
+        },
+        {
+          "label": "4",
+          "text": "20.5"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nAverage of first 40 numbers\n\n**Formula Used:**\n\nWhen an even number of terms is given, \n\nAverage = [(n/2)th + (n/2 +1)th]/2\n\n**Solution**\n\nHere, n = 40\n\nn/2 = 20\n\n⇒ Average of first 40 natural numbers = (20 + 21)/2\n\n**⇒ 20.5**\n\n**The correct option is 4.**",
+      "tags": [
+        "Average"
+      ]
+    }
+  ]
+}

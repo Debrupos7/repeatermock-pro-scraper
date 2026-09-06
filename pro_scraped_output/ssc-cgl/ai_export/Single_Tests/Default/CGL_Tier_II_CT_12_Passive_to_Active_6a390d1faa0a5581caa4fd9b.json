@@ -1,0 +1,432 @@
+{
+  "test_id": "6a390d1faa0a5581caa4fd9b",
+  "title": "CGL Tier II CT 12: Passive to Active",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English"
+  ],
+  "scraped_at": "2026-09-06T11:21:28.205781+00:00",
+  "questions": [
+    {
+      "qid": "5f7f33efc7c8587a70541cde",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Active and Passive Voice",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A sentence has been given in Active/Passive voice. Out of the four alternatives suggested, select the one which best expresses the same sentence in Passive/Active voice.\n\nThe morning class was not being taken seriously by Ravi.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ravi had not taken the morning class seriously."
+        },
+        {
+          "label": "2",
+          "text": "Ravi has not been taking the morning class seriously"
+        },
+        {
+          "label": "3",
+          "text": "Ravi is not taking the morning class seriously."
+        },
+        {
+          "label": "4",
+          "text": "Ravi was not taking the morning class seriously."
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is **Option 4 i.e. 'Ravi was not taking the morning class seriously'**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n**Active Voice:**\n\n**General Strucuture: - ***Sub+verb+obj*\n\n**Passive voice:**\n\n**General Structure: -** Obj+ </u&",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Active and Passive Voice"
+      ]
+    },
+    {
+      "qid": "6069ab1a60d5cfbfbad1e924",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Active and Passive Voice",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Direction: Select the correct active form of the given sentence.\n\nBy whom was this delicious food cooked?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Who cooked this delicious food?"
+        },
+        {
+          "label": "2",
+          "text": "Who have cooked this delicious food?"
+        },
+        {
+          "label": "3",
+          "text": "Who was prepared this delicious food?"
+        },
+        {
+          "label": "4",
+          "text": "Who did cook this delicious food."
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is '**Who cooked this delicious food?**'.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• \n We need to follow these instructions while changing the voice of an interrogative sentence-\n\n \n \n• The given sentence is in passive form.\n \n• '**By whom**' will be changed into '**who**'.\n \n• '**Was + v3**' is changed into '**v2**'. (cooked)\n \n• At last line up the remaining part.\n \n \n\nFollowing these steps, we finally get- *Who cooked this delicious food?*\n\n [IMAGE: https://cdn.repeatermock.com/tb/2cc014001a9a70d86735241cc35c82dd42b72fdf15c186a2bedcc9dce43fb549.png] \n\n \n\n \n• हमें एक **interrogative sentence** की **voice** बदलते समय इन निर्देशों का पालन करने की आवश्यकता है-\n\n \n \n• दिया गया वाक्य **passive form** में है।\n \n• '**By whom**' को '**who**' में बदला जाएगा।\n \n• **'Was + v3'** को '**v2**' में बदल दिया गया है। (**cooked**)\n \n• अंत में **remining part add** करें।\n \n \n\n33:T5d32,\n\nThe correct answer is '**We had completed our task before sunset**.<span style=\"font-weigh",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2cc014001a9a70d86735241cc35c82dd42b72fdf15c186a2bedcc9dce43fb549.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Active and Passive Voice"
+      ]
+    },
+    {
+      "qid": "6003484493c746a634f9e44f",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Active and Passive Voice",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the correct active form of the given sentence.\n\nThe manager was written a letter by the employees.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The employees had written a letter to the manager."
+        },
+        {
+          "label": "2",
+          "text": "The employees have written a letter to the manager."
+        },
+        {
+          "label": "3",
+          "text": "The employees wrote a letter to the manager."
+        },
+        {
+          "label": "4",
+          "text": "The employees write a letter to the manager."
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is '**The employees wrote a letter to the manager**'.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The above sentence is in **pass**ive voice since it emphasizes the action or object of the sentence.\n \n• The above sentence is an assertive sentence with double objects since it is of the form: subject (The manager) + helping verb (was) + main verb (written) + direct object (a letter) + indirect object (the employees).\n \n• The way in which an assertive sentence with double objects is converted into its **act**ive voice are:\n \n \n• indirect object as subject + main verb + direct object + indirect object (subject of the passive voice)\n \n \n \n• The tense remains the same as the passive voice.\n \n• Here, the simple past tense is used.\n \n• \n \n \n \n\n Passive voice\n Active voice\n \n \n \n \n\n was, were + IIIrd form of the verb\n IInd form of the verb \n \n \n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n__\n \n• Only sentences with the transitive verb can be converted into passive voice__ and not the ones with an intransitive verb.\n \n• A __transitive verb needs an object__ to complete its meaning.\n __\n \n• For example: *He answered the questions confidently. (subject + verb + object)*\n \n \n \n• The intransitive verb does not have an object__.\n __\n \n• For example: *He answered confidently. (subject + verb)*\n\n \n \n \n\nCorrect sentence:__ \"*The employees wrote a letter to the manager*\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Active and Passive Voice"
+      ]
+    },
+    {
+      "qid": "633017ffc2ce674638209c05",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Active and Passive Voice",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**A sentence has been given in Active/Passive Voice. Out of the four alternatives suggested, select the one which best expresses the same sentence in Passive/Active Voice.**\n\nMuch of the precious time has already been wasted on such trifles.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Such trifles have wasted much of the precious time."
+        },
+        {
+          "label": "2",
+          "text": "We have already wasted much of the precious time on such trifles."
+        },
+        {
+          "label": "3",
+          "text": "The time wasted on such trifles have been too much."
+        },
+        {
+          "label": "4",
+          "text": "We already wasted much of the precious time on such trifles."
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is '__**We have already wasted much of the precious time on such trifles.**__'\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The '**voice**'** **of a verb tells us **whether the subject of the sentence performs or receives the action**.\n \n• The given sentence is in the **passive voice** (here, the action is the main and there is simply no need to mention the doer).\n \n• While changing a sentence from passive voice to active voice, **the object and subject are interchanged** with each other, i.e. object of the passive sentence becomes the subject of the active sentence and vice versa. Their cases also change accordingly.\n \n \n• Here, '***time***' is the subject, '***has... been wasted***' is the verb and the object is not mentioned.\n \n \n \n• The given sentence follows the following sentence format and will convert as it has been given next:\n \n \n• *Passive voice*:* ***Subject + Has/Have + been + past participle (+ by object)**.** **\n \n• *Active voice*:** ****Subject + ****Has/Have **(*depending on the subject) **+ ****past participle verb + object **(*subject of the passive sentence).\n \n \n \n• For example, '*The water tank has been filled up.*' ⇒ '*I have/ Someone has filled up the water tank*.' (When the doer is not mentioned or isn't obvious, it is assumed as an indefinite pronoun, or first person or second person pronoun, depending on the tone and given information)\n \n• So, the given sentence in active is as follows: '***We have already wasted much of the precious time on such trifles*****.**'\n\n*Hence, the correct answer is **Option 2**.*",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Active and Passive Voice"
+      ]
+    },
+    {
+      "qid": "61129138116c5f6bfdc1ba76",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Active and Passive Voice",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Directions: In the question, a sentence has been given in Active/Passive Voice. Out of the four suggested alternatives, select the one which best expresses the same sentence Passive/Active Voice.**\n\nOur task had been completed before sunset.",
+      "options": [
+        {
+          "label": "1",
+          "text": "We completed our task before sunset."
+        },
+        {
+          "label": "2",
+          "text": "We have completed our task before sunset."
+        },
+        {
+          "label": "3",
+          "text": "We complete our task before sunset."
+        },
+        {
+          "label": "4",
+          "text": "We had completed our task before sunset."
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is '**We had completed our task before sunset**.'\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__** \n\n__\n \n• In Active Voice, a sentence emphasizes the subject, performing an action.\n \n• In Passive Voice, a sentence emphasizes the action or the object of the sentence.\n \n• The given sentence is in **passive voice** and it is in the **past perfect tense**.\n \n• To convert it into **active voice**, we just **remove 'been'** from the given sentence, and the **object 'our'** will be **changed into** the **subject 'We'**.\n \n• The passive format \"had + been + V3 (completed)\" should be converted into the active format \"had + V3 (completed)\".\n \n• This is the **active and passive voice** rule for the past perfect tense.\n\n \n\nHence, the correct answer is option 4.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• Verbs of passive format have a different set of tenses (*V3 - Past participle or Third form of the Verb) as given below in the table:\n\n \n \n \n \n \n \n \n \n \n \n\n TENSE\n ACTIVE\n PASSIVE\n PASSIVE CONVERSION\n \n \n\n Present Simple\n He plays football\n am/is/are + V3\n Football is played by him\n \n \n\n Present Continuous\n He is playing football\n am/is/are + being +V3\n Football is being played by him\n \n \n\n Present Perfect\n He has played football\n Has/have + been+ V3\n Football has been played by him\n \n \n\n Present Perfect Continuous\n He has been playing football\n Not used and unusual.\n Not used and unusual\n \n \n\n Past Simple\n He played football\n Was/were + V3\n Football was played by him\n \n \n\n Past Continuous\n He was playing football\n Was/were + being + V3\n Football was being played by him\n \n \n\n Past Perfect\n He had played football\n Had + been + V3\n Football had been played by him\n \n \n\n Past Perfect Continuous\n He had been playing football\n Not used and unusual\n Not used and unusual\n \n \n\n Future Simple\n He will play football\n Will + be + V3\n Football will be played by him\n \n \n\n Future Continuous\n He will be playing football\n Not used and unusual\n Not used and unusual\n \n \n\n Future Perfect\n He will have played football\n Will have been + V3\n Football will have been played by him\n \n \n\n Future Perfect Continuous\n He will have been playing football\n Not used and unusual\n Not used and unusual\n \n \n \n \n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/5bb8f9389bc75a461b28befc3cea9d76de9a38c1450aa0a3e15fea76b51c2f54.png] \n\n \n• Active Voice में , एक वाक्य विषय पर जोर देता है, एक क्रिया करता है।\n \n• Passive Voice में , एक वाक्य वाक्य की क्रिया या वस्तु पर जोर देता है।\n \n• दिया गया वाक्य passive voice में है और यह past perfect tense में है।\n \n• इसे active voice में बदलने के लिए, हम दिए गए वाक्य से **'been'** को हटा देते हैं, और object 'our' को subject 'We' में बदल दिया जाएगा।\n \n• **Passive format** \"had + been + V3 (completed)\" को **active format** \"had + V3 (completed)\" **में परिवर्तित किया जाना चाहिए**।\n \n• यह past perfect tense के लिए active and passive voice rule है।\n\n \n\nअतः सही उत्तर **विकल्प 4** है।\n\n34:T904,\n\nThe correct answer is **'What does Ram want?'**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] <span style",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5bb8f9389bc75a461b28befc3cea9d76de9a38c1450aa0a3e15fea76b51c2f54.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Active and Passive Voice"
+      ]
+    },
+    {
+      "qid": "63284679f3d01c74b45940a1",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Active and Passive Voice",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**A sentence has been given in Active/Passive Voice. Out of the four alternatives suggested, select the one which best expresses the same sentence in Passive/Active Voice.**\n\nThe car parked under the sign will be towed away.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The police would tow away the car parked under the sign."
+        },
+        {
+          "label": "2",
+          "text": "The police would have towed away the car parked under the sign."
+        },
+        {
+          "label": "3",
+          "text": "The police will be towing away the car parked under the sign."
+        },
+        {
+          "label": "4",
+          "text": "The police will tow away the car parked under the sign."
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is **'The police will tow away the car parked under the sign.'**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] \n\n**__Key Points__**\n\n \n• The 'voice' of a verb tells us whether the subject of the sentence performs or receives the action.\n \n• The given sentence is in the passive voice (here, the action has the main emphasis, and there is simply no need to mention the doer).\n \n• While changing a sentence from passive voice to active voice, the object and subject are interchanged with each other, i.e., the object of the passive sentence becomes the subject of the active sentence and vice versa. Their cases also change accordingly.\n \n \n• Here, 'The car' is the subject, 'will be towed away' is the verb, and the object has been omitted because it is obvious and not important.\n \n \n \n• The given sentence follows the following sentence format and will convert as it has been given next:\n \n \n• *Passive voice: **Subject + will be + past participle (+ by object).***\n \n• *Active voice: **Subject (*object of the passive sentence) + will + base verb + object (*subject of the passive sentence).***\n \n \n \n• For example, 'A lumpsum of money will be needed soon.' ⇒ 'We will need a lumpsum of money soon.' (Since the doer is not mentioned so it is assumed an indefinite pronoun, or first or second person pronoun), based on the tone of the sentence.\n \n• Here, the doer is obvious: it is the police who oversee these kinds of works.\n \n• So, the given sentence in active is as follows: 'The police will tow away the car parked under the sign.'\n\n \n\nHence, the correct answer is **Option 4**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Active and Passive Voice"
+      ]
+    },
+    {
+      "qid": "630f50717c5ddc0ac600494f",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Active and Passive Voice",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Choose the option that best transforms the given sentence into its active voice:\n\nWhat is wanted by Ram?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Is something wanted by Ram?"
+        },
+        {
+          "label": "2",
+          "text": "What Ram wanted something?"
+        },
+        {
+          "label": "3",
+          "text": "What does Ram want?"
+        },
+        {
+          "label": "4",
+          "text": "What wants do Ram has?"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is **'What does Ram want?'**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• To convert the sentence into active voice, we go through certain steps:\n \n• We identify the subject, verb, and agent in the passive sentence:\n \n \n• **Subject**: What\n \n• Verb</str",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Active and Passive Voice"
+      ]
+    },
+    {
+      "qid": "5f6dc9ea3cc1c0d8870ae552",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Active and Passive Voice",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that expresses the given sentence in active voice.\n\nIt was decided by the members that the report would be placed before the Chairman for his comments.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The Chairman’s comments were to be placed on the report of the members."
+        },
+        {
+          "label": "2",
+          "text": "The members decided to place the report before the Chairman for his comments."
+        },
+        {
+          "label": "3",
+          "text": "The Chairman decided to place the report before the members."
+        },
+        {
+          "label": "4",
+          "text": "Did the members decide to place the report before the Chairman?"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is:__** The members decided to place the report before the chairman for his comments.**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• It is a** Passive voice** of a** mixed sentence.**\n \n• **It **will be** changed **into the** Active voice as under:**\n \n \n• **‘Was’ **shows that the** sentence in Active voice **should be in the** Simple Past Tense.**\n \n• The** subject and the object of the first sentence** will **exchange their places.**\n \n• **‘That’** will be** removed.**\n \n• The conjunction** 'to’** will be** used** to** maintain the continuity **of the sentence.\n \n• **To is followed by** the **first form of the verb.**\n \n• The **first form** of** ‘placed’** will be** used.**\n \n• **‘Before the chairman for his comments’** is an **adverb phrase **and it will be** taken as it is.**\n \n \n\n \n\n \n• **Eventually, we will get the final sentence:** \"* The members decided to place the report before the Chairman for his comments.\"*",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Active and Passive Voice"
+      ]
+    },
+    {
+      "qid": "655f4c69f1024af8d99832ca",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Active and Passive Voice",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Transform the passive sentence into active voice:\n\n\"A beautiful portrait was being painted by her\".",
+      "options": [
+        {
+          "label": "1",
+          "text": "She had painted a beautiful portrait."
+        },
+        {
+          "label": "2",
+          "text": "She was painting a beautiful portrait."
+        },
+        {
+          "label": "3",
+          "text": "She is painting a beautiful portrait."
+        },
+        {
+          "label": "4",
+          "text": "She paints a beautiful portrait."
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is** 'Option 2' i.e. 'She was painting a beautiful portrait'.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The original sentence is in the passive form in past continuous tense, indicated by \"was being painted\".\n \n• When we convert it into active voice, the sentence becomes \"She was painting a beautiful portrait\"– &quo",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Active and Passive Voice"
+      ]
+    },
+    {
+      "qid": "5fd33bb9c59dd0a44871b89a",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Active and Passive Voice",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Directions: Select the correct active form of the given sentence.**\n\nAn online order has been placed by me today.",
+      "options": [
+        {
+          "label": "1",
+          "text": "I placed an online order today."
+        },
+        {
+          "label": "2",
+          "text": "I have placed an online order today."
+        },
+        {
+          "label": "3",
+          "text": "I am placing an online order today."
+        },
+        {
+          "label": "4",
+          "text": "I will place an online order today."
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is **I have placed an online order today.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__** \n\n__\n \n• In Active Voice, a sentence emphasizes the subject, performing an action.\n \n• In Passive Voice, a sentence emphasizes the action or the object of the sentence.\n \n• The given sentence is in the passive voice and 'An online' is the subject and 'me' is the object.\n \n• When we convert this sentence into active voice, the subject 'An online' of the passive voice becomes the object, the object 'me' becomes the subject 'I'.\n \n• The passive format \"has + been + V3 (placed)\" should be converted into the active format \"**have +** V2 (placed)\" to account for the new **subject-verb agreement**\n \n• This is the active and passive voice rule for the present perfect tense.\n\nHence, the correct answer is option 2.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\nVerbs of passive format have a different set of tenses (*V3 - Past participle or Third form of the Verb) as given below in the table:\n\n \n \n \n \n \n \n \n \n\n TENSE\n ACTIVE\n PASSIVE\n PASSIVE CONVERSION\n \n \n\n Present Simple\n He plays football\n am/is/are + V3\n Football is played by him\n \n \n\n Present Continuous\n He is/am/are playing football\n am/is/are + being +V3\n Football is being played by him\n \n \n\n Present Perfect\n He has played football\n Has/have + been+ V3\n Football has been played by him\n \n \n\n Present Perfect Continuous\n He has been playing football\n Not used and unusual.\n Not used and unusual\n \n \n\n Past Simple\n He played football\n Was/were + V3\n Football was played by him\n \n \n\n Past Continuous\n He was playing football\n Was/were + being + V3\n Football was being played by him\n \n \n\n Past Perfect\n He had played football\n Had + been + V3\n Football had been played by him\n \n \n\n Past Perfect Continuous\n He had been playing football\n Not used and unusual\n Not used and unusual\n \n \n\n Future Simple\n He will play football\n Will + be + V3\n Football will be played by him\n \n \n\n Future Continuous\n He will be playing football\n Not used and unusual\n Not used and unusual\n \n \n\n Future Perfect\n He will have played football\n Will have been + V3\n Football will have been played by him\n \n \n\n Future Perfect Continuous\n He will have been playing football\n Not used and unusual\n Not used and unusual",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Active and Passive Voice"
+      ]
+    }
+  ]
+}

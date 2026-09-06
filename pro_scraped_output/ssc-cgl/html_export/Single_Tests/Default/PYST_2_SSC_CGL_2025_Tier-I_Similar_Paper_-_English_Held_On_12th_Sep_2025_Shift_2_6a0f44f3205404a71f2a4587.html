@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PYST 2: SSC CGL 2025 Tier-I Similar Paper - English (Held On: 12th Sep 2025 Shift 2)</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.6;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,0.04);position:sticky;top:0;z-index:100;}
+.brand{font-size:20px;font-weight:800;letter-spacing:-0.02em;}
+.brand-light{color:#1f2937;}
+.brand-mark{color:#1fbad6;}
+.test-title{font-size:14px;color:#4b5563;font-weight:500;text-align:center;flex:1;padding:0 24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.header-right{display:flex;align-items:center;gap:12px;}
+.timer{background:#1f2937;color:#fff;padding:8px 16px;border-radius:6px;font-family:"SF Mono",Monaco,monospace;font-size:16px;font-weight:600;min-width:110px;text-align:center;}
+.timer.warning{background:#f59e0b;}
+.timer.danger{background:#ef4444;animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.7;}}
+.header-btn{background:#1fbad6;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s;}
+.header-btn:hover{background:#1999b3;}
+.submit-btn{background:#ef4444;}
+.submit-btn:hover{background:#dc2626;}
+.meta-bar{background:#fff;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;flex-wrap:wrap;gap:12px 32px;font-size:13px;}
+.meta-item{display:flex;flex-direction:column;gap:2px;}
+.meta-label{color:#6b7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+.meta-value{color:#1f2937;font-size:14px;font-weight:600;}
+.test-container{display:flex;max-width:1400px;margin:0 auto;gap:16px;padding:16px;}
+.question-area{flex:1;min-width:0;}
+.section-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.section-tab{background:#fff;border:1px solid #e5e7eb;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;color:#4b5563;}
+.section-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.question-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.q-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #f3f4f6;}
+.q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.q-marks{display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap;}
+.q-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.q-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.conf-high{background:#d1fae5;color:#065f46;}
+.conf-unidentified{background:#fef3c7;color:#92400e;}
+.q-id{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;}
+.result-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-qid{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;margin-left:auto;}
+.mark-pos{color:#10b981;font-weight:600;}
+.mark-neg{color:#ef4444;font-weight:600;}
+.q-lang-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.q-lang-tab{background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer;}
+.q-lang-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.q-text{font-size:15px;margin-bottom:16px;}
+.q-text p{margin:8px 0;}
+.q-text img{max-width:100%;height:auto;border-radius:4px;}
+.options-list{list-style:none;}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;margin-bottom:8px;border:1.5px solid #e5e7eb;border-radius:6px;cursor:pointer;transition:all .15s;font-size:14px;}
+.option-item:hover{background:#f9fafb;border-color:#d1d5db;}
+.option-item.selected{background:#dbeafe;border-color:#3b82f6;}
+.option-item.correct{background:#d1fae5;border-color:#10b981;}
+.option-item.wrong{background:#fee2e2;border-color:#ef4444;}
+.option-label{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;background:#1f2937;color:#fff;border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0;}
+.option-item.selected .option-label{background:#3b82f6;}
+.option-item.correct .option-label{background:#10b981;}
+.option-item.wrong .option-label{background:#ef4444;}
+.option-item.correct::after{content:" ✓ Correct";color:#10b981;font-weight:700;margin-left:auto;}
+.option-item.wrong::after{content:" ✗ Wrong";color:#ef4444;font-weight:700;margin-left:auto;}
+.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+.action-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.action-btn:hover{background:#f9fafb;}
+.action-btn.save-next{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.action-btn.save-next:hover{background:#1999b3;}
+.action-btn.mark-review{background:#fef3c7;color:#92400e;border-color:#f59e0b;}
+.prev-next{display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #f3f4f6;}
+.nav-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.nav-btn:hover{background:#f9fafb;}
+.palette-sidebar{width:280px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start;background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;max-height:calc(100vh - 110px);overflow-y:auto;}
+.palette-header{font-size:14px;font-weight:700;color:#1f2937;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f3f4f6;}
+.palette-legend{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10px;color:#6b7280;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:3px;}
+.legend-dot{width:12px;height:12px;border-radius:2px;}
+.legend-dot.answered{background:#10b981;}
+.legend-dot.notanswered{background:#ef4444;}
+.legend-dot.marked{background:#a855f7;}
+.legend-dot.notvisited{background:#e5e7eb;}
+.palette-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;}
+.palette-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px solid #e5e7eb;border-radius:4px;font-size:11px;font-weight:600;color:#4b5563;cursor:pointer;transition:all .15s;background:#f3f4f6;}
+.palette-cell:hover{transform:scale(1.1);}
+.palette-cell.answered{background:#10b981;color:#fff;border-color:#10b981;}
+.palette-cell.notanswered{background:#ef4444;color:#fff;border-color:#ef4444;}
+.palette-cell.marked{background:#a855f7;color:#fff;border-color:#a855f7;}
+.palette-cell.marked-answered{background:#a855f7;color:#fff;border-color:#a855f7;position:relative;}
+.palette-cell.marked-answered::after{content:"•";position:absolute;top:-2px;right:2px;color:#10b981;font-size:14px;}
+.palette-cell.notvisited{background:#fff;color:#9ca3af;}
+.palette-cell.current{outline:3px solid #1fbad6;outline-offset:1px;}
+.palette-stats{margin-top:12px;padding-top:12px;border-top:1px solid #f3f4f6;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:11px;color:#6b7280;}
+.palette-stats div{display:flex;justify-content:space-between;}
+.palette-stats strong{color:#1f2937;font-size:13px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;padding:24px;}
+.modal-overlay.open{display:flex;}
+.modal-content{background:#fff;border-radius:12px;padding:24px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-content h2{font-size:20px;color:#1f2937;margin-bottom:12px;}
+.modal-content p{font-size:14px;color:#4b5563;margin-bottom:16px;}
+.submit-summary{background:#f9fafb;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;}
+.submit-summary div{display:flex;justify-content:space-between;margin-bottom:4px;}
+.submit-summary strong{color:#1f2937;}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;}
+.modal-btn{padding:8px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-btn.cancel{background:#f3f4f6;color:#4b5563;}
+.modal-btn.cancel:hover{background:#e5e7eb;}
+.modal-btn.submit{background:#ef4444;color:#fff;}
+.modal-btn.submit:hover{background:#dc2626;}
+.results-view{max-width:1000px;margin:0 auto;padding:24px;}
+.results-header{text-align:center;margin-bottom:32px;}
+.results-header h1{font-size:28px;color:#1f2937;margin-bottom:16px;}
+.score-card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;display:inline-block;min-width:300px;margin-bottom:16px;}
+.score-card .score{font-size:48px;font-weight:800;color:#1fbad6;}
+.score-card .total{font-size:20px;color:#6b7280;}
+.score-card .rank{font-size:14px;color:#4b5563;margin-top:8px;}
+.results-actions{display:flex;gap:8px;justify-content:center;}
+.results-questions{display:grid;gap:16px;}
+.result-card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.result-card.correct{border-left:4px solid #10b981;}
+.result-card.wrong{border-left:4px solid #ef4444;}
+.result-card.skipped{border-left:4px solid #9ca3af;}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.result-q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.result-status{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;}
+.result-status.correct{background:#d1fae5;color:#065f46;}
+.result-status.wrong{background:#fee2e2;color:#991b1b;}
+.result-status.skipped{background:#f3f4f6;color:#4b5563;}
+.result-text{font-size:14px;margin-bottom:12px;}
+.result-text p{margin:6px 0;}
+.result-options{list-style:none;margin-bottom:12px;}
+.result-option{padding:8px 12px;margin-bottom:4px;border:1px solid #e5e7eb;border-radius:4px;font-size:13px;display:flex;align-items:flex-start;gap:8px;}
+.result-option.correct{background:#d1fae5;border-color:#10b981;font-weight:600;}
+.result-option.selected{background:#dbeafe;border-color:#3b82f6;}
+.result-option.correct.selected{background:#a7f3d0;}
+.result-option-label{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;background:#1f2937;color:#fff;border-radius:3px;font-size:11px;font-weight:600;}
+.result-option.correct .result-option-label{background:#10b981;}
+.result-solution{background:#fef3c7;border-left:3px solid #f59e0b;border-radius:4px;padding:12px;font-size:13px;color:#1f2937;}
+.result-solution-title{font-weight:700;color:#92400e;margin-bottom:6px;font-size:12px;}
+.result-solution p{margin:6px 0;}
+.result-solution img{max-width:100%;height:auto;border-radius:4px;}
+@media (max-width:1024px){.palette-sidebar{width:220px;}.palette-grid{grid-template-columns:repeat(5,1fr);}}
+@media (max-width:768px){.test-container{flex-direction:column;}.palette-sidebar{width:100%;position:static;max-height:none;}.palette-grid{grid-template-columns:repeat(10,1fr);}}
+@media print{.top-bar,.palette-sidebar,.actions,.prev-next,.section-tabs,.q-lang-tabs,.meta-bar,.results-actions{display:none;}.test-container,.results-view{display:block;}.result-card{page-break-inside:avoid;}}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="top-bar">
+  <div class="brand"><span class="brand-light">Repeater</span><span class="brand-mark">Mock</span></div>
+  <div class="test-title" id="testTitle">PYST 2: SSC CGL 2025 Tier-I Similar Paper - English (Held On: 12th Sep 2025 Shift 2)</div>
+  <div class="header-right">
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="header-btn submit-btn" onclick="openSubmitModal()">Submit Test</button>
+  </div>
+</header>
+
+<!-- Meta bar -->
+<div class="meta-bar">
+  <div class="meta-item"><span class="meta-label">Series</span><span class="meta-value">ssc-cgl</span></div>
+  <div class="meta-item"><span class="meta-label">Questions</span><span class="meta-value">25</span></div>
+  <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">0 min</span></div>
+  <div class="meta-item"><span class="meta-label">Max Marks</span><span class="meta-value">50.0</span></div>
+  <div class="meta-item"><span class="meta-label">Marking</span><span class="meta-value">+2.0 / -0.5</span></div>
+  <div class="meta-item"><span class="meta-label">Test ID</span><span class="meta-value">6a0f44f3205404a71f2a4587</span></div>
+</div>
+
+<!-- Test mode -->
+<div id="testMode" class="test-container">
+  <main class="question-area">
+    <div class="section-tabs" id="sectionTabs"></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-header">
+        <span class="q-num" id="qNum">Q1</span>
+        <span class="q-marks" id="qMarks"></span>
+      </div>
+      <div class="q-lang-tabs" id="qLangTabs"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options-list" id="optionsList"></div>
+      <div class="actions">
+        <button class="action-btn mark-review" onclick="markReviewNext()">Mark for Review &amp; Next</button>
+        <button class="action-btn clear-response" onclick="clearResponse()">Clear Response</button>
+        <button class="action-btn save-next" onclick="saveNext()">Save &amp; Next →</button>
+      </div>
+      <div class="prev-next">
+        <button class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button class="nav-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </main>
+  <aside class="palette-sidebar">
+    <div class="palette-header">
+      <span id="currentSectionLabel">Test</span>
+    </div>
+    <div class="palette-legend">
+      <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+      <span class="legend-item"><span class="legend-dot notanswered"></span>Not Answered</span>
+      <span class="legend-item"><span class="legend-dot marked"></span>Marked</span>
+      <span class="legend-item"><span class="legend-dot notvisited"></span>Not Visited</span>
+    </div>
+    <div class="palette-grid" id="paletteGrid"></div>
+    <div class="palette-stats" id="paletteStats"></div>
+  </aside>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="modal-content">
+    <h2>Submit Test?</h2>
+    <p>Are you sure you want to submit? You won't be able to change your answers after this.</p>
+    <div class="submit-summary" id="submitSummary"></div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="modal-btn submit" onclick="submitTest()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results view (hidden until submit) -->
+<div id="resultsView" class="results-view" style="display:none;">
+  <div class="results-header">
+    <h1>Test Submitted</h1>
+    <div class="score-card" id="scoreCard"></div>
+    <div class="results-actions">
+      <button class="header-btn" onclick="showAllQuestions()">View All Questions &amp; Solutions</button>
+      <button class="header-btn" onclick="window.print()">🖨️ Print</button>
+    </div>
+  </div>
+  <div class="results-questions" id="resultsQuestions"></div>
+</div>
+
+<!-- Test data embedded as JSON -->
+<script type="application/json" id="test-data">{"test_id": "6a0f44f3205404a71f2a4587", "title": "PYST 2: SSC CGL 2025 Tier-I Similar Paper - English (Held On: 12th Sep 2025 Shift 2)", "series_slug": "ssc-cgl", "duration_min": 0, "max_marks": 50.0, "languages": ["English"], "sections": [{"section_id": "69f0944e34a326423f2cd8f7", "section_name": "Test", "q_count": 25, "max_marks": 50.0, "questions": [{"qid": "6911c4ba57cef784a5b550ba", "qs_no": 1, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>Select the most appropriate synonym of the given word:</p>\n\n<p>Relinquish.</p>\n", "options": [{"prompt": "1", "value": "Demean"}, {"prompt": "2", "value": "Accept"}, {"prompt": "3", "value": "Abdicate"}, {"prompt": "4", "value": "Apply"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p>The correct answer is: <b>Option 3 (Abdicate)</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The word <strong>&quot;Relinquish&quot;</strong> means to voluntarily give up or let go of something, such as a right, possession, or claim. (त्यागना, छोड़ देना)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> She decided to relinquish her leadership position to focus on her family.</li>\n\t</ul>\n\t</li>\n\t<li><strong>&quot;Abdicate&quot;</strong> means to formally give up a position of power or responsibility, especially a throne or high office. (सिंहासन छोड़ना)\n\t<ul>\n\t\t<li><strong>Example:</strong> The king chose to abdicate the throne in favor of his son.</li>\n\t</ul>\n\t</li>\n\t<li>Both words share the meaning of giving up something, but &quot;abdicate&quot; is more specific to positions of authority or power.</li>\n</ul>\n\n<p>Therefore, the correct answer is: <strong>Option 3 (Abdicate)</strong>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>Demean</strong> (<span style=\"color: rgb(33, 37, 41);\">अपमानित करना</span>): To lower someone&rsquo;s dignity or self-respect.\n\n\t<ul>\n\t\t<li><strong>Example:</strong> He didn&rsquo;t mean to demean her, but his words came across as rude.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Accept</strong> (<span style=\"color: rgb(33, 37, 41);\">स्वीकार करना</span>): To agree to receive or take something.\n\t<ul>\n\t\t<li><strong>Example:</strong> She was happy to accept the job offer after the interview.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Apply</strong> (<span style=\"color: rgb(33, 37, 41);\">आवेदन करना</span>): To make a formal request or to put something into operation.\n\t<ul>\n\t\t<li><strong>Example:</strong> You should apply for the scholarship if you meet the eligibility criteria.</li>\n\t</ul>\n\t</li>\n</ul>\n\n34:Tc20,\n<p>The correct answer is: <b>Option 2</b>.</p>\n\n<p><span style=\"displ", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Synonym", "confidence": "high"}, {"qid": "6911c4bb50700ce65364d6d8", "qs_no": 2, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>Choose the correct meaning of idiom:</p>\n\n<p><strong>Move heaven and earth</strong></p>\n", "options": [{"prompt": "1", "value": "To move slowly"}, {"prompt": "2", "value": "To work continuously"}, {"prompt": "3", "value": "To command"}, {"prompt": "4", "value": "To follow"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is: <b>Option 2</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The idiom <strong>&quot;Move heaven and earth&quot;</strong> means to make every possible effort to achieve something or to overcome challenges. (हर संभव प्रयास करना)\n\n\t<ul>\n\t\t<li><strong>Example: </strong>He moved heaven and earth to get the project completed on time.</li>\n\t</ul>\n\t</li>\n\t<li>The correct meaning of the idiom here is <strong>&quot;To work continuously&quot;</strong>, which refers to putting in tireless effort to accomplish a task. (लगातार काम करना)\n\t<ul>\n\t\t<li><strong>Example: </strong>She worked continuously day and night to prepare for the exams.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Therefore, the correct answer is: <strong>Option 2</strong>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>Option 1: To move slowly</strong> (<span style=\"color: rgb(33, 37, 41);\">धीरे चलना</span>): Refers to acting or proceeding at a slow pace.\n\n\t<ul>\n\t\t<li><strong>Example: </strong>The old man moved slowly across the park.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Option 3: To command</strong> (<span style=\"color: rgb(33, 37, 41);\">आदेश देना</span>): Refers to giving instructions or orders to someone.\n\t<ul>\n\t\t<li><strong>Example: </strong>The officer commanded his troops to prepare for battle.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Option 4: To follow</strong> (<span style=\"color: rgb(33, 37, 41);\">अनुसरण करना</span>): Refers to obeying or adhering to rules, instructions, or someone&#39;s lead.\n\t<ul>\n\t\t<li><strong>Example: </strong>You need to follow the guidelines to complete the application process.</li>\n\t</ul>\n\t</li>\n</ul>\n\n35:Tc92,\n<p>The correct answer is: <b>Weak</b>.</p>\n\n<p><span style=\"d", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Idioms", "confidence": "high"}, {"qid": "6911c4bbe6bfa8448a03f1f3", "qs_no": 3, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>Select the most appropriate antonym of the given word.</p>\n\n<p>Authoritative</p>\n", "options": [{"prompt": "1", "value": "Weak"}, {"prompt": "2", "value": "Mutiny"}, {"prompt": "3", "value": "Incredible"}, {"prompt": "4", "value": "Strong"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<p>The correct answer is: <b>Weak</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The word <strong>&quot;Authoritative&quot;</strong> refers to something or someone having authority, being commanding, reliable, or confident. It implies possession of power or influence. (प्रामाणिक, अधिकारपूर्ण)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The teacher has an authoritative tone that demands respect from the students.</li>\n\t</ul>\n\t</li>\n\t<li><strong>&quot;Weak&quot;</strong> is the opposite of authoritative, referring to someone or something lacking strength, power, or influence. (कमज़ोर)\n\t<ul>\n\t\t<li><strong>Example:</strong> His arguments were weak and failed to convince the audience.</li>\n\t</ul>\n\t</li>\n\t<li>Hence, the antonym of <strong>&#39;Authoritative&#39;</strong> is <strong>&#39;Weak&#39;</strong>.</li>\n</ul>\n\n<p>Therefore, the correct answer is: <strong>Weak</strong>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>Mutiny </strong>(<span style=\"color: rgb(33, 37, 41);\">विद्रोह</span>): A rebellion or uprising against authority.\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The sailors staged a mutiny against their captain.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Incredible </strong>(<span style=\"color: rgb(33, 37, 41);\">अविश्वसनीय</span>): Something so extraordinary that it is hard to believe.\n\t<ul>\n\t\t<li><strong>Example:</strong> The magician performed an incredible trick that amazed the audience.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Strong</strong> (<span style=\"color: rgb(33, 37, 41);\">मज़बूत</span>): Having great power, influence, or physical strength.\n\t<ul>\n\t\t<li><strong>Example:</strong> She has a strong character and never backs down from a challenge.</li>\n\t</ul>\n\t</li>\n</ul>\n\n36:Tba9,\n<div><span style=\"\">The correct answer is &#39;</span>&", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Antonym", "confidence": "high"}, {"qid": "6911c4bc01c3fa0555735ed8", "qs_no": 4, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><strong>Select the correct option:</strong></p>\n\n<p>Neither the detective&nbsp;___ the accomplices&nbsp;predicted&nbsp;the outburst.</p>\n", "options": [{"prompt": "1", "value": "nor"}, {"prompt": "2", "value": "or"}, {"prompt": "3", "value": "and"}, {"prompt": "4", "value": "nor did"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is &#39;</span><span style=\"color: rgb(33, 37, 41);\"><strong>nor</strong>&#39;</span><span style=\"\">.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle; font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The word <strong>&quot;nor&quot;</strong> is used in the sentence to connect two negative clauses effectively.</span></li>\n\t<li><span style=\"\">The sentence structure follows the correct parallelism: &quot;Neither the detective <strong>nor</strong> the accomplices predicted...&quot;</span></li>\n\t<li><span style=\"\"><strong>Option 1</strong> is correct, as it maintains the necessary grammatical parallelism.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 1</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Complete Sentence:</strong> <em>&quot;Neither the detective <u><strong>nor</strong></u> the accomplices predicted the outburst.&quot;</em></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle; font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 2:</strong> &quot;or&quot; is used to indicate alternatives, but the sentence requires a negative conjunction.</span></li>\n\t<li><span style=\"\"><strong>Option 3:</strong> &quot;and&quot; connects two positive ideas, which does not align with the sentence structure.</span></li>\n\t<li><span style=\"\"><strong>Option 4:</strong> &quot;nor did&quot; is unnecessary and changes the meaning of the sentence.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "6911c4bc09fc9ac4fc3a52d9", "qs_no": 5, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Identify the <strong>misspelt word</strong>", "options": [{"prompt": "1", "value": "Supercilious"}, {"prompt": "2", "value": "Prerequisite"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41); caret-color: rgba(0, 0, 0, 0);&quot;&gt;Assassination&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41); caret-color: rgba(0, 0, 0, 0);&quot;&gt;Priviledge&lt;/span&gt;"}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "\n<p>The correct answer is <strong>option 4.</strong></p>\n\n<p><span style=\"display: flex; gap: 6px; align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle; font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<p><strong>The misspelled word is &#39;Priviledge&#39;.</strong></p>\n\n<ul>\n\t<li><strong>The correct spelling would be &#39;Privilege&#39;.</strong></li>\n\t<li>The word &#39;<strong>Privilege</strong>&#39; is a <strong>noun</strong> which means &#39;a special right, advantage, or immunity granted or available only to a particular person or group&#39;. <strong>(विशेष अधिकार)</strong>\n\t<ul>\n\t\t<li><strong>For Example -</strong></li>\n\t\t<li>It is a privilege to serve my country.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Therefore, the correct answer would be <strong>&#39;Priviledge&#39;.</strong></p>\n\n<p><span style=\"display: flex; gap: 6px; align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle; font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p><strong>Let&rsquo;s understand the meanings of the other marked words -</strong></p>\n\n<ul>\n\t<li><strong>Supercilious -</strong> behaving or looking as though one thinks one is superior to others <strong>(घमंडी)</strong></li>\n\t<li><strong>Prerequisite -</strong> a thing that is required as a prior condition for something else to happen or exist <strong>(पूर्व आवश्यक)</strong></li>\n\t<li><strong>Assassination -</strong> the action of murdering someone <strong>(हत्या)</strong></li>\n</ul>\n\n38:T533,<p>The correct answer is<strong> option 1.", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Spelling", "confidence": "high"}, {"qid": "6911c4bc0b8c2e7814c1d79a", "qs_no": 6, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Spot the <strong>correct spelling</strong> of a drug-effect psychology field.", "options": [{"prompt": "1", "value": "Otorhinolaryngologist"}, {"prompt": "2", "value": "Otorhinolaryngeologist"}, {"prompt": "3", "value": "Ortorhinolaryngologist"}, {"prompt": "4", "value": "Otorhinolaryngologest"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "<p>The correct answer is<strong> option 1.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<p><strong>The", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Spelling", "confidence": "high"}, {"qid": "6911c4bd138ffa294ada5e0a", "qs_no": 7, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><strong>Select the correct option:</strong></p>\n\n<p>The decision&nbsp;will convene next Monday&nbsp;&nbsp;____ final approval is anticipated.</p>\n", "options": [{"prompt": "1", "value": "at which"}, {"prompt": "2", "value": "on which"}, {"prompt": "3", "value": "when"}, {"prompt": "4", "value": "whereupon"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is &#39;</span><span style=\"color: rgb(33, 37, 41);\"><strong>when</strong>&#39;</span><span style=\"\">.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle; font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The correct option &quot;<strong>when</strong>&quot; is used to indicate the time at which the decision will convene, aligning with the context of the sentence.</span></li>\n\t<li><span style=\"\">Option 1 (&quot;<strong>at which</strong>&quot;) and Option 2 (&quot;<strong>on which</strong>&quot;) are incorrect because they do not fit naturally in the sentence structure.</span></li>\n\t<li><span style=\"\">Option 4 (&quot;<strong>whereupon</strong>&quot;) is incorrect because it implies an immediate consequence, which is not suitable in this context.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Complete Sentence:</strong> <em>&quot;The decision will convene next Monday <strong><u>when </u></strong>final approval is anticipated.&quot;</em></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle; font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1: &quot;at which&quot;</strong> is incorrect because it does not align with the context of time reference.</span></li>\n\t<li><span style=\"\"><strong>Option 2: &quot;on which&quot;</strong> is incorrect as it refers to a specific date or day, which is not the intended meaning.</span></li>\n\t<li><span style=\"\"><strong>Option 4: &quot;whereupon&quot;</strong> is incorrect because it implies an immediate result rather than a time reference.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "6911c4bdbe0c8768b9c09f55", "qs_no": 8, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><b>Spot the error in the sentence.</b></p>\n\n<p>​Many instances that seem like cooperation&nbsp;(1)/ between&nbsp;government regulator&nbsp;and private sector&nbsp;(2)/ is, in truth,&nbsp;merely accidental interactions (3)/ arising from divergent responsibilities. (4)</p>\n", "options": [{"prompt": "1", "value": "(1)"}, {"prompt": "2", "value": "(2)"}, {"prompt": "3", "value": "(3)"}, {"prompt": "4", "value": "(4)"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /> <strong> <span style=\"vertical-align: middle;font-size: 21px;\"> <u>Key Points</u> </span> </strong> </span> </span></div>\n\n<ul>\n\t<li><span style=\"\">The error lies in <strong>subject&ndash;verb agreement</strong>. </span></li>\n\t<li><span style=\"\">The subject of the sentence is <strong>&quot;Many instances&quot;</strong>, which is plural. </span></li>\n\t<li><span style=\"\">A plural subject must take a plural verb, but the verb used is &quot;<strong>is</strong>&quot;, which is singular. </span></li>\n\t<li><span style=\"\">Therefore, &quot;<strong>is</strong>&quot; should be replaced with &quot;<strong>are</strong>.&quot; </span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 3</strong>. </span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em> &quot;Many instances that seem like cooperation between government regulator&nbsp;and private sector&nbsp;<strong>are</strong>, in truth, merely accidental interactions arising from divergent responsibilities.&quot; </em> </span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /> <strong> <span style=\"vertical-align: middle;font-size: 21px;\"> <u>Additional Information</u> </span> </strong> </span> </span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1:</strong> Grammatically correct phrase; no error. </span></li>\n\t<li><span style=\"\"><strong>Option 2:</strong> Usage of plural noun &quot;private sectors&quot; is acceptable in this context. </span></li>\n\t<li><span style=\"\"><strong>Option 4:</strong> Prepositional phrase is grammatically correct. </span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "6911c4bdefbd8407a95ca4a2", "qs_no": 9, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><strong>Select the correct option:</strong></p>\n\n<p>Only a transformative change has the power to ________ the deep-rooted bureaucratic stagnation.</p>\n", "options": [{"prompt": "1", "value": "pervasive"}, {"prompt": "2", "value": "dislodge"}, {"prompt": "3", "value": "persuasion"}, {"prompt": "4", "value": "inculcate"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is &#39;<strong>dislodge</strong>&#39;.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The word &quot;<strong>dislodge</strong>&quot; means to remove or force out of a position or place. (हटाना)</span></li>\n\t<li><span style=\"\">The sentence suggests that only a transformative change can remove or unsettle the deep-rooted bureaucratic stagnation effectively.</span></li>\n\t<li><span style=\"\">The other options: &quot;<strong>pervasive</strong>,&quot; &quot;<strong>persuasion</strong>,&quot; and &quot;<strong>inculcate</strong>&quot; do not fit the context appropriately.</span></li>\n</ul>\n\n<p><span style=\"\">​Therefore, the correct answer is &#39;<strong>Option 2</strong>&#39;.</span></p>\n\n<p><span style=\"\"><strong>Complete Sentence:</strong>&nbsp;</span><em>Only a transformative change has the power to <u><span style=\"font-weight: bolder;\">dislodge</span></u> the deep-rooted bureaucratic stagnation.</em></p>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Pervasive (व्यापक)</strong>: means spreading widely throughout an area or group.</span></li>\n\t<li><span style=\"\"><strong>Persuasion (प्रेरणा)</strong>: means the act of convincing someone to believe or do something.</span></li>\n\t<li><span style=\"\"><strong>Inculcate (मन में बैठाना)</strong>: means instilling an idea, attitude, or habit through repeated instruction.</span></li>\n</ul>\n\n3c:Tbfa,\n<div><span style=\"\">The cor", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Vocabulary", "confidence": "high"}, {"qid": "6911c4bea619968294567edb", "qs_no": 10, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><strong>Change the following from active to passive:</strong></p>\n\n<p><span style=\"color: (33, 37, 41); caret-color: a(0, 0, 0, 0);\">Researchers can seldom obtain classified laboratory data without approval.</span></p>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: (33, 37, 41); caret-color: a(0, 0, 0, 0);&quot;&gt;Classified laboratory data can seldom being obtained without approval.&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: (33, 37, 41); caret-color: a(0, 0, 0, 0);&quot;&gt;Classified laboratory data could seldom be obtained without approval.&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: (33, 37, 41); caret-color: a(0, 0, 0, 0);&quot;&gt;Classified laboratory data can seldom be obtained without approval.&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: (33, 37, 41); caret-color: a(0, 0, 0, 0);&quot;&gt;Classified laboratory data are seldom able to be obtained without approval.&lt;/span&gt;"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">Passive voice structure: The object of the active voice sentence becomes the subject of the passive voice sentence.</span></li>\n\t<li><span style=\"\">In the active voice, the sentence is: &quot;Researchers can seldom obtain classified laboratory data without approval.&quot;</span></li>\n\t<li><span style=\"\">To convert to passive voice: Place the object &quot;classified laboratory data&quot; at the beginning.</span></li>\n\t<li><span style=\"\">Change the active verb form &quot;can obtain&quot; to &quot;can be obtained&quot; (modal verb passive).</span></li>\n\t<li><span style=\"\">Ensure the adverb &quot;seldom&quot; remains in the sentence for clarity.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1: </strong>&quot;Classified laboratory data can seldom being obtained without approval.&quot; &ndash; Incorrect usage of &quot;being.&quot;</span></li>\n\t<li><span style=\"\"><strong>Option 2: </strong>&quot;Classified laboratory data could seldom be obtained without approval.&quot; &ndash; Incorrect modal verb &quot;could&quot; instead of &quot;can.&quot;</span></li>\n\t<li><span style=\"\"><strong>Option 4: </strong>&quot;Classified laboratory data are seldom able to be obtained without approval.&quot; &ndash; Incorrect phrasing &quot;are seldom able to be obtained.&quot;</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "6911c4bea619968294567edd", "qs_no": 11, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><strong>Select the sentence containing the homonym of the highlighted word:</strong></p>\n\n<p>The king&#39;s <strong>gules </strong>hegemonised&nbsp;the family coat of arms.</p>\n", "options": [{"prompt": "1", "value": "The exorbitant hall featured gules and argent prominently."}, {"prompt": "2", "value": "The cook prepared a sauce of deep gules and cumin."}, {"prompt": "3", "value": "The gules border symbolised martial lineage."}, {"prompt": "4", "value": "The hermit explained the symbolism of gules to the followers."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p>The correct answer is: <b>Option 2</b> i.e. <b>The cook prepared a sauce of deep gules and cumin.</b></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The word <strong>&ldquo;gules&rdquo;</strong> in heraldry means the color <strong>red</strong>, especially a deep red color used on coats of arms. (लाल रंग)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The family crest displayed a lion on a field of gules, representing bravery and valor.</li>\n\t</ul>\n\t</li>\n\t<li>In the correct option, <strong>&ldquo;gules&rdquo;</strong> is used as a homonym referring to <strong>&ldquo;gul&rdquo;</strong> (a word that sounds similar but is unrelated in meaning). It humorously implies a deep red sauce, showing the use of &ldquo;gules&rdquo; as a color reference outside heraldry. (सॉस का लाल रंग)\n\t<ul>\n\t\t<li><strong>Example:</strong> The chef added paprika to give the dish a gules hue that made it look appetizing.</li>\n\t</ul>\n\t</li>\n\t<li>Hence, the sentence that contains the homonymic use of the word &ldquo;gules&rdquo; is Option 2.</li>\n</ul>\n\n<p>Therefore, the correct answer is: <strong>The cook prepared a sauce of deep gules and cumin.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>Option 1:</strong> &ldquo;The exorbitant hall featured gules and argent prominently.&rdquo; &ndash; Correctly uses &ldquo;gules&rdquo; in the heraldic sense (लाल रंग), not as a homonym.\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The knight&rsquo;s banner was divided into gules and argent.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Option 3:</strong> &ldquo;The gules border symbolised martial lineage.&rdquo; &ndash; Again, &ldquo;gules&rdquo; is used in its original heraldic sense, meaning red (लाल रंग).\n\t<ul>\n\t\t<li><strong>Example:</strong> The shield with a gules border denoted courage.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Option 4:</strong> &ldquo;The hermit explained the symbolism of gules to the followers.&rdquo; &ndash; Refers to heraldic symbolism (लाल रंग का प्रतीक), not a homonym.\n\t<ul>\n\t\t<li><strong>Example:</strong> The hermit taught that gules symbolises bravery and sacrifice.</li>\n\t</ul>\n\t</li>\n</ul>\n\n3e:T70c,\n<div><span style=\"\">The correct answer is <strong&", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Vocabulary", "confidence": "high"}, {"qid": "6911c4bebe0c8768b9c09f58", "qs_no": 12, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><b>Spot the error in the sentence:</b></p>\n\n<p>That the architecture omits mechanisms for retroactive interoperability (1)/ is of lesser consequence than the presumption (2)/ that every ancillary apparatus will, absent compulsion, (3)/ adheres to the principal edict in its prescribed form. (4)</p>\n", "options": [{"prompt": "1", "value": "(1)"}, {"prompt": "2", "value": "(2)"}, {"prompt": "3", "value": "(3)"}, {"prompt": "4", "value": "(4)"}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 4</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The primary issue in the sentence lies in part 4. The verb &quot;<strong>adheres</strong>&quot; is incorrectly used and does not align with the subject &quot;every ancillary apparatus.&quot;</span></li>\n\t<li><span style=\"\">The subject &quot;every ancillary apparatus&quot; is singular, and the verb should be in its base form (&quot;<strong>adhere</strong>&quot;) to match the modal verb &quot;<strong>will</strong>.&quot;</span></li>\n\t<li><span style=\"\">Modal verbs like &quot;will&quot; are followed by the base form of the verb without any suffix (&quot;s&quot; or &quot;es&quot;).</span></li>\n\t<li><span style=\"\">Thus, the error is located in <strong>part 4</strong> of the sentence.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 4</strong>.</span></div>\n\n<div>&nbsp;</div>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "6911c4bf2d9cf950bf525848", "qs_no": 13, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>Choose the most suitable option to replace the highlighted part of the sentence:</p>\n\n<p>No sooner had I reached the stop&nbsp;<strong>when the bus left.</strong></p>\n", "options": [{"prompt": "1", "value": "than the bus left"}, {"prompt": "2", "value": "then the bus left"}, {"prompt": "3", "value": "when the bus had left"}, {"prompt": "4", "value": "than did the bus left"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 1</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The highlighted part of the sentence &quot;when the bus left&quot; is incorrect because it does not follow the appropriate structure for &quot;No sooner...&quot; clauses.</span></li>\n\t<li><span style=\"\">The correct structure is &quot;No sooner... than&quot; to indicate two events happening immediately after each other.</span></li>\n\t<li><span style=\"\">Thus, &quot;than the bus left&quot; is the appropriate replacement to ensure grammatical accuracy.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 1</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>&quot;No sooner had I reached the stop than the bus left.&quot;</em></span></div>\n\n<div>&nbsp;</div>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "6911c4bf4228ad42b5645c23", "qs_no": 14, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>Choose the most suitable option to replace the highlighted part of the sentence:</p>\n\n<p>The boss&nbsp;<strong>asked to the reportee&nbsp;to submit the document</strong>.</p>\n", "options": [{"prompt": "1", "value": "asked the reportee that submit the document"}, {"prompt": "2", "value": "requested the reportee to submit document"}, {"prompt": "3", "value": "asked the reportee to submit the document"}, {"prompt": "4", "value": "told to the reportee submit document"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The phrase &quot;asked to the reportee&quot; is incorrect due to the inclusion of &quot;to&quot; after &quot;asked.&quot; The verb &quot;ask&quot; does not take &quot;to&quot; when followed by a direct object.</span></li>\n\t<li><span style=\"\">The correct construction should be &quot;asked the reportee to submit the document,&quot; which is grammatically accurate.</span></li>\n\t<li><span style=\"\">Option 3 provides the correct replacement, as it eliminates the unnecessary &quot;to&quot; and ensures proper sentence structure.</span></li>\n\t<li><span style=\"\">Other options either have incorrect grammar or fail to convey the intended meaning appropriately.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>&quot;The boss asked the reportee to submit the document.&quot;</em></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1:</strong> &quot;asked the reportee that submit the document&quot; &ndash; Incorrect because &quot;that submit&quot; is grammatically wrong.</span></li>\n\t<li><span style=\"\"><strong>Option 2:</strong> &quot;requested the reportee to submit document&quot; &ndash; Incorrect because while &quot;requested&quot; can be used, the original sentence specifies &quot;asked.&quot; Additionally, &quot;document&quot; should ideally have an article (e.g., &quot;the document&quot;).</span></li>\n\t<li><span style=\"\"><strong>Option 4:</strong> &quot;told to the reportee submit document&quot; &ndash; Incorrect because &quot;told to&quot; is not the correct grammatical structure.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "6911c4bfc17e5b59cce8898a", "qs_no": 15, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><strong>Convert the sentence provided below from its passive voice structure to an active voice structure:</strong></p>\n\n<p>Lunch is delivered to the office every morning.</p>\n", "options": [{"prompt": "1", "value": "The office delivers the lunch every morning."}, {"prompt": "2", "value": "Someone delivers the lunch to the office every morning."}, {"prompt": "3", "value": "The office has delivered the lunch every morning."}, {"prompt": "4", "value": "The lunch delivers itself to the office every morning."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">Passive voice structure: The object of the active voice sentence becomes the subject of the passive voice sentence.</span></li>\n\t<li><span style=\"\">In the passive sentence provided: &quot;Lunch is delivered to the office every morning.&quot;</span></li>\n\t<li><span style=\"\">To convert to active voice: Identify the implied subject &quot;someone&quot; who performs the action.</span></li>\n\t<li><span style=\"\">Reconstruct the sentence: &quot;Someone delivers the lunch to the office every morning.&quot;</span></li>\n\t<li><span style=\"\">Ensure the tense and meaning remain consistent during the conversion.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>&quot;Someone delivers the lunch to the office every morning.&quot;</em></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1: </strong>&quot;The office delivers the lunch every morning.&quot; &ndash; Incorrect subject (the office cannot deliver lunch).</span></li>\n\t<li><span style=\"\"><strong>Option 3: </strong>&quot;The office has delivered the lunch every morning.&quot; &ndash; Incorrect tense and subject.</span></li>\n\t<li><span style=\"\"><strong>Option 4: </strong>&quot;The lunch delivers itself to the office every morning.&quot; &ndash; Illogical and incorrect.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "6911c4c0486400866ea896fa", "qs_no": 16, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><strong>A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.</strong></p>\n\n<p>The teacher&nbsp;said that discipline&nbsp;must be maintained in the classroom.</p>\n", "options": [{"prompt": "1", "value": "&amp;quot;Discipline should be maintained in the classroom,&amp;quot; said the teacher."}, {"prompt": "2", "value": "&amp;quot;You will maintain discipline in the classroom,&amp;quot; the teacher said."}, {"prompt": "3", "value": "&amp;quot;Maintain discipline in the classroom,&amp;quot; said the teacher."}, {"prompt": "4", "value": "&amp;quot;Must you maintain discipline in the classroom?&amp;quot; asked the teacher."}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Indirect Speech:</strong> The teacher said that discipline must be maintained in the classroom.</span></li>\n\t<li><span style=\"\"><strong>Key Conversions:</strong></span>\n\t<ul>\n\t\t<li><strong>&quot;discipline must be maintained&quot; becomes &quot;Maintain discipline&quot;</strong>\n\t\t<ul>\n\t\t\t<li>The directive &quot;must be maintained&quot; is turned into a direct imperative sentence starting with the verb &quot;Maintain.&quot;</li>\n\t\t</ul>\n\t\t</li>\n\t\t<li><strong>Reporting verb:</strong>\n\t\t<ul>\n\t\t\t<li>Indirect: &quot;The teacher said&quot;</li>\n\t\t\t<li>Converted to direct speech: &quot;said the teacher&quot; placed at the end of the sentence.</li>\n\t\t</ul>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\"><strong>Punctuation and Format:</strong></span>\n\t<ul>\n\t\t<li>Direct speech is enclosed in quotation marks.</li>\n\t\t<li>Starts with a capital letter &quot;Maintain&quot; and ends with a period &quot;.&quot;</li>\n\t\t<li>Reporting clause follows the quoted speech, starting with a lowercase letter after the comma.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>&quot;Maintain discipline in the classroom,&quot; said the teacher.</em></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1:</strong> &quot;Discipline should be maintained in the classroom,&quot; said the teacher.</span>\n\n\t<ul>\n\t\t<li><span style=\"\">Using &quot;should&quot; instead of &quot;must&quot; changes the level of obligation or necessity implied in the sentence.</span></li>\n\t</ul>\n\t<span style=\"\"> </span></li>\n\t<li><span style=\"\"><strong>Option 2:</strong> &quot;You will maintain discipline in the classroom,&quot; the teacher said.</span>\n\t<ul>\n\t\t<li><span style=\"\">Incorrectly uses &quot;will&quot; which changes the meaning to a future obligation rather than a directive for immediate action.</span></li>\n\t</ul>\n\t<span style=\"\"> </span></li>\n\t<li><span style=\"\"><strong>Option 4:</strong> &quot;Must you maintain discipline in the classroom?&quot; asked the teacher.</span>\n\t<ul>\n\t\t<li><span style=\"\">Changes the sentence into a question, which alters the original meaning from a directive to a query.</span></li>\n\t</ul>\n\t</li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "6911c4c0c888dc461e28781d", "qs_no": 17, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><strong>A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.</strong></p>\n\n<p>He said, &quot;I saw him last week.&quot;</p>\n", "options": [{"prompt": "1", "value": "He said that he had seen him the previous week."}, {"prompt": "2", "value": "He said &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;that&amp;nbsp;&lt;/span&gt;he has seen him last week."}, {"prompt": "3", "value": "He said &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;that&amp;nbsp;&lt;/span&gt;he was seeing him last week."}, {"prompt": "4", "value": "He said &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;that&amp;nbsp;&lt;/span&gt;he had saw him the previous week."}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 1</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><strong>Direct Speech:</strong> He said, &quot;I saw him last week.&quot;</li>\n\t<li><strong>Rule for Conversion:</strong> When changing from direct to indirect speech:\n\t<ul>\n\t\t<li>The past simple tense (<em>saw</em>) changes to past perfect tense (<em>had seen</em>).</li>\n\t\t<li>Time expressions also change:\n\t\t<ul>\n\t\t\t<li>&quot;last week&quot; &rarr; &quot;the previous week&quot;</li>\n\t\t</ul>\n\t\t</li>\n\t\t<li>Quotation marks are removed and the conjunction <em>that</em> is added after the reporting verb.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Converted Sentence:</strong> He said that he had seen him the previous week.</li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 1</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>He said that he had seen him the previous week.</em></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><strong>Option 2:</strong> He said that he has seen him last week.\n\n\t<ul>\n\t\t<li>Incorrect because the reporting verb <em>said</em> is in the past, so the tense inside the reported speech should be in past perfect, not present perfect.</li>\n\t\t<li>Also, &quot;last week&quot; should be changed to &quot;the previous week.&quot;</li>\n\t</ul>\n\t</li>\n\t<li><strong>Option 3:</strong> He said that he was seeing him last week.\n\t<ul>\n\t\t<li>Incorrect because the tense changes the meaning &mdash; it implies continuous action instead of a completed past action.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Option 4:</strong> He said that he had saw him the previous week.\n\t<ul>\n\t\t<li>Grammatically incorrect because &quot;had saw&quot; is wrong; the correct past perfect form is &quot;had seen.&quot;</li>\n\t</ul>\n\t</li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "6911c4c101c3fa0555735f2d", "qs_no": 18, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><strong>Rearrange the following sentences to form a coherent paragraph:</strong></p>\n\n<p>1. Therefore, successful communication depends on factors beyond mere word selection.</p>\n\n<p>2. Elements like vocal tone, facial expressions, and physical gestures frequently transmit greater significance than spoken language alone.</p>\n\n<p>3. Communication constitutes an intricate interaction through which individuals share information, thoughts, and emotions.</p>\n\n<p>4. Often, it is the nuanced indicators that reveal the genuine intent or reception of a message.</p>\n", "options": [{"prompt": "1", "value": "3, 2, 1, 4"}, {"prompt": "2", "value": "2, 4, 1, 3"}, {"prompt": "3", "value": "1, 4, 3, 2"}, {"prompt": "4", "value": "3, 4, 2, 1"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 1</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The paragraph begins by explaining the nature of communication, highlighting its intricate components.</span></li>\n\t<li><span style=\"\"><strong>Sentence 3 is the first sentence</strong> as it introduces the concept of communication:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;Communication constitutes an intricate interaction through which individuals share information, thoughts, and emotions.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\"><strong>Sentence 2 follows</strong> as it elaborates on the elements contributing to communication:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;Elements like vocal tone, facial expressions, and physical gestures frequently transmit greater significance than spoken language alone.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\"><strong>Sentence 1 comes next</strong> as it emphasizes the importance of factors beyond word selection:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;Therefore, successful communication depends on factors beyond mere word selection.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\"><strong>Sentence 4 concludes</strong> by discussing the role of nuanced indicators in understanding messages:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;Often, it is the nuanced indicators that reveal the genuine intent or reception of a message.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\">The correct sequence is <strong>3, 2, 1, 4</strong>.</span></li>\n</ul>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Coherent paragraph after rearrangement</strong>:</span></div>\n\n<div><span style=\"\">&quot;Communication constitutes an intricate interaction through which individuals share information, thoughts, and emotions. Elements like vocal tone, facial expressions, and physical gestures frequently transmit greater significance than spoken language alone. Therefore, successful communication depends on factors beyond mere word selection. Often, it is the nuanced indicators that reveal the genuine intent or reception of a message.&quot;</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\">Note:&nbsp;</span>This is a PYP question, and the official answer key has marked (correct option) as the correct answer, hence we cannot make any changes to it.</div>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Para Jumbles", "confidence": "high"}, {"qid": "6911c4c101c3fa0555735f49", "qs_no": 19, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "An individual who refrains from every kind of pleasure or self-gratification.", "options": [{"prompt": "1", "value": "Ascetic"}, {"prompt": "2", "value": "Misogynist"}, {"prompt": "3", "value": "Mythical"}, {"prompt": "4", "value": "Sceptical"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<p>The correct answer is: <b>Ascetic</b>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p>\n\n<ul>\n\t<li>The word <strong>&quot;Ascetic&quot;</strong> refers to a person who practices severe self-discipline and abstention from all forms of indulgence, typically for religious reasons. (संयासी)\n\n\t<ul>\n\t\t<li><strong>Example:</strong> The monk lived an ascetic life, dedicating himself to meditation and prayer while avoiding all worldly pleasures.</li>\n\t</ul>\n\t</li>\n\t<li>An <strong>&quot;Ascetic&quot;</strong> is characterized by a lifestyle of simplicity and often involves the renunciation of material possessions and sensory pleasures. (त्यागी)\n\t<ul>\n\t\t<li><strong>Example:</strong> His ascetic lifestyle was driven by his desire for spiritual enlightenment.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Therefore, the correct answer is: <strong>Ascetic</strong>.</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p>Here are the other options explained along with their Hindi meanings and example sentences:</p>\n\n<ul>\n\t<li><strong>Misogynist</strong> (स्त्रीद्वेषी): A person who dislikes, despises, or is strongly prejudiced against women.\n\n\t<ul>\n\t\t<li><strong>Example:</strong> His comments about women made him sound like a misogynist.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Mythical</strong> (पौराणिक): Something that exists only in myths or folklore; not real.\n\t<ul>\n\t\t<li><strong>Example:</strong> The story of the phoenix is a well-known mythical tale.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Sceptical</strong> (संदेहवादी): Having doubts or reservations about something; not easily convinced.\n\t<ul>\n\t\t<li><strong>Example:</strong> She was sceptical about the success of the new business plan.</li>\n\t</ul>\n\t</li>\n</ul>\n\n46:Te48,\n<div><span style=\"\">The correct answer is <s", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Vocabulary", "confidence": "high"}, {"qid": "6911c4c1c888dc461e287820", "qs_no": 20, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><strong>Rearrange the following sentences to form a coherent paragraph:</strong></p>\n\n<p>1. An essential approach involves broadening the mix of energy supplies, moving away from fossil fuels toward sustainable options such as solar, wind, and geothermal energy.</p>\n\n<p>2. In order to counter the most severe consequences of climate change, nations worldwide must significantly curtail their dependence on high-carbon power generation.</p>\n\n<p>3. This transition not only cuts down on greenhouse gas output but also enhances air quality and opens avenues for fresh economic growth.</p>\n\n<p>4. Moreover, initiatives that encourage efficient energy use in infrastructure and transportation can further reduce total energy demand.</p>\n", "options": [{"prompt": "1", "value": "2, 1, 3, 4"}, {"prompt": "2", "value": "1, 2, 3, 4"}, {"prompt": "3", "value": "4, 1, 2, 3"}, {"prompt": "4", "value": "2, 3, 1, 4"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 1</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The paragraph discusses the measures required to combat climate change, focusing on transitioning to sustainable energy options and reducing energy demand.</span></li>\n\t<li><span style=\"\"><strong>Sentence 2 is the first sentence</strong> as it introduces the primary goal:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;In order to counter the most severe consequences of climate change, nations worldwide must significantly curtail their dependence on high-carbon power generation.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\"><strong>Sentence 1 follows</strong> as it elaborates on the essential approach to achieving this goal:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;An essential approach involves broadening the mix of energy supplies, moving away from fossil fuels toward sustainable options such as solar, wind, and geothermal energy.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\"><strong>Sentence 3 is the third sentence</strong> because it explains the benefits of this transition:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;This transition not only cuts down on greenhouse gas output but also enhances air quality and opens avenues for fresh economic growth.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\"><strong>Sentence 4 is the fourth</strong> as it highlights additional initiatives to further reduce energy demand:</span>\n\t<ul>\n\t\t<li><span style=\"\">&quot;Moreover, initiatives that encourage efficient energy use in infrastructure and transportation can further reduce total energy demand.&quot;</span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"\">The correct sequence is <strong>2, 1, 3, 4</strong>.</span></li>\n</ul>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Coherent paragraph after rearrangement</strong>:</span></div>\n\n<div><span style=\"\">&quot;In order to counter the most severe consequences of climate change, nations worldwide must significantly curtail their dependence on high-carbon power generation. An essential approach involves broadening the mix of energy supplies, moving away from fossil fuels toward sustainable options such as solar, wind, and geothermal energy. This transition not only cuts down on greenhouse gas output but also enhances air quality and opens avenues for fresh economic growth. Moreover, initiatives that encourage efficient energy use in infrastructure and transportation can further reduce total energy demand.&quot;</span></div>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Para Jumbles", "confidence": "high"}, {"qid": "6911c56550700ce65364e22e", "qs_no": 21, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><span style=\"\">What factor is attributed to elevating marginalized voices through social media in the passage?</span></p>\n", "options": [{"prompt": "1", "value": "Editorial boards"}, {"prompt": "2", "value": "Gatekeeping journalism"}, {"prompt": "3", "value": "Viral reach and grassroots mobilization"}, {"prompt": "4", "value": "Institutional press"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong> i.e. <strong>Viral reach and grassroots mobilization</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The passage highlights that social media platforms like Twitter and Facebook allow grassroots initiatives to use <strong>viral content</strong> to draw attention to underrepresented or marginalized voices.</span></li>\n\t<li><span style=\"\">This viral reach enables these groups to bypass traditional media filters and reach a wide audience directly.</span></li>\n\t<li><span style=\"\">The passage contrasts this with older forms of media that required <strong>editorial mediation</strong>, emphasizing that social media democratizes communication.</span></li>\n\t<li><span style=\"\">Hence, it is the <strong>viral reach and grassroots mobilization</strong> that elevate marginalized voices and foster civic engagement.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Viral reach and grassroots mobilization</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1: Editorial boards</strong> &ndash; These refer to traditional gatekeepers in print or broadcast media who decide what content gets published. The passage explicitly states that social media reduces such mediation.</span></li>\n\t<li><span style=\"\"><strong>Option 2: Gatekeeping journalism</strong> &ndash; This limits information flow through traditional channels, which social media helps overcome.</span></li>\n\t<li><span style=\"\"><strong>Option 4: Institutional press</strong> &ndash; Refers to established media houses that may not always represent marginalized voices due to bias or limited coverage.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Voice", "confidence": "high"}, {"qid": "6911c56550700ce65364e22f", "qs_no": 22, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><span style=\"\">How does social media primarily contribute to democracy according to the passage?</span></p>\n", "options": [{"prompt": "1", "value": "Promoting entertainment"}, {"prompt": "2", "value": "Replacing newspapers"}, {"prompt": "3", "value": "Facilitating free flow of information"}, {"prompt": "4", "value": "Organizing trade unions"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong> i.e. <strong>Facilitating free flow of information</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">According to the passage, democracy relies on the <strong>free exchange of information</strong>, which social media facilitates by breaking down traditional barriers.</span></li>\n\t<li><span style=\"\">Social media platforms like Twitter, Facebook, and Instagram enable people to <strong>voice their opinions, participate in discussions, and hold authorities accountable</strong>.</span></li>\n\t<li><span style=\"\">This open and direct communication promotes <strong>civic empowerment</strong> and strengthens democratic participation.</span></li>\n\t<li><span style=\"\">Hence, social media primarily contributes to democracy by <strong>facilitating the free flow of information</strong>.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 3</strong> i.e. <strong>Facilitating free flow of information</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1: Promoting entertainment</strong> &ndash; While social media offers entertainment, the passage emphasizes its role in <strong>political dialogue and democratic participation</strong>, not entertainment.</span></li>\n\t<li><span style=\"\"><strong>Option 2: Replacing newspapers</strong> &ndash; The passage does not suggest that social media replaces newspapers but rather that it expands participation beyond traditional media.</span></li>\n\t<li><span style=\"\"><strong>Option 4: Organizing trade unions</strong> &ndash; This is not mentioned as a primary democratic function of social media in the passage.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "6911c56550700ce65364e230", "qs_no": 23, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><span style=\"\">Why is social media described as having a dual nature in democratic contexts?</span></p>\n", "options": [{"prompt": "1", "value": "Its affordability"}, {"prompt": "2", "value": "Its visual design"}, {"prompt": "3", "value": "Its ability to spread both truth and misinformation"}, {"prompt": "4", "value": "Its international reach"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong> i.e. <strong>Its ability to spread both truth and misinformation.</strong></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">Social media is described as having a <strong>dual nature</strong> in democratic contexts because it plays both a positive and negative role in shaping democracy.</span></li>\n\t<li><span style=\"\">It acts as a tool for <strong>civic empowerment</strong> by allowing people to share information, voice opinions, and hold authorities accountable.</span></li>\n\t<li><span style=\"\">However, the same platforms also spread <strong>false information, propaganda, and deception</strong>, which can harm democratic integrity.</span></li>\n\t<li><span style=\"\">Thus, social media simultaneously strengthens and weakens democracy by spreading both truth and misinformation.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 3</strong> i.e. <strong>Its ability to spread both truth and misinformation.</strong></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1 &ndash; Its affordability:</strong> Although social media is accessible and inexpensive, affordability is not the reason for its dual nature.</span></li>\n\t<li><span style=\"\"><strong>Option 2 &ndash; Its visual design:</strong> The visual layout or design does not influence the dual impact of social media on democracy.</span></li>\n\t<li><span style=\"\"><strong>Option 4 &ndash; Its international reach:</strong> While social media connects people globally, this characteristic does not explain its contradictory influence on truth and falsehood.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "6911c56550700ce65364e231", "qs_no": 24, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><span style=\"\">What does the author propose as key measures to address the challenges of social media in democracies?</span></p>\n", "options": [{"prompt": "1", "value": "Enhanced meme culture"}, {"prompt": "2", "value": "Legalizing all content"}, {"prompt": "3", "value": "Algorithmic transparency and media literacy"}, {"prompt": "4", "value": "Global censorship policies"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong> i.e. <strong>Algorithmic transparency and media literacy</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The author highlights that while social media supports democracy through open dialogue and participation, it also poses threats such as misinformation, manipulation, and echo chambers.</span></li>\n\t<li><span style=\"\">To counter these challenges, the passage emphasizes the need for <strong>effective regulation</strong>, <strong>enhanced media literacy</strong>, and <strong>transparency in algorithms</strong>.</span></li>\n\t<li><span style=\"\">These measures ensure that users can critically analyze information, understand how online content is filtered, and prevent the spread of false or manipulative information.</span></li>\n\t<li><span style=\"\">Thus, promoting algorithmic transparency and media literacy helps in leveraging social media&rsquo;s democratic advantages while minimizing its harmful effects.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Algorithmic transparency and media literacy</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1 &ndash; Enhanced meme culture:</strong> (मज़ेदार छवियों की संस्कृति को बढ़ाना) This does not address misinformation or ethical challenges; it only increases entertainment value.</span></li>\n\t<li><span style=\"\"><strong>Option 2 &ndash; Legalizing all content:</strong> (सभी सामग्री को वैध बनाना) This would worsen problems by allowing harmful, false, or extremist content to spread unchecked.</span></li>\n\t<li><span style=\"\"><strong>Option 4 &ndash; Global censorship policies:</strong> (वैश्विक सेंसरशिप नीतियाँ) Over-censorship could restrict free speech and democratic participation, contrary to the spirit of democracy.</span></li>\n</ul>\n\n4b:Tc43,\n<div><span style=\"\">The correct answer is <strong>Option 3</strong> i.e. <strong>Societal inten", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "6911c56550700ce65364e232", "qs_no": 25, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><span style=\"\">According to the author, what influences whether social media acts to sustain or weaken democracy?</span></p>\n", "options": [{"prompt": "1", "value": "Political advertisements"}, {"prompt": "2", "value": "How platforms are funded"}, {"prompt": "3", "value": "Societal intent and ethical usage"}, {"prompt": "4", "value": "Popularity of influencers"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong> i.e. <strong>Societal intent and ethical usage</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The passage highlights that social media&rsquo;s impact on democracy depends on how responsibly it is used by society, institutions, and platforms.</span></li>\n\t<li><span style=\"\">The author states that its effect&mdash;whether strengthening or weakening democracy&mdash;relies on collective ethical conduct and societal intent.</span></li>\n\t<li><span style=\"\">This means that moral values, responsible behavior, and integrity in using social media are central to preserving democratic ideals.</span></li>\n\t<li><span style=\"\">Thus, the author attributes the role of social media in democracy not to its technical design alone but to ethical and responsible usage by people.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Societal intent and ethical usage</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1 &ndash; Political advertisements:</strong> The passage does not mention political advertisements as the deciding factor; they may influence opinions but not the core democratic balance.</span></li>\n\t<li><span style=\"\"><strong>Option 2 &ndash; How platforms are funded:</strong> While funding may affect operations, the author focuses more on ethical and responsible behavior rather than financial structures.</span></li>\n\t<li><span style=\"\"><strong>Option 4 &ndash; Popularity of influencers:</strong> Influencer popularity can shape trends, but it is not presented as the determinant of democracy&rsquo;s strength or weakness in the passage.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}]}]}</script>
+<script>
+const TEST_DATA = JSON.parse(document.getElementById('test-data').textContent);
+const TOTAL_Q = 25;
+const DURATION_SEC = 0 * 60;
+
+// State
+let currentSectionIdx = 0;
+let currentQIdx = 0;  // global across sections
+let currentLang = 'en';
+let answers = {};  // qid -> selected option prompt
+let marked = {};   // qid -> true
+let visited = new Set();
+let submitted = false;
+let timeLeft = DURATION_SEC;
+let timerInterval = null;
+
+// Flatten all questions for easy indexing
+const allQuestions = [];
+TEST_DATA.sections.forEach((s, sIdx) => {
+  s.questions.forEach(q => {
+    allQuestions.push({...q, sectionIdx: sIdx, sectionName: s.section_name});
+  });
+});
+
+function init() {
+  // Render section tabs
+  const sectionTabs = document.getElementById('sectionTabs');
+  TEST_DATA.sections.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'section-tab' + (i === 0 ? ' active' : '');
+    tab.textContent = s.section_name + ' (' + s.questions.length + ')';
+    tab.onclick = () => switchSection(i);
+    sectionTabs.appendChild(tab);
+  });
+  // Render palette
+  renderPalette();
+  // Render first question
+  renderQuestion();
+  // Start timer
+  startTimer();
+  // Update stats
+  updateStats();
+}
+
+function startTimer() {
+  if (DURATION_SEC <= 0) {
+    // No time limit — show "No Limit" instead of a countdown
+    document.getElementById('timer').textContent = 'No Limit';
+    document.getElementById('timer').classList.add('no-limit');
+    return;
+  }
+  timerInterval = setInterval(() => {
+    if (submitted) return;
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      submitTest();
+    }
+  }, 1000);
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeLeft / 3600);
+  const m = Math.floor((timeLeft % 3600) / 60);
+  const s = timeLeft % 60;
+  const display = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  const timerEl = document.getElementById('timer');
+  timerEl.textContent = display;
+  if (timeLeft < 60) {
+    timerEl.className = 'timer danger';
+  } else if (timeLeft < 300) {
+    timerEl.className = 'timer warning';
+  }
+}
+
+function renderQuestion() {
+  const q = allQuestions[currentQIdx];
+  if (!q) return;
+  visited.add(q.qid);
+  // Update section tab
+  currentSectionIdx = q.sectionIdx;
+  document.querySelectorAll('.section-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSectionIdx);
+  });
+  document.getElementById('currentSectionLabel').textContent = q.sectionName;
+  // Question header — includes Q number, marks, concept, confidence, and question ID
+  document.getElementById('qNum').textContent = 'Q' + (currentQIdx + 1);
+  let headerExtras = '<span class="mark-pos">+' + q.pos_marks + '</span><span class="mark-neg">-' + q.neg_marks + '</span>';
+  // Concept + confidence (from AI classifier — same as AI JSON)
+  const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+  const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+  const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+  headerExtras += '<span class="q-concept" title="Concept category">🎯 ' + concept + '</span>';
+  headerExtras += '<span class="q-confidence ' + confClass + '" title="Classifier confidence">conf: ' + confidence + '</span>';
+  // Question ID (unique per question, useful for cross-test matching)
+  headerExtras += '<span class="q-id" title="Question ID (unique across all tests)">ID: ' + q.qid + '</span>';
+  document.getElementById('qMarks').innerHTML = headerExtras;
+  // Language tabs
+  const langTabs = document.getElementById('qLangTabs');
+  langTabs.innerHTML = '';
+  const availableLangs = Object.keys(q.langs);
+  const showLangs = ['en','hn','te','mr','bn','ml','gu','kn','ta','or'].filter(l => availableLangs.includes(l));
+  if (showLangs.length > 1) {
+    showLangs.forEach((l, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'q-lang-tab' + (l === currentLang ? ' active' : '');
+      btn.textContent = {en:'English',hn:'Hindi',te:'Telugu',mr:'Marathi',bn:'Bengali',ml:'Malayalam',gu:'Gujarati',kn:'Kannada',ta:'Tamil',or:'Odia'}[l] || l;
+      btn.onclick = () => { currentLang = l; renderQuestion(); };
+      langTabs.appendChild(btn);
+    });
+  }
+  // Question text
+  const langData = q.langs[currentLang] || q.langs[availableLangs[0]] || {};
+  document.getElementById('qText').innerHTML = langData.value || '(no question text)';
+  // Options
+  const optsList = document.getElementById('optionsList');
+  optsList.innerHTML = '';
+  (langData.options || []).forEach(opt => {
+    const li = document.createElement('li');
+    li.className = 'option-item' + (answers[q.qid] === opt.prompt ? ' selected' : '');
+    li.innerHTML = '<span class="option-label">' + opt.prompt + '</span><span class="option-text">' + opt.value + '</span>';
+    li.onclick = () => selectOption(q.qid, opt.prompt);
+    optsList.appendChild(li);
+  });
+  // Update palette
+  renderPalette();
+  updateStats();
+}
+
+function selectOption(qid, prompt) {
+  if (submitted) return;
+  if (answers[qid] === prompt) {
+    delete answers[qid];
+  } else {
+    answers[qid] = prompt;
+  }
+  renderQuestion();
+}
+
+function saveNext() {
+  nextQuestion();
+}
+
+function markReviewNext() {
+  const q = allQuestions[currentQIdx];
+  marked[q.qid] = true;
+  nextQuestion();
+}
+
+function clearResponse() {
+  const q = allQuestions[currentQIdx];
+  delete answers[q.qid];
+  renderQuestion();
+}
+
+function nextQuestion() {
+  if (currentQIdx < allQuestions.length - 1) {
+    currentQIdx++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQIdx > 0) {
+    currentQIdx--;
+    renderQuestion();
+  }
+}
+
+function jumpTo(idx) {
+  currentQIdx = idx;
+  renderQuestion();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function switchSection(idx) {
+  currentSectionIdx = idx;
+  // Find first question in this section
+  const qIdx = allQuestions.findIndex(q => q.sectionIdx === idx);
+  if (qIdx >= 0) {
+    currentQIdx = qIdx;
+    renderQuestion();
+  }
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const cell = document.createElement('div');
+    let cls = 'palette-cell ';
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) cls += 'marked-answered';
+    else if (isMarked) cls += 'marked';
+    else if (isAnswered) cls += 'answered';
+    else if (isVisited) cls += 'notanswered';
+    else cls += 'notvisited';
+    if (i === currentQIdx) cls += ' current';
+    cell.className = cls;
+    cell.textContent = (i + 1);
+    cell.onclick = () => jumpTo(i);
+    grid.appendChild(cell);
+  });
+}
+
+function updateStats() {
+  let answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) marked++;
+    else if (isMarked) marked++;
+    else if (isAnswered) answered++;
+    else if (isVisited) notAnswered++;
+    else notVisited++;
+  });
+  document.getElementById('paletteStats').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${notAnswered}</strong></div>
+    <div><span>Marked:</span><strong>${marked}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+  `;
+}
+
+function openSubmitModal() {
+  let answered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    if (answers[q.qid] !== undefined) answered++;
+    else if (marked[q.qid]) marked++;
+    else if (!visited.has(q.qid)) notVisited++;
+  });
+  document.getElementById('submitSummary').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${TOTAL_Q - answered - notVisited}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+    <div><span>Total:</span><strong>${TOTAL_Q}</strong></div>
+  `;
+  document.getElementById('submitModal').classList.add('open');
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('open');
+}
+
+function submitTest() {
+  submitted = true;
+  clearInterval(timerInterval);
+  closeSubmitModal();
+  // Calculate score
+  let score = 0, correct = 0, wrong = 0, skipped = 0;
+  allQuestions.forEach(q => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    if (userAns === undefined) {
+      skipped++;
+    } else if (userAns === correctAns) {
+      correct++;
+      score += q.pos_marks;
+    } else {
+      wrong++;
+      score -= q.neg_marks;
+    }
+  });
+  // Show results view
+  document.getElementById('testMode').style.display = 'none';
+  document.getElementById('resultsView').style.display = 'block';
+  document.getElementById('scoreCard').innerHTML = `
+    <div><span class="score">${score.toFixed(2)}</span><span class="total"> / ${TEST_DATA.max_marks || TOTAL_Q * 2}</span></div>
+    <div class="rank">Correct: ${correct} | Wrong: ${wrong} | Skipped: ${skipped}</div>
+    <div class="rank" style="margin-top:8px;">Accuracy: ${(correct + wrong > 0) ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0}%</div>
+  `;
+  // Render all questions with answers + solutions
+  renderAllQuestions();
+}
+
+function renderAllQuestions() {
+  const container = document.getElementById('resultsQuestions');
+  container.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    const isCorrect = userAns === correctAns;
+    const isWrong = userAns !== undefined && userAns !== correctAns;
+    const isSkipped = userAns === undefined;
+    const card = document.createElement('div');
+    card.className = 'result-card ' + (isCorrect ? 'correct' : isWrong ? 'wrong' : 'skipped');
+    const langData = q.langs[currentLang] || q.langs[Object.keys(q.langs)[0]] || {};
+    let optionsHtml = '';
+    (langData.options || []).forEach(opt => {
+      let cls = 'result-option';
+      if (opt.prompt === correctAns) cls += ' correct';
+      if (opt.prompt === userAns) cls += ' selected';
+      optionsHtml += `<li class="${cls}"><span class="result-option-label">${opt.prompt}</span><span>${opt.value}</span></li>`;
+    });
+    const sol = q.solution_html[currentLang] || q.solution_html['en'] || '';
+    const solHtml = sol ? `<div class="result-solution"><div class="result-solution-title">📖 Solution</div>${sol}</div>` : '';
+    let statusBadge = '';
+    if (isCorrect) statusBadge = '<span class="result-status correct">✓ Correct</span>';
+    else if (isWrong) statusBadge = '<span class="result-status wrong">✗ Wrong</span>';
+    else statusBadge = '<span class="result-status skipped">— Skipped</span>';
+    // Concept + confidence + question ID (same as AI JSON)
+    const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+    const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+    const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+    card.innerHTML = `
+      <div class="result-header">
+        <span class="result-q-num">Q${i + 1}</span>
+        ${statusBadge}
+        <span class="result-concept">🎯 ${concept}</span>
+        <span class="result-confidence ${confClass}">conf: ${confidence}</span>
+        <span class="result-qid">ID: ${q.qid}</span>
+      </div>
+      <div class="result-text">${langData.value || '(no text)'}</div>
+      <ul class="result-options">${optionsHtml}</ul>
+      ${solHtml}
+    `;
+    container.appendChild(card);
+  });
+}
+
+function showAllQuestions() {
+  document.getElementById('resultsView').scrollIntoView({behavior: 'smooth'});
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (submitted) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'j') nextQuestion();
+  if (e.key === 'ArrowLeft' || e.key === 'k') prevQuestion();
+  if (e.key === '1' || e.key === 'a') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[0]) selectOption(q.qid, opts[0].prompt); }
+  if (e.key === '2' || e.key === 'b') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[1]) selectOption(q.qid, opts[1].prompt); }
+  if (e.key === '3' || e.key === 'c') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[2]) selectOption(q.qid, opts[2].prompt); }
+  if (e.key === '4' || e.key === 'd') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[3]) selectOption(q.qid, opts[3].prompt); }
+});
+
+init();
+</script>
+</body>
+</html>

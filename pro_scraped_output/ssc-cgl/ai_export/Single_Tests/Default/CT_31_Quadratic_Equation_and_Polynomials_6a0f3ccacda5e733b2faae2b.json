@@ -1,0 +1,349 @@
+{
+  "test_id": "6a0f3ccacda5e733b2faae2b",
+  "title": "CT 31: Quadratic Equation and Polynomials",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:09:34.816985+00:00",
+  "questions": [
+    {
+      "qid": "5cc70511fdb8bb4277d7b896",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the equation x² + 2(2 + k)x + k² = 0 has equal roots, then what is the value of k?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "-1"
+        },
+        {
+          "label": "4",
+          "text": "1/2"
+        }
+      ],
+      "correct": "3",
+      "solution": "Equation x² + 2(2 + k)x + k² = 0,\n\nFor equal roots, D = 0 or b² – 4ac = 0\n\n⇒ b² – 4ac = 4(2 + k)² – 4k² = 0\n\n⇒ 16 + 4k² + 16k – 4k² = 0\n\n⇒ 16 + 16k = 0\n\n∴ k = -1",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "5fd30c3db03b6a421886a24e",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If ‘α’ and ‘β’ are roots of an equation 3x² – 20x + p = 0 and α – β = 16/3, then find the value of ‘p’.",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "4",
+      "solution": "**GIVEN:**\n\nα – β = 16/3\n\n**CONCEPT:**\n\nRoots of the equation\n\n**CALCULATION:**\n\nSince ‘α’ and ‘β’ are roots of an equation 3x² – 20x + p = 0.\n\n&",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "60420ef0abc47b72e8b65439",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If x = 3 is a root of the polynomial, f(x) = 4x³ + 2x² + 5x - a. Find the value of a.",
+      "options": [
+        {
+          "label": "1",
+          "text": "123"
+        },
+        {
+          "label": "2",
+          "text": "141"
+        },
+        {
+          "label": "3",
+          "text": "136"
+        },
+        {
+          "label": "4",
+          "text": "189"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given**\n\n f(x) = 4x3 + 2x2 + 5x - a\n\nand x = 3\n\n**Concept**\n\nwhen we put the value of root in the polynomial, then the value of polynomial is equal to zero.\n\n**Calculation**\n\nF(3) = 4(3)³ + 2(3)² + 5(3) - a\n\n⇒ 0 = 108 + 18 + 15 - a\n\n⇒ 0 = 141 - a\n\n⇒ a = 141\n\n**∴ Value of a is 141**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "60264a760b6701ccaf32c44b",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "For what values of k, the roots of 9x² + 8kx + 16 = 0 are real and equal?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0"
+        },
+        {
+          "label": "2",
+          "text": "-2, 2"
+        },
+        {
+          "label": "3",
+          "text": "-3,3"
+        },
+        {
+          "label": "4",
+          "text": "-4, 4"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given: **\n\nThe expressions 9x² + 8kx + 16 = 0\n\n**Calculation **\n\nFor real and equal roots D = 0\n\nWe know that, b² – 4ac = 0\n\nPut the value, b = 8k, a = 9 and c = 16\n\nb² – 4ac = 0\n\n(8k)² – 4 × 16 × 9 = 0\n\n64k² – 576 = 0\n\nK² = 576/64 = 9\n\nK = -3, +3\n\nHence, the value of k = -3, +3",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "6370d29ed0a3991f70b417e3",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following quadratic equations satisfies that the roots are 3 and -2?",
+      "options": [
+        {
+          "label": "1",
+          "text": "x2 + x + 6 = 0"
+        },
+        {
+          "label": "2",
+          "text": "x2 - x - 6 = 0"
+        },
+        {
+          "label": "3",
+          "text": "x2 - x + 6 = 0"
+        },
+        {
+          "label": "4",
+          "text": "x2 + x - 6 = 0"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRoots of the equation are 3 and -2 .\n\n**Concept used:**\n\n** **Equation for given roots ' a' and 'b' can be written as:\n\n (x-a)(x-b) = 0\n\n**Calculations:**\n\n** **(x-3)(x+2) = 0\n\n x² - 3x +2x - 6 = 0",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "6290695a04eca43a9a4feca9",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the equation x² + 2(1 + k) x + k² = 0 has equal roots, then what is the value of k?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(1)/(2)"
+        },
+        {
+          "label": "2",
+          "text": "-(1)/(2)"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "-1"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nx2 + 2(1 + k) x + k2 = 0\n\n**Concept used:**\n\nFor equal roots, D = 0 or b² – 4ac = 0\n\n**Formula used:**\n\n(a + b)² = a² + b² + 2ab\n\n**Calculation:**\n\nEqual root discriminant = b² – 4ac = 0\n\nThen,\n\nIn x2 + 2(1 + k) x + k2 \n\n⇒ a = 1, b = 2(k + 1) and c = k²\n\nWe substitute these values\n\n⇒ 0 = [2(k + 1)]² – 4(1)(k²)\n\n⇒ 0 = 4(k + 1)² – 4k²\n\n⇒ 0 = 4(k² + 2k + 1) – 4k²\n\n⇒ 0 = 4k² + 8k + 4 – 4k²\n\n⇒ 0 = 8k + 4\n\n⇒ 8k = -4\n\n⇒ k = -4/8\n\n⇒ k = -1/2\n\n**∴ The required value of k is -1/2.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "63750de26d1532101c45ae3b",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If one root of the equation 4x² - 2x + k - 4 = 0 is reciprocal of the other, the value of k is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "-8"
+        },
+        {
+          "label": "3",
+          "text": "-4"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given: **one root of the equation 4x2 - 2x + k - 4 = 0 is reciprocal of the other.\n\n**Concept Used:**\n\nEuation : x2 + Ax + B = 0 ,having two root a & b.then,\n\n \n• sum of root = a +b = -A\n \n• product of roots = ab = B\n\n**Calculation:**\n\nLet roots of the equation i.e. a, large{1over a}\n\nProduct of roots = atimeslarge{1over a} = {k-4over 4}\n\n=> 1 × 4 = k - 4\n\n=> k = 4 + 4 = 8\n\n**Hence, 'option 4' is the correct answer. **",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "60dc160849de91292845cb67",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the value of k, if (x + 1) is a factor of x⁸ + kx³ - 2x + 1?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Calculation:**\n\nx + 1 = 0 \n\n⇒ x = -1\n\n**If (x + 1) is a factor of (x8 + kx3 - 2x + 1), then, x = -1 will satisfy given polynomial. **\n\n⇒ P(-1) = (x8 + kx3 - 2x + 1) = 0\n\n⇒ P(-1) = [(-1)8 + k(-1)3 - 2(-1) + 1] = 0\n\n⇒ P(-1) = 1 - k + 2 + 1 = 0\n\n∴ k = 4\n\nThe correct option is 4 i.e. 4",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "636f29d85b929ce47ed3294e",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If α and β, where α > β, are the roots of the equation 5x² - 3x - 2 = 0, then what is the value of (α - 2β)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(11)/(5)"
+        },
+        {
+          "label": "2",
+          "text": "(9)/(5)"
+        },
+        {
+          "label": "3",
+          "text": "(7)/(5)"
+        },
+        {
+          "label": "4",
+          "text": "(1)/(5)"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n5x² -3x - 2 = 0 \n\nalpha and beta are two roots of the equation \n\n**Calculation:**\n\nHere, we have 5x² - 3x - 2 = 0 \n\n⇒ 5x² - 5x + 2x - 2 = 0 \n\n⇒ 5x ( x - 1) + 2 ( x - 1) = 0 \n\n⇒ ( 5x + 2) ( x - 1) = 0 \n\n⇒ 5x + 2 = 0 and x -1 = 0 \n\n⇒ x = -2/5 and x =1\n\nSo, two roots are - 2/5 and 1 \n\nAs, alpha > beta \n\nSo, alpha = 1 and beta = -2/5 \n\nSo, ( alpha - 2 beta ) = 1 - 2× ( -2/5) \n\n⇒ 1 + 4/5 = 9/5 \n\n**Hence, the required value is 9/5.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "636e1e94df6e645ead93c71b",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Determine the positive value of 'k' for which the equations x² + kx + 64 = 0 and x² - 8x + k = 0 will both have real roots.",
+      "options": [
+        {
+          "label": "1",
+          "text": "14"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "17"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nEquations: x² + kx + 64 = 0 and x² - 8x + k = 0\n\n**Formula used:**\n\nFor a quadratic equation ax² + bx + c = 0 to have real roots, the discriminant must be non-negative:\n\nDiscriminant (Δ) = b² - 4ac ≥ 0\n\n**Calculations:**\n\nFor the first equation x² + kx + 64 = 0:\n\nΔ₁ = k² - 4 × 1 × 64\n\n⇒ k² - 256 ≥ 0\n\n⇒ k² ≥ 256\n\n⇒ |k| ≥ 16\n\nFor the second equation x² - 8x + k = 0:\n\nΔ₂ = (-8)² - 4 × 1 × k\n\n⇒ 64 - 4k ≥ 0\n\n⇒ 64 ≥ 4k\n\n⇒ k ≤ 16\n\nCombining the two conditions:\n\n|k| ≥ 16 and k ≤ 16\n\nThus, k = 16\n\n**∴ The correct answer is option (4).**",
+      "tags": [
+        "Algebra"
+      ]
+    }
+  ]
+}

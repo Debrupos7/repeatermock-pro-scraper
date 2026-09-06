@@ -1,0 +1,397 @@
+{
+  "test_id": "6a0f3ab8b835398b15c9a12e",
+  "title": "CT 04: Simplification - Percentage",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:24:13.234974+00:00",
+  "questions": [
+    {
+      "qid": "56d93557995a2d459a0a0ef7",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Simplification, Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "60% of 40% of 150% of 52 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20.21"
+        },
+        {
+          "label": "2",
+          "text": "18.72"
+        },
+        {
+          "label": "3",
+          "text": "17.78"
+        },
+        {
+          "label": "4",
+          "text": "24.23"
+        }
+      ],
+      "correct": "2",
+      "solution": "Using BODMAS , simplifying 60% of 40% of 150% of 52\n\n⇒ 60% of 40% of 150% of 52\n\n⇒ 60/100 of 40/100 of 150/100 of 52\n\n⇒ 60/100 × 40/100 × 150/100 × 52\n\n⇒ (60 × 40 × 150 × 52)/(100 × 100 × 100)\n\n⇒ 18720000/1000000\n\n= 18.72",
+      "tags": [
+        "Simplification",
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "5f72dffe02b4a7293955e8e1",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "**Direction:** What will come in the place of the question mark ‘?’ in the following question?\n\n25% of 400 + 20% of 325 – 50% of 130 = ?²",
+      "options": [
+        {
+          "label": "1",
+          "text": "8"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "9"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Concept used:** \n\nFollow the **BODMAS** rule to solve this question, as per the order given below.\n\n [IMAGE: https://cdn.repeatermock.com/tb/92e9243ed68a3e170d26a9edc323052adaa9b616d075b090e7ba5d20061a2c8d.png] \n\n \n\n<str",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/92e9243ed68a3e170d26a9edc323052adaa9b616d075b090e7ba5d20061a2c8d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "60b5d25a5006c24a9307e066",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the value of y,\n\n66(2)/(3)\\% times 12(1)/(2)\\% times 11(1)/(9)\\% times y = 4",
+      "options": [
+        {
+          "label": "1",
+          "text": "422"
+        },
+        {
+          "label": "2",
+          "text": "432"
+        },
+        {
+          "label": "3",
+          "text": "442"
+        },
+        {
+          "label": "4",
+          "text": "452"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/c884ad85cc24ff7a50707a13955206d326345130b22162f78f75ee70a4ddc402.png] \n\nWe can solve percentage by remember some fraction\n\n66(2)/(3)\\% = (2)/(3), 12(1)/(2)\\% = (1)/(8) and 11(1)/(9)\\% = (1)/(9)\n\n⇒ (2/3) × (1/8) × (1/9) × y = 4\n\n⇒ y = (4 × 3 × 8 × 9)/2\n\n⇒ y = 864/2\n\n⇒ y = 432\n\n∴ The value of y is 432. \n\n**Traditional method:**\n\n**Given:**\n\n66(2)/(3)\\% × 12(1)/(2)\\% × 11(1)/(9)\\% × y = 4\n\n**Calculations:**\n\nAccording to the question, we have\n\n⇒ 66(2)/(3)\\% × 12(1)/(2)\\% × 11(1)/(9)\\% × y = 4\n\n⇒ frac{{200}}{3}\\% × frac{{25}}{2}\\% × frac{{100}}{9}\\% × y = 4\n\n⇒ frac{{200}}{300} × frac{{25}}{200} × frac{{100}}{900} × y = 4\n\n⇒ (2/3) × (1/8) × (1/9) × y = 4\n\n⇒ y = (4 × 3 × 8 × 9)/2\n\n⇒ y = 864/2\n\n⇒ y = 432\n\n**∴ The value of y is 432.** \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\n [IMAGE: https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AAUuIGuhBy1E5lQTPZYP7SdKkTuyRgc4djqJbT8KcC98G5Oe18%2FsI%2BD3Ij83iuqEkjmOB9rm49NR%2BUJ2oIPBipMEcBP%2BELehSPkPTJYGqYnVtAnWCMJCcEe%2FMvXXe869wfBhKzRRAZcUFFO0Sy4ENss%2BI55iQTBeuE6VZG9YlCCeWGoVnVPxK3eZwAMYaBen21zZtsbH%2BiZFoW0HrN%2Fm%2BIUux2%2B678LWnUPZtCK4o1SearcGIukDDyd9JeCFMgXXA1sKMKIlbFYFDiv2JYQvDCpcWjKGUH1I5kX9ECpVn8e7l%2BSXo1dlFbPGnDi8bmsyOZTxAkZAXL63%2FE6rrY3rpLec%2BPWmOSqrJCN4QusgLGoli3QkGYto3c%2B7bWvr%2Fim8T8bQvf8Dz%2Bp7sGTc%2BwAwEIUlrIzMRWyjJ0w%2FXSIglf8Iu082pRGRQpUrFi7Ai5PjAe2yIDJ2NrNVc6uthIQiqODgzWgvZK5QfHy5kHYLYx4hJOvVcdUCv95vO9tCK8R6jvqcvvogialS47laGff5fFHp3Q%3D%3D&sz=w512] \n\n36:Tfda,\n&",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c884ad85cc24ff7a50707a13955206d326345130b22162f78f75ee70a4ddc402.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&amp;content_type=image%2Fpng&amp;attachment_token=AAUuIGuhBy1E5lQTPZYP7SdKkTuyRgc4djqJbT8KcC98G5Oe18%2FsI%2BD3Ij83iuqEkjmOB9rm49NR%2BUJ2oIPBipMEcBP%2BELehSPkPTJYGqYnVtAnWCMJCcEe%2FMvXXe869wfBhKzRRAZcUFFO0Sy4ENss%2BI55iQTBeuE6VZG9YlCCeWGoVnVPxK3eZwAMYaBen21zZtsbH%2BiZFoW0HrN%2Fm%2BIUux2%2B678LWnUPZtCK4o1SearcGIukDDyd9JeCFMgXXA1sKMKIlbFYFDiv2JYQvDCpcWjKGUH1I5kX9ECpVn8e7l%2BSXo1dlFbPGnDi8bmsyOZTxAkZAXL63%2FE6rrY3rpLec%2BPWmOSqrJCN4QusgLGoli3QkGYto3c%2B7bWvr%2Fim8T8bQvf8Dz%2Bp7sGTc%2BwAwEIUlrIzMRWyjJ0w%2FXSIglf8Iu082pRGRQpUrFi7Ai5PjAe2yIDJ2NrNVc6uthIQiqODgzWgvZK5QfHy5kHYLYx4hJOvVcdUCv95vO9tCK8R6jvqcvvogialS47laGff5fFHp3Q%3D%3D&amp;sz=w512",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6087f0e26d5b567edd1972f1",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the value of 25% of 16(2)/(3)% of Rs. 4800.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 2"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 2000"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 200"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 20"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Calculation:**\n\n25% of 16(2)/(3)% of Rs. 4800\n\n⇒ (25/100) × (50/300) × Rs. 4800\n\n⇒ Rs. (4800/24) = Rs. 200\n\n**∴ The required value is Rs. 200.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "5fe4b84da4624257e5472132",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Solve the following question 15% of 1,500 + 1,600 × 12.5% - 62.5% of 400?",
+      "options": [
+        {
+          "label": "1",
+          "text": "225"
+        },
+        {
+          "label": "2",
+          "text": "175"
+        },
+        {
+          "label": "3",
+          "text": "125"
+        },
+        {
+          "label": "4",
+          "text": "185"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n15% of 1,500 + 1,600 × 12.5% - 62.5% of 400\n\n**Concept used:**\n\nFollow the BODMAS rule according to the table given below.\n\n [IMAGE: https://cdn.repeatermock.com/tb/4929dca6c9d94226408c3276fe60ae4c2c51935e059138fccad660931268312b.png] \n\n**Calculation:**\n\n15% of 1,500 + 1,600 × 12.5% - 62.5% of 400\n\n⇒ (15 / 100) × 1,500 + (1,600 × 1 / 8) - (5 / 8 × 400) **[12.5% = 1 / 8] [62.5% = 5 / 8]**\n\n⇒ 225 + 200 - 250\n\n⇒ 425 - 250\n\n⇒ 175",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4929dca6c9d94226408c3276fe60ae4c2c51935e059138fccad660931268312b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "636a19be3f73424d62aa5dff",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "(980 of 12%) - (450 of ? %)= 227 of 30%",
+      "options": [
+        {
+          "label": "1",
+          "text": "13"
+        },
+        {
+          "label": "2",
+          "text": "9"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "11"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nGiven equation: 12% of 980 − x% of 450 = 30% of 227\n\n⇒ 117.6 − 4.5x = 68.1\n\n⇒ 4.5x = 117.6 − 68.1 = 49.5\n\n⇒ x = 49.5 ÷ 4.5 = 11\n\n**∴ The correct answer is 11.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n(12% of 980) − (?% of 450) = (30% of 227)\n\n**Calculation:**\n\nLet the unknown value be x.\n\n⇒ [12 ÷ 100 × 980] − [x ÷ 100 × 450] = [30 ÷ 100 × 227]\n\n⇒ [12 × 9.8] − [x × 4.5] = [3 × 22.7]\n\n⇒ 117.6 − 4.5x = 68.1\n\n⇒ 4.5x = 117.6 − 68.1\n\n⇒ 4.5x = 49.5\n\n⇒ x = 49.5 ÷ 4.5\n\n⇒ x = 495 ÷ 45\n\n⇒ x = 11\n\n**∴ The correct answer is 11.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nBODMAS Rule\n\nAlways follow the BODMAS rule (Brackets, Order/Of, Division, Multiplication, Addition, Subtraction) systematically to ensure mathematical accuracy in simplification.\n\nPercentage Shortcuts\n\nRemember that x% of y is exactly the same as y% of x. For example, 12% of 980 can also be solved as 98% of 120, which is logically equivalent and sometimes easier to compute.\n\nHandling Decimals in Division\n\nWhen dividing two numbers that have the same number of decimal places (e.g., 49.5 ÷ 4.5), simply ignore the decimal point and divide the whole numbers (495 ÷ 45) to quickly find the result.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "56d932ae995a2d459a0a02b2",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify:-\n\n(0.08% of 1350) – (0.04% of 850) = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "64"
+        },
+        {
+          "label": "2",
+          "text": "74"
+        },
+        {
+          "label": "3",
+          "text": "0.74"
+        },
+        {
+          "label": "4",
+          "text": "7.4"
+        }
+      ],
+      "correct": "3",
+      "solution": "**GIVEN**:\n\n (0.08% of 1350) – (0.04% of 850)\n\n**Concept used:**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/c49e9ef184ad3a244b4a0e325f1c03fdf73a234e5d04e86e969336de19771c93.png] **\n\n**CALCULATION:**\n\nUsing BODMAS,\n\n⇒ (0.08% of 1350) – (0.04% of 850)\n\n⇒ (0.08/100 × 1350) – (0.04/100 × 850)\n\n⇒ (1.08) – (0.34)\n\n⇒ 0.74",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c49e9ef184ad3a244b4a0e325f1c03fdf73a234e5d04e86e969336de19771c93.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "63ab2bc7fd8fcd74308163b3",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "25% of 66.67% of 75% of 80% of a number is 6347. Find 40% of that number.",
+      "options": [
+        {
+          "label": "1",
+          "text": "24388"
+        },
+        {
+          "label": "2",
+          "text": "23388"
+        },
+        {
+          "label": "3",
+          "text": "25388"
+        },
+        {
+          "label": "4",
+          "text": "26388"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nPercentage values: 25%, 66.67%, 75%, 80%\n\n**Solution:**\n\nLet \"x\" be the unknown number.\n\n25% of 66.67% of 75% of 80% of x = 6347\n\n⇒ [(25/100) × (66.67/100) × (75/100) × (80/100)] × x = 6347\n\n⇒ [(1/4) × (2/3) × (3/4) × (4/5] × x = 6347\n\n⇒ 1/10 × x = 6347\n\n⇒ x = 63470\n\n40% of the number x = (40/100) × 63470\n\n⇒ 2/5 × 63470\n\n⇒ 25388\n\n**Therefore, 40% of the unknown number is 25388.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "648c82f28a36b85f823e2912",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 60% of 400 + k% of 280 = 296, then the value of k is :",
+      "options": [
+        {
+          "label": "1",
+          "text": "(68)/(7)"
+        },
+        {
+          "label": "2",
+          "text": "20"
+        },
+        {
+          "label": "3",
+          "text": "28"
+        },
+        {
+          "label": "4",
+          "text": "33"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Calculation:**\n\n60% of 400 + k% of 280 = 296\n\n⇒ (6 × 40) + ((k)/(100) × 280) = 296\n\n⇒ (k)/(10) × 28 = 296 - 240\n\n⇒ k = 560/28 = 20\n\n**∴ The correct answer is 20**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "5fae4f749f72fd18c2a3a264",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Simplification, Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 22% of x = 30% of y, then y : x is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 : 11"
+        },
+        {
+          "label": "2",
+          "text": "11 : 15"
+        },
+        {
+          "label": "3",
+          "text": "17 : 16"
+        },
+        {
+          "label": "4",
+          "text": "15 : 14"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n22% of x = 30% of y\n\n**Formula:**\n\nx% of y = y × (x/100)\n\n**Calculation:**\n\n22% of x = 30% of y\n\n⇒ x × (22/100) = y × (30/100)\n\n⇒ x/y = 30/22\n\n⇒ y/x = 22/30\n\n∴ y : x = 11 : 15",
+      "tags": [
+        "Simplification",
+        "Ratio and Proportion"
+      ]
+    }
+  ]
+}

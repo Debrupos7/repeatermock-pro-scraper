@@ -1,0 +1,397 @@
+{
+  "test_id": "6a390e27100c7fbf35b5e59c",
+  "title": "CGL Tier II CT 22: Allegation and Mixture",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:24:42.310684+00:00",
+  "questions": [
+    {
+      "qid": "62b739f6f5e510b50caab7e8",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a stock of two products A and B initially 80% of the total stock was product A. If 20 kg of product A and 8 kg of product B were taken out from the stock, then the ratio of the product A to product B in the stock changed to 9 : 2. What was the total stock (in kg) in the beginning?",
+      "options": [
+        {
+          "label": "1",
+          "text": "150 kg"
+        },
+        {
+          "label": "2",
+          "text": "165 kg"
+        },
+        {
+          "label": "3",
+          "text": "220 kg"
+        },
+        {
+          "label": "4",
+          "text": "160 kg"
+        }
+      ],
+      "correct": "4",
+      "solution": "**GIven:**\n\nInitially Product A : B = 80% : 20% = 4 : 1\n\nAfter removing 20 kg from A and 8kg from B = A : B = 9 : 2\n\n**Calculations:**\n\nLet initial amount of product A be '4x' and that of B be 'x'.\n\nAccording to the question,\n\n⇒ (4x - 20)/(x - 8) = 9/2\n\n⇒ 2(4x - 20) = 9(x - 8)\n\n⇒ 8x - 40 = 9x - 72\n\n⇒ x = 72 - 40 = 32\n\nNow total stock initially \n\n⇒ 4x + x = 5x\n\n⇒ 5 × 32 = 160kg\n\n**∴ The total stock (in kg) in the beginning was 160kg.**"
+    },
+    {
+      "qid": "61f66ac45a71a2052ff853b7",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "20% of a milk-water solution is water. What quantity of pure milk should be added to 180 l of this diluted solution so that only 10% of the new solution is water?",
+      "options": [
+        {
+          "label": "1",
+          "text": "180 l"
+        },
+        {
+          "label": "2",
+          "text": "90 l"
+        },
+        {
+          "label": "3",
+          "text": "36 l"
+        },
+        {
+          "label": "4",
+          "text": "18 l"
+        }
+      ],
+      "correct": "1",
+      "solution": "__**Calculation:**__\n\nInitially, 20% of the solution was water and 80% was milk. \n\nSo, quantity of water in 180 l solution = 180 × 20/100 = 36 l\n\nAnd, quantity of milk in 180 l solution = 180 × 80/100 = 144 l\n\nLet x l be the quantity added of the pure milk to the new solution.\n\n⇒ (36)/(144+x)=(10)/(90)\n\n⇒ 324 = 144 + x\n\n⇒ x = 180 l\n\n**Hence, the quantity of pure milk to be added is 180 l.**"
+    },
+    {
+      "qid": "63a28b55167138ec7d2c859a",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A container contains 25 litre of milk. From this container, 5 litre of milk is taken out and replaced by water. This process is further repeated two times. How much milk is there in the container now?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11.5 litre"
+        },
+        {
+          "label": "2",
+          "text": "14.8 litre"
+        },
+        {
+          "label": "3",
+          "text": "13.5 litre"
+        },
+        {
+          "label": "4",
+          "text": "12.8 litre"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInitial quantity = 25 litre, Replacement = 5 litre\n\nRemaining fraction after 1 operation = (25 − 5) ÷ 25 = 4/5\n\nTotal operations = 1 + 2 = 3 times\n\nFinal Milk = 25 × (4/5)³ = 25 × 64/125 = 64/5 = 12.8 litre\n\n**∴ The correct answer is 12.8 litre.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInitial quantity of **milk** (x) = 25 litre\n\nQuantity **replaced** (y) = 5 litre\n\nTotal number of **processes** (n) = 3\n\n**Formula Used:**\n\nFinal Quantity = x × (1 − y/x)ⁿ\n\n [IMAGE: https://cdn.repeatermock.com/tb/3089cff218bcb5fbae19298c37f1e533270b7b8e23272ffcd00cbfbed9c30ec4.png] \n\n**Calculations:**\n\n⇒ Final Milk = 25 × (1 − 5/25)³\n\n⇒ Final Milk = 25 × (1 − 1/5)³\n\n⇒ Final Milk = 25 × (4/5)³\n\n⇒ Final Milk = 25 × (64 ÷ 125)\n\n⇒ Final Milk = 64 ÷ 5\n\n⇒ Final Milk = 12.8 litre\n\n**∴ The correct answer is 12.8 litre.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMixture Replacement Rule\n\nWhen a fixed quantity is removed and replaced by another liquid 'n' times, the remaining quantity of the original liquid follows a geometric progression decrease.\n\nRatio of Liquids\n\nAfter the process, the ratio of initial liquid to the replacing liquid (Water) can be found by (Initial Quantity − Final Quantity of Milk) : Final Quantity of Milk.\n\nSuccessive Percentage Decrease\n\nThis problem is similar to population decrease or depreciation where the value decreases by a fixed percentage (here 20%) in each step.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3089cff218bcb5fbae19298c37f1e533270b7b8e23272ffcd00cbfbed9c30ec4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6480905feff2c883fd4ab3b8",
+      "n": 4,
+      "type": "mcq",
+      "concept": "To Make a Mixture from Two Mixtures",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "40 liters of mixture contains 10% alcohol and the rest is water. If 4 liters of water is added to it, the percentage of alcohol in the new mixture will be _______.",
+      "options": [
+        {
+          "label": "1",
+          "text": "9(1)/(11)\\%"
+        },
+        {
+          "label": "2",
+          "text": "11(1)/(9)\\%"
+        },
+        {
+          "label": "3",
+          "text": "11(1)/(11)\\%"
+        },
+        {
+          "label": "4",
+          "text": "9(2)/(11)\\%"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given**\n\nTotal mixture = 40 liters\n\nAlcohol = 10%\n\n**Calculation**\n\nThe quantity of Alcohol initially = 10% of 40 = 4 liters \n\nThe quantity of mixture after adding 4 liters of water:\n\n= 40 + 4 = 44 liters\n\nThe percentage of alcohol in the new mixture:\n\n= 4/44 × 100 = 100/11 or 9(1/11)%.\n\n**The answer is 9(1/11)%.**",
+      "tags": [
+        "To Make a Mixture from Two Mixtures"
+      ]
+    },
+    {
+      "qid": "6509a76c2d2c269de9829e07",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In what ratio, rice costing Rs. 185 per kg be mixed with rice costing Rs. 95 per kg such that by selling the mixture at Rs. 140 per kg there is a gain of 40%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 ∶ 19"
+        },
+        {
+          "label": "2",
+          "text": "3 ∶ 23"
+        },
+        {
+          "label": "3",
+          "text": "2 ∶ 13"
+        },
+        {
+          "label": "4",
+          "text": "1 ∶ 17"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nMean Cost Price = 140 ÷ 1.4 = Rs. 100\n\nRatio = (Mean CP − Cheaper CP) : (Dearer CP − Mean CP)\n\nRatio = (100 − 95) : (185 − 100)\n\nRatio = 5 : 85 = 1 : 17\n\n**∴ The correct answer is 1 : 17.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** CP₁ = Rs. 185/kg, CP₂ = Rs. 95/kg, SPₘᵢₓ = Rs. 140/kg, Profit = 40%\n\n**Formula Used:** CP = [SP × 100] / [100 + Profit %]\n\n \n 185\n Rice 1 (CP)\n \n \n 95\n Rice 2 (CP)\n \n \n 100\n Mean CP\n \n \n• \n \n• \n \n \n• \n \n• \n \n 5\n 85\n Ratio = 5 : 85 = 1 : 17\n\n⇒ Cost Price of mixture = 140 × [100 / (100 + 40)]\n\n⇒ Mean CP = 140 × (100 / 140) = Rs. 100\n\n⇒ By Alligation Rule: Ratio = (100 − 95) : (185 − 100)\n\n⇒ Ratio = 5 : 85\n\n⇒ Ratio = 1 : 17\n\n**∴ The correct answer is 1 : 17.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRule of Alligation\n\nIt states that (Quantity of Cheaper) / (Quantity of Dearer) = (CP of Dearer − Mean Price) / (Mean Price − CP of Cheaper).\n\nCost Price Calculation\n\nWhen selling price and profit percentage are given, CP = SP / (1 + P%), where P% is the profit expressed as a decimal.\n\nMultiple Mixtures\n\nThe alligation method can be extended to three or more ingredients by grouping them in pairs based on the mean price.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "66d1ca40c36a890402628434",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The ratio of glycerin and water in a mixture is 3 ∶ 1. How much fraction of the mixture must be drawn off and substituted by water so that the ratio of glycerin and water becomes 1 ∶ 1?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/3"
+        },
+        {
+          "label": "2",
+          "text": "1/2"
+        },
+        {
+          "label": "3",
+          "text": "2/3"
+        },
+        {
+          "label": "4",
+          "text": "3/4"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nWhen a fraction of a mixture is replaced by one of its components (Water), the quantity of the other component (Glycerin) only decreases.\n\nInitial fraction of Glycerin = 3 ÷ (3 + 1) = 3/4\n\nFinal fraction of Glycerin = 1 ÷ (1 + 1) = 1/2\n\nFraction of mixture remaining = Final fraction ÷ Initial fraction = (1/2) ÷ (3/4) = 2/3\n\nFraction of mixture replaced = 1 − Remaining fraction = 1 − 2/3 = 1/3\n\n**∴ The correct answer is 1/3.**\n\n**__Alternate Method__**\n\n**Given:**\n\nInitial ratio of Glycerin to Water = 3 : 1\n\nFinal ratio of Glycerin to Water = 1 : 1\n\n [IMAGE: https://cdn.repeatermock.com/tb/ffae9568f6027daf0f99a3e730de70181fa8b65d9e464d9039a17802e442049c.png] \n\n**Calculations:**\n\n⇒ Let the total initial volume of the mixture be 4 units.\n\n⇒ Initial Glycerin = 3 units, Initial Water = 1 unit.\n\n⇒ Let x units of the mixture be drawn off and substituted by water.\n\n⇒ Amount of Glycerin removed in x units of mixture = (3/4) × x\n\n⇒ Remaining Glycerin in the vessel = 3 − 3x/4\n\n⇒ Since the final ratio is 1 : 1, the total final mixture (4 units) consists of equal parts of Glycerin and Water.\n\n⇒ Final amount of Glycerin required = 4 ÷ 2 = 2 units.\n\n⇒ Equating the remaining Glycerin to the required final Glycerin:\n\n⇒ 3 − 3x/4 = 2\n\n⇒ 3x/4 = 1\n\n⇒ x = 4/3 units\n\n⇒ Fraction of the total mixture replaced = x ÷ Total Volume = (4/3) ÷ 4 = 1/3\n\n**∴ The correct answer is 1/3.**\n\n**__Additional Information__**\n\nMixture Replacement Formula\n\nWhen a vessel contains a units of pure liquid and b units are replaced by water n times, the formula is: Final liquid = Initial liquid × (1 − b/a)ⁿ.\n\nComponent Unchanged Principle\n\nIn single-step replacement questions, focus on the substance that is NOT being added from outside. The fractional change in its concentration directly gives the fraction of the mixture that was retained.\n\nAlligation Method for Replacement\n\nReplacement problems can also be modeled using alligation by mixing the remaining initial mixture (having the original concentration) with pure water (0% concentration of the other component) to achieve the final desired concentration.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ffae9568f6027daf0f99a3e730de70181fa8b65d9e464d9039a17802e442049c.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "63f609e1742e850327499292",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The price of petrol is raised to Rs. 96.5 per litre from Rs.92 per litre. What is the percentage increase in price of petrol?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4.5%"
+        },
+        {
+          "label": "2",
+          "text": "4.7%"
+        },
+        {
+          "label": "3",
+          "text": "4.9%"
+        },
+        {
+          "label": "4",
+          "text": "5.1%"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\n**Initial Price** = Rs. 92, **Final Price** = Rs. 96.5\n\n**Price Increase** = 96.5 − 92 = Rs. 4.5\n\n**Percentage Increase** = (Increase ÷ Original Value) × 100\n\n**Percentage Increase** = (4.5 ÷ 92) × 100 = 450 ÷ 92 ≈ 4.89%\n\nRounding to the nearest decimal gives **4.9%**.\n\n**∴ The correct answer is 4.9%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** **Old Price** = Rs. 92, **New Price** = Rs. 96.5\n\n**Formulas:** Percentage Increase = [(New Price − Old Price) ÷ Old Price] × 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/b42cd4291c5ce7d162306692b0318643034bbc73a47557b12fd85fbe6f6ed96b.png] \n\n⇒ **Difference in Price** = 96.5 − 92 = 4.5\n\n⇒ **Percentage Increase** = (4.5 ÷ 92) × 100\n\n⇒ **Percentage Increase** = 450 ÷ 92\n\n⇒ **Percentage Increase** ≈ 4.8913%\n\n**∴ The correct answer is 4.9%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPercentage Change\n\nIt represents the degree of change over time. Formula: [(Vfᵢₙₐₗ − Vᵢₙᵢₜᵢₐₗ) ÷ |Vᵢₙᵢₜᵢₐₗ|] × 100.\n\nBase Value importance\n\nIn percentage increase or decrease, the **original (initial) value** is always taken as the denominator.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b42cd4291c5ce7d162306692b0318643034bbc73a47557b12fd85fbe6f6ed96b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6494197f7d2567fb13076c2d",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A ten litre mixture consists of acid and water only. The acid is 60% in that mixture. If we want to make the percentage of water 25% in the mixture, then how much more acid has to be added to it ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3L"
+        },
+        {
+          "label": "2",
+          "text": "4L"
+        },
+        {
+          "label": "3",
+          "text": "6L"
+        },
+        {
+          "label": "4",
+          "text": "7L"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Calculation:**\n\nInitially acid is 60% in that mixture, so, Acid : Water = 3 : 2\n\nAfter acid added, water becomes 25%, now, Acid : Water = 3 : 1\n\nHere we see, no water is added, we have to do equal water unit in both the ratio,\n\n \n \n \n \n \n \n \n\n \n <td data-sheets-value=\"{\"1\":2,\"2\":\"Acid\"}\" style=\"border-color: rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px; vertical-align: bottom;"
+    },
+    {
+      "qid": "62d5d140a4c69d6fe2e4098f",
+      "n": 9,
+      "type": "mcq",
+      "concept": "To Make a Mixture from Two Mixtures",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following is correct?\n\nI. Two jars are of equal capacity. They contain milk and water in ratio 2 ∶ 3 and 4 ∶ 5 respectively. The jars are emptied into one big jar. The ratio of milk and water in big jar is 17 ∶ 28.\n\nII. A jar contain milk and water in ratio 1 ∶ 4. 10 litre of mixture is withdrawn and replaced with 10 litre milk. The new ratio of milk and water is 1 ∶ 2. The capacity of jar is 60 litres.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only II"
+        },
+        {
+          "label": "2",
+          "text": "Only I"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nFor statement I,\n\nRatio of milk and water in jar 1 = 2 : 3.\n\nRatio of milk and water in jar 2 = 4 : 5.\n\nFor statement II,\n\nRatio of milk and water in the jar = 1 : 4.\n\nNew ratio after 10 litre of mixture is withdrawn and 10 litre of milk is added = 1 : 2.\n\n**Concept used:**\n\nWhen a quantity of mixture is removed from the mixture, the individual entities get removed in the same ratio in which they are present in the mixture.\n\n**Calculation:**\n\nFor statement I,\n\nLet the quantities of milk and water in jar 1 be 2x and 3x and in jar 2 be 4y and 5y.\n\nAs the jars are of equal capacity\n\n2x + 3x = 4y + 5y\n\n5x = 9y\n\nx = 9y / 5.\n\nQuantity of milk in big jar\n\n= 2x + 4y\n\n= 2(9y / 5) + 4y\n\n= 3.6y + 4y \n\n= 7.6y.\n\nQuantity of water in big jar\n\n= 3x + 5y\n\n= 3(9y / 5) + 5y\n\n= 5.4y + 5y\n\n= 10.4y.\n\nRatio of milk and water in the big jar\n\n= 7.6y : 10.4y\n\n= 1.9 : 2.6\n\n= 19 : 26.\n\nStatement I is false.\n\nFor statement II,\n\nLet the quantities of milk and water in the jar be x and 4x.\n\nMilk left after 10 litre of mixture is withdrawn\n\n= x - dfrac{x}{x + 4x} times 10\n\n= x - dfrac{1}{5} times 10\n\n= x - 2\n\nWater left after 10 litre of mixture is withdrawn\n\n= 4x - dfrac{4x}{x + 4x} times 10\n\n= 4x - dfrac{4}{5} times 10\n\n= 4x - 8.\n\nQuantity of milk after 10 litre of milk is added\n\n= x - 2 + 10\n\n= x + 8.\n\nNew ratio of milk and water is 1 : 2,\n\ndfrac{x + 8}{4x - 8} = dfrac{1}{2}\n\n2x + 16 = 4x - 8\n\n2x = 24\n\nx = 12.\n\nThus, 4x = 4 × 12 = 48.\n\nTotal capacity of the jar = 12 + 48 = 60 litres.\n\nStatement II is true.\n\n**∴ Only statement II is true.**",
+      "tags": [
+        "To Make a Mixture from Two Mixtures"
+      ]
+    },
+    {
+      "qid": "620670dc93f537fa6861d4e8",
+      "n": 10,
+      "type": "mcq",
+      "concept": "To Make a Mixture from Two Mixtures",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a mixture of 75 liters, the ratio of milk to water is 3 : 2. If the ratio is to be 1 : 2, how much of water should be added?",
+      "options": [
+        {
+          "label": "1",
+          "text": "65 liters"
+        },
+        {
+          "label": "2",
+          "text": "90 liters"
+        },
+        {
+          "label": "3",
+          "text": "60 liters"
+        },
+        {
+          "label": "4",
+          "text": "50 liters"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInitial Milk : Water = 3 : 2\n\nFinal Milk : Water = 1 : 2 ⇒ 3 : 6 (Multiplying by 3 to equate Milk)\n\nMilk is constant at 3 units, while Water increases from 2 to 6 units (+4 units).\n\nInitial mixture = 3 + 2 = 5 units = 75 liters ⇒ 1 unit = 15 liters.\n\nWater added = 4 units × 15 = 60 liters.\n\n**∴ The correct answer is 60 liters.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n \n \n Initial\n 75 L\n <line x1=\"20\" y1=\"90\" x2=\"120\" y2=\"90\" stroke=\"#2255cc\"",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "To Make a Mixture from Two Mixtures"
+      ]
+    }
+  ]
+}

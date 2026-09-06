@@ -1,0 +1,358 @@
+{
+  "test_id": "6a390e376ec35aeeeb392cf8",
+  "title": "CGL Tier II CT 30: Partial Speed",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:26:11.681977+00:00",
+  "questions": [
+    {
+      "qid": "631c6b68901a6b339feb7715",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Time, Speed & Distance",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If Vikash walks at the speed of 10 kmph then he misses the bus by 5 min and when he increases his speed to 20 kmph then he reaches the bus station 10 min earlier. Find the distance from Vikash's destination to the bus stop. (in km)",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 km"
+        },
+        {
+          "label": "2",
+          "text": "5 km"
+        },
+        {
+          "label": "3",
+          "text": "10 km"
+        },
+        {
+          "label": "4",
+          "text": "15 km"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] **__Shortcut Trick__**\n\nIf Vikash walks at the speed of u kmph then he misses the bus by t₁ min and when he increases his speed to v kmph then he reaches the bus station t₂ min earlier. \n\nThe distance from Vikash's destination to the bus stop = =(u × v)/(|u - v|) × (|t₁ - t₂|)/(60)\n\nWhere, \n\n<span sty",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "677a6aa5bfb362004c2edd55",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Time, Speed & Distance",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A person travelled a distance of 50 km in 8 hours. He covered a part of the distance on foot at the rate of 4 km per hour and a part on a bicycle at the rate of 10 km per hour. How much distance did he travel on foot?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 km"
+        },
+        {
+          "label": "2",
+          "text": "20 km"
+        },
+        {
+          "label": "3",
+          "text": "30 km"
+        },
+        {
+          "label": "4",
+          "text": "40 km"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nDistance travelled = 50 km\n\nTime = 8 hours\n\nSpeed on foot = 4 km/hour\n\nSpeed on bicycle = 10 km/hour\n\nCalculations:\n\nLet the distance travelled on foot be x km\n\nLet the distance travelled on bicycle be (50 - x) km\n\nTime = Distance/Speed\n\nTime on foot + Time on bicycle = Total Time\n\n⇒ dfrac{x}{4} + dfrac{50 - x}{10} = 8\n\n⇒ dfrac{5x + 2(50 - x)}{20} = 8\n\n⇒ dfrac{5x + 100 - 2x}{20} = 8\n\n⇒ dfrac{3x + 100}{20} = 8\n\n⇒ 3x + 100 = 160\n\n⇒ 3x = 60\n\n⇒ x = 20 km\n\n**∴ The correct answer is option (2).**"
+    },
+    {
+      "qid": "63cd7ca1c5ab3631a524c77e",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Time, Speed & Distance",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "​A man has to cover a total distance of 24 km. He observed that after walking for one hour and 40 minutes, the distance covered by him is 5/7 of the remaining distance. What was the speed of the man in km/hr?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "6"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Concept Used:-**\n\nTime = Distance / Speed\n\n**Calculation:**\n\nTotal distance = 24 km. \n\nDistance covered in 1 hour 40 minutes = 5/7 of the remaining distance. \n\nSuppose, the speed of the man = x km/hr.\n\nSo, the distance is covered in 1 hour and 40 minutes.\n\n<span style="
+    },
+    {
+      "qid": "649fa9c8d17f649447b0bc63",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Time, Speed & Distance",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A man travelled a distance of 110 km in 11 hours. He travelled some distance on foot at 6 km/hr and remaining distance on a bicycle at 14 km/hr. What is the distance travelled on bicycle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "66 km"
+        },
+        {
+          "label": "2",
+          "text": "99 km"
+        },
+        {
+          "label": "3",
+          "text": "77 km"
+        },
+        {
+          "label": "4",
+          "text": "88 km"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nTotal distance covered = 110 km\n\nTotal time = 11 hours\n\nSpeed on foot = 6 km/hr\n\nSpeed on bicycle = 14 km/hr\n\n**Formula:**\n\nDistance = Speed × Time\n\n**Solution:**\n\nLet the time he travelled on foot be x hours. So, time on bicycle = 11 - x hours.\n\nThe distance covered on foot + distance covered on bicycle = total distance.\n\n⇒ 6 × x + 14 × (11 - x) = 110\n\n⇒ 6x + 154 - 14x = 110\n\n⇒ 8x = 44\n\n⇒ x = 5.5 hours\n\nTimes for bicycle travel = Total hours - hours on foot = 11 - 5.5 = 5.5 hours\n\n⇒ Distance travelled on bicycle = Speed of bicycle × Time\n\n⇒ 14 km/hr × 5.5 hr = 77 km\n\n**Therefore, the distance travelled on a bicycle is 77 km.**"
+    },
+    {
+      "qid": "65892383c3dbc1b0fc884d7b",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "It takes eight hours for a 600 km journey, if 120 km is done by train and the rest by car. It takes 20 minutes more, if 200 km is done by train and the rest by car. The ratio of the speed of the train to that of the cars is",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 : 3"
+        },
+        {
+          "label": "2",
+          "text": "1 : 3"
+        },
+        {
+          "label": "3",
+          "text": "3 : 4"
+        },
+        {
+          "label": "4",
+          "text": "1 : 2"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nTotal distance = 600 km\n\nTime for 120 km by train and remaining by car = 8 hours\n\nTime for 200 km by train and remaining by car = 8 hours 20 minutes\n\n**Formula used:**\n\nSpeed = Distance / Time\n\n**Calculations:**\n\nLet speed of train = T km/hr\n\nLet speed of car = C km/hr\n\n⇒ 120/T + 480/C = 8 ...(i)\n\n⇒ 200/T + 400/C = 8 + 1/3\n\n⇒ 200/T + 400/C = 25/3 ...(ii)\n\nMultiplying (i) by 3:\n\n⇒ 3(120/T + 480/C) = 3*8\n\n⇒ 360/T + 1440/C = 24 ...(iii)\n\nSubtracting (ii) from (iii):\n\n⇒ (360/T + 1440/C) - (200/T + 400/C) = 24 - 25/3\n\n⇒ 160/T + 1040/C = 72/3 - 25/3\n\n⇒ 160/T + 1040/C = 47/3\n\n⇒ 160/T + 1040/C = 47/3\n\nDividing by 8:\n\n⇒ 20/T + 130/C = 47/24\n\nUsing (i):\n\n⇒ 20/T = 47/24 - 130/C\n\nFrom (i):\n\n120/T = 8 - 480/C\n\n⇒ 8 - 480/C = 47/24 - 130/C\n\n⇒ 8*24/24 - 480/C = 47/24 - 130/C\n\n⇒ 192/24 - 480/C = 47/24 - 130/C\n\n⇒ 192 - 47/24 = 480/C - 130/C\n\n⇒ 145/24 = 350/C\n\n⇒ C = 350 × 24/145\n\n⇒ C = 56 km/hr\n\nUsing (i):\n\n⇒ 120/T + 480/56 = 8\n\n⇒ 120/T + 8.571 = 8\n\n⇒ 120/T = -0.571\n\n⇒ T = 120/8\n\n⇒ T = 15 km/hr\n\nTherefore, the ratio of the speed of the train to that of the car is:\n\n⇒ T/C = 15/20\n\n⇒ 3/4\n\n**∴ The correct answer is option (3).**"
+    },
+    {
+      "qid": "63d16cde428dc633f93fa20b",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Relative Speed",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A car covers a 200 km journey between A and B in 10 hours. One day, after covering 100 km, the car broke down for an hour. Post repairing it, the speed of the car was increased in such a way that car covered the entire journey in its usual 10 hours. What was the speed of the car in the last 100 km?",
+      "options": [
+        {
+          "label": "1",
+          "text": "23 km/hr"
+        },
+        {
+          "label": "2",
+          "text": "20 km/hr"
+        },
+        {
+          "label": "3",
+          "text": "22 km/hr"
+        },
+        {
+          "label": "4",
+          "text": "25 km/hr"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nDistance = 200 km\n\nTime = 10 hours\n\nOne day, after covering 100 km, the car broke down for an hour.\n\nPost repairing it, the speed of the car was increased in such a way that car covered the entire journey in its usual 10 hours. \n\nConcept used:</s",
+      "tags": [
+        "Relative Speed"
+      ]
+    },
+    {
+      "qid": "63fbaf99e9fb7f3691b8a35b",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Relative Speed",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Anil started his journey in the morning. Till 10 a.m., he covered (1)/(2) of his journey, and on the same day till 1 p.m., he covered (4)/(5) of his journey. At what time did he start his journey?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2.00 a.m."
+        },
+        {
+          "label": "2",
+          "text": "4.00 a.m."
+        },
+        {
+          "label": "3",
+          "text": "5.00 a.m."
+        },
+        {
+          "label": "4",
+          "text": "3.30 a.m."
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given data:**\n\nCovered 1/2 of journey by 10 a.m.\n\nCovered 4/5 of journey by 1 p.m. same day.\n\n**Concept Used:**\n\nIf he covers a certain fraction of the journey in a specific time period, we can deduce the total time for the journey and thereby identify the start time.\n\n**Calculation:**\n\n \n\nTill 10 a.m. covered = 1/2 of his journey\n\nTill 1 p.m. covered = 4/5 of his journey\n\nSo\n\n1 p.m - 10 a.m. = 3 hours = 4/5 of his journey - 1/2 of his journey&l\nt;/p>\n\n⇒ 3 hours = 3/10 of his journey \n\n⇒ 1 hour = 1/10 of his journey\n\nso\n\n⇒ time taken to cover 1/2 of his journey = 5 hours\n\nso\n\nSo he started his journey at = 10 a.m. - 5 hours = 5 a.m.\n\n**Therefore, Anil started his journey at 5:00 a.m.**",
+      "tags": [
+        "Relative Speed"
+      ]
+    },
+    {
+      "qid": "669f1e9869ae8c29ce50e1e0",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Relative Speed",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In a 3000 m race, if vehicle A gives vehicle B a start of 400 m, then vehicle A wins the race by 10 s. If vehicle A gives vehicle B a start of 750 m, then the race ends in a dead heat. How long does vehicle A take to run 3000 m?",
+      "options": [
+        {
+          "label": "1",
+          "text": "64.3 s"
+        },
+        {
+          "label": "2",
+          "text": "92.5 s"
+        },
+        {
+          "label": "3",
+          "text": "90.5 s"
+        },
+        {
+          "label": "4",
+          "text": "100 s"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nDistance of the race = 3000 m\n\nVehicle A gives Vehicle B a start of 400 m, and A wins by 10 s.\n\nVehicle A gives Vehicle B a start of 750 m, and the race ends in a dead heat.\n\n**Formula Used:**\n\nSpeed = Distance / Time\n\n**Calculation:**\n\nLet the speed of vehicle A be VA m/s and the speed of vehicle B be VB m/s.\n\nWhen A gives B a start of 400 m:\n\nDistance covered by A = 3000 m\n\nDistance covered by B = 3000 - 400 = 2600 m\n\nTime taken by A = 3000 / VA\n\nTime taken by B = 2600 / VB\n\nSince A wins by 10 s:\n\n(3000)/(V_A) = (2600)/(V_B) + 10 \n\nWhen A gives B a start of 750 m:\n\nDistance covered by A = 3000 m\n\nDistance covered by B = 3000 - 750 = 2250 m\n\nTime taken by A = 3000 / VA\n\nTime taken by B = 2250 / VB\n\nSince the race ends in a dead heat:\n\n(3000)/(V_A) = (2250)/(V_B) \n\nFrom the second equation:\n\n(3000)/(V_A) = (2250)/(V_B) \n\nRightarrow V_B = (2250)/(3000) times V_A \n\nRightarrow V_B = (3)/(4) V_A \n\nSubstitute VB\" id=\"MathJax-Element-139-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">VBVB\" id=\"MathJax-Element-3-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">VBVB VB VB V_B in the first equation:\n\n(3000)/(V_A) = (2600)/(frac{3){4} V_A} + 10 \n\nRightarrow (3000)/(V_A) = (2600 times 4)/(3 V_A) + 10 \n\nRightarrow (3000)/(V_A) = (10400)/(3 V_A) + 10 \n\nMultiply both sides by 3VA\" id=\"MathJax-Element-140-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">VA VA V_A :\n\nRightarrow 9000 = 10400 + 30 V_A \n\nRightarrow 9000 - 10400 = 30 V_A \n\nRightarrow -1400 = 30 V_A \n\nRightarrow V_A = 1400 / 30 \n\nRightarrow V_A = 46.67 m/s\n\nTime taken by vehicle A to run 3000 m:\n\nRightarrow (3000)/(46.67) approx 64.3 s\n\n**The correct answer is option 1.**",
+      "tags": [
+        "Relative Speed"
+      ]
+    },
+    {
+      "qid": "62b4414d57319f593cb8d233",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Time, Speed & Distance",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Ramen leaves his home every day at 7:40 am and reaches his office at 9:46 am. One day, he left his home at 7:40 am but travelled one-fourth of the distance at frac{{ 6}}{7} of the usual speed and the rest of the distance at frac{{ 6}}{5} of the usual speed. At what time did Ramen reach office on that day?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9:45:40 am"
+        },
+        {
+          "label": "2",
+          "text": "9:35:30 am"
+        },
+        {
+          "label": "3",
+          "text": "9:25:50 am"
+        },
+        {
+          "label": "4",
+          "text": "9:30:55 am"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUsual time = **9:46 am − 7:40 am** = **126 minutes**.\n\nNew time = [Usual Time × (1/4) × (7/6)] + [Usual Time × (3/4) × (5/6)]\n\nNew time = [126 × 7/24] + [126 × 15/24] = 126 × (22/24) = **115.5 minutes**.\n\n115.5 minutes = **1 hour 55 minutes 30 seconds**.\n\nArrival time = 7:40 am + 1 hr 55 min 30 sec = **9:35:30 am**.\n\n**∴ The correct answer is 9:35:30 am.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/84f62667054ad5bd80acfffa1813cfe6a0307e1bee524144b2776593fe10775e.png] \n\n**Given:** Departure = 7:40 am, Usual Arrival = 9:46 am.\n\n**Formula Used:** Time = Distance ÷ Speed\n\n⇒ Usual Time (T) = 9:46 − 7:40 = 2 hours 6 minutes = **126 minutes**.\n\n⇒ Let usual distance be **D** and usual speed be **S**. T = D/S = 126.\n\n⇒ New Time (Tₙ) = [(1/4)D ÷ (6/7)S] + [(3/4)D ÷ (6/5)S]\n\n⇒ Tₙ = [(1/4) × (7/6) × (D/S)] + [(3/4) × (5/6) × (D/S)]\n\n⇒ Tₙ = (D/S) × [(7/24) + (15/24)] = 126 × (22/24)\n\n⇒ Tₙ = 126 × (11/12) = 10.5 × 11 = **115.5 minutes**.\n\n⇒ 115.5 minutes = **1 hour 55 minutes 30 seconds**.\n\n⇒ New Arrival = 7:40:00 + 1:55:30 = **9:35:30 am**.\n\n**∴ The correct answer is 9:35:30 am.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nInverse Proportion of Speed and Time\n\nWhen distance is constant, Speed is inversely proportional to Time (S ∝ 1/T). If speed becomes x/y of usual, time becomes y/x of usual.\n\nAverage Speed for Different Portions\n\nTotal Time = ∑(Distanceᵢ ÷ Speedᵢ). Always convert total time into minutes or seconds for easier calculation in clock-based problems.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/84f62667054ad5bd80acfffa1813cfe6a0307e1bee524144b2776593fe10775e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6267a730b30fbd6e0dab7dd0",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Time, Speed & Distance",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "P takes six hours more than Q to walk 96 km, but if P doubles his speed, then he can make it in two hours less than Q. How much time (in hours) does Q require for walking 48 km?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nTotal time difference for **P** when speed doubles = 6 + 2 = 8 hr.\n\nSpeed ratio for **P** is 1 : 2 → Time ratio is 2 : 1.\n\nDifference in time units = 2 − 1 = 1 unit → 8 hr.\n\nInitial time taken by **P** = 2 units = 2 × 8 = 16 hr.\n\nTime taken by **Q** for 96 km = 16 − 6 = 10 hr.\n\nTime taken by **Q** for 48 km = 10 ÷ 2 = 5 hr.\n\n**∴ The correct answer is 5 hr.**\n\n**__Alternate Method__**\n\n**Given:** Total distance = 96 km. Let speed of **P** be **sP** and speed of **Q** be **sQ**.\n\n**Formula:** Time = Distance ÷ Speed\n\n [IMAGE: https://cdn.repeatermock.com/tb/38d47d0578056db480fe03ff5358921f6a9a7d64d6f2ccd54afadcf855d7acbc.png] \n\n⇒ Case 1: (96 ÷ sP) − (96 ÷ sQ) = 6 --- (Equation 1)\n\n⇒ Case 2: (96 ÷ sQ) − (96 ÷ (2 × sP)) = 2 --- (Equation 2)\n\n⇒ Adding Eq 1 and Eq 2: (96 ÷ sP) − (48 ÷ sP) = 6 + 2\n\n⇒ 48 ÷ sP = 8\n\n⇒ sP = 48 ÷ 8 = 6 kmph\n\n⇒ Substitute sP in Eq 1: (96 ÷ 6) − (96 ÷ sQ) = 6\n\n⇒ 16 − (96 ÷ sQ) = 6\n\n⇒ 96 ÷ sQ = 10 hr (Time taken by **Q** for 96 km)\n\n⇒ Time for 48 km = (Time for 96 km) ÷ 2 = 10 ÷ 2 = 5 hr.\n\n**∴ The correct answer is 5 hr.**\n\n**__Additional Information__**\n\nSpeed-Time Relationship\n\nFor a constant distance, Speed is inversely proportional to Time (S ∝ 1/T). If speed becomes **n** times, time becomes **1/n** times.\n\nAverage Speed Formula\n\nWhen two equal distances are covered at speeds **x** and **y**, Average Speed = (2 × x × y) ÷ (x + y).\n\nRelative Speed\n\nFor two objects moving in the same direction, Relative Speed = |s₁ − s₂|. In opposite directions, Relative Speed = s₁ + s₂.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/38d47d0578056db480fe03ff5358921f6a9a7d64d6f2ccd54afadcf855d7acbc.png",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

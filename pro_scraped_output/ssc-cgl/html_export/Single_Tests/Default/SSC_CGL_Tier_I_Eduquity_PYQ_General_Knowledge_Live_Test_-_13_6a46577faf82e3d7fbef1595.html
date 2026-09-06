@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSC CGL Tier I: (Eduquity PYQ) General Knowledge Live Test - 13</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.6;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,0.04);position:sticky;top:0;z-index:100;}
+.brand{font-size:20px;font-weight:800;letter-spacing:-0.02em;}
+.brand-light{color:#1f2937;}
+.brand-mark{color:#1fbad6;}
+.test-title{font-size:14px;color:#4b5563;font-weight:500;text-align:center;flex:1;padding:0 24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.header-right{display:flex;align-items:center;gap:12px;}
+.timer{background:#1f2937;color:#fff;padding:8px 16px;border-radius:6px;font-family:"SF Mono",Monaco,monospace;font-size:16px;font-weight:600;min-width:110px;text-align:center;}
+.timer.warning{background:#f59e0b;}
+.timer.danger{background:#ef4444;animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.7;}}
+.header-btn{background:#1fbad6;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s;}
+.header-btn:hover{background:#1999b3;}
+.submit-btn{background:#ef4444;}
+.submit-btn:hover{background:#dc2626;}
+.meta-bar{background:#fff;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;flex-wrap:wrap;gap:12px 32px;font-size:13px;}
+.meta-item{display:flex;flex-direction:column;gap:2px;}
+.meta-label{color:#6b7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+.meta-value{color:#1f2937;font-size:14px;font-weight:600;}
+.test-container{display:flex;max-width:1400px;margin:0 auto;gap:16px;padding:16px;}
+.question-area{flex:1;min-width:0;}
+.section-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.section-tab{background:#fff;border:1px solid #e5e7eb;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;color:#4b5563;}
+.section-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.question-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.q-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #f3f4f6;}
+.q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.q-marks{display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap;}
+.q-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.q-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.conf-high{background:#d1fae5;color:#065f46;}
+.conf-unidentified{background:#fef3c7;color:#92400e;}
+.q-id{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;}
+.result-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-qid{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;margin-left:auto;}
+.mark-pos{color:#10b981;font-weight:600;}
+.mark-neg{color:#ef4444;font-weight:600;}
+.q-lang-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.q-lang-tab{background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer;}
+.q-lang-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.q-text{font-size:15px;margin-bottom:16px;}
+.q-text p{margin:8px 0;}
+.q-text img{max-width:100%;height:auto;border-radius:4px;}
+.options-list{list-style:none;}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;margin-bottom:8px;border:1.5px solid #e5e7eb;border-radius:6px;cursor:pointer;transition:all .15s;font-size:14px;}
+.option-item:hover{background:#f9fafb;border-color:#d1d5db;}
+.option-item.selected{background:#dbeafe;border-color:#3b82f6;}
+.option-item.correct{background:#d1fae5;border-color:#10b981;}
+.option-item.wrong{background:#fee2e2;border-color:#ef4444;}
+.option-label{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;background:#1f2937;color:#fff;border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0;}
+.option-item.selected .option-label{background:#3b82f6;}
+.option-item.correct .option-label{background:#10b981;}
+.option-item.wrong .option-label{background:#ef4444;}
+.option-item.correct::after{content:" ✓ Correct";color:#10b981;font-weight:700;margin-left:auto;}
+.option-item.wrong::after{content:" ✗ Wrong";color:#ef4444;font-weight:700;margin-left:auto;}
+.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+.action-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.action-btn:hover{background:#f9fafb;}
+.action-btn.save-next{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.action-btn.save-next:hover{background:#1999b3;}
+.action-btn.mark-review{background:#fef3c7;color:#92400e;border-color:#f59e0b;}
+.prev-next{display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #f3f4f6;}
+.nav-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.nav-btn:hover{background:#f9fafb;}
+.palette-sidebar{width:280px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start;background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;max-height:calc(100vh - 110px);overflow-y:auto;}
+.palette-header{font-size:14px;font-weight:700;color:#1f2937;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f3f4f6;}
+.palette-legend{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10px;color:#6b7280;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:3px;}
+.legend-dot{width:12px;height:12px;border-radius:2px;}
+.legend-dot.answered{background:#10b981;}
+.legend-dot.notanswered{background:#ef4444;}
+.legend-dot.marked{background:#a855f7;}
+.legend-dot.notvisited{background:#e5e7eb;}
+.palette-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;}
+.palette-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px solid #e5e7eb;border-radius:4px;font-size:11px;font-weight:600;color:#4b5563;cursor:pointer;transition:all .15s;background:#f3f4f6;}
+.palette-cell:hover{transform:scale(1.1);}
+.palette-cell.answered{background:#10b981;color:#fff;border-color:#10b981;}
+.palette-cell.notanswered{background:#ef4444;color:#fff;border-color:#ef4444;}
+.palette-cell.marked{background:#a855f7;color:#fff;border-color:#a855f7;}
+.palette-cell.marked-answered{background:#a855f7;color:#fff;border-color:#a855f7;position:relative;}
+.palette-cell.marked-answered::after{content:"•";position:absolute;top:-2px;right:2px;color:#10b981;font-size:14px;}
+.palette-cell.notvisited{background:#fff;color:#9ca3af;}
+.palette-cell.current{outline:3px solid #1fbad6;outline-offset:1px;}
+.palette-stats{margin-top:12px;padding-top:12px;border-top:1px solid #f3f4f6;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:11px;color:#6b7280;}
+.palette-stats div{display:flex;justify-content:space-between;}
+.palette-stats strong{color:#1f2937;font-size:13px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;padding:24px;}
+.modal-overlay.open{display:flex;}
+.modal-content{background:#fff;border-radius:12px;padding:24px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-content h2{font-size:20px;color:#1f2937;margin-bottom:12px;}
+.modal-content p{font-size:14px;color:#4b5563;margin-bottom:16px;}
+.submit-summary{background:#f9fafb;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;}
+.submit-summary div{display:flex;justify-content:space-between;margin-bottom:4px;}
+.submit-summary strong{color:#1f2937;}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;}
+.modal-btn{padding:8px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-btn.cancel{background:#f3f4f6;color:#4b5563;}
+.modal-btn.cancel:hover{background:#e5e7eb;}
+.modal-btn.submit{background:#ef4444;color:#fff;}
+.modal-btn.submit:hover{background:#dc2626;}
+.results-view{max-width:1000px;margin:0 auto;padding:24px;}
+.results-header{text-align:center;margin-bottom:32px;}
+.results-header h1{font-size:28px;color:#1f2937;margin-bottom:16px;}
+.score-card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;display:inline-block;min-width:300px;margin-bottom:16px;}
+.score-card .score{font-size:48px;font-weight:800;color:#1fbad6;}
+.score-card .total{font-size:20px;color:#6b7280;}
+.score-card .rank{font-size:14px;color:#4b5563;margin-top:8px;}
+.results-actions{display:flex;gap:8px;justify-content:center;}
+.results-questions{display:grid;gap:16px;}
+.result-card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.result-card.correct{border-left:4px solid #10b981;}
+.result-card.wrong{border-left:4px solid #ef4444;}
+.result-card.skipped{border-left:4px solid #9ca3af;}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.result-q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.result-status{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;}
+.result-status.correct{background:#d1fae5;color:#065f46;}
+.result-status.wrong{background:#fee2e2;color:#991b1b;}
+.result-status.skipped{background:#f3f4f6;color:#4b5563;}
+.result-text{font-size:14px;margin-bottom:12px;}
+.result-text p{margin:6px 0;}
+.result-options{list-style:none;margin-bottom:12px;}
+.result-option{padding:8px 12px;margin-bottom:4px;border:1px solid #e5e7eb;border-radius:4px;font-size:13px;display:flex;align-items:flex-start;gap:8px;}
+.result-option.correct{background:#d1fae5;border-color:#10b981;font-weight:600;}
+.result-option.selected{background:#dbeafe;border-color:#3b82f6;}
+.result-option.correct.selected{background:#a7f3d0;}
+.result-option-label{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;background:#1f2937;color:#fff;border-radius:3px;font-size:11px;font-weight:600;}
+.result-option.correct .result-option-label{background:#10b981;}
+.result-solution{background:#fef3c7;border-left:3px solid #f59e0b;border-radius:4px;padding:12px;font-size:13px;color:#1f2937;}
+.result-solution-title{font-weight:700;color:#92400e;margin-bottom:6px;font-size:12px;}
+.result-solution p{margin:6px 0;}
+.result-solution img{max-width:100%;height:auto;border-radius:4px;}
+@media (max-width:1024px){.palette-sidebar{width:220px;}.palette-grid{grid-template-columns:repeat(5,1fr);}}
+@media (max-width:768px){.test-container{flex-direction:column;}.palette-sidebar{width:100%;position:static;max-height:none;}.palette-grid{grid-template-columns:repeat(10,1fr);}}
+@media print{.top-bar,.palette-sidebar,.actions,.prev-next,.section-tabs,.q-lang-tabs,.meta-bar,.results-actions{display:none;}.test-container,.results-view{display:block;}.result-card{page-break-inside:avoid;}}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="top-bar">
+  <div class="brand"><span class="brand-light">Repeater</span><span class="brand-mark">Mock</span></div>
+  <div class="test-title" id="testTitle">SSC CGL Tier I: (Eduquity PYQ) General Knowledge Live Test - 13</div>
+  <div class="header-right">
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="header-btn submit-btn" onclick="openSubmitModal()">Submit Test</button>
+  </div>
+</header>
+
+<!-- Meta bar -->
+<div class="meta-bar">
+  <div class="meta-item"><span class="meta-label">Series</span><span class="meta-value">ssc-cgl</span></div>
+  <div class="meta-item"><span class="meta-label">Questions</span><span class="meta-value">25</span></div>
+  <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">0 min</span></div>
+  <div class="meta-item"><span class="meta-label">Max Marks</span><span class="meta-value">50.0</span></div>
+  <div class="meta-item"><span class="meta-label">Marking</span><span class="meta-value">+2.0 / -0.5</span></div>
+  <div class="meta-item"><span class="meta-label">Test ID</span><span class="meta-value">6a46577faf82e3d7fbef1595</span></div>
+</div>
+
+<!-- Test mode -->
+<div id="testMode" class="test-container">
+  <main class="question-area">
+    <div class="section-tabs" id="sectionTabs"></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-header">
+        <span class="q-num" id="qNum">Q1</span>
+        <span class="q-marks" id="qMarks"></span>
+      </div>
+      <div class="q-lang-tabs" id="qLangTabs"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options-list" id="optionsList"></div>
+      <div class="actions">
+        <button class="action-btn mark-review" onclick="markReviewNext()">Mark for Review &amp; Next</button>
+        <button class="action-btn clear-response" onclick="clearResponse()">Clear Response</button>
+        <button class="action-btn save-next" onclick="saveNext()">Save &amp; Next →</button>
+      </div>
+      <div class="prev-next">
+        <button class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button class="nav-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </main>
+  <aside class="palette-sidebar">
+    <div class="palette-header">
+      <span id="currentSectionLabel">Test</span>
+    </div>
+    <div class="palette-legend">
+      <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+      <span class="legend-item"><span class="legend-dot notanswered"></span>Not Answered</span>
+      <span class="legend-item"><span class="legend-dot marked"></span>Marked</span>
+      <span class="legend-item"><span class="legend-dot notvisited"></span>Not Visited</span>
+    </div>
+    <div class="palette-grid" id="paletteGrid"></div>
+    <div class="palette-stats" id="paletteStats"></div>
+  </aside>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="modal-content">
+    <h2>Submit Test?</h2>
+    <p>Are you sure you want to submit? You won't be able to change your answers after this.</p>
+    <div class="submit-summary" id="submitSummary"></div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="modal-btn submit" onclick="submitTest()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results view (hidden until submit) -->
+<div id="resultsView" class="results-view" style="display:none;">
+  <div class="results-header">
+    <h1>Test Submitted</h1>
+    <div class="score-card" id="scoreCard"></div>
+    <div class="results-actions">
+      <button class="header-btn" onclick="showAllQuestions()">View All Questions &amp; Solutions</button>
+      <button class="header-btn" onclick="window.print()">🖨️ Print</button>
+    </div>
+  </div>
+  <div class="results-questions" id="resultsQuestions"></div>
+</div>
+
+<!-- Test data embedded as JSON -->
+<script type="application/json" id="test-data">{"test_id": "6a46577faf82e3d7fbef1595", "title": "SSC CGL Tier I: (Eduquity PYQ) General Knowledge Live Test - 13", "series_slug": "ssc-cgl", "duration_min": 0, "max_marks": 50.0, "languages": ["English", "Hindi"], "sections": [{"section_id": "69f0944e34a326423f2cd8f7", "section_name": "Test", "q_count": 25, "max_marks": 50.0, "questions": [{"qid": "69bcf88834c0abafc70524b6", "qs_no": 1, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<span style=\"color: rgb(33, 37, 41);\">As per the the Industrial Policy Statement, 1977 a tiny unit was one which has an investment of Rs. ____ lakh.</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;0.5&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;5&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;10&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"color: rgb(33, 37, 41);\">औद्योगिक नीति वक्तव्य, 1977 के अनुसार, एक अति लघु इकाई (tiny unit) वह थी जिसमें ____ लाख रुपये का निवेश था।</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;0.5&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;5&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;10&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"color: rgb(33, 37, 41);\">పారిశ్రామిక విధాన తీర్మానం, 1977 ప్రకారం, ఒక అతి చిన్న (tiny) యూనిట్ అనేది రూ. ____ లక్షల పెట్టుబడిని కలిగి ఉంటుంది?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">0.5</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">5</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">10</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style=\"color: rgb(33, 37, 41);\">औद्योगिक धोरण विधान, 1977 नुसार, ज्यामध्ये _____ लाख रुपयांची गुंतवणूक होती, ते एक सूक्ष्म युनिट होते.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">0.5</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">5</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">10</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"color: rgb(33, 37, 41);\">শিল্প নীতি বিবৃতি, 1977 অনুসারে একটি ক্ষুদ্রাতিক্ষুদ্র ইউনিটের (tiny unit) বিনিয়োগের পরিমাণ ছিল ____ লক্ষ টাকা।</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">0.5</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">5</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">10</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style='color: rgb(33, 37, 41);'>ઔદ્યોગિક નીતિ નિવેદન, 1977 મુજબ, એક નાનો એકમ તે હતો જેમાં રૂ. ____ લાખનું રોકાણ હતું.</span>", "options": [{"prompt": "1", "value": "<span style='color: rgb(33, 37, 41);'>0.5</span>"}, {"prompt": "2", "value": "<span style='color: rgb(33, 37, 41);'>1</span>"}, {"prompt": "3", "value": "<span style='color: rgb(33, 37, 41);'>5</span>"}, {"prompt": "4", "value": "<span style='color: rgb(33, 37, 41);'>10</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"color: rgb(33, 37, 41);\">ಕೈಗಾರಿಕಾ ನೀತಿ ಹೇಳಿಕೆ, 1977 ರ ಪ್ರಕಾರ ಅತಿ ಸಣ್ಣ ಕೈಗಾರಿಕಾ ಘಟಕವು  ____ ಲಕ್ಷ ರೂ. ಹೂಡಿಕೆಯನ್ನು ಹೊಂದಿರುವ ಘಟಕವಾಗಿತ್ತು.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">0.5</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">5</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">10</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style=\"color: rgb(33, 37, 41);\">தொழில்துறை கொள்கை அறிக்கை, 1977-இன் படி, ஒரு மிகச்சிறிய அலகு (tiny unit) என்பது ரூ. ____ லட்சம் முதலீடு கொண்டதாகும்.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">0.5</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">1</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">5</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">10</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "690c77d09a266a43e8d94a85", "qs_no": 2, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "How many of the following statements about Kho-Kho rules is/are <strong>correct</strong>?<br />\n1) Pole height is 1.20-1.25 m with a fixed 9 cm diameter.<br />\n2) Total match duration, including intervals, is 48 minutes.<br />\n3) Sub-junior chasers&#39; block distance is the same as juniors: 2.30 m.", "options": [{"prompt": "1", "value": "Only 1 is Correct"}, {"prompt": "2", "value": "Only 2 is Correct"}, {"prompt": "3", "value": "Only 3 is correct"}, {"prompt": "4", "value": "1, 2 and 3 all are Correct"}], "range": {"start": "", "end": ""}}, "hn": {"value": "खो-खो के नियमों के बारे में निम्नलिखित में से कितने कथन <strong>सही</strong> हैं?<br />\n1) खंभे की ऊंचाई 1.20-1.25 मीटर है और इसका व्यास 9 सेंटीमीटर स्थिर है।<br />\n2) अंतराल सहित मैच की कुल अवधि 48 मिनट है।<br />\n3) सब-जूनियर चेज़र्स की ब्लॉक दूरी जूनियर्स के समान है: 2.30 मीटर।", "options": [{"prompt": "1", "value": "केवल 1 सही है"}, {"prompt": "2", "value": "केवल 2 सही है"}, {"prompt": "3", "value": "केवल 3 सही है"}, {"prompt": "4", "value": "1, 2 और 3 सभी सही हैं"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "68b16e1427249531199b925d", "qs_no": 3, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "The Aspirational Districts Programme (ADP) focuses on:", "options": [{"prompt": "1", "value": "Enhancing development in underdeveloped districts"}, {"prompt": "2", "value": "Improving governance in urban areas"}, {"prompt": "3", "value": "Developing industrial clusters in backward regions"}, {"prompt": "4", "value": "Providing subsidies to small-scale industries"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"color: rgb(33, 37, 41);\">एस्पिरेशनल डिस्ट्रिक्ट प्रोग्राम (ADP)</span>&nbsp;निम्नलिखित पर केंद्रित है:", "options": [{"prompt": "1", "value": "अविकसित जिलों में विकास को बढ़ावा देना।"}, {"prompt": "2", "value": "शहरी क्षेत्रों में प्रशासन में सुधार करना।"}, {"prompt": "3", "value": "पिछड़े क्षेत्रों में औद्योगिक क्लस्टरों का विकास करना।"}, {"prompt": "4", "value": "लघु उद्योगों को सब्सिडी प्रदान करना।"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "6909f9127e2abf590ea198ef", "qs_no": 4, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "The Sindri fertilizer plant, one of India&#39;s oldest and most significant, is located in which state, utilizing its proximity to a major coal-producing region?", "options": [{"prompt": "1", "value": "West Bengal"}, {"prompt": "2", "value": "Odisha"}, {"prompt": "3", "value": "Jharkhand"}, {"prompt": "4", "value": "Bihar"}], "range": {"start": "", "end": ""}}, "hn": {"value": "सिंदरी उर्वरक संयंत्र, भारत के सबसे पुराने और महत्वपूर्ण संयंत्रों में से एक, किस राज्य में स्थित है, जो एक प्रमुख कोयला उत्पादक क्षेत्र से अपनी निकटता का उपयोग करता है?", "options": [{"prompt": "1", "value": "पश्चिम बंगाल"}, {"prompt": "2", "value": "ओडिशा"}, {"prompt": "3", "value": "झारखंड"}, {"prompt": "4", "value": "बिहार"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69bcf04d3c543464338607b5", "qs_no": 5, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<span style=\"color: rgb(33, 37, 41);\">&#39;Titodo&#39; is a traditional folk dance performed by unmarried people in which Indian state?</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Gujarat&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Karnataka&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Meghalaya&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;West Bengal&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"color: rgb(33, 37, 41);\">&#39;टिटोडो&#39; (Titodo) किस भारतीय राज्य में अविवाहित लोगों द्वारा किया जाने वाला एक पारंपरिक लोक नृत्य है?</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;गुजरात&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;कर्नाटक&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;मेघालय&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;पश्चिम बंगाल&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"color: rgb(33, 37, 41);\">'టిటోడో' అనేది ఏ భారతీయ రాష్ట్రంలో అవివాహితులు ప్రదర్శించే సంప్రదాయ జానపద నృత్యం?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">గుజరాత్</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">కర్ణాటక</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">మేఘాలయ</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">పశ్చిమ బెంగాల్</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style=\"color: rgb(33, 37, 41);\">'टिटोडो' हा अविवाहित व्यक्तींद्वारे सादर केला जाणारा पारंपारिक लोकनृत्य कोणत्या भारतीय राज्यात आहे?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">गुजरात</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">कर्नाटक</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">मेघालय</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">पश्चिम बंगाल</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"color: rgb(33, 37, 41);\">'</span>টিটোডো<span style=\"color: rgb(33, 37, 41);\">' ভারতের কোন রাজ্যের অবিবাহিত যুবকদের দ্বারা পরিবেশিত একটি ঐতিহ্যবাহী লোকনৃত্য?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">গুজরাট</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">কর্ণাটক</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">মেঘালয়</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">পশ্চিমবঙ্গ</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style='color: rgb(33, 37, 41);'>'ટીટોડો' (Titodo) એ કયા ભારતીય રાજ્યમાં અપરિણીત લોકો દ્વારા કરવામાં આવતું એક પરંપરાગત લોકનૃત્ય છે?</span>", "options": [{"prompt": "1", "value": "<span style='color: rgb(33, 37, 41);'>ગુજરાત</span>"}, {"prompt": "2", "value": "<span style='color: rgb(33, 37, 41);'>કર્ણાટક</span>"}, {"prompt": "3", "value": "<span style='color: rgb(33, 37, 41);'>મેઘાલય</span>"}, {"prompt": "4", "value": "<span style='color: rgb(33, 37, 41);'>પશ્ચિમ બંગાળ</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"color: rgb(33, 37, 41);\">'ಟಿಟೋಡೋ' ಎಂಬುದು ಯಾವ ಭಾರತೀಯ ರಾಜ್ಯದಲ್ಲಿ ಅವಿವಾಹಿತರು ಪ್ರದರ್ಶಿಸುವ ಸಾಂಪ್ರದಾಯಿಕ ಜಾನಪದ ನೃತ್ಯವಾಗಿದೆ?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">ಗುಜರಾತ್</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ಕರ್ನಾಟಕ</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ಮೇಘಾಲಯ</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">ಪಶ್ಚಿಮ ಬಂಗಾಳ</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style=\"color: rgb(33, 37, 41);\">'டிடோடோ' என்பது எந்த இந்திய மாநிலத்தில் திருமணமாகாதவர்களால் ஆடப்படும் ஒரு பாரம்பரிய நாட்டுப்புற நடனம்?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">குஜராத்</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">கர்நாடகா</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">மேகாலயா</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">மேற்கு வங்காளம்</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69bcf1234a84ec288c05c57b", "qs_no": 6, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<span style=\"color: rgb(33, 37, 41);\">The child sex ratio in India was _______ females per thousand males in 2011 census.</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;918&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;980&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;960&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;919&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"color: rgb(33, 37, 41);\">2011 की जनगणना में भारत में बाल लिंगानुपात प्रति हजार पुरुषों पर _______ महिलाएं था।</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;918&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;980&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;960&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;919&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"color: rgb(33, 37, 41);\">2011 జనాభా లెక్కల ప్రకారం భారతదేశంలో బాలల లింగ నిష్పత్తి ప్రతి వెయ్యి మంది పురుషులకు _______ స్త్రీలుగా ఉంది?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">918</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">980</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">960</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">919</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style=\"color: rgb(33, 37, 41);\">2011 च्या जनगणनेनुसार भारतात बाल लिंग गुणोत्तर प्रति हजार पुरुषांमागे _______ स्त्रिया इतके होते.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">918</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">980</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">960</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">919</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"color: rgb(33, 37, 41);\">2011 সালের জনগণনা অনুযায়ী ভারতে শিশু লিঙ্গানুপাত ছিল প্রতি হাজার পুরুষে _______ জন মহিলা।</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">918</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">980</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">960</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">919</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style='color: rgb(33, 37, 41);'>૨૦૧૧ ની વસ્તી ગણતરીમાં ભારતમાં બાળ જાતિ પ્રમાણ દર હજાર પુરુષોએ _______ સ્ત્રીઓ હતું.</span>", "options": [{"prompt": "1", "value": "<span style='color: rgb(33, 37, 41);'>918</span>"}, {"prompt": "2", "value": "<span style='color: rgb(33, 37, 41);'>980</span>"}, {"prompt": "3", "value": "<span style='color: rgb(33, 37, 41);'>960</span>"}, {"prompt": "4", "value": "<span style='color: rgb(33, 37, 41);'>919</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"color: rgb(33, 37, 41);\">2011ರ ಜನಗಣತಿಯ ಪ್ರಕಾರ ಭಾರತದಲ್ಲಿ ಮಕ್ಕಳ ಲಿಂಗಾನುಪಾತವು ಪ್ರತಿ ಸಾವಿರ ಪುರುಷರಿಗೆ _______ ಮಹಿಳೆಯರಷ್ಟಿತ್ತು.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">918</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">980</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">960</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">919</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style='color: rgb(33, 37, 41);'>2011 ஆம் ஆண்டு மக்கள் தொகை கணக்கெடுப்பின்படி, இந்தியாவில் குழந்தை பாலின விகிதம் ஆயிரம் ஆண்களுக்கு _______ பெண்கள் ஆகும்.</span>", "options": [{"prompt": "1", "value": "<span style='color: rgb(33, 37, 41);'>918</span>"}, {"prompt": "2", "value": "<span style='color: rgb(33, 37, 41);'>980</span>"}, {"prompt": "3", "value": "<span style='color: rgb(33, 37, 41);'>960</span>"}, {"prompt": "4", "value": "<span style='color: rgb(33, 37, 41);'>919</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "6909e1ad0a73c1795a9eb6ee", "qs_no": 7, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which mechanism did India operationalize in 2024 to strengthen regional financial resilience within SAARC?", "options": [{"prompt": "1", "value": "SAARC Development Fund capital increase"}, {"prompt": "2", "value": "SAARC Currency Swap Framework (2024-27)"}, {"prompt": "3", "value": "SAARC Trade Insurance Scheme"}, {"prompt": "4", "value": "SAARC Sovereign Credit Pool"}], "range": {"start": "", "end": ""}}, "hn": {"value": "सार्क के भीतर क्षेत्रीय वित्तीय लचीलापन को मजबूत करने के लिए भारत ने 2024 में कौन-सा तंत्र क्रियान्वित किया है?", "options": [{"prompt": "1", "value": "सार्क विकास कोष की पूँजी में वृद्धि"}, {"prompt": "2", "value": "सार्क मुद्रा विनिमय ढांचा (2024-27)"}, {"prompt": "3", "value": "सार्क व्यापार बीमा योजना"}, {"prompt": "4", "value": "सार्क सॉवरेन क्रेडिट पूल"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "699e8e7e930f7bf5fb4a71b9", "qs_no": 8, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What is the total length (in km) of navigable waterways in India?", "options": [{"prompt": "1", "value": "6500"}, {"prompt": "2", "value": "8000"}, {"prompt": "3", "value": "11200"}, {"prompt": "4", "value": "14500"}], "range": {"start": "", "end": ""}}, "hn": {"value": "भारत में नौकायन हेतु जलमार्गों की कुल लंबाई (कि.मी. में) कितनी है?", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;6500&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;8000&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;11200&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;14500&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "భారతదేశంలో ప్రయాణించదగిన జలమార్గాల మొత్తం పొడవు (కి.మీ లలో) ఎంత?", "options": [{"prompt": "1", "value": "6500"}, {"prompt": "2", "value": "8000"}, {"prompt": "3", "value": "11200"}, {"prompt": "4", "value": "14500"}], "range": {"start": "", "end": ""}}, "bn": {"value": "ভারতে নৌযান চলাচলের উপযুক্ত জলপথের মোট দৈর্ঘ্য (কিমি-তে) কত?", "options": [{"prompt": "1", "value": "6500"}, {"prompt": "2", "value": "8000"}, {"prompt": "3", "value": "11200"}, {"prompt": "4", "value": "14500"}], "range": {"start": "", "end": ""}}, "gu": {"value": "ભારતમાં નદીઓ અને નહેરો દ્વારા કેટલા કિલોમીટર સુધી જળમાર્ગ ઉપલબ્ધ છે?", "options": [{"prompt": "1", "value": "6500"}, {"prompt": "2", "value": "8000"}, {"prompt": "3", "value": "11200"}, {"prompt": "4", "value": "14500"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಭಾರತದಲ್ಲಿ ಸಂಚರಿಸಲು ಯೋಗ್ಯವಾದ ಜಲಮಾರ್ಗಗಳ ಒಟ್ಟು ಉದ್ದ (ಕಿ.ಮೀ.ಗಳಲ್ಲಿ) ಎಷ್ಟು?", "options": [{"prompt": "1", "value": "6500"}, {"prompt": "2", "value": "8000"}, {"prompt": "3", "value": "11200"}, {"prompt": "4", "value": "14500"}], "range": {"start": "", "end": ""}}, "ta": {"value": "இந்தியாவில் கப்பல் போக்குவரத்து செய்யக்கூடிய நீர்வழிகளின் மொத்த நீளம் (கிமீ இல்) என்ன?", "options": [{"prompt": "1", "value": "6500"}, {"prompt": "2", "value": "8000"}, {"prompt": "3", "value": "11200"}, {"prompt": "4", "value": "14500"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69bceed71068a7ae493edd80", "qs_no": 9, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<span style=\"color: rgb(33, 37, 41);\">Which musical instrument is shown in the figure given below?<br />\n<img src=\"https://cdn.repeatermock.com/tb/f7a2df129b30bfa847a60f178459f90f894cc9f349ef746b694496ab2dc39952.png\" style=\"max-width: 100%; height: auto;\" /></span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Pakhawaj&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Jhanj&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Algoza&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Sindhi Sarangi&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"color: rgb(33, 37, 41);\">नीचे दी गई आकृति में कौन सा संगीत वाद्ययंत्र दिखाया गया है?<br />\n<img src=\"https://cdn.repeatermock.com/tb/7c824edf837c553563b611c9ef03b91d7df5c406272ee87b4f515785add0edeb.png\" style=\"max-width: 100%; height: auto;\" /></span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;पखावज&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;झांझ&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;अल्गोजा&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;सिंधी सारंगी&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"color: rgb(33, 37, 41);\">కింద ఇచ్చిన చిత్రంలో చూపబడిన సంగీత వాయిద్యం ఏది?<br />\n<img src=\"https://cdn.repeatermock.com/tb/f7a2df129b30bfa847a60f178459f90f894cc9f349ef746b694496ab2dc39952.png\" style=\"max-width: 100%; height: auto;\" /></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">పఖ్వాజ్</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ఝాంజ్</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ఆల్గోజా</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">సింధీ సారంగి</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style=\"color: rgb(33, 37, 41);\">खालील चित्रात कोणते वाद्य दाखवले आहे?<br />\n<img src=\"https://cdn.repeatermock.com/tb/f7a2df129b30bfa847a60f178459f90f894cc9f349ef746b694496ab2dc39952.png\" style=\"max-width: 100%; height: auto;\" /></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">पखावज</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">झांझ</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">अलगोजा</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">सिंधी सारंगी</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"color: rgb(33, 37, 41);\">নীচে দেওয়া চিত্রে কোন বাদ্যযন্ত্রটি দেখানো হয়েছে?<br />\n<img src=\"https://cdn.repeatermock.com/tb/f7a2df129b30bfa847a60f178459f90f894cc9f349ef746b694496ab2dc39952.png\" style=\"max-width: 100%; height: auto;\" /></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">পাখাওয়াজ</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ঝাঁঝ</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">আলগোজা</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">সিন্ধি সারেঙ্গি</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style=\"color: rgb(33, 37, 41);\">નીચે આપેલ આકૃતિમાં કયું સંગીત વાદ્ય દર્શાવવામાં આવ્યું છે?<br />\n<img src=\"https://cdn.repeatermock.com/tb/f7a2df129b30bfa847a60f178459f90f894cc9f349ef746b694496ab2dc39952.png\" style=\"max-width: 100%; height: auto;\" /></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">પખવાજ</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ઝાંઝ</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">આલ્ગોઝા</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">સિંધી સારંગી</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"color: rgb(33, 37, 41);\">ಕೆಳಗೆ ನೀಡಿರುವ ಚಿತ್ರದಲ್ಲಿ ತೋರಿಸಿರುವ ಸಂಗೀತ ವಾದ್ಯ ಯಾವುದು?<br />\n<img src=\"https://cdn.repeatermock.com/tb/f7a2df129b30bfa847a60f178459f90f894cc9f349ef746b694496ab2dc39952.png\" style=\"max-width: 100%; height: auto;\" /></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">ಪಖವಾಜ್</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ಝಾಂಜ್</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ಅಲ್ಗೋಝಾ</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">ಸಿಂಧಿ ಸಾರಂಗಿ</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style=\"color: rgb(33, 37, 41);\">கீழே கொடுக்கப்பட்டுள்ள படத்தில் காட்டப்பட்டுள்ள இசைக்கருவி எது?<br />\n<img src=\"https://cdn.repeatermock.com/tb/f7a2df129b30bfa847a60f178459f90f894cc9f349ef746b694496ab2dc39952.png\" style=\"max-width: 100%; height: auto;\" /></span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">பக்வாஜ்</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ஜான்ஜ்</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">அல்கோசா</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">சிந்தி சாரங்கி</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69975145818b6c4c16bfab47", "qs_no": 10, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Who decides whether a bill is a Money Bill or not?", "options": [{"prompt": "1", "value": "President"}, {"prompt": "2", "value": "Speaker of the House of the People"}, {"prompt": "3", "value": "Prime Minister"}, {"prompt": "4", "value": "Finance Minister"}], "range": {"start": "", "end": ""}}, "hn": {"value": "कौन तय करता है कि कोई विधेयक धन विधेयक है या नहीं?", "options": [{"prompt": "1", "value": "राष्ट्रपति"}, {"prompt": "2", "value": "लोकसभा अध्यक्ष"}, {"prompt": "3", "value": "प्रधानमंत्री"}, {"prompt": "4", "value": "वित्त मंत्री"}], "range": {"start": "", "end": ""}}, "te": {"value": "ఒక బిల్లు ద్రవ్య బిల్లు అవునో కాదో ఎవరు నిర్ణయిస్తారు?", "options": [{"prompt": "1", "value": "అధ్యక్షుడు"}, {"prompt": "2", "value": "ప్రజల సభ స్పీకర్"}, {"prompt": "3", "value": "ప్రధాన మంత్రి"}, {"prompt": "4", "value": "ఆర్థిక మంత్రి"}], "range": {"start": "", "end": ""}}, "bn": {"value": "কে সিদ্ধান্ত নেন যে একটি বিল অর্থ বিল কিনা?", "options": [{"prompt": "1", "value": "রাষ্ট্রপতি"}, {"prompt": "2", "value": "লোকসভার অধ্যক্ষ"}, {"prompt": "3", "value": "প্রধানমন্ত্রী"}, {"prompt": "4", "value": "অর্থমন্ত্রী"}], "range": {"start": "", "end": ""}}, "gu": {"value": "કોણ નક્કી કરે છે કે કોઈ ખરડો મની બિલ છે કે નહીં?", "options": [{"prompt": "1", "value": "રાષ્ટ્રપતિ"}, {"prompt": "2", "value": "લોકસભાના અધ્યક્ષ"}, {"prompt": "3", "value": "વડાપ્રધાન"}, {"prompt": "4", "value": "નાણાં મંત્રી"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಒಂದು ಮಸೂದೆಯು ಹಣಕಾಸು ಮಸೂದೆಯೇ ಅಲ್ಲವೇ ಎಂಬುದನ್ನು ಯಾರು ನಿರ್ಧರಿಸುತ್ತಾರೆ?", "options": [{"prompt": "1", "value": "ರಾಷ್ಟ್ರಪತಿ"}, {"prompt": "2", "value": "ಲೋಕಸಭೆಯ ಸಭಾಪತಿ"}, {"prompt": "3", "value": "ಪ್ರಧಾನ ಮಂತ್ರಿ"}, {"prompt": "4", "value": "ಹಣಕಾಸು ಸಚಿವ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "ஒரு மசோதா பண மசோதாவா இல்லையா என்பதை யார் தீர்மானிக்கிறார்?", "options": [{"prompt": "1", "value": "குடியரசுத் தலைவர்"}, {"prompt": "2", "value": "மக்களவை சபாநாயகர்"}, {"prompt": "3", "value": "பிரதமர்"}, {"prompt": "4", "value": "நிதியமைச்சர்"}], "range": {"start": "", "end": ""}}, "pa": {"value": "ਇਹ ਕੌਣ ਫੈਸਲਾ ਕਰਦਾ ਹੈ ਕਿ ਕੋਈ ਬਿੱਲ ਮਨੀ ਬਿੱਲ ਹੈ ਜਾਂ ਨਹੀਂ?", "options": [{"prompt": "1", "value": "ਰਾਸ਼ਟਰਪਤੀ"}, {"prompt": "2", "value": "ਲੋਕ ਸਭਾ ਦਾ ਸਪੀਕਰ"}, {"prompt": "3", "value": "ਪ੍ਰਧਾਨ ਮੰਤਰੀ"}, {"prompt": "4", "value": "ਵਿੱਤ ਮੰਤਰੀ"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "690c6c22c10fde365b1278ce", "qs_no": 11, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>Read the following statements carefully and choose the correct option regarding Assertion (A) and Reason (R).</p>\n\n<p>Assertion (A): One objective of liberalisation was to remove barriers to entry and growth of firms.</p>\n\n<p>Reason (R): The license raj restricted entrepreneurial freedom and market competition.</p>\n", "options": [{"prompt": "1", "value": "Both A and R are true and R is the correct explanation of A."}, {"prompt": "2", "value": "Both A and R are true but R is not the correct explanation of A."}, {"prompt": "3", "value": "A is true but R is false."}, {"prompt": "4", "value": "A is false but R is true."}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>निम्नलिखित कथनों को ध्यानपूर्वक पढ़िए और अभिकथन (A) तथा कारण (R) के संबंध में सही विकल्प चुनिए।</p>\n\n<p>अभिकथन (A): उदारीकरण का एक उद्देश्य फर्मों के प्रवेश और विकास में आने वाली बाधाओं को दूर करना था।</p>\n\n<p>कारण (R): लाइसेंस राज ने उद्यमशीलता की स्वतंत्रता और बाजार प्रतिस्पर्धा को प्रतिबंधित कर दिया।</p>\n", "options": [{"prompt": "1", "value": "A और R दोनों सत्य हैं और R, A का सही स्पष्टीकरण है।"}, {"prompt": "2", "value": "A और R दोनों सत्य हैं लेकिन R, A का सही स्पष्टीकरण नहीं है।"}, {"prompt": "3", "value": "A सत्य है लेकिन R असत्य है।"}, {"prompt": "4", "value": "A असत्य है लेकिन R सत्य है।"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "68b0f471cd3136dbf4d02230", "qs_no": 12, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "According to Keynesian theory, during recession, what should the government ideally do?&nbsp;", "options": [{"prompt": "1", "value": "Increase interest rates"}, {"prompt": "2", "value": "Increasing spending and out taxes"}, {"prompt": "3", "value": "Promote Imports"}, {"prompt": "4", "value": "Reduce Spending"}], "range": {"start": "", "end": ""}}, "hn": {"value": "कीन्सियन सिद्धांत के अनुसार, मंदी के दौरान सरकार को आदर्श रूप से क्या करना चाहिए?", "options": [{"prompt": "1", "value": "ब्याज दरें बढ़ाएँ&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;।&lt;/span&gt;"}, {"prompt": "2", "value": "खर्चे बढ़ाएँ और करों में कटौती करे&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;।&lt;/span&gt;"}, {"prompt": "3", "value": "आयात को बढ़ावा देना&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;।&lt;/span&gt;"}, {"prompt": "4", "value": "खर्च कम करें&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;।&lt;/span&gt;"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "694a43cde45e06bd0cbaec6f", "qs_no": 13, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "After which of the following five year plan in India, the emphasis on the public sector has become less pronounced?", "options": [{"prompt": "1", "value": "First"}, {"prompt": "2", "value": "Third"}, {"prompt": "3", "value": "Fifth"}, {"prompt": "4", "value": "Ninth"}], "range": {"start": "", "end": ""}}, "hn": {"value": "भारत की, निम्नलिखित में से किस पंचवर्षीय योजना के बाद सार्वजनिक क्षेत्र पर प्रभाव कम हो गया है?", "options": [{"prompt": "1", "value": "पहली"}, {"prompt": "2", "value": "तीसरी"}, {"prompt": "3", "value": "पाँचवीं"}, {"prompt": "4", "value": "नौवीं"}], "range": {"start": "", "end": ""}}, "te": {"value": "భారతదేశంలో ఈ క్రింది పంచవర్ష ప్రణాళికలలో దేని తర్వాత ప్రభుత్వ రంగంపై ప్రాధాన్యత తగ్గింది?", "options": [{"prompt": "1", "value": "మొదటి"}, {"prompt": "2", "value": "మూడవ"}, {"prompt": "3", "value": "ఐదవ"}, {"prompt": "4", "value": "తొమ్మిదవ"}], "range": {"start": "", "end": ""}}, "bn": {"value": "ভারতের নিম্নলিখিত কোন পঞ্চবার্ষিক পরিকল্পনার পর, সরকারি খাতের উপর জোর কম প্রকট হয়েছে?", "options": [{"prompt": "1", "value": "প্রথম"}, {"prompt": "2", "value": "তৃতীয়"}, {"prompt": "3", "value": "পঞ্চম"}, {"prompt": "4", "value": "নবম"}], "range": {"start": "", "end": ""}}, "gu": {"value": "ભારતમાં કઈ પંચવર્ષીય યોજના પછી, જાહેર ક્ષેત્ર પરનો ભાર ઓછો થયો?", "options": [{"prompt": "1", "value": "પ્રથમ"}, {"prompt": "2", "value": "ત્રીજી"}, {"prompt": "3", "value": "પાંચમી"}, {"prompt": "4", "value": "નવમી"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಭಾರತದಲ್ಲಿ ಕೆಳಗಿನ ಯಾವ ಪಂಚವಾರ್ಷಿಕ ಯೋಜನೆಯ ನಂತರ ಸಾರ್ವಜನಿಕ ವಲಯಕ್ಕೆ ನೀಡಿದ ಒತ್ತು ಕಡಿಮೆಯಾಗಿದೆ?", "options": [{"prompt": "1", "value": "ಮೊದಲನೇಯದು"}, {"prompt": "2", "value": "ಮೂರನೇಯದು"}, {"prompt": "3", "value": "ಐದನೇಯದು"}, {"prompt": "4", "value": "ಒಂಬತ್ತನೇಯದು"}], "range": {"start": "", "end": ""}}, "ta": {"value": "இந்தியாவில் பின்வரும் ஐந்தாண்டுத் திட்டங்களில் எதற்குப் பிறகு, பொதுத்துறை மீதான முக்கியத்துவம் குறைவாக உச்சரிக்கப்பட்டது?", "options": [{"prompt": "1", "value": "முதல்"}, {"prompt": "2", "value": "மூன்றாம்"}, {"prompt": "3", "value": "ஐந்தாம்"}, {"prompt": "4", "value": "ஒன்பதாம்"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69ccbe16608516fd8fb09ef0", "qs_no": 14, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Under which article of the Indian Constitution is the Right to Equality guaranteed?", "options": [{"prompt": "1", "value": "Article 14 to Article 18"}, {"prompt": "2", "value": "Article 19 to Article 22"}, {"prompt": "3", "value": "Article 12 to Article 13"}, {"prompt": "4", "value": "Article 21 to Article 23"}], "range": {"start": "", "end": ""}}, "hn": {"value": "भारतीय संविधान के किस अनुच्छेद के अंतर्गत समानता का अधिकार सुनिश्चित किया गया है?", "options": [{"prompt": "1", "value": "अनुच्छेद 14 से अनुच्छेद 18"}, {"prompt": "2", "value": "अनुच्छेद 19 से अनुच्छेद 22"}, {"prompt": "3", "value": "अनुच्छेद 12 से अनुच्छेद 13"}, {"prompt": "4", "value": "अनुच्छेद 21 से अनुच्छेद 23"}], "range": {"start": "", "end": ""}}, "mr": {"value": "भारतीय संविधानाच्या कोणत्या कलमांतर्गत समानतेचा हक्क (Right to Equality) दिला आहे?", "options": [{"prompt": "1", "value": "कलम 14 ते कलम 18"}, {"prompt": "2", "value": "कलम 19 ते कलम 22"}, {"prompt": "3", "value": "कलम 12 ते कलम 13"}, {"prompt": "4", "value": "कलम 21 ते कलम 23"}], "range": {"start": "", "end": ""}}, "pa": {"value": "ਭਾਰਤੀ ਸੰਵਿਧਾਨ ਦੇ ਕਿਸ ਅਨੁਛੇਦ ਅਧੀਨ ਸਮਾਨਤਾ ਦੇ ਅਧਿਕਾਰ ਦੀ ਗਰੰਟੀ ਹੈ?", "options": [{"prompt": "1", "value": "ਧਾਰਾ 14 ਤੋਂ ਧਾਰਾ 18 ਤੱਕ"}, {"prompt": "2", "value": "ਧਾਰਾ 19 ਤੋਂ ਧਾਰਾ 22 ਤੱਕ"}, {"prompt": "3", "value": "ਧਾਰਾ 12 ਤੋਂ ਧਾਰਾ 13 ਤੱਕ"}, {"prompt": "4", "value": "ਧਾਰਾ 21 ਤੋਂ ਧਾਰਾ 23 ਤੱਕ"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "68b088d563c3fce20b1b3be8", "qs_no": 15, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which Mughal Emperor issued the Deccan campaign against the Marathas and spent significant time in the region?", "options": [{"prompt": "1", "value": "Shah Jahan"}, {"prompt": "2", "value": "Aurangzeb"}, {"prompt": "3", "value": "Jahangir"}, {"prompt": "4", "value": "Akbar&amp;nbsp;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "किस मुगल सम्राट ने मराठाओं के विरुद्ध डेक्कन अभियान चलाया और इस क्षेत्र में लंबा समय बिताया?", "options": [{"prompt": "1", "value": "शाहजहाँ"}, {"prompt": "2", "value": "औरंगजेब"}, {"prompt": "3", "value": "जहांगीर"}, {"prompt": "4", "value": "अकबर"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "68e04f8c43ae49c8f0bec48c", "qs_no": 16, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<!-- x-tinymce/html -->What happens to the kinetic energy of a moving object if its velocity is tripled?", "options": [{"prompt": "1", "value": "It becomes 6 times"}, {"prompt": "2", "value": "It becomes 9 times"}, {"prompt": "3", "value": "it becomes 3 times"}, {"prompt": "4", "value": "it becomes 12 times"}], "range": {"start": "", "end": ""}}, "hn": {"value": "यदि किसी गतिशील वस्तु की चाल तीन गुना हो जाए, तो उसकी गतिज ऊर्जा पर क्या प्रभाव पड़ेगा?", "options": [{"prompt": "1", "value": "यह 6 गुना हो जाती &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;है&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;|&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;nbsp;&lt;/span&gt;"}, {"prompt": "2", "value": "यह 9 गुना हो जाती &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;है&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;|&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;nbsp;&lt;/span&gt;"}, {"prompt": "3", "value": "यह 3 गुना हो जाती &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;है&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;|&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;nbsp;&lt;/span&gt;"}, {"prompt": "4", "value": "यह 12 गुना हो जाती है।"}], "range": {"start": "", "end": ""}}, "te": {"value": "<!-- x-tinymce/html -->ఒక కదులుతున్న వస్తువు యొక్క వేగం మూడు రెట్లు పెరిగితే దాని గతిశక్తికి ఏమి జరుగుతుంది?", "options": [{"prompt": "1", "value": "ఇది 6 రెట్లు అవుతుంది"}, {"prompt": "2", "value": "ఇది 9 రెట్లు అవుతుంది"}, {"prompt": "3", "value": "ఇది 3 రెట్లు అవుతుంది"}, {"prompt": "4", "value": "ఇది 12 రెట్లు అవుతుంది"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<!-- x-tinymce/html -->एखाद्या वस्तूचा वेग तिप्पट केल्यास तिच्या गतिज ऊर्जेचे काय होते?", "options": [{"prompt": "1", "value": "ती 6 पट होते"}, {"prompt": "2", "value": "ती 9 पट होते"}, {"prompt": "3", "value": "ती 3 पट होते"}, {"prompt": "4", "value": "ती 12 पट होते"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<!-- x-tinymce/html -->একটি চলমান বস্তুর গতিশক্তি কী হবে যদি তার বেগ তিনগুণ হয়?", "options": [{"prompt": "1", "value": "এটি 6 গুণ হবে"}, {"prompt": "2", "value": "এটি 9 গুণ হবে"}, {"prompt": "3", "value": "এটি 3 গুণ হবে"}, {"prompt": "4", "value": "এটি 12 গুণ হবে"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<!-- x-tinymce/html -->જો કોઈ ગતિશીલ વસ્તુનો વેગ ત્રણ ગણો કરવામાં આવે તો તેની ગતિ ઊર્જામાં શું ફેરફાર થાય છે?", "options": [{"prompt": "1", "value": "તે 6 ગણી થાય છે"}, {"prompt": "2", "value": "તે 9 ગણી થાય છે"}, {"prompt": "3", "value": "તે 3 ગણી થાય છે"}, {"prompt": "4", "value": "તે 12 ગણી થાય છે"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<!-- x-tinymce/html -->ಚಲಿಸುವ ವಸ್ತುವಿನ ವೇಗವನ್ನು ಮೂರು ಪಟ್ಟು ಹೆಚ್ಚಿಸಿದರೆ ಅದರ ಚಲನ ಶಕ್ತಿಗೆ ಏನಾಗುತ್ತದೆ?", "options": [{"prompt": "1", "value": "ಇದು 6 ಪಟ್ಟು ಆಗುತ್ತದೆ"}, {"prompt": "2", "value": "ಇದು 9 ಪಟ್ಟು ಆಗುತ್ತದೆ"}, {"prompt": "3", "value": "ಇದು 3 ಪಟ್ಟು ಆಗುತ್ತದೆ"}, {"prompt": "4", "value": "ಇದು 12 ಪಟ್ಟು ಆಗುತ್ತದೆ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<!-- x-tinymce/html -->ஒரு நகரும் பொருளின் திசைவேகம் மூன்று மடங்காக அதிகரிக்கப்பட்டால், அதன் இயக்க ஆற்றலுக்கு என்ன நடக்கும்?", "options": [{"prompt": "1", "value": "அது 6 மடங்காக மாறும்"}, {"prompt": "2", "value": "அது 9 மடங்காக மாறும்"}, {"prompt": "3", "value": "அது 3 மடங்காக மாறும்"}, {"prompt": "4", "value": "அது 12 மடங்காக மாறும்"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "699e8d270b794d098866fda1", "qs_no": 17, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "In which year the Nawab of Awadh was forced to give over half of his territory to the East India Company?&nbsp;", "options": [{"prompt": "1", "value": "1795"}, {"prompt": "2", "value": "1801"}, {"prompt": "3", "value": "1810"}, {"prompt": "4", "value": "1818"}], "range": {"start": "", "end": ""}}, "hn": {"value": "किस वर्ष में अवध के नवाब को अपना आधा इलाका कंपनी को सौंपने के लिए मजबूर किया गया था?", "options": [{"prompt": "1", "value": "1795"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1801&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1810&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;1818&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "ఏ సంవత్సరంలో అవధ్ నవాబు తన భూభాగంలో సగానికి పైగా ఈస్ట్ ఇండియా కంపెనీకి అప్పగించవలసి వచ్చింది?", "options": [{"prompt": "1", "value": "1795"}, {"prompt": "2", "value": "1801"}, {"prompt": "3", "value": "1810"}, {"prompt": "4", "value": "1818"}], "range": {"start": "", "end": ""}}, "bn": {"value": "কোন বছর অযোধ্যার নবাব তার অঞ্চলের অর্ধেকের বেশি ইস্ট ইন্ডিয়া কোম্পানিকে দিতে বাধ্য হয়েছিলেন?", "options": [{"prompt": "1", "value": "1795"}, {"prompt": "2", "value": "1801"}, {"prompt": "3", "value": "1810"}, {"prompt": "4", "value": "1818"}], "range": {"start": "", "end": ""}}, "gu": {"value": "અવધના નવાબને કયા વર્ષમાં તેમની અડધાથી વધુ પ્રદેશ ઇસ્ટ ઇન્ડિયા કંપનીને આપવાની ફરજ પડી હતી?", "options": [{"prompt": "1", "value": "1795"}, {"prompt": "2", "value": "1801"}, {"prompt": "3", "value": "1810"}, {"prompt": "4", "value": "1818"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಯಾವ ವರ್ಷದಲ್ಲಿ ಔಧ್‌ನ ನವಾಬನು ತನ್ನ ಅರ್ಧಕ್ಕಿಂತ ಹೆಚ್ಚು ಪ್ರದೇಶವನ್ನು ಈಸ್ಟ್ ಇಂಡಿಯಾ ಕಂಪನಿಗೆ ಬಿಟ್ಟುಕೊಡಲು ಒತ್ತಾಯಿಸಲ್ಪಟ್ಟನು?", "options": [{"prompt": "1", "value": "1795"}, {"prompt": "2", "value": "1801"}, {"prompt": "3", "value": "1810"}, {"prompt": "4", "value": "1818"}], "range": {"start": "", "end": ""}}, "ta": {"value": "அவத்தின் நவாப் தனது பிரதேசத்தின் பாதியை கிழக்கிந்திய கம்பெனியிடம் ஒப்படைக்க எந்த ஆண்டு கட்டாயப்படுத்தப்பட்டார்?", "options": [{"prompt": "1", "value": "1795"}, {"prompt": "2", "value": "1801"}, {"prompt": "3", "value": "1810"}, {"prompt": "4", "value": "1818"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "690c561ef395254ed4555a9a", "qs_no": 18, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What does the \"PSLV\" rocket stand for?", "options": [{"prompt": "1", "value": "Polar Satellite Launch Vehicle"}, {"prompt": "2", "value": "Public Space Launch Vehicle"}, {"prompt": "3", "value": "Planetary Satellite Launch Vehicle"}, {"prompt": "4", "value": "Private Satellite Launch Vehicle"}], "range": {"start": "", "end": ""}}, "hn": {"value": "\"पीएसएलवी\" रॉकेट का क्या अर्थ है?", "options": [{"prompt": "1", "value": "पोलर सैटेलाइट लॉन्च व्हीकल"}, {"prompt": "2", "value": "पब्लिक स्पेस लॉन्च व्हीकल"}, {"prompt": "3", "value": "प्लैनेटरी सैटेलाइट लॉन्च व्हीकल"}, {"prompt": "4", "value": "प्राइवेट सैटेलाइट लॉन्च व्हीकल"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69bcf68d026410e8871f26ce", "qs_no": 19, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<span style=\"color: rgb(33, 37, 41);\">&#39;Purana Qila&#39; is situated in ____.</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Delhi&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Jharkhand&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Haryana&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Jammu and Kashmir&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"color: rgb(33, 37, 41);\">&#39;पुराना किला&#39; ____ में स्थित है।</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;दिल्ली&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;झारखंड&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;हरियाणा&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;जम्मू और कश्मीर&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"color: rgb(33, 37, 41);\">'పురాణా ఖిలా'  ____ లో ఉంది?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">ఢిల్లీ</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">జార్ఖండ్</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">హర్యానా</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">జమ్మూ మరియు కాశ్మీర్</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style='color: rgb(33, 37, 41);'>'पुराणा किल्ला' ____ येथे स्थित आहे.</span>", "options": [{"prompt": "1", "value": "<span style='color: rgb(33, 37, 41);'>दिल्ली</span>"}, {"prompt": "2", "value": "<span style='color: rgb(33, 37, 41);'>झारखंड</span>"}, {"prompt": "3", "value": "<span style='color: rgb(33, 37, 41);'>हरियाणा</span>"}, {"prompt": "4", "value": "<span style='color: rgb(33, 37, 41);'>जम्मू आणि काश्मीर</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"color: rgb(33, 37, 41);\">'পুরাণ কেল্লা' ____-এ অবস্থিত।</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">দিল্লি</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ঝাড়খণ্ড</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">হরিয়ানা</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">জম্মু ও কাশ্মীর</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style='color: rgb(33, 37, 41);'>'પુરાના કિલા' ____ માં આવેલો છે.</span>", "options": [{"prompt": "1", "value": "<span style='color: rgb(33, 37, 41);'>દિલ્હી</span>"}, {"prompt": "2", "value": "<span style='color: rgb(33, 37, 41);'>ઝારખંડ</span>"}, {"prompt": "3", "value": "<span style='color: rgb(33, 37, 41);'>હરિયાણા</span>"}, {"prompt": "4", "value": "<span style='color: rgb(33, 37, 41);'>જમ્મુ અને કાશ્મીર</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"color: rgb(33, 37, 41);\">'ಪುರಾಣಾ ಕಿಲಾ' (ಹಳೆಯ ಕೋಟೆ) ______ ನಲ್ಲಿದೆ.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">ದೆಹಲಿ</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ಜಾರ್ಖಂಡ್</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ಹರಿಯಾಣ</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರ</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style=\"color: rgb(33, 37, 41);\">'புரானா கிலா'____ இல் அமைந்துள்ளது.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">டெல்லி</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ஜார்கண்ட்</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ஹரியானா</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">ஜம்மு மற்றும் காஷ்மீர்</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "690c711902b38f78bb2898ea", "qs_no": 20, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "The revolutionary Bagha Jatin (Jatindranath Mukherjee) was known for his valiant fight and for inspiring revolutionaries in which Indian state?", "options": [{"prompt": "1", "value": "Punjab"}, {"prompt": "2", "value": "Uttar Pradesh"}, {"prompt": "3", "value": "Bengal"}, {"prompt": "4", "value": "Bihar"}], "range": {"start": "", "end": ""}}, "hn": {"value": "क्रांतिकारी बाघा जतिन (जतिंद्रनाथ मुखर्जी) अपनी वीरतापूर्ण लड़ाई और किस भारतीय राज्य में क्रांतिकारियों को प्रेरित करने के लिए जाने जाते थे?", "options": [{"prompt": "1", "value": "पंजाब"}, {"prompt": "2", "value": "उत्तर प्रदेश"}, {"prompt": "3", "value": "बंगाल"}, {"prompt": "4", "value": "बिहार"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "690b2e603f7e30afba721e40", "qs_no": 21, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which of the following best reflects the symbolic core of the Jawa Festival celebrated by tribal girls in Jharkhand?", "options": [{"prompt": "1", "value": "It marks the return of ancestral spirits and involves fasting for marital harmony."}, {"prompt": "2", "value": "It is performed to honour forest spirits through grain fermentation and bonfire rituals."}, {"prompt": "3", "value": "It is a fertility rite where sprouted seeds and melons symbolize fertility and offspring."}, {"prompt": "4", "value": "It is celebrated after harvest to appease the rain deity through dance and drum rituals."}], "range": {"start": "", "end": ""}}, "hn": {"value": "निम्नलिखित में से कौन सा झारखंड में आदिवासी लड़कियों द्वारा मनाए जाने वाले जावा महोत्सव के प्रतीकात्मक मूल को सबसे अच्छी तरह से दर्शाता है?", "options": [{"prompt": "1", "value": "यह पूर्वजों की आत्माओं की वापसी का प्रतीक है और इसमें वैवाहिक सद्भाव के लिए उपवास किया जाता है।"}, {"prompt": "2", "value": "यह अनाज किण्वन और अलाव अनुष्ठानों के माध्यम से वन आत्माओं को सम्मानित करने के लिए किया जाता है।"}, {"prompt": "3", "value": "यह एक प्रजनन संस्कार है जिसमें अंकुरित बीज और खरबूजे प्रजनन और संतान का प्रतीक होते हैं।"}, {"prompt": "4", "value": "यह फसल कटने के बाद नृत्य और ढोल अनुष्ठानों के माध्यम से वर्षा देवता को प्रसन्न करने के लिए मनाया जाता है।"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "6909d83e69d3c26083289ebc", "qs_no": 22, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "A Proclamation of National Emergency must be approved by each House within how many months?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "3"}, {"prompt": "3", "value": "6"}, {"prompt": "4", "value": "9"}], "range": {"start": "", "end": ""}}, "hn": {"value": "राष्ट्रीय आपातकाल की घोषणा को प्रत्येक सदन द्वारा कितने महीनों के भीतर अनुमोदित किया जाना चाहिए?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "3"}, {"prompt": "3", "value": "6"}, {"prompt": "4", "value": "9"}], "range": {"start": "", "end": ""}}, "ta": {"value": "தேசிய அவசரநிலை பிரகடனத்திற்கு ஒவ்வொரு அவையும் எத்தனை மாதங்களுக்குள் ஒப்புதல் அளிக்க வேண்டும்?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "3"}, {"prompt": "3", "value": "6"}, {"prompt": "4", "value": "9"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69cf8f32f2612d54672c68bd", "qs_no": 23, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<div><span style='color: rgb(33, 37, 41);'>Who among the following invented the game of judo?</span></div>", "options": [{"prompt": "1", "value": "<div><span style='color: rgb(33, 37, 41);'>Jigoro Kano</span></div>"}, {"prompt": "2", "value": "<div><span style='color: rgb(33, 37, 41);'>James Naismith</span></div>"}, {"prompt": "3", "value": "<div><span style='color: rgb(33, 37, 41);'>James Creighton</span></div>"}, {"prompt": "4", "value": "<div><span style='color: rgb(33, 37, 41);'>Ebenezer Morley</span></div>"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<div><span style='color: rgb(33, 37, 41);'>निम्नलिखित में से किसने जूडो खेल का आविष्कार किया था?</span></div>", "options": [{"prompt": "1", "value": "<div><span style='color: rgb(33, 37, 41);'>जिगोरो कानो</span></div>"}, {"prompt": "2", "value": "<div><span style='color: rgb(33, 37, 41);'>जेम्स नाइस्मिथ</span></div>"}, {"prompt": "3", "value": "<div><span style='color: rgb(33, 37, 41);'>जेम्स क्रेटन</span></div>"}, {"prompt": "4", "value": "<div><span style='color: rgb(33, 37, 41);'>एबेनेज़र मॉर्ले</span></div>"}], "range": {"start": "", "end": ""}}, "te": {"value": "<div><span style='color: rgb(33, 37, 41);'>కిందివారిలో జూడో క్రీడను ఎవరు కనుగొన్నారు?</span></div>", "options": [{"prompt": "1", "value": "<div><span style='color: rgb(33, 37, 41);'>జిగోరో కానో</span></div>"}, {"prompt": "2", "value": "<div><span style='color: rgb(33, 37, 41);'>జేమ్స్ నైస్మిత్</span></div>"}, {"prompt": "3", "value": "<div><span style='color: rgb(33, 37, 41);'>జేమ్స్ క్రైటన్</span></div>"}, {"prompt": "4", "value": "<div><span style='color: rgb(33, 37, 41);'>ఎబెనెజర్ మోర్లే</span></div>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<div><span style='color: rgb(33, 37, 41);'>নিম্নলিখিতদের মধ্যে কে জুডো খেলার উদ্ভাবন করেন?</span></div>", "options": [{"prompt": "1", "value": "<div><span style='color: rgb(33, 37, 41);'>জিগোরো কানো</span></div>"}, {"prompt": "2", "value": "<div><span style='color: rgb(33, 37, 41);'>জেমস নাইস্মিথ</span></div>"}, {"prompt": "3", "value": "<div><span style='color: rgb(33, 37, 41);'>জেমস ক্রেইটন</span></div>"}, {"prompt": "4", "value": "<div><span style='color: rgb(33, 37, 41);'>ইবেনেজার মর্লে</span></div>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<div><span style='color: rgb(33, 37, 41);'>નીચેનામાંથી જુડોની રમતની શોધ કોણે કરી?</span></div>", "options": [{"prompt": "1", "value": "<div><span style='color: rgb(33, 37, 41);'>જીગોરો કાનો</span></div>"}, {"prompt": "2", "value": "<div><span style='color: rgb(33, 37, 41);'>જેમ્સ નાઇસ્મિથ</span></div>"}, {"prompt": "3", "value": "<div><span style='color: rgb(33, 37, 41);'>જેમ્સ ક્રેઇટન</span></div>"}, {"prompt": "4", "value": "<div><span style='color: rgb(33, 37, 41);'>એબેનેઝર મોર્લી</span></div>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<div><span style='color: rgb(33, 37, 41);'>ಕೆಳಗಿನವರಲ್ಲಿ ಯಾರು ಜೂಡೋ ಆಟವನ್ನು ಕಂಡುಹಿಡಿದರು?</span></div>", "options": [{"prompt": "1", "value": "<div><span style='color: rgb(33, 37, 41);'>ಜಿಗೊರೊ ಕಾನೊ</span></div>"}, {"prompt": "2", "value": "<div><span style='color: rgb(33, 37, 41);'>ಜೇಮ್ಸ್ ನೈಸ್ಮಿತ್</span></div>"}, {"prompt": "3", "value": "<div><span style='color: rgb(33, 37, 41);'>ಜೇಮ್ಸ್ ಕ್ರೈಟನ್</span></div>"}, {"prompt": "4", "value": "<div><span style='color: rgb(33, 37, 41);'>ಎಬೆನೆಜರ್ ಮೊರ್ಲಿ</span></div>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<div><span style='color: rgb(33, 37, 41);'>பின்வருபவர்களில் ஜூடோ விளையாட்டைக் கண்டுபிடித்தவர் யார்?</span></div>", "options": [{"prompt": "1", "value": "<div><span style='color: rgb(33, 37, 41);'>ஜிகோரோ கானோ</span></div>"}, {"prompt": "2", "value": "<div><span style='color: rgb(33, 37, 41);'>ஜேம்ஸ் நைஸ்மித்</span></div>"}, {"prompt": "3", "value": "<div><span style='color: rgb(33, 37, 41);'>ஜேம்ஸ் க்ரைட்டன்</span></div>"}, {"prompt": "4", "value": "<div><span style='color: rgb(33, 37, 41);'>எபனேசர் மோர்லி</span></div>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "690b2e62d6caa485d115e417", "qs_no": 24, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What is the central theme of the book India's Revolutionary Inheritance by Chris Moffat?", "options": [{"prompt": "1", "value": "The economic reforms and liberalisation policies of modern India"}, {"prompt": "2", "value": "The global connections of Indian revolutionaries in the 20th century"}, {"prompt": "3", "value": "The legacy of Bhagat Singh in India's political memory and imagination"}, {"prompt": "4", "value": "The parliamentary development of India's postcolonial governance"}], "range": {"start": "", "end": ""}}, "hn": {"value": "क्रिस मोफैट द्वारा लिखित पुस्तक इंडियाज़ रिवोल्यूशनरी इनहेरिटेंस का केंद्रीय विषय क्या है?", "options": [{"prompt": "1", "value": "आधुनिक भारत के आर्थिक सुधार और उदारीकरण की नीतियाँ"}, {"prompt": "2", "value": "20वीं सदी में भारतीय क्रांतिकारियों के वैश्विक संबंध"}, {"prompt": "3", "value": "भारत की राजनीतिक स्मृति और कल्पना में भगत सिंह की विरासत"}, {"prompt": "4", "value": "भारत के उत्तर-औपनिवेशिक शासन का संसदीय विकास"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69bcf2f7095965e11d29b0b5", "qs_no": 25, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<span style=\"color: rgb(33, 37, 41);\">In ancient India, the &#39;Vajjis&#39; had their capital at Vaishali, which was ruled by the ______.</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Mallas&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Kambojas&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Kurus&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Lichchhavis&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"color: rgb(33, 37, 41);\">प्राचीन भारत में, &#39;वज्जि&#39; की राजधानी वैशाली थी, जिस पर ______ का शासन था।</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;मल्ल&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;कम्बोज&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;कुरु&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;लिच्छवि&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"color: rgb(33, 37, 41);\">ప్రాచీన భారతదేశంలో, 'వజ్జిల' రాజధాని వైశాలిలో ఉండేది, దీనిని ______లు పరిపాలించారు?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">మల్లులు</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">కాంబోజులు</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">కురులు</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">లిచ్ఛవీలు</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style=\"color: rgb(33, 37, 41);\">प्राचीन भारतात, 'वज्जी' यांची राजधानी वैशाली होती, ज्यावर ______ यांनी राज्य केले.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">मल्ल</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">कंबोज</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">कुरु</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">लिच्छवी</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"color: rgb(33, 37, 41);\">প্রাচীন ভারতে, 'বজ্জি'দের রাজধানী ছিল বৈশালীতে, যা ______ দ্বারা শাসিত ছিল।</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">মল্ল</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">কম্বোজ</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">কুরু</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">লিচ্ছবি</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style='color: rgb(33, 37, 41);'>પ્રાચીન ભારતમાં, 'વજ્જી'ની રાજધાની વૈશાલીમાં હતી, જેના પર ______ દ્વારા શાસન કરવામાં આવ્યું હતું.</span>", "options": [{"prompt": "1", "value": "<span style='color: rgb(33, 37, 41);'>મલ્લ</span>"}, {"prompt": "2", "value": "<span style='color: rgb(33, 37, 41);'>કંબોજ</span>"}, {"prompt": "3", "value": "<span style='color: rgb(33, 37, 41);'>કુરુ</span>"}, {"prompt": "4", "value": "<span style='color: rgb(33, 37, 41);'>લિચ્છવિઓ</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"color: rgb(33, 37, 41);\">ಪ್ರಾಚೀನ ಭಾರತದಲ್ಲಿ, 'ವಜ್ಜಿ'ಗಳು ವೈಶಾಲಿಯಲ್ಲಿ ತಮ್ಮ ರಾಜಧಾನಿಯನ್ನು ಹೊಂದಿದ್ದರು, ಇದನ್ನು ______ ಆಳುತ್ತಿದ್ದರು.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">ಮಲ್ಲರು</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ಕಾಂಬೋಜರು</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ಕುರುಗಳು</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">ಲಿಚ್ಛವಿಗಳು</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style=\"color: rgb(33, 37, 41);\">பண்டைய இந்தியாவில், 'வஜ்ஜி'களின் தலைநகரம் வைஷாலியில் இருந்தது, இது ______ வம்சத்தினரால் ஆளப்பட்டது.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">மல்லர்கள்</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">காம்போஜர்கள்</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">குருக்கள்</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">லிச்சவிகள்</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}]}]}</script>
+<script>
+const TEST_DATA = JSON.parse(document.getElementById('test-data').textContent);
+const TOTAL_Q = 25;
+const DURATION_SEC = 0 * 60;
+
+// State
+let currentSectionIdx = 0;
+let currentQIdx = 0;  // global across sections
+let currentLang = 'en';
+let answers = {};  // qid -> selected option prompt
+let marked = {};   // qid -> true
+let visited = new Set();
+let submitted = false;
+let timeLeft = DURATION_SEC;
+let timerInterval = null;
+
+// Flatten all questions for easy indexing
+const allQuestions = [];
+TEST_DATA.sections.forEach((s, sIdx) => {
+  s.questions.forEach(q => {
+    allQuestions.push({...q, sectionIdx: sIdx, sectionName: s.section_name});
+  });
+});
+
+function init() {
+  // Render section tabs
+  const sectionTabs = document.getElementById('sectionTabs');
+  TEST_DATA.sections.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'section-tab' + (i === 0 ? ' active' : '');
+    tab.textContent = s.section_name + ' (' + s.questions.length + ')';
+    tab.onclick = () => switchSection(i);
+    sectionTabs.appendChild(tab);
+  });
+  // Render palette
+  renderPalette();
+  // Render first question
+  renderQuestion();
+  // Start timer
+  startTimer();
+  // Update stats
+  updateStats();
+}
+
+function startTimer() {
+  if (DURATION_SEC <= 0) {
+    // No time limit — show "No Limit" instead of a countdown
+    document.getElementById('timer').textContent = 'No Limit';
+    document.getElementById('timer').classList.add('no-limit');
+    return;
+  }
+  timerInterval = setInterval(() => {
+    if (submitted) return;
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      submitTest();
+    }
+  }, 1000);
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeLeft / 3600);
+  const m = Math.floor((timeLeft % 3600) / 60);
+  const s = timeLeft % 60;
+  const display = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  const timerEl = document.getElementById('timer');
+  timerEl.textContent = display;
+  if (timeLeft < 60) {
+    timerEl.className = 'timer danger';
+  } else if (timeLeft < 300) {
+    timerEl.className = 'timer warning';
+  }
+}
+
+function renderQuestion() {
+  const q = allQuestions[currentQIdx];
+  if (!q) return;
+  visited.add(q.qid);
+  // Update section tab
+  currentSectionIdx = q.sectionIdx;
+  document.querySelectorAll('.section-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSectionIdx);
+  });
+  document.getElementById('currentSectionLabel').textContent = q.sectionName;
+  // Question header — includes Q number, marks, concept, confidence, and question ID
+  document.getElementById('qNum').textContent = 'Q' + (currentQIdx + 1);
+  let headerExtras = '<span class="mark-pos">+' + q.pos_marks + '</span><span class="mark-neg">-' + q.neg_marks + '</span>';
+  // Concept + confidence (from AI classifier — same as AI JSON)
+  const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+  const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+  const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+  headerExtras += '<span class="q-concept" title="Concept category">🎯 ' + concept + '</span>';
+  headerExtras += '<span class="q-confidence ' + confClass + '" title="Classifier confidence">conf: ' + confidence + '</span>';
+  // Question ID (unique per question, useful for cross-test matching)
+  headerExtras += '<span class="q-id" title="Question ID (unique across all tests)">ID: ' + q.qid + '</span>';
+  document.getElementById('qMarks').innerHTML = headerExtras;
+  // Language tabs
+  const langTabs = document.getElementById('qLangTabs');
+  langTabs.innerHTML = '';
+  const availableLangs = Object.keys(q.langs);
+  const showLangs = ['en','hn','te','mr','bn','ml','gu','kn','ta','or'].filter(l => availableLangs.includes(l));
+  if (showLangs.length > 1) {
+    showLangs.forEach((l, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'q-lang-tab' + (l === currentLang ? ' active' : '');
+      btn.textContent = {en:'English',hn:'Hindi',te:'Telugu',mr:'Marathi',bn:'Bengali',ml:'Malayalam',gu:'Gujarati',kn:'Kannada',ta:'Tamil',or:'Odia'}[l] || l;
+      btn.onclick = () => { currentLang = l; renderQuestion(); };
+      langTabs.appendChild(btn);
+    });
+  }
+  // Question text
+  const langData = q.langs[currentLang] || q.langs[availableLangs[0]] || {};
+  document.getElementById('qText').innerHTML = langData.value || '(no question text)';
+  // Options
+  const optsList = document.getElementById('optionsList');
+  optsList.innerHTML = '';
+  (langData.options || []).forEach(opt => {
+    const li = document.createElement('li');
+    li.className = 'option-item' + (answers[q.qid] === opt.prompt ? ' selected' : '');
+    li.innerHTML = '<span class="option-label">' + opt.prompt + '</span><span class="option-text">' + opt.value + '</span>';
+    li.onclick = () => selectOption(q.qid, opt.prompt);
+    optsList.appendChild(li);
+  });
+  // Update palette
+  renderPalette();
+  updateStats();
+}
+
+function selectOption(qid, prompt) {
+  if (submitted) return;
+  if (answers[qid] === prompt) {
+    delete answers[qid];
+  } else {
+    answers[qid] = prompt;
+  }
+  renderQuestion();
+}
+
+function saveNext() {
+  nextQuestion();
+}
+
+function markReviewNext() {
+  const q = allQuestions[currentQIdx];
+  marked[q.qid] = true;
+  nextQuestion();
+}
+
+function clearResponse() {
+  const q = allQuestions[currentQIdx];
+  delete answers[q.qid];
+  renderQuestion();
+}
+
+function nextQuestion() {
+  if (currentQIdx < allQuestions.length - 1) {
+    currentQIdx++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQIdx > 0) {
+    currentQIdx--;
+    renderQuestion();
+  }
+}
+
+function jumpTo(idx) {
+  currentQIdx = idx;
+  renderQuestion();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function switchSection(idx) {
+  currentSectionIdx = idx;
+  // Find first question in this section
+  const qIdx = allQuestions.findIndex(q => q.sectionIdx === idx);
+  if (qIdx >= 0) {
+    currentQIdx = qIdx;
+    renderQuestion();
+  }
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const cell = document.createElement('div');
+    let cls = 'palette-cell ';
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) cls += 'marked-answered';
+    else if (isMarked) cls += 'marked';
+    else if (isAnswered) cls += 'answered';
+    else if (isVisited) cls += 'notanswered';
+    else cls += 'notvisited';
+    if (i === currentQIdx) cls += ' current';
+    cell.className = cls;
+    cell.textContent = (i + 1);
+    cell.onclick = () => jumpTo(i);
+    grid.appendChild(cell);
+  });
+}
+
+function updateStats() {
+  let answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) marked++;
+    else if (isMarked) marked++;
+    else if (isAnswered) answered++;
+    else if (isVisited) notAnswered++;
+    else notVisited++;
+  });
+  document.getElementById('paletteStats').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${notAnswered}</strong></div>
+    <div><span>Marked:</span><strong>${marked}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+  `;
+}
+
+function openSubmitModal() {
+  let answered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    if (answers[q.qid] !== undefined) answered++;
+    else if (marked[q.qid]) marked++;
+    else if (!visited.has(q.qid)) notVisited++;
+  });
+  document.getElementById('submitSummary').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${TOTAL_Q - answered - notVisited}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+    <div><span>Total:</span><strong>${TOTAL_Q}</strong></div>
+  `;
+  document.getElementById('submitModal').classList.add('open');
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('open');
+}
+
+function submitTest() {
+  submitted = true;
+  clearInterval(timerInterval);
+  closeSubmitModal();
+  // Calculate score
+  let score = 0, correct = 0, wrong = 0, skipped = 0;
+  allQuestions.forEach(q => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    if (userAns === undefined) {
+      skipped++;
+    } else if (userAns === correctAns) {
+      correct++;
+      score += q.pos_marks;
+    } else {
+      wrong++;
+      score -= q.neg_marks;
+    }
+  });
+  // Show results view
+  document.getElementById('testMode').style.display = 'none';
+  document.getElementById('resultsView').style.display = 'block';
+  document.getElementById('scoreCard').innerHTML = `
+    <div><span class="score">${score.toFixed(2)}</span><span class="total"> / ${TEST_DATA.max_marks || TOTAL_Q * 2}</span></div>
+    <div class="rank">Correct: ${correct} | Wrong: ${wrong} | Skipped: ${skipped}</div>
+    <div class="rank" style="margin-top:8px;">Accuracy: ${(correct + wrong > 0) ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0}%</div>
+  `;
+  // Render all questions with answers + solutions
+  renderAllQuestions();
+}
+
+function renderAllQuestions() {
+  const container = document.getElementById('resultsQuestions');
+  container.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    const isCorrect = userAns === correctAns;
+    const isWrong = userAns !== undefined && userAns !== correctAns;
+    const isSkipped = userAns === undefined;
+    const card = document.createElement('div');
+    card.className = 'result-card ' + (isCorrect ? 'correct' : isWrong ? 'wrong' : 'skipped');
+    const langData = q.langs[currentLang] || q.langs[Object.keys(q.langs)[0]] || {};
+    let optionsHtml = '';
+    (langData.options || []).forEach(opt => {
+      let cls = 'result-option';
+      if (opt.prompt === correctAns) cls += ' correct';
+      if (opt.prompt === userAns) cls += ' selected';
+      optionsHtml += `<li class="${cls}"><span class="result-option-label">${opt.prompt}</span><span>${opt.value}</span></li>`;
+    });
+    const sol = q.solution_html[currentLang] || q.solution_html['en'] || '';
+    const solHtml = sol ? `<div class="result-solution"><div class="result-solution-title">📖 Solution</div>${sol}</div>` : '';
+    let statusBadge = '';
+    if (isCorrect) statusBadge = '<span class="result-status correct">✓ Correct</span>';
+    else if (isWrong) statusBadge = '<span class="result-status wrong">✗ Wrong</span>';
+    else statusBadge = '<span class="result-status skipped">— Skipped</span>';
+    // Concept + confidence + question ID (same as AI JSON)
+    const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+    const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+    const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+    card.innerHTML = `
+      <div class="result-header">
+        <span class="result-q-num">Q${i + 1}</span>
+        ${statusBadge}
+        <span class="result-concept">🎯 ${concept}</span>
+        <span class="result-confidence ${confClass}">conf: ${confidence}</span>
+        <span class="result-qid">ID: ${q.qid}</span>
+      </div>
+      <div class="result-text">${langData.value || '(no text)'}</div>
+      <ul class="result-options">${optionsHtml}</ul>
+      ${solHtml}
+    `;
+    container.appendChild(card);
+  });
+}
+
+function showAllQuestions() {
+  document.getElementById('resultsView').scrollIntoView({behavior: 'smooth'});
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (submitted) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'j') nextQuestion();
+  if (e.key === 'ArrowLeft' || e.key === 'k') prevQuestion();
+  if (e.key === '1' || e.key === 'a') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[0]) selectOption(q.qid, opts[0].prompt); }
+  if (e.key === '2' || e.key === 'b') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[1]) selectOption(q.qid, opts[1].prompt); }
+  if (e.key === '3' || e.key === 'c') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[2]) selectOption(q.qid, opts[2].prompt); }
+  if (e.key === '4' || e.key === 'd') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[3]) selectOption(q.qid, opts[3].prompt); }
+});
+
+init();
+</script>
+</body>
+</html>

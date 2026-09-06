@@ -1,0 +1,1172 @@
+{
+  "test_id": "69f09f0c364e1a8edb44663c",
+  "title": "Quantitative Aptitude Sectional Test - 7",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:58:29.107774+00:00",
+  "questions": [
+    {
+      "qid": "62d5d9fd0ee07dbedaccf247",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sum of Rs. 2700 amounts to Rs. 8100 in 4 years at a certain rate of compound interest (compounding annually). How much this sum will amounts to after 16 years?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 128760"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 152760"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 218700"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 287100"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIn Compound Interest, if a sum becomes a certain multiple in 't' years, it grows by the same multiple over every 't' years.\n\nMultiplying factor in 4 years = 8100 ÷ 2700 = 3.\n\nThe sum becomes 3 times every 4 years.\n\nTime given is 16 years, which consists of four 4-year periods (16 ÷ 4 = 4).\n\nTotal amount after 16 years = Principal × 3⁴ = 2700 × 81 = 218700.\n\n**∴ The correct answer is Rs. 218700.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n \n• \n \n \n\n \n\n \n\n \n\n \n <text x=\"82.5\" y=\"85\" fill=\"#c",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "62e4b56a1cf9fdee2cd7b497",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The graphs of the equations 3x + y - 5 = 0 and 2x - y - 5 = 0 intersect at the point P(α, β). What will be the value of (α + β)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "2"
+        },
+        {
+          "label": "4",
+          "text": "-1"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAdd both given equations directly to eliminate y:\n\n(3x + y − 5) + (2x − y − 5) = 0 ⇒ 5x − 10 = 0 ⇒ x = 2\n\nSubstitute x = 2 into the first equation:\n\n3(2) + y − 5 = 0 ⇒ 6 + y − 5 = 0 ⇒ y = −1\n\nThe point of intersection is (α, β) = (2, −1), so α + β = 2 + (−1) = 1.\n\n**∴ The correct answer is 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nEquation 1: 3x + y − 5 = 0\n\nEquation 2: 2x − y − 5 = 0\n\nIntersection point is P(α, β).\n\n \n \n• \n \n• \n \n \n O\n X\n Y\n \n \n \n• \n 3x + y = 5\n \n \n \n• \n 2x - y = 5\n\n \n \n P(2, -1)\n \n \n \n• \n 2\n \n• \n -1\n \n \n \n• \n \n• \n\n**Calculations:**\n\nFrom Equation 1, express y in terms of x:\n\n⇒ y = 5 − 3x\n\nSubstitute the value of y into Equation 2:\n\n⇒ 2x − (5 − 3x) − 5 = 0\n\n⇒ 2x − 5 + 3x − 5 = 0\n\n⇒ 5x − 10 = 0\n\n⇒ 5x = 10\n\n⇒ x = 2\n\nNow, substitute x = 2 back into the expression for y:\n\n⇒ y = 5 − 3(2)\n\n⇒ y = 5 − 6 = −1\n\nThe point of intersection P(α, β) is (2, −1).\n\nTherefore, α = 2 and β = −1.\n\nNow, calculate the required value (α + β):\n\n⇒ α + β = 2 + (−1) = 1\n\n**∴ The correct answer is 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nLinear Equations in Two Variables\n\nThe general form is ax + by + c = 0. Its graph always represents a straight line on the coordinate plane.\n\nIntersection of Two Lines\n\nTwo distinct linear equations intersect at exactly one unique point if their slopes are different, forming a unique mathematical solution.\n\nCoordinates and Solutions\n\nThe intersection point (α, β) is the only point that simultaneously satisfies the algebraic conditions of both linear equations.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "63f0af30189978f6343aa0ec",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Cost price of 10 articles is equal to the selling price of 12 articles. What is the profit/loss percentage? (Cost price of all articles is same and selling price of all articles is same)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Loss 20 percent"
+        },
+        {
+          "label": "2",
+          "text": "Profit 16.66 percent"
+        },
+        {
+          "label": "3",
+          "text": "Loss 16.66 percent"
+        },
+        {
+          "label": "4",
+          "text": "Profit 20 percent"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nGiven: 10 × CP = 12 × SP\n\n⇒ SP / CP = 10 / 12 = 5 / 6\n\nHere, CP is 6 units and SP is 5 units, meaning there is a loss of (6 − 5) = 1 unit.\n\nLoss % = (Loss ÷ CP) × 100 = (1 ÷ 6) × 100 = 16.66%\n\n**∴ The correct answer is Loss 16.66%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCost price of 10 articles = Selling price of 12 articles.\n\n**Formula Used:**\n\nLoss % = (Loss ÷ CP) × 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/a51d0c5b3fef5337ca06b53f7c1f92892ef9865044a951853a0619e97fb0c8c0.png] \n\nLet the cost price of 1 article be CP and the selling price of 1 article be SP.\n\nLet the total value of 10 CP and 12 SP be their LCM.\n\n⇒ LCM of 10 and 12 = 60\n\n⇒ 10 × CP = 60 ⇒ CP = 60 ÷ 10 = 6\n\n⇒ 12 × SP = 60 ⇒ SP = 60 ÷ 12 = 5\n\nSince the selling price is less than the cost price, there is a loss.\n\n⇒ Loss = CP − SP\n\n⇒ Loss = 6 − 5 = 1\n\n⇒ Loss % = (Loss ÷ CP) × 100\n\n⇒ Loss % = (1 ÷ 6) × 100 = 16.66%\n\n**∴ The correct answer is Loss 16.66%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nBase of Calculation\n\nBoth profit percentage and loss percentage are fundamentally calculated on the Cost Price (CP) unless stated otherwise. Formula: (Profit or Loss ÷ CP) × 100.\n\nGoods Equality Rule (Shortcut)\n\nIf the CP of 'x' articles equals the SP of 'y' articles, the Profit/Loss % = [(x − y) ÷ y] × 100. A positive result indicates a profit, while a negative result indicates a loss.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a51d0c5b3fef5337ca06b53f7c1f92892ef9865044a951853a0619e97fb0c8c0.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "63f9c2e2aeda4e2832756010",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If a number 'a' is divisible by 18 and another number 'b' is divisible by 12, then (a² - b²) is divisible by :",
+      "options": [
+        {
+          "label": "1",
+          "text": "48"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "36"
+        },
+        {
+          "label": "4",
+          "text": "40"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet the numbers be their smallest positive multiples: a = 18 and b = 12.\n\n(a² − b²) = 18² − 12² = 324 − 144 = 180.\n\nChecking the given options, 180 is divisible by both 30 and 36.\n\nNow, test for another multiple: let a = 18 and b = 24.\n\n(a² − b²) = 18² − 24² = 324 − 576 = −252, which is divisible by 36 but not 30.\n\n**∴ The correct answer is 36.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nNumber a is divisible by 18, and number b is divisible by 12.\n\n**Calculations:**\n\n⇒ Let a = 18x (where x is an integer)\n\n⇒ Let b = 12y (where y is an integer)\n\n⇒ a² = (18x)²\n\n⇒ a² = 324x²\n\n⇒ b² = (12y)²\n\n⇒ b² = 144y²\n\n⇒ a² − b² = 324x² − 144y²\n\n⇒ Taking the highest common factor from both numerical coefficients:\n\n⇒ 324 = 36 × 9\n\n⇒ 144 = 36 × 4\n\n⇒ a² − b² = 36(9x² − 4y²)\n\n⇒ Since x and y are integers, the term (9x² − 4y²) will also evaluate to an integer.\n\n⇒ Hence, the entire expression is a direct multiple of 36 and will always be divisible by 36.\n\n**∴ The correct answer is 36.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nDivisibility of an Expression\n\nIf an algebraic expression can be rewritten as a multiple of an integer k, i.e., N = k × m (where m is an integer), then N is always completely divisible by k and all the factors of k.\n\nDifference of Squares\n\nThe identity a² − b² = (a − b)(a + b) is highly useful for finding common factors of quadratic differences without manually calculating the large squares directly.\n\nProperties of Common Divisors\n\nThe highest constant value that divides an algebraic expression axⁿ − byⁿ for all integer values of variables x and y is simply the Highest Common Factor (HCF) of the coefficients a and b.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "65f699eb202feced5a323dc3",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sinθ - cosθ = 0, Find the value of sin (piover2 - θ ) + cos (piover2 - θ ) = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "2√2"
+        },
+        {
+          "label": "3",
+          "text": "√2"
+        },
+        {
+          "label": "4",
+          "text": "0"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nGiven sinθ − cosθ = 0 ⇒ sinθ = cosθ, which means θ = π/4.\n\nSubstitute θ = π/4 in the expression: sin(π/2 − θ) + cos(π/2 − θ)\n\n⇒ sin(π/2 − π/4) + cos(π/2 − π/4)\n\n⇒ sin(π/4) + cos(π/4)\n\n⇒ 1/√2 + 1/√2 = 2/√2 = √2\n\n**∴ The correct answer is √2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nsinθ − cosθ = 0\n\n**Formula Used:**\n\nsin(π/2 − θ) = cosθ\n\ncos(π/2 − θ) = sinθ\n\n**Calculations:**\n\n⇒ sinθ − cosθ = 0\n\n⇒ sinθ = cosθ\n\n⇒ tanθ = 1\n\n⇒ θ = π/4\n\nNow, simplifying the given expression using the formulas:\n\n⇒ sin(π/2 − θ) + cos(π/2 − θ)\n\n⇒ cosθ + sinθ\n\n⇒ cos(π/4) + sin(π/4)\n\n⇒ 1/√2 + 1/√2\n\n⇒ 2/√2 = √2\n\n**∴ The correct answer is √2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nComplementary Angles\n\nTrigonometric ratios of complementary angles: sin(π/2 − θ) = cosθ, cos(π/2 − θ) = sinθ, and tan(π/2 − θ) = cotθ.\n\nBasic Trigonometric Identities\n\nThe foundational identities are sin²θ + cos²θ = 1, sec²θ − tan²θ = 1, and cosec²θ − cot²θ = 1.\n\nTrigonometric Values at π/4\n\nAt an angle of 45° (or π/4 radians), the sine and cosine values are equal: sin(π/4) = cos(π/4) = 1/√2.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "621e5ba66a4e32615ece5047",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A circle is inscribed in a triangle ABC touching the sides of the triangle AB, BC and AC at D, E and F, such that AC = 10, EC = 4 and BD = 8, then find the perimeter of the triangle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30"
+        },
+        {
+          "label": "2",
+          "text": "36"
+        },
+        {
+          "label": "3",
+          "text": "64"
+        },
+        {
+          "label": "4",
+          "text": "25"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLengths of tangents from an external point to a circle are equal.\n\n∴ AD = AF, BD = BE, and CE = CF.\n\nGiven EC = 4 ⇒ CF = 4, and since AC = 10 ⇒ AF = 10 − 4 = 6 ⇒ AD = 6.\n\nGiven BD = 8 ⇒ BE = 8.\n\nPerimeter of ΔABC = 2 × (AD + BD + CE) = 2 × (6 + 8 + 4) = 36.\n\n**∴ The correct answer is 36 units.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nAC = 10, EC = 4, BD = 8\n\n**Concept Used:**\n\nTangents drawn from an external point to a circle are equal in length.\n\n \n\n \n \n \n \n \n \n A\n B\n C\n \n D\n F\n E\n\n 6\n 8\n 8\n 4\n 4\n 6\n\n**Calculations:**\n\n⇒ From point C, tangents CE and CF are equal.\n\n⇒ CF = CE = 4\n\n⇒ We know that AC = AF + CF\n\n⇒ 10 = AF + 4 ⇒ AF = 6\n\n⇒ From point A, tangents AD and AF are equal, so AD = 6.\n\n⇒ From point B, tangents BD and BE are equal, so BE = 8.\n\n⇒ The lengths of the sides of ΔABC are:\n\n⇒ AB = AD + BD = 6 + 8 = 14\n\n⇒ BC = BE + EC = 8 + 4 = 12\n\n⇒ AC = 10 (Given)\n\n⇒ Perimeter of ΔABC = AB + BC + AC\n\n⇒ Perimeter = 14 + 12 + 10 = 36\n\n**∴ The correct answer is 36 units.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nProperties of Tangents\n\nThe tangent at any point of a circle is perpendicular to the radius through the point of contact.\n\nTangents from External Point\n\nThe lengths of tangents drawn from an external point to a circle are exactly equal, and they subtend equal angles at the center.\n\nIncircle of a Triangle\n\nThe circle that touches all three sides of a triangle internally is called its incircle. Its center is the point of intersection of the angle bisectors of the triangle.\n\nSemi-perimeter and Inradius Relation\n\nThe area of a triangle (Δ) is related to its inradius (r) and semi-perimeter (s) by the formula: Δ = r × s.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "628e118f649a2a9e16c4cffb",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "An annular road is about to build on the circular park. The outer radius of the circular park √65 m and the inner radius of the circular park is 4 m. If the speed of the construction is 4.4 m2 per hour. Find the time taken by the construction company to complete the task.",
+      "options": [
+        {
+          "label": "1",
+          "text": "45 hours"
+        },
+        {
+          "label": "2",
+          "text": "55 hours"
+        },
+        {
+          "label": "3",
+          "text": "35 hours"
+        },
+        {
+          "label": "4",
+          "text": "25 hours"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nArea of the annular road = π × (R² − r²)\n\n⇒ Area = (22 ÷ 7) × (65 − 16) = 154 m²\n\nTime taken = Total Area ÷ Speed\n\n⇒ Time = 154 ÷ 4.4 = 35 hours\n\n**∴ The correct answer is 35 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nOuter radius of the park (R) = √65 m\n\nInner radius of the park (r) = 4 m\n\nSpeed of construction = 4.4 m²/hour\n\n**Formula Used:**\n\nArea of annular ring = π(R² − r²)\n\n [IMAGE: https://cdn.repeatermock.com/tb/29d00599f40d83c97f3153921a3372a3e4c62cff11f653e316559a883fd85a27.png] \n\n**Calculations:**\n\n⇒ Area = π × (R² − r²)\n\n⇒ Area = (22 ÷ 7) × ((√65)² − 4²)\n\n⇒ Area = (22 ÷ 7) × (65 − 16)\n\n⇒ Area = (22 ÷ 7) × 49 = 154 m²\n\n⇒ Time taken = Total Area ÷ Speed\n\n⇒ Time taken = 154 ÷ 4.4\n\n⇒ Time taken = 1540 ÷ 44 = 35 hours\n\n**∴ The correct answer is 35 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nArea of a Circle\n\nThe total region enclosed by a circle is computed by πr², where r is the radius.\n\nArea of an Annulus (Circular Path)\n\nFor a circular track or path with an outer radius R and an inner radius r, the bounded area is calculated as π(R² − r²).\n\nCircumference of a Circle\n\nThe total boundary length of a circle is equal to 2πr or πd, where d represents the overall diameter.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/29d00599f40d83c97f3153921a3372a3e4c62cff11f653e316559a883fd85a27.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "633a9cf304daf49732869551",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The profit made by selling an article for Rs 11544 is 22% more than the loss made by selling the same article for Rs 5772. Find the cost price of the article.",
+      "options": [
+        {
+          "label": "1",
+          "text": "8372"
+        },
+        {
+          "label": "2",
+          "text": "8672"
+        },
+        {
+          "label": "3",
+          "text": "8472"
+        },
+        {
+          "label": "4",
+          "text": "8572"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nProfit is 22% more than Loss, so Ratio of Profit to Loss = 122 : 100 = 61 : 50\n\nTotal difference in Selling Price = SP₁ − SP₂ = 11544 − 5772 = 5772\n\nTotal ratio parts = 61 + 50 = 111 parts\n\nSince 111 parts = 5772 ⇒ 1 part = 52\n\nLoss = 50 parts = 50 × 52 = 2600 ⇒ CP = SP₂ + Loss = 5772 + 2600 = 8372\n\n**∴ The correct answer is ₹8372.**\n\n**__Alternate Method__**\n\n**Given:**\n\nSelling Price with profit (SP₁) = ₹11544\n\nSelling Price with loss (SP₂) = ₹5772\n\n**Formula Used:**\n\nProfit = SP − CP\n\nLoss = CP − SP\n\n [IMAGE: https://cdn.repeatermock.com/tb/1331897635ed856657f526dba60f10a5ef83cb87a9a96645eb006b11dfdef6da.png] \n\n**Calculations:**\n\nLet the Cost Price be CP.\n\n⇒ Profit = 11544 − CP\n\n⇒ Loss = CP − 5772\n\nAccording to the question, Profit is 22% more than Loss:\n\n⇒ Profit = Loss + 22% of Loss\n\n⇒ 11544 − CP = 1.22 × (CP − 5772)\n\n⇒ 11544 − CP = ¹²²⁄₁₀₀ × (CP − 5772)\n\n⇒ 11544 − CP = ⁶¹⁄₅₀ × (CP − 5772)\n\n⇒ 50 × (11544 − CP) = 61 × (CP − 5772)\n\n⇒ 577200 − 50 CP = 61 CP − 352092\n\n⇒ 61 CP + 50 CP = 577200 + 352092\n\n⇒ 111 CP = 929292\n\n⇒ CP = 929292 ÷ 111 = 8372\n\n**∴ The correct answer is ₹8372.**\n\n**__Additional Information__**\n\nCost Price (CP) & Selling Price (SP)\n\nCost price is the price at which the article is purchased. Selling price is the price at which the article is sold.\n\nProfit & Loss Condition\n\nWhen SP > CP, there is a profit: Profit = SP − CP. When CP > SP, there is a loss: Loss = CP − SP.\n\nProfit & Loss Percentage\n\nProfit or loss percentage is always calculated on the base of Cost Price: Profit % = (Profit ÷ CP) × 100.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1331897635ed856657f526dba60f10a5ef83cb87a9a96645eb006b11dfdef6da.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "636bd9a47871b6be2db31f16",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If (a+{1over a})² = 3, find the value of a²¹⁸ + a²¹² + a²⁴ + a¹⁸",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "√3"
+        },
+        {
+          "label": "4",
+          "text": "3√3"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIf (a + 1/a)² = 3, it is a standard identity where a⁶ = −1, which means a⁶ + 1 = 0.\n\nWhenever a⁶ = −1, the sum of any two terms whose powers differ by exactly 6 is always 0.\n\nGiven expression: a²¹⁸ + a²¹² + a²⁴ + a¹⁸\n\n⇒ (a²¹⁸ + a²¹²) + (a²⁴ + a¹⁸)\n\n⇒ 0 + 0 = 0\n\n**∴ The correct answer is 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n(a + 1/a)² = 3\n\n**Calculations:**\n\nExpanding the given equation:\n\n⇒ a² + 1/a² + 2(a)(1/a) = 3\n\n⇒ a² + 1/a² = 3 − 2\n\n⇒ a² + 1/a² = 1\n\nMultiplying the entire equation by a²:\n\n⇒ a⁴ + 1 = a²\n\n⇒ a⁴ − a² + 1 = 0\n\nMultiplying both sides by (a² + 1):\n\n⇒ (a² + 1)(a⁴ − a² + 1) = 0\n\nUsing the algebraic identity x³ + y³ = (x + y)(x² − xy + y²):\n\n⇒ (a²)³ + (1)³ = 0\n\n⇒ a⁶ + 1 = 0\n\n⇒ a⁶ = −1\n\nNow, let us evaluate the given expression by grouping the terms:\n\n⇒ a²¹⁸ + a²¹² + a²⁴ + a¹⁸\n\n⇒ a²¹²(a⁶ + 1) + a¹⁸(a⁶ + 1)\n\nSubstituting the value of (a⁶ + 1) = 0:\n\n⇒ a²¹² × 0 + a¹⁸ × 0\n\n⇒ 0\n\n**∴ The correct answer is 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nStandard Algebraic Identity for 3\n\nIf x + 1/x = √3 or (x + 1/x)² = 3, then always remember that x⁶ = −1. This makes the sum of any two terms with a power difference of 6 equal to zero.\n\nStandard Algebraic Identity for 2\n\nIf x + 1/x = 2, then x = 1. If x + 1/x = −2, then x = −1. This is a very common substitution in simplification questions.\n\nStandard Algebraic Identity for 1\n\nIf x + 1/x = 1, then x³ = −1. Consequently, if x + 1/x = −1, then x³ = 1.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "637c52c1025b3c7c41a52c4f",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Amit travels from A to B and returns to A by train in 16 hours. If the ratio of speeds of A to B and B to A is 5 : 3. Find the speed of the train in the journey from A to B, if the distance between A and B is 300 km.",
+      "options": [
+        {
+          "label": "1",
+          "text": "25 km/hr"
+        },
+        {
+          "label": "2",
+          "text": "50 km/hr"
+        },
+        {
+          "label": "3",
+          "text": "45 km/hr"
+        },
+        {
+          "label": "4",
+          "text": "30 km/hr"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSince the distance is constant, the ratio of time taken is inversely proportional to the speed.\n\nRatio of speeds = 5 : 3 ⇒ Ratio of time taken = 3 : 5\n\nTotal time = 16 hours ⇒ Time taken from A to B = (3 ÷ 8) × 16 = 6 hours\n\nSpeed from A to B = Distance ÷ Time = 300 ÷ 6 = 50 km/hr.\n\n**∴ The correct answer is 50 km/hr.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal time for the journey = 16 hours\n\nDistance between A and B = 300 km\n\nRatio of speeds from A to B and B to A = 5 : 3\n\n**Formula Used:**\n\nTime = Distance ÷ Speed\n\n [IMAGE: https://cdn.repeatermock.com/tb/19949548b23d3959925a2fc23987e5ee5521f98cea3ab7695fef6e03b1749602.png] \n\n**Calculations:**\n\n⇒ Let the speed of the train from A to B be 5x km/hr and from B to A be 3x km/hr.\n\n⇒ Total time taken = Time from A to B + Time from B to A\n\n⇒ 16 = 300 ÷ 5x + 300 ÷ 3x\n\n⇒ 16 = 60/x + 100/x\n\n⇒ 16 = 160/x\n\n⇒ x = 160 ÷ 16 = 10\n\n⇒ Speed of the train from A to B = 5x = 5 × 10 = 50 km/hr.\n\n**∴ The correct answer is 50 km/hr.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAverage Speed\n\nWhen distance is constant, Average Speed = (2 × S₁ × S₂) ÷ (S₁ + S₂).\n\nRelative Speed\n\nWhen two objects move in opposite directions, their relative speed is the sum of their individual speeds (S₁ + S₂).\n\nInverse Proportionality\n\nFor a constant distance, speed and time are inversely proportional. Ratio of Time = 1 ÷ Ratio of Speed.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/19949548b23d3959925a2fc23987e5ee5521f98cea3ab7695fef6e03b1749602.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "649efe57f556e9405bce5241",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average of five consecutive odd numbers is 15. What is the smallest of these five numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11"
+        },
+        {
+          "label": "2",
+          "text": "13"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor consecutive odd numbers, the average is exactly the middle term.\n\nSince there are 5 numbers, the 3rd (middle) number is 15.\n\nConsecutive odd numbers always decrease by 2 as we move left.\n\nSmallest number (1st number) = 15 − 2 × 2 = 11.\n\n**∴ The correct answer is 11.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nAverage of 5 consecutive odd numbers = 15\n\n**Formula Used:**\n\nAverage = Sum of all terms ÷ Total number of terms\n\n <line x1=\"60\" y1=\"80\" x2=\"360\" y",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "652be471dea2aa25057c457d",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the simple interest on ₹3,660 at 5% per annum for 15 months.",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹400.25"
+        },
+        {
+          "label": "2",
+          "text": "₹216.50"
+        },
+        {
+          "label": "3",
+          "text": "₹228.75"
+        },
+        {
+          "label": "4",
+          "text": "₹302.50"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInterest for 12 months (1 year) = 5% of ₹3660 = ₹183\n\nInterest for 3 months (1/4 of a year) = ₹183 ÷ 4 = ₹45.75\n\nTotal Simple Interest for 15 months = ₹183 + ₹45.75 = ₹228.75\n\n**∴ The correct answer is ₹228.75.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n<svg width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;margin:12px 0;background:#ffffff;border-radius:10px;border:1px solid #ccc",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "652fc6f0653197c861e5520b",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A and B enter into a partnership with capital in the ratio (4)/(3): (5)/(6). After 6 months, A reduces his capital by 25% and B increases his capital by 50%. What is the share of B (in lakhs) in the profit of Rs. 63.6 lakhs, at the end of a year?",
+      "options": [
+        {
+          "label": "1",
+          "text": "32.5"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "32"
+        },
+        {
+          "label": "4",
+          "text": "33.6"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInitial capital ratio = 4/3 : 5/6 = 8 : 5\n\nProfit ratio = (8 × 6 + 6 × 6) : (5 × 6 + 7.5 × 6)\n\nProfit ratio = (48 + 36) : (30 + 45) = 84 : 75 = 28 : 25\n\nTotal parts = 28 + 25 = 53 parts = 63.6 lakhs ⇒ 1 part = 1.2 lakhs\n\nB's share = 25 × 1.2 = 30 lakhs\n\n**∴ The correct answer is 30 lakhs.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInitial capital ratio of A and B = 4/3 : 5/6 = 8 : 5\n\nTotal profit at the end of the year = Rs. 63.6 lakhs\n\n**Formula Used:**\n\nProfit Ratio = (Capital of A × Time of A) : (Capital of B × Time of B)\n\n [IMAGE: https://cdn.repeatermock.com/tb/fe123078849b768fb19aaaa55794cdb923a04f14598ee2ab047ab0c8d1421d8e.png] \n\n**Calculation:**\n\n⇒ Let the initial capital of A be 8x and B be 5x.\n\n⇒ For the first 6 months, A invests 8x and B invests 5x.\n\n⇒ After 6 months, A reduces his capital by 25%.\n\n⇒ A's new capital = 8x − (25% of 8x) = 8x − 2x = 6x\n\n⇒ After 6 months, B increases his capital by 50%.\n\n⇒ B's new capital = 5x + (50% of 5x) = 5x + 2.5x = 7.5x\n\n⇒ Total profit units for A = (8x × 6) + (6x × 6) = 48x + 36x = 84x\n\n⇒ Total profit units for B = (5x × 6) + (7.5x × 6) = 30x + 45x = 75x\n\n⇒ Profit Ratio of A and B = 84x : 75x = 28 : 25\n\n⇒ Total ratio parts = 28 + 25 = 53 parts\n\n⇒ 53 parts = 63.6 lakhs\n\n⇒ 1 part = 63.6 ÷ 53 = 1.2 lakhs\n\n⇒ B's share in profit = 25 parts = 25 × 1.2 = 30 lakhs\n\n**∴ The correct answer is 30 lakhs.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCompound Partnership\n\nWhen partners invest different amounts for different periods of time, the profit is shared in the ratio of the product of capital and time (C₁ × T₁ : C₂ × T₂).\n\nActive and Sleeping Partners\n\nAn active partner manages the business and usually receives a specific percentage or fixed salary from the profit. The remaining profit is then distributed among all partners based on their capital investments.\n\nMid-way Addition or Withdrawal\n\nIf a partner adds or withdraws money during the year, their effective capital for each time segment is calculated separately and summed up to find the overall investment equivalent for the year.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fe123078849b768fb19aaaa55794cdb923a04f14598ee2ab047ab0c8d1421d8e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "677a7264a9c7b4a4f1eeb88b",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A number when added to itself 14 times gives 75 as result. The number is",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen a number is added to itself 14 times, it becomes (1 + 14) = 15 times its original value.\n\n15 × Number = 75\n\nNumber = 75 ÷ 15 = 5\n\n**∴ The correct answer is 5.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nA number when added to itself 14 times results in 75.\n\n**Method Used:**\n\nBasic linear equati",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6221f77bebdc994c37ef46df",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "As observed from the top of a lighthouse, 42 m high above sea-level, the angle of depression of a ship sailing directly towards it changes from 30° to 45°. The distance travelled by the ship during the period of observation is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "42(sqrt 3 - 1)"
+        },
+        {
+          "label": "2",
+          "text": "42(sqrt 3 + 1)"
+        },
+        {
+          "label": "3",
+          "text": "42"
+        },
+        {
+          "label": "4",
+          "text": "42(1 - sqrt 3 )"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIf the angle of elevation (or depression) of a tower of height h changes from θ₁ to θ₂ as an object moves directly towards it, the distance travelled is:\n\nDistance = h × (cot θ₁ − cot θ₂)\n\nHere, h = 42 m, θ₁ = 30°, θ₂ = 45°\n\nDistance = 42 × (cot 30° − cot 45°)\n\nDistance = 42 × (√3 − 1)\n\n**∴ The correct answer is 42(√3 − 1) m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/6e7eb57492f4e8ed7e1520931e65b2310f3a7ad59fb5b406a3d3d4ea60fbae88.png] \n\n**Given:**\n\nHeight of the lighthouse (AB) = 42 m\n\nAngle of depression at initial position C = 30° ⇒ Angle of elevation ∠ACB = 30°\n\nAngle of depression at final position D = 45° ⇒ Angle of elevation ∠ADB = 45°\n\n**Formula Used:**\n\nIn a right-angled triangle, tan θ = Perpendicular ÷ Base\n\n**Calculations:**\n\nIn right-angled triangle ΔABD,\n\n⇒ tan 45° = AB ÷ BD\n\n⇒ 1 = 42 ÷ BD\n\n⇒ BD = 42 m\n\nIn right-angled triangle ΔABC,\n\n⇒ tan 30° = AB ÷ BC\n\n⇒ 1 ÷ √3 = 42 ÷ BC\n\n⇒ BC = 42√3 m\n\nThe distance travelled by the ship is CD, which is the difference between BC and BD.\n\n⇒ Distance CD = BC − BD\n\n⇒ Distance CD = 42√3 − 42\n\n⇒ Distance CD = 42(√3 − 1) m\n\n**∴ The correct answer is 42(√3 − 1) m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nHeights and Distances (Trigonometry)\n\nThe angle of elevation is the angle formed between the horizontal reference line and the line of sight when looking up at an object. The angle of depression is the angle formed when looking down from a height.\n\nTwo Objects on the Same Side\n\nIf two objects are observed on the ground from a tower of height h at angles θ₁ and θ₂, the distance separating them is easily calculated as h(cot θ₁ − cot θ₂).\n\nTwo Objects on Opposite Sides\n\nWhen two objects are situated on opposite sides of a central tower of height h, having respective angles of elevation θ₁ and θ₂, the total distance between them is h(cot θ₁ + cot θ₂).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6e7eb57492f4e8ed7e1520931e65b2310f3a7ad59fb5b406a3d3d4ea60fbae88.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6234b69c990aaba7eb7b719d",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A rectangle ABCD of area 210 cm2 has 15 cm as its length. If the area of the rectangle ABCD is increased to 2(1)/(3) times of the original area by increasing its length only, then what will be the perimeter of the rectangle so obtained?",
+      "options": [
+        {
+          "label": "1",
+          "text": "58 cm"
+        },
+        {
+          "label": "2",
+          "text": "35 cm"
+        },
+        {
+          "label": "3",
+          "text": "49 cm"
+        },
+        {
+          "label": "4",
+          "text": "98 cm"
+        }
+      ],
+      "correct": "4",
+      "solution": "* __Shortcut Trick__\n\nOriginal breadth = Area ÷ Length = 210 ÷ 15 = 14 cm.\n\nSince the area becomes 7/3 times the original by increasing length ONLY, the breadth remains constant.\n\nNew length = Original length × (7/3) = 15 × (7/3) = 35 cm.\n\nNew perimeter = 2 × (New length + Breadth) = 2 × (35 + 14) = 98 cm.\n\n**∴ The correct answer is 98 cm.**\n\n**__Alternate Method__**\n\n**Given:**\n\nOriginal Area = 210 cm²\n\nOriginal Length = 15 cm\n\nNew Area = 7/3 times of the original area\n\n**Formula Used:**\n\nArea of rectangle = Length × Breadth\n\nPerimeter of rectangle = 2 × (Length + Breadth)\n\n [IMAGE: https://cdn.repeatermock.com/tb/f00713bbc0a0e1297adbc7a39305bb11fbf038dad08be30805029b630ed0941d.png] \n\n**Calculations:**\n\n⇒ Original Breadth = Area ÷ Length\n\n⇒ Original Breadth = 210 ÷ 15 = 14 cm\n\n⇒ Since only the length is increased, the breadth remains unchanged at 14 cm.\n\n⇒ New Area = (7/3) × 210 = 7 × 70 = 490 cm²\n\n⇒ New Length = New Area ÷ Breadth = 490 ÷ 14 = 35 cm\n\n⇒ New Perimeter = 2 × (New Length + Breadth)\n\n⇒ New Perimeter = 2 × (35 + 14)\n\n⇒ New Perimeter = 2 × 49 = 98 cm\n\n**∴ The correct answer is 98 cm.**\n\n**__Additional Information__**\n\nArea and Perimeter of Rectangle\n\nArea = Length × Breadth. Perimeter = 2 × (Length + Breadth). Length of diagonal = √(Length² + Breadth²).\n\nProportionality in Area\n\nIf only one dimension (length or breadth) of a rectangle is changed, the area is directly proportional to that dimension. A change by a factor of k* in length results in the area changing by the same factor *k*.\n\nPercentage Change in Area\n\nIf length increases by x% and breadth increases by y%, the net percentage change in area is given by the successive formula: x + y + (x × y ÷ 100) %.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f00713bbc0a0e1297adbc7a39305bb11fbf038dad08be30805029b630ed0941d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6286ca2ee12d4e18ca1fb9c0",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Sara’s expenditure and savings are in the ratio of 5 ∶ 1. Her income increases by 10%. If her savings increase by 8%, then by how much percentage her expenditure has increased?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12.2%"
+        },
+        {
+          "label": "2",
+          "text": "10.4%"
+        },
+        {
+          "label": "3",
+          "text": "13.4%"
+        },
+        {
+          "label": "4",
+          "text": "14.2%"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal Income % change = (Exp Ratio × Exp % + Sav Ratio × Sav %) ÷ Total Ratio\n\nLet the percentage increase in expenditure be x.\n\n10 = (5 × x + 1 × 8) ÷ (5 + 1)\n\n60 = 5x + 8\n\n5x = 52 ⇒ x = 10.4\n\n**∴ The correct answer is 10.4%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRatio of Expenditure to Savings = 5 ∶ 1\n\nIncome increases by 10%\n\nSavings increase by 8%\n\n**Formula Used:**\n\nIncome = Expenditure + Savings\n\nPercentage Change = (New Value − Initial Value) ÷ Initial Value × 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/3580467488959e14a264e6e4192faa5a3f68bb882865c95d26faf864f9d5c41c.png] \n\n**Calculations:**\n\n⇒ Let initial Expenditure = 500 and Savings = 100.\n\n⇒ Initial Income = 500 + 100 = 600\n\n⇒ New Income = 600 + (10% of 600) = 600 + 60 = 660\n\n⇒ New Savings = 100 + (8% of 100) = 100 + 8 = 108\n\n⇒ New Expenditure = New Income − New Savings = 660 − 108 = 552\n\n⇒ Increase in Expenditure = 552 − 500 = 52\n\n⇒ Percentage increase in Expenditure = (52 ÷ 500) × 100 = 10.4%\n\n**∴ The correct answer is 10.4%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nIncome, Expenditure, and Savings\n\nIncome is always the sum of expenditure and savings (Income = Expenditure + Savings). The percentage change in income is distributed as a weighted average of the changes in expenditure and savings.\n\nPercentage Change\n\nCalculated as % Change = (Final Value − Initial Value) ÷ Initial Value × 100. It measures the degree of change over time.\n\nAlligation Method\n\nIt provides a shortcut to calculate the unknown percentage change using the cross-difference of ratio terms: Ratio of Exp to Sav = (Change in Sav − Change in Income) : (Change in Income − Change in Exp).",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3580467488959e14a264e6e4192faa5a3f68bb882865c95d26faf864f9d5c41c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "6292c1231cd4f00432087cd1",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A scooter is being sold at ₹65,000 cash or ₹41,000 cash down payment followed by 5 equal monthly instalments. If the rate of interest charged is 25% per annum simple interest, the monthly instalment rounded to the nearest integer is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹5,088"
+        },
+        {
+          "label": "2",
+          "text": "₹5,146"
+        },
+        {
+          "label": "3",
+          "text": "₹5,201"
+        },
+        {
+          "label": "4",
+          "text": "₹5,129"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nBalance Principal = 65000 − 41000 = ₹24,000\n\nDue amount after 5 months = 24000 + (24000 × 25 × 5) ÷ 1200 = ₹26,500\n\nSum of 5 instalments (₹x) = 5x + [x × 25 × (4 + 3 + 2 + 1)] ÷ 1200 = 125x/24\n\nEquating both values: 125x/24 = 26500 ⇒ x = 5088\n\n**∴ The correct answer is ₹5,088.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCash price of the scooter = ₹65,000\n\nDown payment = ₹41,000\n\nRate of simple interest (R) = 25% p.a.\n\nNumber of monthly instalments (n) = 5\n\n Instalment Calculation Timeline \n• Month 0",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "6318e7d8713806c5fbb9e7b2",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "(1)/({x)²−5{x}+6}+(1)/({x)²−7{x}+12}−(2)/({x)²−6{x}+8} =",
+      "options": [
+        {
+          "label": "1",
+          "text": "(x − 3)"
+        },
+        {
+          "label": "2",
+          "text": "(x − 2)"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "(x − 4)"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nPut x = 0 in the given expression to avoid complex algebraic factorization.\n\n⇒ Expression = 1/(0 − 0 + 6) + 1/(0 − 0 + 12) − 2/(0 − 0 + 8)\n\n⇒ 1/6 + 1/12 − 2/8\n\n⇒ 2/12 + 1/12 − 3/12 = 0/12 = 0\n\n**∴ The correct answer is 0.**\n\n**__Alternate Method__**\n\n**Given:**\n\n1/(x² − 5x + 6) + 1/(x² − 7x + 12) − 2/(x² − 6x + 8)\n\n**Calculation:**\n\nFactorizing the denominators separately:\n\n⇒ x² − 5x + 6 = x² − 3x − 2x + 6 = x(x − 3) − 2(x − 3) = (x − 2)(x − 3)\n\n⇒ x² − 7x + 12 = x² − 4x − 3x + 12 = x(x − 4) − 3(x − 4) = (x − 3)(x − 4)\n\n⇒ x² − 6x + 8 = x² − 4x − 2x + 8 = x(x − 4) − 2(x − 4) = (x − 2)(x − 4)\n\nSubstituting the factorized forms into the expression:\n\n⇒ 1/[(x − 2)(x − 3)] + 1/[(x − 3)(x − 4)] − 2/[(x − 2)(x − 4)]\n\nTaking the LCM of the denominators which is (x − 2)(x − 3)(x − 4):\n\n⇒ [(x − 4) + (x − 2) − 2(x − 3)] / [(x − 2)(x − 3)(x − 4)]\n\n⇒ [2x − 6 − 2x + 6] / [(x − 2)(x − 3)(x − 4)]\n\n⇒ 0 / [(x − 2)(x − 3)(x − 4)] = 0\n\n**∴ The correct answer is 0.**\n\n**__Additional Information__**\n\nSplitting the Middle Term\n\nFor a quadratic equation ax² + bx + c = 0, find two numbers that multiply to ac and add to b to factorize it easily.\n\nAlgebraic Identities\n\nStandard identities useful in simplification: a² − b² = (a − b)(a + b) and (a + b)² = a² + 2ab + b².\n\nRational Expressions\n\nWhen adding or subtracting rational algebraic fractions, always find the Least Common Multiple (LCM) of the denominators to combine the terms together.\n</p",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "6527f00d07a6efb117288d94",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the value of sin (50° + A) - cos (40° - A).",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "-1"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIf the sum of two angles is 90°, then sin θ₁ = cos θ₂.\n\nCheck the sum of the given angles: (50° + A) + (40° − A) = 90°.\n\nThus, sin(50° + A) = cos(40° − A).\n\nSubtracting them directly gives: sin(50° + A) − cos(40° − A) = 0.\n\n**∴ The correct answer is 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nExpression: sin(50° + A) − cos(40° − A)\n\n**Formula Used:**\n\nsin θ = cos(90° − θ)\n\n [IMAGE: https://cdn.repeatermock.com/tb/d7160684fb38b3c75a37b0295ea641efc3879f6bf4047ef504ffddfa85ef7beb.png] \n\n**Calculations:**\n\n⇒ Let θ = 50° + A\n\n⇒ Using the complementary angle formula: sin θ = cos(90° − θ)\n\n⇒ sin(50° + A) = cos(90° − (50° + A))\n\n⇒ sin(50° + A) = cos(90° − 50° − A)\n\n⇒ sin(50° + A) = cos(40° − A)\n\n⇒ Substitute this result into the original expression:\n\n⇒ cos(40° − A) − cos(40° − A) = 0\n\n**∴ The correct answer is 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nComplementary Angles\n\nTwo angles are complementary if their sum is 90°. Key formulas: sin(90° − θ) = cos θ, sec(90° − θ) = cosec θ, and tan(90° − θ) = cot θ.\n\nSupplementary Angles\n\nTwo angles are supplementary if their sum is 180°. Key formulas: sin(180° − θ) = sin θ, and cos(180° − θ) = −cos θ.\n\nBasic Trigonometric Identities\n\n1) sin²θ + cos²θ = 1\n2) sec²θ − tan²θ = 1\n3) cosec²θ − cot²θ = 1\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d7160684fb38b3c75a37b0295ea641efc3879f6bf4047ef504ffddfa85ef7beb.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "62094f3258a8c342d5d8e3eb",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A person bought a rectangular piece of land whose length and breadth are in the ratio 7 : 5. If the cost of fencing the land is ₹2,880 at the rate of ₹15/m, then what is the length of the land?",
+      "options": [
+        {
+          "label": "1",
+          "text": "56 m"
+        },
+        {
+          "label": "2",
+          "text": "40 m"
+        },
+        {
+          "label": "3",
+          "text": "60 m"
+        },
+        {
+          "label": "4",
+          "text": "84 m"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal perimeter = Total cost ÷ Rate = 2880 ÷ 15 = 192 m\n\nRatio of Length to Breadth = 7 : 5 ⇒ Perimeter in ratio parts = 2 × (7 + 5) = 24 parts\n\n24 parts = 192 m ⇒ 1 part = 8 m\n\nLength = 7 parts = 7 × 8 = 56 m\n\n**∴ The correct answer is 56 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nLength and Breadth ratio = 7 : 5\n\nTotal cost of fencing = ₹2880\n\nRate of fencing = ₹15/m\n\n**Formula Used:**\n\nPerimeter of Rectangle = 2 × (Length + Breadth)\n\nPerimeter = Total Cost ÷ Rate\n\n [IMAGE: https://cdn.repeatermock.com/tb/bde5b7e8a296fbe2e39399af384f2d49a4e6ee8373bfdd142ecf5d0e2b49ca39.png] \n\n**Calculations:**\n\n⇒ Perimeter = 2880 ÷ 15 = 192 m\n\n⇒ Let the length be 7x and the breadth be 5x.\n\n⇒ 2 × (7x + 5x) = 192\n\n⇒ 2 × 12x = 192\n\n⇒ 24x = 192\n\n⇒ x = 192 ÷ 24\n\n⇒ x = 8\n\n⇒ Length = 7x = 7 × 8 = 56 m\n\n**∴ The correct answer is 56 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPerimeter vs Area\n\nFencing is always done along the boundary, so it requires calculating the perimeter. Flooring or painting a surface requires calculating the area.\n\nArea of a Rectangle\n\nArea = Length × Breadth. The total cost of flooring is determined by multiplying the total area by the rate per square unit.\n\nDiagonal of a Rectangle\n\nThe length of the longest pole that can be placed inside a rectangular area is its diagonal. Formula: Diagonal = √(L² + B²).\n\n \n\n2f",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bde5b7e8a296fbe2e39399af384f2d49a4e6ee8373bfdd142ecf5d0e2b49ca39.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "63240a454e51325e320c00fd",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "For a solid right circular cylinder, its radius and height are in the ratio of 2 : 9 and are melted and recast to a sphere of diameter 24 m. If no metal is wasted during the process, then find the height of the cylinder. (in m)",
+      "options": [
+        {
+          "label": "1",
+          "text": "36 m"
+        },
+        {
+          "label": "2",
+          "text": "16 m"
+        },
+        {
+          "label": "3",
+          "text": "20 m"
+        },
+        {
+          "label": "4",
+          "text": "18 m"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSince the cylinder is melted and recast into a sphere, their volumes will be exactly equal.\n\nLet cylinder radius = 2x and height = 9x. Sphere radius = 24 ÷ 2 = 12 m.\n\n⇒ π × (2x)² × 9x = (4/3) × π × 12³\n\n⇒ 36x³ = 4 × 576 ⇒ x³ = 64 ⇒ x = 4\n\n⇒ Height of the cylinder = 9 × 4 = 36 m.\n\n**∴ The correct answer is 36 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRatio of radius to height of the cylinder = 2 : 9\n\nDiameter of the sphere = 24 m ⇒ Radius of sphere (R) = 12 m\n\n**Formula Used:**\n\nVolume of Cylinder = πr²h\n\nVolume of Sphere = (4/3)πR³\n\n [IMAGE: https://cdn.repeatermock.com/tb/7bbafed8a71d828e0e77849f7f8c30e74c94c61c0b69a9903537de2318356c40.png] \n\n**Calculations:**\n\n⇒ Let the radius of the cylinder be 2x and the height be 9x.\n\n⇒ Volume of Cylinder = Volume of Sphere\n\n⇒ π × (2x)² × 9x = (4/3) × π × (12)³\n\n⇒ π × 4x² × 9x = (4/3) × π × 1728\n\n⇒ 36x³ = 4 × 576\n\n⇒ 36x³ = 2304\n\n⇒ x³ = 2304 ÷ 36\n\n⇒ x³ = 64\n\n⇒ x = 4\n\n⇒ Height of the cylinder = 9x = 9 × 4 = 36 m\n\n**∴ The correct answer is 36 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPrinciple of Melting and Recasting\n\nWhen a solid 3D object is melted and reshaped into another, its total enclosed volume remains constant, irrespective of the change in its shape or surface area.\n\nVolume of a Right Circular Cylinder\n\nThe volume defines the capacity enclosed by the cylinder walls, evaluated by multiplying the circular base area by its height: V = πr²h.\n\nVolume of a Sphere\n\nA sphere is a perfectly round 3D geometrical shape. The total space occupied is computed with the standard formula: V = (4/3)πR³.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7bbafed8a71d828e0e77849f7f8c30e74c94c61c0b69a9903537de2318356c40.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "63368ff60835ecf93cd0a43b",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Mr.Jacob invested Rs.17,500 divided into two different schemes A and B at simple interest rate of 20% and 7.5% respectively. If the total amount of the interest earned in 2 years is Rs.3775, What was the amount invested in scheme A. (In Rs.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "6600"
+        },
+        {
+          "label": "2",
+          "text": "5600"
+        },
+        {
+          "label": "3",
+          "text": "4600"
+        },
+        {
+          "label": "4",
+          "text": "3600"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal interest if all invested in A: 17500 × 40% = ₹7000\n\nTotal interest if all invested in B: 17500 × 15% = ₹2625\n\nApplying alligation on total interest (₹3775):\n\nRatio of A : B = (3775 − 2625) : (7000 − 3775) = 1150 : 3225 = 46 : 129\n\nAmount in Scheme A = [46 ÷ (46 + 129)] × 17500 = 46 × 100 = 4600\n\n**∴ The correct answer is ₹4600.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal Investment = ₹17,500\n\nScheme A rate = 20% p.a., Scheme B rate = 7.5% p.a.\n\nTime (T) = 2 years, Total Interest = ₹3775\n\n**Formula Used:**\n\nSimple Interest (SI) = (P × R × T) ÷ 100\n\n<sv",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "67580c75a87b04ec5c9aa4fa",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of the number of boys and girls in a hostel is 5 : 7. If 40% of boys and 50% of girls are getting scholarships for their studies, what is the percentage of hostel students who are not getting any scholarships?",
+      "options": [
+        {
+          "label": "1",
+          "text": "59 dfrac{1}{8} %%"
+        },
+        {
+          "label": "2",
+          "text": "54 dfrac{1}{6}%"
+        },
+        {
+          "label": "3",
+          "text": "35 dfrac{1}{7}%"
+        },
+        {
+          "label": "4",
+          "text": "45 dfrac{1}{5}%"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nLet the number of boys be 50 and girls be 70, making the total number of students 120.\n\nBoys without scholarships = 60% of 50 = 30.\n\nGirls without scholarships = 50% of 70 = 35.\n\nTotal students without scholarships = 30 + 35 = 65.\n\nRequired percentage = (65 ÷ 120) × 100 = 325 ÷ 6 = 54 ¹/₆%.\n\n**∴ The correct answer is 54 ¹/₆%.**\n\n**__Alternate Method__**\n\n**Given:**\n\nRatio of Boys to Girls = 5 : 7\n\nBoys getting scholarships = 40%\n\nGirls getting scholarships = 50%\n\n**Formula Used:**\n\nPercentage = (Favorable Value ÷ Total Value) × 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/cebc0008fc25437d054dfc006b478a2242bf56e9c2d870dc604c214447ca6207.png] \n\n**Calculations:**\n\nLet the number of boys be 5x and the number of girls be 7x.\n\n⇒ Total students = 5x + 7x = 12x\n\nSince 40% of boys get scholarships, those who do not get scholarships = (100 − 40)% = 60%\n\n⇒ Number of boys without scholarships = 60% of 5x = (60 ÷ 100) × 5x = 3x\n\nSince 50% of girls get scholarships, those who do not get scholarships = (100 − 50)% = 50%\n\n⇒ Number of girls without scholarships = 50% of 7x = (50 ÷ 100) × 7x = 3.5x\n\n⇒ Total students without scholarships = 3x + 3.5x = 6.5x\n\n⇒ Required percentage = (6.5x ÷ 12x) × 100\n\n⇒ (65 ÷ 120) × 100 = 1300 ÷ 24 = 325 ÷ 6 = 54 ¹/₆%\n\n**∴ The correct answer is 54 ¹/₆%.**\n\n**__Additional Information__**\n\nPercentage Base Assumption\n\nWhen working with ratios and percentages, assuming bases as multiples of 10 or 100 eliminates decimals and speeds up calculations significantly.\n\nComplementary Percentage\n\nIf a certain percentage (P%) satisfies a condition, the remaining (100 − P)% does not. Directly calculating the required part saves an extra subtraction step.\n\nWeighted Average\n\nThe combined percentage of multiple groups is essentially their weighted average: Combined % = (n₁p₁ + n₂p₂) ÷ (n₁ + n₂).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/cebc0008fc25437d054dfc006b478a2242bf56e9c2d870dc604c214447ca6207.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "650972ce17168d8f35a95620",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A thief is spotted by a policeman from a distance of 249 m. When the policeman starts the chase, the thief also starts running. Assuming the speed of the thief is 4 m/s and that of the policeman is 7 m/s, how far the thief would have run before he is overtaken by the policeman?",
+      "options": [
+        {
+          "label": "1",
+          "text": "521 m"
+        },
+        {
+          "label": "2",
+          "text": "332 m"
+        },
+        {
+          "label": "3",
+          "text": "747 m"
+        },
+        {
+          "label": "4",
+          "text": "249 m"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSince the time taken by both to reach the catch point is the same, distance is directly proportional to their speed.\n\nRatio of distances = Ratio of speeds = Policeman : Thief = 7 : 4\n\nDifference in distance ratio = 7 − 4 = 3 parts\n\nHere, 3 parts = 249 m ⇒ 1 part = 83 m\n\nDistance run by the thief = 4 parts = 4 × 83 = 332 m\n\n**∴ The correct answer is 332 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInitial distance between policeman and thief = 249 m\n\nSpeed of policeman = 7 m/s\n\nSpeed of thief = 4 m/s\n\n**Formula Used:**\n\nDistance = Speed × Time\n\nRelative Speed (same direction) = S₁ − S₂\n\n [IMAGE: https://cdn.repeatermock.com/tb/ef2acfca4806590c4b347a08c11a023dbd33e36ab10fe932ad6ab296491b365c.png] \n\n**Calculations:**\n\n⇒ Relative speed = 7 − 4 = 3 m/s\n\n⇒ Time taken to catch the thief = Distance ÷ Relative speed\n\n⇒ Time = 249 ÷ 3 = 83 seconds\n\n⇒ Distance run by the thief (d) = Speed of thief × Time\n\n⇒ Distance = 4 × 83 = 332 m\n\n**∴ The correct answer is 332 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRelative Speed (Same Direction)\n\nWhen two bodies move in the same direction, their relative speed is the difference of their individual speeds: Sᵣₑₗ = S₁ − S₂.\n\nRelative Speed (Opposite Direction)\n\nWhen two bodies move towards each other, their relative speed is the sum of their individual speeds: Sᵣₑₗ = S₁ + S₂.\n\nTime to Catch/Meet\n\nThe time taken for a faster object to catch a slower one is calculated by dividing their initial distance gap by their relative speed.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ef2acfca4806590c4b347a08c11a023dbd33e36ab10fe932ad6ab296491b365c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    }
+  ]
+}

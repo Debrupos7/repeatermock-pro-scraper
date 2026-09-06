@@ -1,0 +1,918 @@
+{
+  "test_id": "6a0f455bccf0ef8f830ecdd2",
+  "title": "PYST 16: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 17th Sep 2025 Shift 1)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:00:42.727107+00:00",
+  "questions": [
+    {
+      "qid": "694a81a5fb297c8f8e7d6c2f",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series:\n\nC E K, E G M, G I O, I K Q, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "K S A"
+        },
+        {
+          "label": "2",
+          "text": "J A S"
+        },
+        {
+          "label": "3",
+          "text": "K M S"
+        },
+        {
+          "label": "4",
+          "text": "K J S"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/b93ed7f2287f90cb204c9dab49bdefd05d8c67230234bba7e6f7c2ce74197e5d.png] \n\nPattern followed here is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/c2039d49e2dce0f739c0928a6ae6d3d73269162633b1c22325b6ba53fc97d276.png] <sp",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b93ed7f2287f90cb204c9dab49bdefd05d8c67230234bba7e6f7c2ce74197e5d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c2039d49e2dce0f739c0928a6ae6d3d73269162633b1c22325b6ba53fc97d276.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694a81a58fcb99d132bcb115",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is the same as the one given below:\n\nNo. 55, Hillcrest Villas, Shimla, Himachal Pradesh - 171001",
+      "options": [
+        {
+          "label": "1",
+          "text": "No. 55, Hillcrest Villas, Shimla, Uttarakhand - 171001"
+        },
+        {
+          "label": "2",
+          "text": "No. 55, Hillcrest Villas, Shimla, Himachal Pradesh - 171001"
+        },
+        {
+          "label": "3",
+          "text": "No. 55, Hillcrest Villas, Shimla, Punjab - 171001"
+        },
+        {
+          "label": "4",
+          "text": "No. 55, Hillcrest Villas, Shimla, Delhi - 171001"
+        }
+      ],
+      "correct": "2",
+      "solution": "Option\n\n \n \n \nAddress in option\n\n \n \n \nOriginal Address\n\n \n \n \nResult\n\n \n \n \n\n \n \n(1)\n\n \n \n \nNo. 55, Hillcrest Villas, Shimla, Uttarakhand - 171001\n\n \n \n \nNo. 55, Hillcrest Villas, Shimla, Himachal Pra",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "694a81a5779740958a8b5d8e",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Cause and Effect",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the relation between Statement I and Statement II.\n\nStatement I. The tech firm's stock price surged to a record high this morning.\n\nStatement II. The firm announced a breakthrough in quantum computing and secured a massive federal contract.",
+      "options": [
+        {
+          "label": "1",
+          "text": "I is the cause and II is the effect."
+        },
+        {
+          "label": "2",
+          "text": "II is the cause and I is the effect."
+        },
+        {
+          "label": "3",
+          "text": "Both are independent effects."
+        },
+        {
+          "label": "4",
+          "text": "No relation."
+        }
+      ],
+      "correct": "2",
+      "solution": "Statement I is the Effect: In response to this news, investors buy more shares, driving the stock price up to a record high.\n\n<b data-index-in-node=&quo",
+      "tags": [
+        "Cause and Effect"
+      ]
+    },
+    {
+      "qid": "694a81a665d84bfca5f48396",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The following equation is incorrect. Which two signs should be interchanged to correct the equation? 36 + 12 × 8 - 24 ÷ 6 = 34",
+      "options": [
+        {
+          "label": "1",
+          "text": "+ and ×"
+        },
+        {
+          "label": "2",
+          "text": "× and ÷"
+        },
+        {
+          "label": "3",
+          "text": "+ and -"
+        },
+        {
+          "label": "4",
+          "text": "- and ÷"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://lh4.googleusercontent.com/c0j5U9v2oJWEzSTKvdDLWZ5Zik3PBUXk-C9w3Ma990WH63rpQUfA7g-3wh_uT7CgFvFJ4jPGEeOw509FxSgfh78_HR9tDNZ9KitXdEveKsLaLMgPQf6YSDt1b775728JMVp9FIQs=s0] \n\n**Given equation:**\n\n36 + 12 × 8 - 24 ÷ 6 = 34\n\n**1) Interchanging + and ×**\n\nNew equation: 36 **__×__** 12 **__+__** 8 - 24 ÷ 6\n\n= **__36 × 12__** + 8 - **__24 ÷ 6__**\n\n= 432 + 8 - 4\n\n= **__440 - 4__**\n\n= 436 ≠ 34 (Incorrect)\n\n**2) Interchanging × and ÷**\n\nNew equation: 36 + 12 **__÷__** 8 **__×__** 24 - 6\n\n= 36 + **__1.5 × 24__** - 6\n\n= 36 + 36 - 6\n\n= **__72 - 6__**\n\n= 66 ≠ 34 (Incorrect)\n\n**3) Interchanging + and -**\n\nNew equation: 36 **__-__** 12 × 8 **__+__** 24 ÷ 6\n\n= 36 - **__12 × 8__** + **__24 ÷ 6__**\n\n= 36 - 96 + 4\n\n= **__40 - 96__**\n\n= -56 ≠ 34 (Incorrect)\n\n**4) Interchanging - and ÷**\n\nNew equation: 36 + 12 × 8 **__÷__** 24 **__-__** 6\n\n= 36 + 12 × **__(8 ÷ 24)__** - 6\n\n= 36 + **__12 × 0.3333__** - 6\n\n= 36 + 4 - 6\n\n= **__40 - 6__**\n\n= 34\n\n34 = 34 (Correct)\n\nHence, the correct answer is **\"Option 4\"**.",
+      "solution_images": [
+        {
+          "url": "https://lh4.googleusercontent.com/c0j5U9v2oJWEzSTKvdDLWZ5Zik3PBUXk-C9w3Ma990WH63rpQUfA7g-3wh_uT7CgFvFJ4jPGEeOw509FxSgfh78_HR9tDNZ9KitXdEveKsLaLMgPQf6YSDt1b775728JMVp9FIQs=s0",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a81a665d84bfca5f48398",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The given statements are followed by two conclusions. Find out which conclusion is TRUE based on the given statements. Statements:\n\nS > T = U, V ≥ W Z > A\n\nI. V > A\n\nII. W < Y",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion I is true"
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion II is true"
+        },
+        {
+          "label": "3",
+          "text": "Neither conclusion I nor II is true"
+        },
+        {
+          "label": "4",
+          "text": "Both conclusion I and II are true"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:** S > T = U, V ≥ W Z > A\n\n**Conclusion:**\n\nI. V > A → True (V ≥ W and W > Z > A. so, V > A)\n\nII. W → True (W \n\nBoth conclusion I and II are true.\n\nHence, the correct answer is “**Option 4**”.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a81a698b7003ed4851e56",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "P is the brother of Q. R is the sister of Q. S is the father of R. How is S related to P?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father"
+        },
+        {
+          "label": "2",
+          "text": "Uncle"
+        },
+        {
+          "label": "3",
+          "text": "Brother"
+        },
+        {
+          "label": "4",
+          "text": "Grandfather"
+        }
+      ],
+      "correct": "1",
+      "solution": "By using the symbols in the table given below, we can draw the following family tree:\n\n [IMAGE: https://cdn.repeatermock.com/tb/31358178cf2a5957036a81f6b961d04d7d751d199f015e1e44702b963704c4a5.png] \n\n<p style=\"color: rgb(",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/31358178cf2a5957036a81f6b961d04d7d751d199f015e1e44702b963704c4a5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694a81a79f6495ea26418dc3",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next in the following number sequence?\n\n4, 6, 18, 108, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1296"
+        },
+        {
+          "label": "2",
+          "text": "1944"
+        },
+        {
+          "label": "3",
+          "text": "648"
+        },
+        {
+          "label": "4",
+          "text": "432"
+        }
+      ],
+      "correct": "1",
+      "solution": "The series follows the following pattern:\n\n4 × 1.5 = 6\n\n6 × 3 = 18\n\n18 × 6 = 108\n\n**108 × 12 = 1296**\n\nHence, the correct answer is “**Option 1**”.",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694a81a781b227223ff2083d",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will come at the place of question mark?\n\n5, 9, 17, 33, 65, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "129"
+        },
+        {
+          "label": "2",
+          "text": "120"
+        },
+        {
+          "label": "3",
+          "text": "130"
+        },
+        {
+          "label": "4",
+          "text": "127"
+        }
+      ],
+      "correct": "1",
+      "solution": "The series follows the following pattern:\n\n5 × 2 - 1= 9\n\n9 × 2 - 1 = 17\n\n17 × 2 - 1 = 33\n\n33 × 2 - 1 = 65\n\n**65 × 2 - 1 = 129**\n\nHence, the correct answer is “**Option 1**”.",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694a81a79f6495ea26418dc7",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: The municipal corporation has decided to increase the property tax rates by 15 percent.\n\nConclusions: I Homeowners will face a higher annual financial burden.\n\nII. The corporation has depleted its entire emergency fund.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Statement: The municipal corporation has decided to increase the property tax rates by 15 percent.**\n\n**Conclusions**:\n\nI. Homeowners will face a higher annual financial burden → **Follow**\n\nThis is a direct logical consequence. Property tax is a recurring fee paid by property owners to the local government. A 15 percent increase in the rate means the actual dollar amount homeowners must pay annually will go up, thereby increasing their financial burden.\n\nII. The corporation has depleted its entire emergency fund → **Does not follow**\n\nThis is an assumption that goes beyond the information provided. While a tax hike could be a reaction to a lack of funds, the statement doesn't explain why the corporation is raising taxes.\n\nOnly Conclusion I follows.\n\nHence, the correct answer is “Option 1**”.",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694a81a8782e164e386432bd",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Instruction:\n\nIdentify the assumptions that must hold for the statement to be valid, then choose the correct option.\n\nStatement: While modern electric vehicles are becoming more affordable, their reliance on specific charging infrastructure means that widespread use will require major investments in high-speed charging networks to support long-distance travel.\n\nAssumptions: I. Electric vehicles currently cannot travel long distances without recharging.\n\nII. The lack of charging networks is the only factor preventing people from buying electric cars.\n\nIII. High-speed charging networks are essential for making electric vehicles practical for long-distance trips.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I and III are implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only II and III are implicit"
+        },
+        {
+          "label": "3",
+          "text": "Only I is implicit"
+        },
+        {
+          "label": "4",
+          "text": "All assumptions are implicit"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Statement: **While modern electric vehicles are becoming more affordable, their reliance on specific charging infrastructure means that widespread use will require major investments in high-speed charging networks to support long-distance travel.\n\n**Assumptions:**\n\nI. Electric vehicles currently cannot travel long distances without recharging → **Implicit**\n\nThe statement claims that high-speed charging networks are needed specifically to \"support long-distance travel.\" This logic only holds if we assume that current electric vehicles (EVs) are unable to complete long-distance journeys on a single charge. If they could travel indefinitely without recharging, the infrastructure wouldn't be a requirement.\n\n \n\nII. The lack of charging n",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "694a81a8096886a2d2f50f95",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: Employee productivity has risen sharply since the company implemented a four-day work week.\n\nConclusions:I. Better work-life balance encourages higher efficiency.\n\nII. Employees were lazy when they worked five days a week.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Statement: **Employee productivity has risen sharply since the company implemented a four-day work week.\n\n**Conclusions:**\n\nI. Better work-life balance encourages higher efficiency → **Follow**\n\nThe statement identifies a direct positive correlation: changing to a four-day work week (a policy typically aimed at improving work-life balance) resulted in a \"sharp rise\" in productivity. In logical reasoning, when a specific action leads to a specific posit",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694a81a8c2151101a6288781",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following is/are identical to the address given:\n\nRahul Singh 18B, Golden Heights, Moti Nagar, Delhi, 110011\n\n1. Rahul Singh 18B, Golden Heights, Moti Nagar, Delhi, 110011\n\n2. Rahul Singh 18-B, Golden Heights, Moti Nagar, Delhi, 110011\n\n3. Rahul Singh 18B, Golden Heights, Moti Nagar, Delhi, 110011\n\n4. Rahul Singh 18B, Golden Heights, Moti Nagar, New Delhi, 110011",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 and 2"
+        },
+        {
+          "label": "2",
+          "text": "1 and 3"
+        },
+        {
+          "label": "3",
+          "text": "2 and 4"
+        },
+        {
+          "label": "4",
+          "text": "3 and 4"
+        }
+      ],
+      "correct": "2",
+      "solution": "Address given\n\n \n \n \nOriginal Address\n\n \n \n \nResult\n\n \n \n \n\n \n \n1.\n\n \n \n \nRahul Singh 18B, Golden Heights, Moti Nagar, Delhi, 110011\n\n \n \n \nRahul Singh 18B, Golden Heights, Moti Nagar, Delhi, 110011\n\n \n \n \nBoth the address are exactly the same.\n\n \n \n \n\n \n \n2.\n\n \n \n \nRahul Singh 18-B, Golden Heights, Moti Nagar, Delhi, 110011\n\n \n \n \nRahul Singh 18B, Golden Heights, Moti Nagar, Delhi, 110011\n\n \n \n \nOriginal address has ‘18B’ but the option address has ‘18-B’.\n\n \n \n \n\n \n \n3.\n\n \n \n \nRahul Singh 18B, Golden Heights, Moti Nagar, Delhi, 110011\n\n \n \n \nRahul Singh 18B, Golden Heights, Moti Nagar, Delhi, 110011\n\n \n \n \nBoth the address are exactly the same.\n\n \n \n \n\n \n \n4.\n\n \n \n \nRahul Singh 18B, Golden Heights, Moti Nagar, New Delhi, 110011\n\n \n \n \nRahul Singh 18B, Golden Heights, Moti Nagar, Delhi, 110011\n\n \n \n \nOriginal address has ‘Delhi’ but the option address has ‘New Delhi’.\n\n \n \n \n\n**\nHere, address 1 and 3 are identical to the given address.\n\nHence, the correct answer is “Option 2**”.",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "694a81a974bc5796823af759",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Each question involves rearranging specific positions of the letters from the original word, and you must choose the correct transformed version from the options. SILVER is to LISVER as BRANCH is to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "ARBNCH"
+        },
+        {
+          "label": "2",
+          "text": "RABNCH"
+        },
+        {
+          "label": "3",
+          "text": "NABRCH"
+        },
+        {
+          "label": "4",
+          "text": "BANRCH"
+        }
+      ],
+      "correct": "1",
+      "solution": "Logic followed here is,\n\nSILVER is to LISVER\n\n [IMAGE: https://cdn.repeatermock.com/tb/7d95ad9611290a4b67c302e234d46e354f3c4b5dc848a156237ebb3a1c77d151.png] \n\nSimilarly,\n\nBRANCH is to:\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/89f298a15e275f38fc736a0ea4cae0212c6",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7d95ad9611290a4b67c302e234d46e354f3c4b5dc848a156237ebb3a1c77d151.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694a81a965d84bfca5f483c2",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out:",
+      "options": [
+        {
+          "label": "1",
+          "text": "George Washington"
+        },
+        {
+          "label": "2",
+          "text": "Thomas Jefferson"
+        },
+        {
+          "label": "3",
+          "text": "Abraham Lincoln"
+        },
+        {
+          "label": "4",
+          "text": "Benjamin Franklin"
+        }
+      ],
+      "correct": "4",
+      "solution": "The most common way to categorise these figures in history and logic puzzles is by their role as **U.S. President**.\n\n \n• \n \n**George Washington:** 1st U.S. President\n\n \n \n• \n \n**Thomas Jefferson:** 3rd U.S. President\n\n \n \n• \n <p data-path-to-node=\"3,2,0&q",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694a81a99f6495ea26418e17",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Rearrange the letters given below to form the name of a weapon:\n\nELIFR",
+      "options": [
+        {
+          "label": "1",
+          "text": "filer"
+        },
+        {
+          "label": "2",
+          "text": "rifle"
+        },
+        {
+          "label": "3",
+          "text": "flier"
+        },
+        {
+          "label": "4",
+          "text": "lifer"
+        }
+      ],
+      "correct": "2",
+      "solution": "After rearranging the letters the word formed is :\n\nELIFR → RIFLE \n\nRIFLE is a weapon.\n\nHence, the correct answer is “**Option 2**”.",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "694a81aa4c6adf05d2e5f655",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next in the following letter series? NZM, QXK, TVI, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "VTG"
+        },
+        {
+          "label": "2",
+          "text": "USF"
+        },
+        {
+          "label": "3",
+          "text": "WTG"
+        },
+        {
+          "label": "4",
+          "text": "XRE"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/a4b566770607c4018d8e36acfbd0e1907bdd3817154eb9f0235191c396a72dcd.png] \n\nPattern followed here is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/cde27230a3e5b0a98a9fa07a4d2d745e0772a5d4741603a19f8c5866f18247f5.png] \n\nHence, the correct answer is “**Option 3**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a4b566770607c4018d8e36acfbd0e1907bdd3817154eb9f0235191c396a72dcd.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/cde27230a3e5b0a98a9fa07a4d2d745e0772a5d4741603a19f8c5866f18247f5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694a81aa66abd6935bb97e5c",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out from the given alternatives:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sandy Soil"
+        },
+        {
+          "label": "2",
+          "text": "Clayey Soil"
+        },
+        {
+          "label": "3",
+          "text": "Loamy Soil"
+        },
+        {
+          "label": "4",
+          "text": "Metamorphic Rock"
+        }
+      ],
+      "correct": "4",
+      "solution": "Here,\n\nSandy, Clayey, and Loamy are the three primary classifications of soil based on their texture and the size of the mineral particles they contain.\n\nWhile,\n\n Metamorphic Rock is a classification of rock (along with Igneou",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694a81aa5481b89bd54c0aad",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'STAR' is coded as 'RSZQ', what is the code for 'GLOW'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "FKNV"
+        },
+        {
+          "label": "2",
+          "text": "FKNT"
+        },
+        {
+          "label": "3",
+          "text": "FJNV"
+        },
+        {
+          "label": "4",
+          "text": "FJNT"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/5e5cfcb7a8dfec671b84116ec3bd129373c2e413ecff0e60deb15454118cc3d5.png] **\n\nPattern followed here is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/47e8e213378b5cbcf608408e5f5e8668823019c8129b66cc320279d2fc0606a4.png] \n\nSimilarly,\n\n [IMAGE: https://cdn.repeatermock.com/tb/67798ba9f220af4b246d1e25ca3937e7fe1f3027dbdd03ccd6163b8617b00f9b.png] \n\nHence, the correct answer is “Option 1**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/5e5cfcb7a8dfec671b84116ec3bd129373c2e413ecff0e60deb15454118cc3d5.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/47e8e213378b5cbcf608408e5f5e8668823019c8129b66cc320279d2fc0606a4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/67798ba9f220af4b246d1e25ca3937e7fe1f3027dbdd03ccd6163b8617b00f9b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694a81ab0bd876e4255a0d0a",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 50 percent of a certain number is 30, what is that number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60"
+        },
+        {
+          "label": "2",
+          "text": "75"
+        },
+        {
+          "label": "3",
+          "text": "90"
+        },
+        {
+          "label": "4",
+          "text": "120"
+        }
+      ],
+      "correct": "1",
+      "solution": "Let the number is y.\n\nNow,\n\n50% of y = 30\n\n(50 × y) / 100 = 30\n\n50 × y = 30 × 100\n\n50 y = 3000\n\ny = 3000/50 = 60\n\nThe number is 60.\n\nHence, the correct answer is “**Option 1**”.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a81ab52f6dcca4f9a08c2",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 12 × 6 = 108 and 16 × 4 = 96, what is 10 × 8 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "80"
+        },
+        {
+          "label": "2",
+          "text": "88"
+        },
+        {
+          "label": "3",
+          "text": "90"
+        },
+        {
+          "label": "4",
+          "text": "120"
+        }
+      ],
+      "correct": "4",
+      "solution": "Here,\n\n12 × 6 = 108 → \n\n12 × (6 + 6/2) = 12 × 9 = 108\n\n16 × 4 = 96 → \n\n16 × (4 + 4/2) = 16 × 6 = 96\n\n10 × 8 = ?\n\n**10 × (8 + 8/2) = 10 × 12 = 120**\n\nHence, the correct answer is “**Option 4**”.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a81ab782e164e386432e1",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 4 @ 6 = 52, 6 @ 8 = 100, then what is 8 @ 10 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "136"
+        },
+        {
+          "label": "2",
+          "text": "139"
+        },
+        {
+          "label": "3",
+          "text": "164"
+        },
+        {
+          "label": "4",
+          "text": "133"
+        }
+      ],
+      "correct": "3",
+      "solution": "Here,\n\n4 @ 6 = 52 →\n\n4² + 6² = 16 + 36 = 52\n\n6 @ 8 = 100 →\n\n6² + 8² = 36 + 64 = 100\n\n8 @ 10 = ? →\n\n**8² + 10² = 64 + 100 = 164**\n\nHence, the correct answer is “**Option 3**”.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a81ac07038cff0de7ac20",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A 60 L mixture contains juice and water in the ratio 3:2. How much juice must be added to make the ratio 4:1?",
+      "options": [
+        {
+          "label": "1",
+          "text": "102 L"
+        },
+        {
+          "label": "2",
+          "text": "120 L"
+        },
+        {
+          "label": "3",
+          "text": "60 L"
+        },
+        {
+          "label": "4",
+          "text": "80 L"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\nThe ratio of juice and water in a 60 litre mixture is 3:2.\n\nLet the quantity of juice = 3x and water = 2x.\n\nTotal mixture = 60 litres.\n\nTo make the ratio 4:1, the quantity of juice to be added is required.\n\nFormula used:\n\nNew ratio = (Juice):(Water) = 4:1\n\nCalculations:\n\nGiven: Juice = 3x, Water = 2x, Total = 60\n\n⇒ 3x + 2x = 60\n\n⇒ 5x = 60\n\n⇒ x = 12\n\nJuice = 3x = 3 × 12 = 36 litres\n\nWater = 2x = 2 × 12 = 24 litres\n\nLet y be the quantity of Juice to be added to make the ratio 4:1.\n\n⇒ According to the new ratio,\n\n⇒ (Juice / Water) = 4/1\n\n⇒ J / 24 = 4 / 1\n\nCross-multiplying gives us,\n\n⇒ J = 24 × 4\n\n⇒ J = 96 L\n\nJuice added = New volume of juice - Initial volume of juice\n\n⇒ Juice added = 96 - 36\n\n⇒ Juice added = 60 L\n\nHence, the correct answer is “**Option 3**”.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a81ac5ff21f323136a74b",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the given symbols mean:\n\n'+' means 'divided by', '-' means 'multiplied by', 'x' means 'minus', '÷' means 'plus'. Then, find the value of the following expression:\n\n16 ÷ 4 x 6 + 36 - 12 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "22"
+        },
+        {
+          "label": "3",
+          "text": "26"
+        },
+        {
+          "label": "4",
+          "text": "30"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given Equation: 16 ÷ 4 x 6 + 36 - 12 = ?\n\nBODMAS Rule:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\nDecoding the given information:\n\n \n \n\n Symbol\n +\n -\n x\n ÷\n \n \n \n \n\n Meaning\n ÷\n ×\n -\n +\n \n \n\nNow replacing the signs from left to right using BODMAS Rule, we get:\n\n⇒ 16 + 4 - __**6 ÷ 36**__ × 12\n\n⇒ 16 + 4 - 0.166 × 12\n\n⇒ 16 + 4 - __**2**__\n\n⇒ __**20**__ - 2\n\n⇒ __**18**__\n\nHence, the correct option is \"Option 1\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694a81ad0bd876e4255a0d17",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Pointing to a girl, a woman said, \"She is the daughter of my husband's brother's wife.\" How is the girl related to the woman?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Daughter"
+        },
+        {
+          "label": "2",
+          "text": "Niece"
+        },
+        {
+          "label": "3",
+          "text": "Cousin"
+        },
+        {
+          "label": "4",
+          "text": "Sister"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/141d09d37d7635c1a2345f66d59b189a1047d1f512718d0cf3e741bff3d7f0d3.png] \n\nFamily tree,\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/d32451409156c9e519cb77631ab2fdc8b00b56b6862b0cd731e367c5dd4510ad.png\" style=\"width: 490px; height: 15",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/141d09d37d7635c1a2345f66d59b189a1047d1f512718d0cf3e741bff3d7f0d3.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d32451409156c9e519cb77631ab2fdc8b00b56b6862b0cd731e367c5dd4510ad.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694a81ada747cc5719c96c96",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If + = ÷ , - = ×, ÷ = +, × = -; then 72 + 12 - 4 × 6 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "26"
+        },
+        {
+          "label": "4",
+          "text": "18"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given Equation: 72 + 12 - 4 × 6 = ?\n\nBODMAS Rule:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\nDecoding the given information:\n\n \n \n\n Symbol\n +\n -\n ÷\n ×\n \n \n \n \n\n Meaning\n ÷\n ×\n +\n -\n \n \n\nNow replacing the signs from left to right using BODMAS Rule, we get:\n\n⇒ __**72 ÷ 12**__ × 4 - 6\n\n⇒ 6 × 4 - 6\n\n⇒ __**6 × 4**__ - 6\n\n⇒ __**24 - 6**__\n\n⇒ __**18**__\n\nHence, the correct option is \"Option 4\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,844 @@
+{
+  "test_id": "6a0f45ab96fb628c6d19195b",
+  "title": "PYST 27: SSC CGL 2025 Tier-I Similar Paper - Quantitative Aptitude (Held On: 20th Sep 2025 Shift 3)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:02:13.471303+00:00",
+  "questions": [
+    {
+      "qid": "6960c25f5c3d013afbfa90b6",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Solve for x: (√(14 + x) + √(14 - x)) / (√(14 + x) - √(14 - x)) = 4?",
+      "options": [
+        {
+          "label": "1",
+          "text": "112/17"
+        },
+        {
+          "label": "2",
+          "text": "92/27"
+        },
+        {
+          "label": "3",
+          "text": "92/17"
+        },
+        {
+          "label": "4",
+          "text": "112/27"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n(√(14 + x) + √(14 − x)) ÷ (√(14 + x) − √(14 − x)) = 4\n\n**Formula used:**\n\nIf (a + b) ÷ (a − b) = k, then a ÷ b = (k + 1) ÷ (k − 1)\n\n**Calculations:**\n\nLet a = √(14 + x)\n\nLet b = √(14 − x)\n\n⇒ (a + b) ÷ (a − b) = 4\n\n⇒ a ÷ b = (4 + 1) ÷ (4 − 1) = 5 ÷ 3\n\n⇒ √(14 + x) ÷ √(14 − x) = 5 ÷ 3\n\n⇒ (14 + x) ÷ (14 − x) = 25 ÷ 9\n\n⇒ 9(14 + x) = 25(14 − x)\n\n⇒ 126 + 9x = 350 − 25x\n\n⇒ 34x = 224\n\n⇒ x = 224 ÷ 34\n\n⇒ x = 112/17\n\n**∴ The value of x is 112/17.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6960c2609da41d76b7432491",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Calculate the compound interest on 32000 at 20% annually for 9 months with quarterly compounding?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4444"
+        },
+        {
+          "label": "2",
+          "text": "4844"
+        },
+        {
+          "label": "3",
+          "text": "3044"
+        },
+        {
+          "label": "4",
+          "text": "5044"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nPrincipal (P) = 32000\n\nRate of Interest (R) = 20% annually\n\nTime (T) = 9 months = 3 quarters\n\nCompounding = Quarterly\n\n**Formula Used:**\n\nCompound Interest (CI) = Amount (A) - Principal (P)\n\nAmount (A) = P × (1 + (R / 4) / 100)ⁿ\n\n**Calculation:**\n\n⇒ R / 4 = 20 / 4 = 5%\n\n⇒ n = 3 quarters\n\n⇒ A = 32000 × (1 + 5 / 100)³\n\n⇒ A = 32000 × (1 + 0.05)³\n\n⇒ A = 32000 × (1.05)³\n\n⇒ A = 32000 × 1.157625\n\n⇒ A = 37044\n\n⇒ CI = A - P\n\n⇒ CI = 37044 - 32000\n\n⇒ CI = 5044\n\n**∴ The correct answer is 5044.**",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "6960c260f70684e7ea8eb56d",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "40 women can finish work in 16 days. 20 men can finish it in 12 days. What is the ratio of output between a man and a woman?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5:3"
+        },
+        {
+          "label": "2",
+          "text": "2:1"
+        },
+        {
+          "label": "3",
+          "text": "2:5"
+        },
+        {
+          "label": "4",
+          "text": "8:3"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n40 women finish work in 16 days\n\n20 men finish work in 12 days\n\n**Formula used:**\n\nWork = Number × Days × Efficiency\n\nFor same work: Total work by women = Total work by men\n\nCalculations:<",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6960c260ce3c19be69a92703",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A value that belongs to both Integer and Whole number types is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "-10"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "6/5"
+        },
+        {
+          "label": "4",
+          "text": "√8"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nA value that belongs to both Integer and Whole number types\n\n**Formula used:**\n\nWhole numbers = {0, 1, 2, 3, …}\n\nIntegers = {…, −2, −1, 0, 1, 2, …}\n\nCommon values = Non-negative integers\n\n**Calculations:**\n\n⇒ −10 is an integer but not a whole number\n\n⇒ 2 is a whole number and also an integer\n\n⇒ 6 ÷ 5 is a fraction, not an integer\n\n⇒ √8 is irrational, not an integer\n\n**∴ The correct answer is 2.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6960c26104d60f2e288a31cd",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A runner does half a track at 24 km/h and the other half at 6 km/h. What is the average pace?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11"
+        },
+        {
+          "label": "2",
+          "text": "9"
+        },
+        {
+          "label": "3",
+          "text": "9.6"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nSpeed for half the track = 24 km/h\n\nSpeed for the other half = 6 km/h\n\n**Formula Used:**\n\nAverage speed for two equal distances = (2 × Speed₁ × Speed₂) / (Speed₁ + Speed₂)\n\n**Calculation:**\n\n⇒ Average speed = (2 × 24 × 6) / (24 + 6)\n\n⇒ Average speed = (288) / 30\n\n⇒ Average speed = 9.6 km/h\n\n**∴ The correct answer is 9.6.**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6960c2619d33edecddcd2351",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A dome is placed inside a box with 12 cm sides. What is the dome's volume?",
+      "options": [
+        {
+          "label": "1",
+          "text": "452.4 cm3"
+        },
+        {
+          "label": "2",
+          "text": "433.9 cm3"
+        },
+        {
+          "label": "3",
+          "text": "402.1 cm3"
+        },
+        {
+          "label": "4",
+          "text": "417.4 cm3"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nSide of the box = 12 cm\n\n**Formula Used:**\n\nVolume of a sphere = (4/3) × π × r³\n\nVolume of a hemisphere = (1/2) × Volume of a sphere\n\n**Calculation:**\n\n⇒ Radius of the dome (hemisphere) = Side of the box / 2\n\n⇒ Radius = 12 / 2 = 6 cm\n\n⇒ Volume of a sphere = (4/3) × π × r³\n\n⇒ Volume of a sphere = (4/3) × 3.1416 × 6³\n\n⇒ Volume of a sphere = (4/3) × 3.1416 × 216\n\n⇒ Volume of a sphere = 904.78 cm³\n\n⇒ Volume of a hemisphere = (1/2) × 904.78\n\n⇒ Volume of a hemisphere = 452.4 cm³\n\n∴ The correct answer is 452.4 cm³.",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6960c261c5efa09ccdb77338",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A truck goes 27 km on 3.6 liters. What is the distance per liter?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7.25"
+        },
+        {
+          "label": "2",
+          "text": "7.5"
+        },
+        {
+          "label": "3",
+          "text": "7.75"
+        },
+        {
+          "label": "4",
+          "text": "8.0"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nDistance covered = 27 km\n\nFuel consumed = 3.6 liters\n\n**Formula Used:**\n\nDistance per liter = Distance covered / Fuel consumed\n\n**Calculation:**\n\n⇒ Distance per liter = 27 / 3.6\n\n⇒ Distance per liter = 7.5\n\n**∴ The correct answer is 7.5.**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6960c262d0eadd4b1f8252f0",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A project has three owners. A provided 40% of funds, B the rest. C joined later for 20% of the total profit. If profit was 500,000, find B's share?",
+      "options": [
+        {
+          "label": "1",
+          "text": "240000"
+        },
+        {
+          "label": "2",
+          "text": "200000"
+        },
+        {
+          "label": "3",
+          "text": "180000"
+        },
+        {
+          "label": "4",
+          "text": "220000"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nTotal profit = ₹500,000\n\nA invested = 40%\n\nB invested = 60%\n\nC’s share = 20% of total profit\n\n**Formula used:**\n\nRemaining profit = Total profit − C’s share\n\n**Calculations:**\n\nA : B = Capital ratio = 40 : 60 = 2 : 3\n\nB’s share = Remaining profit × (B’s ratio ÷ Total ratio)\n\n⇒ C’s share = 20% of 500,000 = 100,000\n\n⇒ Remaining profit = 500,000 − 100,000 = 400,000\n\n⇒ A : B = 2 : 3\n\n⇒ Total ratio = 2 + 3 = 5\n\n⇒ B’s share = 400,000 × 3 ÷ 5\n\n⇒ B’s share = 240,000\n\n**∴ B’s share of the profit is ₹240,000.**\n\n3c:T",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6960c2622e477f2c00314b40",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A bowl has pears and plums in a 4 : 3 ratio. After removing 16 pears and adding 12 plums, the ratio is 1 : 1. What was the original fruit count?",
+      "options": [
+        {
+          "label": "1",
+          "text": "174"
+        },
+        {
+          "label": "2",
+          "text": "140"
+        },
+        {
+          "label": "3",
+          "text": "196"
+        },
+        {
+          "label": "4",
+          "text": "212"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nPears : Plums = 4 : 3\n\nRemoved pears = 16\n\nAdded plums = 12\n\nNew ratio = 1 : 1\n\n**Formula used:**\n\nIf ratio = a : b, numbers = ax and bx\n\n**Calculations:**\n\n⇒ Let pears = 4x\n\n⇒ Let plums = 3x\n\n⇒ After change:\n\nPears = 4x − 16\n\nPlums = 3x + 12\n\n⇒ New ratio = 1 : 1\n\n⇒ 4x − 16 = 3x + 12\n\n⇒ 4x − 3x = 12 + 16\n\n⇒ x = 28\n\n⇒ Original pears = 4 × 28 = 112\n\n⇒ Original plums = 3 × 28 = 84\n\n⇒ Total fruits = 112 + 84 = 196\n\n**∴ The original fruit count was 196.**",
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "6960c26273494421a46bd714",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A triangular glass has an area equal to 45% of a 400 m² square glass. If its width at the base is 20 m, find the height?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "24"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nArea of square glass = 400 m²\n\nArea of triangular glass = 45% of 400 m²\n\nWidth of triangular glass at the base = 20 m\n\n**Formula Used:**\n\nArea of a triangle = (1/2) × base × height</p&g",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6960c263be6cd81d2d8c0da8",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Team X and Y can finish a job in 12 days. X is 25% faster than Y. What percentage of the job does X do alone?",
+      "options": [
+        {
+          "label": "1",
+          "text": "55.56%"
+        },
+        {
+          "label": "2",
+          "text": "60.6%"
+        },
+        {
+          "label": "3",
+          "text": "62.5%"
+        },
+        {
+          "label": "4",
+          "text": "66.66%"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nX and Y together can finish the job in 12 days\n\nX is 25% faster than Y\n\n**Formula used:**\n\nEfficiency ∝ Speed\n\nPercentage of work = (Individual work ÷ Total work) × 100\n\n**Calculations:**\n\nLet Y’s efficiency = 4 units\n\n⇒ X’s efficiency = 5 units\n\n⇒ Total efficiency = 4 + 5 = 9 units\n\n⇒ Portion of work done by X = 5 ÷ 9\n\n⇒ Percentage of work done by X = (5)/(9) times 100 \n\n⇒ Percentage of work done by X = 55.56%\n\n**∴ X does 55.56% of the total job.**",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6960c2633aabd7e85fc22483",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A trader pays 100,000 for stock, 10,000 for delivery, and 6,000 for space. Selling the stock for 126,000 results in what profit or loss %?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8.62% profit"
+        },
+        {
+          "label": "2",
+          "text": "8.62% loss"
+        },
+        {
+          "label": "3",
+          "text": "7.26% loss"
+        },
+        {
+          "label": "4",
+          "text": "7.26% profit"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nCost of stock = 100,000\n\nDelivery cost = 10,000\n\nSpace cost = 6,000\n\nSelling price = 126,000\n\n**Formula Used:**\n\nTotal cost = Cost of stock + Delivery cost + Space cost\n\nProfit or Loss (%) = [(Selling price - Total co",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6960c263377f2d7788e8a055",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Person A finishes a job in 8 days, Person B in 16 days. If they collaborate for 4 days, how much work remains?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20%"
+        },
+        {
+          "label": "2",
+          "text": "30%"
+        },
+        {
+          "label": "3",
+          "text": "25%"
+        },
+        {
+          "label": "4",
+          "text": "21%"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nA can complete the work in 8 days\n\nB can complete the work in 16 days\n\nThey work together for 4 days\n\n**Formula used:**\n\nWork = LCM of days\n\nEfficiency = Work ÷ Time\n\nRemaining work = Total work − Work done\n\n**Calculations:**\n\nLCM of 8 and 16 = 16\n\n⇒ Total work = 16 units\n\n⇒ A’s 1 day work = 16 ÷ 8 = 2 units\n\n⇒ B’s 1 day work = 16 ÷ 16 = 1 unit\n\n⇒ Together 1 day work = 2 + 1 = 3 units\n\n⇒ Work done in 4 days = 3 × 4 = 12 units\n\n⇒ Remaining work = 16 − 12 = 4 units\n\n⇒ Remaining work = (4)/(16) = (1)/(4) = 25%\n\n**∴ 25% of the work remains.**",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6960c2642f5c4112506fab5f",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A traveler goes the same distance in 3 segments at 60 km/h, 120 km/h, and 180 km/h. What is the overall average speed?",
+      "options": [
+        {
+          "label": "1",
+          "text": "104.1"
+        },
+        {
+          "label": "2",
+          "text": "120"
+        },
+        {
+          "label": "3",
+          "text": "98.18"
+        },
+        {
+          "label": "4",
+          "text": "112.5"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nSame distance is covered in 3 segments\n\nSpeed₁ = 60 km/h\n\nSpeed₂ = 120 km/h\n\nSpeed₃ = 180 km/h\n\n**Formula used:**\n\nAverage speed = Total distance ÷ Total time\n\n**Calculations:**\n\nLet distance of each segment = 1 unit\n\n⇒ Time₁ = 1 ÷ 60\n\n⇒ Time₂ = 1 ÷ 120\n\n⇒ Time₃ = 1 ÷ 180\n\n⇒ Total distance = 3 units\n\n⇒ Total time = 1/60 + 1/120 + 1/180\n\n⇒ LCM of 60, 120, 180 = 360\n\n⇒ Total time = (6 + 3 + 2) ÷ 360 = 11 ÷ 360\n\n⇒ Average speed = 3 ÷ (11 ÷ 360)\n\n⇒ Average speed = 1080 ÷ 11 = 98.18 km/h\n\n**∴ The overall average speed is 98.18 km/h.**\n\n43:T677,<",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6960c2645a41aa730ef44602",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A stand is a right triangular prism. The base has sides of 6 cm and 8 cm. The height is 20 cm. Find the ratio of the area of the largest side rectangle to the smallest?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3:2"
+        },
+        {
+          "label": "2",
+          "text": "5:3"
+        },
+        {
+          "label": "3",
+          "text": "2:1"
+        },
+        {
+          "label": "4",
+          "text": "5:4"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nBase of right triangle: sides = 6 cm, 8 cm\n\nHeight of prism = 20 cm\n\n**Formula Used:**\n\nArea of rectangle = length × breadth\n\nLargest side = hypotenuse of triangle = √(base² + height²)\n\nRatio of areas = area of largest rectangle / area of smallest rectangle\n\n**Calculation:**\n\n⇒ Hypotenuse = √(6² + 8²)\n\n⇒ Hypotenuse = √(36 + 64)\n\n⇒ Hypotenuse = √100\n\n⇒ Hypotenuse = 10 cm\n\n⇒ Area of largest rectangle = hypotenuse × height = 10 × 20\n\n⇒ Area of largest rectangle = 200 cm²\n\n⇒ Area of smallest rectangle = smaller side × height = 6 × 20\n\n⇒ Area of smallest rectangle = 120 cm²\n\n⇒ Ratio = 200 / 120\n\n⇒ Ratio = 5 : 3\n\n**∴ The correct answer is 5 : 3.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6960c264d0eadd4b1f825412",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a 160 litre blend of apple juice and tonic, the tonic is 60 litres. How much tonic must be added to reach a juice to tonic ratio of 1 : 2?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "100"
+        },
+        {
+          "label": "3",
+          "text": "80"
+        },
+        {
+          "label": "4",
+          "text": "140"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nTotal mixture = 160 litres\n\nTonic = 60 litres\n\nApple juice = 160 − 60 = 100 litres\n\nRequired ratio (Juice : Tonic) = 1 : 2\n\n**Formula used:**\n\nRequired tonic = 2 × Juice\n\nTonic to be added = Required tonic − Existing tonic\n\n**Calculations:**\n\n⇒ Juice = 100 litres\n\n⇒ Required tonic = 2 × 100 = 200 litres\n\n⇒ Existing tonic = 60 litres\n\n⇒ Tonic to be added = 200 − 60 = 140 litres\n\n**∴ 140 litres of tonic must be added.**",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6960c265ce3c19be69a92718",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sinA = 0.6 and A is less than 90 degrees, what is cosA?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.8"
+        },
+        {
+          "label": "2",
+          "text": "1.25"
+        },
+        {
+          "label": "3",
+          "text": "√2"
+        },
+        {
+          "label": "4",
+          "text": "0.5"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nsinA = 0.6\n\nA is less than 90 degrees\n\n**Formula Used:**\n\nsin²A + cos²A = 1\n\n**Calculation:**\n\n⇒ sin²A = 0.6² = 0.36\n\n⇒ cos²A = 1 - sin²A\n\n⇒ cos²A = 1 - 0.36 = 0.64\n\n⇒ cosA = √(0.64) = 0.8\n\n**∴ The correct answer is 0.8.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6960c2659d33edecddcd237c",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A path goes through (6, -2) with a gradient of 4; find the vertical intercept?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-26"
+        },
+        {
+          "label": "2",
+          "text": "24"
+        },
+        {
+          "label": "3",
+          "text": "28"
+        },
+        {
+          "label": "4",
+          "text": "-28"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nPoint on path: (6, -2)\n\nGradient: 4\n\n**Formula Used:**\n\nEquation of a straight line: y = mx + c\n\nm = gradient\n\nc = vertical intercept\n\n**Calculation:**\n\nSubstitute point (x = 6, y = -2) and gradient (m = 4) into y = mx + c:\n\n⇒ -2 = 4 × 6 + c\n\n⇒ -2 = 24 + c\n\n⇒ c = -2 - 24\n\n⇒ c = -26\n\n**∴ The correct answer is -26.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6960c2651c272080ae5fb00d",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two parallel paths are crossed by a bridge. If a pair of matching angles is created and one is 130 degrees, what is the other?",
+      "options": [
+        {
+          "label": "1",
+          "text": "50"
+        },
+        {
+          "label": "2",
+          "text": "90"
+        },
+        {
+          "label": "3",
+          "text": "130"
+        },
+        {
+          "label": "4",
+          "text": "180"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nTwo parallel paths are crossed by a bridge (transversal)\n\nA pair of corresponding (matching) angles is formed\n\nOne angle = 130°\n\n**Formula used:**\n\nCorresponding angles between parallel lines are equal\n\n**Calculations:**\n\n⇒ Given angle = 130°\n\n⇒ Corresponding (matching) angle = 130°\n\n**∴ The other angle is 130°.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6960c266f70684e7ea8eb5aa",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If triangle ABC is similar to triangle DEF, and angle A = 50, B = 60, what is angle E?",
+      "options": [
+        {
+          "label": "1",
+          "text": "40"
+        },
+        {
+          "label": "2",
+          "text": "50"
+        },
+        {
+          "label": "3",
+          "text": "60"
+        },
+        {
+          "label": "4",
+          "text": "30"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nTriangle ABC is similar to triangle DEF\n\nAngle A = 50°\n\nAngle B = 60°\n\n**Formula used:**\n\nIn similar triangles, corresponding angles are equal\n\n**Calculations:**\n\n⇒ From similarity: A ↔ D, B ↔ E, C ↔ F\n\n⇒ Angle E = Angle B\n\n⇒ Angle E = 60°\n\n**∴ Angle E is 60°.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6960c26673494421a46bd7f3",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given x = √20 + 4, find the value of x² - 8√20?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "16"
+        },
+        {
+          "label": "4",
+          "text": "36"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nx = √20 + 4\n\n**Formula used:**\n\n(a + b)² = a² + b² + 2ab\n\n**Calculations:**\n\n⇒ x² = (√20 + 4)²\n\n⇒ x² = (√20)² + 4² + 2 × &a\nmp;radic;20 × 4\n\n⇒ x² = 20 + 16 + 8√20\n\n⇒ x² = 36 + 8√20\n\n⇒ x² − 8√20 = 36 + 8√20 − 8√20\n\n⇒ x² − 8√20 = 36\n\n**∴ The required value is 36.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "6960c266605aa22e4431cb2a",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two cords in a loop are both 20 cm. If one cord is 8 cm from the middle, how far is the other?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nTwo chords are equal in length\n\nEach chord = 20 cm\n\nDistance of one chord from the centre = 8 cm\n\n**Formula used:**\n\nEqual chords of a circle are equidistant from the centre\n\n**Calculations:**\n\n⇒ Given both chords are equal\n\n⇒ Distance of both chords from the centre is the same\n\n⇒ Distance of the other chord from the centre = 8 cm\n\n**∴ The other chord is also 8 cm from the centre.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6960c2674370eacfbc1aa59d",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "From point P, two lines touch a circle at A and B. The line AB creates an angle theta at the center O. What is the angle APB between the lines in terms of theta?",
+      "options": [
+        {
+          "label": "1",
+          "text": "θ"
+        },
+        {
+          "label": "2",
+          "text": "2θ"
+        },
+        {
+          "label": "3",
+          "text": "180 - θ"
+        },
+        {
+          "label": "4",
+          "text": "90 - θ/2"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nFrom an external point P, two tangents PA and PB touch the circle at A and B\n\n∠AOB = θ, where O is the centre\n\n**Formula used:**\n\nAngle between two tangents from an external point = 180° − angle subtended at the centre\n\n**Calculations:**\n\n⇒ ∠APB = 180° − ∠AOB\n\n⇒ ∠APB = 180° − θ\n\n**∴ The angle APB = 180° − θ.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6960c267e8fa3983508f8a7d",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sin A = 10/26, determine sin⁴ A + cos⁴ A?",
+      "options": [
+        {
+          "label": "1",
+          "text": "625/1681"
+        },
+        {
+          "label": "2",
+          "text": "144/169"
+        },
+        {
+          "label": "3",
+          "text": "21361/28561"
+        },
+        {
+          "label": "4",
+          "text": "25634/28956"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nsin A = 10 ÷ 26 = 5 ÷ 13\n\n**Formula used:**\n\nsin⁴A + cos⁴A = (sin²A + cos²A)² − 2 sin²A cos²A\n\n**Calculations:**\n\n⇒ sin A = 5 ÷ 13\n\n⇒ cos A = 12 ÷ 13\n\n⇒ si",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6960c267c5efa09ccdb773f3",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Sum the following: 6.90 + 13.56 + 0.054?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20.514"
+        },
+        {
+          "label": "2",
+          "text": "11.734"
+        },
+        {
+          "label": "3",
+          "text": "9.536"
+        },
+        {
+          "label": "4",
+          "text": "23.572"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n6.90 + 13.56 + 0.054\n\n**Formula Used:**\n\nSum = Value 1 + Value 2 + Value 3\n\n**Calculation:**\n\n⇒ Sum = 6.90 + 13.56 + 0.054\n\n⇒ Sum = 20.514\n\n**∴ The correct answer is 20.514.**",
+      "tags": [
+        "Simplification"
+      ]
+    }
+  ]
+}

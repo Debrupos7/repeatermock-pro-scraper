@@ -1,0 +1,401 @@
+{
+  "test_id": "6a390ca92e5f28a6137d7de8",
+  "title": "CGL Tier II CT 02: Hardware",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:26:51.316734+00:00",
+  "questions": [
+    {
+      "qid": "5efef2e33342d40d0e2a6162",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "______ devices are internal or external devices that connect directly to a computer but do not contribute to the computer's primary function, such as computing.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Peripheral"
+        },
+        {
+          "label": "2",
+          "text": "Terminal"
+        },
+        {
+          "label": "3",
+          "text": "Session"
+        },
+        {
+          "label": "4",
+          "text": "Node"
+        }
+      ],
+      "correct": "1",
+      "solution": "Option **1** is the correct answer i.e. __**Peripheral devices**__.\n\n \n• **Except for CPU, motherboard, and Primary memory devices** all most all devices are the peripheral devices.\n \n• CPU performs computation, memory stores the data to be processed as well as the information, therefore these cannot be termed as peripheral devices.\n \n• Peripheral devices, the devices which don't perform any basic computation, can be further classified into three types:\n \n \n• **Input devices**:\n \n \n• These devices are used to give instructions and enter data into the computer.\n \n• For eg.: Keyboard, Mouse, Scanner, mic etc.\n \n \n \n• **Output Devices**:\n \n \n• These devices give the information after the data is processed.\n \n• For eg.: Monitor, Speakers, Plotter etc.\n \n \n \n• **Storage devices**:\n \n \n• These devices store data and information on them.\n \n• Eg.: flash drives,"
+    },
+    {
+      "qid": "63bec68611ab5c6e2c7a95f2",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which is today's most popular USB flash drive portable device?",
+      "options": [
+        {
+          "label": "1",
+          "text": "CD"
+        },
+        {
+          "label": "2",
+          "text": "DVD"
+        },
+        {
+          "label": "3",
+          "text": "Floppy Drive"
+        },
+        {
+          "label": "4",
+          "text": "Pen drive"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is **__pen drive__**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• A **USB flash drive** is also known as a **USB stick, USB thumb drive **or **pen drive**.\n \n• It is a **plug-and-play portable storage device** that uses **flash memory**.\n \n• It is **lightweight enough** to attach to a keychain.\n \n• [IMAGE: https://cdn.repeatermock.com/tb/f16c093159d05b7f8fbf464b4c41f7b322c2cee0256c4abbed8d417948f1ab18.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• A **compact disc **is a **portable storage medium** that can be used to record, store and play back audio, video and other data in digital form.\n \n• **DVD**, in full **digital video disc or digital versatile disc**, type of **optical disc used for data storage** and as a platform for multimedia.\n \n• A **floppy disk drive (FDD)**, or **floppy drive**, invented in **1967 by IBM**, is a** hardware device that reads data storage information**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f16c093159d05b7f8fbf464b4c41f7b322c2cee0256c4abbed8d417948f1ab18.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "61efd623e785b72d0cb90e81",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following is an input device used to verify the legitimacy or originality of paper documents, especially cheques?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Electronic card reader"
+        },
+        {
+          "label": "2",
+          "text": "Magnetic ink character recognition"
+        },
+        {
+          "label": "3",
+          "text": "Non-impact printer"
+        },
+        {
+          "label": "4",
+          "text": "Optical mark reader"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**Magnetic ink character recognition.**__\n\n__\n \n• **MICR** is used by the banking industry to ease the processing and clearance of cheques and other documents.\n \n• Numbers and characters found on the bottom of checks are printed using the Magnetic Ink.\n \n• When a document that contains this ink needs to be read, it passes through a machine, which magnetizes the ink and then translates the magnetic information into characters.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **A card **reader is a data input device that reads and writes​ data from a card-shaped storage medium.\n\n \n \n• A card reader is a hardware device.\n \n \n \n• **Non-impact printers **print the characters without using ribbons.\n \n \n• These printers print a complete page at a time so they are also called page printers.\n \n \n \n• **Optical Mark Reader (OMR)** can be considered as a Scanning device. \n \n \n• Optical mark recognition is the process of capturing human-marked data from document forms such as surveys and tests.\n \n• They are used to read questionnaires, multiple-choice examination papers in the form of shaded areas.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "622c3590dfb8abdc26a3a3f8",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What best describes how an inkjet printer prints an image?",
+      "options": [
+        {
+          "label": "1",
+          "text": "One dot at a time to form a character"
+        },
+        {
+          "label": "2",
+          "text": "Spray - printing a character"
+        },
+        {
+          "label": "3",
+          "text": "Striking an inked ribbon"
+        },
+        {
+          "label": "4",
+          "text": "Dropping ink onto the paper"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct __Spray - printing a character.__\n\n__ [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **Key Points__**__**Inkjet printer:**__\n\n \n• Inkjet printers each feature a print head containing thousands of tiny holes.\n \n• These tiny openings drop microscopic droplets of ink onto the paper in the printer at a speed.\n \n• Inkjet machines use a liquid ink produced either by either a coloured dye or a liquid that contains solid pigments in suspension.\n \n• As the print head moves horizontally in the machine, the paper passes through perpendicular to it.\n \n• As the page passes through, the individual holes in the print head are activated (usually by heat electrical current depending on the manufacturer) and a small drop of ink is pushed out onto the page. \n \n• This process if performed at high speed with thousands of droplets that form together to recreate the digital text or image that is being transferred onto the media.\n \n• To the naked eye, the overall image looks to be solid because the dots are so tiny.\n\n [IMAGE: https://cdn.repeatermock.com/tb/75419acddfe0f86d84f3000337a2d8016de85e0a5e296e99c0c62ce4a632a7e2.png]",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/75419acddfe0f86d84f3000337a2d8016de85e0a5e296e99c0c62ce4a632a7e2.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "66cb3647afd314f0be50714d",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Match the input or output device with their function.\n\n \n \n\n \n \n**Input/Output device**\n\n \n \n \n**Function**\n\n \n \n \n\n \n \n1)\n\n \n \n \nKeyboard \n\n \n \n \na.\n\n \n \n \nTo assist a visually impaired individual in entering data \n\n \n \n \n\n \n \n2)\n\n \n \n \nBraille \n\n \n \n \nb.\n\n \n \n \nTo make hard copy of a text file\n\n \n \n \n\n \n \n3)\n\n \n \n \n3DPrinter \n\n \n \n \nc.\n\n \n \n \nTo enter textual data\n\n \n \n \n\n \n \n4)\n\n \n \n \nPrinter\n\n \n \n \nd.\n\n \n \n \nTo build 3D models",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 - b, 2 - a, 3 - d, 4 - c"
+        },
+        {
+          "label": "2",
+          "text": "1 - d, 2 - c, 3 - b, 4 - a"
+        },
+        {
+          "label": "3",
+          "text": "1 - b, 2 - c, 3 - d, 4 - a"
+        },
+        {
+          "label": "4",
+          "text": "1 - c, 2 - a, 3 - d, 4 - b"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**option 4**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Keyboard** is used to enter textual data.\n \n• **Braille** is used to assist a visually impaired individual in entering data.\n \n• **3D Printer** is used to build 3D models.\n \n• **Printer** is used to make a hard copy of a text file.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Input devices** like the keyboard and Braille assist in data entry.\n \n• **Output devices** like the 3D printer and printer help in producing physical forms of digital data.\n \n• Understanding the function of each device helps in effectively utilizing them for their intended purpose.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "62ec82b229c28f1aace26d72",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following printers are non-impact printers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Laser Printer and Drum Printer"
+        },
+        {
+          "label": "2",
+          "text": "Bubble Jet Printer and Daisy Wheel Printer"
+        },
+        {
+          "label": "3",
+          "text": "Inkjet Printers and Dot Matrix Printers"
+        },
+        {
+          "label": "4",
+          "text": "Laser Printers and Inkjet Printers"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**Laser Printers and Inkjet Printers.**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Non-Impact Printers:**\n\n \n \n• These printers **do not allow direct contact between ribbon and** **paper.** Use laser, electrophotographic, electrostatic, chemical, or inkjet technology.\n \n• Examples: **Laser Printers**,** Inkjet Printers**, Thermal printers, **Bubblejet Printers**.\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• ** Impact Printers:**\n\n \n \n• These printers **allow direct contact between ribbon and paper**.\n \n• In these printers, printing is done by character dye.\n \n• Examples: **Dot Matrix Printers**, **Daisy Wheel Printers**, **Drum** **Printers**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "62eb9fb4a5cb544af35728e0",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Identify the true/false from the following statements.\n\na) Optical Mouse – It senses light to detect motion.\n\nb) Track Ball - This is a text scanning device.\n\nc) EPROM - Its content can be erased only once.",
+      "options": [
+        {
+          "label": "1",
+          "text": "a - true, b - false, c - false"
+        },
+        {
+          "label": "2",
+          "text": "a - false, b - true, c - true"
+        },
+        {
+          "label": "3",
+          "text": "a - true, b - true, c - false"
+        },
+        {
+          "label": "4",
+          "text": "a - true, b - false, c - true"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is a - __**true, b - false, c - false**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• **Optical Mouse**\n\n \n \n• It is a computer mouse that uses a light source, typically a light-emitting diode (LED), and a light detector, such as an array of photodiodes,** to detect movement relative to a surface**.\n \n• It uses special-purpose image processing chips, as the mouse takes over 1,000 images/ps below the surface level to detect movement through reflected light changes.\n \n \n \n• **Track Ball**\n \n \n• ​It is an input device used to enter motion data into computers or other electronic devices.\n \n• It is designed with a moveable ball on the top, which can be rolled in any direction.\n \n• **It is not a text scanning device.**\n \n \n \n• **EPROM**\n \n \n• ​It is an erasable programmable read-only memory.\n \n• It **can be erased a limited number of times** because excessive erasing damages the silicon dioxide layer and it makes the use of chip unreliable..\n \n• It is a non-volatile memory that means its data will be retained even when the power is turned off.\n \n• Once programmed, an EPROM can be erased by exposing it to strong ultraviolet light source (such as from a mercury-vapor lamp).\n \n \n\n5a",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "60b75a3a57eb5e805e4a6f52",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Match the following:\n\n \n \n\n \n \n**List – A**\n\n \n \n \n**List – B**\n\n \n \n \n\n \n \n(i) Dot Matrix Printer\n\n \n \n \n(a) Page Printer\n\n \n \n \n\n \n \n(ii) Chain Printer\n\n \n \n \n(b) Line Printer\n\n \n \n \n\n \n \n(iii) Laser Printer\n\n \n \n \n(c) Character Printer",
+      "options": [
+        {
+          "label": "1",
+          "text": "(i) - (c), (ii) - (a), (iii) - (b)"
+        },
+        {
+          "label": "2",
+          "text": "(i) - (b), (ii) - (a), (iii) - (c)"
+        },
+        {
+          "label": "3",
+          "text": "(i) - (a), (ii) - (c), (iii) - (b)"
+        },
+        {
+          "label": "4",
+          "text": "(i) - (c), (ii) - (b), (iii) - (a)"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is (i) - (c), (ii) - (b), (iii) - (a)\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• Dot Matrix Printer - A printer that creates each character from an array of dots that are usually formed by transferring ink by mechanical impact. It may be a serial printer,",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "5f19a8b0833caa0d0cc6f88d",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Computer mouse was first invented by Douglas Engelbart and it further developed by which company ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Xerox Parc"
+        },
+        {
+          "label": "2",
+          "text": "IBM"
+        },
+        {
+          "label": "3",
+          "text": "Epson"
+        },
+        {
+          "label": "4",
+          "text": "Hidden Reflex"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is **__Xerox Parc__.**\n\n**__ [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] Key Points__**\n\n__\n \n• The computer mouse was invented by **Douglas Engelbart.**\n\n \n \n• The **mouse is a pointing device** used in computers.\n \n• A **computer mouse **was** first developed** by the **Xerox Parc** company.\n \n• The **first mouse** was marketed by **Apple.**\n \n• **Mickey** is the **unit used to represent the speed of a mouse**\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• The** first electronic printer** was developed by the** Japanese company Epson in 1968**.\n \n• The** first web browser **developed in** India **was created by the **Hidden reflex company**.\n \n• **IBM** is a **computer hardware, middleware, and software production company.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "68821d57ac62a50cb09a871f",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which option correctly explains the fundamental difference between input and output devices in a computer system?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Input devices enable users to send data into the system, while output devices communicate processed information back to the user."
+        },
+        {
+          "label": "2",
+          "text": "Input devices run pre-loaded instructions from memory, whereas output devices collect environmental data."
+        },
+        {
+          "label": "3",
+          "text": "Input devices change user inputs into digital format, while output devices permanently save system data."
+        },
+        {
+          "label": "4",
+          "text": "Input devices directly interact with the CPU, while output devices work independently without CPU involvement."
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is option 1\",\"\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• **Input devices** are hardware components used to send raw data or user commands into a computer system for processing. Examples include keyboards, mice, and microphones.\n \n• **Output devices** are hardware components that display, project, or otherwise communicate the processed information from the computer to the user. Examples include monitors, printers, and speakers.\n \n• Input devices serve as a bridge to collect data from the user or environment, while output devices deliver the results of data processing back to the user.\n \n• Keyboards and scanners are input devices that convert analog or physical user input into digital signals, whereas output devices like monitors display digital information in a human-readable format.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] Additional Information__\n\n \n• **Input Devices:**\n\n \n \n• Examples: Keyboard, mouse, scanner, joystick, microphone.\n \n• Purpose: Collect raw data or commands from the user and send them to the CPU for processing.\n \n• They often use interfaces like USB, Bluetooth, or wireless connections to connect to the system.\n \n \n \n• **Output Devices:**\n \n \n• Examples: Monitor, printer, speakers, projectors, headphones.\n \n• Purpose: Convert processed digital data into a human-perceivable form, such as images, sound, or text.\n \n• Output devices often rely on graphic processing units (GPUs) or audio processors for rendering data.\n \n \n \n• **Input/Output (I/O) Devices:**\n \n \n• Some devices, like touchscreens, function as both input and output devices.\n \n• These devices can display information (output) and allow user interaction (input) simultaneously.\n \n \n \n• **Communication Between Devices:**\n \n \n• Input devices send signals to the CPU for processing, while output devices receive processed data from the CPU.\n \n• The entire process is managed through buses, drivers, and system software.\n \n \n\n\"",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

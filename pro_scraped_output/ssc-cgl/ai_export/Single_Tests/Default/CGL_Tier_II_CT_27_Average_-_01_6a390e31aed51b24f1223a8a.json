@@ -1,0 +1,354 @@
+{
+  "test_id": "6a390e31aed51b24f1223a8a",
+  "title": "CGL Tier II CT 27: Average - 01",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:25:28.661805+00:00",
+  "questions": [
+    {
+      "qid": "622c6999f6b8c4257d04da29",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find P, if the average of 15, 26, 32, 41, P, 72 is 40 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "56"
+        },
+        {
+          "label": "2",
+          "text": "52"
+        },
+        {
+          "label": "3",
+          "text": "54"
+        },
+        {
+          "label": "4",
+          "text": "53"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nTotal numbers (n) = 6, Average = 40\n\nTotal sum required = 40 × 6 = 240\n\nSum of given numbers = 15 + 26 + 32 + 41 + 72 = 186\n\nValue of P = 240 − 186 = 54\n\n**∴ The correct answer is 54.**\n\n**__Alternate Method__**\n\nGiven: Observations = {15, 26, 32, 41, P, 72} | Total Observations = 6 | Average = 40\n\nFormula Used: Average = (Sum of all observations) ÷ (Total number of observations)\n\n \n• \n \n 15\n \n 26\n \n 32\n \n 41\n \n P=54\n \n 72\n \n• \n Avg = 40\n\n⇒ Average = (15 + 26 + 32 + 41 + P + 72) ÷ 6\n\n⇒ 40 = (186 + P) ÷ 6\n\n⇒ 40 × 6 = 186 + P\n\n⇒ 240 = 186 + P\n\n⇒ P = 240 − 186\n\n⇒ P = 54\n\n**∴ The correct answer is 54.**\n\n**__Additional Information__**\n\nArithmetic Mean (Average)\n\nThe average is the central value of a set of numbers, calculated by Sum ÷ n.\n\nSum of Deviations\n\nThe algebraic sum of deviations of all observations from their arithmetic mean is always zero (∑(xᵢ − Avg) = 0).\n\nWeighted Average\n\nWhen values have different importance, Weighted Avg = ∑(Value × Weight) ÷ ∑Weights.</p"
+    },
+    {
+      "qid": "625bacb39b86a7bc0104d859",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The average of 25 numbers is 54. The average of the first 13 numbers and that of the last 13 numbers is 52.8 and 62.2, respectively. If the 13th number is excluded, then what is the average of the remaining numbers (correct to one decimal place)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "50.2"
+        },
+        {
+          "label": "2",
+          "text": "52.9"
+        },
+        {
+          "label": "3",
+          "text": "58.7"
+        },
+        {
+          "label": "4",
+          "text": "48.7"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nThe average of twenty-five numbers is 54\n\nThe average of the first 13 numbers is 52.8\n\nThe average of the last 13 numbers is 62.2\n\n**Concept used:**\n\nAverage = sum of the observation/Number of the observation\n\n**Calculation:**\n\nSum of the 25 numbers = 54 × 25 = 1350\n\nSum of the first 13 numbers"
+    },
+    {
+      "qid": "623b26d7c5bda3f84d935859",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "There are six numbers. The sixth number is 33(1)/(3)\\% greater than the average of the first five numbers. If the average of all the six numbers is 34(5)/(6), then find the sixth number.",
+      "options": [
+        {
+          "label": "1",
+          "text": "39"
+        },
+        {
+          "label": "2",
+          "text": "45"
+        },
+        {
+          "label": "3",
+          "text": "42"
+        },
+        {
+          "label": "4",
+          "text": "44"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nAverage = 34(5)/(6)\n\n**Concept used:**\n\nAverage = Sum of elements/No. of elements\n\n**Calculation:**\n\n33(1)/(3)\\% = 1/3\n\nLet the average of 1st five numbers be 3x\n\nSo, the sixth number = 3x + 3x × 1/3 = 4x\n\nAccording to the question,\n\n3x × 5 + 4x = 34(5)/(6) × 6\n\n⇒ 15x + 4x = (209/6) × 6\n\n⇒ 19x = 209\n\n⇒ x = 11\n\nSo, sixth number is 11 × 4 = 44\n\n**∴ Required answer is 44**"
+    },
+    {
+      "qid": "63656fd8e4b1ec70c1bd2422",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the average of the first five positive multiples of 5?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "75"
+        },
+        {
+          "label": "4",
+          "text": "80"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nFive positive multiples of 5\n\n**Concept Used:**\n\nAverage = Sum of all observations / Total number of observations\n\n**Calculation:**\n\n⇒ First five positive multiples of 5 = 5, 10, 15, 20, and 25\n\n⇒ Sum of first five multiples of 5 = 5 + 10 + 15 + 20 + 25 = 75\n\n⇒ Average of first five positive multiples of 5 = 75 ÷ 5 = 15\n\n**Therefore, the average of the first five positive multiples of 5 is 15.**"
+    },
+    {
+      "qid": "6266cb500b9e48c991121aff",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the average of eight smallest even natural numbers which are NOT divisible by 3?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "11"
+        },
+        {
+          "label": "3",
+          "text": "9"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe first 8 even natural numbers not divisible by 3 are: 2, 4, 8, 10, 14, 16, 20, 22.\n\nThe consecutive gaps between them are 2, 4, 2, 4, 2, 4, 2, which forms a perfectly symmetric sequence.\n\nFor any symmetrically distributed series, Average = (First Term + Last Term) ÷ 2\n\n⇒ Average = (2 + 22) ÷ 2 = 12\n\n**∴ The correct answer is 12.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nWe need to find the average of the first eight even natural numbers which are not divisible by 3.\n\n**Formula Used:**\n\nAverage = (Sum of all observations) ÷ (Total number of observations)\n\n \n• \n \n \n• \n \n Avg = 12\n \n \n\n +2\n \n \n\n +4\n \n \n\n +2\n \n \n\n +4\n \n \n\n +2\n \n \n\n +4\n \n \n\n +2\n \n \n 2\n \n \n 4\n \n \n 8\n \n \n 10\n \n \n 14\n \n \n 16\n \n \n 20\n \n \n 22\n \n Symmetric sequence → Average is exactly at the midpoint\n\n**Calculations:**\n\n⇒ The series of even natural numbers is: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24...\n\n⇒ By removing the numbers divisible by 3 (i.e., 6, 12, 18...), we get the required series.\n\n⇒ The first 8 numbers are: 2, 4, 8, 10, 14, 16, 20, 22\n\n⇒ Sum = 2 + 4 + 8 + 10 + 14 + 16 + 20 + 22\n\n⇒ Sum = 96\n\n⇒ Average = 96 ÷ 8 = 12\n\n**∴ The correct answer is 12.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAverage of an Arithmetic Progression\n\nFor any sequence in an Arithmetic Progression, the average is simply the middle term or calculated as (First Term + Last Term) ÷ 2.\n\nAverage of Symmetric Sequences\n\nIf a sequence has symmetrically distributed gaps reading exactly the same from left-to-right as right-to-left, its average is also the mean of any two equidistant terms from the ends.\n\nSum of First 'n' Even Numbers\n\nThe sum of the first 'n' consecutive even numbers is given by n(n + 1), making their direct average equal to (n + 1).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6306f7ca74f9f37b1e9dd537",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If the average age of Ram, Raman, and Rohan is 23 years and the average age of Raman and Rohan is 27 years, then find Ram's age before 5 years.",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 years"
+        },
+        {
+          "label": "2",
+          "text": "15 years"
+        },
+        {
+          "label": "3",
+          "text": "20 years"
+        },
+        {
+          "label": "4",
+          "text": "25 years"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nThe average age of Ram, Raman, and Rohan = 23 years\n\nThe average age of Raman and Rohan = 27 years\n\n**Concept used:**\n\nAverage = Sum of all observation/total number of observation\n\n**Calculation:**\n\nSum of the total age of Ram, Raman, and Rohan = 23 × 3 = 69 years\n\nSum of the total age of Raman and Rohan = 27 × 2 = 54 years\n\nAge of Ram = 69 - 54 = 15 years\n\n**∴ Ram's age before 5 years = 15 - 5 = 10 years **"
+    },
+    {
+      "qid": "675800a2a3836b9a822ced67",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The average weight of a family of five members (in kg) whose weights are 40 kg, 49 kg, 56 kg, 67 kg and 35 kg is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "48.4"
+        },
+        {
+          "label": "2",
+          "text": "49.4"
+        },
+        {
+          "label": "3",
+          "text": "51.4"
+        },
+        {
+          "label": "4",
+          "text": "50.4"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nWeights of family members: 40 kg, 49 kg, 56 kg, 67 kg, 35 kg\n\n**Formula used:**\n\nAverage weight = dfrac{{Sum of all weights}}{{Number of members}}\n\n**Calculation:**\n\nSum of weights = 40 + 49 + 56 + 67 + 35\n\n⇒ Sum = 247\n\nNumber of members = 5\n\n⇒ Average weight = dfrac{247}{5}\n\n⇒ Average weight = 49.4 kg\n\n**∴ The correct answer is option (2).**"
+    },
+    {
+      "qid": "6239809a3ebc3652278c6d6a",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "There are 100 students in a class, out of which 70% are girls and others are boys. The average score of girls in a test is 20% more than that of boys. If the average score of all the students is 57, then what is the average score of boys?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60"
+        },
+        {
+          "label": "2",
+          "text": "75"
+        },
+        {
+          "label": "3",
+          "text": "50"
+        },
+        {
+          "label": "4",
+          "text": "45"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nRatio of **Girls** to **Boys** = 70 : 30 = 7 : 3.\n\nRatio of their average scores = 120% : 100% = 6 : 5.\n\nWeighted average units = (7 × 6 + 3 × 5) ÷ (7 + 3) = (42 + 15) ÷ 10 = 5.7 units.\n\nGiven 5.7 units = 57 ⇒ 1 unit = 10.\n\nAverage score of boys = 5 units = 5 × 10 = 50.\n\n**∴ The correct answer is 50.**\n\n**__Alternate Method__**\n\n**Given:** Total students = 100, **Girls** = 70%, **Boys** = 30%, Total Average = 57.\n\n**Formula Used:** Total Score = Number of Students × Average Score\n\n [IMAGE: https://cdn.repeatermock.com/tb/c884f44a904f4f2ab128e6f1409623d5719bb27c779e7baab3d187fd3c1f0460.png] \n\n⇒ Total **Girls** = 70 and Total **Boys** = 30\n\n⇒ Let the **Average score of boys** = x\n\n⇒ **Average score of girls** = x + 20% of x = 1.2x\n\n⇒ Total class score = (70 × 1.2x) + (30 × x)\n\n⇒ 100 × 57 = 84x + 30x\n\n⇒ 5700 = 114x\n\n⇒ x = 5700 ÷ 114\n\n⇒ x = 50\n\n**∴ The correct answer is 50.**\n\n**__Additional Information__**\n\nWeighted Average Formula\n\nThe combined average of two groups is calculated as (n₁a₁ + n₂a₂) ÷ (n₁ + n₂), where n is the quantity and a is the average.\n\nPercentage Increase\n\nIf a value increases by r%, the new value is Base × (100 + r) ÷ 100. Here, 20% more means a multiplier of 1.2.\n\nMixture and Alligation\n\nThe ratio of quantities is inversely proportional to the deviations of their individual averages from the mean average.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c884f44a904f4f2ab128e6f1409623d5719bb27c779e7baab3d187fd3c1f0460.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6249aef39e0ad3f6e3ca67f9",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The average of 26 numbers is 54.5. The average of the first 15 numbers is 58.6 and that of the last 12 numbers is 52. If the 15th number is excluded, the average of the remaining numbers will be:",
+      "options": [
+        {
+          "label": "1",
+          "text": "57.28"
+        },
+        {
+          "label": "2",
+          "text": "49.24"
+        },
+        {
+          "label": "3",
+          "text": "53.24"
+        },
+        {
+          "label": "4",
+          "text": "50.56"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\nThe average of 26 numbers = 54.5\n\nThe average of the first 15 numbers = 58.6\n\nThe average of the last 12 numbers = 52\n\nConcept used:\n\nTotal = Average × Number of entities\n\nCalculation:\n\nAccording to the question,\n\n1st + 2nd + 3rd + .... + 15th = 58.6 × 15\n\n⇒ 1st + 2nd + 3rd + .... + 15th = 879 ....(1)\n\n26th + 25th + 24th + .... + 15th = 52 × 12\n\n⇒ 26th + 25th + 24th + .... + 15th = 624 ....(2)\n\n1st + 2nd + 3rd + .... + 15th + .... + 24th + 25th + 26th = 54.5 × 26\n\n⇒ 1st + 2nd + 3rd + .... + 15th + .... + 24th + 25th + 26th = 1417 ....(3)\n\nAdding equation(1) and equation(2),\n\n1st + 2nd + 3rd + ... + 15th + 15th + .... + 24th + 25th + 26th = 1503\n\n⇒ 1st + 2nd + 3rd + ... + 15th + 15th + .... + 24th + 25th + 26th = 1503\n\n⇒ (1st + 2nd + 3rd + ... + 15th + .... + 24th + 25th + 26th) + 15th = 1503\n\n⇒ 1417 + 15th = 1503 (From 3)\n\n⇒ 15th = 1503 - 1417\n\n⇒ 15th = 86\n\nNow, the average of the remaining term = (1417 - 86)/(26 - 1)\n\n⇒ 1331/25 = 53.24\n\n**Hence, the average of numbers excluding 15th number is 53.24**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] __Alternate Method__**\n\nThe average of 26 numbers is 54.5\n\n The average of the first 15 numbers is 58.6, \n\nWhich is (58.6 - 54.5) = 4.1 more than the total average,\n\nSo, the 1st, 15 numbers contributes (4.1 × 15) = 61.5 more\n\nSimilarly,\n\nFor the next 12 numbers (54.5 - 52) = 2.5 less than total average,\n\nSo, these 12 numbers contribute (2.5 × 12) = 30 less\n\nNow, the 15th number will be 54.5 + (61.5 - 30) = 86,\n\nThe 15th number take out (86 - 54.5) = 31.5 more than the total\n\naverage, the loss of 31.5 will be distributed among the remaining\n\n25 numbers,\n\nSo, the average of the remaining numbers is \n\n⇒ 54.5- ( 31.5/25 ) \n\n⇒ 54.5 - 1.26 = 53.24\n\nHence, the average of numbers excluding 15th number is 53.24",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "64cb64468f783dec567a583c",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Consecutive",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The average of all prime numbers between 32 and 69 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "52.5"
+        },
+        {
+          "label": "2",
+          "text": "60"
+        },
+        {
+          "label": "3",
+          "text": "51"
+        },
+        {
+          "label": "4",
+          "text": "56.5"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nList all prime numbers between 32 and 69: 37, 41, 43, 47, 53, 59, 61, 67.\n\nTotal count of prime numbers (n) = 8.\n\nSum using pairing: (37+67) + (41+61) + (43+59) + (47+53) = 104 + 102 + 102 + 100 = 408.\n\nAverage = Total Sum ÷ Count = 408 ÷ 8 = 51.\n\n**∴ The correct answer is 51.**\n\n**__Alternate Method__**\n\n**Given:** Prime numbers between 32 and 69.\n\n**Formula:** Average = (Sum of all observations) ÷ (Total number of observations)\n\n [IMAGE: https://cdn.repeatermock.com/tb/55520a030b2ded78bd5df95f5390ea89abb694c7c0bbbef92e2cf5dcaf3d97a9.png] \n\n⇒ Prime numbers between 32 and 69 are: 37, 41, 43, 47, 53, 59, 61, 67\n\n⇒ Sum of primes = 37 + 41 + 43 + 47 + 53 + 59 + 61 + 67\n\n⇒ Sum = 408\n\n⇒ Total count of prime numbers = 8\n\n⇒ Average = 408 ÷ 8\n\n⇒ Average = 51\n\n**∴ The correct answer is 51.**\n\n**__Additional Information__**\n\nPrime Numbers\n\nA prime number is a natural number greater than 1 that has exactly two divisors: 1 and itself. The only even prime number is 2.\n\nArithmetic Mean\n\nFor any set of numbers, Average = (Σx) ÷ n, where Σx is the sum of terms and n is the total number of terms.\n\nChecking for Primes\n\nTo verify if a number N is prime, check its divisibility by prime numbers up to √N. If none divide N, then N is prime.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/55520a030b2ded78bd5df95f5390ea89abb694c7c0bbbef92e2cf5dcaf3d97a9.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Consecutive"
+      ]
+    }
+  ]
+}

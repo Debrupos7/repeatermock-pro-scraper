@@ -1,0 +1,383 @@
+{
+  "test_id": "6a390d6b532bec1b6c56c391",
+  "title": "CGL Tier II CT 27: Chemistry - 01",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "science",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:12:41.201684+00:00",
+  "questions": [
+    {
+      "qid": "622598a77c5697d5a0432e15",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Basic Concepts of Chemistry",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Industries like rubber, automobile and petrochemicals release harmful gases responsible for acid rains.\n\nOxides of which elements make up these gases?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Hydrogen, Carbon"
+        },
+        {
+          "label": "2",
+          "text": "Carbon, Nitrogen"
+        },
+        {
+          "label": "3",
+          "text": "Nitrogen, Sulphur"
+        },
+        {
+          "label": "4",
+          "text": "Sulphur, Phosphorus"
+        }
+      ],
+      "correct": "3",
+      "solution": "**__Explanation__**:\n\n**Gases:**\n\n \n• Gases have expanding nature and completely fill their containers.\n \n• Gases take the shape of their containers.\n \n• They are compressible by nature.\n \n• Mixtures of gases are always homogeneous.\n \n• They have low density.\n \n• Gases can be mixed easily.\n \n• Most of the oxides are gaseous in nature.\n \n• Hydrogen, carbon. sulphur, nitrogen, phosphorus are found in the gaseous state in nature.\n<",
+      "tags": [
+        "Basic Concepts of Chemistry"
+      ]
+    },
+    {
+      "qid": "65b09637a46c3247a1ba0288",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Chemistry in Everyday Life",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "X and Y are thick, black liquids which can be used for metalling the roads. X is derived from petroleum and Y is derived from coal. Which of the following can X and Y respectively be?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Coal Tar, Bitumen"
+        },
+        {
+          "label": "2",
+          "text": "Bitumen, Coal Tar"
+        },
+        {
+          "label": "3",
+          "text": "Coal Tar, Charcoal"
+        },
+        {
+          "label": "4",
+          "text": "Charcoal, Bitumen"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is Bitumen, Coal Tar\n\n**__Concept:-__**\n\n__\n \n• **Source and Derivation: **Identifying substances based on their source—whether they are derived from petroleum or coal—is crucial. This differentiation helps in understanding their properties, uses, and how they are processed.\n \n• **Physical State:** Recognizing the physical state (solid, liquid, gas) of a substance and its relevance to its described use, such as in road construction where a liquid or viscous material is required.\n \n• **Industrial Application: **Knowledge of how certain materials are used in industry, particularly in construction and manufacturing, aids in identifying substances based on their described uses.\n \n• **Byproducts of Processes: **Understanding the byproducts of industrial processes (like the coking of coal or the distillation of crude oil) allows us to connect substances with their sources.\n\n**Explanation:-__**\n\n__\n \n• **X and Y are described as thick, black liquids used for metalling roads, indicating their use as binding agents in road construction for asphalt and similar applications.**\n \n• Petroleum and Coal Derivation: The description specifies that X is derived from petroleum and Y from coal. This clue is essential for identifying the substances correctly.\n \n• **Bitumen is a viscous liquid commonly used in road construction and waterproofing**. It is refined from crude oil, making it a petroleum-derived product. Given its properties and applications, Bitumen fits the description of X.\n \n• **Coal Tar is a byproduct of the coal coking process**, used in producing coke or gasified to produce coal gas. It is a thick, black liquid, used in industrial and medical applications, and also in sealing roads. Coal Tar matches the description of Y, as it is derived from coal.\n \n• **Charcoal is not a liquid; it's a porous form of carbon obtained from the carbonization of wood or other organic materials. Therefore, any option listing charcoal as either X or Y can be disregarded.**\n\n**Conclusion:-__**\n\nGiven the descriptions and the process of elimination based on the provided concepts, the correct answer is **Bitumen, Coal Tar**",
+      "tags": [
+        "Chemistry in Everyday Life"
+      ]
+    },
+    {
+      "qid": "623b1eece0ad5c4c38dbe899",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Atomic Structure, Structure of Atom",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "An element 'X' having atomic number 20 combines chemically with another element 'Y' having atomic number 8 to form a compound 'Z'. Which of the following statements are correct about the compound 'Z'?\n\n(i) The formula of 'Z' is XY₂. \n\n(ii) Melting point of 'Z' is very high. \n\n(iii) Molten form of 'Z' does not conduct electricity. \n\n(iv) 'Z' is soluble in water but insoluble in petrol.",
+      "options": [
+        {
+          "label": "1",
+          "text": "(i), (ii) and (iv)"
+        },
+        {
+          "label": "2",
+          "text": "(i), (ii) and (iii)"
+        },
+        {
+          "label": "3",
+          "text": "(ii) and (iv)"
+        },
+        {
+          "label": "4",
+          "text": "(ii) and (iii)"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is **statements (ii) and (iv).**\n\n**__Concept__:**\n\n**Atomic number:** It is the number of electrons or protons found in an atom.\n\n**Electronic configuration: **\n\n \n• The arrangement of electrons in different shells around the nucleus. \n \n• There are 7 shells K, L, M, N, and so on. \n \n• K shell can accommodate only 2 electrons while others can accommodate 8 electrons. \n\nIonic compounds: </stron",
+      "tags": [
+        "Atomic Structure",
+        "Structure of Atom"
+      ]
+    },
+    {
+      "qid": "635407ece0419346f43cc757",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Important Compounds and Its Uses",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following chemicals can be applied to get relief from pain due to bee-sting?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Na₂CO₃"
+        },
+        {
+          "label": "2",
+          "text": "CaSO₄"
+        },
+        {
+          "label": "3",
+          "text": "NaHCO₃"
+        },
+        {
+          "label": "4",
+          "text": "CaCO₃"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**NaHCO3**__. [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• **Sodium Bi-carbonate:**\n\n \n \n• **Its chemical composition is NaHCO₃ .**\n \n• **It **has** alkaline properties** that can neutralize the **acidic venom **of the** bee sting** and provide relief from pain.\n \n• Bee stings can cause **swelling, redness, and pain.**\n \n• It is important to remove the stinger immediately and **clean the area** with soap and water.\n \n• **NaHCO₃** is commonly found in **baking soda** and can be mixed with water to create a paste to apply to the sting.\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n__\n \n• **Sodium Carbonate:**\n\n \n \n• **Its chemical composition is Na2CO3 **\n \n• The disodium salt of **carbonic acid** with **alkalinizing properties** is **sodium carbonate.**\n \n• Sodium carbonate dissolves in water to produce** sodium hydroxide **and carbonic acid.\n \n• Sodium hydroxide functions as an **antacid **because it is a strong base that neutralizes stomach acid.\n \n \n \n• **Calcium Sulphate:**\n \n \n• **Its chemical composition is CaSO4 **\n \n• The inorganic chemical with the formula CaSO₄ and its associated hydrates is **calcium sulfate**.\n \n• It is utilized as a **desiccant** when it is in the anhydrous form, or γ-anhydrite.\n \n \n \n• **Calcium Carbonate:**\n \n \n• **Its chemical formula is CaCO3**\n \n• As the minerals **calcite and aragonite, calcium carbonate** is a common material found in rocks.\n \n• It is most commonly found in **chalk and limestone, eggshells, gastropod shells, shellfish skeletons, and pearls. **\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png] **Important Points__** Some Common Names of Chemical Compounds:\n\n \n \n\n Common Names\n Chemical Compounds \n \n \n\n Baking Soda\n \n \nSodium Bicarbonate or Sodium Hydrogen Carbonate(NaHCO3)\n\n \n \n \n\n \n \nBleaching Powder\n\n \n \n \nCalcium Oxychloride (CaOCl2)\n\n \n \n \n\n Borax\n Sodium Tetraborate Decahydrate or Sodium Borate (Na2[B4O5(OH)4].8H2O)\n \n \n\n \n \nDry Ice\n\n \n \n \nSolid Carbon Dioxide (CO2)\n\n \n \n \n\n \n \nGreen Vitriol\n\n \n \n \nFerrous Sulphate Heptahydrate (FeSO4.7H2O)\n\n \n \n \n\n \n \nGypsum\n\n \n \n \nCalcium Sulphate Dihydrate (CaSO4.2H2O)\n\n \n \n \n\n \n \nLaughing Gas\n\n \n \n \nDinitrogen Monoxide or Nitrous Oxide (N2O)\n\n \n \n \n\n Quick Lime or Burnt Lime\n \n \nCalcium Oxide (CaO)\n\n \n \n \n\n \n \nMilk of Magnesia\n\n \n \n \nMagnesium Hydroxide (Mg(OH)2)",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Important Compounds and Its Uses"
+      ]
+    },
+    {
+      "qid": "6831fa5c6605156b7b67da0d",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Basic Concepts of Chemistry",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which one of the following statements is NOT correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Half mole of nitrogen gas is measured 11·2 litre at STP"
+        },
+        {
+          "label": "2",
+          "text": "17 gram of ammonia gas contains 6·022 × 10²³ molecules at STP"
+        },
+        {
+          "label": "3",
+          "text": "22·4 litre of CO₂ gas at STP contains 44 gram of molecules"
+        },
+        {
+          "label": "4",
+          "text": "4 gram of hydrogen gas contains 6·022 × 10²³ molecules"
+        }
+      ],
+      "correct": "4",
+      "solution": "__**CONCEPT**__:\n\n**Avogadro's Law and Molar Relationships at STP**\n\n__\n \n• **Avogadro's Law:** At Standard Temperature and Pressure (STP), 1 mole of any ideal gas occupies 22.4 liters of volume.\n \n• **Molecular Relationships:**\n \n \n• 1 mole of a substance contains Avogadro's number of molecules, which is 6.022 × 10²³.\n \n• 1 mole of a compound is equivalent to its molar mass in grams.\n \n \n\n**EXPLANATION**__:\n\n \n• Half mole of nitrogen gas is measured 11.2 liters at STP.\n \n \n• At STP, 1 mole of nitrogen gas occupies 22.4 liters.\n \n• Thus, half a mole of nitrogen gas will occupy** 22.4 ÷ 2 = 11.2 liters.**\n \n• This statement is correct.\n \n \n \n• 17 grams of ammonia gas contains 6.022 × 10²³ molecules at STP.\n \n \n• The molar mass of ammonia (NH₃) is 14 (N) + 1×3 (H) = 17 g/mol.\n \n• 17 grams of ammonia corresponds to **1 mole, which contains 6.022 × 10²³ molecules**.\n \n• This statement is correct.\n \n \n \n• 22.4 liters of CO₂ gas at STP contains 44 grams of molecules.\n \n \n• The molar mass of CO₂ is 12 (C) + 16×2 (O) = 44 g/mol.\n \n• **At STP, 22.4 liters of CO₂ corresponds to 1 mole, which weighs 44 grams.**\n \n• This statement is correct.\n \n \n \n• 4 grams of hydrogen gas contains 6.022 × 10²³ molecules.\n \n \n• The molar mass of H₂ is 1×2 = 2 g/mol.\n \n• 4 grams of H₂ corresponds to 4 ÷ 2 = 2 moles.\n \n• Since 1 mole contains 6.022 × 10²³ molecules, **2 moles would contain 2 × 6.022 × 10²³ = 1.2044 × 10²⁴ molecules**.\n \n \n\nThe given statement is incorrect because 4 grams of H₂ does not contain 6.022 × 10²³ molecules, but rather twice that amount.\n\n**Therefore, the incorrect statement is Option 4.**",
+      "tags": [
+        "Basic Concepts of Chemistry"
+      ]
+    },
+    {
+      "qid": "5ebe9d26f60d5d10bb101de6",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Structure of Atom",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Element X forms an oxide with the formula X₂O₃. The element X would most likely be in the same group of the periodic table as ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "magnesium"
+        },
+        {
+          "label": "2",
+          "text": "silicon"
+        },
+        {
+          "label": "3",
+          "text": "aluminium"
+        },
+        {
+          "label": "4",
+          "text": "sodium"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**option 3**__ i.e **__aluminium__**.\n\n__\n \n• **Element X forms an oxide with the formula X2O3.** The element X would most likely be in the same group of the periodic table as **aluminium.**__\n \n• **Element X can be aluminium, gallium, indium and thallium**, which is part of 3 Mendeleev's periodic table groups and has valency 3.\n \n• **Aluminium ( Al)**, also engraved aluminium, chemical element, the lightweight, silver-white metal of the main group 13 of the periodic table.\n \n• It is the **most abundant metallic element in Earth's crust** and the most widely used **non-ferrous metal**.\n \n• It does not appear in metallic form in nature because of its chemical action, but its derivatives are found to a greater or lesser degree in nearly all minerals, plants and wildlife.",
+      "tags": [
+        "Structure of Atom"
+      ]
+    },
+    {
+      "qid": "5adf5cfacc1bfb0c241c86fa",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Water that does not make foam quickly with soap is ______.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Hard Water"
+        },
+        {
+          "label": "2",
+          "text": "Soft Water"
+        },
+        {
+          "label": "3",
+          "text": "Mineral Water"
+        },
+        {
+          "label": "4",
+          "text": "None of these"
+        }
+      ],
+      "correct": "1",
+      "solution": "• Hard water does not make foam quickly with soap.\n \n• Soap is less effective in hard water because it contains high concentration of dissolved minerals like calcium ions and magnesium ions in the form of dissolved salts."
+    },
+    {
+      "qid": "642d0acf93e78031fdb4026c",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Structure of Atom",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following statement is NOT correct regarding Rutherford's nuclear model of an atom?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The size of the nucleus is very large as compared to the size of the atom."
+        },
+        {
+          "label": "2",
+          "text": "The electrons revolve around the nucleus in circular paths."
+        },
+        {
+          "label": "3",
+          "text": "There is a positively charged centre in an atom called the nucleus."
+        },
+        {
+          "label": "4",
+          "text": "Nearly all the mass of an atom resides in the nucleus."
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**The size of the nucleus is very large as compared to the size of the atom**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\nRUTHERFORD’S MODEL OF AN ATOM\n\n \n• Ernest Rutherford was interested in knowing how the electrons are arranged within an atom.\n \n• Rutherford designed an experiment for this. In this experiment, fast-moving alpha (α)-particles were made to fall on a thin gold foil.\n \n \n• He selected a gold foil because he wanted as thin a layer as possible. This gold foil was about 1000 atoms thick.\n \n• α-particles are doubly-charged helium ions. Since they have a mass of 4 u, the fast-moving α-particles have a considerable amount of energy.\n \n• It was expected that α-particles would be deflected by the sub-atomic particles in the gold atoms. Since the α-particles were much heavier than the protons, he did not expect to see large deflections.\n \n \n \n• But, the α-particle scattering experiment gave totally unexpected results.\n \n• Observations \n \n \n• Most of the fast-moving α-particles passed straight through the gold foil.\n \n• Some of the α-particles were deflected by the foil by small angles.\n \n• Surprisingly one out of every 12000 particles appeared to rebound. \n \n \n \n• Rutherford concluded from the α-particle scattering experiment that–\n \n \n• Most of the space inside the atom is empty because most of the α-particles passed through the gold foil without getting deflected.\n \n• Very few particles were deflected from their path, indicating that the positive charge of the atom occupies very little space.\n \n• A very small fraction of α-particles were deflected by 180 Degrees, indicating that all the positive charge and mass of the gold atom were concentrated in a very small volume within the atom.\n \n \n \n• From the data, he also calculated that the radius of the nucleus is about 105 times less than the radius of the atom.\n \n• On the basis of his experiment, Rutherford put forward the nuclear model of an atom, which had the following features:\n \n \n• There is a positively charged center in an atom called the nucleus. Nearly all the mass of an atom resides in the nucleus.\n \n• The electrons revolve around the nucleus in circular paths.\n \n• The size of the nucleus is very small as compared to the size of the atom.Therefore **1st option is not correct regarding Rutherford's nuclear model of an atom****.**\n \n \n \n• Drawbacks \n \n \n• The revolution of the electron in a circular orbit is not expected to be stable. Any particle in a circular orbit would undergo acceleration. During acceleration, charged particles would radiate energy.\n \n• Thus, the revolving electron would lose energy and finally fall into the nucleus. If this were so, the atom should be highly unstable, and hence matter would not exist in the stable form.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Structure of Atom"
+      ]
+    },
+    {
+      "qid": "6295692a8463fd5b2fb65be7",
+      "n": 9,
+      "type": "mcq",
+      "concept": "States of Matter",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In the context of separating the components of a mixture, distillation means:",
+      "options": [
+        {
+          "label": "1",
+          "text": "to separate mixtures comprising two or more pure liquids by a process of heating and cooling"
+        },
+        {
+          "label": "2",
+          "text": "to separate components of a mixture containing a dissolved solid in a liquid"
+        },
+        {
+          "label": "3",
+          "text": "to separate components of a mixture containing an undissolved solid in a liquid"
+        },
+        {
+          "label": "4",
+          "text": "to separate a sublimable volatile component of a mixture from a non-sublimable impurity"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**to separate mixtures comprising two or more pure liquids by a process of heating and cooling**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Distillation **is the process involving the **conversion of a liquid into a vapour that is subsequently condensed back to liquid **form.\n \n• It is **exemplified **at its simplest when** steam from a kettle becomes deposited as drops of distilled water on a cold surface**.\n \n• Distillation is used to** purify a compound by separating it from a non-volatile or less-volatile material**.\n \n \n• Because **different compounds often have different boiling points**, the components **often separate from a mixture **when the mixture is distilled.\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• Examples of distillation in everyday life and industries -\n \n \n• **Oil Refining**\n \n• **Alcohol Manufacturing**\n \n• **Air Separation**\n \n• **Perfume Manufacturing**\n \n• **In the Manufacturing of High-Purity Silicon Semiconductors**\n \n• **Pharmaceutical Industry**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "States of Matter"
+      ]
+    },
+    {
+      "qid": "60b0e61fd3fd5c42d95857e5",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Solutions ",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The pH of the solution which turns red litmus into blue is likely to be-",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "correct": "4",
+      "solution": "__EXPLANATION:__ ​\n\n \n• \n \nIndicators: The indicators change their colour when added to a solution containing an acidic or a basic substance.\n\n \n\n \n \n\n Indicator\n Acid Solution\n Basic Solution\n Neutral Solution\n \n \n\n Blue Litmus \n Red\n No colour change\n No colour change\n \n \n\n **Red Litmus **\n No colour change\n **Blue**\n No colour change\n \n \n\n \n\n \n• The scale runs from 0 to 14, with acids having a pH less than 7, 7 being neutral, and bases having a pH higher than 7.\n\n [IMAGE: https://cdn.repeatermock.com/tb/1d0c9cfe8e4298e1ccf5c894f246f674dfff33ed62cfcad9d4ab2311d002b141.png] \n\n \n• Red litmus is turned in blue in a basic (alkali) medium, and the pH range of the alkali medium is higher than 7.\n\nSo, The pH of the solution which turns red litmus into blue is likely to be **9**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1d0c9cfe8e4298e1ccf5c894f246f674dfff33ed62cfcad9d4ab2311d002b141.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Solutions "
+      ]
+    }
+  ]
+}

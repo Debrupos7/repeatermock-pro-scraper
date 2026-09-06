@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PYST 28: SSC CGL 2025 Tier-I Similar Paper - English (Held On: 21th Sep 2025 Shift 1)</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.6;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,0.04);position:sticky;top:0;z-index:100;}
+.brand{font-size:20px;font-weight:800;letter-spacing:-0.02em;}
+.brand-light{color:#1f2937;}
+.brand-mark{color:#1fbad6;}
+.test-title{font-size:14px;color:#4b5563;font-weight:500;text-align:center;flex:1;padding:0 24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.header-right{display:flex;align-items:center;gap:12px;}
+.timer{background:#1f2937;color:#fff;padding:8px 16px;border-radius:6px;font-family:"SF Mono",Monaco,monospace;font-size:16px;font-weight:600;min-width:110px;text-align:center;}
+.timer.warning{background:#f59e0b;}
+.timer.danger{background:#ef4444;animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.7;}}
+.header-btn{background:#1fbad6;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s;}
+.header-btn:hover{background:#1999b3;}
+.submit-btn{background:#ef4444;}
+.submit-btn:hover{background:#dc2626;}
+.meta-bar{background:#fff;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;flex-wrap:wrap;gap:12px 32px;font-size:13px;}
+.meta-item{display:flex;flex-direction:column;gap:2px;}
+.meta-label{color:#6b7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+.meta-value{color:#1f2937;font-size:14px;font-weight:600;}
+.test-container{display:flex;max-width:1400px;margin:0 auto;gap:16px;padding:16px;}
+.question-area{flex:1;min-width:0;}
+.section-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.section-tab{background:#fff;border:1px solid #e5e7eb;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;color:#4b5563;}
+.section-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.question-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.q-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #f3f4f6;}
+.q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.q-marks{display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap;}
+.q-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.q-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.conf-high{background:#d1fae5;color:#065f46;}
+.conf-unidentified{background:#fef3c7;color:#92400e;}
+.q-id{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;}
+.result-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-qid{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;margin-left:auto;}
+.mark-pos{color:#10b981;font-weight:600;}
+.mark-neg{color:#ef4444;font-weight:600;}
+.q-lang-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.q-lang-tab{background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer;}
+.q-lang-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.q-text{font-size:15px;margin-bottom:16px;}
+.q-text p{margin:8px 0;}
+.q-text img{max-width:100%;height:auto;border-radius:4px;}
+.options-list{list-style:none;}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;margin-bottom:8px;border:1.5px solid #e5e7eb;border-radius:6px;cursor:pointer;transition:all .15s;font-size:14px;}
+.option-item:hover{background:#f9fafb;border-color:#d1d5db;}
+.option-item.selected{background:#dbeafe;border-color:#3b82f6;}
+.option-item.correct{background:#d1fae5;border-color:#10b981;}
+.option-item.wrong{background:#fee2e2;border-color:#ef4444;}
+.option-label{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;background:#1f2937;color:#fff;border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0;}
+.option-item.selected .option-label{background:#3b82f6;}
+.option-item.correct .option-label{background:#10b981;}
+.option-item.wrong .option-label{background:#ef4444;}
+.option-item.correct::after{content:" ✓ Correct";color:#10b981;font-weight:700;margin-left:auto;}
+.option-item.wrong::after{content:" ✗ Wrong";color:#ef4444;font-weight:700;margin-left:auto;}
+.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+.action-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.action-btn:hover{background:#f9fafb;}
+.action-btn.save-next{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.action-btn.save-next:hover{background:#1999b3;}
+.action-btn.mark-review{background:#fef3c7;color:#92400e;border-color:#f59e0b;}
+.prev-next{display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #f3f4f6;}
+.nav-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.nav-btn:hover{background:#f9fafb;}
+.palette-sidebar{width:280px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start;background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;max-height:calc(100vh - 110px);overflow-y:auto;}
+.palette-header{font-size:14px;font-weight:700;color:#1f2937;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f3f4f6;}
+.palette-legend{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10px;color:#6b7280;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:3px;}
+.legend-dot{width:12px;height:12px;border-radius:2px;}
+.legend-dot.answered{background:#10b981;}
+.legend-dot.notanswered{background:#ef4444;}
+.legend-dot.marked{background:#a855f7;}
+.legend-dot.notvisited{background:#e5e7eb;}
+.palette-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;}
+.palette-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px solid #e5e7eb;border-radius:4px;font-size:11px;font-weight:600;color:#4b5563;cursor:pointer;transition:all .15s;background:#f3f4f6;}
+.palette-cell:hover{transform:scale(1.1);}
+.palette-cell.answered{background:#10b981;color:#fff;border-color:#10b981;}
+.palette-cell.notanswered{background:#ef4444;color:#fff;border-color:#ef4444;}
+.palette-cell.marked{background:#a855f7;color:#fff;border-color:#a855f7;}
+.palette-cell.marked-answered{background:#a855f7;color:#fff;border-color:#a855f7;position:relative;}
+.palette-cell.marked-answered::after{content:"•";position:absolute;top:-2px;right:2px;color:#10b981;font-size:14px;}
+.palette-cell.notvisited{background:#fff;color:#9ca3af;}
+.palette-cell.current{outline:3px solid #1fbad6;outline-offset:1px;}
+.palette-stats{margin-top:12px;padding-top:12px;border-top:1px solid #f3f4f6;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:11px;color:#6b7280;}
+.palette-stats div{display:flex;justify-content:space-between;}
+.palette-stats strong{color:#1f2937;font-size:13px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;padding:24px;}
+.modal-overlay.open{display:flex;}
+.modal-content{background:#fff;border-radius:12px;padding:24px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-content h2{font-size:20px;color:#1f2937;margin-bottom:12px;}
+.modal-content p{font-size:14px;color:#4b5563;margin-bottom:16px;}
+.submit-summary{background:#f9fafb;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;}
+.submit-summary div{display:flex;justify-content:space-between;margin-bottom:4px;}
+.submit-summary strong{color:#1f2937;}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;}
+.modal-btn{padding:8px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-btn.cancel{background:#f3f4f6;color:#4b5563;}
+.modal-btn.cancel:hover{background:#e5e7eb;}
+.modal-btn.submit{background:#ef4444;color:#fff;}
+.modal-btn.submit:hover{background:#dc2626;}
+.results-view{max-width:1000px;margin:0 auto;padding:24px;}
+.results-header{text-align:center;margin-bottom:32px;}
+.results-header h1{font-size:28px;color:#1f2937;margin-bottom:16px;}
+.score-card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;display:inline-block;min-width:300px;margin-bottom:16px;}
+.score-card .score{font-size:48px;font-weight:800;color:#1fbad6;}
+.score-card .total{font-size:20px;color:#6b7280;}
+.score-card .rank{font-size:14px;color:#4b5563;margin-top:8px;}
+.results-actions{display:flex;gap:8px;justify-content:center;}
+.results-questions{display:grid;gap:16px;}
+.result-card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.result-card.correct{border-left:4px solid #10b981;}
+.result-card.wrong{border-left:4px solid #ef4444;}
+.result-card.skipped{border-left:4px solid #9ca3af;}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.result-q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.result-status{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;}
+.result-status.correct{background:#d1fae5;color:#065f46;}
+.result-status.wrong{background:#fee2e2;color:#991b1b;}
+.result-status.skipped{background:#f3f4f6;color:#4b5563;}
+.result-text{font-size:14px;margin-bottom:12px;}
+.result-text p{margin:6px 0;}
+.result-options{list-style:none;margin-bottom:12px;}
+.result-option{padding:8px 12px;margin-bottom:4px;border:1px solid #e5e7eb;border-radius:4px;font-size:13px;display:flex;align-items:flex-start;gap:8px;}
+.result-option.correct{background:#d1fae5;border-color:#10b981;font-weight:600;}
+.result-option.selected{background:#dbeafe;border-color:#3b82f6;}
+.result-option.correct.selected{background:#a7f3d0;}
+.result-option-label{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;background:#1f2937;color:#fff;border-radius:3px;font-size:11px;font-weight:600;}
+.result-option.correct .result-option-label{background:#10b981;}
+.result-solution{background:#fef3c7;border-left:3px solid #f59e0b;border-radius:4px;padding:12px;font-size:13px;color:#1f2937;}
+.result-solution-title{font-weight:700;color:#92400e;margin-bottom:6px;font-size:12px;}
+.result-solution p{margin:6px 0;}
+.result-solution img{max-width:100%;height:auto;border-radius:4px;}
+@media (max-width:1024px){.palette-sidebar{width:220px;}.palette-grid{grid-template-columns:repeat(5,1fr);}}
+@media (max-width:768px){.test-container{flex-direction:column;}.palette-sidebar{width:100%;position:static;max-height:none;}.palette-grid{grid-template-columns:repeat(10,1fr);}}
+@media print{.top-bar,.palette-sidebar,.actions,.prev-next,.section-tabs,.q-lang-tabs,.meta-bar,.results-actions{display:none;}.test-container,.results-view{display:block;}.result-card{page-break-inside:avoid;}}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="top-bar">
+  <div class="brand"><span class="brand-light">Repeater</span><span class="brand-mark">Mock</span></div>
+  <div class="test-title" id="testTitle">PYST 28: SSC CGL 2025 Tier-I Similar Paper - English (Held On: 21th Sep 2025 Shift 1)</div>
+  <div class="header-right">
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="header-btn submit-btn" onclick="openSubmitModal()">Submit Test</button>
+  </div>
+</header>
+
+<!-- Meta bar -->
+<div class="meta-bar">
+  <div class="meta-item"><span class="meta-label">Series</span><span class="meta-value">ssc-cgl</span></div>
+  <div class="meta-item"><span class="meta-label">Questions</span><span class="meta-value">25</span></div>
+  <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">0 min</span></div>
+  <div class="meta-item"><span class="meta-label">Max Marks</span><span class="meta-value">50.0</span></div>
+  <div class="meta-item"><span class="meta-label">Marking</span><span class="meta-value">+2.0 / -0.5</span></div>
+  <div class="meta-item"><span class="meta-label">Test ID</span><span class="meta-value">6a0f4505f886fe6323e182dd</span></div>
+</div>
+
+<!-- Test mode -->
+<div id="testMode" class="test-container">
+  <main class="question-area">
+    <div class="section-tabs" id="sectionTabs"></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-header">
+        <span class="q-num" id="qNum">Q1</span>
+        <span class="q-marks" id="qMarks"></span>
+      </div>
+      <div class="q-lang-tabs" id="qLangTabs"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options-list" id="optionsList"></div>
+      <div class="actions">
+        <button class="action-btn mark-review" onclick="markReviewNext()">Mark for Review &amp; Next</button>
+        <button class="action-btn clear-response" onclick="clearResponse()">Clear Response</button>
+        <button class="action-btn save-next" onclick="saveNext()">Save &amp; Next →</button>
+      </div>
+      <div class="prev-next">
+        <button class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button class="nav-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </main>
+  <aside class="palette-sidebar">
+    <div class="palette-header">
+      <span id="currentSectionLabel">Test</span>
+    </div>
+    <div class="palette-legend">
+      <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+      <span class="legend-item"><span class="legend-dot notanswered"></span>Not Answered</span>
+      <span class="legend-item"><span class="legend-dot marked"></span>Marked</span>
+      <span class="legend-item"><span class="legend-dot notvisited"></span>Not Visited</span>
+    </div>
+    <div class="palette-grid" id="paletteGrid"></div>
+    <div class="palette-stats" id="paletteStats"></div>
+  </aside>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="modal-content">
+    <h2>Submit Test?</h2>
+    <p>Are you sure you want to submit? You won't be able to change your answers after this.</p>
+    <div class="submit-summary" id="submitSummary"></div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="modal-btn submit" onclick="submitTest()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results view (hidden until submit) -->
+<div id="resultsView" class="results-view" style="display:none;">
+  <div class="results-header">
+    <h1>Test Submitted</h1>
+    <div class="score-card" id="scoreCard"></div>
+    <div class="results-actions">
+      <button class="header-btn" onclick="showAllQuestions()">View All Questions &amp; Solutions</button>
+      <button class="header-btn" onclick="window.print()">🖨️ Print</button>
+    </div>
+  </div>
+  <div class="results-questions" id="resultsQuestions"></div>
+</div>
+
+<!-- Test data embedded as JSON -->
+<script type="application/json" id="test-data">{"test_id": "6a0f4505f886fe6323e182dd", "title": "PYST 28: SSC CGL 2025 Tier-I Similar Paper - English (Held On: 21th Sep 2025 Shift 1)", "series_slug": "ssc-cgl", "duration_min": 0, "max_marks": 50.0, "languages": ["English"], "sections": [{"section_id": "69f0944e34a326423f2cd8f7", "section_name": "Test", "q_count": 25, "max_marks": 50.0, "questions": [{"qid": "695fccdd367acc6c5ffa487f", "qs_no": 1, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Identify the sentence from the passage which is in the passive voice.", "options": [{"prompt": "1", "value": "The caterpillar sheds its skin."}, {"prompt": "2", "value": "The butterfly pumps fluid into its wings."}, {"prompt": "3", "value": "Most of the caterpillar&amp;rsquo;s tissues are broken down and rebuilt."}, {"prompt": "4", "value": "The adult butterfly searches for a mate."}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">In the <strong>passive voice</strong>, the subject of the sentence receives the action rather than performing it. The structure typically follows: <strong>[Object] + [be verb] + [Past Participle (V3)]</strong>.</span></li>\n\t<li><span style=\"\">In Option 3, <strong>&quot;Most of the caterpillar&rsquo;s tissues are broken down...&quot;</strong>, the &quot;tissues&quot; (subject) are not doing the breaking; instead, the biological process is acting upon them.</span></li>\n\t<li><span style=\"\">The phrase <strong>&quot;are broken down&quot;</strong> uses the auxiliary verb &quot;are&quot; (be) + &quot;broken&quot; (past participle), which is the hallmark of passive construction.</span></li>\n\t<li><span style=\"\">In contrast, the other options use the <strong>active voice</strong> where the subjects (caterpillar, butterfly, adult butterfly) are the ones performing the actions (sheds, pumps, searches).</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1:</strong> &quot;The caterpillar sheds its skin.&quot; &mdash; <strong>Active Voice</strong> (Subject &#39;caterpillar&#39; performs the action).</span></li>\n\t<li><span style=\"\"><strong>Option 2:</strong> &quot;The butterfly pumps fluid...&quot; &mdash; <strong>Active Voice</strong> (Subject &#39;butterfly&#39; performs the action).</span></li>\n\t<li><span style=\"\"><strong>Option 4:</strong> &quot;The adult butterfly searches...&quot; &mdash; <strong>Active Voice</strong> (Subject &#39;butterfly&#39; performs the action).</span></li>\n\t<li><span style=\"\"><strong>Grammar Tip:</strong> To identify passive voice quickly, look for a form of &#39;to be&#39; (am, is, are, was, were, be, being, been) followed by a past participle.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Voice", "confidence": "high"}, {"qid": "695fccdeb3e88291068aa91e", "qs_no": 2, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which sentence contains a relative clause?", "options": [{"prompt": "1", "value": "The chrysalis becomes firm before transformation."}, {"prompt": "2", "value": "The larva that feeds constantly grows very fast."}, {"prompt": "3", "value": "Adult butterflies live only for a brief period."}, {"prompt": "4", "value": "Wings expand before the first flight."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">A <strong>relative clause</strong> is a type of dependent clause that describes a noun. It usually begins with a relative pronoun such as <strong>who, whom, whose, which,</strong> or <strong>that</strong>.</span></li>\n\t<li><span style=\"\">In Option 2, the phrase <strong>&quot;that feeds constantly&quot;</strong> is a relative clause because it provides extra information about the noun &quot;larva.&quot;</span></li>\n\t<li><span style=\"\">Without the relative clause, the main sentence is &quot;The larva grows very fast.&quot; The relative clause identifies or describes which larva we are talking about.</span></li>\n\t<li><span style=\"\">In the other options, there are no relative pronouns or dependent clauses acting as adjectives to modify a noun.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1:</strong> This is a simple sentence using a prepositional phrase (&quot;before transformation&quot;) as a time indicator.</span></li>\n\t<li><span style=\"\"><strong>Option 3:</strong> This is a simple sentence with an adjective (&quot;brief&quot;) and an adverb (&quot;only&quot;).</span></li>\n\t<li><span style=\"\"><strong>Option 4:</strong> This is a simple sentence with a subject (&quot;Wings&quot;), a verb (&quot;expand&quot;), and a time phrase.</span></li>\n\t<li><span style=\"\"><strong>Grammar Tip:</strong> Relative clauses can be <em>defining</em> (necessary for the sentence&#39;s meaning) or <em>non-defining</em> (extra information set off by commas). In this case, &quot;that feeds constantly&quot; is a defining relative clause.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "695fccdee2787cb5291b9863", "qs_no": 3, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which word from the passage is formed using a Greek suffix meaning &ldquo;origin&rdquo; or &ldquo;formation&rdquo;?", "options": [{"prompt": "1", "value": "Chrysalis"}, {"prompt": "2", "value": "Larva"}, {"prompt": "3", "value": "Histogenesis"}, {"prompt": "4", "value": "Metabolism"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The word <strong>&quot;Histogenesis&quot;</strong> is a scientific term used in the passage to describe the formation of new organs.</span></li>\n\t<li><span style=\"\">It is derived from two Greek roots: <strong>&quot;histos&quot;</strong> (meaning tissue) and the suffix <strong>&quot;-genesis&quot;</strong>.</span></li>\n\t<li><span style=\"\">The suffix <strong>&quot;-genesis&quot;</strong> specifically means <strong>&quot;origin,&quot; &quot;creation,&quot;</strong> or <strong>&quot;formation.&quot;</strong></span></li>\n\t<li><span style=\"\">In the context of the passage, it refers to the stage where the caterpillar&#39;s broken-down tissues are reorganized into the adult organs of the butterfly.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>3</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1: Chrysalis</strong> comes from the Greek <em>chrysos</em> (gold), referring to the metallic sheen found on the pupae of some butterflies.</span></li>\n\t<li><span style=\"\"><strong>Option 2: Larva</strong> is a Latin word meaning &quot;mask&quot; or &quot;ghost,&quot; suggesting that the adult form is hidden within.</span></li>\n\t<li><span style=\"\"><strong>Option 4: Metabolism</strong> contains the Greek suffix <em>-ism</em> (practice/state), but the word itself is <strong>not present</strong> in the provided passage.</span></li>\n\t<li><span style=\"\"><strong>Etymology Tip:</strong> Many English scientific terms use the suffix <em>-genesis</em>, such as <em>biogenesis</em> (formation of life) or <em>pathogenesis</em> (origin of a disease).</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "695fccde956ddf23951499c9", "qs_no": 4, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "According to the passage, what major biological change occurs inside the chrysalis?", "options": [{"prompt": "1", "value": "The caterpillar only rests without eating."}, {"prompt": "2", "value": "Old tissues are reorganized into adult structures through histogenesis."}, {"prompt": "3", "value": "Wings simply grow longer without change."}, {"prompt": "4", "value": "The caterpillar stores more food."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">According to the passage, the chrysalis serves as a casing for a total internal transformation.</span></li>\n\t<li><span style=\"\">The text explicitly states that <strong>&quot;most of the caterpillar&rsquo;s tissues are broken down and reorganized into new organs&quot;</strong> such as wings and eyes.</span></li>\n\t<li><span style=\"\">This biological overhaul is identified in the passage as a specific process called <strong>histogenesis</strong>.</span></li>\n\t<li><span style=\"\"><strong>Option 2</strong> accurately summarizes this breakdown and reorganization into adult structures.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1:</strong> While the caterpillar does not eat inside the chrysalis, the passage emphasizes the <strong>active reorganization of tissues</strong> rather than just &quot;resting.&quot;</span></li>\n\t<li><span style=\"\"><strong>Option 3:</strong> The passage states that tissues are &quot;broken down and reorganized,&quot; which is much more complex than wings simply &quot;growing longer.&quot;</span></li>\n\t<li><span style=\"\"><strong>Option 4:</strong> Food storage happens <strong>before</strong> the chrysalis stage (during the caterpillar stage), as the passage says, &quot;After storing enough energy, it forms a hard covering.&quot;</span></li>\n\t<li><span style=\"\"><strong>Vocabulary Tip:</strong> The word &quot;Transformation&quot; in the passage refers to <strong>Metamorphosis</strong>, a common term in competitive exams for biological change in form.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "695fccdfe2787cb5291b9876", "qs_no": 5, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "In the passage, the word &ldquo;short&rdquo; in &ldquo;short lifespan&rdquo; most nearly means:", "options": [{"prompt": "1", "value": "Lasting"}, {"prompt": "2", "value": "Brief"}, {"prompt": "3", "value": "Strong"}, {"prompt": "4", "value": "Constant"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">In this context, the word <strong>&quot;short&quot;</strong> is used to describe the duration of the butterfly&#39;s life after reproduction.</span></li>\n\t<li><span style=\"\">The word <strong>&quot;brief&quot;</strong> is a synonym for short, specifically referring to a very limited amount of time.</span></li>\n\t<li><span style=\"\">The passage indicates that once the main purpose (reproduction) is fulfilled, the lifespan &quot;ends,&quot; implying that it does not continue for a long duration.</span></li>\n\t<li><span style=\"\">Therefore, <strong>Option 2</strong> is the most accurate replacement for &quot;short&quot; in the given context.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Option 1: Lasting</strong> is an antonym (opposite) of short; it means enduring for a long time.</span></li>\n\t<li><span style=\"\"><strong>Option 3: Strong</strong> refers to power or intensity, which does not relate to the duration of time.</span></li>\n\t<li><span style=\"\"><strong>Option 4: Constant</strong> means occurring continuously over a period of time, but it does not specify the length of that period (short vs. long).</span></li>\n\t<li><span style=\"\"><strong>Vocabulary Tip:</strong> Other synonyms for a short lifespan often used in biology include <strong>&quot;ephemeral&quot;</strong> or <strong>&quot;transient.&quot;</strong></span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Verbal Ability", "confidence": "high"}, {"qid": "695fccdfea14d70cd42d2732", "qs_no": 6, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correctly spelled word meaning “stubborn in opinion”.", "options": [{"prompt": "1", "value": "obstinant"}, {"prompt": "2", "value": "obsteenet"}, {"prompt": "3", "value": "obstinate"}, {"prompt": "4", "value": "obbstenate"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'3'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> obstinate</span> <span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The word <strong>\"obstinate\"", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Vocabulary", "confidence": "high"}, {"qid": "695fccdfe2787cb5291b987c", "qs_no": 7, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct one-word substitution: A person who strongly rejects authority and established systems.", "options": [{"prompt": "1", "value": "Rebel"}, {"prompt": "2", "value": "Loyalist"}, {"prompt": "3", "value": "Idealist"}, {"prompt": "4", "value": "Traditionalist"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'1'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> Rebel</span> <span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The question asks for a one-word substitution for \"A person who strongly rejects authority and established systems.\"</li>\n        <li>The word <strong>\"Rebel\"</strong> means a person who resists or fights against authority, control, or tradition, fitting the definition perfectly.</li>\n        <li>Option 2 (<strong>\"Loyalist\"</strong>) refers to someone who remains loyal to an established government or authority, which is the opposite of the required answer.</li>\n        <li>Option 3 (<strong>\"Idealist\"</strong>) refers to a person who is guided by ideals, often impractical ones, which does not align with rejecting authority.</li>\n        <li>Option 4 (<strong>\"Traditionalist\"</strong>) refers to someone who adheres to traditional practices, which also does not match the definition.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span> <em>The one-word substitution for \"A person who strongly rejects authority and established systems\" is <strong>Rebel</strong>.</em></p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n        <li><strong>Rebel:</strong> A person who opposes or fights against the government or ruling authority.</li>\n        <li><strong>Loyalist:</strong> A person who remains loyal to the government or authority.</li>\n        <li><strong>Idealist:</strong> A person guided by idealistic principles, often unrealistic.</li>\n        <li><strong>Traditionalist:</strong> A person who follows or adheres to traditional customs or beliefs.</li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Vocabulary", "confidence": "high"}, {"qid": "695fcce0d19f3ab98dc5050e", "qs_no": 8, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Select the most appropriate synonym of the word GRUMPY.", "options": [{"prompt": "1", "value": "Amiable"}, {"prompt": "2", "value": "Peevish"}, {"prompt": "3", "value": "Cheerful"}, {"prompt": "4", "value": "Courteous"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'2'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> Peevish</span>.</p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The word <strong>grumpy</strong> refers to someone who is irritable or easily annoyed.</li>\n        <li>Among the given options:\n        <ul>\n                <li><strong>Amiable:</strong> Means friendly and pleasant, which is the opposite of grumpy.</li>\n                <li><strong>Peevish:</strong> Means irritable or easily annoyed, which is synonymous with grumpy.</li>\n                <li><strong>Cheerful:</strong> Means happy and optimistic, which contrasts with grumpy.</li>\n                <li><strong>Courteous:</strong> Means polite and respectful, which does not relate to grumpy.</li>\n        </ul>\n        </li>\n        <li>Therefore, the correct synonym for <strong>grumpy</strong> is <strong>peevish</strong>.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span> <em>The most appropriate synonym of the word grumpy is <strong>peevish</strong>.</em></p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n        <li>Synonyms are words that have similar meanings and can be used interchangeably in certain contexts.</li>\n        <li>It is important to consider the connotation of a word while selecting its synonym, as context matters.</li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Synonym", "confidence": "high"}, {"qid": "695fcce0956ddf23951499d3", "qs_no": 9, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Select the most appropriate antonym of the word Transitory.", "options": [{"prompt": "1", "value": "Passing"}, {"prompt": "2", "value": "Momentary"}, {"prompt": "3", "value": "Permanent"}, {"prompt": "4", "value": "Fleeting"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'3'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> Permanent</span> <span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></sp", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Antonym", "confidence": "high"}, {"qid": "695fcce093bc47083e24f7c5", "qs_no": 10, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct meaning of the idiom “Eat crow”.", "options": [{"prompt": "1", "value": "Receive a grand reward"}, {"prompt": "2", "value": "Accept blame and face embarrassment"}, {"prompt": "3", "value": "Enjoy a great meal"}, {"prompt": "4", "value": "Refuse to apologise"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'2'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> Accept blame and face embarrassment</span> <span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The idiom <strong>\"Eat crow\"</strong> means to accept blame, admit one’s mistake, and face embarrassment, often in a humiliating manner.</li>\n        <li>This idiom comes from the American Civil War era, where eating crow (a bird not typically considered edible) symbolized an unpleasant and humbling experience.</li>\n        <li>It is used in situations where someone must acknowledge a mistake or failure, often reluctantly.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span> <em>After losing the argument, John had to eat crow and admit he was wrong in front of everyone.</em></p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n        <li><strong>Other idioms with similar meanings:</strong>\n\n        <ul>\n                <li><strong>\"Eat humble pie\":</strong> To admit your faults and apologize.</li>\n                <li><strong>\"Swallow one’s pride\":</strong> To accept a situation where one feels humiliated or defeated.</li>\n        </ul>\n        </li>\n        <li><strong>Examples of incorrect options:</strong>\n\n        <ul>\n                <li><strong>Option 1:</strong> \"Receive a grand reward\" is incorrect because the idiom does not refer to a positive or celebratory event.</li>\n                <li><strong>Option 3:</strong> \"Enjoy a great meal\" is incorrect because it does not convey the idea of humiliation or acknowledgment of wrongdoing.</li>\n                <li><strong>Option 4:</strong> \"Refuse to apologize\" is incorrect because it directly opposes the meaning of the idiom.</li>\n        </ul>\n        </li>\n</ul>\n36", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Idioms", "confidence": "high"}, {"qid": "695fcce1858037b9b71e7966", "qs_no": 11, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct meaning of the idiom “To draw the long bow”.", "options": [{"prompt": "1", "value": "To postpone an event purposely"}, {"prompt": "2", "value": "To tell an unbelievable or exaggerated story"}, {"prompt": "3", "value": "To describe something briefly"}, {"prompt": "4", "value": "To admire ancient tales"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'2'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> To tell an unbelievable or exaggerated story</span>.</p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The idiom <strong>\"To draw the long bow\"</strong> means to tell an exaggerated or unbelievable story, often stretching the truth.</li>\n     ", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Idioms", "confidence": "high"}, {"qid": "695fcce193bc47083e24f7ca", "qs_no": 12, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which spelling is correct for a word meaning “a formal agreement between countries”?", "options": [{"prompt": "1", "value": "Treatie"}, {"prompt": "2", "value": "Tretee"}, {"prompt": "3", "value": "Treaty"}, {"prompt": "4", "value": "Tretye"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'3'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> Treaty</span> <span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The word <strong>“Treaty”</strong> is the correct spelling for a formal agreement between countries.</li>\n        <li>Other options, such as <strong>\"Treatie,\" \"Tretee,\"</strong> and <strong>\"Tretye,\"</strong> are incorrect and do not represent the accurate spelling.</li>\n        <li>A <strong>treaty</strong> is often a written agreement that is formally concluded and ratified between sovereign states.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span> <em>The nations signed a <strong>Treaty</strong> to ensure peace and cooperation.</em></p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n        <li><strong>Example of Treaties:</strong>\n\n        <ul>\n                <li><strong>Treaty of Versailles:</strong> Signed in 1919, ending World War I.</li>\n                <li><strong>Paris Agreement:</strong> A global treaty to combat climate change.</li>\n                <li><strong>Treaty of Rome:</strong> Foundational treaty for the European Union.</li>\n        </ul>\n        </li>\n        <li><strong>Importance of Treaties:</strong>\n        <ul>\n                <li>Promote international cooperation and peace.</li>\n                <li>Resolve disputes between nations.</li>\n                <li>Establish global standards on various issues such as trade, security, and environmental protection.</li>\n        </ul>\n        </li>\n</ul>\n3a", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Spelling", "confidence": "high"}, {"qid": "695fcce1f81f392b152db0e1", "qs_no": 13, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Find the correctly spelled word referring to “secret or specialized knowledge”.", "options": [{"prompt": "1", "value": "Esoterrica"}, {"prompt": "2", "value": "Esoterika"}, {"prompt": "3", "value": "Esoterica"}, {"prompt": "4", "value": "Essoterica"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'3'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> Esoterica</span> <span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\">", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Vocabulary", "confidence": "high"}, {"qid": "695fcce2fe58351bb768cda4", "qs_no": 14, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the correct one-word substitute: “A life story written by the person themself.”", "options": [{"prompt": "1", "value": "Memoir"}, {"prompt": "2", "value": "Diary"}, {"prompt": "3", "value": "Autobiography"}, {"prompt": "4", "value": "Biography"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'3'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> Autobiography</span> <span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The term <strong>Autobiography</strong> refers to a life story written by the person themself.</li>\n        <li><strong>Memoir:</strong> Focuses on specific memories or events in a person's life rather than the whole life story.</li>\n        <li><strong>Diary:</strong> A personal journal where an individual records daily events, thoughts, or feelings, not necessarily their entire life story.</li>\n        <li><strong>Biography:</strong> A life story written by someone else about a person.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span> <em>A life story written by the person themself is called an <strong>Autobiography</strong>.</em></p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n        <li><strong>Memoir:</strong>\n        <ul>\n                <li>Focuses on specific aspects or events in the writer's life.</li>\n                <li>Example: A book recalling a writer's childhood or career experiences.</li>\n        </ul>\n        </li>\n        <li><strong>Biography:</strong>\n        <ul>\n                <li>Written by another person about someone's life.</li>\n                <li>Example: A book detailing the life of Mahatma Gandhi written by another author.</li>\n        </ul>\n        </li>\n        <li><strong>Diary:</strong>\n        <ul>\n                <li>Contains day-to-day entries of personal thoughts or events.</li>\n                <li>Example: Anne Frank's \"The Diary of a Young Girl.\"</li>\n        </ul>\n        </li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "OWS", "confidence": "high"}, {"qid": "695fcce215f0388f7249c612", "qs_no": 15, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Select the correct option: ___ the seriousness of the task, the team continued without hesitation.", "options": [{"prompt": "1", "value": "Given"}, {"prompt": "2", "value": "Since"}, {"prompt": "3", "value": "Despite"}, {"prompt": "4", "value": "Granted"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p style=\"\">The correct answer is&nbsp;<span style=\"font-weight: 700;\">&#39;3&#39;</span><span style=\"font-weight: 700;\">&nbsp;i.e.</span><span style=\"font-weight: 700;\">&nbsp;Despite</span>&nbsp;the seriousness of the task, the team continued without hesitation.</p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n\t<li>The sentence expresses contrast between the seriousness of the task and the team&#39;s action of continuing without hesitation.</li>\n\t<li>The correct word to indicate such contrast is <strong>&quot;Despite.&quot;</strong></li>\n\t<li>Other options like &quot;Given,&quot; &quot;Since,&quot; and &quot;Granted&quot; do not fit the context correctly as they imply different meanings.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span>&nbsp;<em>Despite the seriousness of the task, the team continued without hesitation.</em></p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n\t<li><strong>Contrast Words:</strong>\n\n\t<ul>\n\t\t<li><strong>Despite:</strong> Used to show that something happened even though there was a difficulty or opposing factor.</li>\n\t\t<li><strong>Example:</strong> Despite the rain, they went for a walk.</li>\n\t\t<li><strong>Although:</strong> Similar to &quot;despite,&quot; but used in clauses instead of phrases.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Incorrect Options:</strong>\n\t<ul>\n\t\t<li><strong>Given:</strong> Refers to a condition or situation but does not convey contrast.</li>\n\t\t<li><strong>Since:</strong> Indicates reasoning or time, not contrast.</li>\n\t\t<li><strong>Granted:</strong> Implies concession but does not fit the sentence structure.</li>\n\t</ul>\n\t</li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "695fcce2a6e7da69c3b2d128", "qs_no": 16, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Find the part of the sentence containing an error:<br />\n<br />\nIt is the lack of clarity about future plans (1)/ that appear to be causing (2)/ the greatest concern among people (3)/ waiting for an official update. (4)", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "2"}, {"prompt": "3", "value": "3"}, {"prompt": "4", "value": "4"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\">The error lies in the phrase &quot;<strong>that appear to be causing</strong>.&quot;</span></li>\n\t<li><span style=\"\">The subject &quot;<strong>lack of clarity</strong>&quot; is singular, so the verb must be singular.</span></li>\n\t<li><span style=\"\">The correct verb should be &quot;<strong>appears</strong>&quot; instead of &quot;<strong>appear</strong>.&quot;</span></li>\n\t<li><span style=\"\">Thus, the error is located in <strong>part 2</strong> of the sentence.</span></li>\n</ul>\n\n<div><span style=\"\">Therefore, the correct answer is <strong>Option 2</strong>.</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><strong>Correct Sentence:</strong> <em>&quot;It is the lack of clarity about future plans that <strong>appears</strong> to be causing the greatest concern among people waiting for an official update.&quot;</em></span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div>\n\n<ul>\n\t<li><span style=\"\"><strong>Part 1:</strong> &quot;It is the lack of clarity about future plans&quot; &ndash; This part of the sentence is grammatically correct and does not require any changes.</span></li>\n\t<li><span style=\"\"><strong>Part 3:</strong> &quot;the greatest concern among people&quot; &ndash; This part of the sentence is grammatically correct and does not require any changes.</span></li>\n\t<li><span style=\"\"><strong>Part 4:</strong> &quot;waiting for an official update&quot; &ndash; This part of the sentence is grammatically correct and does not require any changes.</span></li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "695fcce3f175513ed6c8c41a", "qs_no": 17, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Change the sentence from active to passive: They will have completed the bridge by 2027.", "options": [{"prompt": "1", "value": "The bridge will being completed by 2027."}, {"prompt": "2", "value": "The bridge will have been completed by 2027."}, {"prompt": "3", "value": "The bridge has been completed by 2027."}, {"prompt": "4", "value": "The bridge will be completed by 2027."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'2'</span><span style=\"font-weight: 700;\"> i.e. The bridge will have been completed by 2027.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The given sentence is in the <strong>active voice</strong>: \"They will have completed the bridge by 2027.\"</li>\n        <li>The passive voice construction for future perfect tense is: <strong>Subject + will have been + past participle</strong>.</li>\n        <li>Thus, the sentence changes to: <strong>The bridge will have been completed by 2027.</strong></li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span> <em>The bridge will have been completed by 2027.</em></p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n        <li><strong>Active Voice:</strong> The subject performs the action on the object.\n        <ul>\n                <li><strong>Example:</strong> They completed the bridge.</li>\n        </ul>\n        </li>\n        <li><strong>Passive Voice:</strong> The object becomes the subject, and the action is performed on it.\n        <ul>\n                <li><strong>Example:</strong> The bridge was completed by them.</li>\n        </ul>\n        </li>\n        <li><strong>Future Perfect Passive Voice Structure:</strong> Subject + will have been + past participle.\n        <ul>\n                <li><strong>Example:</strong> The project will have been completed by next year.</li>\n        </ul>\n        </li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "695fcce3a6e7da69c3b2d12b", "qs_no": 18, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Find the part of the sentence containing an error: <br><br>The meeting, though calm in tone, (1)/ were reported by some channels (2)/ as influenced by outside elements (3)/ and pressure groups. (4)", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "2"}, {"prompt": "3", "value": "3"}, {"prompt": "4", "value": "4"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'2'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> were reported by some channels</span> <span style=\"font-weight: 700;\">contains the error</span>.</p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The subject of the sentence \"The meeting\" is singular.</li>\n        <li>Therefore, the verb should agree with the singular subject.</li>\n        <li>The use of \"were\" is incorrect because it is a plural verb.</li>\n        <li>The correct verb to use is \"was\" for singular subject agreement.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span> <em>The meeting, though calm in tone, <strong>was reported</strong> by some channels as influenced by outside elements and pressure groups</em>.</p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n        <li><strong>Subject-Verb Agreement:</strong>\n        <ul>\n                <li>The verb must agree with the subject in number (singular/plural).</li>\n                <li>Singular subjects require singular verbs, and plural subjects require plural verbs.</li>\n        </ul>\n        </li>\n        <li><strong>Example:</strong>\n        <ul>\n                <li>Singular: The dog <strong>runs</strong> fast.</li>\n                <li>Plural: The dogs <strong>run</strong> fast.</li>\n        </ul>\n        </li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "695fcce3bd1bf487926cfc4c", "qs_no": 19, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Select the sentence containing the homonym of the highlighted word:<br />\n<br />\nThe professor&rsquo;s <strong>tenure </strong>at the university was widely respected.", "options": [{"prompt": "1", "value": "Rules regarding land tenure were revised."}, {"prompt": "2", "value": "The artist expressed tenor of grief in sculpture."}, {"prompt": "3", "value": "He lost tenor due to misconduct."}, {"prompt": "4", "value": "The speech had a pleasant tenor."}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<p style=\"\">The correct answer is&nbsp;<span style=\"font-weight: 700;\">&#39;1&#39;</span><span style=\"font-weight: 700;\">&nbsp;i.e.</span><span style=\"font-weight: 700;\">&nbsp;Rules regarding land tenure were revised</span>&nbsp;<span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n\t<li>The highlighted word in the given sentence is <strong>tenure</strong>, which means a period of holding a position or office.</li>\n\t<li>A homonym is a word that has the same spelling or pronunciation as another word but has a different meaning.</li>\n\t<li>Among the options, option 1 uses the word <strong>tenure</strong> in a different context, referring to rules regarding the holding of land or property.</li>\n\t<li>This satisfies the definition of a homonym as the word <strong>tenure</strong> is used with a different meaning in this option.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span>&nbsp;<em>Rules regarding land tenure were revised</em>.</p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n\t<li><strong>Tenure:</strong>\n\n\t<ul>\n\t\t<li><strong>Definition 1:</strong> The holding of an office or position (as in the given sentence).</li>\n\t\t<li><strong>Definition 2:</strong> The conditions under which land or buildings are held or occupied (as in option 1).</li>\n\t</ul>\n\t</li>\n\t<li><strong>Other Incorrect Options:</strong>\n\t<ul>\n\t\t<li><strong>Option 2:</strong> Refers to <strong>tenor</strong>, which means tone or attitude, and is not a homonym of <strong>tenure</strong>.</li>\n\t\t<li><strong>Option 3:</strong> Refers to <strong>tenor</strong>, in the context of a singing voice, which is also unrelated to <strong>tenure</strong>.</li>\n\t\t<li><strong>Option 4:</strong> Refers to the tone or meaning of a speech, using the word <strong>tenor</strong>, not <strong>tenure</strong>.</li>\n\t</ul>\n\t</li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Vocabulary"], "concept": "Vocabulary", "confidence": "high"}, {"qid": "695fcce4ee63291fad9acea4", "qs_no": 20, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Convert the sentence from passive to active:<br />\n<br />\nThe report was believed to have been altered before submission.", "options": [{"prompt": "1", "value": "Someone was believing the report altered before submission."}, {"prompt": "2", "value": "People believed that someone had altered the report before submission."}, {"prompt": "3", "value": "The report had altered before submission, it was believed."}, {"prompt": "4", "value": "Alteration of the report was believed to occur."}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p style=\"\">The correct answer is&nbsp;<span style=\"font-weight: 700;\">&#39;2&#39;</span><span style=\"font-weight: 700;\">&nbsp;i.e.&nbsp;</span><strong>People believed that someone had altered the report before submission.</strong></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n\t<li>The given sentence is written in the passive voice: &quot;<em>The report was believed to have been altered before submission.</em>&quot;</li>\n\t<li>To convert it into the active voice, we need to identify the implied subject (&quot;someone&quot;) and rewrite the sentence with the subject performing the action.</li>\n\t<li>In active voice, the sentence becomes: &quot;<em>People believed that someone had altered the report before submission.&quot;</em></li>\n\t<li>The correct option (2) successfully conveys the intended meaning in active voice.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span>&nbsp;<em>People believed that someone had altered the report before submission.</em></p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n\t<li><strong>Active voice:</strong> The subject performs the action. For example: &quot;<em>She wrote the essay.</em>&quot;</li>\n\t<li><strong>Passive voice:</strong> The subject receives the action. For example: &quot;<em>The essay was written by her.</em>&quot;</li>\n\t<li>When converting from passive to active, always identify the implied subject if it is not explicitly mentioned.</li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "695fcce4f4e90df2f5688143", "qs_no": 21, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Choose the most suitable option to replace the highlighted part:<br />\n<br />\nShe is <strong>good in dancing</strong>.", "options": [{"prompt": "1", "value": "good on dancing"}, {"prompt": "2", "value": "good at dance"}, {"prompt": "3", "value": "good with dancing"}, {"prompt": "4", "value": "good at dancing"}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'4'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> good at dancing</span> <span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The given sentence uses the phrase <strong>\"good in dancing,\"</strong> which is incorrect in standard English usage.</li>\n        <li>The correct preposition to use with \"good\" in this context is <strong>\"at.\"</strong> Hence, the phrase should be <strong>\"good at dancing.\"</strong></li>\n        <li>The preposition \"at\" is used to refer to skill or ability in a particular activity or area.</li>\n        <li>Options 1, 2, and 3 use incorrect prepositions (\"on,\" \"with,\" or \"dance\" instead of \"dancing\"), which do not fit the context.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span> <em>She is <strong>good at dancing</strong>.</em></p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n        <li><strong>Common prepositions with \"good\":</strong>\n        <ul>\n                <li><strong>Good at:</strong> Refers to skills or abilities (e.g., She is good at playing the piano).</li>\n                <li><strong>Good with:</strong> Refers to handling or dealing with something or someone (e.g., He is good with children).</li>\n                <li><strong>Good for:</strong> Refers to something beneficial or suitable (e.g., Exercise is good for your health).</li>\n        </ul>\n        </li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "695fcce4fe58351bb768cdaf", "qs_no": 22, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Convert to direct speech:<br />\n<br />\nThe mentor stated that the student had continued even after his theories were repeatedly disproved.", "options": [{"prompt": "1", "value": "The mentor said, &amp;ldquo;The student had continued though his theories are disproved.&amp;rdquo;"}, {"prompt": "2", "value": "The mentor said, &amp;ldquo;The student continued even after his theories were repeatedly disproved.&amp;rdquo;"}, {"prompt": "3", "value": "The mentor remarked, &amp;ldquo;The student had continued even after his theories were repeatedly disproved.&amp;rdquo;"}, {"prompt": "4", "value": "The mentor said, &amp;ldquo;The student continues though theories were disproved.&amp;rdquo;"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p style=\"\">The correct answer is&nbsp;<span style=\"font-weight: 700;\">&#39;2&#39;</span><span style=\"font-weight: 700;\">&nbsp;i.e.&nbsp;</span><strong><span style=\"color: rgb(33, 37, 41);\">The mentor said, &ldquo;The student continued even after his theories were repeatedly disproved.&rdquo;</span></strong></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n\t<li>The given sentence is reported speech written in the past perfect&nbsp;tense: &quot;The mentor stated that the student had continued even after his theories were repeatedly disproved.&quot;</li>\n\t<li>The task is to convert this into direct speech, ensuring proper tense (past tense)&nbsp;and phrasing.</li>\n\t<li>In direct speech, the exact words of the speaker are quoted, and the pronouns and tenses must align with the context.</li>\n\t<li>Option 2&nbsp;is correct because it accurately converts the sentence into direct speech while maintaining the context of the statement.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span>&nbsp;<em>The mentor remarked, &ldquo;<span style=\"color: rgb(33, 37, 41);\">The mentor said, &ldquo;The student continued even after his theories were repeatedly disproved.&rdquo;</span></em></p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n\t<li><strong>Reported Speech to Direct Speech Conversion Rules:</strong>\n\n\t<ul>\n\t\t<li>Remove reporting verbs like &quot;stated,&quot; &quot;remarked,&quot; or &quot;said&quot; and replace them with direct quotes.</li>\n\t\t<li>Ensure tense consistency. If the reporting verb is in the past tense, maintain past tenses inside the direct speech.</li>\n\t\t<li>Use quotation marks to enclose the exact words of the speaker.</li>\n\t</ul>\n\t</li>\n\t<li><strong>Example:</strong>\n\t<ul>\n\t\t<li>Reported Speech: She said that she was tired.</li>\n\t\t<li>Direct Speech: She said, &quot;I was tired.&quot;</li>\n\t</ul>\n\t</li>\n</ul>", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "695fcce5ee63291fad9acea9", "qs_no": 23, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Convert to indirect speech: He said, “It may rain today.”", "options": [{"prompt": "1", "value": "He said it may rain today."}, {"prompt": "2", "value": "He said it can rain that day."}, {"prompt": "3", "value": "He said it might rain that day."}, {"prompt": "4", "value": "He said it might raining today."}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'3'</span><span style=\"font-weight: 700;\"> i.e.</span><span style=\"font-weight: 700;\"> He said it might rain that day</span> <span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The direct speech, \"He said, 'It may rain today,'\" needs to be conve", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Grammar"], "concept": "Grammar", "confidence": "high"}, {"qid": "695fcce5fa228b4267428546", "qs_no": 24, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Rearrange the sentences to form a coherent paragraph:<br><br>1. The CPU works together with storage, memory, and peripheral devices to handle instructions.<br><br>2. A modern computer system consists of many interlinked software and hardware parts.<br><br>3. The CPU is the main unit that performs most calculations.<br><br>4. This coordination allows various tasks from basic to advanced to be performed.", "options": [{"prompt": "1", "value": "2, 3, 1, 4"}, {"prompt": "2", "value": "3, 1, 2, 4"}, {"prompt": "3", "value": "2, 1, 3, 4"}, {"prompt": "4", "value": "4, 2, 1, 3"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'1'</span><span style=\"font-weight: 700;\"> i.e. 2, 3, 1, 4</span><span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The paragraph talks about the coordination of various components in a modern computer system.</li>\n        <li>To form a coherent paragraph, we need to ensure the sentences flow logically.</li>\n        <li>Sentence <strong>2</strong> begins by introducing the idea of a modern computer system and its components.</li>\n        <li>Sentence <strong>3</strong> narrows down the focus to the role of the CPU, which is one of the key components.</li>\n        <li>Sentence <strong>1</strong> explains how the CPU works with other components like storage, memory, and peripherals.</li>\n        <li>Sentence <strong>4</strong> concludes by describing the outcome of this coordination, which is the ability to perform various tasks.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct arrangement:</span> 2, 3, 1, 4</p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n        <li>When solving rearrangement problems, look for sentences that introduce the topic first. These are usually general or broad in scope.</li>\n        <li>Follow it with sentences that provide more specific details or examples related to the topic.</li>\n        <li>Conclude with a sentence that ties the information together or highlights the outcome.</li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Para Jumbles", "confidence": "high"}, {"qid": "695fcce5858037b9b71e7a5b", "qs_no": 25, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Rearrange the sentences in logical order:<br><br>1. The insights gained help managers act instantly.<br><br>2. Data analytics is reshaping business operations.<br><br>3. It includes gathering, processing, and analysing huge volumes of data.<br><br>4. Firms use analytics to forecast patterns and customer choices.", "options": [{"prompt": "1", "value": "2-3-4-1"}, {"prompt": "2", "value": "2-4-1-3"}, {"prompt": "3", "value": "3-2-4-1"}, {"prompt": "4", "value": "2-1-3-4"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">'1'</span><span style=\"font-weight: 700;\"> i.e. 2-3-4-1</span><span style=\"font-weight: 700;\">.</span></p>\n\n<p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p>\n\n<ul style=\"\">\n        <li>The topic of the sentences revolves around how data analytics is transforming business operations.</li>\n        <li>Sentence 2 introduces the primary subject, which is data analytics reshaping business operations. Hence, it is the opening sentence.</li>\n        <li>Sentence 3 explains the process of data analytics, making it the logical continuation of the topic introduced in Sentence 2.</li>\n        <li>Sentence 4 elaborates on how firms utilize data analytics, connecting naturally to the prior sentence.</li>\n        <li>Sentence 1 concludes the sequence by highlighting the actionable insights gained from data analytics.</li>\n</ul>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Correct sequence:</span> <em>2-3-4-1</em>.</p>\n\n<p style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<ul>\n        <li>This question tests your ability to identify logical connections and arrange sentences in a coherent order.</li>\n        <li>Always start with identifying the introductory sentence (e.g., Sentence 2 here), which sets the context for the rest of the sentences.</li>\n        <li>Look for sentences that naturally follow the introductory statement and build upon it sequentially.</li>\n</ul", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Verbal Ability"], "concept": "Para Jumbles", "confidence": "high"}]}]}</script>
+<script>
+const TEST_DATA = JSON.parse(document.getElementById('test-data').textContent);
+const TOTAL_Q = 25;
+const DURATION_SEC = 0 * 60;
+
+// State
+let currentSectionIdx = 0;
+let currentQIdx = 0;  // global across sections
+let currentLang = 'en';
+let answers = {};  // qid -> selected option prompt
+let marked = {};   // qid -> true
+let visited = new Set();
+let submitted = false;
+let timeLeft = DURATION_SEC;
+let timerInterval = null;
+
+// Flatten all questions for easy indexing
+const allQuestions = [];
+TEST_DATA.sections.forEach((s, sIdx) => {
+  s.questions.forEach(q => {
+    allQuestions.push({...q, sectionIdx: sIdx, sectionName: s.section_name});
+  });
+});
+
+function init() {
+  // Render section tabs
+  const sectionTabs = document.getElementById('sectionTabs');
+  TEST_DATA.sections.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'section-tab' + (i === 0 ? ' active' : '');
+    tab.textContent = s.section_name + ' (' + s.questions.length + ')';
+    tab.onclick = () => switchSection(i);
+    sectionTabs.appendChild(tab);
+  });
+  // Render palette
+  renderPalette();
+  // Render first question
+  renderQuestion();
+  // Start timer
+  startTimer();
+  // Update stats
+  updateStats();
+}
+
+function startTimer() {
+  if (DURATION_SEC <= 0) {
+    // No time limit — show "No Limit" instead of a countdown
+    document.getElementById('timer').textContent = 'No Limit';
+    document.getElementById('timer').classList.add('no-limit');
+    return;
+  }
+  timerInterval = setInterval(() => {
+    if (submitted) return;
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      submitTest();
+    }
+  }, 1000);
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeLeft / 3600);
+  const m = Math.floor((timeLeft % 3600) / 60);
+  const s = timeLeft % 60;
+  const display = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  const timerEl = document.getElementById('timer');
+  timerEl.textContent = display;
+  if (timeLeft < 60) {
+    timerEl.className = 'timer danger';
+  } else if (timeLeft < 300) {
+    timerEl.className = 'timer warning';
+  }
+}
+
+function renderQuestion() {
+  const q = allQuestions[currentQIdx];
+  if (!q) return;
+  visited.add(q.qid);
+  // Update section tab
+  currentSectionIdx = q.sectionIdx;
+  document.querySelectorAll('.section-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSectionIdx);
+  });
+  document.getElementById('currentSectionLabel').textContent = q.sectionName;
+  // Question header — includes Q number, marks, concept, confidence, and question ID
+  document.getElementById('qNum').textContent = 'Q' + (currentQIdx + 1);
+  let headerExtras = '<span class="mark-pos">+' + q.pos_marks + '</span><span class="mark-neg">-' + q.neg_marks + '</span>';
+  // Concept + confidence (from AI classifier — same as AI JSON)
+  const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+  const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+  const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+  headerExtras += '<span class="q-concept" title="Concept category">🎯 ' + concept + '</span>';
+  headerExtras += '<span class="q-confidence ' + confClass + '" title="Classifier confidence">conf: ' + confidence + '</span>';
+  // Question ID (unique per question, useful for cross-test matching)
+  headerExtras += '<span class="q-id" title="Question ID (unique across all tests)">ID: ' + q.qid + '</span>';
+  document.getElementById('qMarks').innerHTML = headerExtras;
+  // Language tabs
+  const langTabs = document.getElementById('qLangTabs');
+  langTabs.innerHTML = '';
+  const availableLangs = Object.keys(q.langs);
+  const showLangs = ['en','hn','te','mr','bn','ml','gu','kn','ta','or'].filter(l => availableLangs.includes(l));
+  if (showLangs.length > 1) {
+    showLangs.forEach((l, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'q-lang-tab' + (l === currentLang ? ' active' : '');
+      btn.textContent = {en:'English',hn:'Hindi',te:'Telugu',mr:'Marathi',bn:'Bengali',ml:'Malayalam',gu:'Gujarati',kn:'Kannada',ta:'Tamil',or:'Odia'}[l] || l;
+      btn.onclick = () => { currentLang = l; renderQuestion(); };
+      langTabs.appendChild(btn);
+    });
+  }
+  // Question text
+  const langData = q.langs[currentLang] || q.langs[availableLangs[0]] || {};
+  document.getElementById('qText').innerHTML = langData.value || '(no question text)';
+  // Options
+  const optsList = document.getElementById('optionsList');
+  optsList.innerHTML = '';
+  (langData.options || []).forEach(opt => {
+    const li = document.createElement('li');
+    li.className = 'option-item' + (answers[q.qid] === opt.prompt ? ' selected' : '');
+    li.innerHTML = '<span class="option-label">' + opt.prompt + '</span><span class="option-text">' + opt.value + '</span>';
+    li.onclick = () => selectOption(q.qid, opt.prompt);
+    optsList.appendChild(li);
+  });
+  // Update palette
+  renderPalette();
+  updateStats();
+}
+
+function selectOption(qid, prompt) {
+  if (submitted) return;
+  if (answers[qid] === prompt) {
+    delete answers[qid];
+  } else {
+    answers[qid] = prompt;
+  }
+  renderQuestion();
+}
+
+function saveNext() {
+  nextQuestion();
+}
+
+function markReviewNext() {
+  const q = allQuestions[currentQIdx];
+  marked[q.qid] = true;
+  nextQuestion();
+}
+
+function clearResponse() {
+  const q = allQuestions[currentQIdx];
+  delete answers[q.qid];
+  renderQuestion();
+}
+
+function nextQuestion() {
+  if (currentQIdx < allQuestions.length - 1) {
+    currentQIdx++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQIdx > 0) {
+    currentQIdx--;
+    renderQuestion();
+  }
+}
+
+function jumpTo(idx) {
+  currentQIdx = idx;
+  renderQuestion();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function switchSection(idx) {
+  currentSectionIdx = idx;
+  // Find first question in this section
+  const qIdx = allQuestions.findIndex(q => q.sectionIdx === idx);
+  if (qIdx >= 0) {
+    currentQIdx = qIdx;
+    renderQuestion();
+  }
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const cell = document.createElement('div');
+    let cls = 'palette-cell ';
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) cls += 'marked-answered';
+    else if (isMarked) cls += 'marked';
+    else if (isAnswered) cls += 'answered';
+    else if (isVisited) cls += 'notanswered';
+    else cls += 'notvisited';
+    if (i === currentQIdx) cls += ' current';
+    cell.className = cls;
+    cell.textContent = (i + 1);
+    cell.onclick = () => jumpTo(i);
+    grid.appendChild(cell);
+  });
+}
+
+function updateStats() {
+  let answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) marked++;
+    else if (isMarked) marked++;
+    else if (isAnswered) answered++;
+    else if (isVisited) notAnswered++;
+    else notVisited++;
+  });
+  document.getElementById('paletteStats').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${notAnswered}</strong></div>
+    <div><span>Marked:</span><strong>${marked}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+  `;
+}
+
+function openSubmitModal() {
+  let answered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    if (answers[q.qid] !== undefined) answered++;
+    else if (marked[q.qid]) marked++;
+    else if (!visited.has(q.qid)) notVisited++;
+  });
+  document.getElementById('submitSummary').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${TOTAL_Q - answered - notVisited}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+    <div><span>Total:</span><strong>${TOTAL_Q}</strong></div>
+  `;
+  document.getElementById('submitModal').classList.add('open');
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('open');
+}
+
+function submitTest() {
+  submitted = true;
+  clearInterval(timerInterval);
+  closeSubmitModal();
+  // Calculate score
+  let score = 0, correct = 0, wrong = 0, skipped = 0;
+  allQuestions.forEach(q => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    if (userAns === undefined) {
+      skipped++;
+    } else if (userAns === correctAns) {
+      correct++;
+      score += q.pos_marks;
+    } else {
+      wrong++;
+      score -= q.neg_marks;
+    }
+  });
+  // Show results view
+  document.getElementById('testMode').style.display = 'none';
+  document.getElementById('resultsView').style.display = 'block';
+  document.getElementById('scoreCard').innerHTML = `
+    <div><span class="score">${score.toFixed(2)}</span><span class="total"> / ${TEST_DATA.max_marks || TOTAL_Q * 2}</span></div>
+    <div class="rank">Correct: ${correct} | Wrong: ${wrong} | Skipped: ${skipped}</div>
+    <div class="rank" style="margin-top:8px;">Accuracy: ${(correct + wrong > 0) ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0}%</div>
+  `;
+  // Render all questions with answers + solutions
+  renderAllQuestions();
+}
+
+function renderAllQuestions() {
+  const container = document.getElementById('resultsQuestions');
+  container.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    const isCorrect = userAns === correctAns;
+    const isWrong = userAns !== undefined && userAns !== correctAns;
+    const isSkipped = userAns === undefined;
+    const card = document.createElement('div');
+    card.className = 'result-card ' + (isCorrect ? 'correct' : isWrong ? 'wrong' : 'skipped');
+    const langData = q.langs[currentLang] || q.langs[Object.keys(q.langs)[0]] || {};
+    let optionsHtml = '';
+    (langData.options || []).forEach(opt => {
+      let cls = 'result-option';
+      if (opt.prompt === correctAns) cls += ' correct';
+      if (opt.prompt === userAns) cls += ' selected';
+      optionsHtml += `<li class="${cls}"><span class="result-option-label">${opt.prompt}</span><span>${opt.value}</span></li>`;
+    });
+    const sol = q.solution_html[currentLang] || q.solution_html['en'] || '';
+    const solHtml = sol ? `<div class="result-solution"><div class="result-solution-title">📖 Solution</div>${sol}</div>` : '';
+    let statusBadge = '';
+    if (isCorrect) statusBadge = '<span class="result-status correct">✓ Correct</span>';
+    else if (isWrong) statusBadge = '<span class="result-status wrong">✗ Wrong</span>';
+    else statusBadge = '<span class="result-status skipped">— Skipped</span>';
+    // Concept + confidence + question ID (same as AI JSON)
+    const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+    const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+    const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+    card.innerHTML = `
+      <div class="result-header">
+        <span class="result-q-num">Q${i + 1}</span>
+        ${statusBadge}
+        <span class="result-concept">🎯 ${concept}</span>
+        <span class="result-confidence ${confClass}">conf: ${confidence}</span>
+        <span class="result-qid">ID: ${q.qid}</span>
+      </div>
+      <div class="result-text">${langData.value || '(no text)'}</div>
+      <ul class="result-options">${optionsHtml}</ul>
+      ${solHtml}
+    `;
+    container.appendChild(card);
+  });
+}
+
+function showAllQuestions() {
+  document.getElementById('resultsView').scrollIntoView({behavior: 'smooth'});
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (submitted) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'j') nextQuestion();
+  if (e.key === 'ArrowLeft' || e.key === 'k') prevQuestion();
+  if (e.key === '1' || e.key === 'a') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[0]) selectOption(q.qid, opts[0].prompt); }
+  if (e.key === '2' || e.key === 'b') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[1]) selectOption(q.qid, opts[1].prompt); }
+  if (e.key === '3' || e.key === 'c') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[2]) selectOption(q.qid, opts[2].prompt); }
+  if (e.key === '4' || e.key === 'd') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[3]) selectOption(q.qid, opts[3].prompt); }
+});
+
+init();
+</script>
+</body>
+</html>

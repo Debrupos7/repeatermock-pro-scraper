@@ -1,0 +1,367 @@
+{
+  "test_id": "6a0f3ac098950246b8cba164",
+  "title": "CT 08: LCM and HCF",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:25:32.355991+00:00",
+  "questions": [
+    {
+      "qid": "585a42b4995a2d41fc318218",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Sukhiram plants 12544 mango trees in his garden and arranges them so that there are as many rows as there are mango trees in each row. Find the number of rows.",
+      "options": [
+        {
+          "label": "1",
+          "text": "108"
+        },
+        {
+          "label": "2",
+          "text": "112"
+        },
+        {
+          "label": "3",
+          "text": "118"
+        },
+        {
+          "label": "4",
+          "text": "122"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given, Sukhiram plants 12544 mango trees in his garden and arranges them so that there are as many rows as there are mango trees in each row.\n\nLet the number of rows be a.\n\n∴ Number of mangoes in each row = a\n\nTotal number of mangoes = a × a = a²\n\n∴ a² = 12544 = 7² × 2⁸\n\n⇒ a = 7 × 2⁴ = 112",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5f225e7a524b8d0d160d8774",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Five clocks ring simultaneously at 5 pm. They ring at regular intervals of 12 min, 15 min, 20 min, 30 min, and 60 min respectively. The time when all five clocks ring together next is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "9 pm"
+        },
+        {
+          "label": "2",
+          "text": "8 pm"
+        },
+        {
+          "label": "3",
+          "text": "7 pm"
+        },
+        {
+          "label": "4",
+          "text": "6 pm"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nFive clock ring at = 5 pm\n\n**Concept:**\n\nThe least number which is exactly divisible by each of the given numbers is called the least common multiple of those numbers.\n\n**Calculation:**\n\n12 = 2 × 2 × 3\n\n15 = 3 × 5\n\n20 = 2 × 2 × 5\n\n30 = 2 × 3 × 5\n\n60 = 2 × 2 × 3 × 5\n\n⇒ LCM of 12, 15, 20, 30 and 60 = 2 × 2 × 3 × 5 = 60 min\n\nAll five clocks ring after 60 min or 1 hrs\n\n∴ The next time all five clocks at = 5 : 00 + 1 hr = 6 p.m.\n\n [IMAGE: https://cdn.repeatermock.com/tb/6bd67c9563cdde4a0dfe99b7686282bc07365f691adfb64c907de66aebe4b011.png] \n\nLet the name of clocks be A, B, C, D and E \n\nClock A will ring at **05:00**, 5:12, 05:24, 05:36, 05:48, **06:00**\n\nClock B will ring at **05:00**, 5:15, 05:30, 05:45, **06:00**\n\nClock C will ring at **05:00**, 5:20, 05:30, **06:00**\n\nClock D will ring at **05:00**, 5:30, **06:00**\n\nClock E will ring at **06:00**\n\n**So, after ringing together at 5 o'clock, the bells will again ring together at 6 o'clock.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6bd67c9563cdde4a0dfe99b7686282bc07365f691adfb64c907de66aebe4b011.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5faa96aefa3d011c9fc999e8",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "N₁ = 2³ × 3⁴ × 5⁵ & N₂ = 2² × 3³ × 5⁶. Find the least common multiple (LCM) of N₁ & N₂.",
+      "options": [
+        {
+          "label": "1",
+          "text": "23 × 34 × 5⁶"
+        },
+        {
+          "label": "2",
+          "text": "23 × 34 × 55"
+        },
+        {
+          "label": "3",
+          "text": "2² × 3³ × 5⁶"
+        },
+        {
+          "label": "4",
+          "text": "23 × 3³ × 55"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nN1 = 23 × 34 × 55 & N2 = 22 × 33 × 5⁶\n\n**Concept used:**\n\nTake maximum power of each prime factor.\n\n**Explanation:**\n\nMaximum power of '2' is 3.\n\nMaximum power of '3' is 4.\n\nMaximum power of '5' is 6.\n\n**∴ The Lowest Common Multiple is 23 × 34 × 5⁶**.",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "666abb37cc2f8159fb1f3f97",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "There are 44 mangoes, 121 bananas and 11 apples, they have to be arranged in several rows in such a way that every row contains equal number of fruits and each row contains fruit of one type. What is the minimum number of rows?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "14"
+        },
+        {
+          "label": "4",
+          "text": "13"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nNumber of mangoes = 44\n\nNumber of bananas = 121\n\nNumber of apples = 11\n\n**Formula Used:**\n\nTo find the minimum number of rows, we need to calculate the Greatest Common Divisor (GCD) of the given quantities of fruits.\n\n**Calculation:**\n\nFirst, find the GCD of 44, 121, and 11.\n\nGCD of 44 and 11:\n\n44 = 11 × 4\n\nSo, GCD(44, 11) = 11\n\nNext, find the GCD of the result with 121:\n\nGCD(11, 121):\n\n121 = 11 × 11\n\nSo, GCD(11, 121) = 11\n\nTherefore, the GCD of 44, 121, and 11 is 11.\n\nThe",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6073dae8bef47c3c307dcbe7",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The H.C.F and L.C.M of the two numbers are 14 and 140 respectively. If one of these numbers is 28, find the other numbers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "70"
+        },
+        {
+          "label": "2",
+          "text": "140"
+        },
+        {
+          "label": "3",
+          "text": "280"
+        },
+        {
+          "label": "4",
+          "text": "200"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nThe H.C.F and L.C.M of two numbers are 14 and 140 respectively\n\nand one of these numbers is 28.\n\n**Formula used:**\n\nProduct of two numbers = (L.C.M × H.C.F)\n\n**Calculation:**\n\nLet the other number be x.\n\nAccording to the question,\n\nProduct of two numbers = (L.C.M × H.C.F)\n\n⇒ 28 × x = 140 × 14\n\n⇒ 28x = 1960\n\n⇒ x = 70\n\n**∴ The other number will be 70.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "63ad98a124f9450ee3539aea",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The L.C.M. of (2)/(4), (5)/(6), (10)/(8) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "(1)/(5)"
+        },
+        {
+          "label": "2",
+          "text": "(5)/(4)"
+        },
+        {
+          "label": "3",
+          "text": "(4)/(5)"
+        },
+        {
+          "label": "4",
+          "text": "(5)/(2)"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Concept used:**\n\nLCM of Fraction = LCM of Numerator/HCF of Denominator\n\n**Calculation:**\n\n​​(2)/(4), (5)/(6), (10)/(8) = (1)/(2), (5)/(6), (5)/(4)\n\n⇒ LCM of (1, 5, 5) = 5\n\n⇒ HCF of (2, 6, 4) = 2\n\n⇒ dfrac{LCM of (1,5,5)}{HCF of (2,4,6)} = 5/2\n\n**∴ The correct answer is 5/2.**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/e085a7f17645c801966c030eb44d69fae944b96fdb4c4077f5fba1bc2c24bc71.png] __Mistake Points__** Please note that LCM means the lowest common multiple. LCM is the lowest number which is completely divisible by all given numbers(2/4, 5/6, 10/8). \n\nIn these types of questions, make sure that you reduce the fractions to their lowest forms before you use their formulae, otherwise, you may get the wrong answer.\n\nIf we don't reduce the fractions to their lowest forms then LCM is 5 but the LCM of these 3 numbers is 5/2.\n\n43",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e085a7f17645c801966c030eb44d69fae944b96fdb4c4077f5fba1bc2c24bc71.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "60992392635db33a6a8cae6c",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Five light buttons blink at the interval of 6 s, 7 s, 8 s, 2 s, 3 s respectively. If they start blinking together, then how many times would they have blinked together in an hour?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24"
+        },
+        {
+          "label": "2",
+          "text": "22"
+        },
+        {
+          "label": "3",
+          "text": "21"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Concept used:**\n\nThe time required for the lights to blink together will be equal to LCM of the interval of blink time of these.\n\n**Calculation:**\n\nLCM of 6, 7, 8, 2 and 3 = 168\n\nLights will blink together once in 168 seconds.\n\nNumber of blinks in 1 hour = 3600/168\n\n⇒ Number of blinks in 1 hour = 21.42\n\n⇒ Number of blinks in 1 hour = 21\n\n**∴ The number of blinks is 21+1=22**\n\n**(1 is added because initially, they have started with blinking)**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "60113a75f9f6834c3e848113",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "HCF of {9 over 10}, {3 over 25}, {6 over 15}, {12 over 5} is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "50"
+        },
+        {
+          "label": "2",
+          "text": "1 over 150"
+        },
+        {
+          "label": "3",
+          "text": "3 over 50"
+        },
+        {
+          "label": "4",
+          "text": "3 over 150"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nWe have to find the HCF of {9 over 10}, {3 over 25}, {6 over 15}, {12 over 5}\n\n**Concept Used:**\n\nHCF of fraction = (HCF of numerator)/(LCM of denominator)\n\n**Calculation:**\n\nHCF of {9 over 10}, {3 over 25}, {6 over 15}, {12 over 5}\n\n⇒ {HCF (9, 3, 6, 12) over LCM (10, 25, 15, 5)}\n\nHCF of numerators is 3\n\nLCM of denominators is 150\n\nRequired HCF is 3/150\n\n**∴ HCF of {9 over 10}, {3 over 25}, {6 over 15}, {12 over 5} is (3/150).**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] __Additional Information__**\n\nWe can make (3/150) fraction into a small form i.e (1/50), But we have to see options also.\n\nIn the given option (1/50) is not present. If (1/50) will be present in place of (3/150), then we can mark (1/50) as the answer. Which is totally correct.\n\nSometimes we have to check options also to mark the correct answers. In this case, we are marking (3/150) according to the options provided.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5fb22c00e572d994570a99ed",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The Sum of two numbers is 108. HCF of the numbers is 12. What is the difference between the numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "56"
+        },
+        {
+          "label": "2",
+          "text": "96"
+        },
+        {
+          "label": "3",
+          "text": "78"
+        },
+        {
+          "label": "4",
+          "text": "60"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nThe sum of two numbers = 108\n\nHCF = 12\n\n**Concept Used:**\n\nIf the numbers are in form of mx and my.\n\nThen, m is the HCF.\n\n**Calculation:**\n\nLet the numbers be 12x and 12y, where x and y are co-",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5fb218acbbbd0dcb01980ccb",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of two numbers is 3 ∶ 4 and their LCM is 72, then the sum of the two numbers is.",
+      "options": [
+        {
+          "label": "1",
+          "text": "56"
+        },
+        {
+          "label": "2",
+          "text": "42"
+        },
+        {
+          "label": "3",
+          "text": "49"
+        },
+        {
+          "label": "4",
+          "text": "63"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nThe ratio of numbers = 3 ∶ 4\n\nLCM = 72\n\n**Concept Used:**\n\nIf two numbers are in form of mx, my\n\nThen, LCM = m × x × y\n\n**Calculation:**\n\nLet the number be 3x and 4x\n\nLCM = 72\n\n⇒ 3 × 4 × x = 72\n\n⇒ 12x = 72\n\n⇒ x = 6\n\nRequired sum = 3x + 4x\n\n⇒ Required sum = 3 × 6 + 4 × 6\n\n⇒ Required sum = 18 + 24\n\n→ Required sum = 42\n\n**∴**** The sum of two numbers is 42.**",
+      "tags": [
+        "Number System"
+      ]
+    }
+  ]
+}

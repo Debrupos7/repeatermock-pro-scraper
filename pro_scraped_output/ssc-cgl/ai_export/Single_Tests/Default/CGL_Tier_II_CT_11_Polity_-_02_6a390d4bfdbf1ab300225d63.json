@@ -1,0 +1,437 @@
+{
+  "test_id": "6a390d4bfdbf1ab300225d63",
+  "title": "CGL Tier II CT 11: Polity - 02",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "gk",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:09:40.507158+00:00",
+  "questions": [
+    {
+      "qid": "68e68822fa7daad5b5ac2d10",
+      "n": 1,
+      "type": "mcq",
+      "concept": "State Government",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following states has the highest number of assembly constituencies?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Uttar Pradesh"
+        },
+        {
+          "label": "2",
+          "text": "Bihar"
+        },
+        {
+          "label": "3",
+          "text": "Rajasthan"
+        },
+        {
+          "label": "4",
+          "text": "West Bengal"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**Uttar Pradesh**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The large number of constituencies is due to the state's vast geographical area and significant population size. **Uttar Pradesh** is the most populous state in India with a population exceeding **200 million**, as per the **2011 Census**.\n \n• Other states like **Bihar**, **Rajasthan**, and **West Bengal** have fewer constituencies in comparison. For example, Bihar has **243 constituencies**, Rajasthan has **200 constituencies**, and West Bengal has **294 constituencies**.\n \n• **Assembly constituencies** are electoral districts within a state. Each constituency elects one representative to the state's legislative assembly.\n \n• Uttar Pradesh's high number of constituencies reflects its demographic diversity and administrative needs.\n\n \n• **Uttar Pradesh:**\n\n \n \n• **Population:** It is the most populous state in India with over **200 million** residents (2011 Census).\n \n• **Function:** The large number of assembly constituencies ensures representation for diverse communities and regions within the state.\n \n \n \n• **Other States:**\n \n \n• **Rajasthan:** Has **200 assembly constituencies**. It is the largest state in terms of area but has a relatively smaller population compared to Uttar Pradesh.\n \n• The **Delimitation Commission** is responsible for determining the boundaries and number of assembly constituencies in a state. It ensures fair representation based on population and area.\n \n• The large number of constituencies in states like Uttar Pradesh ensures equitable representation for diverse communities and regions.\n \n• It helps address socio-economic and political issues effectively through elected representatives.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "State Government"
+      ]
+    },
+    {
+      "qid": "68f0bcbef771a7c44a0f22a2",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Polity",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Match List - I with List - II and choose the correct answer using the code given below the lists.\n\n \n \n\n List - I (State)\n List - II (Number of seats in Rajya Sabha)\n \n \n\n A.Maharashtra\n 1. 16\n \n \n\n B. Karnataka\n 2. 18\n \n \n\n C. Bihar\n 3. 19\n \n \n\n D. Tamil Nadu\n 4. 12",
+      "options": [
+        {
+          "label": "1",
+          "text": "A-3,B-4,C-1,D-2"
+        },
+        {
+          "label": "2",
+          "text": "A-1,B-2,C-4,D-3"
+        },
+        {
+          "label": "3",
+          "text": "A-2,B-4,C-3,D-1"
+        },
+        {
+          "label": "4",
+          "text": "A-2,B-1,C-3,D-4"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is option: **1) A-3, B-4, C-1, D-2**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__**\n\n**A. Maharashtra → 19 seats (3)**\n\n \n• One of the largest delegations in the Rajya Sabha.\n\n**B. Karnataka → 12 seats (4)**\n\n \n• Karnataka elects twelve members to the Upper House.\n\n**C. Bihar → 16 seats (1)**\n\n \n• Bihar’s current Rajya Sabha strength is sixteen.\n\n**D. Tamil Nadu → 18 seats (2)**\n\n \n• Tamil Nadu sends eighteen members to the Rajya Sabha.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Central Government"
+      ]
+    },
+    {
+      "qid": "691af3179537bde17380b7db",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Polity",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Who, of the following, Vice-President/s of India has/have also served as the President of India ?\n\n(A) Dr. Shankar Dayal Sharma\n\n(B) Krishan Kant\n\n(C) Varahagiri Venkatagiri\n\nSelect the correct answer using the code given below :",
+      "options": [
+        {
+          "label": "1",
+          "text": "(A) and (B) only"
+        },
+        {
+          "label": "2",
+          "text": "(A) and (C) only"
+        },
+        {
+          "label": "3",
+          "text": "(B) and (C) only"
+        },
+        {
+          "label": "4",
+          "text": "(B) only"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**(A) and (C) only**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• **Dr. Shankar Dayal Sharma:** He served as the Vice-President of India from 1987 to 1992 and later became the 9th President of India, serving from 1992 to 1997.\n \n• **Varahagiri Venkatagiri (V.V. Giri):** He was the Vice-President of India from 1967 to 1969 and later served as the 4th President of India from 1969 to 1974.\n \n• The correct answer is therefore **(A) and (C) only**, as both Dr. Shankar Dayal Sharma and V.V. Giri held the positions of Vice-President and later President of India.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Krishan Kant:**\n\n \n \n• He was a prominent political leader and the **Governor** of Andhra Pradesh before becoming the Vice-President of India.\n \n• He was known for his contributions to the parliamentary system and active involvement in Indian politics.\n \n• Despite his significant contributions, he did not ascend to the position of President of India.\n \n \n \n• **Key articles for India's President (Articles 52-73):**\n \n \n• Article 52: Establishes there shall be a President of India.\n \n• Article 53: Vests executive power of the Union in the President.\n \n• Article 54: Details the election process (Electoral College).\n \n• Article 61: Procedure for impeachment of the President.\n \n• Article 72: President's power to grant pardons, reprieves, etc..\n \n• Article 74: Council of Ministers to aid and advise the President. \n \n \n \n• **Key articles for India's Vice-President (Articles 63-69):**\n \n \n• Article 63: Establishes the office of Vice-President.\n \n• Article 64: VP acts as ex-officio Chairman of the Council of States (Rajya Sabha).\n \n• Article 66: Election of the Vice-President (by MPs).\n \n• Article 68: Time for filling a casual vacancy in the VP's office.\n \n• Article 71: Matters related to the election of President/VP.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Central Government"
+      ]
+    },
+    {
+      "qid": "68ea0608d1fbcdfd3ce691ca",
+      "n": 4,
+      "type": "mcq",
+      "concept": "State Government",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following changes would need the approval of at least half of all State Legislatures?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Amending the Emergency provisions in Part XVIII"
+        },
+        {
+          "label": "2",
+          "text": "Rewriting the Preamble’s text"
+        },
+        {
+          "label": "3",
+          "text": "Changing the Guarantee of Fundamental Rights"
+        },
+        {
+          "label": "4",
+          "text": "Altering the Union List of subjects"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**Amending the Emergency provisions in Part XVIII**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• Amending the Emergency provisions in Part XVIII of the Indian Constitution requires the approval of at least half of all State Legislatures in addition to parliamentary approval.\n \n• This amendment falls under the special category of constitutional amendments as prescribed in Article 368(2) of the Indian Constitution.\n \n• Provisions such as altering the distribution of powers between the Union and States, including emergency provisions, necessitate consultation and approval from State Legislatures to maintain the federal structure of governance.\n \n• Emergency provisions (Articles 352, 356, and 360) have a profound impact on the autonomy of states, making state approval essential for such amendments.\n \n• Such requirements highlight the cooperative federalism embedded in India's constitutional framework.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **The key types of majorities:**\n\n \n \n• **Simple Majority** (Functional Majority)\n\n \n \n• Definition: More than 50% of members present and voting.\n \n• Use: Most common; for ordinary bills, confidence/no-confidence motions, declaring emergencies. \n \n• Absolute Majority\n \n• Definition: More than 50% of the total strength (total members) of the House.\n \n• Use: Government formation, certain procedural matters. \n \n \n \n• **Effective Majority**\n \n \n• Definition: More than 50% of the effective strength (total strength minus vacancies).\n \n• Use: Removing the Speaker/Deputy Speaker, or Vice-President. \n \n \n \n• **Special Majority**\n \n \n• Definition: Stronger majorities, varying by Article, often requiring 2/3rds present and voting plus >50% total membership.\n \n• Use:\n \n \n• Article 368 (Constitutional Amendments): Most significant changes need 2/3rds present & voting + >50% total strength.\n \n• Article 368 + State Ratification: For federal provisions, needs Special Majority plus approval from half the state legislatures.\n \n• Article 249/368: Other specific constitutional changes.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "State Government"
+      ]
+    },
+    {
+      "qid": "68e67c4daef14afc944c3fe4",
+      "n": 5,
+      "type": "mcq",
+      "concept": "State Government",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following is correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The Legislative Council of a state is dissolved after five years."
+        },
+        {
+          "label": "2",
+          "text": "The Legislative Council of a state is dissolved after six years."
+        },
+        {
+          "label": "3",
+          "text": "The Legislative Council of a state is not subject to dissolution."
+        },
+        {
+          "label": "4",
+          "text": "The governor dissolves the Legislative Council of a state."
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**The Legislative Council of a state is not subject to dissolution.**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• **Structure of the Legislative Council:** The Legislative Council (Vidhan Parishad) is the upper house of the state legislature in India, present only in select states. It is a permanent body and is not subject to dissolution.\n \n• **Tenure of Members:** Members of the Legislative Council serve for a term of **six years**. However, one-third of its members retire every two years, ensuring continuity. *Hence, statement 1 and statement 2 are incorrect.*\n \n• **Not subject to dissolution:** Unlike the Legislative Assembly (Vidhan Sabha), the Legislative Council is not dissolved. It is a continuous body, and only a portion of its members retire periodically. *Hence, statement 3 is correct.*\n \n• **Role of the Governor:** The Governor does not have the power to dissolve the Legislative Council. The Governor can only dissolve the Legislative Assembly when required. Hence, statement 4 is incorr",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "State Government"
+      ]
+    },
+    {
+      "qid": "68f34d09b949c77254eaa4bd",
+      "n": 6,
+      "type": "mcq",
+      "concept": "State Government",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following are aspects of the Centre-State legislative relation?\n\n1. Territorial extent of Central and state legislation\n\n2. Distribution of legislative subjects\n\n3. Parliamentary legislation in the state field\n\n4. Centre’s control over state legislation",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only 2 and 3"
+        },
+        {
+          "label": "2",
+          "text": "All 1, 2, 3 and 4"
+        },
+        {
+          "label": "3",
+          "text": "Only 1 and 2"
+        },
+        {
+          "label": "4",
+          "text": "Only 1, 2 and 3"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**All 1, 2, 3 and 4**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• The legislative relations between the Centre and States in India are governed by Part XI of the Constitution, specifically Articles 245 to 255.\n \n• **Territorial extent of legislation:** Article 245 specifies the extent of laws made by the Parliament and the State Legislatures within their respective territories.\n \n• **Distribution of legislative subjects:** The Constitution lists subjects under the Union List, State List, and Concurrent List (Schedule VII), assigning legislative powers accordingly.\n \n• **Parliamentary legislation in state matters:** Articles 249, 250, and 252 allow Parliament to legislate on matters in the State List under special circumstances like national interest or state consent.\n \n• **Centre's control over state legislation:** Article 254 ensures that in case of conflict between a state law and central law on a Concurrent List subject, the central law prevails.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Union List:** Contains subjects on which only the Parliament can legislate, including defense, foreign affairs, atomic energy, etc.\n \n• **State List:** Contains subjects on which State Legislatures have exclusive power to legislate, such as police, public health, agriculture, etc.\n \n• **Concurrent List:** Includes subjects like education, marriage, trade unions, etc., where both the Centre and States can make laws. However, central law prevails in case of conflict.\n \n• **Residuary Powers:** Matters not enumerated in any of the lists fall under the purview of the Parliament as per Article 248.\n \n• **President's role:** State legislation on certain matters may require the President’s assent, especially if it affects the Centre-State legislative framework.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "State Government"
+      ]
+    },
+    {
+      "qid": "694412f3272f22a51d6a9908",
+      "n": 7,
+      "type": "mcq",
+      "concept": "State Government",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Consider the following statements regarding the office of the Governor:\n\nStatement 1: Article 356(1) refers to the Governor’s report recommending President’s Rule.\n\nStatement 2: The Sarkaria Commission advised restraint in removing Governors before completion of their term.\n\nStatement 3: The 41st Constitutional Amendment reduced the Governor’s tenure to four years.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 2 and 3 only"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 and 2 only"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 and 3 only"
+        },
+        {
+          "label": "4",
+          "text": "Statement 2 only"
+        }
+      ],
+      "correct": "2",
+      "solution": "The Correct answer is __**Statement 1 and Statement 2 only**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Article 356(1)** of the Indian Constitution refers to the Governor’s report recommending **President’s Rule** in a state in case of the failure of constitutional machinery.\n \n• The Governor is responsible for sending such a report to the President when the governance in a state cannot be carried on in accordance with the provisions of the Constitution.\n \n• The **Sarkaria Commission**, constituted in 1983 to review Centre-State relations, advised **restraint in the arbitrary removal of Governors** before the completion of their tenure. This was to ensure the independence and impartiality of the office of the Governor.\n \n• The **41st Constitutional Amendment**, as mentioned in the statement, does not exist. Hence, the claim about reducing the Governor's tenure to four years is incorrect.\n \n• The tenure of the Governor, as per the Constitution, is still fixed at **five years**, though they hold office during the pleasure of the President.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n__\n \n• **Incorrect Statement: The 41st Constitutional Amendment reduced the Governor's tenure to four years**__\n\n \n \n• The **41st Constitutional Amendment** does not relate to the Governor's tenure. It is a misinterpretation.\n \n• The **Governor's tenure** is prescribed as **five years** under Article 156 of the Constitution, but they hold office at the **pleasure of the President**.\n \n \n \n• **Important Points related to the Governor’s Office:**\n \n \n• The Governor is the **constitutional head of the state** and acts on the advice of the Council of Ministers.\n \n• Article 356, which allows for the imposition of **President’s Rule**, is based on the report submitted by the Governor.\n \n• Recommendations of the **Sarkaria Commission** emphasize the Governor's independence and neutrality to maintain the federal structure.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "State Government"
+      ]
+    },
+    {
+      "qid": "6917179f538f74b8f9700c15",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Polity",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Arrange the steps in the correct order for the passage of a Money Bill:\n\nA) Introduction in Lok Sabha\n\nB) Approval in Lok Sabha\n\nC) Sent to Rajya Sabha\n\nD) Sent to the President for assent",
+      "options": [
+        {
+          "label": "1",
+          "text": "A-B-C-D"
+        },
+        {
+          "label": "2",
+          "text": "A-C-B-D"
+        },
+        {
+          "label": "3",
+          "text": "B-C-A-D"
+        },
+        {
+          "label": "4",
+          "text": "C-B-A-D"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**A-B-C-D**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Introduction in Lok Sabha:** A **Money Bill** can only be introduced in the **Lok Sabha**, as mandated by **Article 110** of the Indian Constitution. The Rajya Sabha does not have the authority to introduce or amend Money Bills. *Hence, statement A is correct.*\n \n• **Approval in Lok Sabha:** Once introduced, the Money Bill is debated, discussed, and passed in the Lok Sabha. The Lok Sabha holds the primary authority to approve the provisions of the Money Bill. *Hence, statement B is correct.*\n \n• **Sent to Rajya Sabha:** After approval in the Lok Sabha, the Money Bill is sent to the **Rajya Sabha**. The Rajya Sabha can suggest amendments, but it does not have the power to reject or modify the Bill. The Lok Sabha can choose to accept or reject these suggestions. The Rajya Sabha must return the Bill within **14 days**. *Hence, statement C is correct.*\n \n• **Sent to the President for assent:** Once the Money Bill is approved in the Lok Sabha and returned by the Rajya Sabha, it is sent to the **President of India** for final assent. After receiving the President’s assent, the Bill becomes law. *Hence, statement D is correct.*\n \n• ***Hence, the correct order is A-B-C-D.***\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n__\n \n• **Money Bill and Article 110:**\n\n \n \n• **Article 110** of the Indian Constitution defines the provisions of a Money Bill. It is strictly related to financial matters such as taxation, public expenditure, borrowing, and consolidated funds.\n \n• A Money Bill can only be introduced in the **Lok Sabha** and requires the President’s prior recommendation.\n \n \n \n• **Role of Rajya Sabha:**\n \n \n• The **Rajya Sabha** has a limited role in the passage of a Money Bill. It can suggest amendments but cannot reject or delay the Bill for more than **14 days**.\n \n• If the Rajya Sabha does not return the Money Bill within 14 days, it is deemed to have been passed by both Houses.\n \n \n \n• **President’s Assent:**\n \n \n• The **President of India** plays a crucial role in the final approval of a Money Bill. The President’s assent is mandatory for the Bill to become law.\n \n• The President cannot withhold assent to a Money Bill as it is introduced with their prior recommendation.\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png] **Important Points__**\n\n \n• **Examples of Money Bills:**\n\n \n \n• **Finance Bills** that deal with taxation and government spending are examples of Money Bills.\n \n• The **Union Budget** presented annually in the Parliament is considered a Money Bill.\n \n \n \n• **Key Characteristics:**\n \n \n• A Money Bill focuses solely on financial matters as defined under **Article 110**.\n \n• It cannot be introduced in the Rajya Sabha, nor can the Rajya Sabha amend or reject it.\n \n• The Lok Sabha holds supremacy in its passage, and the President’s assent is required for enactment.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Central Government"
+      ]
+    },
+    {
+      "qid": "68e14243f925a7e9250aea8b",
+      "n": 9,
+      "type": "mcq",
+      "concept": "State Government",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Who acts as the real executive head in a state?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Governor"
+        },
+        {
+          "label": "2",
+          "text": "Chief Minister"
+        },
+        {
+          "label": "3",
+          "text": "Speaker"
+        },
+        {
+          "label": "4",
+          "text": "Advocate General"
+        }
+      ],
+      "correct": "2",
+      "solution": "The Correct answer is __**Chief Minister**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The **Chief Minister** is the **real executive head** of a state in India.\n \n• As per the **Constitution of India**, the Chief Minister is the **leader of the ruling party** in the state legislature.\n \n• The Chief Minister exercises all executive powers on behalf of the **Governor** who is the nominal head.\n \n• The",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "State Government"
+      ]
+    },
+    {
+      "qid": "691884d952c93a0e0c267f09",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Polity",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following statements is not correct about the Estimates Committee of the Parliament of India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "It consists of 30 members from the Lok Sabha."
+        },
+        {
+          "label": "2",
+          "text": "It makes a detailed examination of the annual budget estimates."
+        },
+        {
+          "label": "3",
+          "text": "It can examine the working of a policy."
+        },
+        {
+          "label": "4",
+          "text": "It consists of 20 members from the Lok Sabha and 10 members from the Rajya Sabha."
+        }
+      ],
+      "correct": "4",
+      "solution": "The Correct answer is __**It consists of 20 members from the Lok Sabha and 10 members from the Rajya Sabha.**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The **Estimates Committee** of the Parliament of India is one of the **financial committees** of the Parliament.\n \n• Its primary function is to examine the **expenditure** in the budget and suggest economies in public spending.\n \n• The Estimates Committee ensures that funds are allocated efficiently and assesses if money is being spent in accordance with the intended purposes.\n \n• It primarily examines whether the **budgetary resources** are being used efficiently and economically.\n \n• The committee consists of **30 members**, all of whom are drawn from the **Lok Sabha**. Members are elected every year from amongst its members according to the principles of proportional representation by means of a single transferable vote.\n \n• As per the Constitution of India, the **Rajya Sabha** does not participate in the formation of this committee.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n__\n \n• **It consists of 30 members from the Lok Sabha**__\n\n __\n \n• The Estimates Committee consists of **30 members** drawn exclusively from the **Lok Sabha**. Members are elected annually.\n \n• The members are chosen based on the principle of **proportional representation** to ensure representation of all parties.\n \n \n \n• **It makes a detailed examination of the annual budget estimates**__\n __\n \n• The committee scrutinizes the **budget estimates** presented to the Parliament.\n \n• Its primary role is to ensure that the allocations are made judiciously and that the government expenditures are economical.\n \n \n \n• **It consists of 20 members from the Lok Sabha and 10 members from the Rajya Sabha**__\n \n \n• This statement is **incorrect** as the Estimates Committee consists of **30 members**, all from the **Lok Sabha**.\n \n• The **Rajya Sabha** does not have representation on this committee.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Central Government"
+      ]
+    }
+  ]
+}

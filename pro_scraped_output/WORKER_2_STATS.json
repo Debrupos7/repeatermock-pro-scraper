@@ -1,0 +1,15 @@
+{
+  "worker_id": 2,
+  "account_email": "spandanrathore@gmail.com",
+  "total_tests": 3306,
+  "scraped": 151,
+  "failed": 8,
+  "skipped": 0,
+  "pro": 0,
+  "progress_scraped": 151,
+  "progress_failed": 0,
+  "completed_at": "2026-09-06T14:37:42.654740+00:00",
+  "runtime_min": 281.66042898495994,
+  "stop_reason": "stop condition met (auth_failures=1, scrape_errors=8)",
+  "rate_limit_429s": 0
+}

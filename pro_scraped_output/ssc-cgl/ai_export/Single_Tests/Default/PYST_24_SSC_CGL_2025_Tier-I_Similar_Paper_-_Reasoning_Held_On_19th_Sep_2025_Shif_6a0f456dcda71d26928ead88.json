@@ -1,0 +1,986 @@
+{
+  "test_id": "6a0f456dcda71d26928ead88",
+  "title": "PYST 24: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 19th Sep 2025 Shift 3)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:03:04.636587+00:00",
+  "questions": [
+    {
+      "qid": "695fc526d4f453123b9da417",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\n\nCCD, FFG, IIJ, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "GHS"
+        },
+        {
+          "label": "2",
+          "text": "BHS"
+        },
+        {
+          "label": "3",
+          "text": "LLM"
+        },
+        {
+          "label": "4",
+          "text": "KMN"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/98fc91f1d461f68f1cc498a9b20c35682c9e264c8a57c0a4603ee23912e2875b.png] \n\nHence, \"Option 3\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/98fc91f1d461f68f1cc498a9b20c35682c9e264c8a57c0a4603ee23912e2875b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "695fc527d546c8fd02c90924",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is exactly the same as the one given below.\n\nVilla 10, Marine Drive, Mumbai, Maharashtra - 400020",
+      "options": [
+        {
+          "label": "1",
+          "text": "Villa 10, Marine Drive, Mumbai, Maharashtra - 400020"
+        },
+        {
+          "label": "2",
+          "text": "Villa 10, Marine Drive, Mumbai, Maharashtra - 401020"
+        },
+        {
+          "label": "3",
+          "text": "Villa 10, Marine Drive, Mumbai, Maharashtra - 400012"
+        },
+        {
+          "label": "4",
+          "text": "Villa 10, Marine Drive, Mumbai, Maharashtra - 400021"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given: Villa 10, Marine Drive, Mumbai, Maharashtra - 400020\n\nOption 1) Villa 10, Marine Drive, Mumbai, Maharashtra - 400020 → Correct\n\nOption 2) Villa 10, Marine Drive, Mumbai, Maharashtra - __**401020**__ → Incorrect\n\nOption 3) Villa 10, Marine Drive, Mumbai, Maharashtra - __**400012**__ → Incorrect\n\nOption 4) Villa 10, Marine Drive, Mumbai, Maharashtra - __**400021**__ → Incorrect\n\nThus, the address in option 1 is exactly similar to the given address.\n\nHence, \"Option 1\" is the correct answer.",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "695fc527d22939744d63b4a4",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is exactly the same as the one given below.\n\nApartment No. 88, Block C, Janakpuri, New Delhi, Delhi - 110058",
+      "options": [
+        {
+          "label": "1",
+          "text": "Apartment No. 88, Block-C, Janakpuri, New Delhi, Delhi - 110059"
+        },
+        {
+          "label": "2",
+          "text": "Apartment No. 88, Block C, Janakpuri, New Delhi, Delhi - 110058"
+        },
+        {
+          "label": "3",
+          "text": "Apartment 88, Block C, Janakpuri, New Delhi, Delhi - 110057"
+        },
+        {
+          "label": "4",
+          "text": "Apartment No. 88, Block D, Janakpuri, New Delhi, Delhi - 110056"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: Apartment No. 88, Block C, Janakpuri, New Delhi, Delhi - 110058\n\nOption 1) Apartment No. 88, __**Block-C**__, Janakpuri, New Delhi, Delhi - __**110059**__ → Incorrect\n\nOption 2) Apartment No. 88, Block C, Janakpuri, New Delhi, Delhi - 110058 → Correct\n\nOption 3) __**Apartment 88**__, __**Block C**__, Janakpuri, New Delhi, Delhi - __**110057**__ → Incorrect\n\nOption 4) Apartment No. 88, __**Block D**__, Janakpuri, New Delhi, Delhi - __**110056**__ → Incorrect\n\nThus, the address in option 2 is exactly similar to the given address.\n\nHence, \"Option 2\" is the correct answer.",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "695fc527daa378b138addd9a",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statement and choose the option that follows.\n\nStatement: A supermarket chain has launched a loyalty program for frequent shoppers.\n\nConclusions:\n\nI. A higher number of patrons will frequent the supermarket.\n\nII. Shopping at local convenience stores will decrease significantly.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither follows"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given statement: A supermarket chain has launched a loyalty program for frequent shoppers.\n\nGiven Conclusions:\n\nI. A higher number of patrons will frequent the supermarket. → Does not Follow\n\nA loyalty program is introduced with the intention of attracting frequent shoppers, but it does not definitely guarantee that more patrons will frequent the supermarket. Hence, it is only a possibility, not a logically conclusion.\n\nII. Shopping at local convenience stores will decrease significantly. → Does not Follow\n\nThere is no information suggesting that customers will stop shopping at local convenience stores, let alone that it will decrease significantly.\n\nThus, neither Conclusions follows.\n\nHence, \"Option 4\" is the correct answer.",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "695fc528afde9d593666df75",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Course of Action",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statement and choose the option that follows.\n\nProblem: Patients are expressing frustration over long waiting times at the health clinic.\n\nCourse of Action:\n\nI. Hire additional medical staff and administrative assistants.\n\nII. Promote the use of the clinic’s new digital booking and tele-consultation portal.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only II follows"
+        },
+        {
+          "label": "2",
+          "text": "Both follow"
+        },
+        {
+          "label": "3",
+          "text": "Neither follows"
+        },
+        {
+          "label": "4",
+          "text": "Only I follows"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given statement: Patients are expressing frustration over long waiting times at the health clinic.\n\nGiven course of actions:\n\nI. Hire additional medical staff and administrative assistants. → Follow\n\nIt directly tackles the cause of long waiting times by increasing staff capacity and improving service efficiency. \n\nII. Promote the use of the clinic’s new digital booking and tele-consultation portal. → Follow\n\nIt helps to manage patient flow by reducing unnecessary visits and streamlining appointments through digital booking and tele-consultation.\n\nThus, Both conclusions follow.\n\nHence, \"Option 2\" is the correct answer.",
+      "tags": [
+        "Course of Action"
+      ]
+    },
+    {
+      "qid": "695fc528f81f392b152cfb8c",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A quantity is increased by 40 percent and then subsequently decreased by 40 percent. What is the net percentage change in the quantity?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16 percent increase"
+        },
+        {
+          "label": "2",
+          "text": "16 percent decrease"
+        },
+        {
+          "label": "3",
+          "text": "No change"
+        },
+        {
+          "label": "4",
+          "text": "4 percent decrease"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given:\n\nFirst percentage change (r1) = +40\n\nSecond percentage change (r2) = -40\n\nFormula Used: Net Change % = r1 + r2 + (r1 × r2) / 100\n\nCalculation:\n\nNet Change % = 40 + (-40) + (40 × (-40)) / 100\n\n⇒ Net Change % = 40 - 40 + (-1600) / 100\n\n⇒ Net Change % = 0 - 16\n\n⇒ Net Change % = -16\n\n∴ The net change in the number in percentage is -16% (a decrease of 16%).\n\nHence, \"Option 2\" is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "695fc529ea14d70cd42c685e",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If × stands for addition, ÷ stands for subtraction, + stands for multiplication, and - stands for division, then find the value of the following:\n\n8 × 4 ÷ 4 - 2 + 3 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "14"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "22"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n ×\n ÷\n +\n -\n \n \n\n Stands For",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "695fc529d4f453123b9da42d",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'P' denotes 'addition', 'D' denotes 'subtraction', 'S' denotes 'multiplication', and 'V' denotes 'division', then what will be the value of the following expression?\n\n{10 D (15 D 23)} V {5 S 2 D (4)} P 28 V (14 D 7)",
+      "options": [
+        {
+          "label": "1",
+          "text": "-7"
+        },
+        {
+          "label": "2",
+          "text": "7"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "-4"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n P\n D\n S\n V\n \n \n\n Stands For\n +\n -\n ×\n ÷\n \n \n\nGiven: {10 D (15 D 23)} V {5 S 2 D (4)} P 28 V (14 D 7)\n\n{10 D (15 D 23)} V {5 S 2 D (4)} P 28 V (14 D 7) ⇒ {10 - (15 - 23)} ÷ {5 × 2 - (4)} + 28 ÷ (14 - 7)\n\n⇒ {10 - __**(15 - 23)**__} ÷ {5 × 2 - **(**__**4)**__} + 28 ÷ __**(**____**14 - 7)**__\n\n⇒ __**{10 + 8}**__ ÷ {__**5 ×**____** 2**__ - 4} + __**28 **____**÷ 7**__\n\n⇒ 18 ÷ __**{10**____** - 4}**__ + 4\n\n⇒ __**18 **____**÷ 6**__ + 4\n\n⇒ __**3**____** + 4**__\n\n⇒ 7\n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "695fc529daa378b138adddda",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If \"+\" means division, \"-\" means multiplication, \"x\" means addition, and \"÷\" means subtraction, then solve the following:\n\n36 - 12 + 4 ÷ 2 x 6 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "14"
+        },
+        {
+          "label": "2",
+          "text": "50"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "112"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n +\n -\n ×\n ÷",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "695fc52a163a4c37bb17e250",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "P is the father of Q. Q is the husband of R. S is the daughter of R. How is P related to S?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father"
+        },
+        {
+          "label": "2",
+          "text": "Grandfather"
+        },
+        {
+          "label": "3",
+          "text": "Uncle"
+        },
+        {
+          "label": "4",
+          "text": "Brother"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png] \n\nGiven: \n\n1) P is the father of Q.\n\n2) Q is the husband of R.\n\n [IMAGE: https://cdn.repeatermock.com/tb/d7df282945d38f895df4a6f17bccf292f818942c6d88513102679964222d4907.png] \n\n3) S is the daughter of R. \n\n [IMAGE: https://cdn.repeatermock.com/tb/d5ad64bb65a6004aee2539d5c4cd360dbe6b3ea1bb42b6a3ae054c7815e9801a.png] \n\nThus, P is S's grandfather.\n\nHence, the correct answer is \"Option 2\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d7df282945d38f895df4a6f17bccf292f818942c6d88513102679964222d4907.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d5ad64bb65a6004aee2539d5c4cd360dbe6b3ea1bb42b6a3ae054c7815e9801a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "695fc52ad4f453123b9da435",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that correctly completes the reversed-word analogy.\n\nTTOP : POTT :: GLOW : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "WOLG"
+        },
+        {
+          "label": "2",
+          "text": "LOWG"
+        },
+        {
+          "label": "3",
+          "text": "GWOL"
+        },
+        {
+          "label": "4",
+          "text": "LWOG"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\nTTOP : POTT\n\nTTOP → Reverse order → POTT\n\nSimilarly,\n\nGLOW : ?\n\nGLOW → Reverse order → WOLG\n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "695fc52ad11787c9456ba711",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Observe the sequence and find the missing term.\n\n14, 18, 24, 32, 42, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "47"
+        },
+        {
+          "label": "2",
+          "text": "53"
+        },
+        {
+          "label": "3",
+          "text": "54"
+        },
+        {
+          "label": "4",
+          "text": "61"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/e863ea6a64bbc6d8e4884f0c5694bb3bbafc8751e0f99452a85c8f8e39fa802c.png] \n\nHence,** \"Option 3\"** is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e863ea6a64bbc6d8e4884f0c5694bb3bbafc8751e0f99452a85c8f8e39fa802c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "695fc52bf4e90df2f567c12a",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: The new digital portal launched by the electrical board allows residents to report power outages or faulty wiring.\n\nConclusions:\n\nI. Residents can actively help in the upkeep of the electrical grid through the portal.\n\nII. The electrical board no longer requires on-site maintenance crews.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given statement: The new digital portal launched by the electrical board allows residents to report power outages or faulty wiring.\n\nGiven Conclusions:\n\nI. Residents can actively help in the upkeep of the electrical grid through the portal. → Follow\n\nIf residents can report power outrages or faulty wiring through the digital portal, they are actively participating in identifying issues and assisting in the upkeep of the electrical grid.\n\nII. The electrical board no longer requires on-site maintenance crews. → Does not Follow\n\nThe statement does not imply that on-site maintenance crews are no longer needed. Reporting issues digitally does not replace repair work.\n\nThus, Only Conclusion I follows.\n\nHence, \"Option 1\" is the correct answer.",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "695fc52bd546c8fd02c90990",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: The municipal department has installed high-resolution surveillance cameras at major intersections.\n\nConclusions: I. Surveillance cameras assist in reducing traffic violations.\n\nII. Motorists frequently ignore traffic signals at major intersections.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given statement: The municipal department has installed high-resolution surveillance cameras at major intersections.\n\nGiven Conclusions:\n\nI. Surveillance cameras assist in reducing traffic violations. → Follow\n\nInstalling high resolution surveillance cameras at major intersections is typically done to monitor and deter violations. It is reasonable to conduct that such cameras assist in reducing traffic violations.\n\nII. Motorists frequently ignore traffic signals at major intersections. → Does not Follow\n\nThe statement does not imply that motorists frequently ignore traffic signals. This is an assumption beyond the given information.\n\nThus, Only Conclusion I follows.\n\nHence, \"Option 1\" is the correct answer.",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "695fc52cbd1bf487926c3d1a",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a specific code, if the word HANGA is coded as 811471, how will the word ZAMUNA be coded using the same logic?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2611314211"
+        },
+        {
+          "label": "2",
+          "text": "2611314214"
+        },
+        {
+          "label": "3",
+          "text": "2611321141"
+        },
+        {
+          "label": "4",
+          "text": "2611314241"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\nHANGA is coded as 811471​\n\n [IMAGE: https://cdn.repeatermock.com/tb/7a1dd49569b923c261a2787c654ddf7aa043a04e75684db5faae446ef5291c71.png] \n\nSimilarly,\n\nZAMUNA is coded as\n\n [IMAGE: https://cdn.repeatermock.com/tb/b2e953c0dcf370b4804704ba5e895c167a2c367552f86c8579ec34b8d46edf7a.png] \n\nHence, \"Option 3\" is the correct answer.\n\na1",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7a1dd49569b923c261a2787c654ddf7aa043a04e75684db5faae446ef5291c71.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b2e953c0dcf370b4804704ba5e895c167a2c367552f86c8579ec34b8d46edf7a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "695fc52c41a68ecbd3697bc3",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster that completes the sequence.\n\nBZA, CYB, DXC, EWD, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "FVE"
+        },
+        {
+          "label": "2",
+          "text": "FUF"
+        },
+        {
+          "label": "3",
+          "text": "EUE"
+        },
+        {
+          "label": "4",
+          "text": "EXE"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/88c3eef6fe6fb3575239e375c6d87247b7fb8444112cf8d1d6f16bb073c60508.png] \n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/88c3eef6fe6fb3575239e375c6d87247b7fb8444112cf8d1d6f16bb073c60508.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "695fc52c367acc6c5ff992ba",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the term that does not belong in the same environmental or scientific category as the others.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Recycling"
+        },
+        {
+          "label": "2",
+          "text": "Reforestation"
+        },
+        {
+          "label": "3",
+          "text": "Urbanization"
+        },
+        {
+          "label": "4",
+          "text": "Wind Turbines"
+        }
+      ],
+      "correct": "3",
+      "solution": "The Logic followed here is:\n\nEnvironmental conservation/sustainability practices.\n\nRecycling → Practice aimed at reducing waste and conserving resources.\n\nReforestation → Environmental activity to restore forests and improve ecology.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "695fc52dd11787c9456ba72c",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, if the word 'SUN' is written as 'TVO', what is the code for 'KUMP'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "LVRQ"
+        },
+        {
+          "label": "2",
+          "text": "LVMO"
+        },
+        {
+          "label": "3",
+          "text": "LVMQ"
+        },
+        {
+          "label": "4",
+          "text": "LVNQ"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png] \n\nThe logic followed here is:\n\n'SUN' is written as 'TVO'\n\n [IMAGE: https://cdn.repeatermock.com/tb/2a8e8605436328700dcfda83e8bb25a968db6dfe4843287812a82654de3292d9.png] \n\nSimilarly,\n\n'KUMP' is written as\n\n [IMAGE: https://cdn.repeatermock.com/tb/58c8484683e2f812783ea60dcb7dfaa153b1293261f5bcd4ffbbf43bffa6ca5d.png] \n\nHence, \"Option 4\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0488b7c0daf98fa9fa0e852444d1bd45eb81cb2e556cd44c4fcac08bf72271ed.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2a8e8605436328700dcfda83e8bb25a968db6dfe4843287812a82654de3292d9.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/58c8484683e2f812783ea60dcb7dfaa153b1293261f5bcd4ffbbf43bffa6ca5d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "695fc52d41a68ecbd3697c63",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the number that replaces the question mark (?) in the grid based on the logic of the previous rows.\n\n5 9 1\n\n4 5 6\n\n9 1 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/0b81f3aaedcc0bad1a68b07c5616392d366a736c13ed1aa94afefb9d69da5d51.png] \n\nHence, the correct answer is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0b81f3aaedcc0bad1a68b07c5616392d366a736c13ed1aa94afefb9d69da5d51.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Missing Number"
+      ]
+    },
+    {
+      "qid": "695fc52dd11787c9456ba730",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If '+' means 'divided by', '-' means 'multiplied by', 'x' means 'minus', and '÷' means 'plus', then find the value of the following expression:\n\n18 + 6 - 4 x 2 ÷ 2 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "31"
+        },
+        {
+          "label": "3",
+          "text": "46"
+        },
+        {
+          "label": "4",
+          "text": "67"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n +\n -\n ×\n ÷\n \n \n\n Stands For\n ÷\n ×\n -\n +\n \n \n\nGiven: 18 + 6 - 4 x 2 ÷ 2 = ?\n\n18 + 6 - 4 x 2 ÷ 2 = ? ⇒ 18 ÷ 6 × 4 - 2 + 2 = ?\n\n⇒ __**18 ÷**____** 6**__ × 4 - 2 + 2 = ?\n\n⇒ __**3**____** ×**____** 4**__ - 2 + 2 = ?\n\n⇒ __**12 + 2**__ - 2 = ?\n\n⇒ __**1**____**4 - 2**__ = ?\n\n⇒ 12 = ?\n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "695fc52ef4e90df2f567c162",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "X is the brother of Y. Y is the sister of Z. Z is the mother of W. How is X related to W?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father"
+        },
+        {
+          "label": "2",
+          "text": "Uncle"
+        },
+        {
+          "label": "3",
+          "text": "Brother"
+        },
+        {
+          "label": "4",
+          "text": "Cousin"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png] \n\nGiven: \n\n1) X is the brother of Y.\n\n2) Y is the sister of Z.\n\n [IMAGE: https://cdn.repeatermock.com/tb/a5ba3f5b6aebf75d4589140d6b47665ee6c6fd8d6a74522f60b04d900630148f.png] \n\n3) Z is the mother of W.\n\n [IMAGE: https://cdn.repeatermock.com/tb/553f084a698c42c5a69717a127dc409047a3e5e9cad3756ff8401963e8ba5cbf.png] \n\nThus, X is W's uncle.\n\nHence, the correct answer is \"Option 2\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a5ba3f5b6aebf75d4589140d6b47665ee6c6fd8d6a74522f60b04d900630148f.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/553f084a698c42c5a69717a127dc409047a3e5e9cad3756ff8401963e8ba5cbf.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "695fc52e956ddf239513ea78",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If '×' = '-', '-' = '+', '/' = '×', and '+' = '÷', which of the following equations is correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 × 4 - 2 + 8 / 4 = 11"
+        },
+        {
+          "label": "2",
+          "text": "18 - 6 × 3 + 2 / 2 = 13"
+        },
+        {
+          "label": "3",
+          "text": "14 + 7 - 3 / 2 × 1 = 16"
+        },
+        {
+          "label": "4",
+          "text": "20 - 4 + 8 / 2 × 1 = 20"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n ×\n -\n /\n +\n \n \n\n Stands For\n -\n +\n ×\n ÷\n \n \n\n**So, checking each option one by one:**\n\nOption 1) 12 × 4 - 2 + 8 / 4 = 11 ⇒ 12 - 4 + 2 ÷ 8 × 4 = 11\n\n⇒ 12 - 4 + __**2 **____**÷**____** 8**__ × 4 = 11\n\n<s",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "695fc52f59c65906a6a3c841",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'x' means '+', '+' means '-', and '-' means '÷', then find the result of the following: 10 x 6 + 4 - 2 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "14"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "11"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png] \n\nDecoding signs:\n\n \n \n\n Sign\n ×\n +\n -\n \n \n\n Stands For\n +\n -\n ÷\n \n \n\nGiven: 10 x 6 + 4 - 2 = ?\n\n10 x 6 + 4 - 2 = ? ⇒ 10 + 6 - 4 ÷ 2 = ?\n\n⇒ 10 + 6 - __**4 **____**÷**____** 2**__ = ?\n\n⇒ __**10 + 6**__ - 2 = ?\n\n⇒ __**16 - **____**2**__ = ?\n\n⇒ 14 = ?\n\nHence, \"Option 1\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/952c967501c582f1911db7fefdaaefa9b6e3f505512624eb925e04e002be5a1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "695fc52f41a68ecbd3697c66",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What should replace the question mark (?) in the following multiplication-based sequence?\n\n4, 8, 32, 256, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8192"
+        },
+        {
+          "label": "2",
+          "text": "1024"
+        },
+        {
+          "label": "3",
+          "text": "4096"
+        },
+        {
+          "label": "4",
+          "text": "2048"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/89d11a03c846efe86203e00d245a4711687b24fac3ad2e118e42d35217afaddf.png] \n\nHence, \"Option 3\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/89d11a03c846efe86203e00d245a4711687b24fac3ad2e118e42d35217afaddf.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "695fc52f2fc8cc942938c080",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The series given below contains a sequence of numbers. Identify the incorrect combination in the pattern.\n\n7, 10, 20, 23, 47, 49, 100",
+      "options": [
+        {
+          "label": "1",
+          "text": "20, 47"
+        },
+        {
+          "label": "2",
+          "text": "20, 49"
+        },
+        {
+          "label": "3",
+          "text": "47, 100"
+        },
+        {
+          "label": "4",
+          "text": "49, 100"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/ce64d70e4f54b3974e3840623a380af58a5704537c013633259c3585cd15f3e3.png] \n\nThus, it should be 46 and 98 instead of 47 and 100 respectively.\n\nHence, \"Option 3\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ce64d70e4f54b3974e3840623a380af58a5704537c013633259c3585cd15f3e3.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    }
+  ]
+}

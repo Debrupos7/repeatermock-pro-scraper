@@ -1,0 +1,367 @@
+{
+  "test_id": "6a0f3ac66470e02c4ea8207b",
+  "title": "CT 11: Percentage - 02",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:26:19.197425+00:00",
+  "questions": [
+    {
+      "qid": "60498b56604db4535d971779",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "There were two candidates in an election, 10% of voters did not vote and 48 votes were found invalid. The winning candidate got 53% of all the voters in the list and won by 304 votes. Find the total number of votes enrolled.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1600"
+        },
+        {
+          "label": "2",
+          "text": "1230"
+        },
+        {
+          "label": "3",
+          "text": "4561"
+        },
+        {
+          "label": "4",
+          "text": "1653"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nThere were two candidates in an election, 10% of voters did not vote and 48 votes were found invalid. The winning candidate got 53% of the total votes and won by 304 votes.\n\n**Concept used:**\n\nPercentage\n\n**Calculation:**\n\nLet the total number of voters be 100x\n\n10% of voters did not vote \n\nNumber of voters who vote = 100x - 10x = 90x\n\n48 votes were found invalid\n\nValid votes = 90x - 48\n\nVotes gained by the winning candidate = frac{{53}}{{100}} times 100x = 53x\n\nVotes gained by the loosing candidate = 90x - 48 - 53x\n\n⇒ 37x - 48\n\nAs per the question,\n\n⇒ 53x - (37x - 48) = 304\n\n⇒ 16x = 304 - 48\n\n⇒ 16x = 256\n\n⇒ x = 16\n\n**∴ Total number of voters = 100x = 1600**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__** \n\nLet total number of votes be 100 units,\n\n10% voters did not cast their vote\n\n⇒ Votes polled = 90 units\n\nThe winning candidate got 53% of all the voters in the list and won by 304 votes,\n\n⇒ Winning candidate got = 53 units votes\n\n⇒ Other candidate got = 37 units votes\n\n⇒ Difference in votes = 53 units votes - 37 units votes = 304 - 48 = 256 votes\n\n⇒ 16 units = 256\n\n∴ 100 units votes = 256/16 × 100 = 1600 votes\n\n∴ Total number of voters = 1600.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "5f5247e2145dc5a158810d0f",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Out of his total salary, Varsha spends 35% in shopping and from the remaining she spends 40% on food and cloths and remaining she saves. If her savings is Rs. 11700, then find her expenditure on shopping.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 11500"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 12500"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 10500"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 9500"
+        }
+      ],
+      "correct": "3",
+      "solution": "**GIVEN:**\n\nVarsha spends 35% in shopping.\n\nFrom the remaining she spends 40% on food and cloths.\n\nHer savings = Rs. 11700\n\nCALCULATION:</strong",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "60b0b485d3fd5c42d9569675",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a class 40% are boys and rest are girls. If 60% of the girls and 40% boys passed in the test, what percent of total students passed?",
+      "options": [
+        {
+          "label": "1",
+          "text": "50%"
+        },
+        {
+          "label": "2",
+          "text": "55%"
+        },
+        {
+          "label": "3",
+          "text": "54%"
+        },
+        {
+          "label": "4",
+          "text": "52%"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nNumber of boys in the class = 40% of the total students\n\nNumber of boys passed the test = 40% of boys\n\nNumber of girls passed in the test = 60% of girls\n\n**Calculation:**\n\nLet the total number of students in the class be 100.\n\nNumber of boys = 40% of 100\n\n⇒ (40/100) × 100 = 40\n\nNumber of girls = 100 - 40 = 60\n\nThe number of boys passed the test = 40% × 40\n\n⇒ (40/100) × 40 = 16\n\nThe number of girls passed the test = 60% × 60\n\n⇒ (60/100) × 60 = 36\n\nTotal students passed the test = 16 + 36 = 52\n\nNow, required percentage = (52/100) × 100 = 52%\n\n**∴ The percent of total students passed is 52%.**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "56eb9df1995a2d4b9948046c",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of salary of a worker in July to that in June was 2(1)/(2) : 2(1)/(4) , by what % the salary of July more than salary of June . Also find by what %, salary of June was less than that of July.",
+      "options": [
+        {
+          "label": "1",
+          "text": "11(1)/(9)\\% and 10%"
+        },
+        {
+          "label": "2",
+          "text": "10% and *11(1)/(9)\\%*"
+        },
+        {
+          "label": "3",
+          "text": "Both 10%"
+        },
+        {
+          "label": "4",
+          "text": "Both 11(1)/(9)\\%"
+        }
+      ],
+      "correct": "1",
+      "solution": "ratio of salary in july and june = 2(1)/(2): 2(1)/(4)\n\n⇒5/2 : 9/4\n\n⇒10/4 : 9/4\n\n⇒10 : 9\n\nLet salary of june be 9m.\n\nThen percentage increase from june to july = (10m – 9m) × 100/9m\n\n= 100m/9m\n\n= 100/9 %\n\n= 11(1)/(9)\\%\n\nAlso,\n\nPercentage of salary of June was less than the of July = (10m – 9m) × 100/10m\n\n= 100m/10m\n\n= 100/10\n\n= 10 %",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "5f75eee7ec461baa41da0539",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Some students attended the paper of Hindi or English or both of them in the exam. If 70% of students attended the paper of Hindi, 50% gave paper of English then how many of them attend both papers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "20"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given**:\n\n1) 70% of students attend paper of Hindi = 30% attend only English\n\n2) 50% gave paper of English = 50% attend only Hindi\n\n**Calculations:**\n\n⇒ Students who attend only one paper = 30% + 50% = 80%\n\n**∴ Students who attend both papers = 100% - 80% = 20%**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "56d97fd8995a2d2126574f10",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "When the price of sugar decreases by 10%, a man could buy 1 kg more for Rs. 270. Then, the original price of sugar per kg is",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 25"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 30"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 27"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 32"
+        }
+      ],
+      "correct": "2",
+      "solution": "Let the original price of the sugar per kg be Rs. X. Let the quantity of sugar purchased initially be Y units in Rs. 270.\n\nThus, X × Y = 270 ….(1)\n\nGiven: Price of sugar decreased by 10%.\n\n∴New price of sugar per Kg = X - frac{{10}}{{100}}X\n\n= 0.9X\n\nSince the man could buy 1 more kg on his reduction of price, hence\n\n⇒ Quantity of sugar purchased = Y + 1\n\nAs the total expenditure remains the same i.e. Rs. 270, therefore\n\n⇒ 0.9X × (Y + 1) = 270 …(2)\n\nDividing equation (1) by (2), we get\n\n Rightarrow (Y)/({0.9 times ( {Y + 1) )}} = 1\n\n⇒ Y = 0.9Y + 0.9\n\n⇒ Y = 9 units\n\n∴ From equation (1) we get, X = Rs. 30\n\n [IMAGE: https://cdn.repeatermock.com/tb/9fcc9b041e973c7b59a36799e3d87690486e12aa62510b4f9495c2a20f8cc091.png] \n\n \n\n10% = 1\n\n100% = 10 kg final\n\nbut he buy = 10 - 1 = 9kg original\n\n9 kg = Rs.270 \n\n**1 kg = Rs.30 **",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9fcc9b041e973c7b59a36799e3d87690486e12aa62510b4f9495c2a20f8cc091.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "609b7b67b5581fff8c76df45",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Suresh gives 25 percent of an amount to his wife, 45 percent to his daughter, and 20 percent of the remaining part to his son. If Suresh is left with Rs. 4800, then how much did Suresh have in the beginning?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 40000"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 25000"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 10000"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 20000"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nSuresh gives 25 percent of an amount to his wife\n\nSuresh gives 45 percent to his daughter and\n\nSuresh gives 20 percent of the remaining part to his son\n\nAmount left at the end is Rs. 4800\n\n**Calculation:**\n\nLet the total initial amount with Suresh be 100.\n\nAccording to the question,\n\nSuresh gives 25 percent of an amount to his wife\n\n⇒ The amount left now = 100 - 25 = 75.\n\nThen, Suresh gives 45 percent to his daughter\n\n⇒ The amount left now = 75 - 45 = 30\n\nThen Suresh gives 20 percent of the remaining part to his son,\n\n⇒ 20% × 30 = 6\n\n⇒ The amount left now = 30 - 6 = 24\n\nNow 24 ≡ Rs. 4800 ( ≡ is a equivalent symbol)\n\n⇒ So 100 ≡ (4800/24) × 100 \n\n⇒ 100 ≡ 20000\n\n**∴ Suresh had Rs. 20000 in the beginning.**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "6088e74a46b852b3aa84897b",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A man spends 75% of his income. If his income increases by 20% and his expenditure also increase by 10%. The percentage of increase in his savings is",
+      "options": [
+        {
+          "label": "1",
+          "text": "60%"
+        },
+        {
+          "label": "2",
+          "text": "50%"
+        },
+        {
+          "label": "3",
+          "text": "40%"
+        },
+        {
+          "label": "4",
+          "text": "20%"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given Data:**\n\nSpends 75% of his income\n\nIncome increases by 20%\n\nExpenditure increases by 10%\n\n**Calculation:**\n\nLet the income be Rs 100\n\nExpenditure = 75% of 100 = 75\n\nSavings will be = 100 – 75 = 25\n\nIncome after the increase by 20% = 120\n\nExpenditure after the increase by 10% = 110% of 75 = 82.5\n\nNew savings = New income – New expenditure = 120 – 82.5 = 37.5\n\nIncrease in saving = 37.5 – 25 = 12.5\n\nPercent increase in savings = (12.5/25)×100\n\n**∴ Percent increase in savings is 50%**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "60499a5cb16cf60f504e043b",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In an examination A got 38% marks and failed by 42 marks. While B got 25% more marks than A and passed by 15 marks. What is the passing percentage for the examination ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "45%"
+        },
+        {
+          "label": "2",
+          "text": "43%"
+        },
+        {
+          "label": "3",
+          "text": "48%"
+        },
+        {
+          "label": "4",
+          "text": "51%"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nIn an examination A got 38% marks and failed by 42 marks. While B got 25% more marks than A and passed by 15 marks. \n\n**Concept used:**\n\nPercentage\n\n**Calculation:**\n\nLet the maximum marks for the examination be a.\n\nMarks scored by A\n\n⇒ frac{{38}}{{100}} × a = frac{{19a}}{{50}}\n\nMarks scored by B\n\n⇒ frac{{19a}}{{50}} × frac{{125}}{{100}} = frac{{95a}}{{200}}\n\nAs per the question, \n\n⇒ frac{{19a}}{{50}} + 42 = frac{{95a}}{{200}} - 15 {Keeping the passing marks same.}\n\n⇒ frac{{95a}}{{200}} - frac{{19a}}{{50}} = 57\n\n⇒ frac{{19a}}{{200}} = 57\n\n⇒ a = 3 × 200 = 600\n\nPassing marks = ( {600 times frac{{19}}{{50}}} ) + 42 = 270\n\n∴ Required passing percentage = frac{{270}}{{600}} times 100 = 45\\%",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "5f742d9539051a7ee6d45fc5",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In an examination, C got 25% less marks than B and A got 20% more marks than C. Find the marks which B got if difference between A’s marks and B’s marks is 36.",
+      "options": [
+        {
+          "label": "1",
+          "text": "380"
+        },
+        {
+          "label": "2",
+          "text": "540"
+        },
+        {
+          "label": "3",
+          "text": "360"
+        },
+        {
+          "label": "4",
+          "text": "400"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nC got 25% less marks than B\n\nA got 20% more marks than C\n\nDifference between B’s marks and A’s marks = 36\n\n**Calculation:**\n\nLet marks obtained by B be x\n\nThen, marks obtained by C = x × (100 – 25)/100\n\n⇒ 0.75x\n\nAnd, marks obtained by A = 0.75x × (100 + 20)/100\n\n⇒ 0.9x\n\nNow, A/c to question\n\n⇒ x – 0.9x = 36\n\n⇒ 0.1x = 36\n\n⇒ x = 360\n\n**∴ ****B got 360 marks**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nLet B got 100% marks\n\n⇒ C got = 75% marks\n\n⇒ A got = 90% marks (120/100 × 75 = 90%)\n\nNow, 100% – 90% = 36\n\n⇒ 10% = 36\n\n⇒ 100% = 360\n\n**∴ ****B got 360 marks**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    }
+  ]
+}

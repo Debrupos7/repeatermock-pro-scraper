@@ -1,0 +1,355 @@
+{
+  "test_id": "6a0f3aba471ce89a8c64c99c",
+  "title": "CT 05: Rational or Irrational Numbers",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:24:51.975617+00:00",
+  "questions": [
+    {
+      "qid": "5cb99b38fdb8bb7548b9a97a",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following numbers is irrational?",
+      "options": [
+        {
+          "label": "1",
+          "text": "sqrt[3]{{64}}"
+        },
+        {
+          "label": "2",
+          "text": "sqrt {64}"
+        },
+        {
+          "label": "3",
+          "text": "sqrt[6]{{64}}"
+        },
+        {
+          "label": "4",
+          "text": "sqrt[4]{{64}}"
+        }
+      ],
+      "correct": "4",
+      "solution": "Option 1: sqrt[3]{{64}} = 4\n\nOption 2: sqrt {64} = 8\n\nOption 3: sqrt[6]{{64}} = 2\n\nOption 4: sqrt[4]{{64}} = 2√2 = 2.828...\n\n⇒ sqrt[4]{{64}} cannot be expressed in terms of p/q, so sqrt[4]{{64}} is an irrational number.",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "63a0999b71a9001aa868c165",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The sum of two irrational numbers is",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rational"
+        },
+        {
+          "label": "2",
+          "text": "Irrational"
+        },
+        {
+          "label": "3",
+          "text": "Real"
+        },
+        {
+          "label": "4",
+          "text": "Integer"
+        }
+      ],
+      "correct": "3",
+      "solution": "Concept Used:-\n\nIrrational numbers are those numbers which can not be written in the form of p/q. Where p and q are integer and q is not equal to zero.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n \n• Sum or difference of two irrational numbers can be rational or irrational.\n \n• Product or division of two irrational numbers can be rational or irrational.\n\nExplanation:-\n\nSuppose there are two irrational numbers sqrt{3} and -sqrt{3}. The sum of these two numbers is 0.\n\nsqrt{3}+(-sqrt{3})=0\n\nHere, 0 is the rational number. So, the sum of two irrational number is a rational number.\n\nNow let there are two irrational numbers sqrt{3} and sqrt{3}. The sum of these two numbers is,\n\nsqrt{3}+sqrt{3}=2sqrt{3}\n\nHere, 2sqrt{3} is an irrational number. So, the sum of two irrational number is an irrational number.\n\nSo, the sum of two irrational numbers may be a rational or an irrational number.\n\nNow, we know that real number is the number which can be both rational or irrational number. So we can say that the sum of two irrational number is always a real number.\n\n**Thus, the correct option is 3. **",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5d31dec4fdb8bb7f956c8134",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following numbers will have an irrational square root?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11025"
+        },
+        {
+          "label": "2",
+          "text": "6025"
+        },
+        {
+          "label": "3",
+          "text": "9025"
+        },
+        {
+          "label": "4",
+          "text": "3025"
+        }
+      ],
+      "correct": "2",
+      "solution": "⇒ 11025 = 5² × 21²\n\n⇒ 6025 = 5² × 241\n\n⇒ 9025 = 5² × 19²\n\n⇒ 3025 = 5² × 11²\n\n∴ 6025 will have irrational square root.",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5fc21fb13befcaa0955c460a",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following is not an irrational number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "√2"
+        },
+        {
+          "label": "2",
+          "text": "√3"
+        },
+        {
+          "label": "3",
+          "text": "√4"
+        },
+        {
+          "label": "4",
+          "text": "π"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Concept used:**\n\nIrrational numbers are those numbers which have decimal expansion that neither terminating nor repeating.\n\n**Calculation:**\n\nLike π = 3.1415926…….\n\n√2 = 1.41421….\n\n√3 = 1.73205……\n\nBut √4 = 2\n\n**∴ √4 is not an irrational number**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6006e14f3072adcc6501d15d",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many irrational number lie between 5 to 7?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "Infinity"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Concept used:**\n\nIrrational number is a number which cannot be expressed as a simple fraction i.e., its decimal form is non terminating.\n\n**Calculation:**\n\nLet some number between 5 to 7 is:\n\n5.1234567...... , 5.5765876...., 6.12343567... and so on\n\n**∴ There are Infinite irrational number is lie between 5 and 7.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5f19a3dcd5dfae0d1196136a",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following numbers is irrational?",
+      "options": [
+        {
+          "label": "1",
+          "text": "sqrt[6]{{1000000}}"
+        },
+        {
+          "label": "2",
+          "text": "sqrt {1000000}"
+        },
+        {
+          "label": "3",
+          "text": "sqrt[4]{{1000000}}"
+        },
+        {
+          "label": "4",
+          "text": "sqrt[3]{{1000000}}"
+        }
+      ],
+      "correct": "3",
+      "solution": "Considering the given options\n\nOption 1\n\n⇒ sqrt[6]{{1000000}} = 10\n\nOption 2\n\n⇒ sqrt {1000000} = 1000\n\nOption 3\n\n⇒ sqrt[4]{{1000000}} = 31.622\n\nOption 4\n\n⇒ sqrt[3]{{1000000}} =100\n\n∴ Option 3 is only irrational number",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5dea2417f60d5d0e31eb3905",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which among the following is an irrational quantity?",
+      "options": [
+        {
+          "label": "1",
+          "text": "tan 30° tan 60°"
+        },
+        {
+          "label": "2",
+          "text": "sin 30°"
+        },
+        {
+          "label": "3",
+          "text": "tan 45°"
+        },
+        {
+          "label": "4",
+          "text": "cos 30°"
+        }
+      ],
+      "correct": "4",
+      "solution": "tan 30° tan 60° = √3 × 1/√3 = 1\n\nsin 30° = ½\n\ntan 45° = 1\n\ncos 30° = √3/2",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "639caa06c9f78e0bd6a3c41b",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The product of a non-zero rational and an irrational number is",
+      "options": [
+        {
+          "label": "1",
+          "text": "always irrational"
+        },
+        {
+          "label": "2",
+          "text": "always rational"
+        },
+        {
+          "label": "3",
+          "text": "rational or irrational"
+        },
+        {
+          "label": "4",
+          "text": "one"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nA non-zero rational and an irrational number.\n\n**Concept:**\n\nMathematical operations involving a rational and an irrational number.\n\n**Solution:**\n\nLet's take a non-zero rational number 5 and an irrational number sqrt2\n\nProduct of 5 and sqrt2 will be \n\n5sqrt2 which is an irrational number.\n\n**Hence, option 1 is correct.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5e47d619f60d5d31987c3807",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The value of (1)/({sqrt {7 - 4sqrt 3 ) }} is closest to;",
+      "options": [
+        {
+          "label": "1",
+          "text": "3.7"
+        },
+        {
+          "label": "2",
+          "text": "4.2"
+        },
+        {
+          "label": "3",
+          "text": "1.2"
+        },
+        {
+          "label": "4",
+          "text": "4.1"
+        }
+      ],
+      "correct": "1",
+      "solution": "(1)/({sqrt {7 - {{ )}4sqrt 3 } }}{{ }} = {{ }}(1)/({sqrt {{2²){{ }} + {{ }}{{(sqrt 3 )}²}--{{ }}2{{ }} times {{ }}2{{ }} times {{ }}sqrt 3 {{ }}} }}{{ }} = {{ }}(1)/({sqrt {{{( {2 - sqrt 3 ) )}²}} }}{{ }} = {{ }}(1)/({2 - sqrt 3 {{ )}}}{{ }} times {{ }}frac{{2{{ }} + {{ }}sqrt 3 }}{{2{{ }} + {{ }}sqrt 3 }}\n\n⇒ 2 + √3\n\n⇒ 2 + 1.7\n\n⇒ 3.7",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5f438ddec6ae3475b3119b8e",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following is an irrational number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "frac{{sqrt {25} }}{{sqrt {225}}}"
+        },
+        {
+          "label": "2",
+          "text": "frac{{sqrt {49} }}{{sqrt {121} }}"
+        },
+        {
+          "label": "3",
+          "text": "frac{{sqrt {49} }}{7}"
+        },
+        {
+          "label": "4",
+          "text": "frac{{sqrt {125} }}{{sqrt {25} }}"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Concept:**\n\nThe irrational numbers are all the real numbers that cannot be expressed as the ratio of two integers.\n\n**Calculation:**\n\nfrac{{sqrt {25} }}{{sqrt {225} }} = frac{{sqrt {5{{ }} times {{ }}5} }}{{{{ }}sqrt {15{{ }} times {{ }}15} }} = (5)/({15)}\n\nThis is a rational number.\n\nfrac{{sqrt {49} }}{{121}} = frac{{sqrt {7{{ }} times {{ }}7} }}{{{{ }}sqrt {11{{ }} times {{ }}11} }} = (7)/({11)}\n\nThis is a rational number.\n\nfrac{{sqrt {49} }}{7} = frac{{sqrt {7{{ }} times {{ }}7} }}{{{{ }}7}} = (7)/(7) = 1\n\nThis is a rational number.\n\nfrac{{sqrt {125} }}{{sqrt {25} }} = frac{{sqrt {5{{ }} times {{ }}5{{ }} times {{ }}5} }}{{{{ }}sqrt {5{{ }} times {{ }}5} }} = frac{{5sqrt 5 }}{5} =sqrt 5 \n\n∴ This is an irrational number because we cannot write it in p/q form.",
+      "tags": [
+        "Number System"
+      ]
+    }
+  ]
+}

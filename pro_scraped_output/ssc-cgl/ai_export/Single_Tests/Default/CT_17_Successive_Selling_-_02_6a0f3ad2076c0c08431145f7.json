@@ -1,0 +1,349 @@
+{
+  "test_id": "6a0f3ad2076c0c08431145f7",
+  "title": "CT 17: Successive Selling - 02",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:27:46.969183+00:00",
+  "questions": [
+    {
+      "qid": "66a771cb9d1d9780a6160162",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The price of a television set and a washing machine are in the ratio of 8 : 7. If the cost of the television set is ₹4,800 more than the cost of the washing machine, then find the price of the washing machine.",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹33,000"
+        },
+        {
+          "label": "2",
+          "text": "₹33,500"
+        },
+        {
+          "label": "3",
+          "text": "₹33,600"
+        },
+        {
+          "label": "4",
+          "text": "₹33,700"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe price of a television set and a washing machine are in the ratio of 8:7.\n\nThe cost of the television set is ₹4,800 more than the cost of the washing machine.\n\n**Formula used:**\n\nLet the price of the washing machine be ₹7x.\n\nThen, the price of the television set is ₹8x.\n\nGiven, 8x - 7x = ₹4,800\n\n**Calculation:**\n\n8x - 7x = 4800\n\n⇒ x = 4800\n\n⇒ Price of washing machine = 7x = 7×4800\n\n⇒ Price of washing machine = ₹33,600\n\n**∴ The correct answer is option 3.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "5f9142cc260812165d9ab5b3",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A shopkeepers made a profit of 16% on his goods. If the price at which he buys decreases by 20% while he reduces his selling price by 23%, what is now his percentage of profit? (correct to one decimal place)",
+      "options": [
+        {
+          "label": "1",
+          "text": "11.6"
+        },
+        {
+          "label": "2",
+          "text": "15.4"
+        },
+        {
+          "label": "3",
+          "text": "12.9"
+        },
+        {
+          "label": "4",
+          "text": "14.6"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given**:\n\nA shopkeepers made a profit of 16% on his goods.\n\n**Formula Used**:\n\nprofit = selling price - cost price \n\n**Calculation**:\n\nLet his cost price = Rs. 100x\n\n⇒ Selling price to get 16% profit = (116)/(100) × 100x = Rs. 116x\n\n⇒ Now, new cost price = (80)/(100) × 100x = Rs. 80x\n\n⇒ New selling price = (77)/(100) × 116x = Rs. 89.32x \n\n∴ New Profit % = (89.32x - 80x)/(80x) × 100\n\n⇒ (9.32)/(4) times 5 = 11.6%\n\n∴ required profit = 11.6 %\n\n2f",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "666fbc1bf79517e209a53a98",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Dinesh purchases 12 dozens of apples at the rate of Rs. 300 per dozen. He sells each apple at the rate of Rs. 30. What is the profit of Dinesh?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25 percent"
+        },
+        {
+          "label": "2",
+          "text": "15 percent"
+        },
+        {
+          "label": "3",
+          "text": "10 percent"
+        },
+        {
+          "label": "4",
+          "text": "20 percent"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nDinesh purchases 12 dozens of apples at ₹300 per dozen.\n\nHe sells each apple at ₹30.\n\n**Solution:**\n\nStep 1: Calculate the total cost price:\n\nCost Price = 12 × 300 = ₹3600\n\nStep 2: Calculate the total selling price:\n\nTotal apples = 12 × 12 = 144 apples\n\nSelling Price = 144 × 30 = ₹4320\n\nStep 3: Calculate the profit:\n\nProfit = ₹4320 - ₹3600 = ₹720\n\nProfit % = (720 × 100)/3600 = 20%\n\n**∴ Dinesh's profit is 20%.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "64b21b5cc8987ee6df01acce",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A piece of land was sold to a person through two middlemen, each gaining 25%. If the person purchased the land for ₹6,25,000, the original cost (in ₹) of the land was:",
+      "options": [
+        {
+          "label": "1",
+          "text": "4,25,000"
+        },
+        {
+          "label": "2",
+          "text": "4,00,000"
+        },
+        {
+          "label": "3",
+          "text": "3,50,000"
+        },
+        {
+          "label": "4",
+          "text": "3,75,000"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Detailed solution:- **\n\nLet the original cost of the land be = Rs X\n\nIncrease of cost through two middlemen each gaining 25%\n\n⇒ X × (125/100) × (125/100) = Rs 625000\n\n \n\n⇒ X = (625000 × 16) /25 = Rs 400000\n\n**∴ The original cost of the land was Rs __400000__.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "665c3e354c2fc79d2255c870",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A man bought apples at the rate of 8 apples for Rs. 34 and sold them at the rate of 12 apples for Rs.57. How many apples should be sold to earn a net profit of Rs.45?",
+      "options": [
+        {
+          "label": "1",
+          "text": "135"
+        },
+        {
+          "label": "2",
+          "text": "90"
+        },
+        {
+          "label": "3",
+          "text": "150"
+        },
+        {
+          "label": "4",
+          "text": "100"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Formula used:**\n\nProfit = Selling Price - Cost Price\n\nNet Profit = (Selling Price per apple × Number of apples sold) - (Cost Price per apple × Number of apples sold)\n\n**Calculations:**\n\nCost Price per apple = Rs. 34 ÷ 8 = Rs. 4.25\n\nSelling Price per apple = Rs. 57 ÷ 12 = Rs. 4.75\n\nNet Profit per apple = Rs. 4.75 - Rs. 4.25 = Rs. 0.50\n\nLet x be the number of apples sold to earn a net profit of Rs.45.\n\n⇒ x × 0.50 = 45\n\n⇒ x = 45 ÷ 0.50\n\n⇒ x = 90\n\n**∴ The man should sell 90 apples to earn a net profit of Rs.45.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "64c8fc89de20337546d51ae2",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A real estate agent sells a site to Amit for Rs 1,80,000 at a profit of 25% and Amit sells it to Sukhi at a profit of 10%. What is the cost price of Sukhi?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 1,97,000"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 1,98,000"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 2,01,500"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 2,47,000"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: \n\nAgent sold to Amit (SP) = 180000\n\nReal estate sells to Amit at Profit% = 25%\n\nAmit sells to Sukhi at Profit% = 10%\n\nCalculation:\n\nHere, SP for Amit = CP of Sukhi = 1,80,000\n\n⇒ CP for Sukhi = 1,80,000 × (110/100)\n\n⇒ CP for Sukhi = 1,98,000\n\nThe correct answer is 1,98,000.",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "635b7f950cfb78b9feb225d1",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A wholesaler sells a tin of oil at Rs. 540 and bears a loss of 10%. Now, if he decides to sell another tin of oil with same cost at Rs. 696, his profit percentage in the sale of second tin will be equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "15%"
+        },
+        {
+          "label": "2",
+          "text": "18%"
+        },
+        {
+          "label": "3",
+          "text": "16%"
+        },
+        {
+          "label": "4",
+          "text": "12%"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nLoss in selling the first tin = 10%\n\nSelling Price of the first tin = Rs. 540\n\nSelling Price of the second tin = Rs. 696\n\n**Calculation:**\n\nWhen a tin of oil is sold at Rs. 540 then there is a loss of 10%\n\nSelling price = 90% = 540\n\nSo, cost price = 100% = 540/90 × 100 = Rs. 600\n\nNow,\n\nSelling price of the second tin = Rs. 696\n\nSo, Profit = SP - CP = 696 - 600 = RS. 96\n\nThus, Profit% = 96/600 × 100 = 96/6 = 16%\n\n**∴ The correct answer is option (3).**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "66a4a20ffd1c1403c3abe8c2",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sells a bike to B at 45% profit. Then B sells it to C at 30% profit. If C pays ₹43,355, then what is the cost price of the bike for A?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹23,000"
+        },
+        {
+          "label": "2",
+          "text": "₹27,000"
+        },
+        {
+          "label": "3",
+          "text": "₹21,000"
+        },
+        {
+          "label": "4",
+          "text": "₹29,000"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nA sells a bike to B at 45% profit. Then B sells it to C at 30% profit. If C pays ₹43,355, then what is the cost price of the bike for A?\n\n**Formula used:**\n\nLet the cost price for A be P.\n\nCost price for B = P + 45% of P = P(1 + 45/100) = P × 1.45\n\nSelling price for B (cost price for C) = (P × 1.45) + 30% of (P × 1.45) = (P × 1.45) × 1.30\n\n**Calculation:**\n\n43,355 = (P × 1.45) × 1.30\n\n⇒ 43,355 = P × 1.885\n\n⇒ P = 43,355 / 1.885\n\n⇒ P = 23,000\n\n**∴ The correct answer is option (1).**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "5a94f16ce28d27106f5c5942",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Zeal sells a dress to Sonia at 20% profit and Sonia sells it to rim by making 50% profit. Rim pays Rs. 6444 for the dress, what would be the cost price for zeal?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3670"
+        },
+        {
+          "label": "2",
+          "text": "5560"
+        },
+        {
+          "label": "3",
+          "text": "5383"
+        },
+        {
+          "label": "4",
+          "text": "3580"
+        }
+      ],
+      "correct": "4",
+      "solution": "Cost price for Rim is the selling price for Sonia\n\n⇒ S.P = C.P + profit\n\n⇒ 6444 = C.P (for Sonia) + 50% of C.P\n\n⇒ 6444 = 150 × C.P/100\n\n⇒ C.P = 4296\n\nC.P for Sonia is the selling price for zeal.\n\n⇒ S.P = C.P (for zeal) + profit\n\n⇒ 4296 = C.P + 20% profit\n\n⇒ 4296 = 120 × C.P/100\n\n∴ C.P = 3580",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "606c79ad702216c99cfe7e6d",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A bought an article for Rs. 6200 and sold it at a loss of 20%. With this amount another article is bought and sold it at a gain of 30%. What was his overall gain or loss percentage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8%"
+        },
+        {
+          "label": "2",
+          "text": "4%"
+        },
+        {
+          "label": "3",
+          "text": "6%"
+        },
+        {
+          "label": "4",
+          "text": "5%"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nA bought an article for Rs.6200 and sold it at a loss of 20%. With this amount another article is bought and sold it at a gain of 30%\n\nFormula used:\n\nProfit = (SP - CP)\n\nProfit % = (Profit/CP) × 100\n\nLoss = (CP - SP)\n\nLoss % = (Loss/CP)&",
+      "tags": [
+        "Profit and Loss"
+      ]
+    }
+  ]
+}

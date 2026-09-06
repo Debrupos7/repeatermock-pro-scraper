@@ -1,0 +1,397 @@
+{
+  "test_id": "6a0f3ce8f886fe6323e12634",
+  "title": "CT 46: Congruence and Similarity - 01",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:18:19.330701+00:00",
+  "questions": [
+    {
+      "qid": "6798302492072bce431b490c",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "ΔABC ∼ ΔQRP and PQ = 6 cm, QR = 8 cm and PR = 10 cm. If ar (ΔABC) : ar (ΔPQR) = 1 : 4, then AB is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 cm"
+        },
+        {
+          "label": "2",
+          "text": "5 cm"
+        },
+        {
+          "label": "3",
+          "text": "3 cm"
+        },
+        {
+          "label": "4",
+          "text": "4 cm"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nΔABC ~ ΔQRP\n\nQR = 8 cm\n\nPR = 10 cm\n\nPQ = 6 cm\n\nar(ΔABC) : ar(ΔQRP) = 1 : 4\n\n**Formula used:**\n\nIf ΔABC ~ ΔQRP,\n\nThen ar(ΔABC) /",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6376c14cc107fc0e9fb260ac",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "ΔABC and ΔDEF are two triangles such that ΔABC ≅ ΔFDE. If AB = 5 cm, ∠B = 40° and ∠A = 80°, then which of the following options is true?",
+      "options": [
+        {
+          "label": "1",
+          "text": "DF = 5 cm, ∠E = 60°"
+        },
+        {
+          "label": "2",
+          "text": "DE = 5 cm, ∠F = 60°"
+        },
+        {
+          "label": "3",
+          "text": "DE = 5 cm, ∠D = 60°"
+        },
+        {
+          "label": "4",
+          "text": "DE = 5 cm, ∠E = 60°"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nΔABC and ΔDEF are two triangles such that ΔABC ≅ ΔFDE. \n\nAB = 5 cm, ∠B = 40° and ∠A = 80°\n\n**Concept used:**\n\nCongruency of triangle = if a triangle is congruent to another triangle then angle or side must be equal to the same triangle\n\nSum of angles of triangle = 180° \n\n**Calculation:**\n\nAccording to the question,\n\nΔABC ≅ ΔFDE then,\n\n⇒ AB = FD\n\n⇒ BC = DE\n\n⇒ CA = EF\n\n⇒ ∠A = ∠F = 80°\n\n⇒ ∠B = ∠D = 40°\n\n⇒ ∠C = ∠E \n\nThrough the Sum of angles,\n\n180° = ∠A + ∠B + ∠C\n\n⇒ 180° = 80° + 40° + ∠C\n\n⇒ 180° = 120° + ∠C \n\n⇒ 180° - 120° = ∠C\n\n⇒ ∠C = 60°\n\nSince ∠C = ∠E then ∠E = 60°\n\n**∴ The correct option is DF = 5 cm, ∠E = 60°.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "67050387e2d9dbc150a1fd76",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The points P and S are on the same side of the line segment QR, such that angle PQR = 90circ, angle SRQ = 90circ and PQ = SR. Select the correct statement.",
+      "options": [
+        {
+          "label": "1",
+          "text": "∆PQR ≅ ∆SRQ by RHS"
+        },
+        {
+          "label": "2",
+          "text": "∆PQR ≅ ∆SQR by SAS"
+        },
+        {
+          "label": "3",
+          "text": "∆PQR ≅ ∆SQR by RHS"
+        },
+        {
+          "label": "4",
+          "text": "∆PQR ≅ ∆SRQ by SAS"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIdentify the given matching components between the two triangles directly.\n\nWe are given two equal sides (PQ = SR) and one common side (QR = RQ).\n\nThe angle exactly between these sides is given as equal (∠PQR = ∠SRQ = 90°).\n\nSince the equal angle is perfectly included between the equal sides, the SAS (Side-Angle-Side) criterion applies.\n\nRHS does not apply here because the hypotenuses (PR and SQ) are not given as equal initially.\n\n**∴ The correct answer is ∆PQR ≅ ∆SRQ by SAS.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPoints P and S are on the same side of the line segment QR.\n\n∠PQR = 90°\n\n∠SRQ = 90°\n\nPQ = SR\n\n<svg width=\"420\" height=\"240\" viewBox=\"0 0 420 240\" xmln",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "64ccdd2a6bae8bcec14e560c",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The three sides of two triangles are 4, 5 and 6 cm. Select the INCORRECT statement.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The angle opposite to the greater side in those triangles will be greater."
+        },
+        {
+          "label": "2",
+          "text": "The area of the two triangles will be different."
+        },
+        {
+          "label": "3",
+          "text": "The two triangles are congruent."
+        },
+        {
+          "label": "4",
+          "text": "The two triangles are scalene triangles."
+        }
+      ],
+      "correct": "2",
+      "solution": "**Calculation:**\n\nIf the three sides of two triangles are equal, then their area must be equal.\n\n**∴ The correct option is 2.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "63b28f3637e5973b698ef201",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the ASA congruence rule of triangles, where A and S represents angle and side of triangle respectively?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Two triangles are said to be congruent if all three sides of both the triangles are equal."
+        },
+        {
+          "label": "2",
+          "text": "Two triangles are said to be congruent if 2 angles and the included side of one triangle are equal to 2 angles and the included side of the other triangle."
+        },
+        {
+          "label": "3",
+          "text": "Two triangles are said to be congruent if 2 sides and the included angle of one triangle are equal to 2 sides and the included angle of the other triangle."
+        },
+        {
+          "label": "4",
+          "text": "Two triangles are said to be congruent if any pair of 2 angles and any 1 pair of sides of both the triangles are equal."
+        }
+      ],
+      "correct": "2",
+      "solution": "Two triangles are said to be congruent if two angles and the included side of one triangle are equal to two angles and the included side of another triangle.\n\n [IMAGE: https://cdn.repeatermock.com/tb/e91c70f3c248d9c7a35678396cdeb2580922aa934c8a2a2df32196703ea0f343.png] \n\nIn the above-given figure, ∠ B = ∠ Q, ∠ C = ∠ R, and sides between ∠B and ∠C , ∠Q and ∠ R are equal to each other i.e. BC= QR. Hence, Δ ABC ≅ Δ PQR.\n\n**∴ The correct answer is Option 2.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e91c70f3c248d9c7a35678396cdeb2580922aa934c8a2a2df32196703ea0f343.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "636615c64d1faf309b70808c",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a ΔPQR, PQ = PR, and S is a point on PQ, such that PS = RS = QR. Then what is the measure of ∠QPR?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60°"
+        },
+        {
+          "label": "2",
+          "text": "72°"
+        },
+        {
+          "label": "3",
+          "text": "23°"
+        },
+        {
+          "label": "4",
+          "text": "36°"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nPQ = PR\n\nS is a point on PQ such that PS = RS = QR\n\n**Concept Used:**\n\nThe sum of the angles of a triangle is 180º\n\nIf the side of the triangle is equal then the correspondings angle are also equal\n\n**Calculations:**\n\nLet the angle QPR be x\n\nIn bigtriangleupPSR\n\n⇒ PS =SR\n\n⇒ ∠SPR = ∠SRP\n\n⇒ so, ∠SRP = x\n\nSum of angles of the triangle = 180\n\n⇒ ∠PSR + x + x = 180\n\n⇒ ∠PSR = 180 - 2x\n\n∠ PSR + ∠ RSQ = 180 (Linear Pair Angels) \n\n⇒ ∠RSQ = 180 - ∠PSR\n\n⇒ ∠RSQ = 180 - (180 - 2x) = 2x\n\nSimilarly, In bigtriangleupSQR\n\nQR = RS\n\n⇒ ∠RSQ = ∠SQR\n\n⇒ ∠SQR = 2x\n\nSo, ∠PQR = ∠SQR = 2x\n\n [IMAGE: https://cdn.repeatermock.com/tb/7acb1d3f87c2b6064155887400e5bb67d2c6015e2f709c4772ada08c0180f2bd.png] \n\nIn ∠PQR, PR = PQ\n\n⇒ ∠PQR = ∠PRQ \n\n⇒ 2x = (180 - 4x + x)\n\n⇒ 2x = 180 - 3x\n\n⇒ 5x = 180\n\n⇒ x = 36° \n\n**∴ The measure of angle ∠QPR is 36º**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7acb1d3f87c2b6064155887400e5bb67d2c6015e2f709c4772ada08c0180f2bd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6334086ce9a1ab65b8254c96",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In ΔADE, B and C are the point on the side AD and AE respectively. The line joining BC is parallel to the side DE. If BC = (x + 2) cm and DE = (x² + 2x) cm and the length of BD is twice the length of AB, then find the length of BC.",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 cm"
+        },
+        {
+          "label": "2",
+          "text": "10 cm"
+        },
+        {
+          "label": "3",
+          "text": "15 cm"
+        },
+        {
+          "label": "4",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nIn ΔADE, B and C are the points on the side AD and AE respectively. \n\nBC = x + 2 and DE = x2 + 2x \n\nBD = 2AB\n\n**Calculation:**\n\nAccording to the question, the required image is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a698eb38e459f30e1ee0b2b84a171abbf195fd622e494295520fcc1b9d94b6db.png] \n\nSince BC and DE are parallel, \n\nTherefore, ΔABC ∼ ΔADE\n\nNow,\n\n⇒ (AB)/(AD)=(BC)/(DE)\n\n⇒ (AB)/(BD + AB)=(x+2)/(x² + 2x)\n\n⇒ (AB)/(2AB + AB)=(x+2)/(x² + 2x)\n\n⇒ (1)/(3)=(x+2)/(x² + 2x)\n\n⇒ x² + 2x = 3(x + 2)\n\n⇒ x2 + 2x = 3x + 6\n\n⇒ x2 + 2x - 3x - 6 = 0\n\n⇒ x(x + 2) - 3(x + 2) = 0\n\n⇒ (x + 2)(x - 3) = 0\n\nOn solving we get,\n\nx = 3, -2\n\nSince a negative value of length cannot be possible, \n\nTherefore, \n\nx = 3\n\nTherefore, BC = x + 2 = 3 + 2 = 5 cm\n\n**Therefore, '5 cm' is the required answer.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a698eb38e459f30e1ee0b2b84a171abbf195fd622e494295520fcc1b9d94b6db.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "635902c0eee6d60609a3f18b",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If ΔABC is similar to ΔDEF such that 2AB = DE and BC = 8 cm, then EF is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "4 cm"
+        },
+        {
+          "label": "2",
+          "text": "16 cm"
+        },
+        {
+          "label": "3",
+          "text": "12 cm"
+        },
+        {
+          "label": "4",
+          "text": "8 cm"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen two triangles are similar, the ratio of their corresponding sides is equal.\n\nGiven ΔABC ~ ΔDEF and 2AB = DE ⇒ DE/AB = 2.\n\nThe scale factor from ΔABC to ΔDEF is 2.\n\n∴ EF = 2 × BC = 2 × 8 = 16 cm.\n\n**∴ The correct answer is 16 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nΔABC ~ ΔDEF\n\n2AB = DE ⇒ AB/DE = 1/2\n\nBC = 8 cm\n\n**Formula Used:**\n\nIf two triangles are similar, the ratio of their corresponding sides is equal:\n\nAB/DE = BC/EF = AC/DF\n\n \n\n \n\n A\n B\n C\n D\n E\n F\n AB\n DE = 2AB\n BC = 8 cm\n EF = ?\n ΔABC ~ ΔDEF → Scale Factor = 2\n\n**Calculations:**\n\n⇒ AB/DE = BC/EF\n\n⇒ 1/2 = 8 / EF\n\n⇒ EF = 8 × 2\n\n⇒ EF = 16 cm\n\n**∴ The correct answer is 16 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimilarity of Triangles\n\nTwo triangles are similar if their corresponding angles are equal and corresponding sides are proportional. ΔABC ~ ΔDEF ⇒ AB/DE = BC/EF = AC/DF.\n\nArea of Similar Triangles\n\nThe ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides: Area(ΔABC) / Area(ΔDEF) = (AB/DE)².\n\nPerimeter of Similar Triangles\n\nThe ratio of the perimeters of two similar triangles is equal to the ratio of their corresponding sides: Perimeter(ΔABC) / Perimeter(ΔDEF) = AB/DE.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "62b73f46f5e510b50cab5df7",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In ΔABC, DE || BC, intersecting AB at D and AC at E. AD : BD :: 2 : 3 and the area of trapezium BDEC is 63 cm². What is the area of ΔADE?",
+      "options": [
+        {
+          "label": "1",
+          "text": "14 cm²"
+        },
+        {
+          "label": "2",
+          "text": "12 cm²"
+        },
+        {
+          "label": "3",
+          "text": "28 cm²"
+        },
+        {
+          "label": "4",
+          "text": "42 cm²"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nIn ΔABC, DE || BC, intersecting AB at D and AC at E\n\nAD : BD :: 2 : 3 \n\nThe area of trapezium BDEC is 63 cm2\n\n**Formula used:**\n\nArea of Trapezium = 1/2 × (Sum of || sides) × Height\n\n**Concept used:**\n\nSimilarity Property = AD : AB = DE : BC = AE : AC\n\nΔADE/ΔABC = (AD)²/(AB)² \n\n**Calculations:**\n\nAccording to the question,\n\n [IMAGE: https://cdn.repeatermock.com/tb/157a84a222dee33d601337b2a04653267317227f912b5e3a718ebbc8ee1d7865.png] \n\nIn ΔABC,\n\n⇒ DE || BC\n\n⇒ ∠A is common\n\n⇒ ∠D = ∠B and ∠E = ∠C [Angle made by parallel lines]\n\nHence, ΔADE is congruent to ΔABC\n\nNow we have,\n\n⇒ AD/BD = 2/3\n\n⇒ AD/AB = 2/5\n\n⇒ ΔADE/ΔABC = (AD)2/(AB)2 = 4/25\n\nNow Area of ΔADE\n\nArea of ΔADE = (Area of ΔADE) - (Area of trapezium BDEC)\n\n⇒ Area of ΔADE = 25/4(Area of ΔADE) - 63\n\n⇒ 63 = ar(ΔADE)(25/4 - 1)\n\n⇒ 63 = ar(ΔADE)(21/4)\n\n⇒ ar(ΔADE) = 4/21 × 63\n\n⇒ ar(ΔADE) = 4 × 3 = 12 cm² \n\n**∴ The area of ΔADE is 12 cm2.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/157a84a222dee33d601337b2a04653267317227f912b5e3a718ebbc8ee1d7865.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6527fbc0e212d806e0d47c96",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a ∆PQR and ∆ ABC, ∠P = ∠A and AC = PR. Which of the following conditions is true for triangle PQR and ABC to be congruent?",
+      "options": [
+        {
+          "label": "1",
+          "text": "AB = PQ by SSS"
+        },
+        {
+          "label": "2",
+          "text": "AB = PQ by SAS"
+        },
+        {
+          "label": "3",
+          "text": "BC = QR by ASS"
+        },
+        {
+          "label": "4",
+          "text": "∠Q = ∠B by AAA"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Solution:**\n\nIf two sides and the included angle of a triangle is equal to the two sides and the included angle of another triangle, then the two triangles are said to be congruent by SAS\n\ncongruence criteria. Only SAS congruence criteria holds true not ASS or SSA rule.\n\nIn Δ PQR and Δ ABC,\n\n∠P = ∠A (given),\n\nAC = PR (given),\n\nΔ PQR and Δ ABC will be congruent by SAS rule only when AB = PQ.",
+      "tags": [
+        "Geometry"
+      ]
+    }
+  ]
+}

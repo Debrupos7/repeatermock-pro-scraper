@@ -1,0 +1,844 @@
+{
+  "test_id": "6a0f45a325f9d428c136f1c7",
+  "title": "PYST 23: SSC CGL 2025 Tier-I Similar Paper - Quantitative Aptitude (Held On: 19th Sep 2025 Shift 2)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:03:02.262534+00:00",
+  "questions": [
+    {
+      "qid": "695cf9fdf394947119559ce3",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the sum of the square root of x and the square root of y is 10 and their difference is 2, determine the values of x and y. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "x = 16, y = 44"
+        },
+        {
+          "label": "2",
+          "text": "x = 36, y = 16"
+        },
+        {
+          "label": "3",
+          "text": "x = 64, y = 36"
+        },
+        {
+          "label": "4",
+          "text": "x = 100, y = 64"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n√x + √y = 10\n\n√x - √y = 2\n\n**Formula Used:**\n\n(a + b)(a - b) = a² - b²\n\nSubstitution method for simultaneous equations\n\n**Calculation:**\n\n⇒ Add the equations: (√x + √y) + (√x - √y) = 10 + 2\n\n⇒ 2√x = 12\n\n⇒ √x = 6\n\n⇒ Substitute √x = 6 into the first equation: 6 + √y = 10\n\n⇒ √y = 4\n\n⇒ Square both values to find x and y:\n\n⇒ x = (√x)² = 6² = 36\n\n⇒ y = (√y)² = 4² = 16\n\n**∴ The correct answer is x = 36, y = 16.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "695cf9fec72d0b7b5defb5e8",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the smallest 4-digit number that is a perfect square. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1024"
+        },
+        {
+          "label": "2",
+          "text": "1089"
+        },
+        {
+          "label": "3",
+          "text": "1156"
+        },
+        {
+          "label": "4",
+          "text": "1225"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nSmallest 4-digit number = 1000\n\n**Formula Used:**\n\nPerfect square = n², where n is an integer.\n\n**Calculation:**\n\n⇒ Check √1024 = 32 (integer)\n\n⇒ Check √1089 = 33 (integer)\n\n⇒ Check √1156 = 34 (integer)\n\n⇒ Check √1225 = 35 (integer)\n\n⇒ Smallest perfect square ≥ 1000 is 1024.\n\n**∴ The correct answer is 1024.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "695cf9fe58e20876fabc3f6d",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Provided that 25% of m is equivalent to 100% of n, find the ratio of m : n ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 : 4"
+        },
+        {
+          "label": "2",
+          "text": "4 : 1"
+        },
+        {
+          "label": "3",
+          "text": "1 : 2"
+        },
+        {
+          "label": "4",
+          "text": "2 : 1"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n25% of m = 100% of n\n\n**Formula Used:**\n\nPercentage formula: x% of a = (x/100) × a\n\nRatio formula: m/n\n\n**Calculation:**\n\n⇒ 25% of m = 100% of n\n\n⇒ (25/100) × m = (100/100) × n\n\n⇒ m/4 = n\n\n⇒ m/n = 4/1\n\n**∴ The correct answer is 4 : 1.**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "695cf9fea5eb87cc860b3806",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A merchant combines two types of coffee - one costing 80 per kg and the other costing 120 per kg, in a 2 : 3 ratio. If the merchant sells the combined variety at 114.40 per kg, find the gain or loss percentage. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10% Loss"
+        },
+        {
+          "label": "2",
+          "text": "10% Gain"
+        },
+        {
+          "label": "3",
+          "text": "8% Gain"
+        },
+        {
+          "label": "4",
+          "text": "8% Loss"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nCost of coffee type 1 = 80 per kg\n\nCost of coffee type 2 = 120 per kg\n\nRatio of coffee types = 2 : 3\n\nSelling price of the combined variety = 114.40 per kg\n\n**Formula Used:**\n\nAverage cost price = (Cost of type 1 × Ratio of type 1 + Cost of type 2 × Ratio of type 2) / Total ratio\n\nGain or Loss",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "695cf9ff34ab54248705dd2b",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A watch, originally priced at 1200, receives two consecutive price reductions: a first markdown of 10 percent, followed by another 20 percent discount. Determine the final selling price of the watch after both these price adjustments have been applied. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "864"
+        },
+        {
+          "label": "2",
+          "text": "792"
+        },
+        {
+          "label": "3",
+          "text": "768"
+        },
+        {
+          "label": "4",
+          "text": "700"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nOriginal price = 1200\n\nFirst discount = 10%\n\nSecond discount = 20%\n\n**Formula Used:**\n\nPrice after discount = Original price × (1 - Discount/100)\n\nFinal price after consecutive discounts = Price after first discount × (1 - Second discount/100)\n\n**Calculation:**\n\n⇒ Price after first discount = 1200 × (1 - 10/100)\n\n⇒ Price after first discount = 1200 × 0.9\n\n⇒ Price after first discount = 1080\n\n⇒ Final price after second discount = 1080 × (1 - 20/100)\n\n⇒ Final price after second discount = 1080 × 0.8\n\n⇒ Final price after second discount = 864\n\n**∴ The correct answer is 864.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "695cf9ff34739586dd7a97e9",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Having initially set the advertised price of a specific smartphone at a 20 percent premium over its cost price, a distributor subsequently offered an unspecified discount. If, following this concession, the distributor sells at the original cost price, what was the discount percentage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16.67 percent"
+        },
+        {
+          "label": "2",
+          "text": "20 percent"
+        },
+        {
+          "label": "3",
+          "text": "15 percent"
+        },
+        {
+          "label": "4",
+          "text": "10 percent"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nAdvertised price is 20% more than cost price.\n\nFinal selling price after discount = cost price.\n\n**Formula Used:**\n\nDiscount Percentage = [(Advertised Price - Selling Price) / Advertised Price] × 100\n\nAdvertised Price = Cost Price × (1 + 20/100)\n\n**Calculation:**\n\n⇒ Advertised Price = Cost Price × (1 + 0.2)\n\n⇒ Advertised Price = Cost Price × 1.2\n\n⇒ Discount = Advertised Price - Selling Price\n\n⇒ Discount = (Cost Price × 1.2) - Cost Price\n\n⇒ Discount = Cost Price × 0.2\n\n⇒ Discount Percentage = [(Cost Price × 0.2) / (Cost Price × 1.2)] × 100\n\n⇒ Discount Percentage = (0.2 / 1.2) × 100\n\n⇒ Discount Percentage = 16.67%\n\n**∴ The correct answer is 16.67 percent.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "695cf9ff99d7f89c26714a30",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the result for x + y given that the sum of their cubes x3 + y3 is 72 and the product xy = 8 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "7"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nx³ + y³ = 72\n\nxy = 8\n\n**Formula Used:**\n\nx³ + y³ = (x + y)(x² - xy + y²)\n\nx² + y² = (x + y)² - 2xy\n\n**Calculation:**\n\nLet x + y = S.\n\nFrom x³ + y³ = (x + y)(x² - xy + y²),\n\n⇒ x³ + y³ = S(S² - 3xy)\n\n⇒ 72 = S(S² - 3 × 8)\n\n⇒ 72 = S(S² - 24)\n\n⇒ S³ - 24S - 72 = 0\n\nTesting possible values of S, let S = 6:\n\n⇒ 6³ - 24 × 6 - 72 = 216 - 144 - 72 = 0\n\n∴ S = 6 satisfies the equation.\n\n**∴ The correct answer is 6.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "695cfa004ba0571a6c99ae6f",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What simple interest rate is needed for 4000 to grow to 5040 over a period of 8 years? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3.25 percent"
+        },
+        {
+          "label": "2",
+          "text": "3.75 percent"
+        },
+        {
+          "label": "3",
+          "text": "4.15 percent"
+        },
+        {
+          "label": "4",
+          "text": "4.5 percent"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nPrincipal (P) = 4000\n\nAmount (A) = 5040\n\nTime (T) = 8 years\n\n**Formula Used:**\n\nSimple Interest (SI) = A - P\n\nRate (R) = (SI × 100) / (P × T)\n\n**Calculation:**\n\n⇒ SI = 5040 - 4000\n\n⇒ SI = 1040\n\n⇒ R = (1040 × 100) / (4000 × 8)\n\n⇒ R = 104000 / 32000\n\n⇒ R = 3.25\n\n**∴ The correct answer is 3.25 percent.**",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "695cfa00b5c9b7d95bc398ca",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A client invested 16000 in one bond at 6 percent simple interest and 10000 in another bond at 8 percent simple interest for the same duration. If the total interest received from both investments was 3520, what was the time period of the investments? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 year"
+        },
+        {
+          "label": "2",
+          "text": "2 years"
+        },
+        {
+          "label": "3",
+          "text": "2.5 years"
+        },
+        {
+          "label": "4",
+          "text": "3 years"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nInvestment 1:\n\nPrincipal P₁ = 16000\n\nRate r₁ = 6%\n\nInvestment 2:\n\nPrincipal P₂ = 10000\n\nRate r₂ = 8%\n\nTotal Simple Interest = 3520\n\n**Formula used:**\n\nS",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "695cfa003e24d79475d86110",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A metal ladder needs to reach a window that is 3.0 meters high. If the ladder is positioned to make an angle of 30 degrees with the level ground, what is the length of the ladder? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3.0 m"
+        },
+        {
+          "label": "2",
+          "text": "4.0 m"
+        },
+        {
+          "label": "3",
+          "text": "5.0 m"
+        },
+        {
+          "label": "4",
+          "text": "6.0 m"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nHeight of the window = 3.0 m\n\nAngle with the ground = 30 degrees\n\n**Formula Used:**\n\nsin(θ) = Opposite / Hypotenuse\n\n**Calculation:**\n\n⇒ sin(30°) = Height of the window / Length of the ladder\n\n⇒ 1/2 = 3.0 / Length of the ladder\n\n⇒ Length of the ladder = 3.0 × 2\n\n⇒ Length of the ladder = 6.0 m\n\n**∴ The correct answer is 6.0 m.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "695cfa01b5c9b7d95bc398d1",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "From a point P on the ground, the angle of elevation to the peak of a statue is 30 degrees. From a point Q, located directly between P and the base of the statue, the angle of elevation is 60 degrees. What is the ratio of the distance of point P from the base of the statue to the distance of point Q from the base? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 : 3"
+        },
+        {
+          "label": "2",
+          "text": "2 : 1"
+        },
+        {
+          "label": "3",
+          "text": "4 : 1"
+        },
+        {
+          "label": "4",
+          "text": "3 : 1"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nLet height of statue = h\n\nDistance of point P from base = x\n\nDistance of point Q from base = y\n\nAngle of elevation from P = 30°\n\nAngle of elevation from Q = 60°\n\n**Formula used:**\n\ntan θ = Height ÷ Base\n\n**Calculations:**\n\nFrom point P:&l",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "695cfa01c77bb7ea3da45bc4",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the curved surface area of a dome is 616 cm squared, find its diameter. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "19.8 cm"
+        },
+        {
+          "label": "2",
+          "text": "16.8 cm"
+        },
+        {
+          "label": "3",
+          "text": "12.4 cm"
+        },
+        {
+          "label": "4",
+          "text": "10.4 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nCurved surface area of the dome = 616 cm²\n\n**Formula Used:**\n\nCurved surface area of a hemisphere = 2πr²\n\nDiameter = 2 × radius\n\n**Calculation:**\n\n⇒ Curved surface area = 2πr²\n\n⇒ 616 = 2 × (22/7) × r²\n\n⇒ r² = (616 × 7) / (2 × 22)\n\n⇒ r² = 98\n\n⇒ r = √98\n\n⇒ r = 7 × √2 ≈ 7 × 1.41\n\n⇒ r ≈ 9.87 cm\n\n⇒ Diameter = 2 × r\n\n⇒ Diameter ≈ 2 × 9.87\n\n⇒ Diameter ≈ 19.8 cm\n\n**∴ The correct answer is 19.8 cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "695cfa018b3b709d9ce8915e",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A cylinder has height H and radius R. The cylinder is melted and reshaped into a smaller cylinder with height H/4 and radius R/2. What fraction of the original volume is unused? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 / 16"
+        },
+        {
+          "label": "2",
+          "text": "13 / 16"
+        },
+        {
+          "label": "3",
+          "text": "11 / 16"
+        },
+        {
+          "label": "4",
+          "text": "9 / 16"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nOriginal cylinder height = H\n\nOriginal cylinder radius = R\n\nSmaller cylinder height = H / 4\n\nSmaller cylinder radius = R / 2\n\n**Formula Used:**\n\nVolume of a cylinder = π × r² × h\n\nFraction unused = (Original volume - Smaller volume) / Original volume\n\n**Calculation:**\n\n⇒ Original volume = π × R² × H\n\n⇒ Smaller volume = π × (R / 2)² × (H / 4)\n\n⇒ Smaller volume = π × (R² / 4) × (H / 4)\n\n⇒ Smaller volume = π × R² × H / 16\n\n⇒ Fraction unused = (π × R² × H - π × R² × H / 16) / (π × R² × H)\n\n⇒ Fraction unused = (1 - 1 / 16)\n\n⇒ Fraction unused = 15 / 16\n\n**∴ The correct answer is 15 / 16.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "695cfa023b4a3ef931a19b73",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Determine the ratio of the area of a regular six-sided polygon to the area of a regular three-sided polygon that share identical side lengths. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6 : 1"
+        },
+        {
+          "label": "2",
+          "text": "3 : 1"
+        },
+        {
+          "label": "3",
+          "text": "√3 : 1"
+        },
+        {
+          "label": "4",
+          "text": "1 : 6"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nSide length of both polygons = a\n\nRegular hexagon → 6 sides\n\nRegular triangle → 3 sides\n\n**Formula used:**\n\nArea of regular hexagon = 6 × area of equilateral triangle of side a\n\nArea of equilateral triangle = (√3 ÷ 4) × a²\n\n**Calculations:**\n\nArea of regular hexagon:\n\n⇒ Aₕₑₓ = 6 × (√3 ÷ 4) × a²\n\n⇒ Aₕₑₓ = (6√3 ÷ 4) × a²\n\n⇒ Aₕₑₓ = (3√3 ÷ 2) × a²\n\nArea of regular triangle:\n\n⇒ Aₜᵣᵢ = (√3 ÷ 4) × a²\n\n**Required ratio:**\n\n⇒ Aₕₑₓ : Aₜᵣᵢ\n\n⇒ (3√3 ÷ 2) × a² : (√3 ÷ 4) × a²\n\n⇒ (3 ÷ 2) : (1 ÷ 4)\n\n⇒ 6 : 1\n\n**∴ The required ratio is 6 : 1.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "695cfa02b5c9b7d95bc398d6",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A column has an equilateral triangular base with a side length of 8 cm. Its height starts at 10 cm and increases by 2 cm for each subsequent level, with 5 levels in total. What is the total volume of the column? (Use √3 approximately 1.732). ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1662.72 cm3"
+        },
+        {
+          "label": "2",
+          "text": "1939.84 cm3"
+        },
+        {
+          "label": "3",
+          "text": "2078.40 cm3"
+        },
+        {
+          "label": "4",
+          "text": "2424.80 cm3"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nBase of column = equilateral triangle\n\nSide of triangle = 8 cm\n\nHeights of levels:\n\nLevel 1 = 10 cm\n\nLevel 2 = 12 cm\n\nLevel 3 = 14 cm\n\nLevel 4 = 16 cm\n\nLevel 5 = 18 cm\n\n√3 ≈ 1.732\n\n**Formula used:**\n\nArea of equilateral triangle = (√3 ÷ 4) × a²\n\nVolume = Base area × Height\n\n**Calculations:**\n\nArea of triangular base:\n\n⇒ Area = (1.732 ÷ 4) × 8²\n\n⇒ Area = (1.732 ÷ 4) × 64\n\n⇒ Area = 27.712 cm²\n\nSum of heights:\n\n⇒ 10 + 12 + 14 + 16 + 18 = 70 cm\n\nTotal volume:\n\n⇒ Volume = 27.712 × 70\n\n⇒ Volume = 1939.84 cm³\n\n**∴ The total volume of the column is approximately 1939.84 cm³.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "695cfa02f394947119559d17",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Formulate the equation for the line that passes through the coordinates (-2, -4) with a slope of -6. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "y = -6x - 16"
+        },
+        {
+          "label": "2",
+          "text": "y = -6x + 2"
+        },
+        {
+          "label": "3",
+          "text": "y = -6x - 4"
+        },
+        {
+          "label": "4",
+          "text": "y = -6x + 6"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nCoordinates (-2, -4)\n\nSlope = -6\n\n**Formula Used:**\n\nEquation of a line: y - y₁ = m(x - x₁)\n\n**Calculation:**\n\n⇒ y - (-4) = -6(x - (-2))\n\n⇒ y + 4 = -6(x + 2)\n\n⇒ y + 4 = -6x - 12\n\n⇒ y = -6x - 12 - 4\n\n⇒ y = -6x - 16\n\n**∴ The correct answer is y = -6x - 16.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "695cfa03859a3fb824617115",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Determine the value of the variable m if it satisfies the linear equation 6m - 24 = 12. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "6"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nLinear equation: 6m - 24 = 12\n\n**Formula Used:**\n\n1. To solve for m: Isolate m on one side of the equation.\n\n**Calculation:**\n\n⇒ 6m - 24 = 12\n\n⇒ 6m = 12 + 24\n\n⇒ 6m = 36\n\n⇒ m = 36 / 6\n\n⇒ m = 6\n\n**∴ The correct answer is 6.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "695cfa0399d7f89c26714a4f",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a land plot ABC, the center point is at G(2, 4). If the corners A and B are at (6, -2) and (-4, 8) respectively, what are the coordinates of corner C? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(4, 10)"
+        },
+        {
+          "label": "2",
+          "text": "(4, 8)"
+        },
+        {
+          "label": "3",
+          "text": "(2, 6)"
+        },
+        {
+          "label": "4",
+          "text": "(4, 6)"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nCenter point (centroid) G = (2 , 4)\n\nPoint A = (6 , −2)\n\nPoint B = (−4 , 8)\n\n**Formula used:**\n\nCentroid of triangle:\n\nG = (xA + xB + xC) ÷ 3 , (yA + yB + yC) ÷ 3\n\n**Calculations:**\n\n⇒ x-coordinate:\n\n⇒ (6 + (−4) + x) ÷ 3 = 2\n\n⇒ 2 + x = 6\n\n⇒ x = 4\n\n⇒ y-coordinate:\n\n⇒ (−2 + 8 + y) ÷ 3 = 4\n\n⇒ 6 + y = 12\n\n⇒ y = 6\n\n**∴ The coordinates of point C are (4 , 6).**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "695cfa0300a8ef27a50d04dd",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Solve for the numerical difference between the square of the sum and the square of the difference of √11 and √7?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4√77"
+        },
+        {
+          "label": "2",
+          "text": "2√77"
+        },
+        {
+          "label": "3",
+          "text": "6√77"
+        },
+        {
+          "label": "4",
+          "text": "8√77"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\na = √11\n\nb = √7\n\n**Formula used:**\n\n(a + b)² − (a − b)² = 4ab\n\n**Calculations:**\n\n⇒ Required difference = 4 × √11 × √7\n\n⇒ Required difference = 4√77\n\n**∴ The numerical difference is 4√77.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "695cfa043e24d79475d86127",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two orbits, with radii of r1 and r2 respectively, have their center points separated by a distance d. If the length of a direct shared tangent is equal to the distance between the center points, which of the following is true? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "d = r1 - r2"
+        },
+        {
+          "label": "2",
+          "text": "d = (r1 - r2)²"
+        },
+        {
+          "label": "3",
+          "text": "r1 = r2"
+        },
+        {
+          "label": "4",
+          "text": "r1 = 2r2"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nRadii of two orbits: r₁ and r₂\n\nDistance between centers: d\n\nLength of direct shared tangent = d\n\n**Formula Used:**\n\nLength of direct shared tangent: √(d² - (r₁ - r₂)²)\n\n**Calculation:**\n\nGiven that the length of the tangent equals the distance between the centers:\n\n⇒ √(d² - (r₁ - r₂)²) = d\n\nSquaring both sides:\n\n⇒ d² - (r₁ - r₂)² = d²\n\n⇒ -(r₁ - r₂)² = 0\n\n⇒ r₁ - r₂ = 0\n\n⇒ r₁ = r₂\n\n**∴ The correct answer is r₁ = r₂.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "695cfa041271ec288bc0a88a",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A support beam of a circular window has a length of 4√21 cm. The distance of the beam from the center point of the window is 10 cm. What is the radius of the window?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 cm"
+        },
+        {
+          "label": "2",
+          "text": "13.56 cm"
+        },
+        {
+          "label": "3",
+          "text": "17.78 cm"
+        },
+        {
+          "label": "4",
+          "text": "18 cm"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nLength of support beam (chord) = 4√21 cm\n\nDistance of the beam from the center = 10 cm\n\n**Formula used:**\n\nIn a circle:\n\n(Half of chord)² + (Distance from center)² = Radius²\n\n**Calculations:**\n\n⇒ Half of the chord = (4√21) &am",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "695cfa0434ab54248705dddf",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the combined value of sin A and cos A is represented by x, calculate the result of the identity sin2A + cos2A + 2 × (sin A × cos A) ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "x"
+        },
+        {
+          "label": "2",
+          "text": "x²"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "2x"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nCombined value of sin A and cos A = x\n\nIdentity: sin²A + cos²A + 2 × (sin A × cos A)\n\n**Formula Used:**\n\nsin²A + cos²A = 1\n\nsin A + cos A = x\n\n(sin A + cos A)² = sin²A + cos²A + 2 × (sin A × cos A)\n\n**Calculation:**\n\n⇒ (sin A + cos A)² = sin²A + cos²A + 2 × (sin A × cos A)\n\n⇒ x² = 1 + 2 × (sin A × cos A)\n\n⇒ sin²A + cos²A + 2 × (sin A × cos A) = x²\n\n**∴ The correct answer is x².**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "695cfa054ba0571a6c99af2b",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Provided sine x = cosine x, determine the result for sine4x + cosine4x ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "3 / 4"
+        },
+        {
+          "label": "3",
+          "text": "1 / 2"
+        },
+        {
+          "label": "4",
+          "text": "1 / 4"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nsine x = cosine x\n\nRequired: sine⁴x + cosine⁴x\n\n**Formula Used:**\n\nsine²x + cosine²x = 1\n\na⁴ + b⁴ = (a² + b²)² - 2a²b²\n\n**Calculation:**\n\n⇒ sine x = cosine x implies sine²x = cosine²x\n\n⇒ sine²x + cosine²x = 1\n\n⇒ 2sine²x = 1\n\n⇒ sine²x = 1 / 2 and cosine²x = 1 / 2\n\nNow, sine⁴x + cosine⁴x = (sine²x + cosine²x)² - 2 × sine²x × cosine²x\n\n⇒ sine⁴x + cosine⁴x = (1)² - 2 × (1 / 2) × (1 / 2)\n\n⇒ sine⁴x + cosine⁴x = 1 - 2 × 1 / 4\n\n⇒ sine⁴x + cosine⁴x = 1 - 1 / 2\n\n⇒ sine⁴x + cosine⁴x = 1 / 2\n\n**∴ The correct answer is 1 / 2.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "695cfa058b3b709d9ce89169",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If m + n + o = 0 and m = 0.2, n = 0.4, o = -0.6, then what is the result of (m3 + n3 + o3) / (3 × m × n × o) ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-3"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "-2"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nm + n + o = 0\n\nm = 0.2\n\nn = 0.4\n\no = −0.6\n\n**Formula used:**\n\nm³ + n³ + o³ − 3mno = (m + n + o)(m² + n² + o² − mn − no − om)\n\nIf m + n + o = 0, then:\n\n⇒ m³ + n³ + o³ = 3mno\n\n**Calculations:**\n\n⇒ m³ + n³ + o³ = 3mno\n\n⇒ (m³ + n³ + o³) ÷ (3 × m × n × o)\n\n⇒ 3mno ÷ 3mno\n\n⇒ 1\n\n**∴ The required value is 1.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "695cfa05859a3fb824617149",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If x = 1.6 and y = 0.04, find the numerical value of the expression [(4x)3 + (4y)3] / (x3 + y3)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "56"
+        },
+        {
+          "label": "2",
+          "text": "37"
+        },
+        {
+          "label": "3",
+          "text": "59"
+        },
+        {
+          "label": "4",
+          "text": "64"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nx = 1.6\n\ny = 0.04\n\n**Formula used:**\n\n(ka)³ = k³a³\n\n**Calculations:**\n\n⇒ (4x)³ + (4y)³\n\n⇒ 4³(x³ + y³)\n\n⇒ 64(x³ + y³)\n\n⇒ Required expression\n\n⇒ [64(x³ + y³)] ÷ (x³ + y³)\n\n⇒ 64\n\n**∴ The required numerical value is 64.**",
+      "tags": [
+        "Algebra"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "test_id": "6a390cfc034aa83d2d887322",
+  "title": "CGL Tier II CT 05: Memory",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:27:35.319174+00:00",
+  "questions": [
+    {
+      "qid": "62f3735077ffce2ed48a7a0f",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following is a type of conventional semiconductor memory (usually RAM) with an additional comparison circuit that enables a search operation to be performed in a single clock cycle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Address-based memory"
+        },
+        {
+          "label": "2",
+          "text": "Secondary memory"
+        },
+        {
+          "label": "3",
+          "text": "Auxiliary memory"
+        },
+        {
+          "label": "4",
+          "text": "Associative memory"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**associative memory**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Associative memory:**\n\n \n \n• **Associative memory of conventional semiconductor memory (usually RAM) with added comparison circuity that enables a search operation to complete in a single clock cycle.**\n \n• An associative memory can be treated as a memory unit whose saved **information can be recognized** for approach by the content of the information itself instead of by an address or memory location.\n \n• Associative memory is** also known as Content Addressable Memory (CAM)**.\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Auxiliary memory:**\n\n \n \n• Auxiliary memory is **known as the lowest-cost, highest-capacity**, and slowest-access storage in a computer system.\n \n• It is where** programs and data are kept for long-term storage** or when not in immediate use. \n \n• The most common examples of auxiliary memories are **magnetic tapes and magnetic disks.**\n \n \n \n• **Secondary memory:**\n \n \n• Secondary memory is **computer memory that is non-volatile, persistent**, and not immediately accessible by a computer or processor.\n \n• It allows **users to store data and information that can be retrieved**, transmitted, and used by apps and services quickly and easily.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "5ff5a50946296637a3589e3b",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Given below are two statements: One is labelled as Assertion (A) and the other is labelled as Reason (R):\n\n**Assertion (A):** Random Access Memory (RAM) is volatile and stores data/programs currently in use.\n\n**Reason (R):** RAM is a storage medium that retains its contents even after the supply of electricity has been turned off.\n\nIn the light of the above statements, choose the correct answer from the options given below:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+        },
+        {
+          "label": "2",
+          "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)"
+        },
+        {
+          "label": "3",
+          "text": "(A) is true but (R) is false"
+        },
+        {
+          "label": "4",
+          "text": "(A) is false but (R) is true"
+        }
+      ],
+      "correct": "3",
+      "solution": "**__Random- Access Memory (RAM)__**\n\n__\n \n• **Random-access memory **is a form of **computer memory** that can be **read and changed in any order,** typically used to **store working ****data** and **machine code**.\n \n• **RAM (Random Access Memory)** is **the ****hardware** in a **computing device** where the **operating system (****OS**), **application programs, and data** in **current use** are **kep**t so they can be **quickly reached** by the **device's ****processor. **\n \n• A **random-access memory** device allows **data items to be read or written** in **almost the same amount of time** irrespective of the physical location of data inside the memory.\n \n• **RAM** is the **main memory** in a **compute**r. It is **much faster to read** from and **write** to **than ****other kinds of storage**, such as a **hard disk drive** (HDD), **solid-state drive (****SSD), or optical drive.**\n \n• In today's technology, **random-access memory** takes the form **of ****integrated circuit (IC) chips with MOS (metal-oxide-semiconductor) memory cells**.\n \n• **Random Access Memory** is **volatile**. That **means data is retained** in RAM as **long as the computer is on**, but it is **lost** when the **computer is turned off.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png] **Important Points__**\n\nThus, we come to the conclusion **that RAM is the hardware** in the **computing device **where **data in current use** is kept so that they can **be easily reached by the processor**.\n\nThe **memory of RAM is volatile** mean **data is retained in RAM** as long as the **computer is on** and once the **computer is turned off**, all the data **in RAM is lost**.\n\n**So, the statement I is true while statement II is false. Hence, option (3) is correct.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "622c8994aa1bd6945208ba81",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Low-power, single-transistor cell and in system re-writability are the features associated with",
+      "options": [
+        {
+          "label": "1",
+          "text": "SRAM"
+        },
+        {
+          "label": "2",
+          "text": "flash"
+        },
+        {
+          "label": "3",
+          "text": "EEPROM"
+        },
+        {
+          "label": "4",
+          "text": "ROM"
+        }
+      ],
+      "correct": "2",
+      "solution": "**The correct option is (2)**\n\n__**Explanation:-**__\n\n**Flash memory:-** Flash memory is widely used with a car radio, cell phones, digital cameras, PDAs, SSD (solid-state drives), Tablets, and printers. Low-power, single-transistor cell, and in system re-writability are the features associated with flash.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• Flash memory, a data-storage medium used with computers and other electronic devices,\n \n• Flash memory is also called a thumb drive, USB drive.\n \n• Flash memory is one kind of non-volatile random access memory. It is slower than RAM but faster than hard drives.\n \n• The main weakness of flash memory is that it is more expensive than hard drives for the same amount of storage.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__****SRAM:-** Static RAM is random access memory that retains data bits in its memory as long as power is being supplied. SRAM uses several transistors in a circuit to form one bit. \n\n**EEPROM:- **Electrically Erasable Programmable Read-Only Memory (EEPROM) is a stable, non-volatile memory storage system that is used for storing minimal data quantities in computer and electronic systems and devices, such as circuit boards.\n\n**ROM:-** Read-only memory is a non-volatile memory type. This means it receives data and permanently writes it on a chip, and it lasts even after you turn off your computer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "67beb12803e2ed7beac6f39a",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following is not a storage device?\n\nA. Hard drive\n\nB. Compact disc\n\nC. Joystick\n\nD. Plotter\n\nE. Memory stick\n\nChoose the most appropriate answer from the options given below:",
+      "options": [
+        {
+          "label": "1",
+          "text": "A only"
+        },
+        {
+          "label": "2",
+          "text": "B only"
+        },
+        {
+          "label": "3",
+          "text": "C and D only"
+        },
+        {
+          "label": "4",
+          "text": "A and E only"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**C and D only.**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• A joystick is an input device that controls video games or computer graphics, not a storage device.\n \n• A plotter is not a storage device; it is an output device used for printing high-quality graphics, such as engineering drawings and architectural plans.\n \n• Storage devices are used to store data, such as hard drives, compact discs, and memory sticks.\n \n• Hard drives and memory sticks are primary storage devices, while compact discs are secondary storage media.\n \n• Plotters are used for printing vector graphics and are not storage devices.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Storage Devices:**\n\n \n \n• Storage devices are hardware used to record and retrieve digital information.\n \n• Primary storage devices include RAM and ROM, which are essential for the computer's operation.\n \n• Secondary storage devices include hard drives, SSDs, CDs, and USB drives, which store data long-term.\n \n \n \n• **Input Devices:**\n \n \n• Input devices allow users to interact with and input data into computers.\n \n• Examples include keyboards, mice, scanners, and joysticks.\n \n \n \n• **Plotters:**\n \n \n• Plotters are output devices used for printing vector graphics and large-scale designs.\n \n• They are commonly used in engineering and architectural applications.\n \n \n \n• **Data Storage:**\n \n \n• Data storage refers to the use of recording media to retain digital data.\n \n• Efficient data storage solutions are critical for data management and retrieval.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "5ffff7b9304ffae099f2fc17",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which among the following is/are true about the Solid-State Drive (SSD)?\n\n \n• SSD has a faster speed to locate, retrieve or write data as compared to hard disk drives (HDD).\n \n• SSD is lighter as it does not have any moving parts.\n \n• SSDs have a limited number of writes, hence they are cheaper as compared to Hard Disk Drives (HDD).",
+      "options": [
+        {
+          "label": "1",
+          "text": "(i) and (iii)"
+        },
+        {
+          "label": "2",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "label": "3",
+          "text": "(i) and (ii)"
+        },
+        {
+          "label": "4",
+          "text": "All the above statements"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is **__(i) and (ii).__**\n\n \n• SSDs are expensive as compared to HDDs because they use **flash memory technology** for storing data on the chips.\n \n• Although **HDDs can last indefinitely,** SSDs have a **short life period**, data can only be written between 3,000 and 100,000 times in their lifetime.\n \n• There are **no moving parts to the SSD**, information is stored in **Microchips**, the HDD has moving parts and uses magnetism to store data on the **rotating plate.****\n \n\n \n \n\n Factor**\n **Hard Disk Drive**\n **Solid State Drive**\n \n \n\n Weight\n Heavier than SSD, it varies between 0.3 to 1.6 pounds\n Lighter than HDD, as they do not have the rotating disks. The Weight varies between 0.02 to 0.1 pounds\n \n \n\n Speed\n Slower and high latency as it uses mechanical parts to read and write data\n Faster and low latency as it does not depend on any moving parts\n \n \n\n Reliability\n Less reliable and more likely to break\n More reliable and less likely to break\n \n \n\n Power Consumption \n Consumes more power, generates more heat and noise\n Consumes less power and does not generate heat or noise.\n \n \n\n Price\n Cheaper, the better price per gigabyte (GB) \n Expensive option if looking for bulk storage"
+    },
+    {
+      "qid": "61e16f02bffcc4e88ba6017b",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In the binary language each letter of the alphabet, each number and each special character is made up of a unique combination of-",
+      "options": [
+        {
+          "label": "1",
+          "text": "eight bytes"
+        },
+        {
+          "label": "2",
+          "text": "eight characters"
+        },
+        {
+          "label": "3",
+          "text": "eight bits"
+        },
+        {
+          "label": "4",
+          "text": "eight kilobytes"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**eight bits.**__\n\n__** [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] Key Points__**\n\n__\n \n• In the binary language each letter of the alphabet, each number, and each special character occupies memory equivalent to eight bits or 1 byte. \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\nComputer Memory-\n\n \n \n\n 1 bit\n = Single Binary Digit\n \n \n\n 4 bit\n = 1 Nibble\n \n \n\n 8 bit\n = 1 Byte\n \n \n\n 1024 byte\n = 1 KiloByte\n \n \n\n 1024 KB\n = 1 MegaByte\n \n \n\n 1024 MB\n = 1 GigaByte\n \n \n\n 1024 GB\n = 1 TeraByte\n \n \n\n 1024 TB\n = 1 PetaByte",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6921ad594de6db5f59a4c6e6",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Identify whether the following statements are true or false.\n\ni) MROM is a hardware memory device in which programs and instructions are stored at the time of manufacturing by the manufacturer.\n\nii) EPROM is a type of ROM that can be reprogramed and erased many times.",
+      "options": [
+        {
+          "label": "1",
+          "text": "i- True, ii- Fals"
+        },
+        {
+          "label": "2",
+          "text": "i- True, ii- True"
+        },
+        {
+          "label": "3",
+          "text": "i- False, ii- False"
+        },
+        {
+          "label": "4",
+          "text": "i- False, ii- True"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**Option 2**__.\n\n__** [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] Key Points__**\n\n__\n \n• **MROM:** Masked Read-Only Memory (MROM) is a type of ROM that is programmed during the manufacturing process itself. The programs and instructions are burned into the memory by the manufacturer, making this memory type non-modifiable.\n \n• **EPROM:** Erasable Programmable Read-Only Memory (EPROM) is a type of ROM that can be erased and reprogrammed multiple times. The erasing process is done using ultraviolet light, and it can then be reprogrammed as needed.\n \n• Hence, statement (i) is **True**, and statement (ii) is **True**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **MROM:** It is a type of ROM that cannot be modified after manufacturing, making it ideal for storing fixed data or instructions.\n \n• **EPROM:** It allows reprogramming, making it versatile for applications where updates are required.\n \n• **Other Types of ROM:**\n \n \n• **EEPROM:** Electrically Erasable Programmable ROM, which can be erased and reprogrammed using electrical signals.\n \n• **Flash Memory:** A modern type of EEPROM used in USB drives, SD cards, and solid-state drives.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "64afe71c6a630febfcc5c522",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Identify whether the given statements are true or false.\n\ni. The storage unit of the computer holds only instructions and no data.\n\nii. Primary memory is temporary in nature.\n\niii. The secondary memory is slower and cheaper than the primary memory.",
+      "options": [
+        {
+          "label": "1",
+          "text": "i - False, ii - True, iii - False"
+        },
+        {
+          "label": "2",
+          "text": "i - False, ii - False, iii - False"
+        },
+        {
+          "label": "3",
+          "text": "i - True, ii - False, iii - True"
+        },
+        {
+          "label": "4",
+          "text": "i - False, ii - True, iii - True"
+        }
+      ],
+      "correct": "4",
+      "solution": "• The storage unit of a computer can store both instructions (programs, software, and operating system) and data (documents, multimedia files, databases).\n \n• To be more specific, the computer storage is categorized into primary storage (like RAM) and secondary storage (like hard drives).\n \n• **Primary Storage :** It holds the programs and data that are currently in use by the computer, including the operating system, application programs, and the data being processed.\n \n• **Secondary Storage :** It is used to store programs and data that are not in immediate use, but need to persist in a long term. Examples include files and documents stored on a hard drive or SSD, or media files stored in portable storage such as a USB flash drive or an external hard drive.\n \n• Regardless of the type, both primary and secondary storage can hold both instructions (programs/software) and data.\n\nHence statement i is false. \n\n \n• Primary memory, also known as main memory or volatile memory, is temporary in nature.\n \n• This includes Random Access Memory (RAM) and cache memory, which both store information only as long as the computer is turned on.\n \n• Once the computer is shut down or restarted, data stored in primary memory is lost unless it is saved to a more permanent storage medium such as a hard drive or SSD.\n \n• This is because RAM and other forms of primary memory are volatile, meaning their contents are lost when power is removed.\n\nHence statement ii is true. \n\n \n• Secondary memory, such as hard disk drives (HDD), solid-state drives (SSD), or optical drives, is generally slower but cheaper compared to primary memory, such as RAM. \n \n• Speed: Primary memory like RAM directly interfaces with the CPU and is designed to provide rapid access to data for immediate processing. Secondary memory has slower access times since the CPU needs to go through various operations such as Input/Output processes to read data from or write data to the secondary storage.\n \n• Cost: Primary memory like RAM is significantly more expensive to manufacture than secondary memory. On a per-gigabyte basis, secondary memory like hard drives or SSDs is cheaper.\n \n• It's worth noting that while SSDs (a type of secondary memory) are faster than HDDs and are getting cheaper, they are still more expensive on a per-gigabyte basis than conventional hard drives. Furthermore, while SSDs are fast, RAM (primary memory) is still much faster.\n\nHence statement iii is true."
+    },
+    {
+      "qid": "63b57d5119ad85d46030606a",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "______ contains data that is stored for a short amount of time, typically in the computer's memory.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Concentrator"
+        },
+        {
+          "label": "2",
+          "text": "Buffer"
+        },
+        {
+          "label": "3",
+          "text": "ALU"
+        },
+        {
+          "label": "4",
+          "text": "Control Unit"
+        }
+      ],
+      "correct": "2",
+      "solution": "**The correct option is (2)**\n\nBuffer\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• A memory area known as a buffer is used to store data momentarily while it is being transferred from one location to another.\n \n• When transferring data between computer processes, a buffer is employed. The vast majority of buffers are used in the software.\n \n• The main memory (RAM buffer)'s memory serves as a short-term storage space for data being sent between two or more devices or between an application and a device.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• Its acronym is ALU or arithmetic-logic unit. It is a component of a computer processor (CPU) that performs mathematical and logical processes.\n \n• A computer's CPU contains hardware called a control unit, or CU, which controls operations. It provides instructions on how to process commands from the program for the computer's memory, logic module, and input and output devices.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "66fe55258ef3011f9c5465bc",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which statement is true about temporary data storage memory?",
+      "options": [
+        {
+          "label": "1",
+          "text": "It retains data even when the power is off."
+        },
+        {
+          "label": "2",
+          "text": "It is used for permanent data storage."
+        },
+        {
+          "label": "3",
+          "text": "It is used for archival purposes."
+        },
+        {
+          "label": "4",
+          "text": "It is typically faster than hard drive storage."
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**It is typically faster than hard drive storage**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• **Temporary data storage memory**, often referred to as **RAM (Random Access Memory)**, is **faster** than permanent storage options like hard drives or SSDs.\n \n• RAM is used by the **computer's CPU** to store data that is actively being used or processed.\n <",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

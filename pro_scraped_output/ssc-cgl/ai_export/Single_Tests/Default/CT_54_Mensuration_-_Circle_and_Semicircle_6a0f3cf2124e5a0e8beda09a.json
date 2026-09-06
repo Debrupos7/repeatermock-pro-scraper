@@ -1,0 +1,425 @@
+{
+  "test_id": "6a0f3cf2124e5a0e8beda09a",
+  "title": "CT 54: Mensuration - Circle and Semicircle",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:21:20.241654+00:00",
+  "questions": [
+    {
+      "qid": "64e8d24815fb68815108a8c4",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will be the perimeter (in cm) of the sector of a circle of radius 4.9 cm having central angle 144° (use pi = (22)/(7))",
+      "options": [
+        {
+          "label": "1",
+          "text": "21.12"
+        },
+        {
+          "label": "2",
+          "text": "23.32"
+        },
+        {
+          "label": "3",
+          "text": "23.23"
+        },
+        {
+          "label": "4",
+          "text": "22.12"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe perimeter of a sector consists of its arc length and two radii.\n\nArc length = (θ ÷ 360°) × 2πr = (144 ÷ 360) × 2 × (22 ÷ 7) × 4.9 = 12.32 cm\n\nPerimeter = Arc length + 2 × r\n\n⇒ Perimeter = 12.32 + 2 × 4.9 = 12.32 + 9.8 = 22.12 cm\n\n**∴ The correct answer is 22.12 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/68fce97c77a4607cf5e2bcd8fe45fec866bf5454303df424bb5fb107004b994b.png] \n\n**Given:**\n\nRadius of the sector (r) = 4.9 cm\n\nCentral angle (θ) = 144°\n\n**Formula Used:**\n\nPerimeter of a sector = Arc length (l) + 2r\n\nArc length (l) = (θ ÷ 360°) × 2πr\n\n**Calculations:**\n\n⇒ Arc length (l) = (144° ÷ 360°) × 2 × (22 ÷ 7) × 4.9\n\n⇒ l = (2 ÷ 5) × 2 × 22 × 0.7\n\n⇒ l = 0.4 × 30.8 = 12.32 cm\n\n⇒ Perimeter of sector = l + 2r\n\n⇒ Perimeter = 12.32 + 2 × 4.9\n\n⇒ Perimeter = 12.32 + 9.8 = 22.12 cm\n\n**∴ The correct answer is 22.12 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nArea of Sector\n\nArea = (θ ÷ 360°) × πr². It represents the region enclosed by two radii and the corresponding arc.\n\nLength of Arc\n\nArc length (l) = (θ ÷ 360°) × 2πr. It calculates the boundary length of the curved part of a sector.\n\nArea of a Segment\n\nThe area enclosed between a chord and its corresponding arc. Area = Area of Sector − Area of Triangle.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/68fce97c77a4607cf5e2bcd8fe45fec866bf5454303df424bb5fb107004b994b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "63fda99b2a92bc2802cb8315",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The perimeter of a semicircle of radius 21 cm is ______",
+      "options": [
+        {
+          "label": "1",
+          "text": "42 cm"
+        },
+        {
+          "label": "2",
+          "text": "66 cm"
+        },
+        {
+          "label": "3",
+          "text": "87cm"
+        },
+        {
+          "label": "4",
+          "text": "108 cm"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given:\n\nRadius of the semicircle = 21 cm\n\nConcept used:\n\n1. The perimeter of a semicircle = πR + 2R (R = radius)\n\n2. π = 22/7\n\nCalculation:\n\nNow, the perimeter of a semicircle\n\n⇒ π × 21 + 2 × 21\n\n⇒ 22/7 × 21 + 2 × 21\n\n⇒ 108 cm\n\n**∴ The perimeter of a semicircle of radius 21 cm is 108 cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "64a109ce19e0a470917ae3ab",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The radius of a wheel is 21 cm. What is the distance (in cm) travelled by the wheel in 20 revolutions?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1440 cm"
+        },
+        {
+          "label": "2",
+          "text": "1500 cm"
+        },
+        {
+          "label": "3",
+          "text": "2640 cm"
+        },
+        {
+          "label": "4",
+          "text": "2100 cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given**\n\nThe radius of a wheel = 21 cm \n\nThe no. of revolutions by the wheel = 20\n\n**Concept**\n\nThe circumference of the wheel × no. of revolutions = Distance travelled\n\nFormula used\n\nThe circumference of the wheel = 2πR\n\nwhere, R = r",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6374c73c1897bea7e9cad31f",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A wheel makes 12 revolutions per minute. The angle in radian described by a spoke of the wheel in 1 second is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "5π/2"
+        },
+        {
+          "label": "2",
+          "text": "2π/5"
+        },
+        {
+          "label": "3",
+          "text": "3π/5"
+        },
+        {
+          "label": "4",
+          "text": "4π/5"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRevolutions per minute = 12\n\nRevolutions per second = 12 ÷ 60 = 1/5\n\nAngle completed in 1 revolution = 2π radians\n\nAngle described in 1 second = 1/5 × 2π = 2π/5 radians\n\n**∴ The correct answer is 2π/5 radians.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRevolutions made by the wheel in 1 minute = 12\n\n1 minute = 60 seconds\n\n**Formula Used:**\n\nAngle rotated (in radians) = Number of revolutions × 2π\n\n [IMAGE: https://cdn.repeatermock.com/tb/bf5d2be04255db29745ba3527835129685088f3c48735e7179abc488a1d129ae.png] \n\n**Calculations:**\n\n⇒ Number of revolutions in 60 seconds = 12\n\n⇒ Number of revolutions in 1 second = 12 ÷ 60\n\n⇒ Number of revolutions in 1 second = 1/5\n\n⇒ We know that in 1 complete revolution, the angle described at the center is 2π radians.\n\n⇒ Angle described in 1 second = (1/5) × 2π\n\n⇒ Angle described in 1 second = 2π/5 radians\n\n**∴ The correct answer is 2π/5 radians.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAngular Velocity (ω)\n\nIt is defined as the rate of change of angular displacement. It is given by ω = θ ÷ t, and is measured in radians per second.\n\nRadian to Degree Conversion\n\n1 radian = 180° ÷ π. An angle of 2π/5 radians directly corresponds to (2 × 180°) ÷ 5 = 72°.\n\nRevolutions to Radians Relation\n\n1 complete revolution around a circle subtends a full central angle of 360°, which is exactly equal to 2π radians.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bf5d2be04255db29745ba3527835129685088f3c48735e7179abc488a1d129ae.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "61d69fefb5cffc4307d9ca90",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will be the area of the ring-shaped region enclosed between two concentric circles of radii 14 cm and 7 cm?",
+      "options": [
+        {
+          "label": "1",
+          "text": "147 cm²"
+        },
+        {
+          "label": "2",
+          "text": "245 cm²"
+        },
+        {
+          "label": "3",
+          "text": "98 cm²"
+        },
+        {
+          "label": "4",
+          "text": "462 cm²"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given**\n\nRadii of two concentric circle = 14 cm and 7 cm\n\n**Formula used**\n\nArea of ring = π(R² - r²)\n\nwhere R and r are outer circle ind inner circle radii.\n\n(a² - b²) = (a - b) ( a + b)\n\n**Calculation**\n\nArea of ring shaped region = π(R² - r²)\n\n⇒ (22/7) × (14² - 7²)\n\n⇒ (22/7) × (14 - 7) × (14 + 7)\n\n⇒ (22/7) × 7 × 21\n\n⇒ 22 × 21\n\n⇒ 462 cm²\n\n**∴ The area of the ring-shaped region enclosed between two concentric circles of radii 14 cm and 7 cm will be 462 cm².**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "630f109549199e8b8ece8bed",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The diameter of the wheel of a car is 77 cm. How many revolutions will it make to travel 121 km?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24200"
+        },
+        {
+          "label": "2",
+          "text": "30000"
+        },
+        {
+          "label": "3",
+          "text": "50000"
+        },
+        {
+          "label": "4",
+          "text": "42500"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal distance in cm = 121 × 100000 = 12100000 cm\n\nDistance covered in 1 revolution = Circumference = 22/7 × 77 = 242 cm\n\nTotal revolutions = Total distance ÷ Circumference = 12100000 ÷ 242 = 50000\n\n**∴ The correct answer is 50000 revolutions.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDiameter of the wheel (d) = 77 cm\n\nTotal distance to be covered (D) = 121 km\n\n**Formula Used:**\n\nNumber of Revolutions = Total Distance ÷ Circumference of Wheel\n\nCircumference of a circle = π × d\n\n [IMAGE: https://cdn.repeatermock.com/tb/7d6ff662b95f8d1d70e122f17b3ad95a2e4a98a36d45922cb0c29f06c9d92c1e.png] \n\n**Calculations:**\n\n⇒ First, convert the total distance from km to cm.\n\n⇒ 1 km = 1000 m and 1 m = 100 cm\n\n⇒ Total Distance = 121 × 1000 × 100 = 12100000 cm\n\n⇒ Now, calculate the circumference of the wheel.\n\n⇒ Circumference = 22/7 × 77\n\n⇒ Circumference = 22 × 11 = 242 cm\n\n⇒ Number of Revolutions = Total Distance ÷ Circumference\n\n⇒ Number of Revolutions = 12100000 ÷ 242\n\n⇒ Number of Revolutions = 50000\n\n**∴ The correct answer is 50000 revolutions.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCircumference of a Circle\n\nThe continuous line forming the boundary of a closed circular figure is its circumference, computed using the formula C = 2πr or C = πd.\n\nArea of a Circle\n\nThe total 2D plane space enclosed within the boundary of the circle is its area, found using A = πr².\n\nDistance Covered by a Rotating Wheel\n\nEach time a wheel spins one full 360-degree rotation, it rolls a horizontal distance equal exactly to its outer circumference. The total distance is the product of the number of revolutions and the circumference.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7d6ff662b95f8d1d70e122f17b3ad95a2e4a98a36d45922cb0c29f06c9d92c1e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6349540dd4e2672936f40963",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The area of a circular field is 13.86 hectares. Find the cost of fencing it at the rate of Rs. 4.40 per metre.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2808"
+        },
+        {
+          "label": "2",
+          "text": "3808"
+        },
+        {
+          "label": "3",
+          "text": "4808"
+        },
+        {
+          "label": "4",
+          "text": "5808"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nThe area of a circular field is 13.86 hectares\n\nCost of fencing it at the rate of Rs. per metre\n\n**Formula used:**\n\nArea of circle = π(radius)²\n\n1 hectare = 10000 sq m\n\n**Calculation:**\n\nBy using the above formula, the area of the field\n\n⇒ πr² = 13.86 × 10000\n\n⇒ (22/7)r² = 138600\n\n⇒ r² = (7/22) × 138600\n\n⇒ r² = 44100\n\n⇒ r = 210 m\n\nLength of circular field = 2πr\n\nLength of circular field = 2 × (22/7) × 210 = 1320 m.\n\nHence, the cost of fencing it at the rate of Rs. 4.40 per meter\n\n⇒ 1320 × 4.4 = 5808\n\n**∴ The cost of fencing is Rs. 5808.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "64ccce93e3d05b53bd14865d",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given figure, the length of arc AB is equal to 3 times radius r of the circle.\n\n [IMAGE: https://cdn.repeatermock.com/tb/471a58bd680a4d4d7ca7b15c5ae17df9b01b8b1af38bd73d32e1316a050b8edb.png] \n\nFind the area of sector OAB in terms of radius r.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1.5 r²"
+        },
+        {
+          "label": "2",
+          "text": "2.5 r2"
+        },
+        {
+          "label": "3",
+          "text": "(1)/(2) r²"
+        },
+        {
+          "label": "4",
+          "text": "3 r2"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Formula used:**\n\nArea of an arc = θ/360 × πr² .\n\n θ = arc / radius\n\n1 radian = 180°/π\n\n**Calculation:**\n\nHere the arc = 3r\n\nSo, θ = 3r / r \n\n⇒ 3c",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/471a58bd680a4d4d7ca7b15c5ae17df9b01b8b1af38bd73d32e1316a050b8edb.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "64906e915ec3356fa7b5890d",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The cost of fencing a circular field at the rate of Rs. 5 per meter is Rs. 440. Then, the area of the field(in m²) is (Use π = (22)/(7)).",
+      "options": [
+        {
+          "label": "1",
+          "text": "308"
+        },
+        {
+          "label": "2",
+          "text": "616"
+        },
+        {
+          "label": "3",
+          "text": "924"
+        },
+        {
+          "label": "4",
+          "text": "1232"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given: **\n\nRate of fencing : Rs. 5 per meter\n\nTotal cost of fencing: Rs. 440 π = 22/7\n\n**Formula used: **\n\nTo find C, we use the formula C = 2πr\n\nTo find the area of the circle, we use the formula A = πr²\n\n**Calculation: **\n\nLet's assume the radius of the circular field is r.\n\nGiven that the cost of fencing is Rs. 440 at a rate of Rs. 5 per meter, we can set up the equation:\n\n⇒ 440 = 5 × C\n\nTo find C, we use the formula C = 2πr:\n\n⇒ 440 = 5 × 2πr\n\nDividing both sides by 10, we get:\n\n⇒ 44 = πr\n\nNow, we can substitute the value of π as 22/7:\n\n⇒ 44 = (22/7) × r\n\nMultiplying both sides by 7, we get:\n\n⇒ 308 = 22r\n\nDividing both sides by 22, we get:\n\n⇒ r = 14\n\nThe radius of the circular field is 14 meters.\n\nTo find the area of the circle, we use the formula A = πr²\n\n⇒ A = (22/7) × (14)²\n\n⇒ A = 22 × 28 \n\n⇒ A = 616\n\n**Therefore, the area of the circular field is 616 square meters.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "62227f3aaa861851067835c5",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Accompanying figure shows semicircles with AB = BC = CD. Select the ratio of unshaded area to shaded area.\n\n [IMAGE: https://cdn.repeatermock.com/tb/fb4f0658e30fad3b84a37e6c1f9508b78cdba7efcc3579c4cdb3b772c26ad666.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 : 1"
+        },
+        {
+          "label": "2",
+          "text": "4 : 1"
+        },
+        {
+          "label": "3",
+          "text": "3 : 1"
+        },
+        {
+          "label": "4",
+          "text": "2 : 1"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nFor the given figure below:\n\nAB = BC = CD\n\n [IMAGE: https://cdn.repeatermock.com/tb/fb4f0658e30fad3b84a37e6c1f9508b78cdba7efcc3579c4cdb3b772c26ad666.png] \n\n**Formula used:**\n\nArea of semi-circle = (pi)/(2) times r²\n\n**Calculation :**\n\nThe area of semi-circle with diameter AD = (pi)/(2) times ((AD)/(2))²\n\nThe area of semi-circle with diameter BD = (pi)/(2) times ((BD)/(2))²\n\nThe required unshaded area in the semi-circle with diameter AD = (pi)/(2) times ((AD)/(2))² - (pi)/(2) times ((BD)/(2))²\n\nNow, \n\nThe area of semi-circle with diameter CD = (pi)/(2) times ((CD)/(2))²\n\nThe required shaded area in the semi-circle with diameter BD = (pi)/(2) times ((BD)/(2))² - (pi)/(2) times ((CD)/(2))²\n\nAccording to the question,\n\nThe total unshaded region,\n\n Rightarrow (pi)/(2) times ((AD)/(2))² - (pi)/(2) times ((BD)/(2))² + (pi)/(2) times ((CD)/(2))² \n\nSince AB = BC = CD\n\nTherefore, \n\nRightarrow (pi)/(2) times ((AD)/(2))² - (pi)/(2) times ((BD)/(2))² + (pi)/(2) times ((CD)/(2))²\n\nRightarrow (pi)/(2) times ((3CD)/(2))² - (pi)/(2) times ((2CD)/(2))² + (pi)/(2) times ((CD)/(2))² \\ Rightarrow (pi)/(2) times ( 9((CD)/(2))² - 4((CD)/(2))² + ((CD)/(2))²) \\ Rightarrow (pi)/(2) times ( 6 ((CD)/(2))² ) \n\nThe total unshaded region = (pi)/(2) times ( 6 ((CD)/(2))² )\n\nNow,\n\nThe required shaded area in the semi-circle with diameter BD = (pi)/(2) times ((BD)/(2))² - (pi)/(2) times ((CD)/(2))²\n\nSince AB = BC = CD\n\nTherefore, \n\nRightarrow (pi)/(2) times ((2CD)/(2))² - (pi)/(2) times ((CD)/(2))² \\ Rightarrow (pi)/(2) times (4 times ((CD)/(2))² - ((CD)/(2))² ) \\ Rightarrow (pi)/(2) times (3 times ((CD)/(2))² ) \\ \n\nTherefore, \n\nThe required ratio = ( frac{pi)/(2) times ( 6 ((CD)/(2))² )}{ (pi)/(2) times ( 3 ((CD)/(2))² )} = (2)/(1)\n\n∴** The ratio of unshaded area to shaded area is 2 : 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__** Let AB = BC = CD = D\n\nThen Area of shaded Region= \n\nArea of Circle having diameter BD - Area of Circle having diameter CD\n\nshaded Area = π (2D)² - π (D)² = 3πD²\n\nunshaded Area = Total Area - Shaded Area \n\nunshaded Area = π (3D)² - 3πD2\n\nunshaded Area = 6πD²\n\n∴ The ratio of unshaded area to shaded area = 6πD2 : 3πD2.\n\n∴ **The ratio of unshaded area to shaded area = 2 : 1.**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/fb4f0658e30fad3b84a37e6c1f9508b78cdba7efcc3579c4cdb3b772c26ad666.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/fb4f0658e30fad3b84a37e6c1f9508b78cdba7efcc3579c4cdb3b772c26ad666.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "test_id": "6a390d02bec5e539bea6dad5",
+  "title": "CGL Tier II CT 08: Software",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:28:21.967527+00:00",
+  "questions": [
+    {
+      "qid": "668fd048d610bcea2b3aa403",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Identify correct or incorrect from the following statements\n\ni. FORTRAN is a high-level programming language.\n\nii. A debugger is used to find and fix errors in source code.\n\niii. The output of a debugger is an executable file.",
+      "options": [
+        {
+          "label": "1",
+          "text": "i - correct, ii - correct, iii - incorrect"
+        },
+        {
+          "label": "2",
+          "text": "i - correct, ii - incorrect, iii - correct"
+        },
+        {
+          "label": "3",
+          "text": "i - incorrect, ii - correct, iii - correct"
+        },
+        {
+          "label": "4",
+          "text": "i - correct, ii - correct, iii - correct"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**i - correct, ii - correct, iii - incorrect**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**<",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "66400b6aeb207a8c052c518a",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Bug in computer terminology means _________",
+      "options": [
+        {
+          "label": "1",
+          "text": "a logical error in a programme"
+        },
+        {
+          "label": "2",
+          "text": "a difficult syntax error programme"
+        },
+        {
+          "label": "3",
+          "text": "documenting programmes using efficient documentation tool"
+        },
+        {
+          "label": "4",
+          "text": "a logical error in text"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**a logical error in a programme**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6412bd702a9b324cd2d64f57",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "_______ displays a list of utility configure the computer system and install software and hardware.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Control Panel"
+        },
+        {
+          "label": "2",
+          "text": "Help and Support"
+        },
+        {
+          "label": "3",
+          "text": "Taskbar"
+        },
+        {
+          "label": "4",
+          "text": "Run"
+        }
+      ],
+      "correct": "1",
+      "solution": "**The correct option is \"Control Panel\".**\n\n \n• Control Panel is a built-in feature in the Windows operating system that provides a centralized location to configure and manage various settings for the computer system, as well as to install software and hardware.\n \n• It contains a variety of applets or utilities, each of which provides access to specific settings or tasks.\n \n• Examples of applets in the Control Panel include \"Programs and Features\", which allows you to install and uninstall programs, \"Device Manager\", which allows you to manage hardware devices installed on the computer, \"Display Settings\", which allows you to adjust the display resolution and other settings, and \"User Accounts\", which allows you t"
+    },
+    {
+      "qid": "620cce19706d457747cdcd15",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following control windows panel items in windows 10 lets users uninstall preinstalled programs on the computer?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Program"
+        },
+        {
+          "label": "2",
+          "text": "System and Security"
+        },
+        {
+          "label": "3",
+          "text": "Hardware and Sound"
+        },
+        {
+          "label": "4",
+          "text": "Account User"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is **option 1.**\n\n**Concept:**\n\nProgram is controlled windows panel items in windows 10 lets users uninstall preinstalled programs on the computer. \n\n**Uninstall from the Control Panel (for programs):**\n\n &"
+    },
+    {
+      "qid": "644900d56ed577972105bed6",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following is a Programming Software?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Disk Cleanup"
+        },
+        {
+          "label": "2",
+          "text": "Windows"
+        },
+        {
+          "label": "3",
+          "text": "Disk Defragmenter"
+        },
+        {
+          "label": "4",
+          "text": "Visual Basic"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is **__Visual Basic.__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Visual Basic (VB):**\n\n \n \n• It is an event-driven programming language and environment.\n \n• It is from Microsoft and provides a **graphical user interface (GUI).**\n \n• It allows programmers to modify code by simply dragging and dropping objects and defining their** behavior and appearance.**\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Disk Clean-up:**\n\n \n \n• It is a computer maintenance utility included in **Microsoft Windows** designed to free up disk space on a computer's hard drive. \n \n \n \n• **Microsoft Windows:**\n \n \n• It is a group of several proprietary **graphical operating system** families developed and marketed by Microsoft.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "668fc876de00f58dd44fb862",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Identify correct or incorrect from the following statements\n\ni. C is a high-level programming language.\n\nii. A compiler translates high-level code into assembly language.\n\niii. The output of a compiler is typically an executable file.",
+      "options": [
+        {
+          "label": "1",
+          "text": "i - correct, ii - correct, iii - incorrect"
+        },
+        {
+          "label": "2",
+          "text": "i - correct, ii - incorrect, iii - correct"
+        },
+        {
+          "label": "3",
+          "text": "i - incorrect, ii - correct, iii - correct"
+        },
+        {
+          "label": "4",
+          "text": "i - correct, ii - correct, iii - correct"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**i - correct, ii - incorrect, iii - correct**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**</p&g",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "668fcf7793e12fcaafba62be",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Identify correct or incorrect from the following statements\n\ni. Java uses both compilation and interpretation.\n\nii. A linker combines multiple object files into a single executable file.\n\niii. An interpreter produces object files as output.",
+      "options": [
+        {
+          "label": "1",
+          "text": "i - correct, ii - correct, iii - incorrect"
+        },
+        {
+          "label": "2",
+          "text": "i - incorrect, ii - correct, iii - correct"
+        },
+        {
+          "label": "3",
+          "text": "i - correct, ii - incorrect, iii - correct"
+        },
+        {
+          "label": "4",
+          "text": "i - correct, ii - correct, iii - correct"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**i - correct, ii - correct, iii - incorrect**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6599420cf689d996c1b1ed8d",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The process of starting a computer by initiating through hardware such as a button press, or by a software command is called ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Restoring"
+        },
+        {
+          "label": "2",
+          "text": "Booting"
+        },
+        {
+          "label": "3",
+          "text": "Operating"
+        },
+        {
+          "label": "4",
+          "text": "Resetting"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**Booting**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The action of a computer to load an operating system into the computer's main memory or random-access memory (RAM) is called Booting.\n \n• Booting is a startup sequence that starts the operating system of a computer when it is turned on.\n \n• A boot sequence is the initial set of operations that the computer performs when it is switched on.\n \n \n• Every computer has a boot sequence. \n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\nThere are two types of Booting:-\n\n__\n \n• Warm Booting:__\n\n __\n \n• When the system starts from a powered state or not an initial state then it is called warm booting.\n \n• Example is the sleep mode in our computer. The computer doesnt turn off power but goes to sleep and when it is woken up, it goes through a warm boot.\n \n \n \n• Cold Booting:__\n \n \n• The Cold Booting is that in which the system starts from a powerless state or an initial state.\n \n• Examples include turning on the computer by applying power or restarting the system.\n \n \n\n \n\nHere, are 6 steps in the booting process of a computer with a diagram given below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/3efaa12ccbe6d1c1584fd93540955ef41221e0014cf2d76f280aefcdd0c6d1fa.png]",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3efaa12ccbe6d1c1584fd93540955ef41221e0014cf2d76f280aefcdd0c6d1fa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "60756496be394d0954828876",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Considering the below statements, choose the CORRECT option\n\n(i) A software program is a set of instructions given to a computer for the execution of the task\n\n(ii) Software is the variable part of a computer while the hardware is the invariable part\n\n(iii) System software is designed for computer-specific tasks",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statements (ii) and (iii) are correct, and (i) is false"
+        },
+        {
+          "label": "2",
+          "text": "Statements (i) and (iii) are correct and (ii) is false"
+        },
+        {
+          "label": "3",
+          "text": "Statements (i) and (ii) are correct, and (iii) is false"
+        },
+        {
+          "label": "4",
+          "text": "Statements (i) (ii) and (iii) are correct"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**Statements (i) and (ii) are correct, and (iii) is false.**__\n\n__** [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] Key Points__**\n\n__\n \n• **Statement (i):**\n\n \n \n• A software program is a set of instructions written in a programming language that tells the computer how to perform a specific task.\n \n• ✅ This statement is correct.\n \n \n \n• **Statement (ii):**\n \n \n• Software is the variable part of a computer (can be updated, changed, or modified), while hardware is the invariable part (physical and fixed).\n \n• ✅ This statement is correct.\n \n \n \n• **Statement (iii):**\n \n \n• The claim “System software is designed for computer-specific tasks” is **false** and misleading.\n \n• System software (like operating systems, device drivers, compilers, utilities) is designed for **general system management tasks** such as managing resources, running applications, and providing services to users.\n \n• Application software is actually designed for **user-specific tasks** (e.g., MS Word, Photoshop, games).\n \n \n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **System Software:**\n\n \n \n• Examples: Operating System (Windows, Linux), Compiler, Interpreter, Device Drivers.\n \n• Primary role: Manage hardware resources and provide a platform for application software.\n \n \n \n• **Application Software:**\n \n \n• Examples: MS Office, Browsers, Games.\n \n• Primary role: Perform specific tasks required by the user.\n \n \n\n2f",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "676921aa1dac0f97be654b14",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which process includes fixing of security holes in the system?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Risk Control"
+        },
+        {
+          "label": "2",
+          "text": "Data encryption"
+        },
+        {
+          "label": "3",
+          "text": "Patching"
+        },
+        {
+          "label": "4",
+          "text": "Risk likelihood"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**Patching**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Patching** is the process of fixing security vulnerabilities and other bugs by applying updates or \"patches\" to the software or system.\n \n• It is a crucial part of maintaining the security and integrity of any IT system.\n \n• By regularly applying patches, organizations can protect themselves from potential exploits and attacks that take advantage of known vulnerabilities.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Risk Control:** This involves identifying, assessing, and prioritizing risks followed by coordinated application of resources to minimize, control, and monitor the probability or impact of unfortunate events. It does not specifically involve fixing security holes.\n \n• **Data Encryption:** This is a method of converting data into a code to prevent unauthorized access. While important for data security, it does not fix security holes in the system.\n \n• **Risk Likelihood:** This refers to the probability of a risk occurring. It is a part of risk assessment but does not involve fixing security holes.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

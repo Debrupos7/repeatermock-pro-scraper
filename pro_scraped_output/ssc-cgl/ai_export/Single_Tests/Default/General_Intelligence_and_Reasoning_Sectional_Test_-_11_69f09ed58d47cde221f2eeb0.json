@@ -1,0 +1,1004 @@
+{
+  "test_id": "69f09ed58d47cde221f2eeb0",
+  "title": "General Intelligence and Reasoning Sectional Test - 11",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:21:47.813618+00:00",
+  "questions": [
+    {
+      "qid": "5c334eb1fdb8bb30b4c37ea8",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 15 + 29 + 15 = 291515 and 16 + 28 + 31 = 281631, then 19 + 35 + 9 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "35911"
+        },
+        {
+          "label": "2",
+          "text": "35199"
+        },
+        {
+          "label": "3",
+          "text": "35991"
+        },
+        {
+          "label": "4",
+          "text": "31995"
+        }
+      ],
+      "correct": "2",
+      "solution": "The pattern followed here is:\n\nNumbers are rearranged as, second number than first number than third number.\n\n15 + 29 + 15 = 291515\n\n16 + 28 + 31 = 281631\n\nSimilarly,\n\n19 + 35 + 9 = 35199\n\nHence, 19 + 35 + 9 equals to 35199.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "5ee76c4a983d9a0d105ffda9",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A square transparent sheet with a pattern is given. How will the pattern appear when the transparent sheet is folded and punched along the dotted line?\n\n [IMAGE: https://cdn.repeatermock.com/tb/d37aa2924b93607eaea31d6354d2966e0fff8e2dce027f50255eb30d28acf218.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/13e223ec1bed87738f31f81d3793cf24508e52eaff3796b63e79f2a6e5b28b32.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/274bd69542b24faf300eaec614201ce00700927f0508a54ea7cd188e96c0ea2d.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/160b7f97e0136ac872d310bcf5444210875f290b7b62a3b21755514cb2a84aa6.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/bbb52d3280909eac25849fd8fcad41a8f92c2fd2f3b794be0f37800861344354.png]"
+        }
+      ],
+      "correct": "2",
+      "solution": "When the transparent sheet is unfolded, it will appear as shown below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/5bf17faf58693f51e072d39d6f676f0926e1bb7c1233b33a332570129ffaccb1.png] \n\nHence, figure 2 is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d37aa2924b93607eaea31d6354d2966e0fff8e2dce027f50255eb30d28acf218.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/5bf17faf58693f51e072d39d6f676f0926e1bb7c1233b33a332570129ffaccb1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "62b576a658fd2024546de404",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Five boys Anand, Balu, Charan, Dinesh and Tom are sitting on a staircase in a way such that Anand is sitting exactly below Tom, who is sitting exactly below Balu. Charan is sitting exactly between Anand and Dinesh. Who is sitting exactly between Tom and Charan on the staircase?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Anand"
+        },
+        {
+          "label": "2",
+          "text": "Cannot be determined"
+        },
+        {
+          "label": "3",
+          "text": "Balu"
+        },
+        {
+          "label": "4",
+          "text": "Dinesh"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:** Anand, Balu, Charan, Dinesh, and Tom are sitting on a staircase\n\n1: Anand is sitting exactly below Tom.\n\n2: Tom is sitting exactly below Balu. So, there are three possibilities.\n\n \n \n\n **Case I**\n **CaseII**\n **CaseIII**\n \n \n\n \n Balu \n \n \n \n\n \n Tom\n Balu\n \n \n\n Balu\n Anand\n Tom\n \n \n\n Tom\n \n Anand\n \n \n\n Anand\n \n \n \n \n\n3: Charan is sitting exactly between Anand and Dinesh. So, Case I and Case III is eliminated.\n\n \n \n\n CaseII\n \n \n\n Balu \n \n \n\n Tom\n \n \n\n Anand\n \n \n\n Charan\n \n \n\n Dinesh\n \n \n\nSo, Anand is sitting exactly between Tom and Charan.\n\nHence,** Anand** is the **correct answer.**",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "62f1ee12bd298380e508467f",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that is related to the fifth word in the same way as the second word is related to the first word and the fourth word is related to the third word.\n\nPitch ∶ Cricket ∶∶ Court ∶ Badminton ∶∶ Ring ∶ ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Football"
+        },
+        {
+          "label": "2",
+          "text": "Boxing"
+        },
+        {
+          "label": "3",
+          "text": "Hockey"
+        },
+        {
+          "label": "4",
+          "text": "Rugby"
+        }
+      ],
+      "correct": "2",
+      "solution": "The pattern followed here is:\n\nPitch ∶ Cricket → A special area of ground where you play cricket and pitch is used for playing cricket.\n\nAnd,\n\nCourt ∶ Badminton → Court is the area where you play Badminton. It is made up of wooden floor with synthetic mats used as the surface of court.\n\nSimilarly,\n\nRing ∶ Boxing → Ring is the place in which a Boxing match occurs. A ring consist of a square raised platform with a post at each corner.\n\nHence, the correct answer is **\"Boxing\".**"
+    },
+    {
+      "qid": "64cb8654f26ee5434953f8a3",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the set in which the numbers are related in the same way as are the numbers of the following set.\n\n(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is NOT allowed)\n\n(47, 11, 61)\n\n(13, 68, 84)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(52, 88, 143)"
+        },
+        {
+          "label": "2",
+          "text": "(55, 11, 70)"
+        },
+        {
+          "label": "3",
+          "text": "(16, 62, 80)"
+        },
+        {
+          "label": "4",
+          "text": "(33, 43, 83)"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is :-\n\n(First number + Second number) + 3\n\n \n• (47, 11, 61) → (47 + 11) + 3 = 58 + 3 = 61\n\nand\n\n \n• (13, 68, 84) → (13 + 68) + 3 = 81 + 3 = 84\n\nSimilarly,\n\n \n• **(52, 88, 143) → (52 + 88) + 3 = 140 + 3 = 143**\n\nHence, the correct answer is **\"143\".**",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "66a25e5adaf4e8b10454c92f",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, 'GCJL' is coded as '14-6-20-24' and 'WTRO' is coded as '46-40-36-30'. What is the code for 'BZKQ' in the given code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2-52-22-34"
+        },
+        {
+          "label": "2",
+          "text": "3-51-20-33"
+        },
+        {
+          "label": "3",
+          "text": "4-52-21-32"
+        },
+        {
+          "label": "4",
+          "text": "4-52-22-34"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/4a5b7cf84abd4e09a63d504f404b2035f579e6a3a005e11d54e3ca50bd42a099.png] \n\nThe logic followed here is:​\n\n'GCJL' is coded as '14-6-20-24'\n\n​ [IMAGE: https://cdn.repeatermock.com/tb/263c9ddc89427b2235498aab7b137bc819c172ee91901209b4ac14a04dd34107.png] \n\n​And,\n\n'WTRO' is coded as '46-40-36-30'\n\n​ [IMAGE: https://cdn.repeatermock.com/tb/a4f32baf6c56da4e4792fa3601b69b26620222ff57e96c3a4197b83e7d8b469a.png] \n\n​Similarly,\n\n'BZKQ' is coded as\n\n [IMAGE: https://cdn.repeatermock.com/tb/cf2745ddb84a80c0f3a3a056fd23791db182774a500093573e1297fe5b5c109d.png] \n\nHence, \"Option 4\" is the correct answer.\n\n64:T90f,",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4a5b7cf84abd4e09a63d504f404b2035f579e6a3a005e11d54e3ca50bd42a099.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/263c9ddc89427b2235498aab7b137bc819c172ee91901209b4ac14a04dd34107.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a4f32baf6c56da4e4792fa3601b69b26620222ff57e96c3a4197b83e7d8b469a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/cf2745ddb84a80c0f3a3a056fd23791db182774a500093573e1297fe5b5c109d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "66a25f4b435cc0606471da4f",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What will come in the place of the question mark (?) in the following equation if '+' and '-' are interchanged and '×' and '÷' are interchanged?\n\n73 - 27 × 9 + 5 ÷ 13 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11"
+        },
+        {
+          "label": "2",
+          "text": "17"
+        },
+        {
+          "label": "3",
+          "text": "9"
+        },
+        {
+          "label": "4",
+          "text": "23"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ebadc30a979bf1a7e953d20901c3e7953c575296c0e0bb4af8a458ec3a64ab2c.png] \n\nGiven : 73 - 27 × 9 + 5 ÷ 13 = ?\n\nAccording to the question, after replacing the signs :\n\n‘+’ and ‘-’ are interchanged \n\n‘×’ and ‘÷’ are interchanged\n\nSo,​​\n\n73 + __**27 **____**÷**____** 9**__ - 5 × 13 = ?\n\n73 + 3 - __**5 **____**× 1**____**3**__ = ?\n\n__**73 + 3**__ - 65 = ?\n\n__**76 - 65**__ = ?\n\n**11 = ?**\n\nHence, \"11\" is the correct answer.\n\n6e",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ebadc30a979bf1a7e953d20901c3e7953c575296c0e0bb4af8a458ec3a64ab2c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "601a28dcd28abfa7fe9af6f8",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the correct option that indicates the arrangement of the following words in a logical order.\n\n1. Senior secondary\n\n2. Post-graduation\n\n3. Primary school\n\n4. Secondary school\n\n5. Graduation",
+      "options": [
+        {
+          "label": "1",
+          "text": "3, 4, 1, 2, 5"
+        },
+        {
+          "label": "2",
+          "text": "3, 4, 2, 5, 1"
+        },
+        {
+          "label": "3",
+          "text": "3, 4, 1, 5, 2"
+        },
+        {
+          "label": "4",
+          "text": "4, 3, 1, 5, 2"
+        }
+      ],
+      "correct": "3",
+      "solution": "The arrangement of the following words in a logical order is shown below:\n\n3. Primary school\n\n4. Secondary school\n\n1. Senior secondary\n\n5. Graduation\n\n2. Post-graduation\n\nA child starts education from primary school, after which the child goes to secondary school. After completing secondary school, the child goes to senior secondary and then goes for graduation. After completing graduation, the child goes for post-graduation.\n\nHence, ‘**3, 4, 1, 5, 2**’ is the correct answer.",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "613f3a6bb7572c24b0fa23f1",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Four number-pairs have been given, out of which three are alike in some manner and one is different. Select the number-pair that is different.",
+      "options": [
+        {
+          "label": "1",
+          "text": "14 : 210"
+        },
+        {
+          "label": "2",
+          "text": "18 : 342"
+        },
+        {
+          "label": "3",
+          "text": "17 : 307"
+        },
+        {
+          "label": "4",
+          "text": "12 : 156"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic is:\n\n**First number : First number × (First number + 1) = Second number**\n\n1. 14 : 210 → 14 × (14 + 1) = 14 × 15 = 210\n\n2. 18 : 342 → 18 × (18 + 1) = 18 × 19 = 342 \n\n**3. 17 : 307 → 17 × (17 + 1) = 17 × 18 = 306 ≠ 307**\n\n4. 12 : 156 → 12 × (12 + 1) = 12 × 13 = 156\n\nHence, '**17 : 307**' is the odd one out.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "633d0d1100efd84551410c7b",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Direction and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A cyclist travels towards the east for 2 km and then turns left to travel 1 km. From there, he turns left and travels another 800 metres to reach a tea junction. After a short break, he turns towards the south and travels for 500 metres. From there, he turns right and travels for 1.2 km. Finally, he tums right and travels for 1 km. In which direction is he from his starting position?",
+      "options": [
+        {
+          "label": "1",
+          "text": "West"
+        },
+        {
+          "label": "2",
+          "text": "North"
+        },
+        {
+          "label": "3",
+          "text": "South"
+        },
+        {
+          "label": "4",
+          "text": "East"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is :-\n\nA cyclist travels towards the east for 2 km and then turns left to travel 1 km. From there, he turns left and travels another 800 metres to reach a tea junction. After a short break, he turns towards the south and travels for 500 metres. From there, he turns right and travels for 1.2 km. Finally, he tums right and travels for 1 km.\n\n [IMAGE: https://cdn.repeatermock.com/tb/446c08f2795cc128e025c9707bead0dfed8926a69a2f44aaba719357fec8f6e4.png] \n\n∴ Here, Cyclist is in 'north' with respect to his starting position.\n\nHence, the correct answer is **\"North\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/446c08f2795cc128e025c9707bead0dfed8926a69a2f44aaba719357fec8f6e4.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direction and Distance"
+      ]
+    },
+    {
+      "qid": "642cfdbe588263759d6f4f3a",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Venn Diagram",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Study the given diagram carefully and answer the questions. The numbers in different sections indicate the number of persons good at the given sport.\n\n [IMAGE: https://cdn.repeatermock.com/tb/e36b7d255a5a828e235f1f70bb79c7293f544a05892b3b31cb6ff3ac1f160653.png] \n\nHow many people are good exactly two sports ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "43"
+        },
+        {
+          "label": "2",
+          "text": "38"
+        },
+        {
+          "label": "3",
+          "text": "48"
+        },
+        {
+          "label": "4",
+          "text": "11"
+        }
+      ],
+      "correct": "1",
+      "solution": "According to the given diagram the total number of people who are good at exactly two sports are shown below :\n\n [IMAGE: https://cdn.repeatermock.com/tb/1f64e82943ab898d65151cc1fdf3822211ca4678a3a38b4210c05d8dbc9e01f7.png] \n\n**Thus, as marked above :-**\n\nTotal number of people who are good at exactly two sports = Total number of people good at both chess and badminton + Total number of people good at both chess and tennis + Total number of people good at both tennis and badminton\n\nTotal number of people who are good at exactly two sports = 14 + 11 + 18\n\nTotal number of people who are good at exactly two sports = 43\n\nHence, **\"43\"** is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e36b7d255a5a828e235f1f70bb79c7293f544a05892b3b31cb6ff3ac1f160653.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1f64e82943ab898d65151cc1fdf3822211ca4678a3a38b4210c05d8dbc9e01f7.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Venn Diagram"
+      ]
+    },
+    {
+      "qid": "694a889e72814b33a63f37cc",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given question, four sets of names and address are given out of which two are relatively same. Find the two combinations and mark the correct answer accordingly?\n\n1. 123-Sector 15, Rohini Mathur, Plot-2, Mumbai- 400052\n\n2. 123-Sector 15, Rohini Mathur, Plot-2, Mumbai- 400052\n\n3. 123-Sector 18, Rohini Thakur, Plot-2, Mumbai- 400052\n\n4. 123-Sector 18, Rohini Thakur, Plot-5, Mumbai- 400058",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 & 2"
+        },
+        {
+          "label": "2",
+          "text": "3 & 4"
+        },
+        {
+          "label": "3",
+          "text": "2 & 3"
+        },
+        {
+          "label": "4",
+          "text": "1 & 4"
+        }
+      ],
+      "correct": "1",
+      "solution": "1 & 2 matches."
+    },
+    {
+      "qid": "6037c1d7983c9f02013cb719",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Situation Reaction Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "You are playing cricket with your friends in the parking area of your building society and by mistake, the ball has broken the windshield of the neighbor's car. You will",
+      "options": [
+        {
+          "label": "1",
+          "text": "Get your ball back without informing the car owner about this."
+        },
+        {
+          "label": "2",
+          "text": "Ask the owner to return the ball from his car."
+        },
+        {
+          "label": "3",
+          "text": "Tell the owner that it is not your fault."
+        },
+        {
+          "label": "4",
+          "text": "Apologize and contribute to the window repairing."
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is Option 4: Apologize and contribute to the window repairing.\n\n \n \n\n Statement\n Correctness\n Reasoning\n \n \n \n \n\n Get your ball back without informing the car owner about this.\n Incorrect\n It shows that you cannot face challenges and cannot admit your mistakes.\n \n \n\n Ask the owner to return the ball from his car.\n Incorrect\n You should apologize for the loss and compensate. It shows a lack of courage and social adaptability.\n \n \n\n Tell the owner that it is not your fault.\n Incorrect\n You should apologize for the loss and compensate. It shows a lack of courage and social adaptability.\n \n \n\n \n \nApologize and contribute to the window repairing.\n\n \n Correct\n It shows that you have enough guts to admit your mistakes.\n \n \n\n \n\n__\n \n• Qualities Projected in this situation: (Effective Intelligence, Sense of responsibility, and Speed of decision making).\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **Key Points__**\n\n__\n \n• Checklist for attempting SRT questions:\n\n \n• Read the question and options carefully.\n \n• Look for options that are realistic, optimistic, and reflect officer-like qualities.\n \n• Do not skip any situation.\n \n• Relegate the negative sentences and choose the most logical option among the remaining. As time is an important factor, hence your thinking ability should be swift.\n \n• React quickly and be logical.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\nOfficer qualities:\n\n [IMAGE: https://cdn.repeatermock.com/tb/b39d30b26e65d84bed716621fa660da2bc7599d7cd5dc56e20761810262865e9.png]",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b39d30b26e65d84bed716621fa660da2bc7599d7cd5dc56e20761810262865e9.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Situation Reaction Test"
+      ]
+    },
+    {
+      "qid": "6045d2f74993d64cb864758f",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Situation Reaction Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "You have been disqualified from the physical examination of defence services. You will",
+      "options": [
+        {
+          "label": "1",
+          "text": "Look for other desk jobs where physical fitness doesn't matter."
+        },
+        {
+          "label": "2",
+          "text": "Request the instructor to qualify you and work hard."
+        },
+        {
+          "label": "3",
+          "text": "Take this as your insult and never appear for defense services again."
+        },
+        {
+          "label": "4",
+          "text": "Work on your physical fitness and appear for the examination again."
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is Option 4: **Work on your physical fitness and appear for the examination again.**\n\n \n \n\n Statement\n Correctness\n Reasoning\n \n \n \n \n\n Look for other desk jobs where physical fitness doesn't matter\n Incorrect\n It reflects a lack of dedication to your work and passion.\n \n \n\n Request the instructor to qualify you and work hard\n <td style=\"t",
+      "tags": [
+        "Situation Reaction Test"
+      ]
+    },
+    {
+      "qid": "6245b16f61a5570a94bd0590",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the number-triad in which the three numbers share a different relationship from that shared by the three numbers in the rest of the number-triads.",
+      "options": [
+        {
+          "label": "1",
+          "text": "(13, 39, 65)"
+        },
+        {
+          "label": "2",
+          "text": "(19, 57, 95)"
+        },
+        {
+          "label": "3",
+          "text": "(23, 69, 105)"
+        },
+        {
+          "label": "4",
+          "text": "(17, 51, 85)"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is :-\n\n1) (13, 39, 65)\n\n [IMAGE: https://cdn.repeatermock.com/tb/bcb07cc8a18c149baa0fd332beab02e95d16d597d857d4f7796e54f04e5db89c.png] \n\n2) (19, 57, 95)\n\n [IMAGE: https://cdn.repeatermock.com/tb/24210dc3d6107c19ae142cd5b9540dda3abdf078f4b72a56a1053685341aa260.png] \n\n**3) (23, 69, 105)**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/eb661fed384020343eff6239fb7c5ba0805aa94165d005bb3a16f44546bf500a.png] **\n\n**From the logic the third number should be 115 instead of 105.**\n\n4) (17, 51, 85)\n\n [IMAGE: https://cdn.repeatermock.com/tb/bab68beffc6e2b3d421aa085e82493034f9f953579b0190c94df627435f5044e.png] \n\n∴ Here, '(23, 69, 105)' is different from other three alternatives.\n\nHence, the correct answer is **\"(23, 69, 105)\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bcb07cc8a18c149baa0fd332beab02e95d16d597d857d4f7796e54f04e5db89c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/24210dc3d6107c19ae142cd5b9540dda3abdf078f4b72a56a1053685341aa260.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/eb661fed384020343eff6239fb7c5ba0805aa94165d005bb3a16f44546bf500a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bab68beffc6e2b3d421aa085e82493034f9f953579b0190c94df627435f5044e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "6279f5680bd0e650e58b6cda",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Pointing to a woman, a girl named Rita said. \"I am the daughter of the daughter-in-law of her mother\". What is the relation of that woman to the Rita?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sister"
+        },
+        {
+          "label": "2",
+          "text": "Maternal aunt"
+        },
+        {
+          "label": "3",
+          "text": "Paternal aunt"
+        },
+        {
+          "label": "4",
+          "text": "Mother-in-law"
+        }
+      ],
+      "correct": "3",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png] \n\nGiven: Pointing to a woman, a girl named Rita said. \"I am the daughter of t\nhe daughter-in-law of her mother\".\n\n [IMAGE: https://cdn.repeatermock.com/tb/48a2370b7c72168d3c5885b0166db3f8b7978a72b27390a9d4f589fafe3a6ff8.png] \n\nSo, that woman is '**Paternal aunt**' of Rita.\n\nHence, the correct answer is \"Paternal aunt\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/aecbe9ab6b7da7cca1ac2d356e84b8c992ce57c8b50affd73dfdd3dad30ceb2e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/48a2370b7c72168d3c5885b0166db3f8b7978a72b27390a9d4f589fafe3a6ff8.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "6372b98dafa43e96dd017b84",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that represents the letters that, when placed from left to right in the same sequence in the blanks below, will complete the letter series.\n\nN L A _ X N _ B F _ N L _ F _ N L _ _ X",
+      "options": [
+        {
+          "label": "1",
+          "text": "F L C E X A F"
+        },
+        {
+          "label": "2",
+          "text": "F N X C X C F"
+        },
+        {
+          "label": "3",
+          "text": "F L X N X D C"
+        },
+        {
+          "label": "4",
+          "text": "F L X C X D F"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given → N L A _ X N _ B F _ N L _ F _ N L _ _ X\n\nBy checking options and substituting accordingly.\n\n1) F L C E X A F → N L A __F__ X - N __L__ B F __C__ - N L __E__ F __X__ - N L __A__ __F__ X ⇒ Sequence not followed.\n\n2) F N X C X C F → N L A __F__ X - N __N__ B F __X -__ N L __C__ F __X -__ N L __C__ __F__ X ⇒ Sequence not followed.\n\n3) F L X N X D C → N L A __F__ X - N __L__ B F __X -__ N L __N__ F __X__ - N L __D__ __C__ X ⇒ Sequence not followed.\n\n4) F L X C X D F → N L A __F__ X - N __L__ B F __X__ - N L __C__ F __X__ - N L __D__ __F__ X ⇒ Sequence followed.\n\nPattern followed here is **NLAFX / NLBFX / NLCFX / NLDFX** (Third Letter of the series increases +1 simultaneously)\n\nHence, the correct answer is **\"F L X C X D F\".**\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] \n\n**__Alternate Method__**Putting all the letter according to the option we are getting the below result.\n\n \n \n\n 1)\n N\n L\n A\n __F__\n X\n N\n __L__\n B\n F\n __C__\n N\n L\n __E__\n F\n __X__\n N\n L\n __A__\n __F__\n X\n \n \n\n 2)\n N\n L\n A\n __F__\n X\n N\n __N__\n B\n F\n __X__\n N\n L\n __C__\n F\n __X__\n N\n L\n __C__\n __F__\n X\n \n \n\n 3)\n N\n L\n A\n __F__\n X\n N\n __L__\n B\n F\n __X__\n N\n L\n __N__\n F\n __X__\n N\n L\n __D__\n __C__\n X\n \n \n\n 4)\n N\n L\n A\n __F__\n X\n N\n __L__\n B\n F\n __X__\n N\n L\n __C__\n F\n __X__\n N\n L\n __D__\n __F__\n X\n \n \n\nBy putting the value of \"F L X C X D F\" in empty space, then we get the series → **NLAFX / NLBFX / NLCFX / NLDFX**\n\nHence, the correct answer is **\"F L X C X D F\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "6526b2da0e6b270fd4441f4f",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A @ B means ‘A is the husband of B’\n\nA & B means ‘A is the mother of B’\n\nA # B means ‘A is the daughter of B’\n\nIf L @ M & K @ J # P, then how is J related to L?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Son’s wife"
+        },
+        {
+          "label": "2",
+          "text": "Daughter’s husband"
+        },
+        {
+          "label": "3",
+          "text": "Mother"
+        },
+        {
+          "label": "4",
+          "text": "Son"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/e27edeaa6bfe12cc43c9d39c3092248f20299ec49647bd43bfafc99a05449e1a.png] \n\n \n \n\n **Symbol**\n @\n &\n #\n \n \n\n **Meaning**\n Husband\n Mother\n Daughter\n \n \n\n \n\nFamily tree will be drawn as follows:\n\n [IMAGE: https://cdn.repeatermock.com/tb/8da870f68bb3fc7dbcb1320e7f7b8612383707b1444ee9245e7aa9259a4834f2.png] \n\n**Therefore J is the daughter in law of L or according to the Options **\n\n**J is L's Son's Wife**\n\nHence, The Correct Answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e27edeaa6bfe12cc43c9d39c3092248f20299ec49647bd43bfafc99a05449e1a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8da870f68bb3fc7dbcb1320e7f7b8612383707b1444ee9245e7aa9259a4834f2.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "623244f5c9f4df4fc9dbaa09",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following numbers will replace the question mark (?) in the given series?\n\n25, 34, 52, ?, 160, 304",
+      "options": [
+        {
+          "label": "1",
+          "text": "88"
+        },
+        {
+          "label": "2",
+          "text": "80"
+        },
+        {
+          "label": "3",
+          "text": "95"
+        },
+        {
+          "label": "4",
+          "text": "99"
+        }
+      ],
+      "correct": "1",
+      "solution": "The pattern followed here is:-\n\n [IMAGE: https://cdn.repeatermock.com/tb/9d08c443b960cf941871bcd05f43da07dade74724c62ebfb22b4c082a8b32c05.png] \n\nHence, the correct answer is **\"88\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9d08c443b960cf941871bcd05f43da07dade74724c62ebfb22b4c082a8b32c05.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "653228f73e438c43fb6b8db5",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following terms will replace the question mark (?) in the given series?\n\nVURS, POLM, JIFG, DCZA, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "WXTU"
+        },
+        {
+          "label": "2",
+          "text": "WYUT"
+        },
+        {
+          "label": "3",
+          "text": "XWTU"
+        },
+        {
+          "label": "4",
+          "text": "XYTU"
+        }
+      ],
+      "correct": "3",
+      "solution": "The positional value of alphabet series is;\n\n [IMAGE: https://cdn.repeatermock.com/tb/889ff2be8a048327f450a975a401b2f4241e5f28d86896613386ad4014cb4505.png] \n\nNow the pattern",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/889ff2be8a048327f450a975a401b2f4241e5f28d86896613386ad4014cb4505.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "666885dd09041232c2949225",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, select the figure which can be placed at the sign of question mark (?) from the given alternatives.\n\n [IMAGE: https://cdn.repeatermock.com/tb/b6e298f3fb56eb8cfb50173230540e292b0f96b7d4e2699d99799a6ec5b08340.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/d0747e69de56da9fa65b2952fc4ae40a8a50a447855622c26a77299a73479fd4.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/10cb72e58f9444e46765a36022cb63aeb9327f9c808183eb6dc2e8f76030d1e1.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/5bbfbce1cc0ebb964ecb2eab6961644b9386432b353bfa311953d5ca36d6d33f.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/389b1c3c850f05a4ec879feac96b642e7f1bd04212d1343d05d97d16251541a1.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic follows here is :\n\nThe inner darkened pentagon moves from one corner to the next corner and the inner symbol rotates 180 degrees in every step. \n\nSo, the figure that will replace the question mark (?) in the following figure series is shown below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/1cb7a0bc498884b064b098d12d070c35db01848c8f2d732fead80e1872ff0507.png] \n\nThus, the figure in option(2) will replace the question mark.\n\nHence, the correct answer is \"Option(2)\".",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b6e298f3fb56eb8cfb50173230540e292b0f96b7d4e2699d99799a6ec5b08340.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1cb7a0bc498884b064b098d12d070c35db01848c8f2d732fead80e1872ff0507.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "605392864db4f5489b78139b",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the given statement and conclusions carefully and select which of the conclusions logically follows(s) from the statement. \n\nStatement: If there is a shortage of production of potatoes, the price will go up. The price of potatoes has gone up.\n\nConclusions:\n\nI. Potatoes were stored in bulk, so shortage happened.\n\nII. Potatoes were exported.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "If neither I nor II follows"
+        },
+        {
+          "label": "4",
+          "text": "If both I and II follow"
+        }
+      ],
+      "correct": "3",
+      "solution": "I. Potatoes were stored in bulk, so shortage happened. → False (Nothing said about the potato storage in the statement, hence false.)\n\nII. Potatoes were exported. → False (Prices of potatoes have already gone up, so there is no reason to export.)\n\nHence, neither I nor II follows.",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "6528285576aa433d529a9267",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "S16H is related to P22K in a certain way. In the same way, M28N is related to J34Q. To which of the following is K32P related following the same logic?",
+      "options": [
+        {
+          "label": "1",
+          "text": "G42T"
+        },
+        {
+          "label": "2",
+          "text": "D38W"
+        },
+        {
+          "label": "3",
+          "text": "H38S"
+        },
+        {
+          "label": "4",
+          "text": "F40U"
+        }
+      ],
+      "correct": "3",
+      "solution": "The position and positional value of English Alphabets are:\n\n [IMAGE: https://cdn.repeatermock.com/tb/0270f2b5240d1e3915517248ac98d6d73ad611166857551401277421991a6c6e.png] \n\nThe logic followed here is:\n\n**(First Letter - 3 → Number + 6 **→**Last letter +3)**\n\nNow,\n\nS16H is related to P22K.\n\n [IMAGE: https://cdn.repeatermock.com/tb/17f6bc723a10840fff5081d7351365605788db98a592bf87ddec03202e4665be.png] \n\nM28N is related to J34Q.\n\n [IMAGE: https://cdn.repeatermock.com/tb/5975af91f64db750944d899dc80648a80475f18209db479afc4c489c18cd3717.png] \n\nSimilarly,K32P will be:\n\n [IMAGE: https://cdn.repeatermock.com/tb/045fb5642969562318bcd553250318713a2ed5095c60203ad55ba36be528c82a.png] \n\nSo, K32P will be related to H38S.\n\nHence, the correct answer is ***'Option 3'.***",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0270f2b5240d1e3915517248ac98d6d73ad611166857551401277421991a6c6e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/17f6bc723a10840fff5081d7351365605788db98a592bf87ddec03202e4665be.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5975af91f64db750944d899dc80648a80475f18209db479afc4c489c18cd3717.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/045fb5642969562318bcd553250318713a2ed5095c60203ad55ba36be528c82a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "61361131219da78ed38430d6",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The question below consists of statements and two conclusions numbered I and II. You have to read them carefully and select the correct option.\n\n**Statements:** Some boys are Girls. All Girls are beautiful.\n\n**Conclusions:**\n\nI. All Boys are beautiful.\n\nII. All girls are boys.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Neither I nor II follows"
+        },
+        {
+          "label": "2",
+          "text": "Either I or II follows"
+        },
+        {
+          "label": "3",
+          "text": "Only conclusion II follows"
+        },
+        {
+          "label": "4",
+          "text": "Only conclusion I follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "The least possible Venn diagram for the given statements is as below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/864ced0c982883d15012230111bd3eebd2a93b3802a49c9cfe945de4b0572e1f.png] \n\nConclusions: \n\n1. All Boys are beautiful → False (It is possible but not definite).\n\n2. All girls are boys → False (It is possible but not definite).\n\nHence, the correct answer is<span",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/864ced0c982883d15012230111bd3eebd2a93b3802a49c9cfe945de4b0572e1f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "670504177867536a75c35457",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the number from among the given options that can replace the question mark (?) in the following series.\n\n23, 27, 43, 79, 143, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "240"
+        },
+        {
+          "label": "2",
+          "text": "243"
+        },
+        {
+          "label": "3",
+          "text": "250"
+        },
+        {
+          "label": "4",
+          "text": "200"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/e093a84373c90ec2f4b92f65ee1042f3aeef6544bfb221d53d1fc5d2c10f3f29.png] \n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e093a84373c90ec2f4b92f65ee1042f3aeef6544bfb221d53d1fc5d2c10f3f29.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    }
+  ]
+}

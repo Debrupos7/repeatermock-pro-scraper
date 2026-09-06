@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CT 43: Lines and Angles</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.6;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,0.04);position:sticky;top:0;z-index:100;}
+.brand{font-size:20px;font-weight:800;letter-spacing:-0.02em;}
+.brand-light{color:#1f2937;}
+.brand-mark{color:#1fbad6;}
+.test-title{font-size:14px;color:#4b5563;font-weight:500;text-align:center;flex:1;padding:0 24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.header-right{display:flex;align-items:center;gap:12px;}
+.timer{background:#1f2937;color:#fff;padding:8px 16px;border-radius:6px;font-family:"SF Mono",Monaco,monospace;font-size:16px;font-weight:600;min-width:110px;text-align:center;}
+.timer.warning{background:#f59e0b;}
+.timer.danger{background:#ef4444;animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.7;}}
+.header-btn{background:#1fbad6;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s;}
+.header-btn:hover{background:#1999b3;}
+.submit-btn{background:#ef4444;}
+.submit-btn:hover{background:#dc2626;}
+.meta-bar{background:#fff;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;flex-wrap:wrap;gap:12px 32px;font-size:13px;}
+.meta-item{display:flex;flex-direction:column;gap:2px;}
+.meta-label{color:#6b7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+.meta-value{color:#1f2937;font-size:14px;font-weight:600;}
+.test-container{display:flex;max-width:1400px;margin:0 auto;gap:16px;padding:16px;}
+.question-area{flex:1;min-width:0;}
+.section-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.section-tab{background:#fff;border:1px solid #e5e7eb;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;color:#4b5563;}
+.section-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.question-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.q-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #f3f4f6;}
+.q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.q-marks{display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap;}
+.q-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.q-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.conf-high{background:#d1fae5;color:#065f46;}
+.conf-unidentified{background:#fef3c7;color:#92400e;}
+.q-id{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;}
+.result-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-qid{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;margin-left:auto;}
+.mark-pos{color:#10b981;font-weight:600;}
+.mark-neg{color:#ef4444;font-weight:600;}
+.q-lang-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.q-lang-tab{background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer;}
+.q-lang-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.q-text{font-size:15px;margin-bottom:16px;}
+.q-text p{margin:8px 0;}
+.q-text img{max-width:100%;height:auto;border-radius:4px;}
+.options-list{list-style:none;}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;margin-bottom:8px;border:1.5px solid #e5e7eb;border-radius:6px;cursor:pointer;transition:all .15s;font-size:14px;}
+.option-item:hover{background:#f9fafb;border-color:#d1d5db;}
+.option-item.selected{background:#dbeafe;border-color:#3b82f6;}
+.option-item.correct{background:#d1fae5;border-color:#10b981;}
+.option-item.wrong{background:#fee2e2;border-color:#ef4444;}
+.option-label{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;background:#1f2937;color:#fff;border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0;}
+.option-item.selected .option-label{background:#3b82f6;}
+.option-item.correct .option-label{background:#10b981;}
+.option-item.wrong .option-label{background:#ef4444;}
+.option-item.correct::after{content:" ✓ Correct";color:#10b981;font-weight:700;margin-left:auto;}
+.option-item.wrong::after{content:" ✗ Wrong";color:#ef4444;font-weight:700;margin-left:auto;}
+.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+.action-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.action-btn:hover{background:#f9fafb;}
+.action-btn.save-next{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.action-btn.save-next:hover{background:#1999b3;}
+.action-btn.mark-review{background:#fef3c7;color:#92400e;border-color:#f59e0b;}
+.prev-next{display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #f3f4f6;}
+.nav-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.nav-btn:hover{background:#f9fafb;}
+.palette-sidebar{width:280px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start;background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;max-height:calc(100vh - 110px);overflow-y:auto;}
+.palette-header{font-size:14px;font-weight:700;color:#1f2937;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f3f4f6;}
+.palette-legend{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10px;color:#6b7280;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:3px;}
+.legend-dot{width:12px;height:12px;border-radius:2px;}
+.legend-dot.answered{background:#10b981;}
+.legend-dot.notanswered{background:#ef4444;}
+.legend-dot.marked{background:#a855f7;}
+.legend-dot.notvisited{background:#e5e7eb;}
+.palette-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;}
+.palette-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px solid #e5e7eb;border-radius:4px;font-size:11px;font-weight:600;color:#4b5563;cursor:pointer;transition:all .15s;background:#f3f4f6;}
+.palette-cell:hover{transform:scale(1.1);}
+.palette-cell.answered{background:#10b981;color:#fff;border-color:#10b981;}
+.palette-cell.notanswered{background:#ef4444;color:#fff;border-color:#ef4444;}
+.palette-cell.marked{background:#a855f7;color:#fff;border-color:#a855f7;}
+.palette-cell.marked-answered{background:#a855f7;color:#fff;border-color:#a855f7;position:relative;}
+.palette-cell.marked-answered::after{content:"•";position:absolute;top:-2px;right:2px;color:#10b981;font-size:14px;}
+.palette-cell.notvisited{background:#fff;color:#9ca3af;}
+.palette-cell.current{outline:3px solid #1fbad6;outline-offset:1px;}
+.palette-stats{margin-top:12px;padding-top:12px;border-top:1px solid #f3f4f6;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:11px;color:#6b7280;}
+.palette-stats div{display:flex;justify-content:space-between;}
+.palette-stats strong{color:#1f2937;font-size:13px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;padding:24px;}
+.modal-overlay.open{display:flex;}
+.modal-content{background:#fff;border-radius:12px;padding:24px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-content h2{font-size:20px;color:#1f2937;margin-bottom:12px;}
+.modal-content p{font-size:14px;color:#4b5563;margin-bottom:16px;}
+.submit-summary{background:#f9fafb;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;}
+.submit-summary div{display:flex;justify-content:space-between;margin-bottom:4px;}
+.submit-summary strong{color:#1f2937;}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;}
+.modal-btn{padding:8px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-btn.cancel{background:#f3f4f6;color:#4b5563;}
+.modal-btn.cancel:hover{background:#e5e7eb;}
+.modal-btn.submit{background:#ef4444;color:#fff;}
+.modal-btn.submit:hover{background:#dc2626;}
+.results-view{max-width:1000px;margin:0 auto;padding:24px;}
+.results-header{text-align:center;margin-bottom:32px;}
+.results-header h1{font-size:28px;color:#1f2937;margin-bottom:16px;}
+.score-card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;display:inline-block;min-width:300px;margin-bottom:16px;}
+.score-card .score{font-size:48px;font-weight:800;color:#1fbad6;}
+.score-card .total{font-size:20px;color:#6b7280;}
+.score-card .rank{font-size:14px;color:#4b5563;margin-top:8px;}
+.results-actions{display:flex;gap:8px;justify-content:center;}
+.results-questions{display:grid;gap:16px;}
+.result-card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.result-card.correct{border-left:4px solid #10b981;}
+.result-card.wrong{border-left:4px solid #ef4444;}
+.result-card.skipped{border-left:4px solid #9ca3af;}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.result-q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.result-status{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;}
+.result-status.correct{background:#d1fae5;color:#065f46;}
+.result-status.wrong{background:#fee2e2;color:#991b1b;}
+.result-status.skipped{background:#f3f4f6;color:#4b5563;}
+.result-text{font-size:14px;margin-bottom:12px;}
+.result-text p{margin:6px 0;}
+.result-options{list-style:none;margin-bottom:12px;}
+.result-option{padding:8px 12px;margin-bottom:4px;border:1px solid #e5e7eb;border-radius:4px;font-size:13px;display:flex;align-items:flex-start;gap:8px;}
+.result-option.correct{background:#d1fae5;border-color:#10b981;font-weight:600;}
+.result-option.selected{background:#dbeafe;border-color:#3b82f6;}
+.result-option.correct.selected{background:#a7f3d0;}
+.result-option-label{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;background:#1f2937;color:#fff;border-radius:3px;font-size:11px;font-weight:600;}
+.result-option.correct .result-option-label{background:#10b981;}
+.result-solution{background:#fef3c7;border-left:3px solid #f59e0b;border-radius:4px;padding:12px;font-size:13px;color:#1f2937;}
+.result-solution-title{font-weight:700;color:#92400e;margin-bottom:6px;font-size:12px;}
+.result-solution p{margin:6px 0;}
+.result-solution img{max-width:100%;height:auto;border-radius:4px;}
+@media (max-width:1024px){.palette-sidebar{width:220px;}.palette-grid{grid-template-columns:repeat(5,1fr);}}
+@media (max-width:768px){.test-container{flex-direction:column;}.palette-sidebar{width:100%;position:static;max-height:none;}.palette-grid{grid-template-columns:repeat(10,1fr);}}
+@media print{.top-bar,.palette-sidebar,.actions,.prev-next,.section-tabs,.q-lang-tabs,.meta-bar,.results-actions{display:none;}.test-container,.results-view{display:block;}.result-card{page-break-inside:avoid;}}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="top-bar">
+  <div class="brand"><span class="brand-light">Repeater</span><span class="brand-mark">Mock</span></div>
+  <div class="test-title" id="testTitle">CT 43: Lines and Angles</div>
+  <div class="header-right">
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="header-btn submit-btn" onclick="openSubmitModal()">Submit Test</button>
+  </div>
+</header>
+
+<!-- Meta bar -->
+<div class="meta-bar">
+  <div class="meta-item"><span class="meta-label">Series</span><span class="meta-value">ssc-cgl</span></div>
+  <div class="meta-item"><span class="meta-label">Questions</span><span class="meta-value">10</span></div>
+  <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">0 min</span></div>
+  <div class="meta-item"><span class="meta-label">Max Marks</span><span class="meta-value">20.0</span></div>
+  <div class="meta-item"><span class="meta-label">Marking</span><span class="meta-value">+2.0 / -0.5</span></div>
+  <div class="meta-item"><span class="meta-label">Test ID</span><span class="meta-value">6a0f3ce2cda5e733b2faaf7f</span></div>
+</div>
+
+<!-- Test mode -->
+<div id="testMode" class="test-container">
+  <main class="question-area">
+    <div class="section-tabs" id="sectionTabs"></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-header">
+        <span class="q-num" id="qNum">Q1</span>
+        <span class="q-marks" id="qMarks"></span>
+      </div>
+      <div class="q-lang-tabs" id="qLangTabs"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options-list" id="optionsList"></div>
+      <div class="actions">
+        <button class="action-btn mark-review" onclick="markReviewNext()">Mark for Review &amp; Next</button>
+        <button class="action-btn clear-response" onclick="clearResponse()">Clear Response</button>
+        <button class="action-btn save-next" onclick="saveNext()">Save &amp; Next →</button>
+      </div>
+      <div class="prev-next">
+        <button class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button class="nav-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </main>
+  <aside class="palette-sidebar">
+    <div class="palette-header">
+      <span id="currentSectionLabel">Test</span>
+    </div>
+    <div class="palette-legend">
+      <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+      <span class="legend-item"><span class="legend-dot notanswered"></span>Not Answered</span>
+      <span class="legend-item"><span class="legend-dot marked"></span>Marked</span>
+      <span class="legend-item"><span class="legend-dot notvisited"></span>Not Visited</span>
+    </div>
+    <div class="palette-grid" id="paletteGrid"></div>
+    <div class="palette-stats" id="paletteStats"></div>
+  </aside>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="modal-content">
+    <h2>Submit Test?</h2>
+    <p>Are you sure you want to submit? You won't be able to change your answers after this.</p>
+    <div class="submit-summary" id="submitSummary"></div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="modal-btn submit" onclick="submitTest()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results view (hidden until submit) -->
+<div id="resultsView" class="results-view" style="display:none;">
+  <div class="results-header">
+    <h1>Test Submitted</h1>
+    <div class="score-card" id="scoreCard"></div>
+    <div class="results-actions">
+      <button class="header-btn" onclick="showAllQuestions()">View All Questions &amp; Solutions</button>
+      <button class="header-btn" onclick="window.print()">🖨️ Print</button>
+    </div>
+  </div>
+  <div class="results-questions" id="resultsQuestions"></div>
+</div>
+
+<!-- Test data embedded as JSON -->
+<script type="application/json" id="test-data">{"test_id": "6a0f3ce2cda5e733b2faaf7f", "title": "CT 43: Lines and Angles", "series_slug": "ssc-cgl", "duration_min": 0, "max_marks": 20.0, "languages": ["English", "Hindi"], "sections": [{"section_id": "6a0f34f5c6516817f88026ec", "section_name": "Test", "q_count": 10, "max_marks": 20.0, "questions": [{"qid": "6492ce9f578e8f3a9305c786", "qs_no": 1, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "If the complement of an angle x is equal to the supplement of angle 4x and the supplement of an angle y is 4 times its complement, then what is the value of (x + y) ?&nbsp;&nbsp;", "options": [{"prompt": "1", "value": "80&amp;deg;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;90&amp;deg;&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;100&amp;deg;&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;120&amp;deg;&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "यदि कोण x का पूरक कोण 4x के संपूरक कोण&nbsp;के बराबर है, और कोण y का संपूरक कोण&nbsp;अपने पूरक कोण&nbsp;का चार गुना है, तब (x + y) का मान ज्ञात कीजिए।&nbsp;", "options": [{"prompt": "1", "value": "80&amp;deg;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;90&amp;deg;&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;100&amp;deg;&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;120&amp;deg;&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "కోణం x యొక్క పూరక కోణం 4x యొక్క అనుబంధానికి సమానంగా ఉంటే మరియు y కోణం యొక్క అనుబంధం దాని పూరకానికి 4 రెట్లు ఉంటే, అప్పుడు (x + y) విలువ ఎంత?", "options": [{"prompt": "1", "value": "80&deg;"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">90&deg;</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">100&deg;</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">120&deg;</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "जर x ची पूरक कोन 4x च्या कोनाच्या पूरक समान असेल आणि कोन y ची कोनाच्या पूरक त्याच्या 4 पट असेल तर (x + y) चे मूल्य किती असेल?", "options": [{"prompt": "1", "value": "80&deg;"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">90&deg;</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">100&deg;</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">120&deg;</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "যদি একটি কোণের x এর পরিপূরক 4x কোণের সম্পূরকের সমান হয় এবং একটি কোণ y এর সম্পূরক তার পরিপূরকের 4 গুণ হয়, তাহলে (x + y) এর মান কত?", "options": [{"prompt": "1", "value": "80&deg;"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">90&deg;</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">100&deg;</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">120&deg;</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "જો કોટીકોણ x ની પૂરક કોણ 4x ની પૂરક સમાન હોય અને કોણ y ની પૂરક તેની પૂરક 4 ગણી હોય, તો (x + y) ની કિંમત શું છે?", "options": [{"prompt": "1", "value": "80&deg;"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">90&deg;</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">100&deg;</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">120&deg;</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಒಂದು ವೇಳೆ ಕೋನ x ನ ಪೂರಕವು ಕೋನ 4x ನ ಪರಿಪೂರಕಕ್ಕೆ ಸಮನಾಗಿದ್ದರೆ ಮತ್ತು y ಕೋನದ ಪರಿಪೂರಕವು ಅದರ ಪೂರಕಕ್ಕಿಂತ 4 ಪಟ್ಟು ಇದ್ದರೆ, ನಂತರ (x + y) ರ ಮೌಲ್ಯವನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ?", "options": [{"prompt": "1", "value": "80&deg;"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">90&deg;</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">100&deg;</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">120&deg;</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "ஒரு கோணம் x இன் நிரப்பு கோணம் 4x இன் துணைக்கு சமமாக இருந்தால் மற்றும் y கோணத்தின் துணை அதன் நிரப்பியின் 4 மடங்கு என்றால், (x + y) இன் மதிப்பு என்ன?", "options": [{"prompt": "1", "value": "80&deg;"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">90&deg;</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">100&deg;</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">120&deg;</span>"}], "range": {"start": "", "end": ""}}, "or": {"value": "ଯଦି ଗୋଟିଏ କୋଣ x ର ପରିପୂରକ 4x କୋଣର ସମ୍ପୂରକ ସହିତ ସମାନ ଏବଂ ଗୋଟିଏ କୋଣ y ର ସମ୍ପୂରକ ଏହାର ପରିପୂରକର 4 ଗୁଣ ଅଟେ, ତେବେ (x + y) ର ମୂଲ୍ୟ କେତେ?", "options": [{"prompt": "1", "value": "80&deg;"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">90&deg;</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">100&deg;</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">120&deg;</span>"}], "range": {"start": "", "end": ""}}, "pa": {"value": "ਜੇਕਰ ਇੱਕ ਕੋਣ x ਦਾ ਪੂਰਕ ਕੋਣ 4x ਦੇ ਸੰਪੂਰਕ ਕੋਣ ਦੇ ਬਰਾਬਰ ਹੈ ਅਤੇ ਇੱਕ ਕੋਣ y ਦਾ ਸੰਪੂਰਕ ਇਸਦੇ ਪੂਰਕ ਕੋਣ ਦਾ 4 ਗੁਣਾ ਹੈ, ਤਾਂ (x + y) ਦਾ ਮੁੱਲ ਕੀ ਹੈ?", "options": [{"prompt": "1", "value": "80&deg;"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">90&deg;</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">100&deg;</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">120&deg;</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>From the first condition: 90° − x = 180° − 4x → 3x = 90° → x = 30°</p>\n<p>From the second condition: 180° − y = 4 × (90° − y) → 3y = 180° → y = 60°</p>\n<p>Required sum = x + y = 30° + 60° = 90°</p>\n<p><strong>∴ The correct answer is 90°.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>Complement of an angle x = Supplement of angle 4x</p>\n<p>Supplem", "hn": "<p><strong>प्रयुक्त अवधारणा :&nbsp;</strong></p>\n\n<p>&theta;<sub>1</sub>&nbsp;+&nbsp;&theta;<sub>2&nbsp;</sub>= 90&deg; [पूरक कोण]</p>\n\n<p>&theta;<sub>1</sub>&nbsp;+&nbsp;&theta;<sub>2</sub>&nbsp;= 180&deg; [संपूरक कोण]</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>प्रश्नानुसार,</p>\n\n<p>&rArr; 90&deg; - x = 180&deg; - 4x --------(1)</p>\n\n<p>&rArr; 180&deg; - y = 4(90&deg; - y)&nbsp; &nbsp;------------(2)</p>\n\n<p>समीकरण (1) और समीकरण&nbsp;(2) को हल करने पर&nbsp;:&nbsp;</p>\n\n<p>&rArr; 3x = 90&deg;&nbsp;</p>\n\n<p>&rArr; x = 30&deg;&nbsp;</p>\n\n<p>&rArr; 3y = 180&deg;&nbsp;</p>\n\n<p>&rArr; y = 60&deg;&nbsp;</p>\n\n<p>&rArr; x + y = 60&deg; + 30&deg; = 90&deg;&nbsp;</p>\n\n<p><strong>&there4; </strong><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">सही उत्तर</span><strong> 90&deg; है।&nbsp;</strong></p>\n44:T665,\n<p><strong>वापरलेली संकल्पना:</strong></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">θ</span><span style=\"position: relative;  line-height: 0; vertic", "te": "<p><strong>ఉపయోగించిన భావన:</strong></p>\n\n<p>θ <sub>1</sub> + θ <sub>2</sub> = 90° [పూరక కోణం]</p>\n\n<p>θ <sub>1</sub> + θ <sub>2</sub> = 180° [అనుబంధ కోణం]</p>\n\n<p><strong>గణన :</strong></p>\n\n<p>ప్రశ్న ప్రకారం,</p>\n\n<p>⇒ 90° - x = 180° - 4x ---------(1)</p>\n\n<p>⇒ 180° - y = 4(90° - y) ----------(2)</p>\n\n<p>సమీకరణం (1) మరియు <span style=\"color: rgb(33, 37, 41);\">సమీకరణం</span> (2) లను పరిష్కరించేటప్పుడు:</p>\n\n<p>⇒ 3x = 90°</p>\n\n<p>⇒ x = 30°</p>\n\n<p>⇒ 3y = 180°</p>\n\n<p>⇒ y = 60°</p>\n\n<p>⇒ x + y = 60° + 30° = 90°</p>\n\n<p><strong>∴ సరైన సమాధానం 90°.</strong></p>\n", "mr": "\n<p><strong>वापरलेली संकल्पना:</strong></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">θ</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span><span style=\"color: rgb(33, 37, 41);\"> + θ</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2 </span><span style=\"color: rgb(33, 37, 41);\">= 90°</span> [पूरक कोन]</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">θ</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span><span style", "bn": "<p><strong>অনুসৃত ধারণা:</strong></p>\n\n<p>θ<sub>1</sub> + θ<sub>2</sub> = 90° [পরিপূরক কোণ]</p>\n\n<p>θ<sub>1</sub> + θ<sub>2</sub> = 180° [পরিপূরক কোণ]</p>\n\n<p><strong>গণনা:</strong></p>\n\n<p>প্রশ্ন অনুযায়ী,</p>\n\n<p>⇒ 90° - x = 180° - 4x --------(1)</p>\n\n<p>⇒ 180° - y = 4(90° - y) ------------(2)</p>\n\n<p>সমীকরণ (1) এবং (2) সমাধান করার সময়:</p>\n\n<p>⇒ 3x = 90°</p>\n\n<p>⇒ x = 30°</p>\n\n<p>⇒ 3y = 180°</p>\n\n<p>⇒ y = 60°</p>\n\n<p>⇒ x + y = 60° + 30° = 90°</p>\n\n<p><strong>∴ সঠিক উত্তর হল 90°</strong></p>\n", "ml": "", "gu": "<p><strong>વપરાયેલ ખ્યાલ:</strong></p>\n\n<p>θ <sub>1</sub> + θ <sub>2</sub> = 90° [કોટી કોણ]</p>\n\n<p>θ <sub>1</sub> + θ <sub>2</sub> = 180° [પૂરક કોણ]</p>\n\n<p><strong>ગણતરી:</strong></p>\n\n<p>પ્રશ્ન મુજબ,</p>\n\n<p>⇒ 90° - x = 180° - 4x --------(1)</p>\n\n<p>⇒ 180° - y = 4(90° - y) ------------(2)</p>\n\n<p>eq (1) અને eq (2) ઉકેલવા પર :</p>\n\n<p>⇒ 3x = 90°</p>\n\n<p>⇒ x = 30°</p>\n\n<p>⇒ 3y = 180°</p>\n\n<p>⇒ y = 60°</p>\n\n<p>⇒ x + y = 60° + 30° = 90°</p>\n\n<p><strong>∴ સાચો જવાબ 90° છે.</strong></p>\n", "kn": "<p><strong>ಬಳಸಿದ ಪರಿಕಲ್ಪನೆ:</strong></p>\n\n<p>θ <sub>1</sub> + θ <sub>2</sub> = 90° [ಪೂರಕ ಕೋನ]</p>\n\n<p>θ <sub>1</sub> + θ <sub>2</sub> = 180° [ಪರಿಪೂರಕ ಕೋನ]</p>\n\n<p><strong>ಲೆಕ್ಕಾಚಾರ:</strong></p>\n\n<p>ಪ್ರಶ್ನೆಯ ಪ್ರಕಾರ,</p>\n\n<p>⇒ 90° - x = 180° - 4x --------(1)</p>\n\n<p>⇒ 180° - y = 4(90° - y) ----------(2)</p>\n\n<p>ಸಮೀಕರಣ (1) ಮತ್ತು <span style=\"color: rgb(33, 37, 41);\">ಸಮೀಕರಣ</span> (2) ಅನ್ನು ಪರಿಹರಿಸುವುದು:</p>\n\n<p>⇒ 3x = 90°</p>\n\n<p>⇒ x = 30°</p>\n\n<p>⇒ 3y = 180°</p>\n\n<p>⇒ y = 60°</p>\n\n<p>⇒ x + y = 60° + 30° = 90°</p>\n\n<p><strong>∴ ಸರಿಯಾದ ಉತ್ತರ 90° ಆಗಿದೆ.</strong></p>\n", "ta": "<p><strong>பயன்படுத்தப்படும் கருத்து:</strong></p>\n\n<p>θ<sub>1</sub> + θ<sub>2</sub> = 90° [நிரப்பு கோணம்]</p>\n\n<p>θ<sub>1</sub> + θ<sub>2</sub> = 180° [துணை கோணம்]</p>\n\n<p><strong>கணக்கீடு :</strong></p>\n\n<p>கேள்வியின் படி,</p>\n\n<p>⇒ 90° - x = 180° - 4x ----------(1)</p>\n\n<p>⇒ 180° - y = 4(90° - y) ----------(2)</p>\n\n<p>சமன்பாடு (1) மற்றும் eq (2) ஐத் தீர்ப்பதில்:</p>\n\n<p>⇒ 3x = 90°</p>\n\n<p>⇒ x = 30°</p>\n\n<p>⇒ 3y = 180°</p>\n\n<p>⇒ y = 60°</p>\n\n<p>⇒ x + y = 60° + 30° = 90°</p>\n\n<p><strong>∴ சரியான பதில் 90°.</strong></p>\n", "or": "<p><strong>ଧାରଣା: </strong></p>\n\n<p>θ<sub>1</sub> + θ<sub>2 </sub>= 90° [ପରିପୂରକ କୋଣ]</p>\n\n<p>θ<sub>1</sub> + θ<sub>2</sub> = 180° [ସମ୍ପୂରକ କୋଣ]</p>\n\n<p><strong>ଗଣନା: </strong></p>\n\n<p>ପ୍ରଶ୍ନ ଅନୁଯାୟୀ,</p>\n\n<p>⇒ 90° - x = 180° - 4x --------(1)</p>\n\n<p>⇒ 180° - y = 4(90° - y)   ------------(2)</p>\n\n<p>ସମୀକରଣ (1) ଏବଂ ସମୀକରଣ (2) ର ସମାଧାନ କରି:</p>\n\n<p>⇒ 3x = 90° </p>\n\n<p>⇒ x = 30° </p>\n\n<p>⇒ 3y = 180° </p>\n\n<p>⇒ y = 60° </p>\n\n<p>⇒ x + y = 60° + 30° = 90° </p>\n\n<p><strong>∴ ସଠିକ୍ ଉତ୍ତର ହେଉଛି 90°।</strong></p>\n", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "<p><strong>ਵਰਤੀ ਗਈ ਧਾਰਨਾ: </strong></p>\n\n<p>θ<sub>1</sub> + θ<sub>2 </sub>= 90° [ਪੂਰਕ ਕੋਣ]</p>\n\n<p>θ<sub>1</sub> + θ<sub>2</sub> = 180° [ਸੰਪੂਰਕ ਕੋਣ]</p>\n\n<p><strong>ਗਣਨਾ: </strong></p>\n\n<p>ਪ੍ਰਸ਼ਨ ਅਨੁਸਾਰ,</p>\n\n<p>⇒ 90° - x = 180° - 4x --------(1)</p>\n\n<p>⇒ 180° - y = 4(90° - y)   ------------(2)</p>\n\n<p>ਸਮੀਕਰਨ (1) ਅਤੇ ਸਮੀਕਰਨ (2) ਨੂੰ ਹੱਲ ਕਰਨ 'ਤੇ: </p>\n\n<p>⇒ 3x = 90° </p>\n\n<p>⇒ x = 30° </p>\n\n<p>⇒ 3y = 180° </p>\n\n<p>⇒ y = 60° </p>\n\n<p>⇒ x + y = 60° + 30° = 90° </p>\n\n<p><strong>∴ ਸਹੀ ਉੱਤਰ 90° ਹੈ।</strong></p>\n", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Geometry"], "concept": "Geometry", "confidence": "high"}, {"qid": "648da1c2e2acaa09f4b69b0d", "qs_no": 2, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which of the following angles cannot be drawn, using scale and compass only ?&nbsp;", "options": [{"prompt": "1", "value": "15&amp;deg;&amp;nbsp;"}, {"prompt": "2", "value": "40&amp;deg;&amp;nbsp;"}, {"prompt": "3", "value": "105&amp;deg;&amp;nbsp;"}, {"prompt": "4", "value": "135&amp;deg;&amp;nbsp;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "निम्न में से कौन सा कोण केवल स्केल और कम्पास का प्रयोग करते हुए नहीं खींचा जा सकता है?", "options": [{"prompt": "1", "value": "15&amp;deg;&amp;nbsp;"}, {"prompt": "2", "value": "40&amp;deg;&amp;nbsp;"}, {"prompt": "3", "value": "105&amp;deg;&amp;nbsp;"}, {"prompt": "4", "value": "135&amp;deg;&amp;nbsp;"}], "range": {"start": "", "end": ""}}, "bn": {"value": "নিম্নলিখিত কোণগুলির মধ্যে কোনটি শুধুমাত্র স্কেল এবং কম্পাস ব্যবহার করে আঁকা যাবে না?", "options": [{"prompt": "1", "value": "15&deg;"}, {"prompt": "2", "value": "40&deg;"}, {"prompt": "3", "value": "105&deg;"}, {"prompt": "4", "value": "135&deg;"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "<p><strong>Concept use:</strong></p>\n\n<p>A constructible angle is one that can be drawn using only a compass and straightedge, and a limited set of operations (creating a line segment between two points, extending a line, drawing a circle with a given radius, etc.).</p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Some of the most elementary constructible angles are 90&deg;, 60&deg;, 45&deg;, 30&deg;, etc. These angles are easy to construct because they ca", "hn": "<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p>एक निर्माणीय कोण वह होता है जिसे केवल कम्पास और सीधी रेखा तथा सीमित संक्रियाओं (दो बिंदुओं के बीच रेखाखंड बनाना, रेखा को बढ़ाना, दी गई त्रिज्या से वृत्त खींचना आदि) का उपयोग करके बनाया जा सकता है।</p>\n\n<p><strong>स्पष्टीकरण:</strong></p>\n\n<p>कुछ सबसे प्राथमिक निर्माण योग्य कोण 90&deg;, 60&deg;, 45&deg;, 30&deg; आदि हैं। इन कोणों का निर्माण करना आसान है क्योंकि इन्हें कुछ कोणों को आधा करके या तीन भागों में विभाजित करके प्राप्त किया जा सकता है।</p>\n\n<p><strong>उदाहरण:</strong></p>\n\n<p>&nbsp;</p>\n\n<p>90&deg; के कोण को समद्विभाजित करके 45&deg; का कोण प्राप्त किया जा सकता है</p>\n\n<p>. <img alt=\"\" src=\"https://cdn.repeatermock.com/tb/1c1d0c0cc4f28c510599431916f18f993ddb05fc295867f3b34fc3d0b93", "te": "", "mr": "", "bn": "<p><strong>ধারণা ব্যবহার:</strong></p>\n\n<p>একটি রচনার উপযোগী কোণ হল যেটি শুধুমাত্র কম্পাস এবং সরলরেখা ব্যবহার করে এবং সীমিত ক্রিয়াকলাপের সেট (দুটি বিন্দুর মধ্যে একটি রেখাংশ তৈরি করা, একটি রেখা প্রসারিত করা, একটি নির্দিষ্ট ব্যাসার্ধ সহ একটি বৃত্ত আঁকা ইত্যাদি) ব্যবহার করে আঁকা যায়।</p>\n\n<p><strong>ব্যাখ্যা:</strong></p>\n\n<p>কিছু প্রাথমিক রচনার উপযোগী কোণ হল 90°, 60°, 45°, 30° ইত্যাদি। এই কোণগুলি তৈরি করা সহজ কারণ এগুলি নির্দিষ্ট কোণগুলিকে অর্ধেক বা তিন ভাগ করে অর্জন করা যেতে পারে।</p>\n\n<p><strong>উদাহরণ:</strong></p>\n\n<p>একটি 45° কোণ 90° কোণকে দ্বিখণ্ডিত করে পাওয়া যায়।</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/1c1d0c0cc4f28c510599431916f18f993ddb05fc295867f3b34fc3d0b9309895.png\" style=\"width: 276px; height: 228px;\" /></p>\n\n<p>কিন্তু</p>\n\n<p>একটি 40-ডিগ্রি কোণের জন্য,</p>\n\n<p>এটি শুধুমাত্র একটি কম্পাস এবং সরলরেখা দিয়ে একটি সহজ কাজ নয় কারণ 40 এই প্রাথমিক মানগুলি বিয়োগ, যোগ এবং অর্ধেক করার একটি গুণফল নয়।</p>\n\n<p><strong>অতএব, বিকল্প 2 সঠিক।</strong></p>\n", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Geometry"], "concept": "Geometry", "confidence": "high"}, {"qid": "64aebe2921497942c14a139a", "qs_no": 3, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "The supplementary angle of an angle is&nbsp;four times its complementary angle, then&nbsp;that angle is -", "options": [{"prompt": "1", "value": "30&amp;deg;"}, {"prompt": "2", "value": "40&amp;deg;"}, {"prompt": "3", "value": "45&amp;deg;"}, {"prompt": "4", "value": "60&amp;deg;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "एक कोण का संपूरक कोण, उसके पूरक कोण का 4 गुना है, तो उस कोण की माप कितनी है?", "options": [{"prompt": "1", "value": "30&amp;deg;"}, {"prompt": "2", "value": "40&amp;deg;"}, {"prompt": "3", "value": "45&amp;deg;"}, {"prompt": "4", "value": "60&amp;deg;"}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "\n<p><strong><u>Concept:</u></strong></p>\n\n<p>Supplementary angles: Angles whose sum is 180<span style=\"color: rgb(33, 37, 41);\">&deg;</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">Complimentary angles: Angles whose sum is 90&deg;</span></p>\n\n<p><strong><u>Calculation:</u></strong></p>\n\n<p>Let the angle be &#39;x&#39;</p>\n\n<p>Supplementary angle = 180<span style=\"color: rgb(33, 37, 41);\">&deg;</span> - x</p", "hn": "<p><u><strong>प्रयुक्त अवधारणा:</strong></u></p>\n\n<p>संपूरक कोण: वे कोण जिनका योग 180&deg; होता है।</p>\n\n<p>पूरक कोण: वे कोण जिनका योग 90&deg; होता है।</p>\n\n<p><u><strong>गणना:</strong></u></p>\n\n<p>मान लीजिए, वह कोण &#39;x&#39; है।</p>\n\n<p>संपूरक कोण = 180&deg; - x</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">पूरक</span> कोण = 90&deg; - x</p>\n\n<p>प्रश्न के अनुसार, (180&deg; - x) = 4(90&deg; - x)</p>\n\n<p>&rArr; 180&deg; - x = 360&deg; - 4x</p>\n\n<p>&rArr; 3x = 180&deg;</p>\n\n<p>&rArr; x = 60&deg;</p>\n\n<p><strong>&there4; अभीष्ट कोण 60&deg; है।</strong></p>\n", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Geometry"], "concept": "Geometry", "confidence": "high"}, {"qid": "646b219581241509c37b7a8f", "qs_no": 4, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Supplementary angle of 130&ordm; angle is :&nbsp;", "options": [{"prompt": "1", "value": "50&amp;ordm;"}, {"prompt": "2", "value": "130&amp;ordm;&amp;nbsp;"}, {"prompt": "3", "value": "90&amp;ordm;&amp;nbsp;"}, {"prompt": "4", "value": "180&amp;ordm;&amp;nbsp;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "130&ordm; का संपूरक कोण कौन-सा है?", "options": [{"prompt": "1", "value": "50&amp;ordm;"}, {"prompt": "2", "value": "130&amp;ordm;&amp;nbsp;"}, {"prompt": "3", "value": "90&amp;ordm;&amp;nbsp;"}, {"prompt": "4", "value": "180&amp;ordm;&amp;nbsp;"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "<p><strong>Concept used:</strong></p>\n\n<p>When the sum of two angles is 180&deg;, then the angles are known as supplementary angles</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let&#39;s assume that the supplementary angle of 130&ordm; angle is x</p>\n\n<p>&rArr; x + 130 = 180</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; x&nbsp;= 180 -&nbsp;130 = 50&deg;&nbsp;</span></p>\n\n<p><strong><span id=\"docs-internal-guid-af4fa4f1-7fff-6212-a635-78411787b6c7\"><span style=\" font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space-collapse: preserve;\">&there4; The correct answer is </span></span><span style=\"color: rgb(33, 37, 41);\">50&deg;&nbsp;</span></strong></p>\n", "hn": "<p><strong><span style=\"\">प्रयुक्त अवधारणा:</span></strong></p>\n\n<p><span style=\"\">जब दो कोणों का योग 180&deg; होता है, तो वे कोण संपूरक कोण कहलाते हैं।</span></p>\n\n<p><strong><span style=\"\">गणना:</span></strong></p>\n\n<p><span style=\"\">आइए मान लें कि 130&ordm; कोण का संपूरक कोण x है।</span></p>\n\n<p><span style=\"\">&rArr; x + 130 = 180</span></p>\n\n<p><span style=\"\">&rArr; x = 180 -&nbsp;130 = 50&deg;</span></p>\n\n<p><strong><span style=\"\">&there4; सही उत्तर 50&deg; है।</span></strong></p>\n", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Geometry"], "concept": "Geometry", "confidence": "high"}, {"qid": "63c69b6957955ec8d9e2a892", "qs_no": 5, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Check whether the following statements are True?", "options": [{"prompt": "1", "value": "Euclidean geometry is valid only for curved surfaces.&amp;nbsp;"}, {"prompt": "2", "value": "The boundaries of the solids are curves.&amp;nbsp;"}, {"prompt": "3", "value": "The edges of a surface are curves.&amp;nbsp;"}, {"prompt": "4", "value": "The things which are double of the same thing are equal to one another.&amp;nbsp;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "जांच कीजिए कि क्या निम्नलिखित कथन सत्य हैं?", "options": [{"prompt": "1", "value": "यूक्लिड की&amp;nbsp;ज्यामिति केवल वक्र पृष्ठों के लिए मान्य है।"}, {"prompt": "2", "value": "ठोसों की सीमाएँ वक्र होती हैं।"}, {"prompt": "3", "value": "किसी सतह के किनारे वक्र होते हैं।"}, {"prompt": "4", "value": "जो वस्तुएँ एक ही वस्तु की दो गुनी होती हैं, वे एक दूसरे के बराबर होती हैं।"}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "\n<p><strong>Concept Used:-</strong></p>\n\n<p><span style=\"\">Euclid has given some geometrical axiom based on general assumption which can be assumed without proving them.&nbsp;</span>There are total 7&nbsp;Euclid&rsquo;s axiom which are given below,</p>\n\n<ol>\n\t<li>Things which are equal in measure to the same thing are equal to one another.</li>\n\t<li>When the equals are together added to equals, then the wholes will be equal.</li>\n\t<li>When the equals are subtracted or remove from equals, then the remainders will be equal.</li>\n\t<li>The things which coincide with one another will be equal to one another.</li>\n\t<li>The whole is greater than the part.</li>\n\t<li>Things which are double of the same things are equal to one another.</li>\n\t<li>Things which are halves of the same things are equal to one another</li&", "hn": "\n<div><span style=\"font-weight: 700; \">प्रयुक्त संकल्पना</span><span style=\"font-weight: 700; \">:-</span></div>\n\n<div>&nbsp;</div>\n\n<div><span style=\"\">यूक्लिड ने सामान्य धारणा के आधार पर कुछ ज्यामितीय अभिगृहीत दिए हैं, जिन्हें बिना सिद्ध किए माना जा सकता है। यूक्लिड के कुल 7 अभिगृहीत हैं, जो नीचे दिए गए हैं</span>,</div>\n\n<ol style=\"\">\n\t<li>वे वस्तुएँ जो माप में एक ही वस्तु के बराबर होती हैं, एक दूसरे के बराबर होती हैं।</li>\n\t<li>जब बराबर&nbsp;को बराबर के साथ जोड़ा जाता&nbsp;है, तो संपूर्ण&nbsp;बराबर हो जाते हैं।</li>\n\t<li>जब बराबर घटाया जाता है या बराबर में से हटा दिया जाता है, तो शेष बराबर हो जाएगा।</li>\n\t<li>जो वस्तुएँ एक दूसरे के संपाती हैं, वे एक दूसरे के बराबर होंगी।</li>\n\t<li>संपूर्ण भाग से बड़ा होता&nbsp;है।</li>\n\t<li>वे वस्तुएँ जो एक ही वस्तु की दोगुनी हों, एक दूसरे के बराबर होती हैं।</li>\n\t<li>वे वस्तुएँ जो एक ही वस्तु की आधी हों, एक दूसरे के बराबर होती हैं।&nbsp;</li>\n</ol>\n\n<p style=\"\"><span style=\"font-weight: 700;\">व्याख्या:-</span></p>\n\n<div><span style=\"\">(1) हम", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Geometry"], "concept": "Geometry", "confidence": "high"}, {"qid": "66290b10c7af40f674f0f6f6", "qs_no": 6, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "How many lines can be drawn from a single point?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "10"}, {"prompt": "3", "value": "100"}, {"prompt": "4", "value": "Infinite"}], "range": {"start": "", "end": ""}}, "hn": {"value": "एक बिंदु से कितनी रेखाएँ खींची जा सकती हैं?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "10"}, {"prompt": "3", "value": "100"}, {"prompt": "4", "value": "अनंत"}], "range": {"start": "", "end": ""}}, "te": {"value": "ఒకే బిందువు నుండి ఎన్ని రేఖలు గీయవచ్చు?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "10"}, {"prompt": "3", "value": "100"}, {"prompt": "4", "value": "అనంతం"}], "range": {"start": "", "end": ""}}, "mr": {"value": "एका बिंदूतून किती रेषा काढता येतील?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "10"}, {"prompt": "3", "value": "100"}, {"prompt": "4", "value": "अनंत"}], "range": {"start": "", "end": ""}}, "bn": {"value": "একটি বিন্দু থেকে কতগুলি সরলরেখা আঁকা যেতে পারে?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "10"}, {"prompt": "3", "value": "100"}, {"prompt": "4", "value": "অসীম"}], "range": {"start": "", "end": ""}}, "gu": {"value": "એક જ બિંદુમાંથી કેટલી રેખાઓ દોરી શકાય છે?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "10"}, {"prompt": "3", "value": "100"}, {"prompt": "4", "value": "અનંત"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಒಂದು ಬಿಂದುವಿನಿಂದ ಎಷ್ಟು ರೇಖೆಗಳನ್ನು ಎಳೆಯಬಹುದು?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "10"}, {"prompt": "3", "value": "100"}, {"prompt": "4", "value": "ಅನಂತ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "ஒரு புள்ளியிலிருந்து எத்தனை கோடுகள் வரைய முடியும்?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "10"}, {"prompt": "3", "value": "100"}, {"prompt": "4", "value": "எண்ணிலடங்கா"}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "<p>An infinite number of lines can be drawn from a single point, as lines can extend in unlimited directions around the point, allowing for endless possibilities.</p>\n\n<p><strong>So,&nbsp;From a single point, you can draw infinite lines.</strong></p>\n", "hn": "<p>एक बिंदु से अनंत संख्या में रेखाएँ खींची जा सकती हैं, क्योंकि रेखाएँ बिंदु के चारों ओर असीमित दिशाओं में फैल सकती हैं, जिससे अनंत संभावनाएँ पैदा होती हैं।</p>\n\n<p><strong>तो, एक बिंदु से, आप अनंत रेखाएँ खींच सकते हैं।</strong></p>\n", "te": "<p>ఒకే బిందువు నుండి అనంతమైన రేఖలను గీయవచ్చు, ఎందుకంటే రేఖలు బిందువు చుట్టూ అపరిమిత దిశలలో విస్తరించగలవు, ఇది అనంతమైన అవకాశాలను అనుమతిస్తుంది.</p>\n\n<p><strong>కాబట్టి, ఒకే బిందువు నుండి, మీరు అనంతమైన రేఖలను గీయవచ్చు.</strong></p>\n", "mr": "<p>एका बिंदूतून अनंत रेषा काढता येतात, कारण रेषा बिंदूच्या भोवती अमर्याद दिशांना विस्तारू शकतात, ज्यामुळे अंतहीन शक्यता निर्माण होतात.</p>\n\n<p><strong>म्हणून, एका बिंदूतून तुम्ही अनंत रेषा काढू शकता.</strong></p>\n", "bn": "<p>একটি বিন্দু থেকে অসীম সংখ্যক সরলরেখা আঁকা যেতে পারে, কারণ সরলরেখাগুলি বিন্দুর চারপাশে সীমাহীন দিকে প্রসারিত হতে পারে, যা অন্তহীন সম্ভাবনার সুযোগ দেয়।</p>\n\n<p><strong>সুতরাং, একটি বিন্দু থেকে অসীম সরলরেখা আঁকা যায়।</strong></p>\n", "ml": "", "gu": "<p>એક જ બિંદુમાંથી અનંત રેખાઓ દોરી શકાય છે, કારણ કે રેખાઓ બિંદુની આસપાસ અમર્યાદિત દિશામાં વિસ્તરી શકે છે, જે અનંત શક્યતાઓને મંજૂરી આપે છે.</p>\n\n<p><strong>તેથી, એક જ બિંદુથી, તમે અનંત રેખાઓ દોરી શકો છો.</strong></p>\n", "kn": "<p>ಒಂದು ಬಿಂದುವಿನಿಂದ ಅನಂತ ಸಂಖ್ಯೆಯ ರೇಖೆಗಳನ್ನು ಎಳೆಯಬಹುದು, ಏಕೆಂದರೆ ರೇಖೆಗಳು ಬಿಂದುವಿನ ಸುತ್ತಲೂ ಅನಿಯಮಿತ ದಿಕ್ಕುಗಳಲ್ಲಿ ವಿಸ್ತರಿಸಬಹುದು, ಇದು ಅಂತ್ಯವಿಲ್ಲದ ಸಾಧ್ಯತೆಗಳಿಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ.</p>\n\n<p><strong>ಆದ್ದರಿಂದ, ಒಂದೇ ಬಿಂದುವಿನಿಂದ, ನೀವು ಅನಂತ ರೇಖೆಗಳನ್ನು ಎಳೆಯಬಹುದು.</strong></p>\n", "ta": "<p>ஒரு புள்ளியிலிருந்து எண்ணிலடங்கா கோடுகள் வரைய முடியும், ஏனெனில் கோடுகள் அந்த புள்ளியைச் சுற்றி வரம்பற்ற திசைகளில் நீட்டிக்கப்படலாம், இது முடிவில்லாத சாத்தியங்களை அனுமதிக்கிறது.</p>\n\n<p><strong>எனவே, ஒரு புள்ளியிலிருந்து, நீங்கள் எண்ணிலடங்கா கோடுகளை வரையலாம்.</strong></p>\n", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Geometry"], "concept": "Geometry", "confidence": "high"}, {"qid": "6365f82672d0e14d64b743c4", "qs_no": 7, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>In the given figure, if AB||CD, AO = 4 cm; OC = (4x - 2) cm; OD = (2x + 4) cm; OB = (x + 1) cm, then the value of x is:</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png\" style=\"width: 172px; height: 114px;\" /></p>\n", "options": [{"prompt": "1", "value": "&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;2&lt;/font&gt;&lt;/font&gt;"}, {"prompt": "2", "value": "&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;3&lt;/font&gt;&lt;/font&gt;"}, {"prompt": "3", "value": "&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;0.5&lt;/font&gt;&lt;/font&gt;"}, {"prompt": "4", "value": "&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;1&lt;/font&gt;&lt;/font&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">दी गई आकृति में, यदि AB||CD, AO = 4 सेमी; </font></font><span style=\"\">OC = (4x - 2)&nbsp;</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">सेमी; </font></font><span style=\"\">OD = (2x + 4)</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\"> सेमी; </font><font style=\"vertical-align: inherit;\">OB = (x + 1) सेमी है, तो x का मान है:</font></font></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png\" style=\"width: 172px; height: 114px;\" /></p>\n", "options": [{"prompt": "1", "value": "&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;2&lt;/font&gt;&lt;/font&gt;"}, {"prompt": "2", "value": "&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;3&lt;/font&gt;&lt;/font&gt;"}, {"prompt": "3", "value": "&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;0.5&lt;/font&gt;&lt;/font&gt;"}, {"prompt": "4", "value": "&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;1&lt;/font&gt;&lt;/font&gt;"}], "range": {"start": "", "end": ""}}, "pa": {"value": "<p>ਦਿੱਤੇ ਗਏ ਚਿੱਤਰ ਵਿੱਚ, ਜੇਕਰ AB||CD, AO = 4 ਸੈਮੀ; OC = (4x - 2) ਸੈਮੀ; OD = (2x + 4) ਸੈਮੀ; OB = (x + 1) ਸੈਮੀ ਹੈ, ਤਾਂ x ਦਾ ਮੁੱਲ ਪਤਾ ਕਰੋ।</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png\" style=\"width: 172px; height: 114px;\" /></p>\n", "options": [{"prompt": "1", "value": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">2</font></font>"}, {"prompt": "2", "value": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">3</font></font>"}, {"prompt": "3", "value": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">0.5</font></font>"}, {"prompt": "4", "value": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">1</font></font>"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p><strong>Given:</strong></p>\n\n<p style=\"\">In the given figure,&nbsp;AB||CD, AO = 4 cm; OC = (4x - 2) cm; OD = (2x + 4) cm; OB = (x + 1) cm,</p>\n\n<p style=\"\"><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png\" style=\" width: 172px; height: 114px;\" /></p>\n\n<p style=\"\"><strong>Concept used:</strong></p>\n\n<p style=\"\">The diagonals of a Trapezium divide each other proportionally</p>\n\n<p style=\"\"><strong>Calculations:</strong></p>\n\n<p style=\"\">According to the question,</p>\n\n<p style=\"\">(OC/OA) = (OD/OB)</p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;</span>(4x - 2)/4 = (2x + 4)/(x + 1)</p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;2(2x - 1)/4 =&nbsp;(2x + 4)/(x + 1</span><span style=\"\">)</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(2x - 1)/2&nbsp;=&nbsp;(2x + 4)/(x + 1</span><span style=\"\">)</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(2x - 1)(x + 1)&nbsp;= 2(2x + 4)</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(2x - 1)(x + 1)&nbsp;= (4x + 8)</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(2x<sup>2</sup>&nbsp;- x) + (2x -&nbsp;1)&nbsp;=&nbsp;(4x + 8)</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(2x<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ x -&nbsp;1)&nbsp;=&nbsp;(4x + 8)</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(2x<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+&nbsp;x -&nbsp;1) -&nbsp;(4x + 8) = 0</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(2x<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;-&nbsp;3x -&nbsp;9)&nbsp;= 0</span></p>\n\n<p style=\"\"><span style=\"\">By factorization method,</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(2x<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+&nbsp;3x - 6x -&nbsp;9)&nbsp;= 0</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;</span>x(2x + 3)- 3(2x + 3) = 0</p>\n\n<p style=\"\">&rArr; (2x + 3) or (x - 3) = 0</p>\n\n<p style=\"\">The value of x will be either -3/2 or 3</p>\n\n<p style=\"\">If value of x is kept -3/2 in OB then the value will be negative&nbsp;</p>\n\n<p style=\"\">Hence the value of x is 3</p>\n\n<p style=\"\"><strong>&there4; The value of x is 3.</strong></p>", "hn": "\n<p><strong><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">दिया गया:</font></font></strong></p>\n\n<p style=\"\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">दी गई आकृति में, AB||CD, AO = 4 सेमी;&nbsp;</font></font><span style=\"\">OC = (4x - 2)&nbsp;</span><font style=\" vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">सेमी;&nbsp;</font></font><span style=\"\">OD = (2x + 4)</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">&nbsp;सेमी;&nbsp;</font><font style=\"vertical-align: inherit;\">OB = (x + 1) सेमी है,</font></font></p>\n\n<p style=\"\"><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png\" style=\" width: 172px; height: 114px;\" /></p>\n\n<p style=\"\"><strong><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">प्रयुक्त अवधारणा:</font></font></strong></p>\n\n<p style=\"\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">एक समलम्ब चतुर्भुज के विकर्ण एक दूसरे को आनुपातिक रूप से विभाजित करते हैं</font></font></p>\n\n<p style=\"\"><strong><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">गणना:</font></font></strong></p>\n\n<p style=\"\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">प्रश्न के अनुसार,</font></font></p>\n\n<p style=\"\">(OC/OA) = (OD/OB)</p>\n\n<p style=\"\">&rArr;&nbsp;(4x - 2)/4 = (2x + 4)/(x + 1)</p>\n\n<p style=\"\">&rArr;&nbsp;2(2x - 1)/4 =&nbsp;(2x + 4)/(x + 1)</p>\n\n<p style=\"\">&rArr;&nbsp;(2x - 1)/2&nbsp;=&nbsp;(2x + 4)/(x + 1)</p>\n\n<p style=\"\">&rArr;&nbsp;(2x - 1)(x + 1)&nbsp;= 2(2x + 4)</p>\n\n<p style=\"\">&rArr;&nbsp;(2x - 1)(x + 1)&nbsp;= (4x + 8)</p>\n\n<p style=\"\">&rArr;&nbsp;(2x<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;- x) + (2x -&nbsp;1)&nbsp;=&nbsp;(4x + 8)</p>\n\n<p style=\"\">&rArr;&nbsp;(2x<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ x -&nbsp;1)&nbsp;=&nbsp;(4x + 8)</p>\n\n<p style=\"\">&rArr;&nbsp;(2x<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+&nbsp;x -&nbsp;1) -&nbsp;(4x + 8) = 0</p>\n\n<p style=\"\">&rArr;&nbsp;(2x<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;-&nbsp;3x -&nbsp;9)&nbsp;= 0</p>\n\n<p style=\"\"><span style=\"\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">गुणनखंड विधि द्वारा,</font></font></span></p>\n\n<p style=\"\">&rArr;&nbsp;(2x<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+&nbsp;3x - 6x -&nbsp;9)&nbsp;= 0</p>\n\n<p style=\"\">&rArr;&nbsp;x(2x + 3)- 3(2x + 3) = 0</p>\n\n<p style=\"\">&rArr; (2x + 3) or (x - 3) = 0</p>\n\n<p style=\"\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">x का मान या तो -3/2 या 3 होगा</font></font></p>\n\n<p style=\"\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">यदि x का मान OB में -3/2 रखा जाता है तो मान ऋणात्मक होगा&nbsp;</font></font></p>\n\n<p style=\"\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">अतः, x का मान 3 है</font></font></p>\n\n<p style=\"\"><strong><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">&there4; x का मान 3 है।</font></font></strong></p>\n\n38:Tacf,\n<p><strong>ਦਿੱਤਾ ਗਿਆ ਹੈ:</strong></p>\n\n<p style=\"\">ਦਿੱਤੇ ਗਏ ਚਿੱਤਰ ਵਿੱਚ, AB||CD, AO = 4 ਸੈਮੀ; OC = (4x - 2) ਸੈਮੀ; OD = (2x + 4) <span style=\"display: none;\"> </span>cm<span style=\"display: none;\"> </span>; OB = (x + 1) ਸੈਮੀ,</p>\n\n<p style=\"\"><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png\" style=\" width: 172px; height: 114px;\" /></p>\n\n<p st", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "\n<p><strong>ਦਿੱਤਾ ਗਿਆ ਹੈ:</strong></p>\n\n<p style=\"\">ਦਿੱਤੇ ਗਏ ਚਿੱਤਰ ਵਿੱਚ, AB||CD, AO = 4 ਸੈਮੀ; OC = (4x - 2) ਸੈਮੀ; OD = (2x + 4) <span style=\"display: none;\"> </span>cm<span style=\"display: none;\"> </span>; OB = (x + 1) ਸੈਮੀ,</p>\n\n<p style=\"\"><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png\" style=\" width: 172px; height: 114px;\" /></p>\n\n<p style=\"\"><strong>ਵਰਤਿਆ ਗਿਆ ਸੰਕਲਪ:</strong></p>\n\n<p style=\"\">ਇੱਕ ਸਮਲੰਬ ਚਤੁਰਭੁਜ ਦੇ ਵਿਕਰਨ ਇੱਕ ਦੂਜੇ ਨੂੰ ਅਨੁਪਾਤਕ ਤੌਰ 'ਤੇ ਵੰਡਦੇ ਹਨ</p>\n\n<p style=\"\"><strong>ਗਣਨਾਵਾਂ:</strong></p>\n\n<p style=\"\">ਪ੍ਰਸ਼ਨ ਅਨੁਸਾਰ,</p>\n\n<p style=\"\">(OC/OA) = (OD/OB)</p>\n\n<p style=\"\"><span style=\"\">⇒ </span>(4x - 2)/4 = (2x + 4)/(x + 1)</p>\n\n<p style=\"\"><span style=\"\">⇒ 2(2x - 1)/4 = (2x + 4)/(x + 1</span><span style=\"\">)</span></p>\n\n<p style=\"\"><span style=\"\">⇒ (2x - 1)/2 = (2x + 4)/(x + 1</span><span style=\"\">)</span></p>\n\n<p style=\"\"><span style=\"\">⇒ (2x - 1)(x + 1) = 2(2x + 4)</span></p>\n\n<p style=\"\"><span style=\"\">⇒ (2x - 1)(x + 1) = (4x + 8)</span></p>\n\n<p style=\"\"><span style=\"\">⇒ (2x<sup>2</sup> - x) + (2x - 1) = (4x + 8)</span></p>\n\n<p style=\"\"><span style=\"\">⇒ (2x<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span> + x - 1) = (4x + 8)</span></p>\n\n<p style=\"\"><span style=\"\">⇒ (2x<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span> + x - 1) - (4x + 8) = 0</span></p>\n\n<p style=\"\"><span style=\"\">⇒ (2x<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span> - 3x - 9) = 0</span></p>\n\n<p style=\"\"><span style=\"\">ਗੁਣਨਖੰਡਨ ਵਿਧੀ ਦੁਆਰਾ,</span></p>\n\n<p style=\"\"><span style=\"\">⇒ (2x<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span> + 3x - 6x - 9) = 0</span></p>\n\n<p style=\"\"><span style=\"\">⇒ </span>x(2x + 3)- 3(2x + 3) = 0</p>\n\n<p style=\"\">⇒ (2x + 3) ਜਾਂ (x - 3) = 0</p>\n\n<p style=\"\">x ਦਾ ਮੁੱਲ ਜਾਂ ਤਾਂ -3/2 ਜਾਂ 3 ਹੋਵੇਗਾ</p>\n\n<p style=\"\">ਜੇਕਰ x ਦਾ ਮੁੱਲ OB ਵਿੱਚ -3/2 ਰੱਖਿਆ ਜਾਵੇ ਤਾਂ ਮੁੱਲ ਰਿਣਾਤਮਕ ਹੋਵੇਗਾ</p>\n\n<p style=\"\">ਇਸ ਲਈ x ਦਾ ਮੁੱਲ 3 ਹੈ</p>\n\n<p style=\"\"><strong>∴ x ਦਾ ਮੁੱਲ 3 ਹੈ।</strong></p>\n\n39:T555,<p><strong>Given:</strong></p>\n\n<p><span style=\"\">QR = 4 cm , QP = 8cm, and OP = 12 cm</span></p>\n\n<p><strong><span style=\"\">Concept used:</span></strong></p>\n\n<p><span style=\"\">QR&nbsp;&times; QS = QP&nbsp;&nbsp;&times; QO</span></p>\n\n<p><strong>Calculation:</strong", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Geometry"], "concept": "Geometry", "confidence": "high"}, {"qid": "65afd920f00bc324cb1050d8", "qs_no": 8, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "The difference between two supplementary angles is 20&deg;. If the smaller of these angles is p, then the value of 3p -50&deg; is:&nbsp;", "options": [{"prompt": "1", "value": "190&amp;deg;"}, {"prompt": "2", "value": "310&amp;deg;"}, {"prompt": "3", "value": "270&amp;deg;"}, {"prompt": "4", "value": "250&amp;deg;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "दो संपूरक कोणों का अंतर 20&deg; है। यदि इनमें से छोटा कोण p है, तो 3p - 50&deg; का मान कितना है?", "options": [{"prompt": "1", "value": "190&amp;deg;"}, {"prompt": "2", "value": "310&amp;deg;"}, {"prompt": "3", "value": "270&amp;deg;"}, {"prompt": "4", "value": "250&amp;deg;"}], "range": {"start": "", "end": ""}}, "pa": {"value": "ਦੋ ਸਪਲੀਮੈਂਟਰੀ ਕੋਣਾਂ ਵਿੱਚ ਅੰਤਰ 20° ਹੈ। ਜੇਕਰ ਇਹਨਾਂ ਕੋਣਾਂ ਵਿੱਚੋਂ ਛੋਟਾ ਕੋਣ p ਹੈ, ਤਾਂ 3p - 50° ਦਾ ਮੁੱਲ ਕੀ ਹੈ?", "options": [{"prompt": "1", "value": "190&deg;"}, {"prompt": "2", "value": "310&deg;"}, {"prompt": "3", "value": "270&deg;"}, {"prompt": "4", "value": "250&deg;"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "<p><strong>Concept use:</strong></p>\n\n<p>Supplementary angles are those angles that sum up to 180 degrees</p>\n\n<p><strong>Calculations:</strong></p>\n\n<p>Let the angles are&nbsp;&ang;A and&nbsp;&ang;B&nbsp;</p>\n\n<p>&ang;A -&nbsp;&ang;B = 20&deg;&nbsp;</p>\n\n<p>&ang;A +&nbsp;&ang;B = 180&deg;&am", "hn": "<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p>संपूरक कोण वे कोण होते हैं, जिनका योग 180 डिग्री होता है।</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना कि कोण &ang;A और &ang;B हैं।</p>\n\n<p>&ang;A -&nbsp;&ang;B = 20&deg;&nbsp;</p>\n\n<p>&ang;A +&nbsp;&ang;B = 180&deg;&nbsp;</p>\n\n<p>दोनों समीकरणों को जोड़ने पर, हमें प्राप्त होता है, <span style=\"color: rgb(33, 37, 41);\">2&ang;A&nbsp;</span>= 200&deg;&nbsp;</p>\n\n<p>&ang;A = 100&deg;&nbsp;</p>\n\n<p>&there4;&nbsp;&ang;B = 80&deg;&nbsp;</p>\n\n<p>अब, प्रश्न कथन के अनुसार p सबसे छोटा कोण है।</p>\n\n<p>&there4;&nbsp;&ang;B = 80&deg;&nbsp;</p>\n\n<p>&there4; 3p - 50&deg; = 3 &times; 80&deg; - 50&deg; = 240&deg; - 50&deg; = 190&deg;&nbsp;</p>\n\n<p><strong>अतः, सही उत्तर विकल्प 1 है।</strong></p>\n\ne:[\"$\",\"$L2d\",null,{\"testData\":{\"title\":\"CT 43: Lines and Angles\",\"sections\":[{\"_id\":\"6a0f34f5c6516817f88026ec\",\"qCount\":10,\"title\":\"Test\",\"time\":0,\"questions\":[{\"isNum\":false,\"type\":\"mcq\",\"negMarks\":0.5,\"posMarks\":2,\"skipMarks\":0,\"partialMarks\":{\"type\":\"\",\"marks\":0},\"isPartialMarking\":false,\"_id\":\"6492ce9f578e8f3a9305c786\",\"en\":{\"valu", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "<p><strong>ਕਨਸੈਪਟ ਵਰਤੋਂ:</strong></p>\n\n<p>ਸਪਲੀਮੈਂਟਰੀ ਕੋਣ ਉਹ ਕੋਣ ਹੁੰਦੇ ਹਨ ਜਿਨ੍ਹਾਂ ਦਾ ਜੋੜ 180 ਡਿਗਰੀ ਹੁੰਦਾ ਹੈ</p>\n\n<p><strong>ਗਣਨਾ:</strong></p>\n\n<p>ਮੰਨ ਲਓ ਕੋਣ ∠A ਅਤੇ ∠B ਹਨ</p>\n\n<p>∠A - ∠B = 20°</p>\n\n<p>∠A + ∠B = 180°</p>\n\n<p>ਦੋਨੋਂ ਸਮੀਕਰਨਾਂ ਨੂੰ ਜੋੜਨ 'ਤੇ ਸਾਨੂੰ 2∠A = 200° ਮਿਲਦਾ ਹੈ</p>\n\n<p>∠A = 100°</p>\n\n<p>∴ ∠B = 80°</p>\n\n<p>ਹੁਣ, ਪ੍ਰਸ਼ਨ ਅਨੁਸਾਰ p ਸਭ ਤੋਂ ਛੋਟਾ ਕੋਣ ਹੈ</p>\n\n<p>∴ ∠B = 80°</p>\n\n<p>∴ 3p - 50° = 3 x 80° - 50° = 240° - 50° = 190°</p>\n\n<p><strong>ਇਸ ਲਈ, ਸਹੀ ਉੱਤਰ ਵਿਕਲਪ 1 ਹੈ।</strong></p>\n", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Geometry"], "concept": "Geometry", "confidence": "high"}, {"qid": "61f90e43162841d2cadf3bee", "qs_no": 9, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>In the given figure, TS || PR, &ang;PRQ = 45&deg; and &ang;TQS = 75&deg;. Find &ang;TSQ.</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\"width: 168px; height: 154px;\" /></p>\n", "options": [{"prompt": "1", "value": "&lt;span style=&quot;&quot;&gt;90&amp;deg;&amp;nbsp;&lt;/span&gt;"}, {"prompt": "2", "value": "60&amp;deg;&amp;nbsp;"}, {"prompt": "3", "value": "&lt;span style=&quot;&quot;&gt;30&amp;deg;&amp;nbsp;&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;&quot;&gt;45&amp;deg;&amp;nbsp;&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>दी गयी आकृति  में, TS || PR, ∠PRQ = 45° और ∠TQS = 75°। ∠TSQ ज्ञात कीजिए।</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\"width: 168px; height: 154px;\" /></p>\n", "options": [{"prompt": "1", "value": "<span style=\"\">90&deg;</span>"}, {"prompt": "2", "value": "60<span style=\"color: rgb(33, 37, 41);\">&deg;</span> "}, {"prompt": "3", "value": "<span style=\"\">30&deg;</span>"}, {"prompt": "4", "value": "<span style=\"\">45&deg;</span>"}], "range": {"start": "", "end": ""}}, "te": {"value": "<p>ఇచ్చిన చిత్రంలో, TS || PR, ∠PRQ = 45° మరియు ∠TQS = 75°. ∠TSQని కనుగొనండి?</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\"width: 168px; height: 154px;\" /></p>\n", "options": [{"prompt": "1", "value": "<span style=\"\">90&deg;</span>"}, {"prompt": "2", "value": "60&deg;"}, {"prompt": "3", "value": "<span style=\"\">30&deg;</span>"}, {"prompt": "4", "value": "<span style=\"\">45&deg;</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<p>दिलेल्या आकृतीमध्ये, TS || PR, ∠PRQ = 45° आणि ∠TQS = 75°. ∠TSQ शोधा.</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\"width: 168px; height: 154px;\" /></p>\n", "options": [{"prompt": "1", "value": "<span style=\"\">90&deg;&nbsp;</span>"}, {"prompt": "2", "value": "60&deg;&nbsp;"}, {"prompt": "3", "value": "<span style=\"\">30&deg;&nbsp;</span>"}, {"prompt": "4", "value": "<span style=\"\">45&deg;&nbsp;</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<p>প্রদত্ত চিত্রে, TS || PR, ∠PRQ = 45° এবং ∠TQS = 75°, ∠TSQ এর মান নির্ণয় করুন।</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\"width: 168px; height: 154px;\" /></p>\n", "options": [{"prompt": "1", "value": "<span style=\"\">90&deg;&nbsp;</span>"}, {"prompt": "2", "value": "60&deg;&nbsp;"}, {"prompt": "3", "value": "<span style=\"\">30&deg;&nbsp;</span>"}, {"prompt": "4", "value": "<span style=\"\">45&deg;&nbsp;</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<p>આપેલ આકૃતિમાં, TS || PR, ∠PRQ = 45° અને ∠TQS = 75°. ∠TSQ શોધો.</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\"width: 168px; height: 154px;\" /></p>\n", "options": [{"prompt": "1", "value": "<span style=\"\">90&deg;&nbsp;</span>"}, {"prompt": "2", "value": "60&deg;&nbsp;"}, {"prompt": "3", "value": "<span style=\"\">30&deg;&nbsp;</span>"}, {"prompt": "4", "value": "<span style=\"\">45&deg;&nbsp;</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<p><span style=\"\">ನೀಡಿರುವ ಚಿತ್ರದಲ್ಲಿ, TS || PR, ∠PRQ = 45° ಮತ್ತು ∠TQS = 75° ಆಗಿದ್ದರೆ. ∠TSQ ಅನ್ನು ಹುಡುಕಿ.</span></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\"width: 168px; height: 154px;\" /></p>\n", "options": [{"prompt": "1", "value": "<span style=\"\">90&deg;&nbsp;</span>"}, {"prompt": "2", "value": "60&deg;&nbsp;"}, {"prompt": "3", "value": "<span style=\"\">30&deg;&nbsp;</span>"}, {"prompt": "4", "value": "<span style=\"\">45&deg;&nbsp;</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<p>கொடுக்கப்பட்ட படத்தில், TS || PR, ∠PRQ = 45° மற்றும் ∠TQS = 75°. ∠TSQ ஐக் கண்டறியவும்.</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\"width: 168px; height: 154px;\" /></p>\n", "options": [{"prompt": "1", "value": "<span style=\"\">90&deg;&nbsp;</span>"}, {"prompt": "2", "value": "60&deg;&nbsp;"}, {"prompt": "3", "value": "<span style=\"\">30&deg;&nbsp;</span>"}, {"prompt": "4", "value": "<span style=\"\">45&deg;&nbsp;</span>"}], "range": {"start": "", "end": ""}}, "or": {"value": "<p>ପ୍ରଦତ୍ତ ଚିତ୍ରରେ, TS || PR, ∠PRQ = 45 ° ଏବଂ ∠TQS = 75 ° , ∠TSQ ର ମୂଲ୍ୟ ଖୋଜ |</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\"width: 168px; height: 154px;\" /></p>\n", "options": [{"prompt": "1", "value": "<span style=\"\">90&deg;&nbsp;</span>"}, {"prompt": "2", "value": "60&deg;&nbsp;"}, {"prompt": "3", "value": "<span style=\"\">30&deg;&nbsp;</span>"}, {"prompt": "4", "value": "<span style=\"\">45&deg;&nbsp;</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>Since line TS is parallel to PR, corresponding angles are equal.</p>\n<p>⇒ ∠QTS = ∠PRQ = 45°.</p>\n<p>In ΔTQS, the sum of all interior angles is 180°.</p>\n<p>⇒ ∠TSQ = 180° − (∠TQS + ∠QTS)</p>\n<p>⇒ ∠TSQ = 180° − (75° + 45°) = 60°.</p>\n<p><strong>∴ The correct answer is 60°.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>∠PRQ = 45°</p>\n<p>∠TQS = 75°</p>\n<p>TS || PR</p>\n\n<svg width=\"420\" height=\"240\" viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;margin:12px 0;background:#ffffff;border-radius:10px;border:1px solid #cccccc;\">\n  <!-- Main triangle -->\n  <polygon points=\"200,40 120,180 340,180\" fill=\"#ddeeff\" stroke=\"#2255cc\" stroke-width=\"2\"/>\n  \n  <!-- Parallel line TS -->\n  <line x1=\"160\" y1=\"110\" x2=\"270\" y2=\"110\" stroke=\"#2255cc\" stroke-width", "hn": "\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>चूँकि रेखा TS, PR के समानांतर है, इसलिए संगत कोण बराबर होंगे।</p>\n<p>⇒ ∠QTS = ∠PRQ = 45°।</p>\n<p>ΔTQS में, सभी आंतरिक कोणों का योग 180° है।</p>\n<p>⇒ ∠TSQ = 180° − (∠TQS + ∠QTS)</p>\n<p>⇒ ∠TSQ = 180° − (75° + 45°) = 60°।</p>\n<p><strong>∴ सही उत्तर 60° है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong></p>\n<p>∠PRQ = 45°</p>\n<p>∠TQS = 75°</p>\n<p>TS || PR</p>\n\n<svg width=\"420\" height=\"240\" viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;margin:12px 0;background:#ffffff;border-radius:10px;border:1px solid #cccccc;\">\n  <!-- Main triangle -->\n  <polygon points=\"200,40 120,180 340,180\" fill=\"#ddeeff\" stroke=\"#2255cc\" stroke-width=\"2\"/>\n  \n  <!-- Parallel line TS -->\n  <line x1=\"160\" y1=\"110\" x2=\"270\" y2=\"110\" stroke=\"#2255cc\" stroke-width=\"2\"/>\n  \n  <!-- Angle arcs -->\n  <!-- Angle at Q (75 deg) -->\n  <path d=\"M 188 62 Q 200 70 218 58\" fill=\"none\" stroke=\"#2255cc\" stroke-width=\"1.5\"/>\n  <text x=\"200\" y=\"80\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">75°</text>\n  \n  <!-- Angle at R (45 deg) -->\n  <path d=\"M 310 180 Q 310 165 319 159\" fill=\"none\" stroke=\"#2255cc\" stroke-width=\"1.5\"/>\n  <text x=\"305\" y=\"172\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"12\">45°</text>\n\n  <!-- Angle at T (45 deg) -->\n  <path d=\"M 250 110 Q 250 100 256 96\" fill=\"none\" stroke=\"#2255cc\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/>\n  <text x=\"250\" y=\"92\" fill=\"#2255cc\" font-family=\"sans-serif\" font-size=\"12\">45°</text>\n  \n  <!-- Angle at S (60 deg - to find) -->\n  <path d=\"M 180 110 Q 175 98 170 93\" fill=\"none\" stroke=\"#cc5500\" stroke-width=\"2\"/>\n  <text x=\"185\" y=\"102\" fill=\"#cc5500\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"bold\">?</text>\n  \n  <!-- Labels -->\n  <text x=\"200\" y=\"30\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\">Q</text>\n  <text x=\"105\" y=\"195\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\">P</text>\n  <text x=\"345\" y=\"195\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\">R</text>\n  <text x=\"140\" y=\"105\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\">S</text>\n  <text x=\"280\" y=\"105\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\">T</text>\n\n  <!-- Bottom text -->\n  <text x=\"210\" y=\"220\" fill=\"#2255cc\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\">TS || PR</text>\n</svg>\n\n<p><strong>गणना:</strong></p>\n<p>आकृति की ज्यामिति से, बिंदु S और T क्रमशः भुजाओं PQ और QR पर स्थित हैं।</p>\n<p>यह दिया गया है कि TS, PR के समानांतर है (TS || PR) और QR एक तिर्यक रेखा के रूप में कार्य करती है जो इन समानांतर खंडों को प्रतिच्छेद करती है।</p>\n<p>संगत कोण प्रमेय के अनुसार, जब दो समानांतर रेखाओं को एक तिर्यक रेखा द्वारा प्रतिच्छेद किया जाता है, तो प्रत्येक प्रतिच्छेद पर समान सापेक्ष स्थिति में संगत कोण बराबर होते हैं।</p>\n<p>⇒ ∠QTS = ∠PRQ</p>\n<p>⇒ ∠QTS = 45°</p>\n<p>अब, छोटे त्रिभुज ΔTQS पर विचार करें। एक त्रिभुज के सभी आंतरिक कोणों का योग हमेशा 180° होता है।</p>\n<p>⇒ ∠TSQ + ∠TQS + ∠QTS = 180°</p>\n<p>ज्ञात मानों को समीकरण में प्रतिस्थापित करें:</p>\n<p>⇒ ∠TSQ + 75° + 45° = 180°</p>\n<p>⇒ ∠TSQ + 120° = 180°</p>\n<p>⇒ ∠TSQ = 180° − 120°</p>\n<p>⇒ ∠TSQ = 60°</p>\n<p><strong>∴ सही उत्तर 60° है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">एक त्रिभुज में कोणों का योग</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">एक त्रिभुज के सभी आंतरिक कोणों का योग हमेशा 180° होता है। यह यूक्लिडियन ज्यामिति का एक मूलभूत गुण है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">संगत कोण प्रमेय</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">जब दो समानांतर रेखाओं को एक तिर्यक रेखा द्वारा प्रतिच्छेद किया जाता है, तो प्रत्येक प्रतिच्छेद पर समान सापेक्ष स्थिति में संगत कोण बिल्कुल बराबर होते हैं।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">समरूप त्रिभुज</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">एक त्रिभुज की एक भुजा के समानांतर खींची गई रेखा जो अन्य दो भुजाओं को काटती है, एक छोटा त्रिभुज बनाती है जो मूल त्रिभुज के ज्यामितीय रूप से समरूप होता है (AAA समरूपता)। इस प्रकार, उनके संबंधित कोण पूरी तरह से मेल खाते हैं।</p></p>\n30:T4d0,<p><strong>ఇచ్చినది:</strong></p>\n\n<p><span style=\"\">TS || PR, ∠PRQ = 45° మరియు ∠TQS = 75°</span></p>\n\n<p><strong><span style=\"\">గణనలు:</span></strong></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\" width: 168px; height: 154px;\" /></p>\n\n<p>మనకు తెలుసు, <span style=\"\">∠PRQ = 45°</span></p>\n\n<p><span style=\"\">ప్రత్యామ్నాయ కోణాల నిర్వచనం ప్రకారం ∠PRQ = ∠QTS = 45°</span></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/87032878302b4d26a5eaf3cecb3586b3eacc4944d889481df9912e32d2921e2e.png\" style=\"width: 205px; height: 169px;\" /></p>\n\n<p>అందువలన,</p>\n\n<p>⇒ <span style=\"\">∠TSQ = 180° - (∠TQS + ∠QTS)</span></p>\n\n<p><span style=\"\">⇒ ∠TSQ = 180° - (75° + 45°)</span></p>\n\n<p><span style=\"\">⇒ ∠TSQ = 180° - 120°</span></p>\n\n<p><span style=\"\">⇒ <strong>∠TSQ = 60°</strong></span></p>\n\n<p>కాబట్టి, సరైన సమాధానం <span style=\"font-weight: 700; \">60°.</span></p>\n31:T4ec,<p><strong>दिलेल्याप्रमाणे:</strong></p>\n\n<p><span style=\"\">TS || PR, ∠PRQ = 45° आणि ∠TQS = 75°</span></p>\n\n<p><strong><span style=\"\">गणना:</span></strong></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\" width: 168px; height: 154px;\" /></p>\n\n<p>आपल्याला माहित आहे, <span style=\"\">∠PRQ = 45°</span></p>\n\n<p><span style=\"\">पर्यायी कोनांच्या व्याख्येनुसार ∠PRQ = ∠QTS = 45°</span></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/87032878302b4d26a5eaf3cecb3586b3eacc4944d889481df9912e32d2921e2e.png\" style=\"width: 205px; height: 169px;\" /></p>\n\n<p>त्यामुळे,</p>\n\n<p>⇒ <span style=\"\">∠TSQ = 180° - (∠TQS + &a", "te": "<p><strong>ఇచ్చినది:</strong></p>\n\n<p><span style=\"\">TS || PR, ∠PRQ = 45° మరియు ∠TQS = 75°</span></p>\n\n<p><strong><span style=\"\">గణనలు:</span></strong></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\" width: 168px; height: 154px;\" /></p>\n\n<p>మనకు తెలుసు, <span style=\"\">∠PRQ = 45°</span></p>\n\n<p><span style=\"\">ప్రత్యామ్నాయ కోణాల నిర్వచనం ప్రకారం ∠PRQ = ∠QTS = 45°</span></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/87032878302b4d26a5eaf3cecb3586b3eacc4944d889481df9912e32d2921e2e.png\" style=\"width: 205px; height: 169px;\" /></p>\n\n<p>అందువలన,</p>\n\n<p>⇒ <span style=\"\">∠TSQ = 180° - (∠TQS + ∠QTS)</span></p>\n\n<p><span style=\"\">⇒ ∠TSQ = 180° - (75° + 45°)</span></p>\n\n<p><span style=\"\">⇒ ∠TSQ = 180° - 120°</span></p>\n\n<p><span style=\"\">⇒ <strong>∠TSQ = 60°</strong></span></p>\n\n<p>కాబట్టి, సరైన సమాధానం <span style=\"font-weight: 700; \">60°.</span></p>\n31:T4ec,<p><strong>दिलेल्याप्रमाणे:</strong></p>\n\n<p><span style=\"\">TS || PR, ∠PRQ = 45° आणि ∠TQS = 75°</span></p>\n\n<p><strong><span style=\"\">गणना:</span>", "mr": "<p><strong>दिलेल्याप्रमाणे:</strong></p>\n\n<p><span style=\"\">TS || PR, ∠PRQ = 45° आणि ∠TQS = 75°</span></p>\n\n<p><strong><span style=\"\">गणना:</span></strong></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\" width: 168px; height: 154px;\" /></p>\n\n<p>आपल्याला माहित आहे, <span style=\"\">∠PRQ = 45°</span></p>\n\n<p><span style=\"\">पर्यायी कोनांच्या व्याख्येनुसार ∠PRQ = ∠QTS = 45°</span></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/87032878302b4d26a5eaf3cecb3586b3eacc4944d889481df9912e32d2921e2e.png\" style=\"width: 205px; height: 169px;\" /></p>\n\n<p>त्यामुळे,</p>\n\n<p>⇒ <span style=\"\">∠TSQ = 180° - (∠TQS + ∠QTS)</span></p>\n\n<p><span style=\"\">⇒ ∠TSQ = 180° - (75° + 45°)</span></p>\n\n<p><span style=\"\">⇒ ∠TSQ = 180° - 120°</span></p>\n\n<p><span style=\"\">⇒ <strong>∠TSQ = 60°</strong></span></p>\n\n<p>म्हणून, योग्य उत्तर <span style=\"font-weight: 700; \">60° </span>आहे.</p>\n32:T613,\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">প্রদত্ত:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">TS || PR, ∠PRQ = 45° এবং ∠TQS = 75°</", "bn": "\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">প্রদত্ত:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">TS || PR, ∠PRQ = 45° এবং ∠TQS = 75°</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">গণনা:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\"><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\"width: 168px; height: 154px;\" /></p>\n\n<p style=\"color: rgb(33, 37, 41);\">আমরা জানি, ∠PRQ = 45°</p>\n\n<p style=\"color: rgb(33, 37, 41);\">বিকল্প কোণের সংজ্ঞা দ্বারা, ", "ml": "", "gu": "<p><strong>આપેલ:</strong></p>\n\n<p>TS || PR, ∠PRQ = 45° અને ∠TQS = 75°</p>\n\n<p><strong>ગણતરીઓ:</strong></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\" width: 168px; height: 154px;\" /></p>\n\n<p>આપણે જાણીએ છીએ, ∠PRQ = 45°</p>\n\n<p>યુગ્મકોણની વ્યાખ્યા દ્વારા ∠PRQ = ∠QTS = 45°</p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/87032878302b4d26a5eaf3cecb3586b3eacc4944d889481df9912e32d2921e2e.png\" style=\"width: 205px; height: 169px;\" /></p>\n\n<p>તેથી,</p>\n\n<p>⇒ <span style=\"\">∠TSQ = 180° - (∠TQS + ∠QTS)</span></p>\n\n<p><span style=\"\">⇒ ∠TSQ = 180° - (75° + 45°)</span></p>\n\n<p><span style=\"\">⇒ ∠TSQ = 180° - 120° </span></p>\n\n<p><span style=\"\">⇒ <strong>∠TSQ = 60°</strong></span></p>\n\n<p><span style=\"\"><strong> </strong></span>તેથી, સાચો જવાબ <strong>60°</strong> છે.</p>\n", "kn": "<p><strong>ನೀಡಲಾಗಿದೆ:</strong></p>\n\n<p><span style=\"\">TS || PR, ∠PRQ = 45° ಮತ್ತು ∠TQS = 75°</span></p>\n\n<p><strong><span style=\"\">ಲೆಕ್ಕಾಚಾರ:</span></strong></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\" width: 168px; height: 154px;\" /></p>\n\n<p>ನಮಗೆ ತಿಳಿದಿದೆ, <span style=\"\">∠PRQ = 45°</span></p>\n\n<p><span style=\"\">ಪರ್ಯಾಯ ಕೋನಗಳ ವ್ಯಾಖ್ಯಾನದಿಂದ ∠PRQ = ∠QTS = 45°</span></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/87032878302b4d26a5eaf3cecb3586b3eacc4944d889481df9912e32d2921e2e.png\" style=\"width: 205px; height: 169px;\" /></p>\n\n<p>ಆದ್ದರಿಂದ, </p>\n\n<p>⇒ <span style=\"\">∠TSQ = 180° - (∠TQS + ∠QTS)</span></p>\n\n<p><span style=\"\">⇒ ∠TSQ = 180° - (75° + 45°)</span></p>\n\n<p><span style=\"\">⇒ ∠TSQ = 180° - 120° </span></p>\n\n<p><span style=\"\">⇒ <strong>∠TSQ = 60° </strong></span></p>\n\n<p><span style=\"\">ಆದ್ದರಿಂದ, ಸರಿಯಾದ ಉತ್ತರವು<strong> 60°</strong> ಆಗಿದೆ.</span></p>\n34:T526,<p><strong>கொடுக்கப்பட்டவை:</strong></p>\n\n<p><span style=\"\">TS || PR, ∠PRQ = 45° மற்றும் ∠TQS = 75°</span></p>\n\n<p><strong><span style=\"\">கணக்கீடுகள்:</span></str", "ta": "<p><strong>கொடுக்கப்பட்டவை:</strong></p>\n\n<p><span style=\"\">TS || PR, ∠PRQ = 45° மற்றும் ∠TQS = 75°</span></p>\n\n<p><strong><span style=\"\">கணக்கீடுகள்:</span></strong></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\" width: 168px; height: 154px;\" /></p>\n\n<p>நாம் அறிந்தது, <span style=\"\">∠PRQ = 45°</span></p>\n\n<p>மாற்று கோணங்களின் வரையறையின்படி <span style=\"\">∠PRQ = ∠QTS = 45°</span></p>\n\n<p><", "or": "<p><strong>ପ୍ରଦତ୍ତ:</strong></p>\n\n<p>TS || PR, ∠PRQ = 45 ° ଏବଂ ∠TQS = 75 ° |</p>\n\n<p><strong>ଗଣନା:</strong></p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png\" style=\" width: 168px; height: 154px;\" /></p>\n\n<p>ଆମେ ଜାଣୁ, ∠PRQ = 45 ° </p>\n\n<p>ବିକଳ୍ପ କୋଣଗୁଡ଼ିକର ସଂଜ୍ଞା ଦ୍ୱାରା ∠PRQ = ∠QTS = 45 ° </p>\n\n<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/87032878302b4d26a5eaf3cecb3586b3eacc4944d889481df9912e32d2921e2e.png\" style=\"width: 205px; height: 169px;\" /></p>\n\n<p>ତେଣୁ, </p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ ∠TSQ = 180° - (∠TQS + ∠QTS)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ ∠TSQ = 180° - (75° + 45°)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ ∠TSQ = 180° - 120° </p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ <span style=\"font-weight: bolder;\">∠TSQ = 60°</span></p>\n\n<p>ତେଣୁ, ସଠିକ୍ ଉତ୍ତର ହେଉଛି<strong> 60° |</strong></p>\n36:Te5a,\n<p><strong>Given:</strong></p>\n\n<p style=\"\">In the given figure,&nbsp;AB||CD, AO = 4 cm; OC", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Geometry"], "concept": "Geometry", "confidence": "high"}, {"qid": "6376a34ccd2462edfe895d41", "qs_no": 10, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png\" style=\"width: 213px; height: 124px;\" /></p>\n\n<p>In the given figure QR = 4 cm, QP = 8cm, and OP = 12 cm&nbsp;Find the value of QS.</p>\n", "options": [{"prompt": "1", "value": "40 cm"}, {"prompt": "2", "value": "32 cm"}, {"prompt": "3", "value": "12 cm"}, {"prompt": "4", "value": "24 cm"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png\" style=\"width: 213px; height: 124px;\" /></p>\n\n<p>दिए गए चित्र में QR = 4 सेमी, QP = 8 सेमी, और OP = 12 सेमी है।&nbsp;QS का मान ज्ञात कीजिए।</p>\n", "options": [{"prompt": "1", "value": "40 सेमी"}, {"prompt": "2", "value": "32 &lt;span style=&quot;&quot;&gt;सेमी&lt;/span&gt;"}, {"prompt": "3", "value": "12 &lt;span style=&quot;&quot;&gt;सेमी&lt;/span&gt;"}, {"prompt": "4", "value": "24 &lt;span style=&quot;&quot;&gt;सेमी&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png\" style=\"width: 213px; height: 124px;\" /></p>\n\n<p>ఇచ్చిన చిత్రంలో QR = 4 సెం.మీ., QP = 8<span style=\"\">సెం.మీ</span>, మరియు OP = 12 <span style=\"\">సెం.మీ</span> QS విలువను కనుగొనండి?</p>\n", "options": [{"prompt": "1", "value": "40 సెం.మీ"}, {"prompt": "2", "value": "32 సెం.మీ"}, {"prompt": "3", "value": "12 సెం.మీ"}, {"prompt": "4", "value": "24 సెం.మీ"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png\" style=\"width: 213px; height: 124px;\" /></p>\n\n<p>दिलेल्या आकृतीमध्ये QR = 4 <span style=\"color: rgb(33, 37, 41);\">सेमी</span>, QP = 8 <span style=\"color: rgb(33, 37, 41);\">सेमी</span>आणि OP = 12 <span style=\"color: rgb(33, 37, 41);\">सेमी </span>QS चे मूल्य शोधा.</p>\n", "options": [{"prompt": "1", "value": "40 सेमी"}, {"prompt": "2", "value": "32&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span>"}, {"prompt": "3", "value": "12&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span>"}, {"prompt": "4", "value": "24&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png\" style=\"width: 213px; height: 124px;\" /></p>\n\n<p>প্রদত্ত চিত্রে QR = 4 সেমি, QP = 8 সেমি, এবং OP = 12 হলে QS-এর মান কত?</p>\n", "options": [{"prompt": "1", "value": "40 সেমি"}, {"prompt": "2", "value": "32 সেমি"}, {"prompt": "3", "value": "12 সেমি"}, {"prompt": "4", "value": "24 সেমি"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png\" style=\"width: 213px; height: 124px;\" /></p>\n\n<p>આપેલ આકૃતિમાં QR = 4 સેમી, QP = 8 સેમી, અને OP = 12 સેમી છે. QS ની કિંમત શોધો.</p>\n", "options": [{"prompt": "1", "value": "40 સેમી"}, {"prompt": "2", "value": "32 સેમી"}, {"prompt": "3", "value": "12 સેમી"}, {"prompt": "4", "value": "24 સેમી"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png\" style=\"width: 213px; height: 124px;\" /></p>\n\n<p>ನೀಡಿರುವ ಚಿತ್ರದಲ್ಲಿ, QR = 4 ಸೆಂ.ಮೀ, QP = 8 ಸೆಂ.ಮೀ, ಮತ್ತು OP = 12 ಸೆಂ.ಮೀ. QS ನ ಮೌಲ್ಯವನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.</p>\n", "options": [{"prompt": "1", "value": "40 ಸೆಂ.ಮೀ"}, {"prompt": "2", "value": "32 ಸೆಂ.ಮೀ"}, {"prompt": "3", "value": "12 ಸೆಂ.ಮೀ"}, {"prompt": "4", "value": "24 ಸೆಂ.ಮೀ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png\" style=\"width: 213px; height: 124px;\" /></p>\n\n<p>கொடுக்கப்பட்ட படத்தில் QR = 4 cm, QP = 8cm, மற்றும் OP = 12 cm QS இன் மதிப்பைக் கண்டறியவும்.</p>\n", "options": [{"prompt": "1", "value": "40 செ.மீ"}, {"prompt": "2", "value": "32 செ.மீ"}, {"prompt": "3", "value": "12 செ.மீ"}, {"prompt": "4", "value": "24 செ.மீ"}], "range": {"start": "", "end": ""}}, "or": {"value": "<p><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png\" style=\" width: 213px; height: 124px;\" /></p>\n\n<p>ଦିଆଯାଇଥିବା ଚିତ୍ରରେ <span style=\"\">QR = 4 ସେମି, QP = 8ସେମି, ଏବଂ OP = 12</span> ସେମି ତେବେ <span style=\"\">QS.</span>ର ମୂଲ୍ୟ ଖୋଜ । </p>\n", "options": [{"prompt": "1", "value": "40&nbsp;&nbsp;<span style=\"\">ସେମି</span>"}, {"prompt": "2", "value": "&nbsp;32&nbsp;<span style=\"\">ସେମି</span>"}, {"prompt": "3", "value": "&nbsp;12&nbsp;<span style=\"\">ସେମି</span>"}, {"prompt": "4", "value": "&nbsp;24&nbsp;<span style=\"\">ସେମି</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "<p><strong>Given:</strong></p>\n\n<p><span style=\"\">QR = 4 cm , QP = 8cm, and OP = 12 cm</span></p>\n\n<p><strong><span style=\"\">Concept used:</span></strong></p>\n\n<p><span style=\"\">QR&nbsp;&times; QS = QP&nbsp;&nbsp;&times; QO</span></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let RS = x cm</p>\n\n<p><span style=\"\">4&nbsp;</span>&", "hn": "\n<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"\">QR = 4 सेमी, QP = 8 सेमी, और OP = 12 सेमी</span></p>\n\n<p><strong><span style=\"\">प्रयुक्त अवधारणा:</span></strong></p>\n\n<p><span style=\"\">QR&nbsp;&times; QS = QP&nbsp;&nbsp;&times; QO</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>मान लीजिए RS = x <span style=\"\">सेमी</span></p>\n\n<p><span style=\"\">4&nbsp;</span><span style=\"\">&times; (4 + x)&nbsp;= 8&nbsp;&nbsp", "te": "<p><strong>ఇచ్చినది:</strong></p>\n\n<p><span style=\"\">QR = 4 సెం.మీ , QP = 8సెం.మీ, మరియు OP = 12 సెం.మీ</span></p>\n\n<p><strong><span style=\"\">ఉపయోగించిన భావన:</span></strong></p>\n\n<p><span style=\"\">QR × QS = QP × QO</span></p>\n\n<p><strong>సాధన:</strong></p>\n\n<p>RS = x సెం.మీ అనుకుందాం</p>\n\n<p><span style=\"\">4</span> <span style=\"\">× (4 + x) = 8</span> <span style=\"\">× (8 + 12)</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">⇒ </span><span style=\"color: rgb(33, 37, 41);\">4 </span><span style=\"color: rgb(33, 37, 41);\">× (4 + x) = 160</span></p>\n\n<p><span style=\"\">⇒ 4 + x = 40</span></p>\n\n<p><span style=\"\">⇒ x = 36 సెం.మీ</span></p>\n\n<p><span style=\"\">QS = QR + RS విలువ</span></p>\n\n<p><span style=\"\">⇒ 36 + 4 = 36 సెం.మీ</span></p>\n\n<p><strong><span style=\"\">QS విలువ = 40 సెం.మీ</span></strong></p>\n", "mr": "<p><strong>दिलेले:</strong></p>\n\n<p>QR = 4 सेमी, QP = 8 सेमी, आणि OP = 12 सेमी</p>\n\n<p><strong>वापरलेली संकल्पना:</strong></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">QR × QS = QP  × QO</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>समजा  RS = x सेमी</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">4 </span><span style=\"color: rgb(33, 37, 41);\">× (4 + x) = 8  </span><span style=\"color: rgb(33, 37, 41);\">× (8 + 12)</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">⇒ </span><span style=\"color: rgb(33, 37, 41);\">4 </span><span style=\"color: rgb(33, 37, 41);\">× (4 + x) = 160</span></p>\n\n<p>⇒ 4 + x = 40</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ x = 36 <span style=\"color: rgb(33, 37, 41);\">सेमी</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">QS चे मूल्य = QR + RS</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ 36 + 4 = 36 सेमी</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><strong>QS चे मूल्य = 40 सेमी</strong></p>\n3c:T71d,\n<div><strong><span style=\"\">ನೀಡಲಾಗಿದೆ:</span></strong></div>\n\n<div> </div>\n\n<div><span style=\"\">QR = 4 </span><span style=\"color: rgb(3", "bn": "<p><strong>প্রদত্ত:</strong></p>\n\n<p><span style=\"\">QR = 4 </span>সেমি<span style=\"\">, QP = 8 </span>সেমি,<span style=\"\"> OP = 12 </span>সেমি</p>\n\n<p><strong><span style=\"\">অনুসৃত ধারণা:</span></strong></p>\n\n<p><span style=\"\">QR × QS = QP  × QO</span></p>\n\n<p><strong>গণনা:</strong></p>\n\n<p>ধরি RS = x সেমি</p>\n\n<p><span style=\"\">4 </span><span style=\"\">× (4 + x) = 8  </span><span style=\"\">× (8 + 12)</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">⇒ </span><span style=\"color: rgb(33, 37, 41);\">4 </span><span style=\"color: rgb(33, 37, 41);\">× (4 + x) = 160</span></p>\n\n<p><span style=\"\">⇒ 4 + x = 40</span></p>\n\n<p><span style=\"\">⇒ x = 36 </span>সেমি</p>\n\n<p><span style=\"\">QS-এর মান = QR + RS</span></p>\n\n<p><span style=\"\">⇒ 36 + 4 = 36 </span>সেমি</p>\n\n<p><strong><span style=\"\">QS-এর মান = 40 </span>সেমি</strong></p>\n", "ml": "", "gu": "<p><strong>આપેલું છે:</strong></p>\n\n<p><span style=\"\">QR = 4 </span>સેમી<span style=\"\"> , QP = 8 </span>સેમી<span style=\"\">, અને OP = 12 </span>સેમી</p>\n\n<p><strong><span style=\"\">પ્રયુક્ત ધારણા:</span></strong></p>\n\n<p><span style=\"\">QR × QS = QP  × QO</span></p>\n\n<p><strong>ગણના:</strong></p>\n\n<p>ધારો કે RS = x સેમી</p>\n\n<p><span style=\"\">4 </span><span style=\"\">× (4 + x) = 8  </span><span style=\"\">× (8 + 12)</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">⇒ </span><span style=\"color: rgb(33, 37, 41);\">4 </span><span style=\"color: rgb(33, 37, 41);\">× (4 + x) = 160</span></p>\n\n<p><span style=\"\">⇒ 4 + x = 40</span></p>\n\n<p><span style=\"\">⇒ x = 36 સેમી</span></p>\n\n<p><span style=\"\">QSનું મૂલ્ય = QR + RS</span></p>\n\n<p><span style=\"\">⇒ 36 + 4 = 36 સેમી</span></p>\n\n<p><strong><span style=\"\">QSનું મૂલ્ય = 40 સેમી</span></strong></p>\n", "kn": "\n<div><strong><span style=\"\">ನೀಡಲಾಗಿದೆ:</span></strong></div>\n\n<div> </div>\n\n<div><span style=\"\">QR = 4 </span><span style=\"color: rgb(33, 37, 41);\">ಸೆಂ.ಮೀ</span><span style=\"\">, QP = 8 </span><span style=\"color: rgb(33, 37, 41);\">ಸೆಂ.ಮೀ</span><span style=\"\">, ಮತ್ತು OP = 12 </span><span style=\"color: rgb(33, 37, 41);\">ಸೆಂ.ಮೀ</span></div>\n\n<div> </div>\n\n<div><strong><span style=\"\">ಬಳಸಿದ ಪರಿಕಲ್ಪನೆ:</span></strong></div>\n\n<div> </div>\n\n<div><span style=\"\">QR × QS = QP × QO</span></div>\n\n<div> </div>\n\n<div><strong><span style=\"\">ಲೆಕ್ಕಾಚಾರ:</span></strong></div>\n\n<div> </div>\n\n<div><span style=\"\">RS = x </span><span style=\"color: rgb(33, 37, 41);\">ಸೆಂ.ಮೀ</span><span style=\"\"> ಆಗಿರಲಿ</span></div>\n\n<div> </div>\n\n<div><span style=\"\">4 × (4 + x) = 8 × (8 + 12)</span></div>\n\n<div> </div>\n\n<div><span style=\"color: rgb(33, 37, 41);\">⇒ </span><span style=\"color: rgb(33, 37, 41);\">4 </span><span style=\"color: rgb(33, 37, 41);\">× (4 + x) = 160</span></div>\n\n<div> </div>\n\n<div><span style=\"\">⇒ 4 + x = 40</span></div>\n\n<div> </div>\n\n<div><span style=\"\">⇒ x = 36 </span><span style=\"color: rgb(33, 37, 41);\">ಸೆಂ.ಮೀ</span></div>\n\n<div> </div>\n\n<div><span style=\"\">QS </span><span style=\"color: rgb(33, 37, 41);\">ನ ಮೌಲ್ಯ </span><span style=\"\">= QR + RS</span></div>\n\n<div> </div>\n\n<div><span style=\"\">⇒ 36 + 4 = 36 </span><span style=\"color: rgb(33, 37, 41);\">ಸೆಂ.ಮೀ</span></div>\n\n<div> </div>\n\n<div><strong><span style=\"\">QS ನ ಮೌಲ್ಯ = 40 </span><span style=\"color: rgb(33, 37, 41);\">ಸೆಂ.ಮೀ</span></strong></div>\n\n3d:T4ec,<p style=\"\"><span style=\"font-weight: 700;\">ପ୍ରଦତ୍ତ:</span><span style=\"\">QR = 4 ସେମି, QP = 8ସେମି, ଏବଂ OP = 12</span><span style=\"\"> ସେମି</span></p>\n\n<p styl", "ta": "<p><strong>கொடுக்கப்பட்டது:</strong></p>\n\n<p><span style=\"\">QR = 4 செ.மீ., QP = 8cm, மற்றும் OP = 12 செ.மீ</span></p>\n\n<p><strong><span style=\"\">பயன்படுத்தப்பட்ட கருத்து:</span></strong></p>\n\n<p><span style=\"\">QR × QS = QP × QO</span></p>\n\n<p><strong>கணக்கீடு:</strong></p>\n\n<p>RS = x செ.மீ</p>\n\n<p><span style=\"\">4</span> <span style=\"\">× (4 + x) = 8</span> <span style=\"\">× (8 + 12)</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">⇒ </span><span style=\"color: rgb(33, 37, 41);\">4 </span><span style=\"color: rgb(33, 37, 41);\">× (4 + x) = 160</span></p>\n\n<p><span style=\"\">⇒ 4 + x = 40</span></p>\n\n<p><span style=\"\">⇒ x = 36 செ.மீ</span></p>\n\n<p><span style=\"\">QS = QR + RS இன் மதிப்பு</span></p>\n\n<p><span style=\"\">⇒ 36 + 4 = 36 செ.மீ</span></p>\n\n<p><strong><span style=\"\">QS இன் மதிப்பு = 40 செ.மீ</span></strong></p>\n", "or": "<p style=\"\"><span style=\"font-weight: 700;\">ପ୍ରଦତ୍ତ:</span><span style=\"\">QR = 4 ସେମି, QP = 8ସେମି, ଏବଂ OP = 12</span><span style=\"\"> ସେମି</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">ଧାରଣା :</span></p>\n\n<p style=\"\">QR × QS = QP  × QO</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">ଗଣନା :</span></p>\n\n<p style=\"\"> ମନେକର RS = x <span style=\"\">ସେମି</span></p>\n\n<p style=\"\">4 × (4 + x) = 8  × (8 + 12)</p>\n\n<p style=\"\"><span style=\"color: rgb(33, 37, 41);\">⇒ </span><span style=\"color: rgb(33, 37, 41);\">4 </span><span style=\"color: rgb(33, 37, 41);\">× (4 + x) = 160</span></p>\n\n<p style=\"\">⇒ 4 + x = 40</p>\n\n<p style=\"\">⇒ x = 36 <span style=\"\">ସେମି</span></p>\n\n<p style=\"\"> QS ର ମୂଲ୍ୟ = QR + RS</p>\n\n<p style=\"\">⇒ 36 + 4 = 36 <span style=\"\">ସେମି</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\"> <strong>QS</strong></span><strong><span style=\"\">ର ମୂଲ୍ୟ </span><span style=\"font-weight: 700;\"> = 40 </span><span style=\"\">ସେମି</span></strong></p>\n3e:T975,\n<p><strong>Concept Used:-</strong></p>\n\n<p><span style=\"\">Euclid has give", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Geometry"], "concept": "Geometry", "confidence": "high"}]}]}</script>
+<script>
+const TEST_DATA = JSON.parse(document.getElementById('test-data').textContent);
+const TOTAL_Q = 10;
+const DURATION_SEC = 0 * 60;
+
+// State
+let currentSectionIdx = 0;
+let currentQIdx = 0;  // global across sections
+let currentLang = 'en';
+let answers = {};  // qid -> selected option prompt
+let marked = {};   // qid -> true
+let visited = new Set();
+let submitted = false;
+let timeLeft = DURATION_SEC;
+let timerInterval = null;
+
+// Flatten all questions for easy indexing
+const allQuestions = [];
+TEST_DATA.sections.forEach((s, sIdx) => {
+  s.questions.forEach(q => {
+    allQuestions.push({...q, sectionIdx: sIdx, sectionName: s.section_name});
+  });
+});
+
+function init() {
+  // Render section tabs
+  const sectionTabs = document.getElementById('sectionTabs');
+  TEST_DATA.sections.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'section-tab' + (i === 0 ? ' active' : '');
+    tab.textContent = s.section_name + ' (' + s.questions.length + ')';
+    tab.onclick = () => switchSection(i);
+    sectionTabs.appendChild(tab);
+  });
+  // Render palette
+  renderPalette();
+  // Render first question
+  renderQuestion();
+  // Start timer
+  startTimer();
+  // Update stats
+  updateStats();
+}
+
+function startTimer() {
+  if (DURATION_SEC <= 0) {
+    // No time limit — show "No Limit" instead of a countdown
+    document.getElementById('timer').textContent = 'No Limit';
+    document.getElementById('timer').classList.add('no-limit');
+    return;
+  }
+  timerInterval = setInterval(() => {
+    if (submitted) return;
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      submitTest();
+    }
+  }, 1000);
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeLeft / 3600);
+  const m = Math.floor((timeLeft % 3600) / 60);
+  const s = timeLeft % 60;
+  const display = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  const timerEl = document.getElementById('timer');
+  timerEl.textContent = display;
+  if (timeLeft < 60) {
+    timerEl.className = 'timer danger';
+  } else if (timeLeft < 300) {
+    timerEl.className = 'timer warning';
+  }
+}
+
+function renderQuestion() {
+  const q = allQuestions[currentQIdx];
+  if (!q) return;
+  visited.add(q.qid);
+  // Update section tab
+  currentSectionIdx = q.sectionIdx;
+  document.querySelectorAll('.section-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSectionIdx);
+  });
+  document.getElementById('currentSectionLabel').textContent = q.sectionName;
+  // Question header — includes Q number, marks, concept, confidence, and question ID
+  document.getElementById('qNum').textContent = 'Q' + (currentQIdx + 1);
+  let headerExtras = '<span class="mark-pos">+' + q.pos_marks + '</span><span class="mark-neg">-' + q.neg_marks + '</span>';
+  // Concept + confidence (from AI classifier — same as AI JSON)
+  const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+  const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+  const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+  headerExtras += '<span class="q-concept" title="Concept category">🎯 ' + concept + '</span>';
+  headerExtras += '<span class="q-confidence ' + confClass + '" title="Classifier confidence">conf: ' + confidence + '</span>';
+  // Question ID (unique per question, useful for cross-test matching)
+  headerExtras += '<span class="q-id" title="Question ID (unique across all tests)">ID: ' + q.qid + '</span>';
+  document.getElementById('qMarks').innerHTML = headerExtras;
+  // Language tabs
+  const langTabs = document.getElementById('qLangTabs');
+  langTabs.innerHTML = '';
+  const availableLangs = Object.keys(q.langs);
+  const showLangs = ['en','hn','te','mr','bn','ml','gu','kn','ta','or'].filter(l => availableLangs.includes(l));
+  if (showLangs.length > 1) {
+    showLangs.forEach((l, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'q-lang-tab' + (l === currentLang ? ' active' : '');
+      btn.textContent = {en:'English',hn:'Hindi',te:'Telugu',mr:'Marathi',bn:'Bengali',ml:'Malayalam',gu:'Gujarati',kn:'Kannada',ta:'Tamil',or:'Odia'}[l] || l;
+      btn.onclick = () => { currentLang = l; renderQuestion(); };
+      langTabs.appendChild(btn);
+    });
+  }
+  // Question text
+  const langData = q.langs[currentLang] || q.langs[availableLangs[0]] || {};
+  document.getElementById('qText').innerHTML = langData.value || '(no question text)';
+  // Options
+  const optsList = document.getElementById('optionsList');
+  optsList.innerHTML = '';
+  (langData.options || []).forEach(opt => {
+    const li = document.createElement('li');
+    li.className = 'option-item' + (answers[q.qid] === opt.prompt ? ' selected' : '');
+    li.innerHTML = '<span class="option-label">' + opt.prompt + '</span><span class="option-text">' + opt.value + '</span>';
+    li.onclick = () => selectOption(q.qid, opt.prompt);
+    optsList.appendChild(li);
+  });
+  // Update palette
+  renderPalette();
+  updateStats();
+}
+
+function selectOption(qid, prompt) {
+  if (submitted) return;
+  if (answers[qid] === prompt) {
+    delete answers[qid];
+  } else {
+    answers[qid] = prompt;
+  }
+  renderQuestion();
+}
+
+function saveNext() {
+  nextQuestion();
+}
+
+function markReviewNext() {
+  const q = allQuestions[currentQIdx];
+  marked[q.qid] = true;
+  nextQuestion();
+}
+
+function clearResponse() {
+  const q = allQuestions[currentQIdx];
+  delete answers[q.qid];
+  renderQuestion();
+}
+
+function nextQuestion() {
+  if (currentQIdx < allQuestions.length - 1) {
+    currentQIdx++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQIdx > 0) {
+    currentQIdx--;
+    renderQuestion();
+  }
+}
+
+function jumpTo(idx) {
+  currentQIdx = idx;
+  renderQuestion();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function switchSection(idx) {
+  currentSectionIdx = idx;
+  // Find first question in this section
+  const qIdx = allQuestions.findIndex(q => q.sectionIdx === idx);
+  if (qIdx >= 0) {
+    currentQIdx = qIdx;
+    renderQuestion();
+  }
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const cell = document.createElement('div');
+    let cls = 'palette-cell ';
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) cls += 'marked-answered';
+    else if (isMarked) cls += 'marked';
+    else if (isAnswered) cls += 'answered';
+    else if (isVisited) cls += 'notanswered';
+    else cls += 'notvisited';
+    if (i === currentQIdx) cls += ' current';
+    cell.className = cls;
+    cell.textContent = (i + 1);
+    cell.onclick = () => jumpTo(i);
+    grid.appendChild(cell);
+  });
+}
+
+function updateStats() {
+  let answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) marked++;
+    else if (isMarked) marked++;
+    else if (isAnswered) answered++;
+    else if (isVisited) notAnswered++;
+    else notVisited++;
+  });
+  document.getElementById('paletteStats').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${notAnswered}</strong></div>
+    <div><span>Marked:</span><strong>${marked}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+  `;
+}
+
+function openSubmitModal() {
+  let answered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    if (answers[q.qid] !== undefined) answered++;
+    else if (marked[q.qid]) marked++;
+    else if (!visited.has(q.qid)) notVisited++;
+  });
+  document.getElementById('submitSummary').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${TOTAL_Q - answered - notVisited}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+    <div><span>Total:</span><strong>${TOTAL_Q}</strong></div>
+  `;
+  document.getElementById('submitModal').classList.add('open');
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('open');
+}
+
+function submitTest() {
+  submitted = true;
+  clearInterval(timerInterval);
+  closeSubmitModal();
+  // Calculate score
+  let score = 0, correct = 0, wrong = 0, skipped = 0;
+  allQuestions.forEach(q => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    if (userAns === undefined) {
+      skipped++;
+    } else if (userAns === correctAns) {
+      correct++;
+      score += q.pos_marks;
+    } else {
+      wrong++;
+      score -= q.neg_marks;
+    }
+  });
+  // Show results view
+  document.getElementById('testMode').style.display = 'none';
+  document.getElementById('resultsView').style.display = 'block';
+  document.getElementById('scoreCard').innerHTML = `
+    <div><span class="score">${score.toFixed(2)}</span><span class="total"> / ${TEST_DATA.max_marks || TOTAL_Q * 2}</span></div>
+    <div class="rank">Correct: ${correct} | Wrong: ${wrong} | Skipped: ${skipped}</div>
+    <div class="rank" style="margin-top:8px;">Accuracy: ${(correct + wrong > 0) ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0}%</div>
+  `;
+  // Render all questions with answers + solutions
+  renderAllQuestions();
+}
+
+function renderAllQuestions() {
+  const container = document.getElementById('resultsQuestions');
+  container.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    const isCorrect = userAns === correctAns;
+    const isWrong = userAns !== undefined && userAns !== correctAns;
+    const isSkipped = userAns === undefined;
+    const card = document.createElement('div');
+    card.className = 'result-card ' + (isCorrect ? 'correct' : isWrong ? 'wrong' : 'skipped');
+    const langData = q.langs[currentLang] || q.langs[Object.keys(q.langs)[0]] || {};
+    let optionsHtml = '';
+    (langData.options || []).forEach(opt => {
+      let cls = 'result-option';
+      if (opt.prompt === correctAns) cls += ' correct';
+      if (opt.prompt === userAns) cls += ' selected';
+      optionsHtml += `<li class="${cls}"><span class="result-option-label">${opt.prompt}</span><span>${opt.value}</span></li>`;
+    });
+    const sol = q.solution_html[currentLang] || q.solution_html['en'] || '';
+    const solHtml = sol ? `<div class="result-solution"><div class="result-solution-title">📖 Solution</div>${sol}</div>` : '';
+    let statusBadge = '';
+    if (isCorrect) statusBadge = '<span class="result-status correct">✓ Correct</span>';
+    else if (isWrong) statusBadge = '<span class="result-status wrong">✗ Wrong</span>';
+    else statusBadge = '<span class="result-status skipped">— Skipped</span>';
+    // Concept + confidence + question ID (same as AI JSON)
+    const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+    const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+    const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+    card.innerHTML = `
+      <div class="result-header">
+        <span class="result-q-num">Q${i + 1}</span>
+        ${statusBadge}
+        <span class="result-concept">🎯 ${concept}</span>
+        <span class="result-confidence ${confClass}">conf: ${confidence}</span>
+        <span class="result-qid">ID: ${q.qid}</span>
+      </div>
+      <div class="result-text">${langData.value || '(no text)'}</div>
+      <ul class="result-options">${optionsHtml}</ul>
+      ${solHtml}
+    `;
+    container.appendChild(card);
+  });
+}
+
+function showAllQuestions() {
+  document.getElementById('resultsView').scrollIntoView({behavior: 'smooth'});
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (submitted) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'j') nextQuestion();
+  if (e.key === 'ArrowLeft' || e.key === 'k') prevQuestion();
+  if (e.key === '1' || e.key === 'a') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[0]) selectOption(q.qid, opts[0].prompt); }
+  if (e.key === '2' || e.key === 'b') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[1]) selectOption(q.qid, opts[1].prompt); }
+  if (e.key === '3' || e.key === 'c') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[2]) selectOption(q.qid, opts[2].prompt); }
+  if (e.key === '4' || e.key === 'd') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[3]) selectOption(q.qid, opts[3].prompt); }
+});
+
+init();
+</script>
+</body>
+</html>

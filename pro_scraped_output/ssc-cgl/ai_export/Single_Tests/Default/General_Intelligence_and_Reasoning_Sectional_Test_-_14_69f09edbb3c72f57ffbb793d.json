@@ -1,0 +1,1028 @@
+{
+  "test_id": "69f09edbb3c72f57ffbb793d",
+  "title": "General Intelligence and Reasoning Sectional Test - 14",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:22:33.625170+00:00",
+  "questions": [
+    {
+      "qid": "6715feb81390819ed7d8e12a",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the number from among the given options that can replace the question mark (?) in the following series.\n\n300, 152, 80, 48, 40, 52, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60"
+        },
+        {
+          "label": "2",
+          "text": "80"
+        },
+        {
+          "label": "3",
+          "text": "90"
+        },
+        {
+          "label": "4",
+          "text": "100"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:​\n\n [IMAGE: https://cdn.repeatermock.com/tb/a18a6a1fb70555e25e0964e757aadf31bd1519dd911337284edffc20560971ed.png] \n\nHence, \"Option 3\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a18a6a1fb70555e25e0964e757aadf31bd1519dd911337284edffc20560971ed.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "690b261f78dd94c797792f0a",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 6 @ 2 = 9, 15 @ 3 = 125, then 8 @ 4 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "16"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n**Logic:** a @ b = (a ÷ b)ᵇ\n\n6 @ 2 = 9\n\n6 ÷ 2 = 3 → 3² = 9 \n\nand\n\n15 @ 3 = 125\n\n15 ÷ 3 = 5 → 5³ = 125 \n\nSimilarly,\n\n8 @ 4 = ?\n\n8 ÷ 4 = 2 → 24 = 16\n\nSo, 16 will come in the place of ?\n\nHence, the correct answer is \"Option 3\".",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "63a44556fb84f8fa3aeb4c73",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "'A @ B' means 'A is the husband of B'.\n\n'A & B' means 'A is the father of B'.\n\n'A # B' means 'B is the son of A'.\n\nIf K # L & M @ N # P, then how is P related to K?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father"
+        },
+        {
+          "label": "2",
+          "text": "Son"
+        },
+        {
+          "label": "3",
+          "text": "Son's son"
+        },
+        {
+          "label": "4",
+          "text": "Son's son's son"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/94f0af2bd93b93688d2c6092e652fb2d84f74342de195154154b4e73abc5a0da.png] \n\nGiven :\n\n \n \n\n \n \nA is\n\n \n B is\n \n \n\n \n \nSymbol\n\n \n \n \n@\n\n \n \n \n&\n\n \n #\n \n \n\n \n \nMeaning\n\n \n \n \nHusband\n\n \n \n \nFather\n\n \n Son\n \n \n\n \n \nto B\n\n \n to A\n \n \n\nStatement given : **K # L & M @ N # P**\n\nExplanation :\n\n \n• K # L → L is the son of K.\n\n [IMAGE: https://cdn.repeatermock.com/tb/c5be4fdd421e358e468a34d6813f10955ea4efec1770d19b6b5824fc449b3525.png] ​\n\n \n• L & M → L is the father of M.\n\n [IMAGE: https://cdn.repeatermock.com/tb/8d7c52ca66288a625c766a9826a3f8ebbffd2871fe349252a26a9abb77b901bd.png] ​\n\n \n• M @ N → M is the husband of N.\n\n [IMAGE: https://cdn.repeatermock.com/tb/c83ac7a6b4eac5a8f8ebe784e5e1b505b4198435dccbd3cfa4c515a42290eb0c.png] ​\n\n \n• N # P → P is the son of N.\n\n [IMAGE: https://cdn.repeatermock.com/tb/d22e48257c31df83a62bb291e2c849d34433043ed5c28d8ebefc10dc347f859f.png] ​\n\nThus, from the final family tree P is the son's son's son of K.\n\nHence, **\"Son's son's son**\" is the correct answer.\n\n5b:T13",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/94f0af2bd93b93688d2c6092e652fb2d84f74342de195154154b4e73abc5a0da.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c5be4fdd421e358e468a34d6813f10955ea4efec1770d19b6b5824fc449b3525.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8d7c52ca66288a625c766a9826a3f8ebbffd2871fe349252a26a9abb77b901bd.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c83ac7a6b4eac5a8f8ebe784e5e1b505b4198435dccbd3cfa4c515a42290eb0c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d22e48257c31df83a62bb291e2c849d34433043ed5c28d8ebefc10dc347f859f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "56fa6520995a2d6ea534aaa0",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "**Directions:** In the following question, find the odd term from the given alternatives.",
+      "options": [
+        {
+          "label": "1",
+          "text": "JKNS"
+        },
+        {
+          "label": "2",
+          "text": "MNQV"
+        },
+        {
+          "label": "3",
+          "text": "CDHM"
+        },
+        {
+          "label": "4",
+          "text": "OPSX"
+        }
+      ],
+      "correct": "3",
+      "solution": "The pattern is as follows,\n\n [IMAGE: https://cdn.repeatermock.com/tb/3d7b77446ede3064c6c34b335f9ad0a0caa033474b93e3beede868d9b19f2466.png] \n\nThus the odd one is CDHM.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3d7b77446ede3064c6c34b335f9ad0a0caa033474b93e3beede868d9b19f2466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "652d7a38f06f32cbbea8c65a",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "[IMAGE: https://cdn.repeatermock.com/tb/fe4a1c39960a21fc60d6d45d2b7f208acf44824d815e306346ac63e4d8a94370.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/f75425fa925676a28508cc9d7d87b0606c7e1fd32826c49a8bc69418c04e9383.png] \n\nWhich of the above four options will come in place of the question mark?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "correct": "1",
+      "solution": "Completing the incomplete pattern;\n\n [IMAGE: https://cdn.repeatermock.com/tb/f468a69214677246db16b796eee88a9fee5facbcc1d2bc6bdab04601a9826044.png] \n\nFigure (2) is complete the Pattern\n\nHence, the correct answer is \"Option (1)\".",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/fe4a1c39960a21fc60d6d45d2b7f208acf44824d815e306346ac63e4d8a94370.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f75425fa925676a28508cc9d7d87b0606c7e1fd32826c49a8bc69418c04e9383.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f468a69214677246db16b796eee88a9fee5facbcc1d2bc6bdab04601a9826044.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "67a306fb087ae2334caa63e0",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Ordering and Ranking",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two Girls Meena and Reena are ranked 7th and 11th, respectively from the top in a class of 41 students. What are their respective ranks from the bottom in the class?",
+      "options": [
+        {
+          "label": "1",
+          "text": "36, 32"
+        },
+        {
+          "label": "2",
+          "text": "35, 33"
+        },
+        {
+          "label": "3",
+          "text": "33, 35"
+        },
+        {
+          "label": "4",
+          "text": "35, 31"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\nPosition of Meena from the top = 7th\n\nPosition of Reena from the top = 11th\n\n<p style=\"",
+      "tags": [
+        "Ordering and Ranking"
+      ]
+    },
+    {
+      "qid": "6373bb2cb962d7b72a34cd31",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.\n\n13 : 28 : : 15 : 30 : : 20 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "35"
+        },
+        {
+          "label": "2",
+          "text": "36"
+        },
+        {
+          "label": "3",
+          "text": "40"
+        },
+        {
+          "label": "4",
+          "text": "42"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic follows here is as,\n\n [IMAGE: https://cdn.repeatermock.com/tb/cedfb1ff84d802d1c54f5a81033b53339fc80e2a6a4ada7cd14bbed02b3b4227.png] \n\nHence, **'35'** is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/cedfb1ff84d802d1c54f5a81033b53339fc80e2a6a4ada7cd14bbed02b3b4227.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "63a6e11773f52155b27cbf62",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, ‘KNIGHT’ is written as ‘PMRTSG’ and ‘FELLOW’ is written as ‘UVOOLD’. How will ‘DECENT’ be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "WXVVMG"
+        },
+        {
+          "label": "2",
+          "text": "WVXVMG"
+        },
+        {
+          "label": "3",
+          "text": "WVXMVG"
+        },
+        {
+          "label": "4",
+          "text": "WVXVGM"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/cf7e3ee0123fd1e31878ed12e67fbb13bf5a41852be7b1dafc48a587766df1e5.png] \n\nThe logic followed here is :\n\n \n• The letters in word opposites to each other in as given in above table.\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/147ddec2066bb17a4953394aff09",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/cf7e3ee0123fd1e31878ed12e67fbb13bf5a41852be7b1dafc48a587766df1e5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "68bab86ebe9ef5ccc090d029",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Situation Reaction Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A man sees smoke coming from a building and hears people shouting. What should he do first ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Run away immediately"
+        },
+        {
+          "label": "2",
+          "text": "Try to enter the building"
+        },
+        {
+          "label": "3",
+          "text": "Call emergency services"
+        },
+        {
+          "label": "4",
+          "text": "Ignore and move on"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\nStatement :\n\nA man sees smoke coming from a building and hears people shouting.\n\nOption 1 — Run away immediately:\n\nRunning away may keep the man safe, but it doesn't help people in danger and could delay professional help. Not the best first action.\n\nOption 2 — Try to enter the building:\n\nEntering a smoke-filled building is da",
+      "tags": [
+        "Situation Reaction Test"
+      ]
+    },
+    {
+      "qid": "62ea840a37543dab70cbc49b",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the related word(s) from the given alternatives:\n\nHumidity : Hygrometer : : Angles : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Heliometer"
+        },
+        {
+          "label": "2",
+          "text": "Glucometer"
+        },
+        {
+          "label": "3",
+          "text": "Graphometer"
+        },
+        {
+          "label": "4",
+          "text": "Hydrophone"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\nHumidity : Hygrometer\n\n__\n \n• Hygrometer is an instrument that measures **humidity** in the air.\n\nSimilarly,\n\n \n• Graphometer is an instrument for measuring **angles**.\n\nHence, the correct answer is \"Graphometer\".\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• Heliomter - It is an instrument that measures variations of the sun's diameter.\n \n• Glucometer - It is an instrument that measures blood glucose. \n \n• **Graphometer - It is an instrument that measures angles.**\n \n• Hydrophone - It is an instrument that measures sound underwater.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "62f1ee60d0b91c81d187b1b9",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the figure from the given options that can replace the question mark (?) in the following series. \n\n [IMAGE: https://cdn.repeatermock.com/tb/d13db58c30c78d50aa0a114341efc9f81866703ad5cdbeb6eeda1b749991d954.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/235aa1be1421566a038dfad7dcc829ce24bbff9fe7dd521464a3387716d3b9e5.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/9277c032c85463140bf502d1191edcb7d7bf6bf1932773611dcddde1ab597c6d.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/76fcd3ec27da0a7624564c4836b49479ae078f1df5f619b618a3b1100ba9ee7c.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/292e1ba848513810a95ea4bd906f91143a42cd1b9a93d6f04bd80a52ca3addad.png]"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\nLogic: Alhpabats are shifted one place in each boxes.\n\n [IMAGE: https://cdn.repeatermock.com/tb/291ebf59e10c51a3b309e1f236e6a6c3060d421613f1ff2b7c8f3b1536c75538.png] \n\nHence, the correct answer is \"Option 2\".",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d13db58c30c78d50aa0a114341efc9f81866703ad5cdbeb6eeda1b749991d954.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/291ebf59e10c51a3b309e1f236e6a6c3060d421613f1ff2b7c8f3b1536c75538.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "675992701f586bb0f8b43520",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'I' stands for '+', 'J' stands for '×', 'K' stands for '÷', and 'L' stands for '-', what will come in place of the question mark '?' in the following equation?\n\n38 I (3 J 4) L (16 K 2) I 11 =?",
+      "options": [
+        {
+          "label": "1",
+          "text": "34"
+        },
+        {
+          "label": "2",
+          "text": "47"
+        },
+        {
+          "label": "3",
+          "text": "61"
+        },
+        {
+          "label": "4",
+          "text": "53"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given Equation: 38 I (3 J 4) L (16 K 2) I 11 = ?\n\nBODMAS Rule:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\nDecoding the given information:\n\n \n \n\n Alphabet\n I\n J\n K\n L\n \n \n \n \n\n Meaning\n +\n ×\n ÷\n -\n \n \n\n \n\nNow replacing the sign from left to right using BODMAS Rule, we get:\n\n⇒ 38 + (__**3 × 4**__) - (__**16 ÷ 2**__) + 11 = ?\n\n⇒ __**38 + 12**__ - 8 __**+ 11**__ = ?\n\n⇒ __61 - 8__ = **53**.\n\nHence, the correct option is \"Option 4\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "5fe41de02045bcffe06d64ca",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The sequence of folding a piece of paper and the manner in which the folded paper has been cut is shown in the following figures. How would this paper look when unfolded?\n\n [IMAGE: https://cdn.repeatermock.com/tb/2bd287fed5f721e8e91a7510efd199c00fe3e62c8962f98ef152d51f391424a8.png] [IMAGE: https://cdn.repeatermock.com/tb/18705b4588278877238f8711027d1d5d6d788c305cda1289eb399008907c0d92.png] [IMAGE: https://cdn.repeatermock.com/tb/31f7814ca54640856302a48b4efd749bf9e25fa5cfc5699d0b7ba3b368185ea4.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/f24dab7a3ae155f28c0643c7aea31043d78b7cc52e537b0750b3748fb7da330c.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/fa7164e7c377f3455be1fb04662ef8fa7347de1b200efe14033e1e1e90376129.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/e3980a97d1272be4e2c9ff0bd9891cdad7893c3a84e69610633fe4266209599c.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/fe2709efa690b934654ce2c7c7aba1ebd35908d92e0fdf5a0d06f0468fb6b611.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "The paper when unfolded looks like,\n\n [IMAGE: https://cdn.repeatermock.com/tb/31f7814ca54640856302a48b4efd749bf9e25fa5cfc5699d0b7ba3b368185ea4.png] [IMAGE: https://cdn.repeatermock.com/tb/2d399bddd920cd7425d76e0c6f733e3a7ec3b08fbea9a969fa76ccad08e820d9.png] [IMAGE: https://cdn.repeatermock.com/tb/21c1c522faed1d4610984208973bf8509a6a80f1d40742eedbd0d9f4ab1c8fc6.png] [IMAGE: https://cdn.repeatermock.com/tb/2d399bddd920cd7425d76e0c6f733e3a7ec3b08fbea9a969fa76ccad08e820d9.png] [IMAGE: https://cdn.repeatermock.com/tb/e3980a97d1272be4e2c9ff0bd9891cdad7893c3a84e69610633fe4266209599c.png] \n\nHence, the figure in option (3) is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2bd287fed5f721e8e91a7510efd199c00fe3e62c8962f98ef152d51f391424a8.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/18705b4588278877238f8711027d1d5d6d788c305cda1289eb399008907c0d92.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/31f7814ca54640856302a48b4efd749bf9e25fa5cfc5699d0b7ba3b368185ea4.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/31f7814ca54640856302a48b4efd749bf9e25fa5cfc5699d0b7ba3b368185ea4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2d399bddd920cd7425d76e0c6f733e3a7ec3b08fbea9a969fa76ccad08e820d9.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/21c1c522faed1d4610984208973bf8509a6a80f1d40742eedbd0d9f4ab1c8fc6.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2d399bddd920cd7425d76e0c6f733e3a7ec3b08fbea9a969fa76ccad08e820d9.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e3980a97d1272be4e2c9ff0bd9891cdad7893c3a84e69610633fe4266209599c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "6120fe19090f44819d70ef7e",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, select the related letter pair from the given alternatives.\n\nGROH : YFIX :: ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "LPQC : XKHO"
+        },
+        {
+          "label": "2",
+          "text": "DWBO : FSNU"
+        },
+        {
+          "label": "3",
+          "text": "AJND : WFQR"
+        },
+        {
+          "label": "4",
+          "text": "ACKD : WBYR"
+        }
+      ],
+      "correct": "2",
+      "solution": "The positions of the letters according to the English alphabet series:\n\n [IMAGE: https://cdn.repeatermock.com/tb/889ff2be8a048327f450a975a401b2f4241e5f28d86896613386ad4014cb4505.png] \n\nThe pattern for this code is as follows;\n\n [IMAGE: https://cdn.repeatermock.com/tb/c4ab0918fa83b36b3bc1f7d748b3addd83e492f4ec99f0718da0af4fa0b98966.png] \n\nSimilarly;\n\n [IMAGE: https://cdn.repeatermock.com/tb/37edc6e039c07f6da882fdb5cd563670ade6e7c14fe1f64148648563db5b86e0.png] \n\nHence,** \"DWBO : FSNU\"** is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/889ff2be8a048327f450a975a401b2f4241e5f28d86896613386ad4014cb4505.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c4ab0918fa83b36b3bc1f7d748b3addd83e492f4ec99f0718da0af4fa0b98966.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/37edc6e039c07f6da882fdb5cd563670ade6e7c14fe1f64148648563db5b86e0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "5f9933d0ef93446b745db6cc",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A series is given with one term missing. Select the correct alternative from the given ones that will complete the series.\n\nBZA, DYC, FXE, HWG, ____",
+      "options": [
+        {
+          "label": "1",
+          "text": "JVI"
+        },
+        {
+          "label": "2",
+          "text": "HIJ"
+        },
+        {
+          "label": "3",
+          "text": "ISH"
+        },
+        {
+          "label": "4",
+          "text": "PWD"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic is shown below:-\n\n [IMAGE: https://cdn.repeatermock.com/tb/566a866f4838d8097732a584fc4c54a59efacb48756241849627ddbc2fadc861.png] \n\nHence, \"**JVI**\" is the missing term.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/566a866f4838d8097732a584fc4c54a59efacb48756241849627ddbc2fadc861.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "64a1450be15552122e8ecb86",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question below are given some statements followed by some conclusions based on those statements. Taking the given statements to be true even if they seem to be at variance from commonly known facts. Read all the conclusions and then decide which of the given conclusion logically follows the given statements.\n\n**Statements:**\n\nI. All P are G.\n\nII. Some F are P.\n\n**Conclusion:**\n\nI. All G are P.\n\nII. All P are F.\n\nIII. Some F are not G.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion III follows"
+        },
+        {
+          "label": "2",
+          "text": "Both conclusions II and III follows"
+        },
+        {
+          "label": "3",
+          "text": "All conclusion follows"
+        },
+        {
+          "label": "4",
+          "text": "Neither conclusion follows"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given Statements:\n\nI. All P are G.\n\nII. Some F are P.\n\nThe least possible Venn diagram for the given statement is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/6e5a0caba45905c5a6b890d6a410163a8e7640753a77638e6da79a4548dfff1b.png] \n\nConclusions:\n\nI. All G are P - False (Because, All P are G gives some G are P, but all G are P can be possible only).\n\nII. All P are F - False (Because, Some F are P gives some P are F, but all P are F can be possible only).\n\nIII. Some F are not G - False (Because, Some F are definitely G, but no information given about the remaining part, so it can be possible only).\n\nSo, Neither conclusion follows.\n\nHence, the correct answer is \"Option 4\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6e5a0caba45905c5a6b890d6a410163a8e7640753a77638e6da79a4548dfff1b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "63f6082b159582ee8cc7f06e",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Three Statements are given followed by Three conclusions numbered I, II and III. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusions logically follow(s) from the statements.\n\n**Statements:**\n\nAll bags are rubber.\n\nSome rubber are chairs.\n\nAll chairs are tables.\n\n**Conclusions:**\n\nI. Some rubber are bags.\n\nII. Some chairs are rubber.\n\nIII. Some chairs are tables.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Both conclusions I and III follow."
+        },
+        {
+          "label": "2",
+          "text": "Both conclusions I and II follow."
+        },
+        {
+          "label": "3",
+          "text": "All conclusions follow."
+        },
+        {
+          "label": "4",
+          "text": "Both conclusions II and III follow."
+        }
+      ],
+      "correct": "3",
+      "solution": "Given Statements:\n\nAll bags are rubber.\n\nSome rubber are chairs.\n\nAll chairs are tables.\n\nThe least possible Venn diagram for the given statement is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a6bdd8716a1e31be80b3882e1ff5f0d5171c429d4906e550f04c297cefb24b43.png] \n\nConclusions:\n\nI. Some rubber are bags - True (All bags are rubber also gives some rubber are bags).\n\nII. Some chairs are rubber - True (Some rubber are chairs also gives Some chairs are rubber).\n\nIII. Some chairs are tables - True (All chairs are tables also gives some chairs are tables)\n\nSo, All conclusions follow.\n\nHence, the correct answer is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a6bdd8716a1e31be80b3882e1ff5f0d5171c429d4906e550f04c297cefb24b43.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "67160afed6e3acb67961486d",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the number that will come in the place of the question mark(?), if ‘+’ and ‘ – ‘ are interchanged and ‘×’ and ‘÷’ are interchanged\n\n11 ÷ 8 – 78 × 6 + 37 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "64"
+        },
+        {
+          "label": "2",
+          "text": "58"
+        },
+        {
+          "label": "3",
+          "text": "62"
+        },
+        {
+          "label": "4",
+          "text": "71"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given equation: 11 ÷ 8 – 78 × 6 + 37 = ?\n\nNow, if ‘+’ and ‘-‘ and ‘×’ and ‘÷’ are interchanged, then:\n\n⇒ 11 × 8 + 78 ÷ 6 - 37 = ?\n\n⇒ __**11 × 8**__ + __**78 ÷ 6**__ - 37 = ?\n\n⇒ __**88 + 13**__ - 37 = ?\n\n⇒ __**101 - 37**__ = __**64**__\n\nHence, the correct answer is \"Option 1\".",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6157422d29fb7ed9f9b5713d",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Cause and Effect",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Direction: In each of these questions are given two statements (A) and (B) These statements may be either independent causes or may be effects of independent causes or of a common cause. Read both the statements and give an answer.\n\n(A): Rohit is a healthy boy.\n\n(B): His mother is very particular about the food he eats.",
+      "options": [
+        {
+          "label": "1",
+          "text": "If statement (A) is the cause and statement (B) is its effect."
+        },
+        {
+          "label": "2",
+          "text": "If statement (B) is the cause and statement (A) is its effect."
+        },
+        {
+          "label": "3",
+          "text": "If If both statements are effects of independent causes."
+        },
+        {
+          "label": "4",
+          "text": "If both statements are effects of some common cause."
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed is:\n\nRohit is healthy because of his mother's care.\n\nThus his mother who is very particular about the foods he eat is the cause and the effect is Rohit is healthy.\n\nHence, the correct answer is \"Option 2\".\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__** \n\nWhat are Causes?\n\nCauses are the conditions under which an event occurs.\n\nFor example, can you guess the causes for the following? \n\nThe police increased security around the President's house.\n\nLots of people buy a particularly expensive brand of washing machines around Diwali. Easily, we can guess the causes for the above events. \n\nThere were reports of threats against the President. \n\nThere was a high discount or sale for that brand during Diwali.\n\nSufficient & Necessary Conditions:\n\nIn a cause and effect question, the cause is the sufficient condition. It is assumed that the sufficient condition of the occurrence of the events must include the different necessary conditions as well. \n\nA necessary condition is one that must be satisfied for the occurrence of an event. \n\nE.g. You must adhere to the deadline to get your work appraised. \n\nThis means if you get your work appraised, you have to adhere to the deadline. Or; if you do not adhere to the deadline, you do not get your work appraised. \n\nA condition is called a sufficient condition if in a certain event, you are satisfied with the results.\n\nE.g. Being human is a sufficient condition for being a mammal. The act of being a human is not possible unless one is also a mammal. But it is not necessary that being human is a necessary condition for being a mammal.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Cause and Effect"
+      ]
+    },
+    {
+      "qid": "64f0b28e635866c30d9d2dd3",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the number that can come in place of the question mark (?) in the following series from the given alternatives.\n\n16, 35, 73, 130, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "260"
+        },
+        {
+          "label": "2",
+          "text": "234"
+        },
+        {
+          "label": "3",
+          "text": "206"
+        },
+        {
+          "label": "4",
+          "text": "245"
+        }
+      ],
+      "correct": "3",
+      "solution": "The Pattern followed here is;\n\n [IMAGE: https://cdn.repeatermock.com/tb/f6c548ab8926eadcac42c26fe0704e7fc414d9b7c9c70e8527ad5d0e3b9a1b98.png] \n\nHence, the correct answer is **\"206\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f6c548ab8926eadcac42c26fe0704e7fc414d9b7c9c70e8527ad5d0e3b9a1b98.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "5bbc70a5bbbe8c0c6bb25733",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A word is represented by only one set of numbers as given in any one of the alternatives. The sets of numbers given in the alternatives are represented by two classes of alphabets as shown in the given two matrices. The columns and rows of Matrix-I are numbered from 0 to 4 and that of Matrix-II are numbered from 5 to 9. A letter from these matrices can be represented by 30, 75, etc., and ‘E’ can be represented by 32, 69, etc. Similarly, you have to identify the set for the word “PHONE”.\n\n \n\n \n \n\n \n \n**Matrix – I**\n\n \n \n \n \n\n \n \n \n**Matrix – II**\n\n \n \n \n\n \n \n \n\n \n \n \n0\n\n \n \n \n1\n\n \n \n \n2\n\n \n \n \n3\n\n \n \n \n4\n\n \n \n \n \n\n \n \n \n5\n\n \n \n \n6\n\n \n \n \n7\n\n \n \n \n8\n\n \n \n \n9\n\n \n \n \n\n \n \n0\n\n \n \n \nU\n\n \n \n \nV\n\n \n \n \nF\n\n \n \n \nC\n\n \n \n \nD\n\n \n \n \n5\n\n \n \n \nS\n\n \n \n \nN\n\n \n \n \nL\n\n \n \n \nA\n\n \n \n \nH\n\n \n \n \n\n \n \n1\n\n \n \n \nL\n\n \n \n \nY\n\n \n \n \nK\n\n \n \n \nE\n\n \n \n \nJ\n\n \n \n \n6\n\n \n \n \nU\n\n \n \n \nO\n\n \n \n \nZ\n\n \n \n \nY\n\n \n \n \nE\n\n \n \n \n\n \n \n2\n\n \n \n \nX\n\n \n \n \nP\n\n \n \n \nV\n\n \n \n \nM\n\n \n \n \nK\n\n \n \n \n7\n\n \n \n \nB\n\n \n \n \nX\n\n \n \n \nD\n\n \n \n \nC\n\n \n \n \nP\n\n \n \n \n\n \n \n3\n\n \n \n \nB\n\n \n \n \nR\n\n \n \n \nE\n\n \n \n \nU\n\n \n \n \nH\n\n \n \n \n8\n\n \n \n \nX\n\n \n \n \nH\n\n \n \n \nD\n\n \n \n \nM\n\n \n \n \nT\n\n \n \n \n\n \n \n4\n\n \n \n \nA\n\n \n \n \nL\n\n \n \n \nD\n\n \n \n \nX\n\n \n \n \nN\n\n \n \n \n9\n\n \n \n \nV\n\n \n \n \nF\n\n \n \n \nA\n\n \n \n \nX\n\n \n \n \nO",
+      "options": [
+        {
+          "label": "1",
+          "text": "21, 86, 98, 57, 32"
+        },
+        {
+          "label": "2",
+          "text": "79, 34, 99, 56, 13"
+        },
+        {
+          "label": "3",
+          "text": "21, 59, 66, 42, 68"
+        },
+        {
+          "label": "4",
+          "text": "79, 87, 66, 44, 10"
+        }
+      ],
+      "correct": "2",
+      "solution": "1) 21, 86, 98, 57, 32 → P, H, X, L, E\n\n2) 79, 34, 99, 56, 13 → P, H, O, N, E\n\n3) 21, 59, 66, 42, 68 → P, H, O, D, Y\n\n4) 79, 87, 66, 44, 10 → P, D, O, N, L\n\nTherefore, 79, 34, 99, 56, 13 is a set of number which represent word “PHONE”",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "5f60c03a9f934c340fb62042",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "J, K L, M, N and O are six teachers. Each one teaches a different subject out of Hindi, English, Math, Science. Social Science and Arts, not necessarily in the same order. Each of them teaches on only one day, from Monday to Saturday. not necessarily in the same order.\n\nJ teaches Science on Wednesday. O teaches Math second after J. K teaches on the first day of the week, but teaches neither Hindi nor English. M teaches English before N and L teaches Arts before J. Who teaches on Saturday?",
+      "options": [
+        {
+          "label": "1",
+          "text": "M"
+        },
+        {
+          "label": "2",
+          "text": "N"
+        },
+        {
+          "label": "3",
+          "text": "K"
+        },
+        {
+          "label": "4",
+          "text": "L"
+        }
+      ],
+      "correct": "2",
+      "solution": "Arranging them according to the given information,\n\nJ teaches Science on Wednesday.\n\nO teaches Math second day after J.\n\nK teaches on the first day of the week, but teaches neither Hindi nor English.\n\n \n \n\n \n \n**Day**\n\n \n \n \n**Teacher**\n\n \n \n \n**Subject**\n\n \n \n \n\n \n \nMonday\n\n \n \n \nK\n\n \n \n \n \n\n \n \n \n\n \n \nTuesday\n\n \n \n \n \n\n \n \n \n \n\n \n \n \n\n \n \nWednesday\n\n \n \n \nJ\n\n \n \n \nScience\n\n \n \n \n\n \n \nThursday\n\n \n \n \n \n\n \n \n \n \n\n \n \n \n\n \n \nFriday\n\n \n \n \nO\n\n \n \n \nMath\n\n \n \n \n\n \n \nSaturday\n\n \n \n \n \n\n \n \n \n \n\n \n \n \n\n \n\nM teaches English before N and L teaches Arts before J.\n\nK does not teach Hindi, so N teaches Hindi.\n\nThe only subject left is Social Science which is taught by K.\n\n \n \n\n \n \n**Day**\n\n \n \n \n**Teacher**\n\n \n \n \n**Subject**\n\n \n \n \n\n \n \nMonday\n\n \n \n \nK\n\n \n \n \nSocial science\n\n \n \n \n\n \n \nTuesday\n\n \n \n \nL\n\n \n \n \nArts\n\n \n \n \n\n \n \nWednesday\n\n \n \n \nJ\n\n \n \n \nScience\n\n \n \n \n\n \n \nThursday\n\n \n \n \nM\n\n \n \n \nEnglish\n\n \n \n \n\n \n \nFriday\n\n \n \n \nO\n\n \n \n \nMath\n\n \n \n \n\n \n \nSaturday\n\n \n \n \nN\n\n \n \n \nHindi\n\n \n \n \n\n \n\nN teaches on Saturday.\n\nHence, “N” is the correct answer",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "60387142268a0759358b9db3",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "**Directions:** These questions are based on the following information.\n\nA family has six members; Lisa, Pihu, Kuhu, Diva, Sara, and Tina. Lisa is the son-in-law of Diva. Pihu who is unmarried has a sister. Sara has two daughters. Kuhu is only child of Tina. Diva is grandmother of Kuhu. Both the grandparents and parents of Kuhu are alive. How is Pihu related to Kuhu?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Aunt"
+        },
+        {
+          "label": "2",
+          "text": "Uncle"
+        },
+        {
+          "label": "3",
+          "text": "Father"
+        },
+        {
+          "label": "4",
+          "text": "None of these."
+        }
+      ],
+      "correct": "1",
+      "solution": "From the given information,\n\nSix members;** Lisa, Pihu, Kuhu, Diva, Shara, and Tina.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/50898b3263e1ba00309250c76c9e8af496485b4e0ed2becdd5bb613d5c9c030e.png] \n\n__**References:**__ Lisa is the son-in-law of Diva. Pihu who is unmarried has a sister. Sara has two daughters. Kuhu is only child of Tina. Diva is grandmother of Kuhu.\n\n__**Inferences:**__\n\nExplanation with family tree:\n\n1) Lisa is the son-in-law of Diva.\n\n [IMAGE: https://cdn.repeatermock.com/tb/7c1735eb042cb2824f48d0981727cd4357173afb1481dc933d3da9bb2e159653.png] \n\n2) Diva is grandmother of Kuhu.\n\n [IMAGE: https://cdn.repeatermock.com/tb/5431b7e7455dbb361e37c5c2cfbc80f92fee82dc5403efd88b6e8bb72c611bda.png] \n\n3) Pihu who is unmarried has a sister. Sara has two daughters, Kuhu is only child of Tina. \n\n [IMAGE: https://cdn.repeatermock.com/tb/aaab1b6656affea74d0d5e84e4c1951dfe0a319a4af394520ef629066dff3fae.png] \n\nHence, **Pihu is aunt of Kuhu.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/50898b3263e1ba00309250c76c9e8af496485b4e0ed2becdd5bb613d5c9c030e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7c1735eb042cb2824f48d0981727cd4357173afb1481dc933d3da9bb2e159653.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5431b7e7455dbb361e37c5c2cfbc80f92fee82dc5403efd88b6e8bb72c611bda.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/aaab1b6656affea74d0d5e84e4c1951dfe0a319a4af394520ef629066dff3fae.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "5e2fa0f6f60d5d12991b14be",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Statements and Inferences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "**Directions**: Statement is given followed by two inferences I and II. You have to consider the statement to be true even if it seems to be at variance from commonly known facts. You have to decide which of the given inferences, if any, follow from the given statement.\n\n**Statement**: Dakhni inscriptions are rare, and the one at the Bijapur dargah is the oldest surviving inscription in the language that needs to be taken care of by the government.\n\n**Inferences**:\n\nI: The government will introduce new plans for preserving the Dakhni inscriptions at Bijapur dargah.\n\nII: Dakhni is a newly emerging language.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only inference I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only inference II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both the inferences follow"
+        },
+        {
+          "label": "4",
+          "text": "None of the inferences follow"
+        }
+      ],
+      "correct": "4",
+      "solution": "The statement mentions the need for the government to take care of the Dakhni inscriptions.\n\nBut there is no mention of the actions planned by the government in this direction.\n\nTherefore, inference I does not follow from the given statement.\n\nAt the same time, the phrase \"oldest surviving inscription\" in the statement emphasizes the fact that this Dakhni language is an ancient language.\n\nTherefore, Inference II contradicts the given statement.\n\nTherefore, inference II does not follow.\n\nHence, none of the inferences follow.",
+      "tags": [
+        "Statements and Inferences"
+      ]
+    },
+    {
+      "qid": "64cb9950f26ee5434957b627",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that represents the correct order of the given words as they would appear in an English dictionary.\n\n1. Circulate\n\n2. Circuit\n\n3. Citrus\n\n4. Cinnamon\n\n5. Circular\n\n6. Citizen",
+      "options": [
+        {
+          "label": "1",
+          "text": "2, 1, 5, 4, 3, 6"
+        },
+        {
+          "label": "2",
+          "text": "4, 2, 1, 5, 6, 3"
+        },
+        {
+          "label": "3",
+          "text": "4, 5, 2, 1, 6, 3"
+        },
+        {
+          "label": "4",
+          "text": "4, 2, 5, 1, 6, 3"
+        }
+      ],
+      "correct": "4",
+      "solution": "According to the sequence in the dictionary:\n\n4. __**Cin**__namon\n\n2. __**Circui**__t\n\n5. __**Circular**__\n\n1. __**Circulat**__e\n\n6. __**Citi**__zen\n\n3. __**Citr**__us\n\n<span st",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    }
+  ]
+}

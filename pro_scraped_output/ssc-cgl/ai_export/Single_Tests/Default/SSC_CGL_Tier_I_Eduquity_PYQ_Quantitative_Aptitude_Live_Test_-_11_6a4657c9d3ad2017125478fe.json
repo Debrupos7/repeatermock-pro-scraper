@@ -1,0 +1,1148 @@
+{
+  "test_id": "6a4657c9d3ad2017125478fe",
+  "title": "SSC CGL Tier I: (Eduquity PYQ) Quantitative Aptitude Live Test - 11",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:06:52.575782+00:00",
+  "questions": [
+    {
+      "qid": "690c6cfc2c9197aab161259b",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of areas of two regular polygons with same number of sides is 4:9. What is the ratio of their side lengths?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2:3"
+        },
+        {
+          "label": "2",
+          "text": "4:5"
+        },
+        {
+          "label": "3",
+          "text": "1 : √2"
+        },
+        {
+          "label": "4",
+          "text": "2 : √5"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor any two regular polygons with the same number of sides, they are geometrically similar.\n\nThe ratio of their corresponding sides is exactly the square root of the ratio of their areas.\n\nSide ratio = √(Area ratio)\n\n⇒ Side ratio = √(4 / 9) = 2 / 3\n\n**∴ The correct answer is 2:3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRatio of areas of two regular polygons = 4 : 9\n\nBoth polygons have an equal number of sides, say 'n'.\n\n**Formula Used:**\n\nArea of a regular polygon with 'n' sides = (n × a²) ÷ [4 × tan(180°/n)], where 'a' is the side length.\n\n \n Area = 4 \n• Side 1 \n Area = 9 \n• Side 2 \n• \n Ratio \n\n**Calculation:**\n\n⇒ Let the sides of the two polygons be a₁ and a₂.\n\n⇒ Let their areas be A₁ and A₂ respectively.\n\n⇒ Since the number of sides 'n' is equal, the constant terms n and [4 × tan(180°/n)] will cancel out when calculating the ratio.\n\n⇒ A₁ / A₂ = a₁² / a₂²\n\n⇒ 4 / 9 = (a₁ / a₂)²\n\n⇒ a₁ / a₂ = √(4 / 9)\n\n⇒ a₁ / a₂ = 2 / 3\n\n**∴ The correct answer is 2:3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimilarity of Regular Polygons\n\nAll regular polygons with the same number of sides are geometrically similar. The ratio of their areas is strictly the square of the ratio of their corresponding side lengths.\n\nPerimeter Ratio\n\nFor any two similar figures, the ratio of their perimeters is precisely equal to the linear scale factor, which is the direct ratio of their corresponding side lengths.\n\nVolume of Similar 3D Solids\n\nIf two 3D solids are similar, the ratio of their volumes is identical to the cube of the ratio of their corresponding linear dimensions (V₁ / V₂ = (a₁ / a₂)³).",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "69a01b0952d36319c0a1cc74",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Average age of group A of 20 students is 40 years. Average age of group B of 40 students is 'x' years. Combined average age of group A and group B is 50 years. What is the value of 'x'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "55"
+        },
+        {
+          "label": "2",
+          "text": "45"
+        },
+        {
+          "label": "3",
+          "text": "48"
+        },
+        {
+          "label": "4",
+          "text": "52"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of students in **Group A** to **Group B** = 20 : 40 = 1 : 2\n\nDeviation of **Group A** from **Combined Average** = 50 − 40 = 10\n\nSince the student ratio is 1 : 2, the deviation ratio is inverse, i.e., 2 : 1.\n\nIf 2 units = 10, then 1 unit = 5.\n\nValue of x = 50 + 5 = 55.\n\n**∴ The correct answer is 55.**\n\n<img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "690b22d0569f092a366a5b22",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If cot A = x + (1)/(x), find cosec²A.",
+      "options": [
+        {
+          "label": "1",
+          "text": "x² + (1)/(x²) + 1"
+        },
+        {
+          "label": "2",
+          "text": "x² + (1)/(x²) -3"
+        },
+        {
+          "label": "3",
+          "text": "x² + (1)/(x²) + 3"
+        },
+        {
+          "label": "4",
+          "text": "x² + (1)/(x²) -1"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDirectly apply the identity: cosec²A = 1 + cot²A\n\nSquare the given value: cot²A = (x + 1/x)² = x² + 1/x² + 2\n\nSubstitute to find cosec²A = 1 + x² + 1/x² + 2 = x² + 1/x² + 3\n\n**∴ The correct answer is x² + 1/x² + 3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\ncot A = x + 1/x\n\n**Formula Used:**\n\ncosec²A − cot²A = 1 ⇒ cosec²A = 1 + cot²A\n\n(a + b)² = a² + b² + 2ab\n\n**Calculations:**\n\n⇒ cosec²A = 1 + (x + 1/x)²\n\n⇒ cosec²A = 1 + x² + 1/x² + (2 × x × 1/x)\n\n⇒ cosec²A = 1 + x² + 1/x² + 2\n\n⇒ cosec²A = x² + 1/x² + 3\n\n**∴ The correct answer is x² + 1/x² + 3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPythagorean Trigonometric Identities\n\nsin²A + cos²A = 1, sec²A − tan²A = 1, and cosec²A − cot²A = 1.\n\nBasic Algebraic Expansions\n\n(a + b)² = a² + b² + 2ab and (a − b)² = a² + b² − 2ab.\n\nReciprocal Trigonometric Ratios\n\nsin A = 1 ÷ cosec A | cos A = 1 ÷ sec A | tan A = 1 ÷ cot A.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6909f79bb7a1ac7c4e965336",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two distinct grades of rice, one priced at ₹80 per kilogram and the other at ₹120 per kilogram, are amalgamated in an undisclosed proportion. The resultant blend is retailied at ₹132 per kilogram, securing a profit margin of 20% on the overall cost price. Determine the precise ratio in which the two rice varieties were intermingled.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 : 3"
+        },
+        {
+          "label": "2",
+          "text": "2 : 1"
+        },
+        {
+          "label": "3",
+          "text": "3 : 2"
+        },
+        {
+          "label": "4",
+          "text": "4 : 1"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nMean Cost Price = Selling Price × [100 ÷ (100 + Profit%)]\n\nMean Cost Price = 132 × (100 ÷ 120) = ₹110/kg\n\nUsing Alligation Cross-Multiplication directly:\n\nQuantity Ratio = (120 − 110) : (110 − 80)\n\nQuantity Ratio = 10 : 30 = 1 : 3\n\n**∴ The correct answer is 1 : 3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCost price of Grade 1 rice (CP₁) = ₹80/kg\n\nCost price of Grade 2 rice (CP₂) = ₹120/kg\n\nSelling price of the mixture (SP) = ₹132/kg\n\nOverall profit margin = 20%\n\n**Formula Used:**\n\nCost Price (CP) = (SP × 100) ÷ (100 + Profit%)\n\nAlligation Ratio = (CP₂ − Mean CP) : (Mean CP − CP₁)\n\n**Calculations:**\n\n⇒ Mean CP of mixture = (132 × 100) ÷ (100 + 20)\n\n⇒ Mean CP = 13200 ÷ 120 = ₹110/kg\n\n \n• \n \n• \n \n• \n \n• \n\n \n 80\n CP₁\n\n \n 120\n CP₂\n\n \n 110\n Mean CP\n\n \n 10\n\n \n 30\n\n Ratio = 10 : 30\n\n⇒ Quantity of Grade 1 : Quantity of Grade 2 = 10 : 30\n\n⇒ Simplest Ratio = 1 : 3\n\n**∴ The correct answer is 1 : 3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRule of Alligation\n\nIt allows finding the specific ratio in which two or more ingredients at given prices must be mixed to produce a mixture of a desired average price. Ratio = (Dearer Price − Mean Price) : (Mean Price − Cheaper Price).\n\nMean Price Concept\n\nThe cost price of a unit quantity of the mixture is called its mean price. When using the alligation method, always ensure that all values (CP₁, CP₂, and Mean Price) are purely Cost Prices. Never use Selling Price directly in the alligation cross.\n\nRepeated Replacement\n\nIf a vessel contains 'x' units of a pure liquid and 'y' units are taken out and replaced by water 'n' times, the quantity of pure liquid remaining = x × (1 − y ÷ x)ⁿ.\n\n34:T1c0a,\n<p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "690b2b62d26c7b9aa1a39a7e",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify:\n\n(1)/(sqrt{7)-sqrt{3}} + (1)/(sqrt{7)+sqrt{3}}",
+      "options": [
+        {
+          "label": "1",
+          "text": "sqrt{7}"
+        },
+        {
+          "label": "2",
+          "text": "2sqrt{7}"
+        },
+        {
+          "label": "3",
+          "text": "frac{sqrt{7}}{2}"
+        },
+        {
+          "label": "4",
+          "text": "5sqrt{7}"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nFor any expression of the form 1/(√x − √y) + 1/(√x + √y), the direct shortcut formula is 2√x ÷ (x − y).\n\nHere, x = 7 and y = 3.\n\n⇒ Result = 2√7 ÷ (7 − 3)\n\n⇒ Result = 2√7 ÷ 4 = √7 / 2\n\n**∴ The correct answer is √7/2.**\n\n**__Alternate Method__**\n\n**Given:**\n\nExpression = 1/(√7 − √3) + 1/(√7 + √3)\n\n**Formula Used:**\n\n(a − b)(a + b) = a² − b²\n\n**Calculations:**\n\n⇒ To simplify, take the LCM of the denominators:\n\n⇒ Expression = [(√7 + √3) + (√7 − √3)] ÷ [(√7 − √3) × (√7 + √3)]\n\n⇒ Numerator = √7 + √3 + √7 − √3 = 2√7\n\n⇒ Denominator = (√7)² − (√3)² = 7 − 3 = 4\n\n⇒ Expression = 2√7 ÷ 4\n\n⇒ Expression = √7 / 2\n\n**∴ The correct answer is √7/2.**\n\n**__Additional Information__**\n\nRationalization\n\nIt is the process of removing surds or square roots from the denominator by multiplying the numerator and denominator by the conjugate of the denominator.\n\nAlgebraic Identities\n\nThe identity (a + b)(a − b) = a² − b² is a crucial rule for clearing out radical denominators.\n\nConjugate Pairs\n\nThe conjugate of the binomial surd √x + √y is √x − √y. Their product directly gives a rational number (x − y).\n</p",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "69a00206da701cf65800428a",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Marked price of an article is 150 percent of the value of discount. Marked price is what percent of the selling price?",
+      "options": [
+        {
+          "label": "1",
+          "text": "300 percent"
+        },
+        {
+          "label": "2",
+          "text": "250 percent"
+        },
+        {
+          "label": "3",
+          "text": "350 percent"
+        },
+        {
+          "label": "4",
+          "text": "400 percent"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nRatio of **Marked Price** to **Discount** = 150 : 100 ⇒ 3 : 2.\n\n**Selling Price** = **Marked Price** − **Discount** = 3 − 2 = 1 unit.\n\nRequired Percentage = (**Marked Price** / **Selling Price**) × 100 = (3 / 1) × 100 = 300%.\n\n**∴ The correct answer is 300 percent.**\n\n**__Alternate Method__**\n\n**Given:**\n\n**Marked Price** = 150% of **Discount**\n\n**Formula Used:**\n\n**Selling Price** = **Marked Price** − **Discount**\n\nRequired % = (**Marked Price** / **Selling Price**) × 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/46d288156aa50547dfb25835f32e14f6b357c0fcf5f7af0c6dbf94f32692e33c.png] \n\n**Calculations:**\n\n⇒ Let the **Discount** = 100 units.\n\n⇒ **Marked Price** = 150% of 100 = 150 units.\n\n⇒ **Selling Price** = **Marked Price** − **Discount**\n\n⇒ **Selling Price** = 150 − 100 = 50 units.\n\n⇒ Required Percentage = (150 / 50) × 100\n\n⇒ Required Percentage = 3 × 100 = 300%\n\n**∴ The correct answer is 300 percent.**\n\n**__Additional Information__**\n\nDiscount and Selling Price\n\nThe **Selling Price** is always calculated as **Marked Price** − **Discount**. If **Discount** is 0, then **Selling Price** equals **Marked Price**.\n\nMark-up Percentage\n\nMark-up % = [(**Marked Price** − **Cost Price**) / **Cost Price**] × 100. It shows how much the price is increased over the cost.\n\nPercentage of Base Change\n\nTo find what percent A is of B, the formula is (A/B) × 100. In this question, the base is the **Selling Price**.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/46d288156aa50547dfb25835f32e14f6b357c0fcf5f7af0c6dbf94f32692e33c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "69ca1c71443cc77fab278997",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A vehicle covers 90 km with a speed of 45 km/h and then another 90 km with a speed of 85 km/h. What is the overall average speed of the vehicle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "51 km/h"
+        },
+        {
+          "label": "2",
+          "text": "52.5 km/h"
+        },
+        {
+          "label": "3",
+          "text": "58.85 km/h"
+        },
+        {
+          "label": "4",
+          "text": "57 km/h"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen two equal distances are covered at speeds **x** and **y**, the **Average Speed** is given by:\n\n**Average Speed = (2 × x × y) ÷ (x + y)**\n\n⇒ (2 × 45 × 85) ÷ (45 + 85)\n\n⇒ 7650 ÷ 130 = 765 ÷ 13 ≈ 58.85 km/h\n\n**∴ The correct answer is 58.85 km/h.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] <st",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "690b2b6226bf51479e4772d3",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In △ABC, an angle bisector from A meets BC at D. If AD bisects ∠BAC, and AB=AC, are △ABD and △ACD congruent? If so, by what rule?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Yes, by SSS"
+        },
+        {
+          "label": "2",
+          "text": "Yes, by SAS"
+        },
+        {
+          "label": "3",
+          "text": "Yes, by ASA"
+        },
+        {
+          "label": "4",
+          "text": "No, they are not congruent"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTo prove congruence, check the matching parts between the two triangles.\n\n⇒ Side: AB = AC (Given)\n\n⇒ Angle: ∠BAD = ∠CAD (AD is the angle bisector)\n\n⇒ Side: AD = AD (Common base)\n\nSince two sides and the included angle are equal, the triangles are congruent by the SAS rule.\n\n**∴ The correct answer is Yes, by SAS.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n⇒ In ΔABC, AD bisects ∠BAC.\n\n⇒ AB = AC.\n\n<svg width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" xmlns=\"http://www.w3.org/2000/",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6909e0faf01110a12e387d19",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If B is 25% more than A, and C is 20% more than B, then what is A : C?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 : 2"
+        },
+        {
+          "label": "2",
+          "text": "2 : 3"
+        },
+        {
+          "label": "3",
+          "text": "5 : 4"
+        },
+        {
+          "label": "4",
+          "text": "4 : 5"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet the value of A be 100.\n\nSince B is 25% more than A, B = 100 + 25 = 125.\n\nSince C is 20% more than B, C = 125 + (20 / 100) × 125 = 125 + 25 = 150.\n\nThe ratio of A : C = 100 : 150 = 2 : 3.\n\n**∴ The correct answer is 2 : 3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nB is 25% more than A.\n\nC is 20% more than B.\n\n**Method Used:**\n\nFractional representation of percentage increase.\n\n \n \n \n\n \n \n \n \n A\n 100\n \n \n• \n +25%\n \n \n B\n 125\n \n \n• \n +20%\n \n \n C\n 150\n \n A : C = 100 : 150 = 2 : 3\n\n**Calculations:**\n\n⇒ 25% expressed as a fraction = 1 / 4\n\n⇒ B = A + (1 / 4) × A = 5 / 4 × A\n\n⇒ Ratio of A / B = 4 / 5\n\n⇒ 20% expressed as a fraction = 1 / 5\n\n⇒ C = B + (1 / 5) × B = 6 / 5 × B\n\n⇒ Ratio of B / C = 5 / 6\n\n⇒ To find the overall ratio A : C, multiply the individual ratios:\n\n⇒ A / C = (A / B) × (B / C)\n\n⇒ A / C = (4 / 5) × (5 / 6) = 20 / 30 = 2 / 3\n\n**∴ The correct answer is 2 : 3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPercentage to Fraction Conversion\n\nConverting percentages directly to simplified fractions helps in speeding up ratio calculations. Always memorize common fractions like 25% = 1/4 and 20% = 1/5.\n\nCompound Ratio\n\nThe compound ratio of two sequential ratios a:b and b:c is calculated by multiplying them: (a/b) × (b/c) = a/c. This provides the direct relationship between the first and last terms.\n\nSuccessive Percentage Change\n\nWhen a value undergoes multiple changes sequentially, you can multiply the base with successive scaling factors. For example: Final = Base × (1 + %1) × (1 + %2).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "690b2e6f039b6c183b7e6e9c",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two chords in a circle each measure 10 cm. If one of the chords is located 4 cm from the center, what is the distance of the other chord from the center?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 cm"
+        },
+        {
+          "label": "2",
+          "text": "4 cm"
+        },
+        {
+          "label": "3",
+          "text": "5 cm"
+        },
+        {
+          "label": "4",
+          "text": "8 cm"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAccording to the geometric properties of a circle, equal chords are always equidistant from the center.\n\nSince the lengths of both chords are equal (10 cm each), their perpendicular distances from the center will also be exactly equal.\n\nThe distance of the first chord from the center is given as 4 cm.\n\nTherefore, the distance of the second chord from the center must also be 4 cm.\n\n**∴ The correct answer is 4 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n \n \n \n \n \n• \n \n \n \n• \n\n \n <circle cx=\"210\" cy=\"120\" r=&qu",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "69ca12bb95e1fcdd44d926ec",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The cost price of an item is ₹150, and it is sold for ₹135. What is the percentage loss?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8%"
+        },
+        {
+          "label": "2",
+          "text": "10%"
+        },
+        {
+          "label": "3",
+          "text": "12%"
+        },
+        {
+          "label": "4",
+          "text": "15%"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLoss = CP − SP = 150 − 135 = 15\n\nLoss % = (Loss / CP) × 100\n\nLoss % = (15 / 150) × 100 = 10%\n\nIn decimal form, 10% = 10/100 = 0.1\n\n**∴ The correct option is (2).**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCost Price (CP) = ₹150\n\nSelling Price (SP) = ₹135\n\n**Formula Used:**\n\nLoss = Cost Price − Selling Price<",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "69ccf341c8940de6e809e09f",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A hot-air balloon directly above point A is rising vertically at 2 m/s. An observer at point B, 500 m due east of A, watches the balloon. At the moment when the angle of elevation is 30°, how long until it reaches an angle of elevation of 60°? (Assume no horizontal drift.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "288.675 s"
+        },
+        {
+          "label": "2",
+          "text": "250.862 s"
+        },
+        {
+          "label": "3",
+          "text": "255.725 s"
+        },
+        {
+          "label": "4",
+          "text": "285.565 s"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDistance covered = Base × (tan θ₂ − tan θ₁)\n\nVertical Distance = 500 × (tan 60° − tan 30°) = 500 × (√3 − 1/√3)\n\nVertical Distance = 500 × (2/√3) = 1000/√3 m\n\nTime = Distance / Speed = (1000/√3) / 2 = 500/√3 s\n\nTime ≈ 500 / 1.73205 = 288.675 s\n\n**∴ The correct option is (1).**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDistance AB = 500 m\n\nRising speed (v) = 2 m/s\n\nInitial angle (θ₁) = 30°\n\nFinal angle (θ₂) = 60°\n\n**Formula Used:**\n\ntan θ = Height / Base\n\nTime = Distance / Speed\n\n \n• \n• B (Observer) A C (30°) D (60°) \n• \n• 30° \n 60° 500 m Distance covered \n\n⇒ In ΔABC, tan 30° = AC / AB\n\n⇒ 1 / √3 = AC / 500\n\n⇒ AC = 500 / √3 m\n\n⇒ In ΔABD, tan 60° = AD / AB\n\n⇒ √3 = AD / 500\n\n⇒ AD = 500√3 m\n\n⇒ Vertical distance moved (CD) = AD − AC\n\n⇒ CD = 500√3 − 500/√3 = 500(3 − 1) / √3 = 1000/√3 m\n\n⇒ Time taken = Vertical distance / Speed\n\n⇒ Time = (1000/√3) / 2 = 500/√3 s\n\n⇒ Time = 500 / 1.73205 ≈ 288.675 s\n\n**∴ The correct option is (1).**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nStandard Trigonometric Ratios\n\nFor angles 30°, 45°, and 60°, tan values are 1/√3, 1, and √3 respectively. In height and distance problems, √3 is approximately 1.732.\n\nRelation between Height and Distance\n\nIf the base distance remains constant, the change in height h₂ − h₁ = Base × (tan θ₂ − tan θ₁).\n\nVertical Motion\n\nWhen an object moves vertically, the horizontal distance between the observer and the path of the object remains constant (Base = constant).",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "68e0dd0fc8534d24742c24e4",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A spherical balloon is inflated so that its radius increases from 5 cm to 10 cm. By what factor does its surface area increase?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "6"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nThe surface area of a sphere is directly proportional to the square of its radius: **A ∝ r²**.\n\nRatio of radii (r₂ ÷ r₁) = 10 ÷ 5 = 2\n\nRatio of surface areas = (2)² = 4\n\nThus, the surface area increases by a factor of **4**.\n\n**∴ The correct answer is 4.**\n\n**__Alternate Method__**\n [IMAGE: https://cdn.repeatermock.com/tb/bc867ea0ff6216c83836108413a132cbc45cbfcb4e6fdb6ca7f79490c1b3de48.png] \n**Given:**\n\nInitial radius (r₁) = 5 cm\n\nFinal radius (r₂) = 10 cm\n\n**Formula Used:**\n\nSurface area of a sphere (A) = 4 × π × r²\n\n**Calculations:**\n\n⇒ Initial surface area (A₁) = 4 × π × (5)² = 100π cm²\n\n⇒ Final surface area (A₂) = 4 × π × (10)² = 400π cm²\n\n⇒ Factor of increase = A₂ ÷ A₁\n\n⇒ Factor of increase = 400π ÷ 100π = 4\n\nTherefore, the surface area increases by a factor of **4**.\n\n**∴ The correct answer is 4.**\n\n**__Additional Information__**\n\nSurface Area of a Sphere\n\nThe total surface area of a sphere of radius r is given by the formula **A = 4 × π × r²**.\n\nVolume of a Sphere\n\nThe volume of a sphere of radius r is given by **V = (4 ÷ 3) × π × r³**.\n\nScaling Factor for 3D Shapes\n\nIf all linear dimensions of a similar 3D object are scaled by a factor of k, then its surface area scales by **k²** and its volume scales by **k³**.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bc867ea0ff6216c83836108413a132cbc45cbfcb4e6fdb6ca7f79490c1b3de48.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "690c7d6c70a9e13a06cb7a66",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the radian measure of 270°?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(3π)/(2)"
+        },
+        {
+          "label": "2",
+          "text": "(π)/(2)"
+        },
+        {
+          "label": "3",
+          "text": "(π)/(3)"
+        },
+        {
+          "label": "4",
+          "text": "(π)/(4)"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTo convert an angle from degrees to radians, multiply the given angle by π / 180.\n\n⇒ Radian measure = 270 × (π / 180)\n\n⇒ Radian measure = 3π/2\n\n**∴ The correct answer is 3π/2 radians.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nAngle = 270°\n\n**Formula Used:**\n\nAngle in radians = Angle in degrees × (π / 180°)\n\n \n \n• \n \n• \n \n \n \n \n \n \n• \n \n• \n \n \n \n\n \n \n\n \n \n 0° / 360°\n 90°\n 180°\n 270°\n \n \n 270°\n = 3π/2\n \n \n \n\n**Calculations:**\n\n⇒ Angle in radians = 270 × (π / 180)\n\n⇒ Angle in radians = (270 / 180) × π\n\n⇒ Angle in radians = (3 / 2) × π\n\n⇒ Angle in radians = 3π/2\n\n**∴ The correct answer is 3π/2 radians.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nDegrees to Radians Conversion\n\nTo convert an angle from degrees to radians, you need to multiply the angle by π / 180.\n\nRadians to Degrees Conversion\n\nTo convert an angle from radians to degrees, you need to multiply the angle by 180 / π.\n\nCommon Standard Angles\n\n30° = π/6 | 45° = π/4 | 60° = π/3 | 90° = π/2 | 180° = π | 360° = 2π\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "690b2ab4b5904ecb896e651d",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a triangle PQR, the centroid is at G(1, 2). If the vertices P and Q are at (3, -1) and (-2, 4) respectively, what are the coordinates of vertex R?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(2, 5)"
+        },
+        {
+          "label": "2",
+          "text": "(2, 4)"
+        },
+        {
+          "label": "3",
+          "text": "(1, 3)"
+        },
+        {
+          "label": "4",
+          "text": "(2, 3)"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIf G is the centroid of a triangle PQR, the coordinates of the third vertex R can be calculated directly using the relation: R = 3 × G − (P + Q)\n\nx-coordinate = 3 × 1 − (3 − 2) = 3 − 1 = 2\n\ny-coordinate = 3 × 2 − (−1 + 4) = 6 − 3 = 3\n\n**∴ The correct answer is (2, 3).**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCentroid of the triangle, G(x, y) = (1, 2)\n\nVertices, P(x₁, y₁) = (3, −1) and Q(x₂, y₂) = (−2, 4)\n\nLet the third vertex be R(x₃, y₃).\n\n**Formula Used:**\n\nCentroid G(x, y) = [(x₁ + x₂ + x₃) ÷ 3, (y₁ + y₂ + y₃) ÷ 3]\n\n \n\n \n \n• \n \n• \n \n• \n \n \n G(1, 2)\n \n \n Q(−2, 4)\n \n \n P(3, −1)\n \n \n R(x, y)\n\n**Calculation:**\n\nFor the x-coordinate:\n\n⇒ 1 = (3 − 2 + x₃) ÷ 3\n\n⇒ 3 = 1 + x₃\n\n⇒ x₃ = 2\n\nFor the y-coordinate:\n\n⇒ 2 = (−1 + 4 + y₃) ÷ 3\n\n⇒ 6 = 3 + y₃\n\n⇒ y₃ = 3\n\n**∴ The correct answer is (2, 3).**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\n1. Centroid of a Triangle\n\nIt is the intersection point of all three medians of the triangle. The centroid divides each median in the ratio 2:1. The formula is [(x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3].\n\n2. Incenter of a Triangle\n\nIt is the point of intersection of internal angle bisectors. The coordinates are [(ax₁+bx₂+cx₃)/(a+b+c), (ay₁+by₂+cy₃)/(a+b+c)] where a, b, and c are side lengths.\n\n3. Area of a Triangle\n\nThe area of a triangle given its three vertices is (1/2) × |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "690c7e9102b38f78bb298fe2",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Lalit can finish a work in 15 days. Laxman can finish the same work in 25 days. They work together for 5 days. If the rest of the work is finished by Lalit and Deven in 4 days, then in how many days can Deven alone finish the work?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30 days"
+        },
+        {
+          "label": "2",
+          "text": "25 days"
+        },
+        {
+          "label": "3",
+          "text": "21 days"
+        },
+        {
+          "label": "4",
+          "text": "20 days"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal work = LCM(15, 25) = 75 units.\n\nLalit's efficiency = 75 ÷ 15 = 5 units/day | Laxman's efficiency = 75 ÷ 25 = 3 units/day.\n\nWork completed by both in 5 days = 5 × (5 + 3) = 40 units.\n\nRemaining work = 75 − 40 = 35 units, which Lalit and Deven do in 4 days.\n\nDeven's efficiency = (35 ÷ 4) − 5 = 8.75 − 5 = 3.75 units/day.\n\n**∴ The correct answer is 20 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTime taken by Lalit to finish the work = 15 days\n\nTime taken by Laxman to finish the work = 25 days\n\nThey work together for 5 days, and then Lalit and Deven finish the rest in 4 days.\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n Lalit\n 15\n 75\n 5\n \n \n\n Laxman\n 25\n 3\n \n \n\n**Calculations:**\n\n⇒ Efficiency of Lalit + Laxman = 5 + 3 = 8 units/day\n\n⇒ Work done by Lalit and Laxman in 5 days = 8 × 5 = 40 units\n\n⇒ Remaining work to be done = 75 − 40 = 35 units\n\n⇒ Lalit and Deven complete these 35 units in 4 days.\n\n⇒ Combined efficiency of Lalit and Deven = 35 ÷ 4 = 8.75 units/day\n\n⇒ Let Deven's efficiency be D.\n\n⇒ 5 + D = 8.75\n\n⇒ D = 8.75 − 5 = 3.75 units/day\n\n⇒ Time taken by Deven alone to finish the whole work = Total Work ÷ D\n\n⇒ Time taken = 75 ÷ 3.75 = 20 days\n\n**∴ The correct answer is 20 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPipes and Cisterns\n\nWorks on the same mathematical principle as time and work, where inlet pipes have a positive efficiency and outlet (leak) pipes possess a negative efficiency.\n\nWork and Wages\n\nTotal wages are distributed among workers in the direct ratio of the total amount of work physically done by each individual, not simply by their daily efficiency unless they work for the same number of days.\n\nAlternate Day Work\n\nCalculate the total work done in one complete cycle of days, divide the total work by this cycle work to find the number of full cycles, and assign the remaining work to the correct person based on their starting turn.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "690b2ab29731082a68b92516",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the ratio of the area of a regular hexagon to that of an equilateral triangle of the same side length?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6:1"
+        },
+        {
+          "label": "2",
+          "text": "3:1"
+        },
+        {
+          "label": "3",
+          "text": "√3 : 1"
+        },
+        {
+          "label": "4",
+          "text": "1:6"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nA regular hexagon is constructed by joining 6 identical equilateral triangles at its center point.\n\nIf the side length of the regular hexagon is 'a', then each of these 6 interior triangles will also have a side length of 'a'.\n\nTherefore, the area of the regular hexagon is exactly 6 times the area of an equilateral triangle having the same side length.\n\n**∴ The correct answer is 6:1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSide length of the regular hexagon = a\n\nSide length of the equilateral triangle = a\n\n**Formulas Used:**\n\nArea of an equilateral triangle = (√3 ÷ 4) × (side)²\n\nArea of a regular hexagon = 6 × (√3 ÷ 4) × (side)²\n\n Regular Hexagon\n Equilateral Triangle\n\n \n\n \n• \n \n• \n \n• \n\n 1\n 2\n 3\n 4\n 5\n 6\n\n Side = a\n\n \n\n 1\n Side = a\n\n Area = 6 × A\n Area = A\n\n**Calculations:**\n\n⇒ Area of the regular hexagon = 6 × (√3 ÷ 4) × a²\n\n⇒ Area of the equilateral triangle = (√3 ÷ 4) × a²\n\n⇒ Required Ratio = [6 × (√3 ÷ 4) × a²] ÷ [(√3 ÷ 4) × a²]\n\n⇒ Required Ratio = 6 ÷ 1 = 6:1\n\n**∴ The correct answer is 6:1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nProperties of a Regular Hexagon\n\nA regular hexagon has 6 equal sides and 6 equal interior angles (each measuring 120°). The sum of all its interior angles is exactly 720°.\n\nCircumradius\n\nThe distance from the center of a regular hexagon to any of its outward vertices is exactly equal to its side length. Thus, its circumradius (R) = a.\n\nInradius\n\nThe perpendicular distance from the center to the midpoint of any side acts as the height of the internal equilateral triangles. The inradius (r) = (√3 ÷ 2) × a.\n\nPerimeter to Area Efficiency\n\nFor a specifically given perimeter, a regular hexagon encloses a significantly larger internal area compared to a square or an equilateral triangle.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "69aea1b97f8336c490317829",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "92 - 31 + 22 { of } 2 + 38 div 2 - (29) + 13 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "102"
+        },
+        {
+          "label": "2",
+          "text": "134"
+        },
+        {
+          "label": "3",
+          "text": "108"
+        },
+        {
+          "label": "4",
+          "text": "106"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSolve using BODMAS priority: Of → Division → Addition/Subtraction.\n\nCalculate \"Of\" and \"Division\" terms: 22 of 2 = 44 and 38 ÷ 2 = 19.\n\nExpression becomes: 92 − 31 + 44 + 19 − 29 + 13.\n\nGroup positive and negative terms: (92 + 44 + 19 + 13) − (31 + 29) = 168 − 60.\n\nFinal result: 168 − 60 = 108.\n\n**∴ The correct answer is 108.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n92 − 31 + 22 of 2 + 38 ÷ 2 − 29 + 13\n\n**Formula Used:**\n\nBODMAS Rule: B (Brackets), O (Of), D (Division), M (Multiplication), A (Addition), S (Subtraction).\n\n**Calculations:**\n\n⇒ 92 − 31 + (22 × 2) + 38 ÷ 2 − 29 + 13\n\n⇒ 92 − 31 + 44 + 19 − 29 + 13\n\n⇒ 61 + 44 + 19 − 29 + 13\n\n⇒ 105 + 19 − 29 + 13\n\n⇒ 124 − 29 + 13\n\n⇒ 95 + 13\n\n⇒ 108\n\n**∴ The correct answer is 108.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nBODMAS/VBODMAS Rule\n\nThis rule dictates the order of operations: Vinculum, Brackets, Of, Division, Multiplication, Addition, and Subtraction.\n\nOf Operator Significance\n\nThe \"of\" operator represents multiplication but must be solved before any division or standard multiplication in the expression.\n\nAddition and Subtraction Priority\n\nAddition and Subtraction have the same level of priority and should be solved from left to right or by grouping signs to avoid errors.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6909d84a69d3c26083289f4f",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A lent Rs. 5000 to B for a duration of 2 years and Rs. 3000 to C for a period of 4 years both at the same simple interest rate. In total, he received Rs. 2200 as interest from both borrowers. What is the rate of interest per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10%"
+        },
+        {
+          "label": "2",
+          "text": "12%"
+        },
+        {
+          "label": "3",
+          "text": "15%"
+        },
+        {
+          "label": "4",
+          "text": "17%"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEquivalent principal for 1 year = (5000 × 2) + (3000 × 4) = 10000 + 12000 = 22000\n\nTotal Simple Interest received = 2200\n\nRate = (Total Interest ÷ Equivalent Principal) × 100\n\nRate = (2200 ÷ 22000) × 100\n\nRate = 10%\n\n**∴ The correct answer is 10%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPrincipal lent to B = ₹5000, Time = 2 years\n\nPrincipal lent to C = ₹3000, Time = 4 years\n\nTotal simple interest = ₹2200\n\n**Formula Used:**\n\nSimple Interest (SI) = Principal × Rate × Time\n\n(where Rate is taken as a decimal fraction r)\n\nLent to B₹5000 × 2 yrsLent to C₹3000 × 4 yrs\n\nTotal SI = ₹2200\n\n**Calculations:**\n\n⇒ Interest from B = 5000 × r × 2 = 10000r\n\n⇒ Interest from C = 3000 × r × 4 = 12000r\n\n⇒ Total Interest = 10000r + 12000r\n\n⇒ 22000r = 2200\n\n⇒ r = (2200 ÷ 22000) × 100\n\n⇒ r = 10%\n\n**∴ The correct answer is 0.1 per annum.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Interest (SI) Formula\n\nSI = (P × R × T) ÷ 100, where P is Principal, R is Rate in %, and T is Time in years.\n\nDecimal vs Percentage Rate\n\nWhen solving equations, the percentage rate R can be expressed directly as a decimal r (where r = R ÷ 100) making the SI calculation simply P × r × T.\n\nEquivalent Principal\n\nWhen multiple investments are made at the same simple interest rate, the overall principal equivalent to a 1-year term is the sum of the products of each Principal and its respective Time period.\n\n \n\n30:T1c20,",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "690c76ed2c9197aab161e511",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average score of a batsman in 20 innings is 42. If his highest score of 120 is excluded, what is the new average?",
+      "options": [
+        {
+          "label": "1",
+          "text": "37.89"
+        },
+        {
+          "label": "2",
+          "text": "38.89"
+        },
+        {
+          "label": "3",
+          "text": "39.89"
+        },
+        {
+          "label": "4",
+          "text": "36.89"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDeviation of excluded score from old average = 120 − 42 = 78 runs.\n\nSince this score is excluded, the excess of 78 runs must be deducted from the remaining 19 innings.\n\nDecrease in average = 78 ÷ 19 ≈ 4.11 runs.\n\nNew average = 42 − 4.11 = 37.89 runs.\n\n**∴ The correct answer is 37.89 runs.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal innings = 20\n\nAverage score = 42\n\nHighest score to be excluded = 120\n\n**Formula Used:**\n\nNew Average = (Sum of all scores − Excluded score) ÷ (Remaining innings)\n\n \n 20 innings (Total = 840 runs)\n \n \n 19 innings (Total = 720 runs)\n \n \n 1 inning (120)\n \n \n• \n \n• \n \n• \n \n New Avg = 720 ÷ 19 ≈ 37.89 runs\n\n**Calculations:**\n\n⇒ Total score in 20 innings = 20 × 42 = 840 runs\n\n⇒ Remaining total score after excluding the highest score = 840 − 120 = 720 runs\n\n⇒ Remaining number of innings = 20 − 1 = 19\n\n⇒ New average = 720 ÷ 19\n\n⇒ New average ≈ 37.8947 runs\n\n**∴ The correct answer is 37.89 runs.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nExclusion in Averages\n\nWhen a value greater than the average is removed, the new average of the remaining group decreases.\n\nInclusion in Averages\n\nIf a new value added is greater than the average, the new average of the group increases. Increase = (New Value − Old Avg) ÷ New Total Elements.\n\nCombined Average\n\nThe combined average of two groups with sizes n₁ and n₂ and averages A₁ and A₂ is (n₁ × A₁ + n₂ × A₂) ÷ (n₁ + n₂).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "69bcf596095965e11d29eef4",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the least number that must be added to 5600 to make it a perfect square.",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "20"
+        },
+        {
+          "label": "3",
+          "text": "25"
+        },
+        {
+          "label": "4",
+          "text": "30"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEstimate square root: 70² = 4900 and 80² = 6400.\n\nCheck 75² using (n5)² trick: 7 × 8 = 56 → 5625.\n\nNext perfect square after 5600 is 5625.\n\nLeast number to be added = 5625 − 5600 = 25.\n\n**∴ The correct answer is 25.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nNumber = 5600\n\n**Method:**\n\nLong division estimation to find the nearest higher perfect square.\n\n [IMAGE: https://cdn.repeatermock.com/tb/37e14364d9e9c5db1abea3b8e048b3d7a169c2205b1eb0c49af4fdef71d94216.png] \n\n⇒ Finding the square root of 5600 using long division:\n\n⇒ 7 × 7 = 49 (Remainder 7), bring down 00 → 700.\n\n⇒ New divisor 14x: 144 × 4 = 576, 145 × 5 = 725.\n\n⇒ Since we need to add a number, we take the higher square: 75².\n\n⇒ 75² = 5625.\n\n⇒ Required addition = 5625 − 5600 = 25.\n\n**∴ The correct answer is 25.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSquaring numbers ending in 5\n\nFor a number (A5), the square is calculated as [A × (A + 1)] followed by 25. Example: 75² = (7 × 8)25 = 5625.\n\nPerfect Square Properties\n\nThe last digit of a perfect square can only be 0, 1, 4, 5, 6, or 9. It can never be 2, 3, 7, or 8.\n\nDigit Sum of Perfect Squares\n\nThe digital root (sum of digits reduced to a single digit) of a perfect square is always 1, 4, 7, or 9.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/37e14364d9e9c5db1abea3b8e048b3d7a169c2205b1eb0c49af4fdef71d94216.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "69cb5d1b17f54ff7142838fc",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of the number of boys to the number of girls in a class is 9:7. If there are 96 students in the class, how many girls are there?",
+      "options": [
+        {
+          "label": "1",
+          "text": "42"
+        },
+        {
+          "label": "2",
+          "text": "44"
+        },
+        {
+          "label": "3",
+          "text": "52"
+        },
+        {
+          "label": "4",
+          "text": "54"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal ratio parts = 9 (Boys) + 7 (Girls) = **16 units**.\n\nGiven, 16 units = **96 students**.\n\n1 unit = 96 ÷ 16 = **6**.\n\nNumber of girls = 7 units = 7 × 6 = **42**.\n\n**∴ The correct answer is 42.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRatio of **Boys : Girls** = 9 : 7\n\n**Total students** in the class = 96\n\n**Formula Used:**\n\nValue of a part = (Ratio of that part ÷ Sum of ratios) × Total value\n\n [IMAGE: https://cdn.repeatermock.com/tb/83238b01712f8175272b9fd6dd78405988ab09db042f5efeec14e960de5ce751.png] \n\n**Calculations:**\n\n⇒ Let the number of boys be 9x and girls be 7x.\n\n⇒ Total students = 9x + 7x = 16x\n\n⇒ 16x = 96\n\n⇒ x = 96 ÷ 16\n\n⇒ x = 6\n\n⇒ Number of girls = 7x = 7 × 6\n\n⇒ Number of girls = 42\n\n**∴ The correct answer is 42.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRatio and Proportion\n\nA **ratio** compares two quantities by division. If a : b is the ratio, then the quantities can be taken as ax and bx.\n\nDuplicate Ratio\n\nThe **duplicate ratio** of a : b is a² : b². For example, the duplicate ratio of 9 : 7 is 81 : 49.\n\nCompounded Ratio\n\nThe **compounded ratio** of (a : b) and (c : d) is (a × c) : (b × d).",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/83238b01712f8175272b9fd6dd78405988ab09db042f5efeec14e960de5ce751.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "69ccec1f76f905fbbd5492b3",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given: (p)/(a) + (q)/(b) + (r)/(c) = 1 and (a)/(p) + (b)/(q) + (c)/(r) = 0, where p, q, r and a, b, c are non-zero, then the value of (p²)/(a²) + (q²)/(b²) + (r²)/(c²)",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet x = p/a, y = q/b, and z = r/c. Given x + y + z = 1.\n\nGiven a/p + b/q + c/r = 0 ⇒ 1/x + 1/y + 1/z = 0 ⇒ xy + yz + zx = 0.\n\nUsing the **Algebraic Identity**: (x + y + z)² = x² + y² + z² + 2(xy + yz + zx).\n\n1² = x² + y² + z² + 2(0) ⇒ x² + y² + z² = 1.\n\n**∴ The correct answer is 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** p/a + q/b + r/c = 1 and a/p + b/q + c/r = 0\n\n**Formula Used:** (x + y + z)² = x² + y² + z² + 2(xy + yz + zx)\n\n⇒ Let x = p/a, y = q/b, and z = r/c.\n\n⇒ The second equation is a/p + b/q + c/r = 0, which is 1/x + 1/y + 1/z = 0.\n\n⇒ Taking the LCM: (yz + xz + xy) / xyz = 0.\n\n⇒ Since p, q, r, a, b, c are **non-zero**, xyz ≠ 0, thus xy + yz + zx = 0.\n\n⇒ Now, square the first equation: (x + y + z)² = 1².\n\n⇒ x² + y² + z² + 2(xy + yz + zx) = 1.\n\n⇒ x² + y² + z² + 2(0) = 1.\n\n⇒ (p/a)² + (q/b)² + (r/c)² = 1.\n\n**∴ The correct answer is 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nStandard Square Identity\n\nThe square of a trinomial is given by (a + b + c)² = a² + b² + c² + 2ab + 2bc + 2ca.\n\nReciprocal Sum Property\n\nIf the sum of the reciprocals of three **non-zero** numbers is zero (1/x + 1/y + 1/z = 0), then the sum of their pairwise products is zero (xy + yz + zx = 0).\n\nSum of Cubes Identity\n\nIf a + b + c = 0, then the sum of their cubes satisfies the condition a³ + b³ + c³ = 3abc.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "690c72117ec4a7bd509d8b76",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A', 'B', and 'C' formed a consulting firm. Their capital investments were Rs. 6,00,000, Rs. 4,00,000, and Rs. 5,00,000, respectively. After 3 months, 'A' withdrew Rs. 1,00,000, and 'B' added Rs. 1,00,000. The partnership lasted for 9 months. What was the ratio of their effective capital contributions?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16:14:15"
+        },
+        {
+          "label": "2",
+          "text": "16:15:14"
+        },
+        {
+          "label": "3",
+          "text": "14:15:16"
+        },
+        {
+          "label": "4",
+          "text": "14:16:15"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEffective Capital = Capital × Time\n\nA's effective capital = (6 × 3) + (5 × 6) = 18 + 30 = 48\n\nB's effective capital = (4 × 3) + (5 × 6) = 12 + 30 = 42\n\nC's effective capital = 5 × 9 = 45\n\nRatio = 48 : 42 : 45 = 16 : 14 : 15\n\n**∴ The correct answer is 16:14:15.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInitial investments: A = Rs. 6,00,000, B = Rs. 4,00,000, C = Rs. 5,00,000\n\nAfter 3 months: A withdrew Rs. 1,00,000; B added Rs. 1,00,000\n\nTotal time of partnership = 9 months\n\n**Formula Used:**\n\nRatio of Profit = Ratio of Effective Capital = (C₁ × T₁) : (C₂ × T₂) : (C₃ × T₃)\n\n A 6L × 3m 5L × 6m B 4L × 3m 5L × 6m C 5L × 9m \n• 0 3 Months 9 Months \n\n**Calculations:**\n\n⇒ A's investment for first 3 months = Rs. 6,00,000\n\n⇒ A's investment for remaining 6 months = 6,00,000 − 1,00,000 = Rs. 5,00,000\n\n⇒ A's effective capital = (6,00,000 × 3) + (5,00,000 × 6) = 18,00,000 + 30,00,000 = Rs. 48,00,000\n\n \n\n⇒ B's investment for first 3 months = Rs. 4,00,000\n\n⇒ B's investment for remaining 6 months = 4,00,000 + 1,00,000 = Rs. 5,00,000\n\n⇒ B's effective capital = (4,00,000 × 3) + (5,00,000 × 6) = 12,00,000 + 30,00,000 = Rs. 42,00,000\n\n \n\n⇒ C's investment for entire 9 months = Rs. 5,00,000\n\n⇒ C's effective capital = 5,00,000 × 9 = Rs. 45,00,000\n\n \n\n⇒ Ratio of their effective capitals = 48,00,000 : 42,00,000 : 45,00,000\n\n⇒ Canceling 1,00,000 from all terms, Ratio = 48 : 42 : 45\n\n⇒ Dividing by 3, Ratio = 16 : 14 : 15\n\n**∴ The correct answer is 16:14:15.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Partnership\n\nWhen all partners invest their capital for the exact same period, profits are distributed strictly in the ratio of their original investments.\n\nCompound Partnership\n\nWhen partners invest different amounts for different time periods, profits are distributed in the ratio of their effective capitals (calculated as Capital × Time).\n\nActive and Sleeping Partners\n\nAn active partner receives a fixed salary or a certain percentage of total profit for managing the business operations, while the remaining profit is shared among all partners according to their effective capital ratios.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "690b2e6c3a23b940210f977f",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A display stand is shaped like a right triangular prism. The triangular base is a right-angled triangle with perpendicular sides measuring 3 cm and 4 cm. The height of the prism is 10 cm. What is the ratio of the area of the largest rectangular face to the area of the smallest rectangular face of the prism?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3:2"
+        },
+        {
+          "label": "2",
+          "text": "4:3"
+        },
+        {
+          "label": "3",
+          "text": "5:3"
+        },
+        {
+          "label": "4",
+          "text": "5:4"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe rectangular faces of a right triangular prism all share the exact same height.\n\nThus, their areas are strictly proportional to the side lengths of the triangular base.\n\nThe base sides are 3 cm, 4 cm, and the hypotenuse = √(3² + 4²) = 5 cm.\n\nArea of largest face → corresponds to the largest side (5 cm).\n\nArea of smallest face → corresponds to the smallest side (3 cm).\n\n**∴ The correct answer is 5:3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nBase of the prism = Right-angled triangle with perpendicular sides 3 cm and 4 cm.\n\nHeight of the prism = 10 cm.\n\n \n \n 4 cm 3 cm 5 cm Base 30 cm² Small 40 cm² Medium 50 cm² Large 3 cm 4 cm 5 cm \n• \n• \n• 10 cm \n\n**Formula Used:**\n\nHypotenuse = √(Base² + Perpendicular²)\n\nArea of rectangular face = Side of base × Height of prism\n\n**Calculations:**\n\n⇒ Hypotenuse of the base triangle = √(3² + 4²) = √(9 + 16) = √25 = 5 cm\n\n⇒ The lengths of the 3 sides of the base are 3 cm, 4 cm, and 5 cm.\n\n⇒ Area of the smallest rectangular face = Smallest side × Height = 3 × 10 = 30 cm²\n\n⇒ Area of the largest rectangular face = Largest side × Height = 5 × 10 = 50 cm²\n\n⇒ Required Ratio = Area of largest face : Area of smallest face\n\n⇒ Required Ratio = 50 : 30 = 5 : 3\n\n**∴ The correct answer is 5:3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRight Prism vs Oblique Prism\n\nIn a right prism, the lateral faces are always perpendicular to the bases, resulting in entirely rectangular lateral faces. In an oblique prism, the lateral edges are slanted and the lateral faces are parallelograms.\n\nTotal Surface Area of Prism\n\nThe total surface area (TSA) of any prism is given by: TSA = Lateral Surface Area + 2 × (Base Area). For a right prism, the Lateral Surface Area equals Perimeter of Base × Height.\n\nVolume of a Prism\n\nThe volume of any given prism (both right and oblique) is calculated using the product of its base area and perpendicular height: Volume = Area of Base × Height.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    }
+  ]
+}

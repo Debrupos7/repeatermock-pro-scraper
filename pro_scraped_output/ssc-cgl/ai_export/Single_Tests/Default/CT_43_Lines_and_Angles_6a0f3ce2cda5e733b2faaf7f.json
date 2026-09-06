@@ -1,0 +1,393 @@
+{
+  "test_id": "6a0f3ce2cda5e733b2faaf7f",
+  "title": "CT 43: Lines and Angles",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:17:00.804912+00:00",
+  "questions": [
+    {
+      "qid": "6492ce9f578e8f3a9305c786",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the complement of an angle x is equal to the supplement of angle 4x and the supplement of an angle y is 4 times its complement, then what is the value of (x + y) ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "80°"
+        },
+        {
+          "label": "2",
+          "text": "90°"
+        },
+        {
+          "label": "3",
+          "text": "100°"
+        },
+        {
+          "label": "4",
+          "text": "120°"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFrom the first condition: 90° − x = 180° − 4x → 3x = 90° → x = 30°\n\nFrom the second condition: 180° − y = 4 × (90° − y) → 3y = 180° → y = 60°\n\nRequired sum = x + y = 30° + 60° = 90°\n\n**∴ The correct answer is 90°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nComplement of an angle x = Supplement of angle 4x\n\nSupplem",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "648da1c2e2acaa09f4b69b0d",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following angles cannot be drawn, using scale and compass only ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15°"
+        },
+        {
+          "label": "2",
+          "text": "40°"
+        },
+        {
+          "label": "3",
+          "text": "105°"
+        },
+        {
+          "label": "4",
+          "text": "135°"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Concept use:**\n\nA constructible angle is one that can be drawn using only a compass and straightedge, and a limited set of operations (creating a line segment between two points, extending a line, drawing a circle with a given radius, etc.).\n\n**Explanation:**\n\nSome of the most elementary constructible angles are 90°, 60°, 45°, 30°, etc. These angles are easy to construct because they ca",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "64aebe2921497942c14a139a",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The supplementary angle of an angle is four times its complementary angle, then that angle is -",
+      "options": [
+        {
+          "label": "1",
+          "text": "30°"
+        },
+        {
+          "label": "2",
+          "text": "40°"
+        },
+        {
+          "label": "3",
+          "text": "45°"
+        },
+        {
+          "label": "4",
+          "text": "60°"
+        }
+      ],
+      "correct": "4",
+      "solution": "**__Concept:__**\n\nSupplementary angles: Angles whose sum is 180°\n\nComplimentary angles: Angles whose sum is 90°\n\n**__Calculation:__**\n\nLet the angle be 'x'\n\nSupplementary angle = 180° - x</p",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "646b219581241509c37b7a8f",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Supplementary angle of 130º angle is :",
+      "options": [
+        {
+          "label": "1",
+          "text": "50º"
+        },
+        {
+          "label": "2",
+          "text": "130º"
+        },
+        {
+          "label": "3",
+          "text": "90º"
+        },
+        {
+          "label": "4",
+          "text": "180º"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Concept used:**\n\nWhen the sum of two angles is 180°, then the angles are known as supplementary angles\n\n**Calculation:**\n\nLet's assume that the supplementary angle of 130º angle is x\n\n⇒ x + 130 = 180\n\n⇒ x = 180 - 130 = 50° \n\n**∴ The correct answer is 50° **",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "63c69b6957955ec8d9e2a892",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Check whether the following statements are True?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Euclidean geometry is valid only for curved surfaces."
+        },
+        {
+          "label": "2",
+          "text": "The boundaries of the solids are curves."
+        },
+        {
+          "label": "3",
+          "text": "The edges of a surface are curves."
+        },
+        {
+          "label": "4",
+          "text": "The things which are double of the same thing are equal to one another."
+        }
+      ],
+      "correct": "4",
+      "solution": "**Concept Used:-**\n\nEuclid has given some geometrical axiom based on general assumption which can be assumed without proving them. There are total 7 Euclid’s axiom which are given below,\n\n \n• Things which are equal in measure to the same thing are equal to one another.\n \n• When the equals are together added to equals, then the wholes will be equal.\n \n• When the equals are subtracted or remove from equals, then the remainders will be equal.\n \n• The things which coincide with one another will be equal to one another.\n \n• The whole is greater than the part.\n \n• Things which are double of the same things are equal to one another.\n \n• Things which are halves of the same things are equal to one another</li&",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "66290b10c7af40f674f0f6f6",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many lines can be drawn from a single point?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "100"
+        },
+        {
+          "label": "4",
+          "text": "Infinite"
+        }
+      ],
+      "correct": "4",
+      "solution": "An infinite number of lines can be drawn from a single point, as lines can extend in unlimited directions around the point, allowing for endless possibilities.\n\n**So, From a single point, you can draw infinite lines.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6365f82672d0e14d64b743c4",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given figure, if AB||CD, AO = 4 cm; OC = (4x - 2) cm; OD = (2x + 4) cm; OB = (x + 1) cm, then the value of x is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "0.5"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nIn the given figure, AB||CD, AO = 4 cm; OC = (4x - 2) cm; OD = (2x + 4) cm; OB = (x + 1) cm,\n\n [IMAGE: https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png] \n\n**Concept used:**\n\nThe diagonals of a Trapezium divide each other proportionally\n\n**Calculations:**\n\nAccording to the question,\n\n(OC/OA) = (OD/OB)\n\n⇒ (4x - 2)/4 = (2x + 4)/(x + 1)\n\n⇒ 2(2x - 1)/4 = (2x + 4)/(x + 1)\n\n⇒ (2x - 1)/2 = (2x + 4)/(x + 1)\n\n⇒ (2x - 1)(x + 1) = 2(2x + 4)\n\n⇒ (2x - 1)(x + 1) = (4x + 8)\n\n⇒ (2x² - x) + (2x - 1) = (4x + 8)\n\n⇒ (2x2 + x - 1) = (4x + 8)\n\n⇒ (2x2 + x - 1) - (4x + 8) = 0\n\n⇒ (2x2 - 3x - 9) = 0\n\nBy factorization method,\n\n⇒ (2x2 + 3x - 6x - 9) = 0\n\n⇒ x(2x + 3)- 3(2x + 3) = 0\n\n⇒ (2x + 3) or (x - 3) = 0\n\nThe value of x will be either -3/2 or 3\n\nIf value of x is kept -3/2 in OB then the value will be negative \n\nHence the value of x is 3\n\n**∴ The value of x is 3.**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/756b7d368dd8498e550ee4666f3e1f3e293775a321c025a7e4d737cab13f26e0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "65afd920f00bc324cb1050d8",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The difference between two supplementary angles is 20°. If the smaller of these angles is p, then the value of 3p -50° is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "190°"
+        },
+        {
+          "label": "2",
+          "text": "310°"
+        },
+        {
+          "label": "3",
+          "text": "270°"
+        },
+        {
+          "label": "4",
+          "text": "250°"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Concept use:**\n\nSupplementary angles are those angles that sum up to 180 degrees\n\n**Calculations:**\n\nLet the angles are ∠A and ∠B \n\n∠A - ∠B = 20° \n\n∠A + ∠B = 180°&am",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "61f90e43162841d2cadf3bee",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given figure, TS || PR, ∠PRQ = 45° and ∠TQS = 75°. Find ∠TSQ.\n\n [IMAGE: https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "90°"
+        },
+        {
+          "label": "2",
+          "text": "60°"
+        },
+        {
+          "label": "3",
+          "text": "30°"
+        },
+        {
+          "label": "4",
+          "text": "45°"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSince line TS is parallel to PR, corresponding angles are equal.\n\n⇒ ∠QTS = ∠PRQ = 45°.\n\nIn ΔTQS, the sum of all interior angles is 180°.\n\n⇒ ∠TSQ = 180° − (∠TQS + ∠QTS)\n\n⇒ ∠TSQ = 180° − (75° + 45°) = 60°.\n\n**∴ The correct answer is 60°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n∠PRQ = 45°\n\n∠TQS = 75°\n\nTS || PR\n\n \n \n\n \n \n <line x1=\"160\" y1=\"110\" x2=\"270\" y2=\"110\" stroke=\"#2255cc\" stroke-width",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/81e2356f14ff9b5bf2c7a7b04f1aa231fd6b5fc33911f2fa50492acb86b6a3ef.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6376a34ccd2462edfe895d41",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "[IMAGE: https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png] \n\nIn the given figure QR = 4 cm, QP = 8cm, and OP = 12 cm Find the value of QS.",
+      "options": [
+        {
+          "label": "1",
+          "text": "40 cm"
+        },
+        {
+          "label": "2",
+          "text": "32 cm"
+        },
+        {
+          "label": "3",
+          "text": "12 cm"
+        },
+        {
+          "label": "4",
+          "text": "24 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nQR = 4 cm , QP = 8cm, and OP = 12 cm\n\n**Concept used:**\n\nQR × QS = QP × QO\n\n**Calculation:**\n\nLet RS = x cm\n\n4 &",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/585a294c4e5f380038906093d5acfdd07615592e0d80f148bf3f9ef1a3db2e43.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    }
+  ]
+}

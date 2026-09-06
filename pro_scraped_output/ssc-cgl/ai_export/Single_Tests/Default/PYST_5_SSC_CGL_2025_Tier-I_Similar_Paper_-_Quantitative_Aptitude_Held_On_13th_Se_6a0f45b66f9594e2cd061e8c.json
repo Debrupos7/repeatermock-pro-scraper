@@ -1,0 +1,844 @@
+{
+  "test_id": "6a0f45b66f9594e2cd061e8c",
+  "title": "PYST 5: SSC CGL 2025 Tier-I Similar Paper - Quantitative Aptitude (Held On: 13th Sep 2025 Shift 2)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:04:33.313102+00:00",
+  "questions": [
+    {
+      "qid": "6916eb7048ada49d1a04bd80",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A seller sold three paintings, D, E, and F, with their selling prices in the ratio 2:3:5. He made a profit of 20% on item D, suffered a loss of 10% on item E, and made a profit of 25% on item F. What was his approximate percentage gain or loss in the overall deal?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10% gain"
+        },
+        {
+          "label": "2",
+          "text": "11.11% gain"
+        },
+        {
+          "label": "3",
+          "text": "9.5% loss"
+        },
+        {
+          "label": "4",
+          "text": "12.0% gain"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nSelling price ratio (D : E : F) = 2 : 3 : 5\n\nProfit on D = 20%\n\nLoss on E = 10%\n\nProfit on F = 25%\n\n**Formula Used:**\n\nCost price = Selling price ÷ (1 ± gain/loss%)\n\nTotal gain/loss% = [(Total SP − Total CP) ÷ Total CP] × 100\n\n**Calculation:**\n\nLet the ratio be 200: 300: 500\n\n⇒ CP of D = 200 ÷ 1.20 = 166.67\n\n⇒ CP of E = 300 ÷ 0.90 = 333.33\n\n⇒ CP of F = 500 ÷ 1.25 = 400\n\n⇒ Total SP = 200 + 300 + 500 = 1000\n\n⇒ Total CP = 166.67 + 333.33 + 400 = 900\n\n⇒ Gain = 1000 − 900 = 100\n\n⇒ Gain% = (100 ÷ 900) × 100 = 11.11%\n\n**∴ The correct answer is approximately 11.11% gain.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6916eb71034dccbf6319fa1b",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A 60-liter solution contains alcohol and water in the ratio 7:5. If 12 liters of this solution are removed and replaced with 6 liters of pure water, what is the new ratio of alcohol to water in the final solution?",
+      "options": [
+        {
+          "label": "1",
+          "text": "14 : 13"
+        },
+        {
+          "label": "2",
+          "text": "7 : 5"
+        },
+        {
+          "label": "3",
+          "text": "8 : 5"
+        },
+        {
+          "label": "4",
+          "text": "3 : 8"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nTotal solution = 60 L\n\nRatio of alcohol : water = 7 : 5\n\nRemoved solution = 12 L\n\nAdded pure water = 6 L\n\n**Formula Used:**\n\nQuantity of component = (ratio part ÷ total ratio) × total solution\n\nRemoved quantity = (removed solution ÷ total solution) × component quantity\n\nFinal quantity = initial quantity − removed quantity + added quantity\n\n**Calculation:**\n\n⇒ Total ratio = 7 + 5 = 12\n\n⇒ Alcohol = (7 ÷ 12) × 60 = 35 L\n\n⇒ Water = (5 ÷ 12) × 60 = 25 L\n\n⇒ Removed alcohol = (12 ÷ 60) × 35 = 7 L\n\n⇒ Removed water = (12 ÷ 60) × 25 = 5 L\n\n⇒ Remaining alcohol = 35 − 7 = 28 L\n\n⇒ Remaining water = 25 − 5 = 20 L\n\n⇒ Added water = 6 L\n\n⇒ Final water = 20 + 6 = 26 L\n\n⇒ Final ratio = alcohol : water = 28 : 26\n\n⇒ Simplified ratio = 14 : 13\n\n**∴ The correct answer is 14:13.**",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6916ebaf122ec27455350419",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Worker K takes 18 hours to assemble a device, and Worker L takes 9 hours. When Worker M assists them, they complete the assembly in just 3 hours. How long would it take for M to complete the job alone?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7 hours"
+        },
+        {
+          "label": "2",
+          "text": "8 hours"
+        },
+        {
+          "label": "3",
+          "text": "6 hours"
+        },
+        {
+          "label": "4",
+          "text": "5 hours"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nK completes work in 18 hours\n\nL completes work in 9 hours\n\nK + L + M complete work in 3 hours\n\n**Formula Used:**\n\nWork rate = Total work ÷ Time\n\nTotal rate = Sum of individual rates\n\nTime = Total work ÷ Rate\n\n**Calculation:**\n\n⇒ Take LCM of 18, 9, and 3 = 18 units (assume total work = 18 units)\n\n⇒ K's work rate = 18 ÷ 18 = 1 unit/hour\n\n⇒ L's work rate = 18 ÷ 9 = 2 units/hour\n\n⇒ (K + L + M)'s work rate = 18 ÷ 3 = 6 units/hour\n\n⇒ Rate of K + L = 1 + 2 = 3 units/hour\n\n⇒ M's rate = 6 − 3 = 3 units/hour\n\n⇒ Time taken by M alone = 18 ÷ 3 = 6 hours\n\n**∴ The correct answer is 6 hours.**",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6916ebd2be030396b168027c",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Worker X paints a fence in 10 days while Worker Y can strip the paint in 5 days. X has worked for 5 days and then Y joined to work with X for another 1 day only. In how many days will X alone finish painting the remaining fence?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 days"
+        },
+        {
+          "label": "2",
+          "text": "6 days"
+        },
+        {
+          "label": "3",
+          "text": "7 days"
+        },
+        {
+          "label": "4",
+          "text": "8 days"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nX completes painting in 10 days\n\nY strips paint in 5 days (negative work)\n\nX works alone for 5 days\n\nThen X and Y work together for 1 day\n\n**Formula Used:**\n\nWork rate = Total work ÷ Time\n\nTotal work = LCM of times\n\nRemaining work = Total work − Work done\n\nTime = Remaining work ÷ X's rate\n\n**Calculation:**\n\n⇒ Take LCM of 10 and 5 = 10 units (assume total work = 10 units)\n\n⇒ X's work rate = 10 ÷ 10 = 1 unit/day\n\n⇒ Y's work rate = −(10 ÷ 5) = −2 units/day\n\n⇒ Work done by X in 5 days = 5 × 1 = 5 units\n\n⇒ Work done by X + Y in 1 day = 1 + (−2) = −1 unit\n\n⇒ Total work done = 5 + (−1) = 4 units\n\n⇒ Remaining work = 10 − 4 = 6 units\n\n⇒ Time for X alone = 6 ÷ 1 = 6 days\n\n**∴ The correct answer is 6 days.**",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6916ebd30be781443af58b80",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A submarine travels a specific distance at a speed of 180 knots over the course of 8 hours. To cover the same distance in just 3 hours, it needs to travel at a speed of:",
+      "options": [
+        {
+          "label": "1",
+          "text": "540 knots"
+        },
+        {
+          "label": "2",
+          "text": "480 knots"
+        },
+        {
+          "label": "3",
+          "text": "400 knots"
+        },
+        {
+          "label": "4",
+          "text": "450 knots"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nDistance traveled in 8 hours at 180 knots.\n\nTime to cover the same distance: 3 hours.\n\n**Formula Used:**\n\nSpeed = Distance ÷ Time\n\nDistance = Speed × Time\n\n**Calculation:**\n\n⇒ Distance = 180 × 8\n\n⇒ Distance = 1440 knots-hour\n\n⇒ Speed = Distance ÷ Time\n\n⇒ Speed = 1440 ÷ 3\n\n⇒ Speed = 480 knots\n\n**∴ The correct answer is 480 knots.**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6916ebd3420b8c3ed2c4c136",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A cyclist travels from his house to the park. If he travels at a speed of 20 km/h, he arrives 15 minutes late. If he travels at a speed of 30 km/h, he arrives 15 minutes early. What is the distance (in km) between the house and the park?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25 km"
+        },
+        {
+          "label": "2",
+          "text": "30 km"
+        },
+        {
+          "label": "3",
+          "text": "35 km"
+        },
+        {
+          "label": "4",
+          "text": "40 km"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nSpeed 1 = 20 km/h → 15 minutes late\n\nSpeed 2 = 30 km/h → 15 minutes early\n\n**Formula Used:**\n\nTime = Distance ÷ Speed\n\nDifference in time = (Late time) − (Early time)\n\n**Calculation:**\n\n⇒ Let distance = D km\n\n⇒ Time dif",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6916ec4a09500ae9e60a2447",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of the circumferences of two circular gear wheels is 7:11. If the larger gear wheel has a radius of 33 cm, what is the radius of the smaller gear wheel?",
+      "options": [
+        {
+          "label": "1",
+          "text": "21 cm"
+        },
+        {
+          "label": "2",
+          "text": "20 cm"
+        },
+        {
+          "label": "3",
+          "text": "22 cm"
+        },
+        {
+          "label": "4",
+          "text": "25 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRatio of circumferences = 7:11\n\nRadius of larger gear wheel = 33 cm\n\n**Formula Used:**\n\nCircumference of a circle = 2 × π × radius\n\nRatio of circumferences = Ratio of radii\n\n**Calculation:**\n\n⇒ Ratio of radii = 7:11\n\n⇒ Radius of smaller gear wheel = (7 ÷ 11) × Radius of larger gear wheel\n\n⇒ Radius of smaller gear wheel = (7 ÷ 11) × 33\n\n⇒ Radius of smaller gear wheel = 21 cm\n\n**∴ The correct answer is 21 cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6916ec4a7c0adf535217047b",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If a circular patio has an area of 616 m², what is the radius of the patio?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 m"
+        },
+        {
+          "label": "2",
+          "text": "14 m"
+        },
+        {
+          "label": "3",
+          "text": "16 m"
+        },
+        {
+          "label": "4",
+          "text": "18 m"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nArea of circle = 616 m²\n\nUse π = 22/7\n\n**Formula Used:**\n\nArea = πr²\n\nr² = Area ÷ π\n\n**Calculation:**\n\n⇒ r² = 616 ÷ (22 ÷ 7)\n\n⇒ r² = 616 × (7 ÷ 22)\n\n⇒ r² = 28 × 7\n\n⇒ r² = 196\n\n⇒ r = √196\n\n⇒ r = 14\n\n**∴ The correct answer is 14 m.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6916ec4bec4745231044ee41",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the equation of line through (0, -4) with slope 3?",
+      "options": [
+        {
+          "label": "1",
+          "text": "y = 3x - 4"
+        },
+        {
+          "label": "2",
+          "text": "y = 3x + 4"
+        },
+        {
+          "label": "3",
+          "text": "y = -3x - 4"
+        },
+        {
+          "label": "4",
+          "text": "y = x - 3"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nPoint: (0, -4)\n\nSlope: 3\n\n**Formula Used:**\n\ny - y₁ = m(x - x₁)\n\nWhere (x₁, y₁) is a point and m is the slope.\n\n**Calculation:**\n\n⇒ y - (-4) = 3(x - 0)\n\n⇒ y + 4 = 3x\n\n⇒ y = 3x - 4\n\n**∴ The correct answer is y = 3x - 4.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6917076864ff110ed1460cff",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the value of 6 + 66 + 666 + 6666?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7398"
+        },
+        {
+          "label": "2",
+          "text": "7404"
+        },
+        {
+          "label": "3",
+          "text": "7390"
+        },
+        {
+          "label": "4",
+          "text": "7500"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n6 + 66 + 666 + 6666\n\n**Formula Used:**\n\nSum = value 1 + value 2 + value 3 + value 4\n\n**Calculation:**\n\n⇒ 6 + 66 = 72\n\n⇒ 72 + 666 = 738\n\n⇒ 738 + 6666 = 7404\n\n**∴ The correct answer is 7404.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "69170768cd26f8df853ab48c",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify: (5 + 3.2) - 3/4",
+      "options": [
+        {
+          "label": "1",
+          "text": "7.5"
+        },
+        {
+          "label": "2",
+          "text": "7.45"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "7.25"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n(5 + 3.2) - 3/4\n\n**Formula Used:**\n\n(a + b) - c\n\n**Calculation:**\n\n⇒ (5 + 3.2) - 3/4\n\n⇒ 8.2 - 0.75\n\n⇒ 7.45\n\n**∴ The correct answer is 7.45.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "691707691f260f4d86b1bc42",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Determine the ratio of the total number of students who drink Coffee to the total number of students who drink Tea in a survey of 100 students, given: Drink C and T: 30; Drink C but not T: 40; Drink T but not C: 15; Drink neither: 15.",
+      "options": [
+        {
+          "label": "1",
+          "text": "14:9"
+        },
+        {
+          "label": "2",
+          "text": "9:14"
+        },
+        {
+          "label": "3",
+          "text": "7:5"
+        },
+        {
+          "label": "4",
+          "text": "11:8"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nC ∩ T = 30\n\nC only = 40\n\nT only = 15\n\nNeither = 15\n\n**Formula Used:**\n\nTotal(C) = C ∩ T + C only\n\nTotal(T) = C ∩ T + T only\n\nRatio = Total(C) : Total(T)\n\n**Calculation:**\n\n⇒ Total(C) = 30 + 40 = 70\n\n⇒ Total(T) = 30 + 15 = 45\n\n⇒ Ratio = 70 : 45\n\n⇒ Ratio ÷5 = 70 ÷5 : 45 ÷5 = 14 : 9\n\n**∴ The correct answer is 14:9.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "69170769992c98b7d03938c0",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Ken and Lisa started a business with 80,000 and 120,000 respectively. After 3 months, Ken added 40,000 more. After 9 months (from the start), Lisa withdrew 60,000. What is the profit-sharing ratio at the end of 1 year?",
+      "options": [
+        {
+          "label": "1",
+          "text": "22:21"
+        },
+        {
+          "label": "2",
+          "text": "21:22"
+        },
+        {
+          "label": "3",
+          "text": "11:10"
+        },
+        {
+          "label": "4",
+          "text": "10:11"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nKen's initial investment = 80,000\n\nLisa's initial investment = 120,000\n\nKen adds 40,000 after 3 months.\n\nLisa withdraws 60,000 after 9 months.\n\nTotal duration of the business = 12 months.\n\n**Formula Used:**\n\nProfit sharing ratio = (Investment × Time) for each person.\n\n**Calculation:**\n\nKen's investment for the first 3 months: ⇒ 80,000 × 3 = 240,000\n\nKen's investment for the remaining 9 months: ⇒ (80,000 + 40,000) × 9 = 120,000 × 9 = 1,080,000\n\nTotal for Ken: ⇒ 240,000 + 1,080,000 = 1,320,000\n\nLisa's investment for the first 9 months: ⇒ 120,000 × 9 = 1,080,000\n\nLisa's investment for the remaining 3 months: ⇒ (120,000 − 60,000) × 3 = 60,000 × 3 = 180,000\n\nTotal for Lisa: ⇒ 1,080,000 + 180,000 = 1,260,000\n\nProfit sharing ratio (Ken : Lisa): ⇒ 1,320,000 : 1,260,000\n\nSimplify the ratio: ⇒ 132 : 126\n\nFurther simplify: ⇒ 22 : 21\n\n**∴ The correct answer is 22:21.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "69170769b95ff682cc714a28",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Evaluate the expression: (1 / (6 - 5)) + (1 / (5 - 4)) + (1 / (4 - 3)) - 3 =?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n(1 / (6 - 5)) + (1 / (5 - 4)) + (1 / (4 - 3)) - 3 =?\n\n**Formula Used:**\n\nEvaluate individual terms.\n\nSum up terms.\n\n**Calculation:**\n\n⇒ (1 / (6 - 5)) = 1 / 1 = 1\n\n⇒ (1 / (5 - 4)) = 1 / 1 = 1\n\n⇒ (1 / (4 - 3)) = 1 / 1 = 1\n\n⇒ 1 + 1 + 1 - 3 = 3 - 3 = 0\n\n**∴ The correct answer is 0.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6917076a7ec8c77f2ac9fad7",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "C invests 50,000, while D invests 70,000. D receives an additional 10% of the total profit for administration. The total profit is 80,000. What is D's share?",
+      "options": [
+        {
+          "label": "1",
+          "text": "45,000"
+        },
+        {
+          "label": "2",
+          "text": "48,000"
+        },
+        {
+          "label": "3",
+          "text": "50,000"
+        },
+        {
+          "label": "4",
+          "text": "52,000"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nC invests = 50,000\n\nD invests = 70,000\n\nAdministration = 10% of total profit\n\nTotal profit = 80,000\n\n**Formula Used:**\n\nAdmin = (percentage) × Total profit\n\nRemaining profit = Total profit − Admin\n\nShare(person) = (investment ÷ sum of investments) × Remaining profit\n\nTota",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6917076a9244b497b6d9856b",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A marathon runner's average speed for a certain number of races is 15 km/h. If in the next race they average 25 km/h, the overall average speed becomes 16 km/h. How many races did they run earlier?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nEarlier average = 15 km/h\n\nNext race average = 25 km/h\n\nOverall average = 16 km/h\n\n**Formula Used:**\n\nAverage = Sum of values ÷ Number of values\n\nCombined average = (average₁ × n₁ + average₂ × n₂) ÷ (n₁ + n₂)",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "6917076b538f74b8f96ede89",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In an election, 90% of eligible voters cast their votes. Of these votes, 10% were declared invalid. If a losing candidate received 12,960 votes, which accounted for 40% of the total valid votes, what was the total number of eligible voters enrolled?",
+      "options": [
+        {
+          "label": "1",
+          "text": "38,000"
+        },
+        {
+          "label": "2",
+          "text": "40,000"
+        },
+        {
+          "label": "3",
+          "text": "42,000"
+        },
+        {
+          "label": "4",
+          "text": "45,000"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n90% of eligible voters cast their votes\n\n10% of cast votes were invalid\n\nLosing candidate = 12,960 votes = 40% of total valid votes\n\n**Formula Used:**\n\nPart = Percentage × Whole\n\nValid votes = Cast votes − Invalid votes\n\nCast votes = Percentage × Eligible voters\n\n**Calculation:**\n\n⇒ Let E = total eligible voters\n\n⇒ Cast votes = 90% × E = (90 ÷ 100) × E = 0.9 × E\n\n⇒ Valid \nvotes = Cast votes × (1 − 10%) = 0.9 × E × 0.9 = 0.81 × E\n\n⇒ 40% × Valid votes = 12,960 ⇒ 0.4 × Valid votes = 12,960\n\n⇒ Valid votes = 12,960 ÷ 0.4 = 32,400\n\n⇒ 0.81 × E = 32,400\n\n⇒ E = 32,400 ÷ 0.81 = 40,000\n\n**∴ The correct answer is 40,000.**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "6917076bffd3574169f1e1fa",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average of 11 numbers is 80. The average of the first four numbers is 70. The average of the next four numbers is 20 % lower than the average of the first four numbers. The 9th number is 1 less than the 11th number, and the 10th number is 2 greater than the 11th number. What is the average of the 9th and 10th numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "125.5"
+        },
+        {
+          "label": "2",
+          "text": "126"
+        },
+        {
+          "label": "3",
+          "text": "125"
+        },
+        {
+          "label": "4",
+          "text": "124.5"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nAverage of 11 numbers = 80\n\nAverage of first 4 = 70\n\nAverage of next 4 = 20% lower than 70\n\n9th = 11th − 1\n\n10th = 11th + 2\n\n**Formula Used:**\n\nAverage = Sum ÷ Number\n\nSum = Average × Number\n\nCombined sum = sum(parts)\n\n**Calculation:**\n\n⇒ Total sum = 11 × 80 = 880\n\n⇒ Sum of first 4 = 4 × 70 = 280\n\n⇒ 20% of 70 = (20 ÷ 100) × 70 = 14\n\n⇒ Average of next 4 = 70 − 14 = 56\n\n⇒ Sum of next 4 = 4 × 56 = 224\n\n⇒ Sum of first 8 = 280 + 224 = 504\n\n⇒ Let x = 11th number\n\n⇒ 9th + 10th + 11th = (x − 1) + (x + 2) + x = 3x + 1\n\n⇒ 504 + (3x + 1) = 880\n\n⇒ 3x + 1 + 504 = 880\n\n⇒ 3x + 505 = 880\n\n⇒ 3x = 880 − 505 = 375\n\n⇒ x = 375 ÷ 3 = 125\n\n⇒ 9th = 125 − 1 = 124\n\n⇒ 10th = 125 + 2 = 127\n\n⇒ Average of 9th and 10th = (124 + 127) ÷ 2 = 251 ÷ 2 = 125.5\n\n**∴ The correct answer is 125.5.**",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "6917076c22ebdc867f25e41b",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A grocer bought 20 kg of wheat type P at 50 per kg and 30 kg of wheat type Q at 80 per kg. He mixed them and sold the entire mixture at 70 per kg. Calculate his total profit or loss.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Profit of 100"
+        },
+        {
+          "label": "2",
+          "text": "Loss of 100"
+        },
+        {
+          "label": "3",
+          "text": "Profit of 50"
+        },
+        {
+          "label": "4",
+          "text": "No profit/loss"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nQuantity of wheat type P = 20 kg\n\nCost price of wheat type P = ₹50/kg\n\nQuantity of wheat type Q = 30 kg\n\nCost price of wheat type Q = ₹80/kg\n\nSelling price of mixture = ₹70/kg\n\n**Formula Used:**\n\nTotal cost price = (Quantity of type P × Cost price of type P) + (Quantity of type Q × Cost price of type Q)\n\nTotal selling price = Total quantity × Selling price per kg\n\nProfit/Loss = Total selling price - Total cost price\n\n**Calculation:**\n\n⇒ Total cost price = (20 × 50) + (30 × 80)\n\n⇒ Total cost price = ₹1000 + ₹2400\n\n⇒ Total cost price = ₹3400\n\n⇒ Total quantity = 20 + 30\n\n⇒ Total quantity = 50 kg\n\n⇒ Total selling price = 50 × 70\n\n⇒ Total selling price = ₹3500\n\n⇒ Profit/Loss = ₹3500 - ₹3400\n\n⇒ Profit = ₹100\n\n**∴ The correct answer is Profit of 100.**\n\n67:T874,\n&",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6917076c242e80e394f9c0dd",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The compound interest on a sum at 20 % p.a. for 1frac12 years, compounded yearly, is 6,600. Find the principal.",
+      "options": [
+        {
+          "label": "1",
+          "text": "20,625"
+        },
+        {
+          "label": "2",
+          "text": "20,000"
+        },
+        {
+          "label": "3",
+          "text": "21,000"
+        },
+        {
+          "label": "4",
+          "text": "19,800"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRate = 20% p.a.\n\nTime = 1.5 years\n\nCompounded yearly\n\nCompound interest = 6600\n\n**Formula Used:**\n\nAmount = Principal × (1 + rate)years\n\nCompound interest = Amount − Principal\n\nSimple interest = Principal × rate × time\n\n**Calculation:**\n\n⇒ Let P = principal\n\n⇒ Amount after 1 year = P × (1 + 20 ÷ 100) = P × 1.2\n\n⇒ Interest for next 0.5 year = P × 1.2 × (20 ÷ 100) × 0.5 = P × 1.2 × 0.1 = 0.12P\n\n⇒ Total amount = 1.2P + 0.12P = 1.32P\n\n⇒ Compound interest = 1.32P − P = 0.32P\n\n⇒ 0.32P = 6600\n\n⇒ P = 6600 ÷ 0.32\n\n⇒ P = 20625\n\n**∴ The correct answer is 20,625.**",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "6917076cf44eccda14f88b46",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the compound interest on a certain sum at 10% per annum for 3 years is 3,310, find the simple interest on the same sum at the same rate and for the same period.",
+      "options": [
+        {
+          "label": "1",
+          "text": "3,000"
+        },
+        {
+          "label": "2",
+          "text": "3,100"
+        },
+        {
+          "label": "3",
+          "text": "3,250"
+        },
+        {
+          "label": "4",
+          "text": "3,300"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRate = 10% per annum\n\nTime = 3 years\n\nCompound interest = 3310\n\n**Formula Used:**\n\nAmount = Principal × (1 + rate)time\n\nCompound interest = Amount − Principal\n\nSimple interest = Principal × rate × time\n\n**Calculation:**\n\n⇒ Let P = principal\n\n⇒ (1 + 10 ÷ 100) = 1.1\n\n⇒ Amount = P × 1.1³ = P × 1.331\n\n⇒ Compound interest = 1.331P − P = 0.331P\n\n⇒ 0.331P = 3310\n\n⇒ P = 3310 ÷ 0.331 = 10000\n\n⇒ Simple interest = P × (10 ÷ 100) × 3 = 10000 × 0.1 × 3 = 3000\n\n**∴ The correct answer is 3000.**",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "6917076d23135bfbace726b1",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A manufacturer's base cost is P. The distributor applies a 25% markup. They offer a 10% trade discount to the store. The store applies a 60% markup on its cost and offers a flat 25% discount to customers on the printed price. If a customer finally pays 10,800, what is the original base cost (P)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8,000"
+        },
+        {
+          "label": "2",
+          "text": "7,500"
+        },
+        {
+          "label": "3",
+          "text": "9,000"
+        },
+        {
+          "label": "4",
+          "text": "10,000"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nDistributor markup = 25%\n\nTrade discount = 10%\n\nStore markup = 60%\n\nCustomer discount = 25%\n\nFinal customer price = 10,800\n\n**Formula Used:**\n\nSelling price = Cost × (1 ± percentage)\n\nDiscounted price = Marked price × (1 − discount)\n\nProportion method: Actual base = (Actual final ÷ Calculated final) × 100\n\n**Calculation:**\n\nLet P = 100 (for easy calculation)\n\n⇒ Distributor price = 100 × 1.25 = 125\n\n⇒ Store cost = 125 × 0.90 = 112.5\n\n⇒ Marked price = 112.5 × 1.60 = 180\n\n⇒ Final price = 180 × 0.75 = 135\n\n⇒ Ratio = 10,800 ÷ 135 = 80\n\n⇒ Actual base cost = 100 × 80 = 8,000\n\n**∴ The correct answer is 8,000.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6917076df8d18b1739a8c841",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Three varieties of pulses costing 50/kg, 60/kg, and a third unknown price are mixed in the ratio 1:1:2. If the resulting mixture is sold at 72/kg, making a profit of 20% on the cost price, what is the price of the third variety of pulse per kg?",
+      "options": [
+        {
+          "label": "1",
+          "text": "65"
+        },
+        {
+          "label": "2",
+          "text": "60"
+        },
+        {
+          "label": "3",
+          "text": "62.5"
+        },
+        {
+          "label": "4",
+          "text": "70"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nPrice of 1st pulse = 50/kg\n\nPrice of 2nd pulse = 60/kg\n\nPrice of 3rd pulse = x/kg\n\nMixing ratio = 1 : 1 : 2\n\nSelling price of mixture = 72/kg\n\nProfit = 20%\n\n**Formula Used:**\n\nMixture CP per kg = (Sum of weighted costs) ÷ (Total ratio)\n\nSP = CP × (1 + profit%)\n\nCP = SP ÷ (1 + profit%)\n\n**Calculation:**\n\n⇒ CP of mixture = 72 ÷ 1.20 = 60\n\n⇒ Average CP = (1 × 50 + 1 × 60 + 2 × x) ÷ (1 + 1 + 2)\n\n⇒ 60 = (50 + 60 + 2x) ÷ 4\n\n⇒ 60 × 4 = 50 + 60 + 2x\n\n⇒ 240 = 110 + 2x\n\n⇒ 240 − 110 = 2x\n\n⇒ 130 = 2x\n\n⇒ x = 130 ÷ 2 = 65\n\n**∴ The correct answer is 65 per kg.**",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6917076e09500ae9e60c19a9",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given, x + 1/x = 6, then determine the value of x² + 1/x².",
+      "options": [
+        {
+          "label": "1",
+          "text": "32"
+        },
+        {
+          "label": "2",
+          "text": "36"
+        },
+        {
+          "label": "3",
+          "text": "34"
+        },
+        {
+          "label": "4",
+          "text": "30"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nx + 1/x = 6\n\n**Formula Used:**\n\n(x + 1/x)² = x² + 1/x² + 2\n\nx² + 1/x² = (x + 1/x)² − 2\n\n**Calculation:**\n\n⇒ (x + 1/x)² = 6²\n\n⇒ (x + 1/x)² = 36\n\n⇒ x² + 1/x² = 36 − 2\n\n⇒ x² + 1/x² = 34\n\n**∴ The correct answer is 34.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "6917076eb42ce61f207edb65",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A circular path surrounds a fountain. The outer radius is 5 meters and the inner radius is 3 meters. What percentage of the full outer circle's area is the path?",
+      "options": [
+        {
+          "label": "1",
+          "text": "56%"
+        },
+        {
+          "label": "2",
+          "text": "60%"
+        },
+        {
+          "label": "3",
+          "text": "64%"
+        },
+        {
+          "label": "4",
+          "text": "72%"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nOuter radius = 5 meters\n\nInner radius = 3 meters\n\n**Formula Used:**\n\nArea of circle = π × radius²\n\nArea of circular path = Outer circle area − Inner circle area\n\nPercentage of path area = (Path area ÷ Outer circle area) × 100\n\n**Calculation:**<",
+      "tags": [
+        "Mensuration"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,760 @@
+{
+  "test_id": "6961119baca828be88e239bc",
+  "title": "Section III (Computer Knowledge) Sectional Test - 05",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "computer",
+  "duration_min": 0,
+  "max_marks": 60.0,
+  "question_count": 20,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:23:19.693264+00:00",
+  "questions": [
+    {
+      "qid": "5f80107f7bad6522eb95622c",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following is NOT correct regarding Malwares?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A Virus infects other programs by modifying them to include a possibly evolved copy of itself."
+        },
+        {
+          "label": "2",
+          "text": "Worms copy themselves from system to system, rather than infiltrating legitimate files."
+        },
+        {
+          "label": "3",
+          "text": "Trojans are used to create back-doors on computers belonging to a secure network."
+        },
+        {
+          "label": "4",
+          "text": "Hoax invades a computer and monitors a user’s activities without consent."
+        }
+      ],
+      "correct": "4",
+      "solution": "Option __**4**__ is NOT correct.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n**Malware:**\n\n \n• Software designed to perform an **unwanted illegal act via the computer network**.\n \n• Can be classified **on the basis of execution**:\n \n \n• **Virus:** Infects other programs by modifying them to include a possibly evolved copy of itself.\n \n• **Worm:** Copy themselves from system to system, rather than infiltrating legitimate files.\n \n• **Trojan: **Impairs the security of a system and is used to create back-doors on computers belonging to a secure network.\n \n• **Hoax:** It invades the system and deletes an important file when a program is run to correct the harming system.\n \n• **Spyware:** Invades a computer and monitors a user’s activities without consent. **So, option 4 is NOT correct**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "64542a34e8e08abfd76378de",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A bug is a mistake in hardware/software. What other term in computer lingo would it be?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Glitch"
+        },
+        {
+          "label": "2",
+          "text": "Slug"
+        },
+        {
+          "label": "3",
+          "text": "Squid"
+        },
+        {
+          "label": "4",
+          "text": "Leech"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is **option 1**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The correct term in **computer lingo for a mistake in hardware/software is \"glitch\"**.\n \n• A **glitch** can be caused by various factors such as coding errors, hardware malfunctions, and power outages.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Slug:** It is not a term related to computer lingo. It refers to a slow-moving, slimy creature.\n \n• **Squid:** It is also not a term related to computer lingo. It refers to a sea creature with tentacles.\n \n• **Leech:** It is not a term related to computer lingo. It refers to a blood-sucking worm-like creature.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "65e89249d35287f35655cfc6",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Who among the following is the invention of J.C. Bose?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Electron."
+        },
+        {
+          "label": "2",
+          "text": "Wavelength theory of light"
+        },
+        {
+          "label": "3",
+          "text": "Cosmic radiation"
+        },
+        {
+          "label": "4",
+          "text": "Ultra short radio waves"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is **Ultra short radio waves**\n\n__**Explanation:**__\n\n__\n \n• **J.C. Bose:** Jagadish Chandra Bose was an Indian physicist, biologist, botanist, and an early writer of science fiction. He is considered one of the pioneers in the field of radio and microwave optics.\n \n• **Ultra short radio waves:** J.C. Bose conducted pioneering research on the propagation of electromagnetic waves, including ultra short radio waves.\n\n His work demonstrated the behavior of these waves, which laid the groundwork for the development of wireless communication technology.\n\n** [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] Key Points__**\n\n \n• **J.C. Bose:** Known for his groundbreaking experiments in the field of microwave optics and plant physiology, he was one of the first to use semiconductor junctions to detect radio signals.\n \n• **Ultra short radio waves:** These are electromagnetic waves with very short wavelengths, which Bose extensively studied. His research contributed significantly to the development of radio technology.\n\n**J.C. Bose's discoveries in the realm of ultra short radio waves **had a profound impact on modern communication systems, and his work is still recognized and celebrated in the field of physics and beyond.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "691c16b1d47cb28eb49846f0",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following software is used for RDBMS?",
+      "options": [
+        {
+          "label": "1",
+          "text": "MySQL"
+        },
+        {
+          "label": "2",
+          "text": "Windows"
+        },
+        {
+          "label": "3",
+          "text": "AutoCAD"
+        },
+        {
+          "label": "4",
+          "text": "Photoshop"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**MySQL.**__\n\n__** [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] Key Points__**\n\n__\n \n• **MySQL is a popular Relational Database Management System (RDBMS).**\n \n• It is used to store, manage, and retrieve data in a relational database.\n \n• **MySQL uses Structured Query Language (SQL) for database operations.**\n \n• It is open-source and widely used in web applications, enterprise systems, and for data analytics.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Windows:** Windows is an operating system and not an RDBMS.\n \n• **AutoCAD:** AutoCAD is a CAD (Computer-Aided Design) software used for creating 2D and 3D designs.\n \n• **Photoshop:** Photoshop is a graphics editing software used for image editing and manipulation.\n \n• **Other RDBMS Software:** Apart from MySQL, other RDBMS software include Oracle Database, Microsoft SQL Server, PostgreSQL, and SQLite.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "625d378812a386038afee039",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The time required to move the read/write head to the desired track of a disk is called",
+      "options": [
+        {
+          "label": "1",
+          "text": "Latency"
+        },
+        {
+          "label": "2",
+          "text": "Access time"
+        },
+        {
+          "label": "3",
+          "text": "Seek time"
+        },
+        {
+          "label": "4",
+          "text": "page fault"
+        }
+      ],
+      "correct": "3",
+      "solution": "**The correct answer is option (3)**\n\n__**Concept:-**__\n\n**Seek time:- **The seek time is the time it takes for the read/write head of the disc to move from one part of the disc to another.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The time it takes a hard disc controller to locate a specific piece of stored data is known as seek time.\n \n• The read/write head of the disc must move to the correct location when anything is read or written to it. Seeking refers to the physical placement of the disk's read/write head.\n \n• Due to the changing distance between the start point and where the read/write head has been directed to proceed, the seek time for a particular disc might vary.\n \n• The average seeks time is commonly used to measure seek time. Track to track and entire stroke are two more ways to quantify seek time.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**** Access time:-** It's the time it takes for a computer to request data and then for that request to be fulfilled. Memory, hard drives, CD-ROMs, and other mechanisms are all affected by access time.\n\n**Latency:- **Rotational time is another name for rotational latency. The interval between information requests and the hard disc moving to the right sector is known as the rotational delay.\n\n**Page fault:-** When a software tries to access data or code that is in its address space but not already in the system RAM, a page fault occurs.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "639c6619ea9821ac2da20902",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which organization defines the web standards?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Microsoft Corporation"
+        },
+        {
+          "label": "2",
+          "text": "IBM Corporation"
+        },
+        {
+          "label": "3",
+          "text": "Apple Inc"
+        },
+        {
+          "label": "4",
+          "text": "World Wide Web Consortium"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**World Wide Web Consortium**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The **World Wide Web Consortium (W3C)** is the **main international standards organization for the World Wide Web**.\n \n• It was founded in **1994 **and led by **Tim Berners-Lee**.\n \n• It is made up of **member organizations** that maintain full-time staff working together in the **development of standards for the World Wide Web.**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] Additional Information__**\n\n \n• **Microsoft Corporation** is an **American **multinational **technology corporation** producing computer software, consumer electronics, personal computers, and related services.\n \n• **IBM **or **International Business Machines** Corporation, nicknamed Big Blue, is an **American **multinational **technology corporation** headquartered in Armonk, New York, with operations in over 175 countries.\n \n• **Apple Inc.** is an **American **multinational **technology company** headquartered in Cupertino, California, United States.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6304bd19d90fd594b04ac9ba",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that best describes the truthfulness of the following statements.\n\n(i) The roller ball in trackball is situated on the top (instead of the base).\n\n(ii) A keyboard is a preferred device for CAD/CAM applications.",
+      "options": [
+        {
+          "label": "1",
+          "text": "(i) False, (ii) True"
+        },
+        {
+          "label": "2",
+          "text": "(i) True, (ii) True"
+        },
+        {
+          "label": "3",
+          "text": "(i) False, (ii) False"
+        },
+        {
+          "label": "4",
+          "text": "(i) True, (ii) False"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**(i) True, (ii) False**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• A** trackball is a computer cursor control device** used in many notebooks and laptop computers.\n\n \n \n• It is an upside-down mouse that rotates in place within a socket.\n \n• The **ball on the top** is half inserted, and by flickering fingers on the ball, the pointer can be moved.\n \n• Unlike a mechanical mouse ball that rolls along the desk surface, **a trackball is on the top or side of the mouse**.\n \n• This positioning lets the user to rotate the ball in two dimensions with their fingers or thumb, controlling the on-screen pointer without physically moving the whole mouse.\n \n \n \n• Hence, **statement 1 is true**.\n \n• CAD stands for computer-aided design and CAM stands for computer-aided manufacturing..\n \n• CAD/CAM applications are used to both design a product and program manufacturing processes, specifically, CNC machining.\n \n \n• CAM software uses the models and assemblies created in CAD software to generate toolpaths that drive machine tools to turn designs into physical parts.\n \n• These software are used to design and manufacture prototypes, finished parts, and production runs.\n \n \n \n• A **keyboard is not a preferred device **for CAD/CAM applications.\n \n• Hence, **statement 2 is not correct**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "5f0edbee4c645355daa84541",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the full form of ADSL in computer terminology?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Asymmetric Data Subscriber Line"
+        },
+        {
+          "label": "2",
+          "text": "Automatic Digital Subscriber Line"
+        },
+        {
+          "label": "3",
+          "text": "Asymmetric Digital Suspension Line"
+        },
+        {
+          "label": "4",
+          "text": "Asymmetric Digital Subscriber Line"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct option is **4** i.e., __**Asymmetric Digital Subscriber Line**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\n__\n \n• The full form of ADSL in computer terminology **Asymmetric Digital Subscriber Line**__.\n \n• Unlike regular dialup phone service, ADSL provides continuously-available, \"always-on\" connection. \n \n• ADSL is generally offered at downstream data rates from 512 Kbps to about 6 Mbps. \n \n• A form of ADSL,** known as Universal ADSL or G.lite, **has been approved as a standard by the ITU-TS.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "639c659c2e55537ea2c02aea",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following is not true about a Modem?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Modem is a device which modulates / demodulates carrier waves with digital information to transmit the data"
+        },
+        {
+          "label": "2",
+          "text": "Modems are measured in terms of speed by the amount of data they can send in a given unit time ­eg. bits per second."
+        },
+        {
+          "label": "3",
+          "text": "A modem shares the internet connection with multiple devices by dispatching packets of information"
+        },
+        {
+          "label": "4",
+          "text": "The modem communicates with the Internet Service Provider"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**a modem shares the internet connection with multiple devices by dispatching packets of information**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• A modem is a network devi",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "6798b25b78c6ee9fa6d31f39",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Arrange the following types of memory in increasing order based on data transfer rate.\n\na. HDD\n\nb. SSD\n\nc. RAM\n\nd. Cache memory\n\ne. Registers",
+      "options": [
+        {
+          "label": "1",
+          "text": "e b a d c"
+        },
+        {
+          "label": "2",
+          "text": "a b c d e"
+        },
+        {
+          "label": "3",
+          "text": "d c b a e"
+        },
+        {
+          "label": "4",
+          "text": "a e b c d"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**Option 2**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• The data transfer rate refers to the speed at which data can be read from or written to a memory device.\n \n• Memory devices arranged in increasing order of data transfer rate are **HDD (Hard Disk Drive), SSD (Solid State Drive), RAM (Random Access Memory), Cache Memory, and Registers**.\n \n• **HDD:** Slowest among the given options due to mechanical parts and magnetic storage.\n \n• **SSD:** Faster than HDD due to the absence of moving parts and reliance on flash storage technology.\n \n• **RAM, Cache Memory, and Registers:** Progressively faster due to their proximity to the CPU and design for high-speed data transfer.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **HDD (Hard Disk Drive):**\n\n \n \n• Uses spinning magnetic disks to read/write data.\n \n• Data transfer rates typically range between 80-160 MB/s.\n \n \n \n• **SSD (Solid State Drive):**\n \n \n• Utilizes flash memory for data storage, enabling faster access speeds.\n \n• Data transfer rates range from 200 MB/s to 3,500 MB/s or more, depending on the interface (SATA, NVMe).\n \n \n \n• **RAM (Random Access Memory):**\n \n \n• Volatile memory directly accessible by the CPU.\n \n• Data transfer rates typically range between 10-25 GB/s for DDR4 RAM.\n \n \n \n• **Cache Memory:**\n \n \n• A small-sized, high-speed memory located inside or near the CPU.\n \n• Used to store frequently accessed data for quick retrieval.\n \n \n \n• **Registers:**\n \n \n• Smallest and fastest memory directly within the CPU.\n \n• Handles data at CPU speed, typically in the range of several GB/s.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "602a7c5ec66c82d70c2dbe6d",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The hexadecimal representation of (567)₈ is",
+      "options": [
+        {
+          "label": "1",
+          "text": "1AF"
+        },
+        {
+          "label": "2",
+          "text": "D77"
+        },
+        {
+          "label": "3",
+          "text": "177"
+        },
+        {
+          "label": "4",
+          "text": "133"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**177.**__\n\n__Concept:__\n\nStep 1: Conversion: Octal to decimal\n\nStep 2: Conversion: decimal to Hexadecimal\n\n__Calculation:__\n\nStep 1:\n\nConversion: Octal to decimal\n\n(513)8 = 5 × 82 + 6 × 8 + 7 × 80\n\n= 375\n\nStep 2:\n\nConversion: decimal to Hexadecimal\n\n \n \n\n \n \n16\n\n \n \n \n375\n\n \n \n \n \n\n \n \n \n\n \n \n16\n\n \n \n \n23\n\n \n \n \n**7**\n\n \n \n \n\n \n \n16\n\n \n \n \n1\n\n \n \n \n**7**\n\n \n \n \n\n \n \n \n\n \n \n \n0\n\n \n \n \n1\n\n \n \n \n\n \n\nRead the remainder from bottom to top: 177\n\nTherefore, hexadecimal equivalent of octal number (567)8 is 177.\n\n \n \n\n \n \n0000\n\n \n \n \n0001\n\n \n \n \n0010\n\n \n \n \n0011\n\n \n \n \n0100\n\n \n \n \n0101\n\n \n \n \n0110\n\n \n \n \n0111\n\n \n \n \n1000\n\n \n \n \n1001\n\n \n \n \n1010\n\n \n \n \n1011\n\n \n \n \n1100\n\n \n \n \n1101\n\n \n \n \n1110\n\n \n \n \n1111\n\n \n \n \n\n \n \n0\n\n \n \n \n1\n\n \n \n \n2\n\n \n \n \n3\n\n \n \n \n4\n\n \n \n \n5\n\n \n \n \n6\n\n \n \n \n7\n\n \n \n \n8\n\n \n \n \n9\n\n \n \n \nA\n\n \n \n \nB\n\n \n \n \nC\n\n \n \n \nD\n\n \n \n \nE\n\n \n \n \nF\n\n \n \n \n\n \n\n__Binary to Hexadecimal conversion table:__\n\nTips and Tricks:\n\nEvery digit in octal represents 3 bits of binary and every digit in hexadecimal is 4 bits in binary\n\n(567)8 = (101 110 111)2\n\nForming pairs of 4 to get the hexadecimal representation, we get:\n\n(101 110 111)2 = (0001 0111 0111)2 = (177)16"
+    },
+    {
+      "qid": "658d48de8a9d2d9af7b7fff1",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which computer virus records every movement you make on your computer?",
+      "options": [
+        {
+          "label": "1",
+          "text": "DOS"
+        },
+        {
+          "label": "2",
+          "text": "Malware Android"
+        },
+        {
+          "label": "3",
+          "text": "Trapper"
+        },
+        {
+          "label": "4",
+          "text": "Key logger"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is __**Key logger**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• A **keylogger **is a type of **surveillance technology** used to monitor and record each keystroke typed on a specific computer's keyboard.\n \n• Keylogger software typically runs in the background, unseen by the user, recording every keystroke made on the computer.\n \n• When used maliciously, keyloggers are often secretly installed on a person's device without their knowledge.\n \n• The information collected can include sensitive data like usernames, passwords, credit card numbers, and other personal details. This information can then be used for fraudulent activities.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__ **\n\nThe other options listed are not necessarily associated with recording every movement on a computer:\n\n \n• **DOS **typically refers to Denial of Service, a type of attack designed to overload a network or service, causing it to be unavailable to its intended users.\n \n• **Malware Android **refers to malicious software specifically designed to target Android devices. While this can take many forms, it's not necessarily linked to recording every movement.\n \n• **Trapper** doesn't match any notable virus category.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "602cf0f9789cb1a8aef2cbe0",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following function key is used to display the help screen?",
+      "options": [
+        {
+          "label": "1",
+          "text": "F1"
+        },
+        {
+          "label": "2",
+          "text": "F2"
+        },
+        {
+          "label": "3",
+          "text": "F9"
+        },
+        {
+          "label": "4",
+          "text": "F12"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**F1**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The function keys are included on the keyboard since the **1960s**.\n \n• In total there are **12 function keys** but some computers have **19 function keys**.\n \n• They are displayed on the **top of the computer** keyboard.\n \n• They are used either **single** or with some other keys in** combination**.\n\n \n \n\n **Function Key**\n **Uses**\n \n \n\n F1\n To display a help screen.\n \n \n\n F2\n Highlight file/folder for renaming.\n \n \n\n F3\n Open search tool.\n \n \n\n F4\n When used with Alt closes the window.\n \n \n\n F5\n Refresh.\n \n \n\n F6\n Goes to the next page in split-screen in Microsoft Word.\n \n \n\n F7\n When used with shift opens Thesaurus in Microsoft word.\n \n \n\n F8\n Boot windows.\n \n \n\n F9\n Sends and receives emails in outlook.\n \n \n\n F10\n It Opens the menu bar.\n \n \n\n F11\n Exhibit and enter full-screen mode in browsers.\n \n \n\n F12\n Opens Save As in Word.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "601510a6b4a84d2aeefc7f4f",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Match the following memories with their respective properties.\n\n \n \n\n (a) Cache Memory \n (i) It is used in very high-speed search applications.\n \n \n\n (b) Flash memory\n (ii)&",
+      "options": [
+        {
+          "label": "1",
+          "text": "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)"
+        },
+        {
+          "label": "2",
+          "text": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+        },
+        {
+          "label": "3",
+          "text": "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)"
+        },
+        {
+          "label": "4",
+          "text": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is **__(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii).__**\n\n \n• Cache memory is an **extremely fast memory that stores data of the main memory** that is used frequently by the CPU.\n \n• Flash memory is a non-volatile memory used for the **storage and transfer of data between PCs and digital devices.** Flash memory is used to clear and rewrite data.\n \n• Also** referred to as Associative Memory,** CAM is used for search-intensive applications. CAM **compares the input search data** to the stored data table and returns the matching data address.\n \n• ROM is a **non-volatile memory** where the memory **content could be read multiple times but could not be written.**"
+    },
+    {
+      "qid": "68e849b195c86625084480df",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following is an extension of the most commonly used audio file?",
+      "options": [
+        {
+          "label": "1",
+          "text": ".gif"
+        },
+        {
+          "label": "2",
+          "text": ".mp3"
+        },
+        {
+          "label": "3",
+          "text": ".jpeg"
+        },
+        {
+          "label": "4",
+          "text": ".docx"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**MP3**__\n\n__** [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] Key Points__**\n\n__\n \n• **MP3 (MPEG-1 Audio Layer III) is one of the most widely used audio file extensions.**\n \n• It is a compressed audio format that reduces file size while maintaining acceptable sound quality.\n \n• **MP3 files are compatible with most devices and software, making them the preferred choice for audio storage and playback.**\n \n• Other formats like GIF, JPEG, and DOCX are not audio file extensions but are used for images and documents respectively.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **GIF:** Graphics Interchange Format, commonly used for images and animations.\n \n• **JPEG:** Joint Photographic Experts Group, a widely used format for images.\n \n• **DOCX:** A file extension for documents created in Microsoft Word.\n \n• **MP3:** Specifically designed for audio files, making it the correct answer for this question.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "68741cb57dcd376678b1a33b",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the following abbreviations represents a volatile memory technology commonly used for the primary working memory in personal computers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "CMOS"
+        },
+        {
+          "label": "2",
+          "text": "NVMe"
+        },
+        {
+          "label": "3",
+          "text": "DRAM"
+        },
+        {
+          "label": "4",
+          "text": "SRAM"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**DRAM**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] __Key Points__\n\n__\n \n• **DRAM (Dynamic Random Access Memory)** is a type of volatile memory that is widely used as the primary working memory (RAM) in personal computers.\n \n• It requires constant refreshing of data multiple times per second to retain information, making it \"dynamic.\"\n \n• DRAM is faster than traditional storage devices such as hard drives but slower than SRAM (Static Random Access Memory).\n \n• It is cost-effective and offers high storage density, which is why it is the preferred choice for system memory in most PCs and laptops.\n \n• DRAM modules are available in various forms, such as DDR (Double Data Rate) versions like DDR3, DDR4, and DDR5, which enhance speed and efficiency.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Volatile Memory:**\n\n \n \n• Volatile memory requires a constant power supply to retain data. When the power is turned off, all data is lost.\n \n• Examples include DRAM and SRAM, used mainly for temporary data storage during system operations.\n \n \n \n• **SRAM (Static Random Access Memory):**\n \n \n• SRAM is another type of volatile memory that does not require constant refreshing to retain data.\n \n• It is faster but more expensive and less dense compared to DRAM, making it suitable for cache memory in CPUs.\n \n \n \n• **DDR (Double Data Rate) DRAM:**\n \n \n• DDR memory improves the performance of DRAM by transferring data on both the rising and falling edges of the clock signal.\n \n• DDR4 and DDR5 are the most commonly used DRAM types in modern computers, offering higher bandwidth and lower power consumption.\n \n \n \n• **Non-Volatile Memory:**\n \n \n• Non-volatile memory retains data even when the power is turned off, making it ideal for long-term data storage.\n \n• Examples include flash memory, SSDs, and ROM (Read-Only Memory).\n \n \n \n• **CMOS (Complementary Metal-Oxide-Semiconductor):**\n \n \n• CMOS is a low-power semiconductor technology used for constructing integrated circuits.\n \n• It is commonly used for small amounts of memory in devices like BIOS to store system settings.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "68fb8bb5e833731e5f59be97",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Microsoft Word",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In MS Word 2007, which of the following keyboard shortcuts can be used to highlight text from the current position to the end of the current line?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Shift + End"
+        },
+        {
+          "label": "2",
+          "text": "Shift + Home"
+        },
+        {
+          "label": "3",
+          "text": "Ctrl + End"
+        },
+        {
+          "label": "4",
+          "text": "Ctrl + Home"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is __**Shift + End**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• **Shift + End**: In **MS Word 2007**, pressing **Shift + End** is a shortcut to highlight text from the **current cursor position to the end of the current line**. This is the correct option for highlighting text efficiently.\n \n• **Shift + Home**: While **Shift + Home** is also a text-highlighting shortcut, it highlights text from the **current cursor position to the beginning of the current line**. This is not the required action in the question.\n \n• **Ctrl + End**: This shortcut moves the cursor to the **end of the document**. It does not highlight text in the process, making it incorrect for the given question.\n \n• **Ctrl + Home**: Similarly, **Ctrl + Home** moves the cursor to the be",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Microsoft Word"
+      ]
+    },
+    {
+      "qid": "66a0d852c0c1d46210b2aa5a",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which of the given options best describes the truth of the following statements?\n\ni) In Windows 10, the 'Task Manager' can be used to monitor system performance.\n\nii) In Windows 10, the 'Network & Internet' settings include options for Wi-Fi, Ethernet, and VPN.\n\niii) In Windows 10, 'Cortana' is a virtual assistant.",
+      "options": [
+        {
+          "label": "1",
+          "text": "i-correct, ii-correct, iii-incorrect"
+        },
+        {
+          "label": "2",
+          "text": "i-correct, ii-incorrect, iii-correct"
+        },
+        {
+          "label": "3",
+          "text": "i-correct, ii-correct, iii-correct"
+        },
+        {
+          "label": "4",
+          "text": "i-incorrect, ii-correct, iii-correct"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is __**i - correct, ii - correct, iii - correct**__\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• **i. In Windows 10, the 'Task Manager' can be used to monitor system performance.**\n\n \n \n• Explanation: The 'Task Manager' in Windows 10 provides a detailed view of the system's performance, including CPU usage, memory usage, disk activity, and network activity.\n \n• Verdict: Correct.\n \n \n \n• **ii. In Windows 10, the 'Network & Internet' settings include options for Wi-Fi, Ethernet, and VPN.**\n \n \n• Explanation: The 'Network & Internet' settings in Windows 10 do indeed include options to configure Wi-Fi, Ethernet, and VPN connections, allowing users to manage their network settings easily.\n \n• Verdict: Correct.\n \n \n \n• **iii. In Windows 10, 'Cortana' is a virtual assistant.**\n \n \n• Explanation: 'Cortana' is Microsoft's virtual assistant in Windows 10, designed to help users with various tasks such as setting reminders, searching the web, and managing calendars.\n \n• Verdict: Correct.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "69832037e3b8774000e8c67a",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "While working on a large worksheet, which element should be used to keep the top heading row visible at all times when scrolling down to edit data in lower rows?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sort A to Z"
+        },
+        {
+          "label": "2",
+          "text": "Freeze Panes"
+        },
+        {
+          "label": "3",
+          "text": "Conditional Formatting"
+        },
+        {
+          "label": "4",
+          "text": "Merge Cells"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**Freeze Panes**__.\n\n**__Key Points__**\n\n__\n \n• **Freeze Panes** is an Excel feature used to lock specific rows or columns in place so they remain visible while scrolling through the rest of the worksheet.\n \n• This functionality is particularly useful when working on large datasets, ensuring that important headers or labels are always accessible.\n \n• To apply Freeze Panes, go to the **View** tab in Excel and select the desired row or column to freeze.\n \n• When activated, it divides the worksheet into panes, allowing the frozen section to stay static while other sections can be scrolled through.\n \n• This feature improves data visibility, making it easier to analyze or edit information without losing track of key reference points.\n\n**Additional Information__**\n\n \n• **Steps to Use Freeze Panes:**\n\n \n \n• Navigate to the **View** tab in Excel.\n \n• Select the row below or the column to the right of the area you want to freeze.\n \n• Click on **Freeze Panes** and choose from the options: **Freeze Panes, Freeze Top Row, or Freeze First Column**.\n \n \n \n• **Benefits of Freeze Panes:**\n \n \n• Enhances readability of large spreadsheets by keeping headers or labels in view.\n \n• Facilitates easier navigation and data entry without losing track of reference points.\n \n \n \n• **Limitations:**\n \n \n• Freeze Panes works only within the same worksheet and cannot be applied across multiple sheets.\n \n• It may not be suitable for smaller datasets where all rows and columns are already visible."
+    },
+    {
+      "qid": "69678c7f1823c05ed2510f6f",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which is short cut key press to insert comment?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Shift + F1"
+        },
+        {
+          "label": "2",
+          "text": "Shift + F2"
+        },
+        {
+          "label": "3",
+          "text": "Alt + O"
+        },
+        {
+          "label": "4",
+          "text": "Alt + C"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is __**Shift + F2**__.\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• **Shift + F2** is the shortcut key used to insert a comment in various software applications, such as Microsoft Excel.\n \n• Using this shortcut allows users to quickly add annotations or explanations to specific cells or sections of their work.\n \n• Inserting comments can be helpful for collaboration, as it provides context or feedback directly within the document.\n \n• Shortcut keys like **Shift + F2** enhance productivity by reducing the need to navigate through menus.\n \n• This feature is commonly used in environments where detailed documentation or notes are required for clarity.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **Common Uses of Comments:**\n\n \n \n• **Data Analysis:** Used to provide explanations or assumptions behind calculations.\n \n• **Project Collaboration:** Helps team members understand the rationale behind certain data entries or decisions.\n \n• **Documentation:** Useful for keeping track of changes or providing additional context within a file.\n \n \n \n• **Other Useful Shortcut Keys:**\n \n \n• **Ctrl + C:** Copy selected content.\n \n• **Ctrl + V:** Paste copied content.\n \n• **Ctrl + Z:** Undo the last action.\n \n• **Ctrl + Y:** Redo the last undone action.\n \n \n \n• **Advantages of Shortcut Keys:**\n \n \n• Speeds up repetitive tasks, improving overall productivity.\n \n• Minimizes the need for navigating through menus and options.\n \n• Reduces strain by allowing quick access to frequently used features.\n \n \n \n• **Important Points:**\n \n \n• Shortcut keys may vary depending on the software being used.\n \n• Customizable shortcuts can be created in some applications for personalized workflows.\n \n• Learning and utilizing shortcut keys can significantly enhance efficiency and user experience.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

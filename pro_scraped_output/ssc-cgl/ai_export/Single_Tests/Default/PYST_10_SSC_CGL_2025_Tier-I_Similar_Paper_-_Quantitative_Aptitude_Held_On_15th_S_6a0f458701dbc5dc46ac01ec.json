@@ -1,0 +1,844 @@
+{
+  "test_id": "6a0f458701dbc5dc46ac01ec",
+  "title": "PYST 10: SSC CGL 2025 Tier-I Similar Paper - Quantitative Aptitude (Held On: 15th Sep 2025 Shift 1)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:24:26.014515+00:00",
+  "questions": [
+    {
+      "qid": "6936c3597c90ac4b9a62443f",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If A : B = 3 : 4, B : C = 5 : 2, and C : D = 3 : 7, find the ratio A : D.",
+      "options": [
+        {
+          "label": "1",
+          "text": "27 : 56"
+        },
+        {
+          "label": "2",
+          "text": "35 : 48"
+        },
+        {
+          "label": "3",
+          "text": "45 : 56"
+        },
+        {
+          "label": "4",
+          "text": "50 : 63"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nA : B = 3 : 4\n\nB : C = 5 : 2\n\nC : D = 3 : 7\n\n**Formula Used:**\n\nTo find the overall ratio A : D, combine ratios step by step:\n\nA : D = (A : B × B : C × C : D)\n\n**Calculation:**&l",
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "6936c35a040c2fb12592dee5",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify: (9 / 18 ÷ 4 / 8) × (15 / 5 ÷ 9 / 3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 / 4"
+        },
+        {
+          "label": "2",
+          "text": "4 / 3"
+        },
+        {
+          "label": "3",
+          "text": "6 / 5"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n(9 / 18 ÷ 4 / 8) × (15 / 5 ÷ 9 / 3)\n\nCorrect option: 4\n\n**Formula Used:**\n\na / b ÷ c / d = (a × d) / (b × c)\n\nTo simplify, solve fractions step by step and then multiply.\n\n**Calculation:**\n\n⇒ (9 / 18 ÷ 4 / 8) × (15 / 5 ÷ 9 / 3)\n\n⇒ [(9 × 8) / (18 × 4)] × [(15 × 3) / (5 × 9)]\n\n⇒ [72 / 72] × [45 / 45]\n\n⇒ 1 × 1\n\n⇒ 1\n\n**∴ The correct answer is 1.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6936c35ad1f4c4b268b44afc",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify: (2.5 + 1/4)³ - (7/4 × 1.6)",
+      "options": [
+        {
+          "label": "1",
+          "text": "17.996875"
+        },
+        {
+          "label": "2",
+          "text": "18.5"
+        },
+        {
+          "label": "3",
+          "text": "19.3"
+        },
+        {
+          "label": "4",
+          "text": "20.2"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n(2.5 + 1/4)³ − (7/4 × 1.6)\n\n**Formula used:**\n\nBODMAS rule\n\n**Calculations:**\n\n⇒ (2.5 + 1/4)³ − (7/4 × 1.6)\n\n⇒ (5/2 + 1/4)³ − (7/4 × 8/5)\n\n⇒ (11/4)³ − 56/20\n\n⇒ 1331/64 − 14/5\n\n⇒ (1331×5 − 14×64) / 320\n\n⇒ (6655 − 896) / 320\n\n⇒ 5759 / 320\n\n⇒ 17.996875\n\n**∴ The simplified value is 17.996875.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6936c35ad366da7151ec7792",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify: ((2.5 + 1/2) ÷ (3.5 - 1/4)) + 0.75",
+      "options": [
+        {
+          "label": "1",
+          "text": "1.573"
+        },
+        {
+          "label": "2",
+          "text": "1.473"
+        },
+        {
+          "label": "3",
+          "text": "1.673"
+        },
+        {
+          "label": "4",
+          "text": "1.773"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nExpression: ((2.5 + 1/2) ÷ (3.5 - 1/4)) + 0.75\n\n**Formula Used:**\n\nCombine terms using addition and subtraction.\n\nApply division and then addition.\n\n**Calculation:**\n\n((2.5 + 1/2) ÷ (3.5 - 1/4)) + 0.75\n\n⇒ (2.5 + 0.50 ÷ (3.5 - 0.25) + 0.75\n\n⇒ (3 ÷ 3.25) + 0.75\n\n⇒ 0.923 + 0.75 = 1.673\n\n**∴ The correct answer is 1.673.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6936c35b66aa4663fe164492",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A container holds a mixture of three liquids X, Y, and Z in ratio 3 : 4 : 5. If 9 liters of liquid X, 16 liters of liquid Y, and a certain amount of liquid Z are added to the container, the new ratio of liquids A, B, and C becomes 5 : 8 : 10. Find the quantity (in liters) of liquid Z added.",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 liters"
+        },
+        {
+          "label": "2",
+          "text": "16 liters"
+        },
+        {
+          "label": "3",
+          "text": "18 liters"
+        },
+        {
+          "label": "4",
+          "text": "20 liters"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nInitial ratio of X : Y : Z = 3 : 4 : 5\n\nAdded quantities:\n\nX = 9 liters\n\nY = 16 liters\n\nZ = x liters\n\nNew ratio = 5 : 8 : 10\n\n**Formula used:**\n\nNew quantity = Old quantity + Added quantity\n\nRatio comparison method\n\n**Calculations:**\n\nLet initial quantities be:&",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6936c35b553f9934c9aa42df",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Rohit started a business with a sum of 40,000. Suresh joined him 9 months later with a sum of 30,000. At what respective ratio will the two share the profit after three years?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16 : 7"
+        },
+        {
+          "label": "2",
+          "text": "16 : 9"
+        },
+        {
+          "label": "3",
+          "text": "15 : 8"
+        },
+        {
+          "label": "4",
+          "text": "14 : 9"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRohit's investment = 40,000\n\nSuresh's investment = 30,000\n\nSuresh joined 9 months after Rohit\n\nTotal time = 3 years (36 months)\n\n**Formula Used:**\n\nInvestment Ratio = (Investment × Time invested)\n\n<p&g",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6936c35bc53c5811572854df",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average weight of 15 people is 70 kg. If one person leaves and the new average becomes 69 kg, what is the weight of the person who left?",
+      "options": [
+        {
+          "label": "1",
+          "text": "84"
+        },
+        {
+          "label": "2",
+          "text": "80"
+        },
+        {
+          "label": "3",
+          "text": "85"
+        },
+        {
+          "label": "4",
+          "text": "75"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nAverage weight of 15 people = 70 kg\n\nNew average weight after one person leaves = 69 kg\n\nNumber of people remaining = 14\n\n**Formula Used:**\n\nTotal weight of people = Average × Number of people\n\nWeight of the person who left = Initial total weight - New total weight\n\n**Calculation:**\n\n⇒ Initial total weight = 70 × 15 = 1050 kg\n\n⇒ New total weight = 69 × 14 = 966 kg\n\n⇒ Weight of the person who left = 1050 - 966 = 84 kg\n\n**∴ The correct answer is 84.**",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "6936c35c5e35d25eba05c00b",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Data Interpretation",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Table - Monthly Sales (in ₹000)\n\n \n \n\n Salesperson\n May\n June\n July\n Aug\n \n \n\n R\n 45\n 50\n 65\n 70\n \n \n\n S\n 60\n 62\n 75\n 80\n \n \n\nWhat are the average monthly sales of R?",
+      "options": [
+        {
+          "label": "1",
+          "text": "58,000"
+        },
+        {
+          "label": "2",
+          "text": "57,500"
+        },
+        {
+          "label": "3",
+          "text": "55,000"
+        },
+        {
+          "label": "4",
+          "text": "60,000"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nMonthly sales of R (in ₹000):\n\nMay = 45\n\nJune = 50\n\nJuly = 65\n\nAugust = 70\n\n**Formula used:**\n\nAverage = Total sales ÷ Number of months\n\n**Calculations:**\n\n⇒ Total sales = 45 + 50 + 65 + 70 = 230\n\n⇒ Number of months = 4\n\n⇒ Average monthly sales = 230 ÷ 4 = 57.5\n\n**∴ The average monthly sales of R are ₹57500 thousand.**",
+      "tags": [
+        "Tabulation"
+      ]
+    },
+    {
+      "qid": "6936c35ceddebdacfa3e5e9f",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In how many years will 40,000 become 53,240 at 10% compound interest per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nPrincipal (P) = 40,000\n\nAmount (A) = 53,240\n\nRate (r) = 10% per annum\n\n**Formula used:**\n\nA = P (1 + r/100)t\n\n**Calculations:**\n\n⇒ 53,240 = 40,000 (1 + 10/100)t\n\n⇒ 53,240 = 40,000 (1.1)t\n\n⇒ 53,240 ÷ 40,000 = (1.1)t\n\n⇒ 1.331 = (1.1)t\n\n⇒ 1.1 × 1.1 × 1.1 = 1.331\n\n⇒ (1.1)³ = 1.331\n\n⇒ t = 3 years\n\n**∴ 40,000 will become 53,240 in 3 years.**",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "6936c35d9d060b64f3248f1d",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of the profit to the cost price of a product is 3: 5. What is the ratio of its selling price to its profit?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 : 3"
+        },
+        {
+          "label": "2",
+          "text": "7 : 2"
+        },
+        {
+          "label": "3",
+          "text": "11 : 3"
+        },
+        {
+          "label": "4",
+          "text": "9 : 2"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nProfit : Cost Price = 3 : 5\n\n**Formula Used:**\n\nSelling Price (SP) = Cost Price (CP) + Profit\n\nRatio of SP : Profit = SP / Profit\n\n**Calculation:**\n\nLet Cost Price (CP) = 5x and Profit = 3x\n\n⇒ Selling Price (SP) = CP + Profit = 5x + 3x = 8x\n\n⇒ Ratio of SP : Profit = SP / Profit = 8x / 3x = 8 : 3\n\n**∴ The correct answer is 8 : 3.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6936c35d33d1843767d10422",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A retail buyer buys 12 units for the price of 10 units from a wholesaler. If he sells each unit at a 5% discount on its marked price, what is his profit percentage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.12"
+        },
+        {
+          "label": "2",
+          "text": "0.15"
+        },
+        {
+          "label": "3",
+          "text": "0.14"
+        },
+        {
+          "label": "4",
+          "text": "0.13"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n12 units bought for the price of 10 units.\n\n5% discount on marked price while selling.\n\n**Formula Used:**\n\nProfit % = (Profit / Cost Price) × 100\n\nCost Price per unit = Total Price Paid / Units Bought\n\nSelling Price per unit = Marked Price × (1 - Discount %)\n\nProfit = Selling Price per unit - Cost Price per unit\n\n<",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6936c35d1a4315087efb2064",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A gadget is marked up by 50% and sold at a 10% discount. If the profit earned is 700, what was the cost price (CP)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1,500"
+        },
+        {
+          "label": "2",
+          "text": "1800"
+        },
+        {
+          "label": "3",
+          "text": "2000"
+        },
+        {
+          "label": "4",
+          "text": "2500"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nMarkup Percentage = 50%\n\nDiscount Percentage = 10%\n\nProfit Earned = 700\n\n**Formula Used:**\n\nSelling Price (SP) = Marked Price (MP) × (1 - Discount Percentage / 100)\n\nCost Price (CP) = SP - Profit\n\nMarked Price (MP) = CP × (1 + Markup Percentage / 100)\n\n**Calculation:**\n\nLet CP = x.\n\nMarked Price (MP) = x × (1 + 50 / 100)\n\n⇒ MP = x × 1.5\n\nSelling Price (SP) = MP × (1 - 10 / 100)\n\n⇒ SP = (x × 1.5) × 0.9\n\n⇒ SP = x × 1.35\n\nProfit = SP - CP\n\n⇒ 700 = x × 1.35 - x\n\n⇒ 700 = 0.35x\n\n⇒ x = 700 / 0.35\n\n⇒ x = 2000\n\n**∴ The correct answer is 2000.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6936c35ef104aae8612fb680",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A container contains 80 liters of pure milk. 8 liters of milk are drawn out and replaced by water. Then, 8 liters of the mixture are drawn out and replaced by water again. What is the ratio of milk to water in the final mixture?",
+      "options": [
+        {
+          "label": "1",
+          "text": "80 : 20"
+        },
+        {
+          "label": "2",
+          "text": "81 : 19"
+        },
+        {
+          "label": "3",
+          "text": "72 : 28"
+        },
+        {
+          "label": "4",
+          "text": "75 : 25"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nTotal mixture = 80 liters (pure milk)\n\nMilk replaced each time = 8 liters\n\nNumber of operations = 2\n\n**Formula used:**\n\nMilk left = Initial milk × (1 − quantity replaced ÷ total quantity)ⁿ\n\n**Calculations:**\n\n⇒ Initial milk = 80 liters\n\n⇒ Quantity r",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6936c35e8d433b3fd0305510",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A cube having a side of 12 cm is melted down and molded into 64 identical smaller solid cubes. What is the ratio of the total surface area of the original cube to the total surface area of all 64 smaller cubes?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 : 2"
+        },
+        {
+          "label": "2",
+          "text": "2 : 1"
+        },
+        {
+          "label": "3",
+          "text": "1 : 8"
+        },
+        {
+          "label": "4",
+          "text": "1 : 4"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nSide of the original cube = 12 cm\n\nNumber of smaller cubes = 64\n\n**Formula Used:**\n\nTotal Surface Area of a cube = 6 × (side)²\n\nVolume of a cube = (side)³\n\n**Calculation:**\n\nVolume of the original cube:\n\n⇒ (12)³ = 1728 cm³\n\nVolume of each smaller cube:\n\n⇒ 1728 / 64 = 27 cm³\n\nSide of each smaller cube:\n\n⇒ (27)¹/³ = 3 cm\n\nTotal Surface Area of the original cube:\n\n⇒ 6 × (12)² = 6 × 144 = 864 cm²\n\nTotal Surface Area of one smaller cube:\n\n⇒ 6 × (3)² = 6 × 9 = 54 cm²\n\nTotal Surface Area of all 64 smaller cubes:\n\n⇒ 64 × 54 = 3456 cm²\n\nRatio of Total Surface Area of the original cube to Total Surface Area of all smaller cubes:\n\n⇒ 864 : 3456\n\n⇒ 1 : 4\n\n**∴ The correct answer is 1 : 4.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6936c35e6cdd7f219af3f35a",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many smaller cones with a height of 6 cm and radius of 5 cm can be produced by melting down a larger cone with a height of 18 cm and a radius of 15 cm?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9"
+        },
+        {
+          "label": "2",
+          "text": "27"
+        },
+        {
+          "label": "3",
+          "text": "81"
+        },
+        {
+          "label": "4",
+          "text": "18"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nHeight of smaller cone = 6 cm\n\nRadius of smaller cone = 5 cm\n\nHeight of larger cone = 18 cm\n\nRadius of larger cone = 15 cm\n\n**Formula Used:**\n\nVolume of a cone = (1/3) × π × r² × h\n\nNumber of smaller cones = Volume of larger cone / Volume of smaller cone\n\n**Calculation:**\n\n⇒ Volume of larger cone = (1/3) × π × (15)² × 18\n\n⇒ Volume of larger cone = (1/3) × π × 225 × 18\n\n⇒ Volume of larger cone = (1/3) × π × 4050\n\n⇒ Volume of larger cone = 1350π\n\n⇒ Volume of smaller cone = (1/3) × π × (5)² × 6\n\n⇒ Volume of smaller cone = (1/3) × π × 25 × 6\n\n⇒ Volume of smaller cone = (1/3) × π × 150\n\n⇒ Volume of smaller cone = 50π\n\n⇒ Number of smaller cones = Volume of larger cone / Volume of smaller cone\n\n⇒ Number of smaller cones = 1350π / 50π\n\n⇒ Number of smaller cones = 27\n\n**∴ The correct answer is 27.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6936c35fd1f4c4b268b44b77",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A cone and cylinder have the same radius (R). Their volumes are equal. If the total height of the cone and the cylinder is 20 cm, and the radius R = 6 cm, find the height of the cone.",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 cm"
+        },
+        {
+          "label": "2",
+          "text": "15 cm"
+        },
+        {
+          "label": "3",
+          "text": "5 cm"
+        },
+        {
+          "label": "4",
+          "text": "10 cm"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRadius of the cone and cylinder (R) = 6 cm\n\nTotal height of cone and cylinder = 20 cm\n\nVolume of cone = Volume of cylinder\n\n**Formula Used:**\n\nVolume of cone = (1/3) × π × R² × h꜀ₒₙₑ\n\nVolume of cylinder = π × R² × h꜀yₗᵢₙdₑᵣ\n\nh꜀ₒₙₑ + h꜀yₗᵢₙdₑᵣ = Total height\n\n**Calculation:**\n\nFrom h꜀ₒₙₑ + h꜀yₗᵢₙdₑᵣ = 20, let h꜀ₒₙₑ = h and h꜀yₗᵢₙdₑᵣ = (20 - h)\n\nEquating volumes: (1/3) × π × R² × h = π × R² × (20 - h)\n\n⇒ (1/3) × 6² × h = 6² × (20 - h)\n\n⇒ (1/3) × 36 × h = 36 × (20 - h)\n\n⇒ 12h = 720 - 36h\n\n⇒ 12h + 36h = 720\n\n⇒ 48h = 720\n\n⇒ h = 720 / 48\n\n⇒ h = 15 cm\n\n**∴ The correct answer is 15 cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6936c35f265f7e30274f3331",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A pyramid has a base area of 45 cm² and height 12 cm. What is its volume?",
+      "options": [
+        {
+          "label": "1",
+          "text": "180 cm³"
+        },
+        {
+          "label": "2",
+          "text": "270 cm³"
+        },
+        {
+          "label": "3",
+          "text": "360 cm³"
+        },
+        {
+          "label": "4",
+          "text": "150 cm³"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nBase area = 45 cm²\n\nHeight = 12 cm\n\n**Formula Used:**\n\nVolume of a pyramid = (1/3) × Base area × Height\n\n**Calculation:**\n\n⇒ Volume = (1/3) × 45 × 12\n\n⇒ Volume = 15 × 12\n\n⇒ Volume = 180 cm³\n\n**∴ The correct answer is 180 cm³.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6936c360a7c7a2b420cd2d2a",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A circular disc of radius 5 cm is inscribed inside an equilateral triangle. What is the approximate area of the remaining portion of the triangle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "65.5 cm²"
+        },
+        {
+          "label": "2",
+          "text": "45.1 cm²"
+        },
+        {
+          "label": "3",
+          "text": "72.8 cm²"
+        },
+        {
+          "label": "4",
+          "text": "51.4 cm²"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nRadius of inscribed circle (r) = 5 cm\n\nTriangle is equilateral\n\n**Formula used:**\n\nFor equilateral triangle, r = a√3 ÷ 6\n\nArea of equilateral triangle = √3 ÷ 4 × a²\n\nArea of circle = π × r²\n\n**Calculations:**\n\n⇒ r = a√3 ÷ 6\n\n⇒ a = 6r ÷ √3 = 2√3 × r\n\n⇒ a = 2√3 × 5 = 10√3 cm\n\n**Area of triangle:**\n\n⇒ Area = √3 ÷ 4 × (10√3)²\n\n⇒ Area = √3 ÷ 4 × 100 × 3\n\n⇒ Area = 75√3 ≈ 129.9 cm²\n\n**Area of circle:**\n\n⇒ Area = π × 5² = 25π ≈ 78.54 cm²\n\n**Remaining area:**\n\n⇒ Remaining area = 129.9 − 78.54\n\n⇒ Remaining area ≈ 51.36 cm²\n\n**∴ The approximate area of the remaining portion of the triangle is 51.4 cm².**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6936c360d1f4c4b268b44b79",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In triangle PQR, medians intersect at the centroid Z. What is the ratio of the area of triangle ZQR to the area of triangle PQR?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 : 2"
+        },
+        {
+          "label": "2",
+          "text": "1 : 3"
+        },
+        {
+          "label": "3",
+          "text": "2 : 5"
+        },
+        {
+          "label": "4",
+          "text": "3 : 4"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nTriangle PQR\n\nMedians intersect at centroid Z\n\nCorrect option: 2\n\n**Formula Used:**\n\nThe centroid divides each median in the ratio 2:1.\n\nArea of smaller triangle formed by centroid = (1/3) × Area of the original triangle\n\n**Calculation:**\n\n⇒ The area of triangle ZQR is (1/3) × Area of triangle PQR.\n\n⇒ Ratio of area of triangle ZQR to triangle PQR = 1 : 3.\n\n**∴ The correct answer is 1 : 3.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6936c360a7c7a2b420cd2d2c",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In triangle ABC, a line segment DE is parallel to BC, with D on AB and E on AC. If the ratio of the area of triangle ADE to the area of the trapezoid DECB is 9:16, what is the ratio of AD to AB?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 : 8"
+        },
+        {
+          "label": "2",
+          "text": "2 : 5"
+        },
+        {
+          "label": "3",
+          "text": "3 : 5"
+        },
+        {
+          "label": "4",
+          "text": "4 : 5"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nDE ∥ BC\n\nArea of ΔADE : Area of trapezoid DECB = 9 : 16\n\n**Formula used:**\n\nIf a line is drawn parallel to the base of a triangle, then:\n\nRatio of areas = (Ratio of corresponding sides)²\n\n**Calculations:**\n\n⇒ Let area of ΔADE = 9 units\n\n⇒ Area of trapezoid DECB = 16 units\n\n⇒ Total area of ΔABC = 9 + 16 = 25 units\n\n⇒ Area of ΔADE : Area of ΔABC = 9 : 25\n\n⇒ (AD / AB)² = 9 / 25\n\n⇒ AD / AB = √(9/25)\n\n⇒ AD / AB = 3 / 5\n\n**∴ The ratio of AD to AB is 3 : 5.**\n\n76",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6936c36166aa4663fe1644aa",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A right triangle has sides 5, 12, and 13. A smaller triangle is drawn inside it with its vertices on the sides of the larger triangle, such that it is similar to the larger triangle. If its perimeter is 15, what is its area?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5.5"
+        },
+        {
+          "label": "2",
+          "text": "7.5"
+        },
+        {
+          "label": "3",
+          "text": "9.5"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nLarger triangle sides: 5, 12, 13\n\nSmaller triangle perimeter: 15\n\n**Formula Used:**\n\nPerimeter of similar triangles: Pₛₘₐₗₗ / Pₗₐᵣgₑ = Scale factor\n\nArea of similar triangles: Aₛₘₐₗₗ / Aₗₐᵣgₑ = (Scale factor)²\n\nArea of triangle: A = (1/2) × base × height\n\n**Calculation:**\n\n⇒ Perimeter of larger triangle = 5 + 12 + 13 = 30\n\n⇒ Scale factor = Pₛₘₐₗₗ / Pₗₐᵣgₑ = 15 / 30 = 1/2\n\n⇒ Area of larger triangle = (1/2) × base × height = (1/2) × 5 × 12 = 30\n\n⇒ Area of smaller triangle = (Scale factor)² × Aₗₐᵣgₑ = (1/2)² × 30 = 1/4 × 30 = 7.5\n\n**∴ The correct answer is 7.5.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6936c361057d93d48b3c105a",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two circles have radii of 10 cm and 2 cm. If the length of a direct common tangent is 15 cm, what is the distance between their centers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 cm"
+        },
+        {
+          "label": "2",
+          "text": "16 cm"
+        },
+        {
+          "label": "3",
+          "text": "18 cm"
+        },
+        {
+          "label": "4",
+          "text": "17 cm"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nRadius of the first circle, r₁ = 10 cm\n\nRadius of the second circle, r₂ = 2 cm\n\nLength of the direct common tangent, L = 15 cm\n\n**Formula Used:**\n\nDistance between centers, d = √((L²) + (r₁ - r₂)²)\n\n**Calculation:**\n\n⇒ L² = 15² = 225\n\n⇒ r₁ - r₂ = 10 - 2 = 8\n\n⇒ (r₁ - r₂)² = 8² = 64\n\n⇒ d = √(225 + 64)\n\n⇒ d = √289\n\n⇒ d = 17 cm\n\n**∴ The correct answer is 17 cm.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6936c361f104aae8612fb690",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The distance between the centers of two circles is d. The lengths of their direct and transverse common tangents are L and M, respectively. If L² + M² = 180 and the sum of the squares of their radii is 80, what is the value of d?",
+      "options": [
+        {
+          "label": "1",
+          "text": "√170"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "10√2"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nDistance between centers = d\n\nLength of direct common tangent = L\n\nLength of transverse common tangent = M\n\nL² + M² = 180\n\nLet radii be r₁ and r₂\n\nr₁² + r₂² = 80\n\n**Formula used:**\n\nDirect common tangent:\n\nL² = d² − (r₁ − r₂)²\n\nTransverse common tangent:\n\nM² = d² − (r₁ + r₂)<",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6936c3628e4d983869c9e6de",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "There are two parallel chords measuring 24 cm and 10 cm, both situated on opposite sides of the center of a circle. The space between the two chords is 17 cm. What is the radius of the circle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 cm"
+        },
+        {
+          "label": "2",
+          "text": "13 cm"
+        },
+        {
+          "label": "3",
+          "text": "15 cm"
+        },
+        {
+          "label": "4",
+          "text": "17 cm"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nLength of first chord = 24 cm\n\nLength of second chord = 10 cm\n\nDistance between the two chords = 17 cm\n\nBoth chords are on opposite sides of the center\n\n**Formula used:**\n\nDistance of chord from center = √(r² − (l/2)²)\n\n**Calculations:**\n\n⇒ Let radius of circle = r\n\n⇒ Distance of 24 cm chord from center = √(r² − 12²) = √(r² − 144)\n\n⇒ Distance of 10 cm chord from center = √(r² − 5²) = √(r² − 25)\n\n⇒ Since chords are on opposite sides:\n\n⇒ √(r² − 144) + √(r² − 25) = 17\n\n⇒ Square both sides\n\n⇒ r² − 144 + r² − 25 + 2√[(r² − 144)(r² − 25)] = 289\n\n⇒ 2r² − 169 + 2√[(r² − 144)(r² − 25)] = 289\n\n⇒ 2√[(r² − 144)(r² − 25)] = 458 − 2r²\n\n⇒ √[(r² − 144)(r² − 25)] = 229 − r²\n\n⇒ Square again\n\n⇒ (r² − 144)(r² − 25) = (229 − r²)²\n\n⇒ r⁴ − 169r² + 3600 = r⁴ − 458r² + 52441\n\n⇒ 289r² = 48841\n\n⇒ r² = 169\n\n⇒ r = 13 cm\n\n**∴ The radius of the circle is 13 cm.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6936c362a9512ec8608b4bae",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the area of the segment formed by a chord in a circle of radius 10 cm, if the angle subtended at the center is 120°?",
+      "options": [
+        {
+          "label": "1",
+          "text": "50π/3 - 50√3"
+        },
+        {
+          "label": "2",
+          "text": "100π/3 - 50√3"
+        },
+        {
+          "label": "3",
+          "text": "100π/3 - 25√3"
+        },
+        {
+          "label": "4",
+          "text": "50π/3 - 25√3"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nRadius of circle (r) = 10 cm\n\nAngle subtended at center (θ) = 120°\n\n**Formula used:**\n\nArea of sector = (θ/360) × π × r²\n\nArea of triangle = 1/2 × r × r × sinθ\n\nArea of segment = Area of sector − Area of triangle\n\nCa",
+      "tags": [
+        "Mensuration"
+      ]
+    }
+  ]
+}

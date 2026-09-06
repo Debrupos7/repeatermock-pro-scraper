@@ -1,0 +1,382 @@
+{
+  "test_id": "6a0f3d1098d24d08c231e694",
+  "title": "SSC CGL 2026 - CT 01: Bodmas Rule",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:23:31.496844+00:00",
+  "questions": [
+    {
+      "qid": "6086d5ea2ba48c80e381f74c",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the value of this expression.\n\n24 ÷ [(5 – 3) ÷ {(12 ÷ 4 of 9) – (30 ÷ 5 of 12) + (7 of 4 ÷ 28)}]",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "9"
+        },
+        {
+          "label": "4",
+          "text": "14"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n24 ÷ [(5 – 3) ÷ {(12 ÷ 4 of 9) – (30 ÷ 5 of 12) + (7 of 4 ÷ 28)}]\n\n**Concept used:**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/fc6adb90fa5c83ccc02b63de50366d728a9db8992e44c36c2388d3390f187850.png] **\n\n**Calculation:**\n\n24 ÷ [(5 – 3) ÷ {(12 ÷ 4 of 9) – (30 ÷ 5 of 12) + (7 of 4&",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/fc6adb90fa5c83ccc02b63de50366d728a9db8992e44c36c2388d3390f187850.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "5cb04972fdb8bb69c8819e92",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "45 - [38 - {80 ÷ 4 - (8 - 12 ÷ 3) ÷ 4}] = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25"
+        },
+        {
+          "label": "2",
+          "text": "27"
+        },
+        {
+          "label": "3",
+          "text": "26"
+        },
+        {
+          "label": "4",
+          "text": "28"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Calculation:**\n\n45 - [38 - {80 ÷ 4 - (8 - 12 ÷ 3) ÷ 4}]\n\n⇒ 45 - [38 - {20 - (8 - 4) ÷ 4}]\n\n⇒ 45 - [38 - 19]\n\n⇒ 45 - 19\n\n⇒ 26",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "5d36d370fdb8bb6411624dc7",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "56 div [(1)/(3)left{ {15 + 12 - ( {9 + 6 - overline {5 + 7} } )} right} ]= ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "4032"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "448"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Concept used:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c49e9ef184ad3a244b4a0e325f1c03fdf73a234e5d04e86e969336de19771c93.png] \n\n**Calculation:**\n\n56 div [(1)/(3)left{ {15 + 12 - ( {9 + 6 - overline {5 + 7} } )} right} ] \n\n⇒ 56 ÷ [(1/3){15 + 12 - (9 + 6 - 12)}]\n\n⇒ 56 ÷ [(1/3){15 + 12 - (15 - 12)}]\n\n⇒ 56 ÷ [(1/3){15 + 12 - 3}]\n\n⇒ 56 ÷ [(1/3){27 - 3}]\n\n⇒ 56 ÷ [(1/3)(24)]\n\n⇒ 56 ÷ 8\n\n⇒ 7 \n\n**∴ ? = 7**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png] __Important Points__**\n\nIf in any simplification problem there is ( ̅ ) bar sign above any operation then we should perform the operation at the beginning, whatever the operation is. Then we will follow the chart given above.** **",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c49e9ef184ad3a244b4a0e325f1c03fdf73a234e5d04e86e969336de19771c93.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "60bcf537576eeb04d2109561",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "(6386 ÷ 31) + (1320 ÷ 33) - (9720 ÷ 216) = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "102"
+        },
+        {
+          "label": "2",
+          "text": "205"
+        },
+        {
+          "label": "3",
+          "text": "201"
+        },
+        {
+          "label": "4",
+          "text": "221"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Calculation:**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/c23bd6366db0add70ee89f3cf32ec02c4936663af616730b635465226054f44a.png] **\n\nAccording to the question, the given expression is:\n\n(6386 ÷ 31) + (1320 ÷ 33) - (9720 ÷ 216) = ?\n\n⇒ 206 + 40 - 45 = ?\n\n⇒ ? = 246 - 45\n\n⇒ ? = 201\n\n**∴**** The correct answer is option (3).**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c23bd6366db0add70ee89f3cf32ec02c4936663af616730b635465226054f44a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6045edb5fd2e54e15be1712e",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "frac{{180 times 15 - 12 times 20}}{{140 times 8 + 2 times 55 }} = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "(1)/(7)"
+        },
+        {
+          "label": "4",
+          "text": "(4)/(5)"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Calculations:**\n\nfrac{{180 times 15 - 12 times 20}}{{140 times 8 + 2 times 55 }} = ?\n\nThis can be written as:\n\nfrac{{180 times 15 - 12 times 20}}{{140 times 8 +110 }}=?\n\nTaking 10 common from both the numerator and the denominator, we get:\n\nfrac{{10(18 times 15 - 12 times 2)}}{{10(14 times 8 +11)}}=?\n\nfrac{{18 times 15 - 12 times 2}}{{14 times 8 +11}}=?\n\nfrac{{270 - 24}}{{112 +11}}=?\n\n(246)/(123)=2",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "5f509a9fba8b05d6221f86e7",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Evaluate: frac{{12 times ( { - 3} ) - 10 times 30 + ( { - 36} ) times ( { - 16} )}}{{( { - 8} ) + ( { - 4} )}}",
+      "options": [
+        {
+          "label": "1",
+          "text": "40"
+        },
+        {
+          "label": "2",
+          "text": "-20"
+        },
+        {
+          "label": "3",
+          "text": "-40"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "correct": "2",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "5d5bc4a7fdb8bb43d984060b",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The value of {1 + 7 + (32 ÷ 16 of 4)} + {(5 × 2² + 5) × 1/√625} is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "9.5"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "135"
+        }
+      ],
+      "correct": "2",
+      "solution": "Follow BODMAS rule to solve this question, as per the order given below,\n\n [IMAGE: https://cdn.repeatermock.com/tb/0b6ca2a7a1fc0ba2035e77f7ca92cf06444673b8882751382348c5d195b17efb.png] \n\n{1 + 7 + (32 ÷ 16 of 4)} + {(5 × 22 + 5) × 1/√625}\n\n⇒ {8 + (32 ÷ 64)} + {(20 + 5) × 1/25}\n\n⇒ {8 + 1/2} + {25 × 1/25}\n\n⇒ 17/2 + 1\n\n**⇒ 19/2 = 9.5**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0b6ca2a7a1fc0ba2035e77f7ca92cf06444673b8882751382348c5d195b17efb.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "5cecedcdfdb8bb18b1d75871",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Solve the following: 24 - [ {25 - left{ {26 - ( {27 - overline {28 - 29} } )} right}} ] = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-1"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "-2"
+        },
+        {
+          "label": "4",
+          "text": "-3"
+        }
+      ],
+      "correct": "4",
+      "solution": "⇒ 24 - [ {25 - left{ {26 - ( {27 - overline {28 - 29} } )} right}} ] \n\n⇒ ? = 24 - [25 - {26 - (27 - (- 1))}]\n\n⇒ ? = 24 - [25 - {26 - (27 + 1)}]\n\n⇒ ? = 24 - [25 - {26 - 28}]\n\n⇒ ? = 24 - [25 + 2]\n\n⇒ ? = 24 - 27\n\n⇒ ? = -3",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "5d9da7b4f60d5d1923d54983",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the value of [121 ÷ {(1/5 of 25 + 3 of 2) ÷ 5 ÷ 55}] ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0"
+        },
+        {
+          "label": "2",
+          "text": "3025"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "correct": "2",
+      "solution": "Concept:\n\nFollow the BODMAS rule according to the table given below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/4fa5d638098aa55d86d652b7f0fc8c7688260eb33fda75fc81ee799f7d028b26.png] \n\nCalculation:\n\n[ 121div left{ ( (1)/(5){ of }25+3{ of }2 )div 5div 55 right} ]\n\n⇒ [ 121div left{ ( 25times (1)/(5)+2times 3 )times (1)/(5)times (1)/(55) right} ]\n\n⇒ [ 121div left{ ( 5+6 )times (1)/(5)times (1)/(55) right} ]\n\n⇒ [ 121div left{ (11)/(5)times (1)/(55) right} ]\n\n⇒ 121 × 25\n\n⇒ 3025\n\n**∴ The value is 3025.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4fa5d638098aa55d86d652b7f0fc8c7688260eb33fda75fc81ee799f7d028b26.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "5e7ae6f2f60d5d29f99c541a",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the value of frac{{72 div 9 + 3 - 6 - ( {2 times 3} ) + 5 of 3 - ( {1 + 5 times 2 - 2} )}}{{8 div 4 + 2 - ( {6 times 8 div 2} ) + ( {7 times 4 - 2 times 2} )}} =?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11/4"
+        },
+        {
+          "label": "2",
+          "text": "5/4"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "15/4"
+        }
+      ],
+      "correct": "2",
+      "solution": "Follow BODMAS rule to solve this question, as per the order is given below:\n\nStep-1: Parts of an equation enclosed in ‘Brackets’ must be solved first and in the bracket,\n\nStep-2: Any mathematical ‘Of’ or ‘Exponent’ must be solved next,\n\nStep-3: Next, the parts of the equation that contains ‘Division’ and ‘Multiplication’ are calculated,\n\nStep-4: Last but not least, the parts of the equation that contain ‘Addition’ and ‘Subtraction&",
+      "tags": [
+        "Simplification"
+      ]
+    }
+  ]
+}

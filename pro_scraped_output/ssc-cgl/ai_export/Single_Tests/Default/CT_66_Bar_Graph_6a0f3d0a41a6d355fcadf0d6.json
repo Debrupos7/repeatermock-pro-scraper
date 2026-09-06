@@ -1,0 +1,409 @@
+{
+  "test_id": "6a0f3d0a41a6d355fcadf0d6",
+  "title": "CT 66: Bar Graph",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:22:44.690104+00:00",
+  "questions": [
+    {
+      "qid": "62f0edd6c8b009f9245c5247",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Bar Graph",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The following bar chart shows the numbers of white and black cars sold of 5 different brands in a city during a given year.\n\n [IMAGE: https://cdn.repeatermock.com/tb/568e654e01be26780ddecf8a2c4f10d288cbffffa45ac2d24f7c70b732977cb1.png] \n\nX = Average number of black cars sold per brand.\n\nY = Average number of white cars sold per brand.\n\nWhat is the value of Y - X?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Calculation:**\n\nThe number of black cars sold per brand = 96 + 114 + 121 + 109 + 120\n\n⇒ 560\n\nAverage = 560/5\n\n⇒ 112\n\nThe number of white cars sold per brand = 108 + 122 + 130 + 160 + 100\n\n⇒ 620\n\nAverage = 620/5\n\n⇒ 124\n\nSo, Y - X = 124 - 112\n\n⇒ 12\n\n**∴ The required answer is 12.**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/568e654e01be26780ddecf8a2c4f10d288cbffffa45ac2d24f7c70b732977cb1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Bar Graph"
+      ]
+    },
+    {
+      "qid": "62ed6e837ea6dc1e08a2f66c",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Bar Graph",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The bar chart given below shows the total revenue (in Rs. '000) earned by 5 shops by selling steel bottles.\n\n [IMAGE: https://cdn.repeatermock.com/tb/183ccd52792da27ca945b17bed002fb4aa826700b119642ac8004ae7abc16b8d.png] \n\nThe price of each bottle is Rs. 600 in all the shops. How many bottles have been sold by S2 and S3 taken together?",
+      "options": [
+        {
+          "label": "1",
+          "text": "120"
+        },
+        {
+          "label": "2",
+          "text": "135"
+        },
+        {
+          "label": "3",
+          "text": "150"
+        },
+        {
+          "label": "4",
+          "text": "165"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Calculation:**\n\nTotal Revenue of shop S₂ and S₃ by selling steel bottles = 54000 + 36000\n\n= 90000\n\nThe price of each bottle is Rs 600 in all the shops.\n\nNumber of bottles sold by S₂ and S<su",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/183ccd52792da27ca945b17bed002fb4aa826700b119642ac8004ae7abc16b8d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Bar Graph"
+      ]
+    },
+    {
+      "qid": "642edcee49273ecf3bb8ee1a",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Bar Graph",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The bar graph given below shows the cost price and selling price of four articles L, M, N and O.\n\n [IMAGE: https://cdn.repeatermock.com/tb/92744fad88521f12e9460c4ecdbcd11e043a23e3b5bf4736247637a531498076.png] \n\nWhich of the following sequence is correct for loss?",
+      "options": [
+        {
+          "label": "1",
+          "text": "O > N > L > M"
+        },
+        {
+          "label": "2",
+          "text": "N > O > L > M"
+        },
+        {
+          "label": "3",
+          "text": "O > N > M > L"
+        },
+        {
+          "label": "4",
+          "text": "O > L > N > M"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Calculation:**\n\nLoss on article L = 600 - 500 = 100\n\nLoss on article M = 800 - 750 = 50\n\nLoss on article N = 700 - 500 = 200\n\nLoss on article O = 1000 - 700 = 300\n\nSequence according to loss = O > N > L > M\n\n**∴ Option 1 is the correct answer.**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/92744fad88521f12e9460c4ecdbcd11e043a23e3b5bf4736247637a531498076.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Bar Graph"
+      ]
+    },
+    {
+      "qid": "6291cc64eec5503db59c2689",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Bar Graph",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "[IMAGE: https://cdn.repeatermock.com/tb/f008e0efec412bf77fbf7eca64bf682f2fa9bd5ee49643aa778e47dc167e4488.png] \n\nThe chart represents profit of a company over a period of time.\n\nWhat was the percentage increase in the profit of the company in 1997-98 over 1993-94?",
+      "options": [
+        {
+          "label": "1",
+          "text": "75 percent"
+        },
+        {
+          "label": "2",
+          "text": "90 percent"
+        },
+        {
+          "label": "3",
+          "text": "100 percent"
+        },
+        {
+          "label": "4",
+          "text": "50 percent"
+        }
+      ],
+      "correct": "3",
+      "solution": "Calculation:\n\nThe profit of the company in 1997-98 = Rs. 5040\n\nThe profit of the company in 1993-94= Rs. 2520\n\nNow, the profit increase%\n\n⇒ <span class=\"mat",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f008e0efec412bf77fbf7eca64bf682f2fa9bd5ee49643aa778e47dc167e4488.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Bar Graph"
+      ]
+    },
+    {
+      "qid": "67580ef050e63506bb5169a1",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Bar Graph",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Study the given bar graph carefully and answer the following question.\n\n [IMAGE: https://cdn.repeatermock.com/tb/be1c76975f227e248868df26a210277fd54e5d588eff034e5e60f87659fea851.png] \n\nWhat was the percentage (in%) drop in the production of food grains from 1991 to 1992?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nBar graph showing the production of food grains by a State over the years (in 1000 tons).\n\nProduction in 1991 = 60 (thousand tons)\n\nProduction in 1992 = 45 (thousand tons)\n\n**Calculations:**\n\nDrop in production from 1991 to 1992 = Production in 1991 - Production in 1992\n\nDrop = 60 - 45 = 15 (thousand tons)\n\nPercentage drop = (Drop in production / Production in the initial year) × 100\n\nPercentage drop = (15 / 60) × 100\n\nPercentage drop = (1 / 4) × 100\n\nPercentage drop = 25%\n\n**∴ The percentage drop in the production of food grains from 1991 to 1992 was 25%.**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/be1c76975f227e248868df26a210277fd54e5d588eff034e5e60f87659fea851.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Bar Graph"
+      ]
+    },
+    {
+      "qid": "67ac87ebec86d161c7a05f77",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Bar Graph",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The given bar given shows the income and expenditure (in ₹ lakh) of 5 companies (A, B, C, D, and E) in the year 2022. Study the graph and answer the question that follows.\n\n [IMAGE: https://cdn.repeatermock.com/tb/da931058bf3032d34aca63b0bd0294f0fdca1971eb249f05102e8ed674ce1bf2.png] \n\nWhich company earned the maximum percentage profit in the year 2022?",
+      "options": [
+        {
+          "label": "1",
+          "text": "B"
+        },
+        {
+          "label": "2",
+          "text": "E"
+        },
+        {
+          "label": "3",
+          "text": "C"
+        },
+        {
+          "label": "4",
+          "text": "D"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nThe income and expenditure (in ₹ lakh) of 5 companies (A, B, C, D, and E) in the year 2022.\n\n**Formula used:**\n\nPercentage Profit = dfrac{(Income - Expenditure)}{Expenditure} times 100\n\n**Calculations:**\n\nFor Company B:\n\nIncome = ₹50 lakh, Expenditure = ₹40 lakh\n\n⇒ Percentage Profit = dfrac{(50 - 40)}{40} times 100 = dfrac{10}{40} times 100 = 25% %\n\nFor Company C:\n\nIncome = ₹40 lakh, Expenditure = ₹45 lakh\n\n⇒ Percentage Profit = dfrac{(40 - 45)}{45} times 100 = dfrac{5}{45} times 100 ≈ 11.11%%\n\nFor Company D:\n\nIncome = ₹40 lakh, Expenditure = ₹30 lakh\n\n⇒ Percentage Profit = dfrac{(40 - 30)}{30} times 100 = dfrac{10}{30} times 100 = 33.33%%\n\nFor Company E:\n\nIncome = ₹50 lakh, Expenditure = ₹45 lakh\n\n⇒ Percentage Profit = dfrac{(50 - 45)}{45} times 100 = dfrac{5}{45} times 100 ≈ 11.11%%\n\n**∴ The correct answer is option 4, i.e., Company D.**\n\n3d:T7e9,\n\n&l",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/da931058bf3032d34aca63b0bd0294f0fdca1971eb249f05102e8ed674ce1bf2.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Bar Graph"
+      ]
+    },
+    {
+      "qid": "6364bbeea5c385c0421df89d",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Bar Graph",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Study the following graph and answer the question given below.\n\n [IMAGE: https://cdn.repeatermock.com/tb/46a24201c89ad40b23132f7152b280c19b58cf73589b2f4881e89e5007695cfa.png] \n\nFind the number of employees whose income is more than Rs. 25,000 but less than Rs. 45,000.",
+      "options": [
+        {
+          "label": "1",
+          "text": "190"
+        },
+        {
+          "label": "2",
+          "text": "155"
+        },
+        {
+          "label": "3",
+          "text": "255"
+        },
+        {
+          "label": "4",
+          "text": "110"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given:\n\nThe number of employees whose income is in the range of Rs. 20,000 - Rs. 25,000 = 25\n\nThe number of employees whose income is in the range of Rs. 25,000 - Rs. 30,000 = 45\n\nThe number of employees whose income is in the range of Rs. 30,000 - Rs. 35,000 = 66\n\nThe number of employees whose income is in the range of Rs. 35,000 - Rs. 40,000 = 44\n\nThe number of employees whose income is in the range of Rs. 40,000 - Rs. 45,000 = 35\n\nCalculation:\n\nAccording to the question,\n\nThe number of employees whose income is in the range of Rs. 25,000-Rs. 40,000 = 45 + 66 + 44 + 35 = 45 + 66 + 44 + 35 = 190\n\nTherefore, '190' is the required answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/46a24201c89ad40b23132f7152b280c19b58cf73589b2f4881e89e5007695cfa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Bar Graph"
+      ]
+    },
+    {
+      "qid": "61e147fcaf1d7461d9a1452b",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Bar Graph",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Study the histogram and answer the question given below.\n\nThe given graph represents the percentage of marks scored by students in class X Board Examination in 2018 in a school.\n\nTotal number of students = 250\n\n [IMAGE: https://cdn.repeatermock.com/tb/00c47440c102858bb7b5ca880b1a58984fdc8bd8bdc04f898712035b7044a1f0.png] \n\nThe difference between the percentage of students who scored less than 70% marks and the percentage of students who scored 80% and above is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "25%"
+        },
+        {
+          "label": "2",
+          "text": "18%"
+        },
+        {
+          "label": "3",
+          "text": "24%"
+        },
+        {
+          "label": "4",
+          "text": "22%"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Calculation:**\n\nTotal number of students = 250\n\nTotal number of students who scored less than 70% marks = (10 + 30 + 80) = 120\n\nThe percentage of students who scored less than 70% marks = (120/250 × 100)\n\n⇒ (12 × 4) = 48%\n\nNow,\n\n<span style=&quo",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/00c47440c102858bb7b5ca880b1a58984fdc8bd8bdc04f898712035b7044a1f0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Bar Graph"
+      ]
+    },
+    {
+      "qid": "6705041b3a20e7d704036c9f",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Bar Graph",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The bar graph given below shows the sales of books from six schools during two consecutive years, 2013 and 2014.\n\n [IMAGE: https://cdn.repeatermock.com/tb/9c6bd1227d79ae509dee64047fa0ac6802bc5a17b48424dbbd34608b03a26902.png] \n\nWhat percentage of the average sales of the schools A, B, and C in 2014 is the average sales of schools A, C, and F in 2013?",
+      "options": [
+        {
+          "label": "1",
+          "text": "81.08%"
+        },
+        {
+          "label": "2",
+          "text": "81%"
+        },
+        {
+          "label": "3",
+          "text": "80%"
+        },
+        {
+          "label": "4",
+          "text": "80.08%"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Calculation:**\n\nThe average sales of the schools A, B and C in 2014\n\n= (70 + 35 + 80)/3\n\n⇒ 61.66\n\nThe average sales of schools A, C, and F in 2013\n\n⇒ (50 + 60 + 40)/3\n\n⇒ 50\n\nAccording to the question,\n\n⇒ (50/61.66)× 100\n\n⇒ 81.08%\n\n**∴ The correct answer is 81.08%.**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9c6bd1227d79ae509dee64047fa0ac6802bc5a17b48424dbbd34608b03a26902.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Bar Graph"
+      ]
+    },
+    {
+      "qid": "639331f7b2dc3404040e2cfd",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Bar Graph",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The bar graph given below shows the number of male teachers and female teachers in different schools.\n\n [IMAGE: https://cdn.repeatermock.com/tb/e2b257928f7afbeb5b1a1734f66719443920b8e552d3979ada172bd157ba74d5.png] \n\nJ1 = Average number of male teachers per school\n\nJ2 = Difference between total male teachers and total female teachers\n\nWhat is the value of (J1/J2)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given\n\nTotal male teachers = 280\n\nTotal female teachers = 260\n\nFormula used\n\nAverage = Total sum of all value/No. of all values\n\nSolution\n\nThe average number of male teachers per school(J1)\n\n⇒ (40 + 20 + 60 + 100 + 40 + 15 + 5)/5\n\n⇒ 280/7 = 40\n\n⇒ J2 = total male teachers - total female teachers\n\n⇒ J2 = 280 - 260\n\n⇒ J2 = 20\n\n⇒ J1/J2 = 40/20\n\n⇒ J1/J2 = 2\n\nThe correct option is 4.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e2b257928f7afbeb5b1a1734f66719443920b8e552d3979ada172bd157ba74d5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Bar Graph"
+      ]
+    }
+  ]
+}

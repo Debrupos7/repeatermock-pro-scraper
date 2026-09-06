@@ -1,0 +1,432 @@
+{
+  "test_id": "6a390d233417b0cae9e8aa61",
+  "title": "CGL Tier II CT 14: Indirect to Direct Speech",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English"
+  ],
+  "scraped_at": "2026-09-06T11:22:55.928333+00:00",
+  "questions": [
+    {
+      "qid": "62b027a18e62e29ad4b7ac7b",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Direct and Indirect Speech",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Select the option that expresses the given sentence in direct speech.**\n\nThe gardener told Shyam that his friends had gone home after searching for him.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The gardener said, \"Your friends has gone home after searching for you.\""
+        },
+        {
+          "label": "2",
+          "text": "The gardener said, \"Your friends had gone home after search for you.\""
+        },
+        {
+          "label": "3",
+          "text": "The gardener said to Shyam, \"Your friends have gone home after searching for you.\""
+        },
+        {
+          "label": "4",
+          "text": "The gardener said to Shyam, \"Your friends are going home after searching for you.\""
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is **The gardener said to Shyam, \"Your friends have gone home after searching for you.\"**\n\n**__ [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] Key Points__**\n\n__\n \n• The given sentence is in **indirect speech **and we need to convert it to **direct speech.**\n \n• When we change **an indirect speech to direct speech**, we use the following rules - \n \n \n• The **reporting verb 'told' changes to 'said to'.**\n \n• The **conjunction that **is replaced with **inverted commas (\"...\") **to show the direct speech. \n \n• A **comma (,) **is added before the direct speech part. \n \n• The first word of the direct speech is in *capital letter.*\n \n• The **pronouns 'his' and 'him' **in the indirect speech changes to '**your' and 'you' **in the direct speech respectively. \n \n• **'had gone' **is in the **past perfect tense **form in the indirect speech. This changes to **present perfect tense 'have gone' **in the direct speech.\n \n• Thus, **option 3** is the correct answer.\n\n \n \n \n\n**Correct Answer** -* The gardener said to Shyam, \"Your friends have gone home after searching for you.\"*\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n__\n \n• The following table will let us know how **tense changes__** between direct and indirect speech - \n\n \n \n\n \n \n**Rules**\n\n \n \n \n**Direct Speech**\n\n \n \n \n**Indirect Speech**\n\n \n \n \n\n \n \n**Simple Present Changes To Simple Past**\n\n \n \n \n\"I always drink tea\", she said\n\n \n \n \nShe said that she always drank tea.\n\n \n \n \n\n \n \n**Present Continuous Changes To Past Continuous**\n\n \n \n \n\"I am reading a book\", he explained.\n\n \n \n \nHe explained that he was reading a book\n\n \n \n \n\n \n \n**Present Perfect Changes To Past Perfect**\n\n \n \n \nShe said, \"He has finished his work\"\n\n \n \n \nShe said that he had finished his work.\n\n \n \n \n\n \n \n**Simple Past Changes To Past Perfect**\n\n \n \n \n\"Bill arrived on Saturday\", he said.\n\n \n \n \nHe said that Bill had arrived on Saturday\n\n \n \n \n\n \n \n**Past Continuous Changes To Past Perfect Continuous**\n\n \n \n \n\"We were living in Paris\", they told me.\n\n \n \n \nThey told me that they had been living in Paris.\n\n \n \n \n\n \n \n**Future Changes To Present Conditional**\n\n \n \n \n\"I will be in Geneva on Monday\", he said\n\n \n \n \nHe said that he would be in Geneva on Monday.\n\n \n \n \n\n \n \n**Future Continuous Changes To Conditional Continuous**\n\n \n \n \nShe said, \"I'll be using the car next Friday.\"\n\n \n \n \nShe said that she would be using the car next Friday.\n\n \n \n \n\n*Note - The past perfect and past perfect continuous tenses do not change.*",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direct and Indirect Speech"
+      ]
+    },
+    {
+      "qid": "62b01682c908046e7d2df897",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Direct and Indirect Speech",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Select the option that expresses the given sentence in direct speech.**\n\nThe nurse said to me that the doctor was calling me to discuss my blood test report.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The nurse said to me, \"The doctor will be calling you to discuss your blood test report.\""
+        },
+        {
+          "label": "2",
+          "text": "The nurse said to me, \"The doctor is calling you to discuss your blood test report.\""
+        },
+        {
+          "label": "3",
+          "text": "The nurse told, \"The doctor has been calling you to discuss your blood test report.\""
+        },
+        {
+          "label": "4",
+          "text": "The nurse told to me, \"The doctor would call you to discuss your blood test report.\""
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct answer is **The nurse said to me, \"The doctor is calling you to discuss your blood test report.\"**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__** \n\n__\n \n• The given sentence is in indirect speech and we need to convert it to direct speech.\n \n• When we change an indirect speech to direct speech, we use the following rules - \n \n \n• The reporting verb 'said' remains unchanged.\n \n• The conjunction 'that' is replaced with inverted commas (\"...\") to show the direct speech. \n \n• A comma (,) is added before the direct speech part. \n \n• The first word of the direct speech is in *capital letter.*\n \n• The pronouns 'me' and 'my' in the indirect speech changes to 'you' and 'your' in the direct speech respectively. \n \n• 'was calling' is in the past continuous tense form in the indirect speech. This changes to present continuous tense 'is calling' in the direct speech.\n \n \n \n• Thus, **option 2** is the correct answer.\n\n \n\n**Correct Answer** - *The nurse said to me, \"The doctor is calling you to discuss your blood test report.\"*\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__** \n\n__\n \n• The following table will let us know how tense changes__ between direct and indirect speech - \n\n \n \n\n \n \nRules\n\n \n \n \nDirect Speech\n\n \n \n \nIndirect Speech\n\n \n \n \n\n \n \nSimple Present Changes To Simple Past\n\n \n \n \n\"I always drink tea\", she said\n\n \n \n \nShe said that she always drank tea.\n\n \n \n \n\n \n \nPresent Continuous Changes To Past Continuous\n\n \n \n \n\"I am reading a book\", he explained.\n\n \n \n \nHe explained that he was reading a book\n\n \n \n \n\n \n \nPresent Perfect Changes To Past Perfect\n\n \n \n \nShe said, \"He has finished his work\"\n\n \n \n \nShe said that he had finished his work.\n\n \n \n \n\n \n \nSimple Past Changes To Past Perfect\n\n \n \n \n\"Bill arrived on Saturday\", he said.\n\n \n \n \nHe said that Bill had arrived on Saturday\n\n \n \n \n\n \n \nPast Continuous Changes To Past Perfect Continuous\n\n \n \n \n\"We were living in Paris\", they told me.\n\n \n \n \nThey told me that they had been living in Paris.\n\n \n \n \n\n \n \nFuture Changes To Present Conditional\n\n \n \n \n\"I will be in Geneva on Monday\", he said\n\n \n \n \nHe said that he would be in Geneva on Monday.\n\n \n \n \n\n \n \nFuture Continuous Changes To Conditional Continuous\n\n \n \n \nShe said, \"I'll be using the car next Friday.\"\n\n \n \n \nShe said that she would be using the car next Friday.\n\n \n \n \n\n*Note - The past perfect and past perfect continuous tenses do not change.*",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direct and Indirect Speech"
+      ]
+    },
+    {
+      "qid": "62b01361567fd889f53ebeec",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Direct and Indirect Speech",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Select the option that expresses the given sentence in direct speech.**\n\nMita said that she liked to cook or read books during her free time on the weekends.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mita told, \"I like to cook or read books during my free time on the weekends.\""
+        },
+        {
+          "label": "2",
+          "text": "Mita argued, \"I liked to cook or read books during my free time on the weekends.\""
+        },
+        {
+          "label": "3",
+          "text": "Mita said, \"I like cooking or reading books during my free time on the weekends.\""
+        },
+        {
+          "label": "4",
+          "text": "Mita said, \"I like to cook or read books during my free time on the weekends.\""
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is **Mita said, \"I like to cook or read books during my free time on the weekends.\"**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__** \n\n__\n \n• The given sentence is in indirect speech and we need to convert it to direct speech.\n \n• When we change an indirect speech to direct speech, we use the following rules - \n \n \n• The reporting verb 'said' remains unchanged.\n \n• The conjunction 'that' is replaced with inverted commas (\"...\") to show the direct speech. \n \n• A comma (,) is added before the direct speech part. \n \n• The first word of the direct speech is in *capital letter.*\n \n• The pronoun 'she' and 'her' in the indirect speech changes to 'I' and 'my' in the direct speech respectively. \n \n• 'liked' is in the simple past tense form in the indirect speech. This changes to simple present tense 'like' in the direct speech.\n \n• Thus, **option 4 **is the correct answer.\n \n \n\n**Correct Answer** - *Mita said, \"I like to cook or read books during my free time on the weekends.\"*\n\n [IMAGE: https://cdn.repeatermock.com/tb/9074044cf96dc1d09ca89eac99180c3d7440ade1b364d09d47931959bf693cc8.png] **Confusion Points__**\n\n__\n \n• In general when we are **converting from direct speech to indirect speech**, the tense does not change if the **reporting verb is in the present**, or if the **original statement was about something that is still true.**\n\n \n \n• **Example - ***He says he has missed the train but he'll catch the next one.*\n \n \n \n• But when we are **converting from indirect speech to direct speech**, the change will depend on the context. While **universal truths, proverbs and historical events will remain unchanged, **in case of* hobbies or habits, the tense will change to present tense. *\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__** \n\n__\n \n• The following table will let us know how tense changes__ between direct and indirect speech - \n\n \n \n\n \n \nRules\n\n \n \n \nDirect Speech\n\n \n \n \nIndirect Speech\n\n \n \n \n\n \n \nSimple Present Changes To Simple Past\n\n \n \n \n\"I always drink tea\", she said\n\n \n \n \nShe said that she always drank tea.\n\n \n \n \n\n \n \nPresent Continuous Changes To Past Continuous\n\n \n \n \n\"I am reading a book\", he explained.\n\n \n \n \nHe explained that he was reading a book\n\n \n \n \n\n \n \nPresent Perfect Changes To Past Perfect\n\n \n \n \nShe said, \"He has finished his work\"\n\n \n \n \nShe said that he had finished his work.\n\n \n \n \n\n \n \nSimple Past Changes To Past Perfect\n\n \n \n \n\"Bill arrived on Saturday\", he said.\n\n \n \n \nHe said that Bill had arrived on Saturday\n\n \n \n \n\n \n \nPast Continuous Changes To Past Perfect Continuous\n\n \n \n \n\"We were living in Paris\", they told me.\n\n \n \n \nThey told me that they had been living in Paris.\n\n \n \n \n\n \n \nFuture Changes To Present Conditional\n\n \n \n \n\"I will be in Geneva on Monday\", he said\n\n \n \n \nHe said that he would be in Geneva on Monday.\n\n \n \n \n\n \n \nFuture Continuous Changes To Conditional Continuous\n\n \n \n \nShe said, \"I'll be using the car next Friday.\"\n\n \n \n \nShe said that she would be using the car next Friday.\n\n \n \n \n\n*Note - The past perfect and past perfect continuous tenses do not change.*",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/9074044cf96dc1d09ca89eac99180c3d7440ade1b364d09d47931959bf693cc8.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direct and Indirect Speech"
+      ]
+    },
+    {
+      "qid": "62f14beecd75e415e67fa2c4",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Direct and Indirect Speech",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that expresses the given sentence in direct speech.\n\nWe urged him to mind his own business.",
+      "options": [
+        {
+          "label": "1",
+          "text": "We told to him, “Mind one's own business.”"
+        },
+        {
+          "label": "2",
+          "text": "We said him to, “Mind your own business.”"
+        },
+        {
+          "label": "3",
+          "text": "We said to him, “Mind your own business.”"
+        },
+        {
+          "label": "4",
+          "text": "We urged to him, “Mind your own business.”"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is **We said to him, “Mind your own business.”**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The given sentence is in indirect speech and we need to convert it to direct speech.\n \n• When we change an indirect speech to direct speech, we must follow these rules:\n\n​ • The reporting verb 'urged' changes to 'said'.\n\n** • **The reporting verb is changed according to reported speech into **insisting** if the sentence gives a **piece of suggestion**.\n\n • A comma (,) is added after the direct speech part.\n\n • The first word of the direct speech is in capital letters.\n\n • The modal 'had to' changes to 'must'.\n\n • The pronoun 'he' changes to 'I'.\n\nThus, option 3 is the correct answer. \n\n***Hence, direct speech is- We said to him, “Mind your own business.”***",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direct and Indirect Speech"
+      ]
+    },
+    {
+      "qid": "62f1488790a59d72181e79ae",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Direct and Indirect Speech",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that expresses the given sentence in direct speech.\n\nRaja said that he would leave for London the next day.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Raja said, “I shall leave for London tomorrow.”"
+        },
+        {
+          "label": "2",
+          "text": "Raja said, “I might leave for London tomorrow.”"
+        },
+        {
+          "label": "3",
+          "text": "Raja said, “I shall be leaving for London the next day.”"
+        },
+        {
+          "label": "4",
+          "text": "Raja said, “I should leave for London the next day.”"
+        }
+      ],
+      "correct": "1",
+      "solution": "The correct answer is **Raja said, “I shall leave for London tomorrow.”**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The given sentence is in indirect speech and we need to convert it to direct speech.\n \n• When we change an indirect speech to direct speech, we must follow these rules:\n\n​ • The reporting verb 'said' remains unchanged.\n\n • The conjunction 'that' is replaced with inverted commas (\"...\") to show the direct speech.\n\n • A comma (,) is added after the direct speech part.\n\n • The first word of the direct speech is in capital letters.\n\n • The word 'next day' changes to 'tomorrow'.\n\n • The modal 'would' changes to 'shall'.\n\n • The pronoun 'he' changes to 'I'.\n\n \n• Thus, option 1 is the correct answer.\n\n \n\n***Hence, direct speech is - ****Raja said, “I shall leave for London tomorrow.”*",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direct and Indirect Speech"
+      ]
+    },
+    {
+      "qid": "62f4984538e9157ada0af2da",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Direct and Indirect Speech",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that expresses the given sentence in direct speech.\n\nAn old mouse asked who would bell the cat.",
+      "options": [
+        {
+          "label": "1",
+          "text": "​An old mouse said, “Who has bell the cat?\""
+        },
+        {
+          "label": "2",
+          "text": "​An old mouse said, “Who is going to bell the cat?\""
+        },
+        {
+          "label": "3",
+          "text": "An old mouse said, “Who will bell the cat?\""
+        },
+        {
+          "label": "4",
+          "text": "​An old mouse said, “Let's bell the cat.\""
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is:** An old mouse said, “Who will bell the cat?\"**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The given sentence is in **indirect speech** and we need to convert it to **direct speech**.\n \n• When we change an **indirect speech to direct speech**, we must follow these **rules:**\n \n \n• The reporting verb **'asked' **changes to **'said'**.\n \n• The **inverted commas (\"...\")** are used to show the direct speech.\n \n• A **comma (,)** is added after the direct speech part.\n \n• A question mark (?) is added after the direct speech part.\n \n• The **first word** of the direct speech is in **capital letters**.\n \n• The modal** 'would'** changes to **'will'.**\n \n \n \n• Thus, **option 3** is the correct answer.\n\n \n\n***Hence, direct speech is- **An old mouse said, “Who will bell the cat?\"*",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direct and Indirect Speech"
+      ]
+    },
+    {
+      "qid": "62f3ebb917e2278c467e9eab",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Direct and Indirect Speech",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Select the option that expresses the given sentence in direct speech.**\n\nHe suggested that we should distribute books and stationery among the unprivileged children.",
+      "options": [
+        {
+          "label": "1",
+          "text": "He ordered, “Distribute books and stationery among the unprivileged children.”"
+        },
+        {
+          "label": "2",
+          "text": "He requested “We could distribute books and stationery among the unprivileged children.”"
+        },
+        {
+          "label": "3",
+          "text": "He said ,\"Let us distribute books and stationery among the unprivileged children.\""
+        },
+        {
+          "label": "4",
+          "text": "He said, “Let them distribute books and stationery among the unprivileged children.”"
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is **\"He said, \"Let us distribute books and stationery among the unprivileged children.\"**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The given sentence is an **indirect speech.**\n \n• The basic rules for changing or converting **indirect speech** into **direct speech**:\n \n \n• The** commas and inverted commas **are added and** 'that' i**s removed.\n \n• In the first part of the sentence, the verb **\"suggested \" **will be changed to** \"said to\"** in the direct speech.\n \n• The pronoun **'we'** should be converted into** 'us'.**\n \n• The reporting verb 'suggested' is used in 'direct' speech, therefore, \"let\" is used in** direct speech** as it is used as **a polite way of making or responding to a suggestion​.**\n \n \n \n• Thus, the correct answer is **option 3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• Let's look at other options and find out why they are neglected :\n \n• ** Option 1** uses the term 'ordered' which does not indicate a suggestion.\n \n• ** Option 2 **uses the term 'could' indicating only a conditional statement but not a suggestion.\n \n• **Option 4** wrongly uses the term 'them' thus violating the Indirect to Direct conversion rule.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direct and Indirect Speech"
+      ]
+    },
+    {
+      "qid": "62f3d35e17e2278c467bc785",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Direct and Indirect Speech",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Select the option that expresses the given sentence in direct speech.\n\nMother prayed that God might bless me.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mother says, “God will bless you!"
+        },
+        {
+          "label": "2",
+          "text": "​Mother said, “May God bless me!"
+        },
+        {
+          "label": "3",
+          "text": "​Mother said, “The God bless you!"
+        },
+        {
+          "label": "4",
+          "text": "Mother said, “May God bless you!"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is: **Mother said, “may God bless you!**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n__\n \n• The given sentence is in **indirect speech** and we need to convert it to **direct speech**.\n \n• When we change an **indirect speech to direct speech**, we must follow these **rules:**\n \n \n• The reporting verb '**Said' is converted into 'prayed' as per the sentence's sense.**\n \n• The conjunction **'that'** is replaced with **inverted commas (\"...\")** to show the direct speech.\n \n• A **comma (,)** is added after the direct speech part.\n \n• The **first word** of the direct speech is in **capital letters**.\n \n• The **modal** **'may'** changes to **'might'**.\n \n• The **pronoun 'me'** changes to **'you'**.\n \n \n \n• Thus, **option 4** is the correct answer.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• **The sentences expressing a keen wish, a prayer, curse, etc are optative sentences.**\n\n \n\n***Hence, direct speech is- ****Mother said, “may God bless you!*",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direct and Indirect Speech"
+      ]
+    },
+    {
+      "qid": "62f3acce2f13213bcd0f2198",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Direct and Indirect Speech",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Select the option that expresses the given sentence in direct speech.**\n\nThe gentleman said that he would pick Karan the next day morning.",
+      "options": [
+        {
+          "label": "1",
+          "text": "“You would pick Karan today morning,” said the gentleman"
+        },
+        {
+          "label": "2",
+          "text": "“I would pick Karan the following day morning,” said the gentleman"
+        },
+        {
+          "label": "3",
+          "text": "“You would pick Karan the next day morning,” said the gentleman"
+        },
+        {
+          "label": "4",
+          "text": "“I will pick Karan tomorrow morning,” said the gentleman."
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is** \"I will pick Karan tomorrow morning,” said the gentleman\".**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The given sentence is in** Indirect Speech**. As per the question we have to change it into** Direct Speech. **\n \n• The** process **of **transformation** is as follows:\n \n \n• **'Said' **remains unchanged as there is no object after **'said'.**\n \n• A **comma (,) **and** inverted commas (“ ”) **are used in place of the conjunction** ‘that’.**\n \n• The pronoun **'he'** in the indirect speech **changes to 'I' in the direct speech.**\n \n• The first word of the** direct speech** is in** capital letters.**\n \n• **Would' **is changed into** 'will'.**\n \n• The next day will be changed into** 'tomorrow'.**\n \n \n \n• Therefore, as per the points mentioned above, we find that the correct answer is** Option 4.**\n\n** Correct Direct Narration:** “I will pick Karan tomorrow morning,” said the gentleman.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direct and Indirect Speech"
+      ]
+    },
+    {
+      "qid": "62f385d577ffce2ed48cc239",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Direct and Indirect Speech",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "**Select the option that expresses the given sentence in direct speech.**\n\nHe said that Shobhit was going there that day.",
+      "options": [
+        {
+          "label": "1",
+          "text": "He said, \"Shobhit was going there today\"."
+        },
+        {
+          "label": "2",
+          "text": "He said, \"Shobhit is going here that day\"."
+        },
+        {
+          "label": "3",
+          "text": "He said, \"Shobhit is going here today\"."
+        },
+        {
+          "label": "4",
+          "text": "He told, \"Shobhit was going here today\"."
+        }
+      ],
+      "correct": "3",
+      "solution": "The correct answer is** \"He said,\"Shobhit is going here today\".**\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **__Key Points__**\n\n \n• The given sentence is in **indirect speech** and we need to convert it to **direct speech.**\n \n• When we change an indirect speech to direct s",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direct and Indirect Speech"
+      ]
+    }
+  ]
+}

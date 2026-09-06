@@ -1,0 +1,1024 @@
+{
+  "test_id": "69f09ecfcd86f45a19ebd748",
+  "title": "General Intelligence and Reasoning Sectional Test - 8",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:20:59.851194+00:00",
+  "questions": [
+    {
+      "qid": "5ebe8e1df60d5d10bb1019ea",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Shaan has a total Rs. 5,500 with him. He buys product ‘z’ at Rs. 5,000 from this sum and then sells it to another person, thus making a profit of 15% on it. With all the money he has now, he buys product ‘X’ and then sells it to another person making a profit of 25% on it. What is the total money Shaan has now?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 7, 815.50"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 7, 187.50"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 7, 812.50"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 6, 325.00"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\nTotal Amount is Rs. 5,500.\n\nProduct ‘z’ bought at Rs. 5000.\n\nTherefore, the remaining amount is 500.\n\nProduct ‘z’ sell at 15% profit.\n\nSP = 5000 times frac{{115}}{{100}} = 5750\n\nNow total amount is = 500 + 5750\n\n= 6250\n\nNow he buys product ‘X’ at Rs. 6250 and then sell it at 25% profit then the total remaining amount\n\n= 6250 times frac{{125}}{{100}} = 7812.50\n\nHence, ’Rs. 7812.50’ is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "5eee165e08665507c590504a",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Venn Diagram",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following figure, square represents Nurses, triangle represents cyclists, circle represents bachelors and rectangle represents Americans. Which set of letters represents Americans who are bachelors?\n\n [IMAGE: https://cdn.repeatermock.com/tb/b55895ac4c63808915344338cfc0612f40cfcd75e62e7c703006759dfe378710.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "LJ"
+        },
+        {
+          "label": "2",
+          "text": "DGF"
+        },
+        {
+          "label": "3",
+          "text": "IK"
+        },
+        {
+          "label": "4",
+          "text": "JHI"
+        }
+      ],
+      "correct": "4",
+      "solution": "The set of letters which represents Americans who are bachelors is shown below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/c608873a609545c379ca21c1dca2812b272cbb934da72af63a80429e60879277.png] \n\nHence, ‘JHI’ is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b55895ac4c63808915344338cfc0612f40cfcd75e62e7c703006759dfe378710.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c608873a609545c379ca21c1dca2812b272cbb934da72af63a80429e60879277.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Venn Diagram"
+      ]
+    },
+    {
+      "qid": "5f0be0d81d979b0d09651013",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given below are some letters, that each of these letters has a corresponding number. Select the combination of numbers from the option so that the jumbled letters arranged accordingly will form a meaningful English word.\n\nH T R U O A\n\n1 2 3 4 5 6",
+      "options": [
+        {
+          "label": "1",
+          "text": "6, 4, 2, 1, 5, 3"
+        },
+        {
+          "label": "2",
+          "text": "3, 4, 5, 2, 1, 6"
+        },
+        {
+          "label": "3",
+          "text": "1, 6, 2, 4, 5, 3"
+        },
+        {
+          "label": "4",
+          "text": "2, 1, 5, 3, 4, 6"
+        }
+      ],
+      "correct": "1",
+      "solution": "1) 6, 4, 2, 1, 5, 3 \n\n \n \n\n \n \n6\n\n \n \n \n4\n\n \n \n \n2\n\n \n \n \n1\n\n \n \n \n5\n\n \n \n \n3\n\n \n \n \n\n \n \nA\n\n \n \n \nU\n\n \n \n \nT\n\n \n \n \nH\n\n \n \n \nO\n\n \n \n \nR\n\n \n \n \n\n2) 3, 4, 5, 2, 1, 6\n\n \n \n\n \n \n3\n\n \n \n \n4\n\n \n \n \n5\n\n \n \n \n2\n\n \n \n \n1\n\n \n \n \n6\n\n \n \n \n\n \n \nR\n\n \n \n \nU\n\n \n \n \nO\n\n \n \n \nT\n\n \n \n \nH\n\n \n \n \nA\n\n \n \n \n\n3) 1, 6, 2, 4, 5, 3\n\n \n \n\n \n \n1\n\n \n \n \n6\n\n \n \n \n2\n\n \n \n \n4\n\n \n \n \n5\n\n \n \n \n3\n\n \n \n \n\n \n \nH\n\n \n \n \nA\n\n \n \n \nT\n\n \n \n \nU\n\n \n \n \nO\n\n \n \n \nR\n\n \n \n \n\n4) 2, 1, 5, 3, 4, 6\n\n \n \n\n \n \n2\n\n \n \n \n1\n\n \n \n \n5\n\n \n \n \n3\n\n \n \n \n4\n\n \n \n \n6\n\n \n \n \n\n \n \nT\n\n \n \n \nH\n\n \n \n \nO\n\n \n \n \nR\n\n \n \n \nU\n\n \n \n \nA\n\n \n \n \n\n‘AUTHOR’ is a meaningful English word.\n\nHence, ‘6, 4, 2, 1, 5, 3’ is the correct answer.",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "61c4afe9193c83aab79f132a",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Statements and Arguments",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the question below there is a statement and two arguments numbered I and II. You have to decide which argument is contained in the statement.\n\n**Statement:**\n\nThe principal told the students, \"The way we eat, bathe, etc. In the same way, maintaining cleanliness should be part of the routine work.\"\n\n**Argument:**\n\nI. Personal hygiene, environmental cleanliness are different areas where cleanliness is adopted.\n\nII. Cleanliness is next to godliness.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Neither I nor II is implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only argument I is implicit"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II are implicit"
+        },
+        {
+          "label": "4",
+          "text": "Only Argument II is implicit"
+        }
+      ],
+      "correct": "2",
+      "solution": "The principal is suggesting the students to maintain cleanliness in routine work.\n\n__\n \n• From the statement, argument I can be clearly implied. So it follows.\n \n• 'Cleanliness is next to godliness' is a phrase or idiom that relates cleanliness to spiritual and religious purity. It goes out of context, so it does not follow the statement.\n\nHence the correct answer is **option 2**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **Additional Information__**\n\n \n• The agreement which is the reconstruing part of the statement is a strong agreement.\n \n• The argument should not be imagined.\n \n• The relationship of the agreement should be direct from the statement.\n \n• The argument should be simple and clear.\n \n• The agreement should be based on scientific facts.\n \n• The statement in the argument should receive a logical answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Statements and Arguments"
+      ]
+    },
+    {
+      "qid": "61ecf34bcedd75d70cefd80f",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given figure, the number of triangles is equal to -\n\n [IMAGE: https://cdn.repeatermock.com/tb/16f70fcbadfe2a38a89dcb21ec239265bd7f433874848c44a28b4e3ee35f74c9.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "24"
+        },
+        {
+          "label": "2",
+          "text": "28"
+        },
+        {
+          "label": "3",
+          "text": "22"
+        },
+        {
+          "label": "4",
+          "text": "26"
+        }
+      ],
+      "correct": "2",
+      "solution": "The figure of the triangle is given below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/9624a4c3e266ba1c0ce511978bef43797d52f03fb47f13cfb8b9bb65e4fd23e4.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/54eb689b70f1e4167af9f20d41336a89ee75c47ba9c06a64761e14a5617a98ec.png] \n\nThe total number of triangles is 28.\n\nHence,** \"option 2 \"** is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/16f70fcbadfe2a38a89dcb21ec239265bd7f433874848c44a28b4e3ee35f74c9.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9624a4c3e266ba1c0ce511978bef43797d52f03fb47f13cfb8b9bb65e4fd23e4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/54eb689b70f1e4167af9f20d41336a89ee75c47ba9c06a64761e14a5617a98ec.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "63bf2750adeb7db68cdc3979",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A piece of paper is folded and punched as shown below in the question figures. From the given answer figures, indicate how it will appear when opened.\n\n [IMAGE: https://cdn.repeatermock.com/tb/07a01ec4dd4b7c964946a2796263fb115ed5c608c21bd25fb77b3e1fd5fb7e82.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/bb0c052c95e2f5a87464b5820e629084faeac671650fb12e8b37e2df39372e01.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/c83e97a77816eb787cb97342b1cc7d6c121127f290f91b66e0e2f7325495228e.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/a9e9ab2fb2f8cccc4f8ec07f40ed5bbea1b0ca532aee7bda7506b24267a2ed7d.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/71d34194699ce9fc57b2cd0b257159480d44379b4c7eab17cd65895de5bc02ab.png]"
+        }
+      ],
+      "correct": "4",
+      "solution": "The given figure when unfolded is as follows:\n\n [IMAGE: https://cdn.repeatermock.com/tb/dfa577b44e0cbef1ad1fc0b5a27fb3f4917719955912abedb1a7f4a6b9666c8a.png] \n\n \n\nHence, the correct answer is Option 4.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/07a01ec4dd4b7c964946a2796263fb115ed5c608c21bd25fb77b3e1fd5fb7e82.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/dfa577b44e0cbef1ad1fc0b5a27fb3f4917719955912abedb1a7f4a6b9666c8a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "63f6fe78607e56f3ecd41839",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option figure that is embedded in the given figure (rotation is NOT allowed). \n\n [IMAGE: https://cdn.repeatermock.com/tb/60005df05bef14886001f519bf92b3fe37800ab2d99b7cfcdcd9ca103ab8713f.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/ec4de140fdc40b972d7f342bc0e95276f23c83689a1d4687cda0b1fd6ff82418.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/2200eb69e20fd1179aad81480c50b2575c029003b445462f679380516fbb9eed.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/b6362dee1e443d011f47f197a798018cc6d023a59cf21286631e51d3356d17de.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/f869ec558a64863c630e4746cc9e0ee1ce941075608215a06004ebbf8e5987a2.png]"
+        }
+      ],
+      "correct": "1",
+      "solution": "The pattern followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/227136e809d9572c8b0cd57e92452ebf3ccd0dfe72333a9a34f4c01451b4b16a.png] \n\nHence, the correct answer is \"Option 1\".",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/60005df05bef14886001f519bf92b3fe37800ab2d99b7cfcdcd9ca103ab8713f.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/227136e809d9572c8b0cd57e92452ebf3ccd0dfe72333a9a34f4c01451b4b16a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "63f7fdf3d1e9fae093c8f5aa",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that is related to the fifth term in the same way as the second term is related to the first term and the fourth term is related to the third term.\n\nBIND ∶ FFKH ∶∶ ROMP ∶ VLJT ∶∶ SPUN ∶ ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "WMRR"
+        },
+        {
+          "label": "2",
+          "text": "VLRS"
+        },
+        {
+          "label": "3",
+          "text": "VLQR"
+        },
+        {
+          "label": "4",
+          "text": "WMQS"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/4a5b7cf84abd4e09a63d504f404b2035f579e6a3a005e11d54e3ca50bd42a099.png] \n\nThe logic followed here is :\n\n \n• First and fourth letters ⇒ (4) is added to the position value according English alphabetic series.\n \n• Second and third letters ⇒ (3) is subtracted from the position value according English alphabetic series.\n\nSo,\n\n \n• BIND ∶ FFKH\n\n​ [IMAGE: https://cdn.repeatermock.com/tb/8ad39276655fc3fe26f928f25256dbb48be8b253277175be36f4eee6b0992134.png] \n\nAnd,\n\n \n• ROMP ∶ VLJT\n\n​ [IMAGE: https://cdn.repeatermock.com/tb/3384636163344799dcba703da2524649008df48415bf69f8510b35eba5e16017.png] \n\n​Similarly,\n\n \n• SPUN ∶ ?\n\n​ [IMAGE: https://cdn.repeatermock.com/tb/d115fcb7f1a4392284325045988bfcd802c1752fd3d317b9586dd24bb5a9cb7e.png] \n\n​Hence, \"**WMRR**\" is the correct answer.\n\n52:Tbf1,\n<p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4a5b7cf84abd4e09a63d504f404b2035f579e6a3a005e11d54e3ca50bd42a099.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8ad39276655fc3fe26f928f25256dbb48be8b253277175be36f4eee6b0992134.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3384636163344799dcba703da2524649008df48415bf69f8510b35eba5e16017.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d115fcb7f1a4392284325045988bfcd802c1752fd3d317b9586dd24bb5a9cb7e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "63f859309b796ed93f715096",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "'Expand' is related to 'Stretch' in the same way as 'Contract' is related to '______'\n\n(The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Shrink"
+        },
+        {
+          "label": "2",
+          "text": "Volume"
+        },
+        {
+          "label": "3",
+          "text": "Huge"
+        },
+        {
+          "label": "4",
+          "text": "Range"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\n**Logic: The second word is synonymous with the opposite of the first word.**\n\n\"Expand\" is related to \"Stretch\" → \"Stretch\" is synonymous to \"Expand\".\n\nSimilarly, \"Contract\" is related to \"?\" → \"Shrink\" is synonymous to \"Contract\".\n\n**Hence, the correct answer is \"Shrink\".**\n\n<img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16a",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "63fc5d116599b8490a7b25a0",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language ACCOUNT is written as ‘EBGNYMX’ and MANOR is written as ‘QZRNV’. How will PATTERN be written in the same code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "TZXSIQR"
+        },
+        {
+          "label": "2",
+          "text": "TZXSJQR"
+        },
+        {
+          "label": "3",
+          "text": "TBXSJQR"
+        },
+        {
+          "label": "4",
+          "text": "TBYTIQS"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/32770a41ec977af2dbb04b2c1d6f230ef042728ed79e49316de972bbb5af777d.png] \n\n**ACCOUNT: EBGNYMX**\n\n [IMAGE: https://cdn.repeatermock.com/tb/d5737f3fc1eedb873d92d4c37d9736daf16bc3a7f22a71df2169c8913118eabd.png] \n\n**MANOR: QZRNV**\n\n [IMAGE: https://cdn.repeatermock.com/tb/159387dddb4270a3cb8090440a2e14de8f8117573d4bfb49da791331ca53734f.png] \n\nSimilarly,\n\n**PATTERN: ?**\n\n [IMAGE: https://cdn.repeatermock.com/tb/d9bc52ba0cd6dc39876f6b0ec1da1ebf030b734d24b02939261fa747d540aec0.png] \n\nHence, the correct answer is **\"****TZXSIQR\"**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/32770a41ec977af2dbb04b2c1d6f230ef042728ed79e49316de972bbb5af777d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d5737f3fc1eedb873d92d4c37d9736daf16bc3a7f22a71df2169c8913118eabd.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/159387dddb4270a3cb8090440a2e14de8f8117573d4bfb49da791331ca53734f.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d9bc52ba0cd6dc39876f6b0ec1da1ebf030b734d24b02939261fa747d540aec0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "63fe57b29052ff99f1840797",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language,\n\n‘A + B’ means ‘A is the mother of B’,\n\n‘A – B’ means ‘A is the father of B’,\n\n‘A × B’ means ‘A is the brother of B’ and\n\n‘A & B’ means ‘A is the wife of B’.\n\nHow is N related to R if N & P – Q + T × R?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mother’s mother"
+        },
+        {
+          "label": "2",
+          "text": "Mother’s sister"
+        },
+        {
+          "label": "3",
+          "text": "Mother"
+        },
+        {
+          "label": "4",
+          "text": "Father’s mother"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/94f0af2bd93b93688d2c6092e652fb2d84f74342de195154154b4e73abc5a0da.png] \n\nGiven :\n\n \n \n\n \n \nA is\n\n \n \n \n\n \n \nSymbol\n\n \n \n \n+\n\n \n \n \n-\n\n \n \n \n×\n\n \n &\n \n \n\n \n \nMeaning\n\n \n \n \nMother\n\n \n \n \nFather\n\n \n \n \nBrother\n\n \n Wife\n \n \n\n \n \nto B\n\n \n \n \n\n**Statement given :** N & P – Q + T × R\n\nSo,\n\n \n• N & P → N is the wife of P.\n\n [IMAGE: https://cdn.repeatermock.com/tb/2182f72e73be45e6fc4e22399b81109ab214faab6588a085cdeada17b366a86d.png] \n\n \n• P – Q → P is the father of Q.\n\n [IMAGE: https://cdn.repeatermock.com/tb/a205dbbde2920a8b5c3001165e6e59aaa0afd6e923076acf3947789301d39e1a.png] \n\n \n• Q + T → Q is the mother of T.\n\n [IMAGE: https://cdn.repeatermock.com/tb/69642a049f0f61fa78c152c73d583edbc4db5585ea85926cc5591b89dddceb90.png] \n\n \n• T × R → T is the brother of R.\n\n​ [IMAGE: https://cdn.repeatermock.com/tb/792fa657ccf19b8a9c774dd187278c985e4593022fa9483d9984802cf7c1fc3a.png] \n\nThus, according to the final family tree N is the maternal grandmother i.e mother's mother of R.\n\nHence, \"**Mother’s mother**\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/94f0af2bd93b93688d2c6092e652fb2d84f74342de195154154b4e73abc5a0da.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2182f72e73be45e6fc4e22399b81109ab214faab6588a085cdeada17b366a86d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a205dbbde2920a8b5c3001165e6e59aaa0afd6e923076acf3947789301d39e1a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/69642a049f0f61fa78c152c73d583edbc4db5585ea85926cc5591b89dddceb90.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/792fa657ccf19b8a9c774dd187278c985e4593022fa9483d9984802cf7c1fc3a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "64ccb1de6bae8bcec145a3d6",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the correct mirror image of the given combination when the mirror is placed at line MN as shown.\n\n [IMAGE: https://cdn.repeatermock.com/tb/4c25910ed739578d8894f186fca18618f529c953438a60ada00f41fa088ff359.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/17a007d60f45bceca1e850a0872e73aa739ad7329b0138c2bcbd2804fcc75e2d.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/17b645ee7a49a0ff90c538579dac619435f4cd97bd6d3f8604a12cf956e1cdb8.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/4bcbffd5ee82897b8b6890f73cb3cce2ae9f6f25f59741fd24597c1a583263a4.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/6c2c6e71376b79801dcdbf7a60ca06435281ab3e5d01584fc26b7f38911cc19d.png]"
+        }
+      ],
+      "correct": "2",
+      "solution": "The mirror image of the given figure is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/4c95a4475b2aeaa743ee9643665c2dec252fea643dc7e7c3cea34c68dda7b428.png] \n\nHence, the correct answer is** \"Option (2)\".**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4c25910ed739578d8894f186fca18618f529c953438a60ada00f41fa088ff359.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4c95a4475b2aeaa743ee9643665c2dec252fea643dc7e7c3cea34c68dda7b428.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "64e59e306e9452830972de1f",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "'IKLN' is related to 'FHIK' in a certain way based on the English alphabetical order. In the same way, 'GIJL' is related to 'DFGI'. To which of the following is 'MOPR' related, following the same logic?",
+      "options": [
+        {
+          "label": "1",
+          "text": "JMOP"
+        },
+        {
+          "label": "2",
+          "text": "JKMO"
+        },
+        {
+          "label": "3",
+          "text": "JLMO"
+        },
+        {
+          "label": "4",
+          "text": "JLNO"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ef1a08d1ac261dc312fe06bf091df2a759e46479c435e13d4eef66d50fd21097.png] \n\nThe logic followed here is:\n\nFor, 'IKLN' is related to 'FHIK'\n\n [IMAGE: https://cdn.repeatermock.com/tb/fbb75856ebc6ffc39601714e408932c9ef9a315dfa7f032cc10e0928557014a4.png] \n\nFor, 'GIJL' is related",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ef1a08d1ac261dc312fe06bf091df2a759e46479c435e13d4eef66d50fd21097.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fbb75856ebc6ffc39601714e408932c9ef9a315dfa7f032cc10e0928557014a4.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "64e476f241dafbaded2e8d09",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n\n(**NOTE**: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)\n\n(12, 11, 137)\n\n(17, 21, 362)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(18, 9, 165)"
+        },
+        {
+          "label": "2",
+          "text": "(14, 31, 440)"
+        },
+        {
+          "label": "3",
+          "text": "(21, 25, 530)"
+        },
+        {
+          "label": "4",
+          "text": "(38, 7, 270)"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\nLogic: (1st number **×** 2nd number) + 5 = 3rd number.\n\nNow,\n\nFor, (12, 11, 137)\n\n⇒ (12 × 11) + 5\n\n&l",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "65a0246f795baaec3476247c",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The figure series given below follows a sequence. Choose the correct option from the list of answer figures, which should come after at the right of the problem figures, if the sequence were to be continued. \n\n [IMAGE: https://cdn.repeatermock.com/tb/c88bfbf01f2161cad47bf7acbdb8d21ff6acfbd4b54aeda7700252192239f9f3.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/e2eb18b56f0db7c29644fc84b40d00a32c8b62f29ddcecae6575cef17ca84d89.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/0cb3bda43c203312503a3c56d790d36ba31675993ab390936feeccb6543ef5a4.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/d29a158624a5671d7e7e611a1fc2b595ffdefb8da8094d022e85e5128834757a.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/9b8f003d5b66c92d758384f48a328414810c62e041eef56d201f5c85a6338803.png]"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic follows here is :\n\nThe given figure has four symbols that are revolving 90° in their position and also rotating from one corner to other in anti clockwise direction in each successive figure.\n\nFigure A to Figure B →\n\nAll symbols are revolving 90° in their position and also rotating from one corner to another in anti-clockwise direction.\n\nAnd the next symbol after circle (in anti-clcokwise direction) is filled in Figure B.\n\nFigure B to Figure C →\n\nAll symbols are revolving 90° in their position and also rotating from one corner to another in anti-clockwise direction.\n\nAnd the next symbol after the rectangle (in anti-clcokwise direction) is filled in Figure C and now the circle is not filled.\n\nFigure C to Figure D →\n\nAll symbols will revolve 90° in their position and also rotate from one corner to another in the anti-clockwise direction.\n\nAnd the next symbol after the square (in anti-clcokwise direction) i.e. the triangle will be filled in Figure D and now the rectangle will not be filled.\n\nSo, the figure that will replace the question mark (?) in the following figure series is shown below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/834ebfaabfbff645dedd2fe59eb22e8eb646855e6eca7940d42f8e5785eb12f4.png] \n\nThus, the figure in option(3) will replace the question mark.\n\nHence, the correct answer is \"option(3)\".",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c88bfbf01f2161cad47bf7acbdb8d21ff6acfbd4b54aeda7700252192239f9f3.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/834ebfaabfbff645dedd2fe59eb22e8eb646855e6eca7940d42f8e5785eb12f4.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "65d2061e26e26670cade5bf8",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the correct alternative from given ones that will complete the series:\n\n15, 8, 35, 24, 63, 48, (?)",
+      "options": [
+        {
+          "label": "1",
+          "text": "88"
+        },
+        {
+          "label": "2",
+          "text": "92"
+        },
+        {
+          "label": "3",
+          "text": "99"
+        },
+        {
+          "label": "4",
+          "text": "102"
+        }
+      ],
+      "correct": "3",
+      "solution": "The pattern followed here is,\n\n4² - 1 = 16 - 1 = 15\n\n3² - 1 = 9 - 1 = 8\n\n6² - 1 = 36 - 1 = 35\n\n5² - 1 = 25 - 1 = 24\n\n8² - 1 = 64 - 1 = 63\n\n7² - 1 = 49 - 1 = 48\n\n**(10)²** **- 1 = 100 - 1 = 99**\n\nHence, the missing term is** \"99\".**",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "65d2086126e26670cadea7ce",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Ordering and Ranking",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a line Chetan is 18th from the top and 15th from the bottom, then what is the total number of candidates in that line?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30"
+        },
+        {
+          "label": "2",
+          "text": "31"
+        },
+        {
+          "label": "3",
+          "text": "32"
+        },
+        {
+          "label": "4",
+          "text": "33"
+        }
+      ],
+      "correct": "3",
+      "solution": "According to the given information:\n\n [IMAGE: https://cdn.repeatermock.com/tb/4c79639bd2bad85e017511bdaa2d3e30ae994d91c473daa0ffcea2853921fc79.png] \n\nTotal Candidates in line are\n\n**17 (candidate above chetan) + 14 (candidate below chetan) = 31**\n\n**31 + 1 = 32 (Including chetan)**\n\nHence, The correct answer is **\"32\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4c79639bd2bad85e017511bdaa2d3e30ae994d91c473daa0ffcea2853921fc79.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ordering and Ranking"
+      ]
+    },
+    {
+      "qid": "646f89ce0b6376156fc08376",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, four number groups are given. In each group the three numbers are related to each other by some Logic/Rule/ Relation. Three are similar on basis of same Logic/Rule/Relation. Select the odd one out from the given alternatives.",
+      "options": [
+        {
+          "label": "1",
+          "text": "(12, 24, 41)"
+        },
+        {
+          "label": "2",
+          "text": "(13, 26, 43)"
+        },
+        {
+          "label": "3",
+          "text": "(16, 32, 49)"
+        },
+        {
+          "label": "4",
+          "text": "(17, 34, 53)"
+        }
+      ],
+      "correct": "4",
+      "solution": "The pattern followed here is,\n\n**Second Number = First number × 2**\n\n**Third Number = Second number + 17**\n\nOption (1): (12, 24, 41) → \n\n12 × 2 = 24\n\n24 + 17 = 41\n\nOption (2): (13, 26, 43) → \n\n<span style=\"color: rgb(33, 37, 41);",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "652a7690db2d1e3e0e06aacc",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.\n\n**Statements:**\n\n1) All circles are squares.\n\n2) Some squares are coloured.\n\n3) Some circles are triangles.\n\n**Conclusions:**\n\nI. Some squares are triangles.\n\nII. Some circles are coloured.\n\nIII. Some squares are circles.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Both conclusions I and III follow."
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion I follows."
+        },
+        {
+          "label": "3",
+          "text": "Only conclusion III follows."
+        },
+        {
+          "label": "4",
+          "text": "Only conclusion II follows."
+        }
+      ],
+      "correct": "1",
+      "solution": "Given Statements:\n\n1) All circles are squares.\n\n2) Some squares are coloured.\n\n3) Some circles are triangles.\n\nThe least possible Venn Diagram for the given statement is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/1d7873eee8c3a10dc750b0b06c60004916ee4fefb232ab997f493e4de866c78e.png] \n\n**Conclusions:**\n\n<p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1d7873eee8c3a10dc750b0b06c60004916ee4fefb232ab997f493e4de866c78e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "698b232c114c15dba65b1ca7",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "You are given a Master Address (MA) from official records. Your task is to identify the correct candidate address that matches exactly with the master address in terms of formatting, punctuation, spelling, and structure.\n\n**Master Address (MA):** Flat 505, Building A, Green Valley Apartments, Opposite Park, Bangalore - 560001\n\n**Candidate Addresses:**",
+      "options": [
+        {
+          "label": "1",
+          "text": "Flat 505, Building A, Green Valey Apartments, Opposite Park, Bangalore - 560001"
+        },
+        {
+          "label": "2",
+          "text": "Flat 505, Bldg A, Green Valley Apartments, Opposite Park, Bangalore - 560001"
+        },
+        {
+          "label": "3",
+          "text": "Flat 505, Building A, Green Valley Apartments, Opposite Park, Bangalore - 560001"
+        },
+        {
+          "label": "4",
+          "text": "Flat No. 505, Building A, Green Valley Apartments, Opposite Park, Bangalore - 560001"
+        }
+      ],
+      "correct": "3",
+      "solution": "The Master Address (MA) given in the problem is,\n\nFlat 505, Building A\n\nGreen Valley Apartments, Opposite Park\n\nBangalore - 560001\n\nCompare each candidate's address with the Master Address.\n\n \n \n\n **Option**\n **Candidate Address**\n **Matching**\n \n \n\n (1)\n \n \nFlat 505, Building A, Green Valey Apartments, Opposite Park, Bangalore - 560001\n\n \n Spelling mistake: **Valey** instead of **Valley**.\n \n \n\n (2)\n \n \nFlat 505, Bldg A, Green Valley Apartments, Opposite Park, Bangalore - 560001\n\n \n **Building** is shortened to **Bldg**.\n \n \n\n (3)\n \n \nFlat 505, Building A, Green Valley Apartments, Opposite Park, Bangalore - 560001\n\n \n The address matches exactly with the Master Address.\n \n \n\n (4)\n \n \nFlat No. 505, Building A, Green Valley Apartments, Opposite Park, Bangalore - 560001\n\n \n Extra word **No.** is added.\n \n \n\n \n\nSo, the candidate address that exactly matches the Master Address is option (3).\n\nHence, the correct answer is \"**Option (3)**\".",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "6156bc922e521e3c74abc818",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Statements and Arguments",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A statement is given followed by two arguments. Decide which of the arguments is/are strong with respect to the statement.\n\n**Statement:**\n\nLife expectancy of Indians is increasing\n\n**Arguments:**\n\nI. Yes, People are getting better medical facilities.\n\nIi. Yes, People are doing more physical exercises now.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only argument II is strong"
+        },
+        {
+          "label": "2",
+          "text": "Both arguments I and II are strong"
+        },
+        {
+          "label": "3",
+          "text": "Neither I nor II is strong"
+        },
+        {
+          "label": "4",
+          "text": "Only argument I i s Strong."
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed is:\n\n**Arguments:**\n\nI. Yes People are getting better medical facilities. True (According to statement Life expectancy of Indians increasing. This is fit for this statement.)\n\nIi. Yes, People are doing more physical exercises now. True (According to statement Life expectancy of Indians increasing. This is fit for this statement.)\n\nThus, both arguments are strong.\n\nHence, the correct answer is **\"Both arguments I and II are strong\".**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\n \n• The agreement which is the reconstruing part of the statement is a strong agreement.\n \n• **The argument should not be imagined.**\n \n• The relationship of the agreement should be direct from the statement.\n \n• The argument should be simple and clear.\n \n• **The agreement should be based on scientific facts.**\n \n• The statement in the argument should receive a logical answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Statements and Arguments"
+      ]
+    },
+    {
+      "qid": "6328a2e0fd78826ca94060e7",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average age of A, B, C is 8 years more than B's age. If age of both A and C together is 56 years, then B's age is ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "18 years"
+        },
+        {
+          "label": "2",
+          "text": "24 years"
+        },
+        {
+          "label": "3",
+          "text": "12 years"
+        },
+        {
+          "label": "4",
+          "text": "16 years"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given,\n\n**The average age of A, B, C is 8 years more than B's age.**\n\n⇒ (A + B + C) / 3 = 8 + B\n\n⇒ A + B + C = 24 + 3B ........... (i)\n\nIf age of both A and C together is 56 years\n\n⇒ A + C = 56 ......... (ii)\n\nSubstituting the equation (i",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6528b9ba1c66904b0cd086d5",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Refer to the given number, symbol series and answer the question that follows.\n\n(Left) 3 * @ 5 % 3 + = 3 3 % 8 7 & 5 $ 7 5 & # * 8 2 @ 5(Right)\n\nHow many such symbols are there (from left to right) which are immediately preceded by a number and also immediately followed by a number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "6"
+        },
+        {
+          "label": "4",
+          "text": "7"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given: **(Left) 3 * @ 5 % 3 + = 3 3 % 8 7 & 5 $ 7 5 & # * 8 2 @ 5(Right)\n\nNow, \n\nSymbols, which are immediately preceded by a number and also immediately followed by a number.\n\nSo, Needed pattern is: **Number - Symbol - Number.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c3640dd5588bf2cbd2774da099fcfb8592e41762d8bf5d6a64024b12834349cf.png] \n\nThere are **5** Symbols which are preceded by a number and also immediately followed by a number.\n\nHence, the correct answer is*** 'Option 2'.***",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c3640dd5588bf2cbd2774da099fcfb8592e41762d8bf5d6a64024b12834349cf.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "6532ac490cf56ad56d9b2d0d",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which two signs should be interchanged to make the given equation correct?\n\n11 – 8 + 78 ÷ 6 × 37 = 64",
+      "options": [
+        {
+          "label": "1",
+          "text": "÷ and –"
+        },
+        {
+          "label": "2",
+          "text": "– and ×"
+        },
+        {
+          "label": "3",
+          "text": "÷ and ×"
+        },
+        {
+          "label": "4",
+          "text": "× and +"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/f17fe402f98bb01e6c434026861e42229a2db5fdddb9ac339c012f7a2b73afa8.png] \n\nLet's check each option,\n\n__Given Equation:__ **11 – 8 + 78 ÷ 6 × 37 = 64**\n\n**1) ÷ and –**\n\n→ 11 ÷ 8 + 78 - 6 × 37 = 64\n\n→ 1.3 + 78 - 6 × 37 = 64\n\n→ 1.3 + 78 - 222 = 64\n\n→ 79.3 - 222 = 64\n\n→ 142.7 ≠ 64\n\n→ LHS ≠ RHS\n\n**2) – and ×**\n\n**→ 11 × 8 + 78 ÷ 6 - 37 = 64**\n\n**→ 11 × 8 + 13 - 37 = 64**\n\n**​→ 88 + 13 - 37 = 64**\n\n**​→ 101 - 37 = 64**\n\n**→ 64 = 64**\n\n→ LHS = RHS → Satisfies the equation.\n\n**3) ÷ and ×**\n\n→ 11 – 8 + 78 × 6 ÷ 37 = 64\n\n→ 11 – 8 + 78 × 0.16 = 64\n\n→ 11 – 8 + 12.48 = 64\n\n→ 23.48 – 8 = 64\n\n→ 15.48 ≠ 64\n\n \n\n→ LHS ≠ RHS\n\n**4) × and + **\n\n→ 11 – 8 × 78 ÷ 6 + 37 = 64\n\n→ 11 – 8 × 13 + 37 = 64\n\n→ 11 – 104 + 37 = 64\n\n→ 48 – 104 = 64\n\n→ - 56 ≠ 64\n\n→ LHS ≠ RHS\n\nHere, we can see that only Option 2 satisfies the equation.\n\nHence, the correct answer is \"**– and ×**\".\n\n95",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f17fe402f98bb01e6c434026861e42229a2db5fdddb9ac339c012f7a2b73afa8.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6532ad520ee076b5d1ab7161",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that represents the letters which, when sequentially placed from left to right in the blanks below, will complete the letter series.\n\nL _ M B _ _ G M _ O L _ M B O",
+      "options": [
+        {
+          "label": "1",
+          "text": "G O L B G"
+        },
+        {
+          "label": "2",
+          "text": "M G B L B"
+        },
+        {
+          "label": "3",
+          "text": "G L O B G"
+        },
+        {
+          "label": "4",
+          "text": "B G L O M"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nL _ M B _ _ G M _ O L _ M B O\n\nChecking the given options one by one:\n\n1. G O L B G \n\nL **G** M B **O / L** G M **B** O / L **G** M B O\n\nHere, the series is in meaningful order.\n\n2. M G B L B\n\nL <st",
+      "tags": [
+        "Series"
+      ]
+    }
+  ]
+}

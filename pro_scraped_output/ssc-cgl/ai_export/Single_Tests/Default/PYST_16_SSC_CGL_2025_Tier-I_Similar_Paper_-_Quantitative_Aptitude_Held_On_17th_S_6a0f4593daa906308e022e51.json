@@ -1,0 +1,844 @@
+{
+  "test_id": "6a0f4593daa906308e022e51",
+  "title": "PYST 16: SSC CGL 2025 Tier-I Similar Paper - Quantitative Aptitude (Held On: 17th Sep 2025 Shift 1)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:25:52.179443+00:00",
+  "questions": [
+    {
+      "qid": "694a81b652f6dcca4f9a0a1a",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify the following expression:\n\n√(24 + 12 √3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "6 + √6"
+        },
+        {
+          "label": "2",
+          "text": "3 + √12"
+        },
+        {
+          "label": "3",
+          "text": "3 √2 + √6"
+        },
+        {
+          "label": "4",
+          "text": "6 + √18"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n√(24 + 12√3)\n\n**Formula used:**\n\n√(a + b + 2√ab) = √a + √b\n\n**Calculations:**\n\n⇒ Compare 24 + 12√3 with a + b + 2√ab\n\n⇒ 2&rad",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "694a81b617b58550d27dec0f",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given the ratios W : X = 10 : 12, X : Y = 6 : 14, and Y : Z = 16 : 18, find the compound ratio W : X : Y : Z. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 : 24 : 56 : 63"
+        },
+        {
+          "label": "2",
+          "text": "10 : 12 : 14 : 18"
+        },
+        {
+          "label": "3",
+          "text": "5 : 6 : 14 : 9"
+        },
+        {
+          "label": "4",
+          "text": "41 : 48 : 112 : 126"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nW : X = 10 : 12\n\nX : Y = 6 : 14\n\nY : Z = 16 : 18\n\n**Formula used:**\n\nTo find compound ratio, make common terms equal step-by-step\n\n**Calculations:**\n\nW : X = 10 : 12\n\nX : Y = 6 : 14\n\nLCM of X terms (12 and 6) = 12\n\n⇒ Multi",
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "694a81b621a3c5f9b3f336df",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the value of the following infinite series:\n\n√(12 + √(12 + √(12 + ...))) ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n√(12 + √(12 + √(12 + … )))\n\n**Formula used:**\n\nIf x = √(a + x), then x² = a + x\n\n**Calculations:**\n\nLet x = √(12 + √(12 + √(12 + … )))\n\n⇒ x = √(12 + x)\n\n⇒ x² = 12 + x\n\n⇒ x² − x − 12 = 0\n\n⇒ (x − 4)(x + 3) = 0\n\n⇒ x = 4 or x = −3\n\nSince value is under square root, x > 0\n\n⇒ x = 4\n\n**∴ The value of the infinite series is 4.**",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "694a81b742f47729fe189703",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A retail vendor purchases 14 shirts at the marked price of 12 shirts. If he sells each shirt after providing an 8 percent discount on its original marked price, what is his final profit percentage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6.5 percent"
+        },
+        {
+          "label": "2",
+          "text": "7.33 percent"
+        },
+        {
+          "label": "3",
+          "text": "8.25 percent"
+        },
+        {
+          "label": "4",
+          "text": "9.1 percent"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nVendor purchases 14 shirts at the marked price of 12 shirts\n\nDiscount given on each shirt = 8%\n\n**Formula used:**\n\nProfit % = (Profit ÷ Cost Price) × 100\n\n**Calculations:**\n\nLet marked price of 1 shirt = ₹100\n\nCost price of 12 shirts = 12 × 100 = ₹1200\n\n⇒ Cost price of 14 shirts = ₹1200\n\nSelling price of 1 shirt after 8% discount\n\n⇒ SP of 1 shirt = 92\n\nSelling price of 14 shirts = 14 × 92 = ₹1288\n\nProfit = 1288 − 1200 = ₹88\n\n⇒ Profit % = (88 ÷ 1200) × 100\n\n⇒ Profit % = 7.33%\n\n**∴ The final profit percentage is 7.33%.**\n\n3\n4:T710,&",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "694a81b75ff21f323136a79a",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Inlet Pipe A is capable of filling a reservoir in 32 minutes while Inlet Pipe B can fill the same reservoir in 48 minutes. Both pipes are opened together, but after 8 minutes, the flow rate of Pipe A doubles and the rate of Pipe B is reduced to half of its original capacity. How many additional minutes will it take to fill the reservoir completely?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6 min"
+        },
+        {
+          "label": "2",
+          "text": "10 min"
+        },
+        {
+          "label": "3",
+          "text": "8 min"
+        },
+        {
+          "label": "4",
+          "text": "12 min"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nPipe A can fill the reservoir in 32 minutes\n\nPipe B can fill the reservoir in 48 minutes\n\nBoth pipes work together for first 8 minutes\n\nAfter 8 minutes:\n\n⇒ Rate of Pipe A becomes double\n\n⇒ Rate of Pipe B becomes half\n\n**Formula used:**\n\nTotal work = LCM of individual times\n\nEfficiency = Work ÷ Time\n\nTime = Remaining work ÷ New efficiency\n\n**Calculations:**\n\nLCM of 32 and 48 = 96\n\n⇒ Total work = 96 units\n\n⇒ Pipe A’s 1 min work = 96 ÷ 32 = 3 units\n\n⇒ Pipe B’s 1 min work = 96 ÷ 48 = 2 units\n\n**Work done in first 8 minutes:**\n\n⇒ (A + B)’s 1 min work = 3 + 2 = 5 units\n\n⇒ Work done in 8 min = 8 × 5 = 40 units\n\n⇒ Remaining work = 96 − 40 = 56 units\n\n**After change in rates:**\n\n⇒ New rate of A = 2 × 3 = 6 units/min\n\n⇒ New rate of B = 2 ÷ 2 = 1 unit/min\n\n⇒ Combined new rate = 6 + 1 = 7 units/min\n\n**Time for remaining work:**\n\n⇒ Time = 56 ÷ 7 = 8 minutes\n\n**∴ It will take 8 more minutes to completely fill the reservoir.**",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "694a81b74c6adf05d2e5f6a4",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Calculate the final result of the following expression:\n\n(883 + 703 - 1063) + 54³",
+      "options": [
+        {
+          "label": "1",
+          "text": "-1652"
+        },
+        {
+          "label": "2",
+          "text": "−6226"
+        },
+        {
+          "label": "3",
+          "text": "-4925"
+        },
+        {
+          "label": "4",
+          "text": "-9080"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n(88³ + 70³ − 106³) + 54³\n\n**Formula used:**\n\na³ = a × a × a\n\n**Calculations:**\n\n⇒ 88³ = 88 × 88 × 88 = 681472\n\n⇒ 70³ = 70 × 70 × 70 = 343000\n\n⇒ 106³ = 106 × 106 × 106 = 1191016\n\n⇒ 54³ = 54 × 54 × 54 = 157464\n\n⇒ 88³ + 70³ = 681472 + 343000 = 1024472\n\n⇒ 1024472 − 1191016 = −166544\n\n⇒ −166544 + 157464 = −9080\n\n**∴ The final result is −9080.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "694a81b865ef8e2092bf93a3",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A total sum of 20,000 is lent out in two separate portions, one at a 14 percent simple interest rate and the other at a 24 percent simple interest rate. If the total annual interest earned is 4,000, what is the specific sum lent at the 14 percent rate?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8,000"
+        },
+        {
+          "label": "2",
+          "text": "9,000"
+        },
+        {
+          "label": "3",
+          "text": "10,000"
+        },
+        {
+          "label": "4",
+          "text": "11,000"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nTotal sum = ₹20,000\n\nRate on first part = 14% p.a.\n\nRate on second part = 24% p.a.\n\nTotal annual interest = ₹4,000\n\n**Formula used:**\n\nSimple Interest = (P × R × T) ÷ 100\n\n**Calculations:**\n\n&",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "694a81b85481b89bd54c0bba",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sum of 1,800 is lent at a specific rate of simple interest. After 18 months, another 1,200 is lent at a rate that is 2 times the original rate. If the total simple interest accumulated after 2 years is 144, find the initial original interest rate. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 percent"
+        },
+        {
+          "label": "2",
+          "text": "1 percent"
+        },
+        {
+          "label": "3",
+          "text": "3 percent"
+        },
+        {
+          "label": "4",
+          "text": "4 percent"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nFirst sum = ₹1800\n\nTime for first sum = 2 years\n\nSecond sum = ₹1200\n\nSecond sum is lent after 18 months = 1.5 years\n\n⇒ Time for second sum = 2 − 1.5 = 0.5 years\n\nRate of second sum = 2 times the original rate\n\nTotal simple interest after 2 years = ₹144\n\n**Formula used:**\n\nSimple Interest = (Principal × Rat",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "694a81b982413e77a4006c71",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A utility pole casts a shadow measuring 20 meters. Given that the actual height of the flagpole is 20 square root 3 meters, what is the angle at which the sun is currently elevated? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30°"
+        },
+        {
+          "label": "2",
+          "text": "45°"
+        },
+        {
+          "label": "3",
+          "text": "60°"
+        },
+        {
+          "label": "4",
+          "text": "90°"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nHeight of the flagpole = 20√3 meters\n\nLength of the shadow = 20 meters\n\n**Formula Used:**\n\ntan(θ) = Opposite / Adjacent\n\ntan(θ) = Height of the flagpole / Length of the shadow\n\n**Calculation:**\n\n⇒ tan(θ) = 20√3 / 20\n\n⇒ tan(θ) = √3\n\n⇒ θ = tan⁻¹(√3)\n\n⇒ θ = 60°\n\n**∴ The correct answer is 60°.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "694a81b96f8c578dea8fb005",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A hollow metallic sphere has an outer radius of 20 cm and is melted down to produce 100 smaller solid spheres, each with a radius of 4 cm. What was the approx inner radius of the original hollow sphere?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16.86 cm"
+        },
+        {
+          "label": "2",
+          "text": "14.96 cm"
+        },
+        {
+          "label": "3",
+          "text": "10.92 cm"
+        },
+        {
+          "label": "4",
+          "text": "11.70 cm"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nOuter radius of hollow sphere (R) = 20 cm\n\nInner radius of hollow sphere = r cm\n\nNumber of small solid spheres = 100\n\nRadius of each small sphere = 4 cm\n\n**Formula used:**\n\nVolume of sphere = (4/3) × π × r³\n\n**Calculations:**\n\nVolume of hollow sphere = Volume of outer sphere − Volume of inner sphere\n\n⇒ (4/3) × π × (20³ &am",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "694a81b917b58550d27dec25",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The volume of a solid hemisphere is numerically equal to eight times its curved surface area. What is the radius of this hemisphere? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24 cm"
+        },
+        {
+          "label": "2",
+          "text": "30 cm"
+        },
+        {
+          "label": "3",
+          "text": "32 cm"
+        },
+        {
+          "label": "4",
+          "text": "34 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nSolid hemisphere of radius = r\n\nVolume of hemisphere = 8 × Curved surface area of hemisphere\n\n**Formula used:**\n\nVolume of hemisphere = (2/3) × π × r³\n\nCurved surface area of hemisphere = 2 × π × r²\n\n**Calculations:**\n\n⇒ (2/3) × π × r³ = 8 × (2 × π × r²)\n\n⇒ (2/3) × π × r³ = 16 × π × r²\n\n⇒ (2/3) × r = 16\n\n⇒ r = 16 × 3 ÷ 2\n\n⇒ r = 24\n\n**∴ The radius of the hemisphere is 24 units.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "694a81ba42f47729fe1897c8",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Determine the minimum number of straight cuts required to divide a large cuboid into 16 equal smaller cuboids. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nA large cuboid is to be divided into 16 equal smaller cuboids\n\n**Formula used:**\n\nIf a cuboid is divided into a × b × c equal parts,\n\nMinimum number of straight cuts = (a − 1) + (b − 1) + (c − 1)\n\n**Calculations:**\n\n16 = 2 × 2 × 4\n\n⇒ a = 2, b = 2, c = 4\n\n⇒ Required cuts = (2 − 1) + (2 − 1) + (4 − 1)\n\n⇒ Required cuts = 1 + 1 + 3\n\n⇒ Required cuts = 5\n\n**∴ The minimum number of straight cuts required is 5.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "694a81ba71e0cc6d3c75f300",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the vertical height of a cone is increased by 6 times and its base radius is reduced to one-fourth of the original, how does the final volume change?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Doubles"
+        },
+        {
+          "label": "2",
+          "text": "Becomes three-eighths of original"
+        },
+        {
+          "label": "3",
+          "text": "Becomes one-third of original"
+        },
+        {
+          "label": "4",
+          "text": "Remains unchanged"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nLet original radius = r\n\nLet original height = h\n\nNew height = 6h\n\nNew radius = r ÷ 4\n\n**Formula used:**\n\nVolume of cone = (1 ÷ 3) × π × r² × h\n\n**Calculations:**\n\nOriginal volume, V = (1 ÷ 3) × π × r² × h\n\nNew volume, V′ = (1 ÷ 3) × π × (r ÷ 4)² × (6h)\n\n⇒ V′ = (1 ÷ 3) × π × (r² ÷ 16) × 6h\n\n⇒ V′ = (6 ÷ 16) × (1 ÷ 3) × π × r² × h\n\n⇒ V′ = (3 ÷ 8) × (1 ÷ 3) × π × r² × h\n\n⇒ V′ = (1 ÷ 8) × π × r² × h\n\nCompare with original volume:\n\n⇒ V = (1 ÷ 3) × π × r² × h\n\n⇒ V′ : V = (1 ÷ 8) : (1 ÷ 3)\n\n⇒ V′ : V = 3 : 8\n\n**∴ The final volume becomes 3/8 of the original volume (i.e., it decreases).**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "694a81ba74bc5796823af8e2",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sin theta = 24 / 26, and theta exists in the first quadrant, then what is the value of tan theta? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 / 5"
+        },
+        {
+          "label": "2",
+          "text": "10 / 24"
+        },
+        {
+          "label": "3",
+          "text": "12 / 13"
+        },
+        {
+          "label": "4",
+          "text": "5 / 12"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nsin θ = 24 / 26\n\nθ lies in the first quadrant\n\n**Formula used:**\n\nsin θ = Opposite ÷ Hypotenuse\n\ntan θ = Opposite ÷ Adjacent\n\n**Calculations:**\n\nsin θ = 24 / 26 = 12 / 13\n\n⇒ Opposite side = 12\n\n⇒ Hypotenuse = 13\n\n⇒ Adjacent side\n = √(13² − 12²)\n\n⇒ Adjacent = √(169 − 144)\n\n⇒ Adjacent = √25 = 5\n\n⇒ tan θ = Opposite ÷ Adjacent\n\n⇒ tan θ = 12 ÷ 5\n\n**∴ The value of tan θ is 12/5.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "694a81bb71e0cc6d3c75f305",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the calculated value of tan A + cot A if tan A = 4? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "17 / 4"
+        },
+        {
+          "label": "2",
+          "text": "15 / 4"
+        },
+        {
+          "label": "3",
+          "text": "13 / 4"
+        },
+        {
+          "label": "4",
+          "text": "19 / 4"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\ntan A = 4\n\n**Formula Used:**\n\ncot A = 1 / tan A\n\ntan A + cot A = tan A + (1 / tan A)\n\n**Calculation:**\n\n⇒ cot A = 1 / tan A\n\n⇒ cot A = 1 / 4\n\n⇒ tan A + cot A = 4 + (1 / 4)\n\n⇒ tan A + cot A = (16 / 4) + (1 / 4)\n\n⇒ tan A + cot A = 17 / 4\n\n**∴ The correct answer is 17 / 4.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "694a81bb9d87448b1d421ae5",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Determine the slope of the line represented by the equation 4x + 6y = 12. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-3 / 2"
+        },
+        {
+          "label": "2",
+          "text": "-2 / 3"
+        },
+        {
+          "label": "3",
+          "text": "2 / 3"
+        },
+        {
+          "label": "4",
+          "text": "3 / 2"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nEquation of the line: 4x + 6y = 12\n\n**Formula Used:**\n\nEquation of a line in slope-intercept form: y = mx + c\n\nSlope (m) = -A / B, where the equation is represented as Ax + By + C = 0\n\n**Calculation:**\n\nRearranging the equation 4x + 6y = 12 into standard form:\n\n⇒ 4x + 6y - 12 = 0\n\nComparing with Ax + By + C = 0:\n\n⇒ A = 4, B = 6\n\nSubstitute into the slope formula:\n\n⇒ Slope (m) = -A / B\n\n⇒ Slope (m) = -4 / 6\n\n⇒ Slope (m) = -2 / 3\n\n**∴ The correct answer is -2 / 3.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694a81bb2b8e0de52b72a3ee",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sector of a circle has a central angle of 120 degrees and a radius of 16 cm. Another sector of the same circle has a central angle of 2π/ 3 radians. What is the ratio of the area of the first sector to the area of the second sector?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2:3"
+        },
+        {
+          "label": "2",
+          "text": "1:1"
+        },
+        {
+          "label": "3",
+          "text": "2:1"
+        },
+        {
+          "label": "4",
+          "text": "3:2"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRadius of the circle, r = 16 cm\n\nCentral angle of first sector = 120°\n\nCentral angle of second sector = 2π / 3 radians\n\n**Formula used:**\n\nArea of sector (in degrees) = (θ / 360) × π × r²\n\nArea of sector (in radians) = (θ / 2π) × π × r²\n\n**Calculations:**\n\nConvert 120° into radians:\n\n⇒ 120° = 120 × π ÷ 180 = 2π / 3 radians\n\nSo, both sectors have the same radius and the same central angle\n\n⇒ Area of first sector : Area of second se\nctor = 1 : 1\n\n**∴ The ratio of the areas of the two sectors is 1 : 1.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "694a81bc66abd6935bb97f5f",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Based on geometric laws, a triangle can have:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Two right angles"
+        },
+        {
+          "label": "2",
+          "text": "Two obtuse angles"
+        },
+        {
+          "label": "3",
+          "text": "One right angle and two acute angles"
+        },
+        {
+          "label": "4",
+          "text": "Three acute angles each measuring more than 60°"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nA triangle has three interior angles\n\n**Formula used:**\n\nSum of interior angles of a triangle = 180°\n\n**Calculations:**\n\n⇒ Two right angles = 90° + 90° = 180°\n\n⇒ Third angle = 0° (not possible)</",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694a81bcc2151101a6288996",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Line M serves as the perpendicular bisector of the line segment connecting point J(4, 10) and point K(16, -2). What is the y-intercept of line M?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-6"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "-12"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nPoint J = (4, 10)\n\nPoint K = (16, −2)\n\nLine M is the perpendicular bisector of JK\n\n**Formula used:**\n\nMidpoint = ((x₁ + x₂) ÷ 2 , (y₁ + y₂) ÷ 2)\n\nSlope = (y₂ − y₁) ÷ (x₂ − x₁)\n\nSlope of perpendicular line = −1 ÷ slope\n\nEquation of line: y = mx + c\n\n**Calculations:**\n\n⇒ Midpoint of JK\n\n⇒ x = (4 + 16) ÷ 2 = 10\n\n⇒ y = (10 − 2) ÷ 2 = 4\n\n⇒ Midpoint = (10, 4)\n\n⇒ Slope of JK\n\n⇒ (−2 − 10) ÷ (16 − 4) = −12 ÷ 12 = −1\n\n⇒ Slope of line M = 1 (negative reciprocal of −1)\n\n⇒ Equation of line M passing through (10, 4)\n\n⇒ y − 4 = 1(x − 10)\n\n⇒ y = x − 6\n\n⇒ y-intercept when x = 0\n\n⇒ y = −6\n\n**∴ The y-intercept of line M is −6.**\n\n6e:T8bc,\n<p",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694a81bc4db87be461874098",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The area of triangle XYZ is 32 square cm. If a similar triangle PQR has sides that are four times the length of triangle XYZ's sides, what is the area of triangle PQR?",
+      "options": [
+        {
+          "label": "1",
+          "text": "128 sq cm"
+        },
+        {
+          "label": "2",
+          "text": "256 sq cm"
+        },
+        {
+          "label": "3",
+          "text": "512 sq cm"
+        },
+        {
+          "label": "4",
+          "text": "640 sq cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nArea of triangle XYZ = 32 cm²\n\nTriangle PQR is similar to triangle XYZ\n\nEach side of triangle PQR = 4 times the corresponding side of triangle XYZ\n\n**Formula used:**\n\nFor similar triangles,\n\nRatio of areas = (Ratio of corresponding sides)²\n\n**Calculations:**\n\nRatio of sides = 4 : 1\n\n⇒ Ratio of areas = 4² : 1²\n\n⇒ Ratio of areas = 16 : 1\n\nArea of triangle PQR = 32 × 16\n\n⇒ Area of triangle PQR = 512 cm²\n\n**∴ The area of triangle PQR is 512 cm².**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694a81bdd958738761024436",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Evaluate the following numerical expression:\n\n88³ + 70³ - 158³",
+      "options": [
+        {
+          "label": "1",
+          "text": "- 2919840"
+        },
+        {
+          "label": "2",
+          "text": "-3456720"
+        },
+        {
+          "label": "3",
+          "text": "2919840"
+        },
+        {
+          "label": "4",
+          "text": "0"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n88³ + 70³ − 158³\n\n**Formula used:**\n\na³ + b³ − (a + b)³ = −3ab(a + b)\n\n**Calculations:**\n\n⇒ Here, a\n = 88 and b = 70\n\n⇒ a + b = 158\n\n⇒ 88³ + 70³ − 158³\n\n⇒ −3 × 88 × 70 × 158\n\n⇒ −3 × 6160 × 158\n\n⇒ −3 × 973280\n\n⇒ - 2919840\n\n**∴ The value of the expression is −2919840.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "694a81bd7bcbeefbe69a5285",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sin A + cos A = 10 / 8, find the value of sin 2A. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7 / 8"
+        },
+        {
+          "label": "2",
+          "text": "18 / 64"
+        },
+        {
+          "label": "3",
+          "text": "9 / 16"
+        },
+        {
+          "label": "4",
+          "text": "9 / 32"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nsin A + cos A = 10 / 8\n\n**Formula Used:**\n\nsin 2A = 2 × sin A × cos A\n\nsin²A + cos²A = 1\n\n**Calculation:**\n\n⇒ sin A + cos A = 10 / 8 = 5 / 4\n\n⇒ (sin A + cos A)2<",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "694a81bdd12aa2e78a889452",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "From an external point M, two tangents, MX and MY, are drawn to a circle. Given that the length of MX is 24 cm, what is the length of MY?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 cm"
+        },
+        {
+          "label": "2",
+          "text": "20 cm"
+        },
+        {
+          "label": "3",
+          "text": "24 cm"
+        },
+        {
+          "label": "4",
+          "text": "48 cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nFrom an external point M, two tangents MX and MY are drawn to a circle\n\nLength of MX = 24 cm\n\n**Formula used:**\n\nTangents drawn from an external point to a circle are equal in length\n\n**Calculations:**\n\n⇒ MX = MY\n\n⇒ MY = 24 cm\n\n**∴ The length of MY is 24 cm.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694a81bed34f9ec25ccd6005",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A circle is inscribed within a right triangle. Considering that the lengths of the two legs measure 12 cm and 16 cm, what is the radius of the inscribed circle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4 cm"
+        },
+        {
+          "label": "2",
+          "text": "6 cm"
+        },
+        {
+          "label": "3",
+          "text": "8 cm"
+        },
+        {
+          "label": "4",
+          "text": "10 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRight triangle with legs = 12 cm and 16 cm\n\n**Formula used:**\n\nRadius of incircle of a right triangle\n\nr = (a + b − c) ÷ 2\n\nwhere a, b are the legs and c is the hypotenuse\n\n**Calculations:**\n\n⇒ a = 12, b = 16\n\n⇒ Hypotenuse, c = √(12² + 16²)\n\n⇒ c = √(144 + 256)\n\n⇒ c = √400 = 20\n\n⇒ r = (12 + 16 − 20) ÷ 2\n\n⇒ r = 8 ÷ 2\n\n⇒ r = 4 cm\n\n**∴ The radius of the inscribed circle is 4 cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "694a81be11a0a19d24eee6e2",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If x = 0.04, y = 0.06, z = -0.10, and x + y + z = 0, find the value of (x3 + y3 + z3) ÷ (3xyz)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-1"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nx = 0.04\n\ny = 0.06\n\nz = −0.10\n\nx + y + z = 0\n\nRequired value = (x³ + y³ + z³) ÷ (3xyz)\n\n**Formula used:**\n\nIf x + y + z = 0, then\n\nx³ + y³ + z³ = 3xyz\n\n**Calculations:**\n\n⇒ x³ + y³ + z³ = 3xyz\n\n⇒ (x³ + y³ + z³) ÷ (3xyz) = 3xyz ÷ 3xyz\n\n⇒ Value = 1\n\n**∴ The required value is 1.**",
+      "tags": [
+        "Algebra"
+      ]
+    }
+  ]
+}

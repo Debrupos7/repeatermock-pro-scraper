@@ -1,0 +1,387 @@
+{
+  "test_id": "6a0f3cb8f886fe6323e124a2",
+  "title": "CT 21: Profit and Loss - Mixture Problems",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:28:33.471708+00:00",
+  "questions": [
+    {
+      "qid": "650af953061f430b8b65a816",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A grocer purchased 50 kg of sugar at Rs. 40 per kg and mixed with 70 kg of sugar at Rs. ​30 per kg. At what rate should he sell the mixture (per kg) to gain 20%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 60"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 20"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 35"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 41"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nCost price of 50 kg sugar at Rs. 40/kg = 50 × 40.\n\nCost price of 70 kg sugar at Rs. 30/kg = 70 × 30.\n\nTotal weight of sugar = 50 kg + 70 kg.\n\nGain = 20%.\n\n**Formula Used:**\n\nTotal Cost Price = Sum of the cost prices of both types of sugar.\n\nSelling Price = Total Cost Price + Gain% of Total Cost Pr",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "650b10ed125560e4c3676886",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many kilograms of sugar at Rs. 3.80 per kg must be mixed with 60 kg of sugar at Rs. 4.60 per kg, so that by selling the mixture at Rs. 5.20 per kg there may be a gain of 30%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "170 kg"
+        },
+        {
+          "label": "2",
+          "text": "120 kg"
+        },
+        {
+          "label": "3",
+          "text": "160 kg"
+        },
+        {
+          "label": "4",
+          "text": "180 kg"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nCost price of sugar per kg to be mixed = Rs. 3.80.\n\nCost price of 60kg of sugar = Rs. 4.60 per kg.\n\nSelling price of the mixture = Rs. 5.20 per kg.\n\nProfit = 30%.\n\n**Formula Used:**\n\nLet the cost price of the mixture per kg be Rs. C.\n\nProfit = (Selling Price - Cost Price) / Cost Price × 100\n\nWeighted Average Cost Price = (Quantity1 × Price1 + Quantity2 × Price2) / (Quantity1 + Quantity2)\n\n**Calculation:**\n\nLet the mass of the sugar to be mixed be x kg.\n\nCost Price of x kg of sugar at Rs. 3.80 per kg = 3.80x.\n\nCost Price of 60 kg of sugar at Rs. 4.60 per kg = 4.60 × 60.\n\n⇒ Total Cost Price = 3.80x + 4.60 × 60\n\n⇒ Total Weight = x + 60 kg\n\nLet C be the cost price of the mixture per kg, then\n\n⇒ C = (3.80x + 4.60 × 60) / (x + 60)\n\nSelling price of the mixture = Rs. 5.20 per kg, and profit = 30%,\n\n⇒ C × 1.30 = 5.20\n\n⇒ C = 5.20 / 1.30\n\n⇒ C = 4\n\nSubstitute the value of C in the weighted average equation:\n\n⇒ 4 = (3.80x + 276) / (x + 60)\n\n⇒ 4x + 240 = 3.80x + 276\n\n⇒ 4x - 3.80x = 276 - 240\n\n⇒ 0.20x = 36\n\n⇒ x = 36 / 0.20\n\n⇒ x = 180 kg\n\n**Therefore, 180 kg of sugar at Rs. 3.80 per kg must be mixed with 60 kg of sugar at Rs. 4.60 per kg.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "62693c15901bcf94a16bd5cc",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A shopkeeper blends two varieties of tea, one costing Rs. 320 per kg and another costing Rs. 240 per kg, in the ratio 9 : 11. If he sells the mixture at Rs. 325.68 per kg, then his gain percentage is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "16.8%"
+        },
+        {
+          "label": "2",
+          "text": "20%"
+        },
+        {
+          "label": "3",
+          "text": "15.3%"
+        },
+        {
+          "label": "4",
+          "text": "18%"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nTwo varieties of tea, one costing Rs. 320 per kg and another costing Rs. 240 per kg.\n\nHe sells the mixture at Rs. 325.68 per kg\n\nAverage CP of mixed tea when mixed in ratio 9:11\n\n**Formula used:**\n\nProfit = SP - CP\n\nProfit % = (Profit / CP) × 100\n\n**Calculation:**\n\nAverage CP of mixed tea when mixed in ratio 9:11\n\n⇒ (320×9 + 240×11)over(9+11) = (2,880+2,640)over20 \n\nCP = 5520over20 = Rs. 276\n\nSP = Rs. 325.68\n\nProfit = 325.68 - 276 = Rs. 49.68\n\nGain % = 49.68over276 × 100 = 18%\n\n**∴ The gain percentage is 18%.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6364d86d58d76e5b8bc024c1",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A shopkeeper mixes two types of rice one costing Rs. 75 per kg and the other costing Rs. 50 per kg in the ratio of 3 ∶ 2. If he sells the mixture at Rs. 62.40 per kg, then what is his gain or loss percent?",
+      "options": [
+        {
+          "label": "1",
+          "text": "gain, 4 (1)/() \\%"
+        },
+        {
+          "label": "2",
+          "text": "loss, 4 (1)/() \\%"
+        },
+        {
+          "label": "3",
+          "text": "gain, 4%"
+        },
+        {
+          "label": "4",
+          "text": "loss, 4%"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nA shopkeeper mixes two types of rice one costing Rs. 75 per kg and the other costing Rs. 50 per kg in the ratio of 3 ∶ 2.\n\nSells the mixture at Rs. 62.40 per kg\n\n**Formula used:**\n\nLoss% = dfrac{CP - SP}{CP} × 100\n\n**Calculations:**\n\nTotal cost price of rice when Rs. 75 per kg is mixed in 3x quantity and Rs. 50 per kg is mixed in 2x quantity = 75 × 3x + 50 × 2x (where, x be the quantity of rice)\n\n=> 225x + 100x = 325x\n\nTotal selling price of rice for (3x + 2x = 5x) quantity at Rs. 62.40 per kg = 62.40 × 5x = 312x\n\nRequired loss% = dfrac{325x - 312x}{325x} × 100\n\n= dfrac{13 × 100}{325}\n\n= 4%\n\n**∴ The answer is 4%.**\n\n3d:",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6400308808a546ec9e8e7903",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A provisions shop-owner is found to mix 25 kg of rice worth Rs.32/kg and 20 kg of rice worth Rs.35/kg and the mixed rice is sold at 15% profit. What is the selling price of mixed rice",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 35.40/kg"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 38.33/kg"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 36.50/kg"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 37.42/kg"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nMixed 25 kg of rice worth Rs. 32/kg mix and 20 kg of rice worth Rs. 32/kg\n\nMixed rice is sold at 15% profit\n\n**Calculation:**\n\nCP = 25 × 32 + 20 × 35\n\n= 800 + 700\n\n= 1500\n\nfrac{{CP}}{{Kg}} = frac{{1500}}{{45}}\n\n= frac{{100}}{3}\n\nSP = ( {frac{{115}}{{100}}} ) times ( {frac{{100}}{3}} ) \n\n= 38.33/Kg\n\n**∴ The correct answer is 38.33 Kg.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "64b5faa622bf29353822addf",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In what ratio should tea costing Rs. 90 per kg be mixed with tea costing Rs. 150 per kg so that by selling the mixture for Rs. 143 per kg there is a profit of 30%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4 ∶ 1"
+        },
+        {
+          "label": "2",
+          "text": "3 ∶ 1"
+        },
+        {
+          "label": "3",
+          "text": "2 ∶ 1"
+        },
+        {
+          "label": "4",
+          "text": "5 ∶ 1"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nCost Price (CP) of the mixture = 143 × 100 / 130 = Rs. 110.\n\nBy using the rule of alligation:\n\nRatio = (Dearer Price − Mean Price) : (Mean Price − Cheaper Price)\n\nRatio = (150 − 110) : (110 − 90) = 40 : 20 = 2 : 1.\n\n**∴ The correct answer is 2 ∶ 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven:\n\nCP of first tea (CP₁) = Rs. 90/kg\n\nCP of second tea (CP₂) = Rs. 150/kg\n\nSelling Price (SP) of mixture = Rs. 143/kg\n\nProfit percentage = 30%\n\nFormula used:\n\nCP = [SP × 100] / [100 + Profit%]\n\n \n CP1 (90)\n \n \n CP2 (150)\n \n \n 110\n \n \n• \n \n• \n \n \n• \n \n• \n \n 150−110 = 40\n 110−90 = 20\n \n Ratio = 40 : 20 = 2 : 1\n\nCalculations:\n\n⇒ Mean CP of mixture = (143 × 100) / (100 + 30)\n\n⇒ Mean CP = (143 × 100) / 130\n\n⇒ Mean CP = 11 × 10 = Rs. 110\n\n⇒ According to Alligation Rule:\n\n⇒ (Quantity of tea 1) / (Quantity of tea 2) = (CP₂ − Mean CP) / (Mean CP − CP₁)\n\n⇒ Ratio = (150 − 110) / (110 − 90)\n\n⇒ Ratio = 40 / 20\n\n⇒ Ratio = 2 / 1\n\n**∴ The correct answer is 2 ∶ 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRule of Alligation\n\nIt is used to find the ratio in which two or more ingredients at given prices must be mixed to produce a mixture of a specified price.\n\nProfit and CP Relation\n\nWhen profit is made, CP = SP / (1 + Profit/100). Always ensure all prices used in the alligation cross (CP1, CP2, and Mean Price) are in the same unit (all must be Cost Prices).\n\nWeighted Average\n\nMean Price = (n₁ × c₁ + n₂ × c₂) / (n₁ + n₂), where n is quantity and c is price per unit.\n\n41",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "630b2131ead038fa74e1adda",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "16 kg of Rs. 20 per kg wheat is mixed with 8 kg of another type of wheat to get a mixture that costs Rs. 25 per kg. Find the price (per kg) of the costlier wheat.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 32"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 30"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 34"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 35"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of quantity of cheaper wheat to costlier wheat = 16 : 8 = 2 : 1\n\nBy alligation method: (Price of costlier − Mean price) : (Mean price − Price of cheaper) = Quantity ratio\n\n⇒ (x − 25) : (25 − 20) = 2 : 1\n\n⇒ (x − 25) ÷ 5 = 2\n\n⇒ x − 25 = 10 ⇒ x = 35\n\n**∴ The correct answer is Rs. 35.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nQuantity of cheaper wheat (Q₁) = 16 kg at Rs. 20 / kg\n\nQuantity of costlier wheat (Q₂) = 8 kg at Rs. x / kg\n\nMean price of mixture = Rs. 25 / kg\n\n**Formula Used:**\n\nMean Price = (Total Cost of Mixture) ÷ (Total Quantity of Mixture)\n\n \n Cheaper\n Rs. 20\n \n \n Costlier\n Rs. x\n \n \n Mean\n Rs. 25\n \n \n• \n \n• \n \n• \n \n• \n \n \n x − 25\n (16 kg)\n\n \n 5\n (8 kg)\n\n**Calculations:**\n\n⇒ Total quantity of mixture = 16 + 8 = 24 kg\n\n⇒ Total cost of mixture = 24 × 25 = Rs. 600\n\n⇒ Cost of cheaper wheat = 16 × 20 = Rs. 320\n\n⇒ Cost of costlier wheat = 8 × x = 8x\n\n⇒ Total cost = 320 + 8x\n\n⇒ 320 + 8x = 600\n\n⇒ 8x = 600 − 320\n\n⇒ 8x = 280\n\n⇒ x = 35\n\n**∴ The correct answer is Rs. 35.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRule of Alligation\n\nIt allows us to find the ratio in which two or more ingredients at given prices must be mixed to produce a mixture of desired price. The ratio is given by: (Price of dearer − Mean price) : (Mean price − Price of cheaper).\n\nRepeated Replacement Method\n\nIf 'y' volume is removed from a container containing 'x' volume of pure liquid and replaced with an alternate liquid, and this is done 'n' times, then the final quantity of original liquid = x × (1 − y ÷ x)ⁿ.\n\nWeighted Average\n\nWhen different quantities (n₁, n₂) are mixed having respective averages (A₁, A₂), the combined average is given by: A = (n₁A₁ + n₂A₂) ÷ (n₁ + n₂).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "65096c66896674a250725431",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Mixture 1 with a volume of 8 litres has 80% milk and Mixture 2 with a volume of 6 litres has 60% milk. Both the mixtures are mixed. Find the percentage of milk in the final mixture.",
+      "options": [
+        {
+          "label": "1",
+          "text": "(600)/(7)"
+        },
+        {
+          "label": "2",
+          "text": "(500)/(9)"
+        },
+        {
+          "label": "3",
+          "text": "(500)/(7)"
+        },
+        {
+          "label": "4",
+          "text": "(800)/(9)"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nVolume of Mixture 1 = 8 litres with 80% milk.\n\nVolume of Mixture 2 = 6 litres with 60% milk.\n\n**Formula Used:**\n\nTotal milk in the final mixture = Milk from Mixture 1 + Milk from Mixture 2\n\nPercentage of milk in the final mixture = (Total milk in the final mixture / Total volume of the final mixture) × 100\n\n**Calculation:**\n\nMilk in Mixture 1 = 80% of 8 litres = (80/100) × 8 = 6.4 litres\n\nMilk in Mixture 2 = 60% of 6 litres = (60/100) × 6 = 3.6 litres\n\nTotal volume of the final mixture = 8 + 6 = 14 litres\n\nTotal milk in the final mixture = 6.4 + 3.6 = 10 litres\n\nPercentage of milk in the final mixture = (10 / 14) × 100\n\n⇒ (10 / 14) × 100 = (500/7) %\n\nThe percentage of milk in the final mixture is (500/7) %(500/7)\" id=\"MathJax-Element-5-Frame\" role=\"presentation\" style=\"position: relative;\" tabindex=\"0\">(500<span class=\"mo\" id=\"",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "61fb693eb1b27c2483e2d268",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Raman mixed 8 kg of one variety of wheat with 12 kg of another. If the cost per kg of the two varieties were in the ratio 3 : 2, what should be the ratio of the selling price of the blended wheat per kg to that of the cost price of the superior variety of wheat per kg so that Raman makes an overall profit of 25%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 : 1"
+        },
+        {
+          "label": "2",
+          "text": "5 : 4"
+        },
+        {
+          "label": "3",
+          "text": "4 : 3"
+        },
+        {
+          "label": "4",
+          "text": "4 : 5"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nRatio of Quantities = 8 : 12 = 2 : 3\n\nRatio of Cost Prices = 3 : 2\n\nAverage CP of Blend = [(2 × 3) + (3 × 2)] ÷ (2 + 3) = 12 ÷ 5 = 2.4 units\n\nSelling Price of Blend (at 25% profit) = 2.4 × 1.25 = 3 units\n\nRequired Ratio = SP of Blend : CP of Superior = 3 : 3 = 1 : 1\n\n**∴ The correct option is A.**\n\n**__Alternate Method__**\n\n**Given:**\n\nQuantity of Superior Wheat (Q₁) = 8 kg\n\nQuantity of Inferior Wheat (Q₂) = 12 kg\n\nRatio of CPs (Superior : Inferior) = 3 : 2\n\nProfit Percentage = 25%\n\n**Formula Used:**\n\nTotal CP = (Q₁ × CP₁) + (Q₂ × CP₂)\n\nSP = CP × (1 + Profit/100)\n\n \n• \n \n CP Inf (2x)\n \n CP Blend (2.4x)\n \n CP Sup (3x)\n \n\n +25% Profit\n SP Blend = 3x\n\n**Calculations:**\n\n⇒ Let CP of superior variety = 3x per kg\n\n⇒ Let CP of inferior variety = 2x per kg\n\n⇒ Total CP of 20 kg mixture = (8 × 3x) + (12 × 2x) = 24x + 24x = 48x\n\n⇒ CP per kg of mixture = 48x ÷ 20 = 2.4x\n\n⇒ Required SP per kg of mixture = 2.4x × (125 ÷ 100)\n\n⇒ SP per kg of mixture = 2.4x × 1.25 = 3x\n\n⇒ Required Ratio = SP per kg of blend : CP per kg of superior wheat\n\n⇒ Ratio = 3x : 3x = 1 : 1\n\n**∴ The correct option is A.**\n\n**__Additional Information__**\n\nWeighted Average Rule\n\nThe average price of a mixture is given by (n₁c₁ + n₂c₂) ÷ (n₁ + n₂), where n is quantity and c is cost per unit.\n\nAlligation Method\n\nThe ratio of quantities mixed is inversely proportional to the difference between their individual costs and the mean cost: Q₁/Q₂ = (CP₂ − CPₘ) / (CPₘ − CP₁).\n\nProfit and Selling Price\n\nSelling Price (SP) = CP × [ (100 + Profit%) ÷ 100 ]. For a 25% profit, SP = 1.25 × CP.</p",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "67bb09a4df4d3c35cdf6673f",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A trader mixes 15 kg of rice at ₹ 15 per kg with 10 kg of rice of other variety at ₹ 12.5 per kg and sells the mixture at ₹ 21 per kg. Find the profit percent.",
+      "options": [
+        {
+          "label": "1",
+          "text": "45"
+        },
+        {
+          "label": "2",
+          "text": "55"
+        },
+        {
+          "label": "3",
+          "text": "60"
+        },
+        {
+          "label": "4",
+          "text": "50"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of quantities = 15 : 10 = 3 : 2\n\nAverage CP = (3 × 15 + 2 × 12.5) ÷ (3 + 2) = (45 + 25) ÷ 5 = ₹14 per kg.\n\nGiven SP = ₹21 per kg.\n\nProfit % = [(SP − CP) ÷ CP] × 100 = [(21 − 14) ÷ 14] × 100 = 50%\n\n**∴ The correct answer is 50%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nQuantity 1 = 15 kg, Rate 1 = ₹15 per kg\n\nQuantity 2 = 10 kg, Rate 2 = ₹12.5 per kg\n\nSelling Price (SP) o",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    }
+  ]
+}

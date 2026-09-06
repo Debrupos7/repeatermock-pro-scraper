@@ -1,0 +1,397 @@
+{
+  "test_id": "6a0f3cc2ccf0ef8f830e6b48",
+  "title": "CT 27: Allegation and Mixture",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:08:48.604847+00:00",
+  "questions": [
+    {
+      "qid": "5c8a4da5fdb8bb0512860342",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How much pure alcohol must be added to 400 ml of a solution containing 16% of alcohol to change the concentration of alcohol in the mixture to 40%",
+      "options": [
+        {
+          "label": "1",
+          "text": "160 ml"
+        },
+        {
+          "label": "2",
+          "text": "100 ml"
+        },
+        {
+          "label": "3",
+          "text": "128 ml"
+        },
+        {
+          "label": "4",
+          "text": "68 ml"
+        }
+      ],
+      "correct": "1",
+      "solution": "Solution quantity = 400ml\n\nLet the quantity of pure alcohol to be added in 400ml be A ml.\n\nalcohol in 400ml solution = 16 × 400/100 = 64ml.\n\nThen,\n\n⇒ 400 × 16/100 + A = (400 + A) × 40/100\n\n⇒ 64 + A = 160 + 2A/5\n\n⇒ 3A/5 = 96\n\n⇒ A = 96 × 5/3\n\n⇒ A = 160\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/0ec61331197e7d2092afe79296013289ddaf644c731d0f6cb86cd056c9891c83.png] \n\nThe ratio of solution to pure alcohol = 60 ∶ 24 = 5 ∶ 2\n\n5 units → 400 ml\n\nThen, 2 units → 400/5 × 2 = 160 ml\n\n**∴ 160ml pure alcohol to be added to make 40% alcohol in solution.**\n2f",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0ec61331197e7d2092afe79296013289ddaf644c731d0f6cb86cd056c9891c83.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "5f115df0693aaf0d0e532408",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A tea seller mixes certain amount of tea costing him Rs. 75, with 20 kg of tea costing him Rs. 45, such that he gains 20% by selling the mixture at Rs. 75. Find the quantity of tea costing Rs. 75 which he had mixed.",
+      "options": [
+        {
+          "label": "1",
+          "text": "28 kg"
+        },
+        {
+          "label": "2",
+          "text": "22 kg"
+        },
+        {
+          "label": "3",
+          "text": "24 kg"
+        },
+        {
+          "label": "4",
+          "text": "25 kg"
+        }
+      ],
+      "correct": "1",
+      "solution": "**GIVEN:**\n\nCosts of 2 types of tea are Rs. 75 and Rs. 45.\n\nSelling price of mixture = Rs. 75\n\nProfit = 20%\n\n**CONCEPT:**\n\nBasic mixture concept.\n\n**FORMULA USED:**\n\nCost price = Selling price × 100/(100 + profit%)\n\n**CALCULATION:**\n\nCost price of mixture = Selling price × 100/(100 + profit%)\n\n⇒ 75 × 100/(100 + 20)\n\n⇒ 75/1.2\n\n⇒ Rs. 62.5\n\nSuppose he had mixed ‘x’ kg of tea costing Rs. 75.\n\nSo,\n\n62.5 = frac{{45 × 20 + 75 × x }}{{20 + x}}\n\n⇒ 1250 + 62.5x = 900 + 75x\n\n⇒ 12.5x = 350\n\n⇒ x = 28\n\n**∴ He had mixed 28 kg of tea costing Rs. 75.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] **__Shortcut Trick__**\n\nTea seller sells the mixture at ₹75 at a profit of 20%\n\n(CP of mixture) × (120/100) = 75\n\n⇒ CP of mixture = ₹62.5\n\n [IMAGE: https://cdn.repeatermock.com/tb/465efabea399579c7b32479ea71fc77e0bd21af7fdcd6289a913fc2ab1f06b89.png] \n\n**∴ The tea seller mixes 28 kg of teas costing ₹75.**\n\n3b:Tc1",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/465efabea399579c7b32479ea71fc77e0bd21af7fdcd6289a913fc2ab1f06b89.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "5f0da96d06dee00d09f1ae5b",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "50 kg of a mixture contains pulse and rice in the ratio 4 ∶ 3. If 15 kg of this mixture is replaced by 15 kg of rice, then the ratio of pulse to rice in the new mixture would be:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 : 1"
+        },
+        {
+          "label": "2",
+          "text": "1 : 2"
+        },
+        {
+          "label": "3",
+          "text": "3 : 4"
+        },
+        {
+          "label": "4",
+          "text": "2 : 3"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given,**\n\nTotal quantity of mixture = 50 kg\n\nRatio of pulse and rice in the mixture = 4 ∶ 3\n\n**Concept:**\n\nIf N is divided into a ∶ b, then\n\nFirst part = N × a/(a + b)\n\nSecond part = N × b/(a + b)\n\n**Calculation:**\n\nIf quantity of 15 kg mixture is replaced, then remaining quantity of mixture = 50 - 15 = 35\n\nQuantity of pulse in the remaining mixture = 35 × (4/7) = 20 kg\n\nQuantity of rice in the remaining mixture = 35 - 20 = 15 kg\n\nIf 15 kg of rice is added, then quantity of rice = 15 + 15 = 30 kg\n\nRatio of pulse to rice = 20 ∶ 30 = 2 ∶ 3\n\n**∴ The ratio of pulse and rice in the new mixture is 2 ∶ 3.**\n\n39:T6b1,&l",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "59ddf0b9c882bc02ed96f518",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A butler steals wine from a butt of sherry which contained 4% of spirit and he replaced what he had stolen by wine containing only 20% of spirit. The butt was then 16% strong only. How much of the butt did he steal?",
+      "options": [
+        {
+          "label": "1",
+          "text": "¹/₃"
+        },
+        {
+          "label": "2",
+          "text": "²/₅"
+        },
+        {
+          "label": "3",
+          "text": "²/₃"
+        },
+        {
+          "label": "4",
+          "text": "3/4"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/1a3cb2b54746f148cfec5ec273895e3850f7d4262ba91047fde8ea9099d453e4.png]",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1a3cb2b54746f148cfec5ec273895e3850f7d4262ba91047fde8ea9099d453e4.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "5f0f05bf03402f5e9c8098b0",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A milkman added 1 litre of water to 4 litre of milk and another 2 litres of water to 3 litres of milk and finally mixed the two mixtures in equal quantity. What is the percentage of milk in the final mixture?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30%"
+        },
+        {
+          "label": "2",
+          "text": "70%"
+        },
+        {
+          "label": "3",
+          "text": "75%"
+        },
+        {
+          "label": "4",
+          "text": "40%"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n1 litre of water added to 4 litre of milk\n\nMilk ∶ Water = M ∶ W = 4 ∶ 1\n\n2 litres of water added to 3 litres of milk\n\nMilk ∶ Water = M ∶ W = 3 ∶ 2\n\n**Calculation:**\n\nMake sum of milk and water same in both mixtures, if already same, proceed\n\nIn mixture 1, M ∶ W = 4 ∶ 1 (total = 4 + 1 = 5)\n\nAnd in mixture 2, M ∶ W = 3 ∶ 2 (total = 3 + 2 = 5)\n\nIn final mixture M ∶ W = (4 + 3) ∶ (1 + 2) = 7 ∶ 3\n\nPercentage of milk in mixture = (7/10) × 100 = 70%\n\n**∴ The percentage of milk in final mixutre is 70%.**",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6135fcd65b0ed57eb3df193f",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "10 litres is drawn from a cask full of Milk and is then filled with water. This operation is performed once more. The ratio of the quantity of milk now left in cask to that of the water is 36 : 64. How many litres of Milk was there in the cask originally?",
+      "options": [
+        {
+          "label": "1",
+          "text": "21"
+        },
+        {
+          "label": "2",
+          "text": "23"
+        },
+        {
+          "label": "3",
+          "text": "19"
+        },
+        {
+          "label": "4",
+          "text": "25"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n10 litres is drawn and replaced with water twice consecutively from a cask full of milk\n\n**Formula used:**\n\nFormula for repeated dilution:\n\nPure liquid remained = x[{1 - (y/x)}ⁿ]\n\nx = Initial quantity\n\ny = amount that is replaced\n\nn = number of times\n\n<stron",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "603cb4b929edfe00b36b1b70",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a mixture of 60 litres, the ratio of milk and water is 3 : 2. What quantity of water should we add to make the ratio 1 : 5?",
+      "options": [
+        {
+          "label": "1",
+          "text": "170L"
+        },
+        {
+          "label": "2",
+          "text": "156L"
+        },
+        {
+          "label": "3",
+          "text": "160L"
+        },
+        {
+          "label": "4",
+          "text": "112L"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInitial Ratio M : W = 3 : 2 (Total = 5 units = 60 L ⇒ 1 unit = 12 L)\n\nNew Ratio M : W = 1 : 5 (Milk remains constant, so multiply by 3) → 3 : 15\n\nWater increase = 15 − 2 = 13 units\n\nQuantity of water added = 13 units × 12 L/unit = 156 L\n\n**∴ The correct answer is 156 L.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven: Total Volume = 60 L, Initial Ratio = 3 : 2, Final Ratio = 1 : 5.\n\nFormula: Qu",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "61bb2a13a17267618d2b0d30",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two liquids A and B are mixed in a bucket in the ratio 7 : 5. If 9 liters of the mixture is replaced by 10 liters of liquid B, the ratio of both the liquids becomes 7 : 9. How many liters of liquid A was in the bucket?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25"
+        },
+        {
+          "label": "2",
+          "text": "22.75"
+        },
+        {
+          "label": "3",
+          "text": "31"
+        },
+        {
+          "label": "4",
+          "text": "21"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRatio of A and B = 7 : 5\n\n**Calculation:**\n\nAccording to the question,\n\n(7x - 9 × 7/12)/(5x - 9 × 5/12 + 10) = 7/9\n\n⇒ (28x - 21)/(20x + 25) = 7/9\n\n⇒ 252x - 189 = 140x + 175\n\n⇒ 112x = 364\n\n⇒ x = 3.25\n\n⇒ 7x = 22.75\n\n**∴ 22.75 liters of liquid A was in the bucket**",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "5f9c47f21d5b6e43dc0ddf0c",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A pot is filled with 3 parts fruit juice and 5 parts with water. By removing how much the amount of the mixture from it and filling the same amount of juice in it, the ratio of fruit juice and water will be 1: 1?",
+      "options": [
+        {
+          "label": "1",
+          "text": "13/19"
+        },
+        {
+          "label": "2",
+          "text": "1/5"
+        },
+        {
+          "label": "3",
+          "text": "11/6"
+        },
+        {
+          "label": "4",
+          "text": "7/9"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nFruit : Water = 3 : 5\n\n**Calculation:**\n\nLet the fruit juice and water be 3x and 5x\n\nAnd, let y amount of mixture be removed\n\nQuantity of fruit juice removed = (3x/8x) × y = 3y/8\n\nQuantity of water removed = (5x/8x) × y = 5y/8\n\nNow, A/Q\n\n(3x – 3y/8 + y)/(5x – 5y/8) = 1/1\n\n⇒ (3x + 5y/8)/(5x – 5y/8) = 1/1\n\n⇒ (3x + 5y/8) = (5x – 5y/8)\n\n⇒ 5y/4 = 2x\n\n⇒ y = 8x/5\n\nThe part of mixture removing = (8x/5)/8x = 1/5 part\n\n∴ The amount of mixture which is removing is 1/5 parts.\n\n [IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] **__Shortcut Trick__**\n\nFruit : Water = 3 : 5\n\nAfter filling juice changes in juice parts. The water part will be the same.\n\nFruit : Water = 5 : 5 = 10 units total mixture\n\nWe added fruits 2 units in a total mixture of 10 units\n\nThe amount of mixture which is removed = 2/10 = 1/5 parts\n\n∴ The amount of mixture which is removing is 1/5 parts.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "5b8fb2cd36bcf80c40bb5664",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A butler stole wine from a bottle of Sherry which contained 18% of spirit and he replaced what he had stolen by wine containing only 8% spirit. The bottle was then 14% spirit strength only. How much of the bottle did he steal?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/4"
+        },
+        {
+          "label": "2",
+          "text": "2/5"
+        },
+        {
+          "label": "3",
+          "text": "3/5"
+        },
+        {
+          "label": "4",
+          "text": "3/4"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nInitial percentage of spirit = 18%\n\nPercentage of spirit in the replaced wine = 8%\n\nResultant percentage = 14%\n\n**Concept used:**\n\nWe will be using the concept of alligation.\n\n**Calculation:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/d201e4fdd947ac1f1cb278cc70afaa79e33efe0bfd5bb3e554dd15083a5b01d5.png] \n\nRequired ratio = 3∶ 2\n\nHence, 3/5 of the bottle of Sherry was left and he stole 2/5 of the bottle.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d201e4fdd947ac1f1cb278cc70afaa79e33efe0bfd5bb3e554dd15083a5b01d5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    }
+  ]
+}

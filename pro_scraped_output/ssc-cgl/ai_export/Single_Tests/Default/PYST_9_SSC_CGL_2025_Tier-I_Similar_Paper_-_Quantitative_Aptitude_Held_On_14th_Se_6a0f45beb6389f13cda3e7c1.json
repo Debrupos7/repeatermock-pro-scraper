@@ -1,0 +1,845 @@
+{
+  "test_id": "6a0f45beb6389f13cda3e7c1",
+  "title": "PYST 9: SSC CGL 2025 Tier-I Similar Paper - Quantitative Aptitude (Held On: 14th Sep 2025 Shift 3)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T12:05:16.931825+00:00",
+  "questions": [
+    {
+      "qid": "6919dac4cd2824176be075ba",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If x = √(10) - √(5) and y = √(7) - √(2), then which of the following is true?",
+      "options": [
+        {
+          "label": "1",
+          "text": "x < y"
+        },
+        {
+          "label": "2",
+          "text": "x = y"
+        },
+        {
+          "label": "3",
+          "text": "x > y"
+        },
+        {
+          "label": "4",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nx = √10 - √5\n\ny = √7 - √2\n\n**Formula Used:**\n\nComparison of square roots.\n\nIf a < b, then √a < √b.\n\n**Calculation:**</p&g",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6919dac552f98ad4813a570e",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "C invests 30,000 for 10 months, and D invests 60,000 for 5 months. What is C's share if the total profit is 45,000?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20,000"
+        },
+        {
+          "label": "2",
+          "text": "25,000"
+        },
+        {
+          "label": "3",
+          "text": "22,500"
+        },
+        {
+          "label": "4",
+          "text": "18,000"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nC's investment = 30,000\n\nC's time = 10 months\n\nD's investment = 60,000\n\nD's time = 5 months\n\nTotal profit = 45,000\n\n**Formula Used:**\n\nProfit ratio = (Investment of C × Time of C) : (Investment of D × Time of D)\n\nC's share = (C's ratio / Total ratio) × Total profit\n\n**Calculation:**\n\n⇒ Profit ratio = (30,000 × 10) : (60,000 × 5)\n\n⇒ Profit ratio = 300,000 : 300,000\n\n⇒ Profit ratio = 1 : 1\n\n⇒ Total ratio = 1 + 1 = 2\n\n⇒ C's share = (1 / 2) × 45,000\n\n⇒ C's share = 22,500\n\n**∴ The correct answer is 22,500.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6919dac594677be8857080b8",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The number of red, yellow, and blue marbles in a bag is in the ratio 4 : 5 : 7. If 10 red marbles, 15 yellow marbles, and an unknown number (x) of blue marbles are added, the ratio becomes 3 : 4 : 5. Determine the number of blue marbles (x) added.",
+      "options": [
+        {
+          "label": "1",
+          "text": "13"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "17"
+        },
+        {
+          "label": "4",
+          "text": "19"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRed : Yellow : Blue = 4 : 5 : 7\n\nAfter adding 10, 15 and x → ratio = 3 : 4 : 5\n\nCalculations:\n\nLet initial numbers = 4k, 5k, 7k\n\nAfter addition: (4k + 10) : (5k + 15) : (7k + x) = 3 : 4 : 5\n\n⇒ (4k + 10)/(5k + 15) =",
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "6919dac5b53a388bfd06bf94",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Evaluate the expression:\n\n(1/3 ÷ 1/9) ÷ (1/6 + 2 - 1/2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "11/3"
+        },
+        {
+          "label": "2",
+          "text": "7/5"
+        },
+        {
+          "label": "3",
+          "text": "14/3"
+        },
+        {
+          "label": "4",
+          "text": "9/5"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n(1/3 ÷ 1/9) ÷ (1/6 + 2 - 1/2)\n\n**Calculation:**\n\n(1/3 ÷ 1/9) ÷ (1/6 + 2 - 1/2)\n\n⇒ (1/3 × 9) ÷ (1 + 12 - 3)/6\n\n&\namp;rArr; 3 ÷ (10/6)\n\n⇒ 3 ÷ (5/3)\n\n⇒ 3 × 3/5\n\n⇒ 9/5\n\n**∴ Option 4 is the correct answer.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "6919dac628873eedb3c5950f",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the average of all three-digit numbers divisible by 17?",
+      "options": [
+        {
+          "label": "1",
+          "text": "544"
+        },
+        {
+          "label": "2",
+          "text": "552"
+        },
+        {
+          "label": "3",
+          "text": "527"
+        },
+        {
+          "label": "4",
+          "text": "510"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nSmallest three-digit number divisible by 17: 102\n\nLargest three-digit number divisible by 17: 986\n\n**Formula Used:**\n\nNumber of terms in arithmetic progression (AP): n = (last term - first term) ÷ common difference + 1\n\nAverage of an AP: Average = (first term + last term) ÷ 2\n\n<p&g",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "6919dac6e653d3c048b52ec3",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "X and Y start a business with capitals in the ratio 3:2. The initial investment of X was 30,000. After 4 months, X adds 10,000. After 6 months, Y halves his investment. If the total profit after 1 year is 1,86,000, find the profit share of Y.",
+      "options": [
+        {
+          "label": "1",
+          "text": "54,000"
+        },
+        {
+          "label": "2",
+          "text": "44,000"
+        },
+        {
+          "label": "3",
+          "text": "45,000"
+        },
+        {
+          "label": "4",
+          "text": "50,000"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nX : Y = 3 : 2\n\nInitial X = ₹30,000\n\nTotal profit = ₹186,000 (for 12 months)\n\n**Formula used:**\n\nCapital-time = Capital × Time (months)\n\nProfit share ∝ Capital-time\n\n**Calculations:**\n\n⇒ Y initial = (2/3) × 30,000 = ₹20,000\n\n⇒ X: 30,000 for 4 months ⇒ 30,000 × 4 = 120,000\n\n⇒ X: 40,000 for 8 months (after adding 10,000) ⇒ 40,000 × 8 = 320,000\n\n⇒ X total = 120,000 + 320,000 = 440,000\n\n⇒ Y: 20,000 for 6 months ⇒ 20,000 × 6 = 120,000\n\n⇒ Y: 10,000 for 6 months (after halving) ⇒ 10,000 × 6 = 60,000\n\n⇒ Y total = 120,000 + 60,000 = 180,000\n\n⇒ Ratio X : Y = 440,000 : 180,000 = 22 : 9\n\n⇒ Y's fraction = 9 / (22 + 9) = 9 / 31\n\n⇒ Y's profit = 186,000 × (9/31) = (186,000 ÷ 31) × 9 = 6,000 × 9 = ₹54,000\n\n**∴ Y’s profit = ₹54,000.**\n\n39:T9d7,",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6919dac6f65d8f2e153cbca9",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two containers of the same volume are 30% and 60% full of oil, respectively. They are then filled completely with water. If the contents of both containers are mixed in a larger vessel, what is the percentage of water in the final mixture?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.45"
+        },
+        {
+          "label": "2",
+          "text": "0.5"
+        },
+        {
+          "label": "3",
+          "text": "0.6"
+        },
+        {
+          "label": "4",
+          "text": "0.55"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nVolume of each container = Same\n\nOil in first container = 30%\n\nOil in second container = 60%\n\nRemaining volume in both containers filled with water.\n\n**Formula Used:**\n\nPercentage of water = (Volume of water ÷ Total volume) × 100\n\nTotal volume = Volume of container 1 + Volume of container 2\n\n<st",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6919dac70ad59a7bdffe993c",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Profit & Loss, Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A shop ordered 8 kg of Type P tea and some additional kg of Type Q tea. The price of Type P per kg was four times that of Type Q. When the order was delivered, the quantities of the two types had been interchanged. This increased the bill by 50%. Find the ratio of the number of kilograms of Type P tea to the number of kilograms of Type Q tea in the original order.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 : 1"
+        },
+        {
+          "label": "2",
+          "text": "1 : 2"
+        },
+        {
+          "label": "3",
+          "text": "2 : 3"
+        },
+        {
+          "label": "4",
+          "text": "3 : 4"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nType P = 8 kg\n\nType Q = x kg\n\nPrice of P per kg = 4 × (price of Q per kg)\n\nBill increases by 50% when quantities are interchanged.\n\n**Formula used:**\n\nTotal cost = (quantity of P × priceP) + (quantity of Q × priceQ)\n\n**Calculations:**\n\nLet price of Q per kg = p.\n\n⇒ Original cost = 8 × (4p) + x × p = p(32 + x)\n\n⇒ Swapped cost = 8 × p + x × (4p) = p(8 + 4x)\n\n⇒ p(8 + 4x) = 1.5 × p(32 + x)\n\n⇒ 8 + 4x = 1.5 × (32 + x)\n\n⇒ 8 + 4x = 48 + 1.5x\n\n⇒ 4x − 1.5x = 48 − 8\n\n⇒ 2.5x = 40\n\n⇒ x = 16\n\n⇒ Ratio (P : Q) = 8 : 16 = 1 : 2\n\n**∴ The required ratio is 1 : 2.**",
+      "tags": [
+        "Profit and Loss",
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6919dac76c5ecfaba4f0bd08",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A store sells an appliance for Z, making a 30% profit. During a sale, they increase the marked price of the same appliance to 1.5Z. They then offer a special discount of 20% on this increased marked price. What will be the new percentage profit made by the store?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.24"
+        },
+        {
+          "label": "2",
+          "text": "0.35"
+        },
+        {
+          "label": "3",
+          "text": "0.48"
+        },
+        {
+          "label": "4",
+          "text": "0.56"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nSelling price of appliance = Z\n\nProfit percentage = 30%\n\nNew marked price = 1.5Z\n\nDiscount = 20%\n\n**Formula Used:**\n\nProfit = Selling Price - Cost Price\n\nProfit Percentage = (Profit ÷ Cost Price) × 100\n\nDiscounted Price = Marked Price × (1 - Discount Percentage)\n\n**Calculation:**\n\nCost Price = Selling Price ÷ (1 + Profit Percentage)\n\n⇒ Cost Price = Z ÷ (1 + 0.3)\n\n⇒ Cost Price = Z ÷ 1.3\n\nDiscounted Price = New Marked Price × (1 - Discount Percentage)\n\n⇒ Discounted Price = 1.5Z × (1 - 0.2)\n\n⇒ Discounted Price = 1.5Z × 0.8\n\n⇒ Discounted Price = 1.2Z\n\nNew Profit = Discounted Price - Cost Price\n\n⇒ New Profit = 1.2Z - (Z ÷ 1.3)\n\n⇒ New Profit = (1.2Z - Z ÷ 1.3)\n\n⇒ New Profit = (1.2Z - 0.7692Z)\n\n⇒ New Profit = 0.4308Z\n\nNew Profit Percentage = (New Profit ÷ Cost Price) × 100\n\n⇒ New Profit Percentage = (0.4308Z ÷ (Z ÷ 1.3)) × 100\n\n⇒ New Profit Percentage = (0.4308 × 1.3) × 100\n\n⇒ New Profit Percentage = 0.56004 × 100\n\n⇒ New Profit Percentage = 56%\n\n**∴ The correct answer is 0.56.**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6919dac7f1d4fc04788a8131",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A vendor bought 300 mugs for 1,200. 50 mugs broke and became unsellable. At what price per mug should he sell the remaining mugs to earn a profit of 40% on his total cost?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6.00"
+        },
+        {
+          "label": "2",
+          "text": "6.25"
+        },
+        {
+          "label": "3",
+          "text": "6.72"
+        },
+        {
+          "label": "4",
+          "text": "7.00"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nTotal mugs bought = 300\n\nTotal cost = 1,200\n\nMugs broken = 50\n\nProfit percentage = 40%\n\n**Formula Used:**\n\nProfit = (Profit percentage ÷ 100) × Total cost\n\nSelling price per mug = (Total cost + Profit) ÷",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "6919dac8481ec8a0aed45421",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A solution consists of acid and water in the ratio 7:5. If 6 litres of acid is added, the new ratio becomes 3:2 What is the original quantity of water in the solution?",
+      "options": [
+        {
+          "label": "1",
+          "text": "42 litres"
+        },
+        {
+          "label": "2",
+          "text": "35 litres"
+        },
+        {
+          "label": "3",
+          "text": "40 litres"
+        },
+        {
+          "label": "4",
+          "text": "60 litres"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nRatio of acid to water = 7:5\n\nQuantity of acid added = 6 litres\n\nNew ratio of acid to water = 3 : 2\n\n**Formula Used:**\n\nLet the original quantity of acid = 7x\n\nLet the original quantity of water = 5x\n\nWhen 6 litres of acid is added, the total acid becomes 7x + 6\n\nNew ratio = (7x + 6) : 5x = 3 : 2\n\nCross multiplication to solve for x.\n\n**Calculation:**\n\n⇒ (7x + 6) / 5x = 3 / 2\n\n⇒ 2(7x + 6) = 3 × 5x\n\n⇒ 14x + 12 = 15x\n\n⇒ 15x - 14x = 12\n\n⇒ x = 12\n\nOriginal quantity of water = 5x = 5 × 12 = 60 litres\n\n**∴ The correct answer is 60 litres.**",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6919dac8481ec8a0aed45424",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A tank has a mixture of solutions X, Y, and Z in the ratio 5 : 4 : 1. 30 litres of this mixture is drained out, and then 10 litres of solution X and 5 litres of solution Z are added to the tank. If the resultant quantity of solution X is 11 litres more than the resultant quantity of solution Y, find the initial quantity of the mixture in the tank (in litres)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "35"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "40"
+        },
+        {
+          "label": "4",
+          "text": "22"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nRatio X : Y : Z = 5 : 4 : 1\n\n30 litres mixture drained\n\nAdded: X = 10 L, Z = 5 L\n\nResultant X = Resultant Y + 11 L\n\nCalculations\n\nInitial X = Q × (5/10) = Q × 0.5\n\nInitial Y = Q × (4/10) = Q × 0.4\n\nInitial Z = Q × (1/10) = Q × 0.1\n\nDrained X = 30 × (5/10) = 15 L\n\nDrained Y = 30 × (4/10) = 12 L\n\nDrained Z = 30 × (1/10) = 3 L\n\nResultant X = Initial X − Drained X + Added X\n\n⇒ Resultant X = Q × 0.5 − 15 + 10 = Q × 0.5 − 5\n\nResultant Y = Initial Y − Drained Y\n\n⇒ Resultant Y = Q × 0.4 − 12\n\nResultant Z = Initial Z − Drained Z + Added Z\n\n⇒ Given: Resultant X = Resultant Y + 11\n\n⇒ Q × 0.5 − 5 = (Q × 0.4 − 12) + 11\n\n⇒ Q × 0.5 − 5 = Q × 0.4 − 1\n\n⇒ Q × (0.5 − 0.4) = −1 + 5\n\n⇒ Q × 0.1 = 4\n\n⇒ Q = 4 ÷ 0.1 = 40 litres\n\n**∴ Initial quantity of the mixture = 40 litres.**",
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "6919dac8f79337c630438ef6",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A alone can complete a job in 10 days and B alone in 15 days. A and B agree to do the work for 6,000. With C's help, they finish it in 4 days. How much should C be paid?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2,000"
+        },
+        {
+          "label": "2",
+          "text": "1,500"
+        },
+        {
+          "label": "3",
+          "text": "1,200"
+        },
+        {
+          "label": "4",
+          "text": "900"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nA can complete the job in 10 days.\n\nB can complete the job in 15 days.\n\nTotal payment for the work = 6,000.\n\nA, B, and C together complete the job in 4 days.\n\n**Formula Used:**\n\nWork done in 1 day = 1 ÷ Time taken by individual.\n\nTotal work = LCM of individual times.\n\nPayment is divided according to work contribution.\n\n**Calculation:**\n\n⇒ Work done by A in 1 day = 1 ÷ 10 = 0.1.\n\n⇒ Work done by B in 1 day = 1 ÷ 15 = 0.0667.\n\n⇒ Total work = LCM(10, 15) = 30 units.\n\n⇒ Work done by A in 1 day = 30 ÷ 10 = 3 units.\n\n⇒ Work done by B in 1 day = 30 ÷ 15 = 2 units.\n\n⇒ Work done by A and B together in 1 day = 3 + 2 = 5 units.\n\n⇒ Work done by A, B, and C together in 1 day = Total work ÷ Time taken = 30 ÷ 4 = 7.5 units.\n\n⇒ Work done by C in 1 day = 7.5 - 5 = 2.5 units.\n\n⇒ Total work done by C = 2.5 × 4 = 10 units.\n\n⇒ Payment per unit of work = Total payment ÷ Total work = 6,000 ÷ 30 = 200.\n\n⇒ Payment for C = Work done by C × Payment per unit = 10 × 200 = 2,000.\n\n**∴ The correct answer is 2,000.**",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6919dac9382d96060edd7599",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A circular garden has a radius of 10 m. A path of 4 m width runs around the garden. What is the area of the path? (Use pi = 3.14)",
+      "options": [
+        {
+          "label": "1",
+          "text": "260.46 m²"
+        },
+        {
+          "label": "2",
+          "text": "270.46 m²"
+        },
+        {
+          "label": "3",
+          "text": "301.44 m²"
+        },
+        {
+          "label": "4",
+          "text": "280.46 m²"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nRadius of the circular garden = 10 m\n\nWidth of the path = 4 m\n\nUse π = 3.14\n\n**Formula Used:**\n\nArea of a circle = π × radius²\n\nArea of the path = Area of the larger circle - Area of the smaller circle\n\n**Calculation:**\n\n⇒ Radius of the larger circle = Radius of the garden + Width of the path\n\n⇒ Radius of the larger circle = 10 + 4 = 14 m\n\n⇒ Area of the larger circle = 3.14 × (14)²\n\n⇒ Area of the larger circle = 3.14 × 196 = 615.44 m²\n\n⇒ Area of the smaller circle = 3.14 × (10)²\n\n⇒ Area of the smaller circle = 3.14 × 100 = 314 m²\n\n⇒ Area of the path = Area of the larger circle - Area of the smaller circle\n\n⇒ Area of the path = 615.44 - 314 = 301.44 m²\n\n**∴ The correct answer is 301.44 m².**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6919dac994677be88570811e",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Worker P takes 15 hours to complete a task, and Worker Q takes 20 hours. How many hours will they take to complete the task if they work together?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9.5 hours"
+        },
+        {
+          "label": "2",
+          "text": "8.57 hours"
+        },
+        {
+          "label": "3",
+          "text": "8.8 hours"
+        },
+        {
+          "label": "4",
+          "text": "9.2 hours"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nWorker P takes 15 hours to complete the task.\n\nWorker Q takes 20 hours to complete the task.\n\n**Formula Used:**\n\nWork done in 1 hour = 1 ÷ Time taken.\n\nTotal time when working together = Total work ÷ Combined rate of work.\n\nLCM method for time and work calculations.\n\n**Calculation:**\n\n⇒ LCM of 15 and 20 = 60 (Total work).\n\n⇒ Worker P's work rate = 60 ÷ 15 = 4 units/hour.\n\n⇒ Worker Q's work rate = 60 ÷ 20 = 3 units/hour.\n\n⇒ Combined work rate = 4 + 3 = 7 units/hour.\n\n⇒ Time taken to complete the task together = Total work ÷ Combined work rate.\n\n⇒ Time taken = 60 ÷ 7 ≈ 8.57 hours.\n\n**∴ The correct answer is 8.57 hours.**",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6919dac9f79337c630438f01",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Three friends, A, B, and C, are running on a circular track with a circumference of 5 km. They all start from the same point at 8:00 a.m. and travel in the same direction with speeds of 25 km/h, 40 km/h, and 50 km/h respectively. How many times will all three of them meet at the starting point if they continue running until 1:00 p.m.?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 time"
+        },
+        {
+          "label": "2",
+          "text": "6 times"
+        },
+        {
+          "label": "3",
+          "text": "3 times"
+        },
+        {
+          "label": "4",
+          "text": "4 times"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nCircumference = 5 km\n\nStart time = 8:00 a.m., End time = 1:00 p.m. (13:00)\n\nSpeeds: A = 25 km/h, B = 40 km/h, C = 50 km/h\n\n**Formula used:**\n\nLap time = Distance ÷ Speed\n\nSimultaneous return time = LCM of individual lap times\n\nNumber of meetings = (Total duration ÷ simultaneous return time) + 1 (includes start)\n\n**Calculations:**\n\n⇒ A lap time = 5 ÷ 25 = 0.2 h = 12 min\n\n⇒ B lap time = 5 ÷ 40 = 0.125 h = 7.5 min\n\n⇒ C lap time = 5 ÷ 50 = 0.1 h = 6 min\n\n⇒ In half-min units: A = 24, B = 15, C = 12\n\n⇒ LCM(24,15,12) = 120 half-min units = 60 min = 1 hour\n\n⇒ Total duration = 13:00 − 8:00 = 5 hours = 300 min\n\n⇒ Meetings occur every 60 min ⇒ times: 8:00, 9:00, 10:00, 11:00, 12:00, 13:00\n\n⇒ Number of meetings = 300 ÷ 60 + 1 = 5 + 1 = 6\n\n**∴ All three meet at the starting point 6 times (including the start at 8:00 and the end at 13:00).**",
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6919daca94c2125fba0e3af7",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the slope of the line perpendicular to y = 2x - 3.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "1/2"
+        },
+        {
+          "label": "3",
+          "text": "-2"
+        },
+        {
+          "label": "4",
+          "text": "-1/2"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nLine: y = 2x − 3\n\n**Formula used:**\n\nSlope of perpendicular line = −1 ÷ (slope of given line)\n\n**Calculations:**\n\n⇒ Slope of given line = 2\n\n⇒ Perpendicular slope = −1 ÷ 2 = −1/2\n\n**∴ The slope of the perpendicular line is −1/2.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6919daca94c2125fba0e3afb",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Convert 3.5 radians to degrees.",
+      "options": [
+        {
+          "label": "1",
+          "text": "200.54"
+        },
+        {
+          "label": "2",
+          "text": "195.8"
+        },
+        {
+          "label": "3",
+          "text": "210.12"
+        },
+        {
+          "label": "4",
+          "text": "205.2"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRadians to convert = 3.5\n\n**Formula Used:**\n\nDegrees = Radians × (180 ÷ π)\n\n**Calculation:**\n\n⇒ Degrees = 3.5 × (180 ÷ 3.1416)\n\n⇒ Degrees = 3.5 × 57.2958\n\n⇒ Degrees ≈ 200.54\n\n**∴ The correct answer is 200.54.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6919dacb5bbda464f9c23b78",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sec A = cosec(3A - 10°), then what is the value of A?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30°"
+        },
+        {
+          "label": "2",
+          "text": "25°"
+        },
+        {
+          "label": "3",
+          "text": "20°"
+        },
+        {
+          "label": "4",
+          "text": "18°"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nsec A = cosec(3A - 10°)\n\n**Formula Used:**\n\nsec A = 1/cos A\n\ncosec B = 1/sin B\n\nFor equality: cos A = sin B\n\n**Calculation:**\n\n⇒ cos A = sin(3A - 10°)\n\n⇒ cos A = cos(90° - (3A - 10°))\n\n⇒ cos A = cos(90° - 3A + 10°)\n\n⇒ cos A = cos(100° - 3A)\n\nFor equality, A = 100° - 3A\n\n⇒ A + 3A = 100°\n\n⇒ 4A = 100°\n\n⇒ A = 100° ÷ 4\n\n⇒ A = 25°\n\n**∴ The correct answer is 25°.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6919dacbdac137853c42301e",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sector of a circle having a radius of 12 cm has a central angle of pi/4 radians. What is the area of the sector? (Use π = 3.14)",
+      "options": [
+        {
+          "label": "1",
+          "text": "50.12 cm²"
+        },
+        {
+          "label": "2",
+          "text": "56.52 cm²"
+        },
+        {
+          "label": "3",
+          "text": "60.1 cm²"
+        },
+        {
+          "label": "4",
+          "text": "62.8 cm²"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRadius of the circle (r) = 12 cm\n\nCentral angle (θ) = π/4 radians\n\n**Formula Used:**\n\nArea of sector = (1/2) × r² × θ\n\n**Calculation:**\n\n⇒ Area of sector = (1/2) × 12² × π/4\n\n⇒ Area of sector = (1/2) × 144 × π/4\n\n⇒ Area of sector = 72 × π/4\n\n⇒ Area of sector = 18π\n\n⇒ Area of sector ≈ 56.52 cm² \n\n**∴ The correct answer is 56.52 cm².**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6919dacbf7fb326f3a751471",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In similar triangles, the ratio of corresponding medians is 3:7. What is the ratio of their areas?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 : 7"
+        },
+        {
+          "label": "2",
+          "text": "7 : 9"
+        },
+        {
+          "label": "3",
+          "text": "9 : 49"
+        },
+        {
+          "label": "4",
+          "text": "6 : 14"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nRatio of corresponding medians = 3 : 7\n\n**Formula Used:**\n\nRatio of areas of similar triangles = (Ratio of corresponding medians)²\n\n**Calculation:**\n\n⇒ Ratio of areas = (3 : 7)²\n\n⇒ Ratio of areas = 3² : 7²\n\n⇒ Ratio of areas = 9 : 49\n\n**∴ The correct answer is 9 : 49.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6919dacca41e3026bbcadc7e",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given a = √(3), what is the value of (a + 1)² + (a - 1)²?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\na = √3\n\n**Formula Used:**\n\n(a + 1)² + (a - 1)²\n\n(x + y)² = x² + 2xy + y²\n\n(x - y)² = x² - 2xy + y²\n\n**Calculation:**\n\n⇒ (a + 1)² + (a - 1)²\n\n⇒ [a² + 2a + 1] + [a² - 2a + 1]\n\n⇒ a² + 2a + 1 + a² - 2a + 1\n\n⇒ 2a² + 2\n\n⇒ 2(√3)² + 2\n\n⇒ 2 × 3 + 2\n\n⇒ 6 + 2\n\n⇒ 8\n\n**∴ The correct answer is 8.**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "6919dacca7e1047dca304818",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify: √(75) - √(27) + √(12)",
+      "options": [
+        {
+          "label": "1",
+          "text": "3√3"
+        },
+        {
+          "label": "2",
+          "text": "4√3"
+        },
+        {
+          "label": "3",
+          "text": "5√3"
+        },
+        {
+          "label": "4",
+          "text": "6√3"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n√75\n\n√27\n\n√12\n\n**Formula Used:**\n\n√(a × b) = √a × √b\n\nCombine like terms to simplify.\n\n**Calculation:**\n\n√(75) - √(27) + √(12)\n\n<span style=\"color: rgb(3",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6919daccdb9e44eecee46b6c",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The radius of a circle measures 15 cm. What is the maximum length of a chord in this circle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 cm"
+        },
+        {
+          "label": "2",
+          "text": "20 cm"
+        },
+        {
+          "label": "3",
+          "text": "25 cm"
+        },
+        {
+          "label": "4",
+          "text": "30 cm"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nRadius of the circle = 15 cm\n\n**Formula Used:**\n\nMaximum length of a chord in a circle = Diameter of the circle\n\nDiameter = 2 × Radius\n\n**Calculation:**\n\n⇒ Diameter = 2 × 15\n\n⇒ Diameter = 30 cm\n\n⇒ Maximum length of a chord = 30 cm\n\n**∴ The correct answer is 30 cm.**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6919dacd0ad59a7bdffe998a",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sin B - cos B = 2 cos B, then what is the value of cot B?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/3"
+        },
+        {
+          "label": "2",
+          "text": "1/5"
+        },
+        {
+          "label": "3",
+          "text": "2/5"
+        },
+        {
+          "label": "4",
+          "text": "3/2"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nsin B − cos B = 2 cos B\n\n**Formula used:**\n\ncot B = cos B ÷ sin B\n\n**Calculations:**\n\nsin B − cos B = 2 cos B\n\n⇒ sin B = 3 cos B\n\n⇒ cot B = cos B ÷ sin B\n\n⇒ cot B = cos B ÷ (3 cos B)\n\n⇒ cot B = 1 ÷ 3\n\n**∴ cot B = 1/3.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    }
+  ]
+}

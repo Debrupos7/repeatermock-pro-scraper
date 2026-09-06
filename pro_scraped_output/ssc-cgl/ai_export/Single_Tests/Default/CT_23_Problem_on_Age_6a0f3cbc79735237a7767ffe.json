@@ -1,0 +1,355 @@
+{
+  "test_id": "6a0f3cbc79735237a7767ffe",
+  "title": "CT 23: Problem on Age",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:29:13.358578+00:00",
+  "questions": [
+    {
+      "qid": "648da15801188764372d2130",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Renu was born when her mother was 30 years old. What is the present age (in years) of Renu if five years ago from now, her mother’s age was four times that of Renu ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRenu's mother age while her birth is 30 years.\n\n**Calculation:**\n\nLet the present age of renu is x.\n\nAccording to question,\n\n⇒ (30 + x - 5) = 4(x - 5)\n\n⇒ 25 + x = 4x - 20\n\n⇒ 3x = 45\n\n⇒ x = 15\n\n**∴ The correct answer is 15.**",
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "62df5b6b09e5c7af79b3fb64",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average age of 30 student of a class is 12 years 4 month. After admission of five new student in the class the average become 11 years 9 months. One of the five new student is 8 years 7 month old. Find the average age of the remaining four new students.",
+      "options": [
+        {
+          "label": "1",
+          "text": "6 years 8 month"
+        },
+        {
+          "label": "2",
+          "text": "9 years"
+        },
+        {
+          "label": "3",
+          "text": "8 years 2 month"
+        },
+        {
+          "label": "4",
+          "text": "9 years 6 month"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe average age of 30 student of a class = 12 years 4 month\n\nAfter admission of 5 new students the new average = 11years 9 month\n\n**Formula used:**\n\nAverage = (Sum of Observations) ÷ (Total Numbers of Observations)\n\n**Calculation:**\n\nSum of the average of the 30 student of the class = 30 × 12(4)/(12) = 30 × 12(1)/(3) = 30 × (37)/(3) = 370 years\n\n5 new student got admission then total student is = 30 + 5 = 35\n\n⇒ Total age of 35 student = 35 × 11(9)/(12) = 35times 11(3)/(4) = 35times (47)/(4) = (1645)/(4) years\n\n⇒ Total age of 5 new student = (1645)/(4) - 370 \n\n⇒ (1645 - 1480)/(4) = (165)/(4) = 41 years 3 month\n\nNow, \n\nAge of one of the five new student = 8 years 7 month\n\n⇒ Age of remaining 4 student = 41 years 3 month - 8 years 7 month\n\n⇒ 40 years 15 month - 8 years 7 month = 32 year 8 month\n\n⇒ Sum of the Age of remaining 4 students = 32 year 8 month\n\n⇒ Average age of the remaining four new student = 32 year 8 month ÷ 4 = 8 year 2 month \n\n**∴ Average age of the remaining four new student is 8 years 2 month.**",
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "62e1879f314c822b5688fcd6",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Sachin is younger than Rahul by 4 years. If their ages are in the respective ratio of 7 ∶ 9, how old is Sachin?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16 years"
+        },
+        {
+          "label": "2",
+          "text": "18 years"
+        },
+        {
+          "label": "3",
+          "text": "28 years"
+        },
+        {
+          "label": "4",
+          "text": "None of these"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nSachin = Rahul - 4\n\nSachin : Rahul = 7 : 9\n\n**Calculation:**\n\nRahul = Sachin + 4\n\n⇒ (Sachin)/(Sachin + 4) = 7/9\n\n⇒ 9 × Sachin = 7 × Sachin + 28\n\n⇒ 2 × Sachin = 28\n\nSachin = 14\n\n∴ The correct answer is **None of these**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method:__**\n\nSachin = Rahul - 4 \n\nRahul - Sachin = 4\n\nSachin/Rahul = 7/9\n\n⇒ 9 - 7 = 4\n\n⇒ 2 = 4 \n\n⇒ 1 = 2\n\n∴ The ages of Sachin and Rahul are **14** and **18** years respectively.\n\nSo, the answer will be**None of these.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "61dd15a88307cb35c7a9801c",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The sum of the ages of Neeraj and Suresh is twice the sum of their ages 6 years ago. What is Suresh's age, if Neeraj is 10 years older than Suresh?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 years"
+        },
+        {
+          "label": "2",
+          "text": "4 years"
+        },
+        {
+          "label": "3",
+          "text": "7 years"
+        },
+        {
+          "label": "4",
+          "text": "5 years"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe age of Neeraj = 10 years more than Suresh\n\n**Calculation:**\n\nLet the age of Suresh be S\n\nAccording to the question\n\nThe age of Neeraj = S + 10 ----(1)\n\nThe sum of 6 years before age of the Suresh and Neeraj respectively = S + S + 10 - 6 - 6 = 2S + 10 - 12 = 2S - 2 ----(2)\n\nThe sum of present age of Neeraj and Suresh = S + S + 10 = 2S + 10 ----(3)\n\nAccording to the question\n\n⇒ 2S + 10 = 2 × (2S - 2)\n\n⇒ 2S + 10 = 4S - 4\n\n⇒ 4S - 2S = 10 + 4\n\n⇒ 2S = 14\n\n⇒ S = {14over 2} = 7\n\nThe age of Suresh = 7 years\n\n**∴ The required result will be 7 years.**",
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "62f5fd439ca32f14db5de861",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Four years ago, the ratio of A's age to B's age was 11 ∶ 14 and four years later their ages will be in the ratio 13 ∶ 16. The present age of A is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "26 years"
+        },
+        {
+          "label": "2",
+          "text": "28 years"
+        },
+        {
+          "label": "3",
+          "text": "44 years"
+        },
+        {
+          "label": "4",
+          "text": "48 years"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given:\n\nFour years ago, let ages of A and B be 11a years and 14a years.\n\nCalculation:\n\nAccording to questio",
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "6373e588f0cdbc606b3a3fc9",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Ramya got married 10 years ago. Now her age is 1(1)/(5) times of marriage. Her daughter's age is one-tenth of her present age. Find her daughter's present age.",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 years"
+        },
+        {
+          "label": "2",
+          "text": "20 years"
+        },
+        {
+          "label": "3",
+          "text": "6 years"
+        },
+        {
+          "label": "4",
+          "text": "8 years"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\nRamya got married 10 years ago. Now her age is 1(1)/(5) times of marriage.\n\n​Her daughter's age is (1)/(10) of her present age.",
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "62efe8aad4f7d54ef3c2154c",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of the ages of a father and his son 10 years hence will be 5 ∶ 3, while 10 years ago, it was 3 ∶ 1. The ratio of the age of the son to that of the father today, is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 ∶ 3"
+        },
+        {
+          "label": "2",
+          "text": "1 ∶ 2"
+        },
+        {
+          "label": "3",
+          "text": "2 ∶ 5"
+        },
+        {
+          "label": "4",
+          "text": "2 ∶ 3"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nRatio of father and son after 10 years = 5 : 3\n\nRatio of father and son 10 years ago = 3 : 1\n\n**Calculation:**\n\n⇒ Let the father's present age be x and son's age be y.\n\n⇒ Age before 10 years = x – 10 and y – 10\n\n⇒ According to the question,\n\n⇒ (x-10)/(y-10) = 3 / 1\n\n⇒ x – 10 = 3y – 30\n\n⇒ x – 3y = –20 &n",
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "6502d9368b70397d86aac7b5",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The combined age of a man and his wife is 6 times the combined age of their children. Two years ago their combined age was 10 times the combined age of their children; and six years later their combined age will be 3 times the combined age of their children. How many children do they have if each child is at least 2 years old?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nCondition 1: The combined age of a man & his wife is 6 times the combined age of their children.\n\nCondition 2: Two years ago their combined age was 10 times the combined age of their children.\n\nCondition 3: Six years later their combined age will be 3 times the combined age of their children.\n\n**Calculation:**\n\nLet the combined age of man & wife be P, and\n\nThe combined age of children is C.\n\nAccording to the 1st Condition:\n\n⇒ X = 6Y -----(1)\n\nAccording to the 2nd Condition:\n\n2 years ago, \n\n⇒ P = X - 2 - 2 = X - 4 \n\n⇒ C = (Y - 2N) ---(N = No. of children)\n\n⇒ X - 4 = 10 (Y - 2N)\n\n⇒ X - 4 = 10Y - 20N\n\n⇒ X - 10Y + 20N = 4 -----(2)\n\nAccording to the 3rd Condition:\n\n⇒ X + 12 = 3 (Y + 6N)\n\n⇒ X + 12 = 3Y + 18N\n\n⇒ X - 3Y - 18N = -12 -----(3)\n\nSubstituting equation 1 in 2 & 3, \n\n⇒ - 4Y + 20N = 4\n\n⇒ 5N - Y = 1 -----(4)\n\n⇒ 3Y -18N = - 12\n\n⇒ Y - 6N = - 4 -----(5)\n\nAdding equation 4 & 5,\n\n⇒ - N = - 3\n\n⇒ N = 3\n\n**∴ The number of children is 3.**",
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "630b8a09a252b0e7da21f492",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The present age of the father is 5 times that of the age of his son. five years from now, If the sum of the age of the son and his father is 70 years. After how many years from the present, the age of the father is 3 times that of the son.",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 years"
+        },
+        {
+          "label": "2",
+          "text": "15 years"
+        },
+        {
+          "label": "3",
+          "text": "9 years"
+        },
+        {
+          "label": "4",
+          "text": "10 years"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nThe present age of the father is 5 times that of the age of his son,\n\nAfter 5 years, the sum of the age of the son and his father = 70 years\n\n**Calculation:**\n\nLet F and S be the present age of the father.\n\nAccording to the question,\n\n⇒ F = 5S\n\n⇒ (F)/(S) = (5)/(1)\n\nThe present age of the father = 5x\n\nThe present age of the son = x\n\nAfter 5 years,\n\nAge of the father = 5x + 5\n\nAge of the son = x + 5\n\nAgain according to the question,\n\n⇒ 5x + 5 + x + 5 = 70\n\n⇒ 6x + 10 = 70\n\n⇒ 6x = 60\n\n⇒ x = 10\n\nLet y be the number of years after which the father's age is 3 times that of his son.\n\n⇒ (5 times 10 + y)/(1 times 10 + y) = (3)/(1)\n\n⇒ (50 + y)/(10 + y) = (3)/(1)\n\n⇒ 50 + y = 30 + 3y\n\n⇒ 2y = 20\n\n⇒ y = 10\n\nAfter 10 years, the father's age is 3 times that of his son.\n\n**Therefore, '10 years' is the required answer.**",
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "6375ef3c1328b876a138d806",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "At present, the difference of the ages of a mother and son is 30 years. 15 years ago, the mother’s age was twice the then age of the son. The present age (in years) of the mother is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "75"
+        },
+        {
+          "label": "2",
+          "text": "90"
+        },
+        {
+          "label": "3",
+          "text": "45"
+        },
+        {
+          "label": "4",
+          "text": "60"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nAt present, the difference of the ages of a mother and son is 30 years.\n\n15 years ago, the mother’s age was twice the then. age of the son.\n\n**Calculation:**\n\nLet the present age of the mother be x and the son be y.\n\n⇒ x – y = 30\n\n⇒ x = 30 + y → (1)\n\nNow, 15 years ago\n\nMother's age = x – 15\n\nSon's age = y – 15\n\n⇒ x – 15 = 2(y – 15)\n\n⇒ x – 2y = –30 + 15 = –15\n\n⇒ x = 2y – 15 → (2)\n\nEquating both equations (1) and (2), we get\n\n⇒ 30 + y = 2y – 15\n\n⇒ y = 30 + 15 = 45\n\nPresent age of mother = x = 30 + 45 = 75\n\n**Therefore, the present age of mother is 75 years.**",
+      "tags": [
+        "Problem on Age"
+      ]
+    }
+  ]
+}

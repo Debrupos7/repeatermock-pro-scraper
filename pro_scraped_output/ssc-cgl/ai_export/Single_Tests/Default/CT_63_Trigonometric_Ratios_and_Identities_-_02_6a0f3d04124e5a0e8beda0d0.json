@@ -1,0 +1,379 @@
+{
+  "test_id": "6a0f3d04124e5a0e8beda0d0",
+  "title": "CT 63: Trigonometric Ratios and Identities - 02",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 20.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T13:22:02.792467+00:00",
+  "questions": [
+    {
+      "qid": "6528084bb7de9c3df9382949",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sin θ + cos θ =frac{sqrt{11}}{3} , then the value of (cos θ – sin θ) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "frac{sqrt{5}}{3}"
+        },
+        {
+          "label": "2",
+          "text": "(7)/(3)"
+        },
+        {
+          "label": "3",
+          "text": "(5)/(3)"
+        },
+        {
+          "label": "4",
+          "text": "fᵣₐ꜀{ₛqᵣₜ{₇}}{₃}"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given:\n\nsin θ + cos θ = frac{sqrt{11}}{3}\n\nFormula Used:\n\nsin2 θ + cos2 θ = 1\n\nCalculation:\n\n<p style=&qu",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "64e710591aca89921344c7d7",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sec A=(17)/(15), then what is the value of cot A?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(15)/(21)"
+        },
+        {
+          "label": "2",
+          "text": "(15)/(7)"
+        },
+        {
+          "label": "3",
+          "text": "(8)/(15)"
+        },
+        {
+          "label": "4",
+          "text": "(15)/(8)"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nSec A = 17/15\n\n**Formula used:**\n\nSec θ = H/B\n\nBy Pythagoras theorem:\n\n⇒ H² = P² + B²\n\nWhere H = hypotenuse ; P = perpendicular\n\nand B = base\n\n**Calculation:**\n\nSec A = 17/15 = H/B\n\nBy Pythagoras theorem:\n\n⇒ H2 = P2 + B2\n\n⇒ 17² = P² + 15²\n\n⇒ P = √(289 - 225)\n\n⇒ P = √64 = 8\n\nSo, cot A = B/P \n\n⇒ 15/8\n\n**∴ The correct answer is 15/8.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "66a378dc2d287df7cd80a422",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify frac{cos 13circ+sin 13circ}{cos 13circ-sin 13circ}",
+      "options": [
+        {
+          "label": "1",
+          "text": "cot 58°"
+        },
+        {
+          "label": "2",
+          "text": "cos 26°"
+        },
+        {
+          "label": "3",
+          "text": "tan 32°"
+        },
+        {
+          "label": "4",
+          "text": "tan 58°"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given :-\n\n frac{cos 13∘+sin 13∘}{cos 13∘-sin 13∘}\n\nFormula Used :-\n\ntanθ = (sintheta)/(costheta)\n\nCalculation :-\n\n frac{cos 13∘+sin 13∘}{cos 13∘-sin 13∘}\n\nDividing numerator and denominator by cos13° \n\nNow,\n\n⇒ (1 +frac{sin13°)/(cos13°)}{1 - (sin13°)/(cos13°)}\n\n⇒ (tanfrac{pi)/(4) + tan13°}{1 - tan(pi)/(4) times tan13°}\n\n⇒ tan(45°+ 13°)\n\n⇒ tan58° \n\n5d:T7ef,\n<p style=&",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6311e64d1164a0cbfae0f81e",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sec x + tan x = 5 and cosec y - cot y = (1)/(3), then find the value of (sec x + cosec y) - (tan x - cot y).",
+      "options": [
+        {
+          "label": "1",
+          "text": "4.2"
+        },
+        {
+          "label": "2",
+          "text": "2.2"
+        },
+        {
+          "label": "3",
+          "text": "3.1"
+        },
+        {
+          "label": "4",
+          "text": "3.2"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nsec x + tan x = 5 and cosec y - cot y = (1)/(3)\n\n**Formula used:**\n\nsec²θ - tan²θ = 1\n\ncosec²θ - cot²θ = 1\n\na² - b² = (a - b)(a + b)\n\n**Calculation:**\n\nsec x + tan x = 5,\n\nsec2x - tan2x = 1\n\n⇒ (sec x + tan x)(sec x - tan x) = 1\n\n⇒ 5 × (sec x - tan x) = 1\n\n⇒ (sec x - tan x) = 1over5 \n\nNow, cosec y - cot y = (1)/(3)\n\ncosec²y - cot²y = 1\n\n⇒ (cosec y + cot y)(cosec y - cot y) = 1\n\n⇒ (1/3) × (cosec y + cot y) = 1\n\n⇒ cosec y + cot y = 3\n\nAgain according to the question,\n\n⇒ (sec x + cosec y) - (tan x - cot y)\n\n⇒ sec x + cosec y - tan x + cot y\n\n⇒ sec x - tan x + cosec y + cot y\n\n⇒ (1)/(5) + 3 = 16over5 = 3.2\n\n**∴ The value of (sec x + cosec y) - (tan x - cot y) is 3.2**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "67616074286fab875196d99e",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "sin ² theta+(1)/(1+tan ²⁾ theta=·s",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "-1"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "None of these"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nsin² theta + (1)/(1 + tan² theta)\n\n**Formula used:**\n\n1. sin² theta + cos² theta = 1\n\n2. 1 + tan² theta = sec² theta\n\n3. (1)/(sec²theta) = cos²theta\n\n**Calculations:**\n\nsin² theta + (1)/(1 + tan² theta)\n\n⇒ sin² theta + (1)/(sec² theta)\n\n⇒ sin² theta + cos²theta\n\n⇒ 1\n\n**∴ Option 1 is the correct answer.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "64e5b202ec497915d97f651e",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sin α + cos α = (2)/(sqrt3), then what is (tan α + cot α) equal to?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "6"
+        },
+        {
+          "label": "4",
+          "text": "0"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDirect identity: (sin α + cos α)² = 1 + 2 / (tan α + cot α)\n\nSubstitute the given value: (2/√3)² = 1 + 2 / (tan α + cot α)\n\n⇒ 4/3 = 1 + 2 / (tan α + cot α)\n\n⇒ 1/3 = 2 / (tan α + cot α)\n\n⇒ tan α + cot α = 6\n\n**∴ The correct answer is 6.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nsin α + cos α = 2/√3\n\n**Formula Used:**\n\n(a + b)² = a² + b² + 2 × a × b\n\nsin² α + cos² α = 1\n\ntan α = sin α / cos α and cot α = cos α / sin α\n\n**Calculations:**\n\nSquaring both sides of the given equation:\n\n⇒ (sin α + cos α)² = (2/√3)²\n\n⇒ sin² α + cos² α + 2 × sin α × cos α = 4/3\n\nSubstitute sin² α + cos² α = 1:\n\n⇒ 1 + 2 × sin α × cos α = 4/3\n\n⇒ 2 × sin α × cos α = 4/3 − 1\n\n⇒ 2 × sin α × cos α = 1/3\n\n⇒ sin α × cos α = 1/6\n\nNow evaluate (tan α + cot α):\n\n⇒ tan α + cot α = (sin α / cos α) + (cos α / sin α)\n\n⇒ tan α + cot α = (sin² α + cos² α) / (sin α × cos α)\n\n⇒ tan α + cot α = 1 / (sin α × cos α)\n\nSubstitute the value of sin α × cos α:\n\n⇒ tan α + cot α = 1 / (1/6)\n\n⇒ tan α + cot α = 6\n\n**∴ The correct answer is 6.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nBasic Trigonometric Identities\n\nsin² α + cos² α = 1, sec² α − tan² α = 1, and cosec² α − cot² α = 1.\n\nReciprocal Relations\n\ntan α = 1 / cot α, sin α = 1 / cosec α, and cos α = 1 / sec α.\n\nKey Shortcut Formula\n\nThe expression tan α + cot α frequently simplifies to 1 / (sin α × cos α), which is a direct and standard substitution for trigonometric simplifications.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "61f8a46deb98e3432d275db7",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If cosec θ - sin θ = a³, sec θ - cos θ = b³, then a²b² (a² + b²) is equal to",
+      "options": [
+        {
+          "label": "1",
+          "text": "-1"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "2"
+        },
+        {
+          "label": "4",
+          "text": "-2"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\ncosec θ - sin θ = a3\n\nsec θ - cos θ = b³\n\n**Formula Used: **\n\n \n• cosecθ = 1/sinθ\n \n• secθ = 1/cosθ\n \n• sin²θ + cos²θ = 1\n \n• (am)ⁿ = amⁿ\n \n• amaⁿ = am⁺ⁿ\n\n \n\n**Calculation: **\n\nGiven that,\n\ncosec θ - sin θ = a³\n\n⇒ 1/sinθ - sinθ = a³\n\n⇒ (1 - sin²θ)/sinθ = a³\n\n⇒ (cos2θ)/sinθ = a3\n\n⇒ **[cos²θ/sin θ]¹/³ = a ** ----(1)\n\nAlso, we have sec θ - cos θ = b³ \n\n⇒ 1/cos θ - cosθ = b³\n\n⇒ (1 - cos²θ)/cosθ = b³\n\n⇒ **[sin²θ/cos θ]¹/³ = b ** -----(2)\n\nNow, the value of a2b2 (a2 + b2) \n\nUsing equation (1) & (2)\n\n⇒ [(cos²θ)/(sin θ)]²/³[(sin²θ)/(cos θ)]²/³[((cos²θ)/(sin θ))²/³+((sin²θ)/(cos θ))²/³]\n\n⇒ [(cos²θ)/(sin θ)times (sin²θ)/(cos θ)]²/³[(frac{cos⁴/³θ}{sin²/³ θ})+(frac{sin⁴/³θ}{cos²/³ θ})^{}]\n\n⇒ cos²/³θ sin²/³θ [frac{cos²θ+sin²θ}{sin²/³θ cos²/³θ}]\n\n⇒ sin²θ + cos²θ = 1\n\n⇒ a2b2 (a2 + b2) = 1\n\n**∴ The correct answer is 1 **\n\n31:T17e1,",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "62e9fe434a3931bdc7a6130d",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If tan 8θ = cot 2θ, where 0 (pi)/(2), then what is the value of tan 5θ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(1)/(sqrt3)"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "sqrt3"
+        },
+        {
+          "label": "4",
+          "text": "0"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nThe given expression is tan 8θ = cot 2θ \n\n**Formula Used:**\n\ncot θ = tan(90° - θ)\n\n**Calculation:**\n\nWe have,\n\n⇒ tan 8θ = cot 2θ \n\n⇒ tan 8θ = tan(90° - 2θ)</p&",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6366a776e919a0659822bca8",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Using the measurements given in the following figure, the value of (sin phi+tan theta)/(sin phi−tan theta) is ________.\n\n [IMAGE: https://cdn.repeatermock.com/tb/58e0532b059d8948f29c62fa8989dfc9d02714366f003026b3ac11355e4f5b1b.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "−(7)/(32)"
+        },
+        {
+          "label": "2",
+          "text": "(7)/(3)"
+        },
+        {
+          "label": "3",
+          "text": "(6)/(35)"
+        },
+        {
+          "label": "4",
+          "text": "−(67)/(37)"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/58e0532b059d8948f29c62fa8989dfc9d02714366f003026b3ac11355e4f5b1b.png] \n\n**Concept used:**\n\nPythagoras theorem, \n\nSum of square of the other sides of the right-angled triangle is equal to the square of the hypotenuse.\n\n**Calculations:**\n\nAccording to question,\n\nDC = √(13² - 12²) = √(169 - 144) = √25 = 5\n\nsinphi = DC/BD = 5/13\n\nLet a line from D perpendicular to line AB at E,\n\n [IMAGE: https://cdn.repeatermock.com/tb/d0efeb2f4bf45fb150b86bb3cf3ee2256b236018008844f311e5abef875f809a.png] \n\nThen AE = AB - DC = 14 - 5 = 9\n\ntan theta = DE/AE = BC/AE = 12/9 = 4/3\n\nNow, (sinphi + tantheta)/(sinphi - tantheta)\n\n= (frac{5)/(13)+(4)/(3)}{(5)/(13)-(4)/(3)}\n\n= - 67/37\n\n**Hence, The Required value is - 67/37.**",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/58e0532b059d8948f29c62fa8989dfc9d02714366f003026b3ac11355e4f5b1b.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/58e0532b059d8948f29c62fa8989dfc9d02714366f003026b3ac11355e4f5b1b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d0efeb2f4bf45fb150b86bb3cf3ee2256b236018008844f311e5abef875f809a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "65fae02b620c009fbb5169c7",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "(sin(90^circ-x)cosec(90^circ-x))/(1+tan²(90^circ-x)) ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "sin²x"
+        },
+        {
+          "label": "2",
+          "text": "cos²x"
+        },
+        {
+          "label": "3",
+          "text": "tan²x"
+        },
+        {
+          "label": "4",
+          "text": "cosec²x"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Formula Used:**\n\nsin (90 - θ) = cos θ \n\ntan (90 - θ) = cot θ \n\ncosec (90 - θ) = sec θ \n\nsec2θ - 1 = tan2θ ⇒ 1 + tan²θ = sec²θ \n\n1/(cosec θ) = sin θ \n\n**Calculation:**\n\n(sin(90^circ-x)cosec(90^circ-x))/(1+tan²(90^circ-x))\n\nBy using the above formula \n\n⇒ 1/(1 + cot²x)\n\n⇒ 1/cosec²x\n\n⇒ sin²x\n\n∴ (sin(90^circ-x)cosec(90^circ-x))/(1+tan²(90^circ-x)) = sin2x",
+      "tags": [
+        "Trigonometry"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,934 @@
+{
+  "test_id": "6a0f4561cda71d26928ead6a",
+  "title": "PYST 19: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 18th Sep 2025 Shift 1)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:01:31.313702+00:00",
+  "questions": [
+    {
+      "qid": "694e7abb67c39f3d5fd05d17",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series. D F J, G I M, J L P, ? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "NPS"
+        },
+        {
+          "label": "2",
+          "text": "MOS"
+        },
+        {
+          "label": "3",
+          "text": "MPT"
+        },
+        {
+          "label": "4",
+          "text": "KOT"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/afec17a63ce6ae8722898e28fe77c02c866ea1ba7eeee2a17a793fd073805501.png] **\n\nPattern followed here is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/921a81b4c153d185b981d16a0c417f1d8f355f77b36eda656a43d5a3721720db.png] \n\nHence, the correct answer is “Option 2**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/afec17a63ce6ae8722898e28fe77c02c866ea1ba7eeee2a17a793fd073805501.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/921a81b4c153d185b981d16a0c417f1d8f355f77b36eda656a43d5a3721720db.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7abb4615ecc9165eea35",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A statement is given followed by two conclusions. Find which conclusion is TRUE based on the given statement. Statement: M >= N ; P = Q >= R ; S >= Q = P Conclusions: I: P = S ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Either I or II"
+        },
+        {
+          "label": "2",
+          "text": "Only II"
+        },
+        {
+          "label": "3",
+          "text": "Only I"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II"
+        }
+      ],
+      "correct": "4",
+      "solution": "Statement:\n\nM >= N \n\nP = Q >= R \n\nS >= Q = P\n\nConclusion: \n\nI: P = R. so, P = S → False (As M >= N >= P = Q = \n\nNeither I nor II is True.\n\nHence, the correct answer is “**Option 4**”.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7abc6dea5e430ed0a19c",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "X is the wife of Y. Y is the son of Z. W is the daughter of X. How is W related to Z? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Granddaughter"
+        },
+        {
+          "label": "2",
+          "text": "Daughter"
+        },
+        {
+          "label": "3",
+          "text": "Sister"
+        },
+        {
+          "label": "4",
+          "text": "Niece"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/e87ab980475347023598874a3e68c212809ce9adea3f754e76f1a46bf843c1bc.png] \n\nFamily tree,\n\n [IMAGE: https://cdn.repeatermock.com/tb/c1d67a729d7603a78f9f9f5b5fba20f554ccf18e060a1bd92b3f12c07966462a.png] \n\nW is Granddaughter of Z.\n\nHence, the correct answer is “**Option 1**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e87ab980475347023598874a3e68c212809ce9adea3f754e76f1a46bf843c1bc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c1d67a729d7603a78f9f9f5b5fba20f554ccf18e060a1bd92b3f12c07966462a.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694e7abc67b1051c70219390",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Solve the following analogy based on the transformation pattern: MEAF : ? :: TIME : EMIT.",
+      "options": [
+        {
+          "label": "1",
+          "text": "FAEM"
+        },
+        {
+          "label": "2",
+          "text": "FEAM"
+        },
+        {
+          "label": "3",
+          "text": "MEFA"
+        },
+        {
+          "label": "4",
+          "text": "AFEM"
+        }
+      ],
+      "correct": "1",
+      "solution": "Logic followed here is,\n\nTIME : EMIT → \n\n [IMAGE: https://cdn.repeatermock.com/tb/e811f6c071672752aa98e9a168c98c004444e01bc8b7ab7a52d92d7b7150ce08.png] \n\nSimilarly,\n\nMEAF : ?\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/3460ea7e7e155ce44def90a640d5f",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e811f6c071672752aa98e9a168c98c004444e01bc8b7ab7a52d92d7b7150ce08.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694e7abc4615ecc9165eeab4",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next in the following number sequence? 1, 2, 6, 24, 120, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "600"
+        },
+        {
+          "label": "2",
+          "text": "720"
+        },
+        {
+          "label": "3",
+          "text": "840"
+        },
+        {
+          "label": "4",
+          "text": "480"
+        }
+      ],
+      "correct": "2",
+      "solution": "Logic followed here is,\n\n1 × 2 = 2\n\n2 × 3 = 6\n\n6 × 4 = 24\n\n24 × 5 = 120\n\n**120 × 6 = 720**\n\nHence, the correct answer is “**Option 2**”.",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7abd6232f5b578a01929",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: All employees must attend the mandatory safety workshop.\n\nConclusion I: Employees who do not attend the workshop are in violation of company policy.\n\nConclusion II: Safety workshops help in reducing workplace accidents. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I"
+        },
+        {
+          "label": "2",
+          "text": "Only II"
+        },
+        {
+          "label": "3",
+          "text": "Both follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Statement: All employees must attend the mandatory safety workshop.\n\nConclusion I: Employees who do not attend the workshop are in violation of company policy → **Follow** (If a workshop is \"mandatory\" for \"all employees,\" it is by definition a rule or policy. Failing to meet a mandatory requirement constitutes a violation of that rule. Therefore, this conclusion is a direct logical consequence of the statement).\n\nConclusion II: Safety workshops help in reducing workplace accidents → <s",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694e7abdb482e7b5dee4f762",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.\n\nStatement: To improve air quality in the city center, the local council should subsidize electric vehicle purchases, even if it impacts the annual budget.\n\nAssumptions:\n\nI. Subsidizing electric vehicles will lead to better air quality.\n\nII. The cost of subsidies is currently high for the local council.\n\nIII. Citizens are interested in switching to electric vehicles if financial incentives are provided. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I and III are implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only II and III are implicit"
+        },
+        {
+          "label": "3",
+          "text": "All I, II and III are implicit"
+        },
+        {
+          "label": "4",
+          "text": "Only I is implicit"
+        }
+      ],
+      "correct": "1",
+      "solution": "Statement: To improve air quality in the city center, the local council should subsidize electric vehicle purchases, even if it impacts the annual budget.\n\n**Assumptions:**\n\nI. Subsidizing electric vehicles will lead to better air quality →** Implicit**\n\nIf subsidizing EVs had no impact on air quality, the council's stated reason for the policy would be logically void. The statement assumes that more EVs on the road directly correlates to cleaner air.\n\nII. The cost of subsidies is currently high for the local council → **Not implicit**\n\nThe statement mentions a budget impact (\"even if it impacts the annual budget\"), but it doesn't require the cost to be \"high.\" The argument holds whether the cost is small or large, as long as the council is willing to prioritize air quality over the budget. An assumption is something that *must* be true for the logic to work; the logic works even if the subsidy is relatively inexpensive.\n\nIII. Citizens are interested in switching to electric vehicles if financial incentives are provided → **Implicit**\n\nFor a subsidy to improve air quality, it must actually result in people buying EVs. If citizens are uninterested in EVs regardless of the price (due to lack of charging stations, preference for petrol, etc.), the subsidy will fail to achieve the goal. The council is assuming that financial incentives are a sufficient motivator for the public.\n\nOnly I and III are implicit.\n\nHence, the correct answer is “**Option 1**”.",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "694e7abd67c39f3d5fd05d1f",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: Hundreds of thousands of tourists visited the national park during the summer season.\n\nConclusions:\n\nI. The national park is a highly popular destination.\n\nII. Every visitor was satisfied with the park facilities.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Statement: Hundreds of thousands of tourists visited the national park during the summer season.\n\n**Conclusions:**\n\nI. The national park is a highly popular destination → **Follow** ( A very large number of visitors indicates high popularity, especially during a specific season).\n\nII. Every visitor was satisfied with the park facilities → **Does not follow (**The statement gives no information about visitors’ satisfaction or their experience**).**\n\nOnly Conclusion I follows.\n\nHence, the correct answer is “**Option 1**”.",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "694e7abd3648e1bbd7afcc22",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement: All metals are elements. Some elements are gases. All gases are matters.\n\nConclusions: I. Some elements are matters. II. Some matters are metals. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "Least possible Venn diagram,\n\n [IMAGE: https://cdn.repeatermock.com/tb/9bb0da7c969548129a85f936c7dff3cab3d4a9b5829e51ed79e6ce68db455247.png] \n\nConclusions:\n\nI. Some elements are matters → **Follow** (As some elements are gases and all gases are matters. so, some elements are definitely matters).\n\nII. Some matters are metals → **Does not follow **(There is no direction relation given between metals and matters).\n\nOnly I follows.\n\nHence, the correct answer is “**Option 1**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9bb0da7c969548129a85f936c7dff3cab3d4a9b5829e51ed79e6ce68db455247.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "694e7abe5c8139c26e1681e2",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out from the following list: Lily, Marigold, Pine, Daisy, Tulip ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Lily"
+        },
+        {
+          "label": "2",
+          "text": "Marigold"
+        },
+        {
+          "label": "3",
+          "text": "Pine"
+        },
+        {
+          "label": "4",
+          "text": "Tulip"
+        }
+      ],
+      "correct": "3",
+      "solution": "Here,\n\n**Lily, **Marigold, Daisy, and Tulip all are **Flowering Plants (Angiosperms)**. They produce seeds enclosed within a fruit or flower and are typically known for their colorful petals and seasonal blooms.\n\nWhile,\n\n**Pine **is a <b da",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694e7abeb40eb0d241c48268",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, the second word is formed by applying a specific rearrangement to the first. Identify the pattern and apply it to the third word:\n\nPLANET : TENALP :: SPACE : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ECAPS"
+        },
+        {
+          "label": "2",
+          "text": "EPACS"
+        },
+        {
+          "label": "3",
+          "text": "ECPAS"
+        },
+        {
+          "label": "4",
+          "text": "ECSAP"
+        }
+      ],
+      "correct": "1",
+      "solution": "Logic followed here is,\n\nPLANET : TENALP\n\n [IMAGE: https://cdn.repeatermock.com/tb/4453357ec09da8fc101f62790bb14e99ea115cf737098752f680dd60ab162484.png] \n\nSimilarly,\n\nSPACE : ? \n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/81e738f5a018932a4f2c818d96f2c4ed8ab",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4453357ec09da8fc101f62790bb14e99ea115cf737098752f680dd60ab162484.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694e7abefac558170723d1c8",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If TIGER is coded as SJFFQ, how is PHONE written in the same code?",
+      "options": [
+        {
+          "label": "1",
+          "text": "OGPMD"
+        },
+        {
+          "label": "2",
+          "text": "OINOD"
+        },
+        {
+          "label": "3",
+          "text": "OGOMD"
+        },
+        {
+          "label": "4",
+          "text": "OGNMC"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/28f323796a8984c809dce7e7a73e711720456c1df54a3b417d85908c7e135e71.png] \n\nTIGER is coded as SHHDS\n\n [IMAGE: https://cdn.repeatermock.com/tb/feee10bc0f843885eeae7274c0167d66e4b191fea88018ab6491956565f59b41.png] \n\nSimilarly,\n\nPHONE written in the same code,\n\n [IMAGE: https://cdn.repeatermock.com/tb/b8e3b09e94f5af45043508337398e3c3e35c48f94ef7c672fcce1affc5397ad8.png] \n\nHence, the correct answer is “**Option 2**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/28f323796a8984c809dce7e7a73e711720456c1df54a3b417d85908c7e135e71.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/feee10bc0f843885eeae7274c0167d66e4b191fea88018ab6491956565f59b41.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b8e3b09e94f5af45043508337398e3c3e35c48f94ef7c672fcce1affc5397ad8.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694e7abfb80ebd208c53be1a",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Rearrange the letters of the word \"BARE\" to form the name of an animal. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "BEAR"
+        },
+        {
+          "label": "2",
+          "text": "REBA"
+        },
+        {
+          "label": "3",
+          "text": "ARBE"
+        },
+        {
+          "label": "4",
+          "text": "ERAB"
+        }
+      ],
+      "correct": "1",
+      "solution": "After rearranging the word,\n\n\"BARE\" → BEAR\n\nHence, the correct answer is “**Option 1**”.",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "694e7abfc283a0bd062007f5",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Complete the following number series: 4, 5, 10, 12, 24, 27, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "48"
+        },
+        {
+          "label": "2",
+          "text": "50"
+        },
+        {
+          "label": "3",
+          "text": "52"
+        },
+        {
+          "label": "4",
+          "text": "54"
+        }
+      ],
+      "correct": "4",
+      "solution": "Logic followed here is,\n\n4 + 1 = 5\n\n5 × 2 = 10\n\n10 + 2 = 12\n\n12 × 2 = 24\n\n24 + 3 = 27\n\n**27 × 2 = 54**\n\nHence, the correct answer is “**Option 4**”.",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7ac06f220c0ea198d1ea",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next in the following letter-cluster series? NOA, OPB, PQC, QRD, ? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "RSE"
+        },
+        {
+          "label": "2",
+          "text": "RTE"
+        },
+        {
+          "label": "3",
+          "text": "STE"
+        },
+        {
+          "label": "4",
+          "text": "RDE"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/86cb13ba9c40664ec02eae49afd88c2fdfa8dee746ddd1c8cd36bc4293ffee9b.png] **\n\nPattern followed here is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/be0066cd910707d43c88b102930c190dd7afc9ce11d90910b3d5e8bde2a59fe0.png] \n\nHence, the correct answer is “Option 1**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/86cb13ba9c40664ec02eae49afd88c2fdfa8dee746ddd1c8cd36bc4293ffee9b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/be0066cd910707d43c88b102930c190dd7afc9ce11d90910b3d5e8bde2a59fe0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694e7ac085f77ac9f47919ca",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out from the given alternatives: ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Taxila"
+        },
+        {
+          "label": "2",
+          "text": "Vikramshila"
+        },
+        {
+          "label": "3",
+          "text": "Kalibangan"
+        },
+        {
+          "label": "4",
+          "text": "Odantapuri"
+        }
+      ],
+      "correct": "3",
+      "solution": "Here,\n\n**Taxila, Vikramshila, and Odantapuri:** These were all famous **ancient universities** and centers of higher learning in the Indian subcontinent. They were renowned for attracting students from across Asia to study subjects like philosophy, medicine, and Buddhist logic.\n\nWhile,\n\n**Kalibangan:** This is a major archaeological site of the **Indus Valley Civilization** (Harappan). It is a proto-historic settlement known for its unique fire altars and evidence of the world's earliest ploughed field, rather than being a center of academic learning like the others.\n\nHence, the correct answer is “**Option 3**”.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694e7ac06f622942d95ac2d2",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out based on the category of instruments: ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Flute"
+        },
+        {
+          "label": "2",
+          "text": "Harmonica"
+        },
+        {
+          "label": "3",
+          "text": "Saxophone"
+        },
+        {
+          "label": "4",
+          "text": "Violin"
+        }
+      ],
+      "correct": "4",
+      "solution": "Here,\n\n \n• \n \n**Flute, Harmonica, and Saxophone:** These are all **Wind Instruments** (specifically Aerophones). They produce sound by vibrating a column of air, usually initiated by the player's breath.\n\n \n\nWhile,\n\n \n• \n \n**Violin:** This is a **String Instrument** (specifically a Chordophone). It produces sound through the vibration of stretched strings, which are typically bowed, plucked, or struck.\n\n \n\nHence, the correct answer is “**Option 4**”.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694e7ac11741bd4cbbbe5348",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following groups does not follow the same arithmetic rule as the others? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12, 24, 48"
+        },
+        {
+          "label": "2",
+          "text": "4, 12, 36"
+        },
+        {
+          "label": "3",
+          "text": "6, 18, 54"
+        },
+        {
+          "label": "4",
+          "text": "8, 24, 72"
+        }
+      ],
+      "correct": "1",
+      "solution": "(**1) 12, 24, 48**\n\n**12 × 2 = 24**\n\n**24 × 2 = 48**\n\n(**2) 4, 12, 36**\n\n4 × 3 = 12\n\n<span style=",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "694e7ac16f220c0ea198d1ef",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 4 * 2 = 12 and 10 * 5 = 75, then what is 6 * 4 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "38"
+        },
+        {
+          "label": "2",
+          "text": "40"
+        },
+        {
+          "label": "3",
+          "text": "44"
+        },
+        {
+          "label": "4",
+          "text": "48"
+        }
+      ],
+      "correct": "2",
+      "solution": "Logic followed here is : **(a + b)× b **\n\n4 * 2 = 12 \n\n(4 + 2) × 2 = 6 × 2 = 12\n\n10 * 5 = 75\n\n(10 + 5) × 5 = 15 × 5 = 75\n\nSimilarly,\n\n 6 * 4 = ?",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7ac15cc429fc83a95f85",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Comprehension: In a certain coding system, \"The sky looks blue\" is written as \"ka pa ra sa\". \"The sky looks dark\" is written as \"ka pa ta sa\". \"The sea looks blue\" is written as \"ma pa ra sa\". What is the code for \"sea\"? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ka"
+        },
+        {
+          "label": "2",
+          "text": "pa"
+        },
+        {
+          "label": "3",
+          "text": "ma"
+        },
+        {
+          "label": "4",
+          "text": "ra"
+        }
+      ],
+      "correct": "3",
+      "solution": "According to given information,\n\n [IMAGE: https://cdn.repeatermock.com/tb/eb2334ca7b55a0c74c8bd0352017eb1d6dd3f34121f509757dbb3a4d54a9b94d.png] \n\nThe code for \"sea\" is \"ma\".\n\nHence, the correct answer is “**Option 3**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/eb2334ca7b55a0c74c8bd0352017eb1d6dd3f34121f509757dbb3a4d54a9b94d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "694e7ac21741bd4cbbbe5357",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A motorboat travels 120 kilometers upstream in 6 hours and covers the same distance of 120 kilometers downstream in 4 hours. What is the speed of the boat in still water? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 km/h"
+        },
+        {
+          "label": "2",
+          "text": "22 km/h"
+        },
+        {
+          "label": "3",
+          "text": "25 km/h"
+        },
+        {
+          "label": "4",
+          "text": "30 km/h"
+        }
+      ],
+      "correct": "3",
+      "solution": "Distance upstream = 120 km\n\nTime upstream = 6 hour\n\nDistance downstream = 120 km\n\nTime downstream = 4 hours\n\nFormula Used:\n\nSpeed = Distance / Time\n\nSp",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7ac24615ecc9165eead4",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A person says, \"The daughter of my sister's husband is my ___ .\" ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Daughter-in-law"
+        },
+        {
+          "label": "2",
+          "text": "Niece"
+        },
+        {
+          "label": "3",
+          "text": "Cousin"
+        },
+        {
+          "label": "4",
+          "text": "Sister"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/46f1dc9f04fd7ee9d9fe406915f00ad73cd5de1e17ce5855be8516f25a8e4e9e.png] \n\n [IMAGE: https://cdn.repeatermock.com/tb/99e51ca0f38515d0f591a7f5a635b5b95f01c4c7d7ede17b2779891d4a3a4a5b.png] \n\nDaug",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/46f1dc9f04fd7ee9d9fe406915f00ad73cd5de1e17ce5855be8516f25a8e4e9e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/99e51ca0f38515d0f591a7f5a635b5b95f01c4c7d7ede17b2779891d4a3a4a5b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694e7ac23aca01cde5a3a86b",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 'x' means '-', '-' means '+', and '+' means '÷', then what is the value of: 24 + 12 x 4 - 8 = ? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given Equation: 24 + 12 x 4 - 8 = ?\n\nBODMAS Rule:\n\n [IMAGE: https://cdn.repeatermock.com/tb/26f40202128adb2c07709a69cdba4243e8998b838a4a98f0ff767de4f05dab0d.png] \n\nDecoding the given information:\n\n \n \n\n Symbol\n <th scope=\"col\" style=",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/26f40202128adb2c07709a69cdba4243e8998b838a4a98f0ff767de4f05dab0d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7ac240bd2ad3903becb2",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the sum of 62 and 38 is multiplied by 18, what is the result? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1600"
+        },
+        {
+          "label": "2",
+          "text": "1750"
+        },
+        {
+          "label": "3",
+          "text": "1800"
+        },
+        {
+          "label": "4",
+          "text": "1950"
+        }
+      ],
+      "correct": "3",
+      "solution": "Sum of 62 and 38 is multiplied by 18\n\n(62 + 38) × 18 = 100 × 18 = 1800\n\nHence, the correct answer is “**Option 3**”.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "694e7ac31741bd4cbbbe535c",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The series given below contains a sequence of numbers. Accordingly, identify the incorrect term in the combination: 8, 10, 28, 28, 68, 72, 148, 136",
+      "options": [
+        {
+          "label": "1",
+          "text": "68"
+        },
+        {
+          "label": "2",
+          "text": "28"
+        },
+        {
+          "label": "3",
+          "text": "72"
+        },
+        {
+          "label": "4",
+          "text": "148"
+        }
+      ],
+      "correct": "3",
+      "solution": "Pattern followed here is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/3423675cd0f6b6bf6ce18ccda90a23c3664c89b209ee7f880e7e2cdc9a9d5c5f.png] \n\nThere should be 64 instead of 72.\n\nHence, the correct answer is “**Option 3**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3423675cd0f6b6bf6ce18ccda90a23c3664c89b209ee7f880e7e2cdc9a9d5c5f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    }
+  ]
+}

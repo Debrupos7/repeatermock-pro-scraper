@@ -1,0 +1,874 @@
+{
+  "test_id": "6a0f4599c3d3b52796dc52ca",
+  "title": "PYST 19: SSC CGL 2025 Tier-I Similar Paper - Quantitative Aptitude (Held On: 18th Sep 2025 Shift 1)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T11:27:11.153848+00:00",
+  "questions": [
+    {
+      "qid": "694e7acb4233ea1a4c6ae6c3",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What value must replace the question mark to satisfy the following equation: (sqrt{3} + 4)² = ? + 8sqrt{3} ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "19"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "11"
+        },
+        {
+          "label": "4",
+          "text": "7"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n(sqrt{3} + 4)² = ? + 8sqrt{3}\n\n**Formula used:**\n\n(a + b)² = a² + b² + 2ab\n\n**Calculation:**\n\n<span cla",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "694e7acbc283a0bd062009b5",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Solve the following arithmetic expression: (2500 - 900) × (sqrt{400} / 10) = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1600"
+        },
+        {
+          "label": "2",
+          "text": "2400"
+        },
+        {
+          "label": "3",
+          "text": "3200"
+        },
+        {
+          "label": "4",
+          "text": "4000"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n(2500 - 900) × (sqrt{400} / 10) = ?\n\n**Formula used:**\n\nBasic Arithmetic and Square Root\n\n**Calculation:**\n\n(2500 - 900) × (sqrt{400} / 10) = ?\n\n⇒ (2500 - 900) × (20 / 10)\n\n⇒ 1600 × 2\n\n⇒ 3200\n\n**∴ The correct answer is option (3).**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "694e7acc67c39f3d5fd05d56",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 20% of (A + B) = 60% of (A - B), find the ratio of A to B. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 : 2"
+        },
+        {
+          "label": "2",
+          "text": "2 : 1"
+        },
+        {
+          "label": "3",
+          "text": "1 : 3"
+        },
+        {
+          "label": "4",
+          "text": "3 : 1"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n20% of (A + B) = 60% of (A - B)\n\n**Calculation:**\n\n20% of (A + B) = 60% of (A - B)\n\n⇒ dfrac{20}{100}(A + B) = dfrac{60}{100}(A - B) \n\n⇒ dfrac{1}{5}(A + B) = dfrac{3}{5}(A - B) \n\n⇒ (A + B) = 3(A - B)\n\n⇒ A + B = 3A - 3B\n\n⇒ 4B = 2A\n\n⇒ A/B = 2/1\n\n**∴ The correct answer is Option 2.**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "694e7acc361ce36ae3169049",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A container holds coins of 10, 4, and 2 in the ratio of 2 : 3 : 4. If the total value of the coins is 800, calculate the number of each type of coin?",
+      "options": [
+        {
+          "label": "1",
+          "text": "40, 60, 80"
+        },
+        {
+          "label": "2",
+          "text": "20, 30, 40"
+        },
+        {
+          "label": "3",
+          "text": "30, 45, 60"
+        },
+        {
+          "label": "4",
+          "text": "50, 75, 100"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nA container holds coins of 10, 4, and 2 in the ratio of 2 : 3 : 4. Total value of coins = ₹800.\n\n**Calculation:**\n\nLet the number of coins of 10, 4, and 2 be 2x, 3x, and 4x, respectively.\n\nTotal value = (Value of 10 × Number of 10 coins) + (Value of 4 × Number of 4 coins) + (Value of 2 × Number of 2 coins)\n\nTotal value = 10 × 2x + 4 × 3x + 2 × 4x\n\n⇒ 800 = 20x + 12x + 8x\n\n⇒ 800 = 40x\n\n⇒ x = 20\n\nNumber of 10 coins = 2x = 2 × 20 = 40\n\nNumber of 4 coins = 3x = 3 × 20 = 60\n\nNumber of 2 coins = 4x = 4 × 20 = 80\n\n**∴ The correct answer is option (1).**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nCoins of Rs. 10, Rs. 4 and Rs. 2 are in the ratio 2 : 3 : 4\n\nTotal value of coins = Rs. 800\n\n**Formula used:**\n\nTotal Value = Sum of (Value × Number of coins)\n\n \n \n\n Value (Rs.)\n No. of Coins (in terms of x)\n Total Value (Rs.)\n \n \n \n \n\n 10\n 2x\n 10 × 2x = 20x\n \n \n\n 4\n 3x\n 4 × 3x = 12x\n \n \n\n 2\n 4x\n 2 × 4x = 8x\n \n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n**Calculations:**\n\nSum of total values = 20x + 12x + 8x = 40x\n\n⇒ 40x = 800 ⇒ x = 20\n\n**Number of each type of coin:**\n\nRs. 10 coins = 2x = 2 × 20 = 40\n\nRs. 4 coins = 3x = 3 × 20 = 60\n\nRs. 2 coins = 4x = 4 × 20 = 80\n\n**∴ The container has 40 coins of Rs. 10, 60 coins of Rs. 4 and 80 coins of Rs. 2.**\n\n.responsive-table {\n width: 100%;\n max-width: 600px;\n margin: 20px auto;\n border-collapse: collapse;\n font-family: Arial, sans-serif;\n text-align: center;\n }\n .responsive-table thead tr {\n background-color: rgb(0, 195, 182);\n color: black;\n }\n .responsive-table th, .responsive-table td {\n padding: 12px 8px;\n border: 1px solid #ddd;\n white-space: normal;\n }\n @media (max-width: 600px) {\n .responsive-table thead {\n display: table-header-group;\n background-color: rgb(74, 206, 222);\n color: black;\n }\n .responsive-table tbody, .responsive-table tr, .responsive-table td {\n display: block;\n width: 100%;\n }\n .responsive-table tr {\n margin-bottom: 15px;\n border-bottom: 2px solid rgb(74, 206, 222);\n }\n .responsive-table td {\n text-align: right;\n padding-left: 50%;\n position: relative;\n border: none;\n border-bottom: 1px solid #eee;\n }\n .responsive-table td::before {\n content: attr(data-label);\n position: absolute;\n left: 10px;\n top: 12px;\n font-weight: bold;\n text-align: left;\n }\n }",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "694e7accfac558170723d29a",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A merchant marked a device at 1600. He provided a 15 percent discount during the sale. If his final profit was 20 percent, what was the original cost price of the device? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1084.72"
+        },
+        {
+          "label": "2",
+          "text": "1072.94"
+        },
+        {
+          "label": "3",
+          "text": "1133.33"
+        },
+        {
+          "label": "4",
+          "text": "1192.68"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nMarked Price (MP) = ₹1600\n\nDiscount = 15%\n\nProfit = 20%\n\n**Formula used:**\n\nSP = MP × (1 - Discount%)\n\nCP = SP / (1 + Profit%)\n\n**Calculation:**\n\nSP = 1600 × (1 - 15/100)\n\n⇒ SP = 1600 × 0.85 = ₹1360\n\nCP = 1360 / (1 + 20/100)\n\n⇒ CP = 1360 / 1.2 = ₹1133.33\n\n**∴ The correct answer is option (3).**",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "694e7acd49c6ecf818434f7e",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A gadget is sold at a 20 percent discount on its marked price, resulting in a 10 percent profit on the cost price. If the total profit earned is 600, what would the selling price be if the gadget was sold at a 30 percent discount on the marked price? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6000"
+        },
+        {
+          "label": "2",
+          "text": "5250"
+        },
+        {
+          "label": "3",
+          "text": "5775"
+        },
+        {
+          "label": "4",
+          "text": "6300"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nDiscount = 20% of Marked Price (MP)\n\nProfit = 10% of Cost Price (CP)\n\nTotal Prof\nit = ₹600\n\n**Formula used:**\n\n1. Selling Price (SP) = MP - Discount\n\n2. Profit = SP - CP\n\n3. SP at 30% Discount = MP - (30% of MP)\n\n**Calculations:**\n\n⇒ 10% of CP = ₹600\n\n⇒ CP = ₹6000\n\nLet MP = x.\n\nSP = MP - 20% of MP\n\n⇒ SP = x - 0.2x = 0.8x\n\nProfit = SP - CP\n\n⇒ 0.8x - ₹6000 = ₹600\n\n⇒ 0.8x = ₹6600\n\n⇒ x = ₹8250\n\nSP at 30% Discount = MP - 30% of MP\n\n⇒ SP = ₹8250 - 0.3(₹8250)\n\n⇒ SP = ₹8250 - ₹2475\n\n⇒ SP = ₹5775\n\n**∴ The correct answer is option (3).**\n\n3e:T58e,\n<st",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "694e7acd059f86dc0d8ddfa7",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the cubic equation a³ - 8a² + 10a - 4 = 0 has the roots x, y, and z, determine the value of the sum x + y + z. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "14"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nCubic equation: a³ - 8a² + 10a - 4 = 0\n\nRoots: x, y, z\n\n**Formula used:**\n\nFor a cubic equation a³ + b a² + c a + d = 0 :\n\nSum of roots (x + y + z) = -dfrac{{coefficient of } a²}{{coefficient of } a³}\n\n**Calculation:**\n\nGiven equation: a³ - 8a² + 10a - 4 = 0\n\nCoefficient of a³ = 1\n\nCoefficient of a² = -8\n\n⇒ Sum of roots (x + y + z) = -dfrac{-8}{1}\n\n⇒ Sum of roots = 8\n\n**∴ The correct answer is option (1).**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "694e7acd67c39f3d5fd05d66",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A borrower takes 12000 from a lender on 10 January 2024 at a simple interest rate of 10 percent per annum. The borrower repays the full amount on 10 July 2024. How much total money must be returned? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12600"
+        },
+        {
+          "label": "2",
+          "text": "13000"
+        },
+        {
+          "label": "3",
+          "text": "10800"
+        },
+        {
+          "label": "4",
+          "text": "11600"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nPrincipal (P) = ₹12,000\n\nRate of Interest (R) = 10% per annum\n\nTime (T) = 6 months = 6/12 years = 0.5 years\n\n**Formula used:**\n\nSimple Interest (SI) = (P times R times T)/(100)\n\nTotal Amount (A) = Principal (P) + Simple Interest (SI)\n\n**Calculations:**\n\nSI = (12000 times 10 times 0.5)/(100)\n\n⇒ SI = ₹600\n\nTotal Amount (A) = P + SI\n\n⇒ A = ₹12,000 + ₹600\n\n⇒ A = ₹12,600\n\n**∴ The correct answer is option (1).**",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "694e7ace4233ea1a4c6ae6dc",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "An investor placed a total sum of 4400 into three different schemes offering simple interest at 4 percent, 5 percent, and 10 percent per annum. After one year, the interest earned from each scheme was identical. What was the specific amount invested in the 5 percent scheme? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2000"
+        },
+        {
+          "label": "2",
+          "text": "1600"
+        },
+        {
+          "label": "3",
+          "text": "1200"
+        },
+        {
+          "label": "4",
+          "text": "800"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nTotal Investment = ₹4400\n\nInterest rates = 4%, 5%, 10% per annum\n\nInterest earned from each scheme is identical after 1 year\n\n**Formula used:**\n\nSimple Interest (SI) = (P times R times T)/(100)\n\nWhere P = Principal, R = Rate, T = Time\n\n**Calculation:**\n\nLet investments be ₹x, ₹y, and ₹z in the 4%, 5%, and 10% schemes respectively.\n\n⇒ x + y + z = ₹4400\n\nInterest earned from each scheme is identical:\n\n⇒ (x times 4 times 1)/(100) = (y times 5 times 1)/(100) = (z times 10 times 1)/(100)\n\n⇒ (x times 4)/(100) = (y times 5)/(100) = (z times 10)/(100)\n\n⇒ x × 4 = y × 5 = z × 10\n\nLet the common interest = ₹k\n\n⇒ x = (k)/(4), y = (k)/(5), z = (k)/(10)\n\nSubstitute values in the total investment equation:\n\n⇒ (k)/(4) + (k)/(5) + (k)/(10) = ₹4400\n\nTake LCM of 4, 5, and 10:\n\n⇒ LCM = 20\n\n⇒ (5k)/(20) + (4k)/(20) + (2k)/(20) = ₹4400\n\n⇒ (11k)/(20) = ₹4400\n\n⇒ k = (4400 times 20)/(11)\n\n⇒ k = ₹8000\n\nNow, calculate the investment in the 5% scheme:\n\n⇒ y = (k)/(5)\n\n⇒ y = (8000)/(5)\n\n⇒ y = ₹1600\n\n**∴ The correct answer is option (2).**\n\n40:Tced,\n\n&l",
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "694e7ace921097dce8b3fd31",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "An observer on top of a 240 m high cliff sees two boats on opposite sides of the cliff. The angles of depression for the boats are 30° and 45°. What is the total distance between the two boats?",
+      "options": [
+        {
+          "label": "1",
+          "text": "655.68 m"
+        },
+        {
+          "label": "2",
+          "text": "625.32 m"
+        },
+        {
+          "label": "3",
+          "text": "580.45 m"
+        },
+        {
+          "label": "4",
+          "text": "712.10 m"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nHeight of the cliff (h) = 240 m\n\nAngle of depression for boat 1 = 30°\n\nAngle of depression for boat 2 = 45°\n\n**Formula used:**\n\nTotal distance between the two boats = Distance to boat 1 + Distance to boat 2\n\n**Calculations:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c202cfdf6abfd8c0bf175bf2abfe4ded07e1ca31c8f30e862bbd494e60a158d8.png] \n\nFor boat 1 (at 30°):\n\n⇒ tan(30°) = (240 / x)\n\n⇒ 1/ √3 = (240 / x) \n\n⇒ x = 240√3 = 240 × 1.732 = 415.68 m.\n\nFor boat 2 (at 45°):\n\n⇒ tan(45°) = (240 / y)\n\n⇒ 1 = (240 / y) \n\n⇒ y = 240 m.\n\nTotal distance between the two boats = x + y = 415.68 m + 240 m = 655.68 m\n\n**∴ The correct answer is option (1).**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c202cfdf6abfd8c0bf175bf2abfe4ded07e1ca31c8f30e862bbd494e60a158d8.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "694e7acec283a0bd062009bb",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A vertical pillar TF has its base F on a flat surface. From point A, 50 meters from F, the angle of elevation of the top T is x°. From another point B, 150 meters from F in the same direction, the angle of elevation is y°. If the pillar is 50√3 meters tall, find the sum of x + y. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60°"
+        },
+        {
+          "label": "2",
+          "text": "75°"
+        },
+        {
+          "label": "3",
+          "text": "90°"
+        },
+        {
+          "label": "4",
+          "text": "120°"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nHeight of the pillar (h) = 50√3 meters\n\nDistance from point A to base (F) = 50 meters\n\nDistance from point B to base (F) = 150 meters\n\nAngle of elevation from point A = x°\n\nAngle of elevation from point B = y°\n\n**Formula used:**\n\ntan(θ) = Height / Base\n\n**Calculations:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/25d0f7ac123a70ecbc3c22b39096c11c5ca68f2cf802dbbfe5bf2fef6d6ca5b9.png] \n\nFrom point A:\n\ntan(x) = h / 50\n\n⇒ tan(x) = 50√3 / 50\n\n⇒ tan(x) = √3\n\n⇒ x = 60°\n\nFrom point B:\n\ntan(y) = h / 150\n\n⇒ tan(y) = 50√3 / 150\n\n⇒ tan(y) = 1 / √3\n\n⇒ y = 30°\n\nSum of x + y:\n\n⇒ x + y = 60° + 30°\n\n⇒ x + y = 90°\n\n**∴ The correct answer is option (3).**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/25d0f7ac123a70ecbc3c22b39096c11c5ca68f2cf802dbbfe5bf2fef6d6ca5b9.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "694e7acfa77ce4b0f6e921c1",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Three solid metal spheres with radii of 6 cm, 8 cm, and 10 cm are melted together to form one large solid sphere. What is the radius of this newly formed sphere? ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 cm"
+        },
+        {
+          "label": "2",
+          "text": "14 cm"
+        },
+        {
+          "label": "3",
+          "text": "16 cm"
+        },
+        {
+          "label": "4",
+          "text": "18 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nRadii of three solid spheres = 6 cm, 8 cm, and 10 cm\n\n**Formula used:**\n\nVolume of a sphere = (4)/(3) pi r³\n\nWhen melted together, total volume remains the same:\n\nTotal volume of new sphere = Sum of volumes of three spheres\n\nRadius of new sphere = sqrt[3]{frac{3 times {Total volume}}{4 pi}}\n\n**Calculations:**\n\nVolume of the three spheres:\n\nVolume₁ = (4)/(3) pi (6)³ = (4)/(3) pi times 216\n\nVolume₂ = (4)/(3) pi (8)³ = (4)/(3) pi times 512\n\nVolume₃ = (4)/(3) pi (10)³ = (4)/(3) pi times 1000 \n\nTotal volume = (4)/(3) pi times 216+ (4)/(3) pi times 512 + (4)/(3) pi times 1000 = 2304 pi\n\nNow, for the new sphere:\n\n(4)/(3) pi r³ = 2304 pi\n\n⇒ r³ = (2304 pi)/(frac{4){3} pi} = 2304 times (3)/(4) = 1728\n\n⇒ r = sqrt[3]{1728} = 12\n\n**∴ The radius of the new sphere is 12 cm, and the correct answer is option (1).**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "694e7ad06f622942d95ac3ec",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A right circular cone with a height of 60 cm is cut parallel to its base to create a frustum. The cut is made 20 cm from the vertex. What is the ratio of the volume of the resulting frustum to the volume of the entire original cone?",
+      "options": [
+        {
+          "label": "1",
+          "text": "26 : 27"
+        },
+        {
+          "label": "2",
+          "text": "11 : 18"
+        },
+        {
+          "label": "3",
+          "text": "16 : 19"
+        },
+        {
+          "label": "4",
+          "text": "14 : 15"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nHeight of original cone = 60 cm\n\nHeight of smaller cone cut off = 20 cm\n\nThus, height of frustum = 60 − 20 = 40 cm\n\n**Formula used:**\n\nVolume of cone ∝ h³\n\n**Calculation:**\n\nLet volume of original cone = V\n\nVolume of smaller cone = V₁\n\n⇒ dfrac{V₁}{V} = (dfrac{20}{60})³ \n\n⇒ dfrac{V₁}{V} = (dfrac{1}{3})³ \n\n⇒ dfrac{V₁}{V} = dfrac{1}{27}\n\n⇒ Volume of frustum = V − V₁\n\n⇒ dfrac{{Frustum}}{V} = 1 − dfrac{1}{27}\n\n⇒ dfrac{{Frustum}}{V} = dfrac{26}{27}\n\n**∴ Required ratio = 26 : 27**",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "694e7ad0b482e7b5dee4f7dc",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The side length of a regular octagon is exactly half the side length of a square. If the perimeter of the square is 40 cm, what is the perimeter of the octagon?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 cm"
+        },
+        {
+          "label": "2",
+          "text": "30 cm"
+        },
+        {
+          "label": "3",
+          "text": "40 cm"
+        },
+        {
+          "label": "4",
+          "text": "50 cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nPerimeter of square = 40 cm\n\nNumber of sides of square = 4\n\nSide of octagon = 1/2 × side of square\n\n**Formula used:**\n\nPerimeter = number of sides × side length\n\n**Calculation:**\n\n⇒ Side of square = 40 ÷ 4 = 10 cm\n\n⇒ Side of octagon = 1/2 × 10 = 5 cm\n\n⇒ Perimeter of octagon = 8 × 5\n\n⇒ Perimeter of octagon = 40 cm\n\n**∴ The perimeter of the octagon is 40 cm.**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694e7ad1a628e7b09fe45719",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A column is shaped like a regular hexagonal prism with a base side of 20 cm. The column is composed of 4 sections whose heights follow an arithmetic progression: 10 cm, 14 cm, 18 cm, and 22 cm. What is the total volume of this hexagonal column?",
+      "options": [
+        {
+          "label": "1",
+          "text": "36000√3"
+        },
+        {
+          "label": "2",
+          "text": "38400√3"
+        },
+        {
+          "label": "3",
+          "text": "40800√3"
+        },
+        {
+          "label": "4",
+          "text": "43200√3"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nA regular hexagonal prism with base side = 20 cm.\n\nHeights of the sections in arithmetic progression: 10 cm, 14 cm, 18 cm, 22 cm.\n\n**Formula used:**\n\nVolume of a hexagonal prism = Base area × Height\n\nBase area of a regular hexagon = frac{3sqrt{3}}{2} times a², where a is the base side length.\n\nC",
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "694e7ad13aca01cde5a3a945",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the coordinates of the midpoint for the line segment connecting the points (6, 8) and (14, 16). ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(6, 8)"
+        },
+        {
+          "label": "2",
+          "text": "(10, 12)"
+        },
+        {
+          "label": "3",
+          "text": "(8, 10)"
+        },
+        {
+          "label": "4",
+          "text": "(12, 14)"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nCoordinates of the first point: (6, 8)\n\nCoordinates of the second point: (14, 16)\n\n**Formula used:**\n\nThe formula for the midpoint is:\n\n{Midpoint (x, y)} = (dfrac{x₁+x₂}{2}, dfrac{y₁+y₂}{2})\n\n**Calculation:**\n\nx-coordinate: dfrac{6+14}{2}\n\n⇒ x = dfrac{20}{2} = 10\n\ny-coordinate: dfrac{8+16}{2}\n\n⇒ y = dfrac{24}{2} = 12\n\n**Midpoint:** (10, 12)\n\n**∴ The correct answer is option (2).**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694e7ad1ab4124b721d1a1e2",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Determine the total number of diagonals present in a regular octagon. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "24"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nNumber of sides in a regular polygon (n) = 8 (octagon)\n\n**Formula used:**\n\nTotal number of diagonals in a polygon = dfrac{n(n-3)}{2}\n\n**Calculation:**\n\nDiagonals = dfrac{n(n-3)}{2}\n\n⇒ Diagonals = dfrac{8(8-3)}{2}\n\n⇒ Diagonals = dfrac{8 times 5}{2}\n\n⇒ Diagonals = 20\n\n**∴ The correct answer is option (3).**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694e7ad237466ab7917b3089",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Triangle XYZ has its centroid at point G(8, 10) and vertex X at (4, 6). If point M is the midpoint of the side YZ, find the coordinates of point M. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(10, 12)"
+        },
+        {
+          "label": "2",
+          "text": "(10, 16)"
+        },
+        {
+          "label": "3",
+          "text": "(12, 14)"
+        },
+        {
+          "label": "4",
+          "text": "(12, 16)"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nCentroid G = (8 , 10)\n\nVertex X = (4 , 6)\n\nM is midpoint of YZ\n\n**Formula used:**\n\nCentroid G = (X + Y + Z) ÷ 3\n\nY + Z = 2M\n\n**Calculation:**\n\n⇒ G = (X + 2M) ÷ 3\n\n⇒ 3G = X + 2M\n\n⇒ 2M = 3G − X\n\n⇒ 2M = (3 × 8 − 4 , 3×10 − 6)\n\n⇒ 2M = (24 − 4 , 30 − 6)\n\n⇒ 2M = (20 , 24)\n\n⇒ M = (20 ÷ 2 , 24 ÷ 2)\n\n⇒ M = (10 , 12)\n\n**∴ Coordinates of point M are (10 , 12).**",
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694e7ad21741bd4cbbbe5461",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Solve for x in the following equation: sqrt{x + 13} + sqrt{x - 2} = 5 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nsqrt{x + 13} + sqrt{x - 2} = 5\n\n**Calculation:**\n\nSquare both sides to simplify the equation\n\n(sqrt{x + 13} + sqrt{x - 2})² = 5²\n\n⇒ (x + 13) + (x - 2) + 2sqrt{(x + 13)(x - 2)} = 25 \n\n⇒ (2x + 11) + 2sqrt{(x + 13)(x - 2)} = 25 \n\n⇒ 2sqrt{(x + 13)(x - 2)} = 25 - 2x - 11 \n\n⇒ 2sqrt{(x + 13)(x - 2)} = 14 - 2x\n\nDivide by 2:\n\n⇒ sqrt{(x + 13)(x - 2)} = 7 - x \n\nSquare both sides again:\n\n⇒ (x + 13)(x - 2) = (7 - x)²\n\n⇒ x² + 13x - 2x - 26 = 49 - 14x + x²\n\n⇒ x² + 11x - 26 = x² - 14x + 49\n\n⇒ 11x - 26 = -14x + 49\n\n⇒ 11x + 14x = 49 + 26\n\n⇒ 25x = 75\n\n⇒ x = 3\n\n**∴ The correct answer is option (1).**",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "694e7ad26c99e68bb5d96386",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A common internal tangent for two circles measures 18 cm. The distance between the centers of these circles is 30 cm. If the larger circle has a radius of 16 cm, what is the radius of the smaller circle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 cm"
+        },
+        {
+          "label": "2",
+          "text": "2 cm"
+        },
+        {
+          "label": "3",
+          "text": "12 cm"
+        },
+        {
+          "label": "4",
+          "text": "14 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nLength of common internal tangent = 18 cm\n\nDistance between centers (d) = 30 cm\n\nRadius of larger circle (R) = 16 cm\n\nRadius of smaller circle = r cm\n\n**Formula used:**\n\n(Internal tangent)² = d² − (R + r)²\n\n**Calculation:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f554250aceb775a47256b704d08ffbee671622fd6cf7c019b3f401fe357e664e.png] \n\n⇒ 18² = 30² − (16 + r)²\n\n⇒ 324 = 900 − (16 + r)²\n\n⇒ (16 + r)² = 900 − 324\n\n⇒ (16 + r)² = 576\n\n⇒ 16 + r = 24\n\n⇒ r = 24 - 16\n\n⇒ r = 8 cm\n\n**∴ Radius of the smaller circle = 8 cm.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f554250aceb775a47256b704d08ffbee671622fd6cf7c019b3f401fe357e664e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694e7ad36232f5b578a01b57",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a cyclic quadrilateral ABCD, the side AB serves as the diameter of the circle. If the measure of angle ACD is 20 degrees, what is the measure of angle BAD?",
+      "options": [
+        {
+          "label": "1",
+          "text": "40"
+        },
+        {
+          "label": "2",
+          "text": "50"
+        },
+        {
+          "label": "3",
+          "text": "70"
+        },
+        {
+          "label": "4",
+          "text": "90"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nA cyclic quadrilateral ABCD where AB is the diameter of the circle.\n\nAngle ACD = 20°\n\nWe need to find the measure of angle BAD.\n\n**Formula used:**\n\nIn a cyclic quadrilateral, the opposite angles are supplementary, i.e., their sum is 180°.\n\nAlso, the angle subtended by the diameter of a circle at the circumference is 90° (right angle).\n\n**Calculation:**\n\nAngle ABC = 90° (since AB is the diameter).\n\n [IMAGE: https://cdn.repeatermock.com/tb/08f910322e82fdfa4df20b725fc90ff69b0101ace30e24124dd326a168e6ad7d.png] \n\n∠ACD = 20° \n\nWe know ∠ACB = 90° (∵ Angle subtended by half circle at the circumference of a circle is equal to 90 degrees)\n\n∠BCD = ∠ACB + ∠ACD = 90 + 20 = 110°\n\nWe know that in a cyclic quadrilateral,\n\nSum of opposite angles of cyclic quadrilateral = 180° \n\n∠BAD + ∠BCD = 180° \n\n∴ ∠BAD = 180 - 110 = 70° \n\n**∴ The correct answer is option (3).**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/08f910322e82fdfa4df20b725fc90ff69b0101ace30e24124dd326a168e6ad7d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "694e7ad3ef332f620972e3ab",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sin2A - cos2A = 1/2, find the specific value of cos2A. ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 / 2"
+        },
+        {
+          "label": "2",
+          "text": "1 / 4"
+        },
+        {
+          "label": "3",
+          "text": "3 / 4"
+        },
+        {
+          "label": "4",
+          "text": "2 / 3"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nsin²A − cos²A = 1/2\n\n**Formula used:**\n\nsin²A + cos²A = 1\n\n**Calculation:**\n\n⇒ sin²A = 1 − cos²A\n\n⇒ (1 − cos²A) − cos²A = 1/2\n\n⇒ 1 − 2cos²A = 1/2\n\n⇒ 2cos²A = 1 − 1/2\n\n⇒ 2cos²A = 1/2\n\n⇒ cos²A = 1/4\n\n**∴ The value of cos²A is 1/4.**",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "694e7ad35cc429fc83a960c1",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If cot A + cosec A = 2, find the value of the following expression: dfrac{{cosec}² A}{{cot A}} ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1.84"
+        },
+        {
+          "label": "2",
+          "text": "1.95"
+        },
+        {
+          "label": "3",
+          "text": "2.08"
+        },
+        {
+          "label": "4",
+          "text": "2.12"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\ncot A + cosec A = 2\n\n**Formula used:**\n\ncosec²A − cot²A = 1\n\n**Calculation:**\n\n⇒ cot A + cosec A = 2\n\n⇒ Let cot A = x\n\n⇒ cosec A = 2 − x\n\n⇒ Using identity\n\n⇒ (2 − x)² − x² = 1",
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "694e7ad4ab4124b721d1a1e8",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Calculate the result of the following numerical expression: dfrac{(0.24)³ + (0.12)³}{(0.48)³ + (0.24)³} ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.125"
+        },
+        {
+          "label": "2",
+          "text": "0.5"
+        },
+        {
+          "label": "3",
+          "text": "0.25"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\ndfrac{(0.24)³ + (0.12)³}{(0.48)³ + (0.24)³} = ?\n\n**Formula used:**\n\na³ + b³ = (a + b)(a² − ab + b²)\n\nCal",
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "694e7ad485f77ac9f4791ab1",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify the following complex fraction:dfrac{(1.0³ + 0.1³ + 0.01³)}{(0.2³ + 0.02³ + 0.002³)}?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "125"
+        },
+        {
+          "label": "4",
+          "text": "625"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\ndfrac{(1.0³ + 0.1³ + 0.01³)}{(0.2³ + 0.02³ + 0.002³)} = ?\n\n**Formula used:**\n\na³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca)\n\n**Calculation:**\n\n&rAr",
+      "tags": [
+        "Algebra"
+      ]
+    }
+  ]
+}

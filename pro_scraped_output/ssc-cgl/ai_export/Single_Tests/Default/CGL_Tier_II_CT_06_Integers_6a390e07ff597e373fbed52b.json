@@ -1,0 +1,391 @@
+{
+  "test_id": "6a390e07ff597e373fbed52b",
+  "title": "CGL Tier II CT 06: Integers",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:15:19.811114+00:00",
+  "questions": [
+    {
+      "qid": "6314d26c49ab0db12bd62b74",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Integers",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Which one of the following statements is true about integer?",
+      "options": [
+        {
+          "label": "1",
+          "text": "On multiplying any integer with 0 , we get 1."
+        },
+        {
+          "label": "2",
+          "text": "On multiplying any integer with its multiplicative identity, we get 1."
+        },
+        {
+          "label": "3",
+          "text": "For every integer, 0 is the additive inverse."
+        },
+        {
+          "label": "4",
+          "text": "On dividing any integer except 0 by its additive inverse, we get -1."
+        }
+      ],
+      "correct": "4",
+      "solution": "**calculation:**\n\nOption 1: \n\nOn multiplying any integer with 0 , we get 1.\n\nWhich is not true,\n\nFor ex. a number 1 is multiply by 0 gets 0.\n\nOption 2:\n\nOn multiplying any integer with its multiplicative identity, we get 1. \n\nLet 2 is an integer, its multiplicative identity is 1,\n\n∴ Product of 2 and 1 = 2\n\nWhich is not true.\n\nOption 3:\n\nFor every integer, 0 is the additive inverse.\n\nWhich is not true,\n\nThe additive inverse of number is opposite sign of same number.\n\nFor ex, -2 is additive inverse of 2.\n\nOption 4:\n\nOn dividing any integer except 0 by its additive inverse, we get -1.\n\nThis is true,\n\nFor ex, 2 is an integer, its additive inverse = -2\n\nOn dividing an integer with additive inverse = 2/-2 = -1\n\n**∴ Option 4 is correct.**",
+      "tags": [
+        "Integers"
+      ]
+    },
+    {
+      "qid": "6279f648f8e5cd2e71ba4f87",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Integers",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Determine the integer n such that nover160 is less than 1over16 but more than 1over20.",
+      "options": [
+        {
+          "label": "1",
+          "text": "9"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n(n)/(160) is less than 1over16 but more than 1over20 .\n\n**Formula Used:**\n\n(n)/(160) 1over16\n\n(n)/(160) > 1over20\n\n**Calculation:**\n\n(n)/(160) 1over16\n\n⇒ n 1over16\n\n⇒ n (n)/(160) > 1over20\n\n⇒ n > 160 × 1over20\n\n⇒ n > 8\n\nCombining both conditions:\n\n8 < n < 10\n\nTherefore, the integer n is 9.\n\n**The correct answer is option 1.**",
+      "tags": [
+        "Integers"
+      ]
+    },
+    {
+      "qid": "640edfdf3dd10a73e244c8b4",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Quick Math",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "There are some hens and goats in a field. The sum of all the heads is 77 and the sum of the legs is 248. The number of hens in the farm is?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "40"
+        },
+        {
+          "label": "4",
+          "text": "47"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nThe sum of all the heads of hens and goats = 77\n\nThe sum of the legs of hens and goats = 248\n\n**Calculation:**\n\nLet the number of heads of hens and goats be x and y respectively.\n\nNow, according to the question\n\nThe sum of all the heads of hens and goats = 77\n\n⇒ **x + y = 77 ** -----(1)\n\nAnd, sum of their legs = 248\n\nAs hens have two legs each and goats have four legs each.\n\nSo, 2x + 4y = 248 -----(2)\n\nMultiplying equation (1) with 2, we get\n\n⇒ **2x + 2y = 154** -----(3)\n\nNow, subtracting equation (3) from (2), we get\n\n⇒ 2x + 4y - 2x - 2y = (248 - 154)\n\n⇒ 2y = 94\n\n⇒ **y = 47**\n\nPutting the value of y in equation (1), we get\n\n⇒ x + 47 = 77\n\n⇒ x = (77 - 47) = **30**\n\n**∴ The required number of hens on the farm is 30.**",
+      "tags": [
+        "Quick Math"
+      ]
+    },
+    {
+      "qid": "63bec8401b3a4367fa6e3a65",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Rational or Irrational Numbers",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "0 is a____________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "even natural number"
+        },
+        {
+          "label": "2",
+          "text": "natural number"
+        },
+        {
+          "label": "3",
+          "text": "rational number"
+        },
+        {
+          "label": "4",
+          "text": "prime number"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given: **\n\n0 is a number\n\n**Concept used: **\n\nA rational number is a number that can be expressed as the ratio of two integers.\n\n**Calculation:**\n\nA rational number is a number that can be expressed as the ratio of two integers. 0 satisfies this definition as it can be expressed as the ratio of 0 and any non-zero integer.\n\nAn even number is a number that is divisible by 2. 0 satisfies this definition as it is evenly divisible by 2.\n\nA natural number is a positive integer greater than 0. 0 does not satisfy this definition as it is not a positive integer greater than 0.\n\n⇒ 0 is a rational number, an even number but not a natural number.\n\n**∴ 0 is a Rational number.**",
+      "tags": [
+        "Rational or Irrational Numbers"
+      ]
+    },
+    {
+      "qid": "63ff929388fe7d6f758f94eb",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In writing all the integers from 1 to 300, how many times is the digit 1 used?",
+      "options": [
+        {
+          "label": "1",
+          "text": "160"
+        },
+        {
+          "label": "2",
+          "text": "140"
+        },
+        {
+          "label": "3",
+          "text": "120"
+        },
+        {
+          "label": "4",
+          "text": "110"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nIn writing all the integers from 1 to 300, how many times is the digit 1 used.\n\n**Calculation:**\n\nAccording to the question,\n\nAll the integers from 1 to 300.\n\n1 to 99 = 20 times\n\n100 to 199 = 100 + 20 = 120 times\n\n200 to 299 = 20 times\n\nSo, 1 to 300 = 20 + 120 + 20 = 160 times\n\n**∴ In writing all the integers from 1 to 300, the digit 1 is used 160 times.**"
+    },
+    {
+      "qid": "6394fe71b871779d3683fd10",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Integers",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The sum of digits of a two digit number is 8 and the difference between the number and that formed by reversing the digits is 18. What is the difference between the digits of the number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe difference between a two-digit number and its reverse is always 9 × (Difference between the digits).\n\nGiven that the difference between the numbers is 18.\n\n9 × (Difference between digits) = 18\n\nDifference between digits = 18 ÷ 9 = 2\n\n**∴ The correct answer is 2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSum of digits (x + y) = 8\n\nDifference between number and its reverse = 18\n\n [IMAGE: https://cdn.repeatermock.com/tb/e66b8a142cf2f8632ea37a1fd0f0ae743012e24b1236995fba8753b269d4887d.png] \n\n⇒ Let the tens digit be x and units digit be y.\n\n⇒ The two-digit number = 10x + y\n\n⇒ Number formed by reversing digits = 10y + x\n\n⇒ According to the problem: (10x + y) − (10y + x) = 18\n\n⇒ 10x − x + y − 10y = 18\n\n⇒ 9x − 9y = 18\n\n⇒ 9(x − y) = 18\n\n⇒ x − y = 18 ÷ 9\n\n⇒ x − y = 2\n\n**∴ The correct answer is 2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSum of Number and its Reverse\n\nThe sum of a two-digit number and its reverse is always a multiple of 11. Formula: (10x + y) + (10y + x) = 11(x + y).\n\nThree Digit Number Reverse\n\nThe difference between a three-digit number (abc) and its reverse (cba) is always 99 × (a − c). Formula: (100a + 10b + c) − (100c + 10b + a) = 99(a − c).\n\nDigit Sum Logic\n\nTo find individual digits, use the system: x + y = Sum, x − y = Difference. Then x = (Sum + Diff) ÷ 2 and y = (Sum − Diff) ÷ 2.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e66b8a142cf2f8632ea37a1fd0f0ae743012e24b1236995fba8753b269d4887d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Integers"
+      ]
+    },
+    {
+      "qid": "630bd63026cb9324c7de4476",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "How many composite numbers are there from 53 to 97 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "36"
+        },
+        {
+          "label": "2",
+          "text": "38"
+        },
+        {
+          "label": "3",
+          "text": "37"
+        },
+        {
+          "label": "4",
+          "text": "35"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nTotal integers from 53 to 97 = 97 − 53 + 1 = 45.\n\nList primes in the range: 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 (Total 10 primes).\n\nComposite numbers = Total numbers − Prime numbers.\n\nComposite numbers = 45 − 10 = 35.\n\n**∴ The correct answer is 35.**\n\n**__Alternate Method__**\n\n**Given:**\n\nRange of numbers: 53 to 97 (inclusive).\n\n**Formula Used:**\n\nTotal numbers in range [a, b] = (b − a) + 1\n\nComposite numbers = Total numbers − Prime numbers (for n > 1)\n\n [IMAGE: https://cdn.repeatermock.com/tb/4528d8d78df34309ff9db556970d605872a76265bc27d950a66583533a7fe19a.png] \n\n**Calculations:**\n\n⇒ Total integers between 53 and 97 = 97 − 53 + 1 = 45.\n\n⇒ Prime numbers between 53 and 97 are: 53, 59, 61, 67, 71, 73, 79, 83, 89, 97.\n\n⇒ Count of prime numbers = 10.\n\n⇒ Count of composite numbers = 45 − 10 = 35.\n\n**∴ The correct answer is 35.**\n\n**__Additional Information__**\n\nComposite Numbers\n\nA composite number is a positive integer greater than 1 that has at least one divisor other than 1 and itself.\n\nPrime Numbers\n\nA prime number is a natural number greater than 1 that has exactly two factors: 1 and itself. There are 25 prime numbers between 1 and 100.\n\nSpecial Cases\n\nThe number 1 is neither prime nor composite. The number 2 is the smallest prime number and the only even prime number.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4528d8d78df34309ff9db556970d605872a76265bc27d950a66583533a7fe19a.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "605c1da29806514c94fe2b6c",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Integers",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If the ratio of the first and 14th consecutive even integers is 4 ∶ 5, find the sum of the first and 14th consecutive even integers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "230"
+        },
+        {
+          "label": "2",
+          "text": "300"
+        },
+        {
+          "label": "3",
+          "text": "144"
+        },
+        {
+          "label": "4",
+          "text": "234"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nFirst even integer ∶ 14th consecutive even integer = 4 ∶ 5\n\n**Concepts used:**\n\nFirst even consecutive integer = x\n\n14th consecutive even integer = x + 26\n\n**Calculation:**\n\nLet the first consecutive even integr be x.\n\nAs consecutive even integers have a common difference of 2, 14th consecutive even integer is the 14 th term of an A.P. with the first term equal to x and common difference equal to 2.\n\n⇒ 14th consecutive even integer = x + (14 - 1) × 2\n\n⇒ 14th consecutive even integer = x + 26\n\nFirst even integer ∶ 14th consecutive even integer = 4 ∶ 5\n\n⇒ x/(x + 26) = 4/5\n\n⇒ 5x = 4 × (x + 26)\n\n⇒ 5x - 4x = 104\n\n⇒ x = 104\n\n⇒ 14th consecutive even integer = x + 26 = 104 + 26 = 130\n\n⇒ Sum of first and 14 th consecutive even integers = 104 + 130 = 234\n\n**∴ Sum of first and 14 th consecutive even integers is 234.**\n\n2f:T9a",
+      "tags": [
+        "Integers"
+      ]
+    },
+    {
+      "qid": "630b9f99725760f2e8cb5414",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Integers",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If sqrt[3]{{N}} lies between 6 and 7, where N is an integer then how many values N can take ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "126"
+        },
+        {
+          "label": "2",
+          "text": "127"
+        },
+        {
+          "label": "3",
+          "text": "128"
+        },
+        {
+          "label": "4",
+          "text": "125"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nConvert the range of cube roots to the range of the integer N by cubing the limits.\n\nLower limit for N = 6³ = 216\n\nUpper limit for N = 7³ = 343\n\nNumber of integer values between 216 and 343 = (343 − 216 − 1) = 126\n\n**∴ The correct answer is 126 values.**\n\n**__Alternate Method__**\n\n**Given:** ³√N lies between 6 and 7, where N is an integer.\n\n**Formula Used:** Count of integers strictly between two numbers x and y = (y − x − 1).\n\n [IMAGE: https://cdn.repeatermock.com/tb/579b45f8996916e54a60d5cd7d4c2bf76ef79bafed5d5323d34a13f2efdcde10.png] \n\n⇒ 6 **__Additional Information__**\n\nNumber of Integers in a Range\n\nFor any two integers a and b (where a 0 and y > 0, then x < y ⇒ xⁿ < yⁿ for any positive power n. This allows us to cube inequalities to find the range of N.\n\nPerfect Cubes Table\n\nCommon cubes for exams: 5³=125, 6³=216, 7³=343, 8³=512, 9³=729, 10³=1000.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/579b45f8996916e54a60d5cd7d4c2bf76ef79bafed5d5323d34a13f2efdcde10.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Integers"
+      ]
+    },
+    {
+      "qid": "62aa7cdc979436665012686c",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Integers",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "An integer is 96 more than its one-fifth part. The integer is -",
+      "options": [
+        {
+          "label": "1",
+          "text": "125"
+        },
+        {
+          "label": "2",
+          "text": "120"
+        },
+        {
+          "label": "3",
+          "text": "124"
+        },
+        {
+          "label": "4",
+          "text": "128"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAssume the **integer** is 5 units (to make the one-fifth part a whole number).\n\n**One-fifth part** of the integer = 1 unit.\n\nDifference between the **integer** and its **one-fifth part** = 5 − 1 = 4 units.\n\nAccording to the question, 4 units = 96.\n\n⇒ 1 unit = 96 ÷ 4 = 24.\n\n⇒ **Total Integer** (5 units) = 5 × 24 = 120.\n\n**∴ The correct answer is 120.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nAn **integer** is 96 more than its **one-fifth part**.\n\n**Formula Used:**\n\nLinear Equation: x = (1/n)x + Difference\n\n [IMAGE: https://cdn.repeatermock.com/tb/278ce349ed849b41fb427b92b90dc847c41cadf3a2f25edd8866bb9eed680958.png] \n\n**Calculations:**\n\nLet the required **integer** be x.\n\n⇒ x = (x/5) + 96\n\n⇒ x − (x/5) = 96\n\n⇒ (5x − x) / 5 = 96\n\n⇒ 4x / 5 = 96\n\n⇒ 4x = 96 × 5\n\n⇒ 4x = 480\n\n⇒ x = 480 ÷ 4\n\n⇒ x = 120\n\n**∴ The correct answer is 120.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nUnitary Method in Fractions\n\nWhen a value is given as a fraction, consider the **denominator** as the total parts to avoid decimal calculations.\n\nLinear Equation Solving\n\nAlways group **variables** on one side and **constants** on the other side to simplify the equation.\n\nPercentage Representation\n\nOne-fifth part can also be written as **20%**. The question then becomes: An integer is 96 more than 20% of itself, meaning 80% = 96.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/278ce349ed849b41fb427b92b90dc847c41cadf3a2f25edd8866bb9eed680958.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Integers"
+      ]
+    }
+  ]
+}

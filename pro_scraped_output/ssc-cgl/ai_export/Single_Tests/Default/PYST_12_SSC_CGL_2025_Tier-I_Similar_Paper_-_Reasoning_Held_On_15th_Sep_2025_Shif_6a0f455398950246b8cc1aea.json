@@ -1,0 +1,947 @@
+{
+  "test_id": "6a0f455398950246b8cc1aea",
+  "title": "PYST 12: SSC CGL 2025 Tier-I Similar Paper - Reasoning (Held On: 15th Sep 2025 Shift 3)",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:59:57.090238+00:00",
+  "questions": [
+    {
+      "qid": "694412c5272f22a51d6a9698",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the related word from the given alternatives.\n\nPen : Writing :: Camera : ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "Picture"
+        },
+        {
+          "label": "2",
+          "text": "Video"
+        },
+        {
+          "label": "3",
+          "text": "Lens"
+        },
+        {
+          "label": "4",
+          "text": "Photography"
+        }
+      ],
+      "correct": "4",
+      "solution": "The relationship is Pen is used for Writing.\n\n \n\nSimilarly, Camera is used for Photography.\n\n**Pen : Writing :: Camera : Photography.**\n\nHence, the correct answer is **\"Option 4\"**",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694412c79dc8218e6c98a8c3",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the related word from the given alternatives.\n\nLaw : Justice :: Medicine : ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "Health"
+        },
+        {
+          "label": "2",
+          "text": "Hospital"
+        },
+        {
+          "label": "3",
+          "text": "Treatment"
+        },
+        {
+          "label": "4",
+          "text": "Doctor"
+        }
+      ],
+      "correct": "1",
+      "solution": "• The relationship is Law is concerned with Justice.\n \n• Similarly, Medicine is concerned with Health.\n \n• **Law : Justice :: Medicine : Health**\n \n• Hence, the correct answer is **\"Option 1\"**"
+    },
+    {
+      "qid": "694412c838e69a0032479d52",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster that replaces the question mark.\n\nBDG, EHJ, ?, KPP, NTS",
+      "options": [
+        {
+          "label": "1",
+          "text": "HKN"
+        },
+        {
+          "label": "2",
+          "text": "GJM"
+        },
+        {
+          "label": "3",
+          "text": "HLM"
+        },
+        {
+          "label": "4",
+          "text": "ILM"
+        }
+      ],
+      "correct": "3",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/2cc32b8aa401765f47d499d782856d1bd35e423e4c7a0505791723fb1165bb06.png] \n\nHence, the correct answer is **\"Option 3\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2cc32b8aa401765f47d499d782856d1bd35e423e4c7a0505791723fb1165bb06.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694412c9272f22a51d6a96b4",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster that replaces the question mark.\n\nLMN, OPQ, RST, ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "UVW"
+        },
+        {
+          "label": "2",
+          "text": "UTX"
+        },
+        {
+          "label": "3",
+          "text": "VWX"
+        },
+        {
+          "label": "4",
+          "text": "TUV"
+        }
+      ],
+      "correct": "1",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/e930d3735b36ed057b49242530deaf055729149483784671c0adb12983a07bd0.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e930d3735b36ed057b49242530deaf055729149483784671c0adb12983a07bd0.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694412ca7a6f43b5644812fc",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster that replaces the question mark.\n\nDEF, GHI, JKL, ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "MNO"
+        },
+        {
+          "label": "2",
+          "text": "LMN"
+        },
+        {
+          "label": "3",
+          "text": "NOP"
+        },
+        {
+          "label": "4",
+          "text": "KLM"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/39dc48573fdfc3c0d39f7acef0d1b71730dd761320c7ea9fddf37cbfa7c976ee.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/39dc48573fdfc3c0d39f7acef0d1b71730dd761320c7ea9fddf37cbfa7c976ee.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694412cbcc871c43bc180391",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster that replaces the question mark.\n\nQAZS, QEHE, QIPQ, QMXC, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "QRGV"
+        },
+        {
+          "label": "2",
+          "text": "QYHN"
+        },
+        {
+          "label": "3",
+          "text": "QQFO"
+        },
+        {
+          "label": "4",
+          "text": "QAFG"
+        }
+      ],
+      "correct": "3",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/3abd92e5ce9eb63f15a8c4e078efd4ff9fc266eccb0c17a0c78209eed6001b27.png] \n\nHence, the correct answer is **\"Option 3\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3abd92e5ce9eb63f15a8c4e078efd4ff9fc266eccb0c17a0c78209eed6001b27.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694412cd5b8e92154c4fb78a",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the letter-cluster that replaces the question mark.\n\nACEG, BDFH, CEGI, DFHJ, ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "EGIK"
+        },
+        {
+          "label": "2",
+          "text": "EFHI"
+        },
+        {
+          "label": "3",
+          "text": "EGHJ"
+        },
+        {
+          "label": "4",
+          "text": "EFGI"
+        }
+      ],
+      "correct": "1",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/d7ebc07818859de83d9cb9fecc4ebd6276b280b01dd160fec8520b109d7a6d8b.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d7ebc07818859de83d9cb9fecc4ebd6276b280b01dd160fec8520b109d7a6d8b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694412ced87e76be8f3aff08",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Complete the series.\n\n21, 34, 50, 69, 91, ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "116"
+        },
+        {
+          "label": "2",
+          "text": "114"
+        },
+        {
+          "label": "3",
+          "text": "112"
+        },
+        {
+          "label": "4",
+          "text": "118"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic follows here, \n\n [IMAGE: https://cdn.repeatermock.com/tb/c2c6b47da33b35481e6b0bf4d1e1b3150a111b199da06f9f521adf714a01ab4f.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c2c6b47da33b35481e6b0bf4d1e1b3150a111b199da06f9f521adf714a01ab4f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694412ce9dc8218e6c98a8f5",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The letters of the word PLANET are arranged in alphabetical order.\n\nHow many letters lie between the letter second from the left and the letter third from the right in the English alphabet series??",
+      "options": [
+        {
+          "label": "1",
+          "text": "Two"
+        },
+        {
+          "label": "2",
+          "text": "Eight"
+        },
+        {
+          "label": "3",
+          "text": "Four"
+        },
+        {
+          "label": "4",
+          "text": "Five"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given Word: PLANET\n\nAlphabetical order of letters: A, E, L, N, P, T\n\n**Left A, E, L, N, P, T Right**\n\nSecond from the left - E\n\nLetter third from the right - N\n\nLetters between E and N: F, G, H, I, J, K, L, M → total 8\n\nHence, the correct answer is **\"Option 2\"**",
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "694412cffd049337025d7b2e",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following is/are identical to the address given below:Rohit Kumar, Flat 12A, Maple Heights, Sector 45, Gurgaon, 122001?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rohit Kumar, Flat 12A, Maple Heights, Sector 45, Gurgaon, 122001"
+        },
+        {
+          "label": "2",
+          "text": "Rohit Kumar, Flat 12A, Maple Heights, Sector 45, Gurugram, 122001"
+        },
+        {
+          "label": "3",
+          "text": "Rohit Kumar, Flat 12A, Maple Heights, Sector 45, Gurgaon, 122002"
+        },
+        {
+          "label": "4",
+          "text": "Rohit Kumar, Flat 12-A, Maple Heights, Sector 45, Gurgaon, 122001"
+        }
+      ],
+      "correct": "1",
+      "solution": "Address given:Rohit Kumar, Flat 12A, Maple Heights, Sector 45, Gurgaon, 122001\n\nIdentical to the address given,\n\n**Rohit Kumar, Flat 12A, Maple Heights, Sector 45, Gurgaon, 122001 - Match.**\n\nRohit Kumar, Flat 12A, Maple Heights, Sector 45, __Gurugram,__ 122001 - Not match\n\nRohit Kumar, Flat 12A, Maple Heights, Sector 45, Gurgaon, __122002 __- Not Match\n\nRohit Kumar, __Flat 12-A__, Maple Heights, Sector 45, Gurgaon, 122001 - Not Match\n\nHence, the correct answer is **\"Option 1\"**",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "694412d0a0c580ffdc44cd74",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following is/are identical to the address given below:Anita Verma, 10/3, Crystal Park, Faridabad, 121001?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Anita Verma, 10/3, Crystal Park, Faridabad, 121001"
+        },
+        {
+          "label": "2",
+          "text": "Anita Verma, 10-3, Crystal Park, Faridabad, 121001"
+        },
+        {
+          "label": "3",
+          "text": "Anita Verma, 10/3, Crystal Park, Faridabad, 121002"
+        },
+        {
+          "label": "4",
+          "text": "Anita Verma, 10/3, Crystal Park, Gurugram, 121001"
+        }
+      ],
+      "correct": "1",
+      "solution": "Address given below:Anita Verma, 10/3, Crystal Park, Faridabad, 121001\n\nIdentical to the address\n\n \n• **Anita Verma, 10/3, Crystal Park, Faridabad, 121001 - Match**\n \n• Anita Verma, __10-3, __Crystal Park, Faridabad, 121001 - Not Match\n <l"
+    },
+    {
+      "qid": "694412d1f7122b1baf84683b",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the group of letters that completes the analogy.\n\nCHAIR : DJBJS :: TABLE : ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "UBCMF"
+        },
+        {
+          "label": "2",
+          "text": "UCCMF"
+        },
+        {
+          "label": "3",
+          "text": "UBDMF"
+        },
+        {
+          "label": "4",
+          "text": "VBCMF"
+        }
+      ],
+      "correct": "2",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/eb38a93d2992878615318f0e29a127ce34d4a0248492153a42b1a63db26d41bd.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/eb38a93d2992878615318f0e29a127ce34d4a0248492153a42b1a63db26d41bd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694412d30eb8201dd8f4a3b3",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A pair of letters is followed by the product of their alphabetical positions.\n\nG x M : 7 x 13 :: J x Q : ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 x 17"
+        },
+        {
+          "label": "2",
+          "text": "11 x 16"
+        },
+        {
+          "label": "3",
+          "text": "10 x 16"
+        },
+        {
+          "label": "4",
+          "text": "11 x 17"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic follows here \n\nLogic: Position of Alphabatical Value\n\n [IMAGE: https://cdn.repeatermock.com/tb/c175802d2bdd2fb141691d5e4b575db7d8faa77659f7ba9b8dc34ef5ea03bd36.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c175802d2bdd2fb141691d5e4b575db7d8faa77659f7ba9b8dc34ef5ea03bd36.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694412d4ea8987ad09acd506",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Ordering and Ranking",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a row of 72 students, Aman is 28th from the left and Neha is 30th from the right.\n\nHow many students are there between them??",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "13"
+        },
+        {
+          "label": "3",
+          "text": "14"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "correct": "3",
+      "solution": "Total students = 72\n\n• Aman is 28th from the left.\n\n• Neha is 30th from the right → from the left her position is:\n\n72 – 30 + 1 = 43</div&",
+      "tags": [
+        "Ordering and Ranking"
+      ]
+    },
+    {
+      "qid": "694412d569c1113c9156f453",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The second word is formed by rearranging the letters of the first word using a fixed rule.\n\nFRIEND : RFIEND :: MARKET : ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "AMRKET"
+        },
+        {
+          "label": "2",
+          "text": "MRKETA"
+        },
+        {
+          "label": "3",
+          "text": "RMKETA"
+        },
+        {
+          "label": "4",
+          "text": "MRKATE"
+        }
+      ],
+      "correct": "1",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/92d76c1f879aaa034d04437fadd96e077d0b979f0363ba8185cc7d6410c929d3.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/92d76c1f879aaa034d04437fadd96e077d0b979f0363ba8185cc7d6410c929d3.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "694412d6d87e76be8f3aff6a",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The second word is formed by rearranging the letters of the first word using a fixed rule.\n\nGLOBAL : OGBALL :: SYSTEM : ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "YSSTEM"
+        },
+        {
+          "label": "2",
+          "text": "SSTEYM"
+        },
+        {
+          "label": "3",
+          "text": "TSYEMS"
+        },
+        {
+          "label": "4",
+          "text": "ETSYSM"
+        }
+      ],
+      "correct": "2",
+      "solution": "Alphabet\n\n [IMAGE: https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png] \n\nThe pattern followed here is\n\n [IMAGE: https://cdn.repeatermock.com/tb/2dbc2a526a8af9ccb45daf1c7a6fd7960af72117012718940c105b0ec8569d46.png] \n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/616212e0308a593f26d475848e5e0800eb77e3b6b62a8883f182b3a746bb4159.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2dbc2a526a8af9ccb45daf1c7a6fd7960af72117012718940c105b0ec8569d46.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694412d886b33cfef062ae10",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A woman introduces Raj as the son of the only brother of her father.\n\nHow is Raj related to the woman??",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cousin"
+        },
+        {
+          "label": "2",
+          "text": "Brother"
+        },
+        {
+          "label": "3",
+          "text": "Uncle"
+        },
+        {
+          "label": "4",
+          "text": "Nephew"
+        }
+      ],
+      "correct": "1",
+      "solution": "Family Chart:\n\n<img alt=\"Common Diagram 28.01.2020 D3\" src=\"https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png\" style=\"border-style: none; max-width: 100%; height: 280px; user-select: text !important; width: 208px;",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694412d9500e6426a05ba73d",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next in the series?3, 10, 21, 36, 55, ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "78"
+        },
+        {
+          "label": "2",
+          "text": "76"
+        },
+        {
+          "label": "3",
+          "text": "72"
+        },
+        {
+          "label": "4",
+          "text": "66"
+        }
+      ],
+      "correct": "1",
+      "solution": "3, 10, 21, 36, 55, ?\n\nFind the differences:\n\n \n• \n \n10 − 3 = **7**\n\n \n \n• \n \n21 − 10 = **11**\n\n \n \n• \n \n36 − 21 = **15**\n\n \n \n• \n \n55 − 36 = **19**\n\n \n \n• \n \n19 + 4 = **23**\n\n \n \n• \n \nNext term:\n\n \n\n \n\n \n\n55 + 23 = **78**\n\n \n\nHence, the correct answer is **\"Option 1\"**",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "694412daa6c6790713c96f0b",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the group that does NOT follow the same pattern.",
+      "options": [
+        {
+          "label": "1",
+          "text": "K11 : M13 : O15"
+        },
+        {
+          "label": "2",
+          "text": "J10 : L12 : N14"
+        },
+        {
+          "label": "3",
+          "text": "H8 : J10 : L12"
+        },
+        {
+          "label": "4",
+          "text": "I9 : K11 : M12"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic follows here,\n\nLogic : Alphabet position value \n\nAll letters have thier Alphabet position value except option 4 \n\n__\n \n• I9 : K11 : M12 - Wrong\n \n• **I9 : K11 : M13__ - Correct**\n\nHence, the correct answer is **\"Option 4\"**"
+    },
+    {
+      "qid": "694412db164d966ccf2b5469",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Identify the group that does NOT follow the same pattern.",
+      "options": [
+        {
+          "label": "1",
+          "text": "B2, D4, F6"
+        },
+        {
+          "label": "2",
+          "text": "C3, E5, G7"
+        },
+        {
+          "label": "3",
+          "text": "B1, C3, E5"
+        },
+        {
+          "label": "4",
+          "text": "D4, F6, H8"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png] \n\nThe logic followed by three of the options (1, 2, and 4) is a consistent increment of +2 for both the letters and their corresponding numerical positions in the alphabet. \n\n1) B2, D4, F6 (Group Member)\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/636e0c7f82b0a89b93181ad8c4828bcb813096f95a7604af35ad88540e0f0ed2.png&",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd3c600bf09d7de25d7d22479d848ddead62c9f7437c41312681e3719e85d12d.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694412dccc871c43bc180501",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which group does not match the pattern??",
+      "options": [
+        {
+          "label": "1",
+          "text": "12, 19, 31"
+        },
+        {
+          "label": "2",
+          "text": "16, 24, 40"
+        },
+        {
+          "label": "3",
+          "text": "21, 35, 56"
+        },
+        {
+          "label": "4",
+          "text": "10, 20, 40"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\nFor each group, we check if the **sum of the first number and the second number equals the third number**.\n\nOption 1) 12, 19, 31 → 12 + 19 = 31 (Matches the pattern)\n\nOption 1) 16, 24, 40 → 16 + 24 = 40 (Matches the pattern)\n\nOption 1) 21, 35, 56 → 21 + 35 = 56 (Matches the pattern)\n\nOption 1) 10, 20, 40 → 10 + 20 = 30 (**Does not match**, as the third number is 40)\n\nWhereas,\n\nIn Option 4, the sum of 10 and 20 is 30, but the given third number is 40.\n\nSo, 10, 20, 40 is odd from the given options.\n\nHence, the correct answer is \"Option 4\"."
+    },
+    {
+      "qid": "694412dda6c6790713c96f1c",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Introducing a girl, a man says, “She is the daughter of my wife’s brother.\n\n”How is the girl related to the man??",
+      "options": [
+        {
+          "label": "1",
+          "text": "Niece"
+        },
+        {
+          "label": "2",
+          "text": "Daughter"
+        },
+        {
+          "label": "3",
+          "text": "Cousin"
+        },
+        {
+          "label": "4",
+          "text": "Sister"
+        }
+      ],
+      "correct": "1",
+      "solution": "Preparing the family tree using the following symbols:\n\n [IMAGE: https://cdn.repeatermock.com/tb/94f0af2bd93b93688d2c6092e652fb2d84f74342de195154154b4e73abc5a0da.png] \n\n&l",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/94f0af2bd93b93688d2c6092e652fb2d84f74342de195154154b4e73abc5a0da.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694412de5ce8352bdf78a865",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given: A + B means A is the mother of B, A − B means A is the brother of B, A × B means A is the father of B. What does P × Q − R mean?",
+      "options": [
+        {
+          "label": "1",
+          "text": "P is uncle of R"
+        },
+        {
+          "label": "2",
+          "text": "P is father of R"
+        },
+        {
+          "label": "3",
+          "text": "P is brother of R"
+        },
+        {
+          "label": "4",
+          "text": "P is grandfather of R"
+        }
+      ],
+      "correct": "2",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png] \n\nAs per the given information\n\nA + B means A is the mother of B,\n\nA − B means A is the brother of B,\n\nA × B means A is the father of B\n\nGiven:\n\nP × Q − R\n\n [IMAGE: https://cdn.repeatermock.com/tb/0027c50aae631dbdc0b771a2561f6edea43feca515b7f76121eb9623272f4ca2.png] \n\nThus, P is father of R.\n\nHence, the correct answer is **\"Option 2\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0027c50aae631dbdc0b771a2561f6edea43feca515b7f76121eb9623272f4ca2.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "694412e08644d375ad1a666b",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Looking at a boy, a woman says, “His father is the only son of my mother.\n\n”How is the boy related to the woman??",
+      "options": [
+        {
+          "label": "1",
+          "text": "Nephew"
+        },
+        {
+          "label": "2",
+          "text": "Son"
+        },
+        {
+          "label": "3",
+          "text": "Cousin"
+        },
+        {
+          "label": "4",
+          "text": "Brother"
+        }
+      ],
+      "correct": "1",
+      "solution": "Preparing the family tree using the following symbols:\n\n [IMAGE: https://cdn.repeatermock.com/tb/94f0af2bd93b93688d2c6092e652fb2d84f74342de195154154b4e73abc5a0da.png] \n\nAs per the given information,\n\n [IMAGE: https://cdn.repeatermock.com/tb/5267f7ac3ce975a50d022096654628d5487809c37d6d474166c8adbf036fd904.png] \n\nHence, the correct answer is **\"Option 1\"**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/94f0af2bd93b93688d2c6092e652fb2d84f74342de195154154b4e73abc5a0da.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5267f7ac3ce975a50d022096654628d5487809c37d6d474166c8adbf036fd904.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "694412e1fd049337025d7c77",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If + means −, − means ÷, × means +, and ÷ means ×, then evaluate:8 + 6 − 2 × 3 ÷ 2 ??",
+      "options": [
+        {
+          "label": "1",
+          "text": "11"
+        },
+        {
+          "label": "2",
+          "text": "14"
+        },
+        {
+          "label": "3",
+          "text": "16"
+        },
+        {
+          "label": "4",
+          "text": "18"
+        }
+      ],
+      "correct": "1",
+      "solution": "Givwn Equation: 8 + 6 − 2 × 3 ÷ 2 \n\n+ means −, − means ÷, × means +, and ÷ means ×\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\n⇒ 8 - __**6 ÷ 2** __+ 3 × 2\n\n<span style=\"co",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}
