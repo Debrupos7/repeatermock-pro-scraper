@@ -95,10 +95,8 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
           PYTHONIOENCODING: "utf-8"
-          RM_EMAIL: ${{ secrets.RM_EMAIL }}
-          RM_PASSWORD: ${{ secrets.RM_PASSWORD }}
-          SCRAPFLY_API_KEY: ${{ secrets.SCRAPFLY_API_KEY }}
-          SCRAPINGBEE_API_KEY: ${{ secrets.SCRAPINGBEE_API_KEY }}
+          PRO_COOKIES: ${{ secrets.PRO_COOKIES }}
+          PRO_REFRESH_TOKEN: ${{ secrets.PRO_REFRESH_TOKEN }}
         run: |
           CHUNK_FILE="pro_chunks/chunk_$(printf '%02d' ${{ matrix.chunk_number }}).json"
           JOB_DIR="pro_scraped_output/PRO-Job-$(printf '%02d' ${{ matrix.chunk_number }})"
