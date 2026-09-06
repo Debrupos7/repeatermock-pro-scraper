@@ -1,0 +1,14 @@
+{
+  "worker_id": 1,
+  "account_email": "akarakesh7@gmail.com",
+  "total_tests": 3311,
+  "scraped": 0,
+  "failed": 4,
+  "skipped": 0,
+  "pro": 0,
+  "progress_scraped": 0,
+  "progress_failed": 0,
+  "completed_at": "2026-09-06T09:28:23.792432+00:00",
+  "runtime_min": 19.03205334742864,
+  "stop_reason": "stop condition met (auth_failures=3, scrape_errors=4)"
+}
