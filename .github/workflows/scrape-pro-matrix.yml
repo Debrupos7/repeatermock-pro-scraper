@@ -181,3 +181,10 @@ jobs:
             git pull --rebase origin main && git push origin HEAD && break
             sleep 10
           done
+      - name: Trigger next PRO run
+        if: success()
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          echo "Triggering next PRO run..."
+          curl -s -X POST -H "Authorization: token $GH_PAT" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" "https://api.github.com/repos/Debrupos7/repeatermock-pro-scraper/actions/workflows/scrape-pro-matrix.yml/dispatches" -d '{"ref":"main","inputs":{"max_tests":""}}' -w "\nHTTP: %{http_code}\n" || echo "Trigger failed (non-fatal)"
