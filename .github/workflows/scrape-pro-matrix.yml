@@ -123,18 +123,55 @@ jobs:
           set +e  # don't fail the step on git errors
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Pull any concurrent commits from other workers first
+          
+          # Stage all scraped output FIRST (before any pull/rebase)
+          git add pro_scraped_output/ -f 2>/dev/null
+          
+          # If nothing to commit, exit
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          
+          # Commit BEFORE pulling (so uncommitted changes become a commit)
+          git commit -m "pro-scrape v3 w${{ matrix.worker_id }}: $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null
+          
+          # Pull with rebase, stashing if needed
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main 2>&1 | tail -3
-            git add pro_scraped_output/ -f 2>/dev/null
-            git commit -m "pro-scrape v3 w${{ matrix.worker_id }}: $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null
-            if git push origin HEAD 2>&1; then
-              echo "Push succeeded attempt $i"
-              break
+            # Try to pull with rebase
+            PULL_OUT=$(git pull --rebase origin main 2>&1)
+            PULL_EXIT=$?
+            
+            if [ $PULL_EXIT -eq 0 ]; then
+              # Pull succeeded, try to push
+              if git push origin HEAD 2>&1; then
+                echo "Push succeeded attempt $i"
+                exit 0
+              fi
+            else
+              echo "Pull attempt $i failed: $PULL_OUT"
+              # If pull failed due to conflicts, abort rebase and try merge instead
+              if echo "$PULL_OUT" | grep -qi "uncommitted\|conflict\|overwritten"; then
+                git rebase --abort 2>/dev/null
+                # Reset to remote and re-apply our changes
+                git stash 2>/dev/null
+                git fetch origin main 2>/dev/null
+                git reset --hard origin/main 2>/dev/null
+                git stash pop 2>/dev/null
+                git add pro_scraped_output/ -f 2>/dev/null
+                git commit -m "pro-scrape v3 w${{ matrix.worker_id }}: $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null
+                if git push origin HEAD 2>&1; then
+                  echo "Push succeeded after stash (attempt $i)"
+                  exit 0
+                fi
+              fi
             fi
             sleep $((i * 5))
           done
-          echo "Commit step completed"
+          
+          # Last resort: force push our changes (better than losing data)
+          echo "All push attempts failed, trying force-push as last resort"
+          git push --force-with-lease origin HEAD 2>&1 || echo "Force push also failed"
           exit 0
 
   trigger_next_round:

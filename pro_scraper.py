@@ -55,8 +55,16 @@ RATE_LIMIT_WINDOW = 75             # 75-second window (60s + safety buffer)
 RATE_LIMIT_MAX_STARTS = 4          # 4 starts per 75s = ~3.2/min = 192/hour per worker
 RATE_LIMIT_BACKOFF_AFTER_429 = 90  # after a 429 storm, slow to 90s/test for a while
 
-# retryAfter handling — NO 300s cap anymore, wait full duration
-RETRY_AFTER_MAX_CAP = 3600         # only cap at 1 hour (server may say 2471s = 41min, that's fine)
+# retryAfter handling — CRITICAL FIX:
+# - If retryAfter is short (< 600s = 10 min), wait FULL duration (normal rate limit)
+# - If retryAfter is medium (600s-3600s = 10min-1h), wait 300s and retry (might be temporary)
+# - If retryAfter is long (> 3600s = 1h), account is LOCKED → STOP WORKER IMMEDIATELY
+#   (do NOT waste 4+ hours of CI time waiting on a 15+ hour lock!)
+# - If we get 2+ long locks in a row, also STOP (account is being rate-limited too aggressively)
+RETRY_AFTER_SHORT_THRESHOLD = 600    # under 10 min = OK to wait full
+RETRY_AFTER_LONG_THRESHOLD = 3600   # over 1 hour = account locked, STOP
+RETRY_AFTER_CAP_FOR_RETRY = 300     # for medium (10min-1h), wait at most 5 min then retry
+MAX_LONG_LOCKS = 1                  # stop after this many long locks (was effectively unlimited)
 
 # Anti-self-destruct INIT_SCRIPT (neutralizes repeatermock's anti-devtools trap)
 INIT_SCRIPT = r"""(function(){window.close=function(){};console.clear=function(){};window.stop=function(){};try{const o=window.location.replace.bind(window.location);window.location.replace=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return o(u)};const a=window.location.assign.bind(window.location);window.location.assign=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return a(u)}}catch(e){}try{const d=Object.getOwnPropertyDescriptor(window.Location.prototype,'href');if(d&&d.set){const s=d.set;Object.defineProperty(window.Location.prototype,'href',{get:d.get,set:function(v){if(typeof v==='string'&&v.indexOf('about:blank')===0)return;return s.call(this,v)},configurable:true})}}catch(e){}const o=window.open;window.open=function(u,...r){if(typeof u==='string'&&(u.indexOf('about:blank')===0||u===''))return null;return o.call(this,u,...r)};window.addEventListener('beforeunload',function(e){e.stopImmediatePropagation();e.preventDefault();e.returnValue='';return ''},true);console.log=function(){};console.table=function(){};console.dir=function(){};})();"""
@@ -75,11 +83,15 @@ class RateLimiter:
         self.starts = deque()  # timestamps of recent starts
         self.backoff_until = 0  # if > now, all starts blocked until this time
         self.consecutive_429s = 0
+        self.long_locks = 0  # count of long locks (>1 hour) - if >MAX_LONG_LOCKS, stop
+        self.account_locked = False  # set True if long lock detected
+        self.account_locked_until = 0  # timestamp when lock expires
+        self.last_429_retry_after = 0  # last retryAfter value seen
 
     def time_until_next_allowed(self) -> float:
         """Returns seconds we must wait before next start is allowed (0 if OK now)."""
         now = time.time()
-        # If we're in an explicit backoff (from 429), wait until that expires
+        # If account is in cooldown (429 backoff), wait until that expires
         if self.backoff_until > now:
             return self.backoff_until - now
         # Drop starts older than the window
@@ -95,17 +107,56 @@ class RateLimiter:
         self.starts.append(time.time())
 
     def note_429(self, retry_after_seconds: int):
-        """Record a 429 hit. Block all starts for the full retryAfter duration."""
-        wait = min(max(retry_after_seconds, 60), RETRY_AFTER_MAX_CAP)
-        self.backoff_until = time.time() + wait
+        """Record a 429 hit. Decide how to handle based on retryAfter duration.
+
+        CRITICAL FIX (v3.2): Long locks (>1 hour) mean the account is PERMANENTLY
+        locked for ~15-19 hours. We should NOT cap and retry every hour — that wastes
+        4+ hours of CI time. Instead, mark the account as locked and let the worker
+        stop cleanly so progress is committed.
+        """
+        self.last_429_retry_after = retry_after_seconds
         self.consecutive_429s += 1
-        print(f"    [rate-limit] 429 → backing off {wait}s "
-              f"(consecutive_429s={self.consecutive_429s})", flush=True)
+
+        if retry_after_seconds > RETRY_AFTER_LONG_THRESHOLD:
+            # LONG LOCK - account is permanently locked for 15+ hours
+            # DO NOT retry - mark as locked so worker stops cleanly
+            self.account_locked = True
+            self.account_locked_until = time.time() + min(retry_after_seconds, 86400)  # max 1 day
+            self.long_locks += 1
+            hours = retry_after_seconds / 3600
+            print(f"    [rate-limit] 🚨 LONG LOCK DETECTED: retryAfter={retry_after_seconds}s "
+                  f"({hours:.1f}h) — account is PERMANENTLY LOCKED", flush=True)
+            print(f"    [rate-limit] 🚨 Worker will STOP to avoid wasting CI time "
+                  f"(long_locks={self.long_locks}/{MAX_LONG_LOCKS})", flush=True)
+        elif retry_after_seconds > RETRY_AFTER_SHORT_THRESHOLD:
+            # MEDIUM LOCK (10min - 1hour) - wait 5 min and retry
+            wait = RETRY_AFTER_CAP_FOR_RETRY
+            self.backoff_until = time.time() + wait
+            print(f"    [rate-limit] 429 medium lock: retryAfter={retry_after_seconds}s "
+                  f"→ wait {wait}s and retry (consecutive_429s={self.consecutive_429s})",
+                  flush=True)
+        else:
+            # SHORT LOCK (under 10 min) - wait full duration
+            wait = max(retry_after_seconds, 60)
+            self.backoff_until = time.time() + wait
+            print(f"    [rate-limit] 429 short lock: retryAfter={retry_after_seconds}s "
+                  f"→ wait {wait}s (consecutive_429s={self.consecutive_429s})", flush=True)
+
+    def is_permanently_locked(self) -> bool:
+        """Check if account is permanently locked (long lock detected)."""
+        if self.long_locks >= MAX_LONG_LOCKS:
+            return True
+        if self.account_locked and time.time() < self.account_locked_until:
+            return True
+        return False
 
     def note_success(self):
         """Reset 429 counter on successful scrape."""
         self.consecutive_429s = 0
-        self.backoff_until = 0  # clear any backoff since last call succeeded
+        # Don't reset account_locked - if it's locked, it stays locked
+        # (the rate limit clock is still ticking server-side)
+        if not self.account_locked:
+            self.backoff_until = 0  # clear backoff only if not permanently locked
 
 
 class PROAuth:
@@ -329,6 +380,7 @@ class PROAuth:
         return None
 
     def should_stop(self):
+        """Stop if too many auth failures OR too many consecutive scrape errors."""
         return (self.failures >= MAX_AUTH_FAILURES
                 or self.consecutive_scrape_errors >= MAX_CONSECUTIVE_ERRORS)
 
@@ -390,9 +442,11 @@ class ProgressTracker:
 async def browser_api(page, url, body="{}", max_retries=4):
     """Browser fetch API call with retryAfter handling for 429.
 
-    max_retries was 2 — bumped to 4 to give more chances to recover from 429s.
-    No 300s cap on retryAfter anymore — we wait the FULL duration.
+    CRITICAL FIX (v3.2): Long locks (>1 hour) cause the function to RETURN the 429
+    immediately instead of waiting. The caller will then check rate_limiter and stop
+    the worker cleanly. This prevents 4+ hour wastes on already-locked accounts.
     """
+    last_429_retry_after = 0
     for attempt in range(max_retries):
         body_escaped = body.replace("\\", "\\\\").replace("'", "\\'").replace("\n", "\\n")
         result = await page.evaluate(f"""
@@ -415,13 +469,28 @@ async def browser_api(page, url, body="{}", max_retries=4):
                 ra = err.get("retryAfter", 0)
             except Exception:
                 ra = 0
+            last_429_retry_after = ra
             if ra and ra > 0:
-                # NO 300s CAP — wait the FULL duration the server tells us
-                wait = min(int(ra), RETRY_AFTER_MAX_CAP)
-                print(f"    429 retryAfter={ra}s → wait FULL {wait}s "
-                      f"({attempt+1}/{max_retries})", flush=True)
-                await asyncio.sleep(wait)
-                continue
+                if ra > RETRY_AFTER_LONG_THRESHOLD:
+                    # LONG LOCK - return immediately, do NOT retry
+                    # Caller will check rate_limiter.is_permanently_locked() and stop worker
+                    print(f"    429 LONG LOCK retryAfter={ra}s ({ra/3600:.1f}h) "
+                          f"→ returning immediately (worker will stop)", flush=True)
+                    return status, result
+                elif ra > RETRY_AFTER_SHORT_THRESHOLD:
+                    # MEDIUM LOCK - wait 5 min then retry
+                    wait = RETRY_AFTER_CAP_FOR_RETRY
+                    print(f"    429 medium retryAfter={ra}s → wait {wait}s "
+                          f"({attempt+1}/{max_retries})", flush=True)
+                    await asyncio.sleep(wait)
+                    continue
+                else:
+                    # SHORT LOCK - wait full duration
+                    wait = max(int(ra), 60)
+                    print(f"    429 short retryAfter={ra}s → wait {wait}s "
+                          f"({attempt+1}/{max_retries})", flush=True)
+                    await asyncio.sleep(wait)
+                    continue
             # No retryAfter header — back off exponentially
             wait = 60 * (attempt + 1)
             print(f"    429 no retryAfter → wait {wait}s ({attempt+1}/{max_retries})",
@@ -429,7 +498,7 @@ async def browser_api(page, url, body="{}", max_retries=4):
             await asyncio.sleep(wait)
             continue
         return status, result
-    return 429, {"body": "max retries"}
+    return 429, {"body": "max retries", "retryAfter": last_429_retry_after}
 
 
 async def scrape_test(page, auth, progress, rate_limiter, test_info, output_dir, wid):
@@ -715,6 +784,16 @@ async def run_scraper(worker_file, output_dir, max_runtime=DEFAULT_MAX_RUNTIME):
                                    f"scrape_errors={auth.consecutive_scrape_errors})")
                     print(f"\n⛔ [w{wid}] Stop condition — stopping", flush=True)
                     break
+                # CRITICAL: Check if account is permanently locked (long lock detected)
+                if rate_limiter.is_permanently_locked():
+                    hours_left = max(0, (rate_limiter.account_locked_until - time.time())) / 3600
+                    stop_reason = (f"account_permanently_locked "
+                                   f"(long_locks={rate_limiter.long_locks}, "
+                                   f"hours_left={hours_left:.1f})")
+                    print(f"\n🚨 [w{wid}] Account PERMANENTLY LOCKED — stopping cleanly",
+                          flush=True)
+                    print(f"    Worker will commit progress and exit", flush=True)
+                    break
 
                 result = await scrape_test(page, auth, progress, rate_limiter,
                                             ti, series_dir, wid)
@@ -748,21 +827,41 @@ async def run_scraper(worker_file, output_dir, max_runtime=DEFAULT_MAX_RUNTIME):
                           f"{stats['failed']} failed | "
                           f"Rate: {rate_limiter.consecutive_429s} 429s", flush=True)
 
-                # Commit every 15 min (instead of every series) for more frequent saves
-                if time.time() - last_commit_time > 900:  # 15 min
+                # Commit every 10 min for more frequent saves (was 15 min)
+                if time.time() - last_commit_time > 600:  # 10 min
                     if os.environ.get("GITHUB_ACTIONS"):
                         import subprocess
                         try:
+                            # Stage + commit FIRST, then pull --rebase, then push
                             subprocess.run(["git", "add", "pro_scraped_output/"],
                                            capture_output=True, timeout=30)
-                            subprocess.run(["git", "commit", "-m",
-                                            f"pro-scrape w{wid}: {done} scraped "
-                                            f"({datetime.utcnow().strftime('%H:%M')})"],
-                                           capture_output=True, timeout=15)
+                            commit_result = subprocess.run(
+                                ["git", "commit", "-m",
+                                 f"pro-scrape w{wid}: {done} scraped "
+                                 f"({datetime.now(timezone.utc).strftime('%H:%M')})"],
+                                capture_output=True, timeout=15)
                             for push_attempt in range(3):
-                                subprocess.run(["git", "pull", "--rebase",
-                                                "origin", "main"],
-                                              capture_output=True, timeout=20)
+                                pull_result = subprocess.run(
+                                    ["git", "pull", "--rebase", "origin", "main"],
+                                    capture_output=True, timeout=20)
+                                if pull_result.returncode != 0:
+                                    # If pull --rebase fails (uncommitted changes),
+                                    # try stash + reset + stash pop
+                                    subprocess.run(["git", "rebase", "--abort"],
+                                                  capture_output=True, timeout=10)
+                                    subprocess.run(["git", "stash"],
+                                                  capture_output=True, timeout=10)
+                                    subprocess.run(["git", "fetch", "origin", "main"],
+                                                  capture_output=True, timeout=10)
+                                    subprocess.run(["git", "reset", "--hard", "origin/main"],
+                                                  capture_output=True, timeout=10)
+                                    subprocess.run(["git", "stash", "pop"],
+                                                  capture_output=True, timeout=10)
+                                    subprocess.run(["git", "add", "pro_scraped_output/"],
+                                                  capture_output=True, timeout=30)
+                                    subprocess.run(["git", "commit", "-m",
+                                                   f"pro-scrape w{wid}: {done} scraped (retry)"],
+                                                  capture_output=True, timeout=15)
                                 r2 = subprocess.run(["git", "push", "origin", "HEAD"],
                                                     capture_output=True, timeout=20)
                                 if r2.returncode == 0:
