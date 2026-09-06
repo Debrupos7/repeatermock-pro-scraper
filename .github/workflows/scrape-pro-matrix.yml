@@ -1,65 +1,25 @@
-name: Scrape RepeaterMock PRO Tests
+name: Scrape RepeaterMock PRO Tests v2
 
 on:
   workflow_dispatch:
     inputs:
       max_tests:
-        description: 'Max PRO tests to scrape (empty = all, 200 = test mode)'
+        description: 'Max tests (empty = all 9915)'
         required: false
         default: ''
 
 permissions:
   contents: write
-  actions: read
+  actions: write
 
 concurrency:
-  group: scrape-pro-matrix
+  group: scrape-pro-v2
   cancel-in-progress: false
 
 jobs:
-  prepare:
+  scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-
-      - name: Install deps
-        run: |
-          pip install playwright httpx
-          playwright install chromium --with-deps
-
-      - name: Distribute PRO tests into 20 chunks
-        run: |
-          MAX_TESTS="${{ github.event.inputs.max_tests || '200' }}"
-          if [ -n "$MAX_TESTS" ]; then
-            if [ -n "$MAX_TESTS" ] && [ "$MAX_TESTS" != "0" ]; then sed -i "s/MAX_TESTS_FOR_TESTING = 0/MAX_TESTS_FOR_TESTING = $MAX_TESTS/" distribute_pro_tests.py; fi
-          fi
-          python3 distribute_pro_tests.py
-
-      - name: Upload chunks as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: pro-chunks
-          path: pro_chunks/
-          retention-days: 1
-
-  scrape_pro:
-    needs: prepare
-    runs-on: ubuntu-latest
-    timeout-minutes: 330
-    strategy:
-      fail-fast: false
-      max-parallel: 1
-      matrix:
-        chunk_number: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-    name: PRO-Job-${{ matrix.chunk_number }}
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
         with:
@@ -72,119 +32,94 @@ jobs:
           cache: 'pip'
 
       - name: Install deps
-        run: |
-          pip install playwright httpx
-          playwright install chromium --with-deps
+        run: pip install playwright httpx && playwright install chromium --with-deps
 
-      - name: Download chunks artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: pro-chunks
-          path: pro_chunks/
+      - name: Pull latest
+        run: git pull --rebase origin main || true
 
-      - name: Pull latest pro_auth.json
-        run: |
-          git pull --rebase origin main || true
-          if [ -f "pro_auth.json" ]; then
-            echo "Found existing pro_auth.json"
-          else
-            echo "No pro_auth.json — will login fresh"
-          fi
+      - name: Distribute PRO tests
+        env:
+          MAX_TESTS: ${{ github.event.inputs.max_tests }}
+        run: python3 distribute_pro_tests.py
 
       - name: Run PRO scraper
         env:
           PYTHONUNBUFFERED: "1"
           PYTHONIOENCODING: "utf-8"
-          PRO_COOKIES: ${{ secrets.PRO_COOKIES }}
-          PRO_REFRESH_TOKEN: ${{ secrets.PRO_REFRESH_TOKEN }}
           ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
           RM_EMAIL: ${{ secrets.RM_EMAIL }}
           RM_PASSWORD: ${{ secrets.RM_PASSWORD }}
         run: |
-          CHUNK_FILE="pro_chunks/chunk_$(printf '%02d' ${{ matrix.chunk_number }}).json"
-          JOB_DIR="pro_scraped_output/PRO-Job-$(printf '%02d' ${{ matrix.chunk_number }})"
-          if [ -f "$CHUNK_FILE" ]; then
-            python3 pro_scraper.py --chunk "$CHUNK_FILE" --output-dir "$JOB_DIR" --workers 1 || true
-          else
-            echo "Chunk file not found: $CHUNK_FILE"
+          python3 pro_scraper.py \
+            --chunks pro_chunks/all_chunks.json \
+            --output-dir pro_scraped_output \
+            --max-runtime 330 || true
+
+      - name: Show progress summary
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "  PRO SCRAPER v2 — PROGRESS SUMMARY"
+          echo "=========================================="
+          if [ -f "pro_scraped_output/PRO_STATS.json" ]; then
+            cat pro_scraped_output/PRO_STATS.json
           fi
+          echo ""
+          echo "=== Per-series progress ==="
+          for dir in pro_scraped_output/*/; do
+            job=$(basename "$dir")
+            if [ -f "$dir/progress.json" ]; then
+              python3 -c "
+          import json
+          with open('$dir/progress.json') as f:
+              p = json.load(f)
+          for s, d in p.items():
+              sc = len(d.get('scraped',{}))
+              fl = len(d.get('failed',{}))
+              print(f'  {\"$job\":25s}: {sc} scraped, {fl} failed')
+          " 2>/dev/null || true
+            fi
+          done
+          echo "=========================================="
 
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -f "pro_auth.json" ]; then
-            git add pro_auth.json -f
-            git commit -m "auth: Job ${{ matrix.chunk_number }}" || echo "No auth changes"
-          fi
-          JOB_DIR="pro_scraped_output/PRO-Job-$(printf '%02d' ${{ matrix.chunk_number }})"
-          if [ -d "$JOB_DIR" ]; then
-            git add "$JOB_DIR/" -f
-            git commit -m "pro-scrape: PRO-Job-$(printf '%02d' ${{ matrix.chunk_number }}) $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "Nothing to commit"
-          fi
-          for i in 1 2 3 4 5 6 7 8 9 10; do
-            git pull --rebase origin main 2>&1 | tail -3
+          git add pro_scraped_output/ -f
+          git commit -m "pro-scrape v2: $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "Nothing to commit"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main 2>&1 | tail -1
             if git push origin HEAD 2>&1; then
-              echo "Push succeeded on attempt $i"
+              echo "Push succeeded attempt $i"
               break
             fi
             sleep $((i * 3))
           done
 
-  merge:
-    needs: scrape_pro
-    runs-on: ubuntu-latest
-    if: always()
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
-
-      - name: Pull all commits
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
-
-      - name: Merge PRO stats
-        run: |
-          python3 << 'PYEOF'
-          import json, os, glob
-          from datetime import datetime, timezone
-          total_scraped = 0
-          total_failed = 0
-          total_still_pro = 0
-          per_job = []
-          for pf in sorted(glob.glob("pro_scraped_output/*/pro_progress.json")):
-              try:
-                  with open(pf) as f:
-                      p = json.load(f)
-                  total_scraped += p.get("scraped", 0)
-                  total_failed += p.get("failed", 0)
-                  total_still_pro += p.get("still_pro", 0)
-                  per_job.append({"job": p.get("job_number",0),"scraped":p.get("scraped",0),"failed":p.get("failed",0),"still_pro":p.get("still_pro",0)})
-              except: pass
-          stats = {"generated_at": datetime.now(timezone.utc).isoformat(),"total_pro_scraped": total_scraped,"total_pro_failed": total_failed,"total_still_pro": total_still_pro,"per_job": per_job}
-          os.makedirs("pro_scraped_output", exist_ok=True)
-          with open("pro_scraped_output/PRO_STATS.json", "w") as f:
-              json.dump(stats, f, indent=2)
-          print(f"PRO Stats: {total_scraped} scraped, {total_failed} failed, {total_still_pro} still PRO")
-          PYEOF
-
-      - name: Commit merged results
-        run: |
-          git add pro_scraped_output/ -f
-          git commit -m "merge: PRO stats $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "Nothing to commit"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD && break
-            sleep 10
-          done
-      - name: Trigger next PRO run
+      - name: Trigger next run (auto-continue)
         if: success()
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          echo "Triggering next PRO run..."
-          curl -s -X POST -H "Authorization: token $GH_PAT" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" "https://api.github.com/repos/Debrupos7/repeatermock-pro-scraper/actions/workflows/scrape-pro-matrix.yml/dispatches" -d '{"ref":"main","inputs":{"max_tests":""}}' -w "\nHTTP: %{http_code}\n" || echo "Trigger failed (non-fatal)"
+          # Check if there are remaining tests to scrape
+          REMAINING=$(python3 -c "
+          import json, os
+          # Count scraped
+          scraped = 0
+          for d in os.listdir('pro_scraped_output'):
+              p = f'pro_scraped_output/{d}/progress.json'
+              if os.path.exists(p):
+                  with open(p) as f:
+                      data = json.load(f)
+                  for s, dd in data.items():
+                      scraped += len(dd.get('scraped', {}))
+          print(9915 - scraped)
+          " 2>/dev/null || echo "0")
+          echo "Remaining tests: $REMAINING"
+          if [ "$REMAINING" -gt 0 ]; then
+            echo "Triggering next PRO run..."
+            curl -s -X POST -H "Authorization: token $GH_PAT" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" "https://api.github.com/repos/Debrupos7/repeatermock-pro-scraper/actions/workflows/scrape-pro-matrix.yml/dispatches" -d '{"ref":"main","inputs":{"max_tests":""}}' -w "\nTrigger: %{http_code}\n"
+          else
+            echo "✅ All PRO tests scraped — no more runs needed!"
+          fi
