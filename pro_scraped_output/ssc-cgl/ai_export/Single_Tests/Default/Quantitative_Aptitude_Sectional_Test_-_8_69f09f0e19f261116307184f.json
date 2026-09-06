@@ -1,0 +1,1164 @@
+{
+  "test_id": "69f09f0e19f261116307184f",
+  "title": "Quantitative Aptitude Sectional Test - 8",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:05:23.630283+00:00",
+  "questions": [
+    {
+      "qid": "62a9e5071432f5c01ef510c7",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Manish bought two watches for Rs. 1056. He sold one at a loss of 25 percent and other at a profit of 25 percent. If each watch was sold for the same price, then what is the cost price of the watch which was sold at loss?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 720"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 660"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 560"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 600"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen Selling Prices are equal, the ratio of Cost Prices is inversely proportional to their respective Selling Price percentages.\n\nCP₁ (at 25% loss) : CP₂ (at 25% profit) = (100 + 25) : (100 − 25)\n\nCP₁ : CP₂ = 125 : 75 = 5 : 3\n\nTotal ratio parts = 5 + 3 = 8 parts → Rs. 1056\n\nCP of watch sold at loss (CP₁) = (1056 ÷ 8) × 5 = 132 × 5 = 660\n\n**∴ The correct answer is Rs. 660.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal Cost Price = Rs. 1056\n\nLoss percentage on the first watch = 25%\n\nProfit percentage on the second watch = 25%\n\nSelling Price of both watches is the same.\n\n [IMAGE: https://cdn.repeatermock.com/tb/17e838b1a09da9fdbe8637ec99e1acd32ab4b99f60dae188e256f05365c805cc.png] \n\n**Formula Used:**\n\nSelling Price (SP) = CP × (100 ± Profit/Loss)%\n\n**Calculation:**\n\n⇒ Let the cost price of the first watch be CP₁ and the second watch be CP₂.\n\n⇒ Selling price of the first watch (SP₁) = CP₁ × (100 − 25)% = 0.75 × CP₁\n\n⇒ Selling price of the second watch (SP₂) = CP₂ × (100 + 25)% = 1.25 × CP₂\n\n⇒ Since SP₁ = SP₂\n\n⇒ 0.75 × CP₁ = 1.25 × CP₂\n\n⇒ CP₁ ÷ CP₂ = 1.25 ÷ 0.75 = 125 ÷ 75 = 5 ÷ 3\n\n⇒ Let CP₁ = 5x and CP₂ = 3x\n\n⇒ Total CP = 5x + 3x = 8x\n\n⇒ 8x = 1056\n\n⇒ x = 1056 ÷ 8 = 132\n\n⇒ Cost price of the watch sold at a loss = 5x = 5 × 132 = 660\n\n**∴ The correct answer is Rs. 660.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nOverall Loss Concept (Equal SP)\n\nIf two items are sold at the same price, one at a profit of x% and the other at a loss of x%, there is always an overall loss. Loss % = (x ÷ 10)² %.\n\nRatio of Cost Prices (Equal SP)\n\nWhen Selling Prices are equal, the Cost Prices are inversely proportional to their respective Selling Price percentage values: CP₁ : CP₂ = (100 ± x₂) : (100 ± x₁).\n\nNo Profit No Loss Concept (Equal CP)\n\nIf two articles are bought for the same Cost Price and sold at x% profit and x% loss respectively, there is neither profit nor loss in the overall transaction.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/17e838b1a09da9fdbe8637ec99e1acd32ab4b99f60dae188e256f05365c805cc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "62c97c05b86e9f8f2f014d9c",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The radius of a solid metallic sphere is equal to 15 cm. It is melted and drawn into a long wire of radius 15 mm having uniform cross-section. Find the length of the wire.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2100 cm"
+        },
+        {
+          "label": "2",
+          "text": "1900 cm"
+        },
+        {
+          "label": "3",
+          "text": "1800 cm"
+        },
+        {
+          "label": "4",
+          "text": "2000 cm"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nVolume of melted Sphere = Volume of cylindrical Wire ⇒ L = Volume of sphere ÷ Area of cross-section.\n\nRadius of wire (r) = 15 mm = 1.5 cm.\n\nL = (4/3 × π × R³) ÷ (π × r²)\n\nL = (4/3 × 15³) ÷ 1.5² = 4500 ÷ 2.25 = 2000 cm\n\n**∴ The correct answer is 2000 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRadius of solid metallic sphere (R) = 15 cm\n\nRadius of wire (r) = 15 mm = 1.5 cm\n\n**Formula Used:**\n\nVolume of Sphere = 4/3 × π × R³\n\nVolume of Cylinder (Wire) = π × r² × L\n\n [IMAGE: https://cdn.repeatermock.com/tb/8892c46072172945a09617046f096f2d63cee3bdcdbb890154c2f2e077de8214.png] \n\n**Calculations:**\n\nSince the sphere is melted to form the uniform wire, their volumes must be equal.\n\n⇒ Volume of Sphere = Volume of Wire\n\n⇒ 4/3 × π × R³ = π × r² × L\n\n⇒ 4/3 × 15³ = 1.5² × L\n\n⇒ 4/3 × 3375 = 2.25 × L\n\n⇒ 4500 = 2.25 × L\n\n⇒ L = 4500 ÷ 2.25\n\n⇒ L = 2000 cm\n\n**∴ The correct answer is 2000 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nConservation of Volume\n\nWhenever a solid metallic object is melted and recast into another geometric form, the total volume remains strictly constant assuming no material is lost in the process.\n\nVolume of a Cylinder\n\nA wire is typically considered a very long cylinder. The volume of a solid cylinder of radius r and length (or height) h is given by V = π × r² × h.\n\nVolume of a Sphere\n\nThe total internal volume of a solid 3D sphere of given radius R is calculated using the formula V = 4/3 × π × R³.\n\nUnits Conversion\n\nIt is essential to convert all physical measurements to a common consistent unit before substituting them into equations. For linear length, 1 cm = 10 mm.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8892c46072172945a09617046f096f2d63cee3bdcdbb890154c2f2e077de8214.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "62c864c81a1d8f8f13a08f60",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "When f(x) = 15x³ – 14x² – 4x + 10 is divided by (3x + 2), then the remainder is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "-1"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "-2"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nBy the Remainder Theorem, if a polynomial f(x) is divided by (ax + b), the remainder is f(−b/a).\n\nHere, dividing by (3x + 2) means we substitute x = −2/3 into f(x).\n\nf(−2/3) = 15(−8/27) − 14(4/9) − 4(−2/3) + 10\n\nf(−2/3) = −40/9 − 56/9 + 24/9 + 90/9 = 18/9 = 2\n\n**∴ The correct answer is 2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPolynomial f(x) = 15x³ − 14x² − 4x + 10\n\nDivisor = 3x + 2\n\n**Formula Used:**\n\nRemainder Theorem: If f(x) is divided by ax + b, the remainder is f(−b/a).\n\n**Calculations:**\n\n⇒ Let 3x + 2 = 0\n\n⇒ 3x = −2\n\n⇒ x = −2/3\n\n⇒ Substitute x = −2/3 in f(x) to find the remainder:\n\n⇒ Remainder = 15(−2/3)³ − 14(−2/3)² − 4(−2/3) + 10\n\n⇒ Remainder = 15(−8/27) − 14(4/9) + 8/3 + 10\n\n⇒ Remainder = −40/9 − 56/9 + 24/9 + 90/9\n\n⇒ Remainder = (−40 − 56 + 24 + 90) / 9\n\n⇒ Remainder = 18 / 9\n\n⇒ Remainder = 2\n\n**∴ The correct answer is 2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRemainder Theorem\n\nWhen a polynomial p(x) is divided by a linear polynomial (x − a), the remainder is equal to p(a).\n\nFactor Theorem\n\nA polynomial p(x) has a factor (x − a) if and only if p(a) = 0. This is a special case of the remainder theorem.\n\nPolynomial Division\n\nDividend = Divisor × Quotient + Remainder, where the degree of the Remainder is strictly less than the degree of the Divisor.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "62d5d4f8a4c69d6fe2e45104",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of volume of two cylinders H₁ and H₂ is sqrt{2} ∶ sqrt{3} respectively. If the ratio of height of the two cylinders H₁ and H₂ is 4 ∶ 9, then what is the ratio of the curved surface area of H₁ and H₂ respectively?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2⁹/⁴ ∶ 3⁹/⁴"
+        },
+        {
+          "label": "2",
+          "text": "4⁵/⁴ ∶ 3⁵/⁴"
+        },
+        {
+          "label": "3",
+          "text": "2³/⁴ ∶ 3³/⁴"
+        },
+        {
+          "label": "4",
+          "text": "2⁵/⁴ ∶ 3⁵/⁴"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor a cylinder, CSA² = 4π²r²h² = 4π(πr²h)h = 4π(V × h), which gives a direct relation: CSA ∝ √(V × h).\n\n⇒ CSA₁ / CSA₂ = √(V₁h₁ / V₂h₂)\n\n⇒ Ratio = √[(√2 / √3) × (4 / 9)]\n\n⇒ Ratio = √[(2¹/² × 2²) / (3¹/² × 3²)] = √(2⁵/² / 3⁵/²)\n\n**∴ The correct answer is 2⁵/⁴ : 3⁵/⁴.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] <span",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "62edfa03254b951c61ce4bdb",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The height of a trapezium is 68 cm, and the sum of its parallel sides is 75 cm. If the area of the trapezium is (6)/(17) times of the area of a square, then the length of the diagonal of the square is: (Take sqrt2 = 1.41)",
+      "options": [
+        {
+          "label": "1",
+          "text": "127.39 cm"
+        },
+        {
+          "label": "2",
+          "text": "183.49 cm"
+        },
+        {
+          "label": "3",
+          "text": "119.85 cm"
+        },
+        {
+          "label": "4",
+          "text": "102.39 cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nArea of trapezium = ½ × Sum of parallel sides × height = ½ × 75 × 68 = 2550 cm².\n\nGiven, Area of trapezium = 6/17 × Area of square.\n\nWe know, Area of square can be written as ½ × (Diagonal)².\n\n⇒ 2550 = 6/17 × (½ × d²) = 3/17 × d²\n\n⇒ d² = (2550 × 17) ÷ 3 = 850 × 17 = 14450\n\n⇒ d = √14450 = 85√2 = 85 × 1.41 = 119.85 cm.\n\n**∴ The correct answer is 119.85 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n<svg width=\"420\"",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "62ef97cfc5befcde129da139",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average mark obtained in a test by three students is X. If the marks of a new student is also considered, then the average marks increases by 2. What is the marks secured by the new student in the test?",
+      "options": [
+        {
+          "label": "1",
+          "text": "X + 4"
+        },
+        {
+          "label": "2",
+          "text": "X + 6"
+        },
+        {
+          "label": "3",
+          "text": "X + 8"
+        },
+        {
+          "label": "4",
+          "text": "X + 2"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nNet average increase = +2\n\nTotal number of students = 3 + 1 = 4\n\nTotal marks increase = 4 × 2 = 8\n\nMarks of new student = Old Average + Total Increase = X + 8\n\n**∴ The correct answer is X + 8 marks.**\n\n**__Alternate Method__**\n\n**Given:**\n\nAverage marks of 3 students = X\n\nNew average after 1 more student is added = X + 2\n\n Visualizing Deviation Method\n \n \n Base: X\n \n \n +2\n \n \n +2\n \n \n +2\n \n \n +2\n\n Old Avg\n Total Increase (4 × 2 = 8)\n\n \n\n \n Marks of New Student = X + 8\n\n**Formula Used:**\n\nSum of observations = Average × Number of observations\n\n**Calculations:**\n\n⇒ Sum of marks of 3 students = 3 × X = 3X\n\n⇒ Total number of students now = 3 + 1 = 4\n\n⇒ Sum of marks of 4 students = 4 × (X + 2) = 4X + 8\n\n⇒ Marks of new student = (Sum of 4 students) − (Sum of 3 students)\n\n⇒ Marks of new student = (4X + 8) − 3X = X + 8\n\n**∴ The correct answer is X + 8 marks.**\n\n**__Additional Information__**\n\nAverage Basic Formula\n\nAverage = Sum of all observations ÷ Total number of observations\n\nNet Deviation Method\n\nValue of new entry = Old Average + (Change in Average × New Total Items)\n\nCombined Average\n\nCombined Average = (n₁A₁ + n₂A₂) ÷ (n₁ + n₂), where n is the number of terms and A is the average.\n</p",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "63aba97863eab2d57de1e313",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The value of ((0.7)³-(0.43)³)/((0.7)² + 0.43 times 0.7 + (0.43)²) is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1.13"
+        },
+        {
+          "label": "2",
+          "text": "1.23"
+        },
+        {
+          "label": "3",
+          "text": "0.37"
+        },
+        {
+          "label": "4",
+          "text": "0.27"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe given expression follows the algebraic identity pattern: (a³ − b³) ÷ (a² + ab + b²) = a − b\n\nHere, a = 0.7 and b = 0.43\n\nDirectly apply the shortcut: 0.7 − 0.43 = 0.27\n\n**∴ The correct answer is 0.27.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n(0.7³ − 0.43³) ÷ (0.7² + 0.43 × 0.7 + 0.43²)\n\n**Formula Used:**\n\na³ − b³ = (a − b)(a² + ab + b²)\n\n**Calculations:**\n\n⇒ Let a = 0.7 and b = 0.43\n\n⇒ Substitute the variables into the expression: (a³ − b³) ÷ (a² + ab + b²)\n\n⇒ Expand the numerator using the identity: [(a − b)(a² + ab + b²)] ÷ (a² + ab + b²)\n\n⇒ The common factor (a² + ab + b²) cancels out from the numerator and denominator.\n\n⇒ The expression simplifies to: a − b\n\n⇒ Substitute the values back: 0.7 − 0.43\n\n⇒ = 0.27\n\n**∴ The correct answer is 0.27.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSum of Cubes Identity\n\na³ + b³ = (a + b)(a² − ab + b²). This identity is used when the terms in the numerator are added instead of subtracted.\n\nDifference of Squares\n\na² − b² = (a − b)(a + b). It helps to quickly simplify expressions with squared terms.\n\nPerfect Square Expansions\n\n(a + b)² = a² + 2ab + b² and (a − b)² = a² − 2ab + b². Notice the middle term is 2ab, unlike the sum or difference of cubes formulas which only use ab.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "63b944bda8a15e08c5fb4c52",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The total salary of A and B is Rs. 1215. A spent 855over7% of his income and B spent 831over3% of his income. The ratio of saving is 3 : 4. Find their individual salary.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 567, Rs. 648"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 597, Rs. 618"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 578, Rs. 637"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 689, Rs. 526"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nA's savings % = 100% − 85(5/7)% = 100% − 600/7% = 100/7% = 1/7 of A's salary.\n\nB's savings % = 100% − 83(1/3)% = 100% − 250/3% = 50/3% = 1/6 of B's salary.\n\nRatio of savings ⇒ A/7 : B/6 = 3 : 4 ⇒ 6A / 7B = 3 / 4 ⇒ A : B = 7 : 8\n\nTotal salary = 7 + 8 = 15 units = 1215 ⇒ 1 unit = 81\n\nA's salary = 7 × 81 = 567 and B's salary = 8 × 81 = 648.\n\n**∴ The correct answer is Rs. 567, Rs. 648.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal salary of A and B = Rs. 1215\n\nA's expenditure = 85(5/7)% and B's expenditure = 83(1/3)%\n\nRatio of their savings = 3 : 4\n\n**Formula Used:**\n\nSavings = Income × (100% − Expenditure%)\n\n [IMAGE: https://cdn.repeatermock.com/tb/1d43eef8dda0f7d4b703b674de8593233eeb8751273ac0a2350198bd4a7a70c2.png] \n\n**Calculations:**\n\n⇒ A's savings = 100% − 85(5/7)% = (100 − 600/7)% = 100/7% = 1/7\n\n⇒ B's savings = 100% − 83(1/3)% = (100 − 250/3)% = 50/3% = 1/6\n\n⇒ Ratio of savings = (1/7 × A) / (1/6 × B) = 3 / 4\n\n⇒ (6 × A) / (7 × B) = 3 / 4\n\n⇒ A / B = (3 × 7) / (4 × 6) = 21 / 24 = 7 / 8\n\n⇒ Total salary ratio = 7 + 8 = 15 parts\n\n⇒ 15 parts = Rs. 1215\n\n⇒ 1 part = 1215 ÷ 15 = Rs. 81\n\n⇒ A's salary = 7 × 81 = Rs. 567\n\n⇒ B's salary = 8 × 81 = Rs. 648\n\n**∴ The correct answer is Rs. 567, Rs. 648.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPercentage to Fraction Conversion\n\nConverting complex percentages into fractions saves calculation time. For instance, 14(2/7)% = 1/7 and 16(2/3)% = 1/6. By extending this, 85(5/7)% directly converts to 6/7, and 83(1/3)% translates to 5/6.\n\nIncome, Expenditure & Savings Relation\n\nAlways apply the basic equation: Income = Expenditure + Savings. If values are presented in percentages, you can subtract from 100% to directly fetch the missing entity.\n\nRatio Distribution\n\nWhen any total quantity is distributed among entities in the ratio m : n, their respective shares are given by (m / (m + n)) × Total and (n / (m + n)) × Total.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1d43eef8dda0f7d4b703b674de8593233eeb8751273ac0a2350198bd4a7a70c2.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "64cb64eb27ee0677625390df",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Evaluate the following.\n\nsin 25° sin 65° – cos 25° cos 65°.",
+      "options": [
+        {
+          "label": "1",
+          "text": "40"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nConvert 65° to its complementary angle.\n\n⇒ sin 65° = cos(90° − 65°) = cos 25°\n\n⇒ cos 65° = sin(90° − 65°) = sin 25°\n\nSubstitute these into the given expression:\n\n⇒ sin 25° cos 25° − cos 25° sin 25° = 0\n\n**∴ The correct answer is 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nsin 25° sin 65° − cos 25° cos 65°\n\n**Formula Used:**\n\ncos(A + B) = cos A cos B − sin A sin B\n\n**Calculation:**\n\n⇒ Re-write the given expression by taking the negative sign common:\n\n⇒ − (cos 25° cos 65° − sin 25° sin 65°)\n\n⇒ Apply the formula taking A = 25° and B = 65°\n\n⇒ − cos(25° + 65°)\n\n⇒ − cos(90°)\n\n⇒ Since cos(90°) = 0\n\n⇒ 0\n\n**∴ The correct answer is 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nComplementary Angles\n\nsin(90° − θ) = cos θ | cos(90° − θ) = sin θ | tan(90° − θ) = cot θ\n\nTrigonometric Sum & Difference Formulas\n\nsin(A + B) = sin A cos B + cos A sin B | cos(A − B) = cos A cos B + sin A sin B\n\nDouble Angle Formulas\n\nsin 2A = 2 sin A cos A | cos 2A = cos² A − sin² A\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "66a3601aa4f7d22a41fededf",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify\n\n [6-2left{3-4(4div (1)/(4)-1)+2div (1)/(3)right}-3times 2]",
+      "options": [
+        {
+          "label": "1",
+          "text": "98"
+        },
+        {
+          "label": "2",
+          "text": "96"
+        },
+        {
+          "label": "3",
+          "text": "92"
+        },
+        {
+          "label": "4",
+          "text": "102"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n[6-2{3-4(4div (1)/(4)-1)+2div (1)/(3)}-3times 2]\n\n**Formula used:**\n\nBODMAS Rule (Brackets, Of, Division, Multiplication, Addition, Subtraction)\n\n**Calculation:**\n\n⇒ [6-2{3-4(4times 4-1)+2times 3}-6]\n\n⇒ [6-2{3-4(15)+6}-6]\n\n⇒ [6-2{3-60+6}-6]\n\n⇒ [6-2{-51}-6]\n\n⇒ [6+102-6]\n\n⇒ 102\n\n**∴ The correct answer is option (4).**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "627e614d6988fd4d14b3b1a8",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sum increases by 75% in 10 years at certain rate of simple interest per annum. By what percentage will the same sum increase in 6 years at the same rate of simple interest per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "42%"
+        },
+        {
+          "label": "2",
+          "text": "45%"
+        },
+        {
+          "label": "3",
+          "text": "38%"
+        },
+        {
+          "label": "4",
+          "text": "48%"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIn Simple Interest, the percentage increase is directly proportional to the time period.\n\nPercentage increase in 10 years = 75%\n\nPercentage increase in 1 year = 75% ÷ 10 = 7.5%\n\nPercentage increase in 6 years = 7.5% × 6 = 45%\n\n**∴ The correct answer is 45%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nA sum increases by 75% in 10 years at simple interest.\n\nTime (T₁) = 10 years, Time (T₂) = 6 years.\n\n**Formula Used:**\n\nSimple Interest (SI) = (P × R × T) ÷ 100\n\n \n \n \n 6 Years (SI = ?)\n Remaining 4 Years\n \n \n• \n \n• \n \n• \n Total 10 Years: SI = 75% increase\n \n \n• \n \n• \n \n• \n 6 Years: SI = 45% increase\n\n**Calculation:**\n\nLet the principal (P) be 100.\n\n⇒ Since the sum increases by 75%, Simple Interest for 10 years = 75.\n\n⇒ 75 = (100 × R × 10) ÷ 100\n\n⇒ 75 = 10R\n\n⇒ R = 7.5% per annum\n\nNow, calculate the SI for 6 years at the same rate of interest:\n\n⇒ New SI = (100 × 7.5 × 6) ÷ 100\n\n⇒ New SI = 7.5 × 6\n\n⇒ New SI = 45\n\n⇒ Since the principal is 100, an SI of 45 means the sum increases by 45%.\n\n**∴ The correct answer is 45%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nDirect Proportion in Simple Interest\n\nFor a fixed principal and constant rate, the interest earned is directly proportional to the time period (SI ∝ T). You can directly use the ratio: SI₁ ÷ T₁ = SI₂ ÷ T₂.\n\nPercentage Increase\n\nWhen a problem states that a sum increases by a certain percentage, that percentage increase is exactly equal to the Simple Interest accumulated. Amount = Principal + SI.\n\nRate of Interest\n\nRate per annum (R) can be determined efficiently by isolating it from the SI formula: R = (SI × 100) ÷ (P × T).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "630bd3d826cb9324c7de1fdb",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The curved surface area of a solid hemisphere is 22 cm². What is the total surface area of the hemisphere ? (use π = 22/7)",
+      "options": [
+        {
+          "label": "1",
+          "text": "66 cm²"
+        },
+        {
+          "label": "2",
+          "text": "44 cm²"
+        },
+        {
+          "label": "3",
+          "text": "33 cm²"
+        },
+        {
+          "label": "4",
+          "text": "30 cm²"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor a solid hemisphere, the ratio of Total Surface Area (TSA) to Curved Surface Area (CSA) is direct and constant.\n\n⇒ TSA / CSA = 3πr² / 2πr² = 3/2\n\n⇒ TSA = (3/2) × CSA\n\n⇒ TSA = 3/2 × 22 = 33 cm²\n\n**∴ The correct answer is 33 cm².**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCurved Surface Area (CSA) of solid hemisphere = 22 cm²\n\nValue of π = 22/7\n\n**Formula Used:**\n\nCSA of Hemisphere = 2πr²\n\nTotal Surface Area (TSA) = 3πr²\n\n [IMAGE: https://cdn.repeatermock.com/tb/b234f5ecf295a2554bb2a23cb4af7805cf823c87d08aaac84a1700edf4abeaa8.png] \n\n**Calculations:**\n\n⇒ 2πr² = 22\n\n⇒ 2 × (22/7) × r² = 22\n\n⇒ 44/7 × r² = 22\n\n⇒ r² = 22 × 7/44\n\n⇒ r² = 7/2\n\n⇒ Total Surface Area = 3πr²\n\n⇒ Total Surface Area = 3 × (22/7) × (7/2)\n\n⇒ Total Surface Area = 3 × 11 = 33 cm²\n\n**∴ The correct answer is 33 cm².**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nVolume of a Hemisphere\n\nThe volume of a hemisphere is exactly half of the volume of a sphere. Formula: V = (2/3)πr³.\n\nSurface Area of a Full Sphere\n\nA full sphere does not have any flat surface, meaning its entire area is curved. Formula: A = 4πr².\n\nHollow Hemisphere Surface Area\n\nFor a hollow hemisphere with negligible thickness, the total surface area equals its curved surface area (2πr²). A solid hemisphere includes an additional flat circular base (πr²).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b234f5ecf295a2554bb2a23cb4af7805cf823c87d08aaac84a1700edf4abeaa8.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "639b108b6c74b8f752562367",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Probability",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two cards are drawn successively without replacement from a well-shuffled pack of 52 cards. The probability of drawing two aces is",
+      "options": [
+        {
+          "label": "1",
+          "text": "3/223"
+        },
+        {
+          "label": "2",
+          "text": "1/13"
+        },
+        {
+          "label": "3",
+          "text": "4/223"
+        },
+        {
+          "label": "4",
+          "text": "1/221"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nProbability of the first card being an ace = 4/52 = 1/13.\n\nSince the first card is not replaced, remaining cards = 51 and remaining aces = 3.\n\nProbability of the second card being an ace = 3/51 = 1/17.\n\nTotal probability = (1/13) × (1/17) = 1/221.\n\n**∴ The correct answer is 1/221.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal number of cards in a well-shuffled pack = 52\n\nTotal number of aces in the pack = 4\n\nNumber of cards drawn successively without replacement = 2\n\n**Formula Used:**\n\nProbability = Number of Favorable Outcomes ÷ Total Number of Possible Outcomes\n\nNumber of ways to choose r items from n items = ⁿCᵣ = n! ÷ [r! × (n − r)!]\n\n**Calculations:**\n\n⇒ Total ways to draw 2 cards from 52 cards = ⁵²C₂\n\n⇒ ⁵²C₂ = (52 × 51) ÷ (2 × 1) = 26 × 51 = 1326\n\n⇒ Favorable ways to draw 2 aces from 4 aces = ⁴C₂\n\n⇒ ⁴C₂ = (4 × 3) ÷ (2 × 1) = 2 × 3 = 6\n\n⇒ Probability of drawing two aces = Favorable ways ÷ Total ways\n\n⇒ Probability = 6 ÷ 1326\n\n⇒ Probability = 1/221\n\n**∴ The correct answer is 1/221.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nIndependent Events (With Replacement)\n\nIf the first card is replaced before drawing the second, the events are independent. The probability formula is P(A and B) = P(A) × P(B).\n\nDependent Events (Without Replacement)\n\nIf the card is not replaced, the second draw depends on the first draw's outcome. The formula is P(A and B) = P(A) × P(B|A).\n\nStandard Deck of Cards\n\nA standard deck contains 52 cards divided into 4 suits (Hearts, Diamonds, Clubs, Spades) of 13 cards each. There are 4 Aces in total, one in each suit.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Probability"
+      ]
+    },
+    {
+      "qid": "642d2bc308352397c513e5b0",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A certain sum becomes 4 times of itself in 5 years at a rate of simple interest. In 15 years it will become how many times of itself at the same rate of simple interest?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "9"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIn Simple Interest, the interest earned is directly proportional to the time period.\n\nDirect Formula: (n₁ − 1) ÷ t₁ = (n₂ − 1) ÷ t₂\n\nGiven: n₁ = 4, t₁ = 5 years, t₂ = 15 years.\n\n⇒ (4 − 1) ÷ 5 = (n₂ − 1) ÷ 15\n\n⇒ 3 ÷ 5 = (n₂ − 1) ÷ 15 ⇒ n₂ − 1 = 9 ⇒ n₂ = 10\n\n**∴ The correct answer is 10 times.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nA sum becomes 4 times of itself in 5 years at simple interest.\n\n**Formula Used:**\n\nSimple Interest (SI) = (P × R × T) ÷ 100\n\nAmount (A) = P + SI\n\n \n \n \n\n \n \n\n \n• \n \n \n \n \n \n\n P\n 4P\n 7P\n 10P\n\n 0 Yrs\n 5 Yrs\n 10 Yrs\n 15 Yrs\n\n \n\n \n\n \n\n + 3P (SI)\n + 3P (SI)\n + 3P (SI)\n\n Total Amount at 15 Years = 10P (10 times)\n\n**Calculations:**\n\n⇒ Let the principal sum be P.\n\n⇒ Amount after 5 years = 4P\n\n⇒ Simple Interest earned in 5 years = 4P − P = 3P\n\n⇒ Rate of Interest (R) = (SI × 100) ÷ (P × T)\n\n⇒ R = (3P × 100) ÷ (P × 5) = 60%\n\n⇒ Now, we need to find the amount after T = 15 years at R = 60%:\n\n⇒ SI = (P × 60 × 15) ÷ 100\n\n⇒ SI = 900P ÷ 100 = 9P\n\n⇒ New Amount = Principal + SI = P + 9P = 10P\n\n⇒ Thus, the sum will become 10 times of itself.\n\n**∴ The correct answer is 10 times.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Interest Constant Growth\n\nUnlike compound interest, simple interest grows by a constant amount every year. If a sum earns 3P interest in 5 years, it will earn exactly 3P interest in every subsequent 5-year period.\n\nDirect Formula for Multipliers\n\nWhen a sum becomes n₁ times in t₁ years and n₂ times in t₂ years at simple interest, use the relation: (n₁ − 1) ÷ t₁ = (n₂ − 1) ÷ t₂.\n\nPrincipal and Amount Relation\n\nThe amount (A) is the sum of Principal (P) and Simple Interest (SI). Always subtract 1 from the number of times it becomes to get the interest multiplier: SI = (n − 1)P.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "647d6feb5afe0b44e9f9f466",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two persons start running towards each other, one from A to B and the other from B to A. They cross each other in one hour. The first person reaches B (16)/(15) hours before the second person reaches A. If the distance between A and B is 8 km, then find the speed of the faster man.",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 km/hr"
+        },
+        {
+          "label": "2",
+          "text": "7 km/hr"
+        },
+        {
+          "label": "3",
+          "text": "4 km/hr"
+        },
+        {
+          "label": "4",
+          "text": "5 km/hr"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSince both persons meet in 1 hour after covering 8 km together, sum of their speeds = 8 ÷ 1 = 8 km/hr.\n\nChecking the options for the faster man's speed, let's test Option 4: 5 km/hr.\n\nIf the faster speed = 5 km/hr, the slower speed = 8 − 5 = 3 km/hr.\n\nTime difference = (8 ÷ 3) − (8 ÷ 5) = (40 − 24) ÷ 15 = 16/15 hours.\n\nThis matches the given condition perfectly, meaning our assumed speed is correct.\n\n**∴ The correct answer is 5 km/hr.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDistance between A and B = 8 km\n\nMeeting time = 1 hour\n\nDifference in time to complete the journey = 16/15 hours\n\n [IMAGE: https://cdn.repeatermock.com/tb/bd531c9258d507ba8f22d1fe68c64aab34bb2a5dd7c3148e3e8490330eb9ad14.png] \n\n**Formula Used:**\n\nTime = Distance ÷ Speed\n\nRelative Speed (opposite direction) = Speed of 1st Person + Speed of 2nd Person\n\n**Calculation:**\n\n⇒ Sum of their speeds = Distance ÷ Meeting Time = 8 ÷ 1 = 8 km/hr\n\n⇒ Let the speed of the 1st person (faster) be v₁ and the 2nd person be v₂.\n\n⇒ v₁ + v₂ = 8 → v₂ = 8 − v₁\n\n⇒ The 1st person reaches earlier, so the difference in time is T₂ − T₁ = 16/15\n\n⇒ (8 ÷ v₂) − (8 ÷ v₁) = 16/15\n\n⇒ (1 ÷ v₂) − (1 ÷ v₁) = 2/15\n\n⇒ (v₁ − v₂) ÷ (v₁ × v₂) = 2/15\n\n⇒ (v₁ − (8 − v₁)) ÷ (v₁ × (8 − v₁)) = 2/15\n\n⇒ (2v₁ − 8) ÷ (8v₁ − v₁²) = 2/15\n\n⇒ (v₁ − 4) ÷ (8v₁ − v₁²) = 1/15\n\n⇒ 15v₁ − 60 = 8v₁ − v₁²\n\n⇒ v₁² + 7v₁ − 60 = 0\n\n⇒ (v₁ + 12)(v₁ − 5) = 0\n\n⇒ Since speed cannot be negative, v₁ = 5 km/hr\n\n**∴ The correct answer is 5 km/hr.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRelative Speed\n\nWhen two bodies move towards each other, their relative speed is the sum of their individual speeds (v₁ + v₂). When they move in the same direction, it is the difference of their speeds (v₁ − v₂).\n\nSpeed, Distance & Time Relationship\n\nSpeed = Distance ÷ Time. There is an inverse relationship between Speed and Time when Distance is constant: Ratio of Speeds = Inverse Ratio of Times.\n\nQuadratic Formula\n\nFor an equation ax² + bx + c = 0, roots are given by (−b ± √(b² − 4ac)) ÷ 2a. This helps solve non-factorizable speed equations efficiently.\n\nAverage Speed\n\nWhen traveling equal distances at different speeds x and y, the Average Speed over the entire journey is calculated as (2 × x × y) ÷ (x + y).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bd531c9258d507ba8f22d1fe68c64aab34bb2a5dd7c3148e3e8490330eb9ad14.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "650a83d6061f430b8b503474",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A boat covers a distance of 65 km downstream in 5 hours while it takes 13 hours to cover the same distance upstream. What is the speed of the boat in still water?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 km/h"
+        },
+        {
+          "label": "2",
+          "text": "11 km/h"
+        },
+        {
+          "label": "3",
+          "text": "6 km/h"
+        },
+        {
+          "label": "4",
+          "text": "9 km/h"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDownstream speed (D) = 65 ÷ 5 = 13 km/h\n\nUpstream speed (U) = 65 ÷ 13 = 5 km/h\n\nSpeed of boat in still water = (D + U) ÷ 2\n\n⇒ (13 + 5) ÷ 2 = 9 km/h\n\n**∴ The correct answer is 9 km/h.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDistance covered downstream = 65 km\n\nTime taken downstream = 5 hours\n\nDistance covered upstream = 65 km\n\nTime taken upstream = 13 hours\n\n**Formula Used:**\n\nSpeed = Distance ÷ Time\n\nSpeed of boat in still water = (Downstream Speed + Upstream Speed) ÷ 2\n\n [IMAGE: https://cdn.repeatermock.com/tb/0fa5321f6017f29a33c9efdf896bbb5d575e3f69b6e4154646c0bb0454697d7a.png] \n\n**Calculations:**\n\n⇒ Downstream Speed = 65 ÷ 5 = 13 km/h\n\n⇒ Upstream Speed = 65 ÷ 13 = 5 km/h\n\n⇒ Speed of boat in still water = (13 + 5) ÷ 2\n\n⇒ Speed of boat in still water = 18 ÷ 2 = 9 km/h\n\n**∴ The correct answer is 9 km/h.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSpeed of Stream\n\nIt is the speed at which the river flows. Formula: Speed of stream = (Downstream speed − Upstream speed) ÷ 2.\n\nDownstream Speed\n\nWhen a boat travels in the direction of the flow of the stream. Formula: Downstream speed = Speed of boat + Speed of stream.\n\nUpstream Speed\n\nWhen a boat travels against the direction of the flow of the stream. Formula: Upstream speed = Speed of boat − Speed of stream.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0fa5321f6017f29a33c9efdf896bbb5d575e3f69b6e4154646c0bb0454697d7a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6364d965042c719d35386d54",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A and B together can do a piece of work in 12 days, B and C together in 15 days and C and A together in 20 days. In how many days will all three of them together complete the work?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "15 (1)/(2)"
+        },
+        {
+          "label": "4",
+          "text": "18 (1)/(3)"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal work = LCM of 12, 15 and 20 = 60 units.\n\nCombined efficiency of 2 × (A + B + C) = (60 ÷ 12) + (60 ÷ 15) + (60 ÷ 20) = 5 + 4 + 3 = 12 units/day.\n\nEfficiency of (A + B + C) together = 12 ÷ 2 = 6 units/day.\n\nTime taken by all three together = Total work ÷ Efficiency = 60 ÷ 6 = 10 days.\n\n**∴ The correct answer is 10 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTime taken by A and B together = 12 days\n\nTime taken by B and C together = 15 days\n\nTime taken by C and A together = 20 days\n\n**Concept Used:**\n\nTotal Work = LCM of individual time taken\n\nEfficiency = Total Work ÷ Time Taken\n\n**Calculations:**\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n A + B\n 12\n 60\n 5\n \n \n\n B + C\n 15\n 4\n \n \n\n C + A\n 20\n 3\n \n \n\n⇒ Sum of efficiencies: (A + B) + (B + C) + (C + A) = 5 + 4 + 3\n\n⇒ 2 × (A + B + C) = 12\n\n⇒ Efficiency of (A + B + C) = 12 ÷ 2 = 6 units/day\n\n⇒ Total time taken by (A + B + C) = Total Work ÷ Total Efficiency\n\n⇒ Time taken = 60 ÷ 6 = 10 days\n\n**∴ The correct answer is 10 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nIndividual Completion Time\n\nTo find individual time taken, simply subtract the combined efficiency of the other two from the total efficiency. Example: A's efficiency = (A + B + C) − (B + C) = 6 − 4 = 2 units/day. Thus, A alone will finish the work in 60 ÷ 2 = 30 days.\n\nWork and Wages\n\nWhen multiple people work together to finish a piece of work, their total earnings are divided strictly in the ratio of their respective efficiencies or the total amount of work done by each.\n\nPipes and Cisterns\n\nThe LCM efficiency concept directly applies to pipes filling or emptying a tank. Inlet pipes carry a positive efficiency value, while outlet (leak/emptying) pipes carry a negative efficiency value.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6448e891dbc86a97db6c659d",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two stations A and B are 275 km apart on a straight line. One train starts from A at 6:00 A.M. and travels at 50 km/h. Another train starts from B at 7:00 A.M. and travels towards A at a speed of 62.5 km/h. At what time will they meet?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10:00 A.M"
+        },
+        {
+          "label": "2",
+          "text": "09:00 A.M"
+        },
+        {
+          "label": "3",
+          "text": "11:00 A.M"
+        },
+        {
+          "label": "4",
+          "text": "08:00 A.M"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDistance covered by Train 1 from 6:00 A.M. to 7:00 A.M. = 50 km/h × 1 hr = 50 km.\n\nRemaining distance at 7:00 A.M. = 275 − 50 = 225 km.\n\nRelative speed (opposite directions) = 50 + 62.5 = 112.5 km/h.\n\nTime to meet = 225 ÷ 112.5 = 2 hours.\n\nMeeting time = 7:00 A.M. + 2 hours = 09:00 A.M.\n\n**∴ The correct answer is 09:00 A.M.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal distance between station A and station B = 275 km\n\nSpeed of Train 1 = 50 km/h, starting time = 6:00 A.M.\n\nSpeed of Train 2 = 62.5 km/h, starting time = 7:00 A.M.\n\n**Formula Used:**\n\nDistance = Speed × Time\n\nRelative Speed (when moving in opposite directions) = S₁ + S₂\n\nTime = Distance ÷ Relative Speed\n\n [IMAGE: https://cdn.repeatermock.com/tb/b0fdcce9825519d70959c0ab1cda763dde6747d8e870ec3239f0bd966e6b8f22.png] \n\n**Calculations:**\n\n⇒ Distance covered by Train 1 in 1 hour (from 6:00 A.M. to 7:00 A.M.) = 50 × 1 = 50 km\n\n⇒ Remaining distance between the two trains at 7:00 A.M. = 275 − 50 = 225 km\n\n⇒ Relative speed of the trains = 50 + 62.5 = 112.5 km/h\n\n⇒ Time required to meet after 7:00 A.M. = 225 ÷ 112.5 = 2 hours\n\n⇒ Therefore, they will meet 2 hours after 7:00 A.M.\n\n⇒ Meeting time = 7:00 A.M. + 2 hours = 09:00 A.M.\n\n**∴ The correct answer is 09:00 A.M.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRelative Speed (Opposite Directions)\n\nWhen two bodies move towards each other, their relative speed is the sum of their individual speeds: Sᵣₑₗ = S₁ + S₂.\n\nRelative Speed (Same Direction)\n\nWhen two bodies move in the same direction, their relative speed is the difference of their individual speeds: Sᵣₑₗ = |S₁ − S₂|.\n\nAverage Speed\n\nIf equal distances are covered at different speeds x and y, the average speed for the whole journey is given by (2 × x × y) ÷ (x + y).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b0fdcce9825519d70959c0ab1cda763dde6747d8e870ec3239f0bd966e6b8f22.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6448f67609d892ec2fa79135",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the denominator of a fraction is multiplied by 2 and the numerator is increased by 2, the fraction becomes (1)/(2). If instead, the numerator is multiplied by 2 and the denominator is increased by 2, it becomes (6)/(7) What is the sum of the numerator and the denominator of the original fraction (in the lowest form) ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11"
+        },
+        {
+          "label": "2",
+          "text": "7"
+        },
+        {
+          "label": "3",
+          "text": "6"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nFrom condition 1: (x + 2) / 2y = 1 / 2 ⇒ y − x = 2.\n\nWe need the sum x + y. We can quickly test the given options to find integers x and y with a difference of 2.\n\nChecking option 4 (Sum = 8): x + y = 8 and y − x = 2 ⇒ 2y = 10 ⇒ y = 5, x = 3.\n\nThis gives the original fraction as 3 / 5.\n\nTesting condition 2: (3 × 2) / (5 + 2) = 6 / 7, which strictly satisfies the second given condition.\n\n**∴ The correct answer is 8.**\n\n**__Alternate Method__**\n\nLet the original fraction be x / y.\n\n [IMAGE: https://cdn.repeatermock.com/tb/637131c75dd7585597688e1e8d295df9faacca4ba4f81926e9da644597fae9de.png] \n\n**Step 1: First Condition**\n\n⇒ (x + 2) / 2y = 1 / 2\n\n⇒ 2(x + 2) = 2y\n\n⇒ x + 2 = y\n\n⇒ y − x = 2 --- (Equation 1)\n\n**Step 2: Second Condition**\n\n⇒ 2x / (y + 2) = 6 / 7\n\n⇒ 14x = 6(y + 2)\n\n⇒ 7x = 3y + 6 --- (Equation 2)\n\n**Step 3: Solving the equations**\n\n⇒ Substitute y = x + 2 from Equation 1 into Equation 2:\n\n⇒ 7x = 3(x + 2) + 6\n\n⇒ 7x = 3x + 6 + 6\n\n⇒ 4x = 12\n\n⇒ x = 3\n\n⇒ Substitute x = 3 in Equation 1:\n\n⇒ y = 3 + 2 = 5\n\nThe original fraction is 3 / 5.\n\n⇒ Sum of numerator and denominator = x + y = 3 + 5 = 8.\n\n**∴ The correct answer is 8.**\n\n**__Additional Information__**\n\nLinear Equations in Two Variables\n\nWhen solving fractional word problems, replacing the unknown numerator and denominator with separate variables (x and y) creates a basic linear system that can be efficiently solved using substitution.\n\nEquivalent Fractions\n\nA fraction's proportional value remains unchanged if both terms are multiplied by the same non-zero integer, but adding absolute values directly alters the ratio composition entirely.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/637131c75dd7585597688e1e8d295df9faacca4ba4f81926e9da644597fae9de.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "63709d3a7a32480409d6091a",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In an exam Ritu got 56% marks, Smita got 92% marks and Reena got 634 marks. The maximum marks are 875. What is the average score of all 3 girls?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1929"
+        },
+        {
+          "label": "2",
+          "text": "815"
+        },
+        {
+          "label": "3",
+          "text": "690"
+        },
+        {
+          "label": "4",
+          "text": "643"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nCombine Ritu and Smita's percentages to find their total marks in one quick step.\n\nTotal percentage for both = 56% + 92% = 148%.\n\nCombined marks = 148% of 875 = 1.48 × 875 = 1295.\n\nAverage score = (Combined marks + Reena's marks) ÷ 3 = (1295 + 634) ÷ 3 = 1929 ÷ 3 = 643.\n\n**∴ The correct answer is 643 marks.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nMaximum marks = 875\n\nRitu's score = 56%\n\nSmita's score = 92%\n\nReena's score = 634 marks\n\n**Formula Used:**\n\nMarks obtained = (Percentage ÷ 100) × Maximum marks\n\nAverage = Total sum of values ÷ Number of values\n\n \n \n• \n \n \n \n \n 490\n Ritu\n (56%)\n \n \n \n 805\n Smita\n (92%)\n \n \n \n 634\n Reena\n (Given)\n\n \n \n• \n Avg: 643\n\n**Calculations:**\n\n⇒ Ritu's marks = 56% of 875 = (56 ÷ 100) × 875 = 490\n\n⇒ Smita's marks = 92% of 875 = (92 ÷ 100) × 875 = 805\n\n⇒ Total marks = Ritu's marks + Smita's marks + Reena's marks\n\n⇒ Total marks = 490 + 805 + 634 = 1929\n\n⇒ Average score = 1929 ÷ 3 = 643\n\n**∴ The correct answer is 643 marks.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPercentage Value Calculation\n\nThe value of a specific percentage of a base quantity is found using the relation: Value = (Percentage ÷ 100) × Base.\n\nCombining Percentages\n\nWhen calculating multiple percentage amounts over the same identical base value, you can save significant calculation time by adding or subtracting the percentage values directly before taking the product with the base.\n\nArithmetic Mean\n\nThe fundamental average is simply the sum of all elements divided by the total count of elements. Formula: Average = Sum of elements ÷ Number of elements.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "64820e46dc4340284eeeab36",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The distance between two station A and B is 1000 km. A train starts from A and moves towards B at an average speed of 60 km/hr. Another train starts from B, 2 hours later than the train from A, and moves towards A at an average speed of 50 km/hr. When will the two trains cross each other after A starts journey?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 hours"
+        },
+        {
+          "label": "2",
+          "text": "10 hours"
+        },
+        {
+          "label": "3",
+          "text": "8.5 hours"
+        },
+        {
+          "label": "4",
+          "text": "11.5 hours"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDistance covered by train A in the first 2 hours = 60 × 2 = 120 km.\n\nRemaining distance between the two trains = 1000 − 120 = 880 km.\n\nRelative speed when moving towards each other = 60 + 50 = 110 km/hr.\n\nTime taken to cross each other after train B starts = 880 ÷ 110 = 8 hours.\n\nTotal time after train A starts its journey = 2 + 8 = 10 hours.\n\n**∴ The correct answer is 10 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDistance between station A and B = 1000 km.\n\nSpeed of train A = 60 km/hr.\n\nSpeed of train B = 50 km/hr.\n\nTrain B starts 2 hours later than train A.\n\n [IMAGE: https://cdn.repeatermock.com/tb/3b388935dc2e1ba359cd75593a34401f4fc740fed58ec910258b2177b1ae1ba3.png] \n\n**Formula Used:**\n\nDistance = Speed × Time\n\n**Calculation:**\n\nLet the two trains cross each other **t** hours after train A starts its journey.\n\n⇒ Distance covered by train A in t hours = 60 × t\n\n⇒ Since train B starts 2 hours later, time traveled by train B = (t − 2) hours.\n\n⇒ Distance covered by train B in (t − 2) hours = 50 × (t − 2)\n\n⇒ When they meet, the sum of the distances covered by both trains is equal to the total distance.\n\n⇒ 60t + 50(t − 2) = 1000\n\n⇒ 60t + 50t − 100 = 1000\n\n⇒ 110t = 1100\n\n⇒ t = 1100 ÷ 110\n\n⇒ t = 10 hours\n\n**∴ The correct answer is 10 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRelative Speed\n\nWhen two objects move towards each other, their relative speed is the sum of their individual speeds (S₁ + S₂).\n\nMeeting Point Equation\n\nWhen two bodies start from opposite ends and meet, the sum of distances covered by them exactly equals the total initial distance between them.\n\nDelayed Starts\n\nIf object B starts 't' hours after object A, their travel times must be adjusted. If A travels for 'x' hours, B travels for (x − t) hours.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3b388935dc2e1ba359cd75593a34401f4fc740fed58ec910258b2177b1ae1ba3.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "65477aa896e0509dbf0ae9a7",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a factory, three assembly lines, A, B and C are set to manufacture a new car. Assembly line A takes 40 days to produce 240 cars. Assembly line B can do the same job, but A is 50% as efficient as B. Assembly line A is 20% more efficient than C. They all start working simultaneously to produce the order. After 5 days, assembly line A breaks down. How many more days would it take to complete the order with the remaining lines?",
+      "options": [
+        {
+          "label": "1",
+          "text": "13{9 over17}"
+        },
+        {
+          "label": "2",
+          "text": "8{9 over17}"
+        },
+        {
+          "label": "3",
+          "text": "12{6 over17}"
+        },
+        {
+          "label": "4",
+          "text": "7{6 over17}"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nA's efficiency = 240 ÷ 40 = 6 cars/day.\n\nB's efficiency = 6 ÷ 50% = 12 cars/day.\n\nC's efficiency = 6 ÷ 120% = 5 cars/day.\n\nWork done by all three lines in 5 days = (6 + 12 + 5) × 5 = 23 × 5 = 115 cars.\n\nRemaining work = 240 − 115 = 125 cars.\n\nTime taken by remaining lines B and C = 125 ÷ (12 + 5) = 125 ÷ 17 = 7 ⁶/₁₇ days.\n\n**∴ The correct answer is 7 ⁶/₁₇ days.**\n\n<img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png\" widt",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "67581cd59cf8b5ba48c12a27",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the simple interest (in ₹) on ₹3500 as a sum borrowed at 7% per year rate of interest for 6 years.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1430"
+        },
+        {
+          "label": "2",
+          "text": "1470"
+        },
+        {
+          "label": "3",
+          "text": "1510"
+        },
+        {
+          "label": "4",
+          "text": "1410"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal Simple Interest percentage is the product of rate and time.\n\n⇒ Total SI% = 7% × 6 = 42%\n\n⇒ Simple Interest = 42% of ₹3500\n\n⇒ Simple Interest = (42 ÷ 100) × 3500 = 1470\n\n**∴ The correct answer is ₹1470.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n \n \n \n\n \n \n \n ₹3500\n Principal\n \n• \n Rate = 7% p.a.\n Time = 6 years\n \n SI = ₹1470\n Simple Interest\n \n\n Effective SI% = 7% × 6 = 42%\n\n**Given:**\n\nPrincipal (P) = ₹3500\n\nRate (R) = 7% per annum\n\nTime (T) = 6 years\n\n**Formula Used:**\n\nSimple Interest (SI) = (P × R × T) ÷ 100\n\n**Calculations:**\n\n⇒ SI = (3500 × 7 × 6) ÷ 100\n\n⇒ SI = 3500 × 42 ÷ 100\n\n⇒ SI = 35 × 42\n\n⇒ SI = 1470\n\n**∴ The correct answer is ₹1470.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTotal Amount in Simple Interest\n\nThe total amount paid or received is the sum of Principal and Simple Interest: Amount = P [1 + (R × T) ÷ 100].\n\nCompound Interest (CI)\n\nUnlike SI, CI is calculated on the principal and the accumulated interest of previous periods. Formula: CI = P[(1 + R ÷ 100)T − 1].\n\nDifference between CI and SI for 2 years\n\nFor the same principal and rate of interest, the difference between CI and SI for exactly 2 years is directly calculated as: D = P(R ÷ 100)².\n\ne:[\"$\",\"$L",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "643014b97ea22eee602f54e4",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a school, there are 1260 students, out of which two-third are boys and the rest are girls. Three-fourth of the number of boys are players and half of the number of girls are also players. The number of students who are not players in the school is :",
+      "options": [
+        {
+          "label": "1",
+          "text": "380"
+        },
+        {
+          "label": "2",
+          "text": "400"
+        },
+        {
+          "label": "3",
+          "text": "420"
+        },
+        {
+          "label": "4",
+          "text": "450"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nTotal students = 1260\n\nBoys = (2)/(3) of total\n\nGirls = (1 - (2)/(3)) = (1)/(3) of total\n\nBoys players = (3)/(4)\n\nGirls players = (1)/(2)\n\n**Formula used:**\n\nNumber of not players = [Boys × (1 - player ratio)] + [Girls × (1 - player ratio)]\n\n**Calculation:**\n\nBoys = 1260 times (2)/(3) = 840\n\nGirls = 1260 - 840 = 420\n\n⇒ Non-player boys = 840 times (1 - (3)/(4))\n\n⇒ Non-player boys = 840 times (1)/(4) = 210\n\n⇒ Non-player girls = 420 times (1 - (1)/(2))\n\n⇒ Non-player girls = 420 times (1)/(2) = 210\n\n⇒ Total not players = 210 + 210 = 420\n\n**∴ The correct answer is option (3).**\n87",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "64953099502f13becdaea1aa",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If (3 x²-1)(x²-(1)/(3) x+(13)/(3))+((19)/(3)-(x)/(3)) = Ax⁴ + Bx³ + Cx² + D, where A, B, C and D are integers, then what is the value of (A - B + C - D)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "14"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSubstitute x = −1 in the equation: (3 − 1) × (1 + 1/3 + 13/3) + (19/3 + 1/3) = A − B + C + D\n\n⇒ 2 × (17/3) + 20/3 = 54/3 = 18 ⇒ A − B + C + D = 18\n\nSubstitute x = 0 in the equation: (−1) × (13/3) + 19/3 = D ⇒ D = 2\n\n⇒ Required value = (A − B + C − D) = (A − B + C + D) − 2D = 18 − 4 = 14\n\n**∴ The correct answer is 14.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n(3x² − 1)(x² − x/3 + 13/3) + (19/3 − x/3) = Ax⁴ + Bx³ + Cx² + D\n\n**Method Used:**\n\nExpand the Left Hand Side (LHS) and compare the coefficients of like powers of x with the Right Hand Side (RHS).\n\n**Calculations:**\n\n⇒ LHS = 3x²(x² − x/3 + 13/3) − 1(x² − x/3 + 13/3) + 19/3 − x/3\n\n⇒ LHS = 3x⁴ − x³ + 13x² − x² + x/3 − 13/3 + 19/3 − x/3\n\n⇒ LHS = 3x⁴ − x³ + 12x² + (x/3 − x/3) + (19/3 − 13/3)\n\n⇒ LHS = 3x⁴ − x³ + 12x² + 6/3\n\n⇒ LHS = 3x⁴ − x³ + 12x² + 2\n\nComparing this with the RHS (Ax⁴ + Bx³ + Cx² + D), we get:\n\n⇒ A = 3, B = −1, C = 12, D = 2\n\nWe need to find the value of (A − B + C − D):\n\n⇒ A − B + C − D = 3 − (−1) + 12 − 2\n\n⇒ 3 + 1 + 12 − 2 = 14\n\n**∴ The correct answer is 14.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPolynomial Identity\n\nIf two polynomials are identically equal for all values of x, then the coefficients of their corresponding terms are exactly equal.\n\nSubstitution Method\n\nBy substituting convenient values like x = 0, x = 1, or x = −1 into an identity, we can directly find the constant term, sum of coefficients, or alternating sum of coefficients without fully expanding the entire expression.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "test_id": "6a390e29b277a8aa2035e16c",
+  "title": "CGL Tier II CT 23: Algebraic Identities - 01",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:18:20.919213+00:00",
+  "questions": [
+    {
+      "qid": "630762dd61b9049bf198939c",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If a² + b² + c² = ab + bc + ac, then find the value of a³ + b³ + c³.",
+      "options": [
+        {
+          "label": "1",
+          "text": "0"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "3abc"
+        },
+        {
+          "label": "4",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nFor real numbers, the condition a² + b² + c² = ab + bc + ac is satisfied only when a = b = c.\n\nLet a = b = c = 1. Then, 1² + 1² + 1² = 1×1 + 1×1 + 1×1 ⇒ 3 = 3.\n\nSubstitute these values into the required expression: a³ + b³ + c³ = 1³ + 1³ + 1³ = 3.\n\nAmong the options, 3abc = 3 × 1 × 1 × 1 = 3, which matches the result.\n\n**∴ The correct answer is 3abc.**\n\n**__Alternate Method__**\n\nGiven: a² + b² + c² = ab + bc + ac\n\nFormula Used: a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ac)\n\n⇒ a² + b² + c² − ab − bc − ac = 0\n\n⇒ a³ + b³ + c³ − 3abc = (a + b + c) × (a² + b² + c² − ab − bc − ac)\n\n⇒ a³ + b³ + c³ − 3abc = (a + b + c) × 0\n\n⇒ a³ + b³ + c³ − 3abc = 0\n\n⇒ a³ + b³ + c³ = 3abc\n\n**∴ The correct answer is 3abc.**\n\n**__Additional Information__**\n\nCubic Algebra Identity\n\nThe general expansion is a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ac).\n\nSpecial Conditional Case\n\nIf a + b + c = 0, then the entire product on the right side becomes zero, resulting in a³ + b³ + c³ = 3abc.\n\nEquality Condition for Squares\n\nThe expression a² + b² + c² − ab − bc − ac can be rewritten as 1/2[(a − b)² + (b − c)² + (c − a)²]. For real numbers, this is 0 only when a = b = c.</p",
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "62d417ab98d1720f52055717",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "value of frac{{{{(a - b)}³} + {{(b - c)}³} + (c - a)³}}{{{{({a²} - {b²})}³} + {{({b²} - {c²})}³} + {{({c²} - {a²})}³}}} Is equal to :",
+      "options": [
+        {
+          "label": "1",
+          "text": "ab + bc + ca"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "(1)/({(a + b)(b + c)(c + a))}"
+        }
+      ],
+      "correct": "4",
+      "solution": "Concept used:\n\nIf x + y + z = 0, then, x³ + y³ + z³ = 3xyz\n\nCalculations:\n\nfrac{{{{(a - b)}³} + {{(b - c)}³} + (c - a)³}}{{{{({a²} - {b²})}³} + {{({b²} - {c²})}³} + {{({c²} - {a²})}³}}}\n\nx = (a - b)\n\ny = (b - c)\n\nz = (c - a)\n\nx + y + z = a - b + b - c + c - a = (a + b + c) - (a + b + c) = 0\n\nSo, x3 + y3 + z3 = 3xyz = 3(a - b)(b - c)(c - a)\n\nSimilarly,\n\nm = (a² - b²)\n\nn = (b² - c²)\n\no = (c² - a²)\n\nm + n + o = (a² - b²) + (b² - c²) + (c² - a²) = 0\n\nSo, m³ + n³ + o³ = 3mno = 3(a²-b²)(b²-c²)(c²-a²)\n\nThus, we have :\n\n(3(a-b)(b-c)(c-a))/(3(a²-b²)(b²-c²)(c²-a²))\n\n=(3(a-b)(b-c)(c-a))/(3(a-b)(a+b)(b-c)(b+c)(c-a)(c+a))\n\n= (1)/((a+b)(b+c)(c+a))\n\ntherefore The correct answer is option (4).\n\n35:T",
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "6256d28b97e0b855090e6cfc",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If a + b + c = 1, ab + bc + ca = -8 and a³ + b³ + c³ = -11, then what is the value of frac{{{a}}}{{{{bc}}}} + frac{{{b}}}{{{{ac}}}} + frac{{{c}}}{{{{ab}}}}?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(4)/(3)"
+        },
+        {
+          "label": "2",
+          "text": "frac{{ - 17}}{{12}}"
+        },
+        {
+          "label": "3",
+          "text": "(7)/({12)}"
+        },
+        {
+          "label": "4",
+          "text": "frac{{ - 5}}{4}"
+        }
+      ],
+      "correct": "2",
+      "solution": "Formula:\n\na3 + b3 + c3 - 3abc = (a + b + c) × (a2 + b2 + c2 - ab - bc - ac)\n\n(a + b + c)² = a² + b² + c² + 2 × (ab + bc + ac)\n\nCalculation:\n\nSubstituting the values in a3 + b3 + c3 - 3abc , we get-\n\n⇒ -11 - 3abc = 1 × (a2 + b2 + c2 - (ab + bc + ca))\n\n⇒ -11 - 3abc = a2 + b2 + c2 - (-8)\n\n⇒ -11 - 3abc = a2 + b2 + c2 + 8\n\n⇒ -19 - 3abc = a2 + b2 + c2 \n\n⇒ -19 -3abc = 17\n\n⇒ 3abc = -36 or abc = -12\n\nNow, substituting the values in (a + b + c)2 -\n\n⇒ 12 = a2 + b2 + c2 + 2 × (-8)\n\n⇒ 1 + 16 = a2 + b2 + c2\n\n⇒ a2 + b2 + c2 = 17\n\nDividing by \"abc\" both sides, we get-\n\n⇒ a² over abc+ b² over abc+ c²over abc = 17over abc\n\nSubstituting the value of \"abc\" in the LHS, we get-\n\n⇒ frac{{{a}}}{{{{bc}}}} + frac{{{b}}}{{{{ac}}}} + frac{{{c}}}{{{{ab}}}} = -17over 12\n\n∴ **The value of the expression is -17over 12.**",
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "66a3759ae8fce85c8cf242af",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Simplify the following expression: \n\n (3.2times 3.2-0.2times 0.2)/(0.2times 0.2-2times 0.2times 3.2+3.2times 3.2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(13)/(15)"
+        },
+        {
+          "label": "2",
+          "text": "(19)/(15)"
+        },
+        {
+          "label": "3",
+          "text": "(17)/(15)"
+        },
+        {
+          "label": "4",
+          "text": "(11)/(15)"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIdentify the expression as **(a² − b²) / (a² − 2ab + b²)** where **a = 3.2** and **b = 0.2**.\n\nSimplify using identities: **(a − b)(a + b) / (a − b)²** = **(a + b) / (a − b)**.\n\nSubstitute the values: (3.2 + 0.2) / (3.2 − 0.2) = 3.4 / 3.0.\n\nConvert to a simple fraction: 34 / 30 = **17 / 15**.\n\n**∴ The correct answer is 17/15.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** Expression = (3.2 × 3.2 − 0.2 × 0.2) / (0.2 × 0.2 − 2 × 0.2 × 3.2 + 3.2 × 3.2)\n\n**Formula Used:** **a² − b² = (a − b)(a + b)** and **a² − 2ab + b² = (a − b)²**\n\n⇒ Let **a = 3.2** and **b = 0.2**.\n\n⇒ Numerator = (3.2)² − (0.2)² = (3.2 − 0.2) × (3.2 + 0.2) = 3.0 × 3.4 = 10.2.\n\n⇒ Denominator = (0.2)² − 2 × 0.2 × 3.2 + (3.2)² = (3.2 − 0.2)² = (3.0)² = 9.0.\n\n⇒ Expression Value = 10.2 / 9.0 = 102 / 90.\n\n⇒ Simplified Fraction = 17 / 15.\n\n⇒ This simplified value corresponds to **Option 3**.\n\n**∴ The correct answer is 17/15.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nDifference of Two Squares\n\nThe identity **a² − b² = (a − b)(a + b)** is used to factorize the difference of two squared terms.\n\nPerfect Square Trinomial\n\nThe expression **a² − 2ab + b²** is the expansion of the square of a difference, **(a − b)²**.\n\nBODMAS Rule\n\nAlways follow the order: **Brackets**, **Orders**, **Division/Multiplication**, and **Addition/Subtraction** for multi-step calculations.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "63b3c187025ee6f50db6b339",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If (5x + 3y)³ + (5x - 3y)³ = 10 (Cx³ + Dxy²), then find the value of 2√C - D.",
+      "options": [
+        {
+          "label": "1",
+          "text": "-19"
+        },
+        {
+          "label": "2",
+          "text": "-17"
+        },
+        {
+          "label": "3",
+          "text": "17"
+        },
+        {
+          "label": "4",
+          "text": "23"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nUsing identity: (a + b)³ + (a − b)³ = 2a(a² + 3b²)\n\nSubstitute a = 5x and b = 3y: 2(5x)((5x)² + 3(3y)²)\n\n= 10x(25x² + 27y²) = 250x³ + 270xy²\n\nComparing with 10(Cx³ + Dxy²) ⇒ C = 25, D = 27\n\n2√C − D = 2√25 − 27 = 10 − 27 = −17\n\n**∴ The correct answer is −17.**\n\n**__Alternate Method__**\n\n**Given:** (5x + 3y)³ + (5x − 3y)³ = 10(Cx³ + Dxy²)\n\n**Formula Used:** (A + B)³ + (A − B)³ = 2A³ + 6AB²\n\n⇒ Let A = 5x and B = 3y\n\n⇒ LHS = 2(5x)³ + 6(5x)(3y)²\n\n⇒ LHS = 2(125x³) + 30x(9y²)\n\n⇒ LHS = 250x³ + 270xy²\n\n⇒ 10(Cx³ + Dxy²) = 250x³ + 270xy²\n\n⇒ Cx³ + Dxy² = 25x³ + 27xy²\n\n⇒ C = 25 and D = 27\n\n⇒ Required value = 2√C − D\n\n⇒ 2√25 − 27 = 2 × 5 − 27\n\n⇒ 10 − 27 = −17\n\n**∴ The correct answer is −17.**\n\n**__Additional Information__**\n\nDifference of Cubes Expansion\n\n(a + b)³ − (a − b)³ = 2b³ + 6a²b = 2b(b² + 3a²)\n\nSum and Difference of Two Cubes\n\na³ + b³ = (a + b)(a² − ab + b²) and a³ − b³ = (a − b)(a² + ab + b²)\n\nStandard Algebraic Identity\n\n(a + b)³ = a³ + b³ + 3ab(a + b) and (a − b)³ = a³ − b³ − 3ab(a − b)</p",
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "638845b9e01cf017298d8927",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Simplify-\n\n(3×0.74×1.23×0.13)/([(0.37)³+(0.41)³-8(0.39)³])=?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-3"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "-1"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n(3×0.74×1.23×0.13)/([(0.37)³+(0.41)³-8(0.39)³])\n\n**Concept used:**\n\nIf a + b + c = 0, then a³ + b³ + c³ = 3abc\n\n**Calculation:**\n\n(3×0.74×1.23×0.13)/([(0.37)³+(0.41)³-8(0.39)³])\n\n⇒ (3×0.74×1.23×0.13)/([(0.37)³+(0.41)³-2³(0.39)³])\n\n⇒ (3×0.74×1.23×0.13)/([(0.37)³+(0.41)³-(0.78)³])\n\nNow,\n\n0.37 + 0.41 – 0.78 = 0,\n\nthen 0.37³ + 0.41³ – 0.78³ = – 3 × 0.37 × 0.41 × 0.78\n\nSo,\n\n(3×0.74×1.23×0.13)/(– 3 × 0.37 × 0.41 × 0.78)\n\n⇒ (3×2×0.37×3×0.41×0.13)/(– 3 × 0.37 × 0.41 × 0.78)\n\n⇒ (3 × 0.37 × 0.41 × 0.78)/(– 3 × 0.37 × 0.41 × 0.78)\n\n⇒ - 1\n\n**∴ The required answer is - 1.**\n\n51:T837,\n<p&g",
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "625939e2b6163050aa5b7268",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the simplified form of the following expression?\n\n{( {x - (1)/(y)} )³} + {( {x + (1)/(y)} )³}",
+      "options": [
+        {
+          "label": "1",
+          "text": "x( {{x²} - (3)/({{y²)}}} )"
+        },
+        {
+          "label": "2",
+          "text": "- 2x( {{x²} + (3)/({{y²)}}} )"
+        },
+        {
+          "label": "3",
+          "text": "2x( {{x²} - (1)/({{y²)}}} )"
+        },
+        {
+          "label": "4",
+          "text": "2x( {{x²} + (3)/({{y²)}}} )"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nUse Algebraic Identity: (a − b)³ + (a + b)³ = 2a(a² + 3b²).\n\nHere, a = x and b = 1/y.\n\nSubstitute: 2(x)[(x)² + 3(1/y)²].\n\nSimplified result: 2x(x² + 3/y²).\n\n**∴ The correct answer is 2x(x² + 3/y²).**\n\n**__Alternate Method__**\n\nGiven: (x − 1/y)³ + (x + 1/y)³\n\nFormula used: (a − b)³ = a³ − 3a²b + 3ab² − b³ and (a + b)³ = a³ + 3a²b + 3ab² + b³\n\n⇒ Expansion of (x − 1/y)³ = x³ − 3x²/y + 3x/y² − 1/y³\n\n⇒ Expansion of (x + 1/y)³ = x³ + 3x²/y + 3x/y² + 1/y³\n\n⇒ Summing both expressions: (x³ − 3x²/y + 3x/y² − 1/y³) + (x³ + 3x²/y + 3x/y² + 1/y³)\n\n⇒ Combining like terms: (x³ + x³) + (−3x²/y + 3x²/y) + (3x/y² + 3x/y²) + (−1/y³ + 1/y³)\n\n⇒ Result = 2x³ + 6x/y²\n\n⇒ Taking 2x common: 2x(x² + 3/y²)\n\n**∴ The correct answer is 2x(x² + 3/y²).**\n\n**__Additional Information__**\n\nCubic Identity (Difference)\n\n(a + b)³ − (a − b)³ = 2b(3a² + b²) = 6a²b + 2b³\n\nAlgebraic Square Identities\n\n(a + b)² + (a − b)² = 2(a² + b²) and (a + b)² − (a − b)² = 4ab\n\nSum and Difference of Cubes\n\na³ + b³ = (a + b)(a² − ab + b²) and a³ − b³ = (a − b)(a² + ab + b²)</p",
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "62abe5f34714ec7721086d7a",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If x = 6.29, y = 4.37, z = 1.92, then the value of (x³ - y³ - z³ - 3xyz)/(x + y + z) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1.92"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "4.37"
+        },
+        {
+          "label": "4",
+          "text": "2.45"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nx = 6.29, y = 4.37, z = 1.92\n\n**Formula used:**\n\n(a + b)³ = a³ + b³ + 3ab(a + b)\n\n**Calculation:**\n\nThe relation between x , y and z is,\n\nx = y + z \n\n6.29 = 4.37 + 1.92\n\n6.29 = 6.29\n\nLHS = RHS\n\nTaking Cube on both sides\n\nx³ = (y + z)³\n\nx³ = y³",
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "636755bad9530029d0fc4b37",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If ( {2x - (1)/({4x)}} ) = 8, what is the value of ( {8{x³} - (1)/({64{x³)}}} )?",
+      "options": [
+        {
+          "label": "1",
+          "text": "524"
+        },
+        {
+          "label": "2",
+          "text": "512"
+        },
+        {
+          "label": "3",
+          "text": "548"
+        },
+        {
+          "label": "4",
+          "text": "500"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n ( {2x - (1)/({4x)}} ) = 8\n\n**Formula used:**\n\na³ - b³ = (a - b)³ + 3ab(a - b)\n\n**Calculations:**\n\nAccording to the question,\n\n ( {8{x³} - (1)/({64{x³)}}} )\n\n= (2x)³ - (1/4x)³\n\n= (2x - 1/4x)³ + 3(2x)(1/4x)(2x - 1/4x)\n\n= 8³ + (3/2)(8)\n\n= 512 + 12\n\n= 524\n\n**Hence, The Required value is 524.**",
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "637496e6730279805125efdb",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the value of\n\n((2.247)³+(1.730)³+(1.023)³−3 × 2.247 × 1.730 × 1.023)/((2.247)²+(1.730)²+(1.023)²−2.247 × 1.730−1.730 × 1.023−2.247 × 1.023)",
+      "options": [
+        {
+          "label": "1",
+          "text": "1.730"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "5.247"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n((2.247)³+(1.730)³+(1.023)³−3 × 2.247 × 1.730 × 1.023)/((2.247)²+(1.730)²+(1.023)²−2.247 × 1.730−1.730 × 1.023−2.247 × 1.023)\n\n**Concept used:**\n\na³ + b³ + c³ - 3abc = (a + b + c)(a² + b² + c² - ab - bc - ca)\n\n**Calculation:**\n\n((2.247)³+(1.730)³+(1.023)³−3 × 2.247 × 1.730 × 1.023)/((2.247)²+(1.730)²+(1.023)²−2.247 × 1.730−1.730 × 1.023−2.247 × 1.023)\n\nWe know that,\n\na3 + b3 + c3 - 3abc = (a + b + c)(a2 + b2 + c2 - ab - bc - ca)\n\n⇒ (a + b + c) = (a3 + b3 + c3 - 3abc)/(a2 + b2 + c2 - ab - bc - ca) .\n\nTherefore, the required value \n\n⇒ (2.247 + 1.730 + 1.023) = 5 \n\n**∴ The required value is 5.**\n\n49:T1078,\n\n<str",
+      "tags": [
+        "Identities"
+      ]
+    }
+  ]
+}

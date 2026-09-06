@@ -1,0 +1,1196 @@
+{
+  "test_id": "69f09f040a2811a8c4973fa5",
+  "title": "Quantitative Aptitude Sectional Test - 4",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T10:04:38.188313+00:00",
+  "questions": [
+    {
+      "qid": "62f3c0cad159a59c25400eb6",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Problem on Age",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of the age of a man and his wife is 5 : 4. After 4 years, this ratio will be 11 : 9. If at the time of the marriage, the ratio was 7 : 5, then how many years ago they were married?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 years"
+        },
+        {
+          "label": "2",
+          "text": "8 years"
+        },
+        {
+          "label": "3",
+          "text": "10 years"
+        },
+        {
+          "label": "4",
+          "text": "15 years"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEquate the gap in ratios: Present = 5 : 4 → 10 : 8. Future (+4 years) = 11 : 9.\n\nChange in parts = 11 − 10 = 1 unit. So, 1 unit = 4 years.\n\nPresent ages = 10 × 4 = 40 years, and 8 × 4 = 32 years (Difference = 8 years).\n\nAt marriage, the ratio was 7 : 5 (Difference = 2 units). The age difference is always constant.\n\n2 units = 8 years ⇒ 1 unit = 4 years. Man's age at marriage = 7 × 4 = 28 years.\n\nYears since marriage = 40 − 28 = 12 years.\n\n**∴ The correct answer is 12 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPresent ratio of man and wife = 5 : 4\n\nRatio after 4 years = 11 : 9\n\nRatio at the time of marriage = 7 : 5\n\n [IMAGE: https://cdn.repeatermock.com/tb/9b1876a310343a568fdafcdfa287cbfb4b1d37e247f558eeee4ebc6c5de25036.png] \n\n**Calculations:**\n\n⇒ Let the present age of the man be 5x and the wife be 4x.\n\n⇒ After 4 years, their ages will be (5x + 4) and (4x + 4).\n\n⇒ (5x + 4) / (4x + 4) = 11 / 9\n\n⇒ 9 × (5x + 4) = 11 × (4x + 4)\n\n⇒ 45x + 36 = 44x + 44\n\n⇒ 45x − 44x = 44 − 36\n\n⇒ x = 8\n\n⇒ Present age of man = 5 × 8 = 40 years\n\n⇒ Present age of wife = 4 × 8 = 32 years\n\n⇒ Let them be married t years ago.\n\n⇒ Age of man at marriage = 40 − t\n\n⇒ Age of wife at marriage = 32 − t\n\n⇒ (40 − t) / (32 − t) = 7 / 5\n\n⇒ 5 × (40 − t) = 7 × (32 − t)\n\n⇒ 200 − 5t = 224 − 7t\n\n⇒ 7t − 5t = 224 − 200\n\n⇒ 2t = 24\n\n⇒ t = 12 years\n\n**∴ The correct answer is 12 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nConstant Age Difference\n\nThe difference between the ages of two individuals always remains constant regardless of the number of years passed.\n\nCross-Multiplication Method\n\nIt is a rapid technique to establish equivalent equations when two distinct initial quantities undergo the same or proportionate changes.\n\nProportions Rule\n\nIf four quantities are in proportion (a : b :: c : d), the product of the extremes equals the product of the means: a × d = b × c.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/9b1876a310343a568fdafcdfa287cbfb4b1d37e247f558eeee4ebc6c5de25036.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Problem on Age"
+      ]
+    },
+    {
+      "qid": "63fdac87d762d47d04e1cdef",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If a reduction of 10% in the price of rice enables a person to obtain 22 kg more for ₹250, then the original price of rice per kg is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹2.42"
+        },
+        {
+          "label": "2",
+          "text": "₹1.62"
+        },
+        {
+          "label": "3",
+          "text": "₹1.26"
+        },
+        {
+          "label": "4",
+          "text": "₹1.86"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSavings due to price reduction = 10% of ₹250 = ₹25.\n\nThis saved amount allows the purchase of the extra 22 kg at the new reduced price.\n\nNew price per kg = ₹25 ÷ 22.\n\nOriginal price per kg = New price ÷ 90% = (25 ÷ 22) × (100 ÷ 90) = 250 ÷ 198.\n\nOriginal price ≈ ₹1.26.\n\n**∴ The correct answer is ₹1.26.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal amount = ₹250\n\nReduction in price = 10%\n\nIncrease in quantity = 22 kg\n\n**Concept Used:**\n\nWhen the total expenditure remains constant, Price and Consumption (Quantity) are inversely proportional.\n\n [IMAGE: https://cdn.repeatermock.com/tb/780edb7551a9bb2e69acd85c7dab7e93ce3adcc87c2dc297091e649b22ff2367.png] \n\n**Calculations:**\n\n⇒ Price Ratio (Original : New) = 100 : 90 = 10 : 9\n\n⇒ Consumption Ratio (Original : New) = 9 : 10\n\n⇒ Increase in consumption ratio = 10 − 9 = 1 unit\n\n⇒ 1 unit = 22 kg\n\n⇒ Original Consumption = 9 units = 9 × 22 = 198 kg\n\n⇒ Original Price = Total Amount ÷ Original Consumption\n\n⇒ Original Price = 250 ÷ 198 = 1.2626... ≈ ₹1.26\n\n**∴ The correct answer is ₹1.26.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPrice and Consumption Relation\n\nWhen total expenditure remains constant, price and consumption are inversely proportional (Price × Consumption = Constant). If price ratio is a : b, consumption ratio becomes b : a.\n\nBase Change Method\n\nIf the price of a commodity decreases by x%, the consumption can be increased by (x ÷ (100 − x)) × 100% without increasing the total expenditure.\n\nSuccessive Percentage Change\n\nThe net percentage change formula is a + b + (a × b ÷ 100). This applies when multiple percentage changes occur on a base value successively.\n\n75:T7b2,<p&",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/780edb7551a9bb2e69acd85c7dab7e93ce3adcc87c2dc297091e649b22ff2367.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "64c90678acf96bd1101835c7",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The point of intersection of the graphs of the equations 12x + y - 8 = 0 and 2x + 3y + 10 = 0 lies on the graph of which of the following equations?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2x - y + 5 = 0"
+        },
+        {
+          "label": "2",
+          "text": "3x + y - 1 = 0"
+        },
+        {
+          "label": "3",
+          "text": "2x - y - 5 = 0"
+        },
+        {
+          "label": "4",
+          "text": "3x + y + 1 = 0"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSolve the two given equations quickly to find the point of intersection.\n\n12x + y = 8 and 2x + 3y = −10 ⇒ multiply the first by 3 to get 36x + 3y = 24.\n\nSubtracting the second equation: 34x = 34 ⇒ x = 1. Substituting x = 1 gives y = −4.\n\nNow check the options with the point (1, −4):\n\nOnly Option 4 satisfies the point: 3(1) + (−4) + 1 = 3 − 4 + 1 = 0.\n\n**∴ The correct answer is 3x + y + 1 = 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nEquation 1: 12x + y − 8 = 0\n\nEquation 2: 2x + 3y + 10 = 0\n\n<svg width=\"420\" h",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "64cdc9bbc5be8cf126db9a95",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A work has to be completed in 100 days, x number of men are employed but it is found that only half of the work is done in 60 days. then an additional 40 men were joined to complete the work on time. How many men were initially put to work?",
+      "options": [
+        {
+          "label": "1",
+          "text": "90"
+        },
+        {
+          "label": "2",
+          "text": "75"
+        },
+        {
+          "label": "3",
+          "text": "80"
+        },
+        {
+          "label": "4",
+          "text": "70"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUsing the M₁D₁ = M₂D₂ concept (since work done is equal: half and half):\n\nM₁ = x, D₁ = 60, M₂ = x + 40, D₂ = 40 (remaining days)\n\nx × 60 = (x + 40) × 40\n\n3x = 2x + 80 ⇒ x = 80\n\n**∴ The correct answer is 80 men.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal time given to complete the work = 100 days\n\nInitial number of men (M₁) = x\n\nDays worked initially (D₁) = 60 days\n\nWork completed (W₁) = 1/2\n\nRemaining days (D₂) = 100 − 60 = 40 days\n\nRemaining work (W₂) = 1 − 1/2 = 1/2\n\nNew number of men (M₂) = x + 40\n\n**Formula Used:**\n\n(M₁ × D₁) / W₁ = (M₂ × D₂) / W₂\n\n**Calculations:**\n\n⇒ (x × 60) / (1/2) = ((x + 40) × 40) / (1/2)\n\n⇒ x × 60 = (x + 40) × 40\n\n⇒ 60x = 40x + 1600\n\n⇒ 20x = 1600\n\n⇒ x = 80\n\n**∴ The correct answer is 80 men.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nChain Rule (MDH Formula)\n\nThe relationship between Men (M), Days (D), Hours (H), and Work (W) is given by (M₁ × D₁ × H₁) / W₁ = (M₂ × D₂ × H₂) / W₂.\n\nWork and Efficiency\n\nEfficiency is inversely proportional to the time taken. Total Work = Efficiency × Time.\n\nWork and Wages\n\nWages are distributed in direct proportion to the amount of work done by each individual.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "622a30d0fd4eabb367f8cb9e",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The theater club meets at the school auditorium every 28 days, and the poetry club meets at the same place every 20 days. If both groups are at the auditorium today. In how many days will they next have to share the auditorium?",
+      "options": [
+        {
+          "label": "1",
+          "text": "76 days"
+        },
+        {
+          "label": "2",
+          "text": "56 days"
+        },
+        {
+          "label": "3",
+          "text": "140 days"
+        },
+        {
+          "label": "4",
+          "text": "14 days"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe time when both clubs will next meet together is the Least Common Multiple (LCM) of their individual meeting intervals.\n\nRequired days = LCM of 28 and 20.\n\nSince 28 = 4 × 7 and 20 = 4 × 5, their LCM is 4 × 5 × 7 = 140.\n\n**∴ The correct answer is 140 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nMeeting interval of the theater club = 28 days\n\nMeeting interval of the poetry club = 20 days\n\n**Concept Used:**\n\nTo find the next common meeting day for events that repeat at different intervals, we calculate the Least Common Multiple (LCM) of those intervals.\n\n**Calculations:**\n\n⇒ Prime factorization of 28 = 2 × 2 × 7 = 2² × 7\n\n⇒ Prime factorization of 20 = 2 × 2 × 5 = 2² × 5\n\n⇒ The LCM is determined by multiplying the highest powers of all prime factors present.\n\n⇒ LCM(28, 20) = 2² × 5 × 7\n\n⇒ LCM(28, 20) = 4 × 5 × 7\n\n⇒ LCM(28, 20) = 140\n\n**∴ The correct answer is 140 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nLCM (Least Common Multiple)\n\nThe smallest positive integer that is exactly divisible by every member of a set of numbers. It is highly useful in synchronisation and repeating event problems.\n\nHCF (Highest Common Factor)\n\nThe largest positive integer that divides two or more numbers without leaving a remainder. It is used to divide different quantities into equal, maximum possible groupings.\n\nLCM and HCF Relationship\n\nFor any two given numbers a and b, the product of the numbers is equal to the product of their HCF and LCM: a × b = LCM(a, b) × HCF(a, b).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "624d5faedd730e7898d6ccf5",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "​ x is the smallest number of 5-digits which when divided by 10, 15, 24, 35 and 42, leaves a remainder 7 in each case.\n\nThe sum of the digits of x is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "19"
+        },
+        {
+          "label": "3",
+          "text": "13"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLCM of the divisors (10, 15, 24, 35, 42) = 840.\n\nThe smallest 5-digit number is 10000.\n\nSmallest 5-digit multiple of 840 = 10000 + (840 − 760) = 10080.\n\nSince the remainder is 7 in each case, the required number x = 10080 + 7 = 10087.\n\nSum of the digits = 1 + 0 + 0 + 8 + 7 = 16.\n\n**∴ The correct answer is 16.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nThe divisors are 10, 15, 24, 35, and 42.\n\nThe remainder in each case is 7.\n\nThe number x is the smallest 5-digit number satisfying this condition.\n\n**Formula Used:**\n\nRequired Number = (Multiple of LCM of given divisors) + Remainder\n\n**Calculation:**\n\n⇒ First, find the prime factorization of each divisor:\n\n⇒ 10 = 2 × 5\n\n⇒ 15 = 3 × 5\n\n⇒ 24 = 2³ × 3\n\n⇒ 35 = 5 × 7\n\n⇒ 42 = 2 × 3 × 7\n\n⇒ LCM(10, 15, 24, 35, 42) = 2³ × 3 × 5 × 7 = 840\n\n⇒ The smallest 5-digit number is 10000.\n\n⇒ Now, divide 10000 by 840 to find the nearest multiple:\n\n⇒ 10000 ÷ 840 gives a quotient of 11 and a remainder of 760.\n\n⇒ The smallest 5-digit multiple of 840 = 10000 + (840 − 760) = 10080.\n\n⇒ To get a remainder of 7 when divided by the given numbers, add 7 to this multiple.\n\n⇒ x = 10080 + 7 = 10087\n\n⇒ Sum of the digits of x = 1 + 0 + 0 + 8 + 7 = 16\n\n**∴ The correct answer is 16.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nLCM and Remainder Concept (Same Remainder)\n\nWhen a number is divided by a, b, and c leaving the same remainder r in each case, the required number is of the general form: k × LCM(a, b, c) + r (where k is a positive integer).\n\nLCM and Remainder Concept (Different Remainders)\n\nWhen a number divided by a, b, and c leaves remainders p, q, and s respectively, such that the difference between the divisor and remainder is constant i.e., (a − p) = (b − q) = (c − s) = d, the required number is of the form: k × LCM(a, b, c) − d.\n\nHighest Common Factor (HCF) Rules\n\nTo find the greatest number that will divide x, y, and z leaving remainders a, b, and c respectively, find the HCF of (x − a), (y − b), and (z − c).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "630f30795c86f3fbc12ff3b4",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A man bought some mangoes at Rs. 12 per dozen and bought the same number of mangoes at Rs. 10 per dozen. He sold these mangoes at Rs. 13 per dozen and gained Rs. 160. The total number of mangoes bought by him was:",
+      "options": [
+        {
+          "label": "1",
+          "text": "60 dozens"
+        },
+        {
+          "label": "2",
+          "text": "70 dozens"
+        },
+        {
+          "label": "3",
+          "text": "80 dozens"
+        },
+        {
+          "label": "4",
+          "text": "90 dozens"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nSince equal quantities are bought, Average CP per dozen = (12 + 10) ÷ 2 = ₹11.\n\nSelling Price (SP) per dozen = ₹13.\n\nProfit per dozen = 13 − 11 = ₹2.\n\nTotal Quantity Bought = Total Profit ÷ Profit per dozen = 160 ÷ 2 = 80 dozens.\n\n**∴ The correct answer is 80 dozens.**\n\n**__Alternate Method__**\n\n**Given:**\n\nCP of first type of mangoes = ₹12 per dozen\n\nCP of second type of mangoes = ₹10 per dozen\n\nSP of all mangoes combined = ₹13 per dozen\n\nTotal overall Profit = ₹160\n\n [IMAGE: https://cdn.repeatermock.com/tb/8d4bef730df0fa5303c2cbdb06c4a3d706c80f86950bc1e1b378a1ec8c049208.png] \n\n**Calculations:**\n\n⇒ Let the number of dozens of each type of mangoes bought be x.\n\n⇒ Total quantity of mangoes bought = x + x = 2x dozens.\n\n⇒ Total Cost Price (CP) = (12 × x) + (10 × x) = 22x.\n\n⇒ Total Selling Price (SP) of all 2x dozens = 13 × 2x = 26x.\n\n⇒ Profit = Total SP − Total CP = 26x − 22x = 4x.\n\n⇒ Given that Total Profit = 160.\n\n⇒ 4x = 160\n\n⇒ x = 40.\n\n⇒ Total number of mangoes bought = 2x = 2 × 40 = 80 dozens.\n\n**∴ The correct answer is 80 dozens.**\n\n**__Additional Information__**\n\nAverage Cost Price\n\nWhen equal quantities of two items are bought at different prices per unit, the average cost price is the simple arithmetic mean of the two individual prices.\n\nProfit Percentage\n\nProfit percentage is always calculated on the total Cost Price unless mentioned otherwise. Formula: Profit % = (Profit ÷ CP) × 100.\n\nOverall Gain or Loss\n\nWhen two articles are sold at the same selling price, one at a profit of x% and the other at a loss of x%, there is always an overall loss given by x² ÷ 100 %.\n\n5f:Te38,",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/8d4bef730df0fa5303c2cbdb06c4a3d706c80f86950bc1e1b378a1ec8c049208.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "632a9e42bf5b0fe238dd5ad1",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a business, three friends Rina, Mina and Tina invest their capital in the ratio of (1)/(3):(1)/(4):(1)/(16). If the difference in the profit earned by Rina and Tina is Rs. 10101, then find the profit earned by Mina. (in Rs.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 9324"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 777"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 13324"
+        },
+        {
+          "label": "4",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nMultiply the profit ratio 1/3 : 1/4 : 1/16 by their LCM 48 to convert it to integers.\n\nSimplified profit ratio of Rina, Mina, and Tina = 16 : 12 : 3.\n\nDifference in ratio units between Rina and Tina = 16 − 3 = 13 units.\n\n13 units = 10101 ⇒ 1 unit = 777.\n\nMina's profit = 12 units = 12 × 777 = 9324.\n\n**∴ The correct answer is Rs. 9324.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInvestment ratio of Rina, Mina, and Tina = 1/3 : 1/4 : 1/16\n\nDifference in profit of Rina and Tina = Rs. 10101\n\n**Formula Used:**\n\nProfit Ratio = Investment Ratio (when time periods are equal)\n\n [IMAGE: https://cdn.repeatermock.com/tb/ae523acc8b299477423caef1ab5dc5234320b0b93fb76d39096e6564afbc6dc2.png] \n\n**Calculations:**\n\n⇒ LCM of the denominators (3, 4, 16) = 48\n\n⇒ Multiplying the investment ratio by 48\n\n⇒ Rina : Mina : Tina = (1/3) × 48 : (1/4) × 48 : (1/16) × 48\n\n⇒ Profit Ratio = 16 : 12 : 3\n\n⇒ Let the profits of Rina, Mina, and Tina be 16x, 12x, and 3x respectively.\n\n⇒ Difference between Rina's and Tina's profit = 16x − 3x\n\n⇒ 13x = 10101\n\n⇒ x = 10101 ÷ 13\n\n⇒ x = 777\n\n⇒ Mina's profit = 12x\n\n⇒ Mina's profit = 12 × 777 = 9324\n\n**∴ The correct answer is Rs. 9324.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Partnership\n\nWhen investments are made for the same time period, the profit is distributed entirely in the ratio of the capitals invested: Profit Ratio = C₁ : C₂ : C₃.\n\nCompound Partnership\n\nWhen investments are made for different time periods, the profit is distributed based on the product of the capital and time: Profit Ratio = (C₁ × T₁) : (C₂ × T₂).\n\nWorking Partner vs Sleeping Partner\n\nA working partner receives a specific salary or fixed percentage from the total profit for actively managing the business. The remaining profit is then divided among all partners in their standard investment ratio.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ae523acc8b299477423caef1ab5dc5234320b0b93fb76d39096e6564afbc6dc2.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "636dd98399350085c72fadaa",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the first 10 overs of a cricket game, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to reach the target of 282 runs?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6.25"
+        },
+        {
+          "label": "2",
+          "text": "6.5"
+        },
+        {
+          "label": "3",
+          "text": "6.75"
+        },
+        {
+          "label": "4",
+          "text": "7"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal target = 282 runs\n\nRuns scored in first 10 overs = 10 × 3.2 = 32 runs\n\nRemaining runs to score = 282 − 32 = 250 runs\n\nRequired run rate for the remaining 40 overs = 250 ÷ 40 = 6.25\n\n**∴ The correct answer is 6.25 runs per over.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTarget score = 282 runs\n\nInitial overs = 10\n\nInitial run rate = 3.2\n\nRemaining overs = 40\n\n**Formula Used:**\n\nTotal Runs = Overs × Run Rate\n\nRequired Run Rate = Remaining Runs ÷ Remaining Overs\n\n \n• \n \n• \n \n• \n Total Target = 282 runs (50 overs)\n\n \n 10 Overs\n 32 runs\n\n \n Remaining 40 Overs\n 250 runs\n\n RR: 3.2\n Req. RR = 250 ÷ 40 = 6.25\n\n**Calculations:**\n\n⇒ Runs scored in first 10 overs = 10 × 3.2 = 32 runs\n\n⇒ Remaining runs = Total target − Runs scored\n\n⇒ Remaining runs = 282 − 32 = 250 runs\n\n⇒ Required run rate = 250 ÷ 40\n\n⇒ Required run rate = 6.25\n\n**∴ The correct answer is 6.25 runs per over.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRun Rate\n\nRun rate is defined as the average number of runs a team scores per over. It is calculated as: Run Rate = Total Runs ÷ Total Overs.\n\nRequired Run Rate\n\nIt is the runs per over needed to win a match during a run chase. Required Run Rate = (Target − Current Score) ÷ Remaining Overs.\n\nWeighted Average Formula\n\nIf an innings is divided into multiple phases, the overall run rate can be found using: Combined average = (Overs₁ × RR₁ + Overs₂ × RR₂) ÷ Total Overs.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "642ecee3379844988e4d1d34",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the radius of the circle is 42 cm and the angle formed at the centre by an arc is 150°. What is the length of the corresponding arc ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "66 cm"
+        },
+        {
+          "label": "2",
+          "text": "77 cm"
+        },
+        {
+          "label": "3",
+          "text": "110 cm"
+        },
+        {
+          "label": "4",
+          "text": "55 cm"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe length of an arc is a direct fraction of the circle's total circumference.\n\nFraction of the circle = 150° ÷ 360° = 5/12\n\nTotal circumference = 2 × (22/7) × 42 = 264 cm\n\nLength of the arc = (5/12) × 264 = 110 cm\n\n**∴ The correct answer is 110 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n \n \n\n \n\n \n\n \n 150°\n r = 42 cm\n L = ?\n \n \n O\n\n**Given:**\n\nRadius of the circle (r) = 42 cm\n\nAngle formed by the arc at the centre (θ) = 150°\n\n**Formula Used:**\n\nLength of arc = (θ ÷ 360°) × 2πr\n\n**Calculation:**\n\n⇒ Length of arc = (150° ÷ 360°) × 2 × (22 / 7) × 42\n\n⇒ Length of arc = (5 / 12) × 2 × 22 × 6\n\n⇒ Length of arc = (5 / 12) × 264\n\n⇒ Length of arc = 5 × 22\n\n⇒ Length of arc = 110 cm\n\n**∴ The correct answer is 110 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nArea of a Sector\n\nThe area enclosed by an arc and two radii is called a sector. It is calculated using the formula: Area = (θ ÷ 360°) × πr².\n\nCircumference of a Circle\n\nThe total perimeter or boundary length of a complete circle is known as its circumference, given by the formula 2πr.\n\nArc vs Chord\n\nAn arc is a curved, continuous segment of the circle's outer edge, whereas a chord is a straight line drawn inside the circle connecting two points on its circumference.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "649b0521e47a069dd33aa86e",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A and B together can complete a work in 8 days while B and C together can complete it in 12 days. A worked for 4 days, B worked for 6 days and then C finishes the remaining work in 11 days. In what time C alone can complete the work?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11 days"
+        },
+        {
+          "label": "2",
+          "text": "17 days"
+        },
+        {
+          "label": "3",
+          "text": "27 days"
+        },
+        {
+          "label": "4",
+          "text": "18 days"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal work = LCM(8, 12) = 24 units.\n\nEfficiency of (A + B) = 3 units/day, and (B + C) = 2 units/day.\n\nTotal work done: 4A + 6B + 11C = 4(A + B) + 2(B + C) + 9C = 24\n\n⇒ 4(3) + 2(2) + 9C = 24 ⇒ 16 + 9C = 24 ⇒ C = 8/9 units/day.\n\nTime for C alone = 24 ÷ (8/9) = 27 days.\n\n**∴ The correct answer is 27 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTime taken by (A + B) together = 8 days\n\nTime taken by (B + C) together = 12 days\n\nA worked for 4 days, B worked for 6 days, and C finishes the remaining work in 11 days.\n\n**Formula Used:**\n\nTotal Work = LCM of given days\n\nEfficiency = Total Work ÷ Time\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n A + B\n 8\n 24\n 3\n \n \n\n B + C\n 12\n 2\n \n \n\n**Calculations:**\n\nLet the daily efficiency of A, B, and C be A, B, and C units respectively.\n\n⇒ Total work done = 4A + 6B + 11C = 24\n\nWe can rewrite the equation by splitting the terms to match the known combined efficiencies:\n\n⇒ 4A + 4B + 2B + 2C + 9C = 24\n\n⇒ 4(A + B) + 2(B + C) + 9C = 24\n\nSubstitute the efficiencies of (A + B) and (B + C) from the table:\n\n⇒ 4 × 3 + 2 × 2 + 9C = 24\n\n⇒ 12 + 4 + 9C = 24\n\n⇒ 16 + 9C = 24\n\n⇒ 9C = 24 − 16\n\n⇒ 9C = 8\n\n⇒ C = 8/9 units/day\n\nNow, calculate the total time C alone will take to complete the total work:\n\n⇒ Time taken by C = Total Work ÷ Efficiency of C\n\n⇒ Time taken by C = 24 ÷ (8/9)\n\n⇒ Time taken by C = (24 × 9) ÷ 8\n\n⇒ Time taken by C = 3 × 9 = 27 days\n\n**∴ The correct answer is 27 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPipes & Cisterns\n\nConceptually identical to Time & Work. Inlet pipes have positive efficiency (filling work) while outlet pipes have negative efficiency (emptying work).\n\nWork & Wages\n\nWages are strictly distributed in the ratio of the actual total work done by each individual, not merely based on their time spent or efficiency alone.\n\nAlternate Days Work\n\nCalculate the combined work done in one complete rotation cycle (e.g., 2 days for 2 people) and multiply by an integer to reach closest to the total work.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6255b89051a4c76d700aad8b",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A train X takes 2 hours less than a train Y to cover a distance of 192 km between two cities. Their average speeds differ by 16 km/hr. How long does the faster train take to cover the journey?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 hours"
+        },
+        {
+          "label": "2",
+          "text": "4 hours"
+        },
+        {
+          "label": "3",
+          "text": "5 hours"
+        },
+        {
+          "label": "4",
+          "text": "6 hours"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor such questions, the fastest method is checking the options to satisfy the given condition.\n\nLet T be the time taken by the faster train, so the slower train takes (T + 2) hours.\n\nDifference in speeds = 192/T − 192/(T + 2) = 16.\n\nCheck T = 4 hours from Option 2: Speeds are 192/4 = 48 km/hr and 192/6 = 32 km/hr.\n\nDifference = 48 − 32 = 16 km/hr, which perfectly satisfies the condition.\n\n**∴ The correct answer is 4 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDistance between the two cities = 192 km\n\nTime difference between trains X and Y = 2 hours\n\nSpeed difference between trains X and Y = 16 km/hr\n\n [IMAGE: https://cdn.repeatermock.com/tb/fef8951a13a7dd054582caf52d9d5cf195b8765ba5e985b9e516d1da34aac931.png] \n\n**Formula Used:**\n\nSpeed = Distance ÷ Time\n\n**Calculations:**\n\nLet the time taken by the faster train (Train X) be T hours.\n\nThen, the time taken by the slower train (Train Y) = (T + 2) hours.\n\n⇒ Speed of the faster train = 192 / T km/hr\n\n⇒ Speed of the slower train = 192 / (T + 2) km/hr\n\nAccording to the given condition, the difference in speeds is 16 km/hr:\n\n⇒ 192/T − 192/(T + 2) = 16\n\nDividing the entire equation by 16:\n\n⇒ 12/T − 12/(T + 2) = 1\n\n⇒ [12(T + 2) − 12T] ÷ [T(T + 2)] = 1\n\n⇒ 24 ÷ (T² + 2T) = 1\n\n⇒ T² + 2T = 24\n\n⇒ T² + 2T − 24 = 0\n\n⇒ T² + 6T − 4T − 24 = 0\n\n⇒ T(T + 6) − 4(T + 6) = 0\n\n⇒ (T − 4)(T + 6) = 0\n\nSince time cannot be negative, T = 4 hours.\n\n**∴ The correct answer is 4 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRelative Speed\n\nWhen two bodies are moving in the same direction, Relative Speed = |S₁ − S₂|. When moving in opposite directions, Relative Speed = S₁ + S₂.\n\nAverage Speed\n\nAverage Speed is the total distance traveled divided by the total time taken. For two equal distances covered at speeds S₁ and S₂, Average Speed = (2 × S₁ × S₂) ÷ (S₁ + S₂).\n\nUnit Conversion\n\nTo convert km/hr to m/s, multiply the speed by 5/18. To convert m/s to km/hr, multiply by 18/5.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/fef8951a13a7dd054582caf52d9d5cf195b8765ba5e985b9e516d1da34aac931.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "6329cf896302464dc31e496f",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A bird makes a depression of 30° with a person standing on the ground. After flying 60 meters, at the same height, the angle of depression becomes 60°. At what height is bird flying?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30√ 3"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "60√ 3"
+        },
+        {
+          "label": "4",
+          "text": "60"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen the angle of elevation/depression of an object at a constant height (h) changes from 30° to 60°, the relation between height (h) and horizontal distance covered (d) is:\n\nh = d × √3 ÷ 2\n\nGiven distance, d = 60 m.\n\nHeight, h = 60 × √3 ÷ 2 = 30√3\n\n**∴ The correct answer is 30√3 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/713c958fe0fbf3e2f13e07c208534469320b432274058a3181fe00d299df8ed9.png] \n\nGiven:\n\nDistance covered by the bird, AB = 60 m.\n\nInitial angle of depression from A = 30°.\n\nFinal angle of depression from B = 60°.\n\nLet the height of the bird be h meters and the distance OB' be x meters.\n\nSince the bird flies at the same height, AA' = BB' = h.\n\nFrom the alternate interior angles, the angles of elevation from O are 30° and 60° respectively.\n\nIn right-angled ΔOB'B:\n\n⇒ tan(60°) = BB' ÷ OB'\n\n⇒ √3 = h ÷ x\n\n⇒ x = h ÷ √3 ... (Equation 1)\n\nIn right-angled ΔOA'A:\n\n⇒ tan(30°) = AA' ÷ OA'\n\n⇒ 1 ÷ √3 = h ÷ (x + 60)\n\n⇒ x + 60 = h√3\n\nSubstitute the value of x from Equation 1:\n\n⇒ (h ÷ √3) + 60 = h√3\n\n⇒ 60 = h√3 − (h ÷ √3)\n\n⇒ 60 = (3h − h) ÷ √3\n\n⇒ 60 = 2h ÷ √3\n\n⇒ 60√3 = 2h\n\n⇒ h = 30√3\n\n**∴ The correct answer is 30√3 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAngle of Elevation and Depression\n\nThe angle of elevation is the angle formed by the line of sight with the horizontal when viewing an upward object. The angle of depression is the angle formed when viewing a downward object. They are alternate interior angles and are equal.\n\nDistance covered between 45° and 60°\n\nWhen the angle changes from 45° to 60° while moving towards an object of height h, the distance covered is given by d = h(1 − 1÷√3).\n\nDistance covered between 30° and 45°\n\nWhen the angle changes from 30° to 45° while moving towards an object of height h, the distance covered is given by d = h(√3 − 1).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/713c958fe0fbf3e2f13e07c208534469320b432274058a3181fe00d299df8ed9.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6374e2fb84894e9b59f89623",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Floor of a room measures 4.5 metres × 3 metres. Find the minimum number of complete square marble slabs of equal size required to cover the entire floor.",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTo find the minimum number of square slabs, we need the maximum possible size for each slab.\n\nSide of the largest square slab = HCF(4.5 m, 3 m) = 1.5 m\n\nNumber of slabs = (Length ÷ Side) × (Breadth ÷ Side)\n\n⇒ Total slabs = (4.5 ÷ 1.5) × (3 ÷ 1.5) = 3 × 2 = 6\n\n**∴ The correct answer is 6 slabs.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nLength of the floor (L) = 4.5 m = 450 cm\n\nBreadth of the floor (B) = 3 m = 300 cm\n\n**Concept Used:**\n\nTo find the minimum number of square slabs, the area of each square slab must be at its maximum.\n\nThe maximum side of a square slab that can perfectly fit the dimensions is the Highest Common Factor (HCF) of the floor's length and breadth.\n\n [IMAGE: https://cdn.repeatermock.com/tb/b7001839f2d721a977d84f176561c48050a538fad29bc250075e6c13eb9f0d64.png] \n\n**Calculation:**\n\n⇒ Side of the maximum square slab = HCF(450 cm, 300 cm)\n\n⇒ HCF of 450 and 300 = 150 cm = 1.5 m\n\n⇒ Area of the floor = Length × Breadth = 4.5 m × 3 m = 13.5 m²\n\n⇒ Area of one square slab = Side × Side = 1.5 m × 1.5 m = 2.25 m²\n\n⇒ Minimum number of slabs required = Area of the floor ÷ Area of one square slab\n\n⇒ Number of slabs = 13.5 ÷ 2.25 = 6\n\n**∴ The correct answer is 6 slabs.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMinimum Tiles Required\n\nTo minimise the number of tiles needed to cover a rectangular area, the tiles used must be as large as possible. The maximum possible side length of a square tile is mathematically equal to the HCF of the length and breadth of the floor.\n\nNumber of Tiles Formula\n\nTotal number of tiles = (Area of Floor) ÷ (Area of one Tile). Alternatively, it is the product of the number of tiles fitted along the length and the breadth independently.\n\nGreatest Possible Length\n\nWhen asked to find the greatest possible length that can be used to measure exactly two or more given lengths, always find the Highest Common Factor (HCF) of those dimensions.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b7001839f2d721a977d84f176561c48050a538fad29bc250075e6c13eb9f0d64.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "62094d93f6d6b2181505e20d",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A man lent out ₹14,000 at 5% and ₹19,000 at 6% simple interest per annum. His total income (in ₹) from the interest in 3 years is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3,420"
+        },
+        {
+          "label": "2",
+          "text": "2,100"
+        },
+        {
+          "label": "3",
+          "text": "5,445"
+        },
+        {
+          "label": "4",
+          "text": "5,520"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal Simple Interest = (P₁ × effective rate 1) + (P₂ × effective rate 2)\n\nEffective Rate = Rate × Time\n\nTotal Interest = (14000 × 15%) + (19000 × 18%)\n\nTotal Interest = 2100 + 3420 = 5520\n\n**∴ The correct answer is ₹5,520.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPrincipal 1 (P₁) = ₹14,000, Rate 1 (R₁) = 5%, Time (T) = 3 years\n\nPrincipal 2 (P₂) = ₹19,000, Rate 2 (R₂) = 6%, Time (T) = 3 years\n\n**Formula Used:**\n\nSimple Interest (SI) = (P × R × T) ÷ 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/c6b38849eb7537aaee3f625f076f630ce22661a3f277efb1397ac53e379d2dd3.png] \n\n**Calculations:**\n\n⇒ SI₁ = (14000 × 5 × 3) ÷ 100 = 140 × 15 = ₹2100\n\n⇒ SI₂ = (19000 × 6 × 3) ÷ 100 = 190 × 18 = ₹3420\n\n⇒ Total Interest = SI₁ + SI₂\n\n⇒ Total Interest = 2100 + 3420 = ₹5520\n\n**∴ The correct answer is ₹5,520.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTotal Amount Formula\n\nThe total amount (A) after T years is given by A = P + SI = P × [1 + (R × T) ÷ 100].\n\nSimple vs Compound Interest\n\nIn Simple Interest, the interest is calculated only on the initial principal. In Compound Interest, interest is calculated on both principal and the accumulated interest of previous periods.\n\nEffective Rate Method\n\nFor Simple Interest, the effective rate for T years is simply R × T%. Here, 5% for 3 years becomes a 15% flat interest rate on the principal.\n\n32:T910,\n<",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c6b38849eb7537aaee3f625f076f630ce22661a3f277efb1397ac53e379d2dd3.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "62175eeb2cf894aaa8b4ff13",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sells his goods 20% cheaper than B and 20% dearer than C. How much percentage is C‟s goods cheaper / dearer than B.",
+      "options": [
+        {
+          "label": "1",
+          "text": "33.33%"
+        },
+        {
+          "label": "2",
+          "text": "50%"
+        },
+        {
+          "label": "3",
+          "text": "45.85%"
+        },
+        {
+          "label": "4",
+          "text": "None of these"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet the price of A's goods be 120 units (chosen as a multiple of 12 and 8 for easy division).\n\nPrice of B's goods = 120 ÷ 0.8 = 150 units.\n\nPrice of C's goods = 120 ÷ 1.2 = 100 units.\n\nDifference between B and C = 150 − 100 = 50 units.\n\nRequired percentage = (50 ÷ 150) × 100 = 33.33%.\n\n**∴ The correct answer is 33.33%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nA's goods are 20% cheaper than B's goods.\n\nA's goods are 20% dearer than C's goods.\n\n [IMAGE: https://cdn.repeatermock.com/tb/3964c62bf512db8437c06891c14cecc21ec88c8407c02dd3e966c192e0dac1b7.png] \n\n**Calculations:**\n\n⇒ Price of A = Price of B − 20% of B\n\n⇒ A = 0.8 × B\n\n⇒ Price of A = Price of C + 20% of C\n\n⇒ A = 1.2 × C\n\n⇒ Equating both values of A, we get:\n\n⇒ 0.8 × B = 1.2 × C\n\n⇒ B / C = 1.2 / 0.8\n\n⇒ B / C = 3 / 2\n\n⇒ Let B = 3x and C = 2x.\n\n⇒ Difference in price = 3x − 2x = x\n\n⇒ Percentage by which C is cheaper than B = (Difference ÷ Base value) × 100\n\n⇒ Required Percentage = (x ÷ 3x) × 100\n\n⇒ Required Percentage = (1 ÷ 3) × 100 = 33.33%\n\n**∴ The correct answer is 33.33%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPercentage Change Comparison\n\nIf X is P% more than Y, then Y is less than X by [P / (100 + P)] × 100%. If X is P% less than Y, then Y is more than X by [P / (100 − P)] × 100%.\n\nChoosing the Correct Base\n\nIn statements like \"C is cheaper than B\", the word 'than' indicates the base value. Hence, the denominator for calculating percentage will always be B's value.\n\nRatio Method\n\nWhen relating multiple variables, using ratios reduces calculations significantly by eliminating variables and avoiding complex decimal calculations.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3964c62bf512db8437c06891c14cecc21ec88c8407c02dd3e966c192e0dac1b7.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "62398e87e92edd4b47f2bfb9",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "An aeroplane covers a distance at a speed of 190 km/h in 7 hours. To cover the distance in 4(3)/(4) hours, it must travel at a speed (in km/h) of:",
+      "options": [
+        {
+          "label": "1",
+          "text": "300"
+        },
+        {
+          "label": "2",
+          "text": "240"
+        },
+        {
+          "label": "3",
+          "text": "280"
+        },
+        {
+          "label": "4",
+          "text": "275"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nWhen distance is constant, Speed ∝ 1 / Time\n\nRatio of Time = T₁ : T₂ = 7 : 19/4 = 28 : 19\n\nRatio of Speed = S₁ : S₂ = 19 : 28\n\nGiven 19 units = 190 km/h ⇒ 1 unit = 10 km/h\n\nRequired Speed = 28 units = 280 km/h\n\n**∴ The correct answer is 280 km/h.**\n\n**__Alternate Method__**\n\n**Given:**\n\nInitial speed = 190 km/h\n\nInitial time = 7 hours\n\nNew time = 4(3/4) hours = 19/4 hours\n\n**Formula Used:**\n\nDistance = Speed × Time\n\nNew Speed = Total Distance ÷ New Time\n\n [IMAGE: https://cdn.repeatermock.com/tb/3aec8f6505c48531e21d4f90d7372f35af499997087a30dcf564dd02bbf7b547.png] \n\n**Calculations:**\n\n⇒ Total Distance = 190 × 7 = 1330 km\n\n⇒ New Speed = Total Distance ÷ New Time\n\n⇒ New Speed = 1330 ÷ (19/4)\n\n⇒ New Speed = 1330 × (4 / 19)\n\n⇒ New Speed = 70 × 4 = 280 km/h\n\n**∴ The correct answer is 280 km/h.**\n\n**__Additional Information__**\n\nSpeed, Distance & Time Relationship\n\nDistance = Speed × Time. For a constant distance, speed is inversely proportional to time (S ∝ 1 / T).\n\nUnit Conversions\n\nTo convert km/h to m/s, multiply by 5/18. To convert m/s to km/h, multiply by 18/5.\n\nAverage Speed\n\nAverage Speed = Total Distance ÷ Total Time. If two equal distances are covered at speeds a and b, Average Speed = (2ab) ÷ (a + b).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/3aec8f6505c48531e21d4f90d7372f35af499997087a30dcf564dd02bbf7b547.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "63675f544ca242f86ee1f419",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The LCM of (2)/(3), (6)/(5),(5)/(4) is :",
+      "options": [
+        {
+          "label": "1",
+          "text": "25"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "(1)/(60)"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLCM of fractions = LCM of Numerators ÷ HCF of Denominators.\n\nNumerators: 2, 6, 5 → LCM = 30\n\nDenominators: 3, 5, 4 → HCF = 1 (since they share no common factors)\n\nLCM = 30 ÷ 1 = 30\n\n**∴ The correct answer is 30.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nThe fractions are 2/3, 6/5, and 5/4.\n\n**Formula Used:**\n\nLCM of Fractions = LCM of Numerators ÷ HCF of Denominators\n\n**Calculations:**\n\n⇒ The numerators are 2, 6, and 5.\n\n⇒ Multiples of 6 are 6, 12, 18, 24, 30... (30 is the lowest multiple divisible by both 2 and 5).\n\n⇒ LCM of (2, 6, 5) = 30\n\n⇒ The denominators are 3, 5, and 4.\n\n⇒ The factors of 3 are 1 and 3; the factors of 5 are 1 and 5; the factors of 4 are 1, 2, and 4.\n\n⇒ The only common factor is 1, so the HCF of (3, 5, 4) = 1.\n\n⇒ LCM of the given fractions = 30 ÷ 1 = 30\n\n**∴ The correct answer is 30.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nHCF of Fractions\n\nThe formula to find the Highest Common Factor (HCF) of fractions is: HCF of Numerators ÷ LCM of Denominators.\n\nCo-prime Numbers\n\nTwo numbers are called co-prime if they do not have any common factor other than 1. Their HCF is always 1.\n\nRelationship between LCM and HCF\n\nFor any two natural numbers 'a' and 'b', the product of the numbers is equal to the product of their LCM and HCF: a × b = LCM × HCF.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "66055a74beec831e7b9f5a76",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "When the article sold at the rate of Rs.3753 earned a proﬁt of 11% more than that of the loss incurred when the same article sold at the rate of Rs.1432. Find the Cost price of the article.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs.2325"
+        },
+        {
+          "label": "2",
+          "text": "Rs.2532"
+        },
+        {
+          "label": "3",
+          "text": "Rs.2523"
+        },
+        {
+          "label": "4",
+          "text": "Rs.2352"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of Loss to Profit = 100 : 111\n\nTotal difference in SP = 3753 − 1432 = 2321\n\nSum of ratio parts = 100 + 111 = 211 units\n\nValue of 1 unit = 2321 ÷ 211 = 11\n\nLoss = 100 units × 11 = ₹1100\n\nCost Price = Lower SP + Loss = 1432 + 1100 = ₹2532\n\n**∴ The correct answer is ₹2532.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSelling Price 1 (SP₁) = ₹3753 (Profit is earned)\n\nSelling Price 2 (SP₂) = ₹1432 (Loss is incurred)\n\nProfit at SP₁ is 11% more than the loss at SP₂.\n\n [IMAGE: https://cdn.repeatermock.com/tb/26649871804afd2a39f2ef6fe2df818dca44fd7d55ce4bb0f18a64937614850c.png] \n\n**Calculations:**\n\n⇒ Let the Loss incurred at SP₂ be 100x.\n\n⇒ Profit = 100x + 11% of 100x = 111x\n\n⇒ Difference in Selling Prices = SP₁ − SP₂\n\n⇒ Difference = 3753 − 1432 = 2321\n\n⇒ Also, Difference in Selling Prices = Profit + Loss\n\n⇒ 111x + 100x = 2321\n\n⇒ 211x = 2321\n\n⇒ x = 2321 ÷ 211 = 11\n\n⇒ Loss = 100x = 100 × 11 = ₹1100\n\n⇒ Cost Price (CP) = SP₂ + Loss\n\n⇒ CP = 1432 + 1100 = ₹2532\n\n**∴ The correct answer is ₹2532.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nBasic Profit and Loss Structure\n\nProfit occurs when SP > CP (Profit = SP − CP) and Loss occurs when CP > SP (Loss = CP − SP).\n\nGap/Difference Method\n\nWhenever an article is sold twice producing a profit in one case and a loss in another, the numerical difference between the two selling prices always equals the sum of the profit and the loss amounts.\n\nEqual Profit and Loss Case\n\nIf the profit amount earned is exactly equal to the loss amount incurred across two different selling prices, the Cost Price is exactly the average of the two Selling Prices: CP = (SP₁ + SP₂) ÷ 2.\n\n8d:T98b,\n<p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/26649871804afd2a39f2ef6fe2df818dca44fd7d55ce4bb0f18a64937614850c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "625654d3c327896480a5ab63",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The radius and height of a right circular cone are in the ratio 3 : 7. If the volume of the cone is 528 cm³, then what is the height of the cone? ( {{{Take}} {{pi }} {{ = }}frac{{22}}{7}} )",
+      "options": [
+        {
+          "label": "1",
+          "text": "3.5 cm"
+        },
+        {
+          "label": "2",
+          "text": "7.0 cm"
+        },
+        {
+          "label": "3",
+          "text": "10.5 cm"
+        },
+        {
+          "label": "4",
+          "text": "14.0 cm"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nFor a right circular cone, Volume ∝ r²h.\n\nGiven the ratio r : h = 3 : 7, let r = 3x and h = 7x.\n\nVolume = (1/3) × (22/7) × (3x)² × (7x) = 66x³.\n\nWe are given the volume as 528, so 66x³ = 528 ⇒ x³ = 8 ⇒ x = 2.\n\nThe height of the cone is 7x = 7 × 2 = 14 cm.\n\n**∴ The correct answer is 14 cm.**\n\n**__Alternate Method__**\n\n**Given:**\n\nThe ratio of the radius to the height of the cone = 3 : 7\n\nVolume of the right circular cone = 528 cm³\n\n**Formula Used:**\n\nVolume of a right circular cone = (1/3) × π × r² × h\n\n [IMAGE: https://cdn.repeatermock.com/tb/68fdc79966d2c20428ca799dc7982e9fc57afd56e5bf1eec9f2cd859ced02c5b.png] \n\n**Calculations:**\n\nLet the radius (r) be 3x and the height (h) be 7x.\n\n⇒ Volume = (1/3) × π × (3x)² × 7x = 528\n\n⇒ (1/3) × (22/7) × 9x² × 7x = 528\n\n⇒ 22 × 3x³ = 528\n\n⇒ 66x³ = 528\n\n⇒ x³ = 528 ÷ 66\n\n⇒ x³ = 8\n\n⇒ x = 2\n\nNow, substitute the value of x into the expression for height.\n\n⇒ Height (h) = 7x = 7 × 2 = 14 cm\n\n**∴ The correct answer is 14 cm.**\n\n**__Additional Information__**\n\nVolume of a Right Circular Cone\n\nV = (1/3) × π × r² × h, where r is the base radius and h is the vertical height of the cone.\n\nCurved Surface Area (CSA)\n\nCSA = π × r × l, where l = √(r² + h²) is the slant height of the cone.\n\nTotal Surface Area (TSA)\n\nTSA = π × r × (r + l), which is the total sum of the curved surface area and the circular base area.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/68fdc79966d2c20428ca799dc7982e9fc57afd56e5bf1eec9f2cd859ced02c5b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "636484f141545b71be43357c",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average weight of all the students of a class is 43 kg. Four more students whose weights are 43 kg, 36.5 kg, 39.5 kg and 42 kg join the class. Now their average weight becomes 500 grams less than before. Initially the number of students is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "22"
+        },
+        {
+          "label": "3",
+          "text": "24"
+        },
+        {
+          "label": "4",
+          "text": "28"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUsing Net Deviation: sum of deviations of new students from the initial 43 kg average is:\n\n(43 − 43) + (36.5 − 43) + (39.5 − 43) + (42 − 43) = 0 − 6.5 − 3.5 − 1 = −11 kg.\n\nThis total deviation of −11 kg reduces the overall class average by 0.5 kg per student.\n\nTotal number of students = Absolute Total Deviation ÷ Decrease in Average = 11 ÷ 0.5 = 22.\n\nInitial number of students = 22 (total) − 4 (new) = 18.\n\n**∴ The correct answer is 18 students.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n⇒ Initial average weight = 43 kg\n\n⇒ Total weight of 4 new students = 43 + 36.5 + 39.5 + 42 = 161 kg\n\n⇒ Decrease in average = 500 g = 0.5 kg\n\n**Formula Used:**\n\nQuantity Ratio = (Combined Avg − Avg 2) : (Avg 1 − Combined Avg)\n\n Alligation Method\n Initial Avg\n New Avg\n Combined\n \n• \n \n• \n \n• \n \n• \n \n \n \n 43\n 40.25\n 42.5\n \n \n 2.25\n 0.5\n ← Ratio →\n n = 18\n 4 students\n\n**Calculations:**\n\n⇒ Average weight of 4 new students = 161 ÷ 4 = 40.25 kg\n\n⇒ Combined average of the class = 43 − 0.5 = 42.5 kg\n\n⇒ Applying Alligation (as shown in the diagram):\n\n⇒ Ratio of Initial Students to New Students = (42.5 − 40.25) : (43 − 42.5)\n\n⇒ Ratio = 2.25 : 0.5 = 22.5 : 5 = 9 : 2\n\n⇒ We know the new group has 4 students.\n\n⇒ 2 units = 4 students ⇒ 1 unit = 2 students\n\n⇒ Initial number of students = 9 units = 9 × 2 = 18\n\n**∴ The correct answer is 18 students.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nNet Deviation Method\n\nIf new items join a group, the change in the average is equal to the sum of deviations of the new items from the old average, divided by the total number of items in the final combined group.\n\nAlligation Rule\n\nWhen two groups with averages A₁ and A₂ are mixed to form a combined average Aw, the ratio of their quantities is n₁ : n₂ = (A₂ − Aw) : (Aw − A₁).\n\nWeighted Average Formula\n\nThe overall average of multiple groups can also be verified using the standard formula Aw = (n₁A₁ + n₂A₂) ÷ (n₁ + n₂).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "6550971f446f4a7eea0fbe78",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A student walks from his house at 5 km/hr and reaches his school 10 minute late. If his speed had been 6 km/hr he would have reached 15 minutes early. Then what is the distance of his school from his house?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12.5 km"
+        },
+        {
+          "label": "2",
+          "text": "25 km"
+        },
+        {
+          "label": "3",
+          "text": "37.5 km"
+        },
+        {
+          "label": "4",
+          "text": "50 km"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIf distance is constant, Distance = (S₁ × S₂) ÷ (S₂ − S₁) × Δt\n\nTime difference Δt = 10 min late + 15 min early = 25 min = 25 ÷ 60 hours\n\nDistance = (5 × 6) ÷ (6 − 5) × (25 ÷ 60)\n\nDistance = 30 × (5 ÷ 12) = 12.5 km\n\n**∴ The correct answer is 12.5 km.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n Distance from Home to School\n \n \n Home\n \n \n School\n \n \n• \n Distance = D km\n \n \n• \n \n\n Speed: 5 km/hr | Time: Late by 10 min\n \n \n• \n \n\n Speed: 6 km/hr | Time: Early by 15 min\n\n**Given:**\n\nSpeed 1 (S₁) = 5 km/hr\n\nSpeed 2 (S₂) = 6 km/hr\n\nTime difference (Δt) = 10 min late + 15 min early = 25 min = 25 ÷ 60 hr\n\n**Formula Used:**\n\nTime = Distance ÷ Speed\n\n**Calculation:**\n\nLet distance be D km.\n\n⇒ Time taken at 5 km/hr = D ÷ 5 hours\n\n⇒ Time taken at 6 km/hr = D ÷ 6 hours\n\n⇒ D ÷ 5 − D ÷ 6 = 25 ÷ 60\n\n⇒ (6D − 5D) ÷ 30 = 5 ÷ 12\n\n⇒ D ÷ 30 = 5 ÷ 12\n\n⇒ D = (5 × 30) ÷ 12\n\n⇒ D = 150 ÷ 12 = 12.5 km\n\n**∴ The correct answer is 12.5 km.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAverage Speed\n\nWhen a certain distance is covered at speed 'a' and the same distance is covered at speed 'b', the average speed for the whole journey is given by (2 × a × b) ÷ (a + b).\n\nRelative Speed\n\nIf two objects move in the same direction at speeds S₁ and S₂, their relative speed is |S₁ − S₂|. If they move in opposite directions, it is (S₁ + S₂).\n\nTime & Distance Proportionality\n\nIf the distance is constant, speed and time are inversely proportional (S₁ ÷ S₂ = T₂ ÷ T₁). If speed is constant, distance and time are directly proportional.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "62903871a5f06f39f6819367",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The diameter of a metallic sphere is 6 cm. The sphere is melted and drawn into a wire of uniform circular cross-section. If the length of the wire is 36 m, then what is its radius equal to?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.1 cm"
+        },
+        {
+          "label": "2",
+          "text": "0.01 cm"
+        },
+        {
+          "label": "3",
+          "text": "0.001 cm"
+        },
+        {
+          "label": "4",
+          "text": "1.0 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEquate the volumes directly: Volume of Sphere = Volume of cylindrical Wire.\n\n⇒ 4/3 × π × R³ = π × r² × h\n\n⇒ 4/3 × 3³ = r² × 3600 (Converting 36 m to 3600 cm)\n\n⇒ 36 = r² × 3600\n\n⇒ r² = 1/100 ⇒ r = 0.1 cm\n\n**∴ The correct answer is 0.1 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/7b5f77fa9d43870c63533b4b73e31494e1ea68ea4081335e28e540fd434244ef.png] \n\n**Given:**\n\nDiameter of the metallic sphere = 6 cm\n\nRadius of the sphere (R) = 6 ÷ 2 = 3 cm\n\nLength of the uniform wire (h) = 36 m\n\nConverting length to cm ⇒ h = 36 × 100 = 3600 cm\n\nLet the radius of the circular cross-section of the wire be r cm.\n\n**Formula Used:**\n\nVolume of a Sphere = 4/3 × π × R³\n\nVolume of a Cylinder (Wire) = π × r² × h\n\n**Calculations:**\n\nWhen an object is melted and recast into another shape, the total volume remains conserved.\n\n⇒ Volume of the cylindrical wire = Volume of the metallic sphere\n\n⇒ π × r² × h = 4/3 × π × R³\n\n⇒ π × r² × 3600 = 4/3 × π × 3³\n\nCanceling π from both sides:\n\n⇒ r² × 3600 = 4/3 × 27\n\n⇒ r² × 3600 = 4 × 9\n\n⇒ r² × 3600 = 36\n\n⇒ r² = 36 ÷ 3600\n\n⇒ r² = 1 / 100\n\nTaking the square root on both sides:\n\n⇒ r = √(1/100)\n\n⇒ r = 1/10 = 0.1 cm\n\n**∴ The correct answer is 0.1 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPrinciple of Recasting\n\nWhen a 3D solid is melted and transformed into a completely different shape, its volume remains constant while the surface area may change.\n\nVolume of a Sphere\n\nThe total 3D space occupied by a sphere of radius r is calculated using the standard formula V = 4/3 × π × r³.\n\nVolume of a Cylinder\n\nA circular wire is treated geometrically as a solid cylinder. Its volume is V = π × r² × h, where r is the radius of the circular base and h is the length or height of the wire.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7b5f77fa9d43870c63533b4b73e31494e1ea68ea4081335e28e540fd434244ef.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "63657294e4b1ec70c1bd779c",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The price of fruits is increased by 25%. How much per cent should the consumption be decreased so that expenditure remains the same?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10%"
+        },
+        {
+          "label": "2",
+          "text": "15%"
+        },
+        {
+          "label": "3",
+          "text": "25%"
+        },
+        {
+          "label": "4",
+          "text": "20%"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWe can use the constant product ratio method.\n\nPercentage increase in price = 25% = 1/4\n\nIf price increases by a ratio of 1/x, consumption must decrease by 1/(x + 1) to keep expenditure constant.\n\nRequired decrease in consumption = 1 ÷ (4 + 1) = 1/5\n\nPercentage decrease = (1/5) × 100% = 20%\n\n**∴ The correct answer is 20%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPrice increase = 25%\n\nExpenditure remains the same.\n\n**Formula Used:**\n\nExpenditure = Price × Consumption\n\nPercentage decrease = [ (Original Value − New Value) ÷ Original Value ] × 100%\n\n [IMAGE: https://cdn.repeatermock.com/tb/eec3e882f35ec030f59c70dee6a22c945ca374eb4b4ebbfe845fbce3891546c4.png] \n\n**Calculation:**\n\n⇒ Let the initial price of fruits be ₹100 per unit.\n\n⇒ Let the initial consumption be 100 units.\n\n⇒ Initial Expenditure = 100 × 100 = ₹10000\n\n⇒ The new price after a 25% increase = 100 + 25 = ₹125 per unit.\n\n⇒ To keep the expenditure at ₹10000, let the new consumption be C units.\n\n⇒ 125 × C = 10000\n\n⇒ C = 10000 ÷ 125 = 80 units\n\n⇒ Decrease in consumption = 100 − 80 = 20 units\n\n⇒ Percentage decrease in consumption = (20 ÷ 100) × 100% = 20%\n\n**∴ The correct answer is 20%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nConstant Product Rule\n\nIf the product of two variables A and B is constant, an increase of 1/x in A requires a corresponding decrease of 1/(x+1) in B to maintain the same total.\n\nPercentage Increase to Decrease Conversion\n\nIf a value is increased by R%, to restore it back to the original value, it must be decreased by [R ÷ (100 + R)] × 100%.\n\nSuccessive Percentage Change\n\nIf a value changes by a% and then consecutively by b%, the net percentage change is given by the formula (a + b + ab ÷ 100)%.\n\n6c:T17",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/eec3e882f35ec030f59c70dee6a22c945ca374eb4b4ebbfe845fbce3891546c4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "629440242870a265eb54f3b4",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If {( {(3)/(5)} )^x} times {( {(5)/(3)} )²x} = frac{{625}}{{81}}, then the value of x is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n((3)/(5))^x times ((5)/(3))²x = (625)/(81)\n\n**Formula used:**\n\n(a/b)ⁿ = (b/a)⁻ⁿ\n\nam × aⁿ = am⁺ⁿ\n\n**Calculations:**\n\n((3)/(5))^x times ((5)/(3))²x = (625)/(81)\n\n⇒ ((5)/(3))⁻x times ((5)/(3))²x = ((5)/(3))⁴\n\n⇒ ((5)/(3))⁻x ⁺ ²x = ((5)/(3))⁴\n\n⇒ ((5)/(3))^x = ((5)/(3))⁴\n\n⇒ x = 4\n\n**∴ The correct answer is option (2).**",
+      "tags": [
+        "Simplification"
+      ]
+    }
+  ]
+}

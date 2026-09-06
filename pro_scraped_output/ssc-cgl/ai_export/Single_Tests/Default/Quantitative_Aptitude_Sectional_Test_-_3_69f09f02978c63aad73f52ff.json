@@ -1,0 +1,1190 @@
+{
+  "test_id": "69f09f02978c63aad73f52ff",
+  "title": "Quantitative Aptitude Sectional Test - 3",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T14:02:06.176342+00:00",
+  "questions": [
+    {
+      "qid": "5bbc618fe1987d0c346fa52b",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The simple interest on a sum is 5/9 of the principal for 25 years. What is the rate (in percentage) of interest per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25/9"
+        },
+        {
+          "label": "2",
+          "text": "9/2"
+        },
+        {
+          "label": "3",
+          "text": "20/9"
+        },
+        {
+          "label": "4",
+          "text": "15/4"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet the Principal be 9 units, then Simple Interest (SI) = 5 units.\n\nTime (T) = 25 years.\n\nRate (R) = (SI × 100) ÷ (P × T)\n\nR = (5 × 100) ÷ (9 × 25) = 500 ÷ 225\n\nR = 20/9 %\n\n**∴ The correct answer is 20/9 %.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSimple Interest (SI) = 5/9 of Principal (P)\n\nTime (T) = 25 years\n\n**Formula Used:**\n\nSI = (P × R × T) ÷ 100\n\n \n• \n \n \n \n \n Year 0\n Sum = P\n \n Year 25\n SI = 5/9 P\n \n \n\n \n\n \n Time = 25 years\n Rate = R%\n \n \n R = (SI × 100) ÷ (P × T)\n\n**Calculations:**\n\n⇒ (5/9)P = (P × R × 25) ÷ 100\n\n⇒ 5/9 = (25 × R) ÷ 100\n\n⇒ 5/9 = R ÷ 4\n\n⇒ R = (5 × 4) ÷ 9\n\n⇒ R = 20/9 %\n\n**∴ The correct answer is 20/9 %.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Interest (SI)\n\nIt is the interest calculated only on the initial principal sum for the entire duration of the loan. Formula: SI = (P × R × T) ÷ 100.\n\nAmount (A)\n\nThe total accumulated sum at the end of the time period consisting of the principal and simple interest combined. Formula: A = P + SI = P[1 + (R × T) ÷ 100].\n\nRate of Interest\n\nThe percentage of the principal charged or earned per unit time. Computed directly by R = (SI × 100) ÷ (P × T).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "5c30a5cbfdb8bb10c0411710",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The tops of two poles of height 15 m and 27 m are connected by a cable. If the cable makes an angle of 60° with the horizontal, then find the length of the cable.",
+      "options": [
+        {
+          "label": "1",
+          "text": "8√3 meter"
+        },
+        {
+          "label": "2",
+          "text": "6√3 meter"
+        },
+        {
+          "label": "3",
+          "text": "14/√3 meter"
+        },
+        {
+          "label": "4",
+          "text": "4√3 meter"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDifference in heights of the poles = Perpendicular side = 27 − 15 = 12 m.\n\nThe connecting cable acts as the hypotenuse making a 60° angle with the horizontal base.\n\nUsing trigonometry: sin(60°) = Perpendicular ÷ Hypotenuse\n\n⇒ √3 ÷ 2 = 12 ÷ Cable Length\n\n⇒ Cable Length = 24 ÷ √3 = 8√3 m\n\n**∴ The correct answer is 8√3 meter.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/0ffdf213aace498fa2c6c3e118fe9af61e21d80639ce177b3811aaff74b64703.png] \n\n**Given:**\n\nHeight of the smaller pole (AB) = 15 m\n\nHeight of the taller pole (CD) = 27 m\n\nAngle of elevation of the cable from the horizontal = 60°\n\n**Formula Used:**\n\nsin(θ) = Opposite side ÷ Hypotenuse\n\nsin(60°) = √3 ÷ 2\n\n**Calculations:**\n\n⇒ From the diagram, draw a horizontal line AE from the top of the first pole to the second pole.\n\n⇒ Length of CE = CD − ED\n\n⇒ CE = 27 − 15 = 12 m\n\n⇒ In right-angled triangle AEC, the connecting cable is AC (Hypotenuse).\n\n⇒ sin(60°) = CE ÷ AC\n\n⇒ √3 ÷ 2 = 12 ÷ AC\n\n⇒ AC = (12 × 2) ÷ √3\n\n⇒ AC = 24 ÷ √3\n\n⇒ Rationalizing the denominator by multiplying and dividing by √3:\n\n⇒ AC = (24√3) ÷ 3\n\n⇒ AC = 8√3 m\n\n**∴ The correct answer is 8√3 meter.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTrigonometric Ratios (Right-Angled Triangle)\n\nsin(θ) = Opposite/Hypotenuse | cos(θ) = Adjacent/Hypotenuse | tan(θ) = Opposite/Adjacent.\n\nStandard Trigonometric Values\n\nsin(30°) = 1/2, sin(45°) = 1/√2, sin(60°) = √3/2.\n\nAngle of Elevation & Depression\n\nElevation is the angle above the horizontal line of sight; depression is the angle below. Both are equal when forming alternate interior angles.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0ffdf213aace498fa2c6c3e118fe9af61e21d80639ce177b3811aaff74b64703.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "5c62b16afdb8bb04d8f6ca7e",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the average speed of a boy if he walks 1/3rd distance with a speed of 2 m/sec and rides a bike to cover the remaining distance with a speed of 12 m/s. The total distance is 1.44 km.",
+      "options": [
+        {
+          "label": "1",
+          "text": "18.4 km/hr"
+        },
+        {
+          "label": "2",
+          "text": "20.5 km/hr"
+        },
+        {
+          "label": "3",
+          "text": "15.8 km/hr"
+        },
+        {
+          "label": "4",
+          "text": "16.2 km/hr"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen distances are given as fractions, the average speed is independent of the total distance.\n\n⇒ Average Speed = Total Distance ÷ Total Time = 1 ÷ [(1/3 ÷ 2) + (2/3 ÷ 12)]\n\n⇒ Average Speed = 1 ÷ (1/6 + 2/36) = 1 ÷ (4/18) = 9/2 = 4.5 m/s\n\n⇒ Average Speed in km/hr = 4.5 × (18/5) = 16.2 km/hr\n\n**∴ The correct answer is 16.2 km/hr.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal distance = 1.44 km = 1440 m\n\nSpeed while walking (S₁) = 2 m/s\n\nSpeed while riding a bike (S₂) = 12 m/s\n\n**Formula Used:**\n\nAverage Speed = Total Distance ÷ Total Time\n\nTime = Distance ÷ Speed\n\n [IMAGE: https://cdn.repeatermock.com/tb/7a4b0fbb512ce36421dbacd496973353b49a6b4e9afbcccb95d83af399c88b71.png] \n\n**Calculations:**\n\n⇒ 1/3rd of the total distance = 1/3 × 1440 = 480 m\n\n⇒ Time taken to walk (T₁) = 480 ÷ 2 = 240 seconds\n\n⇒ Remaining 2/3rd distance = 1440 − 480 = 960 m\n\n⇒ Time taken by bike (T₂) = 960 ÷ 12 = 80 seconds\n\n⇒ Total Time = 240 + 80 = 320 seconds\n\n⇒ Average Speed = 1440 ÷ 320 = 4.5 m/s\n\n⇒ Average Speed in km/hr = 4.5 × (18/5) = 16.2 km/hr\n\n**∴ The correct answer is 16.2 km/hr.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAverage Speed\n\nIt is defined as the ratio of total distance travelled to the total time taken for the entire journey. Average Speed = Total Distance ÷ Total Time.\n\nSpecial Case for Equal Distances\n\nIf an object covers two equal halves of a journey at speeds S₁ and S₂ respectively, the average speed simplifies to (2 × S₁ × S₂) ÷ (S₁ + S₂).\n\nUnit Conversion\n\nTo convert speed from m/s to km/hr, multiply the value by 18/5. To convert from km/hr back to m/s, multiply by 5/18.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7a4b0fbb512ce36421dbacd496973353b49a6b4e9afbcccb95d83af399c88b71.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "5d3ff00afdb8bb0c5094dd63",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A tank can be filled by a pipe P in 32 minutes and by pipe Q in 36 minutes. When it is full, it can be emptied by a pipe R in 20 minutes. If all the three pipes are opened simultaneously, half of the tank will be filled in ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "55(3)/(5) minutes"
+        },
+        {
+          "label": "2",
+          "text": "55(13)/(3) minutes"
+        },
+        {
+          "label": "3",
+          "text": "55(5)/(13) minutes"
+        },
+        {
+          "label": "4",
+          "text": "55(2)/(5) minutes"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal capacity of tank = LCM of (32, 36, 20) = 1440 units.\n\nEfficiencies: P = +45, Q = +40, R = −72 (emptying).\n\nCombined Efficiency (P + Q + R) = 45 + 40 − 72 = 13 units/minute.\n\nWork required to fill half the tank = 1440 ÷ 2 = 720 units.\n\nTime required = 720 ÷ 13 = 55 ⁵/₁₃ minutes.\n\n**∴ The correct answer is 55 ⁵/₁₃ minutes.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n⇒ Time taken by Pipe P to fill the tank = 32 minutes\n\n⇒ Time taken by Pipe Q to fill the tank = 36 minutes\n\n⇒ Time taken by Pipe R to empty the tank = 20 minutes\n\n \n \n\n **Pipe**\n **Minutes**\n **Total Work**\n **Efficiency**\n \n \n\n Pipe P\n 32\n 1440\n +45\n \n \n\n Pipe Q\n 36\n +40\n \n \n\n Pipe R\n 20\n −72\n \n \n\n**Calculations:**\n\n⇒ Total capacity of the tank (LCM of 32, 36, and 20) = 1440 units\n\n⇒ Net combined efficiency = 45 + 40 − 72 = 13 units/minute\n\n⇒ Half capacity of the tank = 1440 ÷ 2 = 720 units\n\n⇒ Time taken to fill half the tank = 720 ÷ 13 minutes = 55 ⁵/₁₃ minutes\n\n**∴ The correct answer is 55 ⁵/₁₃ minutes.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPipes & Cisterns Concept\n\nInlet pipes have positive efficiency as they add water, while outlet pipes have negative efficiency as they drain water.\n\nTotal Work using LCM Method\n\nTaking the Total Work as the Least Common Multiple (LCM) of all individual times avoids complex fractional calculations and simplifies efficiency values.\n\nTime and Efficiency Relation\n\nEfficiency is inversely proportional to time. Total Work = Net Efficiency × Time Taken.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "5e906d97f60d5d0df43f9480",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "P and Q enter into a partnership with investments of Rs. 1400 and Rs. 1800 respectively. They share half of the profit equally for running the business and the remaining profit in the ratio of their investments. If the difference in their shares of profits is Rs. 47, what is the total profit?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 954"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 504"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 804"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 752"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of investments of P and Q = 1400 : 1800 = 7 : 9.\n\nThe first half of the profit is shared equally, so it creates zero difference in their total shares.\n\nThe difference of Rs. 47 comes entirely from the remaining half of the profit.\n\nDifference in shares = (9 − 7) ÷ (9 + 7) of Half Profit = 2/16 × (Total Profit / 2) = Total Profit / 16.\n\n⇒ Total Profit / 16 = 47 ⇒ Total Profit = 47 × 16 = 752.\n\n**∴ The correct answer is Rs. 752.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInvestment of P = Rs. 1400\n\nInvestment of Q = Rs. 1800\n\nDifference in their profit shares = Rs. 47\n\n**Formula Used:**\n\nProfit Ratio = Investment of Partner 1 × Time : Investment of Partner 2 × Time\n\n [IMAGE: https://cdn.repeatermock.com/tb/747f56d55b7876105101b568fbe8164c86feb2f03186b9ce27cb97dc3d813e44.png] \n\n**Calculations:**\n\n⇒ Ratio of investments = 1400 : 1800 = 7 : 9\n\n⇒ Let the total profit be x.\n\n⇒ First half of the profit = x/2 (divided equally)\n\n⇒ P's share from first half = x/4, and Q's share from first half = x/4\n\n⇒ Second half of the profit = x/2 (divided in investment ratio 7 : 9)\n\n⇒ P's share from second half = (7/16) × (x/2) = 7x/32\n\n⇒ Q's share from second half = (9/16) × (x/2) = 9x/32\n\n⇒ Difference in their shares = Q's total share − P's total share\n\n⇒ Difference = (x/4 + 9x/32) − (x/4 + 7x/32)\n\n⇒ Difference = 9x/32 − 7x/32 = 2x/32 = x/16\n\n⇒ Given difference = 47\n\n⇒ x/16 = 47\n\n⇒ x = 47 × 16 = 752\n\n**∴ The correct answer is Rs. 752.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nWorking and Sleeping Partners\n\nWhen one partner actively manages the business (working partner), they typically receive a fixed percentage of the total profit as a salary before the remaining profit is divided according to the investments.\n\nCompound Partnership\n\nWhen partners invest money for different durations, the profit is shared based on the product of the capital invested and the time period. Profit Ratio = (C₁ × T₁) : (C₂ × T₂).\n\nEqually Shared Profit Component\n\nAny portion of the total profit that is shared equally among partners does not affect the difference in their final profit shares. The net difference arises solely from the remaining profit distributed based on their investment ratios.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/747f56d55b7876105101b568fbe8164c86feb2f03186b9ce27cb97dc3d813e44.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "5eba7e11f60d5d76ccb8a463",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify: sin 15° sin 75° + cos 75° cos 15°",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/2"
+        },
+        {
+          "label": "2",
+          "text": "3/4"
+        },
+        {
+          "label": "3",
+          "text": "1/4"
+        },
+        {
+          "label": "4",
+          "text": "-1/2"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe given expression is in the standard trigonometric form: cos A cos B + sin A sin B = cos(A − B)\n\nBy comparing, we can set A = 75° and B = 15°.\n\nSubstitute these values directly into the identity:\n\n⇒ cos(75° − 15°) = cos 60°\n\n⇒ 1/2\n\n**∴ The correct answer is 1/2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nExpression: sin 15° sin 75° + cos 75° cos 15°\n\n**Formula Used:**\n\nsin(90° − θ) = cos θ\n\ncos(90° − θ) = sin θ\n\nsin 2θ = 2 sin θ cos θ\n\n**Calculation:**\n\nUsing complementary angles, we can convert the terms with 75° into terms with 15°:\n\n⇒ sin 75° = sin(90° − 15°) = cos 15°\n\n⇒ cos 75° = cos(90° − 15°) = sin 15°\n\nSubstitute these derived values back into the original expression:\n\n⇒ sin 15° × cos 15° + sin 15° × cos 15°\n\n⇒ 2 sin 15° cos 15°\n\nNow apply the double angle formula for sine:\n\n⇒ sin(2 × 15°)\n\n⇒ sin 30°\n\n⇒ 1/2\n\n**∴ The correct answer is 1/2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSum and Difference Identities for Cosine\n\ncos(A + B) = cos A cos B − sin A sin B\ncos(A − B) = cos A cos B + sin A sin B\n\nSum and Difference Identities for Sine\n\nsin(A + B) = sin A cos B + cos A sin B\nsin(A − B) = sin A cos B − cos A sin B\n\nDouble Angle Formulas\n\nsin 2θ = 2 sin θ cos θ\ncos 2θ = cos² θ − sin² θ = 2 cos² θ − 1 = 1 − 2 sin² θ\n\nValues of Standard Trigonometric Angles\n\nsin 30° = 1/2, cos 30° = √3/2\nsin 60° = √3/2, cos 60° = 1/2\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "5ebf7512f60d5d399ec55b86",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If tan A = frac{{15}}{8} and tan B = frac{{7}}{24}, then cos(A + B) = ?\n\nA. frac{{87}}{{425}}\n\nB. frac{{304}}{{425}}\n\nC. frac{{297}}{{425}}\n\nD. frac{{416}}{{425}}",
+      "options": [
+        {
+          "label": "1",
+          "text": "A"
+        },
+        {
+          "label": "2",
+          "text": "C"
+        },
+        {
+          "label": "3",
+          "text": "B"
+        },
+        {
+          "label": "4",
+          "text": "D"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUsing standard Pythagorean triplets: (8, 15, 17) for angle A and (7, 24, 25) for angle B.\n\nFrom tan A = 15/8, we directly get sin A = 15/17 and cos A = 8/17.\n\nFrom tan B = 7/24, we directly get sin B = 7/25 and cos B = 24/25.\n\nApplying the identity: cos(A + B) = cos A × cos B − sin A × sin B\n\ncos(A + B) = (8/17 × 24/25) − (15/17 × 7/25) = 192/425 − 105/425 = 87/425.\n\n**∴ The correct answer is 87/425.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\ntan A = 15/8 (Opposite / Adjacent)\n\ntan B = 7/24 (Opposite / Adjacent)\n\n**Formula Used:**\n\nHypotenuse² = Opposite² + Adjacent²\n\ncos(A + B) = cos A × cos B − sin A × sin B\n\n [IMAGE: https://cdn.repeatermock.com/tb/f3299e87d6b6f1b8600a46b396d5521c92c0d4523f112fcc3500222eddc7579b.png] \n\n**Calculations:**\n\n⇒ For Triangle A: Hypotenuse = √(15² + 8²) = √(225 + 64) = √289 = 17\n\n⇒ sin A = Opposite / Hypotenuse = 15/17\n\n⇒ cos A = Adjacent / Hypotenuse = 8/17\n\n⇒ For Triangle B: Hypotenuse = √(7² + 24²) = √(49 + 576) = √625 = 25\n\n⇒ sin B = Opposite / Hypotenuse = 7/25\n\n⇒ cos B = Adjacent / Hypotenuse = 24/25\n\n⇒ cos(A + B) = (8/17 × 24/25) − (15/17 × 7/25)\n\n⇒ cos(A + B) = 192/425 − 105/425\n\n⇒ cos(A + B) = 87/425\n\n**∴ The correct answer is 87/425.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCompound Angle Formulas\n\nFormulas for the sum and difference of angles: sin(A + B) = sin A × cos B + cos A × sin B, and cos(A + B) = cos A × cos B − sin A × sin B.\n\nPythagorean Triplets\n\nSets of three positive integers a, b, and c that satisfy a² + b² = c². Common examples are (3, 4, 5), (5, 12, 13), (7, 24, 25), and (8, 15, 17).\n\nTrigonometric Ratios in a Right Triangle\n\nsin θ = Opposite ÷ Hypotenuse, cos θ = Adjacent ÷ Hypotenuse, and tan θ = Opposite ÷ Adjacent.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f3299e87d6b6f1b8600a46b396d5521c92c0d4523f112fcc3500222eddc7579b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "5f3bf361ec5ebe1f200d6bba",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If Highest common Factor of two numbers is 8, then which of the following cannot be their Least Common Multiple?",
+      "options": [
+        {
+          "label": "1",
+          "text": "72"
+        },
+        {
+          "label": "2",
+          "text": "24"
+        },
+        {
+          "label": "3",
+          "text": "68"
+        },
+        {
+          "label": "4",
+          "text": "48"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe LCM of any two numbers must always be a multiple of their HCF.\n\nDivide the given options by the HCF (8) to check for exact divisibility.\n\nOptions 72, 24, and 48 are completely divisible by 8.\n\n68 is not exactly divisible by 8.\n\n**∴ The correct answer is 68.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nThe Highest Common Factor (HCF) of two numbers = 8\n\n**Concept Used:**\n\nLet the two numbers be 8x and 8y, where x and y are co-prime to each other.\n\nThe Least Common Multiple (LCM) of these numbers will be 8xy.\n\nThis shows that the LCM must always be an exact multiple of the HCF.\n\n**Calculations:**\n\n⇒ Let's check 72: 72 ÷ 8 = 9 (Exact multiple)\n\n⇒ Let's check 24: 24 ÷ 8 = 3 (Exact multiple)\n\n⇒ Let's check 68: 68 ÷ 8 = 8.5 (Not an exact multiple)\n\n⇒ Let's check 48: 48 ÷ 8 = 6 (Exact multiple)\n\n⇒ Since 68 leaves a remainder when divided by 8, it cannot be the LCM of the two numbers.\n\n**∴ The correct answer is 68.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nProduct of Two Numbers\n\nThe product of any two numbers is always equal to the product of their HCF and LCM (Product = HCF × LCM).\n\nCo-prime Numbers\n\nTwo numbers are co-prime if their HCF is 1. The LCM of two co-prime numbers is exactly their product.\n\nHCF and LCM of Fractions\n\nHCF of fractions = (HCF of Numerators) ÷ (LCM of Denominators)\nLCM of fractions = (LCM of Numerators) ÷ (HCF of Denominators)\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "5f8d484fbb05eac1ddf3ea99",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "After allowing a discount of 12(1)/(2)% on the marked price of an article. it was sold for ₹700. Had the discount NOT been given, the profit would have been 60%.The cost price of the article is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹500"
+        },
+        {
+          "label": "2",
+          "text": "₹540"
+        },
+        {
+          "label": "3",
+          "text": "₹600"
+        },
+        {
+          "label": "4",
+          "text": "₹480"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDiscount = 12.5% = 1/8 ⇒ SP = (1 − 1/8) × MP = 7/8 of MP.\n\nGiven SP = ₹700 ⇒ 7/8 × MP = 700 ⇒ MP = ₹800.\n\nIf no discount is given, SP = MP = ₹800.\n\nProfit = 60% = 3/5 ⇒ SP = (1 + 3/5) × CP = 8/5 of CP.\n\nSince SP = ₹800 ⇒ 8/5 × CP = 800 ⇒ CP = ₹500.\n\n**∴ The correct answer is ₹500.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSelling Price (SP) = ₹700\n\nDiscount = 12.5%\n\nProfit without discount = 60%\n\n [IMAGE: https://cdn.repeatermock.com/tb/e39ea6c6551667216f693d339e9c391030746fe6ed01f6c3ecc1325975e6cacd.png] \n\n**Formula Used:**\n\nSP = MP × (100 − Discount%) ÷ 100\n\nSP = CP × (100 + Profit%) ÷ 100\n\n**Calculations:**\n\n⇒ Let Marked Price be MP.\n\n⇒ SP = MP × (100 − 12.5) ÷ 100\n\n⇒ 700 = MP × 87.5 ÷ 100\n\n⇒ 700 = MP × 7 ÷ 8\n\n⇒ MP = 700 × 8 ÷ 7 = ₹800\n\n⇒ If no discount is given, the selling price equals the marked price.\n\n⇒ New SP = ₹800\n\n⇒ Profit% in this case = 60%\n\n⇒ New SP = CP × (100 + 60) ÷ 100\n\n⇒ 800 = CP × 160 ÷ 100\n\n⇒ 800 = CP × 8 ÷ 5\n\n⇒ CP = 800 × 5 ÷ 8 = ₹500\n\n**∴ The correct answer is ₹500.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMarked Price and Selling Price\n\nMarked Price (MP) is the printed price of an article. Discount is always calculated on the MP. Formula: SP = MP − Discount.\n\nDirect Relation between CP and MP\n\nA highly useful formula linking Cost Price and Marked Price directly is: CP / MP = (100 − Discount%) / (100 + Profit%).\n\nSuccessive Discounts\n\nIf two successive discounts of d₁% and d₂% are given, the equivalent single discount is (d₁ + d₂ − d₁×d₂ / 100)%.\n\n54:T6a8,\n<",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e39ea6c6551667216f693d339e9c391030746fe6ed01f6c3ecc1325975e6cacd.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "5f12f28285dc520d0ec33470",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The supplement of an angle is 15° more than three times its complement. The measure of the angle is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "57.5°"
+        },
+        {
+          "label": "2",
+          "text": "65°"
+        },
+        {
+          "label": "3",
+          "text": "52.5°"
+        },
+        {
+          "label": "4",
+          "text": "72.5°"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe supplement of any angle is always 90° more than its complement (C).\n\nSo, C + 90° = 3C + 15°\n\n⇒ 2C = 75° ⇒ C = 37.5°\n\nThe required angle is 90° − C = 90° − 37.5° = 52.5°\n\n**∴ The correct answer is 52.5°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nThe supplement of an angle is 15° more than three times its complement.\n\n**Formula Used:**\n\nComplement of an angle x = 90° − x\n\nSupplement of an angle x = 180° − x\n\n \n \n• \n \n \n• \n \n \n• \n \n \n \n \n \n \n\n \n\n \n\n \n \n x°\n 90° − x°\n 180° − x°\n \n \n O\n\n**Calculation:**\n\n⇒ 180° − x = 3 × (90° − x) + 15°\n\n⇒ 180° − x = 270° − 3x + 15°\n\n⇒ 180° − x = 285° − 3x\n\n⇒ 3x − x = 285° − 180°\n\n⇒ 2x = 105°\n\n⇒ x = 52.5°\n\n**∴ The correct answer is 52.5°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nComplementary Angles\n\nTwo angles are complementary if their sum is exactly 90°. If one angle is θ, its complement is 90° − θ.\n\nSupplementary Angles\n\nTwo angles are supplementary if their sum is exactly 180°. If one angle is θ, its supplement is 180° − θ.\n\nDifference Between Supplement and Complement\n\nFor any given angle, the difference between its supplement and its complement is always constant and equals exactly 90°.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "5f65d7b1cb2acacdb0d8321b",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If there are 20 boys and 40 girls in a class and the average age of the boys is 13 years and that of the girls is 14 years, determine the approximate average age of the class.",
+      "options": [
+        {
+          "label": "1",
+          "text": "15.5 years"
+        },
+        {
+          "label": "2",
+          "text": "12.33 years"
+        },
+        {
+          "label": "3",
+          "text": "16.25 years"
+        },
+        {
+          "label": "4",
+          "text": "13.67 years"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of Boys to Girls = 20 : 40 = 1 : 2.\n\nLet assumed average of the class be 13 years (Boys' average).\n\nDeviation for girls = 14 − 13 = +1 year.\n\nTotal net deviation for 2 units of girls = +1 × 2 = +2 years.\n\nAverage deviation across all 3 units = +2 ÷ 3 ≈ +0.67 years.\n\nCombined class average = 13 + 0.67 = 13.67 years.\n\n**∴ The correct answer is 13.67 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nNumber of boys (n₁) = 20\n\nAverage age of boys (A₁) = 13 years\n\nNumber of girls (n₂) = 40\n\nAverage age of girls (A₂) = 14 years\n\n**Formula Used:**\n\nCombined Average = (n₁ × A₁ + n₂ × A₂) ÷ (n₁ + n₂)\n\n <line x1=\"120\" y1=\"50\" x2=\"210\" y2=",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "5f577c5fae38c0fd65d78440",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A cube of side 15 cm is cut into 27 small cubes. Then find the ratio of the lateral surface area of the large cube to the total surface area of one of the small cubes.",
+      "options": [
+        {
+          "label": "1",
+          "text": "9 : 4"
+        },
+        {
+          "label": "2",
+          "text": "4 : 3"
+        },
+        {
+          "label": "3",
+          "text": "5 : 2"
+        },
+        {
+          "label": "4",
+          "text": "6 : 1"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nNumber of small cubes = (A/a)³ = 27 ⇒ Ratio of sides (A/a) = 3.\n\nRatio of areas = (Lateral Surface Area of Large Cube) ÷ (Total Surface Area of Small Cube)\n\n⇒ (4 × A²) ÷ (6 × a²)\n\n⇒ (4/6) × (A/a)² = (2/3) × 3² = 6\n\n**∴ The correct answer is 6 : 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSide of the large cube (A) = 15 cm\n\nNumber of small cubes formed = 27\n\n**Formula Used:**\n\nVolume of cube = (side)³\n\nLateral Surface Area of cube = 4 × (side)²\n\nTotal Surface Area of cube = 6 × (side)²\n\n [IMAGE: https://cdn.repeatermock.com/tb/955f32fa11c88c442096a006e322436c3fdb4c5da9caba072adf752cd8e23061.png] \n\n**Calculations:**\n\n⇒ Volume of large cube = 27 × Volume of small cube\n\n⇒ 15³ = 27 × a³\n\n⇒ 3375 = 27 × a³\n\n⇒ a³ = 125 ⇒ a = 5 cm\n\n⇒ Lateral Surface Area of large cube = 4 × 15² = 4 × 225 = 900 cm²\n\n⇒ Total Surface Area of small cube = 6 × 5² = 6 × 25 = 150 cm²\n\n⇒ Required Ratio = 900 / 150 = 6 / 1 = 6 : 1\n\n**∴ The correct answer is 6 : 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTotal Surface Area of a Cube\n\nIt is the sum of the areas of all 6 faces of the cube. Formula: TSA = 6 × (side)²\n\nLateral Surface Area of a Cube\n\nIt is the sum of the areas of the 4 vertical side faces of the cube, excluding the top and bottom faces. Formula: LSA = 4 × (side)²\n\nVolume of a Cube\n\nIt represents the total 3D space occupied by the cube. When a shape is cut or reshaped, the total volume remains conserved. Formula: Volume = (side)³\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/955f32fa11c88c442096a006e322436c3fdb4c5da9caba072adf752cd8e23061.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "5f5778b2df444e8fa1e5f669",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If a circle is inscribed in an equilateral triangle of side a cm, then find the ratio of their area.",
+      "options": [
+        {
+          "label": "1",
+          "text": "π : √3"
+        },
+        {
+          "label": "2",
+          "text": "π : 4√3"
+        },
+        {
+          "label": "3",
+          "text": "π : 3√3"
+        },
+        {
+          "label": "4",
+          "text": "π : 6√3"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe inradius (r) of an equilateral triangle with side a is r = a / 2√3.\n\nArea of incircle = πr² = π × (a / 2√3)² = πa² / 12\n\nArea of equilateral triangle = (√3 / 4)a²\n\nRatio = (πa² / 12) : (√3a² / 4) = π : 3√3\n\n**∴ The correct answer is π : 3√3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/77f4d102e0b93052c652fe21a2694123469098f41c375d5de5575a22fda08574.png] \n\n**Given:**\n\nSide of the equilateral triangle = a cm\n\n**Formula Used:**\n\nInradius of an equilateral triangle, r = a / 2√3\n\nArea of circle = πr²\n\nArea of equilateral triangle = (√3 / 4)a²\n\n**Calculations:**\n\n⇒ Radius of the inscribed circle, r = a / 2√3\n\n⇒ Area of the inscribed circle = π × (a / 2√3)²\n\n⇒ Area of the inscribed circle = πa² / 12\n\n⇒ Ratio = (Area of the circle) : (Area of the equilateral triangle)\n\n⇒ Ratio = (πa² / 12) : (√3a² / 4)\n\n⇒ Ratio = (π / 12) : (√3 / 4)\n\n⇒ Ratio = π : 3√3\n\n**∴ The correct answer is π : 3√3.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCircumcircle of an Equilateral Triangle\n\nThe circumradius (R) of an equilateral triangle with side a is given by R = a / √3. The ratio of circumradius to inradius for an equilateral triangle is always 2 : 1.\n\nIncenter of a Triangle\n\nThe incenter is the point of intersection of the internal angle bisectors. It is equidistant from all three sides of the triangle.\n\nRatio of Areas (Incircle vs Circumcircle)\n\nFor any regular equilateral triangle, the ratio of the area of its incircle to the area of its circumcircle is exactly 1 : 4.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/77f4d102e0b93052c652fe21a2694123469098f41c375d5de5575a22fda08574.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "5fa8e261d10c0d823e33e62e",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Average of ‘n’ observations is 38, average of ‘n’ other observations is 42 and average of remaining ‘n’ observations is 55. Average of all the observations is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "45"
+        },
+        {
+          "label": "2",
+          "text": "35"
+        },
+        {
+          "label": "3",
+          "text": "55"
+        },
+        {
+          "label": "4",
+          "text": "40"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSince the number of observations in all three groups is equal ('n'), the overall average is simply the arithmetic mean of their individual averages.\n\nOverall Average = (Sum of all averages) ÷ (Number of groups)\n\nOverall Average = (38 + 42 + 55) ÷ 3\n\nOverall Average = 135 ÷ 3 = 45\n\n**∴ The correct answer is 45.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n \n \n n obs.\n Avg: 38\n \n +\n\n \n \n n obs.\n Avg: 42\n \n +\n\n \n \n n obs.\n Avg: 55\n \n \n \n• \n \n\n \n \n \n Total: 3n obs.\n Avg: ?\n\n**Given:**\n\nThree groups of observations, each containing 'n' observations.\n\nAverages of the three groups are 38, 42, and 55 respectively.\n\n**Formula Used:**\n\nSum of observations = Average × Number of observations\n\nOverall Average = Total Sum of Observations ÷ Total Number of Observations\n\n**Calculations:**\n\n⇒ Sum of first 'n' observations = 38 × n = 38n\n\n⇒ Sum of second 'n' observations = 42 × n = 42n\n\n⇒ Sum of remaining 'n' observations = 55 × n = 55n\n\n⇒ Total sum of all observations = 38n + 42n + 55n = 135n\n\n⇒ Total number of observations = n + n + n = 3n\n\n⇒ Overall average = 135n ÷ 3n\n\n⇒ Overall average = 45\n\n**∴ The correct answer is 45.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCombined Average\n\nWhen combining multiple groups with different numbers of items (n₁, n₂, ...), the combined average is given by the weighted average formula: A = (n₁A₁ + n₂A₂ + ...) ÷ (n₁ + n₂ + ...).\n\nEqual Weights Shortcut\n\nIf the number of items in all combined groups is identical (n₁ = n₂ = n₃ ...), the combined average simplifies to the basic arithmetic mean of the individual averages: (A₁ + A₂ + A₃ + ...) ÷ Total Groups.\n\nNet Deviation Method\n\nAssume an arbitrary mean (e.g., 40). Find the net deviation of each group's average from it. The final average is calculated as: Assumed Mean + (Net Deviation ÷ Total Number of Items). This technique helps in fast mental calculations.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "63b5750288663bcd975b9c90",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the value of k for which the quadratic equation (3k + 1)x² + 2(k + 1)x + 1 = 0 has equal roots.",
+      "options": [
+        {
+          "label": "1",
+          "text": "k = 0 and k = 1"
+        },
+        {
+          "label": "2",
+          "text": "k = 0 and k = -1"
+        },
+        {
+          "label": "3",
+          "text": "k = 6 and k = 1"
+        },
+        {
+          "label": "4",
+          "text": "k = 10 and k = 1"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor equal roots in ax² + bx + c = 0, Discriminant D = b² − 4ac = 0 ⇒ b² = 4ac.\n\nSubstitute the given equation values directly:\n\n[2(k + 1)]² = 4 × (3k + 1) × 1\n\n4(k² + 2k + 1) = 12k + 4\n\n4k² − 4k = 0 ⇒ 4k(k − 1) = 0 ⇒ k = 0 or 1.\n\n**∴ The correct answer is k = 0 and k = 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nQuadratic equation: (3k + 1)x² + 2(k + 1)x + 1 = 0\n\n**Formula Used:**\n\nFor a standard quadratic equation ax² + bx + c = 0, if the roots are equal, then its Discriminant (D) = b² − 4ac = 0\n\n**Calculation:**\n\n⇒ Comparing the given equation with ax² + bx + c = 0, we get:\n\n⇒ a = (3k + 1), b = 2(k + 1), c = 1\n\n⇒ b² − 4ac = 0\n\n⇒ [2(k + 1)]² − 4 × (3k + 1) × 1 = 0\n\n⇒ 4(k + 1)² − 4(3k + 1) = 0\n\n⇒ 4(k² + 2k + 1) − 12k − 4 = 0\n\n⇒ 4k² + 8k + 4 − 12k − 4 = 0\n\n⇒ 4k² − 4k = 0\n\n⇒ 4k(k − 1) = 0\n\n⇒ k = 0 or k = 1\n\nChecking condition for quadratic equation (a ≠ 0):\n\n⇒ For k = 0, a = 3(0) + 1 = 1 ≠ 0\n\n⇒ For k = 1, a = 3(1) + 1 = 4 ≠ 0\n\n⇒ Both values of k satisfy the required condition.\n\n**∴ The correct answer is k = 0 and k = 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nNature of Roots\n\nFor the quadratic equation ax² + bx + c = 0, the discriminant is D = b² − 4ac. Roots are real and distinct if D > 0, real and equal if D = 0, and complex or imaginary if D < 0.\n\nSum and Product of Roots\n\nIf α and β are the roots of the equation ax² + bx + c = 0, then Sum of roots (α + β) = −b ÷ a and Product of roots (α×β) = c ÷ a.\n\nForming a Quadratic Equation\n\nIf roots are given, the quadratic equation can be directly written as: x² − (Sum of roots)x + (Product of roots) = 0.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "63f601798ba069e41e765d0a",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "With a 10% discount on the marked price, a seller earns a 5% profit. If the marked price is increased by 5% and two successive discounts of 5% each are offered, how much percentage profit does the seller earn?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10.5%"
+        },
+        {
+          "label": "2",
+          "text": "10%"
+        },
+        {
+          "label": "3",
+          "text": "11%"
+        },
+        {
+          "label": "4",
+          "text": "11.5%"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of Initial MP to CP = (100 + Profit%) ÷ (100 − Discount%) = 105 ÷ 90 = 7/6\n\nNew MP = Initial MP × 1.05 = (7/6) × 1.05 = 1.225 times of CP\n\nMultiplier for two 5% successive discounts = 0.95 × 0.95 = 0.9025\n\nRatio of New SP to CP = 1.225 × 0.9025 = 1.10556\n\nNew Profit % = (1.10556 − 1) × 100 = 10.556% ≈ 10.5%\n\n**∴ The correct answer is 10.5%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n⇒ Initial Discount (D) = 10%\n\n⇒ Initial Profit (P) = 5%\n\n⇒ Increase in Marked Price = 5%\n\n⇒ Successive discounts on new MP = 5% and 5%\n\n**Formula Used:**\n\n⇒ MP = CP × (100 + P) ÷ (100 − D)\n\n⇒ Equivalent Discount = d₁ + d₂ − (d₁ × d₂) ÷ 100\n\n \n \n \n\n \n \n \n\n \n \n\n \n CP = 100\n\n \n MP₁ = 116.67\n\n \n\n + 5%\n\n \n MP₂ = 122.5\n\n \n\n - 9.75%\n\n \n SP₂ = 110.56\n\n \n\n Profit = + 10.56%\n \n \n\n Markup\n\n**Calculations:**\n\n⇒ Let Cost Price (CP) = 100\n\n⇒ Initial Selling Price (SP) = 100 + 5% of 100 = 105\n\n⇒ Initial Marked Price (MP) = 105 ÷ (1 − 0.10) = 105 ÷ 0.90 = 116.67\n\n⇒ New Marked Price = 116.67 × (1 + 0.05) = 116.67 × 1.05 = 122.5\n\n⇒ Equivalent discount for two 5% discounts = 5 + 5 − (5 × 5) ÷ 100 = 10 − 0.25 = 9.75%\n\n⇒ New Selling Price = 122.5 × (1 − 0.0975) = 122.5 × 0.9025 = 110.556\n\n⇒ Overall Profit = New SP − CP = 110.556 − 100 = 10.556\n\n⇒ Profit % = 10.556% ≈ 10.5%\n\n**∴ The correct answer is 10.5%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMarkup and Discount Relation\n\nMP/CP = (100 + Profit%) ÷ (100 − Discount%). This direct ratio equation is highly useful for directly jumping between Marked Price and Cost Price without calculating the intermediate Selling Price.\n\nSuccessive Discounts\n\nTwo successive discounts of x% and y% are structurally equivalent to a single effective discount of (x + y − xy÷100)%.\n\nBase of Calculations\n\nUnless specified otherwise, Profit and Loss are always evaluated on the Cost Price (CP), whereas Discounts are strictly evaluated on the Marked Price (MP).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "64cccd0b76d13810729e9bfc",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "An inlet pipe can fill an empty tank in 120 hours while an outlet pipe drains a completely-filled tank in 54 hours. If 8 inlet pipes and 3 outlet pipes are opened simultaneously, when the tank is empty, then in how many hours will the tank get completely filled?",
+      "options": [
+        {
+          "label": "1",
+          "text": "81"
+        },
+        {
+          "label": "2",
+          "text": "96"
+        },
+        {
+          "label": "3",
+          "text": "72"
+        },
+        {
+          "label": "4",
+          "text": "90"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal Capacity (LCM of 120 and 54) = 1080 units.\n\nEfficiency of 1 inlet pipe = 1080 ÷ 120 = +9 units/hr.\n\nEfficiency of 1 outlet pipe = 1080 ÷ (−54) = −20 units/hr.\n\nNet efficiency of (8 inlets + 3 outlets) = (8 × 9) + (3 × −20) = 72 − 60 = +12 units/hr.\n\nTime required to fill tank = 1080 ÷ 12 = 90 hours.\n\n**∴ The correct answer is 90 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n⇒ Time taken by 1 inlet pipe to fill the tank = 120 hours\n\n⇒ Time taken by 1 outlet pipe to empty the tank = 54 hours\n\n⇒ Number of inlet pipes opened = 8\n\n⇒ Number of outlet pipes opened = 3\n\n**Formula Used:**\n\n⇒ Efficiency = Total Work ÷ Time\n\n⇒ Total Time = Total Work ÷ Net Combined Efficiency\n\n \n \n\n **Pipe**\n **Hours**\n **Total Work**\n **Efficiency**\n \n \n\n 1 Inlet Pipe\n 120\n 1080\n +9\n \n \n\n 1 Outlet Pipe\n 54\n −20\n \n \n\n**Calculations:**\n\n⇒ Efficiency of 8 inlet pipes = 8 × (+9) = +72 units/hour\n\n⇒ Efficiency of 3 outlet pipes = 3 × (−20) = −60 units/hour\n\n⇒ Net combined efficiency when both types are opened together = +72 − 60 = +12 units/hour\n\n⇒ The positive sign indicates that the tank is being filled.\n\n⇒ Total time required to completely fill the tank = 1080 ÷ 12\n\n⇒ Total time = 90 hours\n\n**∴ The correct answer is 90 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPipes and Cisterns Basics\n\nIf an inlet pipe fills a tank in x hours and an outlet pipe empties it in y hours, the net part of the tank filled in 1 hour is given by (1/x − 1/y).\n\nEfficiency Approach (LCM Method)\n\nTreat inlet pipes as positive work providers (filling) and outlet pipes as negative work providers (draining). The total capacity of the tank is considered as the Least Common Multiple (LCM) of their individual completion times.\n\nMultiple Similar Pipes\n\nWhen multiple pipes of the same capacity operate simultaneously, simply multiply the individual pipe's efficiency by the total number of identical pipes before evaluating the net overall flow.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "64e88a1e4986d15c38904d91",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the least value of x for which the number 712x816 is divisible by 12?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDivisibility by 12 ⇒ Number must be divisible by 3 and 4.\n\nFor 4: Last two digits 16 are divisible by 4 (True).\n\nFor 3: Sum of digits (7+1+2+x+8+1+6) = 25 + x must be divisible by 3.\n\nNearest multiples of 3 > 25 are 27, 30, 33.\n\nFor least value: 25 + x = 27 ⇒ x = 2.\n\n**∴ The correct answer is 2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** Number = 712x816, Divisor = 12\n\n**Formula Used:** Divisibility rule of 12 (divisible by 3 and 4).\n\n \n 7 1 2 x 8 1 6\n \n\n Sum of digits (Rule of 3)\n \n Check: 16 ÷ 4\n\nCheck Divisibility by 4:\n\n⇒ Last two digits of 712x816 = 16\n\n⇒ 16 ÷ 4 = 4 (Remainder = 0)\n\n⇒ The number is divisible by 4 for any value of x.\n\nCheck Divisibility by 3:\n\n⇒ Sum of digits = 7 + 1 + 2 + x + 8 + 1 + 6\n\n⇒ Sum = 25 + x\n\n⇒ For the number to be divisible by 3, (25 + x) must be a multiple of 3.\n\n⇒ Possible values for (25 + x) are 27, 30, 33, ...\n\n⇒ For least value of x: 25 + x = 27\n\n⇒ x = 27 − 25\n\n⇒ x = 2\n\n**∴ The correct answer is 2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nDivisibility by 3\n\nA number is divisible by 3 if the sum of its digits is divisible by 3.\n\nDivisibility by 4\n\nA number is divisible by 4 if the last two digits of the number are divisible by 4 or are 00.\n\nDivisibility by 11\n\nA number is divisible by 11 if the difference between the sum of digits at odd positions and the sum of digits at even positions is 0 or a multiple of 11.\n\nComposite Divisibility\n\nIf a number is divisible by two co-prime numbers a and b, it is also divisible by their product (a × b). Example: 12 = 3 × 4.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "601d3fa2c88bc6b99cb7db16",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A Person bought a pre-owned camera for Rs. 85000 and spent additional Rs. 4500 for memory cards and Rs 5500 for the tripod. Then he sold the whole kit for Rs. 100000. Find the profit or loss %.",
+      "options": [
+        {
+          "label": "1",
+          "text": "5.26% loss"
+        },
+        {
+          "label": "2",
+          "text": "6.36% profit"
+        },
+        {
+          "label": "3",
+          "text": "6.36% loss"
+        },
+        {
+          "label": "4",
+          "text": "5.26% profit"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal CP = 85000 + 4500 + 5500 = 95000\n\nSelling Price (SP) = 100000\n\nProfit = 100000 − 95000 = 5000\n\nProfit % = (5000 ÷ 95000) × 100 = 100 ÷ 19 ≈ 5.26%\n\n**∴ The correct answer is 5.26% profit.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCost price of camera = Rs. 85000\n\nAmount spent on memory cards = Rs. 4500\n\nAmount spent on tripod = Rs. 5500\n\nSelling price of the whole kit = Rs. 100000\n\n**Formula Used:**\n\nTotal CP = Initial CP + Overhead Expenses\n\nProfit = SP − Total CP\n\nProfit % = (Profit ÷ Total CP) × 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/524a424a442dfe41b024c615cd02925bacdd0ba465a17b9e86bfee04de5e8eb2.png] \n\n**Calculations:**\n\n⇒ Total CP = 85000 + 4500 + 5500 = Rs. 95000\n\n⇒ Profit = 100000 − 95000 = Rs. 5000\n\n⇒ Profit % = (5000 ÷ 95000) × 100\n\n⇒ Profit % = (1 ÷ 19) × 100\n\n⇒ Profit % = 100 ÷ 19\n\n⇒ Profit % = 5.263... ≈ 5.26%\n\n**∴ The correct answer is 5.26% profit.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nOverhead Expenses\n\nAny additional amount spent on transportation, repairs, or accessories must always be added to the initial Cost Price to find the Total Cost Price before calculating profit or loss.\n\nLoss Percentage\n\nWhen Selling Price is less than the Total Cost Price, Loss is incurred. The formula is Loss % = (Loss ÷ Total CP) × 100.\n\nMarked Price & Discount\n\nDiscount is always calculated on the Marked Price (MP), not the Cost Price. The Selling Price is equal to MP − Discount.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/524a424a442dfe41b024c615cd02925bacdd0ba465a17b9e86bfee04de5e8eb2.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "636cfac009f01c8554cd1093",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The value of (6-3)div[(9-6)div{(6-4)div(2+(8)/(13))}] is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "(5)/(17)"
+        },
+        {
+          "label": "2",
+          "text": "(1)/(17)"
+        },
+        {
+          "label": "3",
+          "text": "(13)/(17)"
+        },
+        {
+          "label": "4",
+          "text": "(26)/(17)"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n(6-3)div[(9-6)div{(6-4)div(2+(8)/(13))}] \n\n**Formula used:**\n\nBODMAS rule\n\n**Calculations:**\n\n(6-3)div[(9-6)div{(6-4)div(2+(8)/(13))}] \n\n⇒ \\(3 \\div [3 \\div \\{2 \\div \\frac{26+8}{13",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "642e243ca6a904a8d2cac937",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The downstream speed of a boat is 25 km/hr and the speed of stream is 3 km/hr. What will be the total time taken by the boat to cover 100 km downstream and 57 km upstream?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 hours"
+        },
+        {
+          "label": "2",
+          "text": "7 hours"
+        },
+        {
+          "label": "3",
+          "text": "10.5 hours"
+        },
+        {
+          "label": "4",
+          "text": "8 hours"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUpstream Speed = Downstream Speed − 2 × Stream Speed = 25 − (2 × 3) = 19 km/hr\n\nDownstream Time = 100 ÷ 25 = 4 hours\n\nUpstream Time = 57 ÷ 19 = 3 hours\n\nTotal Time = 4 + 3 = 7 hours\n\n**∴ The correct answer is 7 hours.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDownstream speed = 25 km/hr\n\nSpeed of stream = 3 km/hr\n\n**Formula used:**\n\nDownstream Speed = Speed of boat in still wate",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "658bc0484e345ca214b1acf9",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The numbers of boys and girls in a college are in the ratio of 5 ∶ 3. If 24% of the boys and 32% of the girls were not placed in campus placements, then the percentage of students who got jobs in campus placements is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "68%"
+        },
+        {
+          "label": "2",
+          "text": "73%"
+        },
+        {
+          "label": "3",
+          "text": "82%"
+        },
+        {
+          "label": "4",
+          "text": "78%"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUsing the weighted average method for unplaced students:\n\nOverall Unplaced % = (Boys Ratio × Unplaced % + Girls Ratio × Unplaced %) ÷ Total Ratio\n\n⇒ Overall Unplaced % = (5 × 24% + 3 × 32%) ÷ 8\n\n⇒ Overall Unplaced % = (120% + 96%) ÷ 8 = 216% ÷ 8 = 27%\n\n⇒ Percentage of placed students = 100% − 27% = 73%\n\n**∴ The correct answer is 73%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRatio of boys to girls = 5 : 3\n\nPercentage of unplaced boys = 24%\n\nPercentage of unplaced girls = 32%\n\n \n \n <rect x=\"202\" y=\"50\" width=\"48\" height=\"40\" fill",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "6167e13af40f8f1560fb63b3",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If (1/3)A = 3B = (3/4)C, then what is the value of A ∶ B ∶ C?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9 ∶ 3 ∶ 9"
+        },
+        {
+          "label": "2",
+          "text": "9 ∶ 2 ∶ 4"
+        },
+        {
+          "label": "3",
+          "text": "9 ∶ 4 ∶ 4"
+        },
+        {
+          "label": "4",
+          "text": "9 ∶ 1 ∶ 4"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEquate the given expression to 1: (1/3)A = 3B = (3/4)C = 1\n\n⇒ A = 3, B = 1/3, C = 4/3\n\n⇒ A : B : C = 3 : 1/3 : 4/3\n\nMultiply by 3 to eliminate the denominators:\n\n⇒ A : B : C = 9 : 1 : 4\n\n**∴ The correct answer is 9 : 1 : 4.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n⇒ (1/3)A = 3B = (3/4)C\n\n**Formula Used:**\n\nIf xA = yB = zC = k, then A : B : C = (k/x) : (k/y) : (k/z)\n\n [IMAGE: https://cdn.repeatermock.com/tb/78ce9bcb0b254d7730dc0fe60c91008fec885e5e2215ca1076d36c65062972d6.png] \n\n**Calculations:**\n\nLet (1/3)A = 3B = (3/4)C = k\n\n⇒ A = 3k\n\n⇒ B = k/3\n\n⇒ C = 4k/3\n\nNow, substitute the values of A, B, and C into the ratio form A : B : C:\n\n⇒ A : B : C = 3k : k/3 : 4k/3\n\nDivide the entire ratio by k:\n\n⇒ A : B : C = 3 : 1/3 : 4/3\n\nMultiply all terms by the least common multiple of the denominators (LCM of 3 is 3):\n\n⇒ A : B : C = (3 × 3) : (1/3 × 3) : (4/3 × 3)\n\n⇒ A : B : C = 9 : 1 : 4\n\n**∴ The correct answer is 9 : 1 : 4.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCompound Ratio\n\nThe compound ratio of two or more ratios is obtained by multiplying their antecedent and consequent terms respectively. For a : b and c : d, it is (a × c) : (b × d).\n\nInverse Ratio\n\nThe inverse ratio of a : b is b : a. If aA = bB, then the ratio A : B is equal to b : a.\n\nDuplicate & Triplicate Ratios\n\nThe duplicate ratio of a : b is given as a² : b², and the triplicate ratio is a³ : b³.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/78ce9bcb0b254d7730dc0fe60c91008fec885e5e2215ca1076d36c65062972d6.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "6457afc863b10aa399765e70",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of the efficiencies of A, B and C is 4 ∶ 5 ∶ 3. Working together, they can complete that work in 25 days. A and C together will complete 35% of that work in:",
+      "options": [
+        {
+          "label": "1",
+          "text": "(75)/(4) days"
+        },
+        {
+          "label": "2",
+          "text": "15 days"
+        },
+        {
+          "label": "3",
+          "text": "(65)/(4) days"
+        },
+        {
+          "label": "4",
+          "text": "(45)/(4) days"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nEfficiency ratio A : B : C = 4 : 5 : 3\n\nTotal efficiency = 4 + 5 + 3 = 12 units/day\n\nTotal work = 12 × 25 = 300 units\n\n35% of work = 300 × 0.35 = 105 units\n\nEfficiency of (A + C) = 4 + 3 = 7 units/day\n\nTime taken = 105 ÷ 7 = 15 days\n\n**∴ The correct option is B.**\n\n**__Alternate Method__**\n\nGiven: Efficiency ratio of A, B and C is 4 : 5 : 3. They complete work in 25 days.\n\nFormula Used: Total Work = (Combined Efficiency) × Time\n\n \n \n \n \n \n \n \n \n\n Persons\n Time\n <td style='border: 1px solid rgb(170, 170, 170); overflow: hidden; padding: 2px 3px; vertical-align: bottom; text-",
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "626442576241b4fa21c35265",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sum of ₹2,50,000 is invested for one and a half years at 12% per annum compound interest. What is the difference between the amounts received when the interest is compounded semi-annually and when it is compounded annually?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹900"
+        },
+        {
+          "label": "2",
+          "text": "₹970"
+        },
+        {
+          "label": "3",
+          "text": "₹954"
+        },
+        {
+          "label": "4",
+          "text": "₹950"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEffective CI rate (annually) for 1.5 years at 12% = 12% + 6% + (12 × 6) ÷ 100 = 18.72%\n\nEffective CI rate (semi-annually) for 3 half-years at 6% = 3(6) + 3(6)² ÷ 100 + (6)³ ÷ 10000 = 18 + 1.08 + 0.0216 = 19.1016%\n\nDifference in effective rate = 19.1016% − 18.72% = 0.3816%\n\nDifference in amount = 0.3816% of 2,50,000 = (0.3816 ÷ 100) × 250000 = ₹954\n\n**∴ The correct answer is ₹954.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPrincipal (P) = ₹2,50,000\n\nRate (R) = 12% per annum\n\nTime (T) = 1.5 years\n\n \n \n \n\n \n \n \n\n \n \n\n Compounded Annually (1.5 years):\n \n ₹2,50,000\n \n \n• \n +12% (1st yr)\n \n \n ₹2,80,000\n \n \n• \n +6% (½ yr)\n \n \n ₹2,96,800\n\n Compounded Semi-Annually (3 half-years):\n \n ₹2,50,000\n \n \n• \n +6%\n\n \n ₹2,65,000\n \n \n• \n +6%\n\n \n ₹2,80,900\n \n \n• \n +6%\n\n \n ₹2,97,754\n\n Difference = ₹2,97,754 − ₹2,96,800 = ₹954\n\n**Calculations:**\n\n⇒ Amount compounded annually (A₁) = P × (1 + R/100)¹ × (1 + (R/2)/100)\n\n⇒ A₁ = 250000 × (1 + 12/100) × (1 + 6/100)\n\n⇒ A₁ = 250000 × 1.12 × 1.06 = 250000 × 1.1872\n\n⇒ A₁ = ₹2,96,800\n\n⇒ Amount compounded semi-annually (A₂) = P × (1 + (R/2)/100)²T\n\n⇒ A₂ = 250000 × (1 + 6/100)³\n\n⇒ A₂ = 250000 × (1.06)³ = 250000 × 1.191016\n\n⇒ A₂ = ₹2,97,754\n\n⇒ Difference in amounts = A₂ − A₁\n\n⇒ Difference = 297754 − 296800 = ₹954\n\n**∴ The correct answer is ₹954.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nEffective Rate Method\n\nFor 3 equal periods at rate R%, the effective compound interest rate is calculated as: 3R + 3R²/100 + R³/10000.\n\nHalf-Yearly Compounding\n\nWhen interest is compounded semi-annually, the annual rate of interest is divided by 2 (R/2) and the number of years is multiplied by 2 (2T).\n\nFractional Year Compounding\n\nIf time is given in fractions like 1.5 years, the formula used for annual compounding is: A = P(1 + R/100)¹ × (1 + (R/2)/100)¹.\n\n61:T166c,\n<p style=\"&quo",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    }
+  ]
+}

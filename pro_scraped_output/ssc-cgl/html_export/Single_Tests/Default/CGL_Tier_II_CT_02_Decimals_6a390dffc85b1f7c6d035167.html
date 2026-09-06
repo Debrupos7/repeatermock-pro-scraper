@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CGL Tier II CT 02: Decimals</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.6;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,0.04);position:sticky;top:0;z-index:100;}
+.brand{font-size:20px;font-weight:800;letter-spacing:-0.02em;}
+.brand-light{color:#1f2937;}
+.brand-mark{color:#1fbad6;}
+.test-title{font-size:14px;color:#4b5563;font-weight:500;text-align:center;flex:1;padding:0 24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.header-right{display:flex;align-items:center;gap:12px;}
+.timer{background:#1f2937;color:#fff;padding:8px 16px;border-radius:6px;font-family:"SF Mono",Monaco,monospace;font-size:16px;font-weight:600;min-width:110px;text-align:center;}
+.timer.warning{background:#f59e0b;}
+.timer.danger{background:#ef4444;animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.7;}}
+.header-btn{background:#1fbad6;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s;}
+.header-btn:hover{background:#1999b3;}
+.submit-btn{background:#ef4444;}
+.submit-btn:hover{background:#dc2626;}
+.meta-bar{background:#fff;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;flex-wrap:wrap;gap:12px 32px;font-size:13px;}
+.meta-item{display:flex;flex-direction:column;gap:2px;}
+.meta-label{color:#6b7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+.meta-value{color:#1f2937;font-size:14px;font-weight:600;}
+.test-container{display:flex;max-width:1400px;margin:0 auto;gap:16px;padding:16px;}
+.question-area{flex:1;min-width:0;}
+.section-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.section-tab{background:#fff;border:1px solid #e5e7eb;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;color:#4b5563;}
+.section-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.question-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.q-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #f3f4f6;}
+.q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.q-marks{display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap;}
+.q-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.q-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.conf-high{background:#d1fae5;color:#065f46;}
+.conf-unidentified{background:#fef3c7;color:#92400e;}
+.q-id{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;}
+.result-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-qid{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;margin-left:auto;}
+.mark-pos{color:#10b981;font-weight:600;}
+.mark-neg{color:#ef4444;font-weight:600;}
+.q-lang-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.q-lang-tab{background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer;}
+.q-lang-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.q-text{font-size:15px;margin-bottom:16px;}
+.q-text p{margin:8px 0;}
+.q-text img{max-width:100%;height:auto;border-radius:4px;}
+.options-list{list-style:none;}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;margin-bottom:8px;border:1.5px solid #e5e7eb;border-radius:6px;cursor:pointer;transition:all .15s;font-size:14px;}
+.option-item:hover{background:#f9fafb;border-color:#d1d5db;}
+.option-item.selected{background:#dbeafe;border-color:#3b82f6;}
+.option-item.correct{background:#d1fae5;border-color:#10b981;}
+.option-item.wrong{background:#fee2e2;border-color:#ef4444;}
+.option-label{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;background:#1f2937;color:#fff;border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0;}
+.option-item.selected .option-label{background:#3b82f6;}
+.option-item.correct .option-label{background:#10b981;}
+.option-item.wrong .option-label{background:#ef4444;}
+.option-item.correct::after{content:" ✓ Correct";color:#10b981;font-weight:700;margin-left:auto;}
+.option-item.wrong::after{content:" ✗ Wrong";color:#ef4444;font-weight:700;margin-left:auto;}
+.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+.action-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.action-btn:hover{background:#f9fafb;}
+.action-btn.save-next{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.action-btn.save-next:hover{background:#1999b3;}
+.action-btn.mark-review{background:#fef3c7;color:#92400e;border-color:#f59e0b;}
+.prev-next{display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #f3f4f6;}
+.nav-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.nav-btn:hover{background:#f9fafb;}
+.palette-sidebar{width:280px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start;background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;max-height:calc(100vh - 110px);overflow-y:auto;}
+.palette-header{font-size:14px;font-weight:700;color:#1f2937;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f3f4f6;}
+.palette-legend{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10px;color:#6b7280;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:3px;}
+.legend-dot{width:12px;height:12px;border-radius:2px;}
+.legend-dot.answered{background:#10b981;}
+.legend-dot.notanswered{background:#ef4444;}
+.legend-dot.marked{background:#a855f7;}
+.legend-dot.notvisited{background:#e5e7eb;}
+.palette-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;}
+.palette-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px solid #e5e7eb;border-radius:4px;font-size:11px;font-weight:600;color:#4b5563;cursor:pointer;transition:all .15s;background:#f3f4f6;}
+.palette-cell:hover{transform:scale(1.1);}
+.palette-cell.answered{background:#10b981;color:#fff;border-color:#10b981;}
+.palette-cell.notanswered{background:#ef4444;color:#fff;border-color:#ef4444;}
+.palette-cell.marked{background:#a855f7;color:#fff;border-color:#a855f7;}
+.palette-cell.marked-answered{background:#a855f7;color:#fff;border-color:#a855f7;position:relative;}
+.palette-cell.marked-answered::after{content:"•";position:absolute;top:-2px;right:2px;color:#10b981;font-size:14px;}
+.palette-cell.notvisited{background:#fff;color:#9ca3af;}
+.palette-cell.current{outline:3px solid #1fbad6;outline-offset:1px;}
+.palette-stats{margin-top:12px;padding-top:12px;border-top:1px solid #f3f4f6;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:11px;color:#6b7280;}
+.palette-stats div{display:flex;justify-content:space-between;}
+.palette-stats strong{color:#1f2937;font-size:13px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;padding:24px;}
+.modal-overlay.open{display:flex;}
+.modal-content{background:#fff;border-radius:12px;padding:24px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-content h2{font-size:20px;color:#1f2937;margin-bottom:12px;}
+.modal-content p{font-size:14px;color:#4b5563;margin-bottom:16px;}
+.submit-summary{background:#f9fafb;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;}
+.submit-summary div{display:flex;justify-content:space-between;margin-bottom:4px;}
+.submit-summary strong{color:#1f2937;}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;}
+.modal-btn{padding:8px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-btn.cancel{background:#f3f4f6;color:#4b5563;}
+.modal-btn.cancel:hover{background:#e5e7eb;}
+.modal-btn.submit{background:#ef4444;color:#fff;}
+.modal-btn.submit:hover{background:#dc2626;}
+.results-view{max-width:1000px;margin:0 auto;padding:24px;}
+.results-header{text-align:center;margin-bottom:32px;}
+.results-header h1{font-size:28px;color:#1f2937;margin-bottom:16px;}
+.score-card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;display:inline-block;min-width:300px;margin-bottom:16px;}
+.score-card .score{font-size:48px;font-weight:800;color:#1fbad6;}
+.score-card .total{font-size:20px;color:#6b7280;}
+.score-card .rank{font-size:14px;color:#4b5563;margin-top:8px;}
+.results-actions{display:flex;gap:8px;justify-content:center;}
+.results-questions{display:grid;gap:16px;}
+.result-card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.result-card.correct{border-left:4px solid #10b981;}
+.result-card.wrong{border-left:4px solid #ef4444;}
+.result-card.skipped{border-left:4px solid #9ca3af;}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.result-q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.result-status{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;}
+.result-status.correct{background:#d1fae5;color:#065f46;}
+.result-status.wrong{background:#fee2e2;color:#991b1b;}
+.result-status.skipped{background:#f3f4f6;color:#4b5563;}
+.result-text{font-size:14px;margin-bottom:12px;}
+.result-text p{margin:6px 0;}
+.result-options{list-style:none;margin-bottom:12px;}
+.result-option{padding:8px 12px;margin-bottom:4px;border:1px solid #e5e7eb;border-radius:4px;font-size:13px;display:flex;align-items:flex-start;gap:8px;}
+.result-option.correct{background:#d1fae5;border-color:#10b981;font-weight:600;}
+.result-option.selected{background:#dbeafe;border-color:#3b82f6;}
+.result-option.correct.selected{background:#a7f3d0;}
+.result-option-label{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;background:#1f2937;color:#fff;border-radius:3px;font-size:11px;font-weight:600;}
+.result-option.correct .result-option-label{background:#10b981;}
+.result-solution{background:#fef3c7;border-left:3px solid #f59e0b;border-radius:4px;padding:12px;font-size:13px;color:#1f2937;}
+.result-solution-title{font-weight:700;color:#92400e;margin-bottom:6px;font-size:12px;}
+.result-solution p{margin:6px 0;}
+.result-solution img{max-width:100%;height:auto;border-radius:4px;}
+@media (max-width:1024px){.palette-sidebar{width:220px;}.palette-grid{grid-template-columns:repeat(5,1fr);}}
+@media (max-width:768px){.test-container{flex-direction:column;}.palette-sidebar{width:100%;position:static;max-height:none;}.palette-grid{grid-template-columns:repeat(10,1fr);}}
+@media print{.top-bar,.palette-sidebar,.actions,.prev-next,.section-tabs,.q-lang-tabs,.meta-bar,.results-actions{display:none;}.test-container,.results-view{display:block;}.result-card{page-break-inside:avoid;}}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="top-bar">
+  <div class="brand"><span class="brand-light">Repeater</span><span class="brand-mark">Mock</span></div>
+  <div class="test-title" id="testTitle">CGL Tier II CT 02: Decimals</div>
+  <div class="header-right">
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="header-btn submit-btn" onclick="openSubmitModal()">Submit Test</button>
+  </div>
+</header>
+
+<!-- Meta bar -->
+<div class="meta-bar">
+  <div class="meta-item"><span class="meta-label">Series</span><span class="meta-value">ssc-cgl</span></div>
+  <div class="meta-item"><span class="meta-label">Questions</span><span class="meta-value">10</span></div>
+  <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">0 min</span></div>
+  <div class="meta-item"><span class="meta-label">Max Marks</span><span class="meta-value">30.0</span></div>
+  <div class="meta-item"><span class="meta-label">Marking</span><span class="meta-value">+3.0 / -1.0</span></div>
+  <div class="meta-item"><span class="meta-label">Test ID</span><span class="meta-value">6a390dffc85b1f7c6d035167</span></div>
+</div>
+
+<!-- Test mode -->
+<div id="testMode" class="test-container">
+  <main class="question-area">
+    <div class="section-tabs" id="sectionTabs"></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-header">
+        <span class="q-num" id="qNum">Q1</span>
+        <span class="q-marks" id="qMarks"></span>
+      </div>
+      <div class="q-lang-tabs" id="qLangTabs"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options-list" id="optionsList"></div>
+      <div class="actions">
+        <button class="action-btn mark-review" onclick="markReviewNext()">Mark for Review &amp; Next</button>
+        <button class="action-btn clear-response" onclick="clearResponse()">Clear Response</button>
+        <button class="action-btn save-next" onclick="saveNext()">Save &amp; Next →</button>
+      </div>
+      <div class="prev-next">
+        <button class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button class="nav-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </main>
+  <aside class="palette-sidebar">
+    <div class="palette-header">
+      <span id="currentSectionLabel">Test</span>
+    </div>
+    <div class="palette-legend">
+      <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+      <span class="legend-item"><span class="legend-dot notanswered"></span>Not Answered</span>
+      <span class="legend-item"><span class="legend-dot marked"></span>Marked</span>
+      <span class="legend-item"><span class="legend-dot notvisited"></span>Not Visited</span>
+    </div>
+    <div class="palette-grid" id="paletteGrid"></div>
+    <div class="palette-stats" id="paletteStats"></div>
+  </aside>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="modal-content">
+    <h2>Submit Test?</h2>
+    <p>Are you sure you want to submit? You won't be able to change your answers after this.</p>
+    <div class="submit-summary" id="submitSummary"></div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="modal-btn submit" onclick="submitTest()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results view (hidden until submit) -->
+<div id="resultsView" class="results-view" style="display:none;">
+  <div class="results-header">
+    <h1>Test Submitted</h1>
+    <div class="score-card" id="scoreCard"></div>
+    <div class="results-actions">
+      <button class="header-btn" onclick="showAllQuestions()">View All Questions &amp; Solutions</button>
+      <button class="header-btn" onclick="window.print()">🖨️ Print</button>
+    </div>
+  </div>
+  <div class="results-questions" id="resultsQuestions"></div>
+</div>
+
+<!-- Test data embedded as JSON -->
+<script type="application/json" id="test-data">{"test_id": "6a390dffc85b1f7c6d035167", "title": "CGL Tier II CT 02: Decimals", "series_slug": "ssc-cgl", "duration_min": 0, "max_marks": 30.0, "languages": ["English", "Hindi"], "sections": [{"section_id": "64140db38384552c32575c4d", "section_name": "Test", "q_count": 10, "max_marks": 30.0, "questions": [{"qid": "643e4a9bf667a24c0da2ede5", "qs_no": 1, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "0.25 + 1.37 &ndash; 0.36 = ?", "options": [{"prompt": "1", "value": "1.9"}, {"prompt": "2", "value": "1.26"}, {"prompt": "3", "value": "2.1"}, {"prompt": "4", "value": "1.3"}], "range": {"start": "", "end": ""}}, "hn": {"value": "0.25 + 1.37 - 0.36 = ?", "options": [{"prompt": "1", "value": "1.9"}, {"prompt": "2", "value": "1.26"}, {"prompt": "3", "value": "2.1"}, {"prompt": "4", "value": "1.3"}], "range": {"start": "", "end": ""}}, "te": {"value": "0.25 + 1.37 – 0.36 = ?", "options": [{"prompt": "1", "value": "1.9"}, {"prompt": "2", "value": "1.26"}, {"prompt": "3", "value": "2.1"}, {"prompt": "4", "value": "1.3"}], "range": {"start": "", "end": ""}}, "mr": {"value": "0.25 + 1.37 – 0.36 = ?", "options": [{"prompt": "1", "value": "1.9"}, {"prompt": "2", "value": "1.26"}, {"prompt": "3", "value": "2.1"}, {"prompt": "4", "value": "1.3"}], "range": {"start": "", "end": ""}}, "bn": {"value": "0.25 + 1.37 – 0.36 = ?", "options": [{"prompt": "1", "value": "1.9"}, {"prompt": "2", "value": "1.26"}, {"prompt": "3", "value": "2.1"}, {"prompt": "4", "value": "1.3"}], "range": {"start": "", "end": ""}}, "gu": {"value": "0.25 + 1.37 – 0.36 = ?", "options": [{"prompt": "1", "value": "1.9"}, {"prompt": "2", "value": "1.26"}, {"prompt": "3", "value": "2.1"}, {"prompt": "4", "value": "1.3"}], "range": {"start": "", "end": ""}}, "kn": {"value": "0.25 + 1.37 – 0.36 = ?", "options": [{"prompt": "1", "value": "1.9"}, {"prompt": "2", "value": "1.26"}, {"prompt": "3", "value": "2.1"}, {"prompt": "4", "value": "1.3"}], "range": {"start": "", "end": ""}}, "ta": {"value": "0.25 + 1.37 - 0.36 = ?", "options": [{"prompt": "1", "value": "1.9"}, {"prompt": "2", "value": "1.26"}, {"prompt": "3", "value": "2.1"}, {"prompt": "4", "value": "1.3"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "<p><strong>Calculation:</strong></p>\n\n<p>​0.25 + 1.37 &ndash; 0.36 = ?</p>\n\n<p>&rArr; 1.62 - 0.36 = ?</p>\n\n<p>&rArr; 1.26</p>\n\n<p><strong>&there4;&nbsp;​0.25 + 1.37 &ndash; 0.36 = 1.26</strong></p>\n", "hn": "<p><strong>गणना:</strong></p>\n\n<p>​0.25 + 1.37 &ndash; 0.36 = ?</p>\n\n<p>&rArr; 1.62 - 0.36 = ?</p>\n\n<p>&rArr; 1.26</p>\n\n<p><strong>&there4;&nbsp;​0.25 + 1.37 &ndash; 0.36 = 1.26</strong></p>\n", "te": "<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">సాధన:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">​0.25 + 1.37 – 0.36 = ?</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ 1.62 - 0.36 = ?</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ 1.26</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">∴ ​0.25 + 1.37 – 0.36 = 1.26</span></p>\n", "mr": "<p><strong>गणना:</strong></p>\n\n<p>​0.25 + 1.37 – 0.36 = ?</p>\n\n<p>⇒ 1.62 - 0.36 = ?</p>\n\n<p>⇒ 1.26</p>\n\n<p><strong>∴ ​0.25 + 1.37 – 0.36 = 1.26</strong></p>\n", "bn": "<p style=\"margin: 0cm 0cm 7.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><b><span lang=\"BN\" style=\" \">প্রদত্ত:</span></b><span style=\" \"><o:p></o:p></span></p>\n\n<p>​0.25 + 1.37 – 0.36 = ?</p>\n\n<p>⇒ 1.62 - 0.36 = ?</p>\n\n<p>⇒ 1.26</p>\n\n<p><strong>∴ ​0.25 + 1.37 – 0.36 = 1.26</strong></p>\n", "ml": "", "gu": "<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">ગણતરી:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">​0.25 + 1.37 – 0.36 = ?</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ 1.62 - 0.36 = ?</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ 1.26</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">∴ ​0.25 + 1.37 – 0.36 = 1.26</span></p>\n", "kn": "<p><strong>ಲೆಕ್ಕಾಚಾರ:</strong></p>\n\n<p>​0.25 + 1.37 – 0.36 = ?</p>\n\n<p>⇒ 1.62 - 0.36 = ?</p>\n\n<p>⇒ 1.26</p>\n\n<p><strong>∴ ​0.25 + 1.37 – 0.36 = 1.26</strong></p>\n", "ta": "<p><strong>கணக்கீடு:</strong></p>\n\n<p>0.25 + 1.37 – 0.36 = ?</p>\n\n<p>⇒ 1.62 - 0.36 = ?</p>\n\n<p>⇒ 1.26</p>\n\n<p><strong>∴ 0.25 + 1.37 – 0.36 = 1.26</strong></p>\n", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Decimals"], "concept": "Decimals", "confidence": "high"}, {"qid": "62b012e4659130ca95211336", "qs_no": 2, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "Simplify 5 &times; 0.5 &times; 0.05 &times; 0.005 &times; 500.", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}, "hn": {"value": "5 &times; 0.5 &times; 0.05 &times; 0.005 &times; 500 को सरल कीजिए।", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}, "te": {"value": "5 × 0.5 × 0.05 × 0.005 × 500 సూక్ష్మీకరించండి.", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}, "mr": {"value": "सोडवा  5 × 0.5 × 0.05 × 0.005 × 500.", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"\">সরল করুন: </span>5 × 0.5 × 0.05 × 0.005 × 500", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}, "ml": {"value": "5 × 0.5 × 0.05 × 0.005 × 500 ലഘൂകരിക്കുക.", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125 -"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}, "gu": {"value": "5 × 0.5 × 0.05 × 0.005 × 500 ને સાદું રૂપ આપો.", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}, "kn": {"value": "5 × 0.5 × 0.05 × 0.005 × 500 ಅನ್ನು ಸರಳಗೊಳಿಸಿ.", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}, "ta": {"value": "சுருக்குக: 5 × 0.5 × 0.05 × 0.005 × 500.", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}, "or": {"value": " 5 × 0.5 × 0.05 × 0.005 × 500 କୁ ସରଳ କର?", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}, "pa": {"value": "5 x 0.5 x 0.05 x 0.005 x 500 ਨੂੰ ਸਰਲ ਕਰੋ।", "options": [{"prompt": "1", "value": "0.3125"}, {"prompt": "2", "value": "3125"}, {"prompt": "3", "value": "3125000000"}, {"prompt": "4", "value": "0.003125"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "<p><strong>Given :&nbsp;</strong><span style=\"\">5 &times; 0.5 &times; 0.05 &times; 0.005 &times; 500.</span></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><span style=\"\">5 &times; 0.5 &times; 0.05 &times; 0.005 &times; 500</span></p>\n\n<p>Lets write the problem in the form of fraction</p>\n\n<p>=&nbsp;<span style=\"\">5&nbsp; &times;&nbsp; 5 / 10&nbsp;&nbsp;&times;&nbsp; 5 / 100&nbsp;&nbsp;&times;&nbsp; 5 / 1000&nbsp;&nbsp;&times;&nbsp; 500</span></p>\n\n<p><span style=\"\">= 312500 /&nbsp; 1000000</span></p>\n\n<p><span style=\"\">= .3125</span></p>\n\n<p><strong><span style=\"\">Answer is .3125</span></strong></p>\n", "hn": "<p><strong>दिया गया है&nbsp;:&nbsp;</strong><span style=\"\">5 &times; 0.5 &times; 0.05 &times; 0.005 &times; 500</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"\">5 &times; 0.5 &times; 0.05 &times; 0.005 &times; 500</span></p>\n\n<p>प्रश्न&nbsp;को भिन्न के रूप में लिखने पर,</p>\n\n<p>=&nbsp;<span style=\"\">5&nbsp; &times;&nbsp; 5 / 10&nbsp;&nbsp;&times;&nbsp; 5 / 100&nbsp;&nbsp;&times;&nbsp; 5 / 1000&nbsp;&nbsp;&times;&nbsp; 500</span></p>\n\n<p><span style=\"\">= 312500 /&nbsp; 1000000</span></p>\n\n<p><span style=\"\">= .3125</span></p>\n\n<p><strong><span style=\"\">सही उत्तर .3125 है।</span></strong></p>\n", "te": "<p><strong>ఇవ్వబడినవి :</strong> <span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500.</span></p>\n\n<p><strong>గణన:</strong></p>\n\n<p><span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500</span></p>\n\n<p>సమస్యను భిన్నం రూపంలో వ్రాయగా, </p>\n\n<p>= <span style=\"\">5 × 5 / 10 × 5 / 100 × 5 / 1000 × 500</span></p>\n\n<p><span style=\"\">= 312500 / 1000000</span></p>\n\n<p><span style=\"\">= .3125</span></p>\n\n<p><strong><span style=\"\">సమాధానం .3125</span></strong></p>\n", "mr": "<p><strong>दिले आहे : </strong><span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500.</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500</span></p>\n\n<p>हा प्रश्न  अपूर्णांकाच्या स्वरूपात लिहू</p>\n\n<p>= <span style=\"\">5  ×  5 / 10  ×  5 / 100  ×  5 / 1000  ×  500</span></p>\n\n<p><span style=\"\">= 312500 /  1000000</span></p>\n\n<p><span style=\"\">= .3125</span></p>\n\n<p><strong><span style=\"\">.3125 हे योग्य उत्तर आहे.</span></strong></p>\n", "bn": "<p><strong>প্রদত্ত:</strong> <span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500</span></p>\n\n<p><strong>গণনা:</strong></p>\n\n<p><span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500</span></p>\n\n<p>ভগ্নাংশ আকারে সমস্যাটি লিখুন,</p>\n\n<p>= <span style=\"\">5 × 5/10 × 5/100 × 5/1000 × 500</span></p>\n\n<p><span style=\"\">= 312500/1000000</span></p>\n\n<p><span style=\"\">= .3125</span></p>\n\n<p><strong><span style=\"\">সঠিক উত্তর হল 3125</span></strong></p>\n", "ml": "<p><strong>നൽകിയിരിക്കുന്നത്:</strong> <span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500.</span></p>\n\n<p><strong>കണക്കുകൂട്ടല്‍:</strong></p>\n\n<p><span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500</span></p>\n\n<p>നമുക്ക് ചോദ്യം ഭിന്നസംഖ്യയുടെ രൂപത്തിൽ എഴുതാം.</p>\n\n<p>= <span style=\"\">5 × 5 / 10 × 5 / 100 × 5 / 1000 × 500</span></p>\n\n<p><span style=\"\">= 312500 / 1000000</span></p>\n\n<p><span style=\"\">= .3125</span></p>\n\n<p><strong><span style=\"\">ഉത്തരം .3125 ആണ്.</span></strong></p>\n", "gu": "<p><strong>આપેલ:</strong> <span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500.</span></p>\n\n<p><strong>ગણતરી:</strong></p>\n\n<p><span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500</span></p>\n\n<p>ચાલો સમસ્યાને અપૂર્ણાંકના રૂપમાં લખીએ</p>\n\n<p>= <span style=\"\">5 × 5 / 10 × 5 / 100 × 5 / 1000 × 500</span></p>\n\n<p><span style=\"\">= 312500 / 1000000</span></p>\n\n<p><span style=\"\">=.3125</span></p>\n\n<p><strong><span style=\"\">જવાબ છે.3125</span></strong></p>\n", "kn": "<p><strong>ನೀಡಲಾಗಿದೆ :</strong> <span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500.</span></p><p> <strong>ಲೆಕ್ಕಾಚಾರ:</strong></p><p> <span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500</span></p><p> ಸಮಸ್ಯೆಯನ್ನು ಭಿನ್ನರಾಶಿಯ ರೂಪದಲ್ಲಿ ಬರೆಯೋಣ</p><p> = <span style=\"\">5 × 5 / 10 × 5 / 100 × 5 / 1000 × 500</span></p><p> <span style=\"\">= 312500 / 1000000</span></p><p> <span style=\"\">= .3125</span></p><p> <strong><span style=\"\">ಉತ್ತರ .3125</span></strong></p>", "ta": "<p><strong>கொடுக்கப்பட்டுள்ளவை: </strong><span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500.</span></p>\n\n<p><b>கணக்கீடு:</b></p>\n\n<p><span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500</span></p>\n\n<p>கேள்வியை நாம் பின்ன வடிவில் எழுதலாம் </p>\n\n<p>= <span style=\"\">5  ×  5 / 10  ×  5 / 100  ×  5 / 1000  ×  500</span></p>\n\n<p><span style=\"\">= 312500 /  1000000</span></p>\n\n<p><span style=\"\">= .3125</span></p>\n\n<p><strong><span style=\"\">விடை .3125 ஆகும்.</span></strong></p>\n", "or": "<p><strong>ଦତ୍ତ: </strong><span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500.</span></p>\n\n<p><strong>ଗଣନା:</strong></p>\n\n<p><span style=\"\">5 × 0.5 × 0.05 × 0.005 × 500</span></p>\n\n<p>ଆସନ୍ତୁ ସମସ୍ୟାକୁ ଭଗ୍ନାଂଶ ଆକାରରେ ଲେଖିବା</p>\n\n<p>= <span style=\"\">5  ×  5 / 10  ×  5 / 100  ×  5 / 1000  ×  500</span></p>\n\n<p><span style=\"\">= 312500 /  1000000</span></p>\n\n<p><span style=\"\">= .3125</span></p>\n\n<p><strong><span style=\"\">ଉତ୍ତର  .3125 ଅଟେ। </span></strong></p>\n", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "<p><strong>ਦਿੱਤਾ ਗਿਆ: </strong><span style=\"\">5 x 0.5 x 0.05 x 0.005 x 500।</span></p>\n\n<p><strong>ਗਣਨਾ:</strong></p>\n\n<p><span style=\"\">5 x 0.5 x 0.05 x 0.005 x 500</span></p>\n\n<p>ਆਓ ਸਮੱਸਿਆ ਨੂੰ ਭਿੰਨ ਦੇ ਰੂਪ ਵਿੱਚ ਲਿਖੀਏ</p>\n\n<p>= <span style=\"\">5 x 5 / 10 x 5 / 100 x 5 / 1000 x 500</span></p>\n\n<p><span style=\"\">= 312500 / 1000000</span></p>\n\n<p><span style=\"\">= .3125</span></p>\n\n<p><strong><span style=\"\">ਜਵਾਬ .3125 ਹੈ</span></strong></p>\n", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Decimals"], "concept": "Decimals", "confidence": "high"}, {"qid": "624c5c680a2f5ec63963aabd", "qs_no": 3, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "What should be added to (0.102 + 0.25 + 0.111 + 0.1) to get 1?", "options": [{"prompt": "1", "value": "0.457"}, {"prompt": "2", "value": "0.437"}, {"prompt": "3", "value": "0.563"}, {"prompt": "4", "value": "0.537"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"\">1 प्राप्त करने के लिए&nbsp;</span>(0.102 + 0.25 + 0.111 + 0.1) में क्या जोड़ा जाना चाहिए।?", "options": [{"prompt": "1", "value": "0.457"}, {"prompt": "2", "value": "0.437"}, {"prompt": "3", "value": "0.563"}, {"prompt": "4", "value": "0.537"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "<p><strong>Solution:</strong></p>\n\n<p>Let x be added&nbsp;</p>\n\n<p>Now, A/Q</p>\n\n<p><span style=\"\">(0.102 + 0.25 + 0.111 + 0.1) + x = 1</span></p>\n\n<p><span style=\"\">&rArr; 0.563 + x = 1</span></p>\n\n<p><span style=\"\">&rArr; x = 1 - 0.563</span></p>\n\n<p><span style=\"\">&rArr; 0.437</span></p>\n", "hn": "<p><strong>हल:</strong></p>\n\n<p>माना&nbsp;x जोड़ा जाता है।&nbsp;</p>\n\n<p>अब, प्रश्नानुसार&nbsp;</p>\n\n<p><span style=\"\">(0.102 + 0.25 + 0.111 + 0.1) + x = 1</span></p>\n\n<p><span style=\"\">&rArr; 0.563 + x = 1</span></p>\n\n<p><span style=\"\">&rArr; x = 1 - 0.563</span></p>\n\n<p><span style=\"\">&rArr; 0.437</span></p>\n", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Decimals"], "concept": "Decimals", "confidence": "high"}, {"qid": "66670cfc2fadc1b1af1047b4", "qs_no": 4, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "What is the value of&nbsp;<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span>?", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{21}{4}\\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{22}{7}\\)&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{20}{3}\\)&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{18}{7}\\)&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> का मान कितना है?", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{21}{4}\\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{22}{7}\\)&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{20}{3}\\)&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{18}{7}\\)&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> విలువ ఎంత?", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{21}{4}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{20}{3}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{18}{7}\\)</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> याचे मूल्य काय आहे?", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{21}{4}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{20}{3}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{18}{7}\\)</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> এর মান কত?", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{21}{4}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{20}{3}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{18}{7}\\)</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span>નું મૂલ્ય શું છે?", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{21}{4}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{20}{3}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{18}{7}\\)</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> ನಿ ಮೌಲ್ಯ ಯಾವುದು?", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{21}{4}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{20}{3}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{18}{7}\\)</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> இன் மதிப்பு என்ன?", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{21}{4}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{20}{3}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{18}{7}\\)</span>"}], "range": {"start": "", "end": ""}}, "or": {"value": "<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span>ର ମୂଲ୍ୟ କେତେ?", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{21}{4}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{20}{3}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{18}{7}\\)</span>"}], "range": {"start": "", "end": ""}}, "pa": {"value": "<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> ਦਾ ਮੁੱਲ ਕੀ ਹੈ?", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{21}{4}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{20}{3}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{18}{7}\\)</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "<p><strong>Given:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p><span class=\"math-tex\">\\(a.\\overline b\\)</span>&nbsp;= (ab - a)/9</p>\n\n<p><strong>Solution:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p>According to the formula&nbsp;</p>\n\n<p>&rArr; (23 - 2)/9 + (43 - 4)/9</p>\n\n<p>&rArr; 21/9 + 39/9</p>\n\n<p>&rArr; 60/9</p>\n\n<p>&rArr; 20/3</p>\n\n<p><strong>&there4; The value of&nbsp;<span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span>&nbsp;is 20/3.</strong></p>\n", "hn": "<p><span style=\"font-weight: bolder;\">दिया गया है:</span></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p><span class=\"math-tex\">\\(a.\\overline b\\)</span> =<span style=\"color: rgb(33, 37, 41);\">&nbsp;(ab - a)/9</span></p>\n\n<p><strong>हल :</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p>सूत्रानुसार</p>\n\n<p>&rArr; (23 - 2)/9 + (43 - 4)/9</p>\n\n<p>&rArr; 21/9 + 39/9</p>\n\n<p>&rArr; 60/9</p>\n\n<p>&rArr; 20/3</p>\n\n<p><strong>&there4; <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> का मान 20/3 है।</strong></p>\n", "te": "<p><strong>ఇచ్చినది:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p><strong>ఉపయోగించిన సూత్రం:</strong></p>\n\n<p><span class=\"math-tex\">\\(a.\\overline b\\)</span> = (ab - a)/9</p>\n\n<p><strong>సొల్యూషన్:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p>సూత్రం ప్రకారం </p>\n\n<p>⇒ (23 - 2)/9 + (43 - 4)/9</p>\n\n<p>⇒ 21/9 + 39/9</p>\n\n<p>⇒ 60/9</p>\n\n<p>⇒ 20/3</p>\n\n<p><strong>∴ <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> విలువ 20/3.</strong></p>\n", "mr": "<p><strong>दिले:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p><strong>वापरलेले सूत्र:</strong></p>\n\n<p><span class=\"math-tex\">\\(a.\\overline b\\)</span> = (ab - a)/9</p>\n\n<p><strong>उपाय:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p>सूत्रानुसार</p>\n\n<p>⇒ (23 - 2)/9 + (43 - 4)/9</p>\n\n<p>⇒ २१/९ + ३९/९</p>\n\n<p>⇒ ६०/९</p>\n\n<p>⇒ २०/३</p>\n\n<p><strong>∴ <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> चे मूल्य 20/3 आहे.</strong></p>\n", "bn": "<p><strong>প্রদত্ত:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p><strong>অনুসৃত সূত্র:</strong></p>\n\n<p><span class=\"math-tex\">\\(a.\\overline b\\)</span> = (ab - a)/9</p>\n\n<p><strong>সমাধান:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p>সূত্র অনুযায়ী</p>\n\n<p>⇒ (23 - 2)/9 + (43 - 4)/9</p>\n\n<p>⇒ 21/9 + 39/9</p>\n\n<p>⇒ 60/9</p>\n\n<p>⇒ 20/3</p>\n\n<p><strong>∴ <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> এর মান হল 20/3</strong></p>\n", "ml": "", "gu": "<p><strong>આપેલ:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p><strong>સૂત્ર:</strong></p>\n\n<p><span class=\"math-tex\">\\(a.\\overline b\\)</span> = (ab - a)/9</p>\n\n<p><strong>ઉકેલ:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p>સૂત્ર મુજબ</p>\n\n<p>⇒ (23 - 2)/9 + (43 - 4)/9</p>\n\n<p>⇒ 21/9 + 39/9</p>\n\n<p>⇒ 60/9</p>\n\n<p>⇒ 20/3</p>\n\n<p><strong>∴ <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span>નું મૂલ્ય 20/3 છે.</strong></p>\n", "kn": "<p><strong>ನೀಡಲಾಗಿದೆ:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p><strong>ಬಳಸಿದ ಸೂತ್ರ:</strong></p>\n\n<p><span class=\"math-tex\">\\(a.\\overline b\\)</span> = (ab - a)/9</p>\n\n<p><strong>ಸಮಾಧಾನ:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p>ಸೂತ್ರದ ಪ್ರಕಾರ</p>\n\n<p>⇒ (23 - 2)/9 + (43 - 4)/9</p>\n\n<p>⇒ 21/9 + 39/9</p>\n\n<p>⇒ 60/9</p>\n\n<p>⇒ 20/3</p>\n\n<p><strong>∴ <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> ನ ಮೌಲ್ಯ 20/3.</strong></p>\n", "ta": "<p><strong>கொடுக்கப்பட்டது:</strong></p><p> <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p><p> <strong>பயன்படுத்திய சூத்திரம்:</strong></p><p> <span class=\"math-tex\">\\(a.\\overline b\\)</span> = (ab - a)/9</p><p> <strong>தீர்வு:</strong></p><p> <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p><p> சூத்திரத்தின் படி</p><p> ⇒ (23 - 2)/9 + (43 - 4)/9</p><p> ⇒ 21/9 + 39/9</p><p> ⇒ 60/9</p><p> ⇒ 20/3</p><p> <strong>∴ <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> இன் மதிப்பு 20/3 ஆகும்.</strong></p>\n", "or": "<p><strong>ଦିଆଯାଇଛି:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p><strong>ବ୍ୟବହୃତ ସୂତ୍ର:</strong></p>\n\n<p><span class=\"math-tex\">\\(a.\\overline b\\)</span> = (ab - a)/9</p>\n\n<p><strong>ସମାଧାନ:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p>ସୂତ୍ର ଅନୁସାରେ </p>\n\n<p>⇒ (23 - 2)/9 + (43 - 4)/9</p>\n\n<p>⇒ 21/9 + 39/9</p>\n\n<p>⇒ 60/9</p>\n\n<p>⇒ 20/3</p>\n\n<p><strong>∴ <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span>ର ମୂଲ୍ୟ ହେଉଛି 20/3।</strong></p>\n", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "<p><strong>ਦਿੱਤਾ ਗਿਆ ਹੈ:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p><strong>ਵਰਤਿਆ ਗਿਆ </strong><span style=\"font-weight: bolder;\"> </span><span style=\"color: rgb(33, 37, 41); font-weight: bolder;\">ਸੂਤਰ ਹੈ</span><strong>:</strong></p>\n\n<p><span class=\"math-tex\">\\(a.\\overline b\\)</span> = (ab - a)/9</p>\n\n<p><strong>ਹੱਲ:</strong></p>\n\n<p><span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span></p>\n\n<p>ਸੂਤਰ ਅਨੁਸਾਰ</p>\n\n<p>⇒ (23 - 2)/9 + (43 - 4)/9</p>\n\n<p>⇒ 21/9 + 39/9</p>\n\n<p>⇒ 60/9</p>\n\n<p>⇒ 20/3</p>\n\n<p><strong>∴ <span class=\"math-tex\">\\(2.\\overline 3+4.\\overline 3\\)</span> ਦਾ ਮੁੱਲ 20/3 ਹੈ।</strong></p>\n", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Bodmas Rule"], "concept": "Bodmas Rule", "confidence": "high"}, {"qid": "66a3d5f6a780bc320b0c3797", "qs_no": 5, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p>Find the value of 15% of 1.5 + 0.15 &divide; 0.1 + 0.01 of 1.1 &times; 0.5 + 2.5 &times; 25</p>\n", "options": [{"prompt": "1", "value": "6.42305"}, {"prompt": "2", "value": "62.2305"}, {"prompt": "3", "value": "77.2305"}, {"prompt": "4", "value": "64.2305"}], "range": {"start": "", "end": ""}}, "hn": {"value": "1.5 का 15% + 0.15 &divide; 0.1 + 1.1 का 0.01&nbsp;&times; 0.5 + 2.5&nbsp;&times; 25 का मान ज्ञात कीजिए।", "options": [{"prompt": "1", "value": "6.42305"}, {"prompt": "2", "value": "62.2305"}, {"prompt": "3", "value": "77.2305"}, {"prompt": "4", "value": "64.2305"}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "<p><strong>Given:</strong></p>\n\n<p>Expression: 15% of 1.5 + 0.15 &divide; 0.1 + 0.01 of 1.1 &times; 0.5 + 2.5 &times; 25</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>1. a% of b = a/100&nbsp;&times; b</p>\n\n<p>2. Division and multiplication operations follow BODMAS/BIDMAS rules.</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>15% of 1.5</p>\n\n<p>&rArr; 15/100&nbsp;&times; 15/10</p>\n\n<p>&rArr; 0.225</p>\n\n<p>0.01 of 1.1 &times; 0.5&nbsp;</p>\n\n<p>&rArr; 1/100&nbsp;&times; 11/10&nbsp;&times; 5/10</p>\n\n<p>&rArr; 0.0055</p>\n\n<p>2.5 &times; 25</p>\n\n<p>&rArr; 25/10&nbsp;&times; 25</p>\n\n<p>&rArr; 62.5</p>\n\n<p>Now, summing all the parts together:</p>\n\n<p>0.225 + 1.5 + 0.0055 + 62.5</p>\n\n<p>&rArr; 0.225 + 1.5 = 1.725</p>\n\n<p>&rArr; 1.725 + 0.0055 = 1.7305</p>\n\n<p>&rArr; 1.7305 + 62.5 = 64.2305</p>\n\n<p><strong>The correct answer is option 4.</strong></p>\n", "hn": "\n<p><strong>दिया गया है:</strong></p>\n\n<p>व्यंजक: 1.5 का 15% + 0.15 &divide; 0.1 + 1.1 का 0.01 &times; 0.5 + 2.5 &times; 25</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>1. b का a% = a/100 <span style=\"color: rgb(33, 37, 41);\">&times;</span>&nbsp;b</p>\n\n<p>2. भाग और गुणा संक्रियाएँ BODMAS/BIDMAS नियमों का पालन करती हैं।</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>1.5 का 15%</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 15/100&nbsp;&times; 15/10</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 0.225</p>\n\n<p>1.1 का 0.01 <span style=\"color: rgb(33, 37, 41);\">&times;</span>&nbsp;0.5</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; 1/100&nbsp;&times; 11/10&nbsp;&times; 5/10</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 0.0055</p>\n\n<p style=\"color: rgb(33, 37, 41);\">2.5 &times; 25</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 25/10&nbsp;&times; 25</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 62.5</p>\n\n<p>अब, सभी भागों को एक साथ जोड़ते हुए:</p>\n\n<p>0.225 + 1.5 + 0.0055 + 62.5</p>\n\n<p>&rArr; 0.225 + 1.5 = 1.725</p>\n\n<p>&rArr; 1.725 + 0.0055 = 1.7305</p>\n\n<p>&rArr; 1.7305 + 62.5 = 64.2305</p>\n\n<p><strong>सही उत्तर विकल्प 4 है।</strong></p>\n\ne:[\"$\",\"$L2d\",null,{\"testData\":{\"title\":\"CGL Tier II CT 02: Decimals\",\"sections\":[{\"_id\":\"64140db38384552c32575c4d\",\"qCount\":10,\"title\":\"Test\",\"time\":0,\"questions\":[{\"isNum\":false,\"type\":\"mcq\",\"negMarks\":1,\"posMarks\":3,\"skipMarks\":0,\"partialMarks", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Decimals"], "concept": "Decimals", "confidence": "high"}, {"qid": "6400be3b34153e5bd750864d", "qs_no": 6, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "Find the simplified value of <span style=\"\">10.8 + [6.5 - (4.3 + (8.3 -&nbsp;</span><span class=\"math-tex\">\\(\\overline{5.3-3.2}\\)</span><span style=\"\">))]</span>&nbsp;is -", "options": [{"prompt": "1", "value": "&lt;span style=&quot;&quot;&gt;6.2&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;&quot;&gt;6.8&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;&quot;&gt;2.5&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;&quot;&gt;4.6&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "10.8 + [6.5 - (4.3 + (8.3 - <span class=\"math-tex\">\\(\\overline{5.3-3.2}\\)</span>))] का सरलीकृत मान ज्ञात कीजिए?", "options": [{"prompt": "1", "value": "&lt;span style=&quot;&quot;&gt;6.2&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;&quot;&gt;6.8&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;&quot;&gt;2.5&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;&quot;&gt;4.6&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"\">10.8 + [6.5 - (4.3 + (8.3 - </span><span class=\"math-tex\">\\(\\overline{5.3-3.2}\\)</span><span style=\"\">))]</span>  సరళీకృత విలువను కనుగొనండి -", "options": [{"prompt": "1", "value": "<span style=\"\">6.2</span>"}, {"prompt": "2", "value": "<span style=\"\">6.8</span>"}, {"prompt": "3", "value": "<span style=\"\">2.5</span>"}, {"prompt": "4", "value": "<span style=\"\">4.6</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style=\"\">10.8 + [6.5 - (4.3 + (8.3 -</span> <span class=\"math-tex\">\\(\\overline{5.3-3.2}\\)</span> <span style=\"\">))]</span> चे सरलीकृत मूल्य शोधा.", "options": [{"prompt": "1", "value": "<span style=\"\">6.2</span>"}, {"prompt": "2", "value": "<span style=\"\">6.8</span>"}, {"prompt": "3", "value": "<span style=\"\">2.5</span>"}, {"prompt": "4", "value": "<span style=\"\">4.6</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"\">10.8 + [6.5 - (4.3 + (8.3 -</span> <span class=\"math-tex\">\\(\\overline{5.3-3.2}\\)</span> <span style=\"\">)]-</span>এর সরলীকৃত মান নির্ণয় করুন -", "options": [{"prompt": "1", "value": "<span style=\"\">6.2</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">6.8</span>"}, {"prompt": "3", "value": "<span style=\"\">2.5</span>"}, {"prompt": "4", "value": "<span style=\"\">4.6</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style=\"\">10.8 + [6.5 - (4.3 + (8.3 - </span><span class=\"math-tex\">\\(\\overline{5.3-3.2}\\)</span><span style=\"\">))]ના સાદું રૂપનું</span> મૂલ્ય શોધો.", "options": [{"prompt": "1", "value": "<span style=\"\">6.2</span>"}, {"prompt": "2", "value": "<span style=\"\">6.8</span>"}, {"prompt": "3", "value": "<span style=\"\">2.5</span>"}, {"prompt": "4", "value": "<span style=\"\">4.6</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"\">10.8 + [6.5 - (4.3 + (8.3 - </span><span class=\"math-tex\">\\(\\overline{5.3-3.2}\\)</span><span style=\"\">))]</span> ದ ಸರಳೀಕೃತ ಮೌಲ್ಯವನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ -", "options": [{"prompt": "1", "value": "<span style=\"\">6.2</span>"}, {"prompt": "2", "value": "<span style=\"\">6.8</span>"}, {"prompt": "3", "value": "<span style=\"\">2.5</span>"}, {"prompt": "4", "value": "<span style=\"\">4.6</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style=\"\">10.8 + [6.5 - (4.3 + (8.3 - </span><span class=\"math-tex\">\\(\\overline{5.3-3.2}\\)</span><span style=\"\">))]</span> இன் சுருக்கமான மதிப்பு என்ன?", "options": [{"prompt": "1", "value": "<span style=\"\">6.2</span>"}, {"prompt": "2", "value": "<span style=\"\">6.8</span>"}, {"prompt": "3", "value": "<span style=\"\">2.5</span>"}, {"prompt": "4", "value": "<span style=\"\">4.6</span>"}], "range": {"start": "", "end": ""}}, "or": {"value": "<span style=\"\">10.8 + [6.5 - (4.3 + (8.3 - </span><span class=\"math-tex\">\\(\\overline{5.3-3.2}\\)</span><span style=\"\">))]</span> ର ସରଳୀକୃତ ମୂଲ୍ୟ ଖୋଜ -", "options": [{"prompt": "1", "value": "<span style=\"\">6.2</span>"}, {"prompt": "2", "value": "<span style=\"\">6.8</span>"}, {"prompt": "3", "value": "<span style=\"\">2.5</span>"}, {"prompt": "4", "value": "<span style=\"\">4.6</span>"}], "range": {"start": "", "end": ""}}, "pa": {"value": "10.8 + [6.5 - (4.3 + (8.3 - <span class=\"math-tex\">\\(\\overline{5.3-3.2}\\)</span>))] ਦਾ ਸਰਲ ਕੀਤਾ ਮੁੱਲ ਕੀ ਹੈ?", "options": [{"prompt": "1", "value": "<span style=\"\">6.2</span>"}, {"prompt": "2", "value": "<span style=\"\">6.8</span>"}, {"prompt": "3", "value": "<span style=\"\">2.5</span>"}, {"prompt": "4", "value": "<span style=\"\">4.6</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "<p><strong><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png\" style=\"width: 351px; height: 193px;\" />Calculation:</strong></p>\n\n<p>10.8 + [6.5 - (4.3 + (8.3 -<span class=\"math-tex\">\\( \\overline{5.3-3.2}\\)</span>))]</p>\n\n<p>&rArr; 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]</p>\n\n<p>&rArr; 10.8 + [6.5 - (4.3 + 6.2)]</p>\n\n<p>&rArr; 10.8 + [6.5 - 10.5]</p>\n\n<p>&rArr; 10.8 - 4</p>\n\n<p>&rArr; 6.8</p>\n\n<p><strong>&there4; The correct answer is 6.8.</strong></p>\n", "hn": "<p><span style=\"font-weight: bolder;\"><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png\" style=\"width: 351px; height: 193px;\" /></span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>10.8 + [6.5 - (4.3 + (8.3 - <span class=\"math-tex\">\\( \\overline{5.3-3.2}\\)</span> ))]</p>\n\n<p>&rArr; 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]</p>\n\n<p>&rArr; 10.8 + [6.5 - (4.3 + 6.2)]</p>\n\n<p>&rArr; 10.8 + [6.5 - 10.5]</p>\n\n<p>&rArr; 10.8 - 4</p>\n\n<p>&rArr; 6.8</p>\n\n<p><strong>&there4; सही उत्तर 6.8 है।</strong></p>\n", "te": "<p><strong><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png\" style=\"width: 351px; height: 193px;\" />గణన:</strong></p>\n\n<p>10.8 + [6.5 - (4.3 + (8.3 -<span class=\"math-tex\">\\( \\overline{5.3-3.2}\\)</span>))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + 6.2)]</p>\n\n<p>⇒ 10.8 + [6.5 - 10.5]</p>\n\n<p>⇒ 10.8 - 4</p>\n\n<p>⇒ 6.8</p>\n\n<p><strong>∴ సరైన సమాధానం 6.8.</strong></p>\n", "mr": "<p><strong><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png\" style=\"width: 351px; height: 193px;\" /> </strong></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>10.8 + [6.5 - (4.3 + (8.3 - <span class=\"math-tex\">\\( \\overline{5.3-3.2}\\)</span> )]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + 6.2)]</p>\n\n<p>⇒ 10.8 + [6.5 - 10.5]</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ 10.8 - 4</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ 6.8</p>\n\n<p><strong>∴ योग्य उत्तर 6.8 आहे.</strong></p>\n", "bn": "<p><strong><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png\" style=\"width: 351px; height: 193px;\" /> গণনা:</strong></p>\n\n<p>10.8 + [6.5 - (4.3 + (8.3 - <span class=\"math-tex\">\\( \\overline{5.3-3.2}\\)</span> ))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + 6.2)]</p>\n\n<p>⇒ 10.8 + [6.5 - 10.5]</p>\n\n<p>⇒ 10.8 - 4</p>\n\n<p>⇒ <span style=\"color: rgb(33, 37, 41);\">6.8</span></p>\n\n<p><strong>∴ সঠিক উত্তর হল 6.8</strong></p>\n", "ml": "", "gu": "<p><strong><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png\" style=\"width: 351px; height: 193px;\" />ગણતરી:</strong></p>\n\n<p>10.8 + [6.5 - (4.3 + (8.3 -<span class=\"math-tex\">\\( \\overline{5.3-3.2}\\)</span>))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + 6.2)]</p>\n\n<p>⇒ 10.8 + [6.5 - 10.5]</p>\n\n<p>⇒ 10.8 - 4</p>\n\n<p>⇒ 6.8</p>\n\n<p><strong>∴ સાચો જવાબ 6.8 છે.</strong></p>\n", "kn": "<p><strong><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png\" style=\"width: 351px; height: 193px;\" />ಲೆಕ್ಕಾಚಾರ:</strong></p>\n\n<p>10.8 + [6.5 - (4.3 + (8.3 -<span class=\"math-tex\">\\( \\overline{5.3-3.2}\\)</span>))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + 6.2)]</p>\n\n<p>⇒ 10.8 + [6.5 - 10.5]</p>\n\n<p>⇒ 10.8 - 4</p>\n\n<p>⇒ 6.8</p>\n\n<p><strong>∴ ಸರಿಯಾದ ಉತ್ತರ 6.8.</strong></p>\n", "ta": "<p><strong><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png\" style=\"width: 351px; height: 193px;\" />கணக்கீடு:</strong></p>\n\n<p>10.8 + [6.5 - (4.3 + (8.3 -<span class=\"math-tex\">\\( \\overline{5.3-3.2}\\)</span>))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + 6.2)]</p>\n\n<p>⇒ 10.8 + [6.5 - 10.5]</p>\n\n<p>⇒ 10.8 - 4</p>\n\n<p>⇒ 6.8</p>\n\n<p><strong>∴ சரியான விடை 6.8.</strong></p>\n", "or": "<p><strong><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png\" style=\"width: 351px; height: 193px;\" />ଗଣନା:</strong></p>\n\n<p>10.8 + [6.5 - (4.3 + (8.3 -<span class=\"math-tex\">\\( \\overline{5.3-3.2}\\)</span>))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + 6.2)]</p>\n\n<p>⇒ 10.8 + [6.5 - 10.5]</p>\n\n<p>⇒ 10.8 - 4</p>\n\n<p>⇒ 6.8</p>\n\n<p><strong>∴ ସଠିକ୍ ଉତ୍ତର ହେଉଛି 6.8 |</strong></p>\n", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "<p><strong><img alt=\"\" src=\"https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png\" style=\"width: 351px; height: 193px;\" />ਗਣਨਾ:</strong></p>\n\n<p>10.8 + [6.5 - (4.3 + (8.3 -<span class=\"math-tex\">\\( \\overline{5.3-3.2}\\)</span>))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]</p>\n\n<p>⇒ 10.8 + [6.5 - (4.3 + 6.2)]</p>\n\n<p>⇒ 10.8 + [6.5 - 10.5]</p>\n\n<p>⇒ 10.8 - 4</p>\n\n<p>⇒ 6.8</p>\n\n<p><strong>∴ ਸਹੀ ਉੱਤਰ 6.8 ਹੈ।</strong></p>\n", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Decimals"], "concept": "Decimals", "confidence": "high"}, {"qid": "627f07cd335f92b021bab4a8", "qs_no": 7, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p>Simplify the following expression.</p>\n\n<p>81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</p>\n", "options": [{"prompt": "1", "value": "-190.8765"}, {"prompt": "2", "value": "-190.9765"}, {"prompt": "3", "value": "190.9865"}, {"prompt": "4", "value": "-190.9865"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>निम्नलिखित व्यंजक को सरल कीजिए।&nbsp;</p>\n\n<p>81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</p>\n", "options": [{"prompt": "1", "value": "-190.8765"}, {"prompt": "2", "value": "-190.9765"}, {"prompt": "3", "value": "190.9865"}, {"prompt": "4", "value": "-190.9865"}], "range": {"start": "", "end": ""}}, "te": {"value": "<p>కింది వ్యక్తీకరణను సరళీకృతం చేయండి.</p>\n\n<p>81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</p>\n", "options": [{"prompt": "1", "value": "<span style=\"\">-190.8765</span>"}, {"prompt": "2", "value": "<span style=\"\">-190.9765</span>"}, {"prompt": "3", "value": "<span style=\"\">190.9865</span>"}, {"prompt": "4", "value": "<span style=\"\">-190.9865</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<p>पुढील पदावली सोडवा.</p>\n\n<p>81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</p>\n", "options": [{"prompt": "1", "value": "-190.8765"}, {"prompt": "2", "value": "-190.9765"}, {"prompt": "3", "value": "190.9865"}, {"prompt": "4", "value": "-190.9865"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<p>নিম্নলিখিত অভিব্যক্তিটির সরলীকরণ করুন।</p>\n\n<p><span style=\"\">81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</span></p>\n", "options": [{"prompt": "1", "value": "-190.8765"}, {"prompt": "2", "value": "-190.9765"}, {"prompt": "3", "value": "190.9865"}, {"prompt": "4", "value": "-190.9865"}], "range": {"start": "", "end": ""}}, "ml": {"value": "<p>താഴെ തന്നിരിക്കുന്ന പദപ്രയോഗം ലഘൂകരിക്കുക.</p>\n\n<p>81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</p>\n", "options": [{"prompt": "1", "value": "-190.8765"}, {"prompt": "2", "value": "-190.9765"}, {"prompt": "3", "value": "190.9865"}, {"prompt": "4", "value": "-190.9865"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<p>નીચેના સમીકરણને સરળ બનાવો.</p>\n\n<p>81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</p>\n", "options": [{"prompt": "1", "value": "-190.8765"}, {"prompt": "2", "value": "-190.9765"}, {"prompt": "3", "value": "190.9865"}, {"prompt": "4", "value": "-190.9865"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<p>ಕೆಳಗಿನ ಉಕ್ತಿಯನ್ನು ಸರಳಗೊಳಿಸಿ.</p>\n\n<p>81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</p>\n", "options": [{"prompt": "1", "value": "-190.8765"}, {"prompt": "2", "value": "-190.9765"}, {"prompt": "3", "value": "190.9865"}, {"prompt": "4", "value": "-190.9865"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<p>பின்வரும் சமன்பாட்டை எளிமைப்படுத்தவும்.</p>\n\n<p>81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</p>\n", "options": [{"prompt": "1", "value": "<span style=\"\">-190.8765</span>"}, {"prompt": "2", "value": "<span style=\"\">-190.9765</span>"}, {"prompt": "3", "value": "<span style=\"\">190.9865</span>"}, {"prompt": "4", "value": "<span style=\"\">-190.9865</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "<p><strong>Given:</strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 &ndash;&nbsp;2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><strong><span style=\"\">Calculation:</span></strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 &ndash;&nbsp;2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">&rArr; 279.712&nbsp;&ndash; 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">&rArr; 1880.222&nbsp;&ndash; 2071.1985</span></p>\n\n<p><span style=\"\">&rArr; -190.9765</span></p>\n\n<p><strong><span style=\"\">&there4; The required value is -190.9765</span></strong></p>\n", "hn": "<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 &ndash;&nbsp;2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><strong><span style=\"\">गणना:</span></strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 &ndash;&nbsp;2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">&rArr; 279.712&nbsp;&ndash; 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">&rArr; 1880.222&nbsp;&ndash; 2071.1985</span></p>\n\n<p><span style=\"\">&rArr; -190.9765</span></p>\n\n<p><strong><span style=\"\">&there4; अभीष्ट मान -190.9765 है।&nbsp;</span></strong></p>\n", "te": "<p style=\"\"><strong>ఇచ్చిన:</strong></p>\n\n<p style=\"\">81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42</p>\n\n<p style=\"\"><strong>లెక్కింపు:</strong></p>\n\n<p style=\"\">81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42</p>\n\n<p style=\"\">⇒ 279.712 – 2071.1985 + 9.0900 + 1591.42</p>\n\n<p style=\"\">⇒ 1880.222 – 2071.1985</p>\n\n<p style=\"\">⇒ -190.9765</p>\n\n<p style=\"\"><strong>∴ అవసరమైన విలువ</strong> <strong>-190.9765</strong></p>\n", "mr": "<p><strong>दिलेल्याप्रमाणे:</strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><strong><span style=\"\">गणना:</span></strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ 279.712 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ 1880.222 – 2071.1985</span></p>\n\n<p><span style=\"\">⇒ -190.9765</span></p>\n\n<p><strong><span style=\"\">∴आवश्यक मूल्य -190.9765 हे आहे.</span></strong></p>\n", "bn": "<p><strong>প্রদত্ত:</strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><strong><span style=\"\">গণনা:</span></strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ 279.712 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ 1880.222 – 2071.1985</span></p>\n\n<p><span style=\"\">⇒ -190.9765</span></p>\n\n<p><strong><span style=\"\">∴ আবশ্যক মান হল -190.9765</span></strong></p>\n", "ml": "<p><strong>നൽകിയിരിക്കുന്നത്:</strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><strong><span style=\"\">കണക്കുകൂട്ടൽ:</span></strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ 279.712 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ 1880.222 – 2071.1985</span></p>\n\n<p><span style=\"\">⇒ -190.9765</span></p>\n\n<p><strong><span style=\"\">∴ ആവശ്യമായ മൂല്യം -190.9765 ആണ്.</span></strong></p>\n", "gu": "<p><strong>આપેલ:</strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><strong><span style=\"\">ગણતરી:</span></strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ 279.712 - 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ -1791.4865 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ -1782.3965 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ -190.9765</span></p>\n\n<p><strong><span style=\"\">∴ જરૂરી મૂલ્ય -190.9765 છે</span></strong></p>\n", "kn": "<p><span data-sheets-userformat=\"{\" data-sheets-value=\"{\" style=\"color: rgb(0, 0, 0);   font-weight: bold;\">ನೀಡಲಾಗಿದೆ:</span></p>\n\n<p><span style=\"\">81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><strong><span style=\"\">ಲೆಕ್ಕಾಚಾರ:</span></strong></p>\n\n<p><span style=\"\">81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ 279.712 – 2071.1985 + 9.0900 + 1591.42</span></p>\n\n<p><span style=\"\">⇒ 1880.222 – 2071.1985</span></p>\n\n<p><span style=\"\">⇒ -190.9765</span></p>\n\n<p><strong><span style=\"\">∴ ಅಗತ್ಯವಿರುವ ಮೌಲ್ಯ -190.9765</span></strong></p>\n", "ta": "<p><strong>கொடுக்கப்பட்டது</strong>:</p>\n\n<p>81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</p>\n\n<p><strong>கணக்கீடு</strong>:</p>\n\n<p>81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42</p>\n\n<p>⇒ 279.712 – 2071.1985 + 9.0900 + 1591.42</p>\n\n<p>⇒ 1880.222 - 2071.1985</p>\n\n<p>⇒ -190.9765</p>\n\n<p><strong>∴ தேவையான மதிப்பு -190.9765</strong></p>\n", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Decimals"], "concept": "Decimals", "confidence": "high"}, {"qid": "62fc736ace68b2cc5b2e3b9e", "qs_no": 8, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<span style=\"\">Simplify the following expression&nbsp;<span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span>.</span>", "options": [{"prompt": "1", "value": "1.32"}, {"prompt": "2", "value": "1.6"}, {"prompt": "3", "value": "1.8"}, {"prompt": "4", "value": "2.32"}], "range": {"start": "", "end": ""}}, "hn": {"value": "निम्नलिखित व्यंजक&nbsp;<span style=\"\">&nbsp;</span><span style=\"\">को सरल कीजिए।&nbsp;<span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></span>", "options": [{"prompt": "1", "value": "1.32"}, {"prompt": "2", "value": "1.6"}, {"prompt": "3", "value": "1.8"}, {"prompt": "4", "value": "2.32"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"\">కింది సమీకరణాన్ని సులభతరం చేయండి <span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span>.</span>", "options": [{"prompt": "1", "value": "1.32"}, {"prompt": "2", "value": "1.6"}, {"prompt": "3", "value": "1.8"}, {"prompt": "4", "value": "2.32"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style=\"\">खालील समीकरण सोपे करा <span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span>.</span>", "options": [{"prompt": "1", "value": "1.32"}, {"prompt": "2", "value": "1.6"}, {"prompt": "3", "value": "1.8"}, {"prompt": "4", "value": "2.32"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"\">নিম্নলিখিত রাশিমালাটিকে সরল করুন <span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span>.</span>", "options": [{"prompt": "1", "value": "1.32"}, {"prompt": "2", "value": "1.6"}, {"prompt": "3", "value": "1.8"}, {"prompt": "4", "value": "2.32"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style=\"\">નીચેના સમીકરણને સરળ બનાવો <span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span>.</span>", "options": [{"prompt": "1", "value": "1.32"}, {"prompt": "2", "value": "1.6"}, {"prompt": "3", "value": "1.8"}, {"prompt": "4", "value": "2.32"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"\">ಕೆಳಗಿನ ಅಭಿವ್ಯಕ್ತಿಯನ್ನು ಸರಳೀಕರಿಸಿ <span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span>.</span>", "options": [{"prompt": "1", "value": "1.32"}, {"prompt": "2", "value": "1.6"}, {"prompt": "3", "value": "1.8"}, {"prompt": "4", "value": "2.32"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style=\"\">பின்வரும் கோவையைச் சுருக்குக <span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span>.</span>", "options": [{"prompt": "1", "value": "1.32"}, {"prompt": "2", "value": "1.6"}, {"prompt": "3", "value": "1.8"}, {"prompt": "4", "value": "2.32"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "<p style=\"\"><span style=\"font-weight: 700;\">Given:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Calculation:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.", "hn": "<p style=\"\"><span style=\"font-weight: 700;\">दिया गया है:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">गणना:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\", "te": "<p style=\"\"><span style=\"font-weight: 700;\">ఇచ్చినది:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">లెక్కించుట:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(1 × 0.154 +0.143 ×2)}{0.15(1 ×0.154+0.0346 ×10)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.154 +0.286)}{0.15(0.154+0.346)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.44)}{0.15(0.5)}\\)</span></p>\n\n<p style=\"\">⇒ 0.44 x 3</p>\n\n<p style=\"\">⇒ 1.32</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">∴ కావలసిన సమాధానం 1.32.</span></p>\n", "mr": "<p style=\"\"><span style=\"font-weight: 700;\">दिलेले:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">गणना:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(1 × 0.154 +0.143 ×2)}{0.15(1 ×0.154+0.0346 ×10)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.154 +0.286)}{0.15(0.154+0.346)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.44)}{0.15(0.5)}\\)</span></p>\n\n<p style=\"\">⇒ 0.44 x 3</p>\n\n<p style=\"\">⇒ 1.32</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">∴ आवश्यक उत्तर 1.32 आहे.</span></p>\n", "bn": "<p style=\"\"><span style=\"font-weight: 700;\">প্রদত্ত:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">গণনা:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(1 × 0.154 +0.143 ×2)}{0.15(1 ×0.154+0.0346 ×10)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.154 +0.286)}{0.15(0.154+0.346)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.44)}{0.15(0.5)}\\)</span></p>\n\n<p style=\"\">⇒ 0.44 <span style=\"color: rgb(33, 37, 41);\">× </span>3</p>\n\n<p style=\"\">⇒ 1.32</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">∴ নির্ণেয় উত্তর 1.32.</span></p>\n", "ml": "", "gu": "<p style=\"\"><span style=\"font-weight: 700;\">આપેલ:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">ગણતરી:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(1 × 0.154 +0.143 ×2)}{0.15(1 ×0.154+0.0346 ×10)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.154 +0.286)}{0.15(0.154+0.346)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.44)}{0.15(0.5)}\\)</span></p>\n\n<p style=\"\">⇒ 0.44 x 3</p>\n\n<p style=\"\">⇒ 1.32</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">∴ જરૂરી જવાબ 1.32.</span></p>\n", "kn": "<p style=\"\"><span style=\"font-weight: 700;\">ನೀಡಲಾಗಿದೆ:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">ಲೆಕ್ಕಾಚಾರ:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(1 × 0.154 +0.143 ×2)}{0.15(1 ×0.154+0.0346 ×10)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.154 +0.286)}{0.15(0.154+0.346)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.44)}{0.15(0.5)}\\)</span></p>\n\n<p style=\"\">⇒ 0.44 x 3</p>\n\n<p style=\"\">⇒ 1.32</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">∴ ಅಗತ್ಯವಿರುವ ಉತ್ತರ 1.32.</span></p>\n", "ta": "<p style=\"\"><span style=\"font-weight: 700;\">கொடுக்கப்பட்டது:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">கணக்கீடு:</span></p>\n\n<p style=\"\"><span class=\"math-tex\">\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.0346 \\times1.5}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(1 × 0.154 +0.143 ×2)}{0.15(1 ×0.154+0.0346 ×10)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.154 +0.286)}{0.15(0.154+0.346)}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac {0.225(0.44)}{0.15(0.5)}\\)</span></p>\n\n<p style=\"\">⇒ 0.44 x 3</p>\n\n<p style=\"\">⇒ 1.32</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">∴ தேவையான விடை 1.32.</span></p>\n", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Decimals"], "concept": "Decimals", "confidence": "high"}, {"qid": "65a02ac41ab53d1d5bdfe3bc", "qs_no": 9, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<p>What value should come in place of the question mark in the following question?</p>\n\n<p>0.02 &times; 0.1 + 0.03 &times; 0.2 + 0.1 &times; 0.03 =?&nbsp;&nbsp;</p>\n", "options": [{"prompt": "1", "value": "0.011&amp;nbsp;"}, {"prompt": "2", "value": "0.029&amp;nbsp;"}, {"prompt": "3", "value": "0.29&amp;nbsp;"}, {"prompt": "4", "value": "0.11&amp;nbsp;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<p>निम्नलिखित प्रश्न में प्रश्न चिह्न&nbsp;के स्थान पर क्या मान आना चाहिए?</p>\n\n<p>0.02 &times; 0.1 + 0.03 &times; 0.2 + 0.1 &times; 0.03 =?&nbsp;</p>\n", "options": [{"prompt": "1", "value": "0.011&amp;nbsp;"}, {"prompt": "2", "value": "0.029&amp;nbsp;"}, {"prompt": "3", "value": "0.29&amp;nbsp;"}, {"prompt": "4", "value": "0.11&amp;nbsp;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<p>కింది ప్రశ్నలో ప్రశ్న గుర్తు (?) స్థానంలో ఏ విలువ రావాలి?</p>\n\n<p>0.02 x 0.1 + 0.03 x 0.2 + 0.1 x 0.03 =? </p>\n", "options": [{"prompt": "1", "value": "0.011 "}, {"prompt": "2", "value": "0.029 "}, {"prompt": "3", "value": "0.29 "}, {"prompt": "4", "value": "0.11 "}], "range": {"start": "", "end": ""}}, "mr": {"value": "<p>खालील प्रश्नात प्रश्नचिन्हाच्या जागी कोणती किंमत यायला हवी?</p>\n\n<p>0.02 x 0.1 + 0.03 x 0.2 + 0.1 x 0.03 =?  </p>\n", "options": [{"prompt": "1", "value": "0.011 "}, {"prompt": "2", "value": "0.029 "}, {"prompt": "3", "value": "0.29 "}, {"prompt": "4", "value": "0.11 "}], "range": {"start": "", "end": ""}}, "bn": {"value": "<p>নিম্নলিখিত প্রশ্নে প্রশ্ন চিহ্নের স্থানে কোন মান আসা উচিত?</p>\n\n<p>0.02 × 0.1 + 0.03 × 0.2 + 0.1 × 0.03 =?  </p>\n", "options": [{"prompt": "1", "value": "0.011"}, {"prompt": "2", "value": "0.029"}, {"prompt": "3", "value": "0.29"}, {"prompt": "4", "value": "0.11"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<p>નીચેના પ્રશ્નમાં પ્રશ્નાર્થના સ્થાને કયા મૂલ્ય આવશે?</p>\n\n<p>0.02 x 0.1 + 0.03 x 0.2 + 0.1 x 0.03 =?  </p>\n", "options": [{"prompt": "1", "value": "0.011 "}, {"prompt": "2", "value": "0.029 "}, {"prompt": "3", "value": "0.29 "}, {"prompt": "4", "value": "0.11 "}], "range": {"start": "", "end": ""}}, "kn": {"value": "<p>ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ಪ್ರಶ್ನಾರ್ಥಕ ಚಿಹ್ನೆಯ ಸ್ಥಾನದಲ್ಲಿ ಯಾವ ಮೌಲ್ಯ ಬರಬೇಕು?</p>\n\n<p>0.02 x 0.1 + 0.03 x 0.2 + 0.1 x 0.03 =?  </p>\n", "options": [{"prompt": "1", "value": "0.011 "}, {"prompt": "2", "value": "0.029 "}, {"prompt": "3", "value": "0.29 "}, {"prompt": "4", "value": "0.11 "}], "range": {"start": "", "end": ""}}, "ta": {"value": "<p>பின்வரும் கேள்வியில் கேள்விக்குறிக்கு பதிலாக என்ன மதிப்பு வர வேண்டும்?</p>\n\n<p>0.02 x 0.1 + 0.03 x 0.2 + 0.1 x 0.03 =?  </p>\n", "options": [{"prompt": "1", "value": "0.011 "}, {"prompt": "2", "value": "0.029 "}, {"prompt": "3", "value": "0.29 "}, {"prompt": "4", "value": "0.11 "}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "<p><strong>Calculation:</strong></p>\n\n<p>&rArr; (2/100&nbsp;&times; 1/10) + (3/100&nbsp;&times; 2/10) + (1/10&nbsp;&times; 3/100)</p>\n\n<p>&rArr; 2/1000 + 6/1000 + 3/1000</p>\n\n<p>&rArr; 11/1000</p>\n\n<p>&rArr; 0.011</p>\n\n<p><strong>&there4; The correct answer is 0.011 .</strong></p>\n", "hn": "<p><strong>गणना:</strong></p>\n\n<p>&rArr; (2/100&nbsp;&times; 1/10) + (3/100&nbsp;&times; 2/10) + (1/10&nbsp;&times; 3/100)</p>\n\n<p>&rArr; 2/1000 + 6/1000 + 3/1000</p>\n\n<p>&rArr; 11/1000</p>\n\n<p>&rArr; 0.011</p>\n\n<p><strong>&there4; सही उत्तर&nbsp;0.011 है।&nbsp;</strong></p>\n", "te": "<p><strong>లెక్కింపు:</strong></p>\n\n<p>⇒ (2/100 x 1/10) + (3/100 x 2/10) + (1/10 x 3/100)</p>\n\n<p>⇒ 2/1000 + 6/1000 + 3/1000</p>\n\n<p>⇒ 11/1000</p>\n\n<p>⇒ 0.011</p>\n\n<p><strong>∴ సరైన సమాధానం 0.011.</strong></p>\n", "mr": "<p><strong>गणना:</strong></p>\n\n<p>⇒ (2/100 x 1/10) + (3/100 x 2/10) + (1/10 x 3/100)</p>\n\n<p>⇒ 2/1000 + 6/1000 + 3/1000</p>\n\n<p>⇒ 11/1000</p>\n\n<p>⇒ 0.011</p>\n\n<p><strong>∴ योग्य उत्तर 0.011 आहे.</strong></p>\n", "bn": "<p><strong>গণনা:</strong></p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ (2/100 × 1/10) + (3/100 × 2/10) + (1/10 × 3/100)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ 2/1000 + 6/1000 + 3/1000</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ 11/1000</p>\n\n<p style=\"color: rgb(33, 37, 41);\">⇒ 0.011</p>\n\n<p><strong>∴ সঠিক উত্তর হল 0.011.</strong></p>\n", "ml": "", "gu": "<p><strong>ગણતરી:</strong></p>\n\n<p>⇒ (2/100 x 1/10) + (3/100 x 2/10) + (1/10 x 3/100)</p>\n\n<p>⇒ 2/1000 + 6/1000 + 3/1000</p>\n\n<p>⇒ 11/1000</p>\n\n<p>⇒ 0.011</p>\n\n<p><strong>∴ સાચો જવાબ 0.011 છે.</strong></p>\n", "kn": "<p><strong>ಲೆಕ್ಕಾಚಾರ:</strong></p>\n\n<p>⇒ (2/100 x 1/10) + (3/100 x 2/10) + (1/10 x 3/100)</p>\n\n<p>⇒ 2/1000 + 6/1000 + 3/1000</p>\n\n<p>⇒ 11/1000</p>\n\n<p>⇒ 0.011</p>\n\n<p><strong>∴ ಸರಿಯಾದ ಉತ್ತರ 0.011.</strong></p>\n", "ta": "<p><strong>கணக்கீடு:</strong></p>\n\n<p>⇒ (2/100 x 1/10) + (3/100 x 2/10) + (1/10 x 3/100)</p>\n\n<p>⇒ 2/1000 + 6/1000 + 3/1000</p>\n\n<p>⇒ 11/1000</p>\n\n<p>⇒ 0.011</p>\n\n<p><strong>∴ சரியான பதில் 0.011 ஆகும்.</strong></p>\n", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Decimals"], "concept": "Decimals", "confidence": "high"}, {"qid": "636efb567265fd32638a1f72", "qs_no": 10, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "Using the fact that 4515 &divide; 12.9 = 350, find the value of 4.515 &divide; 12.9 ?", "options": [{"prompt": "1", "value": "&lt;span style=&quot;&quot;&gt;35&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;&quot;&gt;3.5&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;&quot;&gt;0.035&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;&quot;&gt;0.35&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "इस तथ्य का प्रयोग करते हुए कि 4515 &divide; 12.9 = 350 है, 4.515 &divide; 12.9 का मान ज्ञात कीजिए।", "options": [{"prompt": "1", "value": "&lt;span style=&quot;&quot;&gt;35&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;&quot;&gt;3.5&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;&quot;&gt;0.035&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;&quot;&gt;0.35&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "4515 ÷ 12.9 = 350ని ఉపయోగించి, 4.515 ÷ 12.9 విలువను కనుగొనండి?", "options": [{"prompt": "1", "value": "<span style=\"\">35</span>"}, {"prompt": "2", "value": "<span style=\"\">3.5</span>"}, {"prompt": "3", "value": "<span style=\"\">0.035</span>"}, {"prompt": "4", "value": "<span style=\"\">0.35</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "4515 ÷ 12.9 = 350 हे तथ्य वापरून, 4.515 ÷ 12.9 चे मूल्य शोधा?", "options": [{"prompt": "1", "value": "<span style=\"\">35</span>"}, {"prompt": "2", "value": "<span style=\"\">3.5</span>"}, {"prompt": "3", "value": "<span style=\"\">0.035</span>"}, {"prompt": "4", "value": "<span style=\"\">0.35</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "4515 ÷ 12.9 = 350 এই সত্যটি ব্যবহার করে, 4.515 ÷ 12.9 এর মান নির্ণয় করুন।", "options": [{"prompt": "1", "value": "<span style=\"\">35</span>"}, {"prompt": "2", "value": "<span style=\"\">3.5</span>"}, {"prompt": "3", "value": "<span style=\"\">0.035</span>"}, {"prompt": "4", "value": "<span style=\"\">0.35</span>"}], "range": {"start": "", "end": ""}}, "ml": {"value": "4515 ÷ 12.9 = 350 എന്ന വസ്തുത ഉപയോഗിച്ച്, 4.515 ÷ 12.9 ന്റെ മൂല്യം കണ്ടെത്തുക?", "options": [{"prompt": "1", "value": "<span style=\"\">35</span>"}, {"prompt": "2", "value": "<span style=\"\">3.5</span>"}, {"prompt": "3", "value": "<span style=\"\">0.035</span>"}, {"prompt": "4", "value": "<span style=\"\">0.35</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "4515 ÷ 12.9 = 350 એ હકીકતનો ઉપયોગ કરીને, 4.515 ÷ 12.9 ની કિંમત શોધો?", "options": [{"prompt": "1", "value": "<span style=\"\">35</span>"}, {"prompt": "2", "value": "<span style=\"\">3.5</span>"}, {"prompt": "3", "value": "<span style=\"\">0.035</span>"}, {"prompt": "4", "value": "<span style=\"\">0.35</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "4515 ÷ 12.9 = 350 ಎಂಬ ಅಂಶವನ್ನು ಬಳಸಿಕೊಂಡು, 4.515 ÷ 12.9ರ ಮೌಲ್ಯವನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.", "options": [{"prompt": "1", "value": "<span style=\"\">35</span>"}, {"prompt": "2", "value": "<span style=\"\">3.5</span>"}, {"prompt": "3", "value": "<span style=\"\">0.035</span>"}, {"prompt": "4", "value": "<span style=\"\">0.35</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "4515 ÷ 12.9 = 350 என்ற உண்மையைப் பயன்படுத்தி, 4.515 ÷ 12.9 இன் மதிப்பைக் கண்டறியவும்?", "options": [{"prompt": "1", "value": "35"}, {"prompt": "2", "value": "3.5"}, {"prompt": "3", "value": "0.035"}, {"prompt": "4", "value": "0.35"}], "range": {"start": "", "end": ""}}, "or": {"value": " 4515 ÷ 12.9 = 350,<span style=\"\"> ଏହି ତଥ୍ୟ ବ୍ୟବହାର କରି</span> 12.9 ÷ 4.515 ର <span style=\"\">ମୂଲ୍ୟ ନିରୂପଣ କର </span>?", "options": [{"prompt": "1", "value": "35&nbsp;"}, {"prompt": "2", "value": "<span style=\"\">3.5</span>"}, {"prompt": "3", "value": "<span style=\"\">0.035</span>"}, {"prompt": "4", "value": "<span style=\"\">0.35</span>"}], "range": {"start": "", "end": ""}}, "pa": {"value": "ਇਸ ਤੱਥ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਕਿ 4515 ÷ 12.9 = 350, 4.515 ÷ 12.9 ਦਾ ਮੁੱਲ ਲੱਭੋ?", "options": [{"prompt": "1", "value": "<span style=\"\">35</span>"}, {"prompt": "2", "value": "<span style=\"\">3.5</span>"}, {"prompt": "3", "value": "<span style=\"\">0.035</span>"}, {"prompt": "4", "value": "<span style=\"\">0.35</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "<p><span style=\"\"><strong>Given:</strong></span></p>\n\n<p>4515 &divide; 12.9 = 350</p>\n\n<p><span style=\"\"><strong>Calculation:</strong></span></p>\n\n<p><span style=\"\">4515 &divide; 12.9 = 350</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</span></p>\n\n<", "hn": "<p><strong>दिया गया है:</strong></p>\n\n<p>4515 &divide; 12.9 = 350</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"\">4515 &divide; 12.9 = 350</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{(4.515 × 1000)}{(12.9)}\\)</span> = 350</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{4.515}{12.9} = \\frac{350}{1000}\\)</span></span></p>\n\n<p><span style=\"\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{4.515}{12.9}\\)</span>&nbsp;= 0.35</span></p>\n\n<p><strong>इस प्रकार, आवश्यक मान 0.35 है।</strong></p>\n\n<p><strong>अत:</strong>&nbsp;<strong>सही उत्तर विकल्प 4 है।</strong></p>\n32:T4e4,<p><strong>Given:</strong></p>\n\n<p>Expression: 15% of 1.5 + 0.15 &a", "te": "<p><span style=\"\"><strong>ఇవ్వబడినది:</strong></span></p>\n\n<p>4515 ÷ 12.9 = 350</p>\n\n<p><span style=\"\"><strong>గణన:</strong></span></p>\n\n<p><span style=\"\">4515 ÷ 12.9 = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{(4.515 × 1000)}{(12.9)}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9} = \\frac{350}{1000}\\)</span></span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9}\\)</span> = 0.35</span></p>\n\n<p><strong><span style=\"\">అందువలన, అవసరమైన విలువ 0.35.</span></strong></p>\n\n<p><strong><span style=\"\">కాబట్టి, సరైన సమాధానం ఎంపిక 4</span></strong></p>\n", "mr": "<p><strong>दिलेल्याप्रमाणे</strong><span style=\"\"><strong>:</strong></span></p>\n\n<p>4515 ÷ 12.9 = 350</p>\n\n<p><span style=\"\"><strong>गणना:</strong></span></p>\n\n<p><span style=\"\">4515 ÷ 12.9 = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{(4.515 × 1000)}{(12.9)}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9} = \\frac{350}{1000}\\)</span></span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9}\\)</span> = 0.35</span></p>\n\n<p><strong>अशा प्रकारे, आवश्यक मूल्य 0.35 आहे.</strong></p>\n\n<p><strong>म्हणून, योग्य उत्तर पर्याय 4<span style=\"\">)</span> आहे.</strong></p>\n", "bn": "<p><span style=\"\"><strong>প্রদত্ত:</strong></span></p>\n\n<p>4515 ÷ 12.9 = 350</p>\n\n<p><span style=\"\"><strong>গণনা:</strong></span></p>\n\n<p><span style=\"\">4515 ÷ 12.9 = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{(4.515 × 1000)}{(12.9)}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9} = \\frac{350}{1000}\\)</span></span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9}\\)</span> = 0.35</span></p>\n\n<p><strong>অতএব, নির্ণেয় মান হল 0.35</strong></p>\n\n<p><strong>সুতরাং, সঠিক উত্তর হল বিকল্প 4</strong></p>\n", "ml": "<p><span style=\"\"><strong>നൽകിയത്:</strong></span></p>\n\n<p>4515 ÷ 12.9 = 350</p>\n\n<p><span style=\"\"><strong>കണക്കുകൂട്ടൽ:</strong></span></p>\n\n<p><span style=\"\">4515 ÷ 12.9 = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{(4.515 × 1000)}{(12.9)}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9} = \\frac{350}{1000}\\)</span></span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9}\\)</span> = 0.35</span></p>\n\n<p><strong>അതിനാൽ, ആവശ്യമായ മൂല്യം 0.35 ആണ്.</strong></p>\n\n<p><strong>അതിനാൽ, ശരിയായ ഉത്തരം ഓപ്ഷൻ 4) ആണ്</strong>.</p>\n", "gu": "<p><span style=\"\"><strong>આપેલ માહિતી:</strong></span></p>\n\n<p>4515 ÷ 12.9 = 350</p>\n\n<p><span style=\"\"><strong>ગણતરી:</strong></span></p>\n\n<p><span style=\"\">4515 ÷ 12.9 = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{(4.515 × 1000)}{(12.9)}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9} = \\frac{350}{1000}\\)</span></span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9}\\)</span> = 0.35</span></p>\n\n<p><strong>આમ, જરૂરી મૂલ્ય 0.35 છે.</strong></p>\n\n<p><strong>તેથી, સાચો જવાબ વિકલ્પ 4</strong><span style=\"font-weight: 700; \">)</span><strong> છે.</strong></p>\n", "kn": "<p><strong>ನೀಡಲಾಗಿದೆ</strong><span style=\"\"><strong>:</strong></span></p>\n\n<p>4515 ÷ 12.9 = 350</p>\n\n<p><strong>ಲೆಕ್ಕಾಚಾರ</strong><span style=\"\"><strong>:</strong></span></p>\n\n<p><span style=\"\">4515 ÷ 12.9 = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{(4.515 × 1000)}{(12.9)}\\)</span> = 350</span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9} = \\frac{350}{1000}\\)</span></span></p>\n\n<p><span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9}\\)</span> = 0.35</span></p>\n\n<p><strong>ಹೀಗಾಗಿ, ಅಗತ್ಯವಿರುವ ಮೌಲ್ಯವು 0.35 ಆಗಿದೆ.</strong></p>\n\n<p><strong>ಆದ್ದರಿಂದ, ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ 4).</strong></p>\n", "ta": "<p style=\"\"><span style=\"font-weight: 700;\">கொடுக்கப்பட்டது:</span></p>\n\n<p style=\"\">4515 ÷ 12.9 = 350</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">கணக்கீடு:</span></p>\n\n<p style=\"\">4515 ÷ 12.9 = 350</p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{(4.515 × 1000)}{(12.9)}\\)</span> = 350</p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9} = \\frac{350}{1000}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9}\\)</span> = 0.35</p>\n\n<p>எனவே, <strong>தேவையான மதிப்பு 0.35 ஆகும்.</strong></p>\n\n<p>எனவே, <strong>சரியான பதில் விருப்பம் 4).</strong></p>\n", "or": "<p style=\"\"><span style=\"font-weight: 700;\">ପ୍ରଦତ୍ତ:</span></p>\n\n<p style=\"\">4515 ÷ 12.9 = 350</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">ଗଣନା:</span></p>\n\n<p style=\"\">4515 ÷ 12.9 = 350</p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{(4.515 × 1000)}{(12.9)}\\)</span> = 350</p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9} = \\frac{350}{1000}\\)</span></p>\n\n<p style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9}\\)</span> = 0.35</p>\n\n<p style=\"\"> </p>\n\n<p><strong>ଏହିପରି, ଆବଶ୍ୟକ ମୂଲ୍ୟ 0.35 ଅଟେ ।</strong></p>\n\n<p><strong>ତେଣୁ, ସଠିକ୍ ଉତ୍ତର ହେଉଛି ବିକଳ୍ପ 4)।</strong></p>\n", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "<p><span style=\"\"><strong>ਦਿੱਤਾ ਗਿਆ:</strong></span></p><p> 4515 ÷ 12.9 = 350</p><p> <span style=\"\"><strong>ਗਣਨਾ:</strong></span></p><p> <span style=\"\">4515 ÷ 12.9 = 350</span></p><p> <span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4515}{12.9}\\)</span> = 350</span></p><p> <span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{(4.515 × 1000)}{(12.9)}\\)</span> = 350</span></p><p> <span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9} = \\frac{350}{1000}\\)</span></span></p><p> <span style=\"\">⇒ <span class=\"math-tex\">\\(\\frac{4.515}{12.9}\\)</span> = 0.35</span></p><p> <strong><span style=\"\">ਇਸ ਤਰ੍ਹਾਂ, ਲੋੜੀਂਦਾ ਮੁੱਲ 0.35 ਹੈ।</span></strong></p><p> <strong><span style=\"\">ਇਸ ਲਈ, ਸਹੀ ਜਵਾਬ ਵਿਕਲਪ 4 ਹੈ)।</span></strong></p>", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Decimals"], "concept": "Decimals", "confidence": "high"}]}]}</script>
+<script>
+const TEST_DATA = JSON.parse(document.getElementById('test-data').textContent);
+const TOTAL_Q = 10;
+const DURATION_SEC = 0 * 60;
+
+// State
+let currentSectionIdx = 0;
+let currentQIdx = 0;  // global across sections
+let currentLang = 'en';
+let answers = {};  // qid -> selected option prompt
+let marked = {};   // qid -> true
+let visited = new Set();
+let submitted = false;
+let timeLeft = DURATION_SEC;
+let timerInterval = null;
+
+// Flatten all questions for easy indexing
+const allQuestions = [];
+TEST_DATA.sections.forEach((s, sIdx) => {
+  s.questions.forEach(q => {
+    allQuestions.push({...q, sectionIdx: sIdx, sectionName: s.section_name});
+  });
+});
+
+function init() {
+  // Render section tabs
+  const sectionTabs = document.getElementById('sectionTabs');
+  TEST_DATA.sections.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'section-tab' + (i === 0 ? ' active' : '');
+    tab.textContent = s.section_name + ' (' + s.questions.length + ')';
+    tab.onclick = () => switchSection(i);
+    sectionTabs.appendChild(tab);
+  });
+  // Render palette
+  renderPalette();
+  // Render first question
+  renderQuestion();
+  // Start timer
+  startTimer();
+  // Update stats
+  updateStats();
+}
+
+function startTimer() {
+  if (DURATION_SEC <= 0) {
+    // No time limit — show "No Limit" instead of a countdown
+    document.getElementById('timer').textContent = 'No Limit';
+    document.getElementById('timer').classList.add('no-limit');
+    return;
+  }
+  timerInterval = setInterval(() => {
+    if (submitted) return;
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      submitTest();
+    }
+  }, 1000);
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeLeft / 3600);
+  const m = Math.floor((timeLeft % 3600) / 60);
+  const s = timeLeft % 60;
+  const display = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  const timerEl = document.getElementById('timer');
+  timerEl.textContent = display;
+  if (timeLeft < 60) {
+    timerEl.className = 'timer danger';
+  } else if (timeLeft < 300) {
+    timerEl.className = 'timer warning';
+  }
+}
+
+function renderQuestion() {
+  const q = allQuestions[currentQIdx];
+  if (!q) return;
+  visited.add(q.qid);
+  // Update section tab
+  currentSectionIdx = q.sectionIdx;
+  document.querySelectorAll('.section-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSectionIdx);
+  });
+  document.getElementById('currentSectionLabel').textContent = q.sectionName;
+  // Question header — includes Q number, marks, concept, confidence, and question ID
+  document.getElementById('qNum').textContent = 'Q' + (currentQIdx + 1);
+  let headerExtras = '<span class="mark-pos">+' + q.pos_marks + '</span><span class="mark-neg">-' + q.neg_marks + '</span>';
+  // Concept + confidence (from AI classifier — same as AI JSON)
+  const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+  const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+  const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+  headerExtras += '<span class="q-concept" title="Concept category">🎯 ' + concept + '</span>';
+  headerExtras += '<span class="q-confidence ' + confClass + '" title="Classifier confidence">conf: ' + confidence + '</span>';
+  // Question ID (unique per question, useful for cross-test matching)
+  headerExtras += '<span class="q-id" title="Question ID (unique across all tests)">ID: ' + q.qid + '</span>';
+  document.getElementById('qMarks').innerHTML = headerExtras;
+  // Language tabs
+  const langTabs = document.getElementById('qLangTabs');
+  langTabs.innerHTML = '';
+  const availableLangs = Object.keys(q.langs);
+  const showLangs = ['en','hn','te','mr','bn','ml','gu','kn','ta','or'].filter(l => availableLangs.includes(l));
+  if (showLangs.length > 1) {
+    showLangs.forEach((l, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'q-lang-tab' + (l === currentLang ? ' active' : '');
+      btn.textContent = {en:'English',hn:'Hindi',te:'Telugu',mr:'Marathi',bn:'Bengali',ml:'Malayalam',gu:'Gujarati',kn:'Kannada',ta:'Tamil',or:'Odia'}[l] || l;
+      btn.onclick = () => { currentLang = l; renderQuestion(); };
+      langTabs.appendChild(btn);
+    });
+  }
+  // Question text
+  const langData = q.langs[currentLang] || q.langs[availableLangs[0]] || {};
+  document.getElementById('qText').innerHTML = langData.value || '(no question text)';
+  // Options
+  const optsList = document.getElementById('optionsList');
+  optsList.innerHTML = '';
+  (langData.options || []).forEach(opt => {
+    const li = document.createElement('li');
+    li.className = 'option-item' + (answers[q.qid] === opt.prompt ? ' selected' : '');
+    li.innerHTML = '<span class="option-label">' + opt.prompt + '</span><span class="option-text">' + opt.value + '</span>';
+    li.onclick = () => selectOption(q.qid, opt.prompt);
+    optsList.appendChild(li);
+  });
+  // Update palette
+  renderPalette();
+  updateStats();
+}
+
+function selectOption(qid, prompt) {
+  if (submitted) return;
+  if (answers[qid] === prompt) {
+    delete answers[qid];
+  } else {
+    answers[qid] = prompt;
+  }
+  renderQuestion();
+}
+
+function saveNext() {
+  nextQuestion();
+}
+
+function markReviewNext() {
+  const q = allQuestions[currentQIdx];
+  marked[q.qid] = true;
+  nextQuestion();
+}
+
+function clearResponse() {
+  const q = allQuestions[currentQIdx];
+  delete answers[q.qid];
+  renderQuestion();
+}
+
+function nextQuestion() {
+  if (currentQIdx < allQuestions.length - 1) {
+    currentQIdx++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQIdx > 0) {
+    currentQIdx--;
+    renderQuestion();
+  }
+}
+
+function jumpTo(idx) {
+  currentQIdx = idx;
+  renderQuestion();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function switchSection(idx) {
+  currentSectionIdx = idx;
+  // Find first question in this section
+  const qIdx = allQuestions.findIndex(q => q.sectionIdx === idx);
+  if (qIdx >= 0) {
+    currentQIdx = qIdx;
+    renderQuestion();
+  }
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const cell = document.createElement('div');
+    let cls = 'palette-cell ';
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) cls += 'marked-answered';
+    else if (isMarked) cls += 'marked';
+    else if (isAnswered) cls += 'answered';
+    else if (isVisited) cls += 'notanswered';
+    else cls += 'notvisited';
+    if (i === currentQIdx) cls += ' current';
+    cell.className = cls;
+    cell.textContent = (i + 1);
+    cell.onclick = () => jumpTo(i);
+    grid.appendChild(cell);
+  });
+}
+
+function updateStats() {
+  let answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) marked++;
+    else if (isMarked) marked++;
+    else if (isAnswered) answered++;
+    else if (isVisited) notAnswered++;
+    else notVisited++;
+  });
+  document.getElementById('paletteStats').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${notAnswered}</strong></div>
+    <div><span>Marked:</span><strong>${marked}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+  `;
+}
+
+function openSubmitModal() {
+  let answered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    if (answers[q.qid] !== undefined) answered++;
+    else if (marked[q.qid]) marked++;
+    else if (!visited.has(q.qid)) notVisited++;
+  });
+  document.getElementById('submitSummary').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${TOTAL_Q - answered - notVisited}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+    <div><span>Total:</span><strong>${TOTAL_Q}</strong></div>
+  `;
+  document.getElementById('submitModal').classList.add('open');
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('open');
+}
+
+function submitTest() {
+  submitted = true;
+  clearInterval(timerInterval);
+  closeSubmitModal();
+  // Calculate score
+  let score = 0, correct = 0, wrong = 0, skipped = 0;
+  allQuestions.forEach(q => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    if (userAns === undefined) {
+      skipped++;
+    } else if (userAns === correctAns) {
+      correct++;
+      score += q.pos_marks;
+    } else {
+      wrong++;
+      score -= q.neg_marks;
+    }
+  });
+  // Show results view
+  document.getElementById('testMode').style.display = 'none';
+  document.getElementById('resultsView').style.display = 'block';
+  document.getElementById('scoreCard').innerHTML = `
+    <div><span class="score">${score.toFixed(2)}</span><span class="total"> / ${TEST_DATA.max_marks || TOTAL_Q * 2}</span></div>
+    <div class="rank">Correct: ${correct} | Wrong: ${wrong} | Skipped: ${skipped}</div>
+    <div class="rank" style="margin-top:8px;">Accuracy: ${(correct + wrong > 0) ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0}%</div>
+  `;
+  // Render all questions with answers + solutions
+  renderAllQuestions();
+}
+
+function renderAllQuestions() {
+  const container = document.getElementById('resultsQuestions');
+  container.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    const isCorrect = userAns === correctAns;
+    const isWrong = userAns !== undefined && userAns !== correctAns;
+    const isSkipped = userAns === undefined;
+    const card = document.createElement('div');
+    card.className = 'result-card ' + (isCorrect ? 'correct' : isWrong ? 'wrong' : 'skipped');
+    const langData = q.langs[currentLang] || q.langs[Object.keys(q.langs)[0]] || {};
+    let optionsHtml = '';
+    (langData.options || []).forEach(opt => {
+      let cls = 'result-option';
+      if (opt.prompt === correctAns) cls += ' correct';
+      if (opt.prompt === userAns) cls += ' selected';
+      optionsHtml += `<li class="${cls}"><span class="result-option-label">${opt.prompt}</span><span>${opt.value}</span></li>`;
+    });
+    const sol = q.solution_html[currentLang] || q.solution_html['en'] || '';
+    const solHtml = sol ? `<div class="result-solution"><div class="result-solution-title">📖 Solution</div>${sol}</div>` : '';
+    let statusBadge = '';
+    if (isCorrect) statusBadge = '<span class="result-status correct">✓ Correct</span>';
+    else if (isWrong) statusBadge = '<span class="result-status wrong">✗ Wrong</span>';
+    else statusBadge = '<span class="result-status skipped">— Skipped</span>';
+    // Concept + confidence + question ID (same as AI JSON)
+    const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+    const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+    const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+    card.innerHTML = `
+      <div class="result-header">
+        <span class="result-q-num">Q${i + 1}</span>
+        ${statusBadge}
+        <span class="result-concept">🎯 ${concept}</span>
+        <span class="result-confidence ${confClass}">conf: ${confidence}</span>
+        <span class="result-qid">ID: ${q.qid}</span>
+      </div>
+      <div class="result-text">${langData.value || '(no text)'}</div>
+      <ul class="result-options">${optionsHtml}</ul>
+      ${solHtml}
+    `;
+    container.appendChild(card);
+  });
+}
+
+function showAllQuestions() {
+  document.getElementById('resultsView').scrollIntoView({behavior: 'smooth'});
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (submitted) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'j') nextQuestion();
+  if (e.key === 'ArrowLeft' || e.key === 'k') prevQuestion();
+  if (e.key === '1' || e.key === 'a') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[0]) selectOption(q.qid, opts[0].prompt); }
+  if (e.key === '2' || e.key === 'b') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[1]) selectOption(q.qid, opts[1].prompt); }
+  if (e.key === '3' || e.key === 'c') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[2]) selectOption(q.qid, opts[2].prompt); }
+  if (e.key === '4' || e.key === 'd') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[3]) selectOption(q.qid, opts[3].prompt); }
+});
+
+init();
+</script>
+</body>
+</html>

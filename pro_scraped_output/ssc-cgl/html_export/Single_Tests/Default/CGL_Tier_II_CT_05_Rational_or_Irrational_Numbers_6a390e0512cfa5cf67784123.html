@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CGL Tier II CT 05: Rational or Irrational Numbers</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.6;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,0.04);position:sticky;top:0;z-index:100;}
+.brand{font-size:20px;font-weight:800;letter-spacing:-0.02em;}
+.brand-light{color:#1f2937;}
+.brand-mark{color:#1fbad6;}
+.test-title{font-size:14px;color:#4b5563;font-weight:500;text-align:center;flex:1;padding:0 24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.header-right{display:flex;align-items:center;gap:12px;}
+.timer{background:#1f2937;color:#fff;padding:8px 16px;border-radius:6px;font-family:"SF Mono",Monaco,monospace;font-size:16px;font-weight:600;min-width:110px;text-align:center;}
+.timer.warning{background:#f59e0b;}
+.timer.danger{background:#ef4444;animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.7;}}
+.header-btn{background:#1fbad6;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s;}
+.header-btn:hover{background:#1999b3;}
+.submit-btn{background:#ef4444;}
+.submit-btn:hover{background:#dc2626;}
+.meta-bar{background:#fff;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;flex-wrap:wrap;gap:12px 32px;font-size:13px;}
+.meta-item{display:flex;flex-direction:column;gap:2px;}
+.meta-label{color:#6b7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+.meta-value{color:#1f2937;font-size:14px;font-weight:600;}
+.test-container{display:flex;max-width:1400px;margin:0 auto;gap:16px;padding:16px;}
+.question-area{flex:1;min-width:0;}
+.section-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.section-tab{background:#fff;border:1px solid #e5e7eb;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;color:#4b5563;}
+.section-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.question-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.q-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #f3f4f6;}
+.q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.q-marks{display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap;}
+.q-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.q-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.conf-high{background:#d1fae5;color:#065f46;}
+.conf-unidentified{background:#fef3c7;color:#92400e;}
+.q-id{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;}
+.result-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-qid{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;margin-left:auto;}
+.mark-pos{color:#10b981;font-weight:600;}
+.mark-neg{color:#ef4444;font-weight:600;}
+.q-lang-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.q-lang-tab{background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer;}
+.q-lang-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.q-text{font-size:15px;margin-bottom:16px;}
+.q-text p{margin:8px 0;}
+.q-text img{max-width:100%;height:auto;border-radius:4px;}
+.options-list{list-style:none;}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;margin-bottom:8px;border:1.5px solid #e5e7eb;border-radius:6px;cursor:pointer;transition:all .15s;font-size:14px;}
+.option-item:hover{background:#f9fafb;border-color:#d1d5db;}
+.option-item.selected{background:#dbeafe;border-color:#3b82f6;}
+.option-item.correct{background:#d1fae5;border-color:#10b981;}
+.option-item.wrong{background:#fee2e2;border-color:#ef4444;}
+.option-label{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;background:#1f2937;color:#fff;border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0;}
+.option-item.selected .option-label{background:#3b82f6;}
+.option-item.correct .option-label{background:#10b981;}
+.option-item.wrong .option-label{background:#ef4444;}
+.option-item.correct::after{content:" ✓ Correct";color:#10b981;font-weight:700;margin-left:auto;}
+.option-item.wrong::after{content:" ✗ Wrong";color:#ef4444;font-weight:700;margin-left:auto;}
+.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+.action-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.action-btn:hover{background:#f9fafb;}
+.action-btn.save-next{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.action-btn.save-next:hover{background:#1999b3;}
+.action-btn.mark-review{background:#fef3c7;color:#92400e;border-color:#f59e0b;}
+.prev-next{display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #f3f4f6;}
+.nav-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.nav-btn:hover{background:#f9fafb;}
+.palette-sidebar{width:280px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start;background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;max-height:calc(100vh - 110px);overflow-y:auto;}
+.palette-header{font-size:14px;font-weight:700;color:#1f2937;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f3f4f6;}
+.palette-legend{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10px;color:#6b7280;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:3px;}
+.legend-dot{width:12px;height:12px;border-radius:2px;}
+.legend-dot.answered{background:#10b981;}
+.legend-dot.notanswered{background:#ef4444;}
+.legend-dot.marked{background:#a855f7;}
+.legend-dot.notvisited{background:#e5e7eb;}
+.palette-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;}
+.palette-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px solid #e5e7eb;border-radius:4px;font-size:11px;font-weight:600;color:#4b5563;cursor:pointer;transition:all .15s;background:#f3f4f6;}
+.palette-cell:hover{transform:scale(1.1);}
+.palette-cell.answered{background:#10b981;color:#fff;border-color:#10b981;}
+.palette-cell.notanswered{background:#ef4444;color:#fff;border-color:#ef4444;}
+.palette-cell.marked{background:#a855f7;color:#fff;border-color:#a855f7;}
+.palette-cell.marked-answered{background:#a855f7;color:#fff;border-color:#a855f7;position:relative;}
+.palette-cell.marked-answered::after{content:"•";position:absolute;top:-2px;right:2px;color:#10b981;font-size:14px;}
+.palette-cell.notvisited{background:#fff;color:#9ca3af;}
+.palette-cell.current{outline:3px solid #1fbad6;outline-offset:1px;}
+.palette-stats{margin-top:12px;padding-top:12px;border-top:1px solid #f3f4f6;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:11px;color:#6b7280;}
+.palette-stats div{display:flex;justify-content:space-between;}
+.palette-stats strong{color:#1f2937;font-size:13px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;padding:24px;}
+.modal-overlay.open{display:flex;}
+.modal-content{background:#fff;border-radius:12px;padding:24px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-content h2{font-size:20px;color:#1f2937;margin-bottom:12px;}
+.modal-content p{font-size:14px;color:#4b5563;margin-bottom:16px;}
+.submit-summary{background:#f9fafb;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;}
+.submit-summary div{display:flex;justify-content:space-between;margin-bottom:4px;}
+.submit-summary strong{color:#1f2937;}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;}
+.modal-btn{padding:8px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-btn.cancel{background:#f3f4f6;color:#4b5563;}
+.modal-btn.cancel:hover{background:#e5e7eb;}
+.modal-btn.submit{background:#ef4444;color:#fff;}
+.modal-btn.submit:hover{background:#dc2626;}
+.results-view{max-width:1000px;margin:0 auto;padding:24px;}
+.results-header{text-align:center;margin-bottom:32px;}
+.results-header h1{font-size:28px;color:#1f2937;margin-bottom:16px;}
+.score-card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;display:inline-block;min-width:300px;margin-bottom:16px;}
+.score-card .score{font-size:48px;font-weight:800;color:#1fbad6;}
+.score-card .total{font-size:20px;color:#6b7280;}
+.score-card .rank{font-size:14px;color:#4b5563;margin-top:8px;}
+.results-actions{display:flex;gap:8px;justify-content:center;}
+.results-questions{display:grid;gap:16px;}
+.result-card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.result-card.correct{border-left:4px solid #10b981;}
+.result-card.wrong{border-left:4px solid #ef4444;}
+.result-card.skipped{border-left:4px solid #9ca3af;}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.result-q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.result-status{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;}
+.result-status.correct{background:#d1fae5;color:#065f46;}
+.result-status.wrong{background:#fee2e2;color:#991b1b;}
+.result-status.skipped{background:#f3f4f6;color:#4b5563;}
+.result-text{font-size:14px;margin-bottom:12px;}
+.result-text p{margin:6px 0;}
+.result-options{list-style:none;margin-bottom:12px;}
+.result-option{padding:8px 12px;margin-bottom:4px;border:1px solid #e5e7eb;border-radius:4px;font-size:13px;display:flex;align-items:flex-start;gap:8px;}
+.result-option.correct{background:#d1fae5;border-color:#10b981;font-weight:600;}
+.result-option.selected{background:#dbeafe;border-color:#3b82f6;}
+.result-option.correct.selected{background:#a7f3d0;}
+.result-option-label{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;background:#1f2937;color:#fff;border-radius:3px;font-size:11px;font-weight:600;}
+.result-option.correct .result-option-label{background:#10b981;}
+.result-solution{background:#fef3c7;border-left:3px solid #f59e0b;border-radius:4px;padding:12px;font-size:13px;color:#1f2937;}
+.result-solution-title{font-weight:700;color:#92400e;margin-bottom:6px;font-size:12px;}
+.result-solution p{margin:6px 0;}
+.result-solution img{max-width:100%;height:auto;border-radius:4px;}
+@media (max-width:1024px){.palette-sidebar{width:220px;}.palette-grid{grid-template-columns:repeat(5,1fr);}}
+@media (max-width:768px){.test-container{flex-direction:column;}.palette-sidebar{width:100%;position:static;max-height:none;}.palette-grid{grid-template-columns:repeat(10,1fr);}}
+@media print{.top-bar,.palette-sidebar,.actions,.prev-next,.section-tabs,.q-lang-tabs,.meta-bar,.results-actions{display:none;}.test-container,.results-view{display:block;}.result-card{page-break-inside:avoid;}}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="top-bar">
+  <div class="brand"><span class="brand-light">Repeater</span><span class="brand-mark">Mock</span></div>
+  <div class="test-title" id="testTitle">CGL Tier II CT 05: Rational or Irrational Numbers</div>
+  <div class="header-right">
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="header-btn submit-btn" onclick="openSubmitModal()">Submit Test</button>
+  </div>
+</header>
+
+<!-- Meta bar -->
+<div class="meta-bar">
+  <div class="meta-item"><span class="meta-label">Series</span><span class="meta-value">ssc-cgl</span></div>
+  <div class="meta-item"><span class="meta-label">Questions</span><span class="meta-value">10</span></div>
+  <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">0 min</span></div>
+  <div class="meta-item"><span class="meta-label">Max Marks</span><span class="meta-value">30.0</span></div>
+  <div class="meta-item"><span class="meta-label">Marking</span><span class="meta-value">+3.0 / -1.0</span></div>
+  <div class="meta-item"><span class="meta-label">Test ID</span><span class="meta-value">6a390e0512cfa5cf67784123</span></div>
+</div>
+
+<!-- Test mode -->
+<div id="testMode" class="test-container">
+  <main class="question-area">
+    <div class="section-tabs" id="sectionTabs"></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-header">
+        <span class="q-num" id="qNum">Q1</span>
+        <span class="q-marks" id="qMarks"></span>
+      </div>
+      <div class="q-lang-tabs" id="qLangTabs"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options-list" id="optionsList"></div>
+      <div class="actions">
+        <button class="action-btn mark-review" onclick="markReviewNext()">Mark for Review &amp; Next</button>
+        <button class="action-btn clear-response" onclick="clearResponse()">Clear Response</button>
+        <button class="action-btn save-next" onclick="saveNext()">Save &amp; Next →</button>
+      </div>
+      <div class="prev-next">
+        <button class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button class="nav-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </main>
+  <aside class="palette-sidebar">
+    <div class="palette-header">
+      <span id="currentSectionLabel">Test</span>
+    </div>
+    <div class="palette-legend">
+      <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+      <span class="legend-item"><span class="legend-dot notanswered"></span>Not Answered</span>
+      <span class="legend-item"><span class="legend-dot marked"></span>Marked</span>
+      <span class="legend-item"><span class="legend-dot notvisited"></span>Not Visited</span>
+    </div>
+    <div class="palette-grid" id="paletteGrid"></div>
+    <div class="palette-stats" id="paletteStats"></div>
+  </aside>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="modal-content">
+    <h2>Submit Test?</h2>
+    <p>Are you sure you want to submit? You won't be able to change your answers after this.</p>
+    <div class="submit-summary" id="submitSummary"></div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="modal-btn submit" onclick="submitTest()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results view (hidden until submit) -->
+<div id="resultsView" class="results-view" style="display:none;">
+  <div class="results-header">
+    <h1>Test Submitted</h1>
+    <div class="score-card" id="scoreCard"></div>
+    <div class="results-actions">
+      <button class="header-btn" onclick="showAllQuestions()">View All Questions &amp; Solutions</button>
+      <button class="header-btn" onclick="window.print()">🖨️ Print</button>
+    </div>
+  </div>
+  <div class="results-questions" id="resultsQuestions"></div>
+</div>
+
+<!-- Test data embedded as JSON -->
+<script type="application/json" id="test-data">{"test_id": "6a390e0512cfa5cf67784123", "title": "CGL Tier II CT 05: Rational or Irrational Numbers", "series_slug": "ssc-cgl", "duration_min": 0, "max_marks": 30.0, "languages": ["English", "Hindi"], "sections": [{"section_id": "64140db38384552c32575c4d", "section_name": "Test", "q_count": 10, "max_marks": 30.0, "questions": [{"qid": "61dd7491b41a279361705532", "qs_no": 1, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "The value of&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3-\\sqrt{8}}-\\frac{1}{\\sqrt{8}-\\sqrt{7}}+\\frac{1}{\\sqrt{7}-\\sqrt{6}}-\\frac{1}{\\sqrt{6}-\\sqrt{5}}+\\frac{1}{\\sqrt{5}-2}\\)</span>&nbsp;is equal to:", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "3"}, {"prompt": "3", "value": "2"}, {"prompt": "4", "value": "5"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span class=\"math-tex\">\\(\\frac{1}{3-\\sqrt{8}}-\\frac{1}{\\sqrt{8}-\\sqrt{7}}+\\frac{1}{\\sqrt{7}-\\sqrt{6}}-\\frac{1}{\\sqrt{6}-\\sqrt{5}}+\\frac{1}{\\sqrt{5}-2}\\)</span>&nbsp;का मान किसके बराबर है?", "options": [{"prompt": "1", "value": "1"}, {"prompt": "2", "value": "3"}, {"prompt": "3", "value": "2"}, {"prompt": "4", "value": "5"}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "\n<p><u><strong>Calculation:</strong></u></p>\n\n<p>We have,</p>\n\n<p>&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3 - \\sqrt{8}}=\\frac{1}{3 - \\sqrt{8}}\\times \\frac{3 + \\sqrt{8}}{3 + \\sqrt{8}}=3 + \\sqrt8\\)</span>&nbsp;</p>\n\n<p>Similarly, we can get</p>\n\n<p><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{8}-\\sqrt{7}}=\\sqrt{8}+\\sqrt{7}\\)</span></p>\n\n<p><span style=\"\"><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{7}-\\sqrt{6}}=\\sqrt{7}+\\sqrt{6}\\)</span></span></p>\n\n<p><span style=\"\"><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{6}-\\sqrt{5}}=\\sqrt{6}+\\sqrt{5}\\)</span></span></p>\n\n<p><span style=\"\"><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{5}-2}=\\sqrt{5}+2\\)</span></span></p>\n\n<p>On putting these values in the question,</p>\n\n<p><span style=\"\">3 +&nbsp;&radic;8 -&nbsp;&radic;8 -&nbsp;&radic;7 +&nbsp;&radic;7 +&nbsp;&radic;6 -&nbsp;&radic;6 -&nbsp;&radic;5 +&nbsp;&radic;5 + 2</span></p>\n\n<p><span style=\"\">&rArr; 3 + 2</span></p>\n\n<p><strong><span style=\"\">&rArr; 5</span></strong></p>", "hn": "\n<p><u><strong>गणना:</strong></u></p>\n\n<p>हमारे पास है,</p>\n\n<p><span class=\"math-tex\">\\(\\frac{1}{3 - \\sqrt{8}}=\\frac{1}{3 - \\sqrt{8}}\\times \\frac{3 + \\sqrt{8}}{3 + \\sqrt{8}}=3 + \\sqrt8\\)</span><span style=\"\">&nbsp;</span></p>\n\n<p>इसी प्रकार, हम प्राप्त कर सकते हैं</p>\n\n<p><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{8}-\\sqrt{7}}=\\sqrt{8}+\\sqrt{7}\\)</span></p>\n\n<p><span style=\"\"><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{7}-\\sqrt{6}}=\\sqrt{7}+\\sqrt{6}\\)</span>&", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Rational or Irrational Numbers"], "concept": "Rational or Irrational Numbers", "confidence": "high"}, {"qid": "639b1b4dbffd3306d9b5006e", "qs_no": 2, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<span style=\"\">The decimal expansion of the rational number&nbsp;<span class=\"math-tex\">\\(\\frac{{2457}}{{8750}}\\)</span> will terminate after</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;&quot;&gt;One decimal place&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;&quot;&gt;Two decimal places&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;&quot;&gt;Four decimal places&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;&quot;&gt;Six decimal places&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"\">परिमेय संख्या&nbsp;<span class=\"math-tex\">\\(\\frac{{2457}}{{8750}}\\)</span> का दशमलव प्रसार, ______ के बाद सांत होगा।</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;&quot;&gt;एक दशमलव स्थान&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;&quot;&gt;दो दशमलव स्थान&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;&quot;&gt;चार दशमलव स्थान&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;&quot;&gt;छ: दशमलव स्थान&lt;/span&gt;"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p><strong>Given:</strong></p>\n\n<p><span style=\"\">The decimal expansion of the rational number&nbsp;</span><span class=\"math-tex\" style=\"outline: yellow solid 2px; cursor: default; ;;\">\\(\\frac{{2457}}{{8750}}\\)</span><span style=\"\">&nbsp;</span></p>\n\n<p><span style=\"\"><strong>Concept Used:</strong></span></p>\n\n<p><span style=\"\">Convert the given fraction into decimal.</span></p>\n\n<p><span style=\"\"><strong>Calculation:</strong></span></p>\n\n<p><span style=\"\">The rational number&nbsp;</span><span class=\"math-tex\" style=\"outline: yellow solid 2px; cursor: default; ;;\">\\(\\frac{{2457}}{{8750}}\\)</span><span style=\"\">&nbsp;</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{{2457}}{{8750}}\\)</span></span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{2457}}{{10 × 5^3 × 7}}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{351 × 2^3}}{{10 × 5^3 × 2^3 }}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{​​2808}}{{10000 }}\\)</span>&nbsp;= 0.2808</p>\n\n<p><strong><span style=\"\">&there4; The decimal expansion of the rational number&nbsp;</span><span class=\"math-tex\">\\(\\frac{{2457}}{{8750}}\\)</span><span style=\"\">&nbsp;will terminate after four decimal places</span></strong></p>\n\n39:T72e", "hn": "\n<p><strong>दिया गया है:</strong></p>\n\n<p>परिमेय संख्या <span class=\"math-tex\" style=\"outline-color: yellow; cursor: default; \">\\(\\frac{{2457}}{{8750}}\\)</span>&nbsp;का दशमलव प्रसार।</p>\n\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p>दिए गए भिन्न को दशमलव में बदलिए।</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>परिमेय संख्या<span style=\"\">&nbsp;</span><span class=\"math-tex\" style=\"outline: yellow solid 2px; cursor: default; ;;\">\\(\\frac{{2457}}{{8750}}\\)</span><span style=\"\">&nbsp; है।&nbsp;</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{{2457}}{{8750}}\\)</span></span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{2457}}{{10 × 5^3 × 7}}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{351 × 2^3}}{{10 × 5^3 × 2^3 }}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{​​2808}}{{10000 }}\\)</span>&nbsp;= 0.2808</p>\n\n<p><strong><span style=\"\">&there4;&nbsp;</span>परिमेय संख्या <span class=\"math-tex\">\\(\\frac{{2457}}{{8750}}\\)</span>&nbsp;का दशमलव प्रसार, दशमलव के चार स्थान&nbsp;के बाद सांत&nbsp;हो जाएगा।</strong></p>\n\n3a:T47c,<p><strong>Given :</strong></p>\n\n<p>Rationalise the expression&nbsp;<span class=\"math-tex\">\\(\\dfrac{4a^2}{\\sqrt{4a^2+b^2}+b}\\)</span></p>\n\n<p><strong>Calculation :</strong></p>\n\n<p><span class=\"math-tex&", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Rational or Irrational Numbers"], "concept": "Rational or Irrational Numbers", "confidence": "high"}, {"qid": "636526471dead3fdbeee44d9", "qs_no": 3, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "The value of&nbsp;<span class=\"math-tex\">\\(7.1\\overline{5}\\)</span>&nbsp;is:", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(6\\frac{7}{45}\\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(9\\frac{7}{45}\\)&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(7\\frac{7}{45}\\)&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(8\\frac{9}{45}\\)&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "&nbsp;<span class=\"math-tex\">\\(7.1\\overline{5}\\)</span>&nbsp;का मान है:", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(6\\frac{7}{45}\\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(9\\frac{7}{45}\\)&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(7\\frac{7}{45}\\)&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(8\\frac{9}{45}\\)&lt;/span&gt;"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<p>Given:</p>\n\n<p>A =&nbsp;<span style=\"\">&nbsp;</span><span class=\"math-tex\">\\(7.1\\overline{5}\\)</span><span style=\"\">&nbsp;</span></p>\n\n<p><span style=\"\">Calculation:</span></p>\n\n<p><span style=\"\">A = 7.15555555&nbsp; .........(1)</span></p>\n\n<p>Multiply&nbsp;equation&nbsp;1 with 10</p>\n\n<p>10 A = 71.55555&nbsp; ........(2)</p>\n\n<p><span style=\"\">Multiply&nbsp;equation</span><span style=\"\">&nbsp;1 with 100</span></p>\n\n<p><span style=\"\">100 A = 715.55555&nbsp; ........(3)</span></p>\n\n<p>Subtracting equation 2&nbsp;from equation 3</p>\n\n<p>90 A = 715 - 71</p>\n\n<p><strong>A = 644/90</strong></p>\n\n<p><strong>&there4; The correct answer is&nbsp;<span class=\"math-tex\">\\(\\)</span><span class=\"math-tex\" style=\"box-sizing: border-box; outline: rgb(170, 204, 238) solid 2px; ;;;\">\\(7\\frac{7}{45}\\)</span>.</strong></p>\n<img src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" style=\"background-color: rgb(255, 255, 255); width: 22px; height: 22px;\" />\n<p>&nbsp;</p>", "hn": "<p>दिया गया है:</p>\n\n<p>A =&nbsp;<span style=\"\">&nbsp;</span><span class=\"math-tex\">\\(7.1\\overline{5}\\)</span><span style=\"\">&nbsp;</span></p>\n\n<p><span style=\"\">गणना:</span></p>\n\n<p><span style=\"\">A = 7.15555555&nbsp; .........(1)</span></p>\n\n<p>समीकरण 1 को 10 से गुणा करने पर,</p>\n\n<p>10 A = 71.55555&nbsp; ........(2)</p>\n\n<p>समीकरण 1 को 100 से <span style=\"\">गुणा करने पर,</span></p>\n\n<p><span style=\"\">100 A = 715.55555&nbsp; ........(3)</span></p>\n\n<p>समीकरण 2 को समीकरण 3 से घटाने&nbsp;पर,</p>\n\n<p>90 A = 715 - 71</p>\n\n<p><strong>A = 644/90</strong></p>\n\n<p><strong>&there4;&nbsp;<span style=\"\">सही उत्तर</span>&nbsp;<span class=\"math-tex\">\\(\\)</span><span class=\"math-tex\" style=\"box-sizing: border-box; outline: rgb(170, 204, 238) solid 2px; ;;;;\">\\(7\\frac{7}{45}\\)</span>&nbsp;है।</strong></p>\n36:Ta98,\n<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512f", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Quick Math"], "concept": "Quick Math", "confidence": "high"}, {"qid": "647afe323d1f399fb24fe508", "qs_no": 4, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "If a 20 m long rope is cut into pieces of 1.6 m each, what percentage of the rope will be left over?<span style=\"display: none;\">&nbsp;</span>", "options": [{"prompt": "1", "value": "20%"}, {"prompt": "2", "value": "8%"}, {"prompt": "3", "value": "4%"}, {"prompt": "4", "value": "10%"}], "range": {"start": "", "end": ""}}, "hn": {"value": "यदि 20 मीटर लंबी रस्सी को 1.6 मीटर के टुकड़ों में काटा जाता है, तो रस्सी का कितने प्रतिशत भाग शेष बचा रह जाएगा? ", "options": [{"prompt": "1", "value": "20%"}, {"prompt": "2", "value": "8%"}, {"prompt": "3", "value": "4%"}, {"prompt": "4", "value": "10%"}], "range": {"start": "", "end": ""}}, "te": {"value": "20 మీటర్ల పొడవున్న తాడును ఒక్కొక్కటి 1.6 మీటర్ల ముక్కలుగా కత్తిరిస్తే, తాడులో ఎంత శాతం మిగులుతుంది?<span style=\"display: none;\"> </span>", "options": [{"prompt": "1", "value": "20%"}, {"prompt": "2", "value": "8%"}, {"prompt": "3", "value": "4%"}, {"prompt": "4", "value": "10%"}], "range": {"start": "", "end": ""}}, "mr": {"value": "जर 20 मीटर लांबीच्या दोरीचे प्रत्येकी 1.6 मीटर तुकडे केले तर दोरीचा किती टक्के भाग उरेल?<span style=\"display: none;\"> </span>", "options": [{"prompt": "1", "value": "20%"}, {"prompt": "2", "value": "8%"}, {"prompt": "3", "value": "4%"}, {"prompt": "4", "value": "10%"}], "range": {"start": "", "end": ""}}, "bn": {"value": "যদি একটি 20 মিটার লম্বা দড়িকে 1.6 মিটার টুকরো করে কাটা হয়, তাহলে দড়িটির কত শতাংশ অবশিষ্ট থাকবে?<span style=\"display: none;\"> </span>", "options": [{"prompt": "1", "value": "20%"}, {"prompt": "2", "value": "8%"}, {"prompt": "3", "value": "4%"}, {"prompt": "4", "value": "10%"}], "range": {"start": "", "end": ""}}, "gu": {"value": "જો 20 મીટર લાંબા દોરડાને દરેક 1.6 મીટરના ટુકડાઓમાં કાપવામાં આવે તો દોરડાના કેટલા ટકા બાકી રહેશે?<span style=\"display: none;\"> </span>", "options": [{"prompt": "1", "value": "20%"}, {"prompt": "2", "value": "8%"}, {"prompt": "3", "value": "4%"}, {"prompt": "4", "value": "10%"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಒಂದು 20 ಮೀ ಉದ್ದದ ಹಗ್ಗವನ್ನು ಪ್ರತಿಯೊಂದೂ 1.6 ಮೀಟರ್ ತುಂಡುಗಳಾಗಿ ಕತ್ತರಿಸಿದರೆ, ಎಷ್ಟು ಶೇಕಡಾ ಹಗ್ಗ ಉಳಿಯುತ್ತದೆ?<span style=\"display: none;\"> </span>", "options": [{"prompt": "1", "value": "20%"}, {"prompt": "2", "value": "8%"}, {"prompt": "3", "value": "4%"}, {"prompt": "4", "value": "10%"}], "range": {"start": "", "end": ""}}, "ta": {"value": "20 மீ நீளமுள்ள கயிற்றை ஒவ்வொன்றும் 1.6 மீ நீளமுள்ள துண்டுகளாக வெட்டினால், கயிற்றில் எத்தனை சதவீதம் மிச்சமாகும்?<span style=\"display: none;\"> </span>", "options": [{"prompt": "1", "value": "20%"}, {"prompt": "2", "value": "8%"}, {"prompt": "3", "value": "4%"}, {"prompt": "4", "value": "10%"}], "range": {"start": "", "end": ""}}, "or": {"value": "ଯଦି 20 ମିଟର ଲମ୍ବା ଦଉଡି ପ୍ରତ୍ୟେକକୁ 1.6 ମିଟର ଖଣ୍ଡରେ କାଟି ଦିଆଯାଏ, ତେବେ ଦଉଡିର କେତେ ପ୍ରତିଶତ ବାକି ରହିବ?<span style=\"display: none;\"> </span>", "options": [{"prompt": "1", "value": "20%&nbsp;"}, {"prompt": "2", "value": "8%"}, {"prompt": "3", "value": "4%"}, {"prompt": "4", "value": "10%"}], "range": {"start": "", "end": ""}}}, "correct_option": "3", "solution_html": {"en": "\n<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>Total pieces = 20 ÷ 1.6 = 12.5 pieces.</p>\n<p>Full pieces cut = 12. Remainder = 0.5 pieces.</p>\n<p>Length of leftover = 0.5 × 1.6 = 0.8 m.</p>\n<p>Leftover percentage = (0.8 ÷ 20) × 100 = 4%.</p>\n<p>In decimal form, 4% is expressed as 0.04.</p>\n<p><strong>∴ The correct option is C.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p>Given: Total length = 20 m, Piece length = 1.6 m.</p>\n<p>Formula used: Remainder = Total length − (Number of whole pieces × Length of one piece)</p>\n<svg width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;margin:12px 0;background:#ffffff;border-radius:10px;border:1px solid #cccccc;\">\n  <rect x=\"40\" y=\"80\" width=\"340\" height=\"30\" fill=\"#ddeeff\" stroke=\"#2255cc\" stroke-width=\"2\"/>\n  <rect x=\"366\" y=\"80\" width=\"14\" height=\"30\" fill=\"#fff0cc\" stroke=\"#cc5500\" stroke-width=\"1.5\"/>\n  <line x1=\"67\" y1=\"80\" x2=\"67\" y2=\"110\" stroke=\"#cc0000\" stroke-dasharray=\"5,3\"/>\n  <line x1=\"94\" y1=\"80\" x2=\"94\" y2=\"110\" stroke=\"#cc0000\" stroke-dasharray=\"5,3\"/>\n  <line x1=\"366\" y1=\"80\" x2=\"366\" y2=\"110\" stroke=\"#cc0000\" stroke-dasharray=\"5,3\"/>\n  <text x=\"40\" y=\"70\" fill=\"#2255cc\" font-size=\"12\">0 m</text>\n  <text x=\"360\" y=\"70\" fill=\"#2255cc\" font-size=\"12\">19.2 m</text>\n  <text x=\"380\" y=\"70\" fill=\"#2255cc\" font-size=\"12\">20 m</text>\n  <text x=\"140\" y=\"100\" fill=\"#222222\" font-size=\"12\">12 Full Pieces (1.6 m each)</text>\n  <text x=\"320\" y=\"140\" fill=\"#cc5500\" font-weight=\"bold\" font-size=\"12\">Leftover = 0.8 m</text>\n  <text x=\"160\" y=\"175\" fill=\"#2255cc\" font-weight=\"bold\" font-size=\"14\">Total Rope Length = 20 m</text>\n</svg>\n<p>⇒ Number of complete pieces = 20 ÷ 1.6 = 12.5</p>\n<p>⇒ Total pieces = 12 (since only whole pieces are cut)</p>\n<p>⇒ Length of 12 pieces = 12 × 1.6 = 19.2 m</p>\n<p>⇒ Length of leftover rope = 20 − 19.2 = 0.8 m</p>\n<p>⇒ Percentage of leftover = (Leftover ÷ Total Length) × 100</p>\n<p>⇒ Percentage = (0.8 ÷ 20) × 100 = 4%</p>\n<p>⇒ Expressed in options as a decimal: 4/100 = 0.04</p>\n<p><strong>∴ The correct option is C.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Percentage to Decimal</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">To convert a percentage into a decimal, divide the number by 100. Example: x% = x/100.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Division and Remainder</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">Dividend = (Divisor × Quotient) + Remainder. Here, 20 = (1.6 × 12) + 0.8.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Percentage Change</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">Percentage change = (Change ÷ Original Value) × 100. This is used to find leftovers or profit/loss ratios.</p", "hn": "\n<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">शॉर्टकट ट्रिक</u></span>\n<p>कुल टुकड़े = 20 ÷ 1.6 = 12.5 टुकड़े।</p>\n<p>काटे गए पूरे टुकड़े = 12. शेष = 0.5 टुकड़े।</p>\n<p>बचे हुए हिस्से की लंबाई = 0.5 x 1.6 = 0.8 मीटर।</p>\n<p>बचे हुए हिस्से का प्रतिशत = (0.8 ÷ 20) x 100 = 4%।</p>\n<p>दशमलव रूप में, 4% को 0.04 के रूप में व्यक्त किया जाता है।</p>\n<p><strong>∴ सही विकल्प C है।</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>वैकल्पिक विधि</u></span></strong></span></p>\n<p>दिया गया है: कुल लंबाई = 20 मीटर, टुकड़े की लंबाई = 1.6 मीटर।</p>\n<p>प्रयुक्त सूत्र: शेष = कुल लंबाई − (पूरे टुकड़ों की संख्या x एक टुकड़े की लंबाई)</p>\n<svg width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;margin:12px 0;background:#ffffff;border-radius:10px;border:1px solid #cccccc;\">\n  <rect x=\"40\" y=\"80\" width=\"340\" height=\"30\" fill=\"#ddeeff\" stroke=\"#2255cc\" stroke-width=\"2\"/>\n  <rect x=\"366\" y=\"80\" width=\"14\" height=\"30\" fill=\"#fff0cc", "te": "<p><strong>ఇచ్చిన దత్తాంశం:</strong></p>\n\n<p>మొత్తం తాడు పొడవు (L) = 20 మీ</p>\n\n<p>ప్రతి ముక్క పొడవు (P) = 1.6 మీ</p>\n\n<p><strong>సాధన:</strong></p>\n\n<p>తాడు నుండి కత్తిరించబడే పూర్తి ముక్కల సంఖ్య (N).</p>\n\n<p>N = L/P = 20/1.6 = 12.5</p>\n\n<p>పూర్తి ముక్కలు మాత్రమే కత్తిరించబడతాయి కాబట్టి, 12 ముక్కలు మాత్రమే ఏర్పడతాయి.</p>\n\n<p>12 ముక్కల మొత్తం పొడవు = 12 x 1.6 మీ = 19.2 మీ</p>\n\n<p>మిగిలిపోయిన పొడవు (మిగిలినవి) = L - (N x P)</p>\n\n<p>⇒ 20 మీ - 19.2 మీ = 0.8 మీ</p>\n\n<p>మిగిలిపోయిన తాడు శాతం =(మిగిలినవి/L) x 100</p>\n\n<p>⇒ (0.8/20) x 100 = 4%</p>\n\n<p><strong><span style=\"color: rgb(33, 37, 41);\">∴ తాడు యొక్క శాతం 4% మిగిలి ఉంటుంది.</span></strong></p>\n", "mr": "<p><strong>दिलेली माहिती</strong> :</p>\n\n<p>दोरीची एकूण लांबी (L) = 20 मीटर </p>\n\n<p>प्रत्येक तुकड्याची लांबी (P) = 1.6 मीटर </p>\n\n<p><strong>गणना:</strong></p>\n\n<p>दोरीपासून कापता येणाऱ्या पूर्ण तुकड्यांची संख्या (N).</p>\n\n<p>N = L/P = 20/1.6 = 12.5</p>\n\n<p>केवळ पूर्ण तुकडे कापले जात असल्याने, केवळ 12 तुकडे तयार होऊ शकतात.</p>\n\n<p>12 तुकड्यांची एकूण लांबी = 12 x 1.6 मीटर = 19.2 मीटर </p>\n\n<p>उरलेली लांबी (उरलेली) = L - (N x P)</p>\n\n<p>⇒ 20 मीटर - 19.2 मीटर = 0.8 मीटर </p>\n\n<p>उरलेल्या दोरीची टक्केवारी =(उरलेली/L) x 100</p>\n\n<p>⇒ (0.8/20) x 100 = 4%</p>\n\n<p><strong><span style=\"color: rgb(33, 37, 41);\">∴ दोरीची टक्केवारी 4% आहे.</span></strong></p>\n", "bn": "\n<p><b>প্রদত্ত</b>:</p>\n\n<p>মোট দড়ির দৈর্ঘ্য (L) = 20 মিটার </p>\n\n<p>প্রতিটি টুকরোর দৈর্ঘ্য (P) = 1.6 মিটার </p>\n\n<p><strong>গণনা:</strong></p>\n\n<p><span style=\"font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight); text-align: var(--bs-body-text-align);\">দড়ি থেকে কাটা যেতে পারে এমন </span>সম্পূর্ণ টুকরো সংখ্যা (N) </p>\n\n<p>N = L/P = 20/1.6 = 12.5</p>\n\n<p>যেহেতু শুধুমাত্র সম্পূর্ণ টুকরো কাটা হয়, শুধুমাত্র 12টি টুকরো গঠিত হতে পারে।</p>\n\n<p>12টি টুকরোর <span style=\"font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight); text-align: var(--bs-body-text-align);\">মোট দৈর্ঘ্য</span><span style=\"font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight); text-align: var(--bs-body-text-align);\"> </span><span style=\"font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight); text-align: var(--bs-body-text-align);\">= 12 x 1.6 m = 19.2 মিটার </span></p>\n\n<p>অবশিষ্ট দৈর্ঘ্য (অবশিষ্ট) = L - (N x P)</p>\n\n<p>⇒ 20 মিটার - 19.2 মিটার = 0.8 মিটার </p>\n\n<p>অবশিষ্ট দড়ির শতাংশ =(অবশিষ্ট/L) x 100</p>\n\n<p>⇒ (0.8/20) x 100 = 4%</p>\n\n<p><strong><span style=\"color: rgb(33, 37, 41);\">∴ দড়ির 4% শতাংশ অবশিষ্ট থাকবে।</span></strong></p>\n\ne:[\"$\",\"$L2d\",null,{\"testData\":{\"title\":\"CGL Tier II CT 05: Rational or Irrational Numbers\",\"sections\":[{\"_id\":\"64140db38384552c32575c4d\",\"qCount\":10,\"title\":\"Test\",\"time\":0,\"questions\":[{\"isNum\":false,\"type\":\"mcq\",\"negMarks\":1,\"posMarks\":3,\"skipMarks\":0,\"partialMarks\":{\"type\":\"\",\"marks\":0},\"isPartialMarking\":false,\"_id\":\"61dd7491b41a279361705532\",\"en\":{\"value\":\"The value of&nbsp;<span class=\"math-tex\">\\\\(\\\\frac{1}{3-\\\\sqrt{8}}-\\\\frac{1}{\\\\sqrt{8}-\\\\sqrt{7}}+\\\\frac{1}{\\\\sqrt{7}-\\\\sqrt{6}}-\\\\frac{1}{\\\\sqrt{6", "ml": "", "gu": "<p><strong>આપેલ</strong> :</p>\n\n<p>દોરડાની કુલ લંબાઈ (L) = 20 મી</p>\n\n<p>દરેક ભાગની લંબાઈ (P) = 1.6 મીટર</p>\n\n<p><strong>ગણતરી:</strong></p>\n\n<p>દોરડામાંથી કાપી શકાય તેવા સંપૂર્ણ ટુકડા (N) ની સંખ્યા.</p>\n\n<p>N = L/P = 20/1.6 = 12.5</p>\n\n<p>માત્ર સંપૂર્ણ ટુકડાઓ કાપવામાં આવ્યા હોવાથી, ફક્ત 12 ટુકડાઓ જ બનાવી શકાય છે.</p>\n\n<p>12 ટુકડાઓની કુલ લંબાઈ = 12 x 1.6 મીટર = 19.2 મીટર</p>\n\n<p>બાકી રહેલી લંબાઈ (બાકી) = L - (N x P)</p>\n\n<p>⇒ 20 મીટર - 19.2 મીટર = 0.8 મીટર</p>\n\n<p>બચેલા દોરડાની ટકાવારી = (બાકી/એલ) x 100</p>\n\n<p>⇒ (0.8/20) x 100 = 4%</p>\n\n<p><strong><span style=\"color: rgb(33, 37, 41);\">∴ દોરડાની ટકાવારી 4% બાકી રહેશે.</span></strong></p>\n", "kn": "<p><strong>ನೀಡಲಾಗಿದೆ</strong>:</p>\n\n<p>ಒಟ್ಟು ಹಗ್ಗದ ಉದ್ದ (L) = 20 ಮೀ</p>\n\n<p>ಪ್ರತಿ ತುಂಡಿನ ಉದ್ದ (P) = 1.6 ಮೀ </p>\n\n<p><strong>ಲೆಕ್ಕಾಚಾರ:</strong></p>\n\n<p>ಹಗ್ಗದಿಂದ ಕತ್ತರಿಸಬಹುದಾದ ಸಂಪೂರ್ಣ ತುಂಡುಗಳ ಸಂಖ್ಯೆ (N).</p>\n\n<p>N = L/P = 20/1.6 = 12.5</p>\n\n<p>ಸಂಪೂರ್ಣ ತುಂಡುಗಳನ್ನು ಮಾತ್ರ ಕತ್ತರಿಸುವುದರಿಂದ, 12 ತುಂಡುಗಳನ್ನು ಮಾತ್ರ ತಯಾರಿಸಬಹುದು.</p>\n\n<p>12 ತುಂಡುಗಳ ಒಟ್ಟು ಉದ್ದ = 12 x 1.6 ಮೀ = 19.2 ಮೀ</p>\n\n<p>ಉಳಿದ ಉದ್ದ (ಉಳಿದಿರುವುದು) = L - (N x P)</p>\n\n<p>⇒ 20 ಮೀ - 19.2 ಮೀ = 0.8 ಮೀ</p>\n\n<p>ಉಳಿದ ಹಗ್ಗದ ಶೇಕಡಾವಾರು =(ಉಳಿದಿರುವುದು/L) x 100</p>\n\n<p>⇒ (0.8/20) x 100 = 4%</p>\n\n<p><strong><span style=\"color: rgb(33, 37, 41);\">∴ ಉಳಿದ ಹಗ್ಗದ ಶೇಕಡಾವಾರು 4% ಆಗಿದೆ.</span></strong></p>\n", "ta": "<p><strong>கொடுக்கப்பட்டது</strong> :</p>\n\n<p>மொத்த கயிறின் நீளம் (L) = 20 மீ</p>\n\n<p>ஒவ்வொரு துண்டின் நீளம் (P) = 1.6 மீ</p>\n\n<p><strong>கணக்கீடு:</strong></p>\n\n<p>கயிற்றில் இருந்து வெட்டக்கூடிய முழுமையான துண்டுகளின் எண்ணிக்கை (N).</p>\n\n<p>N = L/P = 20/1.6 = 12.5</p>\n\n<p>முழுமையான துண்டுகள் மட்டுமே வெட்டப்படுவதால், 12 துண்டுகளை மட்டுமே உருவாக்க முடியும்.</p>\n\n<p>12 துண்டுகளின் மொத்த நீளம் = 12 x 1.6 மீ = 19.2 மீ</p>\n\n<p>மீதமுள்ள நீளம் (எஞ்சியவை) = L - (N x P)</p>\n\n<p>⇒ 20 மீ - 19.2 மீ = 0.8 மீ</p>\n\n<p>மீதமுள்ள கயிற்றின் சதவீதம் =(எஞ்சியவை/L) x 100</p>\n\n<p>⇒ (0.8/20) x 100 = 4%</p>\n\n<p><strong><span style=\"color: rgb(33, 37, 41);\">∴ கயிற்றின் 4% மீதம் இருக்கும்.</span></strong></p>\n", "or": "<p><strong>ଦିଆଯାଇଥିବା</strong> :</p>\n\n<p>ସମୁଦାୟ ଦଉଡି ଲମ୍ବ (L) = 20 ମି</p>\n\n<p>ପ୍ରତ୍ୟେକ ଖଣ୍ଡର ଲମ୍ବ (P) = 1.6 ମି</p>\n\n<p><strong>ଗଣନା:</strong></p>\n\n<p>ସଂପୂର୍ଣ୍ଣ ଖଣ୍ଡଗୁଡ଼ିକର ସଂଖ୍ୟା (N) ଯାହା ଦଉଡିରୁ କଟାଯାଇପାରିବ |</p>\n\n<p>N = L / P = 20 / 1.6 = 12.5</p>\n\n<p>ଯେହେତୁ କେବଳ ସଂପୂର୍ଣ୍ଣ ଖଣ୍ଡ କଟା ହୋଇଛି, କେବଳ 12 ଖଣ୍ଡ ଗଠନ ହୋଇପାରିବ |</p>\n\n<p>ସମୁଦାୟ ଦୈର୍ଘ୍ୟ 12 ଖଣ୍ଡ = 12 x 1.6 ମି = 19.2 ମି</p>\n\n<p>ଅବଶିଷ୍ଟ ଲମ୍ବ (ବାମପଟ) = L - (N x P)</p>\n\n<p>⇒ 20 ମି - 19.2 ମି = 0.8 ମି</p>\n\n<p>ଅବଶିଷ୍ଟ ଦଉଡିର ଶତକଡା = (ବାମ / L) x 100 |</p>\n\n<p>⇒ (0.8 / 20) x 100 = 4% |</p>\n\n<p><span style=\"font-weight: bolder;\">∴</span><strong><span style=\"color: rgb(33, 37, 41);\"> ଦଉଡିର ଶତକଡା 4% ବାକି ରହିବ |</span></strong></p>\n", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Quick Math"], "concept": "Quick Math", "confidence": "high"}, {"qid": "63735301de4602b359bba28c", "qs_no": 5, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "Express&nbsp;<span class=\"math-tex\">\\(4.\\overline{142}\\)</span> in the form <span class=\"math-tex\">\\(\\frac{p}{q}\\)</span>, where p and q are integers and q&nbsp;&ne; 0.", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{4136}{999}\\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{4140}{999}\\)&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{4142}{999}\\)&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{4138}{999}\\)&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span class=\"math-tex\">\\(4.\\overline{142}\\)</span>&nbsp;को&nbsp;<span class=\"math-tex\">\\(\\frac{p}{q}\\)</span>&nbsp;के रूप में व्यक्त कीजिए, जहाँ p और q पूर्णांक हैं तथा q&nbsp;&ne; 0 है।&nbsp;", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{4136}{999}\\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{4140}{999}\\)&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{4142}{999}\\)&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{4138}{999}\\)&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": " <span class=\"math-tex\">\\(4.\\overline{142}\\)</span> ని <span class=\"math-tex\">\\(\\frac{p}{q}\\)</span> రూపంలో వ్యక్తపరచండి, ఇక్కడ p మరియు q పూర్ణ సంఖ్యలు మరియు q ≠ 0.", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{4136}{999}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{4140}{999}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{4142}{999}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span class=\"math-tex\">\\(4.\\overline{142}\\)</span> ला <span class=\"math-tex\">\\(\\frac{p}{q}\\)</span> स्वरूपात व्यक्त करा, जेथे p आणि q हे पूर्णांक आणि q ≠ 0 आहे.", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{4136}{999}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{4140}{999}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{4142}{999}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span class=\"math-tex\">\\(4.\\overline{142}\\)</span>-কে <span class=\"math-tex\">\\(\\frac{p}{q}\\)</span> আকারে প্রকাশ করুন, যেখানে p এবং q পূর্ণসংখ্যা এবং q ≠ 0.", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{4136}{999}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{4140}{999}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{4142}{999}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span class=\"math-tex\" style=\"box-sizing: border-box; outline: rgb(170, 204, 238) solid 2px; ;\">\\(\\frac{p}{q}\\)</span> સ્વરૂપમાં <span class=\"math-tex\">\\(4.\\overline{142}\\)</span> રજૂ કરો, જ્યાં p અને q પૂર્ણાંકો છે અને q ≠ 0.", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{4136}{999}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{4140}{999}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{4142}{999}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span class=\"math-tex\">\\(4.\\overline{142}\\)</span> ಅನ್ನು <span class=\"math-tex\">\\(\\frac{p}{q}\\)</span> ರೂಪದಲ್ಲಿ ವ್ಯಕ್ತಪಡಿಸಿ, ಇಲ್ಲಿ p ಮತ್ತು q ಪೂರ್ಣಾಂಕಗಳು ಮತ್ತು q ≠ 0.", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{4136}{999}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{4140}{999}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{4142}{999}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "p மற்றும் q ஆகியவை முழு எண்களாகவும் q ≠ 0 ஆகவும் இருக்கும் நிலையில்<span class=\"math-tex\">\\(\\frac{p}{q}\\)</span> வடிவத்தில் <span class=\"math-tex\">\\(4.\\overline{142}\\)</span>ஐ வெளிப்படுத்தவும்.", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{4136}{999}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{4136}{999}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{4142}{999}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>"}], "range": {"start": "", "end": ""}}, "or": {"value": "<span class=\"math-tex\">\\(4.\\overline{142}\\)</span> କୁ <span class=\"math-tex\">\\(\\frac{p}{q}\\)</span> ରୂପରେ ପ୍ରକାଶ କରନ୍ତୁ, ଯେଉଁଠାରେ p ଏବଂ q ପୂର୍ଣ୍ଣସଂଖ୍ୟା ଅଟନ୍ତି ଏବଂ q ≠ 0।", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{4136}{999}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{4140}{999}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{4142}{999}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>"}], "range": {"start": "", "end": ""}}, "pa": {"value": "<span class=\"math-tex\">\\(4.\\overline{142}\\)</span> ਨੂੰ <span class=\"math-tex\">\\(\\frac{p}{q}\\)</span> ਦੇ ਰੂਪ ਵਿੱਚ ਦਰਸਾਓ, ਜਿੱਥੇ p ਅਤੇ q ਪੂਰਨ ਅੰਕ ਹਨ ਅਤੇ q ≠ 0 ਹੈ।", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\(\\frac{4136}{999}\\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\(\\frac{4140}{999}\\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\(\\frac{4142}{999}\\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": "4", "solution_html": {"en": "\n<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>For a <strong>pure recurring decimal</strong> like N.abc..., the fraction is: (<strong>Whole number</strong> × 999 + <strong>Repeating part</strong>) ÷ 999</p>\n<p>Here, the <strong>whole number</strong> is 4 and the <strong>repeating part</strong> is 142.</p>\n<p>Numerator = (4 × 999) + 142 = 3996 + 142 = 4138</p>\n<p>Denominator = 999 (as 3 digits are repeating)</p>\n<p><strong>∴ The correct answer is 4138/999.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong> x = 4.142142142...</p>\n<p><strong>Formula Used:</strong> Multiplying by 10<sup>n</sup> where n is the number of repeating digits to eliminate the decimal part.</p>\n<p>⇒ Let x = 4.142142... ---- (i)</p>\n<p>⇒ Multiplying equation (i) by 1000:</p>\n<p>⇒ 1000x = 4142.142142... ---- (ii)</p>\n<p>⇒ Subtracting equation (i) from equation (ii):</p>\n<p>⇒ 1000x − x = 4142.142142... − 4.142142...</p>\n<p>⇒ 999x = 4138</p>\n<p>⇒ x = 4138/999</p>\n<p><strong>∴ The correct answer is 4138/999.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Pure Recurring Decimals</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">A decimal in which all the figures after the decimal point are repeated. Example: 0.333... = 1/3.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Mixed Recurring Decimals</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">A decimal in which some figures do not repeat while others do. To convert, subtract non-repeating part from the total number for the numerator.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Rational Number Property</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">Every <strong>recurring decimal</strong> can be expressed in the form p/q, making it a <strong>rational number</strong>.</p", "hn": "\n<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>N.abc... जैसे <strong>शुद्ध आवर्ती दशमलव (pure recurring decimal)</strong> के लिए, भिन्न है: (<strong>पूर्ण संख्या</strong> × 999 + <strong>पुनरावृत्ति वाला भाग</strong>) ÷ 999</p>\n<p>यहाँ, <strong>पूर्ण संख्या</strong> 4 है और <strong>पुनरावृत्ति वाला भाग</strong> 142 है।</p>\n<p>अंश = (4 × 999) + 142 = 3996 + 142 = 4138</p>\n<p>हर = 999 (चूंकि 3 अंकों की पुनरावृत्ति हो रही है)</p>\n<p><strong>∴ सही उत्तर 4138/999 है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong> x = 4.142142142...</p>\n<p><strong>प्रयुक्त सूत्र:</strong> दशमलव भाग को समाप्त करने के लिए 10<sup>n</sup> से गुणा करना जहाँ n पुनरावृत्ति वाले अंकों की संख्या है।</p>\n<p>⇒ माना x = 4.142142... ---- (i)</p>\n<p>⇒ समीकरण (i) को 1000 से गुणा करने पर:</p>\n<p>⇒ 1000x = 4142.142142... ---- (ii)</p>\n<p>⇒ समीकरण (ii) में से समीकरण (i) को घटाने पर:</p>\n<p>⇒ 1000x − x = 4142.142142... − 4.142142...</p>\n<p>⇒ 999x = 4138</p>\n<p>⇒ x = 4138/999</p>\n<p><strong>∴ सही उत्तर 4138/999 है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">शुद्ध आवर्ती दशमलव (Pure Recurring Decimals)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">एक दशमलव जिसमें दशमलव बिंदु के बाद के सभी अंकों की पुनरावृत्ति होती है। उदाहरण: 0.333... = 1/3.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">मिश्रित आवर्ती दशमलव (Mixed Recurring Decimals)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">एक दशमलव जिसमें कुछ अंकों की पुनरावृत्ति नहीं होती है जबकि अन्य की होती है। बदलने के लिए, अंश के लिए कुल संख्या में से गैर-पुनरावृत्ति वाले भाग को घटाएं।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">परमेय संख्या गुण (Rational Number Property)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">प्रत्येक <strong>आवर्ती दशमलव</strong> को p/q के रूप में व्यक्त किया जा सकता है, जो इसे एक <strong>परमेय संख्या</strong> बनाता है।</p>\n38:T71d,\n<p><strong>Given:</strong></p>\n\n<p><span style=\"\">The decimal expansion of the rational number&nbsp;</span><span class=\"math-tex\" style=\"outline: yellow solid 2px; cursor: default; ;;\">\\(\\frac{{2457}}{{8750}}\\)</span><span style=\"\">&nbsp;</span></p>\n\n<p><span style=\"\"><strong>Concept Used:</strong></span></p>\n\n<p><span style=\"\">Convert the given fraction into decimal.</span></p>\n\n<p><span style=\"\"><strong>Calculation:</strong></span></p>\n\n<p><span style=\"\">The rational number&nbsp;</span><span class=\"math-tex\" style=\"outline: yellow solid 2px; cursor: default; ;;\">\\(\\frac{{2457}}{{8750}}\\)</span><span style=\"\">&nbsp;</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{{2457}}{{8750}}\\)</span></span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{2457}}{", "te": "<p><strong>ఇచ్చినది:</strong></p>\n\n<p>సంఖ్య = <span class=\"math-tex\">\\(4.\\overline{142}\\)</span></p>\n\n<p><strong>గణనలు:</strong></p>\n\n<p>x = <span class=\"math-tex\">\\(4.142142\\)</span> .................. (1)</p>\n\n<p>సమీకరణం (1)ని 1000తో గుణించండి మరియు మనకు ఇలా లభిస్తుంది (ఎందుకంటే బార్ అంటే పునరావృతమయ్యే మూడు అంకెలు ఉన్నాయి)</p>\n\n<p>1000x = 4142.142142....... (2)</p>\n\n<p>ఇప్పుడు <span style=\"color: rgb(33, 37, 41);\">సమీకరణం</span><span style=\"color: rgb(33, 37, 41);\"> </span>(1)ని <span style=\"color: rgb(33, 37, 41);\">సమీకరణం</span><span style=\"color: rgb(33, 37, 41);\"> </span>(2) ద్వారా తీసివేయండి</p>\n\n<p>1000x - x = 4142.142142 - 4.142142</p>\n\n<p>999x = 4138</p>\n\n<p>x = <span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span></p>\n\n<p><strong>కాబట్టి, సరైన సమాధానం '</strong><span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>'.</p>\n", "mr": "<p><strong>दिलेल्याप्रमाणे:</strong></p>\n\n<p>संख्या = <span class=\"math-tex\">\\(4.\\overline{142}\\)</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>समजा, x = <span class=\"math-tex\">\\(4.142142\\)</span> ................... (1)</p>\n\n<p>समीकरण (1) ला 1000 ने गुणाकार करा, आणि आपल्याला मिळेल (कारण बार म्हणजे रिपीट करणारे तीन अंक आहेत)</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">1000x = 4142.142142....... (2)</span></p>\n\n<p>आता <span style=\"color: rgb(33, 37, 41);\">समीकरण</span> (1) हे <span style=\"color: rgb(33, 37, 41);\">समीकरण</span> (2) मधून वजा करा</p>\n\n<p style=\"color: rgb(33, 37, 41);\">1000x - x = 4142.142142 - 4.142142</p>\n\n<p style=\"color: rgb(33, 37, 41);\">999x = 4138</p>\n\n<p>x = <span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span></p>\n\n<p><strong>म्हणून, योग्य उत्तर '<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>' आहे.</strong></p>\n", "bn": "<p><strong>প্রদত্ত:</strong></p>\n\n<p>সংখ্যা = <span class=\"math-tex\">\\(4.\\overline{142}\\)</span></p>\n\n<p><strong>গণনা:</strong></p>\n\n<p>ধরি, x = <span class=\"math-tex\">\\(4.142142\\)</span>.................. (1)</p>\n\n<p>সমীকরণ (1)-কে 1000 দ্বারা গুণ করি, এবং আমরা পাই (কারণ তিনটি অঙ্ক আছে যার উপর বার আছে অর্থাৎ পুনরাবৃত্তি হচ্ছে)</p>\n\n<p>1000x = 4142.142142....... (2)</p>\n\n<p>এখন সমীকরণ (2) থেকে সমীকরণ (1) বিয়োগ করি</p>\n\n<p>1000x - x = 4142.142142 - 4.142142</p>\n\n<p>999x = 4138</p>\n\n<p>x = <span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span></p>\n\n<p><strong>সুতরাং, সঠিক উত্তর হল '<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>'।</strong></p>\n", "ml": "", "gu": "<p><strong>આપેલ:</strong></p>\n\n<p>સંખ્યા = <span class=\"math-tex\" style=\"box-sizing: border-box; outline: rgb(170, 204, 238) solid 2px; ;\">\\(4.\\overline{142}\\)</span></p>\n\n<p><strong>ગણતરી:</strong></p>\n\n<p>ધારો કે, x = <span class=\"math-tex\">\\(4.142142\\)</span> ................... (1)</p>\n\n<p>સમીકરણ(1)નો 1000 વડે ગુણાકાર કરીએ ત્યારે (કારણ કે ત્યાં ત્રણ અંકો છે જેમાં માનાંકનો અર્થ પુનરાવર્તિત થાય છે)</p>\n\n<p>1000x = 4142.142142....... (2)</p>\n\n<p>હવે સમીકરણ(1)ને સમીકરણ(2) વડે બાદ કરીએ,</p>\n\n<p>1000x - x = 4142.142142 - 4.142142</p>\n\n<p>999x = 4138</p>\n\n<p>x = <span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span></p>\n\n<p><strong>તેથી, સાચો જવાબ '<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>' છે.</strong></p>\n", "kn": "<p><strong>ನೀಡಲಾಗಿದೆ:</strong></p>\n\n<p>ಸಂಖ್ಯೆ = <span class=\"math-tex\">\\(4.\\overline{142}\\)</span></p>\n\n<p><strong>ಲೆಕ್ಕಾಚಾರಗಳು:</strong></p>\n\n<p>x = <span class=\"math-tex\">\\(4.142142\\)</span>.................. (1) ಎಂದು ಬಿಡಿ</p>\n\n<p>(1) ಸಮೀಕರಣವನ್ನು 1000 ರಿಂದ ಗುಣಿಸಿ, ಮತ್ತು ನಮಗೆ ಸಿಗುತ್ತದೆ (ಏಕೆಂದರೆ ಮೂರು ಅಂಕೆಗಳು ಪುನರಾವರ್ತಿಸುತ್ತಿವೆ)</p>\n\n<p>1000x = 4142.142142....... (2)</p>\n\n<p>ಈಗ (1) ಸಮೀಕರಣವನ್ನು (2) ಸಮೀಕರಣದಿಂದ ಕಳೆಯಿರಿ</p>\n\n<p>1000x - x = 4142.142142 - 4.142142</p>\n\n<p>999x = 4138</p>\n\n<p>x = <span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span></p>\n\n<p><strong>ಆದ್ದರಿಂದ, ಸರಿಯಾದ ಉತ್ತರ '<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>' ಆಗಿದೆ.</strong></p>\n", "ta": "<p><strong>கொடுக்கப்பட்டது</strong>:</p>\n\n<p>எண் =<span class=\"math-tex\">\\(4.\\overline{142}\\)</span></p>\n\n<p><strong>கணக்கீடுகள்</strong>:</p>\n\n<p> x =<span class=\"math-tex\">\\(4.142142\\)</span> .................. (1) என வைத்துக்கொள்வோம்.</p>\n\n<p>சமன் (1) ஐ 1000 ஆல் பெருக்கவும், நாம் பெறுவது (ஏனெனில் மூன்று இலக்கங்கள் பட்டியில் மீண்டும் மீண்டும் வருகின்றன)</p>\n\n<p>1000x = 4142.142142....... (2)</p>\n\n<p>இப்போது சமன்(1) ஐ சமன் (2) ஆல் கழிக்கவும்</p>\n\n<p>1000x - x = 4142.142142 - 4.142142</p>\n\n<p>999x = 4138</p>\n\n<p>x =<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span></p>\n\n<p><strong>எனவே, சரியான பதில்’<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>’ .</strong></p>\n", "or": "<p><strong>ଦିଆଯାଇଛି:</strong></p>\n\n<p>ସଂଖ୍ୟା = <span class=\"math-tex\">\\(4.\\overline{142}\\)</span></p>\n\n<p><strong>ଗଣନା:</strong></p>\n\n<p>ଧରନ୍ତୁ, x = <span class=\"math-tex\">\\(4.142142\\)</span>.................. (1)</p>\n\n<p>ସମୀକରଣ (1) କୁ 1000 ରେ ଗୁଣନ୍ତୁ, ଏବଂ ଆମେ ପାଇବା (କାରଣ ବାର ଥିବା ତିନୋଟି ଅଙ୍କର ପୁନରାବୃତ୍ତି ହେଉଛି)</p>\n\n<p>1000x = 4142.142142....... (2)</p>\n\n<p>ବର୍ତ୍ତମାନ ସମୀକରଣ (1) କୁ ସମୀକରଣ (2) ରୁ ବିୟୋଗ କରନ୍ତୁ</p>\n\n<p>1000x - x = 4142.142142 - 4.142142</p>\n\n<p>999x = 4138</p>\n\n<p>x = <span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span></p>\n\n<p><strong>ଅତଏବ, ସଠିକ୍ ଉତ୍ତର ହେଉଛି '<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>'।</strong></p>\n", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "<p><strong>ਦਿੱਤਾ ਗਿਆ:</strong></p>\n\n<p>ਸੰਖਿਆ = <span class=\"math-tex\">\\(4.\\overline{142}\\)</span></p>\n\n<p><strong>ਗਣਨਾਵਾਂ:</strong></p>\n\n<p>ਮੰਨ ਲਓ, x = <span class=\"math-tex\">\\(4.142142\\)</span>.................. (1)</p>\n\n<p>ਸਮੀਕਰਨ (1) ਨੂੰ 1000 ਨਾਲ ਗੁਣਾ ਕਰੋ, ਅਤੇ ਸਾਨੂੰ ਪ੍ਰਾਪਤ ਹੁੰਦਾ ਹੈ (ਕਿਉਂਕਿ ਤਿੰਨ ਅੰਕ ਹਨ ਜਿਨ੍ਹਾਂ ਉੱਤੇ ਬਾਰ ਹੈ ਭਾਵ ਦੁਹਰਾ ਰਹੇ ਹਨ)</p>\n\n<p>1000x = 4142.142142....... (2)</p>\n\n<p>ਹੁਣ ਸਮੀਕਰਨ (1) ਨੂੰ ਸਮੀਕਰਨ (2) ਵਿੱਚੋਂ ਘਟਾਓ</p>\n\n<p>1000x - x = 4142.142142 - 4.142142</p>\n\n<p>999x = 4138</p>\n\n<p>x = <span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span></p>\n\n<p><strong>ਇਸ ਲਈ, ਸਹੀ ਉੱਤਰ ਹੈ '<span class=\"math-tex\">\\(\\frac{4138}{999}\\)</span>'।</strong></p>\n", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Rational or Irrational Numbers"], "concept": "Rational or Irrational Numbers", "confidence": "high"}, {"qid": "65729a00ba08453cf64ac5e7", "qs_no": 6, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "0.12112111211112 ______ is a number, which is?&nbsp;", "options": [{"prompt": "1", "value": "Rational&amp;nbsp;"}, {"prompt": "2", "value": "Irrational&amp;nbsp;"}, {"prompt": "3", "value": "Non-real&amp;nbsp;"}, {"prompt": "4", "value": "None of these&amp;nbsp;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "0.12112111211112 ______&nbsp;एक संख्या है, जो है?&nbsp;&nbsp;", "options": [{"prompt": "1", "value": "परिमेय&amp;nbsp;"}, {"prompt": "2", "value": "अपरिमेय&amp;nbsp;"}, {"prompt": "3", "value": "अवास्तविक&amp;nbsp;"}, {"prompt": "4", "value": "इनमें कोई नहीं&amp;nbsp;"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "<p><strong>Explanation</strong> -</p>\n\n<p>The pattern seems to repeat a sequence of numbers: 121, 1211, 12111, and so on, with an additional 2 at the end.</p>\n\n<p>This type of sequence, where each segment extends by adding one more digit to the end, repeating the previous pattern, suggests an irrational number.</p>\n\n<p>Irrational numbers are decimal numbers that neither terminate nor repeat in a specific pattern.</p>\n\n<p>In this case, while there&#39;s a repeating structure within the sequence, the addition of a new digit at each step makes it non-repeating and non-terminating, fitting the definition of an irrational number.</p>\n\n<p><strong>Hence Option (2) is correct.</strong></p>\n", "hn": "<p><strong>स्पष्टीकरण -</strong></p>\n\n<p>पैटर्न संख्याओं के अनुक्रम को दोहराता हुआ प्रतीत होता है: 121, 1211, 12111, इत्यादि, अंत में अतिरिक्त 2 के साथ।</p>\n\n<p>इस प्रकार का अनुक्रम, जहां प्रत्येक खंड पिछले पैटर्न को दोहराते हुए अंत में एक और अंक जोड़कर विस्तारित होता है, एक अपरिमेय संख्या का सुझाव देता है।</p>\n\n<p>अपरिमेय संख्याएँ दशमलव संख्याएँ होती हैं जो किसी विशिष्ट पैटर्न में न तो सांत होती हैं और न ही आवर्ती होती हैं।</p>\n\n<p>इस मामले में, जबकि अनुक्रम के भीतर एक आवर्ती&nbsp;वाली संरचना होती है, प्रत्येक चरण में एक नया अंक जोड़ने से यह अनावर्ती&nbsp;और असांत&nbsp;हो जाता है, जो एक अपरिमेय संख्या की परिभाषा के अनुरूप होता है।</p>\n\n<p><strong>अतः विकल्प (2) सही है।</strong></p>\n", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Rational or Irrational Numbers"], "concept": "Rational or Irrational Numbers", "confidence": "high"}, {"qid": "65733d6d04e8a53f498631bc", "qs_no": 7, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "Let x =&nbsp;<span class=\"math-tex\">\\(\\frac{6}{5}\\)</span>, then arrange the numbers 6x,&nbsp;<span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>&nbsp;, 6 - x and 5 + x in ascending order.", "options": [{"prompt": "1", "value": "6 - x,&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{37}{6}\\)&lt;/span&gt;, 5 + x, 6x"}, {"prompt": "2", "value": "6 - x, 5 + x, 6x,&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{37}{6}\\)&lt;/span&gt;"}, {"prompt": "3", "value": "6 - x, 5 + x,&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{37}{6}\\)&lt;/span&gt;, 6x"}, {"prompt": "4", "value": "6 - x,&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{37}{6}\\)&lt;/span&gt;, 6x, 5 + x"}], "range": {"start": "", "end": ""}}, "hn": {"value": "माना, x = <span class=\"math-tex\">\\(\\frac{6}{5}\\)</span> है, तो संख्याओं 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6 - x और 5 + x को आरोही क्रम में व्यवस्थित कीजिए।", "options": [{"prompt": "1", "value": "6 - x, &lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{37}{6}\\)&lt;/span&gt;, 5 + x, 6x"}, {"prompt": "2", "value": "6 - x, 5 + x, 6x, &lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{37}{6}\\)&lt;/span&gt;"}, {"prompt": "3", "value": "6 - x, 5 + x, &lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{37}{6}\\)&lt;/span&gt;, 6x"}, {"prompt": "4", "value": "6 - x, &lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{37}{6}\\)&lt;/span&gt;, 6x, 5 + x"}], "range": {"start": "", "end": ""}}, "te": {"value": "x = <span class=\"math-tex\">\\(\\frac{6}{5}\\)</span> అయితే, 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span> , 6 - x మరియు 5 + x లను ఆరోహణ క్రమంలో అమర్చండి.", "options": [{"prompt": "1", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 5 + x, 6x"}, {"prompt": "2", "value": "6 - x, 5 + x, 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>"}, {"prompt": "3", "value": "6 - x, 5 + x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x"}, {"prompt": "4", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x, 5 + x"}], "range": {"start": "", "end": ""}}, "mr": {"value": "जर x = <span class=\"math-tex\">\\(\\frac{6}{5}\\)</span> असेल, तर 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span> , 6 - x आणि 5 + x या संख्या चढत्या क्रमाने लावा.", "options": [{"prompt": "1", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 5 + x, 6x"}, {"prompt": "2", "value": "6 - x, 5 + x, 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>"}, {"prompt": "3", "value": "6 - x, 5 + x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x"}, {"prompt": "4", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x, 5 + x"}], "range": {"start": "", "end": ""}}, "bn": {"value": "ধরা যাক x = <span class=\"math-tex\">\\(\\frac{6}{5}\\)</span>, তাহলে 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span> , 6 - x এবং 5 + x সংখ্যাগুলিকে আরোহী ক্রমে সাজান।", "options": [{"prompt": "1", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 5 + x, 6x"}, {"prompt": "2", "value": "6 - x, 5 + x, 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>"}, {"prompt": "3", "value": "6 - x, 5 + x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x"}, {"prompt": "4", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x, 5 + x"}], "range": {"start": "", "end": ""}}, "gu": {"value": "ધારો કે x = <span class=\"math-tex\">\\(\\frac{6}{5}\\)</span>, તો 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span> , 6 - x અને 5 + x ને ચડતા ક્રમમાં ગોઠવો.", "options": [{"prompt": "1", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 5 + x, 6x"}, {"prompt": "2", "value": "6 - x, 5 + x, 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>"}, {"prompt": "3", "value": "6 - x, 5 + x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x"}, {"prompt": "4", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x, 5 + x"}], "range": {"start": "", "end": ""}}, "kn": {"value": "x = <span class=\"math-tex\">\\(\\frac{6}{5}\\)</span> ಆಗಿದ್ದರೆ, 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span> , 6 - x ಮತ್ತು 5 + x ಸಂಖ್ಯೆಗಳನ್ನು ಏರಿಕೆ ಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಿ.", "options": [{"prompt": "1", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 5 + x, 6x"}, {"prompt": "2", "value": "6 - x, 5 + x, 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>"}, {"prompt": "3", "value": "6 - x, 5 + x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x"}, {"prompt": "4", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x, 5 + x"}], "range": {"start": "", "end": ""}}, "ta": {"value": "x = <span class=\"math-tex\">\\(\\frac{6}{5}\\)</span> எனில், 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6 - x மற்றும் 5 + x ஆகிய எண்களை ஏறுவரிசையில் வரிசைப்படுத்தவும்.", "options": [{"prompt": "1", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 5 + x, 6x"}, {"prompt": "2", "value": "6 - x, 5 + x, 6x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>"}, {"prompt": "3", "value": "6 - x, 5 + x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x"}, {"prompt": "4", "value": "6 - x, <span class=\"math-tex\">\\(\\frac{37}{6}\\)</span>, 6x, 5 + x"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "<p><strong>Given:</strong></p>\n\n<p>x = 6/5</p>\n\n<p>Numbers: 6x, 37/6, 6 - x, 5 + x</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>6x = 6 &times; (6/5) = 36/5 = 7.2</p>\n\n<p>6 - x = 6 - (6/5) = (30/5) - (6/5) = 24/5 = 4.8</p>\n\n<p>5 + x = 5 + (6/5) = (25/5) + (6/5) = 31/5 = 6.2</p>\n\n<p>37/6 = 6.1666...</p>\n\n<p>The numbers are in ascending order:</p>\n\n<p>4.8 &lt; 6.1666... &lt; 6.2 &lt; 7.2</p>\n\n<p>24/5 &lt; 37/6 &lt; 31/5 &lt; 36/5</p>\n\n<p>6 - x &lt; 37/6 &lt; 5 + x &lt; 6x</p>\n\n<p><strong>&there4; The ascending order is: 6 - x, 37/6, 5 + x, 6x.</strong></p>\n", "hn": "<p><strong>दिया गया है:</strong></p>\n\n<p>x = 6/5</p>\n\n<p>संख्याएँ: 6x, 37/6, 6 - x, 5 + x</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>6x = 6 x (6/5) = 36/5 = 7.2</p>\n\n<p>6 - x = 6 - (6/5) = (30/5) - (6/5) = 24/5 = 4.8</p>\n\n<p>5 + x = 5 + (6/5) = (25/5) + (6/5) = 31/5 = 6.2</p>\n\n<p>37/6 = 6.1666...</p>\n\n<p>संख्याएँ आरोही क्रम में हैं:</p>\n\n<p>4.8 &lt; 6.1666... &lt; 6.2 &lt; 7.2</p>\n\n<p>24/5 &lt; 37/6 &lt; 31/5 &lt; 36/5</p>\n\n<p>6 - x &lt; 37/6 &lt; 5 + x &lt; 6x</p>\n\n<p><strong>इसलिए, आरोही क्रम 6 - x, 37/6, 5 + x, 6x है।&nbsp;</strong></p>\n", "te": "<p><strong>ఇచ్చినది:</strong></p>\n\n<p>x = 6/5</p>\n\n<p>సంఖ్యలు: 6x, 37/6, 6 - x, 5 + x</p>\n\n<p><strong>లెక్కింపు:</strong></p>\n\n<p>6x = 6 x (6/5) = 36/5 = 7.2</p>\n\n<p>6 - x = 6 - (6/5) = (30/5) - (6/5) = 24/5 = 4.8</p>\n\n<p>5 + x = 5 + (6/5) = (25/5) + (6/5) = 31/5 = 6.2</p>\n\n<p>37/6 = 6.1666...</p>\n\n<p>సంఖ్యలు ఆరోహణ క్రమంలో:</p>\n\n<p>4.8 < 6.1666... < 6.2 < 7.2</p>\n\n<p>24/5 < 37/6 < 31/5 < 36/5</p>\n\n<p>6 - x < 37/6 < 5 + x < 6x</p>\n\n<p><strong>∴ ఆరోహణ క్రమం: 6 - x, 37/6, 5 + x, 6x.</strong></p>\n", "mr": "<p><strong>दिलेले:</strong></p>\n\n<p>x = 6/5</p>\n\n<p>संख्या: 6x, 37/6, 6 - x, 5 + x</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>6x = 6 x (6/5) = 36/5 = 7.2</p>\n\n<p>6 - x = 6 - (6/5) = (30/5) - (6/5) = 24/5 = 4.8</p>\n\n<p>5 + x = 5 + (6/5) = (25/5) + (6/5) = 31/5 = 6.2</p>\n\n<p>37/6 = 6.1666...</p>\n\n<p>चढत्या क्रमाने संख्या:</p>\n\n<p>4.8 < 6.1666... < 6.2 < 7.2</p>\n\n<p>24/5 < 37/6 < 31/5 < 36/5</p>\n\n<p>6 - x < 37/6 < 5 + x < 6x</p>\n\n<p><strong>∴ चढता क्रम आहे: 6 - x, 37/6, 5 + x, 6x.</strong></p>\n", "bn": "<p><strong>প্রদত্ত:</strong></p>\n\n<p>x = 6/5</p>\n\n<p>সংখ্যাগুলি: 6x, 37/6, 6 - x, 5 + x</p>\n\n<p><strong>গণনা:</strong></p>\n\n<p style=\"color: rgb(33, 37, 41);\">6x = 6 × (6/5) = 36/5 = 7.2</p>\n\n<p style=\"color: rgb(33, 37, 41);\">6 - x = 6 - (6/5) = (30/5) - (6/5) = 24/5 = 4.8</p>\n\n<p style=\"color: rgb(33, 37, 41);\">5 + x = 5 + (6/5) = (25/5) + (6/5) = 31/5 = 6.2</p>\n\n<p>37/6 = 6.1666...</p>\n\n<p>সংখ্যাগুলি আরোহী ক্রমে হল:</p>\n\n<p>4.8 < 6.1666... < 6.2 < 7.2</p>\n\n<p>24/5 < 37/6 < 31/5 < 36/5</p>\n\n<p>6 - x < 37/6 < 5 + x < 6x</p>\n\n<p><strong>∴ আরোহী ক্রমটি হল: 6 - x, 37/6, 5 + x, 6x.</strong></p>\n", "ml": "", "gu": "<p><strong>આપેલ:</strong></p>\n\n<p>x = 6/5</p>\n\n<p>સંખ્યાઓ: 6x, 37/6, 6 - x, 5 + x</p>\n\n<p><strong>ગણતરી:</strong></p>\n\n<p>6x = 6 x (6/5) = 36/5 = 7.2</p>\n\n<p>6 - x = 6 - (6/5) = (30/5) - (6/5) = 24/5 = 4.8</p>\n\n<p>5 + x = 5 + (6/5) = (25/5) + (6/5) = 31/5 = 6.2</p>\n\n<p>37/6 = 6.1666...</p>\n\n<p>સંખ્યાઓ ચડતા ક્રમમાં:</p>\n\n<p>4.8 < 6.1666... < 6.2 < 7.2</p>\n\n<p>24/5 < 37/6 < 31/5 < 36/5</p>\n\n<p>6 - x < 37/6 < 5 + x < 6x</p>\n\n<p><strong>∴ ચડતો ક્રમ છે: 6 - x, 37/6, 5 + x, 6x.</strong></p>\n", "kn": "<p><strong>ನೀಡಿರುವುದು:</strong></p>\n\n<p>x = 6/5</p>\n\n<p>ಸಂಖ್ಯೆಗಳು: 6x, 37/6, 6 - x, 5 + x</p>\n\n<p><strong>ಲೆಕ್ಕಾಚಾರ:</strong></p>\n\n<p>6x = 6 x (6/5) = 36/5 = 7.2</p>\n\n<p>6 - x = 6 - (6/5) = (30/5) - (6/5) = 24/5 = 4.8</p>\n\n<p>5 + x = 5 + (6/5) = (25/5) + (6/5) = 31/5 = 6.2</p>\n\n<p>37/6 = 6.1666...</p>\n\n<p>ಸಂಖ್ಯೆಗಳು ಏರಿಕೆ ಕ್ರಮದಲ್ಲಿ:</p>\n\n<p>4.8 < 6.1666... < 6.2 < 7.2</p>\n\n<p>24/5 < 37/6 < 31/5 < 36/5</p>\n\n<p>6 - x < 37/6 < 5 + x < 6x</p>\n\n<p><strong>∴ ಏರಿಕೆ ಕ್ರಮ: 6 - x, 37/6, 5 + x, 6x.</strong></p>\n", "ta": "<p><strong>கொடுக்கப்பட்டது:</strong></p>\n\n<p>x = 6/5</p>\n\n<p>எண்கள்: 6x, 37/6, 6 - x, 5 + x</p>\n\n<p><strong>கணக்கீடு:</strong></p>\n\n<p>6x = 6 x (6/5) = 36/5 = 7.2</p>\n\n<p>6 - x = 6 - (6/5) = (30/5) - (6/5) = 24/5 = 4.8</p>\n\n<p>5 + x = 5 + (6/5) = (25/5) + (6/5) = 31/5 = 6.2</p>\n\n<p>37/6 = 6.1666...</p>\n\n<p>எண்கள் ஏறுவரிசையில்:</p>\n\n<p>4.8 < 6.1666... < 6.2 < 7.2</p>\n\n<p>24/5 < 37/6 < 31/5 < 36/5</p>\n\n<p>6 - x < 37/6 < 5 + x < 6x</p>\n\n<p><strong>∴ ஏறுவரிசை: 6 - x, 37/6, 5 + x, 6x.</strong></p>\n", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Quick Math"], "concept": "Quick Math", "confidence": "high"}, {"qid": "6256e3f7495345154baf5683", "qs_no": 8, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "<span class=\"math-tex\">\\({\\rm{Simplify}}\\,\\frac{{\\sqrt 5 \\, - \\,\\sqrt 3 }}{{\\sqrt 5 \\, + \\,\\sqrt 3 }}\\, - \\,\\frac{{\\sqrt 5 \\, + \\,\\sqrt 3 }}{{\\sqrt 5 \\, - \\,\\sqrt 3 }}:\\)</span>", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(- 2\\sqrt {15} \\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\( - \\frac{{17}}{4}\\)&lt;/span&gt;"}, {"prompt": "3", "value": "-1"}, {"prompt": "4", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(2\\sqrt {15} \\)&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "हल कीजिए:&nbsp;<span class=\"math-tex\">\\(\\frac{{\\sqrt 5 \\, - \\,\\sqrt 3 }}{{\\sqrt 5 \\, + \\,\\sqrt 3 }}\\, - \\,\\frac{{\\sqrt 5 \\, + \\,\\sqrt 3 }}{{\\sqrt 5 \\, - \\,\\sqrt 3 }}\\)</span>", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(- 2\\sqrt {15} \\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\( - \\frac{{17}}{4}\\)&lt;/span&gt;"}, {"prompt": "3", "value": "-1"}, {"prompt": "4", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(2\\sqrt {15} \\)&lt;/span&gt;"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "<p><strong>Formula:</strong></p>\n\n<p>(a + b) &times; (a - b) = a<sup>2</sup> - b<sup>2</sup></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{{\\sqrt 5 \\, - \\,\\sqrt 3 }}{{\\sqrt 5 \\, + \\,\\sqrt 3 }}\\, - \\,\\frac{{\\sqrt 5 \\, + \\,\\sqrt 3 }}{{\\sqrt 5 \\, - \\,\\sqrt 3 }}:\\)</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;<span class=\"math-tex\">\\((\\sqrt5-\\sqrt3)^2 -(\\sqrt5+\\sqrt3)^2\\over(\\sqrt5)^2 - (\\sqrt3)^2\\)</span></span></p>\n\n<p><span style=\"\">&rArr;<span class=\"math-tex\">\\(5 + 3 -2\\sqrt15-5-3-2\\sqrt15\\over5-3\\)</span></span></p>\n\n<p><span style=\"\">&rArr;<span class=\"math-tex\">\\(-4\\sqrt15\\over2\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(- 2\\sqrt {15} \\)</span></span></p>\n\n<p><strong>The answer is&nbsp;<span class=\"math-tex\">\\(- 2\\sqrt {15} \\)</span></strong></p>\n", "hn": "<p><strong>सूत्र:</strong></p>\n\n<p>(a + b) &times; (a - b) = a<sup>2</sup> - b<sup>2</sup></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{{\\sqrt 5 \\, - \\,\\sqrt 3 }}{{\\sqrt 5 \\, + \\,\\sqrt 3 }}\\, - \\,\\frac{{\\sqrt 5 \\, + \\,\\sqrt 3 }}{{\\sqrt 5 \\, - \\,\\sqrt 3 }}:\\)</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;<span class=\"math-tex\">\\((\\sqrt5-\\sqrt3)^2 -(\\sqrt5+\\sqrt3)^2\\over(\\sqrt5)^2 - (\\sqrt3)^2\\)</span></span></p>\n\n<p><span style=\"\">&rArr;<span class=\"math-tex\">\\(5 + 3 -2\\sqrt15-5-3-2\\sqrt15\\over5-3\\)</span></span></p>\n\n<p><span style=\"\">&rArr;<span class=\"math-tex\">\\(-4\\sqrt15\\over2\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(- 2\\sqrt {15} \\)</span></span></p>\n\n<p><strong>उत्तर&nbsp;<span class=\"math-tex\">\\(- 2\\sqrt {15} \\)</span></strong>&nbsp;<strong> है।</strong></p>\n32:T5bf,\n<p><strong>Gi", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Rational or Irrational Numbers"], "concept": "Rational or Irrational Numbers", "confidence": "high"}, {"qid": "639ece9c1fd11d7bbcd0629b", "qs_no": 9, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "Express&nbsp;<span class=\"math-tex\">\\(\\frac{4a^2}{\\sqrt{4a^2+b^2}+b}\\)</span>&nbsp;with rational denominator.&nbsp;", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{\\sqrt{4a^2+b^2}}{b^2}\\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\sqrt{4a^2+b^2}-b\\)&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{2a^2+b}{b}\\)&lt;/span&gt;"}, {"prompt": "4", "value": "4a&lt;sup&gt;2&lt;/sup&gt;(2a - b)"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span class=\"math-tex\">\\(\\frac{4a^2}{\\sqrt{4a^2+b^2}+b}\\)</span>&nbsp;<span style=\"\">को परिमेय&nbsp;हर के साथ व्यक्त कीजिए।</span>", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{\\sqrt{4a^2+b^2}}{b^2}\\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\sqrt{4a^2+b^2}-b\\)&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\(\\frac{2a^2+b}{b}\\)&lt;/span&gt;"}, {"prompt": "4", "value": "4a&lt;sup&gt;2&lt;/sup&gt;(2a - b)"}], "range": {"start": "", "end": ""}}}, "correct_option": "2", "solution_html": {"en": "<p><strong>Given :</strong></p>\n\n<p>Rationalise the expression&nbsp;<span class=\"math-tex\">\\(\\dfrac{4a^2}{\\sqrt{4a^2+b^2}+b}\\)</span></p>\n\n<p><strong>Calculation :</strong></p>\n\n<p><span class=\"math-tex\">\\(\\dfrac{4a^2}{\\sqrt{4a^2+b^2}+b}\\)</span></p>\n\n<p>&rArr;&nbsp;&nbsp;<span class=\"math-tex\">\\(\\dfrac{4a^2\\times (\\sqrt{4a^2+b^2}-b)}{(\\sqrt{4a^2+b^2}+b)\\times (\\sqrt{4a^2+b^2}-b }\\)</span></p>\n\n<p>&rArr;&nbsp;&nbsp;<span class=\"math-tex\">\\(\\dfrac{4a^2\\times (\\sqrt{4a^2+b^2}-b)}{4a^2+b^2-b^2 }\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\dfrac{4a^2\\times (\\sqrt{4a^2+b^2}-b)}{4a^2}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{4a^2+b^2}-b\\)</span></p>\n\n<p><strong>&there4; The answer is&nbsp;<span class=\"math-tex\">\\(\\sqrt{4a^2+b^2}-b\\)</span>&nbsp;.</strong></p>\n", "hn": "<p><strong>दिया गया है:</strong></p>\n\n<p>व्यंजक&nbsp;<span class=\"math-tex\">\\(\\dfrac{4a^2}{\\sqrt{4a^2+b^2}+b}\\)</span>&nbsp;का&nbsp;<span style=\"\">परिमेयीकरण करना है।</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span class=\"math-tex\">\\(\\dfrac{4a^2}{\\sqrt{4a^2+b^2}+b}\\)</span></p>\n\n<p>&rArr;&nbsp;&nbsp;<span class=\"math-tex\">\\(\\dfrac{4a^2\\times (\\sqrt{4a^2+b^", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Rational or Irrational Numbers"], "concept": "Rational or Irrational Numbers", "confidence": "high"}, {"qid": "62a8b8143a9eab3f8db055c8", "qs_no": 10, "pos_marks": 3.0, "neg_marks": 1.0, "type": "mcq", "langs": {"en": {"value": "Which is the greatest in&nbsp;<span class=\"math-tex\">\\(15\\frac{1}{3}\\)</span>&nbsp;%,&nbsp;<span class=\"math-tex\">\\(\\frac{4}{5}\\)</span>&nbsp;and 0.25", "options": [{"prompt": "1", "value": "4/5"}, {"prompt": "2", "value": "1/4"}, {"prompt": "3", "value": "1/2"}, {"prompt": "4", "value": "3/4"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span class=\"math-tex\">\\(15\\frac{1}{3}\\)</span>&nbsp;%,&nbsp;<span class=\"math-tex\">\\(\\frac{4}{5}\\)</span> और 0.25 में से सबसे बड़ा कौन-सा है?", "options": [{"prompt": "1", "value": "4/5"}, {"prompt": "2", "value": "1/4"}, {"prompt": "3", "value": "1/2"}, {"prompt": "4", "value": "3/4"}], "range": {"start": "", "end": ""}}}, "correct_option": "1", "solution_html": {"en": "\n<p><strong>Given:</strong></p>\n\n<p><span style=\"\">&nbsp;</span><span class=\"math-tex\">\\(15\\frac{1}{3}\\)</span><span style=\"\">&nbsp;%,&nbsp;</span><span class=\"math-tex\">\\(\\frac{4}{5}\\)</span><span style=\"\">&nbsp;and 0.25</span></p>\n\n<p><strong><span style=\"\">Calculation:</span></strong></p>\n\n<p><span style=\"font-size:16px;\"><span class=\"math-tex\">\\(15\\frac{1}{3}\\%\\)</span></span>&nbsp;=&nbsp;<span style=\"font-size:16px;\"><span class=\"math-tex\">\\(\\frac{46}{3}\\%\\)</span></span></p>\n\n<p>=&nbsp;<span style=\"font-size:16px;\"><span class=\"math-tex\">\\(\\frac{46}{300}\\)</span></span></p>\n\n<p>= 0.1534(approx.)</p>\n\n<p><span style=\"font-size:16px;\"><span class=\"math-tex\">\\(\\frac{4}{5}\\)</span></span>&nbsp;= 0.8</p>\n\n<p>0.8 &gt;&nbsp;<span style=\"\">0.25 &gt;&nbsp;0.1534</span></p>\n\n<p><span style=\"\">4/5 is the greatest.</span></p>\n\n<p><strong><span style=\"\">Answer is 4/5.</span></strong></p>", "hn": "\n<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"\">&nbsp;</span><span class=\"math-tex\">\\(15\\frac{1}{3}\\)</span><span style=\"\">&nbsp;%,&nbsp;</span><span class=\"math-tex\">\\(\\frac{4}{5}\\)</span><span style=\"\">&nbsp;और&nbsp;0.25</span></p>\n\n<p><strong><span style=\"\">गणना:</span></strong></p>\n\n<p><span style=\"font-size:16px;\"><span class=\"math-tex\">\\(15\\frac{1}{3}\\%\\)</sp", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": ["Rational or Irrational Numbers"], "concept": "Rational or Irrational Numbers", "confidence": "high"}]}]}</script>
+<script>
+const TEST_DATA = JSON.parse(document.getElementById('test-data').textContent);
+const TOTAL_Q = 10;
+const DURATION_SEC = 0 * 60;
+
+// State
+let currentSectionIdx = 0;
+let currentQIdx = 0;  // global across sections
+let currentLang = 'en';
+let answers = {};  // qid -> selected option prompt
+let marked = {};   // qid -> true
+let visited = new Set();
+let submitted = false;
+let timeLeft = DURATION_SEC;
+let timerInterval = null;
+
+// Flatten all questions for easy indexing
+const allQuestions = [];
+TEST_DATA.sections.forEach((s, sIdx) => {
+  s.questions.forEach(q => {
+    allQuestions.push({...q, sectionIdx: sIdx, sectionName: s.section_name});
+  });
+});
+
+function init() {
+  // Render section tabs
+  const sectionTabs = document.getElementById('sectionTabs');
+  TEST_DATA.sections.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'section-tab' + (i === 0 ? ' active' : '');
+    tab.textContent = s.section_name + ' (' + s.questions.length + ')';
+    tab.onclick = () => switchSection(i);
+    sectionTabs.appendChild(tab);
+  });
+  // Render palette
+  renderPalette();
+  // Render first question
+  renderQuestion();
+  // Start timer
+  startTimer();
+  // Update stats
+  updateStats();
+}
+
+function startTimer() {
+  if (DURATION_SEC <= 0) {
+    // No time limit — show "No Limit" instead of a countdown
+    document.getElementById('timer').textContent = 'No Limit';
+    document.getElementById('timer').classList.add('no-limit');
+    return;
+  }
+  timerInterval = setInterval(() => {
+    if (submitted) return;
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      submitTest();
+    }
+  }, 1000);
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeLeft / 3600);
+  const m = Math.floor((timeLeft % 3600) / 60);
+  const s = timeLeft % 60;
+  const display = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  const timerEl = document.getElementById('timer');
+  timerEl.textContent = display;
+  if (timeLeft < 60) {
+    timerEl.className = 'timer danger';
+  } else if (timeLeft < 300) {
+    timerEl.className = 'timer warning';
+  }
+}
+
+function renderQuestion() {
+  const q = allQuestions[currentQIdx];
+  if (!q) return;
+  visited.add(q.qid);
+  // Update section tab
+  currentSectionIdx = q.sectionIdx;
+  document.querySelectorAll('.section-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSectionIdx);
+  });
+  document.getElementById('currentSectionLabel').textContent = q.sectionName;
+  // Question header — includes Q number, marks, concept, confidence, and question ID
+  document.getElementById('qNum').textContent = 'Q' + (currentQIdx + 1);
+  let headerExtras = '<span class="mark-pos">+' + q.pos_marks + '</span><span class="mark-neg">-' + q.neg_marks + '</span>';
+  // Concept + confidence (from AI classifier — same as AI JSON)
+  const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+  const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+  const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+  headerExtras += '<span class="q-concept" title="Concept category">🎯 ' + concept + '</span>';
+  headerExtras += '<span class="q-confidence ' + confClass + '" title="Classifier confidence">conf: ' + confidence + '</span>';
+  // Question ID (unique per question, useful for cross-test matching)
+  headerExtras += '<span class="q-id" title="Question ID (unique across all tests)">ID: ' + q.qid + '</span>';
+  document.getElementById('qMarks').innerHTML = headerExtras;
+  // Language tabs
+  const langTabs = document.getElementById('qLangTabs');
+  langTabs.innerHTML = '';
+  const availableLangs = Object.keys(q.langs);
+  const showLangs = ['en','hn','te','mr','bn','ml','gu','kn','ta','or'].filter(l => availableLangs.includes(l));
+  if (showLangs.length > 1) {
+    showLangs.forEach((l, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'q-lang-tab' + (l === currentLang ? ' active' : '');
+      btn.textContent = {en:'English',hn:'Hindi',te:'Telugu',mr:'Marathi',bn:'Bengali',ml:'Malayalam',gu:'Gujarati',kn:'Kannada',ta:'Tamil',or:'Odia'}[l] || l;
+      btn.onclick = () => { currentLang = l; renderQuestion(); };
+      langTabs.appendChild(btn);
+    });
+  }
+  // Question text
+  const langData = q.langs[currentLang] || q.langs[availableLangs[0]] || {};
+  document.getElementById('qText').innerHTML = langData.value || '(no question text)';
+  // Options
+  const optsList = document.getElementById('optionsList');
+  optsList.innerHTML = '';
+  (langData.options || []).forEach(opt => {
+    const li = document.createElement('li');
+    li.className = 'option-item' + (answers[q.qid] === opt.prompt ? ' selected' : '');
+    li.innerHTML = '<span class="option-label">' + opt.prompt + '</span><span class="option-text">' + opt.value + '</span>';
+    li.onclick = () => selectOption(q.qid, opt.prompt);
+    optsList.appendChild(li);
+  });
+  // Update palette
+  renderPalette();
+  updateStats();
+}
+
+function selectOption(qid, prompt) {
+  if (submitted) return;
+  if (answers[qid] === prompt) {
+    delete answers[qid];
+  } else {
+    answers[qid] = prompt;
+  }
+  renderQuestion();
+}
+
+function saveNext() {
+  nextQuestion();
+}
+
+function markReviewNext() {
+  const q = allQuestions[currentQIdx];
+  marked[q.qid] = true;
+  nextQuestion();
+}
+
+function clearResponse() {
+  const q = allQuestions[currentQIdx];
+  delete answers[q.qid];
+  renderQuestion();
+}
+
+function nextQuestion() {
+  if (currentQIdx < allQuestions.length - 1) {
+    currentQIdx++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQIdx > 0) {
+    currentQIdx--;
+    renderQuestion();
+  }
+}
+
+function jumpTo(idx) {
+  currentQIdx = idx;
+  renderQuestion();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function switchSection(idx) {
+  currentSectionIdx = idx;
+  // Find first question in this section
+  const qIdx = allQuestions.findIndex(q => q.sectionIdx === idx);
+  if (qIdx >= 0) {
+    currentQIdx = qIdx;
+    renderQuestion();
+  }
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const cell = document.createElement('div');
+    let cls = 'palette-cell ';
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) cls += 'marked-answered';
+    else if (isMarked) cls += 'marked';
+    else if (isAnswered) cls += 'answered';
+    else if (isVisited) cls += 'notanswered';
+    else cls += 'notvisited';
+    if (i === currentQIdx) cls += ' current';
+    cell.className = cls;
+    cell.textContent = (i + 1);
+    cell.onclick = () => jumpTo(i);
+    grid.appendChild(cell);
+  });
+}
+
+function updateStats() {
+  let answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) marked++;
+    else if (isMarked) marked++;
+    else if (isAnswered) answered++;
+    else if (isVisited) notAnswered++;
+    else notVisited++;
+  });
+  document.getElementById('paletteStats').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${notAnswered}</strong></div>
+    <div><span>Marked:</span><strong>${marked}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+  `;
+}
+
+function openSubmitModal() {
+  let answered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    if (answers[q.qid] !== undefined) answered++;
+    else if (marked[q.qid]) marked++;
+    else if (!visited.has(q.qid)) notVisited++;
+  });
+  document.getElementById('submitSummary').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${TOTAL_Q - answered - notVisited}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+    <div><span>Total:</span><strong>${TOTAL_Q}</strong></div>
+  `;
+  document.getElementById('submitModal').classList.add('open');
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('open');
+}
+
+function submitTest() {
+  submitted = true;
+  clearInterval(timerInterval);
+  closeSubmitModal();
+  // Calculate score
+  let score = 0, correct = 0, wrong = 0, skipped = 0;
+  allQuestions.forEach(q => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    if (userAns === undefined) {
+      skipped++;
+    } else if (userAns === correctAns) {
+      correct++;
+      score += q.pos_marks;
+    } else {
+      wrong++;
+      score -= q.neg_marks;
+    }
+  });
+  // Show results view
+  document.getElementById('testMode').style.display = 'none';
+  document.getElementById('resultsView').style.display = 'block';
+  document.getElementById('scoreCard').innerHTML = `
+    <div><span class="score">${score.toFixed(2)}</span><span class="total"> / ${TEST_DATA.max_marks || TOTAL_Q * 2}</span></div>
+    <div class="rank">Correct: ${correct} | Wrong: ${wrong} | Skipped: ${skipped}</div>
+    <div class="rank" style="margin-top:8px;">Accuracy: ${(correct + wrong > 0) ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0}%</div>
+  `;
+  // Render all questions with answers + solutions
+  renderAllQuestions();
+}
+
+function renderAllQuestions() {
+  const container = document.getElementById('resultsQuestions');
+  container.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    const isCorrect = userAns === correctAns;
+    const isWrong = userAns !== undefined && userAns !== correctAns;
+    const isSkipped = userAns === undefined;
+    const card = document.createElement('div');
+    card.className = 'result-card ' + (isCorrect ? 'correct' : isWrong ? 'wrong' : 'skipped');
+    const langData = q.langs[currentLang] || q.langs[Object.keys(q.langs)[0]] || {};
+    let optionsHtml = '';
+    (langData.options || []).forEach(opt => {
+      let cls = 'result-option';
+      if (opt.prompt === correctAns) cls += ' correct';
+      if (opt.prompt === userAns) cls += ' selected';
+      optionsHtml += `<li class="${cls}"><span class="result-option-label">${opt.prompt}</span><span>${opt.value}</span></li>`;
+    });
+    const sol = q.solution_html[currentLang] || q.solution_html['en'] || '';
+    const solHtml = sol ? `<div class="result-solution"><div class="result-solution-title">📖 Solution</div>${sol}</div>` : '';
+    let statusBadge = '';
+    if (isCorrect) statusBadge = '<span class="result-status correct">✓ Correct</span>';
+    else if (isWrong) statusBadge = '<span class="result-status wrong">✗ Wrong</span>';
+    else statusBadge = '<span class="result-status skipped">— Skipped</span>';
+    // Concept + confidence + question ID (same as AI JSON)
+    const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+    const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+    const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+    card.innerHTML = `
+      <div class="result-header">
+        <span class="result-q-num">Q${i + 1}</span>
+        ${statusBadge}
+        <span class="result-concept">🎯 ${concept}</span>
+        <span class="result-confidence ${confClass}">conf: ${confidence}</span>
+        <span class="result-qid">ID: ${q.qid}</span>
+      </div>
+      <div class="result-text">${langData.value || '(no text)'}</div>
+      <ul class="result-options">${optionsHtml}</ul>
+      ${solHtml}
+    `;
+    container.appendChild(card);
+  });
+}
+
+function showAllQuestions() {
+  document.getElementById('resultsView').scrollIntoView({behavior: 'smooth'});
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (submitted) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'j') nextQuestion();
+  if (e.key === 'ArrowLeft' || e.key === 'k') prevQuestion();
+  if (e.key === '1' || e.key === 'a') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[0]) selectOption(q.qid, opts[0].prompt); }
+  if (e.key === '2' || e.key === 'b') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[1]) selectOption(q.qid, opts[1].prompt); }
+  if (e.key === '3' || e.key === 'c') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[2]) selectOption(q.qid, opts[2].prompt); }
+  if (e.key === '4' || e.key === 'd') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[3]) selectOption(q.qid, opts[3].prompt); }
+});
+
+init();
+</script>
+</body>
+</html>

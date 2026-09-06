@@ -1,0 +1,976 @@
+{
+  "test_id": "69f09f42978c63aad73f5628",
+  "title": "General Intelligence and Reasoning Advanced Sectional Test - 2",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Single_Tests",
+  "subsection": "Default",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:57:15.633109+00:00",
+  "questions": [
+    {
+      "qid": "5c6e515ceb64ca0c2fd0190f",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Given below is an inequality, which of the following condition is TRUE?\n\nIf P ≤ Q ≥ R; E ≥ Q; L < Q = D",
+      "options": [
+        {
+          "label": "1",
+          "text": "L < P"
+        },
+        {
+          "label": "2",
+          "text": "E͟ ≥ R"
+        },
+        {
+          "label": "3",
+          "text": "E < D"
+        },
+        {
+          "label": "4",
+          "text": "Q < R"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given inequality is: P ≤ Q ≥ R; E ≥ Q; L < Q = D\n\n1. L < P → P ≤ Q, L < Q, data is not sufficient to determine the relation → False\n\n2. E ≥ R → E ≥ Q ≥ R, E ≥ R → True.\n\n3. E < D → E ≥ Q, L < Q = D, E ≥ D → False.\n\n4. Q < R → Q ≥ R → False.\n\nHence, E ≥ R, is the correct inequality.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "5ddce07ef60d5d58a9ee414c",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, select the number which can be placed at the sign of question mark (?) from the given alternative.\n\n [IMAGE: https://cdn.repeatermock.com/tb/8163d19641ec35501ee4ad58166e31f116dd0198f6ba9c927c3a450ea9982c80.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "63"
+        },
+        {
+          "label": "2",
+          "text": "78"
+        },
+        {
+          "label": "3",
+          "text": "53"
+        },
+        {
+          "label": "4",
+          "text": "97"
+        }
+      ],
+      "correct": "3",
+      "solution": "The pattern followed here is:\n\nIn each figure, the sum of diagonally opposite numbers is written in the middle of the figure.\n\nIn figure (i), 54 + 36 = 90 or 46 + 44 = 90\n\nIn figure (ii), 32 + 42 = 74 or 11 + 63 = 74\n\nSimilarly, in figure (iii), **72 + 36 = 108 or 55 + a = 108**\n\n**a = 108 – 55 = 53**\n\nHence, “53” is the correct answer.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/8163d19641ec35501ee4ad58166e31f116dd0198f6ba9c927c3a450ea9982c80.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Missing Number"
+      ]
+    },
+    {
+      "qid": "5de61390f60d5d2da3093e13",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "**Directions: **In the following question assuming the given statements to be true, find which of the given conclusions is definitely true.\n\n**Statement: **\n\nG F",
+      "options": [
+        {
+          "label": "1",
+          "text": "G > H"
+        },
+        {
+          "label": "2",
+          "text": "N ≤ I"
+        },
+        {
+          "label": "3",
+          "text": "I < V"
+        },
+        {
+          "label": "4",
+          "text": "N < F"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\nG F\n\nOn Combining:\n\nN ≥ H > F ≥ I = G H → False (as G = I ≤ F F ≥ I; therefore N > I)\n\n3. I F; therefore N > F)\n\nHence, “I < V” is definitely true among the given options.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "5e0487b38962520d027cd18d",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Statements and Assumptions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "**Directions**: In each question below is given one/more statements that followed by two assumptions numbered I and II. Consider the statement and decide which of the given assumptions is implicit.\n\n**Statement: **Vinayak wrote the second letter to Queen after a month as he did not receive any reply to the first letter.\n\n**Assumptions:**\n\nI. The letter generally reaches within a fortnight\n\nII. Queen usually replies to Vinayak’s letter",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only assumption II is implicit"
+        },
+        {
+          "label": "2",
+          "text": "Only assumption I is implicit"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II are implicit"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II is implicit"
+        }
+      ],
+      "correct": "1",
+      "solution": "Nothing about the time taken by the letter to reach is mentioned or suggested in the given statement.\n\nHence, the assumption I is not implicit.\n\nAs Vinayak has written a second letter, he is expecting a reply for it despite not receiving a reply to his first letter.\n\nTherefore, it can be said that the queen usually gives reply to his letters.\n\nHence, assumption II is implicit.\n\nThus, only assumption II is implicit.",
+      "tags": [
+        "Statements and Assumptions"
+      ]
+    },
+    {
+      "qid": "5ef455712b438d0d07f61800",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Arrangement and Pattern",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many 7’s are there in the following sequence of numbers which are preceded by 6 and not immediately followed by 3?\n\n1 6 5 4 5 6 7 3 7 6 7 3 6 7 8 9 6 7 3 4 7 3 7 6 7 0 6 7 3 9 2 3 7 6 6 3 7",
+      "options": [
+        {
+          "label": "1",
+          "text": "One"
+        },
+        {
+          "label": "2",
+          "text": "Three"
+        },
+        {
+          "label": "3",
+          "text": "Two"
+        },
+        {
+          "label": "4",
+          "text": "Five"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given series:\n\n1 6 5 4 5 6 7 3 7 6 7 3 6 7 8 9 6 7 3 4 7 3 7 6 7 0 6 7 3 9 2 3 7 6 6 3 7\n\nHence, there are two 7’s which are there in the following sequence of numbers which are preceded by 6 and not immediately followed by 3.",
+      "tags": [
+        "Arrangement and Pattern"
+      ]
+    },
+    {
+      "qid": "5fae3a8672e01caf2663f128",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "While traveling by bus, a man spent Rs. 60 more than 10 times the fare he paid for an auto rickshaw. The total amount spent by him is 13 times the fare he paid for an auto rickshaw. What total amount of money was spent on Bus as well as Auto rickshaw by the man?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 30"
+        },
+        {
+          "label": "2",
+          "text": "Rs 390"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 570"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 60"
+        }
+      ],
+      "correct": "2",
+      "solution": "Let, Man spend fare for auto rickshaw = a ------(i)\n\nThen, Man spend fare for Bus = 10a + 60 Rs ------(ii)\n\nTotal amount spent by him = 13a ------(iii)\n\nAccording to question,\n\nEq (i) + Eq (ii) = Eq(iii)\n\na + 10a + 60 = 13a\n\n2a = 60\n\na = 30\n\nMan spend fare for auto rickshaw = 30 Rs\n\nMan spend fare for Bus = 300 + 60 = 360 Rs\n\nTotal amount of money was spent on Bus as well as Auto rickshaw by the man = 360 + 30\n\n= 390 Rs\n\nHence, 390 is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "5fb75a3cacb2f34e0cda85d0",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The sequence of folding a piece of paper and the manner in which the folded paper has been cut is shown in the following figures. How would this paper look when unfolded?\n\n [IMAGE: https://cdn.repeatermock.com/tb/bdf1e55b6d27b9e8968ba71840558a33c1411b9795e29eedfc15041109eea44d.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/c3dcc2aa29ca00ca514ee52df9f470ca8f93339baa82b27beb9d2eeccf067df8.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/cbbd7a1e7495788d26950b10b84b270b668149f09375dfba2a9ed3315f1c49f1.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/a85d7ecd531ff0501abb3ef690957845ed0ef8ce0dee4b313242c038289d0f6a.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/8f0bea57403a7910c9a676899785c1d0857a062b1ef9c16d273093ce4693474f.png]"
+        }
+      ],
+      "correct": "1",
+      "solution": "When the folded paper is opened, the cuts will appear as follow - \n\n [IMAGE: https://cdn.repeatermock.com/tb/8eaf978d529ebab0d707b6c7f04e0705d64172071ef11893974fa912ef28b65e.png] \n\nHence, '**option 1**' is the correct answer.\n\n [IMAGE: https://cdn.repeatermock.com/tb/ea728f908b060e4db8cdc0f37188bd8bacc49aff99cc89b07517095538ec56de.png] \n\nOption 1 and Option 3 may look similar but they are different.\n\nObserve the vertex of the triangle then we can see the difference.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bdf1e55b6d27b9e8968ba71840558a33c1411b9795e29eedfc15041109eea44d.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/8eaf978d529ebab0d707b6c7f04e0705d64172071ef11893974fa912ef28b65e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ea728f908b060e4db8cdc0f37188bd8bacc49aff99cc89b07517095538ec56de.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "5ffd1f909b213c8aea4f689a",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Direction and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two buses start from the opposite points of the main road, 150 km apart. The first bus runs for 25 km and takes a right turn and then runs for 15 km. It then turns left and runs for another 25 km and takes the direction back to reach the main road. In the meantime, due to a minor breakdown, the other bus has run only 35 km along the main road. What would be the distance between the two buses at this point?",
+      "options": [
+        {
+          "label": "1",
+          "text": "85 km"
+        },
+        {
+          "label": "2",
+          "text": "80 km"
+        },
+        {
+          "label": "3",
+          "text": "65 km"
+        },
+        {
+          "label": "4",
+          "text": "75 km"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nDistance between starting points = 150 km.\n\nJourney of first bus = 25 km, then takes a right turn and then runs for 15 km, then turns left and runs for another 25 km and takes the direction back to reach the main road.\n\nJourney of second bus = 35 km along the main road\n\n**Calculations:**\n\n [IMAGE: https://cdn.repeatermock.com/tb/0cd98559a35a9a11fafb918a7c36520bf1132ceefd11df8e2e0fcef11ae44ea1.png] \n\nLet first bus s",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0cd98559a35a9a11fafb918a7c36520bf1132ceefd11df8e2e0fcef11ae44ea1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direction and Distance"
+      ]
+    },
+    {
+      "qid": "61caf3bc9c42a64a0a74d08f",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average age of 17 persons is 39 years. If the average age of the first 9 persons is 35 years, and the average age of the last 9 persons is 44 years, what is the age of the 9th person?",
+      "options": [
+        {
+          "label": "1",
+          "text": "48 years"
+        },
+        {
+          "label": "2",
+          "text": "36 years"
+        },
+        {
+          "label": "3",
+          "text": "45 years"
+        },
+        {
+          "label": "4",
+          "text": "41 years"
+        }
+      ],
+      "correct": "1",
+      "solution": "We know that\n\n**Average age = Total age of all persons ÷ total persons**\n\nSo,\n\n**Total age of all persons = Average age × total persons**\n\nGiven:\n\n**1) Average age of 17 persons is 39 years.**\n\nTotal age of all persons = Average age × total persons\n\n= 39 × 17\n\n= 663\n\n2) Average age of the first 9 persons is 35 years.</stron",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "61fb9011436903505b23fe72",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Seating Arrangement",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Six persons M1, M2, M3, M4, M5 and M6 are sitting in a row facing towards north (not necessarily in the same order). Only three persons sit between M2 and M3. M3 is sitting to the immediate left of M5. Only three person sit between M1 and M5. M4 sits to the immediate left of M6 and is to the right of M3.\n\nHow many persons are sitting between M3 and M6?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Zero"
+        },
+        {
+          "label": "2",
+          "text": "Three"
+        },
+        {
+          "label": "3",
+          "text": "One"
+        },
+        {
+          "label": "4",
+          "text": "Two"
+        }
+      ],
+      "correct": "4",
+      "solution": "From the given information:\n\nStep 1: Only three persons sit between M2 and M3. M3 is sitting to the immediate left of M5. \n\n [IMAGE: https://cdn.repeatermock.com/tb/4da221049b996f3697aaeb6d0095d2d218d70dc4e3627593e4461a6fe860513e.png] \n\nStep 2: Only three persons sit between M1 and M5.\n\n [IMAGE: https://cdn.repeatermock.com/tb/5abbddda848e183edc6fd162dec6bfc55d9db889eb5f00d93dca273613cbd908.png] \n\nStep 3: M4 sits to the immediate left of M6 and is to the right of M3.\n\n [IMAGE: https://cdn.repeatermock.com/tb/f2cea3a2f2c6525efc98fc2234e60750d6528938bd887c039b3dc08da8381298.png] \n\nFrom the diagram we can see, **there are two people between M3 and M6.**\n\nHence, **the correct answer is option 4).**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4da221049b996f3697aaeb6d0095d2d218d70dc4e3627593e4461a6fe860513e.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/5abbddda848e183edc6fd162dec6bfc55d9db889eb5f00d93dca273613cbd908.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f2cea3a2f2c6525efc98fc2234e60750d6528938bd887c039b3dc08da8381298.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Seating Arrangement"
+      ]
+    },
+    {
+      "qid": "63a3f3ae3e06396b52749fb0",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If Q means 'add to', J means 'multiply by', T means 'subtract from', and K means 'divide by', then what will be the value of the following expression?\n\n306 K 9 Q 37 J 8 T 47",
+      "options": [
+        {
+          "label": "1",
+          "text": "301"
+        },
+        {
+          "label": "2",
+          "text": "317"
+        },
+        {
+          "label": "3",
+          "text": "283"
+        },
+        {
+          "label": "4",
+          "text": "289"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n \n \n\n \n \nLetter\n\n \n \n \nQ\n\n \n \n \nJ\n\n \n \n \nT\n\n \n \n \nK\n\n \n \n \n\n \n \nMeaning\n\n \n \n \n+\n\n \n \n \n×\n\n \n \n \n–\n\n \n \n \n÷\n\n \n \n \n\n \n\n \n\n \n\nGiven expression: 306 K 9 Q 37 J 8 T 47\n\n= __**306 ÷ 9**__ + 37 × 8 – 47\n\n= 34 + __**37 **____**× 8 **__– 47\n\n= 34 + 296 – 47\n\n= 283\n\nTherefore, '283' is the value of the expression.\n\nHence, \"**Option (3)**\" is the correct answer.",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "63a479fd0955dea17f11e3f4",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which two signs should be interchanged to make the given equation correct?\n\n(50 ÷ 3) × 15 + 25 − 10 = 25",
+      "options": [
+        {
+          "label": "1",
+          "text": "÷ and −"
+        },
+        {
+          "label": "2",
+          "text": "+ and ×"
+        },
+        {
+          "label": "3",
+          "text": "÷ and ×"
+        },
+        {
+          "label": "4",
+          "text": "+ and −"
+        }
+      ],
+      "correct": "3",
+      "solution": "The pattern followed here is:\n\nIn this question, two signs should be interchanged to make the given equation correct.\n\n**Given: **(50 ÷ 3) × 15 + 25 − 10 = 25\n\n**Option 1) **÷ and -\n\nAfter interchanging the two signs we get the;\n\n⇒ __**(50 - 3)**__ × 15 + 25 ÷ 10 = 25\n\n⇒ 47 × 15 + __**25 ÷ 10**__ = 25\n\n⇒ __**47 **__×__** 15**__ + 2.5 = 25\n\n⇒ 705 + 2.5 = 25\n\n⇒ 707.5 ≠ 25\n\n⇒ **LHS ≠ RHS**\n\n**Option 2) **+ and × \n\nAfter interchanging the two signs we get the;\n\n⇒ __**(50 ÷ 3)**__ + 15 × 25 − 10 = 25\n\n⇒ 16.66 + __**15 **__×__** 25 **__- 10 = 25\n\n⇒ __**16.66 + 375**__ - 10 = 25\n\n⇒ __**391.66 - 10**__ = 25\n\n⇒ 381.66 ≠ 25\n\n⇒ **LHS ≠ RHS**\n\n**Option 3) **÷ and × \n\nAfter interchanging the two signs we get the;\n\n⇒ __**(50 **__×__** 3)**__ ÷ 15 + 25 − 10 = 25\n\n⇒ __**150 ÷ 15**__ + 25 - 10 = 25\n\n⇒ __**10 + 25**__ - 10 = 25\n\n⇒ __**35 - 10**__ = 25\n\n⇒ 25 = 25\n\n⇒ **LHS = RHS**\n\n**Option 4) **+ and − \n\nAfter interchanging the two signs we get the;\n\n⇒ __**(50 ÷ 3)**__ × 15 - 25 + 10 = 25\n\n⇒ __**16.66 * 15**__ - 25 + 10 = 25\n\n​⇒__** 249.9**__ - 25 __**+ 10**__ = 25\n\n​⇒ 259.9 - 25 = 25\n\n​⇒ 234.9 ≠ 25\n\n​⇒ **LHS ≠ RHS**\n\nHence, the correct answer is **\"Option 3\".**\n\n65:T1d",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "64a0e07ae5899a4bf6a83183",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language, 'HEG' is coded as '840', 'JFD' is coded as '720'. What is the code for 'JDK' in that code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1380"
+        },
+        {
+          "label": "2",
+          "text": "1320"
+        },
+        {
+          "label": "3",
+          "text": "1400"
+        },
+        {
+          "label": "4",
+          "text": "1280"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/0270f2b5240d1e3915517248ac98d6d73ad611166857551401277421991a6c6e.png] \n\nThe logic followed here is:\n\nLogic: (Product of the place value of the letters) × 3 = Code.\n\nNow,\n\n‘HEG' is coded as '840’\n\n⇒ H(8) × E(5) × G(7)\n\n⇒ (8 × 5 × 7) × 3 \n\n⇒ 280 × 3 = 840.\n\nFor, ‘JFD' is coded as '720’\n\n⇒ J(10) × F(6) × D(4)\n\n⇒ (10 × 6 × 4) × 3 \n\n⇒ 240 × 3 = 720.\n\nSimilarly, for ‘**JDK**’\n\n**⇒ J(10) × D(4) × K(11)**\n\n**⇒ (10 × 4 × 11) × 3 **\n\n**⇒ 440 × 3 = 1320.**\n\nSo, '**JDK**' will be coded as '**1320**'.\n\nHence, the correct answer is **\"Option 2\"**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0270f2b5240d1e3915517248ac98d6d73ad611166857551401277421991a6c6e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "64e4d1a9da9291e1ec844230",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code language,\n\nA + B means 'A is the mother of B',\n\nA - B means 'A is the brother of B',\n\nA × B means 'A is the wife of B',\n\nA ÷ B means 'A is the father of B'.\n\nBased on the above, how is M related to P if 'M + N ÷ O × P - Q'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Wife's Father's Mother"
+        },
+        {
+          "label": "2",
+          "text": "Mother's husband"
+        },
+        {
+          "label": "3",
+          "text": "Brother's wife"
+        },
+        {
+          "label": "4",
+          "text": "Daughter"
+        }
+      ],
+      "correct": "1",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/2a776c0a19b6706031165c847bcb98978a1e150482bd1260c12a74559ea55407.png] \n\nDecoding the Symbols:\n\n \n \n\n Symbol\n +\n -\n ×\n ÷\n \n \n\n Meaning\n Mother\n Brother\n Wife\n Father\n \n \n\n \n\nGiven: M + N ÷ O × P - Q\n\nIt means: M is the Mother of N, N is the Father of O, O is the Wife of P, P is the Brother of Q.\n\n [IMAGE: https://cdn.repeatermock.com/tb/7ba5c01139a2abb06210dee2caf027a0bac96ded68f768be0fd4f34565300b63.png] \n\nSo, M is the '**Wife's Father's Mother**' of P.\n\nHence, the correct answer is \"Option 1\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2a776c0a19b6706031165c847bcb98978a1e150482bd1260c12a74559ea55407.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7ba5c01139a2abb06210dee2caf027a0bac96ded68f768be0fd4f34565300b63.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "639f41acf6c4e9a2dd17ebf3",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Four number-pairs are given, out of which three are alike in some way or the other, and one is different. Select the odd number-pair.",
+      "options": [
+        {
+          "label": "1",
+          "text": "112 : 70"
+        },
+        {
+          "label": "2",
+          "text": "39 : 26"
+        },
+        {
+          "label": "3",
+          "text": "63 : 42"
+        },
+        {
+          "label": "4",
+          "text": "30 : 20"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\n**Logic: 1st number = (2nd number **÷** 2) **× 3\n\nChecking all the options one by one:\n\n**1) 112 : 70 → **(70 ÷ 2) × 3** = 35 **× 3 = **105 ≠ **1st number\n\n2) 39 : 26 → (26 ÷ 2) × 3 = 13 × 3 = 39 = 1st Number\n\n3) 63 : 42 → (42 ÷ 2) × 3 = 21 × 3 = 63 = 1st Number\n\n4) 30 : 20 → (20 ÷ 2) × 3 = 10 × 3 = 30 = 1st Number\n\nHence, the correct answer is** \"112 : 70\".**",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "642e623ff9b2b408e8d3b6fb",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option in which the numbers shares the same relationship in set as that shared by the numbers in the given set.\n\n(**NOTE:** Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g.13 - Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)\n\n(13, 7, 546)\n\n(14, 15, 1260)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(28, 21, 3528)"
+        },
+        {
+          "label": "2",
+          "text": "(27, 14, 2288)"
+        },
+        {
+          "label": "3",
+          "text": "(16, 9, 874)"
+        },
+        {
+          "label": "4",
+          "text": "(13, 15, 1190)"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\nLogic: **(1st number × 2) × (2nd number × 3) = 3rd number**.\n\nNow,\n\n(13, 7, 546)\n\n→ (13 × 2) × (7 × 3)\n\n→ 26 × 21 = 546.\n\n(14, 15, 1260)\n\n→ (14 × 2) × (15 × 3)\n\n→ 28 × 45 = 1260.\n\nSimilarly, **(28, 21, 3528)**\n\n**→ (28 × 2) × (21 × 3)**\n\n**→ 56 × 63 = 3528.**\n\nHence, the correct answer is **\"Option 1\"**.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "642ea49c50f481a22ef68e5c",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and fourth number is related to third number.\n\n58 ∶ 319 ∶∶ 32 ∶ 176 ∶∶ 76 ∶ ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "442"
+        },
+        {
+          "label": "2",
+          "text": "286"
+        },
+        {
+          "label": "3",
+          "text": "428"
+        },
+        {
+          "label": "4",
+          "text": "418"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\nLogic: **(1st number × 5) + (1st number ÷ 2) = 2nd number**.\n\nNow,\n\nFor, 58 ∶ 319\n\n⇒ (58 × 5) + (58 ÷ 2)\n\n⇒ 290 + 29 = 319.\n\nFor, 32 ∶ 176\n\n⇒ (32 × 5) + (32 ÷ 2)\n\n⇒ 160 + 16 = 176.\n\nSimilarly, for **76 ∶ ?**\n\n**⇒ (76 × 5) + (76 ÷ 2)**\n\n**⇒ 380 + 38 = 418.**\n\nHence, the correct answer is **\"Option 4\"**.\n\n72:Tf3",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "6071a65c9248aef5413524ff",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain code, 'CONSIDER' is written as RMNBSFEJ. How is 'MONOPOLY' written in that code?",
+      "options": [
+        {
+          "label": "1",
+          "text": "LNMNZMPQ"
+        },
+        {
+          "label": "2",
+          "text": "NMNLZMPQ"
+        },
+        {
+          "label": "3",
+          "text": "POPNXKNO"
+        },
+        {
+          "label": "4",
+          "text": "NMNLXKNO"
+        }
+      ],
+      "correct": "2",
+      "solution": "According to the English alphabet series and the positional value of the letters:\n\n [IMAGE: https://cdn.repeatermock.com/tb/1196a07d03c9f02e7bec22cfc36a195fd3a58e076da25a1e2a394b79aea80ec7.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/abc96ae02b87d5d6e191c2c6f5cc1aef87e426d6aa034af6c54220a7b9b36082.png] \n\nSimilarly;\n\n [IMAGE: https://cdn.repeatermock.com/tb/00c5c96ddfe24c2410f666396b77f14eaa5d7acf7a8b46980bbf6899789e6779.png] \n\nHence,** \"NMNLZMPQ\" **is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1196a07d03c9f02e7bec22cfc36a195fd3a58e076da25a1e2a394b79aea80ec7.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/abc96ae02b87d5d6e191c2c6f5cc1aef87e426d6aa034af6c54220a7b9b36082.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/00c5c96ddfe24c2410f666396b77f14eaa5d7acf7a8b46980bbf6899789e6779.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "6075f746be394d0954897f95",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Course of Action",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the question below is given a statement followed by some courses of action. You have to assume everything in the statement to be true and on the basis of the information given in the statement, decide which of the suggested course of action logically follow(s) for pursuing.\n\n**Statement**: While you are working at a Multinational company in a Metropolitan city, you notice your colleague having acute chest pain and you realize that it could be a Heart Attack.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Call Ambulance and wait till it arrives."
+        },
+        {
+          "label": "2",
+          "text": "Take him to the hospital as soon as possible in your private vehicle."
+        },
+        {
+          "label": "3",
+          "text": "Ask your other colleagues to help him as you have a major assignment to be submitted by the end of the day."
+        },
+        {
+          "label": "4",
+          "text": "Ask your Boss to take the responsibility of taking him to the hospital."
+        }
+      ],
+      "correct": "2",
+      "solution": "The Logic here is as follows: \n\n__\n \n• The correct answer is **Option 2**: Take him to the hospital as soon as possible\n\nin your private vehicle.\n\n \n\n \n \n\n **Course of Action**\n **Correction**\n **Reasoning**\n \n \n\n Call Ambulance and wait till it arrives.\n Incorrect\n During a Heart Attack, the first 30mins are very crucial. Hence, waiting for the Ambulance to arrive can actually make the condition worst.\n \n \n\n Take him to the hospital as soon as possible in your private vehicle.\n Correct\n This is correct because, taking the person to the hospital as soon as possible during the Heart Attack can actually save his life, as the first 30mins are very important.\n \n \n\n Ask your other colleagues to help him as you have a major assignment to be submitted by the end of the day.\n Incorrect\n This would be Incorrect because doing this would be very Selfish, as you think your work is more important than the life of a person.\n \n \n\n Ask your Boss to take the responsibility of taking him to the hospital.\n Incorrect\n This would be Incorrect because you have no power to give order to your Boss.\n \n \n\n \n\n \n• Qualities Projected in this situation: (Sens of responsibility,\n\nEffective intelligence, and speed of decision).\n\n [IMAGE: https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png] **Key Points__**\n\n \n• Checklist for attempting Course of Action questions:\n\n \n• Read the question and options carefully.\n \n• Look for options that are realistic, optimistic, and reflect officer-like qualities.\n \n• Do not skip any situation.\n \n• Relegate the negative sentences and choose the most logical option among the remaining ones. As time is an important factor, hence your thinking ability should be swift.\n \n• React quickly and be logical.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/36f36cd5ece4186095afcf2ffbfb7b80cc04b6c2e3226e7477a419a9fbc96f85.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Course of Action"
+      ]
+    },
+    {
+      "qid": "6273cb5ed0d04bb061fc7306",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the combination of letters that when sequentially placed in the blanks of the given series will complete the series.\n\nK _ _ N L _ N K _ N _ L N K _ M _ L M _",
+      "options": [
+        {
+          "label": "1",
+          "text": "L, M, M, M, K, L, K, N"
+        },
+        {
+          "label": "2",
+          "text": "L, M, M, K, K, L, N, N"
+        },
+        {
+          "label": "3",
+          "text": "M, M, L, K, K, L, K, N"
+        },
+        {
+          "label": "4",
+          "text": "L, M, M, K, K, M, K, N"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given:- K _ _ N L _ N K _ N _ L N K _ M _ L M _\n\nBy checking options and substituting accordingly.\n\n1) **L, M, M, M, K, L, K, N** → K** L M **N, L **M **N K, **M **N **K **L, N K **L **M, **K **L M **N**\n\n2) L, M, M, K, K, L, N, N → K L M N, L M N K, **K **N K L, N K L M, N L M N\n\n3) M, M, L, K, K, L, K, N → K M M N, L **L **N K, **K** N K L, N K L M, K L M N\n\n4) L, M, M, K, K, M, K, N → K L M N, L M N K, **K** N K L, N K **M** M, K L M N\n\nThe logic here is that all the 4 letters (K,L,M,N) should be there in the group of four and in all the options except 1 they are being repeated.\n\n \n• Option (1) give a pattern of K L M N - L M N K - M N K L - N K L M - K L M N\n\nHence, the correct answer is **\"L, M, M, M, K, L, K, N\".**",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "6304c3490228cc0f953daba7",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A, B, C, D, E, and F are six people living in a six-storey building, with each person living on a different floor but not necessarily in the same order. The lowermost floor is numbered 1, the floor above it 2, and so on till the topmost floor is numbered 6.\n\nF is below D such that there is a gap of 1 floor between them. A and B are living adjacent to each other. There is two floor gap between E and D who is living on the floor number which is a multiple of two. C is living above A and E. Who among the following lives on the second floor.",
+      "options": [
+        {
+          "label": "1",
+          "text": "F"
+        },
+        {
+          "label": "2",
+          "text": "A"
+        },
+        {
+          "label": "3",
+          "text": "B"
+        },
+        {
+          "label": "4",
+          "text": "Either A or B"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given:\n\nNumber of floors: 6 (The lowermost floor of the building is numbered 1 so on till the topmost floor is numbered 6.)\n\nNumber of people: 6\n\nName of friends: A, B, C, D, E, and F\n\nExplanation:\n\n​1) F is below D such that there is a gap of 1 floor between them.\n\n2) There is two-floor gap between E and **D who is living on the floor number which is a multiple of two.**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png] __Important Points__**\n\n \n• ** **Here D is on a floor whose number is a multiple of two. There is no such condition mentioned for E.\n \n• The word \"**who**\" is used for D and not E.\n\n \n \n\n Floor\n Person\n \n \n\n \n Case - 1\n Case - 2\n \n \n\n 6\n \n D\n \n \n\n 5\n \n \n \n \n\n 4\n D\n F\n \n \n\n 3\n \n E\n \n \n\n 2\n F\n \n \n \n\n 1\n E\n \n \n \n\n3) A and B are living adjacent to each other.\n\n \n \n\n Floor\n Person\n \n \n\n \n Case - 1\n Case - 2\n \n \n\n 6\n A/B\n D\n \n \n\n 5\n A/B\n \n \n \n\n 4\n D\n F\n \n \n\n 3\n \n E\n \n \n\n 2\n F\n A/B\n \n \n\n 1\n E\n A/B \n \n \n\n4) C is living above A and E - As in case -(1) possible position for C is below A and above E, therefore this case is eliminated.\n\n \n \n\n Floor\n Person\n \n \n\n \n Case - 2\n \n \n\n 6\n D\n \n \n\n 5\n C\n \n \n\n 4\n F\n \n \n\n 3\n E\n \n \n\n 2\n A/B\n \n \n\n 1\n A/B \n \n \n\nThus, according to the final arrangement either A or B are living at the second floor.\n\nHence, **\"Either A or B\"** is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "6370d17226c20918433fbda0",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following numbers will replace the question mark (?) in the given series?\n\n4, 22, 43, 69, 102, 144, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "199"
+        },
+        {
+          "label": "2",
+          "text": "197"
+        },
+        {
+          "label": "3",
+          "text": "179"
+        },
+        {
+          "label": "4",
+          "text": "177"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/9f50961a634939be2cd4b7dd0bcbb2775ebab4d92caea82d61dd9266af1d5cb9.png] \n\nThus, the next term is **197**.\n\nHence, the correct answer is '__**option 2**__'.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9f50961a634939be2cd4b7dd0bcbb2775ebab4d92caea82d61dd9266af1d5cb9.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "6375def77b2c525342ed859c",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the correct mirror image of the given figure when the mirror is placed at line MN as shown.\n\n [IMAGE: https://cdn.repeatermock.com/tb/74ec3750736daf0db2d3c7717fb995aaf705dbc9e94213bd324653cacd33acdc.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/ae98c9aef7083e9a339681a0b14fd0ae59b32eec6c9ebe02038bb93ff3a3f20e.png]"
+        },
+        {
+          "label": "2",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/b109a39e749710c2a04dba113fec6ec628b23bee4c948d49f745db076d047fc4.png]"
+        },
+        {
+          "label": "3",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/68b0ccd3b90fec66be81fe0476b520974da10a62e73aa4c81f1e2dd134d534b8.png]"
+        },
+        {
+          "label": "4",
+          "text": "[IMAGE: https://cdn.repeatermock.com/tb/9d45b9c6e190339488aaa9e0989be21329b260488f2698d426fee9efa7c2a832.png]"
+        }
+      ],
+      "correct": "2",
+      "solution": "The correct mirror image of the given figure when the mirror is placed at line MN as shown:\n\n [IMAGE: https://cdn.repeatermock.com/tb/7127e196c8fa98bc969165cd58c12311cfc701ac2cb9d0e147b028e95a2c7673.png] \n\nExplanation:\n\n1) The MN is the mirror line.\n\n2) The given word ' [IMAGE: https://cdn.repeatermock.com/tb/a0e2864db4253c513ad4f2365467f8831b9560c7d96b7d414ac5436d03518dc9.png] ' ends with ' [IMAGE: https://cdn.repeatermock.com/tb/257470f928b1dad6e89db9ab73ee45d98d132b1bc2aa514f1728c1f33c1f4907.png] '. The mirror image will start with ' [IMAGE: https://cdn.repeatermock.com/tb/2bd22184483c90b3f173cce5a6ef382922ecad46f28322a7f3d173f851176176.png] '. → Options 1, 3, and 4 are eliminated.\n\nHence, the correct answer is '__**option 2**__'.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/74ec3750736daf0db2d3c7717fb995aaf705dbc9e94213bd324653cacd33acdc.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7127e196c8fa98bc969165cd58c12311cfc701ac2cb9d0e147b028e95a2c7673.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a0e2864db4253c513ad4f2365467f8831b9560c7d96b7d414ac5436d03518dc9.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/257470f928b1dad6e89db9ab73ee45d98d132b1bc2aa514f1728c1f33c1f4907.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2bd22184483c90b3f173cce5a6ef382922ecad46f28322a7f3d173f851176176.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "63529ae732fb7e375de6a1ae",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Three statements are followed by three conclusions numbered I, II and III. You have to consider these statements to be true, even if they seem to be at variance with commonly known facts. Decide which of the given conclusions logically follow(s) from the given statements.\n\n**Statements:**\n\nAll potatoes are tomatoes.\n\nAll tomatoes are brinjals.\n\nAll brinjals are onions.\n\n**Conclusions:**\n\n(I) Some onions are potatoes\n\n(II) All tomatoes are potatoes\n\n(III) No tomato is a potato",
+      "options": [
+        {
+          "label": "1",
+          "text": "None of the conclusions follow"
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion I follows"
+        },
+        {
+          "label": "3",
+          "text": "Only conclusion II follows"
+        },
+        {
+          "label": "4",
+          "text": "Either conclusion I or III follows"
+        }
+      ],
+      "correct": "2",
+      "solution": "The least possible Venn diagram is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/b9668ed5b5d7914bbeda3a696f36cbf99e07e54a288e0daefbff8654c8027ce2.png] \n\nConclusions:\n\nI) Some onions are potatoes → Follows (Above diagram shows there is a relation between onions and potatoes)\n\nII) All tomatoes are potatoes → Doesn't follows (The relation between tomatoes and potatoes is all potatoes are tomatoes.)\n\nIII) No tomato is a potato → Doesn't follows (The relation between tomatoes and potatoes is all potatoes are tomatoes.)\n\nHence, the correct answer is **\"Only conclusion I follows****\"**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b9668ed5b5d7914bbeda3a696f36cbf99e07e54a288e0daefbff8654c8027ce2.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "608930326a52fa436c8de553",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following figure and answer the item that follows :\n\n [IMAGE: https://cdn.repeatermock.com/tb/000906ab5ab2d889e7bb650167593df17f36c32a75767cbf0772ace0058c31a6.png] \n\nWhat is the total number of triangles in the above grid ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "27"
+        },
+        {
+          "label": "2",
+          "text": "26"
+        },
+        {
+          "label": "3",
+          "text": "23"
+        },
+        {
+          "label": "4",
+          "text": "22"
+        }
+      ],
+      "correct": "3",
+      "solution": "The total number of triangles in the above grid are:\n\n [IMAGE: https://cdn.repeatermock.com/tb/eda5b4674e83c2c72fbfec7c404cebf588c0a784389208ab5628ec83116d78af.png] \n\nHence, there are 23 triangles in the given grid.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/000906ab5ab2d889e7bb650167593df17f36c32a75767cbf0772ace0058c31a6.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/eda5b4674e83c2c72fbfec7c404cebf588c0a784389208ab5628ec83116d78af.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    }
+  ]
+}
