@@ -1,80 +1,136 @@
 #!/usr/bin/env python3
-"""RepeaterMock PRO Test Scraper — same format as free scraper.
+"""RepeaterMock PRO Scraper — API calls + solution page + same format as free scraper.
 
-Uses the free scraper's parsing + rendering functions for identical output.
-Only difference: navigates to solution pages with PRO auth cookies (no API calls).
+Flow per test:
+1. POST /api/v1/attempts/{tid}/start (creates attempt — required for solution page)
+2. POST /api/v1/attempts/{tid}/submit (submits empty answers — unlocks solution)
+3. Navigate to solution page with cookies → get HTML with testData
+4. Parse flight data → render AI export + HTML export (same as free scraper)
+
+Rate limiting:
+- 1 worker per job
+- 5s delay between tests
+- 429 retry: 10s, 20s, 30s backoff
+- 5 × 429 = stop that worker
+- max-parallel: 5 in workflow (5 concurrent jobs = 5 concurrent API calls)
 """
-import argparse, asyncio, json, os, re, sys, time, random
+import argparse, asyncio, json, os, re, sys, time, random, urllib.request, urllib.error
 from datetime import datetime, timezone
 from typing import Optional
 
 sys.stdout.reconfigure(line_buffering=True)
 sys.stderr.reconfigure(line_buffering=True)
 
-# Import free scraper's functions
 sys.path.insert(0, os.path.dirname(__file__))
 from free_scraper_module import (
     parse_test_data, render_ai_export, render_test_html,
     build_ai_export_path, build_html_output_path,
-    find_props_in_flight, build_text_refs, extract_images_from_html,
-    TestRef, sanitize_filename
+    find_props_in_flight, build_text_refs, TestRef
 )
 
+API_BASE = "https://api.repeatermock.com"
 WEB_BASE = "https://repeatermock.com"
-MAX_AUTH_FAILURES = 5
+MAX_AUTH_FAILURES = 3
+WORKER_429_LIMIT = 5
 
-INIT_SCRIPT = r"""(function(){window.close=function(){};console.clear=function(){};window.stop=function(){};try{const o=window.location.replace.bind(window.location);window.location.replace=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return o(u)};const a=window.location.assign.bind(window.location);window.location.assign=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return a(u)}}catch(e){}try{const d=Object.getOwnPropertyDescriptor(window.Location.prototype,'href');if(d&&d.set){const s=d.set;Object.defineProperty(window.Location.prototype,'href',{get:d.get,set:function(v){if(typeof v==='string'&&v.indexOf('about:blank')===0)return;return s.call(this,v)},configurable:true})}}catch(e){}const o=window.open;window.open=function(u,...r){if(typeof u==='string'&&(u.indexOf('about:blank')===0||u===''))return null;return o.call(this,u,...r)};const origReplaceState=history.replaceState;history.replaceState=function(state,title,url){if(typeof url==='string'&&url.indexOf('about:blank')===0)return;return origReplaceState.call(this,state,title,url)};const origPushState=history.pushState;history.pushState=function(state,title,url){if(typeof url==='string'&&url.indexOf('about:blank')===0)return;return origPushState.call(this,state,title,url)};const origWrite=document.write.bind(document);document.write=function(html){if(typeof html==='string'&&html.length<500)return;return origWrite(html)};window.addEventListener('beforeunload',function(e){e.stopImmediatePropagation();e.preventDefault();e.returnValue='';return ''},true);console.log=function(){};console.table=function(){};console.dir=function(){};console.debug=function(){};console.info=function(){};console.trace=function(){};console.group=function(){};console.groupEnd=function(){};console.groupCollapsed=function(){};const origEval=window.eval;window.eval=function(code){if(typeof code==='string'&&code.indexOf('debugger')>=0){code=code.replace(/\bdebugger\b/g,'void 0')}return origEval.call(this,code)};const origSetTimeout=window.setTimeout;window.setTimeout=function(fn,delay,...args){if(typeof fn==='string'&&fn.indexOf('debugger')>=0){fn=fn.replace(/\bdebugger\b/g,'void 0')}return origSetTimeout.call(this,fn,delay,...args)};const origSetInterval=window.setInterval;window.setInterval=function(fn,delay,...args){if(typeof fn==='string'&&fn.indexOf('debugger')>=0){fn=fn.replace(/\bdebugger\b/g,'void 0')}return origSetInterval.call(this,fn,delay,...args)};Object.defineProperty(navigator,"webdriver",{get:()=>undefined});})();"""
+INIT_SCRIPT = r"""(function(){window.close=function(){};console.clear=function(){};window.stop=function(){};try{const o=window.location.replace.bind(window.location);window.location.replace=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return o(u)};const a=window.location.assign.bind(window.location);window.location.assign=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return a(u)}}catch(e){}try{const d=Object.getOwnPropertyDescriptor(window.Location.prototype,'href');if(d&&d.set){const s=d.set;Object.defineProperty(window.Location.prototype,'href',{get:d.get,set:function(v){if(typeof v==='string'&&v.indexOf('about:blank')===0)return;return s.call(this,v)},configurable:true})}}catch(e){}const o=window.open;window.open=function(u,...r){if(typeof u==='string'&&(u.indexOf('about:blank')===0||u===''))return null;return o.call(this,u,...r)};window.addEventListener('beforeunload',function(e){e.stopImmediatePropagation();e.preventDefault();e.returnValue='';return ''},true);console.log=function(){};console.table=function(){};console.dir=function(){};})();"""
 
 
-class PROAuthManager:
+class PROAuth:
     def __init__(self):
-        self.cookie_str = os.environ.get("PRO_COOKIES", "")
+        cookies = os.environ.get("PRO_COOKIES", "")
         self.access_token = ""
         self.refresh_token = os.environ.get("PRO_REFRESH_TOKEN", "")
-        self.auth_failures = 0
-        if self.cookie_str:
-            m = re.search(r'accessToken=([^;]+)', self.cookie_str)
+        self.failures = 0
+        if cookies:
+            m = re.search(r'accessToken=([^;]+)', cookies)
             if m: self.access_token = m.group(1)
-            m = re.search(r'refreshToken=([^;]+)', self.cookie_str)
+            m = re.search(r'refreshToken=([^;]+)', cookies)
             if m: self.refresh_token = m.group(1)
-        print(f"  [auth] accessToken: {'✅' if self.access_token else '❌'} (len={len(self.access_token)})")
-        print(f"  [auth] refreshToken: {'✅' if self.refresh_token else '❌'} (len={len(self.refresh_token)})")
+        print(f"  [auth] accessToken: {'✅' if self.access_token else '❌'} | refreshToken: {'✅' if self.refresh_token else '❌'}")
 
-    def should_stop(self):
-        return self.auth_failures >= MAX_AUTH_FAILURES
+    def cookie_header(self):
+        return f"accessToken={self.access_token}; refreshToken={self.refresh_token}; totpVerified=1"
+
+    def stop(self):
+        return self.failures >= MAX_AUTH_FAILURES
 
 
-async def scrape_pro_test(browser, auth, test_info, output_dir, worker_id):
-    """Scrape a PRO test — same format as free scraper."""
+def api_post(url, cookie_header, body="{}", max_retries=3):
+    """POST API call with 429 retry."""
+    for attempt in range(max_retries):
+        req = urllib.request.Request(url, data=body.encode(), method="POST")
+        req.add_header("Content-Type", "application/json")
+        req.add_header("Cookie", cookie_header)
+        req.add_header("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36")
+        req.add_header("Origin", "https://repeatermock.com")
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.status, json.loads(r.read().decode())
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait = 10 * (attempt + 1) + random.uniform(1, 5)
+                print(f"    429 — waiting {wait:.0f}s (attempt {attempt+1}/{max_retries})")
+                time.sleep(wait)
+                continue
+            try: err = json.loads(e.read().decode())
+            except: err = {"error": str(e)}
+            return e.code, err
+        except Exception as e:
+            if attempt < max_retries - 1:
+                time.sleep(5 * (attempt + 1))
+                continue
+            return 0, {"error": str(e)}
+    return 429, {"error": "max retries"}
+
+
+async def scrape_test(browser, auth, test_info, output_dir, wid, w429):
+    """Scrape one PRO test: API start/submit + solution page."""
     tid = test_info.get("test_id", "")
     title = test_info.get("title", tid)
-    series_slug = test_info.get("series_slug", "")
-    series_name = test_info.get("series_name", series_slug)
-    section = test_info.get("section", "")
-    subsection = test_info.get("subsection", "")
+    series = test_info.get("series_slug", "")
+    section = test_info.get("section", "Uncategorized")
+    subsection = test_info.get("subsection", "Default")
 
-    if auth.should_stop():
+    if auth.stop() or w429[0] >= WORKER_429_LIMIT:
         return "STOP"
 
-    # Build TestRef (same as free scraper)
+    ch = auth.cookie_header()
+    print(f"  [w{wid}] {title[:45]}... (id={tid[:12]})")
+
+    # 1. Start attempt
+    status, data = api_post(f"{API_BASE}/api/v1/attempts/{tid}/start", ch)
+    if status == 429:
+        w429[0] += 1
+        print(f"  [w{wid}] 429 ({w429[0]}/{WORKER_429_LIMIT})")
+        return None
+    if status == 402:
+        print(f"  [w{wid}] 💰 still PRO")
+        return "PRO"
+    if status == 401:
+        auth.failures += 1
+        print(f"  [w{wid}] 401 expired ({auth.failures}/{MAX_AUTH_FAILURES})")
+        return None
+    if status != 200:
+        print(f"  [w{wid}] start failed: {status}")
+        return None
+
+    # 2. Submit
+    status, _ = api_post(f"{API_BASE}/api/v1/attempts/{tid}/submit", ch,
+                        '{"answers":[],"timeTaken":1,"language":"en","interface":"classic"}')
+    if status != 200:
+        print(f"  [w{wid}] submit failed: {status}")
+        return None
+
+    # 3. Solution page
     test_ref = TestRef(
-        test_id=tid,
-        title=title,
-        series_slug=series_slug,
-        series_name=series_name,
-        section_id="",
-        section_name=section or "Uncategorized",
-        sub_section_id="",
-        sub_section_name=subsection or "Default",
-        is_free=False,
-        duration=0,
-        question_count=0,
-        total_mark=0,
+        test_id=tid, title=title, series_slug=series, series_name=test_info.get("series_name", series),
+        section_id="", section_name=section, sub_section_id="", sub_section_name=subsection,
+        is_free=False, duration=0, question_count=0, total_mark=0,
     )
 
-    solution_url = f"{WEB_BASE}/tb/test-series/{series_slug}/test/{tid}/solution"
-    print(f"  [worker {worker_id}] loading: {title[:50]}... (id={tid})")
-
+    from playwright.async_api import async_playwright
+    # We reuse the browser passed in
     context = await browser.new_context(
         user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
         viewport={"width": 1366, "height": 900},
@@ -88,121 +144,115 @@ async def scrape_pro_test(browser, auth, test_info, output_dir, worker_id):
     page = await context.new_page()
 
     try:
-        await page.goto(solution_url, wait_until="domcontentloaded", timeout=60000)
+        await page.goto(f"{WEB_BASE}/tb/test-series/{series}/test/{tid}/solution", wait_until="domcontentloaded", timeout=60000)
         await page.wait_for_timeout(6000)
 
-        if "about:blank" in page.url or "login" in page.url:
-            print(f"  [worker {worker_id}] ❌ redirected — token expired")
-            auth.auth_failures += 1
+        if "login" in page.url or "about:blank" in page.url:
+            auth.failures += 1
+            print(f"  [w{wid}] ❌ redirected to login")
             return None
 
-        # Get HTML via DOM (same as free scraper v4)
-        result = await page.evaluate("""(function(){var h=document.documentElement.outerHTML;window.__HTML__=h;return{len:h.length,hasTestData:h.indexOf('testData')>=0,hasAnswersData:h.indexOf('answersData')>=0}})()""")
-        if not result or not result.get("hasTestData"):
-            result = await page.evaluate("(function(){return fetch(window.location.href,{credentials:'include'}).then(r=>r.text()).then(t=>{window.__HTML__=t;return{len:t.length,hasTestData:t.indexOf('testData')>=0,hasAnswersData:t.indexOf('answersData')>=0}}).catch(e=>({err:String(e).slice(0,200)}))})()")
+        # Get HTML via DOM
+        result = await page.evaluate("(function(){var h=document.documentElement.outerHTML;window.__HTML__=h;return{len:h.length,hasTD:h.indexOf('testData')>=0,hasAD:h.indexOf('answersData')>=0}})()")
+        if not result or not result.get("hasTD"):
+            result = await page.evaluate("(function(){return fetch(window.location.href,{credentials:'include'}).then(r=>r.text()).then(t=>{window.__HTML__=t;return{len:t.length,hasTD:t.indexOf('testData')>=0,hasAD:t.indexOf('answersData')>=0}}).catch(e=>({err:String(e).slice(0,100)}))})()")
 
-        # Extract in 200KB chunks (same as free scraper)
-        total_len = await page.evaluate("(function(){return (window.__HTML__||'').length})()")
+        total = await page.evaluate("(function(){return(window.__HTML__||'').length})()")
         chunks = []
-        chunk_size = 200000
-        num_chunks = min((total_len // chunk_size) + 1, 100)
-        for i in range(num_chunks):
-            start = i * chunk_size
-            if start >= total_len: break
-            chunk = await page.evaluate(f"(function(){{var h=window.__HTML__||'';if({start}>=h.length)return null;return h.slice({start},{start+chunk_size})}})()")
-            if chunk is None: break
-            chunks.append(chunk)
+        cs = 200000
+        nc = min((total // cs) + 1, 100)
+        for i in range(nc):
+            s = i * cs
+            if s >= total: break
+            c = await page.evaluate(f"(function(){{var h=window.__HTML__||'';if({s}>=h.length)return null;return h.slice({s},{s+cs})}})()")
+            if c is None: break
+            chunks.append(c)
         html = "".join(chunks)
 
         if not html or "testData" not in html or "answersData" not in html:
-            print(f"  [worker {worker_id}] ❌ no testData (len={len(html)})")
+            print(f"  [w{wid}] ❌ no testData (len={len(html)})")
             return None
 
-        # Parse flight data (SAME as free scraper)
+        # Parse + render (same as free scraper)
         props = find_props_in_flight(html)
         if not props:
-            print(f"  [worker {worker_id}] ❌ couldn't find props in flight data")
+            print(f"  [w{wid}] ❌ no flight props")
             return None
         text_refs = build_text_refs(html)
-        test_data = parse_test_data(props, tid, series_slug, text_refs)
-        
-        # Update title from scraped data (more accurate)
-        if test_data.title:
-            test_ref.title = test_data.title
+        test_data = parse_test_data(props, tid, series, text_refs)
+        if test_data.title: test_ref.title = test_data.title
 
-        # Render + save AI export (SAME format as free scraper)
         ai_path = build_ai_export_path(output_dir, test_ref)
         ai_export = render_ai_export(test_data, test_ref)
-        tmp_ai = ai_path + ".tmp"
-        with open(tmp_ai, "w") as f:
-            json.dump(ai_export, f, ensure_ascii=False, indent=2)
-        os.rename(tmp_ai, ai_path)
+        tmp = ai_path + ".tmp"
+        with open(tmp, "w") as f: json.dump(ai_export, f, ensure_ascii=False, indent=2)
+        os.rename(tmp, ai_path)
 
-        # Render + save HTML export (SAME format as free scraper — interactive mock test)
         html_path = build_html_output_path(output_dir, test_ref)
-        rendered_html = render_test_html(test_data)
-        tmp_html = html_path + ".tmp"
-        with open(tmp_html, "w") as f:
-            f.write(rendered_html)
-        os.rename(tmp_html, html_path)
+        rendered = render_test_html(test_data)
+        tmp2 = html_path + ".tmp"
+        with open(tmp2, "w") as f: f.write(rendered)
+        os.rename(tmp2, html_path)
 
-        print(f"  [worker {worker_id}] ✅ saved HTML ({len(rendered_html):,}B) + AI JSON ({len(json.dumps(ai_export)):,}B): {title[:50]}")
+        print(f"  [w{wid}] ✅ saved HTML ({len(rendered):,}B) + AI ({len(json.dumps(ai_export)):,}B): {title[:45]}")
         return "OK"
     except Exception as e:
-        print(f"  [worker {worker_id}] ❌ error: {e}")
+        print(f"  [w{wid}] ❌ {e}")
         return None
     finally:
         await context.close()
 
 
-async def run_scraper(chunk_file, output_dir, workers=2):
+async def run_scraper(chunk_file, output_dir, workers=1):
     with open(chunk_file) as f:
-        chunk_data = json.load(f)
-    tests = chunk_data.get("tests", [])
-    job_number = chunk_data.get("job_number", 1)
-    print(f"\n{'='*60}\nPRO Scraper — Job {job_number}\nTests: {len(tests)} | Workers: {workers}\nSame format as free scraper\n{'='*60}\n")
+        chunk = json.load(f)
+    tests = chunk.get("tests", [])
+    jn = chunk.get("job_number", 1)
+    print(f"\n{'='*60}\nPRO Scraper Job {jn} | Tests: {len(tests)} | Workers: {workers}\n{'='*60}\n")
 
     os.makedirs(output_dir, exist_ok=True)
-    auth = PROAuthManager()
+    auth = PROAuth()
 
     from playwright.async_api import async_playwright
     async with async_playwright() as pw:
         browser = await pw.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+        done = fail = 0
+        q = asyncio.Queue()
+        for t in tests: await q.put(t)
 
-        completed = failed = 0
-        queue = asyncio.Queue()
-        for t in tests: await queue.put(t)
-
-        async def worker_loop(wid):
-            nonlocal completed, failed
-            while not queue.empty():
-                if auth.should_stop():
-                    print(f"  [worker {wid}] ⛔ auth stop")
+        async def loop(wid):
+            nonlocal done, fail
+            w429 = [0]
+            while not q.empty():
+                if auth.stop():
+                    print(f"  [w{wid}] ⛔ stop")
                     break
-                try: test_info = queue.get_nowait()
-                except asyncio.QueueEmpty: break
-                result = await scrape_pro_test(browser, auth, test_info, output_dir, wid)
-                if result == "STOP": break
-                elif result == "OK": completed += 1
-                else: failed += 1
-                await asyncio.sleep(2.0 + random.uniform(0, 1.0))
+                if w429[0] >= WORKER_429_LIMIT:
+                    print(f"  [w{wid}] ⛔ 429 limit")
+                    break
+                try: ti = q.get_nowait()
+                except: break
+                r = await scrape_test(browser, auth, ti, output_dir, wid, w429)
+                if r == "STOP": break
+                elif r == "OK": done += 1
+                else: fail += 1
+                await asyncio.sleep(5.0 + random.uniform(0, 2.0))
 
-        worker_tasks = [asyncio.create_task(worker_loop(i+1)) for i in range(min(workers, 2))]
-        await asyncio.gather(*worker_tasks)
+        await asyncio.gather(*[asyncio.create_task(loop(i+1)) for i in range(min(workers, 1))])
         await browser.close()
 
-    progress = {"job_number": job_number, "total_tests": len(tests), "scraped": completed, "failed": failed, "completed_at": datetime.now(timezone.utc).isoformat()}
-    with open(os.path.join(output_dir, "pro_progress.json"), "w") as f: json.dump(progress, f, indent=2)
-    print(f"\n{'='*60}\n✅ Job {job_number}: {completed} scraped, {failed} failed\n{'='*60}")
+    prog = {"job": jn, "total": len(tests), "scraped": done, "failed": fail, "at": datetime.now(timezone.utc).isoformat()}
+    with open(os.path.join(output_dir, "pro_progress.json"), "w") as f: json.dump(prog, f, indent=2)
+    print(f"\n{'='*60}\n✅ Job {jn}: {done} scraped, {fail} failed\n{'='*60}")
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--chunk", required=True)
-    parser.add_argument("--output-dir", required=True)
-    parser.add_argument("--workers", type=int, default=2)
-    args = parser.parse_args()
-    asyncio.run(run_scraper(args.chunk, args.output_dir, args.workers))
+    p = argparse.ArgumentParser()
+    p.add_argument("--chunk", required=True)
+    p.add_argument("--output-dir", required=True)
+    p.add_argument("--workers", type=int, default=1)
+    a = p.parse_args()
+    asyncio.run(run_scraper(a.chunk, a.output_dir, a.workers))
 
 if __name__ == "__main__":
     main()
