@@ -1,0 +1,424 @@
+{
+  "test_id": "6a390e1bdd8c1bf0f6650f29",
+  "title": "CGL Tier II CT 16: Discount and MP - 01",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:02:49.359436+00:00",
+  "questions": [
+    {
+      "qid": "624c22f60dbf9fad6a04d81f",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Discount and MP",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Sobhit has purchased an article from Ronita at a discount of 10%. Still, Ronita earned a profit of Rs. 610 because the article was marked up by 350% above its cost price. Find the value of the discount offered by Ronita.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 96"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 94"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 93"
+        },
+        {
+          "label": "4",
+          "text": "Rs.90"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nSobhit purchased an article from Ronita at a discount of 10%\n\nRonita earned a profit of Rs. 610\n\nMarked up price = 350% above its cost price\n\n**Formula Used:**\n\nMarked Price = Cost Price [100 + Mark-Up%]%\n\nSelling Price = Marked Price [100 - Discount%]%\n\nSelling Price = Cost Price + Profit \n\n**Calculation:**\n\nLet the cost price of the article be Rs. x\n\nAccording to the question \n\nMarked Price of article by Ronita = x × (100 + 350)%\n\n⇒ Marked Price of article by Ronita = 9x/2\n\nSince, Discount Percent = 10% \n\nSelling Price = Marked Price [100 - Discount%]%\n\n⇒ Selling Price = (9x/2) × (100 - 10)%\n\n⇒ Selling Price = 81x/20\n\nAnd also according to the question \n\nSelling Price = Cost Price + Profit \n\n⇒ Selling Price of article = (x + 610)\n\nNow, We can write\n\n81x/20 = x + 610\n\n⇒ 81x/20 - x = 610\n\n⇒ 61x/20 = 610\n\n⇒ x = 610 × (20/61)\n\n⇒ x = 200\n\nSo, Marked Price = (9 × 200)/2 = Rs. 900\n\nDiscount% = 900 × 10% = 90\n\n**∴ The value of discount offered by Ronita is Rs. 90.**",
+      "tags": [
+        "Discount and MP"
+      ]
+    },
+    {
+      "qid": "62f0e0737d4b072b5b9aa529",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Discount and MP",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The marked price of one pen is '₹x'. The selling price of one packet of 'x' pens, after a discount of 15%, is ₹1,360. What is the value of 'x'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "40"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "45"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nThe marked price of one pen: ₹x\n\nDiscount is given: 15%\n\nSelling price of one packet of 'x' pens after discount: ₹1,360\n\n**Formula:**\n\nSelling price = Marked price - Discount\n\nDiscount = Marked price x Discount rate\n\n**Calculation:**\n\nLet's assume that the MRP of one packet of x pen is y.\n\ny of 85% = 1360\n\ny = 16 × 100\n\ny = 1600\n\nThe marked Price of one Pen is x.\n\nMRP of one packet of 'x' pens = marked price of one pen × × number of pens in one packet.\n\n⇒ y = x × x\n\n⇒ y = x²\n\n⇒ x² = 1600\n\n⇒ x = 40\n\n**∴ Option 2 is the correct answer.**\n\n3d:T",
+      "tags": [
+        "Discount and MP"
+      ]
+    },
+    {
+      "qid": "62926d6f8f9d061a3e0c37ac",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Discount and MP",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A shopkeeper offers 10% discount and still makes a profit of 20%. What is the cost price (C.P.) of an article that has a marked price (M.P.) of Rs.500?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs.325"
+        },
+        {
+          "label": "2",
+          "text": "Rs.400"
+        },
+        {
+          "label": "3",
+          "text": "Rs.350"
+        },
+        {
+          "label": "4",
+          "text": "Rs.375"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nA shopkeeper offers 10% discount and still makes a profit of 20%\n\nMarked Price = Rs. 500\n\n**Formula used:**\n\nMarked Price (100 - Discount) = Cost Price (100 + Profit)\n\n<span style=",
+      "tags": [
+        "Discount and MP"
+      ]
+    },
+    {
+      "qid": "64cdf5ead584510dbd7d6c74",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Discount and MP",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The marked price of an article is ₹800. It is sold for ₹612.50, after two successive discounts each of x%. If a single discount of 2x% is given on the same marked price, then the selling price of the article will be:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹520"
+        },
+        {
+          "label": "2",
+          "text": "₹560"
+        },
+        {
+          "label": "3",
+          "text": "₹608"
+        },
+        {
+          "label": "4",
+          "text": "₹600"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nThe marked price of an article is ₹800. It is sold for ₹612.50, after two successive discounts each of x%.\n\n**Formula used:**\n\nSelling Price = Marked Price × (1 - Discount/100) × (1 - Discount/100)\n\n**Calculation:**\n\n612.50 = 800 × (1 - x/100) × (1 - x/100)\n\n⇒ 612.50 / 800 = (1 - x/100) × (1 - x/100)\n\n⇒ 0.765625 = (1 - x/100)²\n\n⇒ √0.765625 = 1 - x/100\n\n⇒ 0.875 = 1 - x/100\n\n⇒ x/100 = 1 - 0.875\n\n⇒ x/100 = 0.125\n\n⇒ x = 12.5%\n\nIf a single discount of 2x% is given:\n\n2x = 2 × 12.5% = 25%\n\nNew Selling Price = 800 × (1 - 25/100)\n\n⇒ New Selling Price = 800 × 0.75\n\n⇒ New Selling Price = 600\n\n**∴ The correct answer is option (4).**\n52:T61d,<p&",
+      "tags": [
+        "Discount and MP"
+      ]
+    },
+    {
+      "qid": "624c7e720dbf9fad6a0ecba1",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Discount and MP",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Suresh bought a cricket bat with 20 percent discount on the marked price. He sold the bat with 12 percent profit on the marked price. What was his per cent profit on the price he bought?",
+      "options": [
+        {
+          "label": "1",
+          "text": "40%"
+        },
+        {
+          "label": "2",
+          "text": "60%"
+        },
+        {
+          "label": "3",
+          "text": "50%"
+        },
+        {
+          "label": "4",
+          "text": "30%"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet the Marked Price (MP) of the bat be 100 units.\n\nCost Price (CP) for Suresh = 100 − 20% of 100 = 80 units.\n\nSelling Price (SP) of the bat = 100 + 12% of 100 = 112 units.\n\nProfit earned by Suresh = SP − CP = 112 − 80 = 32 units.\n\nProfit % = (Profit ÷ CP) × 100 = (32 ÷ 80) × 100 = 40%.\n\n**∴ The correct answer is 40%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/897ecee88e8630d2f836ddda088534427121ec891c8a14454b3e8701a9f45f2b.png] \n\n**Given:**\n\nDiscount at which the bat was bought = 20% on Marked Price (MP)\n\nProfit at which the bat was sold = 12% on Marked Price (MP)\n\n**Formula Used:**\n\nCost Price (CP) = MP − Discount\n\nSelling Price (SP) = MP + Profit\n\nActual Profit % = [(SP − CP) ÷ CP] × 100\n\n**Calculation:**\n\nLet the Marked Price (MP) of the bat be 100.\n\n⇒ Suresh's Cost Price (CP) = MP − 20% of MP\n\n⇒ CP = 100 − 20 = 80\n\n⇒ Suresh's Selling Price (SP) = MP + 12% of MP\n\n⇒ SP = 100 + 12 = 112\n\n⇒ Profit made by Suresh = SP − CP\n\n⇒ Profit = 112 − 80 = 32\n\n⇒ Profit percentage on the price he bought = (32 ÷ 80) × 100\n\n⇒ Profit % = (2 ÷ 5) × 100 = 40%\n\n**∴ The correct answer is 40%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMarked Price & Discount\n\nMarked Price (MP) is the list price on which discounts are calculated. Unless specified otherwise, Selling Price (SP) = MP − Discount.\n\nProfit & Loss Percentage\n\nProfit or loss is generally calculated on the Cost Price (CP) unless specifically stated to be calculated on the Selling Price (SP). Profit % = (Profit ÷ CP) × 100.\n\nSuccessive Discounts\n\nThe single equivalent discount for two successive discounts of a% and b% is given by the formula: (a + b − ab ÷ 100)%.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/897ecee88e8630d2f836ddda088534427121ec891c8a14454b3e8701a9f45f2b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Discount and MP"
+      ]
+    },
+    {
+      "qid": "657325468a57bc5862fd4a57",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If marked price is 75% more than the cost price and a discount of 40% is allowed on the marked price, then percentage profit is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "5%"
+        },
+        {
+          "label": "2",
+          "text": "8%"
+        },
+        {
+          "label": "3",
+          "text": "3%"
+        },
+        {
+          "label": "4",
+          "text": "7%"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nMarked price is 75% more than the cost price.\n\nDiscount on the marked price = 40%.\n\n**Formula Used:**\n\nPercentage Profit = (Selling Price - Cost Price)/(Cost Price) times 100 \n\n**Calculation:**"
+    },
+    {
+      "qid": "6354f32cc8923dd9e1a617b0",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Discount and MP",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The marked price of a car is Rs. 5,00,000. Under a scheme successive discount of 10% and 8% are offered on it. Find the total discount offered while selling the car under the given scheme.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 76,000"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 86,000"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 90,000"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 82,000"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal discount% = a + b − (a × b) ÷ 100\n\nEffective Discount% = 10 + 8 − (10 × 8) ÷ 100 = 18 − 0.8 = 17.2%\n\n**Total Discount** = 17.2% of Rs. 5,00,000\n\nTotal Discount = (17.2 ÷ 100) × 5,00,000 = 17.2 × 5,000 = Rs. 86,000\n\n**∴ The correct answer is Rs. 86,000.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** Marked Price (MP) = Rs. 5,00,000; First Discount = 10%; Second Discount = 8%.\n**Formulas:** SP = MP × (100 − D₁)% × (100 − D₂)% | Total Discount = MP − SP\n [IMAGE: https://cdn.repeatermock.com/tb/6a627e7c865f4ce4d355be77f46baf360d9a570dfb54ec5ac7ab2874d8c566f8.png] \n⇒ Price after 1st discount = 5,00,000 × (90 ÷ 100) = Rs. 4,50,000\n⇒ Price after 2nd discount (Final SP) = 4,50,000 × (92 ÷ 100) = 4,500 × 92 = Rs. 4,14,000\n⇒ Total Discount = MP − Final SP = 5,00,000 − 4,14,000\n⇒ Total Discount = Rs. 86,000\n**∴ The correct answer is Rs. 86,000.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMarked Price & Discount\n\n**Marked Price** is the price printed on an item. **Discount** is always calculated on the Marked Price unless stated otherwise.\n\nSuccessive Discounts\n\nTwo successive discounts of x% and y% are NOT equal to (x+y)%. They are equivalent to a single discount of [x + y − (xy/100)]%.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6a627e7c865f4ce4d355be77f46baf360d9a570dfb54ec5ac7ab2874d8c566f8.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Discount and MP"
+      ]
+    },
+    {
+      "qid": "62ed1dd8f7cad1c745ba901f",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Discount and MP",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Two successive discounts of 20% and 30% are given while selling an item. What is the ratio of the marked price to the selling price of the item?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25 ∶ 11"
+        },
+        {
+          "label": "2",
+          "text": "25 ∶ 14"
+        },
+        {
+          "label": "3",
+          "text": "38 ∶ 17"
+        },
+        {
+          "label": "4",
+          "text": "27 ∶ 16"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n2 successive discounts of 20% and 30%\n\n**Calculations:**\n\nLet the Marked price be 100.\n\nSP after 1st discount = 100 - 20 = 80\n\nSP after 2nd discount = 80 - 30% of 80 = 80 - 0.3(80)\n\n= 80 - 24 = 56\n\nSo, The Ratio\n\n= 100 ∶ 56\n\n= 25 ∶ 14\n\n**∴ The Required ratio is 25 ∶ 14.**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__**Formula used:\n\nWhen 2 successive discounts X and Y are given -\n\nEquivalent discount = (X + Y - XY/100)%\n\n**Calculation:**\n\nX = 20% and Y = 30%\n\nEquivalent discount = [20 + 30 - (20 × 30)/100]%\n\n= 50 - 6\n\n= 44%\n\nLet MP be 100\n\nThen, after 44% discount\n\nSP = 56\n\n∴ MP : SP = 100 : 56\n\n= 25 : 14\n\n∴ **Required ratio is 25 : 14**\n\n34:T",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Discount and MP"
+      ]
+    },
+    {
+      "qid": "63f64dc9742e85032752a6d8",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Discount and MP",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A sofa-set is offered for sale at three successive discounts of 10%, 5%, and 2%. Find the net selling price of the sofa-set, if its marked price is ₹18,000.",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹16,920.28"
+        },
+        {
+          "label": "2",
+          "text": "₹16,084.00"
+        },
+        {
+          "label": "3",
+          "text": "₹15,082.20"
+        },
+        {
+          "label": "4",
+          "text": "₹17,230.00"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nNet Selling Price can be calculated directly by multiplying the Marked Price with the respective discount multiplying factors.\n\nNet SP = 18000 × 0.90 × 0.95 × 0.98\n\nNet SP = 16200 × 0.95 × 0.98 = 15390 × 0.98 = 15082.20\n\n**∴ The correct answer is ₹15,082.20.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/31c18bf428cc434e99c9f4533ac0a8b572d94e62ce753025d39b67b93c7fc69b.png] \n\n**Given:**\n\nMarked Price (MP) = ₹18,000\n\nSuccessive Discounts = 10%, 5%, and 2%\n\n**Formula Used:**\n\nNet Selling Price = MP × (1 − D₁/100) × (1 − D₂/100) × (1 − D₃/100)\n\n**Calculation:**\n\n⇒ Net Selling Price = 18000 × (1 − 10/100) × (1 − 5/100) × (1 − 2/100)\n\n⇒ Net Selling Price = 18000 × (90/100) × (95/100) × (98/100)\n\n⇒ Net Selling Price = 18000 × (9/10) × (19/20) × (49/50)\n\n⇒ Net Selling Price = 18000 × (8379 / 10000)\n\n⇒ Net Selling Price = 1.8 × 8379\n\n⇒ Net Selling Price = 15082.20\n\n**∴ The correct answer is ₹15,082.20.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSuccessive Discount Formula\n\nFor two successive discounts of a% and b%, the equivalent single discount is given by (a + b − ab/100)%.\n\nMarked Price vs Selling Price\n\nMarked Price (MP) is the maximum retail price displayed on the product. Selling Price (SP) is the amount at which the item is actually sold. SP = MP − Discount.\n\nDiscount Percentage Calculation\n\nDiscount is strictly calculated on the Marked Price of an article. Discount % = (Discount ÷ MP) × 100.\n\n4b:T",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/31c18bf428cc434e99c9f4533ac0a8b572d94e62ce753025d39b67b93c7fc69b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Discount and MP"
+      ]
+    },
+    {
+      "qid": "64391eea7c5ef9c98a4a3a39",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Discount and MP",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If the selling price of a bed is Rs. 21384 after allowing two successive discounts of 12% and 10%. Find the market price.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 27,000"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 26,000"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 22,000"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 15,000"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSuccessive discount ratio: 12% = 3/25 and 10% = 1/10.\n\nEffective ratio (MP : SP) = (25 × 10) : (22 × 9) = 250 : 198.\n\nGiven SP = 198 units = Rs. 21384.\n\n1 unit = 21384 ÷ 198 = Rs. 108.\n\nMarked Price (250 units) = 250 × 108 = Rs. 27,000.\n\n**∴ The correct answer is Rs. 27,000.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** **Selling Price** (SP) = Rs. 21384, **Discount₁** = 12%, **Discount₂** = 10%.\n\n**Formula Used:** SP = MP × (1 − d₁/100) × (1 − d₂/100)\n\n [IMAGE: https://cdn.repeatermock.com/tb/e26b52e7da3bcf98cc92bd3f3c9939ce1d0f174177e7f0bf6efaaaa18e6b1aeb.png] \n\n⇒ 21384 = MP × (1 − 12/100) × (1 − 10/100)\n\n⇒ 21384 = MP × (88/100) × (90/100)\n\n⇒ 21384 = MP × (0.88 × 0.9)\n\n⇒ 21384 = MP × 0.792\n\n⇒ MP = 21384 ÷ 0.792\n\n⇒ MP = 27000\n\n**∴ The correct answer is Rs. 27,000.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nEffective Successive Discount Formula\n\nFor two successive discounts a% and b%, the single equivalent discount is [a + b − (ab/100)]%.\n\nRelationship between MP and SP\n\nSelling Price = Marked Price − Discount. Also, SP = MP × (100 − d%)/100.\n\nMarked Price (List Price)\n\nIt is the price displayed on the product before any discount is applied. MP = CP × (100 + Markup%)/100.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e26b52e7da3bcf98cc92bd3f3c9939ce1d0f174177e7f0bf6efaaaa18e6b1aeb.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Discount and MP"
+      ]
+    }
+  ]
+}

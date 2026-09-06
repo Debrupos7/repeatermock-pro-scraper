@@ -1,0 +1,958 @@
+{
+  "test_id": "6a4657f902d90362ee00d406",
+  "title": "SSC CGL Tier I: (Eduquity PYQ) Reasoning Live Test - 10",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:00:48.133250+00:00",
+  "questions": [
+    {
+      "qid": "69a078633d243350fcf6a5e1",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What should come next in the following series? Z8, X64, V216, T512, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Q0729"
+        },
+        {
+          "label": "2",
+          "text": "R1728"
+        },
+        {
+          "label": "3",
+          "text": "R1000"
+        },
+        {
+          "label": "4",
+          "text": "S5729"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/1a9774e87567d8213cceb8d6630738db6b75b071f9b1538384211bfc4e5e398d.png] **\n\nPattern followed here is,\n\n [IMAGE: https://cdn.repeatermock.com/tb/6db15636f48665ac04c093fdbc22c4ae4faef593cb750f21bdbb1f3ccad58756.png] \n\nHence, the correct answer is “Option 3**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1a9774e87567d8213cceb8d6630738db6b75b071f9b1538384211bfc4e5e398d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6db15636f48665ac04c093fdbc22c4ae4faef593cb750f21bdbb1f3ccad58756.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "690b344b35fe6fe315ed3173",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the WRONG number in the given series.\n\n5040, 720, 120, 24, 4, 2",
+      "options": [
+        {
+          "label": "1",
+          "text": "720"
+        },
+        {
+          "label": "2",
+          "text": "24"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "120"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/713ffdb77327b26cc35766932685fa5619b159fd48e08c1d53eafd4911076c40.png] \n\nthus, \"4\" is the wrong number in the given series.\n\nHence, the correct option is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/713ffdb77327b26cc35766932685fa5619b159fd48e08c1d53eafd4911076c40.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "690c7c759d791a1655f78229",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the missing number: **100 : 1000 :: 64 : ?**",
+      "options": [
+        {
+          "label": "1",
+          "text": "416"
+        },
+        {
+          "label": "2",
+          "text": "524"
+        },
+        {
+          "label": "3",
+          "text": "512"
+        },
+        {
+          "label": "4",
+          "text": "729"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given**\n\n**Find the relation**\n\n100 → 1000\n\n100 = 10²\n\n1000 = 10³\n\nSo, the pattern is:\n\nIf a number is a perfect square (n²), it is converted to n³.\n\n**Apply same logic to 64**\n\n64 = 8²\n\nSo, 64 → 8³\n\n= 512\n\nHence, the correct option is **Option 3.**",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "68b02cfd8606162e84e1f943",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Syllogism",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Statements:\n\n1. All books are papers.\n\n2. All papers are trees.\n\nConclusions:\n\n1. All books are trees.\n\n2. Some trees are books",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only II follows"
+        },
+        {
+          "label": "2",
+          "text": "Only I follows"
+        },
+        {
+          "label": "3",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct": "3",
+      "solution": "The least possible Venn diagram for the given statements is as shown below :\n\n [IMAGE: https://cdn.repeatermock.com/tb/2986e32c914c8a22f23239aecef325eb40bcefaf0dcf5faa2047288c7f2c821e.png] \n\nConclusions:\n\n1. All books are trees → Follow (As all books are papers and all papers are trees. As whole books comes in papers which whole comes in trees, therefore it is true.)\n\n2. Some trees are books → **F**ollow (As all books are papers and all papers are trees. As whole books comes in papers which whole comes in trees, therefore it is true.)\n\n∴ Here, Both I and II follow.​\n\nHence, the correct answer is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2986e32c914c8a22f23239aecef325eb40bcefaf0dcf5faa2047288c7f2c821e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Syllogism"
+      ]
+    },
+    {
+      "qid": "69ca12a5be18266c174c9f1c",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What should come in place of ? in the given series based on the English alphabetical order?\n\nJLN, MOQ, PRT, ________ ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "STU"
+        },
+        {
+          "label": "2",
+          "text": "YBQ"
+        },
+        {
+          "label": "3",
+          "text": "SUW"
+        },
+        {
+          "label": "4",
+          "text": "ERG"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/7a6c1b703839665531bdb563757a69596253472c8767fec6930d8c04ec6c17a5.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/7a5cfc572012bc02cb21cad2c96b8a88cc8bbc4d8ef376e03a6960f37f424131.png] \n\nSo, 'SUW' will replace the question mark in the given series.\n\nHence, the correct answer is \"Option 3\"",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7a6c1b703839665531bdb563757a69596253472c8767fec6930d8c04ec6c17a5.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7a5cfc572012bc02cb21cad2c96b8a88cc8bbc4d8ef376e03a6960f37f424131.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "690b2e56ef081d334480126f",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A is the sister of B. B is the brother of C. C is the son of D. How is A related to D?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Daughter"
+        },
+        {
+          "label": "2",
+          "text": "Mother"
+        },
+        {
+          "label": "3",
+          "text": "Sister"
+        },
+        {
+          "label": "4",
+          "text": "Wife"
+        }
+      ],
+      "correct": "1",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/7c8d674523ba39ffbde631d8e73c54aecfb1bc1e9228267b2fc007ae7388a3e5.png] \n\nGiven: A is the sister of B. B is the brother of C. C is the son of D.\n\n [IMAGE: https://cdn.repeatermock.com/tb/ec9b873be8b2dba34140c541910054af97eea7be86d97dd800d9d893d2dfe075.png] \n\nClearly, A is daughter of D.\n\nHence, the correct answer is \"Option 1\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7c8d674523ba39ffbde631d8e73c54aecfb1bc1e9228267b2fc007ae7388a3e5.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ec9b873be8b2dba34140c541910054af97eea7be86d97dd800d9d893d2dfe075.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "6992f1bc9ba3553217c0d6e0",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Few of the letters are given followed by a question mark (?) these letters are following a specific pattern you have to give the correct option which can replace question mark.\n\nIn the sequence U, Q, M, I, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "D"
+        },
+        {
+          "label": "2",
+          "text": "E"
+        },
+        {
+          "label": "3",
+          "text": "F"
+        },
+        {
+          "label": "4",
+          "text": "G"
+        }
+      ],
+      "correct": "2",
+      "solution": "Logic Followed:\n\nEach letter moves 4 positions backward in the English alphabet.\n\nU → Q (−4)\n\nQ → M (−4)\n\nM → I (−4)\n\nContinuing the same pattern:\n\nI → E (−4)\n\n**Hence, the correct answer is E.**",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "69bcebb1c4780195d6a10f61",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a certain coded language 'BUCK' is coded as 'DYZF' and 'FLOW' is coded as 'HPLR'. How will 'HANK' be coded in the same code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "IGJF"
+        },
+        {
+          "label": "2",
+          "text": "HFKG"
+        },
+        {
+          "label": "3",
+          "text": "IEJE"
+        },
+        {
+          "label": "4",
+          "text": "JEKF"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/433d250a993a50761ae82528b8144de094ccc6a75304e685b3a4886c33062b68.png] \n\nThe logic followed here is:\n\nLogic: The letters of the word are shifted by the pattern +2, +4, -3, -5 respectively.\n\nHere, BUCK → DYZF\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/605d8330542fa20b8189ceedc273af5d",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/433d250a993a50761ae82528b8144de094ccc6a75304e685b3a4886c33062b68.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "68b196dd06c200fd921f21e2",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In each of the following questions, a word is transformed into another word by applying a specific alphabetical pattern to each of its letters. Identify the logic used in the first pair and apply the same logic to the second word to determine the correct answer.\n\nBLUSH : DMQWI :: CRASH : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "FSSXY"
+        },
+        {
+          "label": "2",
+          "text": "HIITZ"
+        },
+        {
+          "label": "3",
+          "text": "GHHUT"
+        },
+        {
+          "label": "4",
+          "text": "ESWWI"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/15d4e688c8bdc2766cb74c67a7c0d12a85a1e60bc448f376b860b7949a5ae586.png] \n\nThe logic followed here is:\n\nBLUSH : DMQWI\n\n [IMAGE: https://cdn.repeatermock.com/tb/97b1fd89b0d26abe656667bfa0fb5a1f3805a896bbf3737705656c20a5a92d97.png] \n\nSimilarly,\n\nCRASH : ?\n\n [IMAGE: https://cdn.repeatermock.com/tb/dccda3d2e032da6c42a2296b9bc5582d9aa096d1b017d6cf1eb96d0feb7e417b.png] \n\nHence, \"Option 4\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/15d4e688c8bdc2766cb74c67a7c0d12a85a1e60bc448f376b860b7949a5ae586.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/97b1fd89b0d26abe656667bfa0fb5a1f3805a896bbf3737705656c20a5a92d97.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/dccda3d2e032da6c42a2296b9bc5582d9aa096d1b017d6cf1eb96d0feb7e417b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "690c54bab18075f267b81ee9",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What mathematical symbol should replace A and B respectively to make it mathematically CORRECT?\n\n14 - 96 ÷ 24 A 16 B 4 = 74",
+      "options": [
+        {
+          "label": "1",
+          "text": "x and +"
+        },
+        {
+          "label": "2",
+          "text": "+ and x"
+        },
+        {
+          "label": "3",
+          "text": "+ and -"
+        },
+        {
+          "label": "4",
+          "text": "x and -"
+        }
+      ],
+      "correct": "2",
+      "solution": "BODMAS Table: \n\n [IMAGE: https://cdn.repeatermock.com/tb/7751840ca1840d12cadc428f84d30e2cdcd5e7f82d52a57de21f2404c58eed88.png] \n\nGiven equation: 14 − 96 ÷ 24 A 16 B 4 = 74\n\n 96 ÷ 24 = 4\n\n⇒ 14 − 4 A 16 B 4 = 74\n\n**Option 1:** A = ×, B = +\n\n14 − 4 × 16 + 4 = ?\n\n→ 4 × 16 = 64\n\n→ 14 − 64 + 4 = −46 Not 74\n\n**Option 2:** A = +, B = ×\n\n14 − 4 + 16 × 4 = ?\n\n→ 16 × 4 = 64\n\n→14 − 4 + 64 = 74 **Correct**\n\n**Option 3:** A = +, B = −\n\n14 − 4 + 16 − 4 = ?\n\n→ 10 + 16 − 4 = 22 Not 74\n\n**Option 4:** A = ×, B = −\n\n14 − 4 × 16 − 4 = ?\n\n→ 14 − 64 − 4 = −54 Not 74\n\nSo, the correct symbols are A = + and B = ×.\n\nHence, the correct answer is** \"Option 2\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7751840ca1840d12cadc428f84d30e2cdcd5e7f82d52a57de21f2404c58eed88.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "69b3b76ed23607ddcfadaf9c",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many quadrilaterals are there in the given figure?\n\n [IMAGE: https://cdn.repeatermock.com/tb/817c7cc3b24c6af55e4ebc979efc00f24d76d678164137d51e1fa3c405966832.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "7"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\nLogic: Count all the quadrilaterals formed by combining smaller sections of the figure.\n\nNow,\n\nThere are **4 small quadrilaterals** formed individually by the internal lines.\n\nCombine smaller quadrilaterals to form larger ones:\n\n**2 quadrilaterals** formed by combining two adjacent smaller quadrilaterals horizontally.\n\n**1 quadrilateral** formed by combining all four small sections into the largest quadrilateral.\n\n [IMAGE: https://cdn.repeatermock.com/tb/07236b18fa2d1473425e92a4c13c4e641546b08e5878ae21e20e6f2bede48fa2.png] \n\nTotal quadrilaterals = 4 + 2 + 1 = 7\n\nHence, the correct answer is Option 2.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/817c7cc3b24c6af55e4ebc979efc00f24d76d678164137d51e1fa3c405966832.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/07236b18fa2d1473425e92a4c13c4e641546b08e5878ae21e20e6f2bede48fa2.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "6996e20a5d7757c3191a481e",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following shows a correlation, not causation?",
+      "options": [
+        {
+          "label": "1",
+          "text": "People who read more have better vocabulary."
+        },
+        {
+          "label": "2",
+          "text": "Exercising causes weight loss."
+        },
+        {
+          "label": "3",
+          "text": "Smoking causes cancer."
+        },
+        {
+          "label": "4",
+          "text": "A virus causes flu."
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic is based on correlation vs causation.\n\n**Option 1: People who read more have better vocabulary** – Shows correlation; reading and vocabulary are related, but other factors may also influence vocabulary.\n\nOption 2: Exercising causes weight loss – Direct cause-effect relationship.\n\nOption 3: Smoking causes cancer – Established causal relationship.\n\nOption 4: A virus causes flu – Direct biological cause.\n\nAmong these, only Option 1 represents correlation, not definite causation.\n\nHence, the correct answer is **Option 1.**",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "69cf8f19cc849b5ee4f2b332",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 60 \" 21 = 13 and 81 \" 9 = 24, then what is the value of 27\" 39?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-13"
+        },
+        {
+          "label": "2",
+          "text": "-1"
+        },
+        {
+          "label": "3",
+          "text": "-4"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "3",
+      "solution": "The logic followed here is:\n\n**Logic:** Subtract the second number from the first and then divide by 3.\n\nGiven:\n\n60 \" 21 = (60 − 21) ÷ 3 = 39 ÷ 3 = 13\n\n81 \" 9 = (81 − 9) ÷ 3 = 72 ÷ 3 = 24\n\nNow,\n\n27 \" 39 = (27 − 39) ÷ 3 = (−12) ÷ 3 = −4\n\nHence, the correct answer is **Option 3**.",
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "699319236ef378815d5472f5",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that represents the correct order of the given words as they would appear in\n\n1.Rainbow\n\n2.Rather\n\n3.Reason\n\n4.Recent\n\n5.Region\n\n6. Remove",
+      "options": [
+        {
+          "label": "1",
+          "text": "1,2,3,4,5,6"
+        },
+        {
+          "label": "2",
+          "text": "1,3,2,4,5,6"
+        },
+        {
+          "label": "3",
+          "text": "1,2,3,4,6,5"
+        },
+        {
+          "label": "4",
+          "text": "1,3,2,4,6,5"
+        }
+      ],
+      "correct": "1",
+      "solution": "The arrangement of the given words in the order in which they appear in an English dictionary is as shown below:\n\n**1. Rai**nbow\n\n**2. Rath**er\n\n**4. Rece**nt\n\n**3. Reas**on\n\n**5. Reg**ion\n\n**6. Rem**ove\n\nHence, the correct order is: **1, 2, 4, 3, 5, 6**",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "69a01a8298c3789a1754034b",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Ordering and Ranking",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a college students' list, Akash is 15th from the top and 20th from the bottom. How many students are there in the list?",
+      "options": [
+        {
+          "label": "1",
+          "text": "34"
+        },
+        {
+          "label": "2",
+          "text": "35"
+        },
+        {
+          "label": "3",
+          "text": "36"
+        },
+        {
+          "label": "4",
+          "text": "37"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\nPosition of Akash from the top = 15th\n\nPosition of Akash from the bottom = 20<span sty",
+      "tags": [
+        "Ordering and Ranking"
+      ]
+    },
+    {
+      "qid": "699d5f77763c1f481b6c8efc",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Seating Arrangement",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "5 persons A, B, C, D and E are sitting around a circular table facing towards the centre (not necessarily in the same order). B is sitting second to the right of D. A is sitting second to the right of B. C is not an immediate neighbour of A. Who is to the immediate right of A?",
+      "options": [
+        {
+          "label": "1",
+          "text": "E"
+        },
+        {
+          "label": "2",
+          "text": "B"
+        },
+        {
+          "label": "3",
+          "text": "C"
+        },
+        {
+          "label": "4",
+          "text": "D"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given: 5 persons A, B, C, D and E are sitting around a circular table facing towards the centre (not necessarily in the same order).\n\nB is sitting second to the right of D.\n\nA is sitting second to the right of B.\n\nC is not an immediate neighbour of A.\n\n [IMAGE: https://cdn.repeatermock.com/tb/a3655d6854d594a188bec63e3228958dbaf48a295fb9e345fc2370c04a7fe0a6.png] [IMAGE: https://cdn.repeatermock.com/tb/9ab9f335c3599c173f639742fd65dd24e8cbb50a7101d8fdf52d32e9d649c66a.png] \n\nAnd E sits at the remaining place.\n\n [IMAGE: https://cdn.repeatermock.com/tb/b628d42bfc85be51b455d461456614c15196bb1fe7f77b6b1fd120c887fa103c.png] [IMAGE: https://cdn.repeatermock.com/tb/0cfcb52fd2f18fcd917e0a438a96c867e23c9506bdd809af80f9997174107399.png] \n\nSo, D is the immediate right of A.\n\nHence, the correct answer is \"Option 4\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a3655d6854d594a188bec63e3228958dbaf48a295fb9e345fc2370c04a7fe0a6.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/9ab9f335c3599c173f639742fd65dd24e8cbb50a7101d8fdf52d32e9d649c66a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b628d42bfc85be51b455d461456614c15196bb1fe7f77b6b1fd120c887fa103c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/0cfcb52fd2f18fcd917e0a438a96c867e23c9506bdd809af80f9997174107399.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Seating Arrangement"
+      ]
+    },
+    {
+      "qid": "68b18d046e818747d5ebd997",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which number does not belong:",
+      "options": [
+        {
+          "label": "1",
+          "text": "123"
+        },
+        {
+          "label": "2",
+          "text": "213"
+        },
+        {
+          "label": "3",
+          "text": "212"
+        },
+        {
+          "label": "4",
+          "text": "312"
+        }
+      ],
+      "correct": "3",
+      "solution": "Then logic followed here is:\n\n123, 213, and 312 are composed of the digits 1, 2, and 3 only, just in different orders.\n\nWhereas,\n\n212 repeats the digit '2' and does not include the digit '3'.\n\nSo, 212 is the odd one from the given options.\n\nHence, the correct answer is \"Option 3\".",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "68baaef54916a710e12532e8",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If + means -, ÷ means +, - means x, and x means ÷, then, what is 15 - 4 ÷ 6 + 12?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60"
+        },
+        {
+          "label": "2",
+          "text": "56"
+        },
+        {
+          "label": "3",
+          "text": "54"
+        },
+        {
+          "label": "4",
+          "text": "58"
+        }
+      ],
+      "correct": "3",
+      "solution": "BODMAS Rule:\n\n [IMAGE: https://lh4.googleusercontent.com/c0j5U9v2oJWEzSTKvdDLWZ5Zik3PBUXk-C9w3Ma990WH63rpQUfA7g-3wh_uT7CgFvFJ4jPGEeOw509FxSgfh78_HR9tDNZ9KitXdEveKsLaLMgPQf6YSDt1b775728JMVp9FIQs=s0] \n\nAccording to the question, the signs are interchanged as follows:\n\n \n \n\n Original Symbol\n +\n ÷\n −\n ×\n \n \n\n New Symbol\n −\n +\n ×\n ÷\n \n \n\nNow, given the equation: 15 − 4 ÷ 6 + 12 = ?\n\nAfter interchanging the specified signs, the new equation is:\n\n15 × 4 + 6 − 12 = ?\n\nPerform operations according to BODMAS:\n\n⇒ __**15 × 4**__ + 6 − 12\n\n⇒ __**60 + 6**__ − 12\n\n⇒ __**66 − 12**__\n\n⇒ 54\n\nHence, the correct answer is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://lh4.googleusercontent.com/c0j5U9v2oJWEzSTKvdDLWZ5Zik3PBUXk-C9w3Ma990WH63rpQUfA7g-3wh_uT7CgFvFJ4jPGEeOw509FxSgfh78_HR9tDNZ9KitXdEveKsLaLMgPQf6YSDt1b775728JMVp9FIQs=s0",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "690b1d86f045476125ba47c3",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 2 $ 2 = 16 and 3 $ 3 = 36, what is 4 $ 4?",
+      "options": [
+        {
+          "label": "1",
+          "text": "48"
+        },
+        {
+          "label": "2",
+          "text": "64"
+        },
+        {
+          "label": "3",
+          "text": "72"
+        },
+        {
+          "label": "4",
+          "text": "80"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n**Logic:** a $ b = (a + b)²\n\n2 $ 2 = 16 → (2 + 2)² = 4² = 16\n\n3 $ 3 = 36 → (3 + 3)² = 6² = 36\n\nSimilarly,\n\n4 $ 4 → (4 + 4)² = 8² = 64\n\nSo, 64 will come in the place of '?'.\n\nHence, the correct answer is \"Option 2\".",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "69cb9c094226f21a5c1aaa65",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In this type of questions some problematic situations are provided you have to analyse the situation and give the logical correct solution for the problem.\n\nFind the missing number in the series: 9, 7, 4, 2, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-4"
+        },
+        {
+          "label": "2",
+          "text": "-3"
+        },
+        {
+          "label": "3",
+          "text": "-1"
+        },
+        {
+          "label": "4",
+          "text": "-2"
+        }
+      ],
+      "correct": "3",
+      "solution": "Logic followed here is,\n\n9 - 2 = 7\n\n7 - 3 = 4\n\n4 - 2 = 2\n\n**2 - 3 = -1**\n\nHence, the correct answer is “**Option 3**”.",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "68baa9225ee1d8848cac3a4a",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Three of the following four pairs have the same relationship between their elements as in the case of the pair BRIGHT: 24 and hence form a group. Which one does not belong to the group?",
+      "options": [
+        {
+          "label": "1",
+          "text": "SMART : 21"
+        },
+        {
+          "label": "2",
+          "text": "SHARP : 20"
+        },
+        {
+          "label": "3",
+          "text": "QUICK : 20"
+        },
+        {
+          "label": "4",
+          "text": "BRAINY : 24"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\n**Logic: (Number of letters in a word) × 4 = Number.**\n\nIn the pair BRIGHT: 24,\n\n(number of letters in *BRIGHT*) × 4\n\n= 6 × 4\n\n= 24\n\nSMART h",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "69ccec0b8c510d4f46743e75",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In this question, four sets of name and address are given out of which two are exactly same. It is required to find out these two combinations and mark the correct answer accordingly.\n\n1. Khandwa Division M.G. road, Near railway station Khandwa - 450001\n\n2. Khandwa Division M.G. road, Near railway station Khandva - 450001\n\n3. Khandwa Division G.M. road, Near railway station Khandwa - 450001\n\n4. Khandwa Division M.G. road, Near railway station Khandwa - 450001",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 and 3"
+        },
+        {
+          "label": "2",
+          "text": "1 and 4"
+        },
+        {
+          "label": "3",
+          "text": "2 and 4"
+        },
+        {
+          "label": "4",
+          "text": "1 and 2"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given:\n\nFour name-address combinations are given in the problem.\n\n \n \n\n **Combination No.**\n **Name & Address**\n **Observation**\n \n \n\n 1\n \n \nKhandwa Division M.G. road, Near railway station Khandwa - 450001\n\n \n <td style=&",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "693c10d3479f9795f5d5cfbc",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Direction and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "M starts cycling 64 meters straight from her office. During her journey she took 16 right turns. Finally she is facing towards west direction. In which direction she started cycling? (she took no left turn)",
+      "options": [
+        {
+          "label": "1",
+          "text": "South"
+        },
+        {
+          "label": "2",
+          "text": "West"
+        },
+        {
+          "label": "3",
+          "text": "North"
+        },
+        {
+          "label": "4",
+          "text": "East"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given: \n\nM starts cycling 64 meters straight from her office.\n\nDuring her journey she took 16 right turns. \n\nFinally she is facing towards west direction. \n\n [IMAGE: https://cdn.repeatermock.com/tb/58def8195c14d6f2c0b254688a25b38850a0fbda2d7f8d2a9051998047b5325d.png] [IMAGE: https://cdn.repeatermock.com/tb/89b40dab12fcbc951f85a8e88630f0e956e52fb938167d954b8c39979b222e4f.png] \n\nSo, She started cycling **West.**\n\nHence, the correct answer is \"Option 2\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/58def8195c14d6f2c0b254688a25b38850a0fbda2d7f8d2a9051998047b5325d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/89b40dab12fcbc951f85a8e88630f0e956e52fb938167d954b8c39979b222e4f.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direction and Distance"
+      ]
+    },
+    {
+      "qid": "690b1bbfb4e4ad62c84f86de",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the odd one out: :\n\nJawaharlal Nehru, Indira Gandhi, Atal Bihari Vajpayee, Sardar Vallabhbhai Patel, Narendra Modi, Rajiv Gandhi",
+      "options": [
+        {
+          "label": "1",
+          "text": "Jawaharlal Nehru"
+        },
+        {
+          "label": "2",
+          "text": "Atal Bihari Vajpayee"
+        },
+        {
+          "label": "3",
+          "text": "Sardar Vallabhbhai Patel"
+        },
+        {
+          "label": "4",
+          "text": "Narendra Modi"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Logic Used:**\n\n⇒ Jawaharlal Nehru → Prime Minister ✔\n\n⇒ Indira Gandhi → Prime Minister ✔\n\n⇒ Atal Bihari Vajpayee → Prime Minister ✔\n\n⇒ Narendra Modi → Prime Minister ✔\n\n⇒ Rajiv Gandhi → Prime Minister ✔\n\n⇒ Sardar Vallabhbhai Patel → Deputy Prime Minister ✖\n\n**∴ Odd one out Sardar Vallabhbhai Patel.**",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "68b191b2058369976a1d1d21",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A product priced at INR 500 gets a 20% discount then a 5% tax on the discounted price. What is the final price?",
+      "options": [
+        {
+          "label": "1",
+          "text": "INR 430"
+        },
+        {
+          "label": "2",
+          "text": "INR 435"
+        },
+        {
+          "label": "3",
+          "text": "INR 425"
+        },
+        {
+          "label": "4",
+          "text": "INR 420"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nProduct's original price = INR 500\n\nDiscount = 20%\n\nTax on the discounted price = 5%\n\nProduct's price after discount = Product's original price × (1 - Discount)\n\n= 500 × (1 - 20/100)\n\n= 500 × (1 - 1/5)\n\n= 500 × 4/5\n\n<span style=\"color: rgb(33",
+      "tags": [
+        "Puzzle"
+      ]
+    }
+  ]
+}

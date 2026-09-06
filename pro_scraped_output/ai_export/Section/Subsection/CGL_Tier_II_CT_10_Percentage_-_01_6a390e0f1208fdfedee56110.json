@@ -1,0 +1,348 @@
+{
+  "test_id": "6a390e0f1208fdfedee56110",
+  "title": "CGL Tier II CT 10: Percentage - 01",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:02:03.054827+00:00",
+  "questions": [
+    {
+      "qid": "66bc6841d1ee2785c0125a57",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The population of a village decreases at the rate of 20% per annum. If its population 2 years ago was 10,000, the present population is ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4600"
+        },
+        {
+          "label": "2",
+          "text": "6400"
+        },
+        {
+          "label": "3",
+          "text": "7600"
+        },
+        {
+          "label": "4",
+          "text": "6000"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nThe population of a village decreases at the rate of 20% per annum. If its population 2 years ago was 10,000, the present population is?\n\n**Concept:**\n\nTo find the present population after a decrease over a period, we use the formula for compound percentage decrease.\n\n**Formula Used:**\n\nPresent Population = P × (1 - r/100)ⁿ\n\nwhere P is the initial population, r is the rate of decrease, and n is the number of years.\n\n**Calculation:**\n\nWe have,\n\n⇒ P = 10,000, r = 20%, n = 2\n\n⇒ Present Population = 10,000 × (1 - 20/100)²\n\n⇒ Present Population = 10,000 × (0.80)²\n\n⇒ Present Population = 10,000 × 0.64\n\n⇒ Present Population = 6,400\n\n∴ The present population is 6,400."
+    },
+    {
+      "qid": "6575f6226577d7e9cec4f6ea",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A company is earning an income from which expenditure (other than tax) is deducted to get the amount of profit earned. The company has to pay tax of 22% on the profit earned. If net profit after paying taxes is Rs. 2,340, which is 18% of expenditure (other than taxes), what was the income (in Rs) of the company?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16,667"
+        },
+        {
+          "label": "2",
+          "text": "19,000"
+        },
+        {
+          "label": "3",
+          "text": "13,000"
+        },
+        {
+          "label": "4",
+          "text": "16,000"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nNet profit after paying taxes = Rs. 2,340\n\nNet profit = 18% of expenditure (other than taxes)\n\nTax rate on profit = 22%\n\n**Formula Used:**\n\nNet profit = Profit after tax\n\nProfit after tax = Profit before tax × (1 - Tax rate)\n\nIncome = Expenditure + Profit before tax\n\n**Calculation:**\n\nStep 1:<"
+    },
+    {
+      "qid": "63abe9326ee563b6192fec7e",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Election Based",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Three candidates P, Q and R participated in an election. P got 35% more votes than Q, and R got 15% more votes than Q. P overtook R by 2,412 votes. If 90% voters voted and no invalid or illegal votes were cast, then what was the number of voters in the voting list?",
+      "options": [
+        {
+          "label": "1",
+          "text": "46,900"
+        },
+        {
+          "label": "2",
+          "text": "42,800"
+        },
+        {
+          "label": "3",
+          "text": "42,210"
+        },
+        {
+          "label": "4",
+          "text": "48,500"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nP got 35% more votes than Q\n\nR got 15% more votes than Q.\n\nP overtook R by 2,412 votes.\n\n90% voters voted and no invalid or illegal votes were cast\n\n**Concept used:**\n\nLet the total votes of Q be 100x\n\nP = × 100x + 100x = 135x\n\nR = × 100x + 100x = 115x\n\n**Calculation:**\n\n135x - 115x = 2412\n\n20x = 2412\n\nx = 120.6\n\nSo, the vote obtained by Q = 100x = 100 × 120.6 = 12060\n\nVote obtained by P = 135x = 135 × 120.6 = 16281\n\nVote obtained by R = 115x = 115 × 120.6 = 13869\n\nTotal votes obtained by all of them = 12060 + 16281 + 13869 = 42210\n\nNow, according to question, only 90% of the voters casted votes, therefore:\n\n⇒ 90 over 100 × y = 42210 ⇒ y = 42210 times 100 over 90 ⇒ y = 46900 (y = total votes)\n\n**Therefore, the number of voters in the voting list are 46900.**",
+      "tags": [
+        "Election Based"
+      ]
+    },
+    {
+      "qid": "63937597ae9171b95a054fe0",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If the price is decreased by 25%, by what percent should the consumption be increased so that the expenditure remains the same?",
+      "options": [
+        {
+          "label": "1",
+          "text": "37.5 percent"
+        },
+        {
+          "label": "2",
+          "text": "16.66 percent"
+        },
+        {
+          "label": "3",
+          "text": "33.33 percent"
+        },
+        {
+          "label": "4",
+          "text": "66.66 percent"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\nIf the price is decreased by 25%\n\nConcept Used:\n\nExpenditure = Price × Consumption\n\nWhen Expenditure is constant,\n\nPrice ∝ Consumption\n\nCalculation:\n\n<"
+    },
+    {
+      "qid": "63a9a965fd79111bc5466839",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Due to a 20% fall in the price of potato, one can buy 3kg of potato more by investing ₹240. What is the original price of potato per kg?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given: \n\nThe price of potato fall by 20%, this can buy 3kg potato more by ₹240.\n\n**Concept used:**\n\nPrice is inversely proportional to its consumption.\n\n**Calculation:**\n\nLet's assume the original price of potato is x /kg\n\nAfter 20% fall the price becomes x × (80)/(100) = (4x)/(5) \n\nThe fall of price helps to buy 3kg more ₹240, so,\n\n⇒ (240)/(frac{4x){5}} - (240)/(x) =3 \n\n⇒ (240× 5)/(4x) - (240)/(x) =3 \n\n⇒ x = (60)/(3) = 20 \n\n**∴ The original price of potato is ₹20 /kg.**\n\n \n\n [IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] **__Shortcut Trick__**\n\nWe know, 20% → (1)/(5) \n\n \n \n \n \n \n \n \n\n \n Before\n After\n \n \n\n Price\n 5\n 4\n \n \n\n Consumption\n 4\n 5\n \n \n\n \n\nDifference between consumption (5 - 4) = 1 unit\n\n⇒ 1 unit → 3 kg\n\n⇒ 4 unit → (3 × 4) = 12 kg\n\nNow, the original price of potato is (240)/(12) = ₹20 /kg\n\n3a:T18db",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "64a1325e8ad56b92de138932",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The sum of the two numbers is 400. If the bigger number is decreased by 16% and the smaller number is increased by 16%, then the numbers obtained are equal. Find the smaller number.",
+      "options": [
+        {
+          "label": "1",
+          "text": "168"
+        },
+        {
+          "label": "2",
+          "text": "152"
+        },
+        {
+          "label": "3",
+          "text": "144"
+        },
+        {
+          "label": "4",
+          "text": "170"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nThe sum of the two numbers is 400.\n\nIf the bigger number is decreased by 16% and the smaller number is increased by 16%, then the numbers obtained are equal. \n\n**Calculation:**\n\nLet the two numbers be x and y\n\nAs per the question,\n\n⇒ x + y = 400............... (1)\n\nAgain,\n\n⇒ 84x = 116y\n\n⇒ 21x = 29y\n\n⇒ x = 29y / 21\n\nBy putting the value of x in equation 1 we get,\n\nx + y = 400\n\n⇒ 29y / 21 + y = 400\n\n⇒ y = 168\n\nThe value of x is 400 - 168 = 232\n\n**∴ The smaller number is 168**"
+    },
+    {
+      "qid": "62d04b16a8dc2ed8756ea566",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The ratio of the salaries of Akhshay and Amir is 8 ∶ 9. If Akhshay’s salary is increased by 50% and Amir’s salary is reduced by 25%, then their ratio becomes 16 ∶ 9. What is the salary of Akshay?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 22,000"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 28,500"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 37,000"
+        },
+        {
+          "label": "4",
+          "text": "Can’t be determined"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTo find any exact absolute value (like salary in ₹), at least one absolute numerical value must be given in the question.\n\nHere, we are only given the initial ratio (8 : 9), percentage changes (+50%, −25%), and the final ratio (16 : 9).\n\nSince no actual value (such as total salary, difference in salary, or a final amount) is provided, it is mathematically impossible to find the real salary.\n\n**∴ The correct answer is Can't be determined.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInitial ratio of salaries of Akhshay and Amir = 8 : 9\n\nAkhshay's salary increases by 50%.\n\nAmir's salary decreases by 25%.\n\n \n Akhshay's Salary\n \n 8x\n \n +50%\n \n\n \n \n 12x\n\n \n Amir's Salary\n \n 9x\n \n −25%\n \n\n \n \n 6.75x\n \n \n No absolute value given → Salary cannot be determined\n\n**Calculation:**\n\n⇒ Let the initial salary of Akhshay be 8x and Amir be 9x, where x is a common multiplier.\n\n⇒ New salary of Akhshay = 8x × (100 + 50)% = 8x × 1.5 = 12x\n\n⇒ New salary of Amir = 9x × (100 − 25)% = 9x × 0.75 = 6.75x\n\n⇒ Ratio of new salaries = 12x ÷ 6.75x\n\n⇒ New ratio = 1200 ÷ 675 = 16 / 9 = 16 : 9\n\n⇒ The resulting ratio perfectly matches the given final ratio without providing any new equation to solve for x.\n\n⇒ Since x cancels out and there is no absolute numerical value given to find x, the exact salary of Akhshay cannot be calculated.\n\n**∴ The correct answer is Can't be determined.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nData Sufficiency in Ratios\n\nWhen a problem only provides relative values like ratios, fractions, and percentages, it is mathematically impossible to determine exact absolute values (like length, weight, or currency) without at least one absolute quantity.\n\nRatio Multiplier (x)\n\nA ratio a : b represents real values ax and bx. The variable x acts as an unknown common multiplier that can only be solved if an independent linear equation is established from the question constraints.\n\nPercentage Change in Ratios\n\nIf two parts of a ratio a : b undergo independent percentage changes of p% and q%, the new ratio directly becomes a(100 ± p) : b(100 ± q).",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "61e7d4b09fa889d9a1e734bf",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A number P is 20% more than a number Q but 10% less than a number R. What percentage is number Q of number R?",
+      "options": [
+        {
+          "label": "1",
+          "text": "75"
+        },
+        {
+          "label": "2",
+          "text": "80"
+        },
+        {
+          "label": "3",
+          "text": "85"
+        },
+        {
+          "label": "4",
+          "text": "90"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Calculation:**\n\nAccording to the question,\n\nP = Q × 6/5\n\nP : Q = 6 : 5\n\nP = R × 9/10\n\nP : R = 9 : 10\n\nP must be same in each case\n\nSo, P : Q : R = 18 : 15 : 20\n\nQ = (15/20) × 100 = 75% of R\n\n**∴**** Required answer is 75%**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] __Alternate Method__**How to calculate the ratio of",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "63622ce3e85549081f452057",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The cost of a table is 60% more than the cost of a chair and the cost of a chair is 15% less than that of a stool. If the cost of a table, chair and stool increase by 20%, 30% and 10% respectively, then the percent increase in the cost of 5 tables, 2 chairs and 1 stool is (correct to one decimal place):",
+      "options": [
+        {
+          "label": "1",
+          "text": "19.8"
+        },
+        {
+          "label": "2",
+          "text": "20.7"
+        },
+        {
+          "label": "3",
+          "text": "20.9"
+        },
+        {
+          "label": "4",
+          "text": "21.2"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nThe cost of a table is 60% more than the cost of a chair and the cost of a chair is 15% less than that of a stool.\n\n**Calculation:**\n\nLet be assume the cost of stool is 100S\n\nSo, the cost of the chair = 100S - 100S × 15%\n\n⇒ 85S\n\nThe cost of the table = 85S + 85S × 60%\n\n⇒ 136S ⇒\n\nTotal cost of 5 tables, 2 chairs, and 1 stool = 5 × 136S + 2 × 85S + 100S = 950S\n\nAfter increment in the cost price of tables = 136S × 120%\n\n⇒ 163.2S\n\nThe cost price of chairs = 85S × 130%\n\n⇒ 110.5S\n\nThe cost price of stool = 100S × 110%\n\n⇒ 110S\n\nAfter increment total cost price = 163.2S × 5 + 110.5S × 2 + 110S\n\n⇒ 1147S\n\nIncreament = 1147S - 950S\n\n⇒ 197S\n\nPercentage increament = 197S/950S × (100) = 20.73 ≈ 20.7\n\n**∴ The required result will be 20.70.**"
+    },
+    {
+      "qid": "626050c08804652a9bf263dc",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In an election conducted between Shiva, Ram, and Shyam. The ratio of the number of votes acquired by Shiva, Ram, and Shyam is 5 : 3 : 6. If the number of votes acquired by Shyam is 1000 more than the votes acquired by Shiva and 1000 votes are declared to be invalid, then find the percentage of total votes declared to be invalid.",
+      "options": [
+        {
+          "label": "1",
+          "text": "6(2)/(3)%"
+        },
+        {
+          "label": "2",
+          "text": "7(2)/(3)%"
+        },
+        {
+          "label": "3",
+          "text": "6(1)/(3)%"
+        },
+        {
+          "label": "4",
+          "text": "4(2)/(3)%"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nThe ratio of the number of votes acquired by Shiva, Ram, and Shyam is 5 : 3 : 6.\n\nThe number of votes acquired by Shyam is 1000 more than the votes acquired by Shiva\n\n1000 votes are declared to be invalid.\n\nFormula used:\n\nPercentage of votes declared to be invalid = frac{ { Number of invalid votes}}{ {Total number of votes}} × 100\n\n**Calculation:**\n\nThe number of votes acquired by Shiva be 5x.\n\nThe number of votes acquired by Ram be 3x.\n\nThe number of votes acquired by Shyam be 6x.\n\nAccording to the question,\n\n6x - 5x = 1000\n\n⇒ x = 1000\n\nTherefore, \n\nThe number of votes acquired by Shiva = 5x = 5000\n\nThe number of votes acquired by Ram = 3x = 3000\n\nThe number of votes acquired by Shyam = 6x = 6000\n\nThe number of votes declared invalid = 1000\n\nThe total number of votes = 5000 + 3000 + 6000 + 1000 = 15000\n\nNow, \n\nThe percentage of votes declared to be invalid = (1000)/(15000) × 100 = 6(2)/(3)%\n\n**∴ The percentage of votes declared to be invalid is 6(2)/(3)%.**"
+    }
+  ]
+}

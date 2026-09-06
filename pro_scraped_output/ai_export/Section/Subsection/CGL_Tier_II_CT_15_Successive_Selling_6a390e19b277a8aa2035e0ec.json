@@ -1,0 +1,373 @@
+{
+  "test_id": "6a390e19b277a8aa2035e0ec",
+  "title": "CGL Tier II CT 15: Successive Selling",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:02:29.551514+00:00",
+  "questions": [
+    {
+      "qid": "62622edb97ed6139abc8f8d8",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A shopkeeper bought 35 dozen pencils for Rs. 1,500. How many pencils should he sell for Rs. 125 to gain 40%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "28"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "24"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\n**Cost Price** of 1 pencil = 1500 ÷ (35 × 12) = 1500 ÷ 420 = ₹25/7\n\n**Selling Price** for 40% gain = (25/7) × 1.4 = ₹5 per pencil\n\nNumber of pencils for ₹125 = 125 ÷ 5 = 25 pencils\n\n**∴ The correct answer is 25 pencils.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/daf591fa5b0959bb5a743c65e748b3c35cb30a01550550d05ca05c49061b5b4c.png] \n\n**Given:** Total CP = ₹1,500, Total Quantity = 35 dozen = 420 pencils.\n\n**Formula Used:** Selling Price = CP × (100 + Gain%) ÷ 100\n\n⇒ **Cost Price (CP)** of 420 pencils = ₹1,500\n\n⇒ **Selling Price (SP)** of 420 pencils = 1500 × (140/100) = ₹2,100\n\n⇒ Since ₹2,100 is the SP for 420 pencils\n\n⇒ **Number of pencils** for ₹1 = 420 ÷ 2100\n\n⇒ **Number of pencils** for ₹125 = (420 ÷ 2100) × 125\n\n⇒ 125 ÷ 5 = 25 pencils\n\n**∴ The correct answer is 25 pencils.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nUnitary Method in Profit & Loss\n\nTo find quantity for a specific SP: (Total Quantity ÷ Total SP) × Required Amount.\n\nSuccessive Percentage Shortcut\n\nIf there is a profit of x% and then a loss of y%, effective change = x − y − (xy/100).\n\nQuantity-Price Relation\n\nIf the total expenditure is constant, quantity is inversely proportional to the price.\n\n3a:Tf16,\n<span s",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/daf591fa5b0959bb5a743c65e748b3c35cb30a01550550d05ca05c49061b5b4c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "63f632809fa3f8cf7cb610e4",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A house worth Rs.1,00,000 is sold by A to B at a profit of 6%. B sells house back to A at 3% loss. What is the gain/loss of A in the entire transaction?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Loss of Rs. 3,280"
+        },
+        {
+          "label": "2",
+          "text": "Gain of Rs. 2,802"
+        },
+        {
+          "label": "3",
+          "text": "Loss of Rs. 2,280"
+        },
+        {
+          "label": "4",
+          "text": "Gain of Rs. 3,180"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\n**Selling Price** (A to B) = 1,00,000 + 6% of 1,00,000 = ₹1,06,000.\n\n**Buyback Price** (B to A) = 1,06,000 − 3% of 1,06,000 = 1,06,000 − 3,180 = ₹1,02,820.\n\nA's **Net Gain** = Cash Inflow − Cash Outflow = 1,06,000 − 1,02,820 = ₹3,180.\n\nSince A gets the house back and retains the surplus cash, it is a **Gain**.\n\n**∴ The correct answer is Gain of Rs. 3,180.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInitial Value (CPA) = ₹1,00,000\n\nProfit% for A = 6%\n\nLoss% for B = 3%\n\n [IMAGE: https://cdn.repeatermock.com/tb/183b7bc22df202e3ccef14b2f59acf84ff19b665be21dd98055697d8c726e57a.png] \n\n**Calculations:**\n\n⇒ **Selling Price** to B (SP₁) = 1,00,000 × (100 + 6)/100 = ₹1,06,000\n\n⇒ **Cost Price** for B = ₹1,06,000\n\n⇒ **Selling Price** of B back to A (SP₂) = 1,06,000 × (100 − 3)/100\n\n⇒ SP₂ = 1,06,000 × 0.97 = ₹1,02,820\n\n⇒ **Total Gain for A** = (Cash received from B) − (Cash paid to B)\n\n⇒ Total Gain = 1,06,000 − 1,02,820 = ₹3,180\n\n**∴ The correct answer is Gain of Rs. 3,180.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSuccessive Transactions Profit/Loss\n\nIn buy-back scenarios where the original owner gets the item back, the **net gain** is the difference between the first selling price and the buyback price.\n\nProfit and Loss Percentage\n\nProfit % = (Profit/CP) × 100. For successive changes, SP = CP × (1 ± r₁/100) × (1 ± r₂/100).\n\nNet Effective Change\n\nIf an amount is increased by x% and then decreased by y%, the **net effective percentage** is given by [x − y − (xy/100)]%.\n\n43:T1124,\n<spa",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/183b7bc22df202e3ccef14b2f59acf84ff19b665be21dd98055697d8c726e57a.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "61e7d6fe8700117ae194e624",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "An article was sold at a loss of 24%. If it were sold for Rs. 1,596 more, then there would have been a gain of 18%, The cost price of the article is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 4200"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 3600"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 3800"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 3400"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe article was sold at a loss of 24%\n\n**Concept used:**\n\nSP = CP – CP × loss%\n\nSP = CP + CP × profit%\n\n**Calculation:**\n\nLet CP of the article be 100x\n\nAccording to the question,\n\n76x + 1596 = 118x\n\n⇒ 42x = 1596\n\n⇒ x = 38\n\nSo, CP is 3800\n\n**∴**** Cost price of the article was Rs. 3800 **"
+    },
+    {
+      "qid": "64a18a4f9ba9b012ecb190cd",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A man bought two flats for Rs. 6075000 each. He sold, one flat at 10% gain and other at 15% loss. How much percent he gain or lose in the whole?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2.5% loss"
+        },
+        {
+          "label": "2",
+          "text": "3% gain"
+        },
+        {
+          "label": "3",
+          "text": "5% gain"
+        },
+        {
+          "label": "4",
+          "text": "5% loss"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nA man bought two flats for Rs. 6075000 each.\n\nHe sold, one flat at 10% gain and other at 15% loss.\n\n**Concept used:**\n\nThe cost price is the same.\n\n**Calculation:**\n\nLet the cost price is 100 unit\n\nThen gain is 100 × 10/100 = 10 unit\n\nLoss is 100 × 15/100 = 15 unit\n\noverall loss is 15 - 10 = 5 units\n\nSo loss percentage is (5 /200) × 100 = 2.5 %\n\n**∴ The correct option is 1**"
+    },
+    {
+      "qid": "649fdb4f4db7db18b1224eb6",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "15 books were sold for Rs. 2200 thereby gaining a cost price of 5 books. Find the cost price of a book.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 110"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 200"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 210"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 230"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n15 books were sold for Rs. 2200 thereby gaining a cost price of 5 books. \n\n**Concept used:**\n\nSp = Cp + Profit\n\n**Calculation:**\n\nLet the Cost price of 15 books be 15x\n\nso the cost price of 5 books is 5x\n\nAs per the question,\n\n⇒15x + 5x = 2200\n\n⇒ 20x = 2200\n\n⇒ x = 110"
+    },
+    {
+      "qid": "62d046edee6d6bb47e017bc9",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A seller makes a profit of 25% by selling an article for ₹135. To get a profit of 35% how much percent he should increase its selling price?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7.4%"
+        },
+        {
+          "label": "2",
+          "text": "7.8%"
+        },
+        {
+          "label": "3",
+          "text": "8.3%"
+        },
+        {
+          "label": "4",
+          "text": "8.0%"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nA seller makes a profit of 25% by selling an article for ₹135.\n\n**Formula used:**\n\nCP = (100 × SP)/(100 + Profit%)\n\n**Calculation:**\n\nAccording to the question\n\nCP = (100 × SP)/(100 + Profit%)\n\n⇒ (100 × 135)/(100 + 25)\n\n⇒ (13500/125)\n\n⇒ CP = Rs. 108\n\nNow,\n\nNew SP = (108 × 135)/100\n\n⇒ (14580/100)\n\n⇒ SP = Rs. 145.8\n\nNow,\n\nNew SP – SP = Rs. (145.8 – 135)\n\n⇒ Rs. 10.8\n\nNow,\n\nRequired selling price increase = (10.8/135 × 100)\n\n⇒ 8.0%\n\n**∴ The required selling price increase is 8.0%.**"
+    },
+    {
+      "qid": "625556086db578388f05ad22",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "By selling an article at (9)/({{11)}} for its actual selling price, a trader incurs a loss of 10%. What will be the profit percentage, if the article is sold for 8% less than its actual selling price?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1(1)/(3)"
+        },
+        {
+          "label": "2",
+          "text": "1(1)/(2)"
+        },
+        {
+          "label": "3",
+          "text": "1(1)/(5)"
+        },
+        {
+          "label": "4",
+          "text": "1(1)/(4)"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nLoss = 10%\n\n**Formula used:**\n\nLoss = Cost price - Selling Price, when cost price > selling price\n\nProfit = Selling price - Cost price, when selling price > cost price\n\n**Calculation:**\n\nLet the selling price of an article = Rs 11\n\nNew selling price = (9/11) × 11\n\n⇒ Rs 9\n\nSelling price = Cost price - Loss\n\n⇒ 9 = Cost price - 10% of Cost price\n\n⇒ 9 = 90 cost price/100\n\n⇒ 9 = 9 cost price/10\n\n⇒ (9 × 10)/9 = cost price\n\n⇒ 10 = cost price\n\nselling price of the article if sold at 8% less than the actual selling price = 11 × 92/100\n\n⇒ Rs.10.12\n\nProfit = Rs.10.12 - Rs.10\n\n⇒ Rs 0.12\n\nProfit % = (0.12/10) × 100\n\n⇒ 12/10\n\n⇒ 6/5\n\n⇒ 11over5\n\n**∴ The profit % will be 11over5.**"
+    },
+    {
+      "qid": "64a02a4dffc540a6e32981be",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Dishonest Dealings",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A man buys 13 pens for a rupee. How many pens should he sell for a rupee to earn a profit of 30 percent?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given**\n\nBuy 13 pens for 1 rupee, sell x pens for 1 rupee, profit = 30%\n\n**Formula:**\n\nSelling price = (100 + profit%)/cost price\n\n**Solution:**\n\n⇒ Cost price per pen = 1/13 rupees, desired selling price per pen = 1/x rupees\n\n⇒ Selling price = (100 + 30)/(1/13) = 10/13 rupees\n\n⇒ 10/13 = 1/x\n\n⇒ x = 13/10 = 10 pens\n\n**Therefore, he should sell 10 pens for a rupee to earn a profit of 30 percent.**",
+      "tags": [
+        "Dishonest Dealings"
+      ]
+    },
+    {
+      "qid": "66a364a931b6f4a4b9625aaa",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Successive Selling",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Aarav owns a watch worth Rs. 10,000. He sells it to Bhavin at a profit of 15%. After some days, Bhavin sells it back to Aarav at 15% loss. Find the percentage profit or loss faced by Aarav.",
+      "options": [
+        {
+          "label": "1",
+          "text": "17.25% loss"
+        },
+        {
+          "label": "2",
+          "text": "18.75% loss"
+        },
+        {
+          "label": "3",
+          "text": "18.25% profit"
+        },
+        {
+          "label": "4",
+          "text": "17.25% profit"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\n**Aarav** sells the watch for ₹11,500 (15% profit on ₹10,000).\n\n**Bhavin** sells it back at a 15% loss on his **Cost Price** (₹11,500).\n\n**Bhavin's Loss** = 15% of 11,500 = ₹1,725.\n\nSince **Aarav** gets the watch back, his net cash gain is exactly **Bhavin's** loss amount.\n\nNet Profit % = (1,725 ÷ 10,000) × 100 = 17.25%.\n\n**∴ The correct answer is 17.25% profit.**\n\n**__Alternate Method__**\n\n**Given:**\n\nInitial **Cost Price** (CP₁) of watch = ₹10,000\n\nProfit percentage for **Aarav** = 15%\n\nLoss percentage for **Bhavin** = 15%\n\n [IMAGE: https://cdn.repeatermock.com/tb/dcc3fa52baa52e6499750a45e59c0abf818b71c59ea61b36056deb12b571e4bb.png] \n\n**Calculations:**\n\n⇒ **Selling Price** of **Aarav** (SP₁) = 10,000 + (15 ÷ 100) × 10,000 = ₹11,500\n\n⇒ **Cost Price** for **Bhavin** = ₹11,500\n\n⇒ **Selling Price** of **Bhavin** (SP₂) = 11,500 − (15 ÷ 100) × 11,500\n\n⇒ SP₂ = 11,500 − 1,725 = ₹9,775\n\n⇒ This SP₂ is the price **Aarav** pays to get the watch back.\n\n⇒ **Aarav's** total profit = (Amount received from sale) − (Amount paid for buy-back)\n\n⇒ Net Profit = 11,500 − 9,775 = ₹1,725\n\n⇒ Profit % = (Net Profit ÷ Initial CP) × 100\n\n⇒ Profit % = (1,725 ÷ 10,000) × 100 = 17.25%\n\n**∴ The correct answer is 17.25% profit.**\n\n**__Additional Information__**\n\nNet Profit in Buyback Transactions\n\nWhen an item is sold at a profit and bought back at a loss, the original seller's total profit is the sum of the initial profit amount and the savings made during the buy-back.\n\nEffect of Different Base Values\n\nA 15% profit and a 15% loss do not cancel each other out because the base **Cost Price** changes after the first transaction. The second percentage is calculated on the new **Selling Price**.\n\nProfit and Loss Formulas\n\nProfit % = (Profit ÷ CP) × 100 | Loss % = (Loss ÷ CP) × 100. Always ensure the CP used is specific to the person making the transaction.\n\n4a:T1527,\n<span",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/dcc3fa52baa52e6499750a45e59c0abf818b71c59ea61b36056deb12b571e4bb.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Successive Selling"
+      ]
+    },
+    {
+      "qid": "623f089ec55454c70e84efe2",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A man bought two articles for ₹ 3,000 each. He sold one article at 10% profit and the other at 5% loss. What is the total profit or loss percentage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Profit 10%"
+        },
+        {
+          "label": "2",
+          "text": "Profit 2.5%"
+        },
+        {
+          "label": "3",
+          "text": "No profit no loss"
+        },
+        {
+          "label": "4",
+          "text": "Loss 7.5%"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nCost Price of two articles = Rs.3000 each\n\nProfit on one article = 10%\n\nLoss on the other article = 5%\n\n**Formulas used:**\n\nSelling Price = Cost Price × (100 + Profit)/100%\n\nProfit = Selling Price - Cost Price\n\nProfit percent = Profit/Cost Price × 100\n\n**Calculation:**\n\nTotal Cost Price of both articles = Rs.3000 + Rs.3000 = Rs.6000 \n\nSelling Price of one article at 10% profit = 3000 × 110/100 = Rs.3300\n\nSelling Price of another article at 5% loss = 3000 × 95/100 = Rs.2850\n\nTotal Selling Price of both articles = 3300 + 2850 = Rs.6150\n\nProfit on both articles = Rs.6150 - Rs.6000 = 150\n\nProfit Percent on both articles = 150/6000 × 100 \n\n⇒ 2.5%\n\n**∴ The total profit percentage is 2.5**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__** If the cost price of two articles is the same.\n\nProfit/Loss % = (+10 - 5)/2 = 2.5%\n\nPositive sign indicates profit and negative sign indicates loss.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

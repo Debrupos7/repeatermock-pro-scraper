@@ -1,0 +1,375 @@
+{
+  "test_id": "6a390e2ddd8c1bf0f66510de",
+  "title": "CGL Tier II CT 25: Linear Equation",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:03:02.969330+00:00",
+  "questions": [
+    {
+      "qid": "631abbbef2cb68c2e7bf6eb1",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Linear Equation in 2 Variable",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A tourist bus consist of a booking charge together with the charge for the distance covered. For a distance of 40 km, the charge paid is Rs.510 and for a distance of 55 km, the charge paid is Rs.660. How much does a person have to pay for covering a distance of 120 km?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs.1200"
+        },
+        {
+          "label": "2",
+          "text": "Rs.1300"
+        },
+        {
+          "label": "3",
+          "text": "Rs.1310"
+        },
+        {
+          "label": "4",
+          "text": "Rs.1230"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nDifference in distance = 55 − 40 = 15 km.\n\nDifference in charge = 660 − 510 = Rs. 150.\n\nCharge per km = 150 ÷ 15 = Rs. 10/km.\n\nFixed charge = 510 − (40 × 10) = Rs. 110.\n\nTotal charge for 120 km = 110 + (120 × 10) = 110 + 1200 = Rs. 1310.\n\n**∴ The correct answer is Rs. 1310.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCharge for 40 km = Rs. 510\n\nCharge for 55 km = Rs. 660\n\n**Formula Used:**\n\nTotal Charge = Fixed Charge + (Distance × Charge per km)\n\n <line x1=\"40\"",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Linear Equation in 2 Variable"
+      ]
+    },
+    {
+      "qid": "62d92aaac8d282a2f31de20b",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If 2z = x + y, then the value of (x)/(x - z) + (y)/(y - z) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "0"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "2"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n2z = x + y\n\n**Calculation:**\n\n**⇒ xover x- z ** + y over y - z \n\n⇒ xy - xz + xy - zy over xy - xz - zy +z²",
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "6299dcd821be71d4bd6dffac",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Linear Equation in 2 or more Variables",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Aman purchased 4 pens, 5 pencils and 8 scales for Rs. 120. Had Aman purchased 7 pens, 8 pencils and 11 scales, he would have to pay Rs. 192. Pankaj demanded 2 pens, 2 pencils and 2 scales. If Aman purchased only what was demanded by Pankaj, then how much would he have paid?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 32"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 48"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 42"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 38"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\nAman purchased 4 pens, 5 pencils and 8 scales for Rs. 120.\n\nAman purchased 7 pens, 8 pencils and 11 scales, he would have to pay Rs. 192.\n\n**Concept used:**\n\nUse the algebra equation form.\n\n**Calculation:**\n\nLet Aman purchased pens, pencils and scales be x, y and z.\n\nAman purchased 4 pens, 5 pencils and 8 scales for Rs. 120.\n\n⇒ 4x + 5y + 8z = 120 ----(1)\n\nAman purchased 7 pens, 8 pencils and 11 scales\n\n⇒ 7x + 8y + 11z = 192 ----(2)\n\nSubtract equation 1 from equation 2\n\n⇒ (7x + 8y + 11z) - (4x + 5y + 8z) = 192 - 120\n\n⇒ 3x + 3y + 3z = 72\n\n⇒ x + y + z = 24\n\nAccording to the question,\n\nPankaj demanded 2 pens, 2 pencils and 2 scales.\n\n⇒ 2(x + y + z)\n\n⇒ 2 × 24\n\n⇒ 48\n\n**∴ He have paid Rs. 48.**",
+      "tags": [
+        "Linear Equation in 2 or more Variables"
+      ]
+    },
+    {
+      "qid": "62f61a05e66542f623d99375",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Linear Equation in 2 Variable",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If (a)/(x)+(b)/(y)=m and (b)/(x)+(a)/(y)=n, then (y)/(x) is equal to",
+      "options": [
+        {
+          "label": "1",
+          "text": "(ma+nb)/(na+mb)"
+        },
+        {
+          "label": "2",
+          "text": "(ma-nb)/(na+mb)"
+        },
+        {
+          "label": "3",
+          "text": "(ma-nb)/(na-mb)"
+        },
+        {
+          "label": "4",
+          "text": "(ma+nb)/(na-nb)"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nTwo linear equations in two variables,\n\n(a)/(x)+(b)/(y)=m and (b)/(x)+(a)/(y)=n\n\n**Concept:**\n\nUsing the elimination method we will find out the solution for the linear equation in two variables.\n\nEliminating one of the variables from the given system of linear equations in two variables using addition and subtraction in conjunction with multiplication or division of the coefficients of the variables.\n\nSolution:</st",
+      "tags": [
+        "Linear Equation in 2 Variable"
+      ]
+    },
+    {
+      "qid": "63abec08e0ac8eaa34f5ab5b",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Linear Equation in 2 Variable",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The sum of two number is 2490. If 6.5% of one number is equal to 8.5% of the other, the numbers are:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1411 and 1079"
+        },
+        {
+          "label": "2",
+          "text": "1410 and 1080"
+        },
+        {
+          "label": "3",
+          "text": "1441 and 1049"
+        },
+        {
+          "label": "4",
+          "text": "1214 and 1276"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Formula Used:**\n\nX% = X/100\n\n**Calculation:**\n\nLet the numbers be x & y \n\n⇒ x + y = 2490 ...(1)\n\n6.5% of one number is equal to 8.5% of the other \n\n⇒ 6.5% of x = 8.5% of y\n\nUsing the above formula -\n\n⇒ &",
+      "tags": [
+        "Linear Equation in 2 Variable"
+      ]
+    },
+    {
+      "qid": "6458cc1e842165d4d2d24a6f",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Identities",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If 2x + 3y = (11)/(2) and xy = (5)/(6) then the value of 8x³ + 27y³ is?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(671)/(8)"
+        },
+        {
+          "label": "2",
+          "text": "(771)/(8)"
+        },
+        {
+          "label": "3",
+          "text": "(400)/(9)"
+        },
+        {
+          "label": "4",
+          "text": "(911)/(3)"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n2x + 3y = dfrac{11}{2} and xy = dfrac{5}{6}\n\n**Formula used:**\n\na3 + b3 = (a + b)3 - 3ab(a + b)\n\nCalculation:\n\nLet, a = 2x and",
+      "tags": [
+        "Identities"
+      ]
+    },
+    {
+      "qid": "639f2b735f04a24ae4203731",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Quadratic Equation",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If (2x² - 5y²) ∶ xy = 1 ∶ 3 then x ∶ y is",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 ∶ 2"
+        },
+        {
+          "label": "2",
+          "text": "2 ∶ 3"
+        },
+        {
+          "label": "3",
+          "text": "3 ∶ 5"
+        },
+        {
+          "label": "4",
+          "text": "5 ∶ 3"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n(2x² - 5y²) : xy = 1 : 3\n\n**Calculations:**\n\ndfrac{2x}{y} - dfrac{5y}{x} = dfrac{1}{3}\n\nPutting, dfrac{x}{y} = a, we get,\n\n2a - dfrac{5}{a} = dfrac{1}{3}\n\n=> 3 × (2a² - 5) = a\n\n=> 6a² - a - 15 = 0\n\n=> 6a² + 9a - 10a - 15 = 0\n\n=> 3a (2a + 3) - 5 (2a + 3) = 0\n\n=> (2a + 3) (3a - 5) = 0\n\n(2a + 3) = 0 or, (3a - 5) = 0\n\na = dfrac{-3}{2} or, dfrac{5}{3}\n\nValue of a cannot be negative, so, a = dfrac{5}{3} \n\n=> dfrac{x}{y} = dfrac{5}{3} \n\n=> x : y = 5 : 3\n\n∴ **The answer is 5 : 3.**",
+      "tags": [
+        "Quadratic Equation"
+      ]
+    },
+    {
+      "qid": "64ca978b8a20822896b481d7",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Linear Equation in 2 Variable",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The difference between a two-digit number and the number obtained by interchanging the digits is 54 and the sum of digits is 10. Find the average of both the two-digit numbers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "59"
+        },
+        {
+          "label": "2",
+          "text": "48"
+        },
+        {
+          "label": "3",
+          "text": "44"
+        },
+        {
+          "label": "4",
+          "text": "55"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Calculation:**\n\nLet a two-digit number be **'ab'** which can be written as 10a + b = ab\n\nAfter interchanging the digits we have **'ba'** which can be written as 10b + a = ba\n\nThe sum of two-digit numbers\n\na + b = 10 ---(1)\n\nAccording to question \n\n10a + b - (10b + a) = 54\n\n⇒ 1",
+      "tags": [
+        "Linear Equation in 2 Variable"
+      ]
+    },
+    {
+      "qid": "63f9b7ea06fbb25e9ae4f49b",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Linear Equation in 2 Variable",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If a linear equation has solutions (-3, 3), (-2, 2) and (4, -4) then it is of the form :",
+      "options": [
+        {
+          "label": "1",
+          "text": "y - x = 0"
+        },
+        {
+          "label": "2",
+          "text": "y + x = 0"
+        },
+        {
+          "label": "3",
+          "text": "2x + y + 3 = 0"
+        },
+        {
+          "label": "4",
+          "text": "x + 2y - 3 = 0"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nNotice the relationship between the x and y coordinates in the given points: (-3, 3), (-2, 2) and (4, -4).\n\nFor every point, the sum of the x-coordinate and the y-coordinate is exactly zero.\n\n⇒ (-3) + 3 = 0\n\n⇒ (-2) + 2 = 0\n\n⇒ 4 + (-4) = 0\n\nThus, the equation satisfying all given points is y + x = 0.\n\n**∴ The correct answer is y + x = 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nThree points on a line: (-3, 3), (-2, 2) and (4, -4)\n\n**Formula Used:**\n\nTwo-point form of a linear equation: (y − y₁) = m(x −",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Linear Equation in 2 Variable"
+      ]
+    },
+    {
+      "qid": "63d4afdcb9e7bbe92faa2c33",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Linear Equation in 2 Variable",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The area of the triangle formed by the line (x)/(a)+(y)/(b)=1 with the coordinate axes is",
+      "options": [
+        {
+          "label": "1",
+          "text": "ab"
+        },
+        {
+          "label": "2",
+          "text": "2ab"
+        },
+        {
+          "label": "3",
+          "text": "(1)/(2)ab"
+        },
+        {
+          "label": "4",
+          "text": "(1)/(4)ab"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Concept Used:-**\n\nThe area of a triangle is half of the product of its base and height.\n\n⇒ Area of a triangle = 1/2 (base × height)\n\n**Explanation:-**\n\nGiven line is,\n\n(x)/(a)+(y)/(b)=1\n\nIt can be solved as,\n\nRightarrow dfrac{x}{a}+(y)/(b)=1\\ Rightarrow dfrac{bx+ay}{ab}=1\\ Rightarrow bx+ay=ab ​​\n\nAt x = 0\n\n⇒ b(0) + ay = ab\n\n⇒ ay = ab\n\n⇒ y = b\n\nAt y = 0\n\n⇒ bx + (0)y = ab\n\n⇒ bx = ab\n\n⇒ x = a\n\nHere, intercept on x-axis = a and intercept on y-axis = b\n\nOn the graph, the triangle we get,\n\n [IMAGE: https://cdn.repeatermock.com/tb/b1b52c5d9acbb3dde39dc1c851ecbf0f3e8f24ea736eaafa7b2047b79691343e.png] \n\nNow, we know that,\n\n⇒ Area of a triangle = 1/2 (base × height)\n\nSince, the height of the triangle is 'b' and base of the triangle is 'a'. Thus,\n\n⇒ Area of a triangle = 1/2 (base × height)\n\n⇒ Area of a triangle = ​(1)/(2)​ab\n\nSo, the required area of the triangle is ​(1)/(2)​ab.\n\n**Hence, the correct option is 3.**\n\n3c:Td36,\n&",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b1b52c5d9acbb3dde39dc1c851ecbf0f3e8f24ea736eaafa7b2047b79691343e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Linear Equation in 2 Variable"
+      ]
+    }
+  ]
+}

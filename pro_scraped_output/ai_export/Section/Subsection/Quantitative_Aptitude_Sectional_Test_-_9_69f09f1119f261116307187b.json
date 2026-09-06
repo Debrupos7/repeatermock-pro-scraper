@@ -1,0 +1,1176 @@
+{
+  "test_id": "69f09f1119f261116307187b",
+  "title": "Quantitative Aptitude Sectional Test - 9",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T08:58:42.187272+00:00",
+  "questions": [
+    {
+      "qid": "5e7c63b2f60d5d178e39307f",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The speed of a train is 3 times that of a car and 1.5 times of a steamer. A person travelled x km by steamer, 3.75x km by train and x/2 km by car. If the speed of the car is 40 km/h and total time taken by him is 4(1)/(2) hours, then the total distance travelled by him in three modes is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "450 km"
+        },
+        {
+          "label": "2",
+          "text": "520 km"
+        },
+        {
+          "label": "3",
+          "text": "480 km"
+        },
+        {
+          "label": "4",
+          "text": "420 km"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSpeeds → Car: 40 km/h | Train: 40 × 3 = 120 km/h | Steamer: 120 ÷ 1.5 = 80 km/h\n\nTime = Distance ÷ Speed ⇒ x/80 + 3.75x/120 + 0.5x/40 = 4.5\n\n⇒ x(1/80 + 1/32 + 1/80) = 4.5\n\n⇒ 9x/160 = 4.5 ⇒ x = 80\n\nTotal Distance = x + 3.75x + 0.5x = 5.25x = 5.25 × 80 = 420 km.\n\n**∴ The correct answer is 420 km.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSpeed of car = 40 km/h\n\nTotal time taken = 4.5 hours\n\n**Formula Used:**\n\nTime = Distance ÷ Speed\n\n [IMAGE: https://cdn.repeatermock.com/tb/a9c565d1a85f3c02e122f958017659b009f4a86b3b2cb0148dddade7902ad9fa.png] \n\n**Calculations:**\n\n⇒ Speed of train = 3 × 40 = 120 km/h\n\n⇒ Speed of steamer = 120 ÷ 1.5 = 80 km/h\n\n⇒ Time taken by steamer = x ÷ 80 hours\n\n⇒ Time taken by train = 3.75x ÷ 120 = x ÷ 32 hours\n\n⇒ Time taken by car = (x/2) ÷ 40 = x ÷ 80 hours\n\n⇒ Total time = x/80 + x/32 + x/80 = 4.5\n\n⇒ 2x/80 + x/32 = 4.5\n\n⇒ x/40 + x/32 = 4.5\n\n⇒ (4x + 5x) ÷ 160 = 4.5\n\n⇒ 9x ÷ 160 = 4.5\n\n⇒ x = (4.5 × 160) ÷ 9 = 80\n\n⇒ Total Distance = x + 3.75x + 0.5x = 5.25x\n\n⇒ Total Distance = 5.25 × 80 = 420 km\n\n**∴ The correct answer is 420 km.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAverage Speed\n\nWhen an object covers multiple distances at different speeds, Average Speed = Total Distance ÷ Total Time.\n\nRelative Speed\n\nIf two bodies move in the same direction, relative speed is |S₁ − S₂|. If they move in opposite directions, relative speed is S₁ + S₂.\n\nUnit Conversion\n\nTo convert a speed from km/h to m/s, multiply the value by 5/18. To convert m/s back to km/h, multiply the value by 18/5.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/a9c565d1a85f3c02e122f958017659b009f4a86b3b2cb0148dddade7902ad9fa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "5f621a7e873a9216ec998d1a",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A can complete a work in 10 days. B can complete the same work in 15 days. If B starts the work and A joins him after 5 days, then in how many days will the total work be completed?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet Total Work = LCM(10, 15) = 30 units.\n\nEfficiency of A = 30 ÷ 10 = 3 units/day, and B = 30 ÷ 15 = 2 units/day.\n\nWork done by B in the first 5 days = 5 × 2 = 10 units.\n\nRemaining work (30 − 10 = 20 units) is done by A and B together (combined efficiency = 5).\n\nTotal time = 5 days + (20 ÷ 5) days = 5 + 4 = 9 days.\n\n**∴ The correct answer is 9 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTime taken by A = 10 days\n\nTime taken by B = 15 days\n\nB starts the work and A joins him after 5 days.\n\n**Formula Used:**\n\nTotal Work = Efficiency × Time\n\n**Calculation:**\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n A\n 10\n 30\n 3\n \n \n\n B\n 15\n 2\n \n \n\n⇒ Work done by B in the initial 5 days = Efficiency of B × 5 = 2 × 5 = 10 units\n\n⇒ Remaining work = 30 − 10 = 20 units\n\n⇒ When A joins B, their combined efficiency = 3 + 2 = 5 units/day\n\n⇒ Time taken by A and B to finish the remaining work = 20 ÷ 5 = 4 days\n\n⇒ Total days required to complete the total work = Initial 5 days + 4 days = 9 days\n\n**∴ The correct answer is 9 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nLCM Method for Total Work\n\nAssuming total work as the least common multiple (LCM) of the given times ensures individual efficiencies are whole numbers, avoiding complex fraction calculations.\n\nEfficiency and Time Relationship\n\nEfficiency is inversely proportional to the time taken to complete a specific task. If a person takes less time, their daily work efficiency is proportionally higher.\n\nCombined Working\n\nWhen individuals work together simultaneously, their total efficiency is the sum of their individual efficiencies (Combined Efficiency = EA + EB).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "61efacf64b9a917c904a7f49",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Let sin A + cos B = 0 and sin B + cos A = 2. What is the value of sin (A + B)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "-1"
+        },
+        {
+          "label": "4",
+          "text": "0"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nGiven sin B + cos A = 2. Since the maximum value of both sine and cosine is 1, this equation is only possible if sin B = 1 and cos A = 1.\n\n⇒ B = 90° and A = 0°\n\nCheck with the first given equation: sin A + cos B = sin 0° + cos 90° = 0 + 0 = 0 (Condition satisfied)\n\n⇒ sin(A + B) = sin(0° + 90°) = sin 90° = 1\n\n**∴ The correct answer is 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nsin A + cos B = 0 . . . (1)\n\nsin B + cos A = 2 . . . (2)\n\n**Formula Used:**\n\nsin² θ + cos² θ = 1\n\nsin(A + B) = sin A cos B + cos A sin B\n\n**Calculations:**\n\nSquaring and adding equations (1) and (2):\n\n⇒ (sin A + cos B)² + (sin B + cos A)² = 0² + 2²\n\n⇒ (sin² A + cos² B + 2 sin A cos B) + (sin² B + cos² A + 2 sin B cos A) = 4\n\nRearranging the terms:\n\n⇒ (sin² A + cos² A) + (sin² B + cos² B) + 2(sin A cos B + cos A sin B) = 4\n\n⇒ 1 + 1 + 2 sin(A + B) = 4\n\n⇒ 2 + 2 sin(A + B) = 4\n\n⇒ 2 sin(A + B) = 2\n\n⇒ sin(A + B) = 1\n\n**∴ The correct answer is 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTrigonometric Identities\n\nsin² θ + cos² θ = 1 | sec² θ − tan² θ = 1 | cosec² θ − cot² θ = 1\n\nCompound Angle Formulas\n\nsin(A − B) = sin A cos B − cos A sin B\n\ncos(A + B) = cos A cos B − sin A sin B\n\ncos(A − B) = cos A cos B + sin A sin B\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "62a81eef52dcf2bd64f4f389",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A dishonest grocer sells the rice at a profit of 10% and uses weights which are 20% less than market weights. The total gain earned by him is",
+      "options": [
+        {
+          "label": "1",
+          "text": "32%"
+        },
+        {
+          "label": "2",
+          "text": "37.5%"
+        },
+        {
+          "label": "3",
+          "text": "30.5%"
+        },
+        {
+          "label": "4",
+          "text": "35.5%"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIn dishonest dealer problems, we can use the direct ratio method comparing Cost Price (CP) to Selling Price (SP):\n\nPrice Ratio = 100 → 110 (Due to 10% profit claim)\n\nWeight Ratio = 80 → 100 (Giving 20% less weight means bearing the cost of 80g but charging for 100g)\n\nCombined CP : SP = 80 : 110 = 8 : 11\n\nProfit % = [(11 − 8) ÷ 8] × 100 = (3 ÷ 8) × 100 = 37.5%\n\n**∴ The correct answer is 37.5%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nProfit claimed by the grocer = 10%\n\nWeight used by the grocer = 20% less than the standard market weight\n\n**Formula Used:**\n\nProfit % = [(SP − CP) ÷ CP] × 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/3c48bf9f1ae2b657ea4b0d768fd0c91bf4f06ea226c48ee642051d83fd00e38b.png] \n\n**Calculations:**\n\n⇒ Let the true market weight be 1000g and the cost price of 1000g be 1000 units.\n\n⇒ The grocer claims a profit of 10%, meaning he sells the promised 1000g for an amount equal to 1000 + 10% of 1000.\n\n⇒ Selling Price (SP) = 1000 + 100 = 1100 units.\n\n⇒ However, he uses false weights which are 20% less than the standard weight.\n\n⇒ Actual weight given to the customer = 1000g − 20% of 1000g = 800g.\n\n⇒ The actual Cost Price (CP) incurred by the grocer = Cost of 800g = 800 units.\n\n⇒ Profit earned = SP − CP = 1100 − 800 = 300 units.\n\n⇒ Total Gain % = (Profit ÷ CP) × 100\n\n⇒ Total Gain % = (300 ÷ 800) × 100 = (3 ÷ 8) × 100 = 37.5%\n\n**∴ The correct answer is 37.5%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nDishonest Dealer Selling at Cost Price\n\nWhen a dealer pretends to sell goods at Cost Price but uses a false weight, Profit % = [Error ÷ (True Weight − Error)] × 100.\n\nDishonest Dealer Selling at a Profit or Loss\n\nIf goods are sold at a markup or markdown of x% using a false weight, Net Profit % = [(True Weight × (100±x)/100 − False Weight) ÷ False Weight] × 100.\n\nSuccessive Profit Ratios\n\nIf a transaction involves multiple sources of profit (e.g., price markup and weight cheating), the combined effect can be calculated by multiplying their respective CP to SP ratios to find the final overall ratio.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/3c48bf9f1ae2b657ea4b0d768fd0c91bf4f06ea226c48ee642051d83fd00e38b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "62abe724a355b4832aea93ea",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A seller sold a cloth for Rs.1008 after giving 20% discount on the labelled price. If he had not given the discount, then he would have earned a profit of 40% on the cost price. What is the cost price (in Rs.) of the cloth?",
+      "options": [
+        {
+          "label": "1",
+          "text": "800"
+        },
+        {
+          "label": "2",
+          "text": "850"
+        },
+        {
+          "label": "3",
+          "text": "750"
+        },
+        {
+          "label": "4",
+          "text": "900"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSelling Price is 80% of Marked Price (20% discount).\n\n0.8 × MP = 1008 ⇒ MP = ₹1260\n\nIf no discount is given, MP becomes the new Selling Price, yielding a 40% profit.\n\n1.4 × CP = 1260 ⇒ CP = 1260 ÷ 1.4 = ₹900\n\n**∴ The correct answer is ₹900.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n⇒ Selling Price (SP) = ₹1008\n\n⇒ Discount = 20%\n\n⇒ Profit if sold without discount = 40%\n\n**Formula Used:**\n\n⇒ MP = SP × [100 ÷ (100 − Discount%)]\n\n⇒ CP = SPₙₑw × [100 ÷ (100 + Profit%)]\n\n [IMAGE: https://cdn.repeatermock.com/tb/8b6e92a77f95a7ffcda44ef20c292b35a50ee1358a347e8d285bb2e07cb1bfa0.png] \n\n**Calculations:**\n\n⇒ MP = 1008 × [100 ÷ (100 − 20)]\n\n⇒ MP = 1008 × (100 ÷ 80) = 1008 × (5 ÷ 4)\n\n⇒ MP = 252 × 5 = ₹1260\n\n⇒ If no discount is given, the article is sold at Marked Price.\n\n⇒ New Selling Price (SPₙₑw) = MP = ₹1260\n\n⇒ CP = 1260 × [100 ÷ (100 + 40)]\n\n⇒ CP = 1260 × (100 ÷ 140) = 1260 × (5 ÷ 7)\n\n⇒ CP = 180 × 5 = ₹900\n\n**∴ The correct answer is ₹900.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRelation between CP and MP\n\nThe direct ratio between Cost Price and Marked Price is given by the formula: CP ÷ MP = (100 − Discount%) ÷ (100 + Profit%).\n\nMarked Price (MP)\n\nIt is the labelled or printed price of an article. Discounts are always calculated on the Marked Price, while Profit or Loss is strictly calculated on the Cost Price.\n\nZero Discount Scenario\n\nWhen a seller gives no discount, the item is sold completely at its Marked Price. In this practical scenario, Selling Price (SP) = Marked Price (MP).\n\n45:T7cf,\n<p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8b6e92a77f95a7ffcda44ef20c292b35a50ee1358a347e8d285bb2e07cb1bfa0.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "62b3f9ecfdc6cbe6699716ea",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "X and Y can complete a certain work in 18 days and 30 days respectively. Z is 50% more efficient than Y. Z and Y started the work but both had to leave after 4 days. The remaining work was completed by X with the assistance of P in the next 4 days. P alone can complete the original work in",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 days"
+        },
+        {
+          "label": "2",
+          "text": "9 days"
+        },
+        {
+          "label": "3",
+          "text": "12 days"
+        },
+        {
+          "label": "4",
+          "text": "10 days"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal work = LCM(18, 30) = 90 units.\n\nEfficiency of X = 5, Efficiency of Y = 3.\n\nZ is 50% more efficient than Y ⇒ Z's efficiency = 3 + 1.5 = 4.5.\n\nWork by (Y + Z) in 4 days = 4 × (3 + 4.5) = 30 units.\n\nRemaining work (90 − 30 = 60 units) is done by (X + P) in 4 days ⇒ Efficiency of P = (60 ÷ 4) − 5 = 10.\n\nTime taken by P alone = 90 ÷ 10 = 9 days.\n\n**∴ The correct answer is 9 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTime taken by X = 18 days\n\nTime taken by Y = 30 days\n\nZ is 50% more efficient than Y.\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n X\n 18\n 90\n 5\n \n \n\n Y\n 30\n 3\n \n \n\n**Calculations:**\n\n⇒ Efficiency of Z = Efficiency of Y + (50% of Efficiency of Y)\n\n⇒ Efficiency of Z = 3 + (0.5 × 3) = 4.5 units/day\n\n⇒ Y and Z started the work and left after 4 days.\n\n⇒ Work completed by Y and Z = 4 × (Efficiency of Y + Efficiency of Z)\n\n⇒ Work completed by Y and Z = 4 × (3 + 4.5) = 4 × 7.5 = 30 units\n\n⇒ Remaining work = Total Work − Work completed\n\n⇒ Remaining work = 90 − 30 = 60 units\n\n⇒ This remaining work is completed by X and P in 4 days.\n\n⇒ Combined efficiency of X and P = Remaining work ÷ Time\n\n⇒ Combined efficiency of X and P = 60 ÷ 4 = 15 units/day\n\n⇒ Efficiency of P = Combined efficiency − Efficiency of X\n\n⇒ Efficiency of P = 15 − 5 = 10 units/day\n\n⇒ Time taken by P alone to complete the original work = Total Work ÷ Efficiency of P\n\n⇒ Time taken by P = 90 ÷ 10 = 9 days\n\n**∴ The correct answer is 9 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nEfficiency and Time\n\nThe time taken by a person to complete a piece of work is inversely proportional to their efficiency. Higher efficiency results in lesser time taken.\n\nTotal Work Concept\n\nTotal Work can be assumed as the Least Common Multiple (LCM) of the given individual times to simplify efficiency calculations. Total Work = Efficiency × Time.\n\nWork and Wages\n\nWages are distributed in direct proportion to the amount of total work completed by each individual, or their efficiency if they work for the same number of days.\n\nPipes & Cisterns\n\nFunctions identically to Time & Work problems, with the exception that outlet pipes or leaks are treated as negative efficiency.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "62de7a3d17264e0d53a4b32c",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the square of the sum of two numbers is equal to 4 times of their product, then the ratio of these numbers is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 ∶ 3"
+        },
+        {
+          "label": "2",
+          "text": "1 ∶ 2"
+        },
+        {
+          "label": "3",
+          "text": "5 ∶ 1"
+        },
+        {
+          "label": "4",
+          "text": "1 ∶ 1"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWe can solve this quickly by testing the given options.\n\nLet the two numbers be x and y. The given condition is (x + y)² = 4xy.\n\nTesting Option 4 (1 : 1) ⇒ (1 + 1)² = 2² = 4.\n\nAnd 4 × 1 × 1 = 4. Both sides are perfectly equal.\n\nNone of the other options will satisfy this condition.\n\n**∴ The correct answer is 1 : 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nThe square of the sum of two numbers is equal to 4 times their product.\n\nLet the two numbers be x and y.\n\n**Formula Used:**\n\n(a + b)² = a² + b² + 2ab\n\n(a − b)² = a² + b² − 2ab\n\n [IMAGE: https://cdn.repeatermock.com/tb/6fc392d2e0c29d60eadbb89debcab261f12a058143276751b688b31db89d8aad.png] \n\n**Calculations:**\n\n⇒ (x + y)² = 4xy\n\n⇒ x² + y² + 2xy = 4xy\n\n⇒ x² + y² + 2xy − 4xy = 0\n\n⇒ x² + y² − 2xy = 0\n\n⇒ (x − y)² = 0\n\nTaking the square root on both sides:\n\n⇒ x − y = 0\n\n⇒ x = y\n\n⇒ x / y = 1 / 1\n\n**∴ The correct answer is 1 : 1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPerfect Square Identity\n\nThe expression (a − b)² is always greater than or equal to zero. Therefore, if (a − b)² = 0, the only possible solution in real numbers is a = b.\n\nDuplicate Ratio\n\nThe duplicate ratio of two numbers a and b is expressed as a² : b². It strictly represents the ratio of their squared values.\n\nComponendo and Dividendo Rule\n\nIf two ratios are strictly equal such that a / b = c / d, then according to the rule of componendo and dividendo, (a + b) / (a − b) = (c + d) / (c − d).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/6fc392d2e0c29d60eadbb89debcab261f12a058143276751b688b31db89d8aad.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "62ed1f38633c76849a3537f5",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If Δ ABC is similar to Δ DEF such that BC = 3 cm, EF = 4 cm and the area of Δ ABC = 54 cm², then the area of Δ DEF is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "78 cm²"
+        },
+        {
+          "label": "2",
+          "text": "96 cm²"
+        },
+        {
+          "label": "3",
+          "text": "66 cm²"
+        },
+        {
+          "label": "4",
+          "text": "44 cm²"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nFor similar triangles, the ratio of areas is equal to the square of the ratio of their corresponding sides.\n\nArea(ΔABC) ÷ Area(ΔDEF) = (BC ÷ EF)²\n\n54 ÷ Area(ΔDEF) = (3 ÷ 4)² = 9 ÷ 16\n\nArea(ΔDEF) = (54 × 16) ÷ 9 = 96 cm²\n\n**∴ The correct answer is 96 cm².**\n\n**__Alternate Method__**\n\n**Given:**\n\n⇒ ΔABC is similar to ΔDEF\n\n⇒ Base BC = 3 cm, Base EF = 4 cm\n\n⇒ Area of ΔABC = 54 cm²\n\n**Formula Used:**\n\n⇒ Area(ΔABC) ÷ Area(ΔDEF) = (BC ÷ EF)²\n\n [IMAGE: https://cdn.repeatermock.com/tb/e4f414ba3b0f0292774070a1e6a68abb5deff409a5c46ca1571f2c4dd071318b.png] \n\n**Calculations:**\n\n⇒ 54 ÷ Area(ΔDEF) = (3 ÷ 4)²\n\n⇒ 54 ÷ Area(ΔDEF) = 9 ÷ 16\n\n⇒ Area(ΔDEF) = (54 × 16) ÷ 9\n\n⇒ Area(ΔDEF) = 6 × 16\n\n⇒ Area(ΔDEF) = 96 cm²\n\n**∴ The correct answer is 96 cm².**\n\n**__Additional Information__**\n\nConditions for Similarity of Triangles\n\nTwo triangles are similar if their corresponding angles are equal (AAA similarity), or corresponding sides are proportional (SSS), or two corresponding sides are proportional with the included angle equal (SAS).\n\nProperties of Similar Triangles\n\nWhen two triangles are similar, the ratio of their corresponding perimeters, altitudes, medians, and angle bisectors is strictly equal to the ratio of their corresponding sides.\n\nRatio of Areas of Similar Triangles\n\nThe ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides: Area₁ ÷ Area₂ = (Side₁ ÷ Side₂)².\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e4f414ba3b0f0292774070a1e6a68abb5deff409a5c46ca1571f2c4dd071318b.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "63b16e83fc6b26455f202b71",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the equation of the perpendicular drawn from the point A (4, 1) to the line made by the the points B (2, -1) and C (6, 5)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3x - 2y = 11"
+        },
+        {
+          "label": "2",
+          "text": "2x + 3y = 11"
+        },
+        {
+          "label": "3",
+          "text": "2x + 3y = 15"
+        },
+        {
+          "label": "4",
+          "text": "3x + 2y = 15"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSlope of the line joining B(2, −1) and C(6, 5) = (5 − (−1)) ÷ (6 − 2) = 6/4 = 3/2.\n\nA line perpendicular to this will have a slope of −2/3, meaning its equation takes the standard form 2x + 3y = k.\n\nSince the perpendicular passes through point A(4, 1), substitute x = 4 and y = 1 to find k.\n\n⇒ 2(4) + 3(1) = 8 + 3 = 11.\n\n**∴ The correct answer is 2x + 3y = 11.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCoordinates of the points: A = (4, 1), B = (2, −1), and C = (6, 5).\n\n**Formula Used:**\n\nSlope m = (y₂ − y₁) ÷ (x₂ − x₁)\n\nPoint-slope form: (y − y₁) = m(x − x₁)\n\n \n• \n \n• \n \n \n\n \n \n \n \n \n\n A (4, 1)\n B (2, -1)\n C (6, 5)\n \n 2x + 3y = 11\n 3x - 2y = 8\n\n**Calculations:**\n\n⇒ Slope of the line BC (m₁) = (5 − (−1)) ÷ (6 − 2)\n\n⇒ m₁ = 6 ÷ 4 = 3/2\n\n⇒ Let the slope of the perpendicular line from A be m₂.\n\n⇒ For mutually perpendicular lines, the product of their slopes is always −1.\n\n⇒ m₁ × m₂ = −1\n\n⇒ (3/2) × m₂ = −1 ⇒ m₂ = −2/3\n\n⇒ Now, use the point-slope form for the line passing through A(4, 1) with slope −2/3:\n\n⇒ (y − 1) = (−2/3) × (x − 4)\n\n⇒ 3 × (y − 1) = −2 × (x − 4)\n\n⇒ 3y − 3 = −2x + 8\n\n⇒ 2x + 3y = 11\n\n**∴ The correct answer is 2x + 3y = 11.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSlope of a Line\n\nGiven two points (x₁, y₁) and (x₂, y₂), the slope m = (y₂ − y₁) ÷ (x₂ − x₁).\n\nPerpendicular Lines Condition\n\nIf two lines are perpendicular, the product of their slopes is strictly −1 (i.e., m₁ × m₂ = −1).\n\nParallel Lines Condition\n\nIf two lines are parallel to each other, their slopes are perfectly equal (i.e., m₁ = m₂).\n\nEquation of a Line\n\nThe point-slope form of a linear equation is y − y₁ = m(x − x₁), where m is the slope and (x₁, y₁) is a known point on the line.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "63f9b7ea06fbb25e9ae4f49b",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If a linear equation has solutions (-3, 3), (-2, 2) and (4, -4) then it is of the form :",
+      "options": [
+        {
+          "label": "1",
+          "text": "y - x = 0"
+        },
+        {
+          "label": "2",
+          "text": "y + x = 0"
+        },
+        {
+          "label": "3",
+          "text": "2x + y + 3 = 0"
+        },
+        {
+          "label": "4",
+          "text": "x + 2y - 3 = 0"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nNotice the relationship between the x and y coordinates in the given points: (-3, 3), (-2, 2) and (4, -4).\n\nFor every point, the sum of the x-coordinate and the y-coordinate is exactly zero.\n\n⇒ (-3) + 3 = 0\n\n⇒ (-2) + 2 = 0\n\n⇒ 4 + (-4) = 0\n\nThus, the equation satisfying all given points is y + x = 0.\n\n**∴ The correct answer is y + x = 0.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nThree points on a line: (-3, 3), (-2, 2) and (4, -4)\n\n**Formula Used:**\n\nTwo-point form of a linear equation: (y − y₁) = m(x −",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "63f27172e7f1d4286c5d2bab",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Probability",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Three coins are tossed once. The probability of getting atleast 2 heads is",
+      "options": [
+        {
+          "label": "1",
+          "text": "(1)/(4)"
+        },
+        {
+          "label": "2",
+          "text": "(1)/(8)"
+        },
+        {
+          "label": "3",
+          "text": "(3)/(4)"
+        },
+        {
+          "label": "4",
+          "text": "(1)/(2)"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal possible outcomes for tossing 3 coins = 2³ = 8.\n\nOutcomes with at least 2 heads = (Exactly 2 heads) + (Exactly 3 heads).\n\nFavorable ways = ³C₂ + ³C₃ = 3 + 1 = 4.\n\nProbability = Favorable outcomes ÷ Total outcomes = 4 ÷ 8 = 1/2.\n\n**∴ The correct answer is 1/2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nNumber of coins tossed = 3\n\n**Formula Used:**\n\nProbability P(E) = Number of favorable outcomes n(E) ÷ Total number of outcomes n(S)\n\n**Calculations:**\n\n⇒ When 3 coins are tossed once, the sample space (S) of all possible outcomes is given by:\n\n⇒ S = {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}\n\n⇒ Total number of possible outcomes, n(S) = 8\n\n⇒ Let E be the event of getting at least 2 heads.\n\n⇒ Favorable outcomes are those that contain either 2 heads or 3 heads.\n\n⇒ Favorable outcomes, E = {HHT, HTH, THH, HHH}\n\n⇒ Number of favorable outcomes, n(E) = 4\n\n⇒ Required Probability P(E) = 4 ÷ 8\n\n⇒ P(E) = 1/2\n\n**∴ The correct answer is 1/2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTotal Outcomes for Coins\n\nWhen n coins are tossed simultaneously, the total number of possible outcomes is 2ⁿ.\n\nAt Least vs At Most\n\n'At least x' means x or more occurrences. 'At most x' means x or fewer occurrences, including zero.\n\nRange of Probability\n\nThe probability of any event E always lies between 0 and 1, inclusive: 0 ≤ P(E) ≤ 1.\n\nComplementary Event\n\nThe probability of an event not occurring is given by P(E') = 1 − P(E).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Probability"
+      ]
+    },
+    {
+      "qid": "63fca737d3d2c61714e4bec2",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A certain number is subtracted from each of the numbers 20, 24, and 29. After the subtraction, the resulting numbers are in proportion. What is the number that was subtracted?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe fastest way to solve this is by testing the options to find a common ratio.\n\nLet's check Option 2, which gives the value 4.\n\nSubtracting 4 from 20, 24, and 29 gives the numbers 16, 20, and 25.\n\nThree numbers are in continued proportion if the ratio of the first to second equals the second to third.\n\nChecking the ratios: 16 ÷ 20 = 4/5 and 20 ÷ 25 = 4/5. The condition is perfectly satisfied.\n\n**∴ The correct answer is 4.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nThree numbers: 20, 24, and 29\n\n**Formula Used:**\n\nIf three numbers a, b, and c are in continued proportion, then a/b = b/c or b² = a × c.\n\n [IMAGE: https://cdn.repeatermock.com/tb/943d308fa55982c79db6f750341d01f45967d117ac15925974ce4dbcfc97a33b.png] \n\n**Calculations:**\n\nLet the number subtracted from each value be x.\n\n⇒ The new numbers become (20 − x), (24 − x), and (29 − x).\n\n⇒ According to the continued proportion rule: (20 − x) ÷ (24 − x) = (24 − x) ÷ (29 − x)\n\n⇒ Cross-multiplying, we get:\n\n⇒ (20 − x) × (29 − x) = (24 − x)²\n\n⇒ 580 − 20x − 29x + x² = 576 − 48x + x²\n\n⇒ 580 − 49x = 576 − 48x\n\n⇒ 580 − 576 = 49x − 48x\n\n⇒ x = 4\n\n**∴ The correct answer is 4.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nProportion\n\nFour numbers a, b, c, and d are said to be in proportion if a ÷ b = c ÷ d, denoted as a:b :: c:d.\n\nContinued Proportion\n\nThree numbers a, b, and c are in continued proportion if a:b = b:c, meaning b² = a × c. Here, b is called the mean proportional between a and c.\n\nComponendo and Dividendo Rule\n\nFor any valid proportion a/b = c/d, the rule states that (a + b) ÷ (a − b) = (c + d) ÷ (c − d). This property is highly useful for rapidly simplifying complex fractional equations without cross-multiplying.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/943d308fa55982c79db6f750341d01f45967d117ac15925974ce4dbcfc97a33b.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "64a16b580040a8deb038a14b",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A defective dining set costing Rs. 10000 is being sold at 10% loss. If the price is further reduced successively by 5%, then the selling price is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "8550"
+        },
+        {
+          "label": "2",
+          "text": "7850"
+        },
+        {
+          "label": "3",
+          "text": "9000"
+        },
+        {
+          "label": "4",
+          "text": "9150"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSuccessive reduction formula can be directly applied to the initial cost to find the final selling price.\n\nSelling Price (SP) = CP × [(100 − L₁) ÷ 100] × [(100 − L₂) ÷ 100]\n\nSP = 10000 × (90 ÷ 100) × (95 ÷ 100)\n\nSP = 10000 × 0.90 × 0.95 = 8550\n\n**∴ The correct answer is ₹8550.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/594cd4ff8bead22426fbc77fc99fdd0a1cd8a9fd7816981c71d07240313c769c.png] \n\n**Given:**\n\nInitial Cost Price of dining set = ₹10000\n\nLoss percentage = 10%\n\nSuccessive reduction percentage = 5%\n\n**Calculations:**\n\n⇒ Price after 10% loss = 10000 − (10% of 10000)\n\n⇒ Price after 10% loss = 10000 − 1000 = ₹9000\n\n⇒ Final Selling Price after further 5% reduction = 9000 − (5% of 9000)\n\n⇒ Final Selling Price = 9000 − 450 = ₹8550\n\n**∴ The correct answer is ₹8550.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nEffective Successive Reduction\n\nWhen two successive reductions of a% and b% are applied, the net equivalent reduction percentage is given by the formula: (a + b − a × b ÷ 100)%.\n\nProfit and Loss Basics\n\nProfit and Loss are always computed on the Cost Price (CP) unless specifically stated otherwise. SP = CP × (100 ± Profit/Loss)% ÷ 100.\n\nMarked Price vs Selling Price\n\nA discount is always offered on the Marked Price (MP) of an article. Selling Price (SP) = MP × (100 − Discount)% ÷ 100.\n\n83:T724,",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/594cd4ff8bead22426fbc77fc99fdd0a1cd8a9fd7816981c71d07240313c769c.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "64c611755826cf0da1839b28",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The ratio of percentage of the marks between A and B in a test is 5 ∶ 4. In the next test, A gets 5 marks more, and B gets 15 marks more than the previous test, and the new ratio becomes 16 ∶ 15. Find the original marks of A.",
+      "options": [
+        {
+          "label": "1",
+          "text": "75"
+        },
+        {
+          "label": "2",
+          "text": "55"
+        },
+        {
+          "label": "3",
+          "text": "70"
+        },
+        {
+          "label": "4",
+          "text": "60"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUsing the cross-multiplication (ratio shift) method:\n\nInitial Ratio → 5 : 4, Final Ratio → 16 : 15, Change → +5 and +15.\n\nCross-product difference of ratios = (15 × 5) − (16 × 4) = 75 − 64 = 11 units.\n\nCross-product difference of change = (16 × 15) − (15 × 5) = 240 − 75 = 165.\n\n⇒ 11 units = 165 ⇒ 1 unit = 15.\n\n⇒ Original marks of A = 5 units = 5 × 15 = 75.\n\n**∴ The correct answer is 75.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nInitial ratio of marks of A and B = 5 : 4\n\nIncrease in A's marks = 5\n\nIncrease in B's marks = 15\n\nFinal ratio of marks = 16 : 15\n\n**Formula Used:**\n\nIf the initial ratio is a : b and quantities are changed by c and d to form ratio p : q, then (ax + c) ÷ (bx + d) = p ÷ q.\n\n [IMAGE: https://cdn.repeatermock.com/tb/d5438292ba2374b2d436d398ed7709e1aa1c49cca3ce494764f2fdee4cc81399.png] \n\n**Calculation:**\n\n⇒ Let the initial marks of A and B be 5x and 4x respectively.\n\n⇒ After the increase, A's marks = 5x + 5\n\n⇒ After the increase, B's marks = 4x + 15\n\n⇒ According to the question, (5x + 5) ÷ (4x + 15) = 16 ÷ 15\n\n⇒ Cross-multiplying, 15 × (5x + 5) = 16 × (4x + 15)\n\n⇒ 75x + 75 = 64x + 240\n\n⇒ 75x − 64x = 240 − 75\n\n⇒ 11x = 165\n\n⇒ x = 165 ÷ 11 = 15\n\n⇒ Original marks of A = 5x = 5 × 15 = 75.\n\n**∴ The correct answer is 75.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCross-Multiplication Method\n\nUsed when two quantities in a given ratio are changed by certain values to form a new ratio. It quickly solves the proportional equation without requiring step-by-step algebra.\n\nCompound Ratio\n\nThe compound ratio of two independent ratios a:b and c:d is defined by multiplying the antecedents and consequents together: (a × c) : (b × d).\n\nProportion Rule\n\nWhen two ratios are equivalent, they are said to be in proportion (a:b :: c:d). The fundamental property states that the product of extremes equals the product of means (a × d = b × c).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d5438292ba2374b2d436d398ed7709e1aa1c49cca3ce494764f2fdee4cc81399.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "64e32972c86cb4621147a345",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many rational numbers are there can be between two rational number:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "Unlimited"
+        },
+        {
+          "label": "4",
+          "text": "100"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe density property of rational numbers states that between any two distinct rational numbers, there is always another rational number.\n\nIf a and b are rational numbers, then their average (a + b) ÷ 2 is also a rational number lying exactly between them.\n\nSince this process of finding the average can be repeated infinitely, we get an endless chain of rational numbers.\n\nTherefore, the number of rational numbers between any two rational numbers is infinite (unlimited).\n\n**∴ The correct answer is Unlimited.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** Two rational numbers.\n\n**Concept Used:** A rational number is any number that can be expressed as p/q, where p and q are integers and q ≠ 0.\n\n [IMAGE: https://cdn.repeatermock.com/tb/30c6b1343508975d97f9d786d949bcf566fd94d4f5ed2fb854f0a7053379109d.png] \n\n⇒ Let the two distinct rational numbers be x and y, where x [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRational Numbers\n\nAny number that can be written in the form of p/q, where p and q are integers and q ≠ 0, is called a rational number.\n\nIrrational Numbers\n\nNumbers that cannot be written as a simple fraction (p/q). Their decimal expansions are non-terminating and non-repeating (e.g., √2, π). Just like rational numbers, there are also infinitely many irrational numbers between any two given rational numbers.\n\nDensity Property\n\nThe property stating that between any two numbers of a set, there is always another number belonging to that set. Both rational and real numbers possess the density property, whereas integers do not.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/30c6b1343508975d97f9d786d949bcf566fd94d4f5ed2fb854f0a7053379109d.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "625f0354a27b6e6bab6f8722",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If (81x ÷ 27³) × 3² = 3, then x = _____.",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nConvert all terms to base 3: 81 = 3⁴, 27 = 3³.\n\nEquate the exponents of base 3 from the equation:\n\n(4 × x − 3 × 3) + 2 = 1\n\n4x − 9 + 2 = 1\n\n4x − 7 = 1 ⇒ 4x = 8 ⇒ x = 2.\n\n**∴ The correct answer is 2.**\n\n**__Alternate Method__**\n\nGiven equation: (81x ÷ 27³) × 3² = 3\n\nFormula used: (am)ⁿ = am×ⁿ, am ÷ aⁿ = am−ⁿ, am × aⁿ = am⁺ⁿ\n\n⇒ ((3⁴)x ÷ (3³)³) × 3² = 3¹\n\n⇒ (3⁴x ÷ 3⁹) × 3² = 3¹\n\n⇒ (3⁴x−⁹) × 3² = 3¹\n\n⇒ 3⁴x−⁹⁺² = 3¹\n\n⇒ 3⁴x−⁷ = 3¹\n\nComparing the powers of the same base (3):\n\n⇒ 4x − 7 = 1\n\n⇒ 4x = 1 + 7\n\n⇒ 4x = 8\n\n⇒ x = 8/4 = 2\n\n**∴ The correct answer is 2.**\n\n**__Additional Information__**\n\nLaws of Indices\n\nFor any non-zero base 'a', the product rule is am × aⁿ = am⁺ⁿ and the quotient rule is am ÷ aⁿ = am−ⁿ.\n\nPower of a Power Rule\n\nWhen a power is raised to another power, multiply the exponents: (am)ⁿ = am×ⁿ.\n\nComparison of Bases\n\nIf ax = ay and a ≠ 0, 1, or −1, then the exponents must be equal, i.e., x = y.\n\nNegative and Zero Exponents\n\nAny non-zero base raised to power 0 is 1 (a⁰ = 1) and a−ⁿ = 1/aⁿ.</p",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "631b3a86943f4d7aa0685757",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 25% of 500 + 35% of 1420 + 27% of 1800 = 1000 + x, then the value of x lies between:",
+      "options": [
+        {
+          "label": "1",
+          "text": "100 to 107"
+        },
+        {
+          "label": "2",
+          "text": "109 to 111"
+        },
+        {
+          "label": "3",
+          "text": "101 to 105"
+        },
+        {
+          "label": "4",
+          "text": "105 to 109"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n25% of 500 + 35% of 1420 + 27% of 1800 = 1000 + x\n\n**Formula used:**\n\na% of b = (a)/(100) times b\n\n**Calculation:**\n\n((25)/(100) times 500) + ((35)/(100) times 1420) + ((27)/(100) times 1800) = 1000 + x\n\n⇒ 125 + 497 + 486 = 1000 + x\n\n⇒ 1108 = 1000 + x\n\n⇒ x = 1108 - 1000\n\n⇒ x = 108\n\n108 lies between 105 and 109.\n\n**∴ The correct answer is option (4).**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "650af79e7b129955e118e7a4",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average weight of 17 men is 63 kg and the average weight of 36 women is 54 kg. What is the average weight (in kg) of all the men and women together? (Rounded off to the nearest integer)",
+      "options": [
+        {
+          "label": "1",
+          "text": "59"
+        },
+        {
+          "label": "2",
+          "text": "62"
+        },
+        {
+          "label": "3",
+          "text": "57"
+        },
+        {
+          "label": "4",
+          "text": "52"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nUsing the assumed mean (deviation) method to simplify the calculation.\n\nAssume the base average = 54 kg.\n\nDeviation for 17 men = 17 × (63 − 54) = 17 × 9 = +153 kg.\n\nAverage deviation per person = +153 ÷ (17 + 36) = 153 ÷ 53 ≈ +2.88 kg.\n\nCombined average = Base average + Average deviation = 54 + 2.88 = 56.88 kg.\n\nRounding off to the nearest integer gives 57.\n\n**∴ The correct answer is 57 kg.**\n\n**__Alternate Method__**\n\n**Given:**\n\nNumber of men (n₁) = 17, Average weight (A₁) = 63 kg\n\nNumber of women (n₂) = 36, Average weight (A₂) = 54 kg\n\n Weighted Average Visualized as a Balance Scale\n \n \n• \n \n \n 36 W\n 54 kg\n \n \n 17 M\n 63 kg\n \n \n\n Avg ≈ 57 kg\n \n \n• \n \n• \n Ratio: 17 parts\n Ratio: 36 parts\n\n**Formula Used:**\n\nWeighted Average = (n₁ × A₁ + n₂ × A₂) ÷ (n₁ + n₂)\n\n**Calculations:**\n\n⇒ Total weight of men = 17 × 63 = 1071 kg\n\n⇒ Total weight of women = 36 × 54 = 1944 kg\n\n⇒ Total combined weight = 1071 + 1944 = 3015 kg\n\n⇒ Total number of people = 17 + 36 = 53\n\n⇒ Combined average weight = 3015 ÷ 53\n\n⇒ Combined average weight = 56.886... kg\n\n⇒ Rounding off to the nearest integer, we get 57 kg.\n\n**∴ The correct answer is 57 kg.**\n\n**__Additional Information__**\n\nWeighted Average\n\nWhen two or more groups with different quantities are combined, their average is given by Aw = (n₁A₁ + n₂A₂) ÷ (n₁ + n₂).\n\nDeviation Method\n\nInstead of calculating huge products, assume one value as base average. The true average is Base + (∑ Net Deviations ÷ Total Quantity).\n\nAlligation Rule\n\nAlligation is the reverse visual concept of weighted average. It helps find the ratio in which two groups must be mixed to get a desired average: Ratio = (A₂ − Aw) : (Aw − A₁).\n</p",
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "6315d67c92cf2e1f3303d0f0",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is 2 sin⁶θ + 2 cos⁶θ - 3 sin⁴θ - 3 cos⁴θ equal to ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-1"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSince the given trigonometric expression does not have variables in the options, its value is independent of θ.\n\nLet us assume any convenient angle, say θ = 0°.\n\nWe know that sin 0° = 0 and cos 0° = 1.\n\nSubstitute θ = 0° in the given expression: 2(0 + 1) − 3(0 + 1)\n\n⇒ 2(1) − 3(1) = 2 − 3 = −1\n\n**∴ The correct answer is -1.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nExpression: 2 sin⁶θ + 2 cos6</s",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "6374c73c1897bea7e9cad31f",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A wheel makes 12 revolutions per minute. The angle in radian described by a spoke of the wheel in 1 second is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "5π/2"
+        },
+        {
+          "label": "2",
+          "text": "2π/5"
+        },
+        {
+          "label": "3",
+          "text": "3π/5"
+        },
+        {
+          "label": "4",
+          "text": "4π/5"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRevolutions per minute = 12\n\nRevolutions per second = 12 ÷ 60 = 1/5\n\nAngle completed in 1 revolution = 2π radians\n\nAngle described in 1 second = 1/5 × 2π = 2π/5 radians\n\n**∴ The correct answer is 2π/5 radians.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRevolutions made by the wheel in 1 minute = 12\n\n1 minute = 60 seconds\n\n**Formula Used:**\n\nAngle rotated (in radians) = Number of revolutions × 2π\n\n [IMAGE: https://cdn.repeatermock.com/tb/bf5d2be04255db29745ba3527835129685088f3c48735e7179abc488a1d129ae.png] \n\n**Calculations:**\n\n⇒ Number of revolutions in 60 seconds = 12\n\n⇒ Number of revolutions in 1 second = 12 ÷ 60\n\n⇒ Number of revolutions in 1 second = 1/5\n\n⇒ We know that in 1 complete revolution, the angle described at the center is 2π radians.\n\n⇒ Angle described in 1 second = (1/5) × 2π\n\n⇒ Angle described in 1 second = 2π/5 radians\n\n**∴ The correct answer is 2π/5 radians.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAngular Velocity (ω)\n\nIt is defined as the rate of change of angular displacement. It is given by ω = θ ÷ t, and is measured in radians per second.\n\nRadian to Degree Conversion\n\n1 radian = 180° ÷ π. An angle of 2π/5 radians directly corresponds to (2 × 180°) ÷ 5 = 72°.\n\nRevolutions to Radians Relation\n\n1 complete revolution around a circle subtends a full central angle of 360°, which is exactly equal to 2π radians.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/bf5d2be04255db29745ba3527835129685088f3c48735e7179abc488a1d129ae.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "63836e2b9fad63ee2fe96fe8",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The sum of x⁴ – xy + 2y² and –x⁴ + xy + 2y² is",
+      "options": [
+        {
+          "label": "1",
+          "text": "Monomial and polynomial in y"
+        },
+        {
+          "label": "2",
+          "text": "Binomial and Polynomial"
+        },
+        {
+          "label": "3",
+          "text": "Trinomial and polynomial"
+        },
+        {
+          "label": "4",
+          "text": "Monomial and polynomial in x"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAdding the given expressions directly:\n\n⇒ (x⁴ − xy + 2y²) + (−x⁴ + xy + 2y²) = 4y²\n\nThe result is a single term with only the variable y.\n\nThus, it is a monomial and a polynomial in y.\n\n**∴ The correct answer is Monomial and polynomial in y.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nFirst expression: x⁴ − xy + 2y²\n\nSecond expression: −x⁴ + xy + 2y²\n\n**Calculations:**\n\nSumming both the expressions, we get:\n\n⇒ (x⁴ − xy + 2y²) + (−x⁴ + xy + 2y²)\n\nGrouping the like terms together:\n\n⇒ (x⁴ − x⁴) + (−xy + xy) + (2y² + 2y²)\n\n⇒ 0 + 0 + 4y²\n\n⇒ 4y²\n\nA monomial is an algebraic expression consisting of one term.\n\nSince 4y² contains only a single term and has only the variable y, it is a monomial and a polynomial in y.\n\n**∴ The correct answer is Monomial and polynomial in y.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMonomial\n\nA polynomial with exactly one non-zero term is called a monomial. Example: 3x, 5y².\n\nBinomial\n\nA polynomial with exactly two non-zero terms is called a binomial. Example: x + 2, y² − 3.\n\nTrinomial\n\nA polynomial with exactly three non-zero terms is called a trinomial. Example: x² + 2x + 1.\n\nPolynomial in one variable\n\nAn algebraic expression consisting of variables with non-negative integer exponents and involving only one variable. Example: 4y² + y − 2.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "65522c86571533734a46efc7",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The cost of fencing a square field with the rate of Rs 20 per metre is Rs 10080. How much will it cost to lay a three-metre-wide pavement along the fencing inside the field at a rate of Rs 50 per sq metre?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 37500"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 73800"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 77400"
+        },
+        {
+          "label": "4",
+          "text": "None of these"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nPerimeter of square = Total cost ÷ Rate = 10080 ÷ 20 = 504 m\n\nSide of outer square = 504 ÷ 4 = 126 m\n\nArea of inside path = 4 × width × (side − width)\n\nArea of path = 4 × 3 × (126 − 3) = 12 × 123 = 1476 m²\n\nCost of paving = 1476 × 50 = 73800\n\n**∴ The correct answer is Rs. 73800.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCost of fencing = Rs. 10080\n\nRate of fencing = Rs. 20 per metre\n\nWidth of pavement = 3 m\n\nRate of laying the pavement = Rs. 50 per sq metre\n\n [IMAGE: https://cdn.repeatermock.com/tb/235fad71ea78843fb6eb81794565897e40594e6cfaae62d94fbec6d7e3cfd053.png] \n\n**Formula Used:**\n\nPerimeter of square = 4 × Side\n\nArea of square = Side²\n\n**Calculations:**\n\n⇒ Total cost of fencing = Perimeter × Rate of fencing\n\n⇒ 10080 = Perimeter × 20\n\n⇒ Perimeter = 10080 ÷ 20 = 504 m\n\n⇒ Side of the outer square field = Perimeter ÷ 4 = 504 ÷ 4 = 126 m\n\n⇒ Area of the outer square field = 126 × 126 = 15876 m²\n\n⇒ Since a 3-metre-wide pavement is built inside along all four sides, the side of the inner square field = 126 − (2 × 3) = 126 − 6 = 120 m\n\n⇒ Area of the inner square field = 120 × 120 = 14400 m²\n\n⇒ Area of the pavement = Area of outer square − Area of inner square\n\n⇒ Area of the pavement = 15876 − 14400 = 1476 m²\n\n⇒ Cost of laying the pavement = Area of pavement × Rate per sq metre\n\n⇒ Cost of laying the pavement = 1476 × 50 = Rs. 73800\n\n**∴ The correct answer is Rs. 73800.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nArea of Path Inside a Square\n\nWhen a path of width w is constructed inside a square boundary of side a, Area = 4w(a − w).\n\nArea of Path Outside a Square\n\nWhen a path of width w is constructed outside a square boundary of side a, Area = 4w(a + w).\n\nArea of Cross Paths\n\nWhen two mutually perpendicular paths of width w cross in the middle of a rectangle of length l and breadth b, Area = w(l + b − w).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/235fad71ea78843fb6eb81794565897e40594e6cfaae62d94fbec6d7e3cfd053.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "67160a4074297a822b382315",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Seema walks around a circular field at the rate of 3 rounds per hour, while Priya runs around it at the rate of 8 rounds per hour. They start in the same direction from the same point at 11:54 PM. They shall first cross each other at:",
+      "options": [
+        {
+          "label": "1",
+          "text": "12:06 p.m."
+        },
+        {
+          "label": "2",
+          "text": "12:00 a.m."
+        },
+        {
+          "label": "3",
+          "text": "12:06 a.m."
+        },
+        {
+          "label": "4",
+          "text": "11:59 p.m."
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRelative speed in the same direction = 8 − 3 = 5 rounds per hour.\n\nThis means Priya gains 5 complete rounds over Seema in 60 minutes.\n\nThey will cross each other when Priya gains exactly 1 complete round.\n\nTime to gain 1 round = 60 ÷ 5 = 12 minutes.\n\nCrossing time = 11:54 p.m. + 12 minutes = 12:06 a.m.\n\n**∴ The correct answer is 12:06 a.m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/8598969b60a14b0eabd910dcbb69243baeb6e532e4055ce167129b3f1b4ec37f.png] \n\n**Given:**\n\n⇒ Speed of Seema = 3 rounds/hr\n\n⇒ Speed of Priya = 8 rounds/hr\n\n⇒ Starting time = 11:54 p.m.\n\n**Formula Used:**\n\n⇒ Relative Speed (same direction) = Speed₁ − Speed₂\n\n⇒ Time to cross for the first time = 1 round distance ÷ Relative Speed\n\n**Calculations:**\n\n⇒ Since they are moving in the same direction, relative speed = 8 − 3 = 5 rounds/hr\n\n⇒ They cross each other when the faster person (Priya) covers exactly 1 more round than the slower person (Seema).\n\n⇒ Time taken to gain 1 round = 1 ÷ 5 hours\n\n⇒ Time taken in minutes = (1/5) × 60 = 12 minutes\n\n⇒ Crossing time = 11:54 p.m. + 12 minutes\n\n⇒ 11:54 p.m. + 6 minutes = 12:00 a.m. (Midnight)\n\n⇒ 12:00 a.m. + 6 minutes = 12:06 a.m.\n\n**∴ The correct answer is 12:06 a.m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCircular Motion (Same Direction)\n\nWhen two bodies move in the same direction on a circular track, the time taken to meet for the first time anywhere on the track is calculated as Track Length ÷ (Speed₁ − Speed₂).\n\nCircular Motion (Opposite Direction)\n\nWhen two bodies move in opposite directions, their relative speed increases. The time taken to meet for the first time is Track Length ÷ (Speed₁ + Speed₂).\n\nMeeting at the Starting Point\n\nThe time taken for both runners to meet exactly at the starting point is the LCM (Least Common Multiple) of the individual times taken by each to complete one full round.\n\nNumber of Distinct Meeting Points\n\nIf the ratio of their speeds is a:b (in simplest form), they will meet at exactly (a − b) distinct points if running in the same direction, and at (a + b) distinct points if running in opposite directions.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8598969b60a14b0eabd910dcbb69243baeb6e532e4055ce167129b3f1b4ec37f.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "640106dee5408c2bb3c15e44",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What is the volume of a hemisphere with radius 2.8 cm? { (Use} left.pi=(22)/(7)) (Rounded up to three places of decimal).",
+      "options": [
+        {
+          "label": "1",
+          "text": "41 cm³"
+        },
+        {
+          "label": "2",
+          "text": "45.995 cm³"
+        },
+        {
+          "label": "3",
+          "text": "28 cm³"
+        },
+        {
+          "label": "4",
+          "text": "38.268 cm³"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor a hemisphere, apply the direct formula: Volume = 2/3 × π × r³\n\nSubstitute r = 2.8 cm: V = 2/3 × 22/7 × (2.8)³\n\nV = 44/21 × 21.952 = 965.888 ÷ 21\n\nV ≈ 45.9946... cm³\n\nRounding to three decimal places gives 45.995 cm³.\n\n**∴ The correct answer is 45.995 cm³.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRadius of the hemisphere (r) = 2.8 cm\n\n**Formula Used:**\n\nVolume of a hemisphere (V) = 2/3 × π × r³\n\n [IMAGE: https://cdn.repeatermock.com/tb/1bb231dcce8606af7b8ccf088f6f3e54f7764c62a08884bfeb286551169c94da.png] \n\n**Calculations:**\n\n⇒ V = 2/3 × 22/7 × (2.8)³\n\n⇒ V = 44/21 × (2.8 × 2.8 × 2.8)\n\n⇒ V = 44/21 × 21.952\n\n⇒ V = 965.888 ÷ 21\n\n⇒ V = 45.99466... cm³\n\n⇒ Rounding to three decimal places, V = 45.995 cm³\n\n**∴ The correct answer is 45.995 cm³.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nHemisphere Surface Areas\n\nCurved Surface Area (CSA) = 2πr² | Total Surface Area (TSA) = 3πr²\n\nComplete Sphere\n\nVolume = 4/3 × πr³ | Surface Area = 4πr²\n\nCylinder\n\nVolume = πr²h | Curved Surface Area = 2πrh | Total Surface Area = 2πr(r + h)\n\nCone\n\nVolume = 1/3 × πr²h | Curved Surface Area = πrl (where slant height l = √(r² + h²))\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1bb231dcce8606af7b8ccf088f6f3e54f7764c62a08884bfeb286551169c94da.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "675814068bb13c88980a16dc",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the total surface area of a hemisphere is 1848 m², then the diameter (in m) of the hemisphere is: (Use pi = (22)/(7))",
+      "options": [
+        {
+          "label": "1",
+          "text": "14"
+        },
+        {
+          "label": "2",
+          "text": "7"
+        },
+        {
+          "label": "3",
+          "text": "21"
+        },
+        {
+          "label": "4",
+          "text": "28"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nTotal surface area = 3πr² = 1848\n\n⇒ 3 × (22/7) × r² = 1848\n\n⇒ r² = 1848 × (7/66) = 196\n\n⇒ r = √196 = 14 m\n\n⇒ Diameter (d) = 2r = 2 × 14 = 28 m\n\n**∴ The correct answer is 28 m.**\n\n**__Alternate Method__**\n\n**Given:**\n\nTotal surface area of the hemisphere = 1848 m²\n\n**Formula Used:**\n\nTotal Surface Area (TSA) = 3πr²\n\nDiameter = 2r\n\n [IMAGE: https://cdn.repeatermock.com/tb/574d5157861f5ea53f15d8911432f6ad4db6a3b82ffd96fd5b8c72e1334fb6ab.png] \n\n**Calculations:**\n\n⇒ 3 × (22/7) × r² = 1848\n\n⇒ (66/7) × r² = 1848\n\n⇒ r² = 1848 × (7/66)\n\n⇒ r² = 28 × 7\n\n⇒ r² = 196\n\n⇒ r = √196 = 14 m\n\n⇒ Diameter = 2 × 14 = 28 m\n\n**∴ The correct answer is 28 m.**\n\n**__Additional Information__**\n\nCurved Surface Area of Hemisphere\n\nThe curved surface area (CSA) includes only the upper dome portion and does not include the circular base. Formula: CSA = 2πr²\n\nVolume of Hemisphere\n\nThe volume represents the total 3-dimensional space contained within the hemisphere. Formula: V = (2/3)πr³\n\nProperties of a Full Sphere\n\nFor a complete sphere of radius r, the Total Surface Area = 4πr² and its Volume = (4/3)πr³\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/574d5157861f5ea53f15d8911432f6ad4db6a3b82ffd96fd5b8c72e1334fb6ab.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    }
+  ]
+}
