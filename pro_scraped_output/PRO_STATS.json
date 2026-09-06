@@ -1,127 +1,127 @@
 {
-  "generated_at": "2026-09-06T03:47:38.415065+00:00",
-  "total_pro_scraped": 0,
-  "total_pro_failed": 70,
+  "generated_at": "2026-09-06T04:27:36.824724+00:00",
+  "total_pro_scraped": 6,
+  "total_pro_failed": 194,
   "total_still_pro": 0,
   "per_job": [
     {
       "job": 0,
-      "scraped": 0,
-      "failed": 5,
+      "scraped": 1,
+      "failed": 9,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 5,
+      "failed": 10,
+      "still_pro": 0
+    },
+    {
+      "job": 0,
+      "scraped": 1,
+      "failed": 9,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 5,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 5,
+      "failed": 10,
+      "still_pro": 0
+    },
+    {
+      "job": 0,
+      "scraped": 3,
+      "failed": 7,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 5,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
+      "still_pro": 0
+    },
+    {
+      "job": 0,
+      "scraped": 1,
+      "failed": 9,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     },
     {
       "job": 0,
       "scraped": 0,
-      "failed": 3,
-      "still_pro": 0
-    },
-    {
-      "job": 0,
-      "scraped": 0,
-      "failed": 3,
-      "still_pro": 0
-    },
-    {
-      "job": 0,
-      "scraped": 0,
-      "failed": 3,
-      "still_pro": 0
-    },
-    {
-      "job": 0,
-      "scraped": 0,
-      "failed": 3,
+      "failed": 10,
       "still_pro": 0
     }
   ]
