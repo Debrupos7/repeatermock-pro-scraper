@@ -39,7 +39,7 @@ jobs:
         run: |
           MAX_TESTS="${{ github.event.inputs.max_tests || '200' }}"
           if [ -n "$MAX_TESTS" ]; then
-            sed -i "s/MAX_TESTS_FOR_TESTING = 200/MAX_TESTS_FOR_TESTING = $MAX_TESTS/" distribute_pro_tests.py
+            if [ -n "$MAX_TESTS" ] && [ "$MAX_TESTS" != "0" ]; then sed -i "s/MAX_TESTS_FOR_TESTING = 0/MAX_TESTS_FOR_TESTING = $MAX_TESTS/" distribute_pro_tests.py; fi
           fi
           python3 distribute_pro_tests.py
 
