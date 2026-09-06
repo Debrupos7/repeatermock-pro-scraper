@@ -56,7 +56,7 @@ jobs:
     timeout-minutes: 335
     strategy:
       fail-fast: false
-      max-parallel: 5
+      max-parallel: 20
       matrix:
         chunk_number: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
     name: PRO-Job-${{ matrix.chunk_number }}
@@ -101,7 +101,7 @@ jobs:
           CHUNK_FILE="pro_chunks/chunk_$(printf '%02d' ${{ matrix.chunk_number }}).json"
           JOB_DIR="pro_scraped_output/PRO-Job-$(printf '%02d' ${{ matrix.chunk_number }})"
           if [ -f "$CHUNK_FILE" ]; then
-            python3 pro_scraper.py --chunk "$CHUNK_FILE" --output-dir "$JOB_DIR" --workers 1 || true
+            python3 pro_scraper.py --chunk "$CHUNK_FILE" --output-dir "$JOB_DIR" --workers 2 || true
           else
             echo "Chunk file not found: $CHUNK_FILE"
           fi
