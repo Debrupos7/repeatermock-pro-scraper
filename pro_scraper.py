@@ -326,13 +326,23 @@ async def browser_api(page, url, body="{}", max_retries=2):
 
 
 async def scrape_test(page, auth, progress, test_info, output_dir, wid):
-    """Scrape one PRO test. Returns 'OK', 'SKIP', 'PRO', 'STOP', or None on error."""
+    """Scrape one PRO test. Returns 'OK', 'SKIP', 'PRO', 'STOP', or None on error.
+
+    output_dir here is the per-series directory: pro_scraped_output/{series_slug}/
+    AI/HTML files go to:
+      {output_dir}/ai_export/Single_Tests/Default/{title}_{test_id}.{json,html}
+    """
     tid = test_info.get("test_id", "")
     title = test_info.get("title", tid)
     series = test_info.get("series_slug", "")
     series_name = test_info.get("series_name", series)
-    section = test_info.get("section", "Section")
-    subsection = test_info.get("subsection", "Subsection")
+    # PRO_TESTS.json has placeholder "Section"/"Subsection" values — replace with
+    # "Single_Tests"/"Default" so files end up in a sensible per-series subfolder
+    # rather than literally named "Section/Subsection".
+    raw_section = test_info.get("section", "")
+    raw_subsection = test_info.get("subsection", "")
+    section = raw_section if raw_section and raw_section != "Section" else "Single_Tests"
+    subsection = raw_subsection if raw_subsection and raw_subsection != "Subsection" else "Default"
 
     if progress.is_scraped(series, tid):
         return "SKIP"
@@ -532,8 +542,14 @@ async def run_scraper(worker_file, output_dir, max_runtime=DEFAULT_MAX_RUNTIME):
             series_slug = chunk.get("series_slug", "")
             tests = chunk.get("tests", [])
 
+            # Per-series output directory: pro_scraped_output/{series_slug}/
+            # This matches the free scraper's folder structure.
+            series_dir = os.path.join(output_dir, series_slug) if series_slug else output_dir
+            os.makedirs(series_dir, exist_ok=True)
+
             print(f"\n--- [w{wid}] Series {ci+1}/{len(chunks)}: {job_name} "
                   f"({series_slug}) — {len(tests)} tests ---", flush=True)
+            print(f"    Output dir: {series_dir}", flush=True)
 
             series_done = 0
             for i, ti in enumerate(tests):
@@ -550,7 +566,8 @@ async def run_scraper(worker_file, output_dir, max_runtime=DEFAULT_MAX_RUNTIME):
                     print(f"\n⛔ [w{wid}] Stop condition — stopping", flush=True)
                     break
 
-                result = await scrape_test(page, auth, progress, ti, output_dir, wid)
+                # Pass the per-series directory so AI/HTML files land in the right place
+                result = await scrape_test(page, auth, progress, ti, series_dir, wid)
                 if result == "STOP":
                     stop_reason = "stop condition met"
                     break
