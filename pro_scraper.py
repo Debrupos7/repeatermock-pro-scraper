@@ -1,17 +1,8 @@
 #!/usr/bin/env python3
-"""RepeaterMock PRO Test Scraper — NO API calls, just navigate to solution pages.
+"""RepeaterMock PRO Test Scraper — same format as free scraper.
 
-Key insight: Solution pages load with testData + answersData when auth cookies are set.
-No need for /attempts/start or /attempts/submit API calls → NO 429 rate limiting!
-
-Flow:
-1. Set auth cookies in Playwright context
-2. Navigate to solution URL: /tb/test-series/{series}/test/{tid}/solution
-3. Wait for page to load
-4. Extract HTML via DOM (document.documentElement.outerHTML)
-5. Save raw HTML (contains all test data)
-
-This avoids ALL API rate limits because we're just browsing pages, not calling APIs.
+Uses the free scraper's parsing + rendering functions for identical output.
+Only difference: navigates to solution pages with PRO auth cookies (no API calls).
 """
 import argparse, asyncio, json, os, re, sys, time, random
 from datetime import datetime, timezone
@@ -20,8 +11,19 @@ from typing import Optional
 sys.stdout.reconfigure(line_buffering=True)
 sys.stderr.reconfigure(line_buffering=True)
 
+# Import free scraper's functions
+sys.path.insert(0, os.path.dirname(__file__))
+from free_scraper_module import (
+    parse_test_data, render_ai_export, render_test_html,
+    build_ai_export_path, build_html_output_path,
+    find_props_in_flight, build_text_refs, extract_images_from_html,
+    TestRef, sanitize_filename
+)
+
 WEB_BASE = "https://repeatermock.com"
 MAX_AUTH_FAILURES = 5
+
+INIT_SCRIPT = r"""(function(){window.close=function(){};console.clear=function(){};window.stop=function(){};try{const o=window.location.replace.bind(window.location);window.location.replace=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return o(u)};const a=window.location.assign.bind(window.location);window.location.assign=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return a(u)}}catch(e){}try{const d=Object.getOwnPropertyDescriptor(window.Location.prototype,'href');if(d&&d.set){const s=d.set;Object.defineProperty(window.Location.prototype,'href',{get:d.get,set:function(v){if(typeof v==='string'&&v.indexOf('about:blank')===0)return;return s.call(this,v)},configurable:true})}}catch(e){}const o=window.open;window.open=function(u,...r){if(typeof u==='string'&&(u.indexOf('about:blank')===0||u===''))return null;return o.call(this,u,...r)};const origReplaceState=history.replaceState;history.replaceState=function(state,title,url){if(typeof url==='string'&&url.indexOf('about:blank')===0)return;return origReplaceState.call(this,state,title,url)};const origPushState=history.pushState;history.pushState=function(state,title,url){if(typeof url==='string'&&url.indexOf('about:blank')===0)return;return origPushState.call(this,state,title,url)};const origWrite=document.write.bind(document);document.write=function(html){if(typeof html==='string'&&html.length<500)return;return origWrite(html)};window.addEventListener('beforeunload',function(e){e.stopImmediatePropagation();e.preventDefault();e.returnValue='';return ''},true);console.log=function(){};console.table=function(){};console.dir=function(){};console.debug=function(){};console.info=function(){};console.trace=function(){};console.group=function(){};console.groupEnd=function(){};console.groupCollapsed=function(){};const origEval=window.eval;window.eval=function(code){if(typeof code==='string'&&code.indexOf('debugger')>=0){code=code.replace(/\bdebugger\b/g,'void 0')}return origEval.call(this,code)};const origSetTimeout=window.setTimeout;window.setTimeout=function(fn,delay,...args){if(typeof fn==='string'&&fn.indexOf('debugger')>=0){fn=fn.replace(/\bdebugger\b/g,'void 0')}return origSetTimeout.call(this,fn,delay,...args)};const origSetInterval=window.setInterval;window.setInterval=function(fn,delay,...args){if(typeof fn==='string'&&fn.indexOf('debugger')>=0){fn=fn.replace(/\bdebugger\b/g,'void 0')}return origSetInterval.call(this,fn,delay,...args)};Object.defineProperty(navigator,"webdriver",{get:()=>undefined});})();"""
 
 
 class PROAuthManager:
@@ -42,24 +44,37 @@ class PROAuthManager:
         return self.auth_failures >= MAX_AUTH_FAILURES
 
 
-INIT_SCRIPT = r"""(function(){window.close=function(){};console.clear=function(){};window.stop=function(){};try{const o=window.location.replace.bind(window.location);window.location.replace=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return o(u)};const a=window.location.assign.bind(window.location);window.location.assign=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return a(u)}}catch(e){}try{const d=Object.getOwnPropertyDescriptor(window.Location.prototype,'href');if(d&&d.set){const s=d.set;Object.defineProperty(window.Location.prototype,'href',{get:d.get,set:function(v){if(typeof v==='string'&&v.indexOf('about:blank')===0)return;return s.call(this,v)},configurable:true})}}catch(e){}const o=window.open;window.open=function(u,...r){if(typeof u==='string'&&(u.indexOf('about:blank')===0||u===''))return null;return o.call(this,u,...r)};window.addEventListener('beforeunload',function(e){e.stopImmediatePropagation();e.preventDefault();e.returnValue='';return ''},true);console.log=function(){};console.table=function(){};console.dir=function(){};})();"""
-
-
 async def scrape_pro_test(browser, auth, test_info, output_dir, worker_id):
-    """Scrape a PRO test by navigating to its solution page (NO API calls)."""
+    """Scrape a PRO test — same format as free scraper."""
     tid = test_info.get("test_id", "")
     title = test_info.get("title", tid)
     series_slug = test_info.get("series_slug", "")
+    series_name = test_info.get("series_name", series_slug)
     section = test_info.get("section", "")
     subsection = test_info.get("subsection", "")
 
     if auth.should_stop():
         return "STOP"
 
+    # Build TestRef (same as free scraper)
+    test_ref = TestRef(
+        test_id=tid,
+        title=title,
+        series_slug=series_slug,
+        series_name=series_name,
+        section_id="",
+        section_name=section or "Uncategorized",
+        sub_section_id="",
+        sub_section_name=subsection or "Default",
+        is_free=False,
+        duration=0,
+        question_count=0,
+        total_mark=0,
+    )
+
     solution_url = f"{WEB_BASE}/tb/test-series/{series_slug}/test/{tid}/solution"
     print(f"  [worker {worker_id}] loading: {title[:50]}... (id={tid})")
 
-    # Create fresh context with auth cookies for each test (avoids cookie staleness)
     context = await browser.new_context(
         user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
         viewport={"width": 1366, "height": 900},
@@ -77,18 +92,16 @@ async def scrape_pro_test(browser, auth, test_info, output_dir, worker_id):
         await page.wait_for_timeout(6000)
 
         if "about:blank" in page.url or "login" in page.url:
-            print(f"  [worker {worker_id}] ❌ redirected to login — token expired")
+            print(f"  [worker {worker_id}] ❌ redirected — token expired")
             auth.auth_failures += 1
             return None
 
-        # Get HTML via DOM
+        # Get HTML via DOM (same as free scraper v4)
         result = await page.evaluate("""(function(){var h=document.documentElement.outerHTML;window.__HTML__=h;return{len:h.length,hasTestData:h.indexOf('testData')>=0,hasAnswersData:h.indexOf('answersData')>=0}})()""")
-        
         if not result or not result.get("hasTestData"):
-            # Fallback: fetch
             result = await page.evaluate("(function(){return fetch(window.location.href,{credentials:'include'}).then(r=>r.text()).then(t=>{window.__HTML__=t;return{len:t.length,hasTestData:t.indexOf('testData')>=0,hasAnswersData:t.indexOf('answersData')>=0}}).catch(e=>({err:String(e).slice(0,200)}))})()")
 
-        # Extract in 200KB chunks
+        # Extract in 200KB chunks (same as free scraper)
         total_len = await page.evaluate("(function(){return (window.__HTML__||'').length})()")
         chunks = []
         chunk_size = 200000
@@ -105,16 +118,35 @@ async def scrape_pro_test(browser, auth, test_info, output_dir, worker_id):
             print(f"  [worker {worker_id}] ❌ no testData (len={len(html)})")
             return None
 
-        # Save
-        safe_title = re.sub(r'[^a-zA-Z0-9\-_]+', '_', title)[:80] or "test"
-        ai_dir = os.path.join(output_dir, "ai_export", re.sub(r'[^a-zA-Z0-9\-_]+', '_', section or "Uncategorized"), re.sub(r'[^a-zA-Z0-9\-_]+', '_', subsection or "Default"))
-        os.makedirs(ai_dir, exist_ok=True)
-        ai_path = os.path.join(ai_dir, f"{safe_title}_{tid}.json")
-        test_data = {"test_id": tid, "title": title, "series_slug": series_slug, "section": section, "subsection": subsection, "scraped_at": datetime.now(timezone.utc).isoformat(), "html_length": len(html), "raw_html": html}
-        tmp = ai_path + ".tmp"
-        with open(tmp, "w") as f: json.dump(test_data, f, ensure_ascii=False)
-        os.rename(tmp, ai_path)
-        print(f"  [worker {worker_id}] ✅ saved: {title[:50]}... ({len(html):,}B)")
+        # Parse flight data (SAME as free scraper)
+        props = find_props_in_flight(html)
+        if not props:
+            print(f"  [worker {worker_id}] ❌ couldn't find props in flight data")
+            return None
+        text_refs = build_text_refs(html)
+        test_data = parse_test_data(props, tid, series_slug, text_refs)
+        
+        # Update title from scraped data (more accurate)
+        if test_data.title:
+            test_ref.title = test_data.title
+
+        # Render + save AI export (SAME format as free scraper)
+        ai_path = build_ai_export_path(output_dir, test_ref)
+        ai_export = render_ai_export(test_data, test_ref)
+        tmp_ai = ai_path + ".tmp"
+        with open(tmp_ai, "w") as f:
+            json.dump(ai_export, f, ensure_ascii=False, indent=2)
+        os.rename(tmp_ai, ai_path)
+
+        # Render + save HTML export (SAME format as free scraper — interactive mock test)
+        html_path = build_html_output_path(output_dir, test_ref)
+        rendered_html = render_test_html(test_data)
+        tmp_html = html_path + ".tmp"
+        with open(tmp_html, "w") as f:
+            f.write(rendered_html)
+        os.rename(tmp_html, html_path)
+
+        print(f"  [worker {worker_id}] ✅ saved HTML ({len(rendered_html):,}B) + AI JSON ({len(json.dumps(ai_export)):,}B): {title[:50]}")
         return "OK"
     except Exception as e:
         print(f"  [worker {worker_id}] ❌ error: {e}")
@@ -128,7 +160,7 @@ async def run_scraper(chunk_file, output_dir, workers=2):
         chunk_data = json.load(f)
     tests = chunk_data.get("tests", [])
     job_number = chunk_data.get("job_number", 1)
-    print(f"\n{'='*60}\nPRO Scraper — Job {job_number}\nTests: {len(tests)} | Workers: {workers}\nNo API calls — direct page loading\n{'='*60}\n")
+    print(f"\n{'='*60}\nPRO Scraper — Job {job_number}\nTests: {len(tests)} | Workers: {workers}\nSame format as free scraper\n{'='*60}\n")
 
     os.makedirs(output_dir, exist_ok=True)
     auth = PROAuthManager()
