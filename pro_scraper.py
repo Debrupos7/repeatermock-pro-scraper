@@ -1,6 +1,22 @@
 #!/usr/bin/env python3
-"""RepeaterMock PRO Scraper — auto-login via ZenRows + sequential API calls."""
-import argparse, asyncio, json, os, re, sys, time, random, urllib.request, urllib.error
+"""RepeaterMock PRO Scraper — ZenRows auto-login + browser fetch API calls.
+
+Key insight: The free scraper uses page.evaluate(fetch(...)) for API calls
+(browser-initiated, with CF clearance + all cookies). Our PRO scraper was
+using urllib.request (direct API calls) which gets rate-limited differently.
+
+FIX: Use the SAME approach as the free scraper — make API calls from the
+browser context via page.evaluate(fetch(...)).
+
+Flow:
+1. ZenRows auto-login → get accessToken + refreshToken
+2. Navigate to repeatermock.com (get cf_clearance)
+3. For each test: browser fetch /attempts/start → /attempts/submit → solution page
+4. 15s delay between tests (same as free scraper)
+5. Auto-refresh token every 14 min
+6. Auto re-login via ZenRows if refresh fails
+"""
+import argparse, asyncio, json, os, re, sys, time, random, urllib.request, urllib.error, urllib.parse
 from datetime import datetime, timezone
 
 sys.stdout.reconfigure(line_buffering=True)
@@ -15,12 +31,10 @@ from free_scraper_module import (
 
 API_BASE = "https://api.repeatermock.com"
 WEB_BASE = "https://repeatermock.com"
-LOGIN_URL = "https://repeatermock.com/login"
-LOGIN_API = "https://api.repeatermock.com/auth/login"
-REFRESH_API = "https://api.repeatermock.com/auth/refresh"
 MAX_AUTH_FAILURES = 3
 
 INIT_SCRIPT = r"""(function(){window.close=function(){};console.clear=function(){};window.stop=function(){};try{const o=window.location.replace.bind(window.location);window.location.replace=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return o(u)};const a=window.location.assign.bind(window.location);window.location.assign=function(u){if(u&&String(u).indexOf('about:blank')===0)return;return a(u)}}catch(e){}try{const d=Object.getOwnPropertyDescriptor(window.Location.prototype,'href');if(d&&d.set){const s=d.set;Object.defineProperty(window.Location.prototype,'href',{get:d.get,set:function(v){if(typeof v==='string'&&v.indexOf('about:blank')===0)return;return s.call(this,v)},configurable:true})}}catch(e){}const o=window.open;window.open=function(u,...r){if(typeof u==='string'&&(u.indexOf('about:blank')===0||u===''))return null;return o.call(this,u,...r)};window.addEventListener('beforeunload',function(e){e.stopImmediatePropagation();e.preventDefault();e.returnValue='';return ''},true);console.log=function(){};console.table=function(){};console.dir=function(){};})();"""
+
 
 class PROAuth:
     def __init__(self):
@@ -38,35 +52,27 @@ class PROAuth:
             m = re.search(r'refreshToken=([^;]+)', cookies)
             if m: self.refresh_token = m.group(1)
             self.token_expires = time.time() + 900
-            print(f"  [auth] from PRO_COOKIES: access={'✅' if self.access_token else '❌'} refresh={'✅' if self.refresh_token else '❌'}")
 
     def is_token_valid(self):
         return bool(self.access_token) and time.time() < (self.token_expires - 60)
 
     def login_via_zenrows(self):
-        if not self.zenrows_key or not self.email or not self.password:
-            print("  [auth] missing ZenRows/credentials"); return False
-        print("  [auth] logging in via ZenRows...")
-        import urllib.parse
+        if not self.zenrows_key: return False
+        print("  [auth] ZenRows login...")
         for attempt in range(3):
-            params = urllib.parse.urlencode({"apikey": self.zenrows_key, "url": LOGIN_URL, "js_render": "true", "premium_proxy": "true", "wait": "25000"})
+            params = urllib.parse.urlencode({"apikey": self.zenrows_key, "url": "https://repeatermock.com/login", "js_render": "true", "premium_proxy": "true", "wait": "25000"})
             try:
                 req = urllib.request.Request(f"https://api.zenrows.com/v1/?{params}")
                 with urllib.request.urlopen(req, timeout=120) as r:
                     content = r.read().decode()
-                print(f"  [auth] ZenRows: {len(content):,} bytes")
-            except Exception as e:
-                print(f"  [auth] ZenRows error: {e}"); continue
-            for pat in [r'name="cf-turnstile-response"[^>]*value="([^"]+)"', r'value="([^"]+)"[^>]*name="cf-turnstile-response"']:
+            except: continue
+            for pat in [r'name="cf-turnstile-response"[^>]*value="([^"]+)"']:
                 m = re.search(pat, content)
                 if m and len(m.group(1)) > 20:
-                    token = m.group(1)
-                    print(f"  [auth] ✅ Turnstile solved! len={len(token)}")
-                    body = json.dumps({"email": self.email, "password": self.password, "turnstileToken": token}).encode()
-                    req = urllib.request.Request(LOGIN_API, data=body, method="POST")
+                    body = json.dumps({"email": self.email, "password": self.password, "turnstileToken": m.group(1)}).encode()
+                    req = urllib.request.Request("https://api.repeatermock.com/auth/login", data=body, method="POST")
                     req.add_header("Content-Type", "application/json")
                     req.add_header("Origin", "https://repeatermock.com")
-                    req.add_header("Referer", "https://repeatermock.com/login")
                     req.add_header("User-Agent", "Mozilla/5.0")
                     try:
                         with urllib.request.urlopen(req, timeout=30) as r:
@@ -75,35 +81,32 @@ class PROAuth:
                         if data.get("success"):
                             for c in sc:
                                 p = c.split(";")[0].split("=", 1)
-                                if len(p) == 2:
+                                if len(p)==2:
                                     if 'access' in p[0].lower(): self.access_token = p[1].strip()
                                     elif 'refresh' in p[0].lower(): self.refresh_token = p[1].strip()
                             self.token_expires = time.time() + 900
                             self.failures = 0
-                            u = data.get("user", {})
-                            print(f"  [auth] ✅ Login! {u.get('name','?')} | Plan: {u.get('plan','?')}")
+                            print(f"  [auth] ✅ ZenRows login! access={len(self.access_token)} refresh={len(self.refresh_token)}")
                             return True
-                    except urllib.error.HTTPError as e:
-                        print(f"  [auth] login failed: {e.code}"); return False
-            print(f"  [auth] no token (attempt {attempt+1}/3)"); time.sleep(5)
+                    except: return False
+            time.sleep(5)
         return False
 
     def refresh_access_token(self):
         if not self.refresh_token: return False
-        print("  [auth] refreshing...")
         try:
             body = json.dumps({}).encode()
-            req = urllib.request.Request(REFRESH_API, data=body, method="POST")
+            req = urllib.request.Request("https://api.repeatermock.com/auth/refresh", data=body, method="POST")
             req.add_header("Content-Type", "application/json")
             req.add_header("Cookie", f"refreshToken={self.refresh_token}")
             req.add_header("User-Agent", "Mozilla/5.0")
             with urllib.request.urlopen(req, timeout=15) as r:
                 data = json.loads(r.read().decode())
-            if data.get("success") and data.get("accessToken"):
+            if data.get("accessToken"):
                 self.access_token = data["accessToken"]
                 self.token_expires = time.time() + 900
                 self.failures = 0
-                print(f"  [auth] ✅ Refreshed!")
+                print(f"  [auth] ✅ Token refreshed!")
                 return True
         except: pass
         return False
@@ -115,125 +118,141 @@ class PROAuth:
         self.failures += 1
         return None
 
-    def cookie_header(self):
-        return f"accessToken={self.access_token}; refreshToken={self.refresh_token}; totpVerified=1"
-
     def stop(self): return self.failures >= MAX_AUTH_FAILURES
 
 
-def api_post(url, ch, body="{}", max_retries=3):
+async def browser_api_call(page, url, body="{}", max_retries=3):
+    """Make API call from browser context (same as free scraper)."""
     for attempt in range(max_retries):
-        req = urllib.request.Request(url, data=body.encode(), method="POST")
-        req.add_header("Content-Type", "application/json")
-        req.add_header("Cookie", ch)
-        req.add_header("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36")
-        req.add_header("Origin", "https://repeatermock.com")
-        try:
-            with urllib.request.urlopen(req, timeout=30) as r:
-                return r.status, json.loads(r.read().decode())
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                wait = 30 * (attempt + 1)
-                print(f"    429 — wait {wait}s ({attempt+1}/{max_retries})")
-                time.sleep(wait); continue
-            try: err = json.loads(e.read().decode())
-            except: err = {"error": str(e)}
-            return e.code, err
-        except Exception as e:
-            if attempt < max_retries - 1: time.sleep(10); continue
-            return 0, {"error": str(e)}
-    return 429, {"error": "max retries"}
+        result = await page.evaluate(f"""
+            (async function(){{
+                try {{
+                    const r = await fetch('{url}', {{
+                        method: 'POST', credentials: 'include',
+                        headers: {{'Content-Type': 'application/json'}}, body: '{body}'
+                    }});
+                    const t = await r.text();
+                    return {{status: r.status, body: t.slice(0, 500)}};
+                }} catch(e) {{ return {{status: 0, error: String(e).slice(0, 200)}}; }}
+            }})()
+        """)
+        status = result.get("status", 0)
+        if status == 429:
+            wait = 30 * (attempt + 1)
+            print(f"    429 — wait {wait}s ({attempt+1}/{max_retries})")
+            await asyncio.sleep(wait)
+            continue
+        return status, result
+    return 429, {"body": "max retries"}
 
 
-async def scrape_test(browser, auth, ti, out, wid):
+async def scrape_test(page, auth, ti, out, wid):
     tid = ti.get("test_id",""); title = ti.get("title", tid); series = ti.get("series_slug","")
     section = ti.get("section","Uncategorized"); subsection = ti.get("subsection","Default")
     if auth.stop(): return "STOP"
+    
     token = auth.get_valid_token()
-    if not token: print(f"  [w{wid}] ❌ no token"); return None
-    ch = auth.cookie_header()
+    if not token: return None
+
+    # Update cookies in the page context
+    await page.context.add_cookies([
+        {"name":"accessToken","value":auth.access_token,"domain":".repeatermock.com","path":"/"},
+        {"name":"refreshToken","value":auth.refresh_token,"domain":".repeatermock.com","path":"/"},
+    ])
+
     print(f"  [w{wid}] {title[:45]}... ({tid[:8]})")
 
-    s, d = api_post(f"{API_BASE}/api/v1/attempts/{tid}/start", ch)
+    # API calls from browser (same as free scraper)
+    s, r = await browser_api_call(page, f"{API_BASE}/api/v1/attempts/{tid}/start")
     if s == 429: print(f"  [w{wid}] 429"); return None
     if s == 402: print(f"  [w{wid}] 💰 PRO"); return "PRO"
     if s == 401: auth.failures += 1; print(f"  [w{wid}] 401 ({auth.failures}/{MAX_AUTH_FAILURES})"); return None
     if s != 200: print(f"  [w{wid}] start: {s}"); return None
 
-    s, d = api_post(f"{API_BASE}/api/v1/attempts/{tid}/submit", ch, '{"answers":[],"timeTaken":1,"language":"en","interface":"classic"}')
+    s, r = await browser_api_call(page, f"{API_BASE}/api/v1/attempts/{tid}/submit",
+        '{"answers":[],"timeTaken":1,"language":"en","interface":"classic"}')
     if s != 200: print(f"  [w{wid}] submit: {s}"); return None
 
+    # Solution page
     tr = TestRef(test_id=tid,title=title,series_slug=series,series_name=ti.get("series_name",series),
         section_id="",section_name=section,sub_section_id="",sub_section_name=subsection,
         is_free=False,duration=0,question_count=0,total_mark=0)
-    ctx = await browser.new_context(user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",viewport={"width":1366,"height":900})
-    await ctx.add_cookies([{"name":"accessToken","value":auth.access_token,"domain":".repeatermock.com","path":"/"},{"name":"refreshToken","value":auth.refresh_token,"domain":".repeatermock.com","path":"/"},{"name":"totpVerified","value":"1","domain":".repeatermock.com","path":"/"}])
-    await ctx.add_init_script(INIT_SCRIPT)
-    page = await ctx.new_page()
-    try:
-        await page.goto(f"{WEB_BASE}/tb/test-series/{series}/test/{tid}/solution", wait_until="domcontentloaded", timeout=60000)
-        await page.wait_for_timeout(6000)
-        if "login" in page.url: auth.failures += 1; print(f"  [w{wid}] ❌ login redirect"); return None
-        r = await page.evaluate("(function(){var h=document.documentElement.outerHTML;window.__HTML__=h;return{len:h.length,td:h.indexOf('testData')>=0,ad:h.indexOf('answersData')>=0}})()")
-        if not r or not r.get("td"):
-            r = await page.evaluate("(function(){return fetch(window.location.href,{credentials:'include'}).then(r=>r.text()).then(t=>{window.__HTML__=t;return{len:t.length,td:t.indexOf('testData')>=0,ad:t.indexOf('answersData')>=0}}).catch(e=>({err:String(e).slice(0,100)}))})()")
-        tl = await page.evaluate("(function(){return(window.__HTML__||'').length})()")
-        chunks,cs=[],200000
-        nc=min((tl//cs)+1,100)
-        for i in range(nc):
-            s2=i*cs
-            if s2>=tl:break
-            c=await page.evaluate(f"(function(){{var h=window.__HTML__||'';if({s2}>=h.length)return null;return h.slice({s2},{s2+cs})}})()")
-            if c is None:break
-            chunks.append(c)
-        html="".join(chunks)
-        if not html or "testData" not in html or "answersData" not in html:
-            print(f"  [w{wid}] ❌ no testData (len={len(html)})"); return None
-        props = find_props_in_flight(html)
-        if not props: print(f"  [w{wid}] ❌ no props"); return None
-        tr_ref = build_text_refs(html)
-        td = parse_test_data(props, tid, series, tr_ref)
-        if td.title: tr.title = td.title
-        ap = build_ai_export_path(out, tr)
-        ae = render_ai_export(td, tr)
-        tmp=ap+".tmp"
-        with open(tmp,"w") as f: json.dump(ae,f,ensure_ascii=False,indent=2)
-        os.rename(tmp,ap)
-        hp = build_html_output_path(out, tr)
-        rh = render_test_html(td)
-        tmp2=hp+".tmp"
-        with open(tmp2,"w") as f: f.write(rh)
-        os.rename(tmp2,hp)
-        print(f"  [w{wid}] ✅ HTML({len(rh):,}B)+AI({len(json.dumps(ae)):,}B): {title[:45]}")
-        return "OK"
-    except Exception as e:
-        print(f"  [w{wid}] ❌ {e}"); return None
-    finally:
-        await ctx.close()
+
+    await page.goto(f"{WEB_BASE}/tb/test-series/{series}/test/{tid}/solution", wait_until="domcontentloaded", timeout=60000)
+    await page.wait_for_timeout(6000)
+    if "login" in page.url: auth.failures += 1; return None
+
+    # Get HTML via DOM + chunks (same as free scraper)
+    await page.evaluate("(function(){window.__HTML__=document.documentElement.outerHTML})()")
+    total = await page.evaluate("(window.__HTML__||'').length")
+    chunks, cs = [], 200000
+    for i in range(min((total//cs)+1, 100)):
+        s2=i*cs
+        if s2>=total: break
+        c = await page.evaluate(f"(window.__HTML__||'').slice({s2},{s2+cs})")
+        if not c: break
+        chunks.append(c)
+    html = "".join(chunks)
+    if not html or "testData" not in html or "answersData" not in html:
+        print(f"  [w{wid}] ❌ no testData (len={len(html)})"); return None
+
+    props = find_props_in_flight(html)
+    if not props: return None
+    tr_ref = build_text_refs(html)
+    td = parse_test_data(props, tid, series, tr_ref)
+    if td.title: tr.title = td.title
+
+    ap = build_ai_export_path(out, tr)
+    ae = render_ai_export(td, tr)
+    tmp=ap+".tmp"
+    with open(tmp,"w") as f: json.dump(ae,f,ensure_ascii=False,indent=2)
+    os.rename(tmp,ap)
+    hp = build_html_output_path(out, tr)
+    rh = render_test_html(td)
+    tmp2=hp+".tmp"
+    with open(tmp2,"w") as f: f.write(rh)
+    os.rename(tmp2,hp)
+    print(f"  [w{wid}] ✅ HTML({len(rh):,}B)+AI({len(json.dumps(ae)):,}B): {title[:45]}")
+    return "OK"
 
 
 async def run_scraper(chunk_file, output_dir, workers=1):
     with open(chunk_file) as f: chunk = json.load(f)
     tests = chunk.get("tests",[]); jn = chunk.get("job_number",1)
-    print(f"\n{'='*60}\nPRO Job {jn} | Tests:{len(tests)} | Workers:{workers} | ZenRows auto-login\n{'='*60}\n")
+    print(f"\n{'='*60}\nPRO Job {jn} | Tests:{len(tests)} | Browser fetch + ZenRows\n{'='*60}\n")
     os.makedirs(output_dir, exist_ok=True)
     auth = PROAuth()
     if not auth.is_token_valid():
         if not auth.login_via_zenrows():
-            print("❌ Login failed — stopping"); return
+            print("❌ Login failed"); return
+
     from playwright.async_api import async_playwright
     async with async_playwright() as pw:
         browser = await pw.chromium.launch(headless=True, args=["--no-sandbox","--disable-dev-shm-usage"])
+        ctx = await browser.new_context(user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36", viewport={"width":1366,"height":900})
+        await ctx.add_cookies([
+            {"name":"accessToken","value":auth.access_token,"domain":".repeatermock.com","path":"/"},
+            {"name":"refreshToken","value":auth.refresh_token,"domain":".repeatermock.com","path":"/"},
+            {"name":"totpVerified","value":"1","domain":".repeatermock.com","path":"/"},
+        ])
+        await ctx.add_init_script(INIT_SCRIPT)
+        page = await ctx.new_page()
+
+        # Establish session (get cf_clearance)
+        await page.goto("https://repeatermock.com/tb/test-series/ssc-gd-constable", wait_until="domcontentloaded", timeout=60000)
+        await page.wait_for_timeout(5000)
+
         done=fail=0
         for i, ti in enumerate(tests):
-            if auth.stop(): print(f"  ⛔ stop"); break
-            r = await scrape_test(browser, auth, ti, output_dir, 1)
+            if auth.stop(): break
+            r = await scrape_test(page, auth, ti, output_dir, 1)
             if r == "STOP": break
             elif r == "OK": done += 1
             else: fail += 1
             if i < len(tests) - 1:
-                await asyncio.sleep(10 + random.uniform(0, 3))
+                await asyncio.sleep(15 + random.uniform(0, 5))
         await browser.close()
+
     prog = {"job":jn,"total":len(tests),"scraped":done,"failed":fail,"at":datetime.now(timezone.utc).isoformat()}
     with open(os.path.join(output_dir,"pro_progress.json"),"w") as f: json.dump(prog,f,indent=2)
     print(f"\n{'='*60}\n✅ Job {jn}: {done} scraped, {fail} failed\n{'='*60}")
