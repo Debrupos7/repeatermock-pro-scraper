@@ -32,7 +32,7 @@ jobs:
 
       - name: Install deps
         run: |
-          pip install playwright
+          pip install playwright httpx
           playwright install chromium --with-deps
 
       - name: Distribute PRO tests into 20 chunks
@@ -73,7 +73,7 @@ jobs:
 
       - name: Install deps
         run: |
-          pip install playwright
+          pip install playwright httpx
           playwright install chromium --with-deps
 
       - name: Download chunks artifact
