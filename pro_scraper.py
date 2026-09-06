@@ -276,7 +276,7 @@ async def run_scraper(chunk_file, output_dir, workers=1):
             elif r == "OK": done += 1
             else: fail += 1
             if i < len(tests) - 1:
-                await asyncio.sleep(20 + random.uniform(0, 5))
+                await asyncio.sleep(7 + random.uniform(0, 3))
         await browser.close()
 
     prog = {"job":jn,"total":len(tests),"scraped":done,"failed":fail,"at":datetime.now(timezone.utc).isoformat()}
