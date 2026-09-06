@@ -37,7 +37,8 @@ scraped output folder is filled in parallel.
 import json, os, sys, urllib.request
 
 REPO = "sujitbhai7710/repeatermock-mass-scraper"
-MAX_TESTS = int(os.environ.get("MAX_TESTS", "0"))  # 0 = unlimited
+_max_tests_raw = os.environ.get("MAX_TESTS", "").strip()
+MAX_TESTS = int(_max_tests_raw) if _max_tests_raw else 0  # 0 = unlimited
 NUM_WORKERS = 3
 
 ACCOUNTS = [

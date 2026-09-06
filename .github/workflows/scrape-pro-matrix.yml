@@ -120,19 +120,22 @@ jobs:
       - name: Commit results
         if: always()
         run: |
+          set +e  # don't fail the step on git errors
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # Pull any concurrent commits from other workers first
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main 2>&1 | tail -1
-            git add pro_scraped_output/ -f
-            git commit -m "pro-scrape v3 w${{ matrix.worker_id }}: $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || echo "Nothing to commit"
+            git pull --rebase origin main 2>&1 | tail -3
+            git add pro_scraped_output/ -f 2>/dev/null
+            git commit -m "pro-scrape v3 w${{ matrix.worker_id }}: $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null
             if git push origin HEAD 2>&1; then
               echo "Push succeeded attempt $i"
               break
             fi
             sleep $((i * 5))
           done
+          echo "Commit step completed"
+          exit 0
 
   trigger_next_round:
     needs: scrape
@@ -148,16 +151,17 @@ jobs:
       - name: Check remaining tests and trigger next round if needed
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+          INPUT_MAX_TESTS: ${{ github.event.inputs.max_tests }}
         run: |
-          git pull --rebase origin main 2>&1 | tail -1 || true
+          set +e
+          git pull --rebase origin main 2>&1 | tail -1
           echo "=========================================="
           echo "  Post-run check — counting remaining PRO tests"
           echo "=========================================="
 
-          REMAINING=$(python3 -c "
+          REMAINING=$(python3 << 'PYEOF'
           import json, os
           scraped_ids = set()
-          # Read all worker progress files and combine
           for root, dirs, files in os.walk('pro_scraped_output'):
               for fn in files:
                   if fn.startswith('progress_worker_') and fn.endswith('.json'):
@@ -168,24 +172,21 @@ jobs:
                           for series_slug, sd in d.items():
                               for tid in sd.get('scraped', {}).keys():
                                   scraped_ids.add(tid)
-                      except Exception as e:
+                      except Exception:
                           pass
 
-          # Total target
           target = 9915
-
-          # If MAX_TESTS env is set (test mode), use that
-          max_tests = os.environ.get('INPUT_MAX_TESTS', '').strip()
-          if max_tests:
-              target = int(max_tests)
-
+          max_tests_raw = os.environ.get('INPUT_MAX_TESTS', '').strip()
+          if max_tests_raw:
+              target = int(max_tests_raw)
           print(max(0, target - len(scraped_ids)))
-          " 2>/dev/null || echo "0")
-
+          PYEOF
+          )
+          REMAINING=${REMAINING:-0}
           echo "Remaining PRO tests: $REMAINING"
 
-          if [ "$REMAINING" -gt 0 ]; then
-            echo "🔄 Triggering next PRO v3 run with 3 workers..."
+          if [ "$REMAINING" -gt 0 ] 2>/dev/null; then
+            echo "Triggering next PRO v3 run with 3 workers..."
             curl -s -X POST \
               -H "Authorization: token $GH_PAT" \
               -H "Accept: application/vnd.github+json" \
@@ -194,5 +195,6 @@ jobs:
               -d '{"ref":"main","inputs":{"max_tests":"","max_runtime":"330"}}' \
               -w "\nTrigger HTTP: %{http_code}\n"
           else
-            echo "✅ All PRO tests scraped — no more runs needed!"
+            echo "All PRO tests scraped — no more runs needed!"
           fi
+          exit 0
