@@ -1,0 +1,363 @@
+{
+  "test_id": "6a390e0b7069b07a111a3aef",
+  "title": "CGL Tier II CT 08: LCM and HCF",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:02:20.196084+00:00",
+  "questions": [
+    {
+      "qid": "624833876fdf709c08a07ba5",
+      "n": 1,
+      "type": "mcq",
+      "concept": "LCM and HCF",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The LCM and HCF of two numbers are 420 and 6, respectively. If sum of the numbers is 102, then what is the difference of the numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "22"
+        },
+        {
+          "label": "2",
+          "text": "42"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "60"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\nThe LCM and HCF of two numbers are 420 and 6.\n\nSum of the numbers is 102.\n\nConcept used:\n\nLCM is the smallest common multiple of two or more numbers.\n\nHCF is the largest number or quantity that is a factor of each member of a group of numbers.\n\n(A + B)² - 4AB = (A - B)²\n\nCalculation:\n\nLet the numbers be 6p and 6q respectively. (P, Q are co-primes and 6p>6q)\n\nDifference between the numbers = 6p - 6q\n\nAccording to the question,\n\nLCM (6p, 6q) = 420\n\n⇒ 6 × p × q = 420\n\n⇒ pq = 70\n\n⇒ 4pq = 280 ....(1) (Multiplied both by 4)\n\n6p + 6q = 102\n\n⇒ 6(p + q) = 102\n\n⇒ (p + q) = 17\n\n⇒ (p + q)² = 17²\n\n⇒ (p + q)2 - 4pq = 172 - 4pq (Subtracting 4pq from both side)\n\n⇒ (p - q)2 = 289 - 280 (From 1)\n\n⇒ (p - q)² = 9\n\n⇒ (p - q) = 3\n\n⇒ 6(p - q) = 18 (Multiplied both side by 6)\n\n⇒ 6p - 6q = 18\n\n∴ The difference between the numbers is 18.",
+      "tags": [
+        "LCM and HCF"
+      ]
+    },
+    {
+      "qid": "6307942cbc2ce2b8d6aab94c",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Divisibility and Remainder",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the least number which when divided by 6, 14, 21 and 28 leaves a remainder 5, but when divided by 11 leaves no remainder.",
+      "options": [
+        {
+          "label": "1",
+          "text": "517"
+        },
+        {
+          "label": "2",
+          "text": "495"
+        },
+        {
+          "label": "3",
+          "text": "341"
+        },
+        {
+          "label": "4",
+          "text": "231"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe numbers are 6, 14, 21 and 28\n\n**Concept Used:** \n\nIn this type of question, we consider the L.C.M. of the given numbers and take the multiples of the L.C.M., then add or subtract the remainder to find the answer accordingly. \n\n**Calculation:** \n\nL.C.M. of 6, 14, 21, 28 = 84. \n\nNow, the required number is of the form 84k + 5. \n\nThe least value of k for which (84k + 5) is divisible by 11 is k = 4. \n\nSo, required number = (84 × 4 + 5)\n\n⇒ 341 \n\n**∴ T****he least number which when divided by 6, 14, 21 and 28 leaves a remainder 5, but when divided by 11 leaves no remainder is 341.**",
+      "tags": [
+        "Divisibility and Remainder"
+      ]
+    },
+    {
+      "qid": "62a835311b9ed97974aa366d",
+      "n": 3,
+      "type": "mcq",
+      "concept": "LCM and HCF",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The L.C.M of two numbers is 20 times the H.C.F of two numbers. The sum of L.C.M and H.C.F of the two numbers is 504. If the difference in the value of two numbers is 24. Find the sum of the required two numbers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "200"
+        },
+        {
+          "label": "2",
+          "text": "150"
+        },
+        {
+          "label": "3",
+          "text": "408"
+        },
+        {
+          "label": "4",
+          "text": "216"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given:\n\nThe L.C.M of two numbers is 20 times the H.C.F of two numbers.\n\nThe sum of L.C.M and H.C.F of the two numbers is 504.\n\nThe difference in the value of the two numbers is 24. \n\n**Concept used:**\n\n(1) L.C.M × H.C.F = Product of two numbers\n\n(2) For the two numbers in the ratio y : z.\n\nThe value of first number = H.C.F × y\n\nThe value of first number = H.C.F × z\n\nCalculation:\n\nThe H.C.F of two numbers = x\n\nThe L.C.M of two numbers = 20x\n\nAccording to the question,\n\n⇒ x + 20x = 504\n\n⇒ 21x = 504\n\n⇒ x = 24\n\nTherefore, \n\nThe H.C.F of two numbers = 24\n\nThe L.C.M of two numbers = 480\n\nNow,\n\nLet the value of first number = 24y\n\nLet the value of second number = 24z\n\nNow, \n\n⇒ 24y × 24z = 24 × 480\n\n⇒ y × z = 20 ----(1)\n\nAccording to the question,\n\n⇒ 24y - 24z = 24\n\n⇒ y - z = 1 ----(2)\n\nOn solving the equation (1) and (2), we get,\n\n⇒ y = 5, z = 4\n\nTherefore,\n\nThe value of first number = 120\n\nThe value of second number = 96\n\nThe required sum = 120 + 96 = 216\n\n∴ The required answer is 216.",
+      "tags": [
+        "LCM and HCF"
+      ]
+    },
+    {
+      "qid": "6582618ac9a2c87d3dee90f5",
+      "n": 4,
+      "type": "mcq",
+      "concept": "LCM and HCF",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The least common multiple of two numbers is 168 and the highest common factor of them is 12. If the difference between the numbers is 60, what is the sum of the numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "108"
+        },
+        {
+          "label": "2",
+          "text": "96"
+        },
+        {
+          "label": "3",
+          "text": "122"
+        },
+        {
+          "label": "4",
+          "text": "144"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given:\n\nHCF of the two numbers = 12\n\nLCM of the two numbers = 168\n\nDifference between the two numbers = 60\n\nFormula used:\n\nLCM × HCF = Product of numbers\n\n(a+b)²-(a-b)²=4ab\n\nCalculation:\n\nLet the numbers be a and b.\n\nAccording to question\n\natimes b = 168 times 12\\ \\ Rightarrow ab=2016 ---(1)\n\n(a-b) ---(2)\n\nUsing formula \n\n(a+b)²-(a-b)²=4ab\n\nRightarrow (a+b)²-60²=4times 2016\\ \\ Rightarrow(a+b)²=8064+3600\\ \\ Rightarrow (a+b)²=11664\\ \\ Rightarrow a+b=108\n\n∴ 108 is the correct answer.",
+      "tags": [
+        "LCM and HCF"
+      ]
+    },
+    {
+      "qid": "63642a7c7e7484da9797985f",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Divisibility and Remainder",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Let x be the least natural number which when divided by 21, 33, 35 and 55, leaves a remainder of 3 in each, but x is exactly divisible by 67. What is the sum of the digits of x?",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "17"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "13"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nThe numbers = 21, 33, 35 and 55\n\n**Calculation:**\n\nLCM of 21, 33, 35 and 55 = 1155\n\nHence, the number can be written in the form (1155k + 3) which is divisible by 67\n\n(1155k +3) ÷ 67,\n\nWhere, Quotient = 17k and Remainder = 16k + 3\n\nNow, (16k + 3) divisible by 67\n\nPut k = 1, 2, 3, 4...\n\nIf k = 1, number = (1155 × 1) + 3 = 1158 which is not divisible by 67\n\nIf k = 2, number = (1155 × 2) + 3 = 2313 which is not divisible by 67\n\n&l",
+      "tags": [
+        "Divisibility and Remainder"
+      ]
+    },
+    {
+      "qid": "63ac1bd7e0ac8eaa34f9de6f",
+      "n": 6,
+      "type": "mcq",
+      "concept": "LCM and HCF",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The HCF and LCM of two numbers are 8 and 48 respectively. If one of the number is 24, then the other number is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "48"
+        },
+        {
+          "label": "2",
+          "text": "36"
+        },
+        {
+          "label": "3",
+          "text": "24"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor any two numbers, the product of the numbers is equal to the product of their HCF and LCM.\n\nIst Number × IIⁿd Number = HCF × LCM\n\n24 × IIⁿd Number = 8 × 48\n\nIIⁿd Number = (8 × 48) ÷ 24 = 16\n\n**∴ The correct answer is 16.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nHCF of the two numbers = 8\n\nLCM of the two numbers = 48\n\nOne of the numbers = 24\n\n**Formula Used:**\n\nProduct of two numbers = HCF × LCM\n\nIf the two numbers are a and b, then:\n\n⇒ a × b = HCF(a, b) × LCM(a, b)\n\n**Calculation:**\n\nLet the other number be x.\n\n⇒ 24 × x = 8 × 48\n\n⇒ x = (8 × 48) ÷ 24\n\n⇒ x = 8 × (48 ÷ 24)\n\n⇒ x = 8 × 2\n\n⇒ x = 16\n\n**∴ The correct answer is 16.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRelation between HCF and LCM\n\nFor any two given numbers, the product of the numbers is always equal to the product of their HCF and LCM. i.e., a × b = HCF × LCM. Note that this rule is applicable only for two numbers, not for three or more.\n\nHCF and LCM of Fractions\n\nLCM of fractions = LCM of Numerators ÷ HCF of Denominators.\nHCF of fractions = HCF of Numerators ÷ LCM of Denominators.\n\nCo-prime Numbers\n\nTwo numbers are said to be co-prime (or mutually prime) if their HCF is 1. The LCM of two co-prime numbers is always equal to their product.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "LCM and HCF"
+      ]
+    },
+    {
+      "qid": "63f610f29150b13adb80ada9",
+      "n": 7,
+      "type": "mcq",
+      "concept": "LCM and HCF",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the difference between the greatest and the smallest 4-digit numbers exactly divisible by 36 and 48.",
+      "options": [
+        {
+          "label": "1",
+          "text": "8928"
+        },
+        {
+          "label": "2",
+          "text": "8892"
+        },
+        {
+          "label": "3",
+          "text": "8298"
+        },
+        {
+          "label": "4",
+          "text": "8982"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nWe are asked to find the difference between the greatest and smallest 4-digit numbers divisible by both 36 and 48.\n\n**Concept Used:**\n\nThe least common multiple (LCM) of two numbers is the smallest number that is divisible by both numbers.\n\n**Calculation:**\n\nThe first step is to find the LCM of 36 and 48. The LCM of 36 and 48 is 144.\n\n⇒ The smallest 4-digit number divisible by 144 is found by dividing 1000 (the smallest 4-digit number) by 144 and rounding up to",
+      "tags": [
+        "LCM and HCF"
+      ]
+    },
+    {
+      "qid": "62a83a852e54f05606ec6655",
+      "n": 8,
+      "type": "mcq",
+      "concept": "LCM and HCF",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The HCF and LCM of two numbers are 9 and 252, respectively. If the sum of the two numbers is 99, then what is the sum of squares of two numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5265"
+        },
+        {
+          "label": "2",
+          "text": "6125"
+        },
+        {
+          "label": "3",
+          "text": "6363"
+        },
+        {
+          "label": "4",
+          "text": "5126"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nHighest common factor (HCF) of two numbers = 9\n\nLowest common multiple (LCM) of two numbers = 252.\n\nSum of the two numbers (A + B) = 99\n\n**Formula used:**\n\nFor two numbers A and B we have the relation with their HCF and LCM as\n\nLCM × HCF = A × B\n\nAlso,\n\n(A + B)² = A² + B² + 2 × AB\n\n**Calculation:**\n\nThe product of the numbers\n\nLCM × HCF = A × B\n\n252 × 9 = A × B\n\n2268 = AB\n\nNow,\n\n(A + B)² = A² + B² + 2 × AB\n\n(99)² = A² + B² + 2 × 2268\n\nA2 + B2 = 9801 - 4536\n\nA2 + B2 = 5265.\n\n**∴ Sum of squares of the two numbers is 5265.**",
+      "tags": [
+        "LCM and HCF"
+      ]
+    },
+    {
+      "qid": "620bdd343e133c161e52aa7f",
+      "n": 9,
+      "type": "mcq",
+      "concept": "LCM and HCF",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The difference between the least common multiple and the highest common factor of 36, 54 and 60 is",
+      "options": [
+        {
+          "label": "1",
+          "text": "534"
+        },
+        {
+          "label": "2",
+          "text": "536"
+        },
+        {
+          "label": "3",
+          "text": "540"
+        },
+        {
+          "label": "4",
+          "text": "600"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Concept:**\n\nLeast common multiple: The LCM of any two is the value that is evenly divisible by the two given numbers. \n\nHighest common factor: The HCF of two or more numbers is the greatest of all their common factors. \n\n**Calculation:**\n\nPrime factorization of 36 = 2 × 2 × 3 × 3\n\nPrime factorization of 54 = 2 × 3 × 3 × 3\n\nPrime factorization of 60 = 2 × 2 × 3 × 5\n\n⇒ Least common multiple of 36, 54 and 60 is 2 × 3 × 2 × 3 × 3 × 5 = 540\n\n⇒ Highest common factor of 36, 54 and 60 is 2 × 3 = 6 \n\n⇒ Difference of LCM and HCF = 540 - 6 = 534\n\n∴ Difference of LCM and HCF is 534.\n\nThe correct option is 1 i.e. 53",
+      "tags": [
+        "LCM and HCF"
+      ]
+    },
+    {
+      "qid": "64526eb2047e3f79653bc01d",
+      "n": 10,
+      "type": "mcq",
+      "concept": "LCM and HCF",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The LCM of the two numbers is 24 times their HCF. The sum of their LCM and HCF is 400. When one of the two numbers is divided by 6, the quotient is 7 and the remainder is 6. The sum of digits of the sum of two given numbers is :",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "13"
+        },
+        {
+          "label": "4",
+          "text": "14"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Formula used:**\n\nL.C.M × H.C.F = Product of two numbers \n\nDividend = Divisor × Quotient + Remainder \n\n**Calculation:**\n\nLet's assume the two numbers are x and y\n\nThe sum of their LCM and HCF is 400\n\nL + H = 400\n\nBut, L= 24 × H\n\n⇒ 25 H = 400 or\n\n⇒ **H = 16**\n\nL = 24 × 16\n\n⇒** ****L = 384**\n\nSince, Dividend = Divisor × Quotient + Remainder \n\n⇒ x = 7 × 6 + 6\n\n⇒** ****x = 48**\n\nNow by using the property\n\nL.C.M × H.C.F = Product of two numbers \n\n⇒ 384 × 16 = 48 × y\n\n⇒ y = 128\n\n⇒ x + y = 48 + 128 = 176\n\n⇒ 176 = 1 + 7 + 6 = 14\n\n**∴ The sum of digits of the sum of two given numbers is 14.**",
+      "tags": [
+        "LCM and HCF"
+      ]
+    }
+  ]
+}

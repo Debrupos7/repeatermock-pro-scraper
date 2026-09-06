@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSC CGL Tier I: (Eduquity PYQ) General Science Live Test - 12</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.6;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,0.04);position:sticky;top:0;z-index:100;}
+.brand{font-size:20px;font-weight:800;letter-spacing:-0.02em;}
+.brand-light{color:#1f2937;}
+.brand-mark{color:#1fbad6;}
+.test-title{font-size:14px;color:#4b5563;font-weight:500;text-align:center;flex:1;padding:0 24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.header-right{display:flex;align-items:center;gap:12px;}
+.timer{background:#1f2937;color:#fff;padding:8px 16px;border-radius:6px;font-family:"SF Mono",Monaco,monospace;font-size:16px;font-weight:600;min-width:110px;text-align:center;}
+.timer.warning{background:#f59e0b;}
+.timer.danger{background:#ef4444;animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.7;}}
+.header-btn{background:#1fbad6;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s;}
+.header-btn:hover{background:#1999b3;}
+.submit-btn{background:#ef4444;}
+.submit-btn:hover{background:#dc2626;}
+.meta-bar{background:#fff;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;flex-wrap:wrap;gap:12px 32px;font-size:13px;}
+.meta-item{display:flex;flex-direction:column;gap:2px;}
+.meta-label{color:#6b7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+.meta-value{color:#1f2937;font-size:14px;font-weight:600;}
+.test-container{display:flex;max-width:1400px;margin:0 auto;gap:16px;padding:16px;}
+.question-area{flex:1;min-width:0;}
+.section-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.section-tab{background:#fff;border:1px solid #e5e7eb;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;color:#4b5563;}
+.section-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.question-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.q-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #f3f4f6;}
+.q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.q-marks{display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap;}
+.q-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.q-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.conf-high{background:#d1fae5;color:#065f46;}
+.conf-unidentified{background:#fef3c7;color:#92400e;}
+.q-id{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;}
+.result-concept{background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-confidence{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;}
+.result-qid{background:#f3f4f6;color:#4b5563;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace;margin-left:auto;}
+.mark-pos{color:#10b981;font-weight:600;}
+.mark-neg{color:#ef4444;font-weight:600;}
+.q-lang-tabs{display:flex;gap:4px;margin-bottom:12px;flex-wrap:wrap;}
+.q-lang-tab{background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer;}
+.q-lang-tab.active{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.q-text{font-size:15px;margin-bottom:16px;}
+.q-text p{margin:8px 0;}
+.q-text img{max-width:100%;height:auto;border-radius:4px;}
+.options-list{list-style:none;}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;margin-bottom:8px;border:1.5px solid #e5e7eb;border-radius:6px;cursor:pointer;transition:all .15s;font-size:14px;}
+.option-item:hover{background:#f9fafb;border-color:#d1d5db;}
+.option-item.selected{background:#dbeafe;border-color:#3b82f6;}
+.option-item.correct{background:#d1fae5;border-color:#10b981;}
+.option-item.wrong{background:#fee2e2;border-color:#ef4444;}
+.option-label{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;background:#1f2937;color:#fff;border-radius:4px;font-size:12px;font-weight:600;flex-shrink:0;}
+.option-item.selected .option-label{background:#3b82f6;}
+.option-item.correct .option-label{background:#10b981;}
+.option-item.wrong .option-label{background:#ef4444;}
+.option-item.correct::after{content:" ✓ Correct";color:#10b981;font-weight:700;margin-left:auto;}
+.option-item.wrong::after{content:" ✗ Wrong";color:#ef4444;font-weight:700;margin-left:auto;}
+.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+.action-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.action-btn:hover{background:#f9fafb;}
+.action-btn.save-next{background:#1fbad6;color:#fff;border-color:#1fbad6;}
+.action-btn.save-next:hover{background:#1999b3;}
+.action-btn.mark-review{background:#fef3c7;color:#92400e;border-color:#f59e0b;}
+.prev-next{display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #f3f4f6;}
+.nav-btn{padding:8px 16px;border:1px solid #e5e7eb;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;background:#fff;color:#4b5563;}
+.nav-btn:hover{background:#f9fafb;}
+.palette-sidebar{width:280px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start;background:#fff;border-radius:8px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;max-height:calc(100vh - 110px);overflow-y:auto;}
+.palette-header{font-size:14px;font-weight:700;color:#1f2937;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f3f4f6;}
+.palette-legend{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10px;color:#6b7280;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:3px;}
+.legend-dot{width:12px;height:12px;border-radius:2px;}
+.legend-dot.answered{background:#10b981;}
+.legend-dot.notanswered{background:#ef4444;}
+.legend-dot.marked{background:#a855f7;}
+.legend-dot.notvisited{background:#e5e7eb;}
+.palette-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;}
+.palette-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px solid #e5e7eb;border-radius:4px;font-size:11px;font-weight:600;color:#4b5563;cursor:pointer;transition:all .15s;background:#f3f4f6;}
+.palette-cell:hover{transform:scale(1.1);}
+.palette-cell.answered{background:#10b981;color:#fff;border-color:#10b981;}
+.palette-cell.notanswered{background:#ef4444;color:#fff;border-color:#ef4444;}
+.palette-cell.marked{background:#a855f7;color:#fff;border-color:#a855f7;}
+.palette-cell.marked-answered{background:#a855f7;color:#fff;border-color:#a855f7;position:relative;}
+.palette-cell.marked-answered::after{content:"•";position:absolute;top:-2px;right:2px;color:#10b981;font-size:14px;}
+.palette-cell.notvisited{background:#fff;color:#9ca3af;}
+.palette-cell.current{outline:3px solid #1fbad6;outline-offset:1px;}
+.palette-stats{margin-top:12px;padding-top:12px;border-top:1px solid #f3f4f6;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:11px;color:#6b7280;}
+.palette-stats div{display:flex;justify-content:space-between;}
+.palette-stats strong{color:#1f2937;font-size:13px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;padding:24px;}
+.modal-overlay.open{display:flex;}
+.modal-content{background:#fff;border-radius:12px;padding:24px;max-width:500px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-content h2{font-size:20px;color:#1f2937;margin-bottom:12px;}
+.modal-content p{font-size:14px;color:#4b5563;margin-bottom:16px;}
+.submit-summary{background:#f9fafb;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;}
+.submit-summary div{display:flex;justify-content:space-between;margin-bottom:4px;}
+.submit-summary strong{color:#1f2937;}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;}
+.modal-btn{padding:8px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-btn.cancel{background:#f3f4f6;color:#4b5563;}
+.modal-btn.cancel:hover{background:#e5e7eb;}
+.modal-btn.submit{background:#ef4444;color:#fff;}
+.modal-btn.submit:hover{background:#dc2626;}
+.results-view{max-width:1000px;margin:0 auto;padding:24px;}
+.results-header{text-align:center;margin-bottom:32px;}
+.results-header h1{font-size:28px;color:#1f2937;margin-bottom:16px;}
+.score-card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;display:inline-block;min-width:300px;margin-bottom:16px;}
+.score-card .score{font-size:48px;font-weight:800;color:#1fbad6;}
+.score-card .total{font-size:20px;color:#6b7280;}
+.score-card .rank{font-size:14px;color:#4b5563;margin-top:8px;}
+.results-actions{display:flex;gap:8px;justify-content:center;}
+.results-questions{display:grid;gap:16px;}
+.result-card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04);border:1px solid #e5e7eb;}
+.result-card.correct{border-left:4px solid #10b981;}
+.result-card.wrong{border-left:4px solid #ef4444;}
+.result-card.skipped{border-left:4px solid #9ca3af;}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.result-q-num{background:#1fbad6;color:#fff;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;}
+.result-status{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;}
+.result-status.correct{background:#d1fae5;color:#065f46;}
+.result-status.wrong{background:#fee2e2;color:#991b1b;}
+.result-status.skipped{background:#f3f4f6;color:#4b5563;}
+.result-text{font-size:14px;margin-bottom:12px;}
+.result-text p{margin:6px 0;}
+.result-options{list-style:none;margin-bottom:12px;}
+.result-option{padding:8px 12px;margin-bottom:4px;border:1px solid #e5e7eb;border-radius:4px;font-size:13px;display:flex;align-items:flex-start;gap:8px;}
+.result-option.correct{background:#d1fae5;border-color:#10b981;font-weight:600;}
+.result-option.selected{background:#dbeafe;border-color:#3b82f6;}
+.result-option.correct.selected{background:#a7f3d0;}
+.result-option-label{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;background:#1f2937;color:#fff;border-radius:3px;font-size:11px;font-weight:600;}
+.result-option.correct .result-option-label{background:#10b981;}
+.result-solution{background:#fef3c7;border-left:3px solid #f59e0b;border-radius:4px;padding:12px;font-size:13px;color:#1f2937;}
+.result-solution-title{font-weight:700;color:#92400e;margin-bottom:6px;font-size:12px;}
+.result-solution p{margin:6px 0;}
+.result-solution img{max-width:100%;height:auto;border-radius:4px;}
+@media (max-width:1024px){.palette-sidebar{width:220px;}.palette-grid{grid-template-columns:repeat(5,1fr);}}
+@media (max-width:768px){.test-container{flex-direction:column;}.palette-sidebar{width:100%;position:static;max-height:none;}.palette-grid{grid-template-columns:repeat(10,1fr);}}
+@media print{.top-bar,.palette-sidebar,.actions,.prev-next,.section-tabs,.q-lang-tabs,.meta-bar,.results-actions{display:none;}.test-container,.results-view{display:block;}.result-card{page-break-inside:avoid;}}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="top-bar">
+  <div class="brand"><span class="brand-light">Repeater</span><span class="brand-mark">Mock</span></div>
+  <div class="test-title" id="testTitle">SSC CGL Tier I: (Eduquity PYQ) General Science Live Test - 12</div>
+  <div class="header-right">
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="header-btn submit-btn" onclick="openSubmitModal()">Submit Test</button>
+  </div>
+</header>
+
+<!-- Meta bar -->
+<div class="meta-bar">
+  <div class="meta-item"><span class="meta-label">Series</span><span class="meta-value">ssc-cgl</span></div>
+  <div class="meta-item"><span class="meta-label">Questions</span><span class="meta-value">25</span></div>
+  <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">0 min</span></div>
+  <div class="meta-item"><span class="meta-label">Max Marks</span><span class="meta-value">50.0</span></div>
+  <div class="meta-item"><span class="meta-label">Marking</span><span class="meta-value">+2.0 / -0.5</span></div>
+  <div class="meta-item"><span class="meta-label">Test ID</span><span class="meta-value">6a4657af33afde38655481c1</span></div>
+</div>
+
+<!-- Test mode -->
+<div id="testMode" class="test-container">
+  <main class="question-area">
+    <div class="section-tabs" id="sectionTabs"></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-header">
+        <span class="q-num" id="qNum">Q1</span>
+        <span class="q-marks" id="qMarks"></span>
+      </div>
+      <div class="q-lang-tabs" id="qLangTabs"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options-list" id="optionsList"></div>
+      <div class="actions">
+        <button class="action-btn mark-review" onclick="markReviewNext()">Mark for Review &amp; Next</button>
+        <button class="action-btn clear-response" onclick="clearResponse()">Clear Response</button>
+        <button class="action-btn save-next" onclick="saveNext()">Save &amp; Next →</button>
+      </div>
+      <div class="prev-next">
+        <button class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button class="nav-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </main>
+  <aside class="palette-sidebar">
+    <div class="palette-header">
+      <span id="currentSectionLabel">Test</span>
+    </div>
+    <div class="palette-legend">
+      <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+      <span class="legend-item"><span class="legend-dot notanswered"></span>Not Answered</span>
+      <span class="legend-item"><span class="legend-dot marked"></span>Marked</span>
+      <span class="legend-item"><span class="legend-dot notvisited"></span>Not Visited</span>
+    </div>
+    <div class="palette-grid" id="paletteGrid"></div>
+    <div class="palette-stats" id="paletteStats"></div>
+  </aside>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="modal-content">
+    <h2>Submit Test?</h2>
+    <p>Are you sure you want to submit? You won't be able to change your answers after this.</p>
+    <div class="submit-summary" id="submitSummary"></div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="modal-btn submit" onclick="submitTest()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Results view (hidden until submit) -->
+<div id="resultsView" class="results-view" style="display:none;">
+  <div class="results-header">
+    <h1>Test Submitted</h1>
+    <div class="score-card" id="scoreCard"></div>
+    <div class="results-actions">
+      <button class="header-btn" onclick="showAllQuestions()">View All Questions &amp; Solutions</button>
+      <button class="header-btn" onclick="window.print()">🖨️ Print</button>
+    </div>
+  </div>
+  <div class="results-questions" id="resultsQuestions"></div>
+</div>
+
+<!-- Test data embedded as JSON -->
+<script type="application/json" id="test-data">{"test_id": "6a4657af33afde38655481c1", "title": "SSC CGL Tier I: (Eduquity PYQ) General Science Live Test - 12", "series_slug": "ssc-cgl", "duration_min": 0, "max_marks": 50.0, "languages": ["English", "Hindi"], "sections": [{"section_id": "69f0944e34a326423f2cd8f7", "section_name": "Test", "q_count": 25, "max_marks": 50.0, "questions": [{"qid": "694a43ce8fcb99d132b81004", "qs_no": 1, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Why do arteries have thick, elastic walls in human body?", "options": [{"prompt": "1", "value": "To accommodate high blood pressure"}, {"prompt": "2", "value": "To prevent blood clotting"}, {"prompt": "3", "value": "To facilitate nutrient exchange"}, {"prompt": "4", "value": "To store oxygen"}], "range": {"start": "", "end": ""}}, "hn": {"value": "मानव शरीर में धमनियों की भित्ति मोटी तथा लचीली क्यों होती हैं?", "options": [{"prompt": "1", "value": "रुधिर के उच्च दाब को समायोजित करने के लिए"}, {"prompt": "2", "value": "रक्त के थक्के बनने से रोकने के लिए"}, {"prompt": "3", "value": "पोषक तत्वों के विनिमय को सुगम बनाने के लिए"}, {"prompt": "4", "value": "ऑक्सीजन संग्रहीत करने के लिए"}], "range": {"start": "", "end": ""}}, "te": {"value": "మానవ శరీరంలో ధమనులు మందపాటి, సాగే గోడలను ఎందుకు కలిగి ఉంటాయి?", "options": [{"prompt": "1", "value": "అధిక రక్తపోటును తట్టుకోవడానికి"}, {"prompt": "2", "value": "రక్తం గడ్డకట్టడాన్ని నిరోధించడానికి"}, {"prompt": "3", "value": "పోషకాల మార్పిడిని సులభతరం చేయడానికి"}, {"prompt": "4", "value": "ఆక్సిజన్&zwnj;ను నిల్వ చేయడానికి"}], "range": {"start": "", "end": ""}}, "mr": {"value": "मानवी शरीरात धमन्यांच्या भिंती जाड आणि लवचिक का असतात?", "options": [{"prompt": "1", "value": "उच्च रक्तदाब सामावून घेण्यासाठी"}, {"prompt": "2", "value": "रक्त गोठण्यास प्रतिबंध करण्यासाठी"}, {"prompt": "3", "value": "पोषक तत्वांच्या देवाणघेवाणीस सुलभ करण्यासाठी"}, {"prompt": "4", "value": "ऑक्सिजन साठवण्यासाठी"}], "range": {"start": "", "end": ""}}, "bn": {"value": "মানবদেহে ধমনীর দেয়াল পুরু এবং স্থিতিস্থাপক হয় কেন?", "options": [{"prompt": "1", "value": "উচ্চ রক্তচাপ ধারণ করার জন্য"}, {"prompt": "2", "value": "রক্ত ​​জমাট বাঁধা রোধ করার জন্য"}, {"prompt": "3", "value": "পুষ্টি বিনিময় সহজ করার জন্য"}, {"prompt": "4", "value": "অক্সিজেন সংরক্ষণের জন্য"}], "range": {"start": "", "end": ""}}, "gu": {"value": "માનવ શરીરમાં ધમનીઓની દિવાલો જાડી અને સ્થિતિસ્થાપક શા માટે હોય છે?", "options": [{"prompt": "1", "value": "ઉચ્ચ રક્તચાપને સમાવવા માટે"}, {"prompt": "2", "value": "લોહી ગંઠાઈ જતું અટકાવવા માટે"}, {"prompt": "3", "value": "પોષક તત્વોના વિનિમયને સરળ બનાવવા માટે"}, {"prompt": "4", "value": "ઓક્સિજનનો સંગ્રહ કરવા માટે"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಮಾನವ ದೇಹದಲ್ಲಿ ಅಪಧಮನಿಗಳು ದಪ್ಪ, ಸ್ಥಿತಿಸ್ಥಾಪಕ ಗೋಡೆಗಳನ್ನು ಏಕೆ ಹೊಂದಿವೆ?", "options": [{"prompt": "1", "value": "ಹೆಚ್ಚಿನ ರಕ್ತದೊತ್ತಡವನ್ನು ಸರಿಹೊಂದಿಸಲು"}, {"prompt": "2", "value": "ರಕ್ತ ಹೆಪ್ಪುಗಟ್ಟುವಿಕೆಯನ್ನು ತಡೆಯಲು"}, {"prompt": "3", "value": "ಪೋಷಕಾಂಶಗಳ ವಿನಿಮಯಕ್ಕೆ ಅನುಕೂಲವಾಗುವಂತೆ"}, {"prompt": "4", "value": "ಆಮ್ಲಜನಕವನ್ನು ಸಂಗ್ರಹಿಸಲು"}], "range": {"start": "", "end": ""}}, "ta": {"value": "மனித உடலில் தமனிகள் ஏன் தடிமனான, மீளும் சுவர்களைக் கொண்டுள்ளன?", "options": [{"prompt": "1", "value": "அதிக இரத்த அழுத்தத்தை சரிசெய்ய"}, {"prompt": "2", "value": "இரத்தம் உறைவதைத் தடுக்க"}, {"prompt": "3", "value": "ஊட்டச்சத்துப் பரிமாற்றத்தை எளிதாக்க"}, {"prompt": "4", "value": "ஆக்ஸிஜனைச் சேமிக்க"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Biology", "confidence": "high"}, {"qid": "69bced06ba9e623343b7aaff", "qs_no": 2, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<span style=\"color: rgb(33, 37, 41);\">Dmitri Mendeleev was unable to assign the correct position to which element?</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Helium&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Hydrogen&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Oxygen&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Chlorine&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"color: rgb(33, 37, 41);\">दमित्री मेंडलीव किस तत्व को सही स्थान देने में असमर्थ थे?</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;हीलियम&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;हाइड्रोजन&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;ऑक्सीजन&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;क्लोरीन&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"color: rgb(33, 37, 41);\">దిమిత్రి మెండలీవ్ ఏ మూలకానికి సరైన స్థానాన్ని కేటాయించలేకపోయాడు?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">హీలియం</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">హైడ్రోజన్</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ఆక్సిజన్</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">క్లోరిన్</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style=\"color: rgb(33, 37, 41);\">दिमित्री मेंडेलीव्ह खालीलपैकी कोणत्या घटकाला (मूलद्रव्याला) योग्य स्थान देऊ शकले नाहीत?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">हेलियम</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">हायड्रोजन</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ऑक्सिजन</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">क्लोरीन</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"color: rgb(33, 37, 41);\">দিমিত্রি মেন্ডেলিভ কোন মৌলটির সঠিক অবস্থান নির্ধারণ করতে অক্ষম ছিলেন?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">হিলিয়াম</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">হাইড্রোজেন</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">অক্সিজেন</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">ক্লোরিন</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style='color: rgb(33, 37, 41);'>દિમિત્રી મેન્ડેલીવ કયા તત્વને યોગ્ય સ્થાન આપી શક્યા ન હતા?</span>", "options": [{"prompt": "1", "value": "<span style='color: rgb(33, 37, 41);'>હિલિયમ</span>"}, {"prompt": "2", "value": "<span style='color: rgb(33, 37, 41);'>હાઇડ્રોજન</span>"}, {"prompt": "3", "value": "<span style='color: rgb(33, 37, 41);'>ઓક્સિજન</span>"}, {"prompt": "4", "value": "<span style='color: rgb(33, 37, 41);'>ક્લોરિન</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"color: rgb(33, 37, 41);\">ಡಿಮಿಟ್ರಿ ಮೆಂಡಲೀವ್ ಅವರು ಯಾವ ಧಾತುವಿಗೆ ಸರಿಯಾದ ಸ್ಥಾನವನ್ನು ನೀಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">ಹೀಲಿಯಂ</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ಹೈಡ್ರೋಜನ್</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ಆಮ್ಲಜನಕ (ಆಕ್ಸಿಜನ್)</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">ಕ್ಲೋರಿನ್</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style=\"color: rgb(33, 37, 41);\">டிமிட்ரி மெண்டலீவால் எந்த தனிமத்திற்கு சரியான இட ஒதுக்கீட்டை வழங்க முடியவில்லை?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">ஹீலியம்</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ஹைட்ரஜன்</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ஆக்ஸிஜன்</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">குளோரின்</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Chemistry", "confidence": "high"}, {"qid": "6943ac8501985b6ac1d66862", "qs_no": 3, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What of the following statement is correct regarding phloem of a plant?<br />\nI. The translocation in phloem is achieved by utilizing energy.<br />\nII. Material are transferred into phloem tissue using energy from ATP.", "options": [{"prompt": "1", "value": "Only I"}, {"prompt": "2", "value": "Only II"}, {"prompt": "3", "value": "Both I and II"}, {"prompt": "4", "value": "Neither I nor II"}], "range": {"start": "", "end": ""}}, "hn": {"value": "पादप के फ्लोएम के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?<br />\nI. फ्लोएम में स्थानांतरण, ऊर्जा का उपयोग करके प्राप्त किया जाता है।<br />\nII. ATP से ऊर्जा का उपयोग करके पदार्थों को फ्लोएम ऊतक में स्थानांतरित किया जाता है।", "options": [{"prompt": "1", "value": "केवल I"}, {"prompt": "2", "value": "केवल II"}, {"prompt": "3", "value": "I और II दोनों"}, {"prompt": "4", "value": "न तो I और न ही II"}], "range": {"start": "", "end": ""}}, "te": {"value": "మొక్కలోని ఫ్లోయెమ్‌కు సంబంధించి కింది ప్రకటనలలో ఏది సరైనది?<br />\nI. ఫ్లోయెమ్‌లో స్థానభ్రంశం శక్తిని ఉపయోగించి సాధించబడుతుంది.<br />\nII. ATP నుండి శక్తిని ఉపయోగించి పదార్థాలు ఫ్లోయెమ్ కణజాలంలోకి బదిలీ చేయబడతాయి.", "options": [{"prompt": "1", "value": "I మాత్రమే"}, {"prompt": "2", "value": "II మాత్రమే"}, {"prompt": "3", "value": "I మరియు II రెండూ"}, {"prompt": "4", "value": "I మరియు II రెండూ కాదు"}], "range": {"start": "", "end": ""}}, "bn": {"value": "উদ্ভিদের ফ্লোয়েম সম্পর্কে নিম্নলিখিত বিবৃতিগুলির মধ্যে কোনটি সঠিক?<br />\nI. ফ্লোয়েমে স্থানান্তর শক্তি ব্যবহার করে সম্পন্ন হয়।<br />\nII. ATP থেকে শক্তি ব্যবহার করে উপাদানগুলি ফ্লোয়েম কলায় স্থানান্তরিত হয়।", "options": [{"prompt": "1", "value": "শুধুমাত্র I"}, {"prompt": "2", "value": "শুধুমাত্র II"}, {"prompt": "3", "value": "I এবং II উভয়ই"}, {"prompt": "4", "value": "I বা II কোনটিই নয়"}], "range": {"start": "", "end": ""}}, "gu": {"value": "વનસ્પતિના ફ્લોએમ (phloem) અંગે નીચેનામાંથી કયું વિધાન સાચું છે?<br />\nI. ફ્લોએમમાં સ્થાનાંતરણ ઊર્જાનો ઉપયોગ કરીને પ્રાપ્ત થાય છે.<br />\nII. ATPમાંથી ઊર્જાનો ઉપયોગ કરીને પદાર્થોને ફ્લોએમ પેશીમાં સ્થાનાંતરિત કરવામાં આવે છે.", "options": [{"prompt": "1", "value": "માત્ર I"}, {"prompt": "2", "value": "માત્ર II"}, {"prompt": "3", "value": "I અને II બંને"}, {"prompt": "4", "value": "I અને II બંનેમાંથી કોઈ નહીં"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಸಸ್ಯದ ಫ್ಲೋಯಂ ಬಗ್ಗೆ ಈ ಕೆಳಗಿನ ಯಾವ ಹೇಳಿಕೆ ಸರಿಯಾಗಿದೆ?<br />\nI. ಫ್ಲೋಯಂನಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಳಸಿಕೊಂಡು ಸ್ಥಳಾಂತರವನ್ನು ಸಾಧಿಸಲಾಗುತ್ತದೆ.<br />\nII. ATP ಯ ಶಕ್ತಿಯನ್ನು ಬಳಸಿಕೊಂಡು ವಸ್ತುಗಳನ್ನು ಫ್ಲೋಯಂ ಅಂಗಾಂಶಕ್ಕೆ ವರ್ಗಾಯಿಸಲಾಗುತ್ತದೆ.", "options": [{"prompt": "1", "value": "ನಾನು ಮಾತ್ರ"}, {"prompt": "2", "value": "ಕೇವಲ II"}, {"prompt": "3", "value": "I ಮತ್ತು II ಎರಡೂ"}, {"prompt": "4", "value": "ನಾನು ಅಥವಾ II ಅಲ್ಲ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "ஒரு தாவரத்தின் ஃபுளோயம் (phloem) பற்றிய பின்வரும் கூற்றுக்களில் எது சரியானது?<br />\nI. ஃபுளோயமில் உள்ள இடமாற்றம் ஆற்றலைப் பயன்படுத்துவதன் மூலம் அடையப்படுகிறது.<br />\nII. ATP இலிருந்து வரும் ஆற்றலைப் பயன்படுத்தி பொருட்கள் ஃபுளோயம் திசுக்களுக்கு மாற்றப்படுகின்றன.", "options": [{"prompt": "1", "value": "I மட்டும்"}, {"prompt": "2", "value": "II மட்டும்"}, {"prompt": "3", "value": "I மற்றும் II இரண்டும்"}, {"prompt": "4", "value": "I அல்லது II இரண்டும் இல்லை"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Biology", "confidence": "high"}, {"qid": "69aea1c7c70c0a6af0979697", "qs_no": 4, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which of the following layer of atmosphere helps in radio transmission?", "options": [{"prompt": "1", "value": "Troposphere"}, {"prompt": "2", "value": "Stratosphere"}, {"prompt": "3", "value": "Mesosphere"}, {"prompt": "4", "value": "Thermosphere"}], "range": {"start": "", "end": ""}}, "hn": {"value": "निम्नलिखित में से कौन सी वायुमंडल की परत रेडियो संचार में मदद करती है?", "options": [{"prompt": "1", "value": "क्षोभ मंडल"}, {"prompt": "2", "value": "समताप मंडल"}, {"prompt": "3", "value": "मध्य मंडल"}, {"prompt": "4", "value": "बाह्य वायुमंडल"}], "range": {"start": "", "end": ""}}, "te": {"value": "రేడియో ప్రసారానికి సహాయపడే వాతావరణ పొర కింది వాటిలో ఏది?", "options": [{"prompt": "1", "value": "ట్రోపోస్పియర్"}, {"prompt": "2", "value": "స్ట్రాటోస్పియర్"}, {"prompt": "3", "value": "మెసోస్పియర్"}, {"prompt": "4", "value": "థర్మోస్పియర్"}], "range": {"start": "", "end": ""}}, "mr": {"value": "वातावरणाचा खालीलपैकी कोणता थर रेडिओ प्रेषणामध्ये मदत करतो?", "options": [{"prompt": "1", "value": "<span data-sheets-root=\"1\" style=\"color: rgb(0, 0, 0);   text-align: center;\">तपांबर</span>"}, {"prompt": "2", "value": "<span data-sheets-root=\"1\" style=\"color: rgb(0, 0, 0);   text-align: center;\">स्थितांबर</span>"}, {"prompt": "3", "value": "<span data-sheets-root=\"1\" style=\"color: rgb(0, 0, 0);   text-align: center;\">मध्यांबर</span>"}, {"prompt": "4", "value": "<span data-sheets-root=\"1\" style=\"color: rgb(0, 0, 0);   text-align: center;\">दलांबर</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "বায়ুমণ্ডলের নিম্নলিখিত কোন স্তর রেডিও ট্রান্সমিশনে সাহায্য করে?", "options": [{"prompt": "1", "value": "ট্রপোস্ফিয়ার"}, {"prompt": "2", "value": "স্ট্র্যাটোস্ফিয়ার"}, {"prompt": "3", "value": "মেসোস্ফিয়ার"}, {"prompt": "4", "value": "থার্মোস্ফিয়ার"}], "range": {"start": "", "end": ""}}, "gu": {"value": "વાતાવરણનું નીચેનામાંથી કયું સ્તર રેડિયો ટ્રાન્સમિશનમાં મદદ કરે છે?", "options": [{"prompt": "1", "value": "ક્ષોભ આવરણ"}, {"prompt": "2", "value": "સમતાપ આવરણ"}, {"prompt": "3", "value": "મેસોસ્ફિયર"}, {"prompt": "4", "value": "થર્મોસ્ફિયર"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಈ ಕೆಳಗಿನ ಯಾವ ವಾತಾವರಣದ ಪದರವು ರೇಡಿಯೋ ಪ್ರಸರಣಕ್ಕೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ?", "options": [{"prompt": "1", "value": "ಟ್ರೋಪೋಸ್ಪಿಯರ್"}, {"prompt": "2", "value": "ವಾಯುಮಂಡಲ"}, {"prompt": "3", "value": "ಮೆಸೋಸ್ಫಿಯರ್"}, {"prompt": "4", "value": "ಉಷ್ಣಗೋಳ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "பின்வரும் வளிமண்டல அடுக்குகளில் எது வானொலி அலைபரப்பிற்கு உதவுகிறது?", "options": [{"prompt": "1", "value": "ட்ரோபோஸ்பியர்"}, {"prompt": "2", "value": "வளிமண்டல அடுக்கு"}, {"prompt": "3", "value": "மீசோஸ்பியர்"}, {"prompt": "4", "value": "வெப்பமண்டலம்"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "6909e01b621842063c1c16ce", "qs_no": 5, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What is the primary function of the Golgi apparatus?", "options": [{"prompt": "1", "value": "ATP production"}, {"prompt": "2", "value": "Protein modification"}, {"prompt": "3", "value": "Lipid synthesis"}, {"prompt": "4", "value": "DNA replication"}], "range": {"start": "", "end": ""}}, "hn": {"value": "गॉल्जी उपकरण का प्राथमिक कार्य क्या है?", "options": [{"prompt": "1", "value": "एटीपी उत्पादन"}, {"prompt": "2", "value": "प्रोटीन संशोधन"}, {"prompt": "3", "value": "लिपिड संश्लेषण"}, {"prompt": "4", "value": "डीएनए प्रतिकृति"}], "range": {"start": "", "end": ""}}, "ta": {"value": "கோல்கி உடலத்தின் முதன்மைச் செயல்பாடு என்ன?", "options": [{"prompt": "1", "value": "பிஎன்பி உற்பத்தி"}, {"prompt": "2", "value": "புரத மாற்றம்"}, {"prompt": "3", "value": "கொழுப்பு தொகுப்பு"}, {"prompt": "4", "value": "டிஎன்ஏ இரட்டித்தல்"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Biology", "confidence": "high"}, {"qid": "69975193fdfd44924d6dc9e6", "qs_no": 6, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Carbon dioxide is transported to the lungs from all parts of the body through ______ in humans.", "options": [{"prompt": "1", "value": "Sweat"}, {"prompt": "2", "value": "Mucus"}, {"prompt": "3", "value": "Blood"}, {"prompt": "4", "value": "Lymph"}], "range": {"start": "", "end": ""}}, "hn": {"value": "मनुष्यों में कार्बन डाइऑक्साइड ______ के माध्यम से शरीर के सभी भागों से फेफड़ों तक पहुँचाई जाती है।", "options": [{"prompt": "1", "value": "पसीना"}, {"prompt": "2", "value": "श्लेष्मा"}, {"prompt": "3", "value": "रुधिर"}, {"prompt": "4", "value": "लसीका"}], "range": {"start": "", "end": ""}}, "te": {"value": "మానవులలో శరీరంలోని అన్ని భాగాల నుండి కార్బన్ డయాక్సైడ్ ఊపిరితిత్తులకు ______ ద్వారా రవాణా చేయబడుతుంది.", "options": [{"prompt": "1", "value": "చెమట"}, {"prompt": "2", "value": "శ్లేష్మం"}, {"prompt": "3", "value": "రక్తం"}, {"prompt": "4", "value": "శోషరసం"}], "range": {"start": "", "end": ""}}, "mr": {"value": "मानवामध्ये शरीराच्या सर्व भागातून कार्बन डायऑक्साइड फुफ्फुसांपर्यंत _______ द्वारे पोहोचवला जातो.", "options": [{"prompt": "1", "value": "घाम"}, {"prompt": "2", "value": "श्लेष्मा"}, {"prompt": "3", "value": "रक्त"}, {"prompt": "4", "value": "लसिका"}], "range": {"start": "", "end": ""}}, "bn": {"value": "মানবদেহে শরীরের সমস্ত অংশ থেকে কার্বন ডাই অক্সাইড ______ এর মাধ্যমে ফুসফুসে পরিবাহিত হয়।", "options": [{"prompt": "1", "value": "ঘাম"}, {"prompt": "2", "value": "শ্লেষ্মা"}, {"prompt": "3", "value": "রক্ত"}, {"prompt": "4", "value": "লসিকা"}], "range": {"start": "", "end": ""}}, "gu": {"value": "મનુષ્યમાં કાર્બન ડાયોક્સાઇડ શરીરના તમામ ભાગોમાંથી ફેફસાં સુધી ______ દ્વારા પહોંચાડવામાં આવે છે.", "options": [{"prompt": "1", "value": "પરસેવો"}, {"prompt": "2", "value": "શ્લેષ્મ"}, {"prompt": "3", "value": "લોહી"}, {"prompt": "4", "value": "લસિકા"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಮಾನವರಲ್ಲಿ ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್ ದೇಹದ ಎಲ್ಲಾ ಭಾಗಗಳಿಂದ ಶ್ವಾಸಕೋಶಕ್ಕೆ ______ ಮೂಲಕ ಸಾಗಿಸಲ್ಪಡುತ್ತದೆ.", "options": [{"prompt": "1", "value": "ಬೆವರು"}, {"prompt": "2", "value": "ಶ್ಲೇಷ್ಮ"}, {"prompt": "3", "value": "ರಕ್ತ"}, {"prompt": "4", "value": " ದುಗ್ಧರಸ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "மனிதர்களின் உடலில் உள்ள அனைத்துப் பகுதிகளிலிருந்தும் கார்பன் டை ஆக்சைடு நுரையீரலுக்கு ______ வழியாகக் கொண்டு செல்லப்படுகிறது.", "options": [{"prompt": "1", "value": "வியர்வை"}, {"prompt": "2", "value": "சளி"}, {"prompt": "3", "value": "இரத்தம்"}, {"prompt": "4", "value": "நிணநீர்"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Static GK", "confidence": "high"}, {"qid": "68b0f2d7a4e2ea0fdf7bbf74", "qs_no": 7, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Two resistors named R1 and R2, are connected in parallel. If R1 &lt; R2, what can be inferred about the current flowing through them, given the same potential difference across both?", "options": [{"prompt": "1", "value": "R1 is less than through R2."}, {"prompt": "2", "value": "Current through R1 is equal to current through R2."}, {"prompt": "3", "value": "Current through R1 is greater than through R2."}, {"prompt": "4", "value": "The current ratio depends on the supply voltage."}], "range": {"start": "", "end": ""}}, "hn": {"value": "R1 और R2 नामक दो प्रतिरोधक समांतर क्रम में जुड़े हुए हैं। यदि R1&lt; R2 है, तो दोनों के बीच समान विभवांतर होने पर, उनमें प्रवाहित धारा के बारे में क्या अनुमान लगाया जा सकता है?", "options": [{"prompt": "1", "value": "R1 से प्रवाहित धारा, R2 से प्रवाहित धारा से कम है।"}, {"prompt": "2", "value": "R1 से प्रवाहित धारा, R2 से प्रवाहित धारा के बराबर है।"}, {"prompt": "3", "value": "R1 से प्रवाहित धारा, R2 से प्रवाहित धारा से अधिक है।"}, {"prompt": "4", "value": "धारा अनुपात आपूर्ति वोल्टेज पर निर्भर करता है।"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69ca10e011009b337816ffd5", "qs_no": 8, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Soybean products contain ________, which are similar to one of the human hormones.", "options": [{"prompt": "1", "value": "phytoestrogen"}, {"prompt": "2", "value": "manihotoxin"}, {"prompt": "3", "value": "taxol"}, {"prompt": "4", "value": "morphine"}], "range": {"start": "", "end": ""}}, "hn": {"value": "सोयाबीन उत्पादों में ________ होता है, जो मानव हार्मोनों में से एक के समान है।", "options": [{"prompt": "1", "value": "फाइटोएस्ट्रोजेन"}, {"prompt": "2", "value": "मैनीहोटॉक्सिन"}, {"prompt": "3", "value": "टैक्सोल"}, {"prompt": "4", "value": "मॉर्फिन"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Economics", "confidence": "high"}, {"qid": "69c22df5a03794d5e80d43fb", "qs_no": 9, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Why is the management of subsurface fluid reservoir important?", "options": [{"prompt": "1", "value": "Only for environmental reasons"}, {"prompt": "2", "value": "Only for economic reasons"}, {"prompt": "3", "value": "For both economic and environmental reasons"}, {"prompt": "4", "value": "For neither economic nor environmental reasons"}], "range": {"start": "", "end": ""}}, "hn": {"value": "उपसतह द्रव भण्डार का प्रबंधन क्यों महत्वपूर्ण है?", "options": [{"prompt": "1", "value": "केवल पर्यावरणीय कारणों से"}, {"prompt": "2", "value": "केवल आर्थिक कारणों से"}, {"prompt": "3", "value": "आर्थिक और पर्यावरणीय दोनों कारणों से"}, {"prompt": "4", "value": "न तो आर्थिक और न ही पर्यावरणीय कारणों से"}], "range": {"start": "", "end": ""}}, "mr": {"value": "भूपृष्ठाखालील द्रव साठ्यांचे (subsurface fluid reservoir) व्यवस्थापन का महत्त्वाचे आहे?", "options": [{"prompt": "1", "value": "केवळ पर्यावरणीय कारणांसाठी"}, {"prompt": "2", "value": "केवळ आर्थिक कारणांसाठी"}, {"prompt": "3", "value": "आर्थिक आणि पर्यावरणीय अशा दोन्ही कारणांसाठी"}, {"prompt": "4", "value": "आर्थिक किंवा पर्यावरणीय यांपैकी कोणत्याही कारणांसाठी नाही"}], "range": {"start": "", "end": ""}}, "bn": {"value": "ভূগর্ভস্থ তরল জলাধারের ব্যবস্থাপনা কেন গুরুত্বপূর্ণ?", "options": [{"prompt": "1", "value": "শুধুমাত্র পরিবেশগত কারণে"}, {"prompt": "2", "value": "শুধুমাত্র অর্থনৈতিক কারণে"}, {"prompt": "3", "value": "অর্থনৈতিক এবং পরিবেশগত উভয় কারণে"}, {"prompt": "4", "value": "অর্থনৈতিক বা পরিবেশগত কোনো কারণের জন্যই নয়"}], "range": {"start": "", "end": ""}}, "gu": {"value": "ભૂગર્ભીય પ્રવાહી જળાશયો (subsurface fluid reservoir) નું સંચાલન શા માટે મહત્વનું છે?", "options": [{"prompt": "1", "value": "માત્ર પર્યાવરણીય કારણોસર"}, {"prompt": "2", "value": "માત્ર આર્થિક કારણોસર"}, {"prompt": "3", "value": "આર્થિક અને પર્યાવરણીય બંને કારણોસર"}, {"prompt": "4", "value": "આર્થિક કે પર્યાવરણીય બંનેમાંથી એક પણ કારણસર નહીં"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಉಪಮೈಮೈಲ್ ದ್ರವ ಜಲಾಶಯಗಳ ನಿರ್ವಹಣೆ ಏಕೆ ಮುಖ್ಯವಾಗಿದೆ?", "options": [{"prompt": "1", "value": "ಪರಿಸರ ಕಾರಣಗಳಿಗಾಗಿ ಮಾತ್ರ"}, {"prompt": "2", "value": "ಆರ್ಥಿಕ ಕಾರಣಗಳಿಗಾಗಿ ಮಾತ್ರ"}, {"prompt": "3", "value": "ಆರ್ಥಿಕ ಮತ್ತು ಪರಿಸರ ಎರಡೂ ಕಾರಣಗಳಿಗಾಗಿ"}, {"prompt": "4", "value": "ಆರ್ಥಿಕ ಅಥವಾ ಪರಿಸರ ಕಾರಣಗಳಿಗೂ ಅಲ್ಲ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "நிலத்தடி திரவ நீர்த்தேக்கத்தின் மேலாண்மை ஏன் முக்கியமானது?", "options": [{"prompt": "1", "value": "சுற்றுச்சூழல் காரணங்களுக்காக மட்டுமே"}, {"prompt": "2", "value": "பொருளாதார காரணங்களுக்காக மட்டுமே"}, {"prompt": "3", "value": "பொருளாதார மற்றும் சுற்றுச்சூழல் ஆகிய இரு காரணங்களுக்காகவும்"}, {"prompt": "4", "value": "பொருளாதார அல்லது சுற்றுச்சூழல் ஆகிய இரண்டு காரணங்களுக்காகவும் அல்ல"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Economics", "confidence": "high"}, {"qid": "6909f792ad853d4240794bbe", "qs_no": 10, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which of the below statements on the plant hormones is <strong>INCORRECT</strong>?", "options": [{"prompt": "1", "value": "Auxins promote growth"}, {"prompt": "2", "value": "Cytokinins delay aging"}, {"prompt": "3", "value": "Ethylene promotes seed germination"}, {"prompt": "4", "value": "Gibberellins promote stem elongation"}], "range": {"start": "", "end": ""}}, "hn": {"value": "पौधे के हार्मोन पर नीचे दिए गए कथनों में से कौन-सा <strong>गलत</strong> है?", "options": [{"prompt": "1", "value": "ऑक्सिन वृद्धि को बढ़ावा देते हैं"}, {"prompt": "2", "value": "साइटोकिनिन आयु बढ़ने में देरी करते हैं"}, {"prompt": "3", "value": "एथिलीन बीज अंकुरण को बढ़ावा देता है"}, {"prompt": "4", "value": "जिबरेलिन तने के बढ़ाव को बढ़ावा देते हैं"}], "range": {"start": "", "end": ""}}, "te": {"value": "మొక్కల హార్మోన్లపై దిగువ ప్రకటనలలో ఏది <strong>తప్పు</strong>?", "options": [{"prompt": "1", "value": "ఆక్సిన్లు వృద్ధిని ప్రోత్సహిస్తాయి"}, {"prompt": "2", "value": "సైటోకినిన్&zwnj;లు వృద్ధాప్యాన్ని ఆలస్యం చేస్తాయి"}, {"prompt": "3", "value": "ఇథిలీన్ విత్తనాల అంకురోత్పత్తిని ప్రోత్సహిస్తుంది"}, {"prompt": "4", "value": "గిబ్బరెల్లిన్&zwnj;లు కాండం పొడవును పెంచుతాయి"}], "range": {"start": "", "end": ""}}, "mr": {"value": "वनस्पती संप्रेरकांवरील खालीलपैकी कोणते विधान <strong>अचूक</strong> आहे?", "options": [{"prompt": "1", "value": "ऑक्सिन्स वाढीस प्रोत्साहन देतात"}, {"prompt": "2", "value": "सायटोकिनिन वृद्धत्व लांबवतात"}, {"prompt": "3", "value": "इथिलीन बियाणे उगवण promotes करते"}, {"prompt": "4", "value": "जिबरेलिन्स खोडांच्या वाढीस प्रोत्साहन देतात"}], "range": {"start": "", "end": ""}}, "bn": {"value": "উদ্ভিদের হরমোন সম্পর্কিত নীচের কোন বিবৃতিটি <strong>ভুল</strong>?", "options": [{"prompt": "1", "value": "অক্সিন বৃদ্ধি ঘটায়"}, {"prompt": "2", "value": "সাইটোকিনিন বার্ধক্য বিলম্বিত করে"}, {"prompt": "3", "value": "ইথিলিন বীজের অঙ্কুরোদ্গমকে উৎসাহিত করে"}, {"prompt": "4", "value": "জিব্বেরেলিন কাণ্ডের প্রসারণকে উৎসাহিত করে"}], "range": {"start": "", "end": ""}}, "gu": {"value": "વનસ્પતિ હોર્મોન્સ (અંતઃસ્ત્રાવો) પરના નીચેનામાંથી કયું વિધાન <strong>ખોટું (INCORRECT)</strong> છે?", "options": [{"prompt": "1", "value": "ઓક્સિન્સ વૃદ્ધિને પ્રોત્સાહન આપે છે"}, {"prompt": "2", "value": "સાયટોકાઇનિન્સ વૃદ્ધત્વમાં વિલંબ કરે છે"}, {"prompt": "3", "value": "ઇથિલિન બીજ અંકુરણને પ્રોત્સાહન આપે છે"}, {"prompt": "4", "value": "જિબ્રેલિન્સ પ્રકાંડના વિસ્તરણને પ્રોત્સાહન આપે છે"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಸಸ್ಯ ಹಾರ್ಮೋನುಗಳ ಕುರಿತು ಈ ಕೆಳಗಿನ ಯಾವ ಹೇಳಿಕೆಯು <strong>ತಪ್ಪಾಗಿದೆ (INCORRECT)</strong>?", "options": [{"prompt": "1", "value": "ಆಕ್ಸಿನ್‌ಗಳು ಬೆಳವಣಿಗೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತವೆ"}, {"prompt": "2", "value": "ಸೈಟೊಕಿನಿನ್‌ಗಳು ವಯಸ್ಸಾಗುವಿಕೆಯನ್ನು ವಿಳಂಬಗೊಳಿಸುತ್ತವೆ"}, {"prompt": "3", "value": "ಎಥಿಲೀನ್ ಬೀಜ ಮೊಳಕೆಯೊಡೆಯುವುದನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ"}, {"prompt": "4", "value": "ಗಿಬ್ಬರೆಲ್ಲಿನ್‌ಗಳು ಕಾಂಡದ ಉದ್ದವಾಗುವಿಕೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತವೆ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "தாவர ஹார்மோன்கள் பற்றிய பின்வரும் கூற்றுகளில் எது <strong>தவறானது</strong>?", "options": [{"prompt": "1", "value": "ஆக்ஸின்கள் வளர்ச்சியை ஊக்குவிக்கின்றன"}, {"prompt": "2", "value": "சைட்டோகைனின்கள் வயதாவதைத் தாமதப்படுத்துகின்றன"}, {"prompt": "3", "value": "எத்திலீன் விதை முளைப்பதை ஊக்குவிக்கிறது"}, {"prompt": "4", "value": "ஜிப்ரெலின்கள் தண்டு நீட்சியை ஊக்குவிக்கின்றன"}], "range": {"start": "", "end": ""}}, "or": {"value": "ଉଦ୍ଭିଦ ହର୍ମୋନ୍ ଉପରେ ନିମ୍ନଲିଖିତ ବିବୃତ୍ତିଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି <strong>ଭୁଲ୍</strong>?", "options": [{"prompt": "1", "value": "ଅକ୍ସିନ୍ ବୃଦ୍ଧିକୁ ପ୍ରୋତ୍ସାହିତ କରେ"}, {"prompt": "2", "value": "ସାଇଟୋକାଇନିନ୍ ବାର୍ଦ୍ଧକ୍ୟକୁ ବିଳମ୍ବିତ କରେ"}, {"prompt": "3", "value": "ଏଥିଲିନ୍ ମଞ୍ଜି ଅଙ୍କୁରଣକୁ ପ୍ରୋତ୍ସାହିତ କରେ"}, {"prompt": "4", "value": "ଜିବେରେଲିନ୍ ଡେମ୍ଫର ଦୀର୍ଘତାକୁ ପ୍ରୋତ୍ସାହିତ କରେ"}], "range": {"start": "", "end": ""}}, "pa": {"value": "ਪੌਦਿਆਂ ਦੇ ਹਾਰਮੋਨਸ ਬਾਰੇ ਹੇਠਾਂ ਦਿੱਤੇ ਕਥਨਾਂ ਵਿੱਚੋਂ ਕਿਹੜਾ <strong>ਗਲਤ</strong> ਹੈ?", "options": [{"prompt": "1", "value": "ਆਕਸਿਨ (Auxins) ਵਾਧੇ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਦੇ ਹਨ"}, {"prompt": "2", "value": "ਸਾਈਟੋਕਿਨਿਨ (Cytokinins) ਬੁਢਾਪੇ ਵਿੱਚ ਦੇਰੀ ਕਰਦੇ ਹਨ"}, {"prompt": "3", "value": "ਐਥੀਲੀਨ (Ethylene) ਬੀਜਾਂ ਦੇ ਉਗਣ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ"}, {"prompt": "4", "value": "ਗਿਬਰੇਲਿਨ (Gibberellins) ਤਣੇ ਦੇ ਲੰਬਾਈ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਦੇ ਹਨ"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Biology", "confidence": "high"}, {"qid": "6942808d01e9768c26fad4fe", "qs_no": 11, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which of the following is NOT a main factor affecting the rate of evaporation?", "options": [{"prompt": "1", "value": "Surface area"}, {"prompt": "2", "value": "Buoyancy"}, {"prompt": "3", "value": "Wind speed"}, {"prompt": "4", "value": "Humidity"}], "range": {"start": "", "end": ""}}, "hn": {"value": "निम्नलिखित में से कौन सा वाष्पीकरण की दर को प्रभावित करने वाला एक मुख्य कारक नहीं है?", "options": [{"prompt": "1", "value": "सतह क्षेत्रफल"}, {"prompt": "2", "value": "उत्पलावकता"}, {"prompt": "3", "value": "पवन चाल"}, {"prompt": "4", "value": "आर्द्रता"}], "range": {"start": "", "end": ""}}, "te": {"value": "కింది వాటిలో బాష్పీభవన రేటును ప్రభావితం చేసే ప్రధాన అంశం కానిది ఏది?", "options": [{"prompt": "1", "value": "ఉపరితల వైశాల్యం"}, {"prompt": "2", "value": "తేలే గుణం"}, {"prompt": "3", "value": "గాలి వేగం"}, {"prompt": "4", "value": "తేమ"}], "range": {"start": "", "end": ""}}, "bn": {"value": "নিম্নলিখিতগুলির মধ্যে কোনটি বাষ্পীভবনের হারকে প্রভাবিত করে এমন প্রধান কারণ নয়?", "options": [{"prompt": "1", "value": "পৃষ্ঠের ক্ষেত্রফল"}, {"prompt": "2", "value": "প্লবতা"}, {"prompt": "3", "value": "বাতাসের গতি"}, {"prompt": "4", "value": "আর্দ্রতা"}], "range": {"start": "", "end": ""}}, "gu": {"value": "નીચેનામાંથી કયું બાષ્પીભવનના દરને અસર કરતું મુખ્ય પરિબળ નથી?", "options": [{"prompt": "1", "value": "સપાટી વિસ્તાર"}, {"prompt": "2", "value": "ઉત્પ્લાવકતા"}, {"prompt": "3", "value": "પવનની ગતિ"}, {"prompt": "4", "value": "ભેજ"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ಆವಿಯಾಗುವಿಕೆಯ ದರದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುವ ಮುಖ್ಯ ಅಂಶವಲ್ಲ?", "options": [{"prompt": "1", "value": "ಮೇಲ್ಮೈ ವಿಸ್ತೀರ್ಣ"}, {"prompt": "2", "value": "ಪ್ಲವನಶೀಲತೆ (Buoyancy)"}, {"prompt": "3", "value": "ಗಾಳಿಯ ವೇಗ"}, {"prompt": "4", "value": "ಆರ್ದ್ರತೆ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "பின்வருவனவற்றில் ஆவியாதல் வீதத்தைப் பாதிக்காத முக்கிய காரணி எது?", "options": [{"prompt": "1", "value": "பரப்பளவு"}, {"prompt": "2", "value": "மிதக்கும் தன்மை"}, {"prompt": "3", "value": "காற்றின் வேகம்"}, {"prompt": "4", "value": "ஈரப்பதம்"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69aea57b0b66fee1de75babd", "qs_no": 12, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What is the frictional force exerted by fluids known as?", "options": [{"prompt": "1", "value": "Lift"}, {"prompt": "2", "value": "Drag"}, {"prompt": "3", "value": "Pressure"}, {"prompt": "4", "value": "Load"}], "range": {"start": "", "end": ""}}, "hn": {"value": "तरल पदार्थों द्वारा लगाए गए घर्षण बल को क्या कहते हैं?", "options": [{"prompt": "1", "value": "&lt;span style=&quot;font-weight: bolder;&quot;&gt;उत्थापक बल&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;font-weight: bolder;&quot;&gt;कर्षण&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;font-weight: bolder;&quot;&gt;दाब&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;font-weight: bolder;&quot;&gt;भार&amp;nbsp;&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "ద్రవాల ద్వారా కలిగే ఘర్షణ బలాన్ని ఏమని పిలుస్తారు?", "options": [{"prompt": "1", "value": "లిఫ్ట్"}, {"prompt": "2", "value": "డ్రాగ్"}, {"prompt": "3", "value": "ఒత్తిడి"}, {"prompt": "4", "value": "లోడ్"}], "range": {"start": "", "end": ""}}, "mr": {"value": "द्रवांद्वारे लागू केलेल्या घर्षण शक्तीला काय म्हणतात?", "options": [{"prompt": "1", "value": "लिफ्ट&nbsp;"}, {"prompt": "2", "value": "<span style=\"color: rgb(54, 54, 54);  \">कर्षण&nbsp;</span>"}, {"prompt": "3", "value": "दाब&nbsp;"}, {"prompt": "4", "value": "भार"}], "range": {"start": "", "end": ""}}, "bn": {"value": "প্রবাহী পদার্থের দ্বারা প্রযুক্ত ঘর্ষণ বলকে কী বলা হয়?", "options": [{"prompt": "1", "value": "উত্তোলন করা&nbsp;"}, {"prompt": "2", "value": "সান্দ্রটান"}, {"prompt": "3", "value": "চাপ"}, {"prompt": "4", "value": "ভার"}], "range": {"start": "", "end": ""}}, "gu": {"value": "તરલ પદાર્થો દ્વારા લાગુ પડતા ઘર્ષણ બળને શું કહેવાય છે?", "options": [{"prompt": "1", "value": "લિફ્ટ"}, {"prompt": "2", "value": "<span data-sheets-root=\"1\" style=\"color: rgb(0, 0, 0);  \">ઘસડાવું</span>"}, {"prompt": "3", "value": "દબાણ"}, {"prompt": "4", "value": "ભાર"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ದ್ರವಗಳು ಬೀರುವ ಘರ್ಷಣೆ ಬಲವನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?", "options": [{"prompt": "1", "value": "ಲಿಫ್ಟ್"}, {"prompt": "2", "value": "ಎಳೆತ"}, {"prompt": "3", "value": "ಒತ್ತಡ"}, {"prompt": "4", "value": "ಲೋಡ್"}], "range": {"start": "", "end": ""}}, "ta": {"value": "பாய்மங்களால் செலுத்தப்படும் உராய்வு விசை எவ்வாறு அழைக்கப்படுகிறது?", "options": [{"prompt": "1", "value": "லிஃப்ட்"}, {"prompt": "2", "value": "இழுவை"}, {"prompt": "3", "value": "அழுத்தம்"}, {"prompt": "4", "value": "சுமை"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Physics", "confidence": "high"}, {"qid": "69941051bf620cca07808d0a", "qs_no": 13, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<p>In humans, what is the value of normal systolic and diastolic blood pressure respectively?</p>\n", "options": [{"prompt": "1", "value": "75 mm Hg and 60 mm Hg respectively"}, {"prompt": "2", "value": "80 mm Hg and 70 mm Hg respectively"}, {"prompt": "3", "value": "100 mm Hg and 95 mm Hg respectively"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;​&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;120 mm Hg and 80 mm Hg respectively&amp;nbsp;&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "मनुष्यों में, सामान्य प्रकुंचन और अनुशिथिलन डायस्टोलिक रक्तचाप का मान क्रमशः क्या होता है?", "options": [{"prompt": "1", "value": "क्रमशः 75 मिमी पारा (Hg) और 60 मिमी पारा (Hg)"}, {"prompt": "2", "value": "क्रमशः 80 मिमी पारा (Hg) और 70 मिमी पारा (Hg)"}, {"prompt": "3", "value": "क्रमशः 100 मिमी पारा (Hg) और 95 मिमी पारा (Hg)"}, {"prompt": "4", "value": "क्रमशः 120 मिमी पारा (Hg) और 80 मिमी पारा (Hg)"}], "range": {"start": "", "end": ""}}, "te": {"value": "<p>మానవులలో, సాధారణ సిస్టోలిక్ మరియు డయాస్టోలిక్ రక్తపోటు విలువ వరుసగా ఎంత?</p>\n", "options": [{"prompt": "1", "value": "వరుసగా 75 మిమీ Hg మరియు 60 మిమీ Hg"}, {"prompt": "2", "value": "వరుసగా 80 మిమీ Hg మరియు 70 మిమీ Hg"}, {"prompt": "3", "value": "వరుసగా 100 మిమీ Hg మరియు 95 మిమీ Hg"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">​</span><span style=\"color: rgb(33, 37, 41);\">వరుసగా 120 మిమీ Hg మరియు 80 మిమీ Hg </span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<p>मानवामध्ये, सामान्य सिस्टोलिक आणि डायस्टोलिक रक्तदाबाचे मूल्य अनुक्रमे किती असते?</p>\n", "options": [{"prompt": "1", "value": "अनुक्रमे 75 mm Hg आणि 60 mm Hg"}, {"prompt": "2", "value": "अनुक्रमे 80 mm Hg आणि 70 mm Hg"}, {"prompt": "3", "value": "अनुक्रमे 100 mm Hg आणि 95 mm Hg"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">​</span><span style=\"color: rgb(33, 37, 41);\">अनुक्रमे 120 mm Hg आणि 80 mm Hg </span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<p>মানুষের ক্ষেত্রে স্বাভাবিক সিস্টোলিক এবং ডায়াস্টোলিক রক্তচাপের মান যথাক্রমে কত?</p>\n", "options": [{"prompt": "1", "value": "75 mm Hg এবং 60 mm Hg যথাক্রমে"}, {"prompt": "2", "value": "80 mm Hg এবং 70 mm Hg যথাক্রমে"}, {"prompt": "3", "value": "100 mm Hg এবং 95 mm Hg যথাক্রমে"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">​</span><span style=\"color: rgb(33, 37, 41);\">120 mm Hg এবং 80 mm Hg যথাক্রমে </span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<p>મનુષ્યમાં, સામાન્ય સિસ્ટોલિક અને ડાયસ્ટોલિક બ્લડ પ્રેશરનું મૂલ્ય અનુક્રમે કેટલું હોય છે?</p>\n", "options": [{"prompt": "1", "value": "અનુક્રમે 75 mm Hg અને 60 mm Hg"}, {"prompt": "2", "value": "અનુક્રમે 80 mm Hg અને 70 mm Hg"}, {"prompt": "3", "value": "અનુક્રમે 100 mm Hg અને 95 mm Hg"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">​</span><span style=\"color: rgb(33, 37, 41);\">અનુક્રમે 120 mm Hg અને 80 mm Hg</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<p>ಮಾನವರಲ್ಲಿ, ಸಾಮಾನ್ಯ ಸಿಸ್ಟೊಲಿಕ್ ಮತ್ತು ಡಯಾಸ್ಟೊಲಿಕ್ ರಕ್ತದೊತ್ತಡದ ಮೌಲ್ಯ ಎಷ್ಟು?</p>\n", "options": [{"prompt": "1", "value": "ಕ್ರಮವಾಗಿ 75 mm Hg ಮತ್ತು 60 mm Hg"}, {"prompt": "2", "value": "ಕ್ರಮವಾಗಿ 80 mm Hg ಮತ್ತು 70 mm Hg"}, {"prompt": "3", "value": "ಕ್ರಮವಾಗಿ 100 mm Hg ಮತ್ತು 95 mm Hg"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">​</span><span style=\"color: rgb(33, 37, 41);\">ಕ್ರಮವಾಗಿ 120 mm Hg ಮತ್ತು 80 mm Hg</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<p>மனிதர்களுக்கு இயல்பான சிஸ்டாலிக் மற்றும் டயஸ்டாலிக் இரத்த அழுத்தத்தின் மதிப்பு முறையே என்ன?</p>\n", "options": [{"prompt": "1", "value": "முறையே 75 mm Hg மற்றும் 60 mm Hg"}, {"prompt": "2", "value": "முறையே 80 mm Hg மற்றும் 70 mm Hg"}, {"prompt": "3", "value": "முறையே 100 mm Hg மற்றும் 95 mm Hg"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">​</span><span style=\"color: rgb(33, 37, 41);\">முறையே 120 mm Hg மற்றும் 80 mm Hg </span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "6909e3b57c884af8f7091e6a", "qs_no": 14, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "A person standing on a railway platform notices that the sound of an approaching train&#39;s whistle changes in pitch (frequency) as the train passes by. This phenomenon is best explained by:", "options": [{"prompt": "1", "value": "Refraction of sound"}, {"prompt": "2", "value": "Diffraction of sound"}, {"prompt": "3", "value": "Doppler effect"}, {"prompt": "4", "value": "Resonance"}], "range": {"start": "", "end": ""}}, "hn": {"value": "रेलवे प्लेटफॉर्म पर खड़ा एक व्यक्ति देखता है कि जैसे ही ट्रेन गुज़रती है, उसकी सीटी की आवाज़ की पिच (आवृत्ति) बदल जाती है। इस घटना को सबसे अच्छी तरह से इस प्रकार समझाया जा सकता है:", "options": [{"prompt": "1", "value": "ध्वनि का अपवर्तन"}, {"prompt": "2", "value": "ध्वनि का विवर्तन"}, {"prompt": "3", "value": "डॉप्लर प्रभाव"}, {"prompt": "4", "value": "गूंज"}], "range": {"start": "", "end": ""}}, "te": {"value": "రైల్వే ప్లాట్‌ఫారమ్‌పై నిలబడిన ఒక వ్యక్తి, ఒక రైలు తనను దాటి వెళ్లేటప్పుడు దాని విజిల్ ధ్వని యొక్క పిచ్ (పౌనఃపున్యం) మారడాన్ని గమనిస్తాడు. ఈ దృగ్విషయాన్ని దీని ద్వారా ఉత్తమంగా వివరించవచ్చు:", "options": [{"prompt": "1", "value": "ధ్వని వక్రీభవనం"}, {"prompt": "2", "value": "ధ్వని వివర్తనం"}, {"prompt": "3", "value": "డాప్లర్ ప్రభావం"}, {"prompt": "4", "value": "అనునాదం"}], "range": {"start": "", "end": ""}}, "mr": {"value": "रेल्वे प्लॅटफॉर्मवर उभा असलेला एक व्यक्ती लक्षात घेतो की येणाऱ्या ट्रेनच्या शिट्टीचा आवाज (वारंवारता) ट्रेन जवळून जाताना बदलतो. या घटनेचे सर्वात चांगले स्पष्टीकरण याद्वारे दिले जाते:", "options": [{"prompt": "1", "value": "ध्वनीचे अपवर्तन"}, {"prompt": "2", "value": "ध्वनीचे विवर्तन"}, {"prompt": "3", "value": "डॉप्लर प्रभाव"}, {"prompt": "4", "value": "अनुनाद"}], "range": {"start": "", "end": ""}}, "bn": {"value": "রেলওয়ে প্ল্যাটফর্মে দাঁড়িয়ে থাকা একজন ব্যক্তি লক্ষ্য করেন যে একটি আসন্ন ট্রেনের হুইসেলের শব্দের তীক্ষ্ণতা (কম্পাঙ্ক) ট্রেনটি পাশ দিয়ে যাওয়ার সময় পরিবর্তিত হয়। এই ঘটনাটি সবচেয়ে ভালো ব্যাখ্যা করা যায় এর মাধ্যমে:", "options": [{"prompt": "1", "value": "শব্দের প্রতিসরণ"}, {"prompt": "2", "value": "শব্দের অপবর্তন"}, {"prompt": "3", "value": "ডপলার প্রভাব"}, {"prompt": "4", "value": "অনুনাদ"}], "range": {"start": "", "end": ""}}, "gu": {"value": "રેલ્વે પ્લેટફોર્મ પર ઉભેલી વ્યક્તિ નોંધે છે કે જ્યારે ટ્રેન તેની પાસેથી પસાર થાય છે ત્યારે નજીક આવતી ટ્રેનની વ્હિસલનો અવાજ પીચ (આવૃત્તિ) માં બદલાય છે. આ ઘટનાને આના દ્વારા શ્રેષ્ઠ રીતે સમજાવવામાં આવે છે:", "options": [{"prompt": "1", "value": "ધ્વનિનું વક્રીભવન"}, {"prompt": "2", "value": "ધ્વનિનું વિવર્તન"}, {"prompt": "3", "value": "ડોપ્લર અસર (Doppler effect)"}, {"prompt": "4", "value": "અનુનાદ (Resonance)"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ರೈಲ್ವೆ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ನಲ್ಲಿ ನಿಂತಿರುವ ವ್ಯಕ್ತಿಯೊಬ್ಬರು ಸಮೀಪಿಸುತ್ತಿರುವ ರೈಲಿನ ಶಿಳ್ಳೆಯ ಶಬ್ದವು ರೈಲು ಹಾದುಹೋಗುವಾಗ ಅದರ ಪಿಚ್ (ಆವರ್ತನ) ನಲ್ಲಿ ಬದಲಾಗುವುದನ್ನು ಗಮನಿಸುತ್ತಾರೆ. ಈ ವಿದ್ಯಮಾನವನ್ನು ಇವರಿಂದ ಉತ್ತಮವಾಗಿ ವಿವರಿಸಬಹುದು:", "options": [{"prompt": "1", "value": "ಧ್ವನಿಯ ವಕ್ರೀಭವನ"}, {"prompt": "2", "value": "ಧ್ವನಿಯ ವಿವರ್ತನೆ"}, {"prompt": "3", "value": "ಡಾಪ್ಲರ್ ಎಫೆಕ್ಟ್"}, {"prompt": "4", "value": "ಅನುರಣನ (ರೆಸೋನೆನ್ಸ್)"}], "range": {"start": "", "end": ""}}, "ta": {"value": "ரயில் நிலைய நடைமேடையில் நிற்கும் ஒருவர், தன்னை நெருங்கி வரும் ரயிலின் விசில் சத்தம், அந்த ரயில் கடந்து செல்லும்போது அதன் சுருதியில் (அதிர்வெண்ணில்) மாற்றம் அடைவதைக் கவனிக்கிறார். இந்த நிகழ்வைச் சிறப்பாக விளக்குவது:", "options": [{"prompt": "1", "value": "ஒலியின் ஒளிவிலகல்"}, {"prompt": "2", "value": "ஒலியின் விளிம்பு விளைவு"}, {"prompt": "3", "value": "டாப்ளர் விளைவு"}, {"prompt": "4", "value": "அதிர்வு"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Geography", "confidence": "high"}, {"qid": "69bcf88982296c98d4958ec3", "qs_no": 15, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "<span style=\"color: rgb(33, 37, 41);\">Lymph carries digested and absorbed fat from ______ and drains excess fluid from extra cellular space back into the blood.</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;liver&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;intestine&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;kidneys&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;pancreas&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "<span style=\"color: rgb(33, 37, 41);\">पचा हुआ तथा ______ से अवशोषित वसा का वहन लसीका द्वारा होता है और अतिरिक्त तरल पदार्थ को बाह्य कोशिकीय अवकाश से वापस रुधिर में ले जाता है।</span>", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;यकृत&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;आंत्र&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;वृक्क&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;अग्न्याशय&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "<span style=\"color: rgb(33, 37, 41);\">లింఫ్ (లసిక) జీర్ణమైన మరియు శోషించబడిన కొవ్వును ______ నుండి తీసుకువెళుతుంది మరియు కణ బాహ్య ఖాళీ స్థలం నుండి అదనపు ద్రవాన్ని తిరిగి రక్తంలోకి చేరుస్తుంది?</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">కాలేయం</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ప్రేగు</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">మూత్రపిండాలు</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">క్లోమం</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "<span style=\"color: rgb(33, 37, 41);\">लसीका (Lymph) _______ मधून पचलेले आणि शोषलेले फॅट (मेद) वाहून नेते आणि अतिरिक्त द्रव बाह्य-पेशीय जागेतून (extracellular space) परत रक्तात पोहोचवते.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">यकृत</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">आतडे</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">मूत्रपिंड</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">स्वादुपिंड</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "<span style=\"color: rgb(33, 37, 41);\">লসিকা ______ থেকে পরিপাক হওয়া এবং শোষিত চর্বি বহন করে এবং অতিরিক্ত তরল কোষ-বহির্ভূত স্থান থেকে পুনরায় রক্তে নিষ্কাশন করে।</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">যকৃৎ</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">অন্ত্র</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">বৃক্ক</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">অগ্ন্যাশয়</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "<span style='color: rgb(33, 37, 41);'>લસિકા ______ માંથી પચેલી અને શોષાયેલી ચરબીનું વહન કરે છે અને વધારાનું પ્રવાહી બાહ્યકોષીય અવકાશમાંથી લોહીમાં પાછું કાઢે છે.</span>", "options": [{"prompt": "1", "value": "<span style='color: rgb(33, 37, 41);'>યકૃત</span>"}, {"prompt": "2", "value": "<span style='color: rgb(33, 37, 41);'>આંતરડા</span>"}, {"prompt": "3", "value": "<span style='color: rgb(33, 37, 41);'>કિડની</span>"}, {"prompt": "4", "value": "<span style='color: rgb(33, 37, 41);'>સ્વાદુપિંડ</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "<span style=\"color: rgb(33, 37, 41);\">ಲಸಿಕಾ ದ್ರವವು (ಲಿಂಫ್) ಜೀರ್ಣವಾದ ಮತ್ತು ಹೀರಲ್ಪಟ್ಟ ಕೊಬ್ಬನ್ನು ______ ಯಿಂದ ಸಾಗಿಸುತ್ತದೆ ಮತ್ತು ಬಾಹ್ಯಕೋಶೀಯ ಜಾಗದಿಂದ ಹೆಚ್ಚುವರಿ ದ್ರವವನ್ನು ಮತ್ತೆ ರಕ್ತಕ್ಕೆ ಹರಿಸುತ್ತದೆ.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">ಯಕೃತ್ತು</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ಕರುಳು</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ಮೂತ್ರಪಿಂಡಗಳು</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">ಮೇದೋಜ್ಜೀರಕ ಗ್ರಂಥಿ</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "<span style=\"color: rgb(33, 37, 41);\">நிணநீர் (Lymph) செரிக்கப்பட்ட மற்றும் உறிஞ்சப்பட்ட கொழுப்பை ______ இலிருந்து எடுத்துச் செல்கிறது மற்றும் செல்லுக்கு வெளியேயுள்ள இடைவெளியில் இருந்து அதிகப்படியான திரவத்தை மீண்டும் இரத்த வடிகாலுக்குள் செலுத்துகிறது.</span>", "options": [{"prompt": "1", "value": "<span style=\"color: rgb(33, 37, 41);\">கல்லீரல்</span>"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">குடல்</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">சிறுநீரகங்கள்</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">கணையம்</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Biology", "confidence": "high"}, {"qid": "69cb5c5b9ff39f1619d5d33b", "qs_no": 16, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What is the main cause of acid rain?", "options": [{"prompt": "1", "value": "Carbon monoxide and methane"}, {"prompt": "2", "value": "Sulfur dioxide and nitrogen oxides"}, {"prompt": "3", "value": "Chlorofluorocarbons (CFCs)"}, {"prompt": "4", "value": "Lead and mercury compounds"}], "range": {"start": "", "end": ""}}, "hn": {"value": "अम्लीय वर्षा का मुख्य कारण क्या है?", "options": [{"prompt": "1", "value": "कार्बन मोनोऑक्साइड और मीथेन"}, {"prompt": "2", "value": "सल्फर डाइऑक्साइड और नाइट्रोजन ऑक्साइड"}, {"prompt": "3", "value": "क्लोरोफ्लोरोकार्बन (CFCs)"}, {"prompt": "4", "value": "सीसा और पारे के यौगिक"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Chemistry", "confidence": "high"}, {"qid": "69aea3381f7699b5eb2e6366", "qs_no": 17, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Why are the ceilings of concert halls, conference halls, and cinema halls generally curved?", "options": [{"prompt": "1", "value": "To ensure sound after reflection reaches all corners of the hall"}, {"prompt": "2", "value": "To stop sound waves"}, {"prompt": "3", "value": "To focus sound waves in one direction"}, {"prompt": "4", "value": "To absorb sound waves"}], "range": {"start": "", "end": ""}}, "hn": {"value": "संगीत सभागार, सम्मेलन कक्ष और चलचित्र गृह की छतें आमतौर पर वक्राकार क्यों होती हैं?", "options": [{"prompt": "1", "value": "यह सुनिश्चित करने के लिए कि परावर्तन के बाद ध्वनि सभागार के सभी कोनों तक पहुंचना के लिए"}, {"prompt": "2", "value": "ध्वनि तरंगों को रोकने के लिए"}, {"prompt": "3", "value": "ध्वनि तरंगों को एक ही दिशा में केंद्रित करने के लिए"}, {"prompt": "4", "value": "ध्वनि तरंगों को अवशोषित करने के लिए"}], "range": {"start": "", "end": ""}}, "te": {"value": "కచేరీ హాళ్లు, సమావేశ మందిరాలు మరియు సినిమా హాళ్ల పైకప్పులు సాధారణంగా ఎందుకు వంపుగా ఉంటాయి?", "options": [{"prompt": "1", "value": "ప్రతిధ్వనించిన తర్వాత ధ్వని హాలులోని అన్ని మూలలకు చేరేలా చూసుకోవడానికి"}, {"prompt": "2", "value": "ధ్వని తరంగాలను ఆపడానికి"}, {"prompt": "3", "value": "ధ్వని తరంగాలను ఒక దిశలో కేంద్రీకరించడానికి"}, {"prompt": "4", "value": "ధ్వని తరంగాలను శోషించుకోవడానికి"}], "range": {"start": "", "end": ""}}, "mr": {"value": "कॉन्सर्ट हॉल, कॉन्फरन्स हॉल आणि सिनेमा हॉलची छत सामान्यतः वक्र का असतात?", "options": [{"prompt": "1", "value": "प्रतिबिंबित झाल्यानंतर आवाज सभागृहाच्या सर्व कोपऱ्यांपर्यंत पोहोचतो याची खात्री करण्यासाठी"}, {"prompt": "2", "value": "ध्वनी लहरी थांबवण्यासाठी"}, {"prompt": "3", "value": "ध्वनी लहरी एका दिशेने केंद्रित करण्यासाठी"}, {"prompt": "4", "value": "ध्वनी लहरी शोषून घेण्यासाठी"}], "range": {"start": "", "end": ""}}, "bn": {"value": "কনসার্ট হল, কনফারেন্স হল এবং সিনেমা হলের ছাদ সাধারণত বাঁকা করা হয় কেন?", "options": [{"prompt": "1", "value": "শব্দ প্রতিফলনের পরে হলের প্রতিটি কোণে পৌঁছানো নিশ্চিত করতে"}, {"prompt": "2", "value": "শব্দ তরঙ্গ বন্ধ করতে"}, {"prompt": "3", "value": "শব্দ তরঙ্গকে একটি দিকে ফোকাস করতে"}, {"prompt": "4", "value": "শব্দ তরঙ্গ শোষণ করতে"}], "range": {"start": "", "end": ""}}, "gu": {"value": "કોન્સર્ટ હોલ, કોન્ફરન્સ હોલ અને સિનેમા હોલની છત સામાન્ય રીતે વક્ર શા માટે હોય છે?", "options": [{"prompt": "1", "value": "પડઘા પછી અવાજ હોલના દરેક ખૂણા સુધી પહોંચે તેની ખાતરી કરવા માટે"}, {"prompt": "2", "value": "ધ્વનિ તરંગોને રોકવા માટે"}, {"prompt": "3", "value": "ધ્વનિ તરંગોને એક દિશામાં કેન્દ્રિત કરવા માટે"}, {"prompt": "4", "value": "ધ્વનિ તરંગોને શોષવા માટે"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಸಂಗೀತ ಕಚೇರಿ ಕೊಠಡಿಗಳು, ಸಮ್ಮೇಳನ ಸಭಾಂಗಣಗಳು ಮತ್ತು ಸಿನಿಮಾ ಹಾಲ್‌ಗಳ ಛಾವಣಿಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಏಕೆ ಬಾಗಿದ ಆಕಾರದಲ್ಲಿರುತ್ತವೆ?", "options": [{"prompt": "1", "value": "ಪ್ರತಿಫಲನದ ನಂತರ ಶಬ್ದವು ಸಭಾಂಗಣದ ಎಲ್ಲಾ ಮೂಲೆಗಳನ್ನು ತಲುಪುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು"}, {"prompt": "2", "value": "ಶಬ್ದ ತರಂಗಗಳನ್ನು ನಿಲ್ಲಿಸಲು"}, {"prompt": "3", "value": "ಶಬ್ದ ತರಂಗಗಳನ್ನು ಒಂದು ದಿಕ್ಕಿನಲ್ಲಿ ಕೇಂದ್ರೀಕರಿಸಲು"}, {"prompt": "4", "value": "ಶಬ್ದ ತರಂಗಗಳನ್ನು ಹೀರಿಕೊಳ್ಳಲು"}], "range": {"start": "", "end": ""}}, "ta": {"value": "கச்சேரி அரங்குகள், மாநாட்டு அரங்குகள் மற்றும் சினிமா அரங்குகளில் கூரைகள் பொதுவாக ஏன் வளைந்த வடிவத்தில் அமைக்கப்பட்டுள்ளன?", "options": [{"prompt": "1", "value": "ஒலி பிரதிபலித்த பிறகு மண்டபத்தின் அனைத்து மூலைகளையும் சென்றடைவதை உறுதி செய்ய"}, {"prompt": "2", "value": "ஒலி அலைகளை நிறுத்த"}, {"prompt": "3", "value": "ஒலி அலைகளை ஒரே திசையில் குவித்து வைக்க"}, {"prompt": "4", "value": "ஒலி அலைகளை உறிஞ்ச"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Physics", "confidence": "high"}, {"qid": "6943babf35dfeb6c16731b84", "qs_no": 18, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which of the following statement about weight is correct?<br />\nI. Weight has only magnitude but no direction<br />\nII. Weight is a force acting vertically downwards", "options": [{"prompt": "1", "value": "Only I"}, {"prompt": "2", "value": "Only II"}, {"prompt": "3", "value": "Both I and II"}, {"prompt": "4", "value": "Neither I nor II"}], "range": {"start": "", "end": ""}}, "hn": {"value": "भार के बारे में निम्नलिखित में से कौन सा कथन सही है?<br>I. भार का केवल परिमाण होता है, दिशा नहीं होती<br>II. भार एक बल है जो लंबवत रूप से नीचे की ओर कार्य करता है", "options": [{"prompt": "1", "value": "केवल I"}, {"prompt": "2", "value": "केवल II"}, {"prompt": "3", "value": "I और II दोनों"}, {"prompt": "4", "value": "न तो I और न ही II"}], "range": {"start": "", "end": ""}}, "te": {"value": "బరువు గురించి కింది ప్రకటనలలో ఏది సరైనది?<br />\nI. బరువుకు పరిమాణం మాత్రమే ఉంటుంది కానీ దిశ ఉండదు<br />\nII. బరువు నిలువుగా క్రిందికి పనిచేసే శక్తి", "options": [{"prompt": "1", "value": "I మాత్రమే"}, {"prompt": "2", "value": "II మాత్రమే"}, {"prompt": "3", "value": "I మరియు II రెండూ"}, {"prompt": "4", "value": "I కాదు II కాదు"}], "range": {"start": "", "end": ""}}, "mr": {"value": "वजनाबाबत खालीलपैकी कोणते विधान योग्य आहे?<br />\nI. वजनाला फक्त परिमाण असते पण दिशा नसते.<br />\nII. वजन ही एक शक्ती आहे जी अनुलंब खाली कार्य करते.", "options": [{"prompt": "1", "value": "फक्त I"}, {"prompt": "2", "value": "फक्त II"}, {"prompt": "3", "value": "I आणि II दोन्ही"}, {"prompt": "4", "value": "I किंवा II दोन्ही नाही"}], "range": {"start": "", "end": ""}}, "bn": {"value": "ওজন সম্পর্কে নিম্নলিখিত কোন বিবৃতিটি সঠিক?<br />\nI. ওজনের কেবল মান আছে কিন্তু দিক নেই<br />\nII. ওজন হল একটি বল যা উল্লম্বভাবে নিচের দিকে ক্রিয়া করে", "options": [{"prompt": "1", "value": "শুধুমাত্র I"}, {"prompt": "2", "value": "শুধুমাত্র II"}, {"prompt": "3", "value": "I এবং II উভয়ই"}, {"prompt": "4", "value": "I অথবা II কোনটিই নয়"}], "range": {"start": "", "end": ""}}, "gu": {"value": "વજન વિશે નીચેનામાંથી કયું વિધાન સાચું છે?<br />\nI. વજનને માત્ર મૂલ્ય હોય છે, દિશા હોતી નથી<br />\nII. વજન એ ઊર્ધ્વ દિશામાં નીચે તરફ લાગતું બળ છે", "options": [{"prompt": "1", "value": "માત્ર I"}, {"prompt": "2", "value": "માત્ર II"}, {"prompt": "3", "value": "I અને II બંને"}, {"prompt": "4", "value": "I અને IIમાંથી કોઈ પણ નહીં"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ತೂಕದ ಬಗ್ಗೆ ಈ ಕೆಳಗಿನ ಯಾವ ಹೇಳಿಕೆ ಸರಿಯಾಗಿದೆ?<br />\nI. ತೂಕವು ಪರಿಮಾಣವನ್ನು ಮಾತ್ರ ಹೊಂದಿದೆ ಆದರೆ ಯಾವುದೇ ದಿಕ್ಕನ್ನು ಹೊಂದಿಲ್ಲ<br />\nII. ತೂಕವು ಲಂಬವಾಗಿ ಕೆಳಮುಖವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಲವಾಗಿದೆ", "options": [{"prompt": "1", "value": "I ಮಾತ್ರ"}, {"prompt": "2", "value": "II ಮಾತ್ರ"}, {"prompt": "3", "value": "I ಮತ್ತು II ಎರಡೂ"}, {"prompt": "4", "value": "I ಅಥವಾ II ಎರಡೂ ಅಲ್ಲ"}], "range": {"start": "", "end": ""}}, "ta": {"value": "எடை பற்றிய பின்வரும் கூற்றுகளில் எது சரியானது?<br>I. எடைக்கு அளவு மட்டுமே உள்ளது, திசை இல்லை<br>II. எடை என்பது செங்குத்தாக கீழ்நோக்கிச் செயல்படும் ஒரு விசை", "options": [{"prompt": "1", "value": "I மட்டும்"}, {"prompt": "2", "value": "II மட்டும்"}, {"prompt": "3", "value": "I மற்றும் II இரண்டும்"}, {"prompt": "4", "value": "I மற்றும் II இரண்டும் இல்லை"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Physics", "confidence": "high"}, {"qid": "690c7593adb285a8ed7ad56c", "qs_no": 19, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which category of prohibited substances in sports includes drugs that increase alertness and reduce fatigue?", "options": [{"prompt": "1", "value": "Anabolic Agents"}, {"prompt": "2", "value": "Peptide Hormones"}, {"prompt": "3", "value": "Beta-2 Agonists"}, {"prompt": "4", "value": "Stimulants"}], "range": {"start": "", "end": ""}}, "hn": {"value": "खेलों में निषिद्ध पदार्थों की किस श्रेणी में वे दवाएं शामिल हैं जो सतर्कता बढ़ाती हैं और थकान कम करती हैं?", "options": [{"prompt": "1", "value": "एनाबॉलिक एजेंट्स"}, {"prompt": "2", "value": "पेप्टाइड हार्मोन्स"}, {"prompt": "3", "value": "बीटा-2 एगोनिस्ट्स"}, {"prompt": "4", "value": "उत्तेजक"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Static GK", "confidence": "high"}, {"qid": "69ccc959cb9a22786aed146f", "qs_no": 20, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which statement best explains Newton&#39;s Third Law of Motion?", "options": [{"prompt": "1", "value": "Force = mass &amp;times; acceleration"}, {"prompt": "2", "value": "Energy cannot be created or destroyed"}, {"prompt": "3", "value": "For every action, there is an equal and opposite reaction"}, {"prompt": "4", "value": "The acceleration is inversely proportional to mass"}], "range": {"start": "", "end": ""}}, "hn": {"value": "न्यूटन के गति के तीसरे नियम को सबसे उपयुक्त रूप से कौन-सा कथन स्पष्ट करता है?", "options": [{"prompt": "1", "value": "बल = द्रव्यमान &amp;times; त्वरण"}, {"prompt": "2", "value": "ऊर्जा न तो उत्पन्न की जा सकती है, न ही नष्ट की जा सकती है"}, {"prompt": "3", "value": "प्रत्येक क्रिया की बराबर और विपरीत प्रतिक्रिया होती है"}, {"prompt": "4", "value": "त्वरण, द्रव्यमान के व्युत्क्रमानुपाती होता है"}], "range": {"start": "", "end": ""}}, "or": {"value": "ନ୍ୟୁଟନ୍‌ଙ୍କ ଗତିର ତୃତୀୟ ନିୟମକୁ କେଉଁ ବିବୃତ୍ତି ସର୍ବୋତ୍ତମ ଭାବରେ ବ୍ୟାଖ୍ୟା କରେ?", "options": [{"prompt": "1", "value": "ବଳ = ବସ୍ତୁତ୍ୱ x ତ୍ୱରଣ"}, {"prompt": "2", "value": "ଶକ୍ତି ସୃଷ୍ଟି କିମ୍ବା ନଷ୍ଟ ହୋଇପାରିବ ନାହିଁ"}, {"prompt": "3", "value": "ପ୍ରତ୍ୟେକ କ୍ରିୟା ପାଇଁ, ଏକ ସମାନ ଏବଂ ବିପରୀତ ପ୍ରତିକ୍ରିୟା ଥାଏ"}, {"prompt": "4", "value": "ତ୍ୱରଣ ବସ୍ତୁତ୍ୱ ସହିତ ବ୍ୟସ୍ତାନୁପାତିକ"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Geography", "confidence": "high"}, {"qid": "69c7fb3c6d23f5c0014f85a6", "qs_no": 21, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Which among the following is an example of an exothermic reaction?", "options": [{"prompt": "1", "value": "Photosynthesis"}, {"prompt": "2", "value": "Melting of ice"}, {"prompt": "3", "value": "Combustion of petrol"}, {"prompt": "4", "value": "Evaporation of water"}], "range": {"start": "", "end": ""}}, "hn": {"value": "निम्नलिखित में से कौन ऊष्माक्षेपी अभिक्रिया का उदाहरण है?", "options": [{"prompt": "1", "value": "प्रकाश संश्लेषण"}, {"prompt": "2", "value": "बर्फ का पिघलना"}, {"prompt": "3", "value": "पेट्रोल का दहन"}, {"prompt": "4", "value": "पानी का वाष्पीकरण"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Chemistry", "confidence": "high"}, {"qid": "69cb5c61219eddf8c2ee6873", "qs_no": 22, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "Why do seasons change throughout the year on Earth?", "options": [{"prompt": "1", "value": "The Moon&amp;#39;s gravitational pull"}, {"prompt": "2", "value": "The tilt of the Earth&amp;#39;s axis"}, {"prompt": "3", "value": "The Earth&amp;#39;s distance from the Sun"}, {"prompt": "4", "value": "The rotation of the Earth"}], "range": {"start": "", "end": ""}}, "hn": {"value": "पृथ्वी पर पूरे वर्ष ऋतुएं क्यों बदलती रहती हैं?", "options": [{"prompt": "1", "value": "चंद्रमा का गुरुत्वाकर्षण बल"}, {"prompt": "2", "value": "पृथ्वी की धुरी का झुकाव"}, {"prompt": "3", "value": "सूर्य से पृथ्वी की दूरी"}, {"prompt": "4", "value": "पृथ्वी का घूर्णन"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "699e8ff2d22fcc330e188c1a", "qs_no": 23, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "How does auxin affect the growth of the plant in response to light?", "options": [{"prompt": "1", "value": "It causes all cells to grow equally"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;It stimulates cells on the light side to grow longer&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;It inhibits growth on the shady side&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;It stimulates cells on the shady side to grow longer&amp;nbsp;&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "प्रकाश के प्रति प्रतिक्रिया में ऑक्सिन पौधे की वृद्धि को किस प्रकार प्रभावित करता है", "options": [{"prompt": "1", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;यह सभी कोशिकाओं को समान रूप से विकसित करता है&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;यह प्रकाश पक्ष की कोशिकाओं को लंबे समय तक बढने के लिए उत्तेजित करता है&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;यह छायादार क्षेत्र में वृद्धि को रोकता है&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;यह छायादार भाग की कोशिकाओं को लंबा होने के लिए उद्दीपित करता है&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "కాంతికి ప్రతిస్పందనగా ఆక్సిన్ మొక్కల పెరుగుదలను ఎలా ప్రభావితం చేస్తుంది?", "options": [{"prompt": "1", "value": "ఇది అన్ని కణాలను సమానంగా పెరిగేలా చేస్తుంది"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ఇది కాంతి వైపు కణాలను పొడవుగా పెరగడానికి ప్రేరేపిస్తుంది</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ఇది నీడ పడే వైపున పెరుగుదలను నిరోధిస్తుంది</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">ఇది నీడ పడే వైపున కణాలను పొడవుగా పెరగడానికి ప్రేరేపిస్తుంది </span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "আলোর প্রতিক্রিয়ায় অক্সিন কীভাবে উদ্ভিদের বৃদ্ধিতে প্রভাব ফেলে?", "options": [{"prompt": "1", "value": "এটি সমস্ত কোষকে সমানভাবে বৃদ্ধি ঘটায়"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">এটি আলোর দিকের কোষগুলিকে দীর্ঘতর হতে উদ্দীপিত করে</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">এটি ছায়াযুক্ত দিকে বৃদ্ধিকে বাধা দেয়</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">এটি ছায়াযুক্ত দিকের কোষগুলিকে দীর্ঘতর হতে উদ্দীপিত করে </span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "પ્રકાશના પ્રતિભાવમાં ઓક્સીન છોડના વિકાસને કેવી રીતે અસર કરે છે?", "options": [{"prompt": "1", "value": "તે બધા કોષોને સમાનરૂપે વધવા માટેનું કારણ બને છે"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">તે પ્રકાશ બાજુના કોષોને વધુ લાંબા થવા માટે ઉત્તેજિત કરે છે</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">તે છાયાવાળી બાજુ પર વૃદ્ધિને અટકાવે છે</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">તે છાયાવાળી બાજુના કોષોને વધુ લાંબા થવા માટે ઉત્તેજિત કરે છે</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಬೆಳಕಿಗೆ ಪ್ರತಿಕ್ರಿಯೆಯಾಗಿ ಆಕ್ಸಿನ್ ಸಸ್ಯದ ಬೆಳವಣಿಗೆಯ ಮೇಲೆ ಹೇಗೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ?", "options": [{"prompt": "1", "value": "ಇದು ಎಲ್ಲಾ ಕೋಶಗಳನ್ನು ಸಮಾನವಾಗಿ ಬೆಳೆಯುವಂತೆ ಮಾಡುತ್ತದೆ"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">ಇದು ಬೆಳಕಿನ ಬದಿಯಲ್ಲಿರುವ ಕೋಶಗಳನ್ನು ಉದ್ದವಾಗಿ ಬೆಳೆಯಲು ಉತ್ತೇಜಿಸುತ್ತದೆ</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">ಇದು ನೆರಳಿನ ಬದಿಯಲ್ಲಿ ಬೆಳವಣಿಗೆಯನ್ನು ತಡೆಯುತ್ತದೆ</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">ಇದು ನೆರಳಿನ ಬದಿಯಲ್ಲಿರುವ ಕೋಶಗಳನ್ನು ಉದ್ದವಾಗಿ ಬೆಳೆಯಲು ಉತ್ತೇಜಿಸುತ್ತದೆ</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "ஒளிக்கு எதிர்வினையாக ஆக்ஸின் தாவர வளர்ச்சியில் எவ்வாறு செயல்படுகிறது?", "options": [{"prompt": "1", "value": "இது அனைத்து செல்களையும் சமமாக வளரச் செய்கிறது"}, {"prompt": "2", "value": "<span style=\"color: rgb(33, 37, 41);\">இது ஒளி படும் பக்கத்தில் உள்ள செல்களை நீண்டதாக வளர தூண்டுகிறது</span>"}, {"prompt": "3", "value": "<span style=\"color: rgb(33, 37, 41);\">இது நிழல் பக்கத்தில் வளர்ச்சியைத் தடுக்கிறது</span>"}, {"prompt": "4", "value": "<span style=\"color: rgb(33, 37, 41);\">இது நிழல் பக்கத்தில் உள்ள செல்களை நீண்டதாக வளர தூண்டுகிறது</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Biology", "confidence": "high"}, {"qid": "69ccbe13ec7c50e6d1b329f6", "qs_no": 24, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "What is the difference between displacement and distance?", "options": [{"prompt": "1", "value": "Distance includes direction; displacement does not"}, {"prompt": "2", "value": "Displacement includes direction; distance does not"}, {"prompt": "3", "value": "Both are scalar quantities"}, {"prompt": "4", "value": "Both are vector quantities"}], "range": {"start": "", "end": ""}}, "hn": {"value": "विस्थापन (Displacement) और दूरी (Distance) में क्या अंतर है?", "options": [{"prompt": "1", "value": "दूरी दिशा (Direction) को शामिल करती है; विस्थापन नहीं करता"}, {"prompt": "2", "value": "विस्थापन दिशा को शामिल करता है; दूरी नहीं करती"}, {"prompt": "3", "value": "दोनों अदिश राशियाँ (Scalar quantities) हैं"}, {"prompt": "4", "value": "दोनों सदिश राशियाँ (Vector quantities) हैं"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}, {"qid": "69a717d0672fc30bf7ce746d", "qs_no": 25, "pos_marks": 2.0, "neg_marks": 0.5, "type": "mcq", "langs": {"en": {"value": "A geo-stationary satellite completes one revolution around the Earth in approximately ____ hours.", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\( 6 \\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\( 12 \\)&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\( 24 \\)&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\( 48 \\)&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "hn": {"value": "एक भू-स्थैतिक उपग्रह पृथ्वी के चारों ओर एक परिक्रमा लगभग ____ घंटे में पूरी करता है।", "options": [{"prompt": "1", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\( 6 \\)&lt;/span&gt;"}, {"prompt": "2", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\( 12 \\)&lt;/span&gt;"}, {"prompt": "3", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\( 24 \\)&lt;/span&gt;"}, {"prompt": "4", "value": "&lt;span class=&quot;math-tex&quot;&gt;\\( 48 \\)&lt;/span&gt;"}], "range": {"start": "", "end": ""}}, "te": {"value": "ఒక భూస్థిర ఉపగ్రహం భూమి చుట్టూ ఒక పరిభ్రమణాన్ని పూర్తి చేయడానికి సుమారుగా ____ గంటల సమయం పడుతుంది?", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\( 6 \\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\( 12 \\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\( 24 \\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\( 48 \\)</span>"}], "range": {"start": "", "end": ""}}, "mr": {"value": "एक भू-स्थिर उपग्रह पृथ्वीभोवती एक प्रदक्षिणा सुमारे ____ तासांत पूर्ण करतो.", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\( 6 \\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\( 12 \\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\( 24 \\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\( 48 \\)</span>"}], "range": {"start": "", "end": ""}}, "bn": {"value": "একটি ভূ-সমলয় উপগ্রহ প্রায় ____ ঘণ্টায় পৃথিবীর চারপাশে একবার আবর্তন সম্পন্ন করে।", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\( 6 \\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\( 12 \\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\( 24 \\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\( 48 \\)</span>"}], "range": {"start": "", "end": ""}}, "gu": {"value": "એક ભૂસ્થિર ઉપગ્રહ પૃથ્વીની આસપાસ લગભગ ____ કલાકમાં એક પરિભ્રમણ પૂર્ણ કરે છે.", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\( 6 \\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\( 12 \\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\( 24 \\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\( 48 \\)</span>"}], "range": {"start": "", "end": ""}}, "kn": {"value": "ಒಂದು ಭೂ-ಸ್ಥಿರ ಉಪಗ್ರಹವು ಭೂಮಿಯ ಸುತ್ತ ಒಂದು ಪರಿಭ್ರಮಣೆಯನ್ನು ಸರಿಸುಮಾರು ____ ಗಂಟೆಗಳಲ್ಲಿ ಪೂರ್ಣಗೊಳಿಸುತ್ತದೆ.", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\( 6 \\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\( 12 \\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\( 24 \\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\( 48 \\)</span>"}], "range": {"start": "", "end": ""}}, "ta": {"value": "ஒரு புவி-நிலை செயற்கைக்கோள்  பூமியை ஒரு முறை சுற்றி வர தோராயமாக ____ மணிநேரம் ஆகும்.", "options": [{"prompt": "1", "value": "<span class=\"math-tex\">\\( 6 \\)</span>"}, {"prompt": "2", "value": "<span class=\"math-tex\">\\( 12 \\)</span>"}, {"prompt": "3", "value": "<span class=\"math-tex\">\\( 24 \\)</span>"}, {"prompt": "4", "value": "<span class=\"math-tex\">\\( 48 \\)</span>"}], "range": {"start": "", "end": ""}}}, "correct_option": null, "solution_html": {"en": "", "hn": "", "te": "", "mr": "", "bn": "", "ml": "", "gu": "", "kn": "", "ta": "", "or": "", "as": "", "ks": "", "kok": "", "mni": "", "ne": "", "pa": "", "sd": "", "ur": "", "sat": "", "mai": "", "brx": "", "doi": "", "sa": "", "grt": "", "kha": "", "lus": "", "bo": "", "trp": ""}, "tags": [], "concept": "Unidentified", "confidence": "unidentified"}]}]}</script>
+<script>
+const TEST_DATA = JSON.parse(document.getElementById('test-data').textContent);
+const TOTAL_Q = 25;
+const DURATION_SEC = 0 * 60;
+
+// State
+let currentSectionIdx = 0;
+let currentQIdx = 0;  // global across sections
+let currentLang = 'en';
+let answers = {};  // qid -> selected option prompt
+let marked = {};   // qid -> true
+let visited = new Set();
+let submitted = false;
+let timeLeft = DURATION_SEC;
+let timerInterval = null;
+
+// Flatten all questions for easy indexing
+const allQuestions = [];
+TEST_DATA.sections.forEach((s, sIdx) => {
+  s.questions.forEach(q => {
+    allQuestions.push({...q, sectionIdx: sIdx, sectionName: s.section_name});
+  });
+});
+
+function init() {
+  // Render section tabs
+  const sectionTabs = document.getElementById('sectionTabs');
+  TEST_DATA.sections.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'section-tab' + (i === 0 ? ' active' : '');
+    tab.textContent = s.section_name + ' (' + s.questions.length + ')';
+    tab.onclick = () => switchSection(i);
+    sectionTabs.appendChild(tab);
+  });
+  // Render palette
+  renderPalette();
+  // Render first question
+  renderQuestion();
+  // Start timer
+  startTimer();
+  // Update stats
+  updateStats();
+}
+
+function startTimer() {
+  if (DURATION_SEC <= 0) {
+    // No time limit — show "No Limit" instead of a countdown
+    document.getElementById('timer').textContent = 'No Limit';
+    document.getElementById('timer').classList.add('no-limit');
+    return;
+  }
+  timerInterval = setInterval(() => {
+    if (submitted) return;
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      submitTest();
+    }
+  }, 1000);
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeLeft / 3600);
+  const m = Math.floor((timeLeft % 3600) / 60);
+  const s = timeLeft % 60;
+  const display = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  const timerEl = document.getElementById('timer');
+  timerEl.textContent = display;
+  if (timeLeft < 60) {
+    timerEl.className = 'timer danger';
+  } else if (timeLeft < 300) {
+    timerEl.className = 'timer warning';
+  }
+}
+
+function renderQuestion() {
+  const q = allQuestions[currentQIdx];
+  if (!q) return;
+  visited.add(q.qid);
+  // Update section tab
+  currentSectionIdx = q.sectionIdx;
+  document.querySelectorAll('.section-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSectionIdx);
+  });
+  document.getElementById('currentSectionLabel').textContent = q.sectionName;
+  // Question header — includes Q number, marks, concept, confidence, and question ID
+  document.getElementById('qNum').textContent = 'Q' + (currentQIdx + 1);
+  let headerExtras = '<span class="mark-pos">+' + q.pos_marks + '</span><span class="mark-neg">-' + q.neg_marks + '</span>';
+  // Concept + confidence (from AI classifier — same as AI JSON)
+  const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+  const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+  const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+  headerExtras += '<span class="q-concept" title="Concept category">🎯 ' + concept + '</span>';
+  headerExtras += '<span class="q-confidence ' + confClass + '" title="Classifier confidence">conf: ' + confidence + '</span>';
+  // Question ID (unique per question, useful for cross-test matching)
+  headerExtras += '<span class="q-id" title="Question ID (unique across all tests)">ID: ' + q.qid + '</span>';
+  document.getElementById('qMarks').innerHTML = headerExtras;
+  // Language tabs
+  const langTabs = document.getElementById('qLangTabs');
+  langTabs.innerHTML = '';
+  const availableLangs = Object.keys(q.langs);
+  const showLangs = ['en','hn','te','mr','bn','ml','gu','kn','ta','or'].filter(l => availableLangs.includes(l));
+  if (showLangs.length > 1) {
+    showLangs.forEach((l, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'q-lang-tab' + (l === currentLang ? ' active' : '');
+      btn.textContent = {en:'English',hn:'Hindi',te:'Telugu',mr:'Marathi',bn:'Bengali',ml:'Malayalam',gu:'Gujarati',kn:'Kannada',ta:'Tamil',or:'Odia'}[l] || l;
+      btn.onclick = () => { currentLang = l; renderQuestion(); };
+      langTabs.appendChild(btn);
+    });
+  }
+  // Question text
+  const langData = q.langs[currentLang] || q.langs[availableLangs[0]] || {};
+  document.getElementById('qText').innerHTML = langData.value || '(no question text)';
+  // Options
+  const optsList = document.getElementById('optionsList');
+  optsList.innerHTML = '';
+  (langData.options || []).forEach(opt => {
+    const li = document.createElement('li');
+    li.className = 'option-item' + (answers[q.qid] === opt.prompt ? ' selected' : '');
+    li.innerHTML = '<span class="option-label">' + opt.prompt + '</span><span class="option-text">' + opt.value + '</span>';
+    li.onclick = () => selectOption(q.qid, opt.prompt);
+    optsList.appendChild(li);
+  });
+  // Update palette
+  renderPalette();
+  updateStats();
+}
+
+function selectOption(qid, prompt) {
+  if (submitted) return;
+  if (answers[qid] === prompt) {
+    delete answers[qid];
+  } else {
+    answers[qid] = prompt;
+  }
+  renderQuestion();
+}
+
+function saveNext() {
+  nextQuestion();
+}
+
+function markReviewNext() {
+  const q = allQuestions[currentQIdx];
+  marked[q.qid] = true;
+  nextQuestion();
+}
+
+function clearResponse() {
+  const q = allQuestions[currentQIdx];
+  delete answers[q.qid];
+  renderQuestion();
+}
+
+function nextQuestion() {
+  if (currentQIdx < allQuestions.length - 1) {
+    currentQIdx++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQIdx > 0) {
+    currentQIdx--;
+    renderQuestion();
+  }
+}
+
+function jumpTo(idx) {
+  currentQIdx = idx;
+  renderQuestion();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function switchSection(idx) {
+  currentSectionIdx = idx;
+  // Find first question in this section
+  const qIdx = allQuestions.findIndex(q => q.sectionIdx === idx);
+  if (qIdx >= 0) {
+    currentQIdx = qIdx;
+    renderQuestion();
+  }
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const cell = document.createElement('div');
+    let cls = 'palette-cell ';
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) cls += 'marked-answered';
+    else if (isMarked) cls += 'marked';
+    else if (isAnswered) cls += 'answered';
+    else if (isVisited) cls += 'notanswered';
+    else cls += 'notvisited';
+    if (i === currentQIdx) cls += ' current';
+    cell.className = cls;
+    cell.textContent = (i + 1);
+    cell.onclick = () => jumpTo(i);
+    grid.appendChild(cell);
+  });
+}
+
+function updateStats() {
+  let answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    const isAnswered = answers[q.qid] !== undefined;
+    const isMarked = marked[q.qid];
+    const isVisited = visited.has(q.qid);
+    if (isMarked && isAnswered) marked++;
+    else if (isMarked) marked++;
+    else if (isAnswered) answered++;
+    else if (isVisited) notAnswered++;
+    else notVisited++;
+  });
+  document.getElementById('paletteStats').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${notAnswered}</strong></div>
+    <div><span>Marked:</span><strong>${marked}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+  `;
+}
+
+function openSubmitModal() {
+  let answered = 0, marked = 0, notVisited = 0;
+  allQuestions.forEach((q, i) => {
+    if (answers[q.qid] !== undefined) answered++;
+    else if (marked[q.qid]) marked++;
+    else if (!visited.has(q.qid)) notVisited++;
+  });
+  document.getElementById('submitSummary').innerHTML = `
+    <div><span>Answered:</span><strong>${answered}</strong></div>
+    <div><span>Not Answered:</span><strong>${TOTAL_Q - answered - notVisited}</strong></div>
+    <div><span>Not Visited:</span><strong>${notVisited}</strong></div>
+    <div><span>Total:</span><strong>${TOTAL_Q}</strong></div>
+  `;
+  document.getElementById('submitModal').classList.add('open');
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('open');
+}
+
+function submitTest() {
+  submitted = true;
+  clearInterval(timerInterval);
+  closeSubmitModal();
+  // Calculate score
+  let score = 0, correct = 0, wrong = 0, skipped = 0;
+  allQuestions.forEach(q => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    if (userAns === undefined) {
+      skipped++;
+    } else if (userAns === correctAns) {
+      correct++;
+      score += q.pos_marks;
+    } else {
+      wrong++;
+      score -= q.neg_marks;
+    }
+  });
+  // Show results view
+  document.getElementById('testMode').style.display = 'none';
+  document.getElementById('resultsView').style.display = 'block';
+  document.getElementById('scoreCard').innerHTML = `
+    <div><span class="score">${score.toFixed(2)}</span><span class="total"> / ${TEST_DATA.max_marks || TOTAL_Q * 2}</span></div>
+    <div class="rank">Correct: ${correct} | Wrong: ${wrong} | Skipped: ${skipped}</div>
+    <div class="rank" style="margin-top:8px;">Accuracy: ${(correct + wrong > 0) ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0}%</div>
+  `;
+  // Render all questions with answers + solutions
+  renderAllQuestions();
+}
+
+function renderAllQuestions() {
+  const container = document.getElementById('resultsQuestions');
+  container.innerHTML = '';
+  allQuestions.forEach((q, i) => {
+    const userAns = answers[q.qid];
+    const correctAns = q.correct_option;
+    const isCorrect = userAns === correctAns;
+    const isWrong = userAns !== undefined && userAns !== correctAns;
+    const isSkipped = userAns === undefined;
+    const card = document.createElement('div');
+    card.className = 'result-card ' + (isCorrect ? 'correct' : isWrong ? 'wrong' : 'skipped');
+    const langData = q.langs[currentLang] || q.langs[Object.keys(q.langs)[0]] || {};
+    let optionsHtml = '';
+    (langData.options || []).forEach(opt => {
+      let cls = 'result-option';
+      if (opt.prompt === correctAns) cls += ' correct';
+      if (opt.prompt === userAns) cls += ' selected';
+      optionsHtml += `<li class="${cls}"><span class="result-option-label">${opt.prompt}</span><span>${opt.value}</span></li>`;
+    });
+    const sol = q.solution_html[currentLang] || q.solution_html['en'] || '';
+    const solHtml = sol ? `<div class="result-solution"><div class="result-solution-title">📖 Solution</div>${sol}</div>` : '';
+    let statusBadge = '';
+    if (isCorrect) statusBadge = '<span class="result-status correct">✓ Correct</span>';
+    else if (isWrong) statusBadge = '<span class="result-status wrong">✗ Wrong</span>';
+    else statusBadge = '<span class="result-status skipped">— Skipped</span>';
+    // Concept + confidence + question ID (same as AI JSON)
+    const concept = q.concept || (q.tags && q.tags.length ? q.tags.join(', ') : 'Unidentified');
+    const confidence = q.confidence || (q.tags && q.tags.length ? 'high' : 'unidentified');
+    const confClass = confidence === 'high' ? 'conf-high' : 'conf-unidentified';
+    card.innerHTML = `
+      <div class="result-header">
+        <span class="result-q-num">Q${i + 1}</span>
+        ${statusBadge}
+        <span class="result-concept">🎯 ${concept}</span>
+        <span class="result-confidence ${confClass}">conf: ${confidence}</span>
+        <span class="result-qid">ID: ${q.qid}</span>
+      </div>
+      <div class="result-text">${langData.value || '(no text)'}</div>
+      <ul class="result-options">${optionsHtml}</ul>
+      ${solHtml}
+    `;
+    container.appendChild(card);
+  });
+}
+
+function showAllQuestions() {
+  document.getElementById('resultsView').scrollIntoView({behavior: 'smooth'});
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (submitted) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'j') nextQuestion();
+  if (e.key === 'ArrowLeft' || e.key === 'k') prevQuestion();
+  if (e.key === '1' || e.key === 'a') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[0]) selectOption(q.qid, opts[0].prompt); }
+  if (e.key === '2' || e.key === 'b') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[1]) selectOption(q.qid, opts[1].prompt); }
+  if (e.key === '3' || e.key === 'c') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[2]) selectOption(q.qid, opts[2].prompt); }
+  if (e.key === '4' || e.key === 'd') { const q = allQuestions[currentQIdx]; const opts = (q.langs[currentLang]||{}).options||[]; if(opts[3]) selectOption(q.qid, opts[3].prompt); }
+});
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,1088 @@
+{
+  "test_id": "69f09f1ecb1bd71df7d18abd",
+  "title": "Quantitative Aptitude Sectional Test - 15",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T08:59:29.951819+00:00",
+  "questions": [
+    {
+      "qid": "649efe57f556e9405bce5241",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average of five consecutive odd numbers is 15. What is the smallest of these five numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11"
+        },
+        {
+          "label": "2",
+          "text": "13"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor consecutive odd numbers, the average is exactly the middle term.\n\nSince there are 5 numbers, the 3rd (middle) number is 15.\n\nConsecutive odd numbers always decrease by 2 as we move left.\n\nSmallest number (1st number) = 15 − 2 × 2 = 11.\n\n**∴ The correct answer is 11.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nAverage of 5 consecutive odd numbers = 15\n\n**Formula Used:**\n\nAverage = Sum of all terms ÷ Total number of terms\n\n <line x1=\"60\" y1=\"80\" x2=\"360\" y",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "649e8d0555fdd24c5aedf63a",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Jaya invested Rs. 14800 at 8.5% per annum on simple interest. The interest earned after 6 months is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 642"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 598"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 629"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 580"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEffective rate for 6 months (half year) = 8.5% ÷ 2 = 4.25%\n\nSimple Interest = 4.25% of 14800\n\nSimple Interest = 4.25 × 148 = 629\n\n**∴ The correct answer is Rs. 629.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPrincipal (P) = Rs. 14800\n\nRate (R) = 8.5% per annum\n\nTime (T) = 6 months = 6 ÷ 12 = 1/2 year\n\n**Formula Used:**\n\nSimple Interest (SI) = (P × R × T) ÷ 100\n\n \n \n \n\n \n \n \n \n \n \n Principal\n Rs. 14800\n\n \n Simple Interest\n Rs. 629\n\n \n• \n R = 8.5% p.a.\n T = 6 months\n\n I = (P × R × T) ÷ 100\n\n**Calculation:**\n\n⇒ SI = (14800 × 8.5 × 1/2) ÷ 100\n\n⇒ SI = (148 × 8.5) ÷ 2\n\n⇒ SI = 74 × 8.5\n\n⇒ SI = 629\n\n**∴ The correct answer is Rs. 629.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Interest (SI)\n\nSimple interest is calculated on the original principal for the entire given period. Formula: SI = (P × R × T) ÷ 100.\n\nCompound Interest (CI)\n\nCompound interest is calculated on the principal as well as the accumulated interest of previous periods. Formula: Amount = P(1 + R/100)T.\n\nRule of 72\n\nA quick trick to estimate the number of years required to double the invested money at a given annual fixed interest rate. Time ≈ 72 ÷ Rate.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "62c9a6f653e12714ceae7cad",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Each interior angle of a regular octagon is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "90°"
+        },
+        {
+          "label": "2",
+          "text": "None of these"
+        },
+        {
+          "label": "3",
+          "text": "135°"
+        },
+        {
+          "label": "4",
+          "text": "120°"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEach exterior angle of a regular polygon = 360° ÷ n\n\nFor a regular octagon, number of sides (n) = 8\n\nExterior angle = 360° ÷ 8 = 45°\n\nEach interior angle = 180° − Exterior angle = 180° − 45° = 135°\n\n**∴ The correct answer is 135°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven:\n\nShape = Regular Octagon\n\nNumber of sides (n) = 8\n\nFormula used: Each interior angle of a regular polygon = [(n − 2) × 180°] ÷ n\n\n [IMAGE: https://cdn.repeatermock.com/tb/1dd113a4c777831ddacc1319d89a4fc0d93b8dc1f28422114321a6a09911c323.png] \n\nCalculations:\n\n⇒ Sum of all interior angles = (n − 2) × 180°\n\n⇒ Sum = (8 − 2) × 180°\n\n⇒ Sum = 6 × 180° = 1080°\n\n⇒ Each interior angle = Total Sum ÷ Number of sides\n\n⇒ Each interior angle = 1080° ÷ 8\n\n⇒ Each interior angle = 135°\n\n**∴ The correct answer is 135°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSum of Exterior Angles\n\nThe sum of all exterior angles of any convex polygon is always 360°.\n\nNumber of Diagonals\n\nThe number of diagonals in a polygon with n sides is given by the formula: [n × (n − 3)] ÷ 2.\n\nRegular Polygon Property\n\nIn a regular polygon, all interior angles are equal, and all side lengths are equal.\n\nInterior and Exterior Angle Relation\n\nAt each vertex of a polygon, the interior angle and the exterior angle are supplementary, meaning their sum is 180°.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/1dd113a4c777831ddacc1319d89a4fc0d93b8dc1f28422114321a6a09911c323.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "6296f8452f0dd59b9767b44f",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The HCF and LCM of two numbers are 4 and 60 respectively. These numbers could be",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 and 28"
+        },
+        {
+          "label": "2",
+          "text": "24 and 32"
+        },
+        {
+          "label": "3",
+          "text": "12 and 20"
+        },
+        {
+          "label": "4",
+          "text": "15 and 4"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nProduct of two numbers = HCF × LCM\n\nRequired Product = 4 × 60 = 240\n\nCheck options for product 240: 12 × 20 = 240\n\nVerify HCF(12, 20) = 4 and LCM(12, 20) = 60.\n\n**∴ The correct answer is 12 and 20.**\n\n**__Alternate Method__**\n\n**Given:**\n\nHCF of two numbers = 4\n\nLCM of two numbers = 60\n\n**Formula Used:**\n\nProduct of two numbers = HCF × LCM\n\n [IMAGE: https://cdn.repeatermock.com/tb/35d93ab08bbca468705f662c87eb2017f5fc9c25ebeacc1ec5832489e3ad2b12.png] \n\n**Calculations:**\n\n⇒ Let the numbers be 4x and 4y, where x and y are co-prime.\n\n⇒ LCM = HCF × x × y\n\n⇒ 60 = 4 × x × y\n\n⇒ xy = 60 ÷ 4 = 15\n\n⇒ Possible co-prime pairs for (x, y) are (1, 15) and (3, 5).\n\n⇒ If (x, y) = (1, 15), numbers are (4 × 1, 4 × 15) = (4, 60).\n\n⇒ If (x, y) = (3, 5), numbers are (4 × 3, 4 × 5) = (12, 20).\n\n⇒ Comparing with options, the pair (12, 20) is present.\n\n**∴ The correct answer is 12 and 20.**\n\n**__Additional Information__**\n\nProduct Property\n\nFor any two positive integers a and b, the product of the numbers is always equal to the product of their HCF and LCM: a × b = HCF(a, b) × LCM(a, b).\n\nHCF and LCM Relationship\n\nThe HCF of any group of numbers is always a factor of their LCM. If HCF does not divide LCM, such a pair of numbers cannot exist.\n\nCo-prime Factors\n\nIf the HCF of two numbers is H, the numbers can be expressed as Hx and Hy, where x and y are co-prime (HCF of x and y is 1).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/35d93ab08bbca468705f662c87eb2017f5fc9c25ebeacc1ec5832489e3ad2b12.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "623182c46a289d518ac90166",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "After allowing a discount of 10% on the marked price of an article, it is sold for Rs. 450. Had the discount not been given, the profit would have been 25%. What is the 50% of the cost price (in Rs.) of the article?",
+      "options": [
+        {
+          "label": "1",
+          "text": "150"
+        },
+        {
+          "label": "2",
+          "text": "200"
+        },
+        {
+          "label": "3",
+          "text": "175"
+        },
+        {
+          "label": "4",
+          "text": "250"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nMarked Price (MP) = Selling Price ÷ (1 − Discount%) = 450 ÷ 0.9 = Rs. 500.\n\nIf no discount is given, SP = MP = Rs. 500, which yields a 25% profit.\n\nRatio of CP : MP = 100 : (100 + Profit%) = 100 : 125 = 4 : 5.\n\nSince 5 units = Rs. 500, then 4 units (CP) = Rs. 400.\n\n50% of CP = 400 × 0.5 = Rs. 200.\n\n**∴ The correct answer is Rs. 200.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSelling Price (SP) = Rs. 450\n\nDiscount = 10%\n\nProfit (without discount) = 25%\n\n [IMAGE: https://cdn.repeatermock.com/tb/8a5ac90d0004d5454d77b6208786c79ec4f611f3e58d668f8480b42517c7ea53.png] \n\n**Calculations:**\n\n⇒ Marked Price (MP) = SP × [100 / (100 − Discount%)]\n\n⇒ MP = 450 × (100 / 90)\n\n⇒ MP = 450 × (10/9) = Rs. 500\n\n⇒ If no discount is given, New SP = MP = Rs. 500\n\n⇒ In this case, Profit = 25%\n\n⇒ Cost Price (CP) = New SP × [100 / (100 + Profit%)]\n\n⇒ CP = 500 × (100 / 125)\n\n⇒ CP = 500 × (4/5) = Rs. 400\n\n⇒ Required value = 50% of CP = 400 × (50 / 100)\n\n⇒ Required value = Rs. 200\n\n**∴ The correct answer is Rs. 200.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCP, MP, and Profit Relationship\n\nThe relationship between Cost Price and Marked Price is given by: MP/CP = (100 + Profit%) / (100 − Discount%).\n\nMarkup Percentage\n\nMarkup % = [(MP − CP) / CP] × 100. It represents the percentage by which the cost price is increased to set the marked price.\n\nProfit when Discount is 0\n\nWhen no discount is offered, the Selling Price equals the Marked Price. Therefore, Profit = MP − CP.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/8a5ac90d0004d5454d77b6208786c79ec4f611f3e58d668f8480b42517c7ea53.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "622ccbbadfb8abdc26b56ae0",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "While listing N consecutive even numbers for determining their average, the last number, by mistake, got replaced by the next odd number and thereby the average turned out to be more than the desired value by 0.0125. What is the value of N?",
+      "options": [
+        {
+          "label": "1",
+          "text": "50"
+        },
+        {
+          "label": "2",
+          "text": "100"
+        },
+        {
+          "label": "3",
+          "text": "40"
+        },
+        {
+          "label": "4",
+          "text": "80"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nThe next odd number after any even number L is L + 1.\n\nTotal Increase in Sum = (L + 1) − L = 1.\n\nIncrease in Average = (Total Increase in Sum) ÷ (Number of Terms N).\n\n0.0125 = 1 ÷ N\n\nN = 1 ÷ 0.0125 = 80.\n\n**∴ The correct answer is 80.**\n\n**__Alternate Method__**\n\n**Given:**\n\nNumber of consecutive even numbers = N\n\nError: Last even number replaced by next odd number\n\nIncrease in average = 0.0125\n\n [IMAGE: https://cdn.repeatermock.com/tb/e60de71f8d76c81c51127486d8316eaf7d0f398414175c6dfe74df0cbb3a51f6.png] \n\n**Calculations:**\n\n⇒ Let the N consecutive even numbers be E₁, E₂, ..., EN.\n\n⇒ Let their original sum be S.\n\n⇒ Original Average = S ÷ N.\n\n⇒ The last number EN is replaced by (EN + 1).\n\n⇒ New Sum = S − EN + (EN + 1) = S + 1.\n\n⇒ New Average = (S + 1) ÷ N = (S ÷ N) + (1 ÷ N).\n\n⇒ Change in average = (New Average) − (Original Average) = 1 ÷ N.\n\n⇒ Given that this change is 0.0125.\n\n⇒ 1 ÷ N = 0.0125\n\n⇒ N = 1 ÷ 0.0125\n\n⇒ N = 10000 ÷ 125 = 80.\n\n**∴ The correct answer is 80.**\n\n**__Additional Information__**\n\nEffect of Observation Change on Average\n\nIf a single observation in a set of N terms is increased by 'k', the new average increases by exactly k ÷ N compared to the old average.\n\nConsecutive Even Numbers\n\nConsecutive even numbers form an Arithmetic Progression (AP) with a common difference of 2. The average of any N consecutive numbers in an AP is (First term + Last term) ÷ 2.\n\nDecimal to Fraction Conversion\n\nShortcut for N: Since 0.125 = 1/8, then 0.0125 = 1/80. Therefore, 1 ÷ N = 1 ÷ 80 implies N = 80.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e60de71f8d76c81c51127486d8316eaf7d0f398414175c6dfe74df0cbb3a51f6.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "637d0d139bbe166f7cd79a35",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Arun can do a piece of work in 10 days and Bimla can do it in 20 days. If they both work for 2 days, how much work is left?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.8"
+        },
+        {
+          "label": "2",
+          "text": "0.5"
+        },
+        {
+          "label": "3",
+          "text": "0.6"
+        },
+        {
+          "label": "4",
+          "text": "0.7"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal Work (LCM of 10 and 20) = 20 units.\n\nEfficiency: Arun = 20 ÷ 10 = 2 units/day; Bimla = 20 ÷ 20 = 1 unit/day.\n\nCombined Efficiency = 2 + 1 = 3 units/day.\n\nWork done in 2 days = 3 × 2 = 6 units.\n\nWork left = (20 − 6) ÷ 20 = 14 ÷ 20 = 0.7.\n\n**∴ The correct answer is 0.7.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTime taken by Arun = 10 days\n\nTime taken by Bimla = 20 days\n\nDuration of work together = 2 days\n\n**Formula Used:**\n\nTotal Work = Efficiency × Time\n\nRemaining Work = 1 − (Work Done)\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n Arun\n 10\n 20\n 2\n \n \n\n Bimla\n 20\n 1\n \n \n\n**Calculations:**\n\n⇒ Total efficiency of Arun and Bimla = 2 + 1 = 3 units/day\n\n⇒ Work completed in 2 days = 3 × 2 = 6 units\n\n⇒ Total work to be done = 20 units\n\n⇒ Remaining units of work = 20 − 6 = 14 units\n\n⇒ Fraction of work left = 14 ÷ 20 = 0.7\n\n**∴ The correct answer is 0.7.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nReciprocal Rule\n\nIf a person can complete a work in n days, then the work done in 1 day is 1/n.\n\nWork and Wages\n\nWages are distributed in the ratio of the work done by each person (Efficiency × Time).\n\nPipes and Cisterns\n\nThe same logic applies; inlet pipes have positive efficiency while outlet pipes have negative efficiency.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "62c7e3914602b4205c62160a",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a company, there are only two types of employees, workers, and officers. 35% of the employees are officers and the average monthly salary of an officer is ₹39,000 more than the combined average monthly salary of all employees. What is the difference between the average monthly salaries of an officer and a worker?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹52,650"
+        },
+        {
+          "label": "2",
+          "text": "₹50,700"
+        },
+        {
+          "label": "3",
+          "text": "₹64,350"
+        },
+        {
+          "label": "4",
+          "text": "₹60,000"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of Officers : Workers = 35% : 65% = 7 : 13.\n\nDeviation of Officer's salary from the combined average = +₹39,000.\n\nApplying the net deviation rule: Sum of deviations = 0.\n\n7 × (+39,000) + 13 × (Worker's deviation) = 0.\n\nWorker's deviation = −(7 × 39,000) ÷ 13 = −₹21,000.\n\nTotal difference = Officer's surplus + Worker's deficit = 39,000 + 21,000 = ₹60,000.\n\n**∴ The correct answer is ₹60,000.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nPercentage of Officers = 35%\n\nPercentage of Workers = 100% − 35% = 65%\n\nAvgOffᵢ꜀ₑᵣ − AvgTₒₜₐₗ = ₹39,000\n\n**Formula Used:**\n\nWeighted Average: n₁(A₁ − Aₐvg) = n₂(Aₐvg − A₂)\n\n [IMAGE: https://cdn.repeatermock.com/tb/b23348bb97cdfe1aec5cfe9df57aa3fcdf32bd14c9c4f6d7e68f19b91bb7b8ac.png] \n\n**Calculations:**\n\n⇒ Ratio of Officers (nO) to Workers (nW) = 35 : 65 = 7 : 13\n\n⇒ Let AvgTₒₜₐₗ be A, then AvgOffᵢ꜀ₑᵣ = A + 39,000\n\n⇒ Let AvgWₒᵣₖₑᵣ be AW\n\n⇒ 7 × (AvgOffᵢ꜀ₑᵣ − A) = 13 × (A − AvgWₒᵣₖₑᵣ)\n\n⇒ 7 × (39,000) = 13 × (A − AvgWₒᵣₖₑᵣ)\n\n⇒ A − AvgWₒᵣₖₑᵣ = (7 × 39,000) ÷ 13\n\n⇒ A − AvgWₒᵣₖₑᵣ = 7 × 3,000 = 21,000\n\n⇒ Difference = AvgOffᵢ꜀ₑᵣ − AvgWₒᵣₖₑᵣ\n\n⇒ Difference = (AvgOffᵢ꜀ₑᵣ − A) + (A − AvgWₒᵣₖₑᵣ)\n\n⇒ Difference = 39,000 + 21,000 = 60,000\n\n**∴ The correct answer is ₹60,000.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAlligation Rule for Averages\n\nThe ratio of the quantities of two groups is the inverse ratio of the differences of their individual averages from the combined average: n₁/n₂ = (A₂ − Aₐvg) / (Aₐvg − A₁).\n\nNet Deviation Method\n\nIn any distribution, the sum of the products of the frequency and the deviation of each value from the mean is always zero: ∑ fᵢ(xᵢ − x̄) = 0.\n\nWeighted Average Formula\n\nThe combined average of two groups is given by Aₐvg = (n₁A₁ + n₂A₂) / (n₁ + n₂), where n represents the number of items and A represents the average.\n\n51:T147b,",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b23348bb97cdfe1aec5cfe9df57aa3fcdf32bd14c9c4f6d7e68f19b91bb7b8ac.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "64cb77b9b1b65b65411d179a",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In a ΔABC, if ∠A = 90°, AC = 5 cm, BC = 9 cm, and in ΔPQR, ∠P = 90°, PR = 3 cm, QR = 8 cm, then:",
+      "options": [
+        {
+          "label": "1",
+          "text": "ΔABC cong ΔPQR"
+        },
+        {
+          "label": "2",
+          "text": "ΔABC ncong ΔPQR"
+        },
+        {
+          "label": "3",
+          "text": "ΔABC ≠ ΔPQR"
+        },
+        {
+          "label": "4",
+          "text": "ΔABC = ΔPQR"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nCompare corresponding parts of right-angled ΔABC and ΔPQR.\n\nIn ΔABC: Hypotenuse BC = 9 cm and Side AC = 5 cm.\n\nIn ΔPQR: Hypotenuse QR = 8 cm and Side PR = 3 cm.\n\nCongruence (RHS) requires Hypotenuse 1 = Hypotenuse 2 and Side 1 = Side 2.\n\nSince 9 ≠ 8 and 5 ≠ 3, the triangles cannot be congruent.\n\n**∴ The correct answer is ΔABC ≇ ΔPQR.**\n\n**__Alternate Method__**\n\n**Given:**\n\nΔABC: ∠A = 90°, AC = 5 cm, BC = 9 cm (Hypotenuse)\n\nΔPQR: ∠P = 90°, PR = 3 cm, QR = 8 cm (Hypotenuse)\n\n [IMAGE: https://cdn.repeatermock.com/tb/89b0ac819db213682b3bf2149aa361401a41fe3ddac32e59e458778a5e09dee8.png] \n\n**Formula Used:**\n\nRHS (Right angle-Hypotenuse-Side) Congruence Rule: Two right-angled triangles are congruent if the hypotenuse and one side of one triangle are equal to the hypotenuse and the corresponding side of the other triangle.\n\n⇒ In ΔABC, using Pythagoras theorem: AB² = BC² − AC²\n\n⇒ AB² = 9² − 5² = 81 − 25 = 56\n⇒ AB = √56 cm ≈ 7.48 cm\n\n⇒ In ΔPQR, using Pythagoras theorem: PQ² = QR² − PR²\n\n⇒ PQ² = 8² − 3² = 64 − 9 = 55\n⇒ PQ = √55 cm ≈ 7.41 cm\n\n⇒ Comparing the dimensions of ΔABC and ΔPQR:\n\n⇒ Hypotenuse: BC (9 cm) ≠ QR (8 cm)\n⇒ Side 1: AC (5 cm) ≠ PR (3 cm)\n⇒ Side 2: AB (√56 cm) ≠ PQ (√55 cm)\n\n⇒ Since none of the corresponding sides are equal, the triangles are not congruent.\n\n**∴ The correct answer is ΔABC ≇ ΔPQR.**\n\n**__Additional Information__**\n\nRHS Congruence Rule\n\nIf in two right-angled triangles, the hypotenuse and one side of one triangle are equal to the hypotenuse and one side of the other triangle, then the two triangles are congruent.\n\nSSS Congruence Rule\n\nTwo triangles are congruent if all three sides of one triangle are equal to the corresponding three sides of the other triangle.\n\nCongruence vs. Equality\n\nCongruent triangles (≅) have the exact same shape and size (identical sides and angles), whereas equal triangles (=) usually refers to triangles having equal area even if shapes differ.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/89b0ac819db213682b3bf2149aa361401a41fe3ddac32e59e458778a5e09dee8.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "62d3eeaaf9d4b9e85af29868",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two students appeared for an examination. One of them secured 9 marks more than the other and his marks were 56 % of the sum of their marks. The marks obtained by them are-",
+      "options": [
+        {
+          "label": "1",
+          "text": "30 and 39"
+        },
+        {
+          "label": "2",
+          "text": "36 and 45"
+        },
+        {
+          "label": "3",
+          "text": "33 and 42"
+        },
+        {
+          "label": "4",
+          "text": "35 and 44"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet the total marks of both students be 100%.\n\nOne student scored 56%, so the other student scored (100% − 56%) = 44%.\n\nDifference in percentage = 56% − 44% = 12%.\n\nAccording to the question, this 12% difference is equal to 9 marks.\n\n12% = 9 marks ⇒ 1% = 0.75 marks.\n\nMarks obtained = 56 × 0.75 = 42 and 44 × 0.75 = 33.\n\n**∴ The correct answer is 33 and 42.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** Difference in marks = 9. Student 1 marks = 56% of total.\n\n**Formula:** Value = Percentage × Total Sum\n\n [IMAGE: https://cdn.repeatermock.com/tb/2a4188a9473d2942a0a7638237dc20da85a294d6dbf790daf01bc0e495a504f0.png] \n\n⇒ Let the marks of the two students be x and (x − 9).\n\n⇒ Sum of their marks = x + (x − 9) = 2x − 9.\n\n⇒ According to the condition: x = 56% × (2x − 9)\n\n⇒ x = (56 / 100) × (2x − 9)\n\n⇒ 100x = 112x − 504\n\n⇒ 112x − 100x = 504\n\n⇒ 12x = 504\n\n⇒ x = 504 ÷ 12 = 42 marks.\n\n⇒ Second student marks = 42 − 9 = 33 marks.\n\n**∴ The correct answer is 33 and 42.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPercentage to Ratio Conversion\n\nCalculating results using ratios is often faster. Here, the ratio of marks is 56 : 44 which simplifies to 14 : 11. The difference of 3 units corresponds to the 9 marks given.\n\nComplementary Percentages\n\nIf one part is x%, the other part of the whole is always (100 − x)%. This is a fundamental concept in data interpretation and percentage problems.\n\nBase Value in Percentages\n\nAlways identify the base on which the percentage is calculated. In this problem, the base is the sum of marks of both students.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/2a4188a9473d2942a0a7638237dc20da85a294d6dbf790daf01bc0e495a504f0.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "62073f335d4c3fefab8bded8",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Which of the following is referred to as additive identify for whole numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "zero"
+        },
+        {
+          "label": "2",
+          "text": "one"
+        },
+        {
+          "label": "3",
+          "text": "The number itself"
+        },
+        {
+          "label": "4",
+          "text": "The negative of the number"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nThe additive identity is a number that, when added to any other number, does not change the value of that number.\n\nLogic: a + 0 = a for any whole number 'a'.\n\nBy definition, adding 0 results in the original value, making it the identity element for addition.\n\n**∴ The correct answer is zero.**\n\n**__Alternate Method__**\n\n**Given:** The set of whole numbers W = {0, 1, 2, 3, ...}.\n\n**Definition:** In any number system, an element 'e' is called the additive identity if for every element 'a' in that system, the condition a + e = a is satisfied.\n\n⇒ Let 'a' be an arbitrary whole number.\n\n⇒ a + e = a\n\n⇒ e = a − a\n\n⇒ e = 0\n\n⇒ Since 0 is a member of the set of whole numbers, it satisfies the criteria.\n\n⇒ Test: 5 + 0 = 5, 10 + 0 = 10, 0 + 0 = 0.\n\n**∴ The correct answer is zero.**\n\n**__Additional Information__**\n\nMultiplicative Identity\n\nThe number 1 is called the multiplicative identity for whole numbers because any number multiplied by 1 remains unchanged (a × 1 = a).\n\nAdditive Inverse\n\nFor any integer 'a', the additive inverse is '−a' because their sum equals the additive identity (a + (−a) = 0). Note that whole numbers (except 0) do not have additive inverses within the set of whole numbers.\n\nClosure Property of Addition\n\nThe sum of any two whole numbers is always a whole number (e.g., 2 + 3 = 5, where 5 is a whole number).</p",
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "62f3997657ef2f7801eeec3e",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the given figure; if radius of the circle is 21 cm and ∠POQ is 120°, then area of segment PRQ in (cm)² is :\n\n [IMAGE: https://cdn.repeatermock.com/tb/919984ab78ed19d8c1a98120f639f7de865a06746577884e91165c0f5ab2ee4b.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "(21)/(2)(44 − 21sqrt{3})"
+        },
+        {
+          "label": "2",
+          "text": "(21)/(4)(88 − 21sqrt{3})"
+        },
+        {
+          "label": "3",
+          "text": "(21)/(4)(88sqrt{3} − 21)"
+        },
+        {
+          "label": "4",
+          "text": "(21)/(4)(88sqrt{2} − 21)"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nArea of minor segment = Area of Sector − Area of Triangle\n\nArea = [(πθ/360) − (sin θ)/2] × r²\n\nArea = [(22/7 × 120/360) − (sin 120°)/2] × 21²\n\nArea = [22/21 − √3/4] × 441 = 462 − 441√3/4\n\nFactoring out 21/4: Area = (21/4) × (88 − 21√3)\n\n**∴ The correct answer is 21/4(88 − 21√3) cm².**\n\n**__Alternate Method__**\n\n**Given:**\n\nRadius (r) = 21 cm\n\nCentral Angle (θ) = 120°\n\n**Formula Used:**\n\nArea of Segment = (θ/360°) × πr² − (1/2)r² sin θ\n\n [IMAGE: https://cdn.repeatermock.com/tb/63cca7bccf6fc950aaffe31e5c892cfa63fab2a56ebab2062802627490ee48a3.png] \n\n**Calculations:**\n\n⇒ Area of sector POQR = (120/360) × (22/7) × 21 × 21\n\n⇒ Area of sector = (1/3) × 22 × 3 × 21 = 462 cm²\n\n⇒ Area of ΔPOQ = (1/2) × r² × sin 120°\n\n⇒ sin 120° = sin(180° − 60°) = sin 60° = √3/2\n\n⇒ Area of ΔPOQ = (1/2) × 441 × (√3/2) = 441√3 / 4 cm²\n\n⇒ Area of segment PRQ = 462 − 441√3 / 4\n\n⇒ Area of segment = (1848 − 441√3) / 4\n\n⇒ Area of segment = (21 × 88 − 21 × 21√3) / 4\n\n⇒ Area of segment = 21/4 × (88 − 21√3) cm²\n\n**∴ The correct answer is 21/4(88 − 21√3) cm².**\n\n**__Additional Information__**\n\nArea of Sector\n\nThe area of a sector with radius r and central angle θ (in degrees) is given by (θ/360) × πr².\n\nArea of Triangle in a Circle\n\nThe area of a triangle formed by two radii and a chord is (1/2)r² sin θ, where θ is the angle between the radii.\n\nLength of an Arc\n\nThe length of an arc subtending an angle θ at the center is L = (θ/360) × 2πr.\n\nMajor vs Minor Segment\n\nArea of major segment = Total area of circle − Area of minor segment.</p",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/919984ab78ed19d8c1a98120f639f7de865a06746577884e91165c0f5ab2ee4b.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/63cca7bccf6fc950aaffe31e5c892cfa63fab2a56ebab2062802627490ee48a3.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "64af880afa9284f674d6d576",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the set of first 100 multiples of 5, P is the average of the multiples on the odd places and Q is the average of the multiples on the even places. By what number, the value of Q is more than P?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "2.5"
+        },
+        {
+          "label": "4",
+          "text": "12.5"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEach even-placed multiple is exactly 5 more than its preceding odd-placed multiple.\n\nMultiples: (5, 10), (15, 20), (25, 30), ... (495, 500).\n\nDifference between every pair (Even − Odd) = 5.\n\nTherefore, Average of Even (Q) − Average of Odd (P) = Constant difference = 5.\n\n**∴ The correct answer is 5.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:** First 100 multiples of 5: {5, 10, 15, 20, ..., 500}\n\n**Formula Used:** Average of an Arithmetic Progression (AP) = (First term + Last term) ÷ 2\n\n [IMAGE: https://cdn.repeatermock.com/tb/c19d951d10e21df646f40157dc7fbdd3bc5e7be6e07b333fe33200539cdc96ad.png] \n\n⇒ Set P (Odd places): 1st, 3rd, ..., 99th multiples\n\n⇒ P = {5, 15, 25, ..., 495}\n\n⇒ Average P = (5 + 495) ÷ 2 = 500 ÷ 2 = 250\n\n⇒ Set Q (Even places): 2nd, 4th, ..., 100th multiples\n\n⇒ Q = {10, 20, 30, ..., 500}\n\n⇒ Average Q = (10 + 500) ÷ 2 = 510 ÷ 2 = 255\n\n⇒ Difference = Q − P = 255 − 250 = 5\n\n**∴ The correct answer is 5.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAverage of Arithmetic Progression\n\nFor any sequence in AP, the average is always the middle term or the mean of the first and last terms: (a + l) ÷ 2.\n\nConsecutive Terms Difference\n\nIf every term of set B is 'k' more than the corresponding term of set A, then Average(B) − Average(A) = k.\n\nSum of First n Multiples\n\nSum of first n multiples of 'x' = x × [n(n+1) ÷ 2]. The average is x × (n+1) ÷ 2.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c19d951d10e21df646f40157dc7fbdd3bc5e7be6e07b333fe33200539cdc96ad.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "652fc8f904ab647b0f43f790",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The value of (5 frac{1)/(4) div 2 (1)/(3) { of } (3)/(4)-(3)/(4) times 1 (1)/(2) div 1 (1)/(8)+(2)/(3)}{0 . overline{29} div 0.3 overline{2} { of }(30 div 11)} is :",
+      "options": [
+        {
+          "label": "1",
+          "text": "(9)/(8)"
+        },
+        {
+          "label": "2",
+          "text": "9"
+        },
+        {
+          "label": "3",
+          "text": "(8)/(9)"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n(5 frac{1)/(4) div 2 (1)/(3) { of } (3)/(4)-(3)/(4) times 1 (1)/(2) div 1 (1)/(8)+(2)/(3)}{0 . overline{29} div 0.3 overline{2} { of }(30 div 11)}\n\n**Formula used:**\n\nVBODMAS Rule\n\n0.overline{ab} = (ab)/(99), 0.aoverline{b} = (ab-a)/(90)\n\n**Calculation:**\n\nNumerator:",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "630dae74e99b471eae15c824",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "After allowing a 10% discount on the marked price of an article, a dealer makes a profit of 5%. What is the marked price, If the cost price of the article is Rs. 300?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 320"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 400"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 350"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 375"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nRatio MP : CP = (100 + Profit%) : (100 − Discount%)\n\nMP : CP = (100 + 5) : (100 − 10) = 105 : 90 = 7 : 6\n\nSince CP 6 units = ₹300, then 1 unit = ₹50\n\nMarked Price (MP) = 7 units = 7 × ₹50 = ₹350\n\n**∴ The correct answer is ₹350.**\n\n**__Alternate Method__**\n\nGiven: Cost Price (CP) = ₹300, Discount = 10%, Profit = 5%\n\nFormula: SP = CP × (100 + P%)/100; MP = SP × 100/(100 − D%)\n\n \n CP\n ₹300\n \n\n +5% Profit\n \n SP\n ₹315\n \n\n −10% Disc\n \n MP\n ₹350\n \n \n \n\n \n \n \n\n \n \n\n⇒ Selling Price (SP) = 300 + (5% of 300)\n\n⇒ SP = 300 + 15 = ₹315\n\n⇒ Marked Price (MP) × (100 − 10)% = SP\n\n⇒ MP × 0.9 = 315\n\n⇒ MP = 315 ÷ 0.9 = ₹350\n\n**∴ The correct answer is ₹350.**\n\n**__Additional Information__**\n\nCP and MP Relation\n\nThe direct ratio is given by CP ÷ MP = (100 − Discount%) ÷ (100 + Profit%).\n\nMarkup Percentage\n\nMarkup% = [(MP − CP) ÷ CP] × 100. In this case, Markup = [(350 − 300) ÷ 300] × 100 = 16.66%.\n\nSelling Price from MP\n\nSP is always calculated by applying the discount on the Marked Price: SP = MP × (1 − d/100).\n\n62:Tc53,\n<span style='",
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "67a43e80560da29fc06c8bb3",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A started a work and left working after 9 days now B finished the remaining work in 24 days. Had A left the work after working for 13 days then B would have finished the remaining work in next 18 days. Then find in how many days A and B together can complete the work",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 days"
+        },
+        {
+          "label": "2",
+          "text": "15 days"
+        },
+        {
+          "label": "3",
+          "text": "16 days"
+        },
+        {
+          "label": "4",
+          "text": "18 days"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWork done by A in (13 − 9) = 4 days is finished by B in (24 − 18) = 6 days.\n\nEfficiency Ratio (A : B) = 6 : 4 = 3 : 2.\n\nTotal Work = (A × 9 days) + (B × 24 days) = (3 × 9) + (2 × 24) = 27 + 48 = 75 units.\n\nCombined Efficiency of A + B = 3 + 2 = 5 units/day.\n\nTime taken by A and B together = 75 ÷ 5 = 15 days.\n\n**∴ The correct answer is 15 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nCase 1: A works for 9 days, then B works for 24 days.\n\nCase 2: A works for 13 days, then B works for 18 days.\n\n**Formula Used:**\n\nTotal Work = Efficiency × Time\n\n**Calculations:**\n\n⇒ Let efficiency of A be 'a' and B be 'b'.\n\n⇒ Total Work (W) = 9a + 24b = 13a + 18b\n\n⇒ 13a − 9a = 24b − 18b\n\n⇒ 4a = 6b\n\n⇒ a/b = 6/4 = 3/2\n\n⇒ Total Work = 9(3) + 24(2) = 27 + 48 = 75 units\n\n⇒ Time taken by A alone = 75 ÷ 3 = 25 days\n\n⇒ Time taken by B alone = 75 ÷ 2 = 37.5 days\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n A\n 25\n 75\n 3\n \n \n\n B\n 37.5\n 2\n \n \n\n⇒ Combined Efficiency of (A + B) = 3 + 2 = 5 units/day\n\n⇒ Time taken together = Total Work ÷ Combined Efficiency\n\n⇒ Time = 75 ÷ 5 = 15 days\n\n**∴ The correct answer is 15 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nEfficiency and Time Relation\n\nEfficiency is inversely proportional to the time taken to complete a work. If the ratio of time is x:y, the ratio of efficiency is y:x.\n\nCombined Work Formula\n\nIf A takes 'x' days and B takes 'y' days, then together they take (x × y) ÷ (x + y) days.\n\nWork and Wages\n\nWages are always distributed in the ratio of the work done, which is the product of efficiency and the number of days worked.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "63288224e78307737f57d275",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If the radius of a right circular cone is 33.33% of the height then what could be the value for radius and height (in cm) respectively if the volume of the Cone is 27π?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 cm and 9 cm"
+        },
+        {
+          "label": "2",
+          "text": "4 cm and 8 cm"
+        },
+        {
+          "label": "3",
+          "text": "6 cm and 12 cm"
+        },
+        {
+          "label": "4",
+          "text": "7 cm and 13 cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nRatio of Radius (r) to Height (h) = 33.33% = 1 : 3.\n\nLet r = x and h = 3x.\n\nVolume of Cone = (1/3) × π × x² × 3x = πx³.\n\nGiven: πx³ = 27π ⇒ x³ = 27 ⇒ x = 3.\n\nRadius = 3 cm, Height = 3 × 3 = 9 cm.\n\n**∴ The correct answer is 3 cm and 9 cm.**\n\n**__Alternate Method__**\n\n**Given:**\n\nVolume (V) = 27π cm³\n\nRadius (r) = 33.33% of Height (h)\n\n**Formula Used:**\n\nVolume of a Right Circular Cone = (1/3) × π × r² × h\n\n [IMAGE: https://cdn.repeatermock.com/tb/bc0c284ce7770a1748453abc8bc7a1b038ed42236122c43ae7735408755d90b5.png] \n\n**Calculations:**\n\n⇒ r = 33.33/100 × h ⇒ r = (1/3)h\n\n⇒ h = 3r\n\n⇒ Volume = (1/3) × π × r² × (3r)\n\n⇒ 27π = (1/3) × π × r² × 3r\n\n⇒ 27π = πr³\n\n⇒ r³ = 27\n\n⇒ r = √³27 = 3 cm\n\n⇒ h = 3 × 3 = 9 cm\n\n**∴ The correct answer is 3 cm and 9 cm.**\n\n**__Additional Information__**\n\nCurved Surface Area (CSA) of Cone\n\nThe formula for CSA of a cone is πrl, where l is the slant height.\n\nSlant Height Formula\n\nThe slant height (l) of a cone is given by l = √(r² + h²).\n\nTotal Surface Area (TSA) of Cone\n\nThe TSA of a cone is given by the sum of CSA and base area: TSA = πrl + πr² = πr(l + r).\n\nVolume Relation\n\nThe volume of a cone is exactly 1/3rd of the volume of a cylinder with the same radius and height (πr²h).</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/bc0c284ce7770a1748453abc8bc7a1b038ed42236122c43ae7735408755d90b5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "6376121855b885a10cd81a18",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The third proportional of 0.024 and 0.12 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.060"
+        },
+        {
+          "label": "2",
+          "text": "6.000"
+        },
+        {
+          "label": "3",
+          "text": "0.600"
+        },
+        {
+          "label": "4",
+          "text": "0.006"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nThird proportional of a and b is given by c = b² ÷ a.\n\nGiven: a = 0.024, b = 0.12.\n\nThird proportional = (0.12 × 0.12) ÷ 0.024\n\nThird proportional = 0.0144 ÷ 0.024 = 0.6.\n\n**∴ The correct answer is 0.600.**\n\n**__Alternate Method__**\n\n**Given:** First number (a) = 0.024, Second number (b) = 0.12\n\n**Formula Used:** If a, b, and c are in continued proportion, then a : b = b : c, where c is the third proportional.\n\n [IMAGE: https://cdn.repeatermock.com/tb/da83011e0d135d58fab4875602088cee5af49ac67164ebe664d8be78c9ef5e4e.png] \n\n⇒ Let the third proportional be x.\n\n⇒ 0.024 : 0.12 = 0.12 : x\n\n⇒ 0.024 ÷ 0.12 = 0.12 ÷ x\n\n⇒ x = (0.12 × 0.12) ÷ 0.024\n\n⇒ x = 0.0144 ÷ 0.024\n\n⇒ x = 14.4 ÷ 24\n\n⇒ x = 0.6\n\n**∴ The correct answer is 0.600.**\n\n**__Additional Information__**\n\nMean Proportional\n\nThe mean proportional between two numbers a and b is √(a × b).\n\nFourth Proportional\n\nIn the proportion a : b :: c : d, d is called the fourth proportional and is given by d = (b × c) ÷ a.\n\nContinued Proportion\n\nThree non-zero quantities a, b, c are said to be in continued proportion if a/b = b/c.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/da83011e0d135d58fab4875602088cee5af49ac67164ebe664d8be78c9ef5e4e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "62a78db40c9512a35222dcbf",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Mixture Problems",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many kgs of first quality rice costing Rs. 21/kg should a shopkeeper mix with 12.5 kgs of ordinary rice costing Rs. 12 per kg so that he makes a profit of 25% on selling the mixture at Rs. 20/kg?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "3",
+      "solution": "__Shortcut Trick__\n\nCost Price (CP) of the mixture = 20 ÷ 1.25 = ₹16/kg.\n\nApply Alligation ratio: (Mixture CP − Ordinary CP) : (Quality CP − Mixture CP).\n\nRatio of First Quality : Ordinary = (16 − 12) : (21 − 16) = 4 : 5.\n\nGiven, 5 units = 12.5 kg ⇒ 1 unit = 2.5 kg.\n\nFirst quality rice required = 4 units × 2.5 = 10 kg.\n\n**∴ The correct answer is 10 kg.**\n\n**__Alternate Method__**\n\n**Given:**\n\nCP of first quality rice (CP₁) = ₹21/kg\n\nCP of ordinary rice (CP₂) = ₹12/kg\n\nQuantity of ordinary rice (Q₂) = 12.5 kg\n\nSelling Price of mixture (SPₘ) = ₹20/kg\n\nProfit percentage = 25%\n\n**Formula Used:**\n\nCP = SP ÷ (1 + Profit%)\n\nRule of Alligation: Q₁/Q₂ = (CPₘ − CP₂) / (CP₁ − CPₘ)\n\n [IMAGE: https://cdn.repeatermock.com/tb/5943100ae93fcf5f78515e9243c12a015fe6b03987dc73a7d57e2c2201cafe31.png] \n\n⇒ Cost Price of mixture (CPₘ) = 20 ÷ (1 + 25/100) = 20 ÷ 1.25\n\n⇒ CPₘ = 20 × (100 / 125) = 20 × (4 / 5) = ₹16/kg\n\n⇒ Ratio (First : Ordinary) = (16 − 12) : (21 − 16) = 4 : 5\n\n⇒ Let quantity of first quality rice be Q₁\n\n⇒ Q₁ / 12.5 = 4 / 5\n\n⇒ Q₁ = (4 × 12.5) ÷ 5 = 50 ÷ 5\n\n⇒ Q₁ = 10 kg\n\n**∴ The correct answer is 10 kg.**\n\n**__Additional Information__**\n\nRule of Alligation\n\nIt states that if two ingredients are mixed, the ratio of the quantity of the cheaper to the quantity of the dearer is (CP of dearer − Mean Price) ÷ (Mean Price − CP of cheaper).\n\nProfit and Cost Price Relation\n\nTo find the cost price when a profit is made, use CP = (Selling Price × 100) ÷ (100 + Profit%). Always use CP for alligation calculations.\n\nWeighted Average Method\n\nThe mean price can also be calculated as Cₘ = (n₁c₁ + n₂c₂) ÷ (n₁ + n₂), where n is quantity and c is cost.\n\n49:T14eb",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/5943100ae93fcf5f78515e9243c12a015fe6b03987dc73a7d57e2c2201cafe31.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mixture Problems"
+      ]
+    },
+    {
+      "qid": "635c8bf417b08c6f33abf1bc",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Aman started a business investing 70000 rs. Rakhi joined him after six months with an amount of 105000 rs. and Sagar joined them with 1.4 lakhs rs. after another six months. The amount of profit earned should be distributed in what ratio among Aman, Rakhi and Sagar respectively, 3 years after Aman started the business?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7 ∶ 6 ∶ 10"
+        },
+        {
+          "label": "2",
+          "text": "12 ∶ 15 ∶ 16"
+        },
+        {
+          "label": "3",
+          "text": "42 ∶ 45 ∶ 56"
+        },
+        {
+          "label": "4",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nRatio of Capitals: 70,000 : 1,05,000 : 1,40,000 = 2 : 3 : 4\n\nRatio of Time: 36 months : 30 months : 24 months = 6 : 5 : 4\n\nProfit Ratio = (Capital × Time) Ratio\n\nProfit Ratio = (2 × 6) : (3 × 5) : (4 × 4) = 12 : 15 : 16\n\n**∴ The correct answer is 12 : 15 : 16.**\n\n**__Alternate Method__**\n\n**Given:**\n\nAman investment = ₹70,000 | Rakhi investment = ₹1,05,000 | Sagar investment = ₹1,40,000\n\nAman time = 3 years = 36 months\n\nRakhi time = 36 − 6 = 30 months\n\nSagar time = 30 − 6 = 24 months\n\n**Formula:** Profit Ratio = (Investment₁ × Time₁) : (Investment₂ × Time₂) : (Investment₃ × Time₃)\n\n [IMAGE: https://cdn.repeatermock.com/tb/1f8d7d2d8f6f92419bca66202ba519bc2d30c19e6030e9a2750e5cf10d64f89e.png] \n\n⇒ Profit Ratio = (70000 × 36) : (105000 × 30) : (140000 × 24)\n\n⇒ Simplifying by 1000: (70 × 36) : (105 × 30) : (140 × 24)\n\n⇒ Dividing by 35: (2 × 36) : (3 × 30) : (4 × 24)\n\n⇒ Dividing by 6: (2 × 6) : (3 × 5) : (4 × 4)\n\n⇒ Profit Ratio = 12 : 15 : 16\n\n**∴ The correct answer is 12 : 15 : 16.**\n\n**__Additional Information__**\n\nBasic Partnership Rule\n\nProfit is always distributed in the ratio of the product of Capital and Time Period (P = C × T).\n\nWorking vs. Sleeping Partner\n\nA working partner manages the business and may receive a salary or commission before the remaining profit is shared among all partners.\n\nVariable Investment\n\nIf a partner changes their investment amount during the year, total profit share is calculated as Σ(Capitalₙ × Timeₙ).\n\n67:T",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/1f8d7d2d8f6f92419bca66202ba519bc2d30c19e6030e9a2750e5cf10d64f89e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "625c05267651fe941912444a",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Let ΔABC ∼ ΔPQR andar(Δ ABC)over ar(Δ QPR)=25over144. If AB = 12 cm, BC = 7 cm and AC = 9 cm, then PR (in cm) is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "16.8"
+        },
+        {
+          "label": "2",
+          "text": "14.4"
+        },
+        {
+          "label": "3",
+          "text": "21.6"
+        },
+        {
+          "label": "4",
+          "text": "32.6"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRatio of corresponding sides = √(Ratio of areas) = √(25 / 144) = 5 / 12\n\nSince ΔABC ∼ ΔPQR, the corresponding side to AC is PR.\n\nTherefore, AC / PR = 5 / 12\n\n9 / PR = 5 / 12 ⇒ PR = (9 × 12) ÷ 5\n\nPR = 108 ÷ 5 = 21.6\n\n**∴ The correct answer is 21.6 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nΔABC ∼ ΔPQR\n\nArea(ΔABC) / Area(ΔPQR) = 25 / 144\n\nAB = 12 cm, BC = 7 cm, AC = 9 cm\n\n**Formula Used:**\n\nWhen two triangles are similar, the ratio of their areas is equal to the square of the ratio of their corresponding sides:\n\nArea(ΔABC) / Area(ΔPQR) = (AC / PR)²\n\n \n \n\n A\n B\n C\n \n 12 cm\n 9 cm\n 7 cm\n Area = 25\n\n \n \n\n P\n Q\n R\n\n PR = ?\n Area = 144\n \n \n ~\n\n**Calculations:**\n\n⇒ (AC / PR)² = 25 / 144\n\n⇒ AC / PR = √(25 / 144)\n\n⇒ AC / PR = 5 / 12\n\n⇒ Substitute the value of AC = 9 cm:\n\n⇒ 9 / PR = 5 / 12\n\n⇒ 5 × PR = 9 × 12\n\n⇒ 5 × PR = 108\n\n⇒ PR = 108 ÷ 5 = 21.6\n\n**∴ The correct answer is 21.6 cm.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimilarity of Triangles\n\nTwo triangles are similar if their corresponding angles are equal and their corresponding sides are proportional. If ΔABC ∼ ΔPQR, then the ratio pattern strictly follows AB/PQ = BC/QR = AC/PR.\n\nArea Ratio Theorem\n\nThe ratio of the areas of two similar triangles is equal to the square of the ratio of any pair of their corresponding sides, altitudes, or medians.\n\nPerimeter Ratio of Similar Triangles\n\nUnlike the area ratio, the ratio of the perimeters of two similar triangles is directly equal to the ratio of their corresponding sides without any squared values.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "63bec6cf0ef7133cfedc3000",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If a person takes as much time in running 20 meter as a car takes in covering 50 meter; the distance covered by the person during the time car covers 1 km is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "140 m"
+        },
+        {
+          "label": "2",
+          "text": "100 m"
+        },
+        {
+          "label": "3",
+          "text": "500 m"
+        },
+        {
+          "label": "4",
+          "text": "400 m"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen the time of travel is constant, the ratio of distances covered is equal to the ratio of their speeds.\n\nRatio of distance covered (Person : Car) = 20 : 50 = 2 : 5\n\nDistance covered by the car = 1 km = 1000 m\n\nDistance covered by the person = 1000 × (2 ÷ 5)\n\nDistance covered by person = 400 m\n\n**∴ The correct answer is 400 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDistance covered by person = 20 m\n\nDistance covered by car = 50 m in the same time duration.\n\nTotal distance to be covered by car = 1 km = 1000 m\n\n<",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "63bd086f6875a9d020578a28",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Speed Time and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In 100m race, A runs at 6 kmph. If A gives B a start of 4m and still beats him by 12 seconds, what is the speed of B?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1.8 km/hr"
+        },
+        {
+          "label": "2",
+          "text": "2.8 km/hr"
+        },
+        {
+          "label": "3",
+          "text": "3.8 km/hr"
+        },
+        {
+          "label": "4",
+          "text": "4.8 km /hr"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nTime taken by A = (Distance ÷ Speed) = 100 ÷ (6 × 5/18) = 60 seconds.\n\nB takes 12 seconds more to cover 4m less distance.\n\nTime taken by B = 60 + 12 = 72 seconds.\n\nDistance covered by B = 100 − 4 = 96 m.\n\nSpeed of B = (96 ÷ 72) × (18/5) = 4.8 km/hr.\n\n**∴ The correct answer is 4.8 km/hr.**\n\n**__Alternate Method__**\n\n**Given:**\n\nTotal Race Distance = 100 m\n\nSpeed of A = 6 km/hr\n\nStart given to B = 4 m\n\nTime lag (A beats B) = 12 seconds\n\n [IMAGE: https://cdn.repeatermock.com/tb/9f1f1383c5dca232540c71d0a8a32890000e18e47ca5bb2f32718739138fe7bd.png] \n\n**Calculations:**\n\n⇒ Speed of A in m/s = 6 × (5/18) = 5/3 m/s\n\n⇒ Time taken by A to finish 100m = 100 ÷ (5/3) = 60 seconds\n\n⇒ Since A beats B by 12 seconds, B takes (60 + 12) = 72 seconds\n\n⇒ Distance covered by B = Total Distance − Start = 100 − 4 = 96 m\n\n⇒ Speed of B = Distance ÷ Time = 96 ÷ 72 = 4/3 m/s\n\n⇒ Speed of B in km/hr = (4/3) × (18/5)\n\n⇒ Speed of B = 24/5 = 4.8 km/hr\n\n**∴ The correct answer is 4.8 km/hr.**\n\n**__Additional Information__**\n\nRace Terminology\n\n'A gives B a start of x meters' means B starts x meters ahead of A. 'A beats B by t seconds' means A finishes the race t seconds before B.\n\nUnit Conversion\n\nTo convert km/hr to m/s, multiply by 5/18. To convert m/s to km/hr, multiply by 18/5.\n\nDead Heat\n\nA dead heat occurs when all participants finish the race at the exact same time, meaning the time taken by each is equal.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/9f1f1383c5dca232540c71d0a8a32890000e18e47ca5bb2f32718739138fe7bd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Speed Time and Distance"
+      ]
+    },
+    {
+      "qid": "66ae5e1979903155bb635f69",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 1 (3)/(4)+5 (1)/(3)+3 (2)/(x)=10 (29)/(60), find the value of 'x'.",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n1 (3)/(4) + 5 (1)/(3) + 3 (2)/(x) = 10 (29)/(60)\n\n**Formula used:**\n\nA (b)/(c) = A + (b)/(c)\n\n**Calculation:**\n\n1 (3)/(4) + 5 (1)/(3) + 3 (2)/(x) = 10 (29)/(60)\n\n⇒ (1 + 5 + 3) + ((3)/(4) + (1)/(3) + (2)/(x)) = 10 + (29)/(60)\n\n⇒ <span class=\"m",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "647c53e8f20b3077c16ea4f1",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "During a storm, a tree broke at a point 5 m above the ground in such a way that the top of the tree touched the ground 12 m away from where it originally stood. What was the height of the tree before it broke?",
+      "options": [
+        {
+          "label": "1",
+          "text": "18 m"
+        },
+        {
+          "label": "2",
+          "text": "13 m"
+        },
+        {
+          "label": "3",
+          "text": "17 m"
+        },
+        {
+          "label": "4",
+          "text": "12 m"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRecognize the Pythagorean triplet: (5, 12, 13).\n\nStump height (Perpendicular) = 5 m, Distance (Base) = 12 m.\n\nBroken part (Hypotenuse) = 13 m.\n\nTotal tree height = Stump height + Broken part = 5 + 13 = 18 m.\n\n**∴ The correct answer is 18 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\nGiven: Height of the stump (p) = 5 m\n\nDistance from base to the top on ground (b) = 12 m\n\nFormula: h² = p² + b²\n\n [IMAGE: https://cdn.repeatermock.com/tb/b72815cb43aea8a068ddec83a296931c4b01d75597d74f453cb1061d9a734be6.png] \n\n⇒ Let the length of the broken part be AC.\n\n⇒ AC² = (5)² + (12)²\n\n⇒ AC² = 25 + 144 = 169\n\n⇒ AC = √169 = 13 m\n\n⇒ Total height of the tree = Height of the stump + Length of the broken part\n\n⇒ Total height = 5 m + 13 m = 18 m\n\n**∴ The correct answer is 18 m.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPythagoras Theorem\n\nIn any right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides: a² + b² = c².\n\nCommon Pythagorean Triples\n\nStandard integer sets that satisfy the theorem include (3, 4, 5), (5, 12, 13), (8, 15, 17), and (7, 24, 25). Multiples of these also form triples.\n\nRight-Angled Triangle Properties\n\nThe hypotenuse is always the longest side, and it is the side opposite to the 90° angle.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b72815cb43aea8a068ddec83a296931c4b01d75597d74f453cb1061d9a734be6.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    }
+  ]
+}

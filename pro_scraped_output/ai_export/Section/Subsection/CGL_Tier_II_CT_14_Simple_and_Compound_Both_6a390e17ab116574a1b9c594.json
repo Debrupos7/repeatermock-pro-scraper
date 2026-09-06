@@ -1,0 +1,371 @@
+{
+  "test_id": "6a390e17ab116574a1b9c594",
+  "title": "CGL Tier II CT 14: Simple and Compound Both",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:02:47.719307+00:00",
+  "questions": [
+    {
+      "qid": "631c37fb2e8b4a9de33e3e25",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The difference between CI and SI for 3 years at the rate of 20% per annum is Rs.160. What is the principal lent?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1200"
+        },
+        {
+          "label": "2",
+          "text": "1190"
+        },
+        {
+          "label": "3",
+          "text": "1250"
+        },
+        {
+          "label": "4",
+          "text": "1150"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:-**\n\nCI - SI = 160\n\nRate of interest(r) = 20%\n\nTime(t) = 3 years\n\n**Formula used:-**\n\nCi = P[(1 + r/100)t - 1]\n\nSI = ( P × r × t)/100\n\n**Calculation:-**\n\nCI - SI = P[{(1 + 20/100)³ - 1} - {20 × 3}/100]\n\n⇒ 160 = P[(6/5 × 6/5 × 6/5) - 1 - 6/10]\n\n⇒ 160 = P[(2160 - 750 - 1250)/1250]\n\n⇒ P = (160 × 1250)/160\n\n⇒ P = **1250**\n\n** [IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__** Calculation:-\n\nDifference between CI and SI for 3 years,\n\nD = P(large{(r)/(100)})².(large{(r)/(100) + 3})\n\n∴ 160 = P(20/100)².(20/100 + 3)\n\n⇒ 160 = P(1/5 × 1/5)(16/5)\n\n⇒ P = 160 × (125/16)\n\n⇒ P = **1250.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Compound Interest"
+      ]
+    },
+    {
+      "qid": "6400ce0ddd17f37ebc647f4f",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Simple and Compound Both",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The difference between the compound interest compounded half yearly for one year and the simple interest for one year on a certain sum is Rs.200. What is the sum if the rate of interest in both the cases is 20%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "21000"
+        },
+        {
+          "label": "2",
+          "text": "18000"
+        },
+        {
+          "label": "3",
+          "text": "17000"
+        },
+        {
+          "label": "4",
+          "text": "20000"
+        }
+      ],
+      "correct": "4",
+      "solution": "The correct answer is 20000.\n\n**Given**:\n\nDifference between Compound Interest (CI) and Simple Interest (SI) for a year = Rs 200\n\nRate of interest = 20%\n\n**Concept**:\n\nCI (payable half-yearly) = P [(1 + r/200)² - 1]\n\nSI for a year = P × r × t / 100\n\nThe difference between CI and SI gives the required value.\n\n**Calculation:**\n\nLet's denote the principal as P.\n\nThe CI (payable half-yearly) = P [(1 + 20/200)² - 1]\n\n⇒ P [(1.1)² - 1]\n\n⇒ P [1.21 - 1] = P × 0.21\n\nThe SI for a year = P × 20 × 1 / 100 = P × 0.2\n\nThe difference between CI and SI = P × 0.21 - P × 0.2 = P × 0.01\n\nGiven that the difference is Rs 200, So\n\nP × 0.01 = 200\n\n⇒ P = 200 / 0.01 = Rs. 20000\n\n**∴ The sum is Rs 20,000. **",
+      "tags": [
+        "Simple and Compound Both"
+      ]
+    },
+    {
+      "qid": "650983c378920a0b425f68e2",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Simple and Compound Both",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "On what sum of money will the difference between the simple interest and compound interest (Compounded annually) for 3 years at 5% per annum be Rs. 15.25?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 2,500"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 1,000"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 4,000"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 2.000"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nSimple Interest (SI) for 3 years at 5% per annum\n\nCompound Interest (CI) for 3 years at 5% per annum\n\nDifference between CI and SI for 3 years = ₹15.25\n\n**Formula used:**\n\nSI = P × R × T / 100\n\nCI = P × (1 + R/100)T - P\n\nDifference = CI - SI\n\n**Calculation:**\n\nLet the principal amount be P.\n\nSI for 3 years = P × 5 × 3 / 100\n\nSI = 15P / 100\n\nSI = 0.15P\n\nCI for 3 years = P × (1 + 5/100)³ - P\n\nCI = P × 1.157625 - P\n\nCI = 1.157625P - P\n\nCI = 0.157625P\n\nDifference = CI - SI\n\n⇒ 0.157625P - 0.15P = 15.25\n\n⇒ 0.007625P = 15.25\n\n⇒ P = 15.25 / 0.007625\n\n⇒ P = 2000\n\n**∴ The sum of money is ₹2000.**\n\n63:T",
+      "tags": [
+        "Simple and Compound Both"
+      ]
+    },
+    {
+      "qid": "62aad06c80c5d76ea362bffd",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Simple and Compound Both",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the difference between C.I and S.I for 1 year on principal of Rs.12500, if the rate of interest is 4 percent and interest is calculated according to half-yearly?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 5"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 7"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 9"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 8"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nPrincipal = Rs.12500\n\nTime = 1 year\n\nActual Rate = 4%\n\n**Formula:**\n\nThe difference between C.I and S.I for 2 years = P× ((R)/(100))² \n\nWhere, P = principal, R = rate of interest\n\nWhen Interest is calculated half-yearly, then\n\nNew Rate = R/2 \n\nNew time period = T × 2\n\n**Calculation:**\n\nAccording to the question,\n\nInterest is calculated half-yearly\n\nNew Rate = 4/2 = 2%\n\nNew time period = 1 × 2 = 2 years\n\nC.I – S.I for 2 years = P× ((R)/(100))² \n\n⇒ 12500× ((2)/(100))²\n\n⇒ 12500× ((1)/(50))× ((1)/(50)) \n\n⇒ 125/25\n\n⇒ 5\n\n**∴**** The Difference between C.I and SI for 1 year is Rs. 5**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**If the difference between compound and simple interest is of 3 years than,\n\nDifference = 3 × P(R)²/(100)² + P (R/100)³\n\nWhere, P = principal, R = rate of interest\n\n [IMAGE: https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png] **__Important Points__**​Compound Interest means interest earned on interest.\n\nSimple interest always occurs on only principal but compound interest also occurs on simple interest.\n\nSo, if time period is 2 years, compound interest will also apply on simple interest of first year.\n\n3b:T1",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/4f750a2730aad0987b5e719f277ddc90129c657928205c4d3b5aa23049023fa5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simple and Compound Both"
+      ]
+    },
+    {
+      "qid": "62abf80037272dfa217fdcf7",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Simple and Compound Both",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A sum of money is lent at simple interest and compound interest. The ratio between the difference of compound interest and simple interest of 3 years and 2 years is 34 : 11. What is the rate of interest per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8(3)/({11)}"
+        },
+        {
+          "label": "2",
+          "text": "7(4)/({11)}"
+        },
+        {
+          "label": "3",
+          "text": "10(2)/({11)}"
+        },
+        {
+          "label": "4",
+          "text": "9(1)/({11)}"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nRatio of difference in compound interest and simple interest for 3 years and 2 years = 34 : 11.\n\n**Formula used:**\n\nDifference between compound interest (C.I.) and simple interest (S.I.) for 3 years\n\n= P (dfrac{R}{100})² (dfrac{300 + R}{100})\n\nwhere \n\nP = principal\n\nR = Rate percent per annum\n\nDifference between compound interest and simple interest for 2 years\n\n= P (dfrac{R}{100})²\n\n**Calculation:**\n\nLet the sum be Rs. z.\n\nRatio of compound interest for 3 years and simple interest for 2 years\n\ndfrac{(C.I.)₃ - (S.I.)₃}{(C.I.)₂ - (S.I.)₂} = dfrac{P (dfrac{R}{100})² (dfrac{300 + R}{100})}{P (dfrac{R}{100})²}\n\ndfrac{34}{11} = dfrac{z (dfrac{R}{100})² (dfrac{300 + R}{100})}{z (dfrac{R}{100})²}\n\ndfrac{34}{11} = (dfrac{300 + R}{100})\n\n3400 = 11 (300 + R)\n\n3400 = 3300 + 11R\n\nR = 100 / 11\n\nR = 9(1)/({11)}%.\n\n**∴ Rate percent is 9(1/11)%.**",
+      "tags": [
+        "Simple and Compound Both"
+      ]
+    },
+    {
+      "qid": "64a364705de9aa72da424b1c",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Simple and Compound Both",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the difference between compound interest (compounding annually) and simple interest on a sum of Rs. 56,000 for two years at 15% per annum.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 1300"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 2410"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 1100"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 1260"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nPrincipal = Rs.56000\n\nRate = 15% ; time = 2 years\n\n**Formula used:**\n\nAmount (A) = P × {1 + (R/100)}T\n\nCompound interest = (A - P)\n\nSimple interest (S.I) = (P × R × T)/100\n\nWhere, P = principal ; R = rate ; T = time\n\n**Calculation:**\n\nCompound interest = (Amount - principal)\n\n⇒ P × {1 + (R/100)}T - P\n\n⇒ 56000 × [{1 + (15/100)}² - 1]\n\n⇒ 56000 × [{1 + (3/20)}<span style=\"pos",
+      "tags": [
+        "Simple and Compound Both"
+      ]
+    },
+    {
+      "qid": "629f63e1f206029233a4c33d",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Simple and Compound Both",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The difference between compound interest and simple interest at the same rate of interest R percent per annum on an amount of Rs. 15,000 for 2 years is Rs. 96. What is the value of R?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "Cannot be determined due to insufficient data"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nPrincipal = Rs.15000\n\nTime = 2 years \n\nDifference between C.I and S.I = Rs96\n\n**Formula used:**\n\nD = P(R / 100)² \n\nWhere,\n\nD = Difference \n\nP = Principal \n\nR = Rate of interest \n\n**Calculation:**\n\nAccording to the formula \n\n⇒ 96 = 15000 × (R / 100)²\n\n⇒ 96 = 15000 × R² / 10000\n\n⇒ 96 = 3R² / 2\n\n⇒ R² = 64 = 8% \n\n**∴ The required rate of interest is 8%**",
+      "tags": [
+        "Simple and Compound Both"
+      ]
+    },
+    {
+      "qid": "630f0f78098b6db197cbc5dd",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Simple and Compound Both",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Aman earns a monthly interest of Rs. 400 at 10% per annum at simple interest. Sohan earns the same interest as Aman when compounded semi-annually at 10% pa. Find the difference between the amount of Aman and Sohan have with themselves.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 1170.74"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 1225.50"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 1333"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 1257.84"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nInterest earned by Aman = Rs. 400, at 10% per annum at simple interest for 1 year.\n\nInterest earned by Sohan = Rs. 400, at 10% per annum at compound interest compounded half yearly for 1 year.\n\n**Concept used:**\n\nCompound interest = Principal(1 + Rate/100)ⁿ - Principal\n\nWhere n = time\n\nSimple interest = (Principal × Rate × Time)/100\n\nThe effective rate of interest for 2 years at R% per annum compounded yearly = R + R + R²/100\n\n**Calculation:**\n\n Total interest of 1 year = 12 × 400 = Rs. 4800\n\nSimple interest = 4800 = (principal × 10 × 1)/100\n\n⇒ Principal of Aman = Rs. 48000\n\nFor Sohan, Compound interest = Principal(1 + 5/100)² - Principal (Here, Rate = 5%, because rate is compounded half-yearly)\n\n⇒ 4800 = Principal{(105/100)² - 1}\n\nPrincipal for Sohan = 4800/0.1025 = Rs.46829.26\n\n**∴ Difference between the amount of Aman and Sohan = 48000 - 46829.26 = Rs. 1170.74**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**Monthly interest = Rs. 400\n\nInterest for the whole year = 12 × 400 = Rs. 4800\n\nFor Aman, the rate of interest = 10%\n\nPrincipal of Aman = (4800 × 100)/10 = Rs. 48000\n\nFor Sohan, the Rate of interest = 10/2 = 5% (∵ interest is compounded half-yearly)\n\nEffective rate for Sohan = 5 + 5 + 25/100 = 10.25%\n\nPrincipal for Sohan = (4800 × 100)/10.25 = Rs. 46829.26\n\n∴ Difference between the amount of Aman and Sohan = 48000 - 46829.26 = Rs. 1170.74",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simple and Compound Both"
+      ]
+    },
+    {
+      "qid": "652d7f67a4616a361fa81b91",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Simple and Compound Both",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The difference between compound and simple interest on a certain sum at the rate of 8% per annum for 2 years is Rs. 470. Find the sum.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 75234.4"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 72566.5"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 81257.3"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 73437.5"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nThe difference between compound and simple interest = 470\n\nRate = 8%\n\nYears = 2\n\n**Formula used:**\n\nSum = difference × (100/r)ⁿ\n\n⇒ 470 × (100/8)² = 470 × (10000/64)\n\n⇒ 73437.5\n\n**∴ The sum is 73437.5**",
+      "tags": [
+        "Simple and Compound Both"
+      ]
+    },
+    {
+      "qid": "626563bf3bf28492729d0670",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Simple and Compound Both",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The compound interest on a sum of ₹8,400 in 3 years at a certain rate percent per annum is ₹6115.20, interest being compounded annually. What will be the difference in (₹) between compound interest on the same sum at the same rate for 1{1 over 2} years, when the interest is compounded half yearly and the simple interest on the same sum for same rate and for the same period?",
+      "options": [
+        {
+          "label": "1",
+          "text": "275.75"
+        },
+        {
+          "label": "2",
+          "text": "320.25"
+        },
+        {
+          "label": "3",
+          "text": "260.40"
+        },
+        {
+          "label": "4",
+          "text": "250"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nPrincipal = Rs. 8400, Time Period = 3 years\n\nCompound Interest = Rs. 6115.20\n\n**Formula used:**\n\nCompound Interest = P × [1 + (R/100)]ⁿ - P\n\nSimple Interest = [P × R × T]/100\n\nWhere P = Principal, R = Rate of interest, n = Time in years\n\n**Calculation:**\n\nAccording to the Question,\n\nCompound Interest = P × [1 + (R/100)]n - P\n\n⇒ 6115.20 = 8400 × (1 + R/100)³ - 8400\n\n⇒ 6115.20 + 8400 = 8400[((100 + R)/100)³]\n\n⇒ 14515.20/8400 = [(100 + R)/100]³\n\n⇒ 1728/1000 = [(100 + R)/100]3 \n\n⇒ [(100 + R)/100] = (1728/1000)¹/³\n\n⇒ [(100 + R)/100] = 12/10\n\n⇒ R = 20%\n\nCompound interest for 1{1 over 2} years, when compounded half-yearly\n\n∴ R = 20/2 = 10%, and T = 3 years\n\nCompound Interest = P × [1 + (R/100)]n - P\n\n⇒ 8400 × [(100 + 10%)/100]³ - 8400\n\n⇒ 8400[(110/100)³ - 1]\n\n⇒ 8400 × 331/1000 = 2780.4\n\nSimple Interest on the same sum for the same rate and time,\n\n⇒ Simple Interest = [P × R × T]/100\n\n⇒ [8400 × 20 × (3/2)]/100 = 2520\n\nThe required difference = 2780.4 - 2520 = 260.4\n\n**∴ Hence the required difference is ₹ 260.4**",
+      "tags": [
+        "Simple and Compound Both"
+      ]
+    }
+  ]
+}

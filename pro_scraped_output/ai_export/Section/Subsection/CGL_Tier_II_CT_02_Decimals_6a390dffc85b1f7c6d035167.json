@@ -1,0 +1,355 @@
+{
+  "test_id": "6a390dffc85b1f7c6d035167",
+  "title": "CGL Tier II CT 02: Decimals",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:01:53.316096+00:00",
+  "questions": [
+    {
+      "qid": "643e4a9bf667a24c0da2ede5",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Decimals",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "0.25 + 1.37 – 0.36 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1.9"
+        },
+        {
+          "label": "2",
+          "text": "1.26"
+        },
+        {
+          "label": "3",
+          "text": "2.1"
+        },
+        {
+          "label": "4",
+          "text": "1.3"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Calculation:**\n\n​0.25 + 1.37 – 0.36 = ?\n\n⇒ 1.62 - 0.36 = ?\n\n⇒ 1.26\n\n**∴ ​0.25 + 1.37 – 0.36 = 1.26**",
+      "tags": [
+        "Decimals"
+      ]
+    },
+    {
+      "qid": "62b012e4659130ca95211336",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Decimals",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Simplify 5 × 0.5 × 0.05 × 0.005 × 500.",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.3125"
+        },
+        {
+          "label": "2",
+          "text": "3125"
+        },
+        {
+          "label": "3",
+          "text": "3125000000"
+        },
+        {
+          "label": "4",
+          "text": "0.003125"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given : **5 × 0.5 × 0.05 × 0.005 × 500.\n\n**Calculation:**\n\n5 × 0.5 × 0.05 × 0.005 × 500\n\nLets write the problem in the form of fraction\n\n= 5 × 5 / 10 × 5 / 100 × 5 / 1000 × 500\n\n= 312500 / 1000000\n\n= .3125\n\n**Answer is .3125**",
+      "tags": [
+        "Decimals"
+      ]
+    },
+    {
+      "qid": "624c5c680a2f5ec63963aabd",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Decimals",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What should be added to (0.102 + 0.25 + 0.111 + 0.1) to get 1?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.457"
+        },
+        {
+          "label": "2",
+          "text": "0.437"
+        },
+        {
+          "label": "3",
+          "text": "0.563"
+        },
+        {
+          "label": "4",
+          "text": "0.537"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Solution:**\n\nLet x be added \n\nNow, A/Q\n\n(0.102 + 0.25 + 0.111 + 0.1) + x = 1\n\n⇒ 0.563 + x = 1\n\n⇒ x = 1 - 0.563\n\n⇒ 0.437",
+      "tags": [
+        "Decimals"
+      ]
+    },
+    {
+      "qid": "66670cfc2fadc1b1af1047b4",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Bodmas Rule",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the value of 2.overline 3+4.overline 3?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(21)/(4)"
+        },
+        {
+          "label": "2",
+          "text": "(22)/(7)"
+        },
+        {
+          "label": "3",
+          "text": "(20)/(3)"
+        },
+        {
+          "label": "4",
+          "text": "(18)/(7)"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n2.overline 3+4.overline 3\n\n**Formula Used:**\n\na.overline b = (ab - a)/9\n\n**Solution:**\n\n2.overline 3+4.overline 3\n\nAccording to the formula \n\n⇒ (23 - 2)/9 + (43 - 4)/9\n\n⇒ 21/9 + 39/9\n\n⇒ 60/9\n\n⇒ 20/3\n\n**∴ The value of 2.overline 3+4.overline 3 is 20/3.**",
+      "tags": [
+        "Bodmas Rule"
+      ]
+    },
+    {
+      "qid": "66a3d5f6a780bc320b0c3797",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Decimals",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the value of 15% of 1.5 + 0.15 ÷ 0.1 + 0.01 of 1.1 × 0.5 + 2.5 × 25",
+      "options": [
+        {
+          "label": "1",
+          "text": "6.42305"
+        },
+        {
+          "label": "2",
+          "text": "62.2305"
+        },
+        {
+          "label": "3",
+          "text": "77.2305"
+        },
+        {
+          "label": "4",
+          "text": "64.2305"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nExpression: 15% of 1.5 + 0.15 ÷ 0.1 + 0.01 of 1.1 × 0.5 + 2.5 × 25\n\n**Formula Used:**\n\n1. a% of b = a/100 × b\n\n2. Division and multiplication operations follow BODMAS/BIDMAS rules.\n\n**Calculation:**\n\n15% of 1.5\n\n⇒ 15/100 × 15/10\n\n⇒ 0.225\n\n0.01 of 1.1 × 0.5 \n\n⇒ 1/100 × 11/10 × 5/10\n\n⇒ 0.0055\n\n2.5 × 25\n\n⇒ 25/10 × 25\n\n⇒ 62.5\n\nNow, summing all the parts together:\n\n0.225 + 1.5 + 0.0055 + 62.5\n\n⇒ 0.225 + 1.5 = 1.725\n\n⇒ 1.725 + 0.0055 = 1.7305\n\n⇒ 1.7305 + 62.5 = 64.2305\n\n**The correct answer is option 4.**",
+      "tags": [
+        "Decimals"
+      ]
+    },
+    {
+      "qid": "6400be3b34153e5bd750864d",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Decimals",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the simplified value of 10.8 + [6.5 - (4.3 + (8.3 - overline{5.3-3.2}))] is -",
+      "options": [
+        {
+          "label": "1",
+          "text": "6.2"
+        },
+        {
+          "label": "2",
+          "text": "6.8"
+        },
+        {
+          "label": "3",
+          "text": "2.5"
+        },
+        {
+          "label": "4",
+          "text": "4.6"
+        }
+      ],
+      "correct": "2",
+      "solution": "** [IMAGE: https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png] Calculation:**\n\n10.8 + [6.5 - (4.3 + (8.3 - overline{5.3-3.2}))]\n\n⇒ 10.8 + [6.5 - (4.3 + (8.3 - 2.1))]\n\n⇒ 10.8 + [6.5 - (4.3 + 6.2)]\n\n⇒ 10.8 + [6.5 - 10.5]\n\n⇒ 10.8 - 4\n\n⇒ 6.8\n\n**∴ The correct answer is 6.8.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/0dd44fdee4d916bed23fdecada4c54695a1efdfe532546d1dfcacde8c1c281ce.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Decimals"
+      ]
+    },
+    {
+      "qid": "627f07cd335f92b021bab4a8",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Decimals",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Simplify the following expression.\n\n81.7100 + 198.0020 - 2071.1985 + 9.0900 + 1591.42",
+      "options": [
+        {
+          "label": "1",
+          "text": "-190.8765"
+        },
+        {
+          "label": "2",
+          "text": "-190.9765"
+        },
+        {
+          "label": "3",
+          "text": "190.9865"
+        },
+        {
+          "label": "4",
+          "text": "-190.9865"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42\n\n**Calculation:**\n\n81.7100 + 198.0020 – 2071.1985 + 9.0900 + 1591.42\n\n⇒ 279.712 – 2071.1985 + 9.0900 + 1591.42\n\n⇒ 1880.222 – 2071.1985\n\n⇒ -190.9765\n\n**∴ The required value is -190.9765**",
+      "tags": [
+        "Decimals"
+      ]
+    },
+    {
+      "qid": "62fc736ace68b2cc5b2e3b9e",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Decimals",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Simplify the following expression frac {0.225 times 0.154 +0.143 ×0.450}{0.15 ×0.154+0.0346 ×1.5}.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1.32"
+        },
+        {
+          "label": "2",
+          "text": "1.6"
+        },
+        {
+          "label": "3",
+          "text": "1.8"
+        },
+        {
+          "label": "4",
+          "text": "2.32"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given:\n\nfrac {0.225 times 0.154 +0.143 ×0.450}{0.15 ×0.154+0.0346 ×1.5}\n\nCalculation:\n\n\\(\\frac {0.225 \\times 0.154 +0.143 \\times0.450}{0.15 \\times0.154+0.",
+      "tags": [
+        "Decimals"
+      ]
+    },
+    {
+      "qid": "65a02ac41ab53d1d5bdfe3bc",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Decimals",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What value should come in place of the question mark in the following question?\n\n0.02 × 0.1 + 0.03 × 0.2 + 0.1 × 0.03 =?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.011"
+        },
+        {
+          "label": "2",
+          "text": "0.029"
+        },
+        {
+          "label": "3",
+          "text": "0.29"
+        },
+        {
+          "label": "4",
+          "text": "0.11"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Calculation:**\n\n⇒ (2/100 × 1/10) + (3/100 × 2/10) + (1/10 × 3/100)\n\n⇒ 2/1000 + 6/1000 + 3/1000\n\n⇒ 11/1000\n\n⇒ 0.011\n\n**∴ The correct answer is 0.011 .**",
+      "tags": [
+        "Decimals"
+      ]
+    },
+    {
+      "qid": "636efb567265fd32638a1f72",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Decimals",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Using the fact that 4515 ÷ 12.9 = 350, find the value of 4.515 ÷ 12.9 ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "35"
+        },
+        {
+          "label": "2",
+          "text": "3.5"
+        },
+        {
+          "label": "3",
+          "text": "0.035"
+        },
+        {
+          "label": "4",
+          "text": "0.35"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\n4515 ÷ 12.9 = 350\n\n**Calculation:**\n\n4515 ÷ 12.9 = 350\n\n⇒ (4515)/(12.9) = 350\n\n<",
+      "tags": [
+        "Decimals"
+      ]
+    }
+  ]
+}

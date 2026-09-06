@@ -1,0 +1,402 @@
+{
+  "test_id": "6a390e13b3a39cfa1c2756b0",
+  "title": "CGL Tier II CT 12: Simple Interest",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:02:34.652011+00:00",
+  "questions": [
+    {
+      "qid": "6237fd6f514cf6cd3b98bb82",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The simple interest on a certain sum for 4(2)/(3) years at 6(3)/(4)% is Rs. 8,820. What will be the amount of the same sum after 7(1)/(2) years at 8(1)/(3) % at simple interest?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 45,500"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 45,400"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 54,500"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 54,400"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\nSI = Rs. 8,820\n\nRate = 6(3)/(4)% = 27/4%\n\nTime = 4(2)/(3) years = 14/3 years\n\n**Formula used:**\n\nSI = (P × R × T)/100\n\nA = SI + P\n\n**Calculation:**\n\nLet the sum is P\n\nSI = (P × R × T)/100\n\n⇒ 8820 = (P × 27 × 14)/(4 × 3 × 100)\n\n⇒ P = Rs. (140 × 200)\n\n⇒ P = Rs. 28,000\n\nNow,\n\nSI = (P × R × T)/100\n\n⇒ (28,000 × 25 × 15)/(3 × 2 × 100)\n\n⇒ Rs. (140 × 25 × 5)\n\n⇒ Rs. 17,500\n\nNow,\n\nAmount = SI + P\n\n⇒ Rs. (28,000 + 17,500)\n\n⇒ Rs. 45,500\n\n**∴ The required amount is Rs. 45,500**",
+      "tags": [
+        "Simple Interest"
+      ]
+    },
+    {
+      "qid": "62669590d8df3ba9cf97caed",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A sum of money lent out at simple interest amounts to Rs. 715 after 3 years and to Rs. 990 after a further period of 5 years. Find the sum.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 550"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 600"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 590"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 625"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInterest for 5 years = 990 − 715 = 275\n\nInterest for 1 year = 275 ÷ 5 = 55\n\nInterest for 3 years = 55 × 3 = 165\n\nPrincipal (Sum) = Amount₃ yᵣₛ − Interest₃ yᵣₛ = 715 − 165 = 550\n\n**∴ The correct answer is Rs. 550.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\n**Amount** after 3 years (A₁) = Rs. 715\n\n**Amount** after a further 5 years (total 8 years) (A₂) = Rs. 990\n\n**Formula Used:**\n\nSimple Interest (SI) = (P × R × T) ÷ 100\n\nAmount (A) = Principal (P) + Simple Interest (SI)\n\n [IMAGE: https://cdn.repeatermock.com/tb/da8fc46eb26fb2089c47771805f9bc131a55349257ab0d566a88a27862814407.png] \n\n**Calculations:**\n\n⇒ Total duration for second amount = 3 + 5 = 8 years\n\n⇒ Interest for (8 − 3) years = Rs. (990 − 715)\n\n⇒ Interest for 5 years = Rs. 275\n\n⇒ **Yearly Interest** = 275 ÷ 5 = Rs. 55\n\n⇒ Interest for first 3 years = 55 × 3 = Rs. 165\n\n⇒ Principal (Sum) = Amount after 3 years − Interest for 3 years\n\n⇒ Principal = 715 − 165 = Rs. 550\n\n**∴ The correct answer is Rs. 550.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Interest Concept\n\nIn **Simple Interest**, the interest remains constant every year because it is always calculated on the original **Principal** (P).\n\nAmount Formula\n\nThe total **Amount** (A) is the sum of the principal and the interest earned over time T: A = P + (P × R × T) ÷ 100.\n\nRate Calculation\n\nIf required, the **Rate of Interest** (R) can be found using R = (SI × 100) ÷ (P × T). For this problem, R = (55 × 100) ÷ (550 × 1) = 10%.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/da8fc46eb26fb2089c47771805f9bc131a55349257ab0d566a88a27862814407.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simple Interest"
+      ]
+    },
+    {
+      "qid": "62622d67a18130590895a7bb",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A sum of Rs. 9,600 was invested partly at the rate of 8% and the rest at the rate of 10% p.a. simple interest. Total interest received from both the investments was Rs. 3,500 after 4 years. The sum (in Rs.) invested at the rate of 10% p.a. was:",
+      "options": [
+        {
+          "label": "1",
+          "text": "4,400"
+        },
+        {
+          "label": "2",
+          "text": "5,350"
+        },
+        {
+          "label": "3",
+          "text": "5,200"
+        },
+        {
+          "label": "4",
+          "text": "4,250"
+        }
+      ],
+      "correct": "2",
+      "solution": "Formula:\n\nSI = PRT/100, where\n\nSI = Simple Interest, P = Principal\n\nR = Rate, T = Time\n\nCalculation:\n\nLet the sum invested at 10% be \"a\"\n\n⇒ Sum invested at 8% = Rs 9600 - a\n\n⇒ SI for \"a\" = a times 10 times 4over100 =&",
+      "tags": [
+        "Simple Interest"
+      ]
+    },
+    {
+      "qid": "64391f241d831a8fb6708790",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "An amount shall become 300% of the principal amount. When the rate is 10% per annum, then what is the time?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25 years"
+        },
+        {
+          "label": "2",
+          "text": "30 years"
+        },
+        {
+          "label": "3",
+          "text": "15 years"
+        },
+        {
+          "label": "4",
+          "text": "20 years"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nAn amount shall become 300% of the principal amount.\n\nRate(R) = 10%\n\n**Formula used:**\n\nSI = PRT/100\n\nP = Principal\n\nA = Amount\n\n**Calculation:**\n\nLet, P = 100\n\n∴ A = 300\n\nThen,** SI = A - P**\n\nSI = 300 - 100 = 200\n\n⇒ 200 = 100 × 10 × T/100\n\n10T = 200\n\n**∴ T = 20 Years**",
+      "tags": [
+        "Simple Interest"
+      ]
+    },
+    {
+      "qid": "6380d927990776b590d46e47",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The simple interest on a certain sum of money for 2 years at 12% per annum is ₹60 less than the simple interest on the same sum for 3 years at 10% per annum. The sum (in ₹) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹1,400"
+        },
+        {
+          "label": "2",
+          "text": "₹900"
+        },
+        {
+          "label": "3",
+          "text": "₹1,200"
+        },
+        {
+          "label": "4",
+          "text": "₹1,000"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nEffective **Simple Interest** percentage for 1st case = 12% × 2 = 24%.\n\nEffective **Simple Interest** percentage for 2nd case = 10% × 3 = 30%.\n\nDifference in interest percentage = 30% − 24% = 6%.\n\nGiven that 6% of the **Sum** = ₹60.\n\n∴ Total **Sum** (100%) = (60 ÷ 6) × 100 = ₹1,000.\n\n**∴ The correct answer is ₹1,000.**\n\n**__Alternate Method__**\n\n**Given:**\n\nRate 1 (R₁) = 12%, Time 1 (T₁) = 2 years\n\nRate 2 (R₂) = 10%, Time 2 (T₂) = 3 years\n\nDifference in **Simple Interest** = ₹60\n\n**Formula Used:**\n\nSimple Interest (SI) = (P × R × T) ÷ 100\n\n [IMAGE: https://cdn.repeatermock.com/tb/2060b1e0c854235ed16b4c611961e61a68881a3d8222f8ad78234a322eb39465.png] \n\n**Calculations:**\n\n⇒ Let the **Sum** be P.\n\n⇒ SI₂ − SI₁ = 60\n\n⇒ [(P × 10 × 3) ÷ 100] − [(P × 12 × 2) ÷ 100] = 60\n\n⇒ (30P ÷ 100) − (24P ÷ 100) = 60\n\n⇒ 6P ÷ 100 = 60\n\n⇒ 6P = 6000\n\n⇒ P = 1000\n\n**∴ The correct answer is ₹1,000.**\n\n**__Additional Information__**\n\nSimple Interest Components\n\nThe **Principal** (P) is the initial sum, **Rate** (R) is the percentage interest per year, and **Time** (T) must always be in years for the standard formula SI = PRT/100.\n\nTotal Amount Formula\n\nThe total **Amount** (A) after T years is the sum of Principal and Interest: A = P + SI = P(1 + RT/100).\n\nDifference between SI and CI\n\nFor the first year, SI and **Compound Interest** (CI) are equal if the interest is compounded annually. For 2 years, the difference is P(R/100)².\n\n59:T10e2",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/2060b1e0c854235ed16b4c611961e61a68881a3d8222f8ad78234a322eb39465.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simple Interest"
+      ]
+    },
+    {
+      "qid": "63664a8ac7a9cf2302158755",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A sum of Rs. 2,425 when invested at a certain rate of simple interest per annum for 12 years, earns an interest of Rs. 5,238 on maturity. What is the rate of simple interest per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16%"
+        },
+        {
+          "label": "2",
+          "text": "18%"
+        },
+        {
+          "label": "3",
+          "text": "12%"
+        },
+        {
+          "label": "4",
+          "text": "14%"
+        }
+      ],
+      "correct": "2",
+      "solution": "Given:\n\nPrincipal = Rs. 2425\n\nTime = 12 years\n\nTotal interest= Rs. 5238\n\nFormula used:\n\nSimple Interest = (Principal × Rate × Time)/100\n\nWhere, P = Principal, R = Rate, T = Time, SI = Simple interest\n\nCalculation:\n\nAccording to the question\n\nTotal Interest in percentage\n\n= 5238 × 100 / 2425\n\n= 216 %\n\nLet rate be x % p.a , then for 12 years interest is = 12x %\n\nbut we found 216 % \n\nSo, 12 x = 216\n\n⇒x = 18\n\n∴ The Required rate of simple interest is 18% p.a.",
+      "tags": [
+        "Simple Interest"
+      ]
+    },
+    {
+      "qid": "6266cea460eb5a4c553eac61",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If the sum of the simple interest on Rs. 16,400 for 3 years at the rate of interest R and that on Rs. 18,000 for 4 years at the same rate R is Rs. 10,302, then the value of R will be:",
+      "options": [
+        {
+          "label": "1",
+          "text": "8%"
+        },
+        {
+          "label": "2",
+          "text": "9%"
+        },
+        {
+          "label": "3",
+          "text": "10.5%"
+        },
+        {
+          "label": "4",
+          "text": "8.5%"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nP₁ = Rs 16400 & P₂ = Rs 18000\n\nT₁ = 3 years & T₂ = 4 years\n\nTotal SI = Rs 10302\n\n**Formula used:**\n\nSI = PRT/100\n\nR = (SI × 100)/(PT)\n\n**Calculation:**\n\n10302 = [(16400 × 3R₁)/100] + [(18000",
+      "tags": [
+        "Simple Interest"
+      ]
+    },
+    {
+      "qid": "648da147039a5d41ff210675",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A sum of money doubles itself in 8 years at a certain rate of simple interest. In how many years will it become four times of itself at the same rate of simple interest ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "20"
+        },
+        {
+          "label": "3",
+          "text": "24"
+        },
+        {
+          "label": "4",
+          "text": "32"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor **Simple Interest**, use the formula: (n₁ − 1) / T₁ = (n₂ − 1) / T₂\n\nWhere n is the **multiplier** and T is the **time**.\n\n⇒ (2 − 1) / 8 = (4 − 1) / T₂\n\n⇒ 1 / 8 = 3 / T₂\n\n⇒ T₂ = 8 × 3 = 24 years.\n\n**∴ The correct answer is 24 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTime (T₁) = 8 years\n\nAmount (A₁) = 2 × Principal (P)\n\nTarget Amount (A₂) = 4 × Principal (P)\n\n [IMAGE: https://cdn.repeatermock.com/tb/d45ec90908c6abb336fd13672d2a098b0290987292b2ace9f1472e0616aae8f9.png] \n\n**Calculations:**\n\n⇒ **Simple Interest** (SI₁) = A₁ − P = 2P − P = P\n\n⇒ This interest P is earned in 8 years.\n\n⇒ For the sum to become 4 times, **Interest** (SI₂) = A₂ − P = 4P − P = 3P\n\n⇒ In **Simple Interest**, the interest earned is directly proportional to time.\n\n⇒ Time required (T₂) = (SI₂ / SI₁) × T₁\n\n⇒ T₂ = (3P / P) × 8\n\n⇒ T₂ = 3 × 8 = 24 years.\n\n**∴ The correct answer is 24 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSimple Interest Formula\n\nThe formula is SI = (P × R × T) / 100, where **P** is Principal, **R** is Rate per annum, and **T** is Time in years.\n\nRate of Interest Calculation\n\nIf a sum doubles in T years at SI, the rate **R** = 100 / T. In this case, R = 100 / 8 = 12.5%.\n\nAmount in Simple Interest\n\nThe total **Amount (A)** is the sum of the Principal and the Interest earned: A = P + SI.\n\nProportionality Rule\n\nIn Simple Interest, the interest earned for any period is constant, meaning **Interest** is directly proportional to the **Time** duration.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d45ec90908c6abb336fd13672d2a098b0290987292b2ace9f1472e0616aae8f9.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "qid": "62ef7d60b8ef98e8ae930ac3",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "In what time does a sum of money amount to twice of itself at the simple interest of 25% per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 years"
+        },
+        {
+          "label": "2",
+          "text": "2 years"
+        },
+        {
+          "label": "3",
+          "text": "4 years"
+        },
+        {
+          "label": "4",
+          "text": "10 years"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIf a sum becomes **n** times of itself at Simple Interest rate **R%**, the time **T** is given by:\n\nT = [(n − 1) × 100] ÷ R\n\nHere, n = 2 (since it becomes twice) and R = 25%.\n\n⇒ T = [(2 − 1) × 100] ÷ 25\n\n⇒ T = 100 ÷ 25 = 4 years\n\n**∴ The correct answer is 4 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nRate of Interest (R) = 25% per annum\n\nLet the Principal (P) be 100 units.\n\nSince the sum amounts to twice itself, Amount (A) = 2 × 100 = 200 units.\n\n**Formula Used:**\n\nSimple Interest (SI) = Amount − Principal\n\nSI = (P × R × T) ÷ 100\n\n \n \n• \n \n \n \n \n \n \n Start (t = 0)\n End (t = ?)\n \n P = 100 units\n A = 200 units\n \n \n \n\n \n\n \n \n SI = +100 units\n Rate = 25% p.a.\n\n**Calculation:**\n\n⇒ SI = 200 − 100 = 100 units\n\n⇒ 100 = (100 × 25 × T) ÷ 100\n\n⇒ 100 = 25 × T\n\n⇒ T = 100 ÷ 25\n\n⇒ T = 4\n\n**∴ The correct answer is 4 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSum becoming 'n' times (Rate Calculation)\n\nIf a sum becomes 'n' times of itself in 'T' years at simple interest, the rate can be found directly by: R = [(n − 1) × 100] ÷ T.\n\nDirect Amount Formula for SI\n\nThe total amount A after T years can be calculated as: A = P × [1 + (R × T) ÷ 100].\n\nRule of 72\n\nA general financial shortcut used to estimate the time required to double an investment when the interest is compounded: Time ≈ 72 ÷ R. However, for Simple Interest, the exact doubling time is always 100 ÷ R.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Simple Interest"
+      ]
+    },
+    {
+      "qid": "61f23420d9557179ba74789d",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Simple Interest",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A man invests an amount of Rs. 1,05,750 at simple interest in the name of his son, daughter and his wife in such a way that they get the same interest after 3, 4 and 5 years, respectively. If the rate of interest is 5% per annum. then the amount invested for the wife is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 30,000"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 25,000"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 28,000"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 27,000"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nTotal amount = Rs. 105750\n\nRate of interest = 5%\n\n**Concept used:**\n\nS.I = PTR/100\n\n**Calculation:**\n\nLet share of his son, daughter, wife be x, y, z\n\nAccording to the question,\n\nx × 3 × 5/100 = y × 4 × 5/100 = 5 × z × 5/100\n\n⇒ 3x = 4y = 5z\n\nLCM of 3, 4, 5 = 60\n\nSo, Ratio of x : y : z = 20 : 15 : 12\n\nNow,\n\n20 + 15 + 12 = 47\n\nHere 47 = 105750\n\n1 = 2250\n\n12 = 27000\n\nSo, his wife got Rs. 27000\n\n**∴ The amount invested for the wife is Rs. 27000**",
+      "tags": [
+        "Simple Interest"
+      ]
+    }
+  ]
+}
