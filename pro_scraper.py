@@ -164,6 +164,16 @@ async def browser_api_call(page, url, body="{}", max_retries=3):
         """)
         status = result.get("status", 0)
         if status == 429:
+            # Read retryAfter from response body (RepeaterMock returns it in JSON)
+            try:
+                err_data = json.loads(result.get("body", "{}"))
+                retry_after = err_data.get("retryAfter", 0)
+                if retry_after and retry_after > 0:
+                    wait = min(retry_after, 300)  # Cap at 5 min
+                    print(f"    429 — retryAfter={retry_after}s, waiting {wait}s ({attempt+1}/{max_retries})")
+                    await asyncio.sleep(wait)
+                    continue
+            except: pass
             wait = 30 * (attempt + 1)
             print(f"    429 — wait {wait}s ({attempt+1}/{max_retries})")
             await asyncio.sleep(wait)
@@ -276,7 +286,7 @@ async def run_scraper(chunk_file, output_dir, workers=1):
             elif r == "OK": done += 1
             else: fail += 1
             if i < len(tests) - 1:
-                await asyncio.sleep(7 + random.uniform(0, 3))
+                await asyncio.sleep(5 + random.uniform(0, 2))
         await browser.close()
 
     prog = {"job":jn,"total":len(tests),"scraped":done,"failed":fail,"at":datetime.now(timezone.utc).isoformat()}
