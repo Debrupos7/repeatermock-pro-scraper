@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-06T01:44:45.453174+00:00",
-  "total_pro_scraped": 6,
-  "total_pro_failed": 194,
+  "generated_at": "2026-09-06T02:09:18.589355+00:00",
+  "total_pro_scraped": 0,
+  "total_pro_failed": 200,
   "total_still_pro": 0,
   "per_job": [
     {
       "job": 1,
-      "scraped": 1,
-      "failed": 9,
+      "scraped": 0,
+      "failed": 10,
       "still_pro": 0
     },
     {
@@ -18,8 +18,8 @@
     },
     {
       "job": 3,
-      "scraped": 1,
-      "failed": 9,
+      "scraped": 0,
+      "failed": 10,
       "still_pro": 0
     },
     {
@@ -36,8 +36,8 @@
     },
     {
       "job": 6,
-      "scraped": 3,
-      "failed": 7,
+      "scraped": 0,
+      "failed": 10,
       "still_pro": 0
     },
     {
@@ -78,8 +78,8 @@
     },
     {
       "job": 13,
-      "scraped": 1,
-      "failed": 9,
+      "scraped": 0,
+      "failed": 10,
       "still_pro": 0
     },
     {
