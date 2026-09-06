@@ -47,13 +47,17 @@ WEB_BASE = "https://repeatermock.com"
 MAX_CONSECUTIVE_ERRORS = 8          # was 5; bumped because rate-limit 429s shouldn't count
 MAX_AUTH_FAILURES = 5              # was 3; bumped to give more chances
 TOKEN_REFRESH_INTERVAL = 14 * 60    # 14 min (access token expires at 15)
-DELAY_BETWEEN_TESTS = 30.0          # was 5; much gentler on the API
-DEFAULT_MAX_RUNTIME = 330           # 5.5 hours in minutes
+DELAY_BETWEEN_TESTS = 3.0           # 3s between tests (within burst capacity)
+DEFAULT_MAX_RUNTIME = 330           # 5.5 hours in minutes (per user spec)
 
-# Sliding-window rate limiter: max this many starts per WINDOW seconds
-RATE_LIMIT_WINDOW = 75             # 75-second window (60s + safety buffer)
-RATE_LIMIT_MAX_STARTS = 4          # 4 starts per 75s = ~3.2/min = 192/hour per worker
-RATE_LIMIT_BACKOFF_AFTER_429 = 90  # after a 429 storm, slow to 90s/test for a while
+# Sliding-window rate limiter - TUNED FOR TULIKUP2 (verified empirically):
+# - tulikup2 allows 5 starts in ~15s, then 40s cooldown
+# - Setting: 5 starts per 30s window, then wait 40s before next burst
+# - This gives ~300 tests/hour per worker (safe sustained rate)
+# - For 9,915 tests: ~33 hours total (6 runs of 5.5h each)
+RATE_LIMIT_WINDOW = 30             # 30-second window for burst detection
+RATE_LIMIT_MAX_STARTS = 5          # 5 starts per 30s = burst capacity
+RATE_LIMIT_BACKOFF_AFTER_429 = 40  # after a SHORT 429, wait 40s before next burst
 
 # retryAfter handling — CRITICAL FIX:
 # - If retryAfter is short (< 600s = 10 min), wait FULL duration (normal rate limit)

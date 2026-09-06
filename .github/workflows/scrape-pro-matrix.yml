@@ -26,9 +26,11 @@ jobs:
     timeout-minutes: 360
     strategy:
       fail-fast: false
-      max-parallel: 3
+      max-parallel: 1
       matrix:
-        worker_id: [1, 2, 3]
+        # ONLY tulikup2 (worker_id=3) - akarakesh7 + spandanrathore are locked for 16+ hours
+        # Once their locks expire (~13-16h from now), we can add them back
+        worker_id: [3]
     steps:
       - uses: actions/checkout@v4
         with:
@@ -223,7 +225,9 @@ jobs:
           echo "Remaining PRO tests: $REMAINING"
 
           if [ "$REMAINING" -gt 0 ] 2>/dev/null; then
-            echo "Triggering next PRO v3 run with 3 workers..."
+            echo "Triggering next PRO v3 run with worker 3 (tulikup2 only)..."
+            # Wait 60s before triggering to let the previous workflow complete cleanly
+            sleep 60
             curl -s -X POST \
               -H "Authorization: token $GH_PAT" \
               -H "Accept: application/vnd.github+json" \

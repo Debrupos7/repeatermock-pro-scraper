@@ -39,7 +39,11 @@ import json, os, sys, urllib.request
 REPO = "sujitbhai7710/repeatermock-mass-scraper"
 _max_tests_raw = os.environ.get("MAX_TESTS", "").strip()
 MAX_TESTS = int(_max_tests_raw) if _max_tests_raw else 0  # 0 = unlimited
-NUM_WORKERS = 3
+# Only using tulikup2 (worker_id=3) - akarakesh7 + spandanrathore are locked for 16+ hours
+# tulikup2 will scrape ALL 9,915 tests by itself (with auto-trigger for each 5.5h round)
+NUM_WORKERS = 1
+# Override: assign all tests to worker_id=3 (tulikup2) instead of round-robin
+WORKER_ID_OVERRIDE = 3
 
 ACCOUNTS = [
     {"id": 1, "email": "akarakesh7@gmail.com"},
@@ -97,16 +101,16 @@ def main():
         slug = t.get("series_slug", "unknown")
         by_series.setdefault(slug, []).append(t)
 
-    # Build chunks per worker (round-robin within each series)
-    # Worker N gets tests at indices N, N+3, N+6, ... within each series
-    worker_chunks = {i + 1: [] for i in range(NUM_WORKERS)}
+    # Build chunks: assign ALL tests to worker_id=WORKER_ID_OVERRIDE (tulikup2)
+    # since akarakesh7 + spandanrathore are locked for 16+ hours
+    worker_chunks = {WORKER_ID_OVERRIDE: []}
     for slug in ORDERED_SERIES:
         if slug not in by_series:
             continue
         series_tests = by_series[slug]
         job_name = SERIES_TO_JOB.get(slug, slug)
         for idx, test in enumerate(series_tests):
-            wid = (idx % NUM_WORKERS) + 1
+            wid = WORKER_ID_OVERRIDE  # ALL tests go to tulikup2
             worker_chunks[wid].append({
                 "job_name": job_name,
                 "series_slug": slug,
@@ -117,7 +121,8 @@ def main():
     os.makedirs("pro_chunks", exist_ok=True)
 
     all_chunks = []
-    for wid in range(1, NUM_WORKERS + 1):
+    # Only generate worker_3.json (tulikup2) - it has ALL 9,915 tests
+    for wid in [WORKER_ID_OVERRIDE]:
         # Group worker's tests by series_slug
         worker_by_series = {}
         for item in worker_chunks[wid]:
