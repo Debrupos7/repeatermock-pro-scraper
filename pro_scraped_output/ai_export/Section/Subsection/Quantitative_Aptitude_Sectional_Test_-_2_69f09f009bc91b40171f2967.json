@@ -1,0 +1,1157 @@
+{
+  "test_id": "69f09f009bc91b40171f2967",
+  "title": "Quantitative Aptitude Sectional Test - 2",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T08:57:38.184204+00:00",
+  "questions": [
+    {
+      "qid": "61a4b472013cdad5f3eaec22",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Mahesh sold (3)/(4) of his stock at a gain of 20% and the remaining stock at a gain of 15%. Find the total gain percentage (approximate).",
+      "options": [
+        {
+          "label": "1",
+          "text": "19%"
+        },
+        {
+          "label": "2",
+          "text": "20%"
+        },
+        {
+          "label": "3",
+          "text": "15%"
+        },
+        {
+          "label": "4",
+          "text": "17%"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nUse the weighted average formula to directly calculate the net gain.\n\nTotal Gain % = (Part₁ × Gain₁%) + (Part₂ × Gain₂%)\n\nTotal Gain % = (3/4 × 20%) + (1/4 × 15%)\n\nTotal Gain % = 15% + 3.75% = 18.75% ≈ 19%\n\n**∴ The correct answer is 19%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nFraction of stock sold at 20% gain = 3/4\n\nRemaining fraction of stock = 1 − 3/4 = 1/4\n\nGain on the remaining stock = 15%\n\n**Formula Used:**\n\nTotal Net Gain % = (Fraction₁ × Gain₁) + (Fraction₂ × Gain₂)\n\n [IMAGE: https://cdn.repeatermock.com/tb/ae100cebf80c6ce400de84143fd1af42923cd1dfd6499cf7dfd5dced049d7af9.png] \n\n**Calculations:**\n\n⇒ Let the total cost price (CP) of the stock be 400 units to make calculations easier.\n\n⇒ CP of 3/4th of the stock = 3/4 × 400 = 300 units\n\n⇒ CP of the remaining 1/4th of the stock = 1/4 × 400 = 100 units\n\n⇒ Profit on the first part = 20% of 300 = (20 ÷ 100) × 300 = 60 units\n\n⇒ Profit on the second part = 15% of 100 = (15 ÷ 100) × 100 = 15 units\n\n⇒ Total Profit = 60 + 15 = 75 units\n\n⇒ Total Gain % = (Total Profit ÷ Total CP) × 100\n\n⇒ Total Gain % = (75 ÷ 400) × 100\n\n⇒ Total Gain % = 18.75%\n\n⇒ Rounding off to the nearest integer, we get 19%.\n\n**∴ The correct answer is 19%.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nOverall Profit / Loss on Partial Sales\n\nWhen items are divided into fractions and sold at different profit or loss percentages, the net percentage is the sum of products of each fraction and its respective profit/loss. Losses must be assigned a negative sign.\n\nWeighted Average Method\n\nTotal Average = (n₁x₁ + n₂x₂) ÷ (n₁ + n₂). This is the fastest method to use when quantities (or fractions) are mixed with different average values or percentages.\n\nAlligation Method\n\nIf two parts having profit percentages P₁ and P₂ are mixed to yield an overall profit percentage P, the ratio of the quantities in which they are mixed is (P − P₂) : (P₁ − P).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ae100cebf80c6ce400de84143fd1af42923cd1dfd6499cf7dfd5dced049d7af9.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "61a4bec199fee06d582b8555",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 70 is subtracted from two-thirds of a number, then the result is equal to the sum of 30 and one-fourth of that number. Find the number.",
+      "options": [
+        {
+          "label": "1",
+          "text": "230"
+        },
+        {
+          "label": "2",
+          "text": "200"
+        },
+        {
+          "label": "3",
+          "text": "240"
+        },
+        {
+          "label": "4",
+          "text": "340"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nLet the number = x\n\nTwo-thirds of x - 70 = One-fourth of x + 30\n\n**Formula used:**\n\nBasic Algebra\n\n**Calculations:**\n\n(2)/(3)x - 70 = (1)/(4)x + 30\n\n⇒ (2)/(3)x - (1)/(4)x = 30 + 70\n\n⇒ ((8x - 3x))/(12) = 100\n\n⇒ (5x)/(12) = 100\n\n⇒ 5x = 100 \\times 12\\)\n\n⇒ x = \\frac{1200}{5}\\)\n\n⇒ x = 240\n\n**∴ The correct answer is option (3).**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "61a5f755a924cbf3f89dfae6",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The cost price of a car was Rs. 150000. Raju sold it to Montoo at a profit of 5%, and later Montoo sold it back to Raju at 2% loss. Find The total profit or loss in the entire transaction.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Raju's gain Rs. 4,500"
+        },
+        {
+          "label": "2",
+          "text": "Raju's loss Rs. 4,350"
+        },
+        {
+          "label": "3",
+          "text": "Raju's gain Rs. 3,150"
+        },
+        {
+          "label": "4",
+          "text": "Raju's gain Rs. 4,350"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen an original owner repurchases an item, their net financial gain is exactly equal to the second person's cash loss.\n\nMontoo's Cost Price = 150000 × (100 + 5) ÷ 100 = Rs. 157500.\n\nMontoo's Loss = 2% of 157500 = Rs. 3150.\n\nThis loss amount represents Raju's exact net profit.\n\n**∴ The correct answer is Rs. 3150.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nOriginal CP of the car for Raju = Rs. 150000\n\nRaju's profit percentage = 5%\n\nMontoo's loss percentage = 2%\n\n [IMAGE: https://cdn.repeatermock.com/tb/7b21094773b9bae58ff6126502f6ddaf6524ee050a98b1c0f77abd3514dcb0fc.png] \n\n**Calculations:**\n\n⇒ Selling Price (SP) of Raju = CP × (100 + Profit%) ÷ 100\n\n⇒ SP of Raju = 150000 × (100 + 5) ÷ 100 = 150000 × 105 ÷ 100 = Rs. 157500\n\n⇒ This SP becomes the Cost Price for Montoo.\n\n⇒ SP of Montoo = 157500 × (100 − 2) ÷ 100 = 157500 × 98 ÷ 100 = Rs. 154350\n\n⇒ Raju initially made a profit of: 157500 − 150000 = Rs. 7500\n\n⇒ To repurchase the car, Raju paid an extra amount over the original CP: 154350 − 150000 = Rs. 4350\n\n⇒ Raju's net financial gain = Initial Profit − Extra amount paid\n\n⇒ Net gain = 7500 − 4350 = Rs. 3150\n\n**∴ The correct answer is Rs. 3150.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nClosed Loop Repurchase\n\nIf person A sells an item to person B and later buys it back, A's net physical assets are restored. Their net financial gain exactly equals B's net cash loss.\n\nSuccessive Transactions\n\nWhen an item changes hands sequentially, the final price is determined by chaining the percentage changes: Final Price = Initial Price × (1 ± P₁/100) × (1 ± P₂/100).\n\nProfit and Loss Basics\n\nProfit occurs when Selling Price > Cost Price (Profit = SP − CP). Loss occurs when Cost Price > Selling Price (Loss = CP − SP). Both are fundamentally calculated based on the Cost Price.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7b21094773b9bae58ff6126502f6ddaf6524ee050a98b1c0f77abd3514dcb0fc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "61a32c0686de34f136ef0865",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A solid metallic cylinder of base radius 3 cm and height 5 cm is melted to form cones each of height 1 cm and base radius 1 mm. How many cones were formed?",
+      "options": [
+        {
+          "label": "1",
+          "text": "19,500 cones"
+        },
+        {
+          "label": "2",
+          "text": "10,500 cones"
+        },
+        {
+          "label": "3",
+          "text": "13,500 cones"
+        },
+        {
+          "label": "4",
+          "text": "12,500 cones"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen a solid is melted to form identical smaller objects, the number of objects is equal to the ratio of their volumes.\n\nNumber of cones (N) = Volume of Cylinder ÷ Volume of 1 Cone\n\n⇒ N = (π × R² × H) ÷ (1/3 × π × r² × h)\n\nConvert everything to cm (R = 3 cm, H = 5 cm, r = 0.1 cm, h = 1 cm):\n\n⇒ N = 3 × (3² × 5) ÷ (0.1² × 1) = (3 × 45) ÷ 0.01 = 135 ÷ 0.01 = 13,500\n\n**∴ The correct answer is 13,500 cones.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/89ea2695792746b73ea287d1a983ed4261caa969028065df9989100da384d4ce.png] \n\n**Given:**\n\nFor the cylinder:\n\n⇒ Radius (R) = 3 cm = 30 mm\n\n⇒ Height (H) = 5 cm = 50 mm\n\nFor each cone:\n\n⇒ Radius (r) = 1 mm\n\n⇒ Height (h) = 1 cm = 10 mm\n\n**Formula Used:**\n\nVolume of Cylinder = πR²H\n\nVolume of Cone = 1/3 × πr²h\n\n**Calculations:**\n\n⇒ Volume of the given cylinder = π × (30)² × 50 = 45,000π mm³\n\n⇒ Volume of one cone = 1/3 × π × (1)² × 10 = 10π/3 mm³\n\n⇒ Number of cones formed = Total Volume of Cylinder ÷ Volume of One Cone\n\n⇒ Number of cones = 45,000π ÷ (10π/3)\n\n⇒ Number of cones = 45,000 × (3 / 10)\n\n⇒ Number of cones = 4500 × 3 = 13,500\n\n**∴ The correct answer is 13,500 cones.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMelting and Recasting of Solids\n\nWhen a solid object is melted and recast into a different shape, the overall volume of the material remains constant. Total Initial Volume = Total Final Volume.\n\nVolume of a Cylinder\n\nThe volume of a right circular cylinder is given by V = πr²h, where r is the base radius and h is the height.\n\nVolume of a Cone\n\nThe volume of a right circular cone is exactly one-third of the volume of a cylinder with the same base radius and height: V = 1/3 × πr²h.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/89ea2695792746b73ea287d1a983ed4261caa969028065df9989100da384d4ce.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration",
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "61a38b3f7d654183940ec17d",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 16 cot A = 12, then find the value of (sin A + cos A)/(sin A - cos A)",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "6"
+        },
+        {
+          "label": "4",
+          "text": "7"
+        }
+      ],
+      "correct": "4",
+      "solution": "__Shortcut Trick__\n\nGiven: 16 cot A = 12 ⇒ cot A = 12/16 = 3/4\n\nExpression to find: (sin A + cos A) ÷ (sin A − cos A)\n\nDivide numerator and denominator by sin A:\n\n⇒ (1 + cot A) ÷ (1 − cot A)\n\n⇒ (1 + 3/4) ÷ (1 − 3/4) = (7/4) ÷ (1/4) = 7\n\n**∴ The correct answer is 7.**\n\n**__Alternate Method__**\n\n**Given:**\n\n16 cot A = 12 ⇒ cot A = 3/4\n\n [IMAGE: https://cdn.repeatermock.com/tb/dd9e31f32080ba34afee57f46856b07d15b2af374772668bbcba5b2fad76584c.png] \n\n**Formula Used:**\n\nPythagoras Theorem: Hypotenuse² = Base² + Perpendicular²\n\nsin A = Perpendicular ÷ Hypotenuse\n\ncos A = Base ÷ Hypotenuse\n\n**Calculations:**\n\n⇒ cot A = Base ÷ Perpendicular = 3/4\n\n⇒ Let Base = 3x and Perpendicular = 4x\n\n⇒ Hypotenuse = √((3x)² + (4x)²)\n\n⇒ Hypotenuse = √(9x² + 16x²) = √(25x²) = 5x\n\n⇒ sin A = 4x ÷ 5x = 4/5\n\n⇒ cos A = 3x ÷ 5x = 3/5\n\nNow, substitute the values in the expression: (sin A + cos A) ÷ (sin A − cos A)\n\n⇒ (4/5 + 3/5) ÷ (4/5 − 3/5)\n\n⇒ (7/5) ÷ (1/5) = 7\n\n**∴ The correct answer is 7.**\n\n**__Additional Information__**\n\nTrigonometric Definitions\n\nIn a right-angled triangle, tan A = sin A ÷ cos A = Perpendicular ÷ Base, and cot A = cos A ÷ sin A = Base ÷ Perpendicular.\n\nPythagorean Triples\n\nCommon integer sets satisfying Pythagoras theorem include (3, 4, 5), (5, 12, 13), (8, 15, 17) and (7, 24, 25). These combinations save critical calculation time in exams.\n\nKey Trigonometric Identities\n\nBasic square identities are: sin² A + cos² A = 1, 1 + tan² A = sec² A, and 1 + cot² A = cosec² A.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/dd9e31f32080ba34afee57f46856b07d15b2af374772668bbcba5b2fad76584c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "61a60a6476332de6fb994d12",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Ratio & Proportion",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If (3x + 2y) : (3x – 2y) = 5 : 3 then find x : y.",
+      "options": [
+        {
+          "label": "1",
+          "text": "(16)/(3)"
+        },
+        {
+          "label": "2",
+          "text": "(8)/(3)"
+        },
+        {
+          "label": "3",
+          "text": "(32)/(3)"
+        },
+        {
+          "label": "4",
+          "text": "(4)/(3)"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nIf (a + b) : (a − b) = p : q, then directly a / b = (p + q) / (p − q).\n\nHere, a = 3x, b = 2y, p = 5, and q = 3.\n\n⇒ 3x / 2y = (5 + 3) / (5 − 3)\n\n⇒ 3x / 2y = 8 / 2 = 4\n\n⇒ x / y = (4 × 2) / 3 = 8 / 3\n\n**∴ The correct answer is 8/3.**\n\n**__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/b890c17b9cbb1f6609557ebe915a5d7be116ebe6460e8b75881acbd2e737ac67.png] \n\n**Given:**\n\n⇒ (3x + 2y) : (3x − 2y) = 5 : 3\n\n**Calculations:**\n\nExpressing the given ratio as a fraction:\n\n⇒ (3x + 2y) / (3x − 2y) = 5 / 3\n\nCross multiplying to solve for x and y:\n\n⇒ 3 × (3x + 2y) = 5 × (3x − 2y)\n\n⇒ 9x + 6y = 15x − 10y\n\nBringing all x terms to one side and y terms to the other:\n\n⇒ 6y + 10y = 15x − 9x\n\n⇒ 16y = 6x\n\nFinding the ratio of x to y:\n\n⇒ x / y = 16 / 6\n\n⇒ x / y = 8 / 3\n\n**∴ The correct answer is 8/3.**\n\n**__Additional Information__**\n\nComponendo and Dividendo Rule\n\nIf a/b = c/d, then (a + b) / (a − b) = (c + d) / (c − d). This rule is a powerful tool to quickly simplify complex ratio problems involving sums and differences.\n\nInvertendo Rule\n\nIf a : b = c : d, then by Invertendo, b : a = d : c. The ratio is uniformly inverted on both sides of the equation.\n\nAlternendo Rule\n\nIf a : b = c : d, then by Alternendo, a : c = b : d. This means swapping the means or the extremes keeps the proportion unchanged.\n\nCompound Ratio\n\nFor two independent ratios a : b and c : d, their compound ratio is formed by multiplying antecedents together and consequents together: (a × c) : (b × d).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b890c17b9cbb1f6609557ebe915a5d7be116ebe6460e8b75881acbd2e737ac67.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ratio and Proportion"
+      ]
+    },
+    {
+      "qid": "61a63b6ef8b4db2b33b8f34a",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Compound Interest",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A sum of money doubles itself at a compound interest in 8 years. In how many years will it become four times itself?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "20"
+        },
+        {
+          "label": "3",
+          "text": "14"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nIf a sum becomes **x** times in **t** years at Compound Interest, it becomes **xⁿ** times in **n × t** years.\n\nGiven: The sum becomes 2 times in 8 years.\n\nWe need to find when it becomes 4 times, which is 2² times.\n\nHere, the power n = 2 and t = 8 years.\n\nRequired time = 2 × 8 = 16 years.\n\n**∴ The correct answer is 16 years.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nA sum (P) doubles itself in 8 years at Compound Interest.\n\n**Formula Used:**\n\nAmount (A) = P(1 + R/100)t\n\n<svg width=\"420\" height=\"200\" viewBox=\"0 0 420 2",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Interest"
+      ]
+    },
+    {
+      "qid": "61a637f52bdba46c1954ba2c",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "PQ is the diameter of a circle whose centre is O. If a point R lies on the circle and and ∠RPO is 39°, then what will be the measure of ∠RQP?",
+      "options": [
+        {
+          "label": "1",
+          "text": "51°"
+        },
+        {
+          "label": "2",
+          "text": "129°"
+        },
+        {
+          "label": "3",
+          "text": "125°"
+        },
+        {
+          "label": "4",
+          "text": "151°"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nThe angle subtended by a diameter at any point on the circumference of a circle is always a right angle.\n\n⇒ ∠PRQ = 90°\n\nIn ΔPQR, the sum of all internal angles is always 180°.\n\n⇒ ∠RQP = 180° − (∠PRQ + ∠RPQ)\n\n⇒ ∠RQP = 180° − (90° + 39°) = 51°\n\n**∴ The correct answer is 51°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/ac7312065752692558e5dddfa9e826975d889ab0720f5b3dcf4a3f4d282b2009.png] \n\n**Given:**\n\nPQ is the diameter of the circle with centre O.\n\n∠RPO = 39°.\n\n**Formula Used:**\n\nAngles opposite to equal sides (radii) of an isosceles triangle are equal.\n\nThe exterior angle of a triangle is equal to the sum of the two opposite interior angles.\n\n**Calculations:**\n\n⇒ In ΔPOR, OP = OR (Radii of the same circle).\n\n⇒ ∴ ∠PRO = ∠RPO = 39°\n\n⇒ For ΔPOR, the exterior ∠ROQ is equal to the sum of the interior opposite angles.\n\n⇒ ∠ROQ = ∠RPO + ∠PRO\n\n⇒ ∠ROQ = 39° + 39° = 78°\n\n⇒ In ΔQOR, OQ = OR (Radii of the same circle).\n\n⇒ ∴ ∠OQR = ∠ORQ\n\n⇒ The sum of internal angles in ΔQOR is 180°.\n\n⇒ ∠OQR + ∠ORQ + ∠ROQ = 180°\n\n⇒ 2 × ∠OQR + 78° = 180°\n\n⇒ 2 × ∠OQR = 102°\n\n⇒ ∠OQR = 51°\n\n⇒ Since O lies directly on the diameter PQ, ∠OQR is identical to ∠RQP.\n\n⇒ ∠RQP = 51°\n\n**∴ The correct answer is 51°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nAngle in a Semicircle\n\nThe angle subtended by a diameter at any point on the circumference of a circle is always exactly a right angle (90°).\n\nIsosceles Triangle Property\n\nIn any triangle, if two sides are equal, the angles directly opposite those sides must also be equal. This is highly useful in circle geometry where multiple radii often form equal sides.\n\nExterior Angle Theorem\n\nThe measure of an exterior angle of a triangle is equal to the sum of the measures of its two remote (non-adjacent) interior angles.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ac7312065752692558e5dddfa9e826975d889ab0720f5b3dcf4a3f4d282b2009.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "61a459863b5e5ca42c6337cd",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A 10 feet long ladder leaning against a wall, reaches the wall at a point 8 feet high. By how much distance should the ladder be moved towards the wall so that its top reaches a point at 9.6 feet high?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4.4 ft"
+        },
+        {
+          "label": "2",
+          "text": "3.2 ft"
+        },
+        {
+          "label": "3",
+          "text": "2.8 ft"
+        },
+        {
+          "label": "4",
+          "text": "3.92 ft"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInitial base = √(10² − 8²) = √(100 − 64) = 6 ft\n\nFinal base = √(10² − 9.6²) = √(100 − 92.16) = 2.8 ft\n\nDistance moved towards the wall = 6 − 2.8 = 3.2 ft\n\n**∴ The correct answer is 3.2 ft.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n [IMAGE: https://cdn.repeatermock.com/tb/ac1dcda373f632700269bc048a421d5d2bef70de780a0c5f8b06391f273dac37.png] \n\n**Given:**\n\nLength of the ladder (Hypotenuse) = 10 ft\n\nInitial height of the wall (Perpendicular₁) = 8 ft\n\nFinal height of the wall (Perpendicular₂) = 9.6 ft\n\n**Formula Used:**\n\nPythagoras Theorem: Hypotenuse² = Perpendicular² + Base²\n\n**Calculations:**\n\nLet the initial distance of the ladder from the wall be x ft.\n\n⇒ 10² = 8² + x²\n\n⇒ 100 = 64 + x²\n\n⇒ x² = 36 ⇒ x = 6 ft\n\nLet the final distance of the ladder from the wall be y ft.\n\n⇒ 10² = 9.6² + y²\n\n⇒ 100 = 92.16 + y²\n\n⇒ y² = 7.84 ⇒ y = 2.8 ft\n\nDistance the ladder moved towards the wall:\n\n⇒ Distance = x − y\n\n⇒ Distance = 6 − 2.8 = 3.2 ft\n\n**∴ The correct answer is 3.2 ft.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPythagoras Theorem\n\nIn a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides: a² + b² = c².\n\nPythagorean Triplets\n\nSets of three integers that satisfy the Pythagoras theorem. Common examples include (3, 4, 5), (5, 12, 13), and (8, 15, 17). The first part of this question directly scales the (3, 4, 5) triplet into (6, 8, 10).\n\nDistance vs Displacement\n\nWhile the ladder length remains constant, solving for the shifting horizontal and vertical distances requires treating the movement as two completely separate right-angled triangles.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ac1dcda373f632700269bc048a421d5d2bef70de780a0c5f8b06391f273dac37.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "61a52677134161c9d5169861",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Anita and Vineeta divide an amount of Rs.1,950 between themselves in the ratio 6 : 7. If an amount of Rs. 100 is added to each of their shares, what will be the new ratio of their shares?",
+      "options": [
+        {
+          "label": "1",
+          "text": "900 : 1050"
+        },
+        {
+          "label": "2",
+          "text": "106 : 107"
+        },
+        {
+          "label": "3",
+          "text": "20 : 23"
+        },
+        {
+          "label": "4",
+          "text": "600 : 700"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal initial parts = 6 + 7 = 13 parts.\n\nValue of 13 parts = ₹1950 ⇒ 1 part = 1950 ÷ 13 = ₹150.\n\nAmount added to each = ₹100, which in ratio terms is 100 ÷ 150 = 2/3 parts.\n\nNew ratio = (6 + 2/3) : (7 + 2/3) = 20/3 : 23/3.\n\nThus, the new ratio simplifies directly to 20 : 23.\n\n**∴ The correct answer is 20 : 23.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal amount to be divided = ₹1950\n\nInitial ratio of Anita and Vineeta = 6 : 7\n\nAmount added to each share = ₹100\n\n [IMAGE: https://cdn.repeatermock.com/tb/b80663cb57acbfad716a506595075f0713e9f70b3a390022d4d149b37db6ef17.png] \n\n**Calculations:**\n\n⇒ Sum of ratio parts = 6 + 7 = 13\n\n⇒ Value of 1 ratio part = 1950 ÷ 13 = ₹150\n\n⇒ Anita's initial share = 6 × 150 = ₹900\n\n⇒ Vineeta's initial share = 7 × 150 = ₹1050\n\n⇒ Anita's new share = 900 + 100 = ₹1000\n\n⇒ Vineeta's new share = 1050 + 100 = ₹1150\n\n⇒ New ratio = 1000 : 1150\n\n⇒ Dividing both parts by 50, we get 20 : 23\n\n**∴ The correct answer is 20 : 23.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nEquivalent Ratios\n\nMultiplying or dividing both terms of a ratio by the same non-zero number does not change its core value, e.g., 1000 : 1150 simplifies exactly to 20 : 23.\n\nConstant Difference Method\n\nWhen the same quantity is added or subtracted from both components of a ratio, the numerical difference between the final terms remains equal to the difference of the initial absolute quantities.\n\n80:T696,\n&",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/b80663cb57acbfad716a506595075f0713e9f70b3a390022d4d149b37db6ef17.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "61a63305318612e23e6958d3",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Profit & Loss",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A shopkeeper gives 20% discount on MRP. Joginder buys a suitcase from the shop, at an additional discount of 20% on the reduced price. If the MRP of the suitcase is Rs. 1,200, then find the purchasing price paid by Joginder.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 864"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 800"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 768"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 600"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEquivalent discount for two successive discounts of 20% = 20 + 20 − (20 × 20) / 100 = 36%.\n\nPurchasing Price = (100 − 36)% of MRP\n\n⇒ Purchasing Price = 64% of 1200\n\n⇒ 64/100 × 1200 = 768\n\n**∴ The correct answer is Rs. 768.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nMarked Retail Price (MRP) = Rs. 1200\n\nFirst discount (d₁) = 20%\n\nSecond discount (d₂) = 20%\n\n [IMAGE: https://cdn.repeatermock.com/tb/719d74245d5d1bcaf397bbf61fe2a109131b1b6d672ac426964baf55ba2a0397.png] \n\n**Formula Used:**\n\nSelling Price (SP) = MRP × (100 − d₁)/100 × (100 − d₂)/100\n\n**Calculations:**\n\n⇒ First, apply a 20% discount on Rs. 1200\n\n⇒ Reduced Price = 1200 × (100 − 20) / 100 = 1200 × 80 / 100 = Rs. 960\n\n⇒ Second, apply an additional 20% discount on the reduced price of Rs. 960\n\n⇒ Purchasing Price = 960 × (100 − 20) / 100 = 960 × 80 / 100 = Rs. 768\n\n**∴ The correct answer is Rs. 768.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nEquivalent Discount\n\nWhen two successive discounts d₁% and d₂% are given, the single equivalent discount % = d₁ + d₂ − (d₁ × d₂) / 100.\n\nMarked Price (MRP)\n\nIt is the printed price of an article. Any discount offered to the customer is always calculated on the Marked Price unless stated otherwise.\n\nProfit / Loss Percentage\n\nProfit % = (SP − CP) / CP × 100. Loss % = (CP − SP) / CP × 100. Both are strictly calculated on the Cost Price (CP).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/719d74245d5d1bcaf397bbf61fe2a109131b1b6d672ac426964baf55ba2a0397.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Profit and Loss"
+      ]
+    },
+    {
+      "qid": "61ad9a74b62f46fe6805dd3f",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify: 1800 ÷ 10 × {45 ÷ (17 - 2)} × 2 + {- 2(1 + 2)}",
+      "options": [
+        {
+          "label": "1",
+          "text": "180"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "1074"
+        },
+        {
+          "label": "4",
+          "text": "114"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n1800 div 10 times {45 div (17 - 2)} times 2 + {- 2(1 + 2)}\n\n**Formula used:**\n\nBODMAS Rule\n\n**Calculation:**\n\n1800 div 10 times {45 div (17 - 2)} times 2 + {- 2(1 + 2)}\n\n⇒ 1800 div 10 times {45 div 15} times 2 + {- 2 times 3}\n\n⇒ 180 times 3 times 2 - 6\n\n⇒ 540 times 2 - 6\n\n⇒ 1080 - 6\n\n⇒ 1074\n\n**∴ The correct answer is option (3).**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "61ad955b84c5f494cae890df",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Trigonometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If sinθ - cosθ = 0, (angle in first quadrant) then the value of sin³θ + 3cos³θ is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "(1)/(sqrt{2)}"
+        },
+        {
+          "label": "2",
+          "text": "2√2"
+        },
+        {
+          "label": "3",
+          "text": "√2"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nGiven, sinθ − cosθ = 0 ⇒ sinθ = cosθ\n\nSince the angle is in the 1st quadrant, θ = 45°.\n\nAt θ = 45°, sinθ = cosθ = 1/√2.\n\nNow, substitute in sin³θ + 3cos³θ:\n\n⇒ 4 × cos³(45°) = 4 × (1/√2)³ = 4 / (2√2) = √2.\n\n**∴ The correct answer is √2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nsinθ − cosθ = 0\n\n**Calculations:**\n\n⇒ sinθ = cosθ\n\nDivide both sides by cosθ:\n\n⇒ tanθ = 1\n\nSince θ lies in the first quadrant (0° [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nTrigonometric Values at 45°\n\nFor an angle of 45°, both sine and cosine functions have the same value: sin(45°) = 1/√2 and cos(45°) = 1/√2.\n\nQuadrant Sign Convention (ASTC Rule)\n\nIn the 1st quadrant (0° to 90°), all trigonometric ratios are positive. In the 2nd quadrant, Sine and Cosecant are positive.\n\nTrigonometric Identities\n\nThe fundamental Pythagorean identity is sin²θ + cos²θ = 1, which holds true for all real values of θ.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Trigonometry"
+      ]
+    },
+    {
+      "qid": "61ada0ca5735f7aad2a16658",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Simplification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Simplify. sqrt{56+sqrt{185+88sqrt{sqrt{36}+19}}}",
+      "options": [
+        {
+          "label": "1",
+          "text": "√91"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "9"
+        },
+        {
+          "label": "4",
+          "text": "81"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\nsqrt{56+sqrt{185+88sqrt{sqrt{36}+19}}}\n\n**Formula used:**\n\nsqrt{x} evaluation\n\n**Calculation:**\n\nsqrt{56+sqrt{185+88sqrt{sqrt{36}+19}}}\n\n⇒ sqrt{56+sqrt{185+88sqrt{6+19}}}\n\n⇒ sqrt{56+sqrt{185+88sqrt{25}}}\n\n⇒ sqrt{56+sqrt{185+(88 times 5)}}\n\n⇒ sqrt{56+sqrt{185+440}}\n\n⇒ sqrt{56+sqrt{625}}\n\n⇒ sqrt{56+25}\n\n⇒ sqrt{81}\n\n⇒ 9\n\n**∴ The correct answer is option (3).**",
+      "tags": [
+        "Simplification"
+      ]
+    },
+    {
+      "qid": "616cfa95965d26ed1df329de",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The difference between two numbers is 5. If 25 is subtracted from the smaller number and 20 is added to the greater number the ratio becomes 1 : 2. What is the greater number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "80"
+        },
+        {
+          "label": "2",
+          "text": "90"
+        },
+        {
+          "label": "3",
+          "text": "85"
+        },
+        {
+          "label": "4",
+          "text": "75"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nInitial difference between the greater and smaller number = 5.\n\nBy adding 20 to the greater and subtracting 25 from the smaller, the new difference becomes: 5 + 20 − (−25) = 50.\n\nThe new ratio is 1 : 2, so the difference in ratio parts = 2 − 1 = 1 part.\n\nSince 1 part = 50, the new greater number (which corresponds to 2 parts) = 2 × 50 = 100.\n\nOriginal greater number = 100 − 20 = 80.\n\n**∴ The correct answer is 80.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDifference between two numbers = 5\n\nWhen 25 is subtracted from the smaller and 20 is added to the greater, the ratio becomes 1 : 2.\n\n**Formula Used:**\n\nLinear equations and ratio proportion concepts.\n\n Smaller Number\n Greater Number\n\n \n x\n \n \n x + 5\n\n \n• \n − 25\n\n \n• \n + 20\n \n \n \n \n\n \n \n\n \n x − 25\n \n \n x + 25\n\n Ratio 1 : 2\n\n Equation: (x − 25) / (x + 25) = 1 / 2\n\n**Calculations:**\n\n⇒ Let the smaller number be x.\n\n⇒ Then, the greater number = x + 5\n\n⇒ New smaller number = x − 25\n\n⇒ New greater number = (x + 5) + 20 = x + 25\n\n⇒ According to the question, the ratio becomes 1 : 2\n\n⇒ (x − 25) / (x + 25) = 1 / 2\n\n⇒ 2 × (x − 25) = 1 × (x + 25)\n\n⇒ 2x − 50 = x + 25\n\n⇒ 2x − x = 25 + 50\n\n⇒ x = 75\n\n⇒ The greater number = x + 5 = 75 + 5 = 80\n\n**∴ The correct answer is 80.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRatio & Proportion Basics\n\nWhen two quantities are in the ratio a : b, they can be represented as ax and bx, where x is a common multiplier.\n\nConstant Difference Method\n\nIf the same value is added or subtracted to both parts of a ratio, the difference between the two numbers remains constant. This is highly useful in age-related problems.\n\nCross-Multiplication Method\n\nFor equations of the form a / b = c / d, the variables can be easily solved using cross-multiplication: a × d = b × c.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "616e5e9cb14ba0c16a1d525f",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Geometry",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Two angles of a triangle are in the ratio 1 : 2 and the sum of these angles is equal to the third angle. What is the measure of the smallest angle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25°"
+        },
+        {
+          "label": "2",
+          "text": "30°"
+        },
+        {
+          "label": "3",
+          "text": "20°"
+        },
+        {
+          "label": "4",
+          "text": "40°"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nLet the first two angles be 1 part and 2 parts.\n\nThird angle = sum of first two angles = 1 + 2 = 3 parts.\n\nRatio of all three interior angles = 1 : 2 : 3\n\nTotal sum of ratio parts = 1 + 2 + 3 = 6 parts.\n\nSince the sum of interior angles of a triangle is always 180°.\n\n6 parts = 180° ⇒ 1 part (the smallest angle) = 30°.\n\n**∴ The correct answer is 30°.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n<svg width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;margin:12px 0;backgrou",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Geometry"
+      ]
+    },
+    {
+      "qid": "616e5f429cf4e0699297419a",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Algebra",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If -5 is a root of the quadratic equation 2x² + px - 15 = 0 and also of the quadratic equation p(kx² + x) = 0, then what are the values of p and k?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7, 0.2"
+        },
+        {
+          "label": "2",
+          "text": "-7, 0.4"
+        },
+        {
+          "label": "3",
+          "text": "7, -0.2"
+        },
+        {
+          "label": "4",
+          "text": "-7, -0.2"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSince −5 is a root of 2x² + px − 15 = 0, substituting x = −5 gives the value of p directly.\n\n⇒ 2(−5)² + p(−5) − 15 = 0 ⇒ 50 − 5p − 15 = 0 ⇒ 5p = 35 ⇒ p = 7\n\nNow, substitute x = −5 and p = 7 into the second equation p(kx² + x) = 0.\n\n⇒ 7[k(−5)² + (−5)] = 0 ⇒ 25k − 5 = 0 ⇒ 25k = 5 ⇒ k = 0.2\n\n**∴ The correct answer is 7, 0.2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nFirst quadratic equation: 2x² + px − 15 = 0\n\nSecond quadratic equation: p(kx² + x) = 0\n\nRoot of both equations = −5\n\n**Calculations:**\n\nSince x = −5 is a root, it must completely satisfy the first equation.\n\n⇒ 2(−5)² + p(−5) − 15 = 0\n\n⇒ 2(25) − 5p − 15 = 0\n\n⇒ 50 − 5p − 15 = 0\n\n⇒ 35 − 5p = 0\n\n⇒ 5p = 35\n\n⇒ p = 7\n\nNow, substitute x = −5 and p = 7 into the second equation.\n\n⇒ 7[k(−5)² + (−5)] = 0\n\nDividing both sides by 7:\n\n⇒ k(25) − 5 = 0\n\n⇒ 25k = 5\n\n⇒ k = 5 ÷ 25\n\n⇒ k = 1/5\n\n⇒ k = 0.2\n\n**∴ The correct answer is 7, 0.2.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nRoots of a Quadratic Equation\n\nA real number α is called a root of the quadratic equation ax² + bx + c = 0 if substituting x = α satisfies the equation (i.e., aα² + bα + c = 0).\n\nSum and Product of Roots\n\nFor a quadratic equation ax² + bx + c = 0, the sum of roots = −b/a and the product of roots = c/a.\n\nNature of Roots\n\nDetermined by the Discriminant (D = b² − 4ac). If D > 0, roots are real and distinct. If D = 0, roots are real and equal. If D < 0, roots are non-real or imaginary.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Algebra"
+      ]
+    },
+    {
+      "qid": "616e61e15b45f115bcd0ccff",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The length of a rectangle is (3)/(5) of the radius of a circle. The radius of a circle is equal to the side of a square whose area is 4900 m². What is the area of the rectangle if its breadth is 20 m.",
+      "options": [
+        {
+          "label": "1",
+          "text": "840 m²"
+        },
+        {
+          "label": "2",
+          "text": "860 m²"
+        },
+        {
+          "label": "3",
+          "text": "480 m²"
+        },
+        {
+          "label": "4",
+          "text": "880 m²"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nSide of the square = √4900 = 70 m, which is also the radius of the circle.\n\nLength of the rectangle = 3/5 × radius = 3/5 × 70 = 42 m.\n\nArea of the rectangle = Length × Breadth = 42 × 20 = 840 m².\n\n**∴ The correct answer is 840 m².**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nArea of the square = 4900 m²\n\nRadius of circle = Side of the square\n\nLength of rectangle (L) = 3/5 × Radius of circle\n\nBreadth of rectangle (B) = 20 m\n\n**Formula Used:**\n\nArea of square = a² (where a is side length)\n\nArea of rectangle = L × B\n\n [IMAGE: https://cdn.repeatermock.com/tb/392748e27fa6220baa686c056e05110f5b6c95d0a2e106d98011990b5c2c8672.png] \n\n**Calculations:**\n\n⇒ a² = 4900\n\n⇒ a = √4900 = 70 m\n\n⇒ Radius of the circle (r) = 70 m\n\n⇒ Length of the rectangle (L) = 3/5 × 70 = 3 × 14 = 42 m\n\n⇒ Area of the rectangle = L × B\n\n⇒ Area of the rectangle = 42 × 20 = 840 m²\n\n**∴ The correct answer is 840 m².**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSquare Properties\n\nA square has all four equal sides. Its Area = a² and Perimeter = 4a (where a is side length).\n\nCircle Properties\n\nThe Area of a circle = πr² and its Circumference = 2πr (where r is the radius).\n\nRectangle Properties\n\nA rectangle has opposite equal sides. Its Area = Length × Breadth and Perimeter = 2 × (Length + Breadth).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/392748e27fa6220baa686c056e05110f5b6c95d0a2e106d98011990b5c2c8672.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "616e619f18af22fddce5eb0f",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Mensuration",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The diagonal of a square is sqrt{200} cm. If the ratio of length and breadth of a rectangle is 5 : 2, whose area is equal to the area of ​​a square, then what is the length of the rectangle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "sqrt{250} cm"
+        },
+        {
+          "label": "2",
+          "text": "sqrt{200} cm"
+        },
+        {
+          "label": "3",
+          "text": "2sqrt{10} cm"
+        },
+        {
+          "label": "4",
+          "text": "sqrt{20} cm"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nArea of the square = d² ÷ 2 = (√200)² ÷ 2 = 100 cm².\n\nLet rectangle dimensions be 5x and 2x, so Area = 5x × 2x = 10x².\n\nEquating areas: 10x² = 100 ⇒ x² = 10 ⇒ x = √10.\n\nLength = 5x = 5√10 = √250 cm.\n\n**∴ The correct answer is √250 cm.**\n\n**__Alternate Method__**\n\n**Given:**\n\n⇒ Diagonal of the square, d = √200 cm\n\n⇒ Ratio of Length to Breadth of the rectangle = 5 : 2\n\n⇒ Area of the rectangle = Area of the square\n\n**Formula Used:**\n\n⇒ Area of a square = d² ÷ 2\n\n⇒ Area of a rectangle = Length × Breadth\n\n [IMAGE: https://cdn.repeatermock.com/tb/6afd5915f3909f3db7fb5af1e12b5dd65bb232632b1558b32471f5168240902e.png] \n\n**Calculations:**\n\n⇒ Area of the square = (√200)² ÷ 2\n\n⇒ Area of the square = 200 ÷ 2 = 100 cm²\n\n⇒ Let the length and breadth of the rectangle be 5x and 2x respectively.\n\n⇒ Area of the rectangle = 5x × 2x = 10x²\n\n⇒ Since their areas are strictly equal:\n\n⇒ 10x² = 100\n\n⇒ x² = 10\n\n⇒ x = √10 cm\n\n⇒ Length of the rectangle = 5x = 5√10 cm\n\n⇒ Expressing 5√10 under a single square root factor: √(5² × 10) = √(25 × 10) = √250 cm\n\n**∴ The correct answer is √250 cm.**\n\n**__Additional Information__**\n\nArea of a Square\n\nIt can be directly calculated using the side length as Area = a², or by using the diagonal length as Area = d² ÷ 2.\n\nRectangle Perimeter\n\nThe total length of the continuous boundary of a given rectangle is algebraically calculated as Perimeter = 2 × (Length + Breadth).\n\nDiagonal of a Rectangle\n\nBoth diagonals are strictly equal in length. The spatial length of each diagonal is calculated systematically using Pythagoras theorem as d = √(L² + B²).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6afd5915f3909f3db7fb5af1e12b5dd65bb232632b1558b32471f5168240902e.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mensuration"
+      ]
+    },
+    {
+      "qid": "616e636f0d9c85776372a4f0",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A is 5 times as good as workman as B and therefore is able to complete a job in 60 days less than B. In how many days will they finish it working together?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12(1)/(2) days"
+        },
+        {
+          "label": "2",
+          "text": "12 days"
+        },
+        {
+          "label": "3",
+          "text": "14(1)/(2) days"
+        },
+        {
+          "label": "4",
+          "text": "14 days"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nEfficiency ratio of A : B = 5 : 1 → Time ratio of A : B = 1 : 5.\n\nTime difference = 5 − 1 = 4 units → 4 units = 60 days, so 1 unit = 15 days.\n\nTime taken by A = 15 days, Time taken by B = 75 days.\n\nTotal work = LCM(15, 75) = 75 units.\n\nTime taken together = Total Work ÷ Total Efficiency = 75 ÷ 6 = 12.5 days.\n\n**∴ The correct answer is 12½ days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nA is 5 times as efficient as B.\n\nA takes 60 days less than B to complete the job.\n\n**Calculations:**\n\n⇒ Efficiency is inversely proportional to the time taken.\n\n⇒ Ratio of efficiencies A : B = 5 : 1\n\n⇒ Ratio of time taken A : B = 1 : 5\n\n⇒ Difference in ratio parts = 5 − 1 = 4 parts\n\n⇒ 4 parts = 60 days ⇒ 1 part = 15 days\n\n⇒ Time taken by A = 1 × 15 = 15 days\n\n⇒ Time taken by B = 5 × 15 = 75 days\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n A\n 15\n 75\n 5\n \n \n\n B\n 75\n 1\n \n \n\n⇒ Combined efficiency of A and B = 5 + 1 = 6 units/day\n\n⇒ Time taken working together = Total Work ÷ Combined Efficiency\n\n⇒ Time taken = 75 ÷ 6 = 25/2 = 12.5 days = 12½ days\n\n**∴ The correct answer is 12½ days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nEfficiency & Time Relationship\n\nEfficiency and time are strictly inversely proportional to each other. If the efficiency ratio of two workers is x : y, the ratio of the time taken by them to complete the same work will be y : x.\n\nTotal Work Formula\n\nTotal Work = Efficiency × Time Taken. To find the combined time taken by multiple workers, simply divide the total work by the sum of their individual efficiencies.\n\nAlternate Day Work Concept\n\nWhen workers work on alternate days, calculate the total work done in one complete cycle (e.g., 2 days for two workers) and scale it near to the total work before manually adding the remaining units.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "616e662c0d9c85776372fdd0",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Average",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "The average weight of a group of 20 boys was calculated to be 65 kg and it was later discovered that the weight of a boy was misread as 76 kg instead of the correct weight 66 kg. The correct average weight was:",
+      "options": [
+        {
+          "label": "1",
+          "text": "66 kg"
+        },
+        {
+          "label": "2",
+          "text": "63 kg"
+        },
+        {
+          "label": "3",
+          "text": "65.5 kg"
+        },
+        {
+          "label": "4",
+          "text": "64.5 kg"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nNet change in weight = Correct weight − Incorrect weight\n\n⇒ Net change = 66 − 76 = −10 kg\n\nChange in average = Net change ÷ Total boys = −10 ÷ 20 = −0.5 kg\n\nCorrect average = Initial average + Change in average\n\n⇒ Correct average = 65 − 0.5 = 64.5 kg\n\n**∴ The correct answer is 64.5 kg.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nNumber of boys (n) = 20\n\nCalculated average weight = 65 kg\n\nIncorrect weight read = 76 kg\n\nCorrect weight = 66 kg\n\n**Formula Used:**\n\nAverage = Total sum of values ÷ Total number of values\n\nCorrect Sum = Incorrect Sum − Incorrect Value + Correct Value\n\n \n Initial Average of 20 boys = 65 kg\n \n• \n \n\n \n Sum correction: 66 kg - 76 kg = -10 kg\n Average change: -10 / 20 = -0.5 kg\n \n• \n \n\n \n Correct Average = 64.5 kg\n\n**Calculations:**\n\n⇒ Incorrect sum of weights = 20 × 65 = 1300 kg\n\n⇒ Correct sum of weights = Incorrect sum − Incorrect weight + Correct weight\n\n⇒ Correct sum = 1300 − 76 + 66\n\n⇒ Correct sum = 1300 − 10 = 1290 kg\n\n⇒ Correct average = 1290 ÷ 20\n\n⇒ Correct average = 64.5 kg\n\n**∴ The correct answer is 64.5 kg.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nCombined Average\n\nIf group A has n₁ items with average A₁ and group B has n₂ items with average A₂, then combined average = (n₁A₁ + n₂A₂) ÷ (n₁ + n₂).\n\nReplacing a Member\n\nIf a new person replaces an old person and the average increases, New weight = Old weight + (Increase in average × Total members).\n\nIncluding a New Member\n\nIf a new person joins the group, New value = Old Average + [Total New Members × Change in Average ÷ Total Members].",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Average"
+      ]
+    },
+    {
+      "qid": "616e6587842db5177c044762",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the sum of the numbers between 400 and 600 such that when they are divided by 6, 12 and 16, there will be no remainder.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2620"
+        },
+        {
+          "label": "2",
+          "text": "2016"
+        },
+        {
+          "label": "3",
+          "text": "2026"
+        },
+        {
+          "label": "4",
+          "text": "2610"
+        }
+      ],
+      "correct": "2",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nRequired numbers must be exactly divisible by the LCM of 6, 12, and 16, which is 48.\n\nMultiples of 48 between 400 and 600 are 48 × 9, 48 × 10, 48 × 11, and 48 × 12.\n\nRequired Sum = 48 × (9 + 10 + 11 + 12)\n\nRequired Sum = 48 × 42 = 2016\n\n**∴ The correct answer is 2016.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nDivisors = 6, 12, and 16\n\nRange = Numbers strictly between 400 and 600\n\n**Concept Used:**\n\nA number is exactly divisible by a set of given numbers if it is a multiple of their Least Common Multiple (LCM).\n\n**Calculations:**\n\n⇒ Prime factorization of 6 = 2 × 3\n\n⇒ Prime factorization of 12 = 2² × 3\n\n⇒ Prime factorization of 16 = 2⁴\n\n⇒ LCM(6, 12, 16) = 2⁴ × 3 = 16 × 3 = 48\n\n⇒ We need to find all multiples of 48 that lie between 400 and 600.\n\n⇒ Dividing 400 by 48, we get a quotient of 8.\n\n⇒ The first multiple greater than 400 = 48 × 9 = 432\n\n⇒ The maximum multiple less than 600 = 48 × 12 = 576\n\n⇒ The valid numbers are: 432, 480, 528, 576\n\n⇒ Sum of these numbers = 432 + 480 + 528 + 576 = 2016\n\n**∴ The correct answer is 2016.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nLeast Common Multiple (LCM)\n\nThe smallest positive integer that is uniformly divisible by two or more numbers. It is obtained by taking the highest power of each prime factor involved in the numbers.\n\nSum of Arithmetic Progression (A.P.)\n\nConsecutive multiples of a number always form an Arithmetic Progression. The sum can also be calculated using the formula: Sₙ = n ÷ 2 × (first term + last term). Here, 4 ÷ 2 × (432 + 576) = 2 × 1008 = 2016.\n\nDivisibility Rule\n\nFor a number to leave no remainder when divided by a group of divisors, it must be completely divisible by their LCM. If a remainder 'R' is specified, the general format of the number becomes (LCM × k) + R.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "6152a8ba573f2ff593980725",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Anuj plants 5,625 plants in his garden in such a way that the number of rows and the number of plants in each row remains the same. The number of plants in each row will be:",
+      "options": [
+        {
+          "label": "1",
+          "text": "11250"
+        },
+        {
+          "label": "2",
+          "text": "2813"
+        },
+        {
+          "label": "3",
+          "text": "75"
+        },
+        {
+          "label": "4",
+          "text": "2812"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nWhen the number of rows equals the number of plants per row, the total number of plants forms a perfect square.\n\nNumber of plants per row = √5625\n\nFor perfect squares ending in 25, the square root always ends in 5.\n\nThe remaining part is 56, which can be factored into two consecutive numbers as 7 × 8. Appending 5 to the smaller factor (7) gives 75.\n\n**∴ The correct answer is 75 plants.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTotal number of plants = 5625\n\nNumber of rows = Number of plants in each row\n\n**Formula Used:**\n\nTotal plants = Number of rows × Number of plants per row\n\n**Calculations:**\n\n⇒ Let the number of plants in each row be x.\n\n⇒ Number of rows = x\n\n⇒ Total plants = x × x\n\n⇒ x² = 5625\n\n⇒ x = √5625\n\n⇒ By prime factorization: 5625 = 3 × 3 × 5 × 5 × 5 × 5\n\n⇒ x = √(3² × 5⁴)\n\n⇒ x = 3 × 5²\n\n⇒ x = 3 × 25\n\n⇒ x = 75\n\n**∴ The correct answer is 75 plants.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nSquare Root Trick for Numbers Ending in 25\n\nIf a perfect square ends in 25, separate the 25 and find two consecutive integers whose product matches the remaining part. The square root is formed by appending 5 to the smaller integer.\n\nSquare Root Shortcut for Numbers Near 50 and 100\n\nFor numbers near a known perfect square base (like 2500 or 10000), you can estimate the root quickly by checking the last two digits which relate to the square of the difference from the base.\n\nPerfect Square Properties\n\nA perfect square never ends in 2, 3, 7, or 8. Additionally, the digital sum (or digital root) of a perfect square is always exactly 1, 4, 7, or 9.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    },
+    {
+      "qid": "61851c0292ffd7ab67d142db",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Time & Work",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A man and a woman can complete a task in 8 and 12 days respectively. In how many days will 2 men and 3 women be able to complete the task?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nTotal Work = LCM(8, 12) = 24 units.\n\nEfficiency of 1 man = 24 ÷ 8 = 3 units/day.\n\nEfficiency of 1 woman = 24 ÷ 12 = 2 units/day.\n\nCombined efficiency of 2 men and 3 women = (2 × 3) + (3 × 2) = 12 units/day.\n\nTime required = Total Work ÷ Combined efficiency = 24 ÷ 12 = 2 days.\n\n**∴ The correct answer is 2 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nTime taken by 1 man = 8 days\n\nTime taken by 1 woman = 12 days\n\n**Formula Used:**\n\nTotal Work = LCM of given days\n\nEfficiency = Total Work ÷ Days\n\n \n \n\n **Person**\n **Days**\n **Total Work**\n **Efficiency**\n \n \n\n 1 Man\n 8\n 24\n 24 ÷ 8 = 3\n \n \n\n 1 Woman\n 12\n 24 ÷ 12 = 2\n \n \n\n**Calculations:**\n\n⇒ Efficiency of 2 men = 2 × 3 = 6 units/day\n\n⇒ Efficiency of 3 women = 3 × 2 = 6 units/day\n\n⇒ Total efficiency of 2 men and 3 women = 6 + 6 = 12 units/day\n\n⇒ Time required = Total Work ÷ Total Efficiency\n\n⇒ Time required = 24 ÷ 12 = 2 days\n\n**∴ The correct answer is 2 days.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nWork and Wages\n\nWages are distributed in proportion to the total work done by each person. If people work for the same duration, wages are distributed in the ratio of their efficiencies.\n\nMDH Rule\n\nIf M₁ men do W₁ work in D₁ days for H₁ hours per day, and M₂ men do W₂ work in D₂ days for H₂ hours per day, then: (M₁ × D₁ × H₁) ÷ W₁ = (M₂ × D₂ × H₂) ÷ W₂.\n\nPipes and Cisterns\n\nCalculations are the same as Time and Work. A pipe filling a tank has positive efficiency, while a leak or a pipe emptying the tank has negative efficiency.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Time and Work"
+      ]
+    },
+    {
+      "qid": "6185158c242e16b53a22db5b",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Number System",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Sum of four consecutive multiples of 3 is 78. The largest of these number is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "27"
+        },
+        {
+          "label": "3",
+          "text": "24"
+        },
+        {
+          "label": "4",
+          "text": "21"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nAverage of 4 consecutive multiples of 3 = 78 ÷ 4 = 19.5\n\nThe average lies exactly between the 2nd and 3rd numbers in the sequence.\n\nSince the gap between consecutive multiples is 3, the 3rd number = 19.5 + (3 ÷ 2) = 21\n\nThe 4th (largest) number will be the next multiple = 21 + 3 = 24\n\n**∴ The correct answer is 24.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nSum of four consecutive multiples of 3 = 78\n\n [IMAGE: https://cdn.repeatermock.com/tb/d1099b38ac9a3d69c988a20379be8421eb41718d241e24146815427869c8a8b4.png] \n\n**Calculations:**\n\n⇒ Let the four consecutive multiples of 3 be x, x + 3, x + 6, and x + 9.\n\n⇒ According to the question, Sum = 78\n\n⇒ x + (x + 3) + (x + 6) + (x + 9) = 78\n\n⇒ 4x + 18 = 78\n\n⇒ 4x = 78 − 18\n\n⇒ 4x = 60\n\n⇒ x = 60 ÷ 4 = 15\n\n⇒ We need to find the largest of these numbers, which is x + 9.\n\n⇒ Largest number = 15 + 9 = 24\n\n**∴ The correct answer is 24.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nConsecutive Multiples\n\nConsecutive multiples of any number n always maintain a constant common difference of n between them. They form an Arithmetic Progression (AP).\n\nAverage of an Arithmetic Progression\n\nThe average (mean) of any Arithmetic Progression is simply the average of its first and last terms. For an even number of terms, it lies exactly halfway between the two middle terms.\n\nSum of an AP\n\nThe sum of terms in an AP can be calculated as: Sum = Number of terms × Average. Therefore, finding the average first is often the fastest method to solve such series.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/d1099b38ac9a3d69c988a20379be8421eb41718d241e24146815427869c8a8b4.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Number System"
+      ]
+    }
+  ]
+}

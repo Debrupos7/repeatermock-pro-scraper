@@ -1,0 +1,418 @@
+{
+  "test_id": "6a390e25dd8c1bf0f6651095",
+  "title": "CGL Tier II CT 21: Mean, Third and Fourth Proportional",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "general",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:02:12.064741+00:00",
+  "questions": [
+    {
+      "qid": "5d9ca753f60d5d3c30bb9b12",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Mean Proportional",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If A is mean proportional of 18 and 8. B is third proportional of 5 and 10. What is the value of (2A + 3B)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "70"
+        },
+        {
+          "label": "2",
+          "text": "66"
+        },
+        {
+          "label": "3",
+          "text": "84"
+        },
+        {
+          "label": "4",
+          "text": "90"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nMean Proportional **A** = √(18 × 8) = √144 = 12\n\nThird Proportional **B** = (10 × 10) ÷ 5 = 100 ÷ 5 = 20\n\nRequired value = 2**A** + 3**B** = 2(12) + 3(20)\n\nRequired value = 24 + 60 = 84\n\n**∴ The correct answer is 84.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nNumbers for **Mean Proportional (A)**: 18 and 8\n\nNumbers for **Third Proportional (B)**: 5 and 10\n\n [IMAGE: https://cdn.repeatermock.com/tb/86eebe1b2bee9f0b03937d2d8d14033022c6de6fd8b35d52c48b533d585fe205.png] \n\n**Formula Used:**\n\nMean Proportional of x and y = √(x × y)\n\nThird Proportional of x and y (where x : y = y : z) = y² ÷ x\n\n**Calculations:**\n\n⇒ **A** = √(18 × 8)\n\n⇒ **A** = √144 = 12\n\n⇒ 5 : 10 :: 10 : **B**\n\n⇒ 5 ÷ 10 = 10 ÷ **B**\n\n⇒ **B** = (10 × 10) ÷ 5 = 20\n\n⇒ Value = 2**A** + 3**B**\n\n⇒ Value = 2(12) + 3(20)\n\n⇒ Value = 24 + 60 = 84\n\n**∴ The correct answer is 84.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMean Proportional\n\nThe mean proportional between two numbers a and b is the square root of their product, expressed as x = √(ab).\n\nThird Proportional\n\nIf three numbers a, b, and c are in continued proportion (a:b = b:c), then c is the third proportional to a and b, where c = b²/a.\n\nFourth Proportional\n\nIf four numbers a, b, c, and d are in proportion (a:b = c:d), then d is the fourth proportional, calculated as d = (b × c) ÷ a.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/86eebe1b2bee9f0b03937d2d8d14033022c6de6fd8b35d52c48b533d585fe205.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mean Proportional"
+      ]
+    },
+    {
+      "qid": "60d596746c2a8fb8476ce6a9",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Mean Proportional",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The product of mean proportion and third proportion between 27 and 3 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\n**Mean Proportion** = √(27 × 3) = √81 = 9\n\n**Third Proportion** = (3 × 3) ÷ 27 = 9 ÷ 27 = 1/3\n\n**Required Product** = 9 × 1/3 = 3\n\n**∴ The correct answer is 3.**\n\n**__Alternate Method__**\n\n**Given:**\n\nNumbers: **a = 27** and **b = 3**\n\n**Formula Used:**\n\n1. **Mean Proportion (MP)** of a and b = √(a × b)\n\n2. **Third Proportion (TP)** of a and b = b² ÷ a\n\n [IMAGE: https://cdn.repeatermock.com/tb/ed01f673cf4fb76069f1fa91f90853b008e8054ebc88c4595f7e8e698dc141b2.png] \n\n⇒ **Mean Proportion** = √(27 × 3) = √81 = 9\n\n⇒ **Third Proportion** = 3² ÷ 27 = 9 ÷ 27 = 1/3\n\n⇒ **Product** = 9 × 1/3\n\n⇒ **Product** = 3\n\n**∴ The correct answer is 3.**\n\n**__Additional Information__**\n\nMean Proportion\n\nThe **Mean Proportion** between two numbers x and y is given by the geometric mean, which is √(x × y).\n\nThird Proportion\n\nFor two numbers a and b, the **Third Proportion** c is such that a : b = b : c, giving c = b² ÷ a.\n\nFourth Proportion\n\nFor three numbers a, b, and c, the **Fourth Proportion** d is such that a : b = c : d, giving d = (b × c) ÷ a.\n\nContinued Proportion\n\nQuantities a, b, c, d are in **continued proportion** if a/b = b/c = c/d.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ed01f673cf4fb76069f1fa91f90853b008e8054ebc88c4595f7e8e698dc141b2.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mean Proportional"
+      ]
+    },
+    {
+      "qid": "60052f120fb264b2473fa437",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Fourth Proportional",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the fourth proportional to 11, 121, 33.",
+      "options": [
+        {
+          "label": "1",
+          "text": "263"
+        },
+        {
+          "label": "2",
+          "text": "363"
+        },
+        {
+          "label": "3",
+          "text": "463"
+        },
+        {
+          "label": "4",
+          "text": "111"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Calculation**:\n\nLet x be the fourth proportional\n\n11 ∶ 121 = 33 ∶ x\n\n⇒ 11 × x = 33 × 121\n\n⇒ x = (33 × 121)/11\n\n⇒ x = 363\n\n**∴ The fourth proportional is 363.**",
+      "tags": [
+        "Fourth Proportional"
+      ]
+    },
+    {
+      "qid": "5fc72eb7369b8c1ea97e8011",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Third Proportional",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The third proportional to 9 and 15 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "36"
+        },
+        {
+          "label": "3",
+          "text": "27"
+        },
+        {
+          "label": "4",
+          "text": "25"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nWe have to obtain the third proportional to 9 and 15\n\n**Concept Used:**\n\nConcept of ratio and proportion\n\n**Calculation:**\n\nLet, the third proportional be x\n\nThen,\n\n9 : 15 : : 15 : x\n\n⇒ 9/15 = 15/x\n\n⇒ x = (15 × 15) / 9\n\n⇒ x = 25\n\n**∴ The required third proportional to 9 and 15 is 25.**",
+      "tags": [
+        "Third Proportional"
+      ]
+    },
+    {
+      "qid": "63f8ca473b778b81c8513018",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Third Proportional",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Find the third proportional of (b² - a²) and (b² - ab).",
+      "options": [
+        {
+          "label": "1",
+          "text": "(b²(b-a))/((b+a))"
+        },
+        {
+          "label": "2",
+          "text": "(b - a)"
+        },
+        {
+          "label": "3",
+          "text": "(b²(b+a))/((b-a))"
+        },
+        {
+          "label": "4",
+          "text": "(b + a)"
+        }
+      ],
+      "correct": "1",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor two terms **A** and **B**, the **third proportional** (C) is calculated as **C = B² / A**.\n\nIdentify terms: **A = (b² − a²) = (b − a)(b + a)** and **B = (b² − ab) = b(b − a)**.\n\nApply trick: **C = [b(b − a)]² / [(b − a)(b + a)]**.\n\nSimplify: **C = [b²(b − a)²] / [(b − a)(b + a)] = (b²(b − a)) / (b + a)**.\n\n**∴ The correct answer is (b²(b−a))/(b+a).**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nFirst term (A) = **(b² − a²)**\n\nSecond term (B) = **(b² − ab)**\n\n**Formula Used:**\n\nIf **x** is the **third proportional** of **A** and **B**, then **A : B :: B : x**, which implies **x = B² / A**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/7568d86c49c40576d94fcbb9180deff0888abe76324341fe52b0fc9bd9123929.png] \n\n**Calculations:**\n\n⇒ Let the **third proportional** be **x**.\n\n⇒ **x = (b² − ab)² / (b² − a²)**\n\n⇒ **x = [b(b − a)]² / [(b − a)(b + a)]**\n\n⇒ **x = [b² × (b − a) × (b − a)] / [(b − a) × (b + a)]**\n\n⇒ Cancel the common term **(b − a)** from numerator and denominator.\n\n⇒ **x = (b²(b − a)) / (b + a)**\n\n**∴ The correct answer is (b²(b−a))/(b+a).**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMean Proportional\n\nThe **mean proportional** between two numbers **a** and **b** is given by **√(ab)**.\n\nFourth Proportional\n\nFor three numbers **a**, **b**, and **c**, the **fourth proportional** **d** is calculated as **d = (b × c) / a**.\n\nContinued Proportion\n\nNumbers **a**, **b**, **c** are in **continued proportion** if **a/b = b/c**, which implies **b² = ac**.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7568d86c49c40576d94fcbb9180deff0888abe76324341fe52b0fc9bd9123929.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Third Proportional"
+      ]
+    },
+    {
+      "qid": "6323061af02ffe7730308d42",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Unidentified",
+      "confidence": "unidentified",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What should be added to each of the numbers in 2, 4 and 7 so that the resulting numbers are in continuous proportion?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "1",
+      "solution": "__**Solution: **__\n\nby option- 1) 2\n\nAfter adding 2 in each number (2, 4, 7)\n\nThe continuous ratio\n\n(2 + 2) : (4 + 2) :: (4 + 2) : (7 + 2)\n\n 4 : 6 :: 6 : 9\n\n= 2 : 3 :: 2 : 3 Answer."
+    },
+    {
+      "qid": "588740130328210b7e7a5341",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Fourth Proportional",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If a²b, bc, x and c² are in continued proportion, then find x, if none of these is equal to zero.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ac"
+        },
+        {
+          "label": "2",
+          "text": "a²b²"
+        },
+        {
+          "label": "3",
+          "text": "a² c"
+        },
+        {
+          "label": "4",
+          "text": "c² a"
+        }
+      ],
+      "correct": "3",
+      "solution": "Now as a²b, bc, x and c² are in proportion\n\nWe can write\n\na²b: bc = x : c²\n\n∴ a² : c = x : c²\n\n∴ a² = x : c\n\n∴ x = a²c",
+      "tags": [
+        "Fourth Proportional"
+      ]
+    },
+    {
+      "qid": "62d0fca652ff81b1d826a475",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Mean Proportional",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "The mean proportion between a number and 20 is 50. What is that number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "125"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "100"
+        },
+        {
+          "label": "4",
+          "text": "10 sqrt{10}"
+        }
+      ],
+      "correct": "1",
+      "solution": "__Shortcut Trick__\n\nFor any two numbers **a** and **b**, the **Mean Proportion (M)** is given by M = √(a × b).\n\nTo find the missing number, use the squared relation: b = M² ÷ a.\n\nGiven M = 50 and a = 20.\n\n⇒ Required Number = 50² ÷ 20 = 2500 ÷ 20 = 125.\n\n**∴ The correct answer is 125.**\n\n**__Alternate Method__**\n\n**Given:**\n\nMean proportional value = 50\n\nOne of the numbers = 20\n\n**Formula Used:**\n\nIf **x** is the mean proportion between **a** and **b**, then **a : x = x : b**, which implies **x² = ab**.\n\n [IMAGE: https://cdn.repeatermock.com/tb/e4b1949053fbf69969dd761daca8f1839594e6440a907bc616e846d55e1f4cc8.png] \n\nLet the required number be **n**.\n\n⇒ √(20 × n) = 50\n\nSquaring both sides:\n\n⇒ 20 × n = 50 × 50\n\n⇒ 20 × n = 2500\n\n⇒ n = 2500 ÷ 20\n\n⇒ n = 125\n\n**∴ The correct answer is 125.**\n\n**__Additional Information__**\n\nThird Proportional\n\nIf three numbers a, b, and c are in continued proportion (a:b = b:c), then **c** is the third proportional to a and b, calculated as **c = b²/a**.\n\nFourth Proportional\n\nIf four numbers a, b, c, and d are in proportion (a:b = c:d), then **d** is the fourth proportional, calculated as **d = (b × c) / a**.\n\nMean Proportional Property\n\nThe mean proportional between two numbers is always the **positive square root** of their product, also known as the **Geometric Mean**.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/e4b1949053fbf69969dd761daca8f1839594e6440a907bc616e846d55e1f4cc8.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mean Proportional"
+      ]
+    },
+    {
+      "qid": "6062d92b51d00cc813990389",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Mean Proportional",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "When x is subtracted from each of 43, 38, 11 and 10, the numbers so obtained in this order, are in proportion. What is the mean proportional between (5x + 1) and (7x + 4)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "28"
+        },
+        {
+          "label": "2",
+          "text": "15"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFor numbers a, b, c, d, the value x subtracted to make them proportional is given directly by x = (ad − bc) ÷ ((a + d) − (b + c)).\n\nHere, x = (43 × 10 − 38 × 11) ÷ ((43 + 10) − (38 + 11)).\n\nx = (430 − 418) ÷ (53 − 49) = 12 ÷ 4 = 3.\n\nSubstitute x = 3 to find the given terms: (5 × 3 + 1) = 16 and (7 × 3 + 4) = 25.\n\nMean proportional = √(16 × 25) = 4 × 5 = 20.\n\n**∴ The correct answer is 20.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nThe original numbers are 43, 38, 11, and 10.\n\nWhen x is subtracted from each, the resulting numbers (43 − x), (38 − x), (11 − x), and (10 − x) are in proportion.\n\n**Formula Used:**\n\nIf four numbers a, b, c, and d are in proportion, then a : b :: c : d ⇒ ad = bc.\n\nThe mean proportional between two numbers A and B = √(A × B).\n\n [IMAGE: https://cdn.repeatermock.com/tb/7c731e7914781af2a4b68c4415c7015515b1e3c4e3e16bb5e0e8b7746599b161.png] \n\n**Calculations:**\n\n⇒ (43 − x) ÷ (38 − x) = (11 − x) ÷ (10 − x)\n\n⇒ (43 − x)(10 − x) = (38 − x)(11 − x)\n\n⇒ 430 − 53x + x² = 418 − 49x + x²\n\n⇒ 430 − 418 = 53x − 49x\n\n⇒ 12 = 4x\n\n⇒ x = 3\n\nSubstitute the value of x = 3 into the given expressions to find the two terms:\n\n⇒ First term = (5x + 1) = 5(3) + 1 = 16\n\n⇒ Second term = (7x + 4) = 7(3) + 4 = 25\n\n⇒ Mean proportional = √(16 × 25)\n\n⇒ Mean proportional = √400 = 20\n\n**∴ The correct answer is 20.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nMean Proportional\n\nThe mean proportional between two numbers a and b is simply the square root of their product, given by √(a × b).\n\nThird Proportional\n\nIf a : b :: b : c, then c is called the third proportional to a and b. It can be directly calculated using the formula c = b² ÷ a.\n\nFourth Proportional\n\nIf a : b :: c : d, then d is the fourth proportional to a, b, and c. It is calculated using the formula d = (b × c) ÷ a.\n\nComponendo and Dividendo\n\nIf a ÷ b = c ÷ d, then according to this theorem, (a + b) ÷ (a − b) = (c + d) ÷ (c − d). This rule is extensively used to simplify complex equations involving proportions quickly.\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/7c731e7914781af2a4b68c4415c7015515b1e3c4e3e16bb5e0e8b7746599b161.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mean Proportional"
+      ]
+    },
+    {
+      "qid": "64e6122efbffa6c6399ae8cf",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Mean Proportional",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "When P is subtracted from each of the numbers 8, 6, 2 and 9, the numbers so obtained in this order are in proportion. What is the mean proportional between (3P - 6) and (9P - 4)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "26"
+        },
+        {
+          "label": "2",
+          "text": "28"
+        },
+        {
+          "label": "3",
+          "text": "29"
+        },
+        {
+          "label": "4",
+          "text": "24"
+        }
+      ],
+      "correct": "2",
+      "solution": "__Shortcut Trick__\n\nFor numbers 8, 6, 2, 9 to be in **proportion** after subtracting **P**, use the formula: P = (ad − bc) / [(a + d) − (b + c)]\n\n⇒ P = (8 × 9 − 6 × 2) / [(8 + 9) − (6 + 2)] = (72 − 12) / (17 − 8) = 60 / 9 = 20/3\n\nFirst term = 3P − 6 = 3(20/3) − 6 = 14; Second term = 9P − 4 = 9(20/3) − 4 = 56\n\n**Mean proportional** = √(14 × 56) = √(14 × 14 × 4) = 14 × 2 = 28\n\n**∴ The correct answer is 28.**\n\n**__Alternate Method__**\n\n**Given:** Numbers are **8, 6, 2, and 9**. After subtracting **P**, they are in **proportion**.\n\n**Formula:** If a, b, c, d are in **proportion**, then a/b = c/d or ad = bc.\n\n [IMAGE: https://cdn.repeatermock.com/tb/a502fbdc2c2e541cbe967288f958444f0d67d8ca85227d669e3ab9800560d2e9.png] \n\n⇒ (8 − P) / (6 − P) = (2 − P) / (9 − P)\n\n⇒ (8 − P)(9 − P) = (6 − P)(2 − P)\n\n⇒ 72 − 17P + P² = 12 − 8P + P²\n\n⇒ 72 − 12 = 17P − 8P\n\n⇒ 60 = 9P ⇒ P = 60/9 = 20/3\n\n⇒ Term 1 = 3P − 6 = 3(20/3) − 6 = 20 − 6 = 14\n\n⇒ Term 2 = 9P − 4 = 9(20/3) − 4 = 60 − 4 = 56\n\n⇒ Mean proportional = √(14 × 56) = √(784)\n\n⇒ Mean proportional = 28\n\n**∴ The correct answer is 28.**\n\n**__Additional Information__**\n\nMean Proportional\n\nThe **mean proportional** (or geometric mean) between two numbers 'a' and 'b' is given by the formula x = √(a × b).\n\nContinued Proportion\n\nThree numbers a, b, and c are in **continued proportion** if a/b = b/c, which implies b² = ac.\n\nFourth Proportional\n\nIf four numbers a, b, c, and d are in **proportion** (a:b :: c:d), then 'd' is the **fourth proportional** and is calculated as d = (b × c) / a.</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a502fbdc2c2e541cbe967288f958444f0d67d8ca85227d669e3ab9800560d2e9.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Mean Proportional"
+      ]
+    }
+  ]
+}

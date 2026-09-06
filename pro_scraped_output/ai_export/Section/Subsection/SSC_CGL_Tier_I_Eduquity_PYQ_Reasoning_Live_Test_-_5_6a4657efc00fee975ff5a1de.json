@@ -1,0 +1,952 @@
+{
+  "test_id": "6a4657efc00fee975ff5a1de",
+  "title": "SSC CGL Tier I: (Eduquity PYQ) Reasoning Live Test - 5",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "reasoning",
+  "duration_min": 0,
+  "max_marks": 50.0,
+  "question_count": 25,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T08:59:29.318343+00:00",
+  "questions": [
+    {
+      "qid": "699d7c93839f4cbc043e7cca",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Alphabet/Word Test",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "From the given alternatives, select the word that CANNOT be formed by using the letters of the given word.\n\nCONSERVATION",
+      "options": [
+        {
+          "label": "1",
+          "text": "VAIN"
+        },
+        {
+          "label": "2",
+          "text": "CAUTION"
+        },
+        {
+          "label": "3",
+          "text": "ACTOR"
+        },
+        {
+          "label": "4",
+          "text": "STAIN"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given Word:** CONSERVATION\n\n1) VAIN → Can be formed\n\n2) **C**A**U**TION → Cannot be formed (Because in the given word there is no **'U'**)\n\n3) ACTOR → Can be formed\n\n4) STAIN → Can be formed\n\nHence, the correct answer is **\"Option 2\"**.",
+      "tags": [
+        "Alphabet or Word Test"
+      ]
+    },
+    {
+      "qid": "693c11472acb3265c93fe399",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Direction and Distance",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A person walks 3 km north, then 4 km east, and finally 3 km south. How far is he from his starting point?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 km"
+        },
+        {
+          "label": "2",
+          "text": "4 km"
+        },
+        {
+          "label": "3",
+          "text": "5 km"
+        },
+        {
+          "label": "4",
+          "text": "6 km"
+        }
+      ],
+      "correct": "2",
+      "solution": "Walks 3 km North\n\nThen 4 km East\n\nThen 3 km South\n\n [IMAGE: https://cdn.repeatermock.com/tb/f5540400807bde0b513773612ccf3d6bfc1f33b86971b8ff0ddb147013a7ea37.png] \n\nSo, he is 4 km from his starting point.\n\n**Hence, the correct answer is option 2**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/f5540400807bde0b513773612ccf3d6bfc1f33b86971b8ff0ddb147013a7ea37.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Direction and Distance"
+      ]
+    },
+    {
+      "qid": "69bcf59d8b07c4d60ffbf008",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Seating Arrangement",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "7 males A, B, C, D, E, F and G are sitting in a row facing north (not necessarily in the same order). Only four males are to the left of A. B is the immediate neighbour of A and C. D is third to the left of E. F is not the immediate neighbour of E. Who is sitting between D and G?",
+      "options": [
+        {
+          "label": "1",
+          "text": "B"
+        },
+        {
+          "label": "2",
+          "text": "E"
+        },
+        {
+          "label": "3",
+          "text": "F"
+        },
+        {
+          "label": "4",
+          "text": "A"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n7 males A, B, C, D, E, F and G are sitting in a row facing north \n\nOnly four males are to the left of A\n\nB is the immediate neighbour of A and C.\n\nD is third to the left of E.\n\nF is not the immediate neighbour of E.\n\n [IMAGE: https://cdn.repeatermock.com/tb/03d231716564b7115ee1354c5652e6f5cf45334ecab8d822922a047d4c4ff3fd.png] \n\n \n\nAccording to the table, D is at position 1 and G is at position 3.\n\nThe person sitting between D and G is F (at position 2).\n\nTherefore, the male sitting between D and G is **F**.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/03d231716564b7115ee1354c5652e6f5cf45334ecab8d822922a047d4c4ff3fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Seating Arrangement"
+      ]
+    },
+    {
+      "qid": "68bbf07ca3fa83456b0f2236",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Non Verbal Reasoning",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "How many straight lines are there in the figure? (Don't consider the extra line if there is another line at 180 degrees) \n\n [IMAGE: https://cdn.repeatermock.com/tb/28b7abaa585f893ff320ae70faa088c1982bab8108789f1dc98121d0760151a5.png]",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "correct": "1",
+      "solution": "The number of straight lines in the given figure is shown below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a8443c8210a3cb4b89010e5bf4381488d78993eac52e8ef20d4bca4fea5dc130.png] \n\nThus, as marked there are a total of 5 straight lines.\n\nHence, \"Option 1\" is the correct answer.\n\n [IMAGE: https://cdn.repeatermock.com/tb/e085a7f17645c801966c030eb44d69fae944b96fdb4c4077f5fba1bc2c24bc71.png] \n\n**__Mistake Points__** Straight Lines - A straight line is always a straight path between two points.\n\nSimple Lines - It can be straight and also intersect themselves.",
+      "images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/28b7abaa585f893ff320ae70faa088c1982bab8108789f1dc98121d0760151a5.png",
+          "alt": ""
+        }
+      ],
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a8443c8210a3cb4b89010e5bf4381488d78993eac52e8ef20d4bca4fea5dc130.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/e085a7f17645c801966c030eb44d69fae944b96fdb4c4077f5fba1bc2c24bc71.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Non Verbal Reasoning"
+      ]
+    },
+    {
+      "qid": "69c7fc3ab22de19bbd4e8fe8",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next in the series?\n\n 144, 121, 100, 81, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "49"
+        },
+        {
+          "label": "2",
+          "text": "64"
+        },
+        {
+          "label": "3",
+          "text": "60"
+        },
+        {
+          "label": "4",
+          "text": "36"
+        }
+      ],
+      "correct": "2",
+      "solution": "Logic followed here is,\n\n(12)² = 144\n\n(11)² = 121\n\n(10)² = 100\n\n9² = 81\n\n**8² = 64**\n\nHence, the correct answer is “**Option 2**”.",
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "690c7d57e2b3b68fd4b6a694",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "What comes next?\n\nAG, BH, CI, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "DJ"
+        },
+        {
+          "label": "2",
+          "text": "EK"
+        },
+        {
+          "label": "3",
+          "text": "FL"
+        },
+        {
+          "label": "4",
+          "text": "GM"
+        }
+      ],
+      "correct": "1",
+      "solution": "**The logic is followed here**\n\nAG, BH, CI, ?\n\n**Observe the pattern**\n\nFirst letters: A, B, C → increasing by 1 → Next = D\n\nSecond letters: G, H, I → increasing by 1 → Next = J\n\n**Form the next pair**\n\nD + J = DJ\n\n**Hence, the correct answer is Option 1**.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "68b233a043f28559b9b7e4a6",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Complete the series: 0, 1, 1, 2, 3, 5, 8, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "13"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "11"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\n​ [IMAGE: https://cdn.repeatermock.com/tb/7962d5245cc8de4a1a6c14335cfa5c176a7af74312594f0255b155b90db25ca5.png] \n\nHence, \"Option 2\" is the correct answer.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7962d5245cc8de4a1a6c14335cfa5c176a7af74312594f0255b155b90db25ca5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "693c1e0b880ed24891e2e99d",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Ordering and Ranking",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Candles are arranged in a row. The middle candle is 8th from both ends. How many candles are there in total?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "14"
+        },
+        {
+          "label": "4",
+          "text": "17"
+        }
+      ],
+      "correct": "1",
+      "solution": "Given, Candles are arranged in a row\n\nThe middle candle is 8th from both ends.\n\nMiddle candle (8)\n\n [IMAGE: https://cdn.repeatermock.com/tb/a930db9dc5b9568e63022884e7768030270588922a77ab4bc25a557ea1b18de9.png] \n\nSo, there are 7 candles on the left of the middle candle and 7 candles on the right of the middle candle.\n\nTotal number of candles = 7+1+7 = 15\n\nHence, the correct answer is \"Option 1“.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a930db9dc5b9568e63022884e7768030270588922a77ab4bc25a557ea1b18de9.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Ordering and Ranking"
+      ]
+    },
+    {
+      "qid": "69ccbe08751e280656ded8ca",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Hand is to Glove as Foot is to _ ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sock"
+        },
+        {
+          "label": "2",
+          "text": "shoe"
+        },
+        {
+          "label": "3",
+          "text": "slipper"
+        },
+        {
+          "label": "4",
+          "text": "Belt"
+        }
+      ],
+      "correct": "1",
+      "solution": "The logic followed here is:\n\nLogic: The relationship is **a closely fitting covering worn directly on a body part for protection or comfort**.\n\nHere,\n\nHand → Glove (a form-fitting covering for the hand)\n\nFoot → Sock (a form-fitting covering for the foot)\n\nNow comparing options:\n\nSock → a tight-fitting garment worn directly on the foot \n\nShoe → footwear worn over socks, not a direct fitting covering \n\nSlipper → loose footwear, not form-fitting \n\nBelt → worn on waist \n\nSince, a glove is a direct, form-fitting covering for the hand, the equivalent for the foot is a sock.\n\nHence, the correct answer is **Option 1**.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "690c7c709d791a1655f78212",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If we increase each even digit by '1' and decrease each odd digit by '1' in the number '7846921453' and then arrange all the number in descending order, then what is the sum of the first five digits from the left end after the rearrangement?",
+      "options": [
+        {
+          "label": "1",
+          "text": "35"
+        },
+        {
+          "label": "2",
+          "text": "32"
+        },
+        {
+          "label": "3",
+          "text": "38"
+        },
+        {
+          "label": "4",
+          "text": "34"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given Number:**\n\n7846921453\n\n**Modify the digits**\n\nRule:\n\nIncrease each even digit by 1.\n\nDecrease each odd digit by 1.\n\n7 → 6,8 → 9,4 → 5,6 → 7,9 → 8,2 → 3,1 → 0,4 → 5,5 → 4,3 → 2\n\nNew numbers: 6, 9, 5, 7, 8, 3, 0, 5, 4, 2\n\n**Arrange in descending order**\n\n9, 8, 7, 6, 5, 5, 4, 3, 2, 0\n\n**Take the first five digits from the left end**\n\n9, 8, 7, 6, 5\n\n**sum = **9 + 8 + 7 + 6 + 5 = 35\n\nHence, the correct answer is **\"Option 1\".**",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "69428075bf498ab8bec53847",
+      "n": 11,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In this type of questions, question is provided with substitutes for various mathematical symbols, followed by a question involving calculation of an expression or choosing the correct/incorrect equation. You have to put the real signs in the given equation and then solve the questions as required.\n\nIf '^' stands for '÷', '@' stands for '+', '%' stands for '-', '$' stands for 'x', then find the value of:\n\n8 % 11 $ 10 % 3 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-106"
+        },
+        {
+          "label": "2",
+          "text": "-104"
+        },
+        {
+          "label": "3",
+          "text": "-33"
+        },
+        {
+          "label": "4",
+          "text": "-105"
+        }
+      ],
+      "correct": "4",
+      "solution": "Given Equation: 8 % 11 $ 10 % 3 = ?\n\nBODMAS Rule:\n\n [IMAGE: https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png] \n\nDecoding the given information:\n\n \n \n\n Alphabet\n ^\n @\n %\n $\n \n \n \n \n\n Meaning\n ÷\n +\n -\n ×\n \n \n\n \n\nNow replacing the sign from left to right using BODMAS Rule, we get:\n\n⇒ 8 - __**11 × 10**__ - 3 = ?\n\n⇒ 8 __**- 110 - 3**__ = ?\n\n⇒ __**8 - 113**__ = **-105**.\n\nHence, the correct option is \"Option 4\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/a45b5b9191c13cd4da310eb8df100becb078c240f4b0e763420ec154fb42a5fd.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "690c72f78509c0dc90b79405",
+      "n": 12,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 3 → 12, 4 → 20, then 5 → ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25"
+        },
+        {
+          "label": "2",
+          "text": "30"
+        },
+        {
+          "label": "3",
+          "text": "28"
+        },
+        {
+          "label": "4",
+          "text": "32"
+        }
+      ],
+      "correct": "2",
+      "solution": "The logic followed here is:\n\nLogic: Number × (Number + 1) = Result\n\nGiven:\n\n3 → 12\n\n3 × (3 + 1) = 3 × 4 = 12\n\n4 → 20\n\n4 × (4 + 1) = 4 × 5 = 20\n\nNow,\n\n5 → ?\n\n5 × (5 + 1) = 5 × 6 = 30\n\nHence, the correct answer is **Option 2**.",
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "69a07b8cbcfc7f039ecf1714",
+      "n": 13,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Select the option that is related to the fifth letter-number cluster in the same way as the second letter-number cluster is related to the first letter-number cluster and fourth letter-number cluster is related to third letter-number cluster.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)\n\nSB760 : PY530 :: AR1040 : XO810 :: FK840 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "CG590"
+        },
+        {
+          "label": "2",
+          "text": "CH590"
+        },
+        {
+          "label": "3",
+          "text": "CH610"
+        },
+        {
+          "label": "4",
+          "text": "BG630"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/dbafe0fc3750a7a95b8b1663c20fa85e811edecfeb6de4a01ac586263213e111.png] \n\nSB760 : PY530 →\n\n [IMAGE: https://cdn.repeatermock.com/tb/36613ca6d9ff7b3546cfe17baa0ffb603befb6b54caeee91a9f58cc970cfc40c.png] \n\nAR1040 : XO810 →\n\n<img alt=\"\" src=\"https://cdn.repeatermock.com/tb/25370d8c24df5458b4ecee61e604e373b70",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/dbafe0fc3750a7a95b8b1663c20fa85e811edecfeb6de4a01ac586263213e111.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/36613ca6d9ff7b3546cfe17baa0ffb603befb6b54caeee91a9f58cc970cfc40c.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "6996e06d79a8a56c7f06bb45",
+      "n": 14,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find out the next term of the Letter cluster.\n\nBFG, DHI, FJK, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "HKL"
+        },
+        {
+          "label": "2",
+          "text": "HML"
+        },
+        {
+          "label": "3",
+          "text": "HLM"
+        },
+        {
+          "label": "4",
+          "text": "LKM"
+        }
+      ],
+      "correct": "3",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/7a6c1b703839665531bdb563757a69596253472c8767fec6930d8c04ec6c17a5.png] \n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/f40cd92cff64243d9e07ca88090739686aa85c40bc97f5d6d49e285c5f5706f5.png] \n\nSo, 'HLM' will replace the question mark in the given series.\n\nHence, the correct answer is \"Option 3\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7a6c1b703839665531bdb563757a69596253472c8767fec6930d8c04ec6c17a5.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f40cd92cff64243d9e07ca88090739686aa85c40bc97f5d6d49e285c5f5706f5.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "69ca10d638780db3382381ac",
+      "n": 15,
+      "type": "mcq",
+      "concept": "Analogy",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "In the following question, select the number/symbol that will replace the question mark (?) to complete the analogy: 3 : 30 :: 4 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "64"
+        },
+        {
+          "label": "2",
+          "text": "66"
+        },
+        {
+          "label": "3",
+          "text": "70"
+        },
+        {
+          "label": "4",
+          "text": "68"
+        }
+      ],
+      "correct": "4",
+      "solution": "The pattern observed is: (Number)3 + Number = Second Number.\n\n**3 : 30 →**\n\n3³ + 3 = 27 + 3 = 30\n\nSimilarly,\n\nlet's find the missing number for 4 : ? →\n\n4³ + 4 = 64 + 4 = 68\n\nHence, the correct answer is “**Option 4**”.",
+      "tags": [
+        "Analogy"
+      ]
+    },
+    {
+      "qid": "699e9a0aea36e3dda9732760",
+      "n": 16,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If 163 $ 448 ; 16 = 135 and 857 $ 260 ; 20 = 844, then what is the value of 686 $ 476 ; 17?",
+      "options": [
+        {
+          "label": "1",
+          "text": "654"
+        },
+        {
+          "label": "2",
+          "text": "664"
+        },
+        {
+          "label": "3",
+          "text": "660"
+        },
+        {
+          "label": "4",
+          "text": "658"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed for the second image is:\n\n**Logic:** (First number + (Second number ÷ Third number)) = Resulting number\n\nCase 1: 163 $ 448 ; 16\n\n→ 163 - (448 ÷ 16)\n\n<p dir=\"",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "69cb5e1ae323565f639aa5c5",
+      "n": 17,
+      "type": "mcq",
+      "concept": "Coding-Decoding",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If \"DELHI\" is written as \"IHLED\", how will \"MUMBAI\" be written?",
+      "options": [
+        {
+          "label": "1",
+          "text": "IABMUM"
+        },
+        {
+          "label": "2",
+          "text": "IAMBUM"
+        },
+        {
+          "label": "3",
+          "text": "IAMUBM"
+        },
+        {
+          "label": "4",
+          "text": "IAMUMB"
+        }
+      ],
+      "correct": "1",
+      "solution": "DELHI is coded as IHLED →\n\n [IMAGE: https://cdn.repeatermock.com/tb/6856a43b332eba336246f1640213194deedf7c38632b27ab70e5b9a7189166d5.png] \n\nSimilarly, let's find the code for MUMBAI:\n\n [IMAGE: https://cdn.repeatermock.com/tb/ed861b0a07fc0f58a53387c4fa5c6595a36ac717dd58139dcc8eaab58cfa1981.png] \n\nHence, the correct answer is “**Option 1**”.",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/6856a43b332eba336246f1640213194deedf7c38632b27ab70e5b9a7189166d5.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/ed861b0a07fc0f58a53387c4fa5c6595a36ac717dd58139dcc8eaab58cfa1981.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Coding Decoding"
+      ]
+    },
+    {
+      "qid": "69bcf2f6034ed083c32423f4",
+      "n": 18,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "A series is given with one term wrong. Select that wrong term from the given alternatives.\n\nBFY253, GLU255, LRQ257, QXM259, VDI261, ZID265",
+      "options": [
+        {
+          "label": "1",
+          "text": "GLU255"
+        },
+        {
+          "label": "2",
+          "text": "QXM259"
+        },
+        {
+          "label": "3",
+          "text": "ZID265"
+        },
+        {
+          "label": "4",
+          "text": "BFY253"
+        }
+      ],
+      "correct": "3",
+      "solution": "The position and positional values or English Alphabets are:\n\n [IMAGE: https://cdn.repeatermock.com/tb/b236f0e2e40bb837e1e3ab2189de3e56fdbbb13c2a1f29a89fb6fa73024589ad.png] \n\n**Given:** BFY253, GLU255, LRQ257, QXM259, VDI261, ZID265\n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/09f9f2c00bfe7bf34ee1add4201f214726ff36e84e500a42dad674ddaab4e4ce.png] \n\nThus, ZID265 is the wrong term from the given alternatives.\n\nHence, the correct answer is \"**Option 3**\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/b236f0e2e40bb837e1e3ab2189de3e56fdbbb13c2a1f29a89fb6fa73024589ad.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/09f9f2c00bfe7bf34ee1add4201f214726ff36e84e500a42dad674ddaab4e4ce.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    },
+    {
+      "qid": "693c10cc5bc658233b0c6e4c",
+      "n": 19,
+      "type": "mcq",
+      "concept": "Blood Relations",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Anita's daughter's son's sister's mother's husband is Vikram. How is Vikram related to Anita?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Son-in-law"
+        },
+        {
+          "label": "2",
+          "text": "Husband"
+        },
+        {
+          "label": "3",
+          "text": "Brother"
+        },
+        {
+          "label": "4",
+          "text": "Father"
+        }
+      ],
+      "correct": "1",
+      "solution": "Family Chart:\n\n [IMAGE: https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png] \n\nGiven: Anita's daughter's son's sister's mother's husband is Vik",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47a89a5bb9daa01f32d67cf5151f1acc95989e845ae3c3eb86353e0d1da9cbdc.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Blood Relations"
+      ]
+    },
+    {
+      "qid": "690b2b4ae256d2aae846bf64",
+      "n": 20,
+      "type": "mcq",
+      "concept": "Statements and Conclusions",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Consider the following statement and choose the option that follows.\n\nStatement: The bank has introduced a rewards program for debit card users.\n\nConclusions:\n\nI. More customers will start using debit cards.\n\nII. Credit card usage may decline.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I follows"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Both follows"
+        },
+        {
+          "label": "4",
+          "text": "Neither follows"
+        }
+      ],
+      "correct": "1",
+      "solution": "**Given:**\n\n**Statement**: The bank has introduced a rewards program for debit card users.\n\n**Conclusions:**\n\nI. More customers will start using debit cards - **True** (Because introducing a rewards program is intended to encourage or attract customers to use debit cards. Hence, this is a reasonable conclusion.)\n\nII. Credit card usage may decline - **False** (Because the statement provides no information about credit card usage. A rewards program for debit cards does not necessarily imply a decline in credit card usage.)\n\nSo, only Conclusion I follows.\n\nHence, the correct answer is \"**Option 1**\".",
+      "tags": [
+        "Statements and Conclusions"
+      ]
+    },
+    {
+      "qid": "690c77c38a8fd3d29e3c02e8",
+      "n": 21,
+      "type": "mcq",
+      "concept": "Similarity and Differences",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Choose the address that is the same as the one given below.\n\nFlat No. 101, Maple Residency,Koregaon Park, Pune,Maharashtra - 411001",
+      "options": [
+        {
+          "label": "1",
+          "text": "Flat No. 101, Maple Residency, Koregaon Park, Pune, Maharashtra - 411002"
+        },
+        {
+          "label": "2",
+          "text": "Flat No. 101, Maple Residency, Koregaon Park, Pune, Maharashtra - 411001"
+        },
+        {
+          "label": "3",
+          "text": "Flat No. 101, Maple Residency, Koregaon Park, Pune, Maharashtra - 411011"
+        },
+        {
+          "label": "4",
+          "text": "Flat No. 101, Maple Residency, Koregaon Park, Pune, Maharashtra - 410001"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given Address:**\n\nFlat No. 101, Maple Residency, Koregaon Park, Pune, Maharashtra - 411001\n\n**Checking each option:**\n\n1) Flat No. 101, Maple Residency, Koregaon Park, Pune, Maharashtra - 411002 (Incorrect PIN Code)\n\n**2) Flat No. 101, Maple Residency, Koregaon Park, Pune, Maharashtra - 411001 (Exact Match)**\n\n3) Flat No. 101, Maple Residency, Koregaon Park, Pune, Maharashtra - 411011 (Incorrect PIN Code)\n\n4) Flat No. 101, Maple Residency, Koregaon Park, Pune, Maharashtra - 410001 (Incorrect PIN Code)\n\nHence, the correct option is **\"Option 2\"**.",
+      "tags": [
+        "Similarity and Differences"
+      ]
+    },
+    {
+      "qid": "69cd0195edf7bf73cdbdffb6",
+      "n": 22,
+      "type": "mcq",
+      "concept": "Classification",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Find the word that does not match the others.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mango"
+        },
+        {
+          "label": "2",
+          "text": "Orange"
+        },
+        {
+          "label": "3",
+          "text": "Guava"
+        },
+        {
+          "label": "4",
+          "text": "Cucumber"
+        }
+      ],
+      "correct": "4",
+      "solution": "The logic followed here is:\n\n1. Mango → It is a fruit.\n\n2. Orange → It is a fruit.\n\n3. Guava → It is a fruit.\n\n4. Cucumber → It is not a fruit, it is a vegetable.\n\nAll options except \"Cucumber\" are fruits, while Cucumber is a vegetable.\n\nThus, Cucumber is the odd one out.\n\nHence, the correct answer is **\"Option 4\"**.",
+      "tags": [
+        "Classification"
+      ]
+    },
+    {
+      "qid": "6909d833b7a1ac7c4e944949",
+      "n": 23,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "If x+2y=14 and x-y=5, find x.",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct": "3",
+      "solution": "Given:\n\nx + 2y = 14\nx − y = 5\n\nCalculations:\n\nFrom the second equation:\nx = 5 + y\n\nSubstitute into the first equation:\n5 + y + 2y = 14\n\n5 + 3y = 14\n\n3y = 9\n\ny = 3\n\nNow substitute back:\nx = 5 + 3\nx = 8\n\n∴ The correct answer is 'Option 3.'",
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "69ccec0f1c9de4be6d8f3a7f",
+      "n": 24,
+      "type": "mcq",
+      "concept": "Puzzle",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Some of mathematical operations are given below choose the expression which is mathematically correct.\n\nIf A = 42, B = 63, and C = 84, what is the value of ((A + B) × C) mod 97?",
+      "options": [
+        {
+          "label": "1",
+          "text": "50"
+        },
+        {
+          "label": "2",
+          "text": "90"
+        },
+        {
+          "label": "3",
+          "text": "27"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "correct": "2",
+      "solution": "BODMAS Table: \n\n [IMAGE: https://cdn.repeatermock.com/tb/7751840ca1840d12cadc428f84d30e2cdcd5e7f82d52a57de21f2404c58eed88.png] \n\nGiven equation: ((A + B) × C) mod 97\n\nNow, if A = 42, B = 63, and C = 84, then:\n\n⇒ (42 + 63) × 84 mod 97\n\n⇒ 105 × 84 mod 97\n\n⇒ 8820 mod 97\n\nNow, divide 8820 by 97:\n\n⇒ 97 × 90 = 8730\n\n⇒ 8820 − 8730 = 90\n\nHence, the correct answer is **\"Option 2\".**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/7751840ca1840d12cadc428f84d30e2cdcd5e7f82d52a57de21f2404c58eed88.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Puzzle"
+      ]
+    },
+    {
+      "qid": "699c40aa5f4c070c4f65b1b0",
+      "n": 25,
+      "type": "mcq",
+      "concept": "Series",
+      "confidence": "high",
+      "marks_pos": 2.0,
+      "marks_neg": 0.5,
+      "question": "Few of the letters are given followed by a question mark (?) these letters are following a specific pattern you have to give the correct option which can replace question mark.\n\nComplete the sequence: M, O, Q, S, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "U"
+        },
+        {
+          "label": "2",
+          "text": "V"
+        },
+        {
+          "label": "3",
+          "text": "W"
+        },
+        {
+          "label": "4",
+          "text": "X"
+        }
+      ],
+      "correct": "1",
+      "solution": "The position and positional values or English Alphabets are:\n\n [IMAGE: https://cdn.repeatermock.com/tb/d88506added2d32d98c63eb239e416f53d4ea3144c05babc5e3d0011fd4cb4a3.png] \n\n**Given:** M, O, Q, S, ?\n\nThe logic followed here is:\n\n [IMAGE: https://cdn.repeatermock.com/tb/48bbea87fe37e331e65edd06c8347682fa0c9ebe4f4e716c4c539fc30d86a90d.png] \n\nThus, U will complete the sequence.\n\nHence, the correct answer is \"**Option 1**\".",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/d88506added2d32d98c63eb239e416f53d4ea3144c05babc5e3d0011fd4cb4a3.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/48bbea87fe37e331e65edd06c8347682fa0c9ebe4f4e716c4c539fc30d86a90d.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Series"
+      ]
+    }
+  ]
+}

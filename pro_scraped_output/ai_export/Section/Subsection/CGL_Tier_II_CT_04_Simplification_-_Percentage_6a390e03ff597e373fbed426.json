@@ -1,0 +1,369 @@
+{
+  "test_id": "6a390e03ff597e373fbed426",
+  "title": "CGL Tier II CT 04: Simplification - Percentage",
+  "series_slug": "ssc-cgl",
+  "series_name": "SSC CGL Mock Test Series 2026 (Tier I & Tier II)",
+  "section": "Section",
+  "subsection": "Subsection",
+  "subject": "maths",
+  "duration_min": 0,
+  "max_marks": 30.0,
+  "question_count": 10,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "scraped_at": "2026-09-06T09:00:56.477169+00:00",
+  "questions": [
+    {
+      "qid": "6266d09a777975b9a2bba6f8",
+      "n": 1,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If 200% of k - (k + 2)% of 50 = k, then what is the value of k?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(2)/(3)"
+        },
+        {
+          "label": "2",
+          "text": "(100)/(149)"
+        },
+        {
+          "label": "3",
+          "text": "2"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n200% of k - (k + 2)% of 50 = k\n\n**Formula used:**\n\nA% of B = (A/100) × B\n\n**Calculation:**\n\n⇒ 200% of k - (k + 2)% of 50 = k\n\n⇒ (200/100) × k - (k + 2)/100 × 50 = k\n\n⇒ 2k - 0.5(k + 2) = k\n\n⇒ 2k - 0.5k - 1 = k\n\n⇒ 1.5k - 1 = k\n\n⇒ 1.5k - k = 1\n\n⇒ 0.5k = 1\n\n⇒ k = 1/0.5 = 2",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "6543cf184749f3c5eb492783",
+      "n": 2,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "33.33% of 7056 – {(63 × 2) /√196} – 15% of (80/3) = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2329"
+        },
+        {
+          "label": "2",
+          "text": "2340"
+        },
+        {
+          "label": "3",
+          "text": "2338"
+        },
+        {
+          "label": "4",
+          "text": "2339"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Calculation:**\n\n33.33% of 7056 – {(63 × 2) /sqrt{196}} – 15% of (80/3) \n\n⇒ (1)/(3) × 7056 - (126)/(14) - (15 ÷ 100)(80 ÷ 3)\n\n⇒ (1)/(3) × 7056 - (126)/(14) - (15 ÷ 100)(80 ÷ 3)\n\n⇒ 2352 - 9 - 4\n\n⇒ 2352 - 13 = 2339\n\n**∴ The correct answer is 2339.**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "62e1834222bcca28f1931d11",
+      "n": 3,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "88% of 370 + 24% of 210 - ? = 118",
+      "options": [
+        {
+          "label": "1",
+          "text": "256"
+        },
+        {
+          "label": "2",
+          "text": "258"
+        },
+        {
+          "label": "3",
+          "text": "268"
+        },
+        {
+          "label": "4",
+          "text": "358"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n88% of 370 + 24% of 210 - ? = 118\n\n**Formula used:**\n\nx% of y = (x times y)/(100)\n\n**Calculations:**\n\n88% of 370 + 24% of 210 - x = 118\n\n⇒ (88 times 370)/(100) + (24 times 210)/(100) - x = 118\n\n⇒ 325.6 + 50.4 - x = 118\n\n⇒ 376 - x = 118\n\n⇒ x = 376 - 118\n\n⇒ x = 258\n\n**∴ The correct answer is option (2).**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "629e5508b98c50c2d682f729",
+      "n": 4,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "Simplify: 11(1)/(9)% of 9(1)/(11)% of 7(1)/(7)% of 6(1)/(4)% of 11088.",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.677"
+        },
+        {
+          "label": "2",
+          "text": "0.500"
+        },
+        {
+          "label": "3",
+          "text": "0.125"
+        },
+        {
+          "label": "4",
+          "text": "0.333"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n11(1)/(9)% of 9(1)/(11)% of 7(1)/(7)% of 6(1)/(4)% of 11088\n\n**Concept used:**\n\nSome conversions:\n\n11(1)/(9)% = <span class=\"math-tex\"&",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "64007c6cf01804b713fddea1",
+      "n": 5,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What value will come in place of question mark (?) in the following question?\n\n104% of 200 + 46% of 350 + 64% of 550 - 56% of 650 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "389"
+        },
+        {
+          "label": "2",
+          "text": "343"
+        },
+        {
+          "label": "3",
+          "text": "357"
+        },
+        {
+          "label": "4",
+          "text": "364"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Given:**\n\n104% of 200 + 46% of 350 + 64% of 550 - 56% of 650 = ?\n\n**Concept used:**\n\nFollow the BODMAS rule according to the table given below:\n\n [IMAGE: https://cdn.repeatermock.com/tb/47485e25d1b30c57dc271863db8b99be0c8e209069b2596cc885911d898a8a78.png] \n\n**Calculation:**\n\n104% of 200 + 46% of 350 + 64% of 550 - 56% of 650 = ?\n\nLet the unknown number be x.\n\n104% of 200 + 46% of 350 + 64% of 550 - 56% of 650 = x\n\n⇒ dfrac{104}{100} × 200 + dfrac{46}{100} × 350 + dfrac{64}{100} × 550 - dfrac{56}{100} × 650 = x\n\n⇒ 208 + 161 + 352 - 364 = ?\n\n⇒ x = 721 - 364 = 357\n\n**∴ 104% of 200 + 46% of 350 + 64% of 550 - 56% of 650 = 357.**",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/47485e25d1b30c57dc271863db8b99be0c8e209069b2596cc885911d898a8a78.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "648dbd226ffcbeda4cb91c8a",
+      "n": 6,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If two-third of a number is 84, then what is 45% of the number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25.2"
+        },
+        {
+          "label": "2",
+          "text": "56.7"
+        },
+        {
+          "label": "3",
+          "text": "61.5"
+        },
+        {
+          "label": "4",
+          "text": "65.7"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Calculation:**\n\nLet's assume that the number is k\n\nAccording to the question,\n\n⇒ (2)/(3)k = 84\n\n⇒ k = 84 × (3)/(2) = 126\n\nThen 45% of 126 is = 126 × 45/100 = 56.7\n\n**∴ The correct answer is 56.7**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "64a270535574627072c5a0b7",
+      "n": 7,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "225 percent of 80 percent of 80 = ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "156"
+        },
+        {
+          "label": "2",
+          "text": "132"
+        },
+        {
+          "label": "3",
+          "text": "144"
+        },
+        {
+          "label": "4",
+          "text": "138"
+        }
+      ],
+      "correct": "3",
+      "solution": "**Calculation:**\n\n225 / 100 × 80 /100 × 80 \n\n⇒ (225 × 8 × 8) / 100\n\n⇒ (225 × 64) / 100\n\n⇒ 9 × 16 = 144\n\n**∴ The correct option is 3.**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "62a83a3866071e3326280c34",
+      "n": 8,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "If 20% of 30% of the 3600 = 10% of x, then what is the value of x?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2500"
+        },
+        {
+          "label": "2",
+          "text": "2160"
+        },
+        {
+          "label": "3",
+          "text": "2450"
+        },
+        {
+          "label": "4",
+          "text": "2675"
+        }
+      ],
+      "correct": "2",
+      "solution": "**Given:**\n\n20% of 30% of the 3600 = 10% of x\n\n**Formula used:**\n\nx% of y\n\n= (x / 100) × y\n\n**Calculation:**\n\nSolving using above formula,\n\n20% of 30% of the 3600 = 10% of x\n\ndfrac{20}{100} times dfrac{30}{100} times 3600 = dfrac{10}{100} times x\n\n216 = x / 10\n\nx = 216 × 10\n\nx = 2160\n\n**∴ The value of x is 2160.**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "64a180ccc86304b977e50f0d",
+      "n": 9,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "What is the value of 32 percent of 75 percent of 7800?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1952"
+        },
+        {
+          "label": "2",
+          "text": "1850"
+        },
+        {
+          "label": "3",
+          "text": "2042"
+        },
+        {
+          "label": "4",
+          "text": "1872"
+        }
+      ],
+      "correct": "4",
+      "solution": "**Given:**\n\nThe number is = 7800\n\n**Concept:**\n\nX\\%={Xover100}\n\n**Calculation:**\n\nAccording to the question\n\n⇒ 32% of 75% of 7800\n\n⇒ {32over100} times {75over100}times 7800\n\n⇒ {32over4}times 3times 78=8times 3times 78=24times 78=1872\n\n**∴ The required result will be 1872.**",
+      "tags": [
+        "Percentage"
+      ]
+    },
+    {
+      "qid": "65095dc817168d8f35a56f4e",
+      "n": 10,
+      "type": "mcq",
+      "concept": "Percentage",
+      "confidence": "high",
+      "marks_pos": 3.0,
+      "marks_neg": 1.0,
+      "question": "A number decreased by (75)/(2)\\% gives 378. What is the number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "606.4"
+        },
+        {
+          "label": "2",
+          "text": "608.0"
+        },
+        {
+          "label": "3",
+          "text": "603.2"
+        },
+        {
+          "label": "4",
+          "text": "604.8"
+        }
+      ],
+      "correct": "4",
+      "solution": "[IMAGE: https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png] __Shortcut Trick__\n\nFraction value of 37.5% (75/2%) = 3/8.\n\nThis means a decrease of 3 units on the original 8 units.\n\nRemaining value = 8 − 3 = 5 units.\n\nGiven 5 units → 378\n\nOriginal 8 units → (378 ÷ 5) × 8 = 75.6 × 8 = 604.8.\n\n**∴ The correct answer is 604.8.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png] **__Alternate Method__**\n\n**Given:**\n\nA number decreased by 75/2% gives 378.\n\n**Formula Used:**\n\nFinal Value = Original Value × (1 − Decrease%)\n\n \n \n \n \n• \n \n \n Result = 62.5% (5/8)\n − 37.5% (3/8)\n\n \n \n\n Value = 378\n \n \n\n Original Number = 100% (8/8)\n\n**Calculations:**\n\n⇒ Let the required number be x.\n\n⇒ Decrease % = 75/2% = 37.5%\n\n⇒ Final value = x − (37.5% of x)\n\n⇒ x × (100 − 37.5) ÷ 100 = 378\n\n⇒ x × (62.5 ÷ 100) = 378\n\n⇒ x × (625 ÷ 1000) = 378\n\n⇒ x × (5/8) = 378\n\n⇒ x = 378 × (8/5)\n\n⇒ x = 75.6 × 8\n\n⇒ x = 604.8\n\n**∴ The correct answer is 604.8.**\n\n [IMAGE: https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png] **__Additional Information__**\n\nPercentage to Fraction Conversion\n\nConverting standard percentages to fractions significantly reduces calculation steps. For example, 12.5% = 1/8, 37.5% = 3/8, and 62.5% = 5/8.\n\nPercentage Decrease Rule\n\nWhen a given value decreases by R%, the Final Value can be directly calculated as Original Value × (1 − R/100).\n</p",
+      "solution_images": [
+        {
+          "url": "https://cdn.repeatermock.com/tb/ca81259519cadfb2d5350673c220e419e60378e9770ad26512fc8e826a8d93f1.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/c76c13ba2d2ab46b47f8a931ae621dac081a0cb266b142dc23f58659fac4a466.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.repeatermock.com/tb/f13e2ad6582c16aa62a83672e2547ad20a01fddb61962a1acce42eb9a1a99caa.png",
+          "alt": ""
+        }
+      ],
+      "tags": [
+        "Percentage"
+      ]
+    }
+  ]
+}
